@@ -918,6 +918,303 @@
           "ProcessedInPartOne": true
         }
       ]
+    },
+    {
+      "Filename": "ascendance-of-a-bookworm-part-2-volume-1.epub",
+      "InternalName": "LN0201",
+      "ProcessedInPartTwo": true,
+      "Chapters": [
+        {
+          "OriginalFilenames": [ "bonus2", "bonus1" ],
+          "SortOrder": "0201",
+          "ChapterName": "Volume 1",
+          "FlatSubfolder": "01-Inserts",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\01-Inserts",
+          "YearsSubfolder": "01-Inserts",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "prologue" ],
+          "SortOrder": "020100",
+          "ChapterName": "Prologue [Ferdinand]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\01-Summer",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0201-Volume 1",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter01", "insert1", "chapter01_1" ],
+          "SortOrder": "020101",
+          "ChapterName": "Attendants and the Fealty Ceremony",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\01-Summer",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0201-Volume 1",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter02" ],
+          "SortOrder": "020102",
+          "ChapterName": "A Shrine Maiden's Job",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\01-Summer",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0201-Volume 1",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter03" ],
+          "SortOrder": "020103",
+          "ChapterName": "Not Like the Other Blue Robes",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\01-Summer",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0201-Volume 1",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter04" ],
+          "SortOrder": "020104",
+          "ChapterName": "Benno's Meeting With the High Priest",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\01-Summer",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0201-Volume 1",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter05", "insert2", "chapter05_1" ],
+          "SortOrder": "020105",
+          "ChapterName": "The Meeting Begins",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\01-Summer",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0201-Volume 1",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter06" ],
+          "SortOrder": "020106a",
+          "ChapterName": "Buying Secondhand Clothes",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\01-Summer",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0201-Volume 1",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "extra1" ],
+          "SortOrder": "020106b",
+          "ChapterName": "A Place Still Far From Here [Tuuli]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\01-Summer",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0201-Volume 1",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter07", "insert3", "chapter07_1" ],
+          "SortOrder": "020107",
+          "ChapterName": "The Animosity of Lutz and Gil",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\01-Summer",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0201-Volume 1",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter08" ],
+          "SortOrder": "020108",
+          "ChapterName": "What They Deserve",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\01-Summer",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0201-Volume 1",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter09" ],
+          "SortOrder": "020109",
+          "ChapterName": "First Time Outside",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\01-Summer",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0201-Volume 1",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter10", "insert4", "chapter10_1" ],
+          "SortOrder": "020110",
+          "ChapterName": "Training the Chefs",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\01-Summer",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0201-Volume 1",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter11" ],
+          "SortOrder": "020111",
+          "ChapterName": "Delia's Job",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\01-Summer",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0201-Volume 1",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter12" ],
+          "SortOrder": "020112",
+          "ChapterName": "The Reality of the Orphanage",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\01-Summer",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0201-Volume 1",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter13" ],
+          "SortOrder": "020113",
+          "ChapterName": "Discussion With the High Priest and My Resolve",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\01-Summer",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0201-Volume 1",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter14", "insert5", "chapter14_1" ],
+          "SortOrder": "020114",
+          "ChapterName": "Secret Talk With the High Priest",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\01-Summer",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0201-Volume 1",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter15" ],
+          "SortOrder": "020115",
+          "ChapterName": "Cleaning Up the Orphanage",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\01-Summer",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0201-Volume 1",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter16", "insert6", "chapter16_1" ],
+          "SortOrder": "020116a",
+          "ChapterName": "Ideas for New Products",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\01-Summer",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0201-Volume 1",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "extra2" ],
+          "SortOrder": "020116b",
+          "ChapterName": "An Attendant's Self-Awareness [Gil]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\01-Summer",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0201-Volume 1",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter17" ],
+          "SortOrder": "020117",
+          "ChapterName": "Diptychs and Cards",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\01-Summer",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0201-Volume 1",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter18" ],
+          "SortOrder": "020118",
+          "ChapterName": "Preparing for the Star Festival",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\01-Summer",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0201-Volume 1",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter19", "insert7", "chapter19_1" ],
+          "SortOrder": "020119",
+          "ChapterName": "The Star Festival",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\01-Summer",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0201-Volume 1",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter20" ],
+          "SortOrder": "020120",
+          "ChapterName": "After the Festival",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\01-Summer",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0201-Volume 1",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter21" ],
+          "SortOrder": "020121",
+          "ChapterName": "Lutz's Path Through Life",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\01-Summer",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0201-Volume 1",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter22", "insert8", "chapter22_1" ],
+          "SortOrder": "020122",
+          "ChapterName": "Lutz Running Away From Home",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\01-Summer",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0201-Volume 1",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter23" ],
+          "SortOrder": "020123",
+          "ChapterName": "The High Priest's Letter of Invitation",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\01-Summer",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0201-Volume 1",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter24", "insert9", "chapter24_1" ],
+          "SortOrder": "020124",
+          "ChapterName": "Family Meeting at the Temple",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\01-Summer",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0201-Volume 1",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "epilogue" ],
+          "SortOrder": "020125",
+          "ChapterName": "Epilogue [Deid]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\01-Summer",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0201-Volume 1",
+          "ProcessedInPartTwo": true
+        }
+      ]
     }
   ]
 }
