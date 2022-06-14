@@ -1,0 +1,834 @@
+{
+  "Volumes": [
+    {
+      "Filename": "ascendance-of-a-bookworm.epub",
+      "InternalName": "LN0101",
+      "ProcessedInPartOne": true,
+      "Chapters": [
+        {
+          "OriginalFilenames": [ "prologue" ],
+          "SortOrder": "010100a",
+          "ChapterName": "Prologue [Urano]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1200-1200",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "extra2" ],
+          "SortOrder": "010100b",
+          "ChapterName": "Unchanging Daily Life [Shuu]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1200-1200",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter01" ],
+          "SortOrder": "010101",
+          "ChapterName": "A New Life",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1205-1205\\2-Autumn 1205",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter02", "insert1", "chapter021" ],
+          "SortOrder": "010102",
+          "ChapterName": "Exploring My Home",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1205-1205\\2-Autumn 1205",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter03" ],
+          "SortOrder": "010103",
+          "ChapterName": "Exploring the City",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1205-1205\\2-Autumn 1205",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter04" ],
+          "SortOrder": "010104",
+          "ChapterName": "Books - Unobtainable",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1205-1205\\2-Autumn 1205",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter05" ],
+          "SortOrder": "010105",
+          "ChapterName": "Lifestyle Overhaul",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1205-1205\\2-Autumn 1205",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter06" ],
+          "SortOrder": "010106",
+          "ChapterName": "Neighborhood Boys",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1205-1205\\2-Autumn 1205",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter07", "insert2", "chapter071" ],
+          "SortOrder": "010107",
+          "ChapterName": "Paper - Unobtainable",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1205-1205\\2-Autumn 1205",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter08" ],
+          "SortOrder": "010108",
+          "ChapterName": "Learning to Respect Egyptian Culture",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1205-1205\\2-Autumn 1205",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter09" ],
+          "SortOrder": "010109",
+          "ChapterName": "Winter Preparations",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1205-1205\\2-Autumn 1205",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter10", "insert3", "chapter101" ],
+          "SortOrder": "010110",
+          "ChapterName": "Stone Slate Get!",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1205-1205\\2-Autumn 1205",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter11" ],
+          "SortOrder": "010111",
+          "ChapterName": "Beaten by Ancient Egyptians",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1205-1205\\3-Winter 1205",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter12", "insert4", "chapter121" ],
+          "SortOrder": "010112",
+          "ChapterName": "The Sweet Taste of Winter",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1205-1205\\3-Winter 1205",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter13" ],
+          "SortOrder": "010113",
+          "ChapterName": "Helping Out Otto",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1205-1205\\3-Winter 1205",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter14", "insert5", "chapter141" ],
+          "SortOrder": "010114",
+          "ChapterName": "Tuuli's Hair Ornament",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1205-1205\\3-Winter 1205",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter15" ],
+          "SortOrder": "010115",
+          "ChapterName": "Bring Me to The Forest",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1205-1205\\4-Spring 1205",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter16", "insert6", "chapter161" ],
+          "SortOrder": "010116",
+          "ChapterName": "Long Live Mesopotamian Culture",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1205-1205\\4-Spring 1205",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter17" ],
+          "SortOrder": "010117",
+          "ChapterName": "Clay Tablets Won't Work",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1205-1205\\4-Spring 1205",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter18" ],
+          "SortOrder": "010118",
+          "ChapterName": "Tuuli's Baptism",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1206-1206\\1-Summer 1206",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter19", "insert7", "chapter191" ],
+          "SortOrder": "010119",
+          "ChapterName": "I Love You, Yellow River Culture",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1206-1206\\1-Summer 1206",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter20" ],
+          "SortOrder": "010120",
+          "ChapterName": "I Want Ink",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1206-1206\\1-Summer 1206",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter21" ],
+          "SortOrder": "010121",
+          "ChapterName": "Intense Battle with Food",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1206-1206\\1-Summer 1206",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter22" ],
+          "SortOrder": "010122a",
+          "ChapterName": "Mokkan and A Mysterious Fever",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1206-1206\\1-Summer 1206",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "extra1" ],
+          "SortOrder": "010122b",
+          "ChapterName": "A Day Without Myne [Lutz]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1206-1206\\1-Summer 1206",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter23" ],
+          "SortOrder": "010123",
+          "ChapterName": "The Road to a Meeting",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1206-1206\\1-Summer 1206",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter24", "insert8", "chapter241" ],
+          "SortOrder": "010124",
+          "ChapterName": "Meeting with the Merchant",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1206-1206\\1-Summer 1206",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "epilogue", "insert9", "epilogue1" ],
+          "SortOrder": "010125",
+          "ChapterName": "Epilogue [Otto]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1206-1206\\1-Summer 1206",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "bonus2", "bonus1" ],
+          "SortOrder": "0101",
+          "ChapterName": "Volume 1",
+          "FlatSubfolder": "01-Inserts",
+          "PartsSubfolder": "01-Daughter of a Soldier\\01-Inserts",
+          "YearsSubfolder": "01-Inserts",
+          "ProcessedInPartOne": true
+        }
+      ]
+    },
+    {
+      "Filename": "ascendance-of-a-bookworm-volume-2.epub",
+      "InternalName": "LN0102",
+      "ProcessedInPartOne": true,
+      "Chapters": [
+        {
+          "OriginalFilenames": [ "bonus2", "bonus1" ],
+          "SortOrder": "0102",
+          "ChapterName": "Volume 2",
+          "FlatSubfolder": "01-Inserts",
+          "PartsSubfolder": "01-Daughter of a Soldier\\01-Inserts",
+          "YearsSubfolder": "01-Inserts",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "prologue" ],
+          "SortOrder": "010200",
+          "ChapterName": "Prologue [Effa]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1206-1206\\1-Summer",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter01", "insert1", "chapter01_1" ],
+          "SortOrder": "010201",
+          "ChapterName": "The Road to Washi",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1206-1206\\1-Summer",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter02" ],
+          "SortOrder": "010202",
+          "ChapterName": "Invitation to the Otto Residence",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1206-1206\\1-Summer",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter03" ],
+          "SortOrder": "010203",
+          "ChapterName": "Summons from Benno",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1206-1206\\1-Summer",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter04", "insert2", "chapter04_1" ],
+          "SortOrder": "010204",
+          "ChapterName": "Contract Magic",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1206-1206\\1-Summer",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter05" ],
+          "SortOrder": "010205",
+          "ChapterName": "Lutz's Most Important Job",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1206-1206\\1-Summer",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter06" ],
+          "SortOrder": "010206",
+          "ChapterName": "Ordering Tools and Materials",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1206-1206\\1-Summer",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter07" ],
+          "SortOrder": "010207",
+          "ChapterName": "Starting to Make Paper",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1206-1206\\2-Autumn",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter08", "insert3", "chapter08_1" ],
+          "SortOrder": "010208",
+          "ChapterName": "Painful Mistakes",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1206-1206\\2-Autumn",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter09", "insert4" ],
+          "SortOrder": "010209",
+          "ChapterName": "Lutz's Myne",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1206-1206\\2-Autumn",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter10" ],
+          "SortOrder": "010210",
+          "ChapterName": "Completed Paper",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1206-1206\\2-Autumn",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter11" ],
+          "SortOrder": "010211",
+          "ChapterName": "The Merchants' Guild",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1206-1206\\2-Autumn",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter12", "insert5", "chapter12_1" ],
+          "SortOrder": "010212",
+          "ChapterName": "The Guildmaster and the Hair Ornament",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1206-1206\\2-Autumn",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter13" ],
+          "SortOrder": "010213",
+          "ChapterName": "The Guildmaster's Granddaughter",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1206-1206\\2-Autumn",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter14" ],
+          "SortOrder": "010214",
+          "ChapterName": "Freida's Hair Ornaments",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1206-1206\\2-Autumn",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter15", "insert6", "chapter15_1" ],
+          "SortOrder": "010215",
+          "ChapterName": "Delivering the Hair Ornaments",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1206-1206\\2-Autumn",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter16", "insert7" ],
+          "SortOrder": "010216",
+          "ChapterName": "Winter Handiwork",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1206-1206\\2-Autumn",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter17" ],
+          "SortOrder": "010217",
+          "ChapterName": "Lutz's Training Curriculum",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1206-1206\\2-Autumn",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter18" ],
+          "SortOrder": "010218",
+          "ChapterName": "Why It Failed and How to Fix It",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1206-1206\\2-Autumn",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter19" ],
+          "SortOrder": "010219",
+          "ChapterName": "A Trombe Appears",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1206-1206\\2-Autumn",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter20", "insert8", "chapter20_1" ],
+          "SortOrder": "010220a",
+          "ChapterName": "We Went Ahead and Made Some",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1206-1206\\2-Autumn",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "extra2" ],
+          "SortOrder": "010220b",
+          "ChapterName": "Gossiping by the Well [Effa]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1206-1206\\2-Autumn",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter21", "insert9" ],
+          "SortOrder": "010221a",
+          "ChapterName": "Myne Collapses",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1206-1206\\2-Autumn",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "extra1" ],
+          "SortOrder": "010221b",
+          "ChapterName": "Corinna's Married Life [Corinna]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1206-1206\\2-Autumn",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "epilogue" ],
+          "SortOrder": "010222",
+          "ChapterName": "Epilogue [Lutz]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1206-1206\\2-Autumn",
+          "ProcessedInPartOne": true
+        }
+      ]
+    },
+    {
+      "Filename": "ascendance-of-a-bookworm-part-1-volume-3.epub",
+      "InternalName": "LN0103",
+      "ProcessedInPartOne": true,
+      "ProcessedInPartTwo": true,
+      "ProcessedInPartThree": true,
+      "ProcessedInPartFour": true,
+      "ProcessedInPartFive": true,
+      "Chapters": [
+        {
+          "OriginalFilenames": [ "bonus2", "bonus1" ],
+          "SortOrder": "0103",
+          "ChapterName": "Volume 3",
+          "FlatSubfolder": "01-Inserts",
+          "PartsSubfolder": "01-Daughter of a Soldier\\01-Inserts",
+          "YearsSubfolder": "01-Inserts",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "frontmatter3" ],
+          "SortOrder": "01",
+          "ChapterName": "Ehrenfest City Map",
+          "FlatSubfolder": "05-Maps",
+          "PartsSubfolder": "10-Maps",
+          "YearsSubfolder": "05-Maps",
+          "ProcessedInPartOne": true,
+          "ProcessedInPartTwo": true,
+          "ProcessedInPartThree": true,
+          "ProcessedInPartFour": true,
+          "ProcessedInPartFive": true
+        },
+        {
+          "OriginalFilenames": [ "prologue" ],
+          "SortOrder": "010300",
+          "ChapterName": "Prologue [Freida]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1206-1206\\2-Autumn",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter01" ],
+          "SortOrder": "010301",
+          "ChapterName": "Discussing the Devouring with Freida",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1206-1206\\2-Autumn",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter02", "insert1", "chapter02_1" ],
+          "SortOrder": "010302",
+          "ChapterName": "Making Cake with Freida",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1206-1206\\2-Autumn",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter03" ],
+          "SortOrder": "010303",
+          "ChapterName": "Taking a Bath with Freida",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1206-1206\\2-Autumn",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter04" ],
+          "SortOrder": "010304",
+          "ChapterName": "Freida's Baptism",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1206-1206\\2-Autumn",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter05" ],
+          "SortOrder": "010305",
+          "ChapterName": "Winter Begins",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1206-1206\\3-Winter",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter06" ],
+          "SortOrder": "010306",
+          "ChapterName": "Completion of My Outfit and Hairpin",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1206-1206\\3-Winter",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter07" ],
+          "SortOrder": "010307",
+          "ChapterName": "Lutz's Tutor",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1206-1206\\3-Winter",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter08" ],
+          "SortOrder": "010308",
+          "ChapterName": "Otto's Counseling Room",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1206-1206\\3-Winter",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter09", "insert2", "chapter09_1" ],
+          "SortOrder": "010309",
+          "ChapterName": "Family Meeting",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1206-1206\\3-Winter",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter10" ],
+          "SortOrder": "010310",
+          "ChapterName": "Report to Lutz",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1206-1206\\3-Winter",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter11" ],
+          "SortOrder": "010311",
+          "ChapterName": "Back to Paper-Making",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1206-1206\\4-Spring",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter12" ],
+          "SortOrder": "010312",
+          "ChapterName": "Vested Interests",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1206-1206\\4-Spring",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter13", "insert3", "chapter13_1" ],
+          "SortOrder": "010313",
+          "ChapterName": "Result of the Meeting with the Vested Interests",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1206-1206\\4-Spring",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter14" ],
+          "SortOrder": "010314",
+          "ChapterName": "Tools and Selecting a Workshop",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1206-1206\\4-Spring",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter15" ],
+          "SortOrder": "010315",
+          "ChapterName": "Preparing for Lutz's Apprentiship",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1206-1206\\4-Spring",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter16" ],
+          "SortOrder": "010316",
+          "ChapterName": "Contract with Freida",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1206-1206\\4-Spring",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter17", "insert4", "chapter17_1" ],
+          "SortOrder": "010317",
+          "ChapterName": "To the Baptism Ceremony",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\1-Summer",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter18" ],
+          "SortOrder": "010318",
+          "ChapterName": "A Quiet Commotion",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\1-Summer",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter19" ],
+          "SortOrder": "010319",
+          "ChapterName": "Gated Paradise",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\1-Summer",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter20", "insert5", "chapter20_1" ],
+          "SortOrder": "010320",
+          "ChapterName": "Rejection and Persuasion",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\1-Summer",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter21" ],
+          "SortOrder": "010321",
+          "ChapterName": "Benno's Lecture",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\1-Summer",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter22" ],
+          "SortOrder": "010322",
+          "ChapterName": "Contract Magic and Registering the Workshop",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\1-Summer",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter23" ],
+          "SortOrder": "010323",
+          "ChapterName": "Strategy Meeting and the Temple",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\1-Summer",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "chapter24", "insert6", "chapter24_1" ],
+          "SortOrder": "010324",
+          "ChapterName": "Confrontation",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\1-Summer",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "epilogue" ],
+          "SortOrder": "010325a",
+          "ChapterName": "Epilogue [Gunther]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\1-Summer",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "extra5", "insert9", "extra5_1" ],
+          "SortOrder": "010325b",
+          "ChapterName": "The Life of an Apprentice Merchant [Lutz]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\1-Summer",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "extra1", "insert7", "extra1_1" ],
+          "SortOrder": "010325c",
+          "ChapterName": "Visiting Corinna [Tuuli]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\1-Summer",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "extra2" ],
+          "SortOrder": "010325e",
+          "ChapterName": "Confectionary Recipe [Leise]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\1-Summer",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "extra3", "insert8", "extra3_1" ],
+          "SortOrder": "010325f",
+          "ChapterName": "Pound Cake Sampling [Benno]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\1-Summer",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "extra4" ],
+          "SortOrder": "010325g",
+          "ChapterName": "The Master and I [Mark]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\1-Summer",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "extra5" ],
+          "SortOrder": "010325h",
+          "ChapterName": "The Roots of the Guildmaster's Worries [Gustav]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\1-Summer",
+          "ProcessedInPartOne": true
+        }
+      ]
+    }
+  ]
+}
