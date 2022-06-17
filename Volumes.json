@@ -1,7 +1,6 @@
 {
   "Volumes": [
     {
-      "Filename": "ascendance-of-a-bookworm.epub",
       "InternalName": "LN0101",
       "ProcessedInPartOne": true,
       "Chapters": [
@@ -177,7 +176,7 @@
         },
         {
           "OriginalFilenames": [ "chapter16", "insert6", "chapter161" ],
-          "SortOrder": "010116",
+          "SortOrder": "010116a",
           "ChapterName": "Long Live Mesopotamian Culture",
           "FlatSubfolder": "03-Story",
           "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
@@ -298,7 +297,6 @@
       ]
     },
     {
-      "Filename": "ascendance-of-a-bookworm-volume-2.epub",
       "InternalName": "LN0102",
       "ProcessedInPartOne": true,
       "Chapters": [
@@ -565,7 +563,6 @@
       ]
     },
     {
-      "Filename": "ascendance-of-a-bookworm-part-1-volume-3.epub",
       "InternalName": "LN0103",
       "ProcessedInPartOne": true,
       "ProcessedInPartTwo": true,
@@ -920,7 +917,6 @@
       ]
     },
     {
-      "Filename": "ascendance-of-a-bookworm-part-2-volume-1.epub",
       "InternalName": "LN0201",
       "ProcessedInPartTwo": true,
       "Chapters": [
@@ -1217,7 +1213,6 @@
       ]
     },
     {
-      "Filename": "ascendance-of-a-bookworm-part-2-volume-2.epub",
       "InternalName": "LN0202",
       "ProcessedInPartTwo": true,
       "Chapters": [
@@ -1510,6 +1505,603 @@
           "YearsSubfolder": "01-Inserts",
           "VolumeSubfolder": "02-Apprentice Shrine Maiden",
           "ProcessedInPartTwo": true
+        }
+      ]
+    },
+    {
+      "InternalName": "LN0203",
+      "ProcessedInPartTwo": true,
+      "Chapters": [
+        {
+          "OriginalFilenames": [ "bonus2", "bonus1" ],
+          "SortOrder": "0203",
+          "ChapterName": "Volume 3",
+          "FlatSubfolder": "01-Inserts",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\01-Inserts",
+          "YearsSubfolder": "01-Inserts",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "prologue" ],
+          "SortOrder": "020300",
+          "ChapterName": "Prologue [Karstedt]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\02-Autumn",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0203-Volume 3",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter01" ],
+          "SortOrder": "020301",
+          "ChapterName": "Printing Guild",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\02-Autumn",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0203-Volume 3",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter02", "insert1", "chapter02_1" ],
+          "SortOrder": "020302",
+          "ChapterName": "Johann's Task",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\02-Autumn",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0203-Volume 3",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter03" ],
+          "SortOrder": "020303",
+          "ChapterName": "The Ink Guild and the Beginning of Winter",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\03-Winter",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0203-Volume 3",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter04" ],
+          "SortOrder": "020304",
+          "ChapterName": "Winter Hibernation and Handiwork",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\03-Winter",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0203-Volume 3",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter05" ],
+          "SortOrder": "020305",
+          "ChapterName": "Meeting of the Minds",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\03-Winter",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0203-Volume 3",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter06", "insert2", "chapter06_1" ],
+          "SortOrder": "020306",
+          "ChapterName": "Punishment for the Knight's Order and My Future",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\03-Winter",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0203-Volume 3",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter07" ],
+          "SortOrder": "020307",
+          "ChapterName": "Daily Winter Life",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\03-Winter",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0203-Volume 3",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter08" ],
+          "SortOrder": "020308",
+          "ChapterName": "The Dedication Ritual",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\03-Winter",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0203-Volume 3",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter09", "insert3" ],
+          "SortOrder": "020309",
+          "ChapterName": "Rosina's Coming of Age Ceremony",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\03-Winter",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0203-Volume 3",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter10" ],
+          "SortOrder": "020310",
+          "ChapterName": "Rumtopf and Shoes",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\04-Spring",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0203-Volume 3",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter11" ],
+          "SortOrder": "020311a",
+          "ChapterName": "Completion of the Metal Letter Types",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\04-Spring",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0203-Volume 3",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "extra2", "insert9", "extra2_1" ],
+          "SortOrder": "020311b",
+          "ChapterName": "The Title of 'Gutenberg' [Johann]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\04-Spring",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0203-Volume 3",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter12", "insert4", "chapter12_1" ],
+          "SortOrder": "020312a",
+          "ChapterName": "Temple Stay Extended",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\04-Spring",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0203-Volume 3",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "extra1" ],
+          "SortOrder": "020312b",
+          "ChapterName": "Lunchtime in the Temple [Damuel]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\04-Spring",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0203-Volume 3",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter13", "insert5" ],
+          "SortOrder": "020313",
+          "ChapterName": "Preparing for the Spring Prayer",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\04-Spring",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0203-Volume 3",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter14" ],
+          "SortOrder": "020314",
+          "ChapterName": "Spring Prayer",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\04-Spring",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0203-Volume 3",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter15" ],
+          "SortOrder": "020315",
+          "ChapterName": "An After-Meal Invitation",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\04-Spring",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0203-Volume 3",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter16", "insert6", "chapter16_1" ],
+          "SortOrder": "020316",
+          "ChapterName": "Ambush",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\04-Spring",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0203-Volume 3",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter17" ],
+          "SortOrder": "020317",
+          "ChapterName": "The Wild and Uncontrollable Blue Priest",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\04-Spring",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0203-Volume 3",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter18", "insert7", "chapter18_1" ],
+          "SortOrder": "020318a",
+          "ChapterName": "Visit to the Orphanage and Workshop",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\04-Spring",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0203-Volume 3",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter19" ],
+          "SortOrder": "020319",
+          "ChapterName": "Talking with the High Priest and Returning Home",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\04-Spring",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0203-Volume 3",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter20", "insert8", "chapter20_1" ],
+          "SortOrder": "020320",
+          "ChapterName": "A New Member of the Family",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\04-Spring",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0203-Volume 3",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "epilogue" ],
+          "SortOrder": "020321",
+          "ChapterName": "Epilogue [Delia]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\04-Spring",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0203-Volume 3",
+          "ProcessedInPartTwo": true
+        }
+      ]
+    },
+    {
+      "InternalName": "LN0204",
+      "ProcessedInPart2": true,
+      "Chapters": [
+        {
+          "OriginalFilenames": [ "bonus2", "bonus1" ],
+          "SortOrder": "0204",
+          "ChapterName": "Volume 4",
+          "FlatSubfolder": "01-Inserts",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\01-Inserts",
+          "YearsSubfolder": "01-Inserts",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "manga1", "manga2" ],
+          "SortOrder": "0204",
+          "ChapterName": "Volume 4",
+          "FlatSubfolder": "04-Manga",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\04-A Comfy Life with my Family",
+          "YearsSubfolder": "04-Manga",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\03-A Comfy Life with my Family",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "characters1", "characters2" ],
+          "SortOrder": "02",
+          "ChapterName": "Apprentice Shrine Maiden",
+          "FlatSubfolder": "02-Characters",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\02-Characters",
+          "YearsSubfolder": "02-Characters",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\02-Characters",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "prologue" ],
+          "SortOrder": "020400",
+          "ChapterName": "Prologue [Bezewanst]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\04-Spring",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0204-Volume 4",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter1" ],
+          "SortOrder": "020401",
+          "ChapterName": "Caring for Kamil",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\04-Spring",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0204-Volume 4",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter2", "insert1", "chapter2_1" ],
+          "SortOrder": "020402",
+          "ChapterName": "The Abandoned Child",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\04-Spring",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0204-Volume 4",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter3" ],
+          "SortOrder": "020403",
+          "ChapterName": "What to Do About Dirk",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\04-Spring",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0204-Volume 4",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter4" ],
+          "SortOrder": "020404",
+          "ChapterName": "The Ink Guild and Succession",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\04-Spring",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0204-Volume 4",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter5", "insert2", "chapter5_1" ],
+          "SortOrder": "020405",
+          "ChapterName": "Researching Color-Making",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\04-Spring",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0204-Volume 4",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter6" ],
+          "SortOrder": "020406a",
+          "ChapterName": "Challenging Wax Stencils",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\04-Spring",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0204-Volume 4",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "extra7" ],
+          "SortOrder": "020406b",
+          "ChapterName": "Beruf Certification [Josef]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\04-Spring",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0204-Volume 4",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter7" ],
+          "SortOrder": "020407",
+          "ChapterName": "Delia's Progress",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\04-Spring",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0204-Volume 4",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter8" ],
+          "SortOrder": "020408",
+          "ChapterName": "Both Sides of the Story",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\04-Spring",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0204-Volume 4",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter9" ],
+          "SortOrder": "020409",
+          "ChapterName": "The Two Who Left",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\04-Spring",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0204-Volume 4",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter10", "insert3", "chapter10_1" ],
+          "SortOrder": "020410",
+          "ChapterName": "The Shadow Falls",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\04-Spring",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0204-Volume 4",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter11", "insert4", "chapter11_1" ],
+          "SortOrder": "020411",
+          "ChapterName": "The Noble from Another Duchy",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\04-Spring",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0204-Volume 4",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter12", "insert5", "chapter12_1" ],
+          "SortOrder": "020412",
+          "ChapterName": "The Black Charm",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\04-Spring",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0204-Volume 4",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter13", "insert6", "chapter13_1" ],
+          "SortOrder": "020413",
+          "ChapterName": "The Source of Strife",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\04-Spring",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0204-Volume 4",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter14" ],
+          "SortOrder": "020414",
+          "ChapterName": "The New Me",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\04-Spring",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0204-Volume 4",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "chapter15", "insert7", "chapter15_1" ],
+          "SortOrder": "020415a",
+          "ChapterName": "Ripped Apart",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\04-Spring",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0204-Volume 4",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "epilogue" ],
+          "SortOrder": "020416a",
+          "ChapterName": "Epilogue [Lutz]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\04-Spring",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0204-Volume 4",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "extra1" ],
+          "SortOrder": "020415c",
+          "ChapterName": "A Visit to the Noble's Quarter [Freida]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\04-Spring",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0204-Volume 4",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "extra2" ],
+          "SortOrder": "020415b",
+          "ChapterName": "Cleaning up the Mess [Sylvester]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\04-Spring",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0204-Volume 4",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "extra3" ],
+          "SortOrder": "020415d",
+          "ChapterName": "Fran and I [Arno]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\04-Spring",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0204-Volume 4",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "extra4" ],
+          "SortOrder": "020415e",
+          "ChapterName": "Maybe Lessen the Workload [Benno]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\04-Spring",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0204-Volume 4",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "extra5" ],
+          "SortOrder": "020416b",
+          "ChapterName": "To Serve as the High Bishop's Attendant [Fran]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\04-Spring",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0204-Volume 4",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "extra6", "insert9" ],
+          "SortOrder": "020416c",
+          "ChapterName": "Facing the Future [Effa]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\04-Spring",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0204-Volume 4",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "extra8" ],
+          "SortOrder": "020318b",
+          "ChapterName": "Sylvester Undercover [Leon]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\04-Spring",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0203-Volume 3",
+          "ProcessedInPartTwo": true
+        }
+      ]
+    },
+    {
+      "InternalName": "FB1",
+      "ProcessedInPart1": true,
+      "ProcessedInPart2": true,
+      "Chapters": [
+        {
+          "OriginalFilenames": [ "temple", "24", "temple_1" ],
+          "SortOrder": "020415f",
+          "ChapterName": "Temple Tour [Nicola]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+          "YearsSubfolder": "03-Story\\1207-1207\\04-Spring",
+          "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0204-Volume 4",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "37", "38", "39", "40", "41", "42", "43", "44" ],
+          "SortOrder": "010116b",
+          "ChapterName": "My Daughter's about to be a Criminal [Gunther]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "YearsSubfolder": "03-Story\\1205-1205\\4-Spring 1205",
+          "VolumeSubfolder": "01-Daughter of a Soldier\\0101-Volume 1",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36" ],
+          "SortOrder": "0101",
+          "ChapterName": "Fanbook One Character Design Sheets",
+          "FlatSubfolder": "06-Fanbooks",
+          "PartsSubfolder": "11-Fanbooks",
+          "YearsSubfolder": "06-Fanbooks",
+          "VolumeSubfolder": "06-Fanbooks"
+        },
+        {
+          "OriginalFilenames": [ "qa"],
+          "SortOrder": "0102",
+          "ChapterName": "Fanbook One QnA",
+          "FlatSubfolder": "06-Fanbooks",
+          "PartsSubfolder": "11-Fanbooks",
+          "YearsSubfolder": "06-Fanbooks",
+          "VolumeSubfolder": "06-Fanbooks"
+        },
+        {
+          "OriginalFilenames": ["45", "46"],
+          "SortOrder": "0303b",
+          "ChapterName": "Fanbook 1",
+          "FlatSubfolder": "04-Manga",
+          "PartsSubfolder": "03-Adopted Daughter of an Archduke\\04-A Comfy Life with my Family",
+          "YearsSubfolder": "04-Manga",
+          "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\04-A Comfy Life with my Family",
+          "ProcessedInPartThree": true
         }
       ]
     }
