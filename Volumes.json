@@ -3036,6 +3036,569 @@
           "ProcessedInPartFour": true
         }
       ]
+    },
+    {
+      "InternalName": "LN0304",
+      "ProcessedInPartThree": true,
+      "Chapters": [
+        {
+          "OriginalFilenames": [ "manga1", "manga2" ],
+          "SortOrder": "0304",
+          "ChapterName": "LN304",
+          "FlatSubfolder": "04-Manga",
+          "PartsSubfolder": "03-Adopted Daughter of an Archduke\\04-A Comfy Life with my Family",
+          "YearsSubfolder": "04-Manga",
+          "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\04-A Comfy Life with my Family",
+          "ProcessedInPartThree": true
+        },
+        {
+          "OriginalFilenames": [ "bonus2", "bonus1" ],
+          "SortOrder": "0304",
+          "ChapterName": "LN304",
+          "FlatSubfolder": "01-Inserts",
+          "PartsSubfolder": "03-Adopted Daughter of an Archduke\\01-Inserts",
+          "YearsSubfolder": "01-Inserts",
+          "VolumeSubfolder": "03-Adopted Daughter of an Archduke",
+          "ProcessedInPartThree": true
+        },
+        {
+          "OriginalFilenames": [ "prologue" ],
+          "SortOrder": "030400",
+          "ChapterName": "Prologue [Tuuli]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+          "YearsSubfolder": "03-Story\\1208-1208\\4-Spring",
+          "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0304-Volume 4",
+          "ProcessedInPartThree": true
+        },
+        {
+          "OriginalFilenames": [ "chapter1" ],
+          "SortOrder": "030401",
+          "ChapterName": "A New Dress",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+          "YearsSubfolder": "03-Story\\1208-1208\\4-Spring",
+          "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0304-Volume 4",
+          "ProcessedInPartThree": true
+        },
+        {
+          "OriginalFilenames": [ "chapter2", "insert1", "chapter2_1" ],
+          "SortOrder": "030402",
+          "ChapterName": "The New Printing Press's Trial Run",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+          "YearsSubfolder": "03-Story\\1208-1208\\4-Spring",
+          "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0304-Volume 4",
+          "ProcessedInPartThree": true
+        },
+        {
+          "OriginalFilenames": [ "chapter3" ],
+          "SortOrder": "030403",
+          "ChapterName": "Benno's Request",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+          "YearsSubfolder": "03-Story\\1208-1208\\4-Spring",
+          "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0304-Volume 4",
+          "ProcessedInPartThree": true
+        },
+        {
+          "OriginalFilenames": [ "chapter4" ],
+          "SortOrder": "030404",
+          "ChapterName": "Staying Home During the Archduke Conference",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+          "YearsSubfolder": "03-Story\\1208-1208\\4-Spring",
+          "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0304-Volume 4",
+          "ProcessedInPartThree": true
+        },
+        {
+          "OriginalFilenames": [ "chapter5" ],
+          "SortOrder": "030405",
+          "ChapterName": "Payment and Unveiling the Dress",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+          "YearsSubfolder": "03-Story\\1208-1208\\4-Spring",
+          "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0304-Volume 4",
+          "ProcessedInPartThree": true
+        },
+        {
+          "OriginalFilenames": [ "chapter6", "insert2", "chapter6_1" ],
+          "SortOrder": "030406",
+          "ChapterName": "Angelica's Manablade",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+          "YearsSubfolder": "03-Story\\1208-1208\\4-Spring",
+          "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0304-Volume 4",
+          "ProcessedInPartThree": true
+        },
+        {
+          "OriginalFilenames": [ "chapter7" ],
+          "SortOrder": "030407",
+          "ChapterName": "Let's Print More Stuff",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+          "YearsSubfolder": "03-Story\\1208-1208\\4-Spring",
+          "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0304-Volume 4",
+          "ProcessedInPartThree": true
+        },
+        {
+          "OriginalFilenames": [ "chapter8", "insert3", "chapter8_1" ],
+          "SortOrder": "030408",
+          "ChapterName": "Meeting with the Plantin Company",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+          "YearsSubfolder": "03-Story\\1208-1208\\4-Spring",
+          "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0304-Volume 4",
+          "ProcessedInPartThree": true
+        },
+        {
+          "OriginalFilenames": [ "chapter9" ],
+          "SortOrder": "030409",
+          "ChapterName": "The Archducal Couple Returns",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+          "YearsSubfolder": "03-Story\\1208-1208\\4-Spring",
+          "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0304-Volume 4",
+          "ProcessedInPartThree": true
+        },
+        {
+          "OriginalFilenames": [ "chapter10", "insert4", "chapter10_1" ],
+          "SortOrder": "030410",
+          "ChapterName": "The Dress Debut and Ferdinand's Return",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+          "YearsSubfolder": "03-Story\\1209-1209\\1-Summer",
+          "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0304-Volume 4",
+          "ProcessedInPartThree": true
+        },
+        {
+          "OriginalFilenames": [ "chapter11" ],
+          "SortOrder": "030411",
+          "ChapterName": "Lunch Meeting and Business Day",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+          "YearsSubfolder": "03-Story\\1209-1209\\1-Summer",
+          "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0304-Volume 4",
+          "ProcessedInPartThree": true
+        },
+        {
+          "OriginalFilenames": [ "chapter12" ],
+          "SortOrder": "030412",
+          "ChapterName": "Heading to Illgner",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+          "YearsSubfolder": "03-Story\\1209-1209\\1-Summer",
+          "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0304-Volume 4",
+          "ProcessedInPartThree": true
+        },
+        {
+          "OriginalFilenames": [ "chapter13", "insert5", "chapter13_1" ],
+          "SortOrder": "030413a",
+          "ChapterName": "Illgner's Brigitte",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+          "YearsSubfolder": "03-Story\\1209-1209\\1-Summer",
+          "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0304-Volume 4",
+          "ProcessedInPartThree": true
+        },
+        {
+          "OriginalFilenames": [ "chapter21", "insert9", "chapter21_1" ],
+          "SortOrder": "030413b",
+          "ChapterName": "Damuel's Proposal [Damuel]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+          "YearsSubfolder": "03-Story\\1209-1209\\1-Summer",
+          "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0304-Volume 4",
+          "ProcessedInPartThree": true
+        },
+        {
+          "OriginalFilenames": [ "chapter14" ],
+          "SortOrder": "030414",
+          "ChapterName": "Mount Lohenberg",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+          "YearsSubfolder": "03-Story\\1209-1209\\1-Summer",
+          "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0304-Volume 4",
+          "ProcessedInPartThree": true
+        },
+        {
+          "OriginalFilenames": [ "chapter15", "insert6", "chapter15_1" ],
+          "SortOrder": "030415",
+          "ChapterName": "The Riesefalke Egg",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+          "YearsSubfolder": "03-Story\\1209-1209\\1-Summer",
+          "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0304-Volume 4",
+          "ProcessedInPartThree": true
+        },
+        {
+          "OriginalFilenames": [ "chapter16", "insert7", "chapter16_1" ],
+          "SortOrder": "030416",
+          "ChapterName": "Hand Pumps",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+          "YearsSubfolder": "03-Story\\1209-1209\\1-Summer",
+          "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0304-Volume 4",
+          "ProcessedInPartThree": true
+        },
+        {
+          "OriginalFilenames": [ "chapter17", "insert8", "chapter17_1" ],
+          "SortOrder": "030417",
+          "ChapterName": "Georgine's Visit",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+          "YearsSubfolder": "03-Story\\1209-1209\\1-Summer",
+          "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0304-Volume 4",
+          "ProcessedInPartThree": true
+        },
+        {
+          "OriginalFilenames": [ "chapter18" ],
+          "SortOrder": "030418a",
+          "ChapterName": "Dirk's Mana and Submission Contract",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+          "YearsSubfolder": "03-Story\\1209-1209\\1-Summer",
+          "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0304-Volume 4",
+          "ProcessedInPartThree": true
+        },
+        {
+          "OriginalFilenames": [ "chapter22" ],
+          "SortOrder": "030418b",
+          "ChapterName": "Staying in Illgner [Gil]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+          "YearsSubfolder": "03-Story\\1209-1209\\1-Summer",
+          "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0304-Volume 4",
+          "ProcessedInPartThree": true
+        },
+        {
+          "OriginalFilenames": [ "chapter19" ],
+          "SortOrder": "030419a",
+          "ChapterName": "Georgine Departs",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+          "YearsSubfolder": "03-Story\\1209-1209\\1-Summer",
+          "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0304-Volume 4",
+          "ProcessedInPartThree": true
+        },
+        {
+          "OriginalFilenames": [ "chapter20" ],
+          "SortOrder": "030419b",
+          "ChapterName": "Tea Party [Florencia]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+          "YearsSubfolder": "03-Story\\1209-1209\\1-Summer",
+          "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0304-Volume 4",
+          "ProcessedInPartThree": true
+        },
+        {
+          "OriginalFilenames": [ "epilogue" ],
+          "SortOrder": "030420",
+          "ChapterName": "Epilogue [Gloria]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+          "YearsSubfolder": "03-Story\\1209-1209\\1-Summer",
+          "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0304-Volume 4",
+          "ProcessedInPartThree": true
+        }
+      ]
+    },
+    {
+      "InternalName": "LN0305",
+      "ProcessedInPartOne": true,
+      "ProcessedInPartTwo": true,
+      "ProcessedInPartThree": true,
+      "ProcessedInPartFour": true,
+      "Chapters": [
+        {
+          "OriginalFilenames": [ "manga1", "manga2" ],
+          "SortOrder": "0305",
+          "ChapterName": "LN305",
+          "FlatSubfolder": "04-Manga",
+          "PartsSubfolder": "03-Adopted Daughter of an Archduke\\04-A Comfy Life with my Family",
+          "YearsSubfolder": "04-Manga",
+          "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\04-A Comfy Life with my Family",
+          "ProcessedInPartThree": true
+        },
+        {
+          "OriginalFilenames": [ "bonus2", "bonus1" ],
+          "SortOrder": "0305",
+          "ChapterName": "LN305",
+          "FlatSubfolder": "01-Inserts",
+          "PartsSubfolder": "03-Adopted Daughter of an Archduke\\01-Inserts",
+          "YearsSubfolder": "01-Inserts",
+          "VolumeSubfolder": "03-Adopted Daughter of an Archduke",
+          "ProcessedInPartThree": true
+        },
+        {
+          "OriginalFilenames": [ "map" ],
+          "SortOrder": "02",
+          "ChapterName": "Ehrenfest Duchy Map",
+          "FlatSubfolder": "05-Maps",
+          "PartsSubfolder": "10-Maps",
+          "YearsSubfolder": "05-Maps",
+          "VolumeSubfolder": "05-Maps",
+          "ProcessedInPartOne": true,
+          "ProcessedInPartTwo": true,
+          "ProcessedInPartThree": true,
+          "ProcessedInPartFour": true,
+          "ProcessedInPartFive": true
+        },
+        {
+          "OriginalFilenames": [ "insert10" ],
+          "SortOrder": "03",
+          "ChapterName": "Jureve Ingredient Map",
+          "FlatSubfolder": "05-Maps",
+          "PartsSubfolder": "10-Maps",
+          "YearsSubfolder": "05-Maps",
+          "VolumeSubfolder": "05-Maps",
+          "ProcessedInPartOne": true,
+          "ProcessedInPartTwo": true,
+          "ProcessedInPartThree": true,
+          "ProcessedInPartFour": true,
+          "ProcessedInPartFive": true
+        },
+        {
+          "OriginalFilenames": [ "characters1", "characters2", "characters3" ],
+          "SortOrder": "03",
+          "ChapterName": "Adopted Daughter of an Archduke",
+          "FlatSubfolder": "02-Characters",
+          "PartsSubfolder": "03-Adopted Daughter of an Archduke\\02-Characters",
+          "YearsSubfolder": "02-Characters",
+          "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\02-Characters",
+          "ProcessedInPartTwo": true
+        },
+        {
+          "OriginalFilenames": [ "prologue" ],
+          "SortOrder": "030500",
+          "ChapterName": "Prologue [Benno]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+          "YearsSubfolder": "03-Story\\1209-1209\\2-Autumn",
+          "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0305-Volume 5",
+          "ProcessedInPartThree": true
+        },
+        {
+          "OriginalFilenames": ["chapter1"],
+          "SortOrder": "030501",
+          "ChapterName": "The New Orphans and Operation Grimm",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+          "YearsSubfolder": "03-Story\\1209-1209\\2-Autumn",
+          "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0305-Volume 5",
+          "ProcessedInPartThree": true
+        },
+        {
+          "OriginalFilenames": ["chapter2"],
+          "SortOrder": "030502",
+          "ChapterName": "Haase and the Gray Priests",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+          "YearsSubfolder": "03-Story\\1209-1209\\2-Autumn",
+          "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0305-Volume 5",
+          "ProcessedInPartThree": true
+        },
+        {
+          "OriginalFilenames": ["chapter3"],
+          "SortOrder": "030503",
+          "ChapterName": "Ruelle Gathering (Take Two)",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+          "YearsSubfolder": "03-Story\\1209-1209\\2-Autumn",
+          "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0305-Volume 5",
+          "ProcessedInPartThree": true
+        },
+        {
+          "OriginalFilenames": ["chapter4", "insert2", "chapter4_1"],
+          "SortOrder": "030504",
+          "ChapterName": "Damuel's Growth",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+          "YearsSubfolder": "03-Story\\1209-1209\\2-Autumn",
+          "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0305-Volume 5",
+          "ProcessedInPartThree": true
+        },
+        {
+          "OriginalFilenames": ["chapter5"],
+          "SortOrder": "030505",
+          "ChapterName": "Conditions for Compressing Mana",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+          "YearsSubfolder": "03-Story\\1209-1209\\2-Autumn",
+          "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0305-Volume 5",
+          "ProcessedInPartThree": true
+        },
+        {
+          "OriginalFilenames": ["chapter6"],
+          "SortOrder": "030506",
+          "ChapterName": "Illgner's Harvest Festival",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+          "YearsSubfolder": "03-Story\\1209-1209\\2-Autumn",
+          "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0305-Volume 5",
+          "ProcessedInPartThree": true
+        },
+        {
+          "OriginalFilenames": ["chapter7", "insert3", "chapter7_1"],
+          "SortOrder": "030507",
+          "ChapterName": "My First-Ever Little Sister",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+          "YearsSubfolder": "03-Story\\1209-1209\\2-Autumn",
+          "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0305-Volume 5",
+          "ProcessedInPartThree": true
+        },
+        {
+          "OriginalFilenames": ["chapter8", "insert4", "chapter8_1"],
+          "SortOrder": "030508",
+          "ChapterName": "Wilfried's Actions",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+          "YearsSubfolder": "03-Story\\1209-1209\\2-Autumn",
+          "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0305-Volume 5",
+          "ProcessedInPartThree": true
+        },
+        {
+          "OriginalFilenames": ["chapter9"],
+          "SortOrder": "030509a",
+          "ChapterName": "Wilfried's Punishment",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+          "YearsSubfolder": "03-Story\\1209-1209\\2-Autumn",
+          "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0305-Volume 5",
+          "ProcessedInPartThree": true
+        },
+        {
+          "OriginalFilenames": ["chapter10"],
+          "SortOrder": "030510",
+          "ChapterName": "The Jureve and Mana Compression",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+          "YearsSubfolder": "03-Story\\1209-1209\\2-Autumn",
+          "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0305-Volume 5",
+          "ProcessedInPartThree": true
+        },
+        {
+          "OriginalFilenames": ["chapter11"],
+          "SortOrder": "030511",
+          "ChapterName": "Charlotte's Baptism Ceremony",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+          "YearsSubfolder": "03-Story\\1209-1209\\3-Winter",
+          "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0305-Volume 5",
+          "ProcessedInPartThree": true
+        },
+        {
+          "OriginalFilenames": ["chapter12"],
+          "SortOrder": "030512",
+          "ChapterName": "Kidnapped Daughter",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+          "YearsSubfolder": "03-Story\\1209-1209\\3-Winter",
+          "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0305-Volume 5",
+          "ProcessedInPartThree": true
+        },
+        {
+          "OriginalFilenames": ["chapter13", "insert5", "chapter13_1"],
+          "SortOrder": "030513",
+          "ChapterName": "Rescue",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+          "YearsSubfolder": "03-Story\\1209-1209\\3-Winter",
+          "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0305-Volume 5",
+          "ProcessedInPartThree": true
+        },
+        {
+          "OriginalFilenames": ["chapter14"],
+          "SortOrder": "030514a",
+          "ChapterName": "And So, the Future",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+          "YearsSubfolder": "03-Story\\1209-1209\\3-Winter",
+          "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0305-Volume 5",
+          "ProcessedInPartThree": true
+        },
+        {
+          "OriginalFilenames": ["chapter15"],
+          "SortOrder": "030514b",
+          "ChapterName": "Grandfather on the Day of the Baptism [Bonifatius]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+          "YearsSubfolder": "03-Story\\1209-1209\\3-Winter",
+          "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0305-Volume 5",
+          "ProcessedInPartThree": true
+        },
+        {
+          "OriginalFilenames": ["chapter16", "insert6", "chapter16_1"],
+          "SortOrder": "030514c",
+          "ChapterName": "In Place of My Older Sister [Charlotte]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+          "YearsSubfolder": "03-Story\\1209-1209\\4-Spring",
+          "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0305-Volume 5",
+          "ProcessedInPartThree": true
+        },
+        {
+          "OriginalFilenames": ["chapter17"],
+          "SortOrder": "030514d",
+          "ChapterName": "Two Marriages [Giebe Illgner]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+          "YearsSubfolder": "03-Story\\1210-1210\\1-Summer",
+          "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0305-Volume 5",
+          "ProcessedInPartThree": true
+        },
+        {
+          "OriginalFilenames": ["chapter20"],
+          "SortOrder": "030514e",
+          "ChapterName": "The Laynoble Guard Knight [Damuel]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+          "YearsSubfolder": "03-Story\\1210-1210\\1-Summer",
+          "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0305-Volume 5",
+          "ProcessedInPartThree": true
+        },
+        {
+          "OriginalFilenames": ["chapter21"],
+          "SortOrder": "030514f",
+          "ChapterName": "One Handful of a Chef [Ella]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+          "YearsSubfolder": "03-Story\\1210-1210\\1-Summer",
+          "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0305-Volume 5",
+          "ProcessedInPartThree": true
+        },
+        {
+          "OriginalFilenames": ["chapter18", "insert8", "chapter18_1"],
+          "SortOrder": "030514g",
+          "ChapterName": "No Rest for Us [Lutz]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+          "YearsSubfolder": "03-Story\\1210-1210\\2-Autumn",
+          "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0305-Volume 5",
+          "ProcessedInPartThree": true
+        },
+        {
+          "OriginalFilenames": ["chapter19", "insert9", "chapter19_1"],
+          "SortOrder": "030514h",
+          "ChapterName": "Meanwhile at the Temple [Fran]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+          "YearsSubfolder": "03-Story\\1211-1211\\2-Autumn",
+          "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0305-Volume 5",
+          "ProcessedInPartThree": true
+        },
+        {
+          "OriginalFilenames": ["epilogue"],
+          "SortOrder": "030515",
+          "ChapterName": "Epilogue [Ferdinand]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+          "YearsSubfolder": "03-Story\\1211-1211\\2-Autumn",
+          "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0305-Volume 5",
+          "ProcessedInPartThree": true
+        }
+      ]
     }
   ]
 }
