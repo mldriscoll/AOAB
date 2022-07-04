@@ -72,7 +72,7 @@
         },
         {
           "OriginalFilenames": [ "chapter05" ],
-          "SortOrder": "010105",
+          "SortOrder": "010105a",
           "ChapterName": "Lifestyle Overhaul",
           "FlatSubfolder": "03-Story",
           "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
@@ -160,7 +160,7 @@
         },
         {
           "OriginalFilenames": [ "chapter13" ],
-          "SortOrder": "010113",
+          "SortOrder": "010113a",
           "ChapterName": "Helping Out Otto",
           "FlatSubfolder": "03-Story",
           "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
@@ -215,7 +215,7 @@
         },
         {
           "OriginalFilenames": [ "chapter18" ],
-          "SortOrder": "010118",
+          "SortOrder": "010118a",
           "ChapterName": "Tuuli's Baptism",
           "FlatSubfolder": "03-Story",
           "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
@@ -5904,6 +5904,57 @@
           "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
           "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\0407-Volume 7",
           "ProcessedInPartFour": true
+        }
+      ]
+    },
+    {
+      "InternalName": "M0101",
+      "ProcessedInPartOne": true,
+      "Chapters": [
+        {
+          "OriginalFilenames": [ "151", "152", "153", "154", "155", "156" ],
+          "SortOrder": "010105b",
+          "ChapterName": "Myne's Gotten Weird [Tuuli]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "Year": 0,
+          "YearsSubfolder": "03-Story\\[Year]\\2-Autumn",
+          "VolumeSubfolder": "01-Daughter of a Soldier\\0101-Volume 1",
+          "ProcessedInPartOne": true
+        }
+      ]
+    },
+    {
+      "InternalName": "M0102",
+      "ProcessedInPartOne": true,
+      "Chapters": [
+        {
+          "OriginalFilenames": [ "167", "168", "169", "170", "171", "172" ],
+          "SortOrder": "010113b",
+          "ChapterName": "Lutz and the Parue Tree [Lutz]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "Year": 0,
+          "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
+          "VolumeSubfolder": "01-Daughter of a Soldier\\0101-Volume 1",
+          "ProcessedInPartOne": true
+        }
+      ]
+    },
+    {
+      "InternalName": "M0103",
+      "ProcessedInPartOne": true,
+      "Chapters": [
+        {
+          "OriginalFilenames": [ "184", "185", "186", "187", "188", "189", "190" ],
+          "SortOrder": "010118b",
+          "ChapterName": "The Baptism Ceremony and the Hairpin [Freida]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "Year": 1,
+          "YearsSubfolder": "03-Story\\[Year]\\1-Summer",
+          "VolumeSubfolder": "01-Daughter of a Soldier\\0101-Volume 1",
+          "ProcessedInPartOne": true
         }
       ]
     }

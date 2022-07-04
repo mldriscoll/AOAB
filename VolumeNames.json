@@ -82,5 +82,20 @@
   {
     "InternalName": "FB2",
     "FileName": "ascendance-of-a-bookworm-fanbook-2.epub"
+  },
+  {
+    "InternalName": "M0101",
+    "FileName": "Ascendance of a Bookworm (Manga) Volume 1_{0}.epub",
+    "Quality": [ "3840", "2560", "1400" ]
+  },
+  {
+    "InternalName": "M0102",
+    "FileName": "Ascendance of a Bookworm (Manga) Volume 2_{0}.epub",
+    "Quality": [ "3840", "2560", "1400" ]
+  },
+  {
+    "InternalName": "M0103",
+    "FileName": "Ascendance of a Bookworm (Manga) Volume 3_{0}.epub",
+    "Quality": [ "3840", "2560", "1400" ]
   }
 ]
