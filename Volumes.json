@@ -406,7 +406,7 @@
         },
         {
           "OriginalFilenames": [ "chapter06" ],
-          "SortOrder": "010206",
+          "SortOrder": "010206a",
           "ChapterName": "Ordering Tools and Materials",
           "FlatSubfolder": "03-Story",
           "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
@@ -538,7 +538,7 @@
         },
         {
           "OriginalFilenames": [ "chapter18" ],
-          "SortOrder": "010218",
+          "SortOrder": "010218a",
           "ChapterName": "Why It Failed and How to Fix It",
           "FlatSubfolder": "03-Story",
           "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
@@ -803,7 +803,7 @@
         },
         {
           "OriginalFilenames": [ "chapter14" ],
-          "SortOrder": "010314",
+          "SortOrder": "010314a",
           "ChapterName": "Tools and Selecting a Workshop",
           "FlatSubfolder": "03-Story",
           "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
@@ -814,7 +814,7 @@
         },
         {
           "OriginalFilenames": [ "chapter15" ],
-          "SortOrder": "010315",
+          "SortOrder": "010315a",
           "ChapterName": "Preparing for Lutz's Apprentiship",
           "FlatSubfolder": "03-Story",
           "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
@@ -5954,6 +5954,85 @@
           "Year": 1,
           "YearsSubfolder": "03-Story\\[Year]\\1-Summer",
           "VolumeSubfolder": "01-Daughter of a Soldier\\0101-Volume 1",
+          "ProcessedInPartOne": true
+        }
+      ]
+    },
+    {
+      "InternalName": "M0104",
+      "ProcessedInPartOne": true,
+      "Chapters": [
+        {
+          "OriginalFilenames": [ "166", "167", "168", "169", "170", "171", "172", "173" ],
+          "SortOrder": "010206b",
+          "ChapterName": "Zeg the Apprentice Craftsman [Zeg]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "Year": 1,
+          "YearsSubfolder": "03-Story\\[Year]\\1-Summer",
+          "VolumeSubfolder": "01-Daughter of a Soldier\\0102-Volume 2",
+          "ProcessedInPartOne": true
+        }
+      ]
+    },
+    {
+      "InternalName": "M0105",
+      "ProcessedInPartOne": true,
+      "Chapters": [
+        {
+          "OriginalFilenames": [ "176", "177", "178", "179", "180", "181", "182", "183", "184", "185" ],
+          "SortOrder": "010218b",
+          "ChapterName": "Hairpins and the Meeting of Stores [Benno]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "Year": 1,
+          "YearsSubfolder": "03-Story\\[Year]\\2-Autumn",
+          "VolumeSubfolder": "01-Daughter of a Soldier\\0102-Volume 2",
+          "ProcessedInPartOne": true
+        }
+      ]
+    },
+    {
+      "InternalName": "M0106",
+      "ProcessedInPartOne": true,
+      "Chapters": [
+        {
+          "OriginalFilenames": [ "171", "172", "173", "174", "175", "176", "177", "178", "180" ],
+          "SortOrder": "010314b",
+          "ChapterName": "Some Time in the Woods [Benno]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "Year": 1,
+          "YearsSubfolder": "03-Story\\[Year]\\4-Spring",
+          "VolumeSubfolder": "01-Daughter of a Soldier\\0103-Volume 3",
+          "ProcessedInPartOne": true
+        },
+        {
+          "OriginalFilenames": [ "182", "183", "184", "185", "186", "187", "188", "189" ],
+          "SortOrder": "010315b",
+          "ChapterName": "A Long-Awaited Reunion [Freida]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "Year": 1,
+          "YearsSubfolder": "03-Story\\[Year]\\4-Spring",
+          "VolumeSubfolder": "01-Daughter of a Soldier\\0103-Volume 3",
+          "ProcessedInPartOne": true
+        }
+      ]
+    },
+    {
+      "InternalName": "M0107",
+      "ProcessedInPartOne": true,
+      "Chapters": [
+        {
+          "OriginalFilenames": [ "210", "211", "212", "213", "214", "215", "216", "217", "218", "219", "220", "221" ],
+          "SortOrder": "010325d",
+          "ChapterName": "As the Gilberta Company's Successor [Corinna]",
+          "FlatSubfolder": "03-Story",
+          "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+          "Year": 2,
+          "YearsSubfolder": "03-Story\\[Year]\\1-Summer",
+          "VolumeSubfolder": "01-Daughter of a Soldier\\0103-Volume 3",
           "ProcessedInPartOne": true
         }
       ]
