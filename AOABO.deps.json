@@ -7,27 +7,14 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "AOABO/1.0.0": {
-        "dependencies": {
-          "Core": "1.0.0"
-        },
         "runtime": {
           "AOABO.dll": {}
-        }
-      },
-      "Core/1.0.0": {
-        "runtime": {
-          "Core.dll": {}
         }
       }
     }
   },
   "libraries": {
     "AOABO/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
