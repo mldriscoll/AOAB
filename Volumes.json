@@ -3195,7 +3195,7 @@
       },
       {
         "OriginalFilenames": [ "side3" ],
-        "SortOrder": "020214b",
+        "SortOrder": "020214c",
         "ChapterName": "My Handful of a Little Sister [Tuuli]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
@@ -6676,6 +6676,33 @@
         "YearsSubfolder": "01-Inserts",
         "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee",
         "ProcessedInPartFour": true
+      }
+    ]
+  },
+  {
+    "InternalName": "M0206",
+    "ProcessedInPartTwo": true,
+    "Chapters": [
+      {
+        "OriginalFilenames": [ "180", "181", "182", "183", "184", "185", "186", "187", "188", "189" ],
+        "SortOrder": "020214b",
+        "ChapterName": "Preparing for the Baby [Tuuli]",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+        "Year": 2,
+        "YearsSubfolder": "03-Story\\[Year]\\2-Autumn",
+        "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0202-Volume 2",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "192", "193" ],
+        "SortOrder": "0202b",
+        "ChapterName": "M206",
+        "FlatSubfolder": "04-Manga",
+        "PartsSubfolder": "02-Apprentice Shrine Maiden\\04-A Comfy Life with my Family",
+        "YearsSubfolder": "04-Manga",
+        "VolumeSubfolder": "02-Apprentice Shrine Maiden\\03-A Comfy Life with my Family",
+        "ProcessedInPartTwo": true
       }
     ]
   }
