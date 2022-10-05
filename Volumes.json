@@ -6705,5 +6705,296 @@
         "ProcessedInPartTwo": true
       }
     ]
+  },
+  {
+    "InternalName": "LN0409",
+    "ProcessedInPartFour": true,
+    "Chapters": [
+      {
+        "OriginalFilenames": [ "manga1", "manga2" ],
+        "SortOrder": "0409",
+        "ChapterName": "LN409",
+        "FlatSubfolder": "04-Manga",
+        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\04-A Comfy Life with my Family",
+        "YearsSubfolder": "04-Manga",
+        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\05-A Comfy Life with my Family",
+        "ProcessedInPartFour": true
+      },
+      {
+        "OriginalFilenames": [ "bonus2", "bonus1" ],
+        "SortOrder": "0409",
+        "ChapterName": "LN409",
+        "AltName": "Volume 9",
+        "FlatSubfolder": "01-Inserts",
+        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\01-Inserts",
+        "YearsSubfolder": "01-Inserts",
+        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee",
+        "ProcessedInPartFour": true
+      },
+      {
+        "OriginalFilenames": [ "prologue", "insert1", "prologue_1" ],
+        "SortOrder": "040900",
+        "ChapterName": "Prologue [Florencia]",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
+        "Year": 8,
+        "YearsSubfolder": "03-Story\\[Year]\\1-Summer",
+        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\0409-Volume 9",
+        "ProcessedInPartFour": true
+      },
+      {
+        "OriginalFilenames": [ "chapter1", "insert2", "chapter1_1" ],
+        "SortOrder": "040901",
+        "ChapterName": "Rewarding Hartmut's Hard Work",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
+        "Year": 8,
+        "YearsSubfolder": "03-Story\\[Year]\\2-Autumn",
+        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\0409-Volume 9",
+        "ProcessedInPartFour": true
+      },
+      {
+        "OriginalFilenames": [ "chapter2" ],
+        "SortOrder": "040902",
+        "ChapterName": "The Harvest Festival and a Meeting",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
+        "Year": 8,
+        "YearsSubfolder": "03-Story\\[Year]\\2-Autumn",
+        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\0409-Volume 9",
+        "ProcessedInPartFour": true
+      },
+      {
+        "OriginalFilenames": [ "chapter3"],
+        "SortOrder": "040903",
+        "ChapterName": "The Farewell Dinner",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
+        "Year": 8,
+        "YearsSubfolder": "03-Story\\[Year]\\2-Autumn",
+        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\0409-Volume 9",
+        "ProcessedInPartFour": true
+      },
+      {
+        "OriginalFilenames": ["chapter4", "insert3", "chapter4_1"],
+        "SortOrder": "040904",
+        "ChapterName": "Farewell Gifts",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
+        "Year": 8,
+        "YearsSubfolder": "03-Story\\[Year]\\2-Autumn",
+        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\0409-Volume 9",
+        "ProcessedInPartFour": true
+      },
+      {
+        "OriginalFilenames": ["chapter5"],
+        "SortOrder": "040905",
+        "ChapterName": "A Stolen Book",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
+        "Year": 8,
+        "YearsSubfolder": "03-Story\\[Year]\\2-Autumn",
+        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\0409-Volume 9",
+        "ProcessedInPartFour": true
+      },
+      {
+        "OriginalFilenames": [ "chapter6" ],
+        "SortOrder": "040906",
+        "ChapterName": "Commoner Testimonies",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
+        "Year": 8,
+        "YearsSubfolder": "03-Story\\[Year]\\2-Autumn",
+        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\0409-Volume 9",
+        "ProcessedInPartFour": true
+      },
+      {
+        "OriginalFilenames": ["chapter7", "insert4", "chapter7_1"],
+        "SortOrder": "040907",
+        "ChapterName": "Rescue",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
+        "Year": 8,
+        "YearsSubfolder": "03-Story\\[Year]\\2-Autumn",
+        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\0409-Volume 9",
+        "ProcessedInPartFour": true
+      },
+      {
+        "OriginalFilenames": ["chapter8", "insert5", "chapter8_1"],
+        "SortOrder": "040908",
+        "ChapterName": "Evidence",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
+        "Year": 8,
+        "YearsSubfolder": "03-Story\\[Year]\\2-Autumn",
+        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\0409-Volume 9",
+        "ProcessedInPartFour": true
+      },
+      {
+        "OriginalFilenames": ["chapter9"],
+        "SortOrder": "040909",
+        "ChapterName": "New Perspectives",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
+        "Year": 8,
+        "YearsSubfolder": "03-Story\\[Year]\\2-Autumn",
+        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\0409-Volume 9",
+        "ProcessedInPartFour": true
+      },
+      {
+        "OriginalFilenames": ["chapter10", "insert6", "chapter10_1"],
+        "SortOrder": "040910",
+        "ChapterName": "Viscount Dahldolf's Estate",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
+        "Year": 8,
+        "YearsSubfolder": "03-Story\\[Year]\\2-Autumn",
+        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\0409-Volume 9",
+        "ProcessedInPartFour": true
+      },
+      {
+        "OriginalFilenames": ["chapter11"],
+        "SortOrder": "040911",
+        "ChapterName": "Finding the Book",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
+        "Year": 8,
+        "YearsSubfolder": "03-Story\\[Year]\\2-Autumn",
+        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\0409-Volume 9",
+        "ProcessedInPartFour": true
+      },
+      {
+        "OriginalFilenames": ["chapter12"],
+        "SortOrder": "040912",
+        "ChapterName": "A Change of Plans",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
+        "Year": 8,
+        "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
+        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\0409-Volume 9",
+        "ProcessedInPartFour": true
+      },
+      {
+        "OriginalFilenames": [ "chapter13", "insert7", "chapter13_1" ],
+        "SortOrder": "040913a",
+        "ChapterName": "Preparing to Leave",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
+        "Year": 8,
+        "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
+        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\0409-Volume 9",
+        "ProcessedInPartFour": true
+      },
+      {
+        "OriginalFilenames": ["chapter14"],
+        "SortOrder": "040914a",
+        "ChapterName": "Separation",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
+        "Year": 8,
+        "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
+        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\0409-Volume 9",
+        "ProcessedInPartFour": true
+      },
+      {
+        "OriginalFilenames": [ "epilogue", "insert8" ],
+        "SortOrder": "040915a",
+        "ChapterName": "Epilogue [Ferdinand]",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
+        "Year": 8,
+        "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
+        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\0409-Volume 9",
+        "ProcessedInPartFour": true
+      },
+      {
+        "OriginalFilenames": [ "chapter15" ],
+        "SortOrder": "040915b",
+        "ChapterName": "Irreplaceable [Sylvester]",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
+        "Year": 8,
+        "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
+        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\0409-Volume 9",
+        "ProcessedInPartFour": true
+      },
+      {
+        "OriginalFilenames": [ "chapter16" ],
+        "SortOrder": "040915c",
+        "ChapterName": "Starting Life in Ahrensbach [Justus]",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
+        "Year": 8,
+        "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
+        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\0409-Volume 9",
+        "ProcessedInPartFour": true
+      },
+      {
+        "OriginalFilenames": [ "chapter17" ],
+        "SortOrder": "040915d",
+        "ChapterName": "The Start of a Busy Winter [Cornelius]",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
+        "Year": 8,
+        "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
+        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\0409-Volume 9",
+        "ProcessedInPartFour": true
+      },
+      {
+        "OriginalFilenames": [ "chapter18", "insert9", "chapter18_1" ],
+        "SortOrder": "040915e",
+        "ChapterName": "Out of Time [Matthias]",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
+        "Year": 8,
+        "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
+        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\0409-Volume 9",
+        "ProcessedInPartFour": true
+      },
+      {
+        "OriginalFilenames": ["chapter19"],
+        "SortOrder": "040915f",
+        "ChapterName": "The New Children [Wilma]",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
+        "Year": 8,
+        "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
+        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\0409-Volume 9",
+        "ProcessedInPartFour": true
+      },
+      {
+        "OriginalFilenames": ["chapter20", "insert10", "chapter20_1"],
+        "SortOrder": "040915g",
+        "ChapterName": "Winter Resolution [Kamil]",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
+        "Year": 8,
+        "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
+        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\0409-Volume 9",
+        "ProcessedInPartFour": true
+      },
+      {
+        "OriginalFilenames": [ "chapter21" ],
+        "SortOrder": "040914b",
+        "ChapterName": "My Son's Departure [Rihyarda]",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
+        "Year": 8,
+        "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
+        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\0409-Volume 9",
+        "ProcessedInPartFour": true
+      },
+      {
+        "OriginalFilenames": [ "chapter22" ],
+        "SortOrder": "040913b",
+        "ChapterName": "Memories and Farewells [Fran]",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
+        "Year": 8,
+        "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
+        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\0409-Volume 9",
+        "ProcessedInPartFour": true
+      }
+    ]
   }
 ]
