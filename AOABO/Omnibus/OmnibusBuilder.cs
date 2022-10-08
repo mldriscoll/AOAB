@@ -1,5 +1,7 @@
 ﻿using AOABO.Config;
+using IronOcr;
 using System.IO.Compression;
+using System.Text.RegularExpressions;
 
 namespace AOABO.Omnibus
 {
@@ -15,6 +17,7 @@ namespace AOABO.Omnibus
             PartFive
         }
 
+        public static string OverrideDirectory = Directory.GetCurrentDirectory() + "\\Overrides\\";
 
         public static void BuildOmnibus()
         {
@@ -207,6 +210,7 @@ namespace AOABO.Omnibus
 
                 foreach (var chapter in chapters)
                 {
+
                     try
                     {
                         bool notFirst = false;
@@ -220,31 +224,39 @@ namespace AOABO.Omnibus
                         };
                         outProcessor.Chapters.Add(newChapter);
 
-                        foreach (var chapterFile in chapter.OriginalFilenames)
+
+                        if (File.Exists(OverrideDirectory + chapter.ChapterName + ".xhtml"))
                         {
-                            try
-                            {
-                                var entry = inChapters.First(x => x.Name.Equals(chapterFile));
-                                newChapter.CssFiles.AddRange(entry.CssFiles);
-                                var fileContent = entry.Contents;
-
-                                if (notFirst)
-                                {
-                                    fileContent = fileContent.Replace("<body class=\"nomargin center\">", string.Empty).Replace("<body>", string.Empty);
-                                }
-                                else
-                                {
-                                    notFirst = true;
-                                }
-                                newChapter.Contents = string.Concat(newChapter.Contents, fileContent.Replace("</body>", string.Empty));
-                            }
-                            catch (Exception ex)
-                            {
-                                throw new Exception($"{ex.Message} while processing file {chapterFile}", ex);
-                            }
+                            newChapter.Contents = File.ReadAllText(OverrideDirectory + chapter.ChapterName + ".xhtml");
                         }
+                        else
+                        {
+                            foreach (var chapterFile in chapter.OriginalFilenames)
+                            {
+                                try
+                                {
+                                    var entry = inChapters.First(x => x.Name.Equals(chapterFile));
+                                    newChapter.CssFiles.AddRange(entry.CssFiles);
+                                    var fileContent = entry.Contents;
 
-                        newChapter.Contents = string.Concat(newChapter.Contents, "</body>");
+                                    if (notFirst)
+                                    {
+                                        fileContent = fileContent.Replace("<body class=\"nomargin center\">", string.Empty).Replace("<body>", string.Empty);
+                                    }
+                                    else
+                                    {
+                                        notFirst = true;
+                                    }
+                                    newChapter.Contents = string.Concat(newChapter.Contents, fileContent.Replace("</body>", string.Empty));
+                                }
+                                catch (Exception ex)
+                                {
+                                    throw new Exception($"{ex.Message} while processing file {chapterFile}", ex);
+                                }
+                            }
+
+                            newChapter.Contents = string.Concat(newChapter.Contents, "</body>");
+                        }
                     }
                     catch (Exception ex)
                     {
