@@ -37,5 +37,23 @@ namespace AOABO.Config
         public bool ProcessedInPartThree { get; set; } = false;
         public bool ProcessedInPartFour { get; set; } = false;
         public bool ProcessedInPartFive { get; set; } = false;
+        public OCRSettings OCR { get; set; }
+    }
+
+    public class OCRSettings {
+        public List<Correction> Corrections { get; set; }
+        public List<Italics> Italics { get; set; }
+    }
+
+    public class Correction
+    {
+        public string Original { get; set; }
+        public string Replacement { get; set; }
+    }
+
+    public class Italics
+    {
+        public string Start { get; set; }
+        public string End { get; set; }
     }
 }

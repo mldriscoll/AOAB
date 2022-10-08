@@ -1,5 +1,6 @@
 ﻿using AOABO;
 using AOABO.Downloads;
+using AOABO.OCR;
 using AOABO.Omnibus;
 
 var executing = true;
@@ -17,6 +18,7 @@ while (executing)
     if (login != null)
     {
         Console.WriteLine("3 - Download Updates");
+        Console.WriteLine("4 - OCR Manga Bonus Written Chapters");
     }
 
     var key = Console.ReadKey();
@@ -33,6 +35,9 @@ while (executing)
             break;
         case ('3', true):
             await Downloader.DoDownloads(client, login.AccessToken);
+            break;
+        case ('4', true):
+            await OCR.BuildOCROverrides(login);
             break;
         default:
             executing = false;

@@ -6282,6 +6282,7 @@
   {
     "InternalName": "M0103",
     "ProcessedInPartOne": true,
+    "OCR": true,
     "Chapters": [
       {
         "OriginalFilenames": [ "184", "185", "186", "187", "188", "189", "190" ],
@@ -6292,7 +6293,73 @@
         "Year": 1,
         "YearsSubfolder": "03-Story\\[Year]\\1-Summer",
         "VolumeSubfolder": "01-Daughter of a Soldier\\0101-Volume 1",
-        "ProcessedInPartOne": true
+        "ProcessedInPartOne": true,
+        "OCR": {
+          "Corrections": [
+            {
+              "Original": "..A",
+              "Replacement": "...A"
+            },
+            {
+              "Original": " .. t",
+              "Replacement": "\r\n</p><p>...I t"
+            },
+            {
+              "Original": ",’",
+              "Replacement": ",”"
+            },
+            {
+              "Original": ".  “I",
+              "Replacement": ".</p>\r\n<p>“I"
+            },
+            {
+              "Original": "T believe",
+              "Replacement": "I believe"
+            },
+            {
+              "Original": ".  “G",
+              "Replacement": ".</p>\r\n<p>“G"
+            },
+            {
+              "Original": "” “",
+              "Replacement": "”</p>\r\n<p>“"
+            },
+            {
+              "Original": ".  “,.Oh?” ",
+              "Replacement": ".</p>\r\n<p>“...Oh?” "
+            },
+            {
+              "Original": "“..H",
+              "Replacement": "“...H"
+            },
+            {
+              "Original": ".  ... Ha",
+              "Replacement": ".</p>\r\n<p>...Ha"
+            },
+            {
+              "Original": "“,.G",
+              "Replacement": "“...G"
+            },
+            {
+              "Original": "”  “",
+              "Replacement": "”</p>\r\n<p>“"
+            }
+          ],
+          "Italics": [
+            {
+              "Start": "...I",
+              "End": "possible."
+            },
+            {
+              "Start": "But I",
+              "End": "that."
+            },
+            {
+              "Start": "...Ha",
+              "End": "s?!"
+            }
+          ]
+        }
       }
     ]
   },

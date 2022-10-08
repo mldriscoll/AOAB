@@ -14,22 +14,7 @@ namespace AOABO.Downloads
             Console.WriteLine("Unfortunately, the j-novel.club api does not track manga updates, so manga will only be downloaded if a file is missing.");
             Console.WriteLine();
 
-            client.DefaultRequestHeaders.Authorization =
-      new AuthenticationHeaderValue("Bearer", token);
-
-            var libraryCall = await client.GetAsync("https://labs.j-novel.club/app/v1/me/library?format=json");
-            LibraryResponse? library;
-            using (var loginStream = await libraryCall.Content.ReadAsStreamAsync())
-            {
-                var deserializer = new DataContractJsonSerializer(typeof(LibraryResponse));
-                library = deserializer.ReadObject(loginStream) as LibraryResponse;
-            }
-
-            if (library == null) return;
-
-
-            client.DefaultRequestHeaders.Authorization =
-      null;
+            var library = await GetLibrary(client, token);
 
             var epubs = Directory.GetFiles(Directory.GetCurrentDirectory(), "*.epub");
             foreach (var fileName in Config.Configuration.VolumeNames)
@@ -80,6 +65,29 @@ namespace AOABO.Downloads
             }
         }
 
+        private static async Task<LibraryResponse> GetLibrary(HttpClient client, string token)
+        {
+            client.DefaultRequestHeaders.Authorization =
+new AuthenticationHeaderValue("Bearer", token);
+
+            var libraryCall = await client.GetAsync("https://labs.j-novel.club/app/v1/me/library?format=json");
+            LibraryResponse? library;
+            using (var loginStream = await libraryCall.Content.ReadAsStreamAsync())
+            {
+                var deserializer = new DataContractJsonSerializer(typeof(LibraryResponse));
+                library = deserializer.ReadObject(loginStream) as LibraryResponse;
+            }
+
+            if (library == null) throw new Exception("Failed to load j-novel.club library");
+
+
+            client.DefaultRequestHeaders.Authorization =
+      null;
+
+            return library;
+        }
+
+
         static Regex mangaSizeRegex = new Regex("\\?height=.*&");
 
         private async static Task doDownload(LibraryResponse.Book book, VolumeName name, HttpClient client)
@@ -114,6 +122,23 @@ namespace AOABO.Downloads
                 using (var fileStream = File.OpenWrite(name.FileName))
                 {
                     await stream.CopyToAsync(fileStream);
+                }
+            }
+        }
+
+        public async static Task DownloadSpecificVolume(string slug, string token, string fileName, HttpClient client)
+        {
+            var library = await GetLibrary(client, token);
+
+            var libraryBook = library.books.FirstOrDefault(x => x.volume.slug.Equals(slug, StringComparison.InvariantCultureIgnoreCase));
+
+            var download = libraryBook.downloads.Last();
+
+            using (var stream = await client.GetStreamAsync(download.link))
+            {
+                using (var filestream = File.OpenWrite(fileName))
+                {
+                    await stream.CopyToAsync(filestream);
                 }
             }
         }
