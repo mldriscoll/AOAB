@@ -638,7 +638,7 @@
       {
         "OriginalFilenames": [ "frontmatter3" ],
         "SortOrder": "01",
-        "ChapterName": "Ehrenfest City Map",
+        "ChapterName": "Ehrenfest City",
         "FlatSubfolder": "05-Maps",
         "PartsSubfolder": "10-Maps",
         "YearsSubfolder": "05-Maps",
@@ -2250,6 +2250,9 @@
     "InternalName": "FB1",
     "ProcessedInPartOne": true,
     "ProcessedInPartTwo": true,
+    "ProcessedInPartThree": true,
+    "ProcessedInPartFour": true,
+    "ProcessedInPartFive": true,
     "Chapters": [
       {
         "OriginalFilenames": [ "temple", "24", "temple_1" ],
@@ -2261,6 +2264,19 @@
         "YearsSubfolder": "03-Story\\[Year]\\4-Spring",
         "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0204-Volume 4",
         "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "24" ],
+        "SortOrder": "03",
+        "ChapterName": "Ehrenfest Temple Floor Plan",
+        "FlatSubfolder": "05-Maps",
+        "PartsSubfolder": "10-Maps",
+        "YearsSubfolder": "05-Maps",
+        "VolumeSubfolder": "05-Maps",
+        "ProcessedInPartTwo": true,
+        "ProcessedInPartThree": true,
+        "ProcessedInPartFour": true,
+        "ProcessedInPartFive": true
       },
       {
         "OriginalFilenames": [ "37", "38", "39", "40", "41", "42", "43", "44" ],
@@ -3170,6 +3186,7 @@
     "ProcessedInPartTwo": true,
     "ProcessedInPartThree": true,
     "ProcessedInPartFour": true,
+    "ProcessedInPartFive": true,
     "Chapters": [
       {
         "OriginalFilenames": [ "side1", 2 ],
@@ -3247,6 +3264,17 @@
         "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
         "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\0401-Volume 1",
         "ProcessedInPartFour": true
+      },
+      {
+        "OriginalFilenames": [ "3" ],
+        "SortOrder": "06",
+        "ChapterName": "Rozemyne's Academy Chambers",
+        "FlatSubfolder": "05-Maps",
+        "PartsSubfolder": "10-Maps",
+        "YearsSubfolder": "05-Maps",
+        "VolumeSubfolder": "05-Maps",
+        "ProcessedInPartFour": true,
+        "ProcessedInPartFive": true
       },
       {
         "OriginalFilenames": [ "11", "12", "13", "14", "15", "16", "17" ],
@@ -3638,7 +3666,7 @@
       {
         "OriginalFilenames": [ "map" ],
         "SortOrder": "02",
-        "ChapterName": "Ehrenfest Duchy Map",
+        "ChapterName": "Ehrenfest Duchy",
         "FlatSubfolder": "05-Maps",
         "PartsSubfolder": "10-Maps",
         "YearsSubfolder": "05-Maps",
@@ -3651,8 +3679,8 @@
       },
       {
         "OriginalFilenames": [ "insert10" ],
-        "SortOrder": "03",
-        "ChapterName": "Jureve Ingredient Map",
+        "SortOrder": "04",
+        "ChapterName": "Jureve Ingredients",
         "FlatSubfolder": "05-Maps",
         "PartsSubfolder": "10-Maps",
         "YearsSubfolder": "05-Maps",
@@ -5908,8 +5936,8 @@
     "Chapters": [
       {
         "OriginalFilenames": [ "map2" ],
-        "SortOrder": "04",
-        "ChapterName": "Yurgenschmidt Map",
+        "SortOrder": "05",
+        "ChapterName": "Yurgenschmidt",
         "FlatSubfolder": "05-Maps",
         "PartsSubfolder": "10-Maps",
         "YearsSubfolder": "05-Maps",
@@ -6703,6 +6731,19 @@
         "YearsSubfolder": "04-Manga",
         "VolumeSubfolder": "02-Apprentice Shrine Maiden\\03-A Comfy Life with my Family",
         "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "003", "002" ],
+        "SortOrder": "03",
+        "ChapterName": "Ehrenfest Temple",
+        "FlatSubfolder": "05-Maps",
+        "PartsSubfolder": "10-Maps",
+        "YearsSubfolder": "05-Maps",
+        "VolumeSubfolder": "05-Maps",
+        "ProcessedInPartTwo": true,
+        "ProcessedInPartThree": true,
+        "ProcessedInPartFour": true,
+        "ProcessedInPartFive": true
       }
     ]
   },
