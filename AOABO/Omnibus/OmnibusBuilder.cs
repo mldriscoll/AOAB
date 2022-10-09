@@ -258,6 +258,10 @@ namespace AOABO.Omnibus
             outProcessor.Metadata.Add("<meta name=\"cover\" content=\"cover.jpg\" />");
             outProcessor.Images.Add(new Processor.Image { Name = "cover.jpg", Referenced = true, OldLocation = "cover.jpg" });
 
+            var coverContents = File.ReadAllText("Reference\\cover.txt");
+
+            outProcessor.Chapters.Add(new Processor.Chapter { Contents = coverContents, Name = "Cover.xhtml", SortOrder = "00", SubFolder = string.Empty });
+
             if (File.Exists($"{bookTitle}.epub")) File.Delete($"{bookTitle}.epub");
 
             outProcessor.Metadata.Add(@$"<dc:title>{bookTitle}</dc:title>");

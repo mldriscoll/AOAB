@@ -55,9 +55,14 @@ namespace AOABO.Processor
 
             foreach (var chapter in Chapters.OrderBy(x => x.SubFolder + "\\" + x.SortOrder))
             {
-                var subdir = $"{ folder }\\{ chapter.SubFolder}";
-                var cssLink = chapter.SubFolder.Split('\\').Aggregate(string.Empty, (agg, str) => string.Concat(agg, "../"));
-                Directory.CreateDirectory(subdir);
+                string subdir = folder;
+                string cssLink = string.Empty;
+                if (!string.IsNullOrWhiteSpace(chapter.SubFolder))
+                {
+                    subdir = $"{ folder }\\{ chapter.SubFolder}";
+                    cssLink = chapter.SubFolder.Split('\\').Aggregate(string.Empty, (agg, str) => string.Concat(agg, "../"));
+                    Directory.CreateDirectory(subdir);
+                }
 
                 while (File.Exists($"{subdir}\\{chapter.FileName}"))
                 {
@@ -81,16 +86,17 @@ namespace AOABO.Processor
                         folderName = fold.Substring(index + 1);
                     }
 
-
-                    var np = nps.FirstOrDefault(x => x.Label.Equals(folderName));
-                    if (np == null)
+                    if (!string.IsNullOrWhiteSpace(chapter.SubFolder))
                     {
-                        np = new NavPoint { Label = folderName, Source = Uri.EscapeUriString(chapter.SubFolder.Replace('\\', '/') + "/" + chapter.FileName), Id = tocCounter };
-                        tocCounter++;
-                        nps.Add(np);
+                        var np = nps.FirstOrDefault(x => x.Label.Equals(folderName));
+                        if (np == null)
+                        {
+                            np = new NavPoint { Label = folderName, Source = Uri.EscapeUriString(chapter.SubFolder.Replace('\\', '/') + "/" + chapter.FileName), Id = tocCounter };
+                            tocCounter++;
+                            nps.Add(np);
+                        }
+                        nps = np.navPoints;
                     }
-
-                    nps = np.navPoints;
                 }
 
                 if (textOnly)
