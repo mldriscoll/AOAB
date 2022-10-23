@@ -127,7 +127,7 @@ namespace AOABO.OCR
 
                     if (!block.Equals(Result.Blocks.Last()))
                     {
-                        text.Add("<br/><br/>");
+                        text.Add("<br/>");
                     }
                 }
 

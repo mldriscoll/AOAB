@@ -6366,6 +6366,7 @@
   {
     "InternalName": "M0104",
     "ProcessedInPartOne": true,
+    "OCR": true,
     "Chapters": [
       {
         "OriginalFilenames": [ "166", "167", "168", "169", "170", "171", "172", "173" ],
@@ -6376,7 +6377,73 @@
         "Year": 1,
         "YearsSubfolder": "03-Story\\[Year]\\1-Summer",
         "VolumeSubfolder": "01-Daughter of a Soldier\\0102-Volume 2",
-        "ProcessedInPartOne": true
+        "ProcessedInPartOne": true,
+        "OCR": {
+          "Corrections": [
+            {
+              "Original": "foremand",
+              "Replacement": "foreman"
+            },
+            {
+              "Original": "ones.  “It",
+              "Replacement": "ones.</p>\r\n<p>“It"
+            },
+            {
+              "Original": "“Hm.",
+              "Replacement": "“...Hm."
+            },
+            {
+              "Original": " | ",
+              "Replacement": " I "
+            },
+            {
+              "Original": "“,.My",
+              "Replacement": "“...My"
+            },
+            {
+              "Original": "“Alright, I get",
+              "Replacement": "“...Alright, I get"
+            },
+            {
+              "Original": ",..",
+              "Replacement": "..."
+            },
+            {
+              "Original": "be.”  “Doesn't",
+              "Replacement": "be.”</p>\r\n<p>“Doesn't"
+            },
+            {
+              "Original": "deepest groove. ",
+              "Replacement": "deepest groove.”"
+            },
+            {
+              "Original": "“How's this",
+              "Replacement": "“...How's this"
+            },
+            {
+              "Original": "sweat.  He",
+              "Replacement": "sweat.</p>\r\n<p>He"
+            },
+            {
+              "Original": "professional.  My",
+              "Replacement": "professional.</p>\r\n<p>My"
+            }
+          ],
+          "Italics": [
+            {
+              "Start": "...One day",
+              "End": "chores and stuff."
+            },
+            {
+              "Start": "...He’s not",
+              "End": "errands?!"
+            },
+            {
+              "Start": "Gah...!",
+              "End": "good too!"
+            }
+          ]
+        }
       }
     ]
   },
