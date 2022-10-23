@@ -6450,6 +6450,7 @@
   {
     "InternalName": "M0105",
     "ProcessedInPartOne": true,
+    "OCR": true,
     "Chapters": [
       {
         "OriginalFilenames": [ "176", "177", "178", "179", "180", "181", "182", "183", "184", "185" ],
@@ -6460,7 +6461,89 @@
         "Year": 1,
         "YearsSubfolder": "03-Story\\[Year]\\2-Autumn",
         "VolumeSubfolder": "01-Daughter of a Soldier\\0102-Volume 2",
-        "ProcessedInPartOne": true
+        "ProcessedInPartOne": true,
+        "OCR": {
+          "Corrections": [
+            {
+              "Original": "IT had",
+              "Replacement": "I had"
+            },
+            {
+              "Original": "“T believe",
+              "Replacement": "“I believe"
+            },
+            {
+              "Original": "given.  “I hear",
+              "Replacement": "given.</p>\r\n<p>“I hear"
+            },
+            {
+              "Original": "Huh...¢ Not much change in Ahrensbach? 1 furrowed",
+              "Replacement": "Huh...? Not much change in Ahrensbach? I furrowed"
+            },
+            {
+              "Original": "unchanged.  ..Which",
+              "Replacement": "unchanged.</p>\r\n<p>...Which"
+            },
+            {
+              "Original": "“,.1m gonna keep",
+              "Replacement": "“...I'm gonna keep"
+            },
+            {
+              "Original": "... [hough",
+              "Replacement": "...Though"
+            },
+            {
+              "Original": "Pll",
+              "Replacement": "I'll"
+            },
+            {
+              "Original": "always.”  That marked",
+              "Replacement": "always.”</p>\r\n<p>That marked"
+            },
+            {
+              "Original": "all.  Let’s just",
+              "Replacement": "all.</p>\r\n<p>Let’s just"
+            },
+            {
+              "Original": "while.  “You have",
+              "Replacement": "while.</p>\r\n<p>“You have"
+            },
+            {
+              "Original": "..Just you",
+              "Replacement": "...Just you"
+            }
+          ],
+          "Italics": [
+            {
+              "Start": "...Are",
+              "End": "alright?"
+            },
+            {
+              "Start": "Huh...",
+              "End": "change in Ahrensbach?"
+            },
+            {
+              "Start": "...Though",
+              "End": "don’t have a choice."
+            },
+            {
+              "Start": "... Just what",
+              "End": "geezer planning?!"
+            },
+            {
+              "Start": "The hairpins?!",
+              "End": "The hairpins?!"
+            },
+            {
+              "Start": "This freaking geezer!",
+              "End": "hairpins for them!"
+            },
+            {
+              "Start": "...Just you wait",
+              "End": "last forever."
+            }
+          ]
+        }
       }
     ]
   },
