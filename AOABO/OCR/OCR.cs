@@ -78,6 +78,7 @@ namespace AOABO.OCR
                 }
 
                 var oContent = new List<string>();
+                var previous = string.Empty;
                 foreach (var line in OcrContent)
                 {
                     var l = line;
@@ -90,7 +91,18 @@ namespace AOABO.OCR
                     {
                         l = l.Replace(italic.Start, $"<i>{italic.Start}").Replace(italic.End, $"{italic.End}</i>");
                     }
-                    oContent.Add(l);
+
+                    if (!chapter.OCR.Skip.Any(x => x.Equals(l)))
+                    {
+                        if (!previous.Equals(l))
+                        {
+                            previous = l;
+                            oContent.Add(l);
+
+                            if (chapter.OCR.RemoveBreakAfter.Any(x => x.Equals(l)))
+                                previous = "<br/>";
+                        }
+                    }
                 }
 
 

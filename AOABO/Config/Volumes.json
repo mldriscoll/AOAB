@@ -6550,6 +6550,7 @@
   {
     "InternalName": "M0106",
     "ProcessedInPartOne": true,
+    "OCR": true,
     "Chapters": [
       {
         "OriginalFilenames": [ "171", "172", "173", "174", "175", "176", "177", "178", "180" ],
@@ -6571,13 +6572,108 @@
         "Year": 1,
         "YearsSubfolder": "03-Story\\[Year]\\4-Spring",
         "VolumeSubfolder": "01-Daughter of a Soldier\\0103-Volume 3",
-        "ProcessedInPartOne": true
+        "ProcessedInPartOne": true,
+        "OCR": {
+          "Corrections": [
+            {
+              "Original": "“T ",
+              "Replacement": "“I "
+            },
+            {
+              "Original": "‘winter preparations,",
+              "Replacement": "‘winter preparations,’"
+            },
+            {
+              "Original": "[d",
+              "Replacement": "I’d"
+            },
+            {
+              "Original": "meat.  “",
+              "Replacement": "meat.</p>\r\n<p>“"
+            },
+            {
+              "Original": ".”  “,.oure",
+              "Replacement": ".”</p>\r\n<p>“...You’re"
+            },
+            {
+              "Original": "sure.” If only",
+              "Replacement": "sure.”</p>\r\n<p>If only"
+            },
+            {
+              "Original": "“TI",
+              "Replacement": "“I"
+            },
+            {
+              "Original": "...2",
+              "Replacement": "...?"
+            },
+            {
+              "Original": "pleased. </p>\r\n<p>“Master",
+              "Replacement": "pleased. “Master"
+            },
+            {
+              "Original": "... S",
+              "Replacement": "...S"
+            },
+            {
+              "Original": "1 thought",
+              "Replacement": "I thought"
+            },
+            {
+              "Original": "me.” “No. Youre imagining things.”  I",
+              "Replacement": "me.”</p>\r\n<p>“No. You’re imagining things.”</p>\r\n<p>I"
+            },
+            {
+              "Original": "..1 wont",
+              "Replacement": "...I won’t"
+            },
+            {
+              "Original": "youre",
+              "Replacement": "you’re"
+            },
+            {
+              "Original": "n't",
+              "Replacement": "n’t"
+            },
+            {
+              "Original": "You've",
+              "Replacement": "You’ve"
+            }
+          ],
+          "Italics": [
+            {
+              "Start": "If only she would",
+              "End": "only just begun..."
+            },
+            {
+              "Start": "...What a",
+              "End": "wonderful idea!"
+            },
+            {
+              "Start": "...She only has",
+              "End": "work of Benno!"
+            },
+            {
+              "Start": "I suppose I'll",
+              "End": "Gilberta Company..."
+            },
+            {
+              "Start": "Finally, we",
+              "End": "again!"
+            },
+            {
+              "Start": "...I won’t miss this opportunity, no matter what. I will defeat Benno!",
+              "End": "defeat Benno!"
+            }
+          ]
+        }
       }
     ]
   },
   {
     "InternalName": "M0107",
     "ProcessedInPartOne": true,
+    "OCR": true,
     "Chapters": [
       {
         "OriginalFilenames": [ "210", "211", "212", "213", "214", "215", "216", "217", "218", "219", "220", "221" ],
@@ -6588,7 +6684,165 @@
         "Year": 2,
         "YearsSubfolder": "03-Story\\[Year]\\1-Summer",
         "VolumeSubfolder": "01-Daughter of a Soldier\\0103-Volume 3",
-        "ProcessedInPartOne": true
+        "ProcessedInPartOne": true,
+        "OCR": {
+          "Corrections": [
+            {
+              "Original": "Benno’s “That’s all.” The grimace he wore was to mask his pain, and [ had grown very familiar with it since Liz’s death. My expression clouded over as well. “I won't stop you. If you ",
+              "Replacement": "My expression clouded over as well. “I won’t stop you. If you can help her, you should.”"
+            },
+            {
+              "Original": "“T ",
+              "Replacement": "“I "
+            },
+            {
+              "Original": "money.  “The temple summoned",
+              "Replacement": "money.</p>\r\n<p>“The temple summoned"
+            },
+            {
+              "Original": "successor,’",
+              "Replacement": "successor,”"
+            },
+            {
+              "Original": "“Did you know",
+              "Replacement": "“...Did you know"
+            },
+            {
+              "Original": "store, ",
+              "Replacement": "store,” "
+            },
+            {
+              "Original": ",..",
+              "Replacement": "..."
+            },
+            {
+              "Original": "'",
+              "Replacement": "’"
+            },
+            {
+              "Original": "I wasn’t dense or foolish enough to miss the weight behind ",
+              "Replacement": "I wasn’t dense or foolish enough to miss the weight behind Benno’s “That’s all.” The grimace he wore was to mask his pain, and I had grown very familiar with it since Liz’s death."
+            },
+            {
+              "Original": "can help her, you should.”  “Sheesh...",
+              "Replacement": "“Sheesh..."
+            },
+            {
+              "Original": "itll",
+              "Replacement": "it’ll"
+            },
+            {
+              "Original": "the sewing process,",
+              "Replacement": "the sewing process,”"
+            },
+            {
+              "Original": "Iam",
+              "Replacement": "I am"
+            },
+            {
+              "Original": "of her family.  Both Effa and Tuuli",
+              "Replacement": "of her family.</p>\r\n<p>Both Effa and Tuuli"
+            },
+            {
+              "Original": "T’m",
+              "Replacement": "I’m"
+            },
+            {
+              "Original": "followed Myne’s suggestion,",
+              "Replacement": "followed Myne’s suggestion,”"
+            },
+            {
+              "Original": "flower,’",
+              "Replacement": "flower,”"
+            },
+            {
+              "Original": "Freida,’",
+              "Replacement": "Freida,”"
+            },
+            {
+              "Original": "with excitement.  After talking",
+              "Replacement": "with excitement.</p>\r\n<p>After talking"
+            },
+            {
+              "Original": "Tm",
+              "Replacement": "I’m"
+            },
+            {
+              "Original": "Pve",
+              "Replacement": "I’ve"
+            },
+            {
+              "Original": "just a stranger.”  \"T ",
+              "Replacement": "just a stranger.”</p>\r\n<p>“I "
+            },
+            {
+              "Original": "and J",
+              "Replacement": "and I"
+            },
+            {
+              "Original": "backs.  This",
+              "Replacement": "backs.</p>\r\n<p>This"
+            },
+            {
+              "Original": "Youre",
+              "Replacement": "You’re"
+            },
+            {
+              "Original": "“Because she just altered my baptism outfit,” Tuuli explained. ",
+              "Replacement": "“Because she just altered my baptism outfit,” Tuuli explained. “When I wore it, you could see the embroidery just fine. But the clothes drooped down from Myne’s shoulders and stuff, since it was too long for her arms and legs, so...”"
+            },
+            {
+              "Original": "“When I wore it, you could see the embroidery just fine. But the clothes drooped down from Myne’s shoulders and stuff, since it was too long for her arms and legs, so...” ",
+              "Replacement": "<br/>"
+            },
+            {
+              "Original": "say golds?!",
+              "Replacement": "say <i>golds</i>?!"
+            },
+            {
+              "Original": "downs without modifying",
+              "Replacement": "downs <i>without</i> modifying"
+            }
+          ],
+          "Italics": [
+            {
+              "Start": "And she had the Devouring?",
+              "End": "And she had the Devouring?"
+            },
+            {
+              "Start": "Her speech is",
+              "End": "of her family."
+            },
+            {
+              "Start": "Like this,",
+              "End": "perhaps...?"
+            },
+            {
+              "Start": "I wonder how",
+              "End": "against Benno...?"
+            },
+            {
+              "Start": "One large gold",
+              "End": "impressive indeed."
+            },
+            {
+              "Start": "This has to",
+              "End": "for her parents"
+            },
+            {
+              "Start": "Something tells me",
+              "End": "just like this."
+            }
+          ],
+          "Skip": [
+            "> « "
+          ],
+          "RemoveBreakAfter": [
+            "I wasn’t dense or foolish enough to miss the weight behind Benno’s “That’s all.” The grimace he wore was to mask his pain, and I had grown very familiar with it since Liz’s death.",
+            "My expression clouded over as well. “I won’t stop you. If you can help her, you should.”",
+            "“Because she just altered my baptism outfit,” Tuuli explained. “When I wore it, you could see the embroidery just fine. But the clothes drooped down from Myne’s shoulders and stuff, since it was too long for her arms and legs, so...”"
+          ]
+        }
       }
     ]
   },
