@@ -18,7 +18,9 @@ namespace AOABO.OCR
 
         internal static async Task BuildOCROverrides(Login login)
         {
-            if(!Directory.Exists(overrideDirectory)) Directory.CreateDirectory(overrideDirectory);
+            IronOcr.Installation.LicenseKey = "IRONOCR.FREETRIAL.20322-486E55E083-ACZD3RTYRBA4OGZW-GWGJKFOCQ5EZ-7PYKKXLHQ6ID-KEUSYXK4JIOZ-4NTZKQN5XAA3-PHVKHJ-TJLFVJDIJW6IEA-DEPLOYMENT.TRIAL-SVDJ2L.TRIAL.EXPIRES.05.DEC.2022";
+
+            if (!Directory.Exists(overrideDirectory)) Directory.CreateDirectory(overrideDirectory);
             if(Directory.Exists(tempDirectory)) Directory.Delete(tempDirectory, true);
 
             foreach(var vol in Configuration.Volumes.Where(x => x.OCR))
