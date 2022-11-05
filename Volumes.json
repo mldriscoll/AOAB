@@ -2157,7 +2157,7 @@
         "ProcessedInPartTwo": true
       },
       {
-        "OriginalFilenames": [ "epilogue" ],
+        "OriginalFilenames": [ "epilogue", "insert8", "epilogue_1" ],
         "SortOrder": "020416a",
         "ChapterName": "Epilogue [Lutz]",
         "FlatSubfolder": "03-Story",
@@ -6849,6 +6849,7 @@
   {
     "InternalName": "M0201",
     "ProcessedInPartTwo": true,
+    "OCR": true,
     "Chapters": [
       {
         "OriginalFilenames": [ "186", "187", "188", "189", "190", "191", "192", "193", "194", "195" ],
@@ -6859,7 +6860,97 @@
         "Year": 2,
         "YearsSubfolder": "03-Story\\[Year]\\1-Summer",
         "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0201-Volume 1",
-        "ProcessedInPartTwo": true
+        "ProcessedInPartTwo": true,
+        "OCR": {
+          "Corrections": [
+            {
+              "Original": "T ",
+              "Replacement": "I "
+            },
+            {
+              "Original": "else.”  “What?",
+              "Replacement": "else.”</p>\r\n<p>“What?"
+            },
+            {
+              "Original": "complete,’",
+              "Replacement": "complete,”"
+            },
+            {
+              "Original": "provided.”  We",
+              "Replacement": "provided.”</p>\r\n<p>We"
+            },
+            {
+              "Original": "|",
+              "Replacement": "I"
+            },
+            {
+              "Original": "'",
+              "Replacement": "’"
+            },
+            {
+              "Original": "“Tt",
+              "Replacement": "“It"
+            },
+            {
+              "Original": "eat.”  Gil",
+              "Replacement": "eat.”</p>\r\n<p>Gil"
+            },
+            {
+              "Original": "’’m",
+              "Replacement": "I’m"
+            },
+            {
+              "Original": "Fran.”  Fran",
+              "Replacement": "Fran.”</p>\r\n<p>Fran"
+            },
+            {
+              "Original": "...2",
+              "Replacement": "...?"
+            },
+            {
+              "Original": "to serve.  The High",
+              "Replacement": "to serve.</p>\r\n<p>The High"
+            },
+            {
+              "Original": ",.Zahm",
+              "Replacement": "...Zahm"
+            },
+            {
+              "Original": "happening here.  The merchant",
+              "Replacement": "happening here.</p>\r\n<p>The merchant"
+            },
+            {
+              "Original": "However...  “Fran",
+              "Replacement": "However...</p>\r\n<p>“Fran"
+            },
+            {
+              "Original": "Is this truly wise, though?",
+              "Replacement": "Is this truly wise, though?”"
+            },
+            {
+              "Original": "1 remember",
+              "Replacement": "I remember"
+            }
+          ],
+          "Italics": [
+            {
+              "Start": "Fran, why are",
+              "End": "happening here."
+            },
+            {
+              "Start": "Collapse?",
+              "End": "walking...?"
+            },
+            {
+              "Start": "Perhaps this",
+              "End": "temper again?"
+            },
+            {
+              "Start": "However...",
+              "End": "However..."
+            }
+          ]
+        }
       }
     ]
   },
