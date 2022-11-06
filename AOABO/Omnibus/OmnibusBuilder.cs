@@ -267,12 +267,12 @@ namespace AOABO.Omnibus
             }
 
             outProcessor.baseFolder = Directory.GetCurrentDirectory();
-            outProcessor.Metadata.Add("<meta name=\"cover\" content=\"cover.jpg\" />");
+            outProcessor.Metadata.Add("<meta name=\"cover\" content=\"images/cover.jpg\" />");
             outProcessor.Images.Add(new Processor.Image { Name = "cover.jpg", Referenced = true, OldLocation = "cover.jpg" });
 
             var coverContents = File.ReadAllText("Reference\\cover.txt");
 
-            outProcessor.Chapters.Add(new Processor.Chapter { Contents = coverContents, Name = "Cover.xhtml", SortOrder = "00", SubFolder = string.Empty });
+            outProcessor.Chapters.Add(new Processor.Chapter { Contents = coverContents, Name = "Cover.xhtml", SortOrder = "00", SubFolder = "00-Cover" });
 
             if (File.Exists($"{bookTitle}.epub")) File.Delete($"{bookTitle}.epub");
 

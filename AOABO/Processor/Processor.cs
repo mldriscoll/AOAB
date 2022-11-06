@@ -26,6 +26,22 @@ namespace AOABO.Processor
                 name = Console.ReadLine();
             }
 
+            foreach(var chapter in Chapters)
+            {
+                foreach (var imMatch in imageRegex.Matches(chapter.Contents))
+                {
+                    var match = (Match)imMatch;
+
+                    var imageFile = match.Value.Replace("src=\"", "").Replace("xlink:href=\"", "").Replace("[ImageFolder]/", string.Empty).Replace("\"", "");
+                    var im = Images.FirstOrDefault(x => x.Name.Equals(imageFile, StringComparison.OrdinalIgnoreCase));
+
+                    if (im != null)
+                    {
+                        im.Referenced = true;
+                    }
+                }
+            }
+
             File.WriteAllText(folder + "\\css.css", CSS.Aggregate(string.Empty, (file, css) => string.Concat(file, $"{css.Name} {css.Contents}\r\n")));
             List<string> manifest = new List<string>();
             List<string> spine = new List<string>();
@@ -37,16 +53,8 @@ namespace AOABO.Processor
 
                 foreach (var im in Images.Where(x => x.Referenced))
                 {
-                    if (im.Name.Equals("cover.jpg"))
-                    {
-                        File.Copy(im.OldLocation, folder + "\\" + im.Name);
-                        manifest.Add($"    <item id={"\""}im{Images.IndexOf(im)}{"\""} href={"\""}{im.Name}{"\""} media-type={"\""}image/jpeg{"\""}/>");
-                    }
-                    else
-                    {
-                        File.Copy(im.OldLocation, folder + "\\images\\" + im.Name);
-                        manifest.Add($"    <item id={"\""}im{Images.IndexOf(im)}{"\""} href={"\""}images/{im.Name}{"\""} media-type={"\""}image/jpeg{"\""}/>");
-                    }
+                    File.Copy(im.OldLocation, folder + "\\images\\" + im.Name);
+                    manifest.Add($"    <item id={"\""}im{Images.IndexOf(im)}{"\""} href={"\""}images/{im.Name}{"\""} media-type={"\""}image/jpeg{"\""}/>");
                 }
             }
 
@@ -116,6 +124,7 @@ namespace AOABO.Processor
                 File.WriteAllText($"{subdir}\\{chapter.FileName}", $@"<?xml version='1.0' encoding='utf-8'?>
 <html xmlns={"\""}http://www.w3.org/1999/xhtml{"\""} xmlns:epub={"\""}http://www.idpf.org/2007/ops{"\""} xml:lang={"\""}en{"\""}>
   <head>
+    <title>Ascendance of a Bookworm Omnibus</title>
     <meta http-equiv={"\""}Content-Type{"\""} content={"\""}text/html; charset=utf-8{"\""} />
   <link rel={"\""}stylesheet{"\""} type={"\""}text/css{"\""} href={"\""}{cssLink}css.css{"\""} />
 </head>{ chapter.Contents}</html>");
@@ -136,7 +145,7 @@ namespace AOABO.Processor
   <spine toc={"\""}ncx{"\""}>
 {spine.Aggregate(string.Empty, (agg, str) => string.Concat(agg, str, "\r\n"))}  </spine>
   <guide>
-    <reference type={"\""}cover{"\""} href={"\""}images/{Images.FirstOrDefault().Name}{"\""} title={"\""}Cover{"\""}/>    
+    <reference type={"\""}cover{"\""} href={"\""}00-Cover/00-Cover.xhtml{"\""} title={"\""}Cover{"\""}/>    
   </guide>
 </package>
 ");
@@ -407,7 +416,6 @@ namespace AOABO.Processor
 
                 if (im != null)
                 {
-                    im.Referenced = true;
                     ImageReplacements.Add(new Tuple<string, string>(imageFile, $"[ImageFolder]/{im.Name}"));
                 }
             }
