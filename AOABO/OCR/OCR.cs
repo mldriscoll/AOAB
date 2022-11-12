@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using Windows.Media.Ocr;
 
 namespace AOABO.OCR
 {
@@ -19,6 +20,7 @@ namespace AOABO.OCR
         internal static async Task BuildOCROverrides(Login login)
         {
             IronOcr.Installation.LicenseKey = "IRONOCR.FREETRIAL.20322-486E55E083-ACZD3RTYRBA4OGZW-GWGJKFOCQ5EZ-7PYKKXLHQ6ID-KEUSYXK4JIOZ-4NTZKQN5XAA3-PHVKHJ-TJLFVJDIJW6IEA-DEPLOYMENT.TRIAL-SVDJ2L.TRIAL.EXPIRES.05.DEC.2022";
+
 
             if (!Directory.Exists(overrideDirectory)) Directory.CreateDirectory(overrideDirectory);
             if(Directory.Exists(tempDirectory)) Directory.Delete(tempDirectory, true);
@@ -50,27 +52,43 @@ namespace AOABO.OCR
         {
             try
             {
+                OcrEngine ocrEngine = OcrEngine.TryCreateFromLanguage(OcrEngine.AvailableRecognizerLanguages.First(x => x.LanguageTag.Equals("en-US")));
+
                 string chapterContent = string.Empty;
 
                 var OcrContent = new List<string>();
                 foreach (var chapterFile in chapter.OriginalFilenames)
                 {
+                    var memStream = new MemoryStream();
+                    using (var stream = File.OpenRead($"{tempDirectory}\\item\\image\\i-{chapterFile:000}.jpg"))
+                    {
+                        await stream.CopyToAsync(memStream);
+                    }
+                    var bd = await Windows.Graphics.Imaging.BitmapDecoder.CreateAsync(memStream.AsRandomAccessStream());
+
+                    var result = await ocrEngine.RecognizeAsync(await bd.GetSoftwareBitmapAsync());
                     try
                     {
-                        if (OcrContent.Count > 0)
+                        if (result.Lines.Count > 0)
                         {
-                            var last = OcrContent.Last();
-                            OcrContent.Remove(last);
-
-                            var newOcr = OCRX(chapterFile);
-
-                            OcrContent.Add($"{last} {newOcr.First()}");
-
-                            OcrContent.AddRange(newOcr.Skip(1));
-                        }
-                        else
-                        {
-                            OcrContent.AddRange(OCRX(chapterFile));
+                            var oldTop = 0.0;
+                            foreach (var line in result.Lines)
+                            {
+                                if (line.Words[0].BoundingRect.Left < 350)
+                                {
+                                    OcrContent.Add(line.Text);
+                                }
+                                else if (line.Words[0].BoundingRect.Top - oldTop >= 150 && oldTop > 0)
+                                {
+                                    OcrContent.Add($"</p>\r\n<br />\r\n<p>{line.Text}");
+                                }
+                                else
+                                {
+                                    OcrContent.Add($"</p>\r\n<p>{line.Text}");
+                                }
+                                oldTop = line.Words[0].BoundingRect.Top;
+                            }
+                            OcrContent.First().Replace("</p>\r\n<p>", string.Empty);
                         }
                     }
                     catch (Exception ex)
@@ -79,36 +97,27 @@ namespace AOABO.OCR
                     }
                 }
 
-                var oContent = new List<string>();
                 var previous = string.Empty;
-                foreach (var line in OcrContent)
+                var header = chapter.OCR.Header ?? OcrContent.First();
+                var body = OcrContent.Skip(1).Aggregate(string.Empty, (agg, s) => string.Concat(agg, " ", s));
+
+                var speechRegex = new Regex("\".*?\"");
+                body = speechRegex.Replace(body, new MatchEvaluator(ReplaceSpeechMarks));
+
+                var apostropheRegex = new Regex("[a-z,A-Z]'[a-z,A-Z]");
+                body = apostropheRegex.Replace(body, new MatchEvaluator(ReplaceApostrophe));
+
+                foreach (var correction in chapter.OCR.Corrections)
                 {
-                    var l = line;
-                    foreach (var correction in chapter.OCR.Corrections)
-                    {
-                        l = l.Replace(correction.Original, correction.Replacement);
-                    }
-
-                    foreach (var italic in chapter.OCR.Italics)
-                    {
-                        l = l.Replace(italic.Start, $"<i>{italic.Start}").Replace(italic.End, $"{italic.End}</i>");
-                    }
-
-                    if (!chapter.OCR.Skip.Any(x => x.Equals(l)))
-                    {
-                        if (!previous.Equals(l))
-                        {
-                            previous = l;
-                            oContent.Add(l);
-
-                            if (chapter.OCR.RemoveBreakAfter.Any(x => x.Equals(l)))
-                                previous = "<br/>";
-                        }
-                    }
+                    body = body.Replace(correction.Original, correction.Replacement);
                 }
 
+                foreach(var italic in chapter.OCR.Italics)
+                {
+                    body = body.Replace(italic.Start, $"<i>{italic.Start}").Replace(italic.End, $"{italic.End}</i>");
+                }
 
-                var content = oContent.Skip(1).Aggregate($"<h1>{OcrContent[0]}</h1>", (agg, s) => String.Concat(agg, $"\r\n<p>{s}</p>"));
+                var content = $"<h1>{header}</h1>\r\n<p>{body}</p>";
                 chapterContent = File.ReadAllText("OCR\\OCRTemplate.txt").Replace("[Content]", content);
 
                 File.WriteAllText(overrideDirectory + "\\" + chapter.ChapterName + ".xhtml", chapterContent);
@@ -120,34 +129,14 @@ namespace AOABO.OCR
             }
         }
 
-        private static List<string> OCRX(string imageNumber)
+        public static string ReplaceSpeechMarks(Match m)
         {
-            List<string> text = new List<string>();
-            var file = $"{tempDirectory}\\item\\image\\i-{imageNumber:000}.jpg";
+            return "“" + m.ToString().Substring(1, m.ToString().Length-2) + "”";
+        }
 
-            var Ocr = new IronTesseract();
-            Ocr.Configuration.EngineMode = TesseractEngineMode.LstmOnly;
-            using (var Input = new OcrInput(file))
-            {
-                var Result = Ocr.Read(Input);
-
-                foreach (var block in Result.Blocks)
-                {
-                    foreach (var paragraph in block.Paragraphs)
-                    {
-                        var f = paragraph.Lines[0].Words[0].Characters[0].Font;
-                        text.Add(paragraph.Lines.Aggregate(string.Empty, (s, a) => string.Concat(s, a, " ")));
-                    }
-
-                    if (!block.Equals(Result.Blocks.Last()))
-                    {
-                        text.Add("<br/>");
-                    }
-                }
-
-                Console.WriteLine(Result.Text);
-            }
-            return text;
+        public static string ReplaceApostrophe(Match m)
+        {
+            return m.ToString().Replace("'", "’");
         }
     }
 }

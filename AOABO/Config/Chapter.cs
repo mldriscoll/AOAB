@@ -43,9 +43,7 @@ namespace AOABO.Config
     public class OCRSettings {
         public List<Correction> Corrections { get; set; } = new List<Correction>();
         public List<Italics> Italics { get; set; } = new List<Italics>();
-
-        public List<string> Skip { get; set; } = new List<string>();
-        public List<string> RemoveBreakAfter { get; set; } = new List<string>();
+        public string Header { get; set; }
     }
 
     public class Correction
