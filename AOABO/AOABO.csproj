@@ -8,10 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="IronOcr" Version="2022.10.9390" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Update="OCR\OCRTemplate.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

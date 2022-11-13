@@ -1,7 +1,5 @@
 ﻿using AOABO.Config;
-using IronOcr;
 using System.IO.Compression;
-using System.Text.RegularExpressions;
 
 namespace AOABO.Omnibus
 {

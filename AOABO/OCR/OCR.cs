@@ -1,13 +1,7 @@
 ﻿using AOABO.Config;
 using AOABO.Downloads;
-using IronOcr;
-using System;
-using System.Collections.Generic;
 using System.IO.Compression;
-using System.Linq;
-using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 using Windows.Media.Ocr;
 
 namespace AOABO.OCR
@@ -19,9 +13,6 @@ namespace AOABO.OCR
 
         internal static async Task BuildOCROverrides(Login login)
         {
-            IronOcr.Installation.LicenseKey = "IRONOCR.FREETRIAL.20322-486E55E083-ACZD3RTYRBA4OGZW-GWGJKFOCQ5EZ-7PYKKXLHQ6ID-KEUSYXK4JIOZ-4NTZKQN5XAA3-PHVKHJ-TJLFVJDIJW6IEA-DEPLOYMENT.TRIAL-SVDJ2L.TRIAL.EXPIRES.05.DEC.2022";
-
-
             if (!Directory.Exists(overrideDirectory)) Directory.CreateDirectory(overrideDirectory);
             if(Directory.Exists(tempDirectory)) Directory.Delete(tempDirectory, true);
 
