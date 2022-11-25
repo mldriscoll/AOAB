@@ -2316,6 +2316,17 @@
         "YearsSubfolder": "04-Manga",
         "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\04-A Comfy Life with my Family",
         "ProcessedInPartThree": true
+      },
+      {
+        "OriginalFilenames": [ "cover" ],
+        "SortOrder": "0303b",
+        "ChapterName": "FB1",
+        "AltName": "Fanbook 1",
+        "FlatSubfolder": "01-Inserts",
+        "PartsSubfolder": "03-Adopted Daughter of an Archduke\\01-Inserts",
+        "YearsSubfolder": "01-Inserts",
+        "VolumeSubfolder": "03-Adopted Daughter of an Archduke",
+        "ProcessedInPartThree": true
       }
     ]
   },
@@ -2444,7 +2455,7 @@
       },
       {
         "OriginalFilenames": [ "chapter7" ],
-        "SortOrder": "030107",
+        "SortOrder": "030107a",
         "ChapterName": "How to Make Fluffy Bread",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
@@ -2905,7 +2916,7 @@
       },
       {
         "OriginalFilenames": [ "bonus2", "bonus1" ],
-        "SortOrder": "0303",
+        "SortOrder": "0303a",
         "ChapterName": "LN303",
         "AltName": "Volume 3",
         "FlatSubfolder": "01-Inserts",
@@ -3332,7 +3343,7 @@
         "ProcessedInPartFour": true
       },
       {
-        "OriginalFilenames": [ "26", "27" ],
+        "OriginalFilenames": [ "cover", "26", "27" ],
         "SortOrder": "0403b",
         "ChapterName": "FB2",
         "AltName": "Fanbook 2",
@@ -4246,7 +4257,7 @@
       },
       {
         "OriginalFilenames": [ "chapter21" ],
-        "SortOrder": "040121",
+        "SortOrder": "040121a",
         "ChapterName": "Passing Highbeast Creation",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
@@ -7288,7 +7299,7 @@
         "ProcessedInPartFour": true
       },
       {
-        "OriginalFilenames": [ "chapter3"],
+        "OriginalFilenames": [ "chapter3" ],
         "SortOrder": "040903",
         "ChapterName": "The Farewell Dinner",
         "FlatSubfolder": "03-Story",
@@ -7299,7 +7310,7 @@
         "ProcessedInPartFour": true
       },
       {
-        "OriginalFilenames": ["chapter4", "insert3", "chapter4_1"],
+        "OriginalFilenames": [ "chapter4", "insert3", "chapter4_1" ],
         "SortOrder": "040904",
         "ChapterName": "Farewell Gifts",
         "FlatSubfolder": "03-Story",
@@ -7310,7 +7321,7 @@
         "ProcessedInPartFour": true
       },
       {
-        "OriginalFilenames": ["chapter5"],
+        "OriginalFilenames": [ "chapter5" ],
         "SortOrder": "040905",
         "ChapterName": "A Stolen Book",
         "FlatSubfolder": "03-Story",
@@ -7332,7 +7343,7 @@
         "ProcessedInPartFour": true
       },
       {
-        "OriginalFilenames": ["chapter7", "insert4", "chapter7_1"],
+        "OriginalFilenames": [ "chapter7", "insert4", "chapter7_1" ],
         "SortOrder": "040907",
         "ChapterName": "Rescue",
         "FlatSubfolder": "03-Story",
@@ -7343,7 +7354,7 @@
         "ProcessedInPartFour": true
       },
       {
-        "OriginalFilenames": ["chapter8", "insert5", "chapter8_1"],
+        "OriginalFilenames": [ "chapter8", "insert5", "chapter8_1" ],
         "SortOrder": "040908",
         "ChapterName": "Evidence",
         "FlatSubfolder": "03-Story",
@@ -7354,7 +7365,7 @@
         "ProcessedInPartFour": true
       },
       {
-        "OriginalFilenames": ["chapter9"],
+        "OriginalFilenames": [ "chapter9" ],
         "SortOrder": "040909",
         "ChapterName": "New Perspectives",
         "FlatSubfolder": "03-Story",
@@ -7365,7 +7376,7 @@
         "ProcessedInPartFour": true
       },
       {
-        "OriginalFilenames": ["chapter10", "insert6", "chapter10_1"],
+        "OriginalFilenames": [ "chapter10", "insert6", "chapter10_1" ],
         "SortOrder": "040910",
         "ChapterName": "Viscount Dahldolf's Estate",
         "FlatSubfolder": "03-Story",
@@ -7376,7 +7387,7 @@
         "ProcessedInPartFour": true
       },
       {
-        "OriginalFilenames": ["chapter11"],
+        "OriginalFilenames": [ "chapter11" ],
         "SortOrder": "040911",
         "ChapterName": "Finding the Book",
         "FlatSubfolder": "03-Story",
@@ -7387,7 +7398,7 @@
         "ProcessedInPartFour": true
       },
       {
-        "OriginalFilenames": ["chapter12"],
+        "OriginalFilenames": [ "chapter12" ],
         "SortOrder": "040912",
         "ChapterName": "A Change of Plans",
         "FlatSubfolder": "03-Story",
@@ -7409,7 +7420,7 @@
         "ProcessedInPartFour": true
       },
       {
-        "OriginalFilenames": ["chapter14"],
+        "OriginalFilenames": [ "chapter14" ],
         "SortOrder": "040914a",
         "ChapterName": "Separation",
         "FlatSubfolder": "03-Story",
@@ -7475,7 +7486,7 @@
         "ProcessedInPartFour": true
       },
       {
-        "OriginalFilenames": ["chapter19"],
+        "OriginalFilenames": [ "chapter19" ],
         "SortOrder": "040915f",
         "ChapterName": "The New Children [Wilma]",
         "FlatSubfolder": "03-Story",
@@ -7486,7 +7497,7 @@
         "ProcessedInPartFour": true
       },
       {
-        "OriginalFilenames": ["chapter20", "insert10", "chapter20_1"],
+        "OriginalFilenames": [ "chapter20", "insert10", "chapter20_1" ],
         "SortOrder": "040915g",
         "ChapterName": "Winter Resolution [Kamil]",
         "FlatSubfolder": "03-Story",
@@ -7517,6 +7528,105 @@
         "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
         "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\0409-Volume 9",
         "ProcessedInPartFour": true
+      }
+    ]
+  },
+  {
+    "InternalName": "FB3",
+    "ProcessedInPartOne": true,
+    "ProcessedInPartTwo": true,
+    "ProcessedInPartThree": true,
+    "ProcessedInPartFour": true,
+    "ProcessedInPartFive": true,
+    "Chapters": [
+      {
+        "OriginalFilenames": [ "21", "22" ],
+        "SortOrder": "0301",
+        "ChapterName": "Printing Museum",
+        "FlatSubfolder": "06-Fanbooks",
+        "PartsSubfolder": "11-Fanbooks",
+        "YearsSubfolder": "06-Fanbooks",
+        "VolumeSubfolder": "06-Fanbooks"
+      },
+      {
+        "OriginalFilenames": [ "cover", "30" ],
+        "SortOrder": "0403d",
+        "ChapterName": "FB3",
+        "AltName": "Fanbook 2",
+        "FlatSubfolder": "01-Inserts",
+        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\01-Inserts",
+        "YearsSubfolder": "01-Inserts",
+        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee",
+        "ProcessedInPartFour": true
+      },
+      {
+        "OriginalFilenames": [ "34", "35", "36", "37", "38", "39" ],
+        "SortOrder": "0303",
+        "ChapterName": "Fanbook 3 Character Design Sheets",
+        "FlatSubfolder": "06-Fanbooks",
+        "PartsSubfolder": "11-Fanbooks",
+        "YearsSubfolder": "06-Fanbooks",
+        "VolumeSubfolder": "06-Fanbooks"
+      },
+      {
+        "OriginalFilenames": [ "40", "41", "42", "43" ],
+        "SortOrder": "030107b",
+        "ChapterName": "Welcoming a Certain Someone",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+        "YearsSubfolder": "03-Story\\[Year]\\1-Summer",
+        "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0301-Volume 1",
+        "ProcessedInPartThree": true
+      },
+      {
+        "OriginalFilenames": [ "44", "46" ],
+        "SortOrder": "0403d",
+        "ChapterName": "FB3",
+        "FlatSubfolder": "04-Manga",
+        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\04-A Comfy Life with my Family",
+        "YearsSubfolder": "04-Manga",
+        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\05-A Comfy Life with my Family",
+        "ProcessedInPartFour": true
+      },
+      {
+        "OriginalFilenames": [ "side", "map", "side_1" ],
+        "SortOrder": "040121b",
+        "ChapterName": "A Secret Tour of the Library [Philine]",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
+        "Year": 6,
+        "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
+        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\0401-Volume 1",
+        "ProcessedInPartFour": true
+      },
+      {
+        "OriginalFilenames": [ "45" ],
+        "SortOrder": "07",
+        "ChapterName": "Yurgenschmidt's Duchies",
+        "FlatSubfolder": "05-Maps",
+        "PartsSubfolder": "10-Maps",
+        "YearsSubfolder": "05-Maps",
+        "VolumeSubfolder": "05-Maps"
+      },
+      {
+        "OriginalFilenames": [ "qa" ],
+        "SortOrder": "0304",
+        "ChapterName": "Fanbook 3 QnA",
+        "FlatSubfolder": "06-Fanbooks",
+        "PartsSubfolder": "11-Fanbooks",
+        "YearsSubfolder": "06-Fanbooks",
+        "VolumeSubfolder": "06-Fanbooks"
+      },
+      {
+        "OriginalFilenames": [ "map" ],
+        "SortOrder": "08",
+        "ChapterName": "Royal Acadamy Library",
+        "FlatSubfolder": "05-Maps",
+        "PartsSubfolder": "10-Maps",
+        "YearsSubfolder": "05-Maps",
+        "VolumeSubfolder": "05-Maps",
+        "ProcessedInPartFour": true,
+        "ProcessedInPartFive": true
       }
     ]
   }

@@ -2316,6 +2316,17 @@
         "YearsSubfolder": "04-Manga",
         "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\04-A Comfy Life with my Family",
         "ProcessedInPartThree": true
+      },
+      {
+        "OriginalFilenames": [ "cover" ],
+        "SortOrder": "0303b",
+        "ChapterName": "FB1",
+        "AltName": "Fanbook 1",
+        "FlatSubfolder": "01-Inserts",
+        "PartsSubfolder": "03-Adopted Daughter of an Archduke\\01-Inserts",
+        "YearsSubfolder": "01-Inserts",
+        "VolumeSubfolder": "03-Adopted Daughter of an Archduke",
+        "ProcessedInPartThree": true
       }
     ]
   },
@@ -2444,7 +2455,7 @@
       },
       {
         "OriginalFilenames": [ "chapter7" ],
-        "SortOrder": "030107",
+        "SortOrder": "030107a",
         "ChapterName": "How to Make Fluffy Bread",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
@@ -2905,7 +2916,7 @@
       },
       {
         "OriginalFilenames": [ "bonus2", "bonus1" ],
-        "SortOrder": "0303",
+        "SortOrder": "0303a",
         "ChapterName": "LN303",
         "AltName": "Volume 3",
         "FlatSubfolder": "01-Inserts",
@@ -3332,7 +3343,7 @@
         "ProcessedInPartFour": true
       },
       {
-        "OriginalFilenames": [ "26", "27" ],
+        "OriginalFilenames": [ "cover", "26", "27" ],
         "SortOrder": "0403b",
         "ChapterName": "FB2",
         "AltName": "Fanbook 2",
@@ -4246,7 +4257,7 @@
       },
       {
         "OriginalFilenames": [ "chapter21" ],
-        "SortOrder": "040121",
+        "SortOrder": "040121a",
         "ChapterName": "Passing Highbeast Creation",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
@@ -6297,52 +6308,12 @@
         "OCR": {
           "Corrections": [
             {
-              "Original": "..A",
-              "Replacement": "...A"
+              "Original": "...Oh?\"",
+              "Replacement": "“...Oh?”"
             },
             {
-              "Original": " .. t",
-              "Replacement": "\r\n</p><p>...I t"
-            },
-            {
-              "Original": ",’",
-              "Replacement": ",”"
-            },
-            {
-              "Original": ".  “I",
-              "Replacement": ".</p>\r\n<p>“I"
-            },
-            {
-              "Original": "T believe",
-              "Replacement": "I believe"
-            },
-            {
-              "Original": ".  “G",
-              "Replacement": ".</p>\r\n<p>“G"
-            },
-            {
-              "Original": "” “",
-              "Replacement": "”</p>\r\n<p>“"
-            },
-            {
-              "Original": ".  “,.Oh?” ",
-              "Replacement": ".</p>\r\n<p>“...Oh?” "
-            },
-            {
-              "Original": "“..H",
-              "Replacement": "“...H"
-            },
-            {
-              "Original": ".  ... Ha",
-              "Replacement": ".</p>\r\n<p>...Ha"
-            },
-            {
-              "Original": "“,.G",
-              "Replacement": "“...G"
-            },
-            {
-              "Original": "”  “",
-              "Replacement": "”</p>\r\n<p>“"
+              "Original": "flowers .",
+              "Replacement": "flowers."
             }
           ],
           "Italics": [
@@ -6381,52 +6352,12 @@
         "OCR": {
           "Corrections": [
             {
-              "Original": "foremand",
-              "Replacement": "foreman"
+              "Original": "chores and stuff",
+              "Replacement": "chores and stuff."
             },
             {
-              "Original": "ones.  “It",
-              "Replacement": "ones.</p>\r\n<p>“It"
-            },
-            {
-              "Original": "“Hm.",
-              "Replacement": "“...Hm."
-            },
-            {
-              "Original": " | ",
-              "Replacement": " I "
-            },
-            {
-              "Original": "“,.My",
-              "Replacement": "“...My"
-            },
-            {
-              "Original": "“Alright, I get",
-              "Replacement": "“...Alright, I get"
-            },
-            {
-              "Original": ",..",
-              "Replacement": "..."
-            },
-            {
-              "Original": "be.”  “Doesn't",
-              "Replacement": "be.”</p>\r\n<p>“Doesn't"
-            },
-            {
-              "Original": "deepest groove. ",
-              "Replacement": "deepest groove.”"
-            },
-            {
-              "Original": "“How's this",
-              "Replacement": "“...How's this"
-            },
-            {
-              "Original": "sweat.  He",
-              "Replacement": "sweat.</p>\r\n<p>He"
-            },
-            {
-              "Original": "professional.  My",
-              "Replacement": "professional.</p>\r\n<p>My"
+              "Original": "'n'",
+              "Replacement": "‘n’"
             }
           ],
           "Italics": [
@@ -6464,54 +6395,6 @@
         "ProcessedInPartOne": true,
         "OCR": {
           "Corrections": [
-            {
-              "Original": "IT had",
-              "Replacement": "I had"
-            },
-            {
-              "Original": "“T believe",
-              "Replacement": "“I believe"
-            },
-            {
-              "Original": "given.  “I hear",
-              "Replacement": "given.</p>\r\n<p>“I hear"
-            },
-            {
-              "Original": "Huh...¢ Not much change in Ahrensbach? 1 furrowed",
-              "Replacement": "Huh...? Not much change in Ahrensbach? I furrowed"
-            },
-            {
-              "Original": "unchanged.  ..Which",
-              "Replacement": "unchanged.</p>\r\n<p>...Which"
-            },
-            {
-              "Original": "“,.1m gonna keep",
-              "Replacement": "“...I'm gonna keep"
-            },
-            {
-              "Original": "... [hough",
-              "Replacement": "...Though"
-            },
-            {
-              "Original": "Pll",
-              "Replacement": "I'll"
-            },
-            {
-              "Original": "always.”  That marked",
-              "Replacement": "always.”</p>\r\n<p>That marked"
-            },
-            {
-              "Original": "all.  Let’s just",
-              "Replacement": "all.</p>\r\n<p>Let’s just"
-            },
-            {
-              "Original": "while.  “You have",
-              "Replacement": "while.</p>\r\n<p>“You have"
-            },
-            {
-              "Original": "..Just you",
-              "Replacement": "...Just you"
-            }
           ],
           "Italics": [
             {
@@ -6527,7 +6410,7 @@
               "End": "don’t have a choice."
             },
             {
-              "Start": "... Just what",
+              "Start": "...Just what",
               "End": "geezer planning?!"
             },
             {
@@ -6576,68 +6459,12 @@
         "OCR": {
           "Corrections": [
             {
-              "Original": "“T ",
-              "Replacement": "“I "
-            },
-            {
-              "Original": "‘winter preparations,",
+              "Original": "'winter preparations,'",
               "Replacement": "‘winter preparations,’"
             },
             {
-              "Original": "[d",
-              "Replacement": "I’d"
-            },
-            {
-              "Original": "meat.  “",
-              "Replacement": "meat.</p>\r\n<p>“"
-            },
-            {
-              "Original": ".”  “,.oure",
-              "Replacement": ".”</p>\r\n<p>“...You’re"
-            },
-            {
-              "Original": "sure.” If only",
-              "Replacement": "sure.”</p>\r\n<p>If only"
-            },
-            {
-              "Original": "“TI",
-              "Replacement": "“I"
-            },
-            {
-              "Original": "...2",
-              "Replacement": "...?"
-            },
-            {
-              "Original": "pleased. </p>\r\n<p>“Master",
-              "Replacement": "pleased. “Master"
-            },
-            {
-              "Original": "... S",
-              "Replacement": "...S"
-            },
-            {
-              "Original": "1 thought",
-              "Replacement": "I thought"
-            },
-            {
-              "Original": "me.” “No. Youre imagining things.”  I",
-              "Replacement": "me.”</p>\r\n<p>“No. You’re imagining things.”</p>\r\n<p>I"
-            },
-            {
-              "Original": "..1 wont",
-              "Replacement": "...I won’t"
-            },
-            {
-              "Original": "youre",
-              "Replacement": "you’re"
-            },
-            {
-              "Original": "n't",
-              "Replacement": "n’t"
-            },
-            {
-              "Original": "You've",
-              "Replacement": "You’ve"
+              "Original": "7hefact",
+              "Replacement": "The fact"
             }
           ],
           "Italics": [
@@ -6654,7 +6481,7 @@
               "End": "work of Benno!"
             },
             {
-              "Start": "I suppose I'll",
+              "Start": "I suppose I",
               "End": "Gilberta Company..."
             },
             {
@@ -6688,120 +6515,16 @@
         "OCR": {
           "Corrections": [
             {
-              "Original": "Benno’s “That’s all.” The grimace he wore was to mask his pain, and [ had grown very familiar with it since Liz’s death. My expression clouded over as well. “I won't stop you. If you ",
-              "Replacement": "My expression clouded over as well. “I won’t stop you. If you can help her, you should.”"
+              "Original": "just say golds?!",
+              "Replacement": "just say <i>golds</i>?!"
             },
             {
-              "Original": "“T ",
-              "Replacement": "“I "
+              "Original": "parents' backs",
+              "Replacement": "parents’ backs"
             },
             {
-              "Original": "money.  “The temple summoned",
-              "Replacement": "money.</p>\r\n<p>“The temple summoned"
-            },
-            {
-              "Original": "successor,’",
-              "Replacement": "successor,”"
-            },
-            {
-              "Original": "“Did you know",
-              "Replacement": "“...Did you know"
-            },
-            {
-              "Original": "store, ",
-              "Replacement": "store,” "
-            },
-            {
-              "Original": ",..",
-              "Replacement": "..."
-            },
-            {
-              "Original": "'",
-              "Replacement": "’"
-            },
-            {
-              "Original": "I wasn’t dense or foolish enough to miss the weight behind ",
-              "Replacement": "I wasn’t dense or foolish enough to miss the weight behind Benno’s “That’s all.” The grimace he wore was to mask his pain, and I had grown very familiar with it since Liz’s death."
-            },
-            {
-              "Original": "can help her, you should.”  “Sheesh...",
-              "Replacement": "“Sheesh..."
-            },
-            {
-              "Original": "itll",
-              "Replacement": "it’ll"
-            },
-            {
-              "Original": "the sewing process,",
-              "Replacement": "the sewing process,”"
-            },
-            {
-              "Original": "Iam",
-              "Replacement": "I am"
-            },
-            {
-              "Original": "of her family.  Both Effa and Tuuli",
-              "Replacement": "of her family.</p>\r\n<p>Both Effa and Tuuli"
-            },
-            {
-              "Original": "T’m",
-              "Replacement": "I’m"
-            },
-            {
-              "Original": "followed Myne’s suggestion,",
-              "Replacement": "followed Myne’s suggestion,”"
-            },
-            {
-              "Original": "flower,’",
-              "Replacement": "flower,”"
-            },
-            {
-              "Original": "Freida,’",
-              "Replacement": "Freida,”"
-            },
-            {
-              "Original": "with excitement.  After talking",
-              "Replacement": "with excitement.</p>\r\n<p>After talking"
-            },
-            {
-              "Original": "Tm",
-              "Replacement": "I’m"
-            },
-            {
-              "Original": "Pve",
-              "Replacement": "I’ve"
-            },
-            {
-              "Original": "just a stranger.”  \"T ",
-              "Replacement": "just a stranger.”</p>\r\n<p>“I "
-            },
-            {
-              "Original": "and J",
-              "Replacement": "and I"
-            },
-            {
-              "Original": "backs.  This",
-              "Replacement": "backs.</p>\r\n<p>This"
-            },
-            {
-              "Original": "Youre",
-              "Replacement": "You’re"
-            },
-            {
-              "Original": "“Because she just altered my baptism outfit,” Tuuli explained. ",
-              "Replacement": "“Because she just altered my baptism outfit,” Tuuli explained. “When I wore it, you could see the embroidery just fine. But the clothes drooped down from Myne’s shoulders and stuff, since it was too long for her arms and legs, so...”"
-            },
-            {
-              "Original": "“When I wore it, you could see the embroidery just fine. But the clothes drooped down from Myne’s shoulders and stuff, since it was too long for her arms and legs, so...” ",
-              "Replacement": "<br/>"
-            },
-            {
-              "Original": "say golds?!",
-              "Replacement": "say <i>golds</i>?!"
-            },
-            {
-              "Original": "downs without modifying",
-              "Replacement": "downs <i>without</i> modifying"
+              "Original": "771is",
+              "Replacement": "This"
             }
           ],
           "Italics": [
@@ -6833,14 +6556,6 @@
               "Start": "Something tells me",
               "End": "just like this."
             }
-          ],
-          "Skip": [
-            "> « "
-          ],
-          "RemoveBreakAfter": [
-            "I wasn’t dense or foolish enough to miss the weight behind Benno’s “That’s all.” The grimace he wore was to mask his pain, and I had grown very familiar with it since Liz’s death.",
-            "My expression clouded over as well. “I won’t stop you. If you can help her, you should.”",
-            "“Because she just altered my baptism outfit,” Tuuli explained. “When I wore it, you could see the embroidery just fine. But the clothes drooped down from Myne’s shoulders and stuff, since it was too long for her arms and legs, so...”"
           ]
         }
       }
@@ -6864,74 +6579,27 @@
         "OCR": {
           "Corrections": [
             {
-              "Original": "T ",
-              "Replacement": "I "
+              "Original": "Priest’s </p>\r\n<p>“It has been decided that Fran shall become the head chambers. attendant",
+              "Replacement": "Priest’s chambers. “It has been decided that Fran shall become the head attendant"
             },
             {
-              "Original": "else.”  “What?",
-              "Replacement": "else.”</p>\r\n<p>“What?"
+              "Original": "herselfto",
+              "Replacement": "herself to"
             },
             {
-              "Original": "complete,’",
-              "Replacement": "complete,”"
+              "Original": "Justfrom walking... ?",
+              "Replacement": "Just from walking...?"
             },
             {
-              "Original": "provided.”  We",
-              "Replacement": "provided.”</p>\r\n<p>We"
+              "Original": "<p>Apprentice Blue Shrine Maiden </p>\r\n",
+              "Replacement": ""
             },
             {
-              "Original": "|",
-              "Replacement": "I"
-            },
-            {
-              "Original": "'",
-              "Replacement": "’"
-            },
-            {
-              "Original": "“Tt",
-              "Replacement": "“It"
-            },
-            {
-              "Original": "eat.”  Gil",
-              "Replacement": "eat.”</p>\r\n<p>Gil"
-            },
-            {
-              "Original": "’’m",
-              "Replacement": "I’m"
-            },
-            {
-              "Original": "Fran.”  Fran",
-              "Replacement": "Fran.”</p>\r\n<p>Fran"
-            },
-            {
-              "Original": "...2",
-              "Replacement": "...?"
-            },
-            {
-              "Original": "to serve.  The High",
-              "Replacement": "to serve.</p>\r\n<p>The High"
-            },
-            {
-              "Original": ",.Zahm",
-              "Replacement": "...Zahm"
-            },
-            {
-              "Original": "happening here.  The merchant",
-              "Replacement": "happening here.</p>\r\n<p>The merchant"
-            },
-            {
-              "Original": "However...  “Fran",
-              "Replacement": "However...</p>\r\n<p>“Fran"
-            },
-            {
-              "Original": "Is this truly wise, though?",
-              "Replacement": "Is this truly wise, though?”"
-            },
-            {
-              "Original": "1 remember",
-              "Replacement": "I remember"
+              "Original": "<p> </p>\r\n",
+              "Replacement": ""
             }
           ],
+          "Header": "Fran and the Commoner Apprentice Blue Shrine Maiden",
           "Italics": [
             {
               "Start": "Fran, why are",
@@ -6957,6 +6625,7 @@
   {
     "InternalName": "M0202",
     "ProcessedInPartTwo": true,
+    "OCR": true,
     "Chapters": [
       {
         "OriginalFilenames": [ "170", "171", "172", "173", "174", "175", "176", "177" ],
@@ -6967,7 +6636,57 @@
         "Year": 2,
         "YearsSubfolder": "03-Story\\[Year]\\1-Summer",
         "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0201-Volume 1",
-        "ProcessedInPartTwo": true
+        "ProcessedInPartTwo": true,
+        "OCR": {
+          "Corrections": [
+            {
+              "Original": " ofa ",
+              "Replacement": " of a "
+            },
+            {
+              "Original": "my work that is,",
+              "Replacement": "my work—that is,"
+            },
+            {
+              "Original": "girls'",
+              "Replacement": "girls’"
+            },
+            {
+              "Original": "look around and think.",
+              "Replacement": "look around and <i>think</i>."
+            }
+          ],
+          "Italics": [
+            {
+              "Start": "That said, Myne is",
+              "End": "useful than I expected."
+            },
+            {
+              "Start": "If this goes well, Sylvester",
+              "End": "Bishop’s power in the temple."
+            },
+            {
+              "Start": "It is not something",
+              "End": "situation is nothing rare."
+            },
+            {
+              "Start": "Hm... From",
+              "End": "information leak?"
+            },
+            {
+              "Start": "I suppose I will need",
+              "End": "woman is present."
+            },
+            {
+              "Start": "My head aches...",
+              "End": "My head aches..."
+            },
+            {
+              "Start": "I can only imagine",
+              "End": "caring about Myne’s request."
+            }
+          ]
+        }
       },
       {
         "OriginalFilenames": [ "161", "162", "163", "164", "165", "166", "167", "168" ],
@@ -6985,6 +6704,7 @@
   {
     "InternalName": "M0203",
     "ProcessedInPartTwo": true,
+    "OCR": true,
     "Chapters": [
       {
         "OriginalFilenames": [ "163", "164", "165", "166", "167", "168", "169", "170" ],
@@ -7006,13 +6726,64 @@
         "Year": 2,
         "YearsSubfolder": "03-Story\\[Year]\\1-Summer",
         "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0201-Volume 1",
-        "ProcessedInPartTwo": true
+        "ProcessedInPartTwo": true,
+        "OCR": {
+          "Corrections": [
+            {
+              "Original": "'cause",
+              "Replacement": "’cause"
+            },
+            {
+              "Original": "oftaues",
+              "Replacement": "of taues"
+            },
+            {
+              "Original": "'cramped'",
+              "Replacement": "‘cramped’"
+            },
+            {
+              "Original": "Ere..",
+              "Replacement": "Er..."
+            },
+            {
+              "Original": "<p>We arrived in the forest to find",
+              "Replacement": "<br />\r\n<p>We arrived in the forest to find"
+            },
+            {
+              "Original": "\"Don’t let Tuuli beat </p>\r\n<br />",
+              "Replacement": "“Don’t let Tuuli beat us!”</p>"
+            },
+            {
+              "Original": "7hough",
+              "Replacement": "Though"
+            }
+          ],
+          "Italics": [
+            {
+              "Start": "I need to grab a ton",
+              "End": "For Sister Myne too."
+            },
+            {
+              "Start": "Though the main reason",
+              "End": "to sleep on the floor."
+            },
+            {
+              "Start": "I hope we can go",
+              "End": "together someday..."
+            },
+            {
+              "Start": "It was because of Sister Myne’s",
+              "End": "the forest with us one day..."
+            }
+          ]
+        }
       }
     ]
   },
   {
     "InternalName": "M0204",
     "ProcessedInPartTwo": true,
+    "OCR": true,
     "Chapters": [
       {
         "OriginalFilenames": [ "158", "159", "160", "161", "162", "163", "164", "165" ],
@@ -7023,13 +6794,44 @@
         "Year": 2,
         "YearsSubfolder": "03-Story\\[Year]\\1-Summer",
         "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0201-Volume 1",
-        "ProcessedInPartTwo": true
+        "ProcessedInPartTwo": true,
+        "OCR": {
+          "Corrections": [
+            {
+              "Original": "'cause",
+              "Replacement": "’cause"
+            },
+            {
+              "Original": "girls'",
+              "Replacement": "girls’"
+            }
+          ],
+          "Italics": [
+            {
+              "Start": "Is this like how I",
+              "End": "to the repentance chamber...?"
+            },
+            {
+              "Start": "Plus, this means Lutz trusts me.",
+              "End": "Plus, this means Lutz trusts me."
+            },
+            {
+              "Start": "Are families that important to people?",
+              "End": "Are families that important to people?"
+            },
+            {
+              "Start": "Oh yeah. Here",
+              "End": "work among ourselves."
+            }
+          ]
+        }
       }
     ]
   },
   {
     "InternalName": "M0205",
     "ProcessedInPartTwo": true,
+    "OCR": true,
     "Chapters": [
       {
         "OriginalFilenames": [ "170", "171", "172", "173", "174", "175", "176", "177", "178" ],
@@ -7040,7 +6842,73 @@
         "Year": 2,
         "YearsSubfolder": "03-Story\\[Year]\\2-Autumn",
         "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0202-Volume 2",
-        "ProcessedInPartTwo": true
+        "ProcessedInPartTwo": true,
+        "OCR": {
+          "Corrections": [
+            {
+              "Original": "“Oh well...” </p>\r\n<p>I replied",
+              "Replacement": "“Oh well...” I replied"
+            },
+            {
+              "Original": "ofher",
+              "Replacement": "of her"
+            },
+            {
+              "Original": "over and over and over",
+              "Replacement": "over and over <i>and over</i>"
+            },
+            {
+              "Original": "never even seen a book.",
+              "Replacement": "never even <i>seen</i> a book."
+            },
+            {
+              "Original": "Those were book substitutes!",
+              "Replacement": "Those were book <i>substitutes</i>!"
+            },
+            {
+              "Original": "Then she got Wilma",
+              "Replacement": "<i>Then</i> she got Wilma"
+            },
+            {
+              "Original": "be able to find someone, right?",
+              "Replacement": "be able to find <i>someone</i>, right?"
+            },
+            {
+              "Original": "\"That way, she could",
+              "Replacement": "“That way, she could—”"
+            },
+            {
+              "Original": "remember what you said when",
+              "Replacement": "remember what <i>you</i> said when"
+            },
+            {
+              "Original": "'“Hopefully the baby is strong and healthy.”'",
+              "Replacement": "“‘Hopefully the baby is strong and healthy.’”"
+            },
+            {
+              "Original": "'Do you really think we’ll keep you here if you won’t even help out around the house?”'",
+              "Replacement": "‘Do you really think we’ll keep you here if you won’t even help out around the house?’”"
+            },
+            {
+              "Original": "\"People",
+              "Replacement": "“People"
+            },
+            {
+              "Original": "much.\"",
+              "Replacement": "much.”"
+            }
+          ],
+          "Italics": [
+            {
+              "Start": "At this rate, we",
+              "End": "make her change her mind!"
+            },
+            {
+              "Start": "Mom tells them every",
+              "End": "humanatee on your own..."
+            }
+          ]
+        }
       }
     ]
   },
@@ -7272,6 +7140,7 @@
   {
     "InternalName": "M0206",
     "ProcessedInPartTwo": true,
+    "OCR": true,
     "Chapters": [
       {
         "OriginalFilenames": [ "180", "181", "182", "183", "184", "185", "186", "187", "188", "189" ],
@@ -7282,7 +7151,69 @@
         "Year": 2,
         "YearsSubfolder": "03-Story\\[Year]\\2-Autumn",
         "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0202-Volume 2",
-        "ProcessedInPartTwo": true
+        "ProcessedInPartTwo": true,
+        "OCR": {
+          "Corrections": [
+            {
+              "Original": "Tais",
+              "Replacement": "This"
+            },
+            {
+              "Original": "boys'",
+              "Replacement": "boys’"
+            },
+            {
+              "Original": "'long,' I think. Oh, and this here is 'time,'",
+              "Replacement": "‘long,’ I think. Oh, and this here is ‘time,’"
+            },
+            {
+              "Original": "Wait, can you read it?",
+              "Replacement": "Wait, can <i>you</i> read it?"
+            }
+          ],
+          "Italics": [
+            {
+              "Start": "So those are what",
+              "End": "been making..."
+            },
+            {
+              "Start": "It’s standard procedure",
+              "End": "before I can serve it."
+            },
+            {
+              "Start": "This sucks...",
+              "End": "This sucks..."
+            },
+            {
+              "Start": "I know it can’t be",
+              "End": "I could write, but still..."
+            },
+            {
+              "Start": "Because, I mean, I’m",
+              "End": "get any extra jobs."
+            },
+            {
+              "Start": "If I could go",
+              "End": "At least a little."
+            },
+            {
+              "Start": "It’s a shame because",
+              "End": "intelligence I gathered there."
+            },
+            {
+              "Start": "Plus, I don’t need",
+              "End": "I don’t have any reason to go there."
+            },
+            {
+              "Start": "I’m the first one",
+              "End": "She wants my thoughts."
+            },
+            {
+              "Start": "A whole day will",
+              "End": "read it all, surely."
+            }
+          ]
+        }
       },
       {
         "OriginalFilenames": [ "192", "193" ],
@@ -7368,7 +7299,7 @@
         "ProcessedInPartFour": true
       },
       {
-        "OriginalFilenames": [ "chapter3"],
+        "OriginalFilenames": [ "chapter3" ],
         "SortOrder": "040903",
         "ChapterName": "The Farewell Dinner",
         "FlatSubfolder": "03-Story",
@@ -7379,7 +7310,7 @@
         "ProcessedInPartFour": true
       },
       {
-        "OriginalFilenames": ["chapter4", "insert3", "chapter4_1"],
+        "OriginalFilenames": [ "chapter4", "insert3", "chapter4_1" ],
         "SortOrder": "040904",
         "ChapterName": "Farewell Gifts",
         "FlatSubfolder": "03-Story",
@@ -7390,7 +7321,7 @@
         "ProcessedInPartFour": true
       },
       {
-        "OriginalFilenames": ["chapter5"],
+        "OriginalFilenames": [ "chapter5" ],
         "SortOrder": "040905",
         "ChapterName": "A Stolen Book",
         "FlatSubfolder": "03-Story",
@@ -7412,7 +7343,7 @@
         "ProcessedInPartFour": true
       },
       {
-        "OriginalFilenames": ["chapter7", "insert4", "chapter7_1"],
+        "OriginalFilenames": [ "chapter7", "insert4", "chapter7_1" ],
         "SortOrder": "040907",
         "ChapterName": "Rescue",
         "FlatSubfolder": "03-Story",
@@ -7423,7 +7354,7 @@
         "ProcessedInPartFour": true
       },
       {
-        "OriginalFilenames": ["chapter8", "insert5", "chapter8_1"],
+        "OriginalFilenames": [ "chapter8", "insert5", "chapter8_1" ],
         "SortOrder": "040908",
         "ChapterName": "Evidence",
         "FlatSubfolder": "03-Story",
@@ -7434,7 +7365,7 @@
         "ProcessedInPartFour": true
       },
       {
-        "OriginalFilenames": ["chapter9"],
+        "OriginalFilenames": [ "chapter9" ],
         "SortOrder": "040909",
         "ChapterName": "New Perspectives",
         "FlatSubfolder": "03-Story",
@@ -7445,7 +7376,7 @@
         "ProcessedInPartFour": true
       },
       {
-        "OriginalFilenames": ["chapter10", "insert6", "chapter10_1"],
+        "OriginalFilenames": [ "chapter10", "insert6", "chapter10_1" ],
         "SortOrder": "040910",
         "ChapterName": "Viscount Dahldolf's Estate",
         "FlatSubfolder": "03-Story",
@@ -7456,7 +7387,7 @@
         "ProcessedInPartFour": true
       },
       {
-        "OriginalFilenames": ["chapter11"],
+        "OriginalFilenames": [ "chapter11" ],
         "SortOrder": "040911",
         "ChapterName": "Finding the Book",
         "FlatSubfolder": "03-Story",
@@ -7467,7 +7398,7 @@
         "ProcessedInPartFour": true
       },
       {
-        "OriginalFilenames": ["chapter12"],
+        "OriginalFilenames": [ "chapter12" ],
         "SortOrder": "040912",
         "ChapterName": "A Change of Plans",
         "FlatSubfolder": "03-Story",
@@ -7489,7 +7420,7 @@
         "ProcessedInPartFour": true
       },
       {
-        "OriginalFilenames": ["chapter14"],
+        "OriginalFilenames": [ "chapter14" ],
         "SortOrder": "040914a",
         "ChapterName": "Separation",
         "FlatSubfolder": "03-Story",
@@ -7555,7 +7486,7 @@
         "ProcessedInPartFour": true
       },
       {
-        "OriginalFilenames": ["chapter19"],
+        "OriginalFilenames": [ "chapter19" ],
         "SortOrder": "040915f",
         "ChapterName": "The New Children [Wilma]",
         "FlatSubfolder": "03-Story",
@@ -7566,7 +7497,7 @@
         "ProcessedInPartFour": true
       },
       {
-        "OriginalFilenames": ["chapter20", "insert10", "chapter20_1"],
+        "OriginalFilenames": [ "chapter20", "insert10", "chapter20_1" ],
         "SortOrder": "040915g",
         "ChapterName": "Winter Resolution [Kamil]",
         "FlatSubfolder": "03-Story",
@@ -7597,6 +7528,105 @@
         "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
         "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\0409-Volume 9",
         "ProcessedInPartFour": true
+      }
+    ]
+  },
+  {
+    "InternalName": "FB3",
+    "ProcessedInPartOne": true,
+    "ProcessedInPartTwo": true,
+    "ProcessedInPartThree": true,
+    "ProcessedInPartFour": true,
+    "ProcessedInPartFive": true,
+    "Chapters": [
+      {
+        "OriginalFilenames": [ "21", "22" ],
+        "SortOrder": "0301",
+        "ChapterName": "Printing Museum",
+        "FlatSubfolder": "06-Fanbooks",
+        "PartsSubfolder": "11-Fanbooks",
+        "YearsSubfolder": "06-Fanbooks",
+        "VolumeSubfolder": "06-Fanbooks"
+      },
+      {
+        "OriginalFilenames": [ "cover", "30" ],
+        "SortOrder": "0403d",
+        "ChapterName": "FB3",
+        "AltName": "Fanbook 2",
+        "FlatSubfolder": "01-Inserts",
+        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\01-Inserts",
+        "YearsSubfolder": "01-Inserts",
+        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee",
+        "ProcessedInPartFour": true
+      },
+      {
+        "OriginalFilenames": [ "34", "35", "36", "37", "38", "39" ],
+        "SortOrder": "0303",
+        "ChapterName": "Fanbook 3 Character Design Sheets",
+        "FlatSubfolder": "06-Fanbooks",
+        "PartsSubfolder": "11-Fanbooks",
+        "YearsSubfolder": "06-Fanbooks",
+        "VolumeSubfolder": "06-Fanbooks"
+      },
+      {
+        "OriginalFilenames": [ "40", "41", "42", "43" ],
+        "SortOrder": "030107b",
+        "ChapterName": "Welcoming a Certain Someone",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+        "YearsSubfolder": "03-Story\\[Year]\\1-Summer",
+        "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0301-Volume 1",
+        "ProcessedInPartThree": true
+      },
+      {
+        "OriginalFilenames": [ "44", "46" ],
+        "SortOrder": "0403d",
+        "ChapterName": "FB3",
+        "FlatSubfolder": "04-Manga",
+        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\04-A Comfy Life with my Family",
+        "YearsSubfolder": "04-Manga",
+        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\05-A Comfy Life with my Family",
+        "ProcessedInPartFour": true
+      },
+      {
+        "OriginalFilenames": [ "side", "map", "side_1" ],
+        "SortOrder": "040121b",
+        "ChapterName": "A Secret Tour of the Library [Philine]",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
+        "Year": 6,
+        "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
+        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\0401-Volume 1",
+        "ProcessedInPartFour": true
+      },
+      {
+        "OriginalFilenames": [ "45" ],
+        "SortOrder": "07",
+        "ChapterName": "Yurgenschmidt's Duchies",
+        "FlatSubfolder": "05-Maps",
+        "PartsSubfolder": "10-Maps",
+        "YearsSubfolder": "05-Maps",
+        "VolumeSubfolder": "05-Maps"
+      },
+      {
+        "OriginalFilenames": [ "qa" ],
+        "SortOrder": "0304",
+        "ChapterName": "Fanbook 3 QnA",
+        "FlatSubfolder": "06-Fanbooks",
+        "PartsSubfolder": "11-Fanbooks",
+        "YearsSubfolder": "06-Fanbooks",
+        "VolumeSubfolder": "06-Fanbooks"
+      },
+      {
+        "OriginalFilenames": [ "map" ],
+        "SortOrder": "08",
+        "ChapterName": "Royal Acadamy Library",
+        "FlatSubfolder": "05-Maps",
+        "PartsSubfolder": "10-Maps",
+        "YearsSubfolder": "05-Maps",
+        "VolumeSubfolder": "05-Maps",
+        "ProcessedInPartFour": true,
+        "ProcessedInPartFive": true
       }
     ]
   }
