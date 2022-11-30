@@ -243,6 +243,7 @@
   {
     "InternalName": "LN0501",
     "ApiSlug": "ascendance-of-a-bookworm-part-5-volume-1",
-    "FileName": "ascendance-of-a-bookworm-part-5-volume-1.epub"
+    "FileName": "ascendance-of-a-bookworm-part-5-volume-1.epub",
+    "OutputUnusedFiles": false
   }
 ]
