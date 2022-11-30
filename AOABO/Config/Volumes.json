@@ -3713,7 +3713,7 @@
         "ProcessedInPartThree": true
       },
       {
-        "OriginalFilenames": [ "prologue" ],
+        "OriginalFilenames": [ "prologue", "insert1", "prologue_1" ],
         "SortOrder": "030500",
         "ChapterName": "Prologue [Benno]",
         "FlatSubfolder": "03-Story",
@@ -4382,7 +4382,7 @@
         "ProcessedInPartFour": true
       },
       {
-        "OriginalFilenames": [ "chapter6", "insert3" ],
+        "OriginalFilenames": [ "chapter6", "insert3", "chapter6_1" ],
         "SortOrder": "040206",
         "ChapterName": "Tea Party with the Music Professors",
         "FlatSubfolder": "03-Story",
