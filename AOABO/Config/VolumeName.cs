@@ -5,7 +5,7 @@
         public string InternalName { get; set; }
         public string ApiSlug { get; set; }
         public string FileName { get; set; }
-
+        public bool OutputUnusedFiles { get; set; } = true;
         public List<string> Quality { get; set; }
 
         public string NameMatch(string[] names)

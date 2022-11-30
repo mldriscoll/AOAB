@@ -39,7 +39,7 @@ namespace AOABO.Downloads
                             var diff = finfo.LastWriteTime.Subtract(downloaded);
                             var isLastDownload = diff.TotalSeconds < 30 && diff.TotalSeconds > -30;
 
-                            if (downloaded > updated && isLastDownload) continue;
+                            if (downloaded < updated && isLastDownload) continue;
 
                             if (!isLastDownload)
                             {
@@ -119,6 +119,7 @@ new AuthenticationHeaderValue("Bearer", token);
 
             using (var stream = await client.GetStreamAsync(download.link))
             {
+                if (File.Exists(name.FileName)) File.Delete(name.FileName);
                 using (var fileStream = File.OpenWrite(name.FileName))
                 {
                     await stream.CopyToAsync(fileStream);

@@ -20,5 +20,7 @@
         public string SubFolder { get; set; }
 
         public string FileName { get { return $"{SortOrder}-{Name}.{Extension}"; } }
+
+        public bool Processed { get; set; } = false;
     }
 }

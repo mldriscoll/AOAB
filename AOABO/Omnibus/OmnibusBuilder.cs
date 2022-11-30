@@ -28,6 +28,7 @@ namespace AOABO.Omnibus
             Console.WriteLine("2: Part Two (Apprentice Shrine Maiden)");
             Console.WriteLine("3: Part Three (Adopted Daughter of an Archduke)");
             Console.WriteLine("4: Part Four (Founder of the Royal Academy's So-Called Library Committee)");
+            Console.WriteLine("5: Part Five (Avatar of a Goddess)");
             var key = Console.ReadKey();
             Console.WriteLine();
             PartToProcess partScope;
@@ -52,7 +53,7 @@ namespace AOABO.Omnibus
                     break;
                 case '5':
                     partScope = PartToProcess.PartFive;
-                    bookTitle = string.Empty;
+                    bookTitle = "Ascendance of a Bookworm Part 5 - Avatar of a Goddess";
                     break;
                 default:
                     partScope = PartToProcess.EntireSeries;
@@ -246,6 +247,8 @@ namespace AOABO.Omnibus
                                         notFirst = true;
                                     }
                                     newChapter.Contents = string.Concat(newChapter.Contents, fileContent.Replace("</body>", string.Empty));
+
+                                    entry.Processed = true;
                                 }
                                 catch (Exception ex)
                                 {
@@ -262,7 +265,16 @@ namespace AOABO.Omnibus
                         Console.WriteLine(ex.ToString());
                     }
                 }
+
+                if (vol.OutputUnusedFiles)
+                {
+                    foreach (var entry in inChapters.Where(x => !x.Processed))
+                    {
+                        Console.WriteLine($"Unprocessed chapter {entry.Name}");
+                    }
+                }
             }
+
 
             outProcessor.baseFolder = Directory.GetCurrentDirectory();
             outProcessor.Metadata.Add("<meta name=\"cover\" content=\"images/cover.jpg\" />");
