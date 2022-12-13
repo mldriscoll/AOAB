@@ -19,7 +19,7 @@
         public string SortOrder { get; set; }
         public string SubFolder { get; set; }
 
-        public string FileName { get { return $"{SortOrder}-{Name}.{Extension}"; } }
+        public string FileName { get { return $"{SortOrder}-{Name}.{Extension}".Replace(":", ""); } }
 
         public bool Processed { get; set; } = false;
     }

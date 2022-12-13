@@ -293,6 +293,7 @@ namespace AOABO.Omnibus
             outProcessor.Metadata.Add("<meta property=\"role\" refines=\"#creator01\" scheme=\"marc:relators\">aut</meta>");
             outProcessor.Metadata.Add("<dc:language>en</dc:language>");
             outProcessor.Metadata.Add("<dc:publisher>J-Novel Club</dc:publisher>");
+            outProcessor.Metadata.Add("<dc:identifier id=\"pub-id\">1</dc:identifier>");
 
             outProcessor.FullOutput(false, bookTitle);
 

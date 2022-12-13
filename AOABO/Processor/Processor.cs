@@ -19,6 +19,11 @@ namespace AOABO.Processor
             var folder = $"{baseFolder}\\temp";
             if (Directory.Exists(folder)) Directory.Delete(folder, true);
             Directory.CreateDirectory(folder);
+            Directory.CreateDirectory(folder + "\\oebps");
+            Directory.CreateDirectory(folder + "\\META-INF");
+
+            File.WriteAllText($"{folder}\\mimetype", "application/epub+zip");
+            File.WriteAllText($"{folder}\\META-INF\\container.xml", "<?xml version=\"1.0\" encoding=\"UTF-8\"?><container version=\"1.0\" xmlns=\"urn:oasis:names:tc:opendocument:xmlns:container\"><rootfiles><rootfile full-path=\"oebps/content.opf\" media-type=\"application/oebps-package+xml\"/></rootfiles></container>");
 
             if (name == null)
             {
@@ -42,23 +47,23 @@ namespace AOABO.Processor
                 }
             }
 
-            File.WriteAllText(folder + "\\css.css", CSS.Aggregate(string.Empty, (file, css) => string.Concat(file, $"{css.Name} {css.Contents}\r\n")));
+            File.WriteAllText(folder + "\\oebps\\css.css", CSS.Aggregate(string.Empty, (file, css) => string.Concat(file, $"{css.Name} {css.Contents}\r\n")));
             List<string> manifest = new List<string>();
             List<string> spine = new List<string>();
             manifest.Add($"    <item id={"\""}css{"\""} href={"\""}css.css{"\""} media-type={"\""}text/css{"\""}/>");
 
             if (!textOnly)
             {
-                Directory.CreateDirectory(folder + "\\images");
+                Directory.CreateDirectory(folder + "\\oebps\\images");
 
                 foreach (var im in Images.Where(x => x.Referenced))
                 {
-                    File.Copy(im.OldLocation, folder + "\\images\\" + im.Name);
+                    File.Copy(im.OldLocation, folder + "\\oebps\\images\\" + im.Name);
                     manifest.Add($"    <item id={"\""}im{Images.IndexOf(im)}{"\""} href={"\""}images/{im.Name}{"\""} media-type={"\""}image/jpeg{"\""}/>");
                 }
             }
 
-            Directory.CreateDirectory(folder + "\\text");
+            //Directory.CreateDirectory(folder + "\\text");
             int tocCounter = 0;
 
             foreach (var chapter in Chapters.OrderBy(x => x.SubFolder + "\\" + x.SortOrder))
@@ -67,7 +72,7 @@ namespace AOABO.Processor
                 string cssLink = string.Empty;
                 if (!string.IsNullOrWhiteSpace(chapter.SubFolder))
                 {
-                    subdir = $"{ folder }\\{ chapter.SubFolder}";
+                    subdir = $"{ folder }\\oebps\\{ chapter.SubFolder}";
                     cssLink = chapter.SubFolder.Split('\\').Aggregate(string.Empty, (agg, str) => string.Concat(agg, "../"));
                     Directory.CreateDirectory(subdir);
                 }
@@ -99,7 +104,7 @@ namespace AOABO.Processor
                         var np = nps.FirstOrDefault(x => x.Label.Equals(folderName));
                         if (np == null)
                         {
-                            np = new NavPoint { Label = folderName, Source = Uri.EscapeUriString(chapter.SubFolder.Replace('\\', '/') + "/" + chapter.FileName), Id = tocCounter };
+                            np = new NavPoint { Label = folderName, Source = Uri.EscapeUriString((chapter.SubFolder.Replace('\\', '/') + "/" + chapter.FileName).Replace(":", "").Replace(" ", "")), Id = tocCounter };
                             tocCounter++;
                             nps.Add(np);
                         }
@@ -117,7 +122,7 @@ namespace AOABO.Processor
                     chapter.Contents = chapter.Contents.Replace("[ImageFolder]", imFolderReplace);
                 }
 
-                nps.Add(new NavPoint { Label = chapter.Name, Source = Uri.EscapeUriString(chapter.SubFolder.Replace('\\', '/') + "/" + chapter.FileName), Id = tocCounter });
+                nps.Add(new NavPoint { Label = chapter.Name, Source = Uri.EscapeUriString((chapter.SubFolder.Replace('\\', '/') + "/" + chapter.FileName).Replace(":", "").Replace(" ", "")), Id = tocCounter });
                 tocCounter++;
 
 
@@ -128,16 +133,16 @@ namespace AOABO.Processor
     <meta http-equiv={"\""}Content-Type{"\""} content={"\""}text/html; charset=utf-8{"\""} />
   <link rel={"\""}stylesheet{"\""} type={"\""}text/css{"\""} href={"\""}{cssLink}css.css{"\""} />
 </head>{ chapter.Contents}</html>");
-                manifest.Add($"    <item id={"\""}id{Chapters.IndexOf(chapter)}{"\""} href={"\""}{chapter.SubFolder.Replace('\\', '/')}/{chapter.FileName}{"\""} media-type={"\""}application/xhtml+xml{"\""}/>");
+                manifest.Add($"    <item id={"\""}id{Chapters.IndexOf(chapter)}{"\""} href={"\""}{(chapter.SubFolder.Replace('\\', '/') + "/" + chapter.FileName).Replace(":", "").Replace(" ", "")}{"\""} media-type={"\""}application/xhtml+xml{"\""}/>");
                 spine.Add($"    <itemref idref={"\""}id{Chapters.IndexOf(chapter)}{"\""}/>");
             }
 
             manifest.Add("    <item id=\"ncx\" href=\"toc.ncx\" media-type=\"application/x-dtbncx+xml\"/>");
 
-            File.WriteAllText($"{folder}\\content.opf",
+            File.WriteAllText($"{folder}\\oebps\\content.opf",
     $@"<?xml version={"\""}1.0{"\""} encoding={"\""}UTF-8{"\""}?>
-<package xmlns={"\""}http://www.idpf.org/2007/opf{"\""} version={"\""}2.0{"\""} unique-identifier={"\""}uuid_id{"\""}>
-  <metadata xmlns:opf={"\""}http://www.idpf.org/2007/opf{"\""} xmlns:dc={"\""}http://purl.org/dc/elements/1.1/{"\""} xmlns:dcterms={"\""}http://purl.org/dc/terms/{"\""} xmlns:xsi={"\""}http://www.w3.org/2001/XMLSchema-instance{"\""} xmlns:calibre={"\""}http://calibre.kovidgoyal.net/2009/metadata{"\""}>
+<package xmlns={"\""}http://www.idpf.org/2007/opf{"\""} version={"\""}3.0{"\""} unique-identifier={"\""}pub-id{"\""} xml:lang={"\""}en{"\""}>
+  <metadata xmlns:opf={"\""}http://www.idpf.org/2007/opf{"\""} xmlns:dc={"\""}http://purl.org/dc/elements/1.1/{"\""}>
 {Metadata.Aggregate(string.Empty, (agg, str) => string.Concat(agg, str, "\r\n"))}
   </metadata>
   <manifest>
@@ -150,14 +155,24 @@ namespace AOABO.Processor
 </package>
 ");
 
-            File.WriteAllText($"{folder}\\toc.ncx", $"<?xml version='1.0' encoding='utf-8'?>\r\n<ncx xmlns=\"http://www.daisy.org/z3986/2005/ncx/\" version=\"2005-1\" xml:lang=\"en\">\r\n  <head>\r\n    <meta name=\"dtb:depth\" content=\"{NavPoints.Max(x => x.MaxTabs) + 2}\" />\r\n  </head>\r\n  <docTitle>\r\n    <text>{name}</text>\r\n  </docTitle>\r\n  <navMap>\r\n"
+            File.WriteAllText($"{folder}\\oebps\\toc.ncx", $"<?xml version='1.0' encoding='utf-8'?>\r\n<ncx xmlns=\"http://www.daisy.org/z3986/2005/ncx/\" version=\"2005-1\" xml:lang=\"en\">\r\n  <head>\r\n    <meta name=\"dtb:depth\" content=\"{NavPoints.Max(x => x.MaxTabs) + 2}\" />\r\n  </head>\r\n  <docTitle>\r\n    <text>{name}</text>\r\n  </docTitle>\r\n  <navMap>\r\n"
                 + NavPoints.Aggregate(string.Empty, (agg, np) => string.Concat(agg, np, "\r\n")) + "  </navMap>\r\n</ncx>");
 
-            Directory.CreateDirectory($"{folder}\\META-INF");
-            File.WriteAllText($"{folder}\\META-INF\\container.xml", "<?xml version=\"1.0\"?>\r\n<container version=\"1.0\" xmlns=\"urn:oasis:names:tc:opendocument:xmlns:container\">\r\n   <rootfiles>\r\n      <rootfile full-path=\"content.opf\" media-type=\"application/oebps-package+xml\"/>\r\n   </rootfiles>\r\n</container>");
-
             if (File.Exists($"{baseFolder}\\{name}.epub")) File.Delete($"{baseFolder}\\{name}.epub");
-            ZipFile.CreateFromDirectory(folder, $"{baseFolder}\\{name}.epub");
+            var archive = ZipFile.Open($"{baseFolder}\\{name}.epub", ZipArchiveMode.Create);
+            foreach (var file in Directory.GetFiles(folder, "*", SearchOption.AllDirectories))
+            {
+                if (file.EndsWith("mimetype"))
+                {
+                    archive.CreateEntryFromFile(file, "mimetype", CompressionLevel.NoCompression);
+                }
+                else
+                {
+                    var target = file.Replace(folder + "\\", string.Empty).Replace("\\", "/").Replace(":", "").Replace(" ", "");
+                    archive.CreateEntryFromFile(file, target, CompressionLevel.Optimal);
+                }
+            }
+            archive.Dispose();
             Directory.Delete(folder, true);
         }
 
