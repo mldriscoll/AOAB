@@ -111,6 +111,18 @@ namespace AOABO.Omnibus
                     break;
             }
 
+            bool originalOrder = false;
+            Console.WriteLine();
+            Console.WriteLine("Would you like to use the publishing order instead of the chronological order? Y/N");
+            key = Console.ReadKey();
+            switch (key.KeyChar)
+            {
+                case 'y':
+                case 'Y':
+                    originalOrder = true;
+                    break;
+            }
+
             Console.WriteLine();
             Console.WriteLine("Would you like the chapter headers updated to match their titles in the index? Y/N");
             key = Console.ReadKey();
@@ -231,7 +243,7 @@ namespace AOABO.Omnibus
                             Contents = string.Empty,
                             CssFiles = new List<string>(),
                             Name = (outputStructure == OutputStructure.Volumes ? chapter.AltName ?? chapter.ChapterName : chapter.ChapterName) + ".xhtml",
-                            SortOrder = chapter.SortOrder,
+                            SortOrder = originalOrder ? chapter.OriginalOrder ?? chapter.SortOrder : chapter.SortOrder,
                             SubFolder = folder.MakeFolder(chapter.GetSubFolder(outputStructure), baseYear ?? 0, chapter.Year ?? 0)
                         };
                         outProcessor.Chapters.Add(newChapter);

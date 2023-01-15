@@ -9,6 +9,7 @@ namespace AOABO.Config
 
         public string AltName { get; set; }
         public string SortOrder { get; set; }
+        public string OriginalOrder { get; set; }
         public string FlatSubfolder { get; set; }
         public string PartsSubfolder { get; set; }
         public string VolumeSubfolder { get; set; }
