@@ -63,78 +63,6 @@ namespace AOABO.Omnibus
                     break;
             }
 
-
-
-            OutputStructure outputStructure = OutputStructure.Flat;
-            Console.WriteLine("How should the output file be structured?");
-            Console.WriteLine("0: Flat structure");
-            Console.WriteLine("1: By Part");
-            Console.WriteLine("2: By Part and Volume");
-            Console.WriteLine("3: By Season");
-            key = Console.ReadKey();
-            Console.WriteLine();
-            IFolder folder = new BasicFolder();
-            int? baseYear = null;
-            switch (key.KeyChar)
-            {
-                case '1':
-                    outputStructure = OutputStructure.Parts;
-                    break;
-                case '2':
-                    outputStructure = OutputStructure.Volumes;
-                    break;
-                case '3':
-                    outputStructure = OutputStructure.Seasons;
-                    Console.WriteLine();
-                    while (baseYear == null)
-                    {
-                        Console.WriteLine("Which year should be used for the story beginning (Myne is 5 at the start of P1V1)?");
-                        var yearinput = Console.ReadLine();
-                        if (int.TryParse(yearinput, out var y))
-                            baseYear = y;
-                    }
-
-                    Console.WriteLine("How would you like the years formatted? (Entering nothing will give you plain numbers. To give actual labels, enter any text with a 0 where you want the year to be.)");
-                    Console.WriteLine("0 - XX");
-                    Console.WriteLine("1 - Year XX");
-
-                    var subKey = Console.ReadKey();
-                    switch (subKey.KeyChar)
-                    {
-                        case '1':
-                            folder = new YearFolder();
-                            break;
-                        default:
-                            folder = new YearNumberFolder();
-                            break;
-                    }
-                    break;
-            }
-
-            bool originalOrder = false;
-            Console.WriteLine();
-            Console.WriteLine("Would you like to use the publishing order instead of the chronological order? Y/N");
-            key = Console.ReadKey();
-            switch (key.KeyChar)
-            {
-                case 'y':
-                case 'Y':
-                    originalOrder = true;
-                    break;
-            }
-
-            Console.WriteLine();
-            Console.WriteLine("Would you like the chapter headers updated to match their titles in the index? Y/N");
-            key = Console.ReadKey();
-            bool renameChapters = false;
-            switch (key.KeyChar)
-            {
-                case 'y':
-                case 'Y':
-                    renameChapters = true;
-                    break;
-            }
-
             if (Directory.Exists("inputtemp")) Directory.Delete("inputtemp", true);
             Directory.CreateDirectory("inputtemp");
 
@@ -172,6 +100,8 @@ namespace AOABO.Omnibus
             inProcessor.UnpackFolder("inputtemp");
             outProcessor.UnpackFolder("inputtemp");
             outProcessor.Chapters.Clear();
+
+            IFolder folder = Configuration.Options.OutputYearFormat == 0 ? new YearNumberFolder() : new YearFolder();
 
 
             foreach (var vol in Configuration.VolumeNames)
@@ -242,9 +172,9 @@ namespace AOABO.Omnibus
                         {
                             Contents = string.Empty,
                             CssFiles = new List<string>(),
-                            Name = (outputStructure == OutputStructure.Volumes ? chapter.AltName ?? chapter.ChapterName : chapter.ChapterName) + ".xhtml",
-                            SortOrder = originalOrder ? chapter.OriginalOrder ?? chapter.SortOrder : chapter.SortOrder,
-                            SubFolder = folder.MakeFolder(chapter.GetSubFolder(outputStructure), baseYear ?? 0, chapter.Year ?? 0)
+                            Name = (Configuration.Options.OutputStructure == OutputStructure.Volumes ? chapter.AltName ?? chapter.ChapterName : chapter.ChapterName) + ".xhtml",
+                            SortOrder = Configuration.Options.UsePublishingOrder ? chapter.OriginalOrder ?? chapter.SortOrder : chapter.SortOrder,
+                            SubFolder = folder.MakeFolder(chapter.GetSubFolder(Configuration.Options.OutputStructure), Configuration.Options.StartYear, chapter.Year ?? 0)
                         };
                         outProcessor.Chapters.Add(newChapter);
 
@@ -284,7 +214,7 @@ namespace AOABO.Omnibus
                             newChapter.Contents = string.Concat(newChapter.Contents, "</body>");
                         }
 
-                        if (renameChapters)
+                        if (Configuration.Options.UpdateChapterNames)
                         {
                             var match = chapterTitleRegex.Match(newChapter.Contents);
                             if(match.Success)
