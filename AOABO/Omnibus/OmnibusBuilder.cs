@@ -1,5 +1,6 @@
 ﻿using AOABO.Config;
 using System.IO.Compression;
+using System.Text.RegularExpressions;
 
 namespace AOABO.Omnibus
 {
@@ -16,6 +17,7 @@ namespace AOABO.Omnibus
         }
 
         public static string OverrideDirectory = Directory.GetCurrentDirectory() + "\\Overrides\\";
+        private static Regex chapterTitleRegex = new Regex("<h1>[\\s\\S]*?<\\/h1>");
 
         public static void BuildOmnibus()
         {
@@ -106,6 +108,18 @@ namespace AOABO.Omnibus
                             folder = new YearNumberFolder();
                             break;
                     }
+                    break;
+            }
+
+            Console.WriteLine();
+            Console.WriteLine("Would you like the chapter headers updated to match their titles in the index? Y/N");
+            key = Console.ReadKey();
+            bool renameChapters = false;
+            switch (key.KeyChar)
+            {
+                case 'y':
+                case 'Y':
+                    renameChapters = true;
                     break;
             }
 
@@ -206,7 +220,6 @@ namespace AOABO.Omnibus
                 }
 
                 var inChapters = inProcessor.Chapters.Where(x => x.SubFolder.Contains(volume.InternalName)).ToList();
-
                 foreach (var chapter in chapters)
                 {
 
@@ -257,6 +270,13 @@ namespace AOABO.Omnibus
                             }
 
                             newChapter.Contents = string.Concat(newChapter.Contents, "</body>");
+                        }
+
+                        if (renameChapters)
+                        {
+                            var match = chapterTitleRegex.Match(newChapter.Contents);
+                            if(match.Success)
+                                newChapter.Contents = newChapter.Contents.Replace(match.Value, $"<h1>{newChapter.Name}</h1>");
                         }
                     }
                     catch (Exception ex)
