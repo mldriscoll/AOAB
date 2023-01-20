@@ -15,18 +15,6 @@
         "ProcessedInPartOne": true
       },
       {
-        "OriginalFilenames": [ "extra2" ],
-        "SortOrder": "010100b",
-        "OriginalOrder": "010199b",
-        "ChapterName": "Unchanging Daily Life [Shuu]",
-        "FlatSubfolder": "03-Story",
-        "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
-        "Year": -1,
-        "YearsSubfolder": "03-Story\\[Year]",
-        "VolumeSubfolder": "01-Daughter of a Soldier\\0101-Volume 1",
-        "ProcessedInPartOne": true
-      },
-      {
         "OriginalFilenames": [ "chapter01" ],
         "SortOrder": "010101",
         "ChapterName": "A New Life",
@@ -269,18 +257,6 @@
         "ProcessedInPartOne": true
       },
       {
-        "OriginalFilenames": [ "extra1" ],
-        "SortOrder": "010122b",
-        "OriginalOrder": "010199a",
-        "ChapterName": "A Day Without Myne [Lutz]",
-        "FlatSubfolder": "03-Story",
-        "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
-        "Year": 1,
-        "YearsSubfolder": "03-Story\\[Year]\\1-Summer",
-        "VolumeSubfolder": "01-Daughter of a Soldier\\0101-Volume 1",
-        "ProcessedInPartOne": true
-      },
-      {
         "OriginalFilenames": [ "chapter23" ],
         "SortOrder": "010123",
         "ChapterName": "The Road to a Meeting",
@@ -312,19 +288,58 @@
         "YearsSubfolder": "03-Story\\[Year]\\1-Summer",
         "VolumeSubfolder": "01-Daughter of a Soldier\\0101-Volume 1",
         "ProcessedInPartOne": true
+      }
+    ],
+    "Gallery": {
+      "SplashImages": [ "bonus2", "bonus1" ],
+      "ChapterImages": [ "insert1", "insert2", "insert3", "insert4", "insert5", "insert6", "insert7", "insert8", "insert9" ],
+      "EndOfBookSortOrder": "010199",
+      "SortOrder": "0101",
+      "ChapterName": "LN101",
+      "AltName": "Volume 1",
+      "FlatSubfolder": "01-Inserts",
+      "PartsSubfolder": "01-Daughter of a Soldier\\01-Inserts",
+      "VolumeSubfolder": "01-Daughter of a Soldier",
+      "YearsSubfolder": "01-Inserts",
+      "ProcessedInPartOne": true
+    },
+    "BonusChapters": [
+      {
+        "OriginalFilenames": [ "extra2" ],
+        "SortOrder": "010100b",
+        "AlternateSortOrder": "010197b",
+        "ChapterName": "Unchanging Daily Life [Shuu]",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+        "Year": -1,
+        "YearsSubfolder": "03-Story\\[Year]",
+        "VolumeSubfolder": "01-Daughter of a Soldier\\0101-Volume 1",
+        "ProcessedInPartOne": true
       },
       {
-        "OriginalFilenames": [ "bonus2", "bonus1" ],
-        "SortOrder": "0101",
-        "ChapterName": "LN101",
-        "AltName": "Volume 1",
-        "FlatSubfolder": "01-Inserts",
-        "PartsSubfolder": "01-Daughter of a Soldier\\01-Inserts",
-        "VolumeSubfolder": "01-Daughter of a Soldier",
-        "YearsSubfolder": "01-Inserts",
+        "OriginalFilenames": [ "extra1" ],
+        "SortOrder": "010122b",
+        "AlternateSortOrder": "010197a",
+        "ChapterName": "A Day Without Myne [Lutz]",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+        "Year": 1,
+        "YearsSubfolder": "03-Story\\[Year]\\1-Summer",
+        "VolumeSubfolder": "01-Daughter of a Soldier\\0101-Volume 1",
         "ProcessedInPartOne": true
       }
-    ]
+    ],
+    "Afterword": {
+      "OriginalFilenames": [ "afterword" ],
+      "SortOrder": "010198",
+      "ChapterName": "P1V1 Afterword",
+      "FlatSubfolder": "04-Afterwords",
+      "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+      "Year": 1,
+      "YearsSubfolder": "03-Story\\[Year]\\1-Summer",
+      "VolumeSubfolder": "01-Daughter of a Soldier\\0101-Volume 1",
+      "ProcessedInPartOne": true
+    }
   },
   {
     "InternalName": "LN0102",

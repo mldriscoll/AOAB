@@ -14,7 +14,7 @@ namespace AOABO.Processor
         public string baseSortOrder;
         public string baseFolder;
 
-        public void FullOutput(bool textOnly, string name = null)
+        public void FullOutput(bool textOnly, bool humanReadable, string name = null)
         {
             var folder = $"{baseFolder}\\temp";
             if (Directory.Exists(folder)) Directory.Delete(folder, true);
@@ -68,16 +68,35 @@ namespace AOABO.Processor
 
             foreach (var chapter in Chapters.OrderBy(x => x.SubFolder + "\\" + x.SortOrder))
             {
-                string subdir = folder;
                 string cssLink = string.Empty;
+                var fileName = humanReadable ? chapter.FileName : $"{tocCounter}.xhtml";
+                string imFolderReplace;
+
                 if (!string.IsNullOrWhiteSpace(chapter.SubFolder))
                 {
-                    subdir = $"{ folder }\\oebps\\{ chapter.SubFolder}";
-                    cssLink = chapter.SubFolder.Split('\\').Aggregate(string.Empty, (agg, str) => string.Concat(agg, "../"));
-                    Directory.CreateDirectory(subdir);
+                    var li = fileName.LastIndexOf('\\');
+                    if(li > 0)
+                    {
+                        var subdir = fileName.Substring(0, fileName.LastIndexOf('\\'));
+                        cssLink = subdir.Split('\\').Aggregate(string.Empty, (agg, str) => string.Concat(agg, "../"));
+                        imFolderReplace = subdir.Split('\\').Aggregate("images", (agg, str) => string.Concat("../", agg));
+                        Directory.CreateDirectory($"{folder}\\oebps\\Text\\{subdir}");
+                    }
+                    else
+                    {
+                        cssLink = "../";
+                        imFolderReplace = "../images";
+                        Directory.CreateDirectory($"{folder}\\oebps\\Text\\");
+                    }
+                }
+                else
+                {
+                    imFolderReplace = "images";
                 }
 
-                while (File.Exists($"{subdir}\\{chapter.FileName}"))
+                var fullFileName = $"{folder}\\oebps\\Text\\{fileName}";
+
+                while (File.Exists(fullFileName))
                 {
                     chapter.SortOrder = chapter.SortOrder + "x";
                 }
@@ -85,9 +104,9 @@ namespace AOABO.Processor
                 var subFolderSplit = chapter.SubFolder.Split('\\');
                 List<NavPoint> nps = NavPoints;
 
-                foreach (var fold in subFolderSplit)
+                foreach (var fold in subFolderSplit.Take(subFolderSplit.Length - 1))
                 {
-                    if (fold.Equals("text")) continue;
+                    if (fold.Equals("text", StringComparison.InvariantCultureIgnoreCase)) continue;
                     var index = fold.IndexOf('-');
                     string folderName;
                     if (index == -1)
@@ -104,7 +123,7 @@ namespace AOABO.Processor
                         var np = nps.FirstOrDefault(x => x.Label.Equals(folderName));
                         if (np == null)
                         {
-                            np = new NavPoint { Label = folderName, Source = Uri.EscapeUriString((chapter.SubFolder.Replace('\\', '/') + "/" + chapter.FileName).Replace(":", "").Replace(" ", "")), Id = tocCounter };
+                            np = new NavPoint { Label = folderName, Source = Uri.EscapeUriString($"Text/{fileName}".Replace('\\', '/').Replace(":", "").Replace(" ", "")), Id = tocCounter };
                             tocCounter++;
                             nps.Add(np);
                         }
@@ -118,22 +137,21 @@ namespace AOABO.Processor
                 }
                 else
                 {
-                    var imFolderReplace = subFolderSplit.Aggregate("images", (agg, str) => string.Concat("../", agg));
                     chapter.Contents = chapter.Contents.Replace("[ImageFolder]", imFolderReplace);
                 }
 
-                nps.Add(new NavPoint { Label = chapter.Name, Source = Uri.EscapeUriString((chapter.SubFolder.Replace('\\', '/') + "/" + chapter.FileName).Replace(":", "").Replace(" ", "")), Id = tocCounter });
+                nps.Add(new NavPoint { Label = chapter.Name, Source = Uri.EscapeUriString($"Text/{fileName}".Replace('\\', '/').Replace(":", "").Replace(" ", "")), Id = tocCounter });
                 tocCounter++;
 
 
-                File.WriteAllText($"{subdir}\\{chapter.FileName}", $@"<?xml version='1.0' encoding='utf-8'?>
+                File.WriteAllText(fullFileName, $@"<?xml version='1.0' encoding='utf-8'?>
 <html xmlns={"\""}http://www.w3.org/1999/xhtml{"\""} xmlns:epub={"\""}http://www.idpf.org/2007/ops{"\""} xml:lang={"\""}en{"\""}>
   <head>
     <title>Ascendance of a Bookworm Omnibus</title>
     <meta http-equiv={"\""}Content-Type{"\""} content={"\""}text/html; charset=utf-8{"\""} />
   <link rel={"\""}stylesheet{"\""} type={"\""}text/css{"\""} href={"\""}{cssLink}css.css{"\""} />
 </head>{ chapter.Contents}</html>");
-                manifest.Add($"    <item id={"\""}id{Chapters.IndexOf(chapter)}{"\""} href={"\""}{(chapter.SubFolder.Replace('\\', '/') + "/" + chapter.FileName).Replace(":", "").Replace(" ", "")}{"\""} media-type={"\""}application/xhtml+xml{"\""}/>");
+                manifest.Add($"    <item id={"\""}id{Chapters.IndexOf(chapter)}{"\""} href={"\""}Text/{fileName.Replace('\\', '/').Replace(":", "").Replace(" ", "")}{"\""} media-type={"\""}application/xhtml+xml{"\""}/>");
                 spine.Add($"    <itemref idref={"\""}id{Chapters.IndexOf(chapter)}{"\""}/>");
             }
 

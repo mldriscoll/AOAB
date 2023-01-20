@@ -39,6 +39,34 @@ namespace AOABO.Config
         public bool ProcessedInPartFour { get; set; } = false;
         public bool ProcessedInPartFive { get; set; } = false;
         public OCRSettings OCR { get; set; }
+
+        public Chapter Copy()
+        {
+            return new Chapter
+            {
+                OriginalFilenames = OriginalFilenames.ToList(),
+                AltName = AltName,
+                ChapterName = ChapterName,
+                FlatSubfolder = FlatSubfolder,
+                OCR = OCR,
+                OriginalOrder = OriginalOrder,
+                PartsSubfolder = PartsSubfolder,
+                ProcessedInPartFive = ProcessedInPartFive,
+                ProcessedInPartFour = ProcessedInPartFour,
+                ProcessedInPartOne = ProcessedInPartOne,
+                ProcessedInPartThree = ProcessedInPartThree,
+                ProcessedInPartTwo = ProcessedInPartTwo,
+                SortOrder = SortOrder,
+                VolumeSubfolder = VolumeSubfolder,
+                Year = Year,
+                YearsSubfolder = YearsSubfolder
+            };
+        }
+
+        public void RemoveInserts()
+        {
+            OriginalFilenames.RemoveAll(x => x.StartsWith("insert", StringComparison.InvariantCultureIgnoreCase));
+        }
     }
 
     public class OCRSettings {

@@ -142,7 +142,7 @@ namespace AOABO.Omnibus
                 switch (partScope)
                 {
                     case PartToProcess.PartOne:
-                        chapters = volume.Chapters.Where(x => x.ProcessedInPartOne).ToList();
+                        chapters = BuildChapterList(volume, c => c.ProcessedInPartOne);
                         break;
                     case PartToProcess.PartTwo:
                         chapters = volume.Chapters.Where(x => x.ProcessedInPartTwo).ToList();
@@ -173,7 +173,7 @@ namespace AOABO.Omnibus
                             Contents = string.Empty,
                             CssFiles = new List<string>(),
                             Name = (Configuration.Options.OutputStructure == OutputStructure.Volumes ? chapter.AltName ?? chapter.ChapterName : chapter.ChapterName) + ".xhtml",
-                            SortOrder = Configuration.Options.UsePublishingOrder ? chapter.OriginalOrder ?? chapter.SortOrder : chapter.SortOrder,
+                            SortOrder = chapter.SortOrder,
                             SubFolder = folder.MakeFolder(chapter.GetSubFolder(Configuration.Options.OutputStructure), Configuration.Options.StartYear, chapter.Year ?? 0)
                         };
                         outProcessor.Chapters.Add(newChapter);
@@ -257,12 +257,61 @@ namespace AOABO.Omnibus
             outProcessor.Metadata.Add("<dc:publisher>J-Novel Club</dc:publisher>");
             outProcessor.Metadata.Add("<dc:identifier id=\"pub-id\">1</dc:identifier>");
 
-            outProcessor.FullOutput(false, bookTitle);
+            outProcessor.FullOutput(false, Configuration.Options.UseHumanReadableFileStructure, bookTitle);
 
             if (Directory.Exists("inputtemp")) Directory.Delete("inputtemp", true);
 
             Console.WriteLine($"\"{bookTitle}\" creation complete. Press any key to continue.");
             Console.ReadKey();
+        }
+
+        private static List<Chapter> BuildChapterList(Volume volume, Func<Chapter, bool> filter)
+        {
+            List<Chapter> chapters = new List<Chapter>();
+            if (Configuration.Options.IncludeRegularChapters)
+            {
+                if (!Configuration.Options.IncludeImagesInChapters)
+                {
+                    volume.Chapters.ForEach(x => x.RemoveInserts());
+                }
+                chapters.AddRange(volume.Chapters.Where(filter));
+            }
+
+            if (volume.Gallery != null && filter(volume.Gallery))
+            {
+                var startGallery = volume.Gallery.GetChapter(true, true, true);
+                if (startGallery != null) chapters.Add(startGallery);
+
+                var endGallery = volume.Gallery.GetChapter(false, true, true);
+                if (endGallery != null) chapters.Add(endGallery);
+            }
+
+            if (!Configuration.Options.IncludeImagesInChapters)
+            {
+                volume.BonusChapters.ForEach(x => x.RemoveInserts());
+            }
+            switch (Configuration.Options.BonusChapterSetting)
+            {
+                case BonusChapterSetting.Chronological:
+                    chapters.AddRange(volume.BonusChapters.Where(filter));
+                    break;
+                case BonusChapterSetting.EndOfBook:
+                    volume.BonusChapters.ForEach(x => x.UseAlternateSortOrder());
+                    chapters.AddRange(volume.BonusChapters.Where(filter));
+                    break;
+            }
+
+            if (volume.Afterword != null && Configuration.Options.AfterwordSetting != AfterwordSetting.None && filter(volume.Afterword))
+            {
+                chapters.Add(volume.Afterword);
+
+                if (Configuration.Options.AfterwordSetting == AfterwordSetting.OmnibusEnd)
+                {
+                    volume.Afterword.EndOfOmnibus();
+                }
+            }
+
+            return chapters;
         }
     }
 }
