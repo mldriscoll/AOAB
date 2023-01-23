@@ -1,0 +1,315 @@
+[
+  {
+    "InternalName": "M0101",
+    "ProcessedInPartOne": true,
+    "MangaChapters": [
+      {
+        "OriginalFilenames": [ "151", "152", "153", "154", "155", "156" ],
+        "SortOrder": "010105b",
+        "AlternateSortOrder": "010199f",
+        "ChapterName": "Myne's Gotten Weird [Tuuli]",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+        "Year": 0,
+        "YearsSubfolder": "03-Story\\[Year]\\2-Autumn",
+        "VolumeSubfolder": "01-Daughter of a Soldier\\0101-Volume 1",
+        "ProcessedInPartOne": true
+      }
+    ]
+  },
+  {
+    "InternalName": "M0102",
+    "ProcessedInPartOne": true,
+    "Chapters": [
+      {
+        "OriginalFilenames": [ "167", "168", "169", "170", "171", "172" ],
+        "SortOrder": "010113b",
+        "OriginalOrder": "010199g",
+        "ChapterName": "Lutz and the Parue Tree [Lutz]",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+        "Year": 0,
+        "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
+        "VolumeSubfolder": "01-Daughter of a Soldier\\0101-Volume 1",
+        "ProcessedInPartOne": true
+      }
+    ]
+  },
+  {
+    "InternalName": "M0103",
+    "ProcessedInPartOne": true,
+    "OCR": true,
+    "Chapters": [
+      {
+        "OriginalFilenames": [ "184", "185", "186", "187", "188", "189", "190" ],
+        "SortOrder": "010118b",
+        "OriginalOrder": "010199h",
+        "ChapterName": "The Baptism Ceremony and the Hairpin [Freida]",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+        "Year": 1,
+        "YearsSubfolder": "03-Story\\[Year]\\1-Summer",
+        "VolumeSubfolder": "01-Daughter of a Soldier\\0101-Volume 1",
+        "ProcessedInPartOne": true,
+        "OCR": {
+          "Corrections": [
+            {
+              "Original": "...Oh?\"",
+              "Replacement": "“...Oh?”"
+            },
+            {
+              "Original": "flowers .",
+              "Replacement": "flowers."
+            }
+          ],
+          "Italics": [
+            {
+              "Start": "...I",
+              "End": "possible."
+            },
+            {
+              "Start": "But I",
+              "End": "that."
+            },
+            {
+              "Start": "...Ha",
+              "End": "s?!"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "InternalName": "M0104",
+    "ProcessedInPartOne": true,
+    "OCR": true,
+    "Chapters": [
+      {
+        "OriginalFilenames": [ "166", "167", "168", "169", "170", "171", "172", "173" ],
+        "SortOrder": "010206b",
+        "OriginalOrder": "010299c",
+        "ChapterName": "Zeg the Apprentice Craftsman [Zeg]",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+        "Year": 1,
+        "YearsSubfolder": "03-Story\\[Year]\\1-Summer",
+        "VolumeSubfolder": "01-Daughter of a Soldier\\0102-Volume 2",
+        "ProcessedInPartOne": true,
+        "OCR": {
+          "Corrections": [
+            {
+              "Original": "chores and stuff",
+              "Replacement": "chores and stuff."
+            },
+            {
+              "Original": "'n'",
+              "Replacement": "‘n’"
+            }
+          ],
+          "Italics": [
+            {
+              "Start": "...One day",
+              "End": "chores and stuff."
+            },
+            {
+              "Start": "...He’s not",
+              "End": "errands?!"
+            },
+            {
+              "Start": "Gah...!",
+              "End": "good too!"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "InternalName": "M0105",
+    "ProcessedInPartOne": true,
+    "OCR": true,
+    "Chapters": [
+      {
+        "OriginalFilenames": [ "176", "177", "178", "179", "180", "181", "182", "183", "184", "185" ],
+        "SortOrder": "010218b",
+        "OriginalOrder": "010299d",
+        "ChapterName": "Hairpins and the Meeting of Stores [Benno]",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+        "Year": 1,
+        "YearsSubfolder": "03-Story\\[Year]\\2-Autumn",
+        "VolumeSubfolder": "01-Daughter of a Soldier\\0102-Volume 2",
+        "ProcessedInPartOne": true,
+        "OCR": {
+          "Corrections": [
+          ],
+          "Italics": [
+            {
+              "Start": "...Are",
+              "End": "alright?"
+            },
+            {
+              "Start": "Huh...",
+              "End": "change in Ahrensbach?"
+            },
+            {
+              "Start": "...Though",
+              "End": "don’t have a choice."
+            },
+            {
+              "Start": "...Just what",
+              "End": "geezer planning?!"
+            },
+            {
+              "Start": "The hairpins?!",
+              "End": "The hairpins?!"
+            },
+            {
+              "Start": "This freaking geezer!",
+              "End": "hairpins for them!"
+            },
+            {
+              "Start": "...Just you wait",
+              "End": "last forever."
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "InternalName": "M0106",
+    "ProcessedInPartOne": true,
+    "OCR": true,
+    "Chapters": [
+      {
+        "OriginalFilenames": [ "171", "172", "173", "174", "175", "176", "177", "178", "180" ],
+        "SortOrder": "010314b",
+        "OriginalOrder": "0103997",
+        "ChapterName": "Some Time in the Woods [Benno]",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+        "Year": 1,
+        "YearsSubfolder": "03-Story\\[Year]\\4-Spring",
+        "VolumeSubfolder": "01-Daughter of a Soldier\\0103-Volume 3",
+        "ProcessedInPartOne": true
+      },
+      {
+        "OriginalFilenames": [ "182", "183", "184", "185", "186", "187", "188", "189" ],
+        "SortOrder": "010315b",
+        "OriginalOrder": "0103998",
+        "ChapterName": "A Long-Awaited Reunion [Freida]",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+        "Year": 1,
+        "YearsSubfolder": "03-Story\\[Year]\\4-Spring",
+        "VolumeSubfolder": "01-Daughter of a Soldier\\0103-Volume 3",
+        "ProcessedInPartOne": true,
+        "OCR": {
+          "Corrections": [
+            {
+              "Original": "'winter preparations,'",
+              "Replacement": "‘winter preparations,’"
+            },
+            {
+              "Original": "7hefact",
+              "Replacement": "The fact"
+            }
+          ],
+          "Italics": [
+            {
+              "Start": "If only she would",
+              "End": "only just begun..."
+            },
+            {
+              "Start": "...What a",
+              "End": "wonderful idea!"
+            },
+            {
+              "Start": "...She only has",
+              "End": "work of Benno!"
+            },
+            {
+              "Start": "I suppose I",
+              "End": "Gilberta Company..."
+            },
+            {
+              "Start": "Finally, we",
+              "End": "again!"
+            },
+            {
+              "Start": "...I won’t miss this opportunity, no matter what. I will defeat Benno!",
+              "End": "defeat Benno!"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "InternalName": "M0107",
+    "ProcessedInPartOne": true,
+    "OCR": true,
+    "Chapters": [
+      {
+        "OriginalFilenames": [ "210", "211", "212", "213", "214", "215", "216", "217", "218", "219", "220", "221" ],
+        "SortOrder": "010325d",
+        "OriginalOrder": "0103999",
+        "ChapterName": "As the Gilberta Company's Successor [Corinna]",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+        "Year": 2,
+        "YearsSubfolder": "03-Story\\[Year]\\1-Summer",
+        "VolumeSubfolder": "01-Daughter of a Soldier\\0103-Volume 3",
+        "ProcessedInPartOne": true,
+        "OCR": {
+          "Corrections": [
+            {
+              "Original": "just say golds?!",
+              "Replacement": "just say <i>golds</i>?!"
+            },
+            {
+              "Original": "parents' backs",
+              "Replacement": "parents’ backs"
+            },
+            {
+              "Original": "771is",
+              "Replacement": "This"
+            }
+          ],
+          "Italics": [
+            {
+              "Start": "And she had the Devouring?",
+              "End": "And she had the Devouring?"
+            },
+            {
+              "Start": "Her speech is",
+              "End": "of her family."
+            },
+            {
+              "Start": "Like this,",
+              "End": "perhaps...?"
+            },
+            {
+              "Start": "I wonder how",
+              "End": "against Benno...?"
+            },
+            {
+              "Start": "One large gold",
+              "End": "impressive indeed."
+            },
+            {
+              "Start": "This has to",
+              "End": "for her parents"
+            },
+            {
+              "Start": "Something tells me",
+              "End": "just like this."
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

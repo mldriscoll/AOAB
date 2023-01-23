@@ -62,6 +62,30 @@ namespace AOABO.Config
             {
                 UseHumanReadableFileStructure = bool.Parse(split[8]);
             }
+            if (split.Length > 9)
+            {
+                MangaChapters = EnumParse<BonusChapterSetting>(split[9]);
+            }
+            if (split.Length > 10)
+            {
+                ComfyLifeChapters = EnumParse<ComfyLifeSetting>(split[10]);
+            }
+            if (split.Length > 11)
+            {
+                CharacterSheets = EnumParse<CharacterSheets>(split[11]);
+            }
+            if (split.Length > 12)
+            {
+                Maps = bool.Parse(split[12]);
+            }
+            if (split.Length > 13)
+            {
+                SplashImages = EnumParse<GallerySetting>(split[13]);
+            }
+            if (split.Length > 14)
+            {
+                ChapterImages = EnumParse<GallerySetting>(split[14]);
+            }
         }
 
         private T EnumParse<T>(string str) where T : Enum
@@ -72,7 +96,9 @@ namespace AOABO.Config
         public override string ToString()
         {
             return $"{UpdateChapterNames}\r\n{BonusChapterSetting}\r\n{OutputStructure}\r\n{StartYear}\r\n{OutputYearFormat}" +
-                $"\r\n{AfterwordSetting}\r\n{IncludeRegularChapters}\r\n{IncludeImagesInChapters}\r\n{UseHumanReadableFileStructure}";
+                $"\r\n{AfterwordSetting}\r\n{IncludeRegularChapters}\r\n{IncludeImagesInChapters}" +
+                $"\r\n{UseHumanReadableFileStructure}\r\n{MangaChapters}\r\n{ComfyLifeChapters}\r\n" +
+                $"{CharacterSheets}\r\n{Maps}\r\n{SplashImages}\r\n{ChapterImages}";
         }
 
         public bool UpdateChapterNames { get; set; } = false;
@@ -84,6 +110,12 @@ namespace AOABO.Config
         public bool IncludeRegularChapters { get; set; } = true;
         public bool IncludeImagesInChapters { get; set; } = true;
         public bool UseHumanReadableFileStructure { get; set; } = false;
+        public BonusChapterSetting MangaChapters { get; set; } = BonusChapterSetting.Chronological;
+        public ComfyLifeSetting ComfyLifeChapters { get; set; } = ComfyLifeSetting.VolumeEnd;
+        public CharacterSheets CharacterSheets { get; set; } = CharacterSheets.PerPart;
+        public GallerySetting SplashImages { get; set; } = GallerySetting.Start;
+        public GallerySetting ChapterImages { get; set; } = GallerySetting.None;
+        public bool Maps { get; set; } = false;
     }
     public enum BonusChapterSetting
     {
@@ -91,10 +123,29 @@ namespace AOABO.Config
         EndOfBook = 1,
         LeaveOut = 2
     }
+    public enum ComfyLifeSetting
+    {
+        None,
+        VolumeEnd,
+        PartEnd,
+        OmnibusEnd
+    }
     public enum AfterwordSetting
     {
         None,
         VolumeEnd,
         OmnibusEnd
+    }
+    public enum CharacterSheets
+    {
+        All,
+        PerPart,
+        None
+    }
+    public enum GallerySetting
+    {
+        Start,
+        End,
+        None
     }
 }

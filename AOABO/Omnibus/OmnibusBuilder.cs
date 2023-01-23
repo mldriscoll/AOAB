@@ -102,7 +102,7 @@ namespace AOABO.Omnibus
             outProcessor.Chapters.Clear();
 
             IFolder folder = Configuration.Options.OutputYearFormat == 0 ? new YearNumberFolder() : new YearFolder();
-
+            Configuration.ReloadVolumes();
 
             foreach (var vol in Configuration.VolumeNames)
             {
@@ -145,19 +145,19 @@ namespace AOABO.Omnibus
                         chapters = BuildChapterList(volume, c => c.ProcessedInPartOne);
                         break;
                     case PartToProcess.PartTwo:
-                        chapters = volume.Chapters.Where(x => x.ProcessedInPartTwo).ToList();
+                        chapters = BuildChapterList(volume, c => c.ProcessedInPartTwo);
                         break;
                     case PartToProcess.PartThree:
-                        chapters = volume.Chapters.Where(x => x.ProcessedInPartThree).ToList();
+                        chapters = BuildChapterList(volume, c => c.ProcessedInPartThree);
                         break;
                     case PartToProcess.PartFour:
-                        chapters = volume.Chapters.Where(x => x.ProcessedInPartFour).ToList();
+                        chapters = BuildChapterList(volume, c => c.ProcessedInPartFour);
                         break;
                     case PartToProcess.PartFive:
-                        chapters = volume.Chapters.Where(x => x.ProcessedInPartFive).ToList();
+                        chapters = BuildChapterList(volume, c => c.ProcessedInPartFive);
                         break;
                     default:
-                        chapters = volume.Chapters;
+                        chapters = BuildChapterList(volume, c => true);
                         break;
                 }
 
@@ -279,10 +279,10 @@ namespace AOABO.Omnibus
 
             if (volume.Gallery != null && filter(volume.Gallery))
             {
-                var startGallery = volume.Gallery.GetChapter(true, true, true);
+                var startGallery = volume.Gallery.GetChapter(true, Configuration.Options.SplashImages == GallerySetting.Start, Configuration.Options.ChapterImages == GallerySetting.Start);
                 if (startGallery != null) chapters.Add(startGallery);
 
-                var endGallery = volume.Gallery.GetChapter(false, true, true);
+                var endGallery = volume.Gallery.GetChapter(false, Configuration.Options.SplashImages == GallerySetting.End, Configuration.Options.ChapterImages == GallerySetting.End);
                 if (endGallery != null) chapters.Add(endGallery);
             }
 
@@ -299,6 +299,36 @@ namespace AOABO.Omnibus
                     volume.BonusChapters.ForEach(x => x.UseAlternateSortOrder());
                     chapters.AddRange(volume.BonusChapters.Where(filter));
                     break;
+            }
+
+            if (Configuration.Options.MangaChapters != BonusChapterSetting.LeaveOut)
+            {
+                if (Configuration.Options.MangaChapters == BonusChapterSetting.EndOfBook)
+                {
+                    volume.MangaChapters.ForEach(x => x.UseAlternateSortOrder());
+                }
+                chapters.AddRange(volume.MangaChapters.Where(filter));
+            }
+
+            if (Configuration.Options.ComfyLifeChapters != ComfyLifeSetting.None && volume.ComfyLifeChapter != null)
+            {
+                volume.ComfyLifeChapter.SetSortOrder(Configuration.Options.ComfyLifeChapters);
+                chapters.Add(volume.ComfyLifeChapter);
+            }
+
+            if ((Configuration.Options.CharacterSheets == CharacterSheets.All) && (volume.CharacterSheet != null))
+            {
+                chapters.Add(volume.CharacterSheet);
+            }
+            
+            if ((Configuration.Options.CharacterSheets == CharacterSheets.PerPart) && (volume.CharacterSheet != null))
+            {
+                chapters.AddRange(volume.CharacterSheet.PartOnlyChapter());
+            }
+
+            if (Configuration.Options.Maps)
+            {
+                chapters.AddRange(volume.Maps);
             }
 
             if (volume.Afterword != null && Configuration.Options.AfterwordSetting != AfterwordSetting.None && filter(volume.Afterword))

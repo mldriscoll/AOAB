@@ -346,17 +346,6 @@
     "ProcessedInPartOne": true,
     "Chapters": [
       {
-        "OriginalFilenames": [ "bonus2", "bonus1" ],
-        "SortOrder": "0102",
-        "ChapterName": "LN102",
-        "AltName": "Volume 2",
-        "FlatSubfolder": "01-Inserts",
-        "PartsSubfolder": "01-Daughter of a Soldier\\01-Inserts",
-        "YearsSubfolder": "01-Inserts",
-        "VolumeSubfolder": "01-Daughter of a Soldier",
-        "ProcessedInPartOne": true
-      },
-      {
         "OriginalFilenames": [ "prologue" ],
         "SortOrder": "010200",
         "ChapterName": "Prologue [Effa]",
@@ -633,7 +622,20 @@
         "VolumeSubfolder": "01-Daughter of a Soldier\\0102-Volume 2",
         "ProcessedInPartOne": true
       }
-    ]
+    ],
+    "Gallery": {
+      "SplashImages": [ "bonus2", "bonus1" ],
+      "ChapterImages": [ "insert1", "insert2", "insert3", "insert4", "insert5", "insert6", "insert7", "insert8", "insert9" ],
+      "SortOrder": "0102",
+      "EndOfBookSortOrder": "010299",
+      "ChapterName": "LN102",
+      "AltName": "Volume 2",
+      "FlatSubfolder": "01-Inserts",
+      "PartsSubfolder": "01-Daughter of a Soldier\\01-Inserts",
+      "YearsSubfolder": "01-Inserts",
+      "VolumeSubfolder": "01-Daughter of a Soldier",
+      "ProcessedInPartOne": true
+    }
   },
   {
     "InternalName": "LN0103",
@@ -642,18 +644,20 @@
     "ProcessedInPartThree": true,
     "ProcessedInPartFour": true,
     "ProcessedInPartFive": true,
+    "Gallery": {
+      "SplashImages": [ "bonus2", "bonus1" ],
+      "ChapterImages": [ "insert1", "insert2", "insert3", "insert4", "insert5", "insert6", "insert7", "insert8", "insert9" ],
+      "SortOrder": "0103",
+      "EndOfBookSortOrder": "010399",
+      "ChapterName": "LN103",
+      "AltName": "Volume 3",
+      "FlatSubfolder": "01-Inserts",
+      "PartsSubfolder": "01-Daughter of a Soldier\\01-Inserts",
+      "YearsSubfolder": "01-Inserts",
+      "VolumeSubfolder": "01-Daughter of a Soldier",
+      "ProcessedInPartOne": true
+    },
     "Chapters": [
-      {
-        "OriginalFilenames": [ "bonus2", "bonus1" ],
-        "SortOrder": "0103",
-        "ChapterName": "LN103",
-        "AltName": "Volume 3",
-        "FlatSubfolder": "01-Inserts",
-        "PartsSubfolder": "01-Daughter of a Soldier\\01-Inserts",
-        "YearsSubfolder": "01-Inserts",
-        "VolumeSubfolder": "01-Daughter of a Soldier",
-        "ProcessedInPartOne": true
-      },
       {
         "OriginalFilenames": [ "frontmatter3" ],
         "SortOrder": "01",
@@ -1031,18 +1035,20 @@
   {
     "InternalName": "LN0201",
     "ProcessedInPartTwo": true,
+    "Gallery": {
+      "SplashImages": [ "bonus2", "bonus1" ],
+      "ChapterImages": [ "insert1", "insert2", "insert3", "insert4", "insert5", "insert6", "insert7", "insert8", "insert9" ],
+      "SortOrder": "0201",
+      "EndOfBookSortOrder": "020199",
+      "ChapterName": "LN201",
+      "AltName": "Volume 1",
+      "FlatSubfolder": "01-Inserts",
+      "PartsSubfolder": "02-Apprentice Shrine Maiden\\01-Inserts",
+      "YearsSubfolder": "01-Inserts",
+      "VolumeSubfolder": "02-Apprentice Shrine Maiden",
+      "ProcessedInPartTwo": true
+    },
     "Chapters": [
-      {
-        "OriginalFilenames": [ "bonus2", "bonus1" ],
-        "SortOrder": "0201",
-        "ChapterName": "LN201",
-        "AltName": "Volume 1",
-        "FlatSubfolder": "01-Inserts",
-        "PartsSubfolder": "02-Apprentice Shrine Maiden\\01-Inserts",
-        "YearsSubfolder": "01-Inserts",
-        "VolumeSubfolder": "02-Apprentice Shrine Maiden",
-        "ProcessedInPartTwo": true
-      },
       {
         "OriginalFilenames": [ "prologue" ],
         "SortOrder": "020100",
@@ -1358,6 +1364,19 @@
   {
     "InternalName": "LN0202",
     "ProcessedInPartTwo": true,
+    "Gallery": {
+      "SplashImages": [ "bonus2", "bonus1" ],
+      "ChapterImages": [ "insert1", "insert2", "insert3", "insert4", "insert5", "insert6", "insert7", "insert8", "insert9" ],
+      "SortOrder": "0202",
+      "EndOfBookSortOrder": "020299",
+      "ChapterName": "LN202",
+      "AltName": "Volume 2",
+      "FlatSubfolder": "01-Inserts",
+      "PartsSubfolder": "02-Apprentice Shrine Maiden\\01-Inserts",
+      "YearsSubfolder": "01-Inserts",
+      "VolumeSubfolder": "02-Apprentice Shrine Maiden",
+      "ProcessedInPartTwo": true
+    },
     "Chapters": [
       {
         "OriginalFilenames": [ "prologue" ],
@@ -1668,35 +1687,26 @@
         "YearsSubfolder": "03-Story\\[Year]\\2-Autumn",
         "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0202-Volume 2",
         "ProcessedInPartTwo": true
-      },
-      {
-        "OriginalFilenames": [ "bonus2", "bonus1" ],
-        "SortOrder": "0202",
-        "ChapterName": "LN202",
-        "AltName": "Volume 2",
-        "FlatSubfolder": "01-Inserts",
-        "PartsSubfolder": "02-Apprentice Shrine Maiden\\01-Inserts",
-        "YearsSubfolder": "01-Inserts",
-        "VolumeSubfolder": "02-Apprentice Shrine Maiden",
-        "ProcessedInPartTwo": true
       }
     ]
   },
   {
     "InternalName": "LN0203",
     "ProcessedInPartTwo": true,
+    "Gallery": {
+      "SplashImages": [ "bonus2", "bonus1" ],
+      "ChapterImages": [ "insert1", "insert2", "insert3", "insert4", "insert5", "insert6", "insert7", "insert8", "insert9" ],
+      "SortOrder": "0203",
+      "EndOfBookSortOrder": "020399",
+      "ChapterName": "LN203",
+      "AltName": "Volume 3",
+      "FlatSubfolder": "01-Inserts",
+      "PartsSubfolder": "02-Apprentice Shrine Maiden\\01-Inserts",
+      "YearsSubfolder": "01-Inserts",
+      "VolumeSubfolder": "02-Apprentice Shrine Maiden",
+      "ProcessedInPartTwo": true
+    },
     "Chapters": [
-      {
-        "OriginalFilenames": [ "bonus2", "bonus1" ],
-        "SortOrder": "0203",
-        "ChapterName": "LN203",
-        "AltName": "Volume 3",
-        "FlatSubfolder": "01-Inserts",
-        "PartsSubfolder": "02-Apprentice Shrine Maiden\\01-Inserts",
-        "YearsSubfolder": "01-Inserts",
-        "VolumeSubfolder": "02-Apprentice Shrine Maiden",
-        "ProcessedInPartTwo": true
-      },
       {
         "OriginalFilenames": [ "prologue" ],
         "SortOrder": "020300",
@@ -1968,28 +1978,20 @@
   {
     "InternalName": "LN0204",
     "ProcessedInPartTwo": true,
+    "Gallery": {
+      "SplashImages": [ "bonus2", "bonus1" ],
+      "ChapterImages": [ "insert1", "insert2", "insert3", "insert4", "insert5", "insert6", "insert7", "insert8", "insert9" ],
+      "SortOrder": "0204",
+      "EndOfBookSortOrder": "020499",
+      "ChapterName": "LN204",
+      "AltName": "Volume 4",
+      "FlatSubfolder": "01-Inserts",
+      "PartsSubfolder": "02-Apprentice Shrine Maiden\\01-Inserts",
+      "YearsSubfolder": "01-Inserts",
+      "VolumeSubfolder": "02-Apprentice Shrine Maiden",
+      "ProcessedInPartTwo": true
+    },
     "Chapters": [
-      {
-        "OriginalFilenames": [ "bonus2", "bonus1" ],
-        "SortOrder": "0204",
-        "ChapterName": "LN204",
-        "AltName": "Volume 4",
-        "FlatSubfolder": "01-Inserts",
-        "PartsSubfolder": "02-Apprentice Shrine Maiden\\01-Inserts",
-        "YearsSubfolder": "01-Inserts",
-        "VolumeSubfolder": "02-Apprentice Shrine Maiden",
-        "ProcessedInPartTwo": true
-      },
-      {
-        "OriginalFilenames": [ "manga1", "manga2" ],
-        "SortOrder": "0204",
-        "ChapterName": "LN204",
-        "FlatSubfolder": "04-Manga",
-        "PartsSubfolder": "02-Apprentice Shrine Maiden\\04-A Comfy Life with my Family",
-        "YearsSubfolder": "04-Manga",
-        "VolumeSubfolder": "02-Apprentice Shrine Maiden\\03-A Comfy Life with my Family",
-        "ProcessedInPartTwo": true
-      },
       {
         "OriginalFilenames": [ "characters1", "characters2" ],
         "SortOrder": "02",
@@ -2283,97 +2285,42 @@
         "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0203-Volume 3",
         "ProcessedInPartTwo": true
       }
-    ]
-  },
-  {
-    "InternalName": "FB1",
-    "ProcessedInPartOne": true,
-    "ProcessedInPartTwo": true,
-    "ProcessedInPartThree": true,
-    "ProcessedInPartFour": true,
-    "ProcessedInPartFive": true,
-    "Chapters": [
-      {
-        "OriginalFilenames": [ "temple", "24", "temple_1" ],
-        "SortOrder": "020415f",
-        "OriginalOrder": "020499a",
-        "ChapterName": "Temple Tour [Nicola]",
-        "FlatSubfolder": "03-Story",
-        "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
-        "Year": 2,
-        "YearsSubfolder": "03-Story\\[Year]\\4-Spring",
-        "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0204-Volume 4",
-        "ProcessedInPartTwo": true
-      },
-      {
-        "OriginalFilenames": [ "24" ],
-        "SortOrder": "03",
-        "ChapterName": "Ehrenfest Temple Floor Plan",
-        "FlatSubfolder": "05-Maps",
-        "PartsSubfolder": "10-Maps",
-        "YearsSubfolder": "05-Maps",
-        "VolumeSubfolder": "05-Maps",
-        "ProcessedInPartTwo": true,
-        "ProcessedInPartThree": true,
-        "ProcessedInPartFour": true,
-        "ProcessedInPartFive": true
-      },
-      {
-        "OriginalFilenames": [ "37", "38", "39", "40", "41", "42", "43", "44" ],
-        "SortOrder": "010116b",
-        "OriginalOrder": "010199c",
-        "ChapterName": "My Daughter's about to be a Criminal [Gunther]",
-        "FlatSubfolder": "03-Story",
-        "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
-        "Year": 0,
-        "YearsSubfolder": "03-Story\\[Year]\\4-Spring",
-        "VolumeSubfolder": "01-Daughter of a Soldier\\0101-Volume 1",
-        "ProcessedInPartOne": true
-      },
-      {
-        "OriginalFilenames": [ "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36" ],
-        "SortOrder": "0101",
-        "ChapterName": "Fanbook One Character Design Sheets",
-        "FlatSubfolder": "06-Fanbooks",
-        "PartsSubfolder": "11-Fanbooks",
-        "YearsSubfolder": "06-Fanbooks",
-        "VolumeSubfolder": "06-Fanbooks"
-      },
-      {
-        "OriginalFilenames": [ "qa" ],
-        "SortOrder": "0102",
-        "ChapterName": "Fanbook One QnA",
-        "FlatSubfolder": "06-Fanbooks",
-        "PartsSubfolder": "11-Fanbooks",
-        "YearsSubfolder": "06-Fanbooks",
-        "VolumeSubfolder": "06-Fanbooks"
-      },
-      {
-        "OriginalFilenames": [ "45", "46" ],
-        "SortOrder": "0303b",
-        "ChapterName": "FB1",
-        "FlatSubfolder": "04-Manga",
-        "PartsSubfolder": "03-Adopted Daughter of an Archduke\\04-A Comfy Life with my Family",
-        "YearsSubfolder": "04-Manga",
-        "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\04-A Comfy Life with my Family",
-        "ProcessedInPartThree": true
-      },
-      {
-        "OriginalFilenames": [ "cover" ],
-        "SortOrder": "0303b",
-        "ChapterName": "FB1",
-        "AltName": "Fanbook 1",
-        "FlatSubfolder": "01-Inserts",
-        "PartsSubfolder": "03-Adopted Daughter of an Archduke\\01-Inserts",
-        "YearsSubfolder": "01-Inserts",
-        "VolumeSubfolder": "03-Adopted Daughter of an Archduke",
-        "ProcessedInPartThree": true
-      }
-    ]
+    ],
+    "ComfyLifeChapter": {
+      "OriginalFilenames": [ "manga1", "manga2" ],
+      "SortOrder": "020498",
+      "PartEndSortOrder": "020504",
+      "OmnibusEndSortOrder": "060204",
+      "ChapterName": "LN204",
+      "FlatSubfolder": "04-Story",
+      "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+      "Year": 2,
+      "YearsSubfolder": "03-Story\\[Year]\\4-Spring",
+      "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0204-Volume 4",
+      "ProcessedInPartTwo": true,
+      "PartEndVolumeFolder": "02-Apprentice Shrine Maiden\\05-A Comfy Life with my Family",
+      "PartEndYearFolder": "03-Story\\[Year]\\4-Spring",
+      "PartEndYear": 2,
+      "OmnibusEndYear ": 2,
+      "OmnibusEndFolder": "05-A Comfy Life with my Family"
+    }
   },
   {
     "InternalName": "LN0301",
     "ProcessedInPartThree": true,
+    "Gallery": {
+      "SplashImages": [ "bonus2", "bonus1" ],
+      "ChapterImages": [ "insert1", "insert2", "insert3", "insert4", "insert5", "insert6", "insert7", "insert8", "insert9" ],
+      "SortOrder": "0301",
+      "EndOfBookSortOrder": "030199",
+      "ChapterName": "LN301",
+      "AltName": "Volume 1",
+      "FlatSubfolder": "01-Inserts",
+      "PartsSubfolder": "03-Adopted Daughter of an Archduke\\01-Inserts",
+      "YearsSubfolder": "01-Inserts",
+      "VolumeSubfolder": "03-Adopted Daughter of an Archduke",
+      "ProcessedInPartThree": true
+    },
     "Chapters": [
       {
         "OriginalFilenames": [ "manga1", "manga2" ],
@@ -2393,17 +2340,6 @@
         "PartsSubfolder": "CP-Character Polls",
         "YearsSubfolder": "CP-Character Polls",
         "VolumeSubfolder": "CP-Character Polls",
-        "ProcessedInPartThree": true
-      },
-      {
-        "OriginalFilenames": [ "bonus2", "bonus1" ],
-        "SortOrder": "0301",
-        "ChapterName": "LN301",
-        "AltName": "Volume 1",
-        "FlatSubfolder": "01-Inserts",
-        "PartsSubfolder": "03-Adopted Daughter of an Archduke\\01-Inserts",
-        "YearsSubfolder": "01-Inserts",
-        "VolumeSubfolder": "03-Adopted Daughter of an Archduke",
         "ProcessedInPartThree": true
       },
       {
@@ -2677,6 +2613,19 @@
   {
     "InternalName": "LN0302",
     "ProcessedInPartThree": true,
+    "Gallery": {
+      "SplashImages": [ "bonus2", "bonus1" ],
+      "ChapterImages": [ "insert1", "insert2", "insert3", "insert4", "insert5", "insert6", "insert7", "insert8", "insert9" ],
+      "SortOrder": "0302",
+      "EndOfBookSortOrder": "030299",
+      "ChapterName": "LN302",
+      "AltName": "Volume 2",
+      "FlatSubfolder": "01-Inserts",
+      "PartsSubfolder": "03-Adopted Daughter of an Archduke\\01-Inserts",
+      "YearsSubfolder": "01-Inserts",
+      "VolumeSubfolder": "03-Adopted Daughter of an Archduke",
+      "ProcessedInPartThree": true
+    },
     "Chapters": [
       {
         "OriginalFilenames": [ "manga1", "manga2" ],
@@ -2686,17 +2635,6 @@
         "PartsSubfolder": "03-Adopted Daughter of an Archduke\\04-A Comfy Life with my Family",
         "YearsSubfolder": "04-Manga",
         "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\04-A Comfy Life with my Family",
-        "ProcessedInPartThree": true
-      },
-      {
-        "OriginalFilenames": [ "bonus2", "bonus1" ],
-        "SortOrder": "0302",
-        "ChapterName": "LN302",
-        "AltName": "Volume 2",
-        "FlatSubfolder": "01-Inserts",
-        "PartsSubfolder": "03-Adopted Daughter of an Archduke\\01-Inserts",
-        "YearsSubfolder": "01-Inserts",
-        "VolumeSubfolder": "03-Adopted Daughter of an Archduke",
         "ProcessedInPartThree": true
       },
       {
@@ -2949,6 +2887,19 @@
   {
     "InternalName": "LN0303",
     "ProcessedInPartThree": true,
+    "Gallery": {
+      "SplashImages": [ "bonus2", "bonus1" ],
+      "ChapterImages": [ "insert1", "insert2", "insert3", "insert4", "insert5", "insert6", "insert7", "insert8", "insert9", "insert10" ],
+      "SortOrder": "0303",
+      "EndOfBookSortOrder": "030399",
+      "ChapterName": "LN303",
+      "AltName": "Volume 3",
+      "FlatSubfolder": "01-Inserts",
+      "PartsSubfolder": "03-Adopted Daughter of an Archduke\\01-Inserts",
+      "YearsSubfolder": "01-Inserts",
+      "VolumeSubfolder": "03-Adopted Daughter of an Archduke",
+      "ProcessedInPartThree": true
+    },
     "Chapters": [
       {
         "OriginalFilenames": [ "manga1", "manga2" ],
@@ -2958,17 +2909,6 @@
         "PartsSubfolder": "03-Adopted Daughter of an Archduke\\04-A Comfy Life with my Family",
         "YearsSubfolder": "04-Manga",
         "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\04-A Comfy Life with my Family",
-        "ProcessedInPartThree": true
-      },
-      {
-        "OriginalFilenames": [ "bonus2", "bonus1" ],
-        "SortOrder": "0303",
-        "ChapterName": "LN303",
-        "AltName": "Volume 3",
-        "FlatSubfolder": "01-Inserts",
-        "PartsSubfolder": "03-Adopted Daughter of an Archduke\\01-Inserts",
-        "YearsSubfolder": "01-Inserts",
-        "VolumeSubfolder": "03-Adopted Daughter of an Archduke",
         "ProcessedInPartThree": true
       },
       {
@@ -3240,179 +3180,21 @@
     ]
   },
   {
-    "InternalName": "FB2",
-    "ProcessedInPartOne": true,
-    "ProcessedInPartTwo": true,
-    "ProcessedInPartThree": true,
-    "ProcessedInPartFour": true,
-    "ProcessedInPartFive": true,
-    "Chapters": [
-      {
-        "OriginalFilenames": [ "side1", 2 ],
-        "SortOrder": "010114b",
-        "OriginalOrder": "010199d",
-        "ChapterName": "One Winter's Day",
-        "FlatSubfolder": "03-Story",
-        "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
-        "Year": 0,
-        "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
-        "VolumeSubfolder": "01-Daughter of a Soldier\\0101-Volume 1",
-        "ProcessedInPartOne": true
-      },
-      {
-        "OriginalFilenames": [ "side2" ],
-        "SortOrder": "020126",
-        "OriginalOrder": "0201993",
-        "ChapterName": "I'm Not Givin' Ya My Daughter! [Gunther]",
-        "FlatSubfolder": "03-Story",
-        "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
-        "Year": 2,
-        "YearsSubfolder": "03-Story\\[Year]\\1-Summer",
-        "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0201-Volume 1",
-        "ProcessedInPartTwo": true
-      },
-      {
-        "OriginalFilenames": [ "side3" ],
-        "SortOrder": "020214c",
-        "OriginalOrder": "020299c",
-        "ChapterName": "My Handful of a Little Sister [Tuuli]",
-        "FlatSubfolder": "03-Story",
-        "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
-        "Year": 2,
-        "YearsSubfolder": "03-Story\\[Year]\\2-Autumn",
-        "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0202-Volume 2",
-        "ProcessedInPartTwo": true
-      },
-      {
-        "OriginalFilenames": [ "side4" ],
-        "SortOrder": "020218b",
-        "OriginalOrder": "020299d",
-        "ChapterName": "Studying Literature and Picture Books [Tuuli]",
-        "FlatSubfolder": "03-Story",
-        "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
-        "Year": 2,
-        "YearsSubfolder": "03-Story\\[Year]\\2-Autumn",
-        "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0202-Volume 2",
-        "ProcessedInPartTwo": true
-      },
-      {
-        "OriginalFilenames": [ "side5" ],
-        "SortOrder": "030121b",
-        "OriginalOrder": "0301993",
-        "ChapterName": "A Tea Party with My Older Sister [Christel]",
-        "FlatSubfolder": "03-Story",
-        "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
-        "Year": 3,
-        "YearsSubfolder": "03-Story\\[Year]\\1-Summer",
-        "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0301-Volume 1",
-        "ProcessedInPartThree": true
-      },
-      {
-        "OriginalFilenames": [ "side6" ],
-        "SortOrder": "030509b",
-        "OriginalOrder": "0305998",
-        "ChapterName": "Feelings of Panic [Tuuli]",
-        "FlatSubfolder": "03-Story",
-        "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
-        "Year": 4,
-        "YearsSubfolder": "03-Story\\[Year]\\2-Autumn",
-        "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0305-Volume 5",
-        "ProcessedInPartThree": true
-      },
-      {
-        "OriginalFilenames": [ "side7", "3", "side7_1" ],
-        "SortOrder": "040108b",
-        "OriginalOrder": "0401993",
-        "ChapterName": "The Start of Life as a Retainer [Brunhilde]",
-        "FlatSubfolder": "03-Story",
-        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
-        "Year": 6,
-        "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
-        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\0401-Volume 1",
-        "ProcessedInPartFour": true
-      },
-      {
-        "OriginalFilenames": [ "3" ],
-        "SortOrder": "06",
-        "ChapterName": "Rozemyne's Academy Chambers",
-        "FlatSubfolder": "05-Maps",
-        "PartsSubfolder": "10-Maps",
-        "YearsSubfolder": "05-Maps",
-        "VolumeSubfolder": "05-Maps",
-        "ProcessedInPartFour": true,
-        "ProcessedInPartFive": true
-      },
-      {
-        "OriginalFilenames": [ "11", "12", "13", "14", "15", "16", "17" ],
-        "SortOrder": "0201",
-        "ChapterName": "Fanbook Two Character Design Sheets",
-        "FlatSubfolder": "06-Fanbooks",
-        "PartsSubfolder": "11-Fanbooks",
-        "YearsSubfolder": "06-Fanbooks",
-        "VolumeSubfolder": "06-Fanbooks"
-      },
-      {
-        "OriginalFilenames": [ "qa" ],
-        "SortOrder": "0202",
-        "ChapterName": "Fanbook 2 QnA",
-        "FlatSubfolder": "06-Fanbooks",
-        "PartsSubfolder": "11-Fanbooks",
-        "YearsSubfolder": "06-Fanbooks",
-        "VolumeSubfolder": "06-Fanbooks"
-      },
-      {
-        "OriginalFilenames": [ "4", "5", "6", "7", "8", "9", "10" ],
-        "SortOrder": "0203",
-        "ChapterName": "Drama CD Post-Recording Report [Suzuka]",
-        "FlatSubfolder": "06-Fanbooks",
-        "PartsSubfolder": "11-Fanbooks",
-        "YearsSubfolder": "06-Fanbooks",
-        "VolumeSubfolder": "06-Fanbooks"
-      },
-      {
-        "OriginalFilenames": [ "dramacd" ],
-        "SortOrder": "0204",
-        "ChapterName": "Drama CD Post-Recording Report [Miya Kazuki]",
-        "FlatSubfolder": "06-Fanbooks",
-        "PartsSubfolder": "11-Fanbooks",
-        "YearsSubfolder": "06-Fanbooks",
-        "VolumeSubfolder": "06-Fanbooks"
-      },
-      {
-        "OriginalFilenames": [ "18", "19" ],
-        "SortOrder": "0205",
-        "ChapterName": "Noble Family Tree",
-        "FlatSubfolder": "06-Fanbooks",
-        "PartsSubfolder": "11-Fanbooks",
-        "YearsSubfolder": "06-Fanbooks",
-        "VolumeSubfolder": "06-Fanbooks"
-      },
-      {
-        "OriginalFilenames": [ "28", "29" ],
-        "SortOrder": "0403b",
-        "ChapterName": "FB2",
-        "FlatSubfolder": "04-Manga",
-        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\04-A Comfy Life with my Family",
-        "YearsSubfolder": "04-Manga",
-        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\05-A Comfy Life with my Family",
-        "ProcessedInPartFour": true
-      },
-      {
-        "OriginalFilenames": [ "cover", "26", "27" ],
-        "SortOrder": "0403b",
-        "ChapterName": "FB2",
-        "AltName": "Fanbook 2",
-        "FlatSubfolder": "01-Inserts",
-        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\01-Inserts",
-        "YearsSubfolder": "01-Inserts",
-        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee",
-        "ProcessedInPartFour": true
-      }
-    ]
-  },
-  {
     "InternalName": "LN0304",
     "ProcessedInPartThree": true,
+    "Gallery": {
+      "SplashImages": [ "bonus2", "bonus1" ],
+      "ChapterImages": [ "insert1", "insert2", "insert3", "insert4", "insert5", "insert6", "insert7", "insert8", "insert9", "insert10" ],
+      "SortOrder": "0304",
+      "EndOfBookSortOrder": "030499",
+      "ChapterName": "LN304",
+      "AltName": "Volume 4",
+      "FlatSubfolder": "01-Inserts",
+      "PartsSubfolder": "03-Adopted Daughter of an Archduke\\01-Inserts",
+      "YearsSubfolder": "01-Inserts",
+      "VolumeSubfolder": "03-Adopted Daughter of an Archduke",
+      "ProcessedInPartThree": true
+    },
     "Chapters": [
       {
         "OriginalFilenames": [ "manga1", "manga2" ],
@@ -3422,17 +3204,6 @@
         "PartsSubfolder": "03-Adopted Daughter of an Archduke\\04-A Comfy Life with my Family",
         "YearsSubfolder": "04-Manga",
         "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\04-A Comfy Life with my Family",
-        "ProcessedInPartThree": true
-      },
-      {
-        "OriginalFilenames": [ "bonus2", "bonus1" ],
-        "SortOrder": "0304",
-        "ChapterName": "LN304",
-        "AltName": "Volume 4",
-        "FlatSubfolder": "01-Inserts",
-        "PartsSubfolder": "03-Adopted Daughter of an Archduke\\01-Inserts",
-        "YearsSubfolder": "01-Inserts",
-        "VolumeSubfolder": "03-Adopted Daughter of an Archduke",
         "ProcessedInPartThree": true
       },
       {
@@ -3710,6 +3481,19 @@
     "ProcessedInPartTwo": true,
     "ProcessedInPartThree": true,
     "ProcessedInPartFour": true,
+    "Gallery": {
+      "SplashImages": [ "bonus2", "bonus1" ],
+      "ChapterImages": [ "insert1", "insert2", "insert3", "insert4", "insert5", "insert6", "insert7", "insert8", "insert9", "insert10" ],
+      "SortOrder": "0305",
+      "EndOfBookSortOrder": "030599",
+      "ChapterName": "LN305",
+      "AltName": "Volume 5",
+      "FlatSubfolder": "01-Inserts",
+      "PartsSubfolder": "03-Adopted Daughter of an Archduke\\01-Inserts",
+      "YearsSubfolder": "01-Inserts",
+      "VolumeSubfolder": "03-Adopted Daughter of an Archduke",
+      "ProcessedInPartThree": true
+    },
     "Chapters": [
       {
         "OriginalFilenames": [ "manga1", "manga2" ],
@@ -3719,17 +3503,6 @@
         "PartsSubfolder": "03-Adopted Daughter of an Archduke\\04-A Comfy Life with my Family",
         "YearsSubfolder": "04-Manga",
         "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\04-A Comfy Life with my Family",
-        "ProcessedInPartThree": true
-      },
-      {
-        "OriginalFilenames": [ "bonus2", "bonus1" ],
-        "SortOrder": "0305",
-        "ChapterName": "LN305",
-        "AltName": "Volume 5",
-        "FlatSubfolder": "01-Inserts",
-        "PartsSubfolder": "03-Adopted Daughter of an Archduke\\01-Inserts",
-        "YearsSubfolder": "01-Inserts",
-        "VolumeSubfolder": "03-Adopted Daughter of an Archduke",
         "ProcessedInPartThree": true
       },
       {
@@ -4035,6 +3808,19 @@
   {
     "InternalName": "LN0401",
     "ProcessedInPartFour": true,
+    "Gallery": {
+      "SplashImages": [ "bonus2", "bonus1" ],
+      "ChapterImages": [ "insert1", "insert2", "insert3", "insert4", "insert5", "insert6", "insert7", "insert8", "insert9", "insert10" ],
+      "SortOrder": "0401",
+      "EndOfBookSortOrder": "040199",
+      "ChapterName": "LN401",
+      "AltName": "Volume 1",
+      "FlatSubfolder": "01-Inserts",
+      "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\01-Inserts",
+      "YearsSubfolder": "01-Inserts",
+      "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee",
+      "ProcessedInPartFour": true
+    },
     "Chapters": [
       {
         "OriginalFilenames": [ "manga1", "manga2" ],
@@ -4044,17 +3830,6 @@
         "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\04-A Comfy Life with my Family",
         "YearsSubfolder": "04-Manga",
         "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\05-A Comfy Life with my Family",
-        "ProcessedInPartFour": true
-      },
-      {
-        "OriginalFilenames": [ "bonus2", "bonus1" ],
-        "SortOrder": "0401",
-        "ChapterName": "LN401",
-        "AltName": "Volume 1",
-        "FlatSubfolder": "01-Inserts",
-        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\01-Inserts",
-        "YearsSubfolder": "01-Inserts",
-        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee",
         "ProcessedInPartFour": true
       },
       {
@@ -4360,6 +4135,19 @@
   {
     "InternalName": "LN0402",
     "ProcessedInPartFour": true,
+    "Gallery": {
+      "SplashImages": [ "bonus2", "bonus1" ],
+      "ChapterImages": [ "insert1", "insert2", "insert3", "insert4", "insert5", "insert6", "insert7", "insert8", "insert9", "insert10" ],
+      "SortOrder": "0402",
+      "EndOfBookSortOrder": "040299",
+      "ChapterName": "LN402",
+      "AltName": "Volume 2",
+      "FlatSubfolder": "01-Inserts",
+      "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\01-Inserts",
+      "YearsSubfolder": "01-Inserts",
+      "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee",
+      "ProcessedInPartFour": true
+    },
     "Chapters": [
       {
         "OriginalFilenames": [ "manga1", "manga2" ],
@@ -4369,17 +4157,6 @@
         "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\04-A Comfy Life with my Family",
         "YearsSubfolder": "04-Manga",
         "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\05-A Comfy Life with my Family",
-        "ProcessedInPartFour": true
-      },
-      {
-        "OriginalFilenames": [ "bonus2", "bonus1" ],
-        "SortOrder": "0402",
-        "ChapterName": "LN402",
-        "AltName": "Volume 2",
-        "FlatSubfolder": "01-Inserts",
-        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\01-Inserts",
-        "YearsSubfolder": "01-Inserts",
-        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee",
         "ProcessedInPartFour": true
       },
       {
@@ -4642,6 +4419,19 @@
   {
     "InternalName": "LN0403",
     "ProcessedInPartFour": true,
+    "Gallery": {
+      "SplashImages": [ "bonus2", "bonus1" ],
+      "ChapterImages": [ "insert1", "insert2", "insert3", "insert4", "insert5", "insert6", "insert7", "insert8", "insert9", "insert10" ],
+      "SortOrder": "0403a",
+      "EndOfBookSortOrder": "0403a99",
+      "ChapterName": "LN403",
+      "AltName": "Volume 3",
+      "FlatSubfolder": "01-Inserts",
+      "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\01-Inserts",
+      "YearsSubfolder": "01-Inserts",
+      "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee",
+      "ProcessedInPartFour": true
+    },
     "Chapters": [
       {
         "OriginalFilenames": [ "manga1", "manga2" ],
@@ -4651,17 +4441,6 @@
         "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\04-A Comfy Life with my Family",
         "YearsSubfolder": "04-Manga",
         "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\05-A Comfy Life with my Family",
-        "ProcessedInPartFour": true
-      },
-      {
-        "OriginalFilenames": [ "bonus2", "bonus1" ],
-        "SortOrder": "0403a",
-        "ChapterName": "LN403",
-        "AltName": "Volume 3",
-        "FlatSubfolder": "01-Inserts",
-        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\01-Inserts",
-        "YearsSubfolder": "01-Inserts",
-        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee",
         "ProcessedInPartFour": true
       },
       {
@@ -4935,6 +4714,19 @@
   {
     "InternalName": "LN0404",
     "ProcessedInPartFour": true,
+    "Gallery": {
+      "SplashImages": [ "bonus2", "bonus1" ],
+      "ChapterImages": [ "insert1", "insert2", "insert3", "insert4", "insert5", "insert6", "insert7", "insert8", "insert9", "insert10" ],
+      "SortOrder": "0404",
+      "EndOfBookSortOrder": "040499",
+      "ChapterName": "LN404",
+      "AltName": "Volume 4",
+      "FlatSubfolder": "01-Inserts",
+      "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\01-Inserts",
+      "YearsSubfolder": "01-Inserts",
+      "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee",
+      "ProcessedInPartFour": true
+    },
     "Chapters": [
       {
         "OriginalFilenames": [ "manga1", "manga2" ],
@@ -4944,17 +4736,6 @@
         "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\04-A Comfy Life with my Family",
         "YearsSubfolder": "04-Manga",
         "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\05-A Comfy Life with my Family",
-        "ProcessedInPartFour": true
-      },
-      {
-        "OriginalFilenames": [ "bonus2", "bonus1" ],
-        "SortOrder": "0404",
-        "ChapterName": "LN404",
-        "AltName": "Volume 4",
-        "FlatSubfolder": "01-Inserts",
-        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\01-Inserts",
-        "YearsSubfolder": "01-Inserts",
-        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee",
         "ProcessedInPartFour": true
       },
       {
@@ -5184,6 +4965,19 @@
   {
     "InternalName": "LN0405",
     "ProcessedInPartFour": true,
+    "Gallery": {
+      "SplashImages": [ "bonus2", "bonus1" ],
+      "ChapterImages": [ "insert1", "insert2", "insert3", "insert4", "insert5", "insert6", "insert7", "insert8", "insert9", "insert10" ],
+      "SortOrder": "0405",
+      "EndOfBookSortOrder": "040599",
+      "ChapterName": "LN405",
+      "AltName": "Volume 5",
+      "FlatSubfolder": "01-Inserts",
+      "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\01-Inserts",
+      "YearsSubfolder": "01-Inserts",
+      "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee",
+      "ProcessedInPartFour": true
+    },
     "Chapters": [
       {
         "OriginalFilenames": [ "manga1", "manga2" ],
@@ -5193,17 +4987,6 @@
         "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\04-A Comfy Life with my Family",
         "YearsSubfolder": "04-Manga",
         "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\05-A Comfy Life with my Family",
-        "ProcessedInPartFour": true
-      },
-      {
-        "OriginalFilenames": [ "bonus2", "bonus1" ],
-        "SortOrder": "0405",
-        "ChapterName": "LN405",
-        "AltName": "Volume 5",
-        "FlatSubfolder": "01-Inserts",
-        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\01-Inserts",
-        "YearsSubfolder": "01-Inserts",
-        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee",
         "ProcessedInPartFour": true
       },
       {
@@ -5467,6 +5250,19 @@
   {
     "InternalName": "LN0406",
     "ProcessedInPartFour": true,
+    "Gallery": {
+      "SplashImages": [ "bonus2", "bonus1" ],
+      "ChapterImages": [ "insert1", "insert2", "insert3", "insert4", "insert5", "insert6", "insert7", "insert8", "insert9", "insert10" ],
+      "SortOrder": "0406",
+      "EndOfBookSortOrder": "040699",
+      "ChapterName": "LN406",
+      "AltName": "Volume 6",
+      "FlatSubfolder": "01-Inserts",
+      "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\01-Inserts",
+      "YearsSubfolder": "01-Inserts",
+      "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee",
+      "ProcessedInPartFour": true
+    },
     "Chapters": [
       {
         "OriginalFilenames": [ "manga1", "manga2" ],
@@ -5476,17 +5272,6 @@
         "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\04-A Comfy Life with my Family",
         "YearsSubfolder": "04-Manga",
         "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\05-A Comfy Life with my Family",
-        "ProcessedInPartFour": true
-      },
-      {
-        "OriginalFilenames": [ "bonus2", "bonus1" ],
-        "SortOrder": "0406",
-        "ChapterName": "LN406",
-        "AltName": "Volume 6",
-        "FlatSubfolder": "01-Inserts",
-        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\01-Inserts",
-        "YearsSubfolder": "01-Inserts",
-        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee",
         "ProcessedInPartFour": true
       },
       {
@@ -5749,6 +5534,19 @@
   {
     "InternalName": "LN0407",
     "ProcessedInPartFour": true,
+    "Gallery": {
+      "SplashImages": [ "bonus2", "bonus1" ],
+      "ChapterImages": [ "insert1", "insert2", "insert3", "insert4", "insert5", "insert6", "insert7", "insert8", "insert9", "insert10" ],
+      "SortOrder": "0407",
+      "EndOfBookSortOrder": "040799",
+      "ChapterName": "LN407",
+      "AltName": "Volume 7",
+      "FlatSubfolder": "01-Inserts",
+      "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\01-Inserts",
+      "YearsSubfolder": "01-Inserts",
+      "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee",
+      "ProcessedInPartFour": true
+    },
     "Chapters": [
       {
         "OriginalFilenames": [ "manga1", "manga2" ],
@@ -5758,17 +5556,6 @@
         "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\04-A Comfy Life with my Family",
         "YearsSubfolder": "04-Manga",
         "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\05-A Comfy Life with my Family",
-        "ProcessedInPartFour": true
-      },
-      {
-        "OriginalFilenames": [ "bonus2", "bonus1" ],
-        "SortOrder": "0407",
-        "ChapterName": "LN407",
-        "AltName": "Volume 7",
-        "FlatSubfolder": "01-Inserts",
-        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\01-Inserts",
-        "YearsSubfolder": "01-Inserts",
-        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee",
         "ProcessedInPartFour": true
       },
       {
@@ -6024,6 +5811,19 @@
     "ProcessedInPartThree": true,
     "ProcessedInPartFour": true,
     "ProcessedInPartFive": true,
+    "Gallery": {
+      "SplashImages": [ "bonus2", "bonus1" ],
+      "ChapterImages": [ "insert1", "insert2", "insert3", "insert4", "insert5", "insert6", "insert7", "insert8", "insert9", "insert10" ],
+      "SortOrder": "0408",
+      "EndOfBookSortOrder": "040899",
+      "ChapterName": "LN408",
+      "AltName": "Volume 8",
+      "FlatSubfolder": "01-Inserts",
+      "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\01-Inserts",
+      "YearsSubfolder": "01-Inserts",
+      "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee",
+      "ProcessedInPartFour": true
+    },
     "Chapters": [
       {
         "OriginalFilenames": [ "map2" ],
@@ -6057,17 +5857,6 @@
         "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\04-A Comfy Life with my Family",
         "YearsSubfolder": "04-Manga",
         "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\05-A Comfy Life with my Family",
-        "ProcessedInPartFour": true
-      },
-      {
-        "OriginalFilenames": [ "bonus2", "bonus1" ],
-        "SortOrder": "0408",
-        "ChapterName": "LN408",
-        "AltName": "Volume 8",
-        "FlatSubfolder": "01-Inserts",
-        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\01-Inserts",
-        "YearsSubfolder": "01-Inserts",
-        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee",
         "ProcessedInPartFour": true
       },
       {
@@ -6339,679 +6128,21 @@
     ]
   },
   {
-    "InternalName": "M0101",
-    "ProcessedInPartOne": true,
-    "Chapters": [
-      {
-        "OriginalFilenames": [ "151", "152", "153", "154", "155", "156" ],
-        "SortOrder": "010105b",
-        "OriginalOrder": "010199f",
-        "ChapterName": "Myne's Gotten Weird [Tuuli]",
-        "FlatSubfolder": "03-Story",
-        "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
-        "Year": 0,
-        "YearsSubfolder": "03-Story\\[Year]\\2-Autumn",
-        "VolumeSubfolder": "01-Daughter of a Soldier\\0101-Volume 1",
-        "ProcessedInPartOne": true
-      }
-    ]
-  },
-  {
-    "InternalName": "M0102",
-    "ProcessedInPartOne": true,
-    "Chapters": [
-      {
-        "OriginalFilenames": [ "167", "168", "169", "170", "171", "172" ],
-        "SortOrder": "010113b",
-        "OriginalOrder": "010199g",
-        "ChapterName": "Lutz and the Parue Tree [Lutz]",
-        "FlatSubfolder": "03-Story",
-        "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
-        "Year": 0,
-        "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
-        "VolumeSubfolder": "01-Daughter of a Soldier\\0101-Volume 1",
-        "ProcessedInPartOne": true
-      }
-    ]
-  },
-  {
-    "InternalName": "M0103",
-    "ProcessedInPartOne": true,
-    "OCR": true,
-    "Chapters": [
-      {
-        "OriginalFilenames": [ "184", "185", "186", "187", "188", "189", "190" ],
-        "SortOrder": "010118b",
-        "OriginalOrder": "010199h",
-        "ChapterName": "The Baptism Ceremony and the Hairpin [Freida]",
-        "FlatSubfolder": "03-Story",
-        "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
-        "Year": 1,
-        "YearsSubfolder": "03-Story\\[Year]\\1-Summer",
-        "VolumeSubfolder": "01-Daughter of a Soldier\\0101-Volume 1",
-        "ProcessedInPartOne": true,
-        "OCR": {
-          "Corrections": [
-            {
-              "Original": "...Oh?\"",
-              "Replacement": "“...Oh?”"
-            },
-            {
-              "Original": "flowers .",
-              "Replacement": "flowers."
-            }
-          ],
-          "Italics": [
-            {
-              "Start": "...I",
-              "End": "possible."
-            },
-            {
-              "Start": "But I",
-              "End": "that."
-            },
-            {
-              "Start": "...Ha",
-              "End": "s?!"
-            }
-          ]
-        }
-      }
-    ]
-  },
-  {
-    "InternalName": "M0104",
-    "ProcessedInPartOne": true,
-    "OCR": true,
-    "Chapters": [
-      {
-        "OriginalFilenames": [ "166", "167", "168", "169", "170", "171", "172", "173" ],
-        "SortOrder": "010206b",
-        "OriginalOrder": "010299c",
-        "ChapterName": "Zeg the Apprentice Craftsman [Zeg]",
-        "FlatSubfolder": "03-Story",
-        "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
-        "Year": 1,
-        "YearsSubfolder": "03-Story\\[Year]\\1-Summer",
-        "VolumeSubfolder": "01-Daughter of a Soldier\\0102-Volume 2",
-        "ProcessedInPartOne": true,
-        "OCR": {
-          "Corrections": [
-            {
-              "Original": "chores and stuff",
-              "Replacement": "chores and stuff."
-            },
-            {
-              "Original": "'n'",
-              "Replacement": "‘n’"
-            }
-          ],
-          "Italics": [
-            {
-              "Start": "...One day",
-              "End": "chores and stuff."
-            },
-            {
-              "Start": "...He’s not",
-              "End": "errands?!"
-            },
-            {
-              "Start": "Gah...!",
-              "End": "good too!"
-            }
-          ]
-        }
-      }
-    ]
-  },
-  {
-    "InternalName": "M0105",
-    "ProcessedInPartOne": true,
-    "OCR": true,
-    "Chapters": [
-      {
-        "OriginalFilenames": [ "176", "177", "178", "179", "180", "181", "182", "183", "184", "185" ],
-        "SortOrder": "010218b",
-        "OriginalOrder": "010299d",
-        "ChapterName": "Hairpins and the Meeting of Stores [Benno]",
-        "FlatSubfolder": "03-Story",
-        "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
-        "Year": 1,
-        "YearsSubfolder": "03-Story\\[Year]\\2-Autumn",
-        "VolumeSubfolder": "01-Daughter of a Soldier\\0102-Volume 2",
-        "ProcessedInPartOne": true,
-        "OCR": {
-          "Corrections": [
-          ],
-          "Italics": [
-            {
-              "Start": "...Are",
-              "End": "alright?"
-            },
-            {
-              "Start": "Huh...",
-              "End": "change in Ahrensbach?"
-            },
-            {
-              "Start": "...Though",
-              "End": "don’t have a choice."
-            },
-            {
-              "Start": "...Just what",
-              "End": "geezer planning?!"
-            },
-            {
-              "Start": "The hairpins?!",
-              "End": "The hairpins?!"
-            },
-            {
-              "Start": "This freaking geezer!",
-              "End": "hairpins for them!"
-            },
-            {
-              "Start": "...Just you wait",
-              "End": "last forever."
-            }
-          ]
-        }
-      }
-    ]
-  },
-  {
-    "InternalName": "M0106",
-    "ProcessedInPartOne": true,
-    "OCR": true,
-    "Chapters": [
-      {
-        "OriginalFilenames": [ "171", "172", "173", "174", "175", "176", "177", "178", "180" ],
-        "SortOrder": "010314b",
-        "OriginalOrder": "0103997",
-        "ChapterName": "Some Time in the Woods [Benno]",
-        "FlatSubfolder": "03-Story",
-        "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
-        "Year": 1,
-        "YearsSubfolder": "03-Story\\[Year]\\4-Spring",
-        "VolumeSubfolder": "01-Daughter of a Soldier\\0103-Volume 3",
-        "ProcessedInPartOne": true
-      },
-      {
-        "OriginalFilenames": [ "182", "183", "184", "185", "186", "187", "188", "189" ],
-        "SortOrder": "010315b",
-        "OriginalOrder": "0103998",
-        "ChapterName": "A Long-Awaited Reunion [Freida]",
-        "FlatSubfolder": "03-Story",
-        "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
-        "Year": 1,
-        "YearsSubfolder": "03-Story\\[Year]\\4-Spring",
-        "VolumeSubfolder": "01-Daughter of a Soldier\\0103-Volume 3",
-        "ProcessedInPartOne": true,
-        "OCR": {
-          "Corrections": [
-            {
-              "Original": "'winter preparations,'",
-              "Replacement": "‘winter preparations,’"
-            },
-            {
-              "Original": "7hefact",
-              "Replacement": "The fact"
-            }
-          ],
-          "Italics": [
-            {
-              "Start": "If only she would",
-              "End": "only just begun..."
-            },
-            {
-              "Start": "...What a",
-              "End": "wonderful idea!"
-            },
-            {
-              "Start": "...She only has",
-              "End": "work of Benno!"
-            },
-            {
-              "Start": "I suppose I",
-              "End": "Gilberta Company..."
-            },
-            {
-              "Start": "Finally, we",
-              "End": "again!"
-            },
-            {
-              "Start": "...I won’t miss this opportunity, no matter what. I will defeat Benno!",
-              "End": "defeat Benno!"
-            }
-          ]
-        }
-      }
-    ]
-  },
-  {
-    "InternalName": "M0107",
-    "ProcessedInPartOne": true,
-    "OCR": true,
-    "Chapters": [
-      {
-        "OriginalFilenames": [ "210", "211", "212", "213", "214", "215", "216", "217", "218", "219", "220", "221" ],
-        "SortOrder": "010325d",
-        "OriginalOrder": "0103999",
-        "ChapterName": "As the Gilberta Company's Successor [Corinna]",
-        "FlatSubfolder": "03-Story",
-        "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
-        "Year": 2,
-        "YearsSubfolder": "03-Story\\[Year]\\1-Summer",
-        "VolumeSubfolder": "01-Daughter of a Soldier\\0103-Volume 3",
-        "ProcessedInPartOne": true,
-        "OCR": {
-          "Corrections": [
-            {
-              "Original": "just say golds?!",
-              "Replacement": "just say <i>golds</i>?!"
-            },
-            {
-              "Original": "parents' backs",
-              "Replacement": "parents’ backs"
-            },
-            {
-              "Original": "771is",
-              "Replacement": "This"
-            }
-          ],
-          "Italics": [
-            {
-              "Start": "And she had the Devouring?",
-              "End": "And she had the Devouring?"
-            },
-            {
-              "Start": "Her speech is",
-              "End": "of her family."
-            },
-            {
-              "Start": "Like this,",
-              "End": "perhaps...?"
-            },
-            {
-              "Start": "I wonder how",
-              "End": "against Benno...?"
-            },
-            {
-              "Start": "One large gold",
-              "End": "impressive indeed."
-            },
-            {
-              "Start": "This has to",
-              "End": "for her parents"
-            },
-            {
-              "Start": "Something tells me",
-              "End": "just like this."
-            }
-          ]
-        }
-      }
-    ]
-  },
-  {
-    "InternalName": "M0201",
-    "ProcessedInPartTwo": true,
-    "OCR": true,
-    "Chapters": [
-      {
-        "OriginalFilenames": [ "186", "187", "188", "189", "190", "191", "192", "193", "194", "195" ],
-        "SortOrder": "020105b",
-        "OriginalOrder": "020199f",
-        "ChapterName": "Fran and the Commoner Apprentice Shrine Maiden [Zahm]",
-        "FlatSubfolder": "03-Story",
-        "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
-        "Year": 2,
-        "YearsSubfolder": "03-Story\\[Year]\\1-Summer",
-        "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0201-Volume 1",
-        "ProcessedInPartTwo": true,
-        "OCR": {
-          "Corrections": [
-            {
-              "Original": "Priest’s </p>\r\n<p>“It has been decided that Fran shall become the head chambers. attendant",
-              "Replacement": "Priest’s chambers. “It has been decided that Fran shall become the head attendant"
-            },
-            {
-              "Original": "herselfto",
-              "Replacement": "herself to"
-            },
-            {
-              "Original": "Justfrom walking... ?",
-              "Replacement": "Just from walking...?"
-            },
-            {
-              "Original": "<p>Apprentice Blue Shrine Maiden </p>\r\n",
-              "Replacement": ""
-            },
-            {
-              "Original": "<p> </p>\r\n",
-              "Replacement": ""
-            }
-          ],
-          "Header": "Fran and the Commoner Apprentice Blue Shrine Maiden",
-          "Italics": [
-            {
-              "Start": "Fran, why are",
-              "End": "happening here."
-            },
-            {
-              "Start": "Collapse?",
-              "End": "walking...?"
-            },
-            {
-              "Start": "Perhaps this",
-              "End": "temper again?"
-            },
-            {
-              "Start": "However...",
-              "End": "However..."
-            }
-          ]
-        }
-      }
-    ]
-  },
-  {
-    "InternalName": "M0202",
-    "ProcessedInPartTwo": true,
-    "OCR": true,
-    "Chapters": [
-      {
-        "OriginalFilenames": [ "170", "171", "172", "173", "174", "175", "176", "177" ],
-        "SortOrder": "020113b",
-        "OriginalOrder": "020199g",
-        "ChapterName": "The Other Side of the Orphanage Incident [Ferdinand]",
-        "FlatSubfolder": "03-Story",
-        "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
-        "Year": 2,
-        "YearsSubfolder": "03-Story\\[Year]\\1-Summer",
-        "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0201-Volume 1",
-        "ProcessedInPartTwo": true,
-        "OCR": {
-          "Corrections": [
-            {
-              "Original": " ofa ",
-              "Replacement": " of a "
-            },
-            {
-              "Original": "my work that is,",
-              "Replacement": "my work—that is,"
-            },
-            {
-              "Original": "girls'",
-              "Replacement": "girls’"
-            },
-            {
-              "Original": "look around and think.",
-              "Replacement": "look around and <i>think</i>."
-            }
-          ],
-          "Italics": [
-            {
-              "Start": "That said, Myne is",
-              "End": "useful than I expected."
-            },
-            {
-              "Start": "If this goes well, Sylvester",
-              "End": "Bishop’s power in the temple."
-            },
-            {
-              "Start": "It is not something",
-              "End": "situation is nothing rare."
-            },
-            {
-              "Start": "Hm... From",
-              "End": "information leak?"
-            },
-            {
-              "Start": "I suppose I will need",
-              "End": "woman is present."
-            },
-            {
-              "Start": "My head aches...",
-              "End": "My head aches..."
-            },
-            {
-              "Start": "I can only imagine",
-              "End": "caring about Myne’s request."
-            }
-          ]
-        }
-      },
-      {
-        "OriginalFilenames": [ "161", "162", "163", "164", "165", "166", "167", "168" ],
-        "SortOrder": "020114b",
-        "OriginalOrder": "020199h",
-        "ChapterName": "Sister Myne and Me [Fran]",
-        "FlatSubfolder": "03-Story",
-        "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
-        "Year": 2,
-        "YearsSubfolder": "03-Story\\[Year]\\1-Summer",
-        "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0201-Volume 1",
-        "ProcessedInPartTwo": true
-      }
-    ]
-  },
-  {
-    "InternalName": "M0203",
-    "ProcessedInPartTwo": true,
-    "OCR": true,
-    "Chapters": [
-      {
-        "OriginalFilenames": [ "163", "164", "165", "166", "167", "168", "169", "170" ],
-        "SortOrder": "020118b",
-        "OriginalOrder": "020199i",
-        "ChapterName": "Ordering Ceremonial Robes [Manga]",
-        "FlatSubfolder": "03-Story",
-        "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
-        "Year": 2,
-        "YearsSubfolder": "03-Story\\[Year]\\1-Summer",
-        "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0201-Volume 1",
-        "ProcessedInPartTwo": true
-      },
-      {
-        "OriginalFilenames": [ "172", "173", "174", "175", "176", "177", "178", "179" ],
-        "SortOrder": "020119b",
-        "OriginalOrder": "020199j",
-        "ChapterName": "Gathering Taues [Rico]",
-        "FlatSubfolder": "03-Story",
-        "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
-        "Year": 2,
-        "YearsSubfolder": "03-Story\\[Year]\\1-Summer",
-        "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0201-Volume 1",
-        "ProcessedInPartTwo": true,
-        "OCR": {
-          "Corrections": [
-            {
-              "Original": "'cause",
-              "Replacement": "’cause"
-            },
-            {
-              "Original": "oftaues",
-              "Replacement": "of taues"
-            },
-            {
-              "Original": "'cramped'",
-              "Replacement": "‘cramped’"
-            },
-            {
-              "Original": "Ere..",
-              "Replacement": "Er..."
-            },
-            {
-              "Original": "<p>We arrived in the forest to find",
-              "Replacement": "<br />\r\n<p>We arrived in the forest to find"
-            },
-            {
-              "Original": "\"Don’t let Tuuli beat </p>\r\n<br />",
-              "Replacement": "“Don’t let Tuuli beat us!”</p>"
-            },
-            {
-              "Original": "7hough",
-              "Replacement": "Though"
-            }
-          ],
-          "Italics": [
-            {
-              "Start": "I need to grab a ton",
-              "End": "For Sister Myne too."
-            },
-            {
-              "Start": "Though the main reason",
-              "End": "to sleep on the floor."
-            },
-            {
-              "Start": "I hope we can go",
-              "End": "together someday..."
-            },
-            {
-              "Start": "It was because of Sister Myne’s",
-              "End": "the forest with us one day..."
-            }
-          ]
-        }
-      }
-    ]
-  },
-  {
-    "InternalName": "M0204",
-    "ProcessedInPartTwo": true,
-    "OCR": true,
-    "Chapters": [
-      {
-        "OriginalFilenames": [ "158", "159", "160", "161", "162", "163", "164", "165" ],
-        "SortOrder": "020122b",
-        "OriginalOrder": "020199k",
-        "ChapterName": "This Thing Called Family [Gil]",
-        "FlatSubfolder": "03-Story",
-        "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
-        "Year": 2,
-        "YearsSubfolder": "03-Story\\[Year]\\1-Summer",
-        "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0201-Volume 1",
-        "ProcessedInPartTwo": true,
-        "OCR": {
-          "Corrections": [
-            {
-              "Original": "'cause",
-              "Replacement": "’cause"
-            },
-            {
-              "Original": "girls'",
-              "Replacement": "girls’"
-            }
-          ],
-          "Italics": [
-            {
-              "Start": "Is this like how I",
-              "End": "to the repentance chamber...?"
-            },
-            {
-              "Start": "Plus, this means Lutz trusts me.",
-              "End": "Plus, this means Lutz trusts me."
-            },
-            {
-              "Start": "Are families that important to people?",
-              "End": "Are families that important to people?"
-            },
-            {
-              "Start": "Oh yeah. Here",
-              "End": "work among ourselves."
-            }
-          ]
-        }
-      }
-    ]
-  },
-  {
-    "InternalName": "M0205",
-    "ProcessedInPartTwo": true,
-    "OCR": true,
-    "Chapters": [
-      {
-        "OriginalFilenames": [ "170", "171", "172", "173", "174", "175", "176", "177", "178" ],
-        "SortOrder": "020210b",
-        "OriginalOrder": "020299c",
-        "ChapterName": "Preparing for the Baby [Tuuli]",
-        "FlatSubfolder": "03-Story",
-        "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
-        "Year": 2,
-        "YearsSubfolder": "03-Story\\[Year]\\2-Autumn",
-        "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0202-Volume 2",
-        "ProcessedInPartTwo": true,
-        "OCR": {
-          "Corrections": [
-            {
-              "Original": "“Oh well...” </p>\r\n<p>I replied",
-              "Replacement": "“Oh well...” I replied"
-            },
-            {
-              "Original": "ofher",
-              "Replacement": "of her"
-            },
-            {
-              "Original": "over and over and over",
-              "Replacement": "over and over <i>and over</i>"
-            },
-            {
-              "Original": "never even seen a book.",
-              "Replacement": "never even <i>seen</i> a book."
-            },
-            {
-              "Original": "Those were book substitutes!",
-              "Replacement": "Those were book <i>substitutes</i>!"
-            },
-            {
-              "Original": "Then she got Wilma",
-              "Replacement": "<i>Then</i> she got Wilma"
-            },
-            {
-              "Original": "be able to find someone, right?",
-              "Replacement": "be able to find <i>someone</i>, right?"
-            },
-            {
-              "Original": "\"That way, she could",
-              "Replacement": "“That way, she could—”"
-            },
-            {
-              "Original": "remember what you said when",
-              "Replacement": "remember what <i>you</i> said when"
-            },
-            {
-              "Original": "'“Hopefully the baby is strong and healthy.”'",
-              "Replacement": "“‘Hopefully the baby is strong and healthy.’”"
-            },
-            {
-              "Original": "'Do you really think we’ll keep you here if you won’t even help out around the house?”'",
-              "Replacement": "‘Do you really think we’ll keep you here if you won’t even help out around the house?’”"
-            },
-            {
-              "Original": "\"People",
-              "Replacement": "“People"
-            },
-            {
-              "Original": "much.\"",
-              "Replacement": "much.”"
-            }
-          ],
-          "Italics": [
-            {
-              "Start": "At this rate, we",
-              "End": "make her change her mind!"
-            },
-            {
-              "Start": "Mom tells them every",
-              "End": "humanatee on your own..."
-            }
-          ]
-        }
-      }
-    ]
-  },
-  {
     "InternalName": "RAS1",
     "ProcessedInPartFour": true,
+    "Gallery": {
+      "SplashImages": [ "bonus2", "bonus1" ],
+      "ChapterImages": [ "insert1", "insert2", "insert3", "insert4", "insert5", "insert6", "insert7", "insert8", "insert9", "insert10" ],
+      "SortOrder": "0403b",
+      "EndOfBookSortOrder": "040399b",
+      "ChapterName": "RAS1",
+      "AltName": "Royal Academy Stories Year One",
+      "FlatSubfolder": "01-Inserts",
+      "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\01-Inserts",
+      "YearsSubfolder": "01-Inserts",
+      "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee",
+      "ProcessedInPartFour": true
+    },
     "Chapters": [
       {
         "OriginalFilenames": [ "prologue" ],
@@ -7238,127 +6369,25 @@
         "YearsSubfolder": "04-Manga",
         "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\05-A Comfy Life with my Family",
         "ProcessedInPartFour": true
-      },
-      {
-        "OriginalFilenames": [ "bonus2", "bonus1" ],
-        "SortOrder": "0403b",
-        "ChapterName": "RAS1",
-        "AltName": "Royal Academy Stories Year One",
-        "FlatSubfolder": "01-Inserts",
-        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\01-Inserts",
-        "YearsSubfolder": "01-Inserts",
-        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee",
-        "ProcessedInPartFour": true
-      }
-    ]
-  },
-  {
-    "InternalName": "M0206",
-    "ProcessedInPartTwo": true,
-    "OCR": true,
-    "Chapters": [
-      {
-        "OriginalFilenames": [ "180", "181", "182", "183", "184", "185", "186", "187", "188", "189" ],
-        "SortOrder": "020214b",
-        "OriginalOrder": "020299d",
-        "ChapterName": "Books and Karuta [Delia]",
-        "FlatSubfolder": "03-Story",
-        "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
-        "Year": 2,
-        "YearsSubfolder": "03-Story\\[Year]\\2-Autumn",
-        "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0202-Volume 2",
-        "ProcessedInPartTwo": true,
-        "OCR": {
-          "Corrections": [
-            {
-              "Original": "Tais",
-              "Replacement": "This"
-            },
-            {
-              "Original": "boys'",
-              "Replacement": "boys’"
-            },
-            {
-              "Original": "'long,' I think. Oh, and this here is 'time,'",
-              "Replacement": "‘long,’ I think. Oh, and this here is ‘time,’"
-            },
-            {
-              "Original": "Wait, can you read it?",
-              "Replacement": "Wait, can <i>you</i> read it?"
-            }
-          ],
-          "Italics": [
-            {
-              "Start": "So those are what",
-              "End": "been making..."
-            },
-            {
-              "Start": "It’s standard procedure",
-              "End": "before I can serve it."
-            },
-            {
-              "Start": "This sucks...",
-              "End": "This sucks..."
-            },
-            {
-              "Start": "I know it can’t be",
-              "End": "I could write, but still..."
-            },
-            {
-              "Start": "Because, I mean, I’m",
-              "End": "get any extra jobs."
-            },
-            {
-              "Start": "If I could go",
-              "End": "At least a little."
-            },
-            {
-              "Start": "It’s a shame because",
-              "End": "intelligence I gathered there."
-            },
-            {
-              "Start": "Plus, I don’t need",
-              "End": "I don’t have any reason to go there."
-            },
-            {
-              "Start": "I’m the first one",
-              "End": "She wants my thoughts."
-            },
-            {
-              "Start": "A whole day will",
-              "End": "read it all, surely."
-            }
-          ]
-        }
-      },
-      {
-        "OriginalFilenames": [ "192", "193" ],
-        "SortOrder": "0202b",
-        "ChapterName": "M206",
-        "FlatSubfolder": "04-Manga",
-        "PartsSubfolder": "02-Apprentice Shrine Maiden\\04-A Comfy Life with my Family",
-        "YearsSubfolder": "04-Manga",
-        "VolumeSubfolder": "02-Apprentice Shrine Maiden\\03-A Comfy Life with my Family",
-        "ProcessedInPartTwo": true
-      },
-      {
-        "OriginalFilenames": [ "003", "002" ],
-        "SortOrder": "03",
-        "ChapterName": "Ehrenfest Temple",
-        "FlatSubfolder": "05-Maps",
-        "PartsSubfolder": "10-Maps",
-        "YearsSubfolder": "05-Maps",
-        "VolumeSubfolder": "05-Maps",
-        "ProcessedInPartTwo": true,
-        "ProcessedInPartThree": true,
-        "ProcessedInPartFour": true,
-        "ProcessedInPartFive": true
       }
     ]
   },
   {
     "InternalName": "LN0409",
     "ProcessedInPartFour": true,
+    "Gallery": {
+      "SplashImages": [ "bonus2", "bonus1" ],
+      "ChapterImages": [ "insert1", "insert2", "insert3", "insert4", "insert5", "insert6", "insert7", "insert8", "insert9", "insert10" ],
+      "SortOrder": "0409",
+      "EndOfBookSortOrder": "040999",
+      "ChapterName": "LN409",
+      "AltName": "Volume 9",
+      "FlatSubfolder": "01-Inserts",
+      "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\01-Inserts",
+      "YearsSubfolder": "01-Inserts",
+      "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee",
+      "ProcessedInPartFour": true
+    },
     "Chapters": [
       {
         "OriginalFilenames": [ "manga1", "manga2" ],
@@ -7368,17 +6397,6 @@
         "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\04-A Comfy Life with my Family",
         "YearsSubfolder": "04-Manga",
         "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\05-A Comfy Life with my Family",
-        "ProcessedInPartFour": true
-      },
-      {
-        "OriginalFilenames": [ "bonus2", "bonus1" ],
-        "SortOrder": "0409",
-        "ChapterName": "LN409",
-        "AltName": "Volume 9",
-        "FlatSubfolder": "01-Inserts",
-        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\01-Inserts",
-        "YearsSubfolder": "01-Inserts",
-        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee",
         "ProcessedInPartFour": true
       },
       {
@@ -7650,109 +6668,21 @@
     ]
   },
   {
-    "InternalName": "FB3",
-    "ProcessedInPartOne": true,
-    "ProcessedInPartTwo": true,
-    "ProcessedInPartThree": true,
-    "ProcessedInPartFour": true,
-    "ProcessedInPartFive": true,
-    "Chapters": [
-      {
-        "OriginalFilenames": [ "21", "22" ],
-        "SortOrder": "0301",
-        "ChapterName": "Printing Museum",
-        "FlatSubfolder": "06-Fanbooks",
-        "PartsSubfolder": "11-Fanbooks",
-        "YearsSubfolder": "06-Fanbooks",
-        "VolumeSubfolder": "06-Fanbooks"
-      },
-      {
-        "OriginalFilenames": [ "cover", "30" ],
-        "SortOrder": "0403d",
-        "ChapterName": "FB3",
-        "AltName": "Fanbook 3",
-        "FlatSubfolder": "01-Inserts",
-        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\01-Inserts",
-        "YearsSubfolder": "01-Inserts",
-        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee",
-        "ProcessedInPartFour": true
-      },
-      {
-        "OriginalFilenames": [ "34", "35", "36", "37", "38", "39" ],
-        "SortOrder": "0303",
-        "ChapterName": "Fanbook 3 Character Design Sheets",
-        "FlatSubfolder": "06-Fanbooks",
-        "PartsSubfolder": "11-Fanbooks",
-        "YearsSubfolder": "06-Fanbooks",
-        "VolumeSubfolder": "06-Fanbooks"
-      },
-      {
-        "OriginalFilenames": [ "40", "41", "42", "43" ],
-        "SortOrder": "030107b",
-        "OriginalOrder": "0301994",
-        "ChapterName": "Welcoming a Certain Someone",
-        "FlatSubfolder": "03-Story",
-        "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
-        "YearsSubfolder": "03-Story\\[Year]\\1-Summer",
-        "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0301-Volume 1",
-        "ProcessedInPartThree": true
-      },
-      {
-        "OriginalFilenames": [ "44", "46" ],
-        "SortOrder": "0403d",
-        "ChapterName": "FB3",
-        "FlatSubfolder": "04-Manga",
-        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\04-A Comfy Life with my Family",
-        "YearsSubfolder": "04-Manga",
-        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\05-A Comfy Life with my Family",
-        "ProcessedInPartFour": true
-      },
-      {
-        "OriginalFilenames": [ "side", "map", "side_1" ],
-        "SortOrder": "040121b",
-        "OriginalOrder": "0401994",
-        "ChapterName": "A Secret Tour of the Library [Philine]",
-        "FlatSubfolder": "03-Story",
-        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
-        "Year": 6,
-        "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
-        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\0401-Volume 1",
-        "ProcessedInPartFour": true
-      },
-      {
-        "OriginalFilenames": [ "45" ],
-        "SortOrder": "07",
-        "ChapterName": "Yurgenschmidt's Duchies",
-        "FlatSubfolder": "05-Maps",
-        "PartsSubfolder": "10-Maps",
-        "YearsSubfolder": "05-Maps",
-        "VolumeSubfolder": "05-Maps"
-      },
-      {
-        "OriginalFilenames": [ "qa" ],
-        "SortOrder": "0304",
-        "ChapterName": "Fanbook 3 QnA",
-        "FlatSubfolder": "06-Fanbooks",
-        "PartsSubfolder": "11-Fanbooks",
-        "YearsSubfolder": "06-Fanbooks",
-        "VolumeSubfolder": "06-Fanbooks"
-      },
-      {
-        "OriginalFilenames": [ "map" ],
-        "SortOrder": "08",
-        "ChapterName": "Royal Acadamy Library",
-        "FlatSubfolder": "05-Maps",
-        "PartsSubfolder": "10-Maps",
-        "YearsSubfolder": "05-Maps",
-        "VolumeSubfolder": "05-Maps",
-        "ProcessedInPartFour": true,
-        "ProcessedInPartFive": true
-      }
-    ]
-  },
-  {
     "InternalName": "LN0501",
     "ProcessedInPartFive": true,
+    "Gallery": {
+      "SplashImages": [ "bonus2", "bonus1" ],
+      "ChapterImages": [ "insert1", "insert2", "insert3", "insert4", "insert5", "insert6", "insert7", "insert8", "insert9", "insert10" ],
+      "SortOrder": "0501",
+      "EndOfBookSortOrder": "050199",
+      "ChapterName": "LN501",
+      "AltName": "Volume 1",
+      "FlatSubfolder": "01-Inserts",
+      "PartsSubfolder": "05-Avatar of a Goddess\\01-Inserts",
+      "YearsSubfolder": "01-Inserts",
+      "VolumeSubfolder": "05-Avatar of a Goddess",
+      "ProcessedInPartFive": true
+    },
     "Chapters": [
       {
         "OriginalFilenames": [ "manga1", "manga2" ],
@@ -7762,17 +6692,6 @@
         "PartsSubfolder": "05-Avatar of a Goddess\\04-A Comfy Life with my Family",
         "YearsSubfolder": "04-Manga",
         "VolumeSubfolder": "05-Avatar of a Goddess\\06-A Comfy Life with my Family",
-        "ProcessedInPartFive": true
-      },
-      {
-        "OriginalFilenames": [ "bonus2", "bonus1" ],
-        "SortOrder": "0501",
-        "ChapterName": "LN501",
-        "AltName": "Volume 1",
-        "FlatSubfolder": "01-Inserts",
-        "PartsSubfolder": "05-Avatar of a Goddess\\01-Inserts",
-        "YearsSubfolder": "01-Inserts",
-        "VolumeSubfolder": "05-Avatar of a Goddess",
         "ProcessedInPartFive": true
       },
       {
@@ -8094,17 +7013,19 @@
         "YearsSubfolder": "CP-Character Polls",
         "VolumeSubfolder": "CP-Character Polls",
         "ProcessedInPartFive": true
-      },
-      {
-        "OriginalFilenames": [ "characters1", "characters2", "characters3" ],
-        "SortOrder": "05",
-        "ChapterName": "Avatar of a Goddess",
-        "FlatSubfolder": "02-Characters",
-        "PartsSubfolder": "05-Avatar of a Goddess\\02-Characters",
-        "YearsSubfolder": "02-Characters",
-        "VolumeSubfolder": "05-Avatar of a Goddess\\02-Characters",
-        "ProcessedInPartFive": true
       }
-    ]
+    ],
+    "CharacterSheet": {
+      "OriginalFilenames": [ "characters1", "characters2", "characters3" ],
+      "SortOrder": "05",
+      "ChapterName": "Avatar of a Goddess Characters",
+      "FlatSubfolder": "02-Characters",
+      "PartsSubfolder": "05-Avatar of a Goddess",
+      "YearsSubfolder": "02-Characters",
+      "VolumeSubfolder": "05-Avatar of a Goddess\\0501-Volume 1",
+      "ProcessedInPartFive": true,
+      "PartOnly": true,
+      "PartOnlySubfolder": "05-Avatar of a Goddess"
+    }
   }
 ]

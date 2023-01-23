@@ -104,7 +104,7 @@ namespace AOABO.Processor
                 var subFolderSplit = chapter.SubFolder.Split('\\');
                 List<NavPoint> nps = NavPoints;
 
-                foreach (var fold in subFolderSplit.Take(subFolderSplit.Length - 1))
+                foreach (var fold in subFolderSplit)
                 {
                     if (fold.Equals("text", StringComparison.InvariantCultureIgnoreCase)) continue;
                     var index = fold.IndexOf('-');

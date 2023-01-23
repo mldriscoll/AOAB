@@ -11,11 +11,8 @@ namespace AOABO.Config
 
         static Configuration()
         {
-            using (var reader = new StreamReader("Volumes.json"))
-            {
-                DataContractJsonSerializer deserializer = new DataContractJsonSerializer(typeof(Volume[]));
-                Volumes = ((Volume[])deserializer.ReadObject(reader.BaseStream)).ToList();
-            }
+            Volumes = new List<Volume>();
+            ReloadVolumes();
             using (var reader = new StreamReader("VolumeNames.json"))
             {
                 DataContractJsonSerializer deserializer = new DataContractJsonSerializer(typeof(VolumeName[]));
@@ -32,6 +29,28 @@ namespace AOABO.Config
             }
         }
 
+        public static void ReloadVolumes()
+        {
+            DataContractJsonSerializer deserializer = new DataContractJsonSerializer(typeof(Volume[]));
+            Volumes.Clear();
+            using (var reader = new StreamReader("Volumes.json"))
+            {
+                Volumes.AddRange(((Volume[])deserializer.ReadObject(reader.BaseStream)));
+            }
+            using (var reader = new StreamReader("JSON\\Fanbooks.json"))
+            {
+                Volumes.AddRange(((Volume[])deserializer.ReadObject(reader.BaseStream)));
+            }
+            using (var reader = new StreamReader("JSON\\MangaP1.json"))
+            {
+                Volumes.AddRange(((Volume[])deserializer.ReadObject(reader.BaseStream)));
+            }
+            using (var reader = new StreamReader("JSON\\MangaP2.json"))
+            {
+                Volumes.AddRange(((Volume[])deserializer.ReadObject(reader.BaseStream)));
+            }
+        }
+
         public static void UpdateOptions()
         {
             bool finished = false;
@@ -42,11 +61,16 @@ namespace AOABO.Config
                 Console.WriteLine("Which setting would you like to change?");
                 Console.WriteLine("0 - Omnibus Structure");
                 Console.WriteLine("1 - Bonus Chapter Placement");
-                //Console.WriteLine("2 - Exclude Regular Chapters");
+                Console.WriteLine("2 - Exclude Regular Chapters");
                 Console.WriteLine("3 - Chapter Headers");
-                //Console.WriteLine("4 - Chapter Inserts");
-                //Console.WriteLine("5 - Afterwords");
-                Console.WriteLine("6 - Internal Filenames");
+                Console.WriteLine("4 - Chapter Inserts");
+                Console.WriteLine("5 - Galleries");
+                Console.WriteLine("6 - Manga Chapters");
+                Console.WriteLine("7 - Comfy Life Strips");
+                Console.WriteLine("8 - Character Sheets");
+                Console.WriteLine("9 - Maps");
+                Console.WriteLine("a - Afterwords");
+                Console.WriteLine("b - Internal Filenames");
                 Console.WriteLine("Press any other key to return to main menu");
 
                 var key = Console.ReadKey();
@@ -58,19 +82,36 @@ namespace AOABO.Config
                     case '1':
                         SetBonusChapters();
                         break;
-                    //case '2':
-                    //    SetRegularChapters();
-                    //    break;
+                    case '2':
+                        SetRegularChapters();
+                        break;
                     case '3':
                         SetChapterHeaders();
                         break;
-                    //case '4':
-                    //    SetChapterInserts();
-                    //    break;
-                    //case '5':
-                    //    SetAfterwords();
-                    //    break;
+                    case '4':
+                        SetChapterInserts();
+                        break;
+                    case '5':
+                        SetGallery();
+                        break;
                     case '6':
+                        SetMangaChapters();
+                        break;
+                    case '7':
+                        SetComfyLifeChapters();
+                        break;
+                    case '8':
+                        SetCharacterSheets();
+                        break;
+                    case '9':
+                        SetMaps();
+                        break;
+                    case 'a':
+                    case 'A':
+                        SetAfterwords();
+                        break;
+                    case 'b':
+                    case 'B':
                         SetFilenames();
                         break;
                     default:
@@ -84,6 +125,76 @@ namespace AOABO.Config
                 File.Delete("options.txt");
             }
             File.WriteAllText("options.txt", Options.ToString());
+        }
+
+        private static void SetMaps()
+        {
+            Console.WriteLine();
+            Console.WriteLine("Would you like to include maps? Y/N");
+            var key = Console.ReadKey();
+            Options.Maps = false;
+            switch (key.KeyChar)
+            {
+                case 'y':
+                case 'Y':
+                    Options.Maps = true;
+                    break;
+            }
+        }
+
+        private static void SetCharacterSheets()
+        {
+            Console.WriteLine();
+            Console.WriteLine("How many Character Sheets do you want included?");
+            Console.WriteLine("0 - All of them.");
+            Console.WriteLine("1 - Last one in each part.");
+            Console.WriteLine("2 - None");
+            Options.CharacterSheets = CharacterSheets.PerPart;
+            var key = Console.ReadKey();
+            switch (key.KeyChar)
+            {
+                case '0':
+                    Options.CharacterSheets = CharacterSheets.All;
+                    break;
+                case '2':
+                    Options.CharacterSheets = CharacterSheets.None;
+                    break;
+            }
+        }
+        private static void SetGallery()
+        {
+            Console.WriteLine();
+            Console.WriteLine("Which gallery do you want Bonus Images to be included in?");
+            Console.WriteLine("0 - The Start of each Volume.");
+            Console.WriteLine("1 - The End of each Volume.");
+            Console.WriteLine("2 - None");
+            Options.SplashImages = GallerySetting.Start;
+            var key = Console.ReadKey();
+            switch (key.KeyChar)
+            {
+                case '1':
+                    Options.SplashImages = GallerySetting.End;
+                    break;
+                case '2':
+                    Options.SplashImages = GallerySetting.None;
+                    break;
+            }
+            Console.WriteLine();
+            Console.WriteLine("Which gallery do you want Chapter Images to be included in?");
+            Console.WriteLine("0 - The Start of each Volume.");
+            Console.WriteLine("1 - The End of each Volume.");
+            Console.WriteLine("2 - None");
+            Options.ChapterImages = GallerySetting.Start;
+            key = Console.ReadKey();
+            switch (key.KeyChar)
+            {
+                case '1':
+                    Options.ChapterImages = GallerySetting.End;
+                    break;
+                case '2':
+                    Options.ChapterImages = GallerySetting.None;
+                    break;
+            }
         }
 
         private static void SetChapterHeaders()
@@ -180,6 +291,48 @@ namespace AOABO.Config
                     break;
                 case '2':
                     Options.BonusChapterSetting = BonusChapterSetting.LeaveOut;
+                    break;
+            }
+        }
+
+        private static void SetMangaChapters()
+        {
+            Options.MangaChapters = BonusChapterSetting.Chronological;
+            Console.WriteLine();
+            Console.WriteLine("0 - Place Manga Chapters after the last chapter they overlap with.");
+            Console.WriteLine("1 - Place Manga Chapters at the end of the Volume");
+            Console.WriteLine("2 - Leave out Manga Chapters");
+            var key = Console.ReadKey();
+            switch (key.KeyChar)
+            {
+                case '1':
+                    Options.MangaChapters = BonusChapterSetting.EndOfBook;
+                    break;
+                case '2':
+                    Options.MangaChapters = BonusChapterSetting.LeaveOut;
+                    break;
+            }
+        }
+
+        private static void SetComfyLifeChapters()
+        {
+            Options.ComfyLifeChapters = ComfyLifeSetting.VolumeEnd;
+            Console.WriteLine();
+            Console.WriteLine("0 - Place Comfy Life Chapters after the volume they were published with.");
+            Console.WriteLine("1 - Place Comfy Life Chapters at the end of the part they were published with.");
+            Console.WriteLine("2 - Place Comfy Life Chapters at the end of the omnibus.");
+            Console.WriteLine("3 - Leave out Comfy Life Chapters");
+            var key = Console.ReadKey();
+            switch (key.KeyChar)
+            {
+                case '1':
+                    Options.ComfyLifeChapters = ComfyLifeSetting.PartEnd;
+                    break;
+                case '2':
+                    Options.ComfyLifeChapters = ComfyLifeSetting.OmnibusEnd;
+                    break;
+                case '3':
+                    Options.ComfyLifeChapters = ComfyLifeSetting.None;
                     break;
             }
         }
