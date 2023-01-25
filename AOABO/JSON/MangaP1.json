@@ -6,7 +6,7 @@
       {
         "OriginalFilenames": [ "151", "152", "153", "154", "155", "156" ],
         "SortOrder": "010105b",
-        "AlternateSortOrder": "010199f",
+        "AlternateSortOrder": "010198a",
         "ChapterName": "Myne's Gotten Weird [Tuuli]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
@@ -20,11 +20,11 @@
   {
     "InternalName": "M0102",
     "ProcessedInPartOne": true,
-    "Chapters": [
+    "MangaChapters": [
       {
         "OriginalFilenames": [ "167", "168", "169", "170", "171", "172" ],
         "SortOrder": "010113b",
-        "OriginalOrder": "010199g",
+        "AlternateSortOrder": "010198b",
         "ChapterName": "Lutz and the Parue Tree [Lutz]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
@@ -182,11 +182,11 @@
     "InternalName": "M0106",
     "ProcessedInPartOne": true,
     "OCR": true,
-    "Chapters": [
+    "MangaChapters": [
       {
         "OriginalFilenames": [ "171", "172", "173", "174", "175", "176", "177", "178", "180" ],
         "SortOrder": "010314b",
-        "OriginalOrder": "0103997",
+        "AlternateSortOrder": "010398a",
         "ChapterName": "Some Time in the Woods [Benno]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",

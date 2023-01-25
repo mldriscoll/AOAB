@@ -129,11 +129,11 @@
         }
       }
     ],
-    "Chapters": [
+    "MangaChapters": [
       {
         "OriginalFilenames": [ "161", "162", "163", "164", "165", "166", "167", "168" ],
         "SortOrder": "020114b",
-        "OriginalOrder": "020199h",
+        "AlternateSortOrder": "020198a",
         "ChapterName": "Sister Myne and Me [Fran]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
@@ -148,11 +148,11 @@
     "InternalName": "M0203",
     "ProcessedInPartTwo": true,
     "OCR": true,
-    "Chapters": [
+    "MangaChapters": [
       {
         "OriginalFilenames": [ "163", "164", "165", "166", "167", "168", "169", "170" ],
         "SortOrder": "020118b",
-        "OriginalOrder": "020199i",
+        "AlternateSortOrder": "020198b",
         "ChapterName": "Ordering Ceremonial Robes [Manga]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",

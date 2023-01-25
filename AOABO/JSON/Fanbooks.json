@@ -33,6 +33,20 @@
         "ProcessedInPartTwo": true
       }
     ],
+    "MangaChapters": [
+      {
+        "OriginalFilenames": [ "37", "38", "39", "40", "41", "42", "43", "44" ],
+        "SortOrder": "010116b",
+        "AlternateSortOrder": "010198c",
+        "ChapterName": "My Daughter's about to be a Criminal [Gunther]",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+        "Year": 0,
+        "YearsSubfolder": "03-Story\\[Year]\\4-Spring",
+        "VolumeSubfolder": "01-Daughter of a Soldier\\0101-Volume 1",
+        "ProcessedInPartOne": true
+      }
+    ],
     "Chapters": [
       {
         "OriginalFilenames": [ "24" ],
@@ -46,18 +60,6 @@
         "ProcessedInPartThree": true,
         "ProcessedInPartFour": true,
         "ProcessedInPartFive": true
-      },
-      {
-        "OriginalFilenames": [ "37", "38", "39", "40", "41", "42", "43", "44" ],
-        "SortOrder": "010116b",
-        "OriginalOrder": "010199c",
-        "ChapterName": "My Daughter's about to be a Criminal [Gunther]",
-        "FlatSubfolder": "03-Story",
-        "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
-        "Year": 0,
-        "YearsSubfolder": "03-Story\\[Year]\\4-Spring",
-        "VolumeSubfolder": "01-Daughter of a Soldier\\0101-Volume 1",
-        "ProcessedInPartOne": true
       },
       {
         "OriginalFilenames": [ "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36" ],
@@ -110,6 +112,18 @@
       "ProcessedInPartFour": true
     },
     "BonusChapters": [
+      {
+        "OriginalFilenames": [ "side1", 2 ],
+        "SortOrder": "010114b",
+        "AlternateSortOrder": "010197d",
+        "ChapterName": "One Winter's Day",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
+        "Year": 0,
+        "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
+        "VolumeSubfolder": "01-Daughter of a Soldier\\0101-Volume 1",
+        "ProcessedInPartOne": true
+      },
       {
         "OriginalFilenames": [ "side2" ],
         "SortOrder": "020126",
@@ -184,18 +198,6 @@
       }
     ],
     "Chapters": [
-      {
-        "OriginalFilenames": [ "side1", 2 ],
-        "SortOrder": "010114b",
-        "OriginalOrder": "010199d",
-        "ChapterName": "One Winter's Day",
-        "FlatSubfolder": "03-Story",
-        "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
-        "Year": 0,
-        "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
-        "VolumeSubfolder": "01-Daughter of a Soldier\\0101-Volume 1",
-        "ProcessedInPartOne": true
-      },
       {
         "OriginalFilenames": [ "3" ],
         "SortOrder": "06",
@@ -298,6 +300,19 @@
         "ProcessedInPartFour": true
       }
     ],
+    "MangaChapters": [
+      {
+        "OriginalFilenames": [ "40", "41", "42", "43" ],
+        "SortOrder": "030107b",
+        "AlternateSortOrder": "030198a",
+        "ChapterName": "Welcoming a Certain Someone [Manga]",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+        "YearsSubfolder": "03-Story\\[Year]\\1-Summer",
+        "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0301-Volume 1",
+        "ProcessedInPartThree": true
+      }
+    ],
     "Chapters": [
       {
         "OriginalFilenames": [ "21", "22" ],
@@ -316,17 +331,6 @@
         "PartsSubfolder": "11-Fanbooks",
         "YearsSubfolder": "06-Fanbooks",
         "VolumeSubfolder": "06-Fanbooks"
-      },
-      {
-        "OriginalFilenames": [ "40", "41", "42", "43" ],
-        "SortOrder": "030107b",
-        "OriginalOrder": "0301994",
-        "ChapterName": "Welcoming a Certain Someone [Manga]",
-        "FlatSubfolder": "03-Story",
-        "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
-        "YearsSubfolder": "03-Story\\[Year]\\1-Summer",
-        "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0301-Volume 1",
-        "ProcessedInPartThree": true
       },
       {
         "OriginalFilenames": [ "44", "46" ],
