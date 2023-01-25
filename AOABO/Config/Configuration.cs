@@ -49,6 +49,26 @@ namespace AOABO.Config
             {
                 Volumes.AddRange(((Volume[])deserializer.ReadObject(reader.BaseStream)));
             }
+            using (var reader = new StreamReader("JSON\\LNP1.json"))
+            {
+                Volumes.AddRange(((Volume[])deserializer.ReadObject(reader.BaseStream)));
+            }
+            using (var reader = new StreamReader("JSON\\LNP2.json"))
+            {
+                Volumes.AddRange(((Volume[])deserializer.ReadObject(reader.BaseStream)));
+            }
+            using (var reader = new StreamReader("JSON\\LNP3.json"))
+            {
+                Volumes.AddRange(((Volume[])deserializer.ReadObject(reader.BaseStream)));
+            }
+            using (var reader = new StreamReader("JSON\\LNP4.json"))
+            {
+                Volumes.AddRange(((Volume[])deserializer.ReadObject(reader.BaseStream)));
+            }
+            using (var reader = new StreamReader("JSON\\LNP5.json"))
+            {
+                Volumes.AddRange(((Volume[])deserializer.ReadObject(reader.BaseStream)));
+            }
         }
 
         public static void UpdateOptions()

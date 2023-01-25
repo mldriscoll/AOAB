@@ -39,11 +39,11 @@
     "InternalName": "M0103",
     "ProcessedInPartOne": true,
     "OCR": true,
-    "Chapters": [
+    "BonusChapters": [
       {
         "OriginalFilenames": [ "184", "185", "186", "187", "188", "189", "190" ],
         "SortOrder": "010118b",
-        "OriginalOrder": "010199h",
+        "AlternateSortOrder": "010197c",
         "ChapterName": "The Baptism Ceremony and the Hairpin [Freida]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
@@ -84,11 +84,11 @@
     "InternalName": "M0104",
     "ProcessedInPartOne": true,
     "OCR": true,
-    "Chapters": [
+    "BonusChapters": [
       {
         "OriginalFilenames": [ "166", "167", "168", "169", "170", "171", "172", "173" ],
         "SortOrder": "010206b",
-        "OriginalOrder": "010299c",
+        "AlternateSortOrder": "010297c",
         "ChapterName": "Zeg the Apprentice Craftsman [Zeg]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
@@ -129,11 +129,11 @@
     "InternalName": "M0105",
     "ProcessedInPartOne": true,
     "OCR": true,
-    "Chapters": [
+    "BonusChapters": [
       {
         "OriginalFilenames": [ "176", "177", "178", "179", "180", "181", "182", "183", "184", "185" ],
         "SortOrder": "010218b",
-        "OriginalOrder": "010299d",
+        "AlternateSortOrder": "010297d",
         "ChapterName": "Hairpins and the Meeting of Stores [Benno]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
@@ -194,11 +194,13 @@
         "YearsSubfolder": "03-Story\\[Year]\\4-Spring",
         "VolumeSubfolder": "01-Daughter of a Soldier\\0103-Volume 3",
         "ProcessedInPartOne": true
-      },
+      }
+    ],
+    "BonusChapters": [
       {
         "OriginalFilenames": [ "182", "183", "184", "185", "186", "187", "188", "189" ],
         "SortOrder": "010315b",
-        "OriginalOrder": "0103998",
+        "AlternateSortOrder": "010397g",
         "ChapterName": "A Long-Awaited Reunion [Freida]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
@@ -251,11 +253,11 @@
     "InternalName": "M0107",
     "ProcessedInPartOne": true,
     "OCR": true,
-    "Chapters": [
+    "BonusChapters": [
       {
         "OriginalFilenames": [ "210", "211", "212", "213", "214", "215", "216", "217", "218", "219", "220", "221" ],
         "SortOrder": "010325d",
-        "OriginalOrder": "0103999",
+        "AlternateSortOrder": "010397h",
         "ChapterName": "As the Gilberta Company's Successor [Corinna]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",

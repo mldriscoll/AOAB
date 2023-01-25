@@ -19,11 +19,11 @@
       "VolumeSubfolder": "03-Adopted Daughter of an Archduke",
       "ProcessedInPartThree": true
     },
-    "Chapters": [
+    "BonusChapters": [
       {
         "OriginalFilenames": [ "temple", "24", "temple_1" ],
         "SortOrder": "020415f",
-        "OriginalOrder": "020499a",
+        "AlternateSortOrder": "020497h",
         "ChapterName": "Temple Tour [Nicola]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
@@ -31,7 +31,9 @@
         "YearsSubfolder": "03-Story\\[Year]\\4-Spring",
         "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0204-Volume 4",
         "ProcessedInPartTwo": true
-      },
+      }
+    ],
+    "Chapters": [
       {
         "OriginalFilenames": [ "24" ],
         "SortOrder": "03",
@@ -107,6 +109,80 @@
       "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee",
       "ProcessedInPartFour": true
     },
+    "BonusChapters": [
+      {
+        "OriginalFilenames": [ "side2" ],
+        "SortOrder": "020126",
+        "AlternateSortOrder": "020197g",
+        "ChapterName": "I'm Not Givin' Ya My Daughter! [Gunther]",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+        "Year": 2,
+        "YearsSubfolder": "03-Story\\[Year]\\1-Summer",
+        "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0201-Volume 1",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "side3" ],
+        "SortOrder": "020214c",
+        "AlternateSortOrder": "020297e",
+        "ChapterName": "My Handful of a Little Sister [Tuuli]",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+        "Year": 2,
+        "YearsSubfolder": "03-Story\\[Year]\\2-Autumn",
+        "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0202-Volume 2",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "side4" ],
+        "SortOrder": "020218b",
+        "AlternateSortOrder": "020297f",
+        "ChapterName": "Studying Literature and Picture Books [Tuuli]",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+        "Year": 2,
+        "YearsSubfolder": "03-Story\\[Year]\\2-Autumn",
+        "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0202-Volume 2",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "side5" ],
+        "SortOrder": "030121b",
+        "AlternateSortOrder": "030197c",
+        "ChapterName": "A Tea Party with My Older Sister [Christel]",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+        "Year": 3,
+        "YearsSubfolder": "03-Story\\[Year]\\1-Summer",
+        "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0301-Volume 1",
+        "ProcessedInPartThree": true
+      },
+      {
+        "OriginalFilenames": [ "side6" ],
+        "SortOrder": "030509b",
+        "AlternateSortOrder": "030597h",
+        "ChapterName": "Feelings of Panic [Tuuli]",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+        "Year": 4,
+        "YearsSubfolder": "03-Story\\[Year]\\2-Autumn",
+        "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0305-Volume 5",
+        "ProcessedInPartThree": true
+      },
+      {
+        "OriginalFilenames": [ "side7", "3", "side7_1" ],
+        "SortOrder": "040108b",
+        "AlternateSortOrder": "040197c",
+        "ChapterName": "The Start of Life as a Retainer [Brunhilde]",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
+        "Year": 6,
+        "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
+        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\0401-Volume 1",
+        "ProcessedInPartFour": true
+      }
+    ],
     "Chapters": [
       {
         "OriginalFilenames": [ "side1", 2 ],
@@ -119,78 +195,6 @@
         "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
         "VolumeSubfolder": "01-Daughter of a Soldier\\0101-Volume 1",
         "ProcessedInPartOne": true
-      },
-      {
-        "OriginalFilenames": [ "side2" ],
-        "SortOrder": "020126",
-        "OriginalOrder": "0201993",
-        "ChapterName": "I'm Not Givin' Ya My Daughter! [Gunther]",
-        "FlatSubfolder": "03-Story",
-        "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
-        "Year": 2,
-        "YearsSubfolder": "03-Story\\[Year]\\1-Summer",
-        "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0201-Volume 1",
-        "ProcessedInPartTwo": true
-      },
-      {
-        "OriginalFilenames": [ "side3" ],
-        "SortOrder": "020214c",
-        "OriginalOrder": "020299c",
-        "ChapterName": "My Handful of a Little Sister [Tuuli]",
-        "FlatSubfolder": "03-Story",
-        "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
-        "Year": 2,
-        "YearsSubfolder": "03-Story\\[Year]\\2-Autumn",
-        "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0202-Volume 2",
-        "ProcessedInPartTwo": true
-      },
-      {
-        "OriginalFilenames": [ "side4" ],
-        "SortOrder": "020218b",
-        "OriginalOrder": "020299d",
-        "ChapterName": "Studying Literature and Picture Books [Tuuli]",
-        "FlatSubfolder": "03-Story",
-        "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
-        "Year": 2,
-        "YearsSubfolder": "03-Story\\[Year]\\2-Autumn",
-        "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0202-Volume 2",
-        "ProcessedInPartTwo": true
-      },
-      {
-        "OriginalFilenames": [ "side5" ],
-        "SortOrder": "030121b",
-        "OriginalOrder": "0301993",
-        "ChapterName": "A Tea Party with My Older Sister [Christel]",
-        "FlatSubfolder": "03-Story",
-        "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
-        "Year": 3,
-        "YearsSubfolder": "03-Story\\[Year]\\1-Summer",
-        "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0301-Volume 1",
-        "ProcessedInPartThree": true
-      },
-      {
-        "OriginalFilenames": [ "side6" ],
-        "SortOrder": "030509b",
-        "OriginalOrder": "0305998",
-        "ChapterName": "Feelings of Panic [Tuuli]",
-        "FlatSubfolder": "03-Story",
-        "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
-        "Year": 4,
-        "YearsSubfolder": "03-Story\\[Year]\\2-Autumn",
-        "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0305-Volume 5",
-        "ProcessedInPartThree": true
-      },
-      {
-        "OriginalFilenames": [ "side7", "3", "side7_1" ],
-        "SortOrder": "040108b",
-        "OriginalOrder": "0401993",
-        "ChapterName": "The Start of Life as a Retainer [Brunhilde]",
-        "FlatSubfolder": "03-Story",
-        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
-        "Year": 6,
-        "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
-        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\0401-Volume 1",
-        "ProcessedInPartFour": true
       },
       {
         "OriginalFilenames": [ "3" ],
@@ -280,6 +284,20 @@
       "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee",
       "ProcessedInPartFour": true
     },
+    "BonusChapters": [
+      {
+        "OriginalFilenames": [ "side", "map", "side_1" ],
+        "SortOrder": "040121b",
+        "AlternateSortOrder": "0401997d",
+        "ChapterName": "A Secret Tour of the Library [Philine]",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
+        "Year": 6,
+        "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
+        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\0401-Volume 1",
+        "ProcessedInPartFour": true
+      }
+    ],
     "Chapters": [
       {
         "OriginalFilenames": [ "21", "22" ],
@@ -303,7 +321,7 @@
         "OriginalFilenames": [ "40", "41", "42", "43" ],
         "SortOrder": "030107b",
         "OriginalOrder": "0301994",
-        "ChapterName": "Welcoming a Certain Someone",
+        "ChapterName": "Welcoming a Certain Someone [Manga]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
         "YearsSubfolder": "03-Story\\[Year]\\1-Summer",
@@ -318,18 +336,6 @@
         "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\04-A Comfy Life with my Family",
         "YearsSubfolder": "04-Manga",
         "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\05-A Comfy Life with my Family",
-        "ProcessedInPartFour": true
-      },
-      {
-        "OriginalFilenames": [ "side", "map", "side_1" ],
-        "SortOrder": "040121b",
-        "OriginalOrder": "0401994",
-        "ChapterName": "A Secret Tour of the Library [Philine]",
-        "FlatSubfolder": "03-Story",
-        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
-        "Year": 6,
-        "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
-        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\0401-Volume 1",
         "ProcessedInPartFour": true
       },
       {

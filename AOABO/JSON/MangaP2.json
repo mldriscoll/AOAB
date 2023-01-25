@@ -3,11 +3,11 @@
     "InternalName": "M0201",
     "ProcessedInPartTwo": true,
     "OCR": true,
-    "Chapters": [
+    "BonusChapters": [
       {
         "OriginalFilenames": [ "186", "187", "188", "189", "190", "191", "192", "193", "194", "195" ],
         "SortOrder": "020105b",
-        "OriginalOrder": "020199f",
+        "AlternateSortOrder": "020197c",
         "ChapterName": "Fran and the Commoner Apprentice Shrine Maiden [Zahm]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
@@ -65,11 +65,11 @@
     "InternalName": "M0202",
     "ProcessedInPartTwo": true,
     "OCR": true,
-    "Chapters": [
+    "BonusChapters": [
       {
         "OriginalFilenames": [ "170", "171", "172", "173", "174", "175", "176", "177" ],
         "SortOrder": "020113b",
-        "OriginalOrder": "020199g",
+        "AlternateSortOrder": "020197d",
         "ChapterName": "The Other Side of the Orphanage Incident [Ferdinand]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
@@ -127,7 +127,9 @@
             }
           ]
         }
-      },
+      }
+    ],
+    "Chapters": [
       {
         "OriginalFilenames": [ "161", "162", "163", "164", "165", "166", "167", "168" ],
         "SortOrder": "020114b",
@@ -158,11 +160,13 @@
         "YearsSubfolder": "03-Story\\[Year]\\1-Summer",
         "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0201-Volume 1",
         "ProcessedInPartTwo": true
-      },
+      }
+    ],
+    "BonusChapters": [
       {
         "OriginalFilenames": [ "172", "173", "174", "175", "176", "177", "178", "179" ],
         "SortOrder": "020119b",
-        "OriginalOrder": "020199j",
+        "AlternateSortOrder": "020197e",
         "ChapterName": "Gathering Taues [Rico]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
@@ -227,11 +231,11 @@
     "InternalName": "M0204",
     "ProcessedInPartTwo": true,
     "OCR": true,
-    "Chapters": [
+    "BonusChapters": [
       {
         "OriginalFilenames": [ "158", "159", "160", "161", "162", "163", "164", "165" ],
         "SortOrder": "020122b",
-        "OriginalOrder": "020199k",
+        "AlternateSortOrder": "020197f",
         "ChapterName": "This Thing Called Family [Gil]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
@@ -276,11 +280,11 @@
     "InternalName": "M0205",
     "ProcessedInPartTwo": true,
     "OCR": true,
-    "Chapters": [
+    "BonusChapters": [
       {
         "OriginalFilenames": [ "170", "171", "172", "173", "174", "175", "176", "177", "178" ],
         "SortOrder": "020210b",
-        "OriginalOrder": "020299c",
+        "AlternateSortOrder": "020297c",
         "ChapterName": "Preparing for the Baby [Tuuli]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
@@ -361,11 +365,11 @@
     "InternalName": "M0206",
     "ProcessedInPartTwo": true,
     "OCR": true,
-    "Chapters": [
+    "BonusChapters": [
       {
         "OriginalFilenames": [ "180", "181", "182", "183", "184", "185", "186", "187", "188", "189" ],
         "SortOrder": "020214b",
-        "OriginalOrder": "020299d",
+        "AlternateSortOrder": "020297d",
         "ChapterName": "Books and Karuta [Delia]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
@@ -435,7 +439,9 @@
             }
           ]
         }
-      },
+      }
+    ],
+    "Chapters": [
       {
         "OriginalFilenames": [ "192", "193" ],
         "SortOrder": "0202b",
