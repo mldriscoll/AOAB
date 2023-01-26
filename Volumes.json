@@ -7857,7 +7857,6 @@
         "VolumeSubfolder": "05-Avatar of a Goddess\\0501-Volume 1",
         "ProcessedInPartFive": true
       },
-
       {
         "OriginalFilenames": [
           "chapter7",
@@ -8078,6 +8077,234 @@
         "PartsSubfolder": "CP-Character Polls",
         "YearsSubfolder": "CP-Character Polls",
         "VolumeSubfolder": "CP-Character Polls",
+        "ProcessedInPartFive": true
+      }
+    ]
+  },
+  {
+    "InternalName": "LN0502",
+    "ProcessedInPartFive": true,
+    "Chapters": [
+      {
+        "OriginalFilenames": [ "manga1", "manga2" ],
+        "SortOrder": "0502",
+        "ChapterName": "LN502",
+        "FlatSubfolder": "04-Manga",
+        "PartsSubfolder": "05-Avatar of a Goddess\\04-A Comfy Life with my Family",
+        "YearsSubfolder": "04-Manga",
+        "VolumeSubfolder": "05-Avatar of a Goddess\\06-A Comfy Life with my Family",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "bonus2", "bonus1" ],
+        "SortOrder": "0502",
+        "ChapterName": "LN502",
+        "AltName": "Volume 2",
+        "FlatSubfolder": "01-Inserts",
+        "PartsSubfolder": "05-Avatar of a Goddess\\01-Inserts",
+        "YearsSubfolder": "01-Inserts",
+        "VolumeSubfolder": "05-Avatar of a Goddess",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "prologue", "insert1", "prologue_1" ],
+        "SortOrder": "050200",
+        "ChapterName": "Prologue [Ferdinand]",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "05-Avatar of a Goddess\\03-Story",
+        "Year": 8,
+        "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
+        "VolumeSubfolder": "05-Avatar of a Goddess\\0502-Volume 2",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter1", "insert2", "chapter1_1" ],
+        "SortOrder": "050201",
+        "ChapterName": "The Royal Family and the Library",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "05-Avatar of a Goddess\\03-Story",
+        "Year": 8,
+        "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
+        "VolumeSubfolder": "05-Avatar of a Goddess\\0502-Volume 2",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter2", "insert3", "chapter2_1" ],
+        "SortOrder": "050202",
+        "ChapterName": "Dunkelfelger's Ritual",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "05-Avatar of a Goddess\\03-Story",
+        "Year": 8,
+        "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
+        "VolumeSubfolder": "05-Avatar of a Goddess\\0502-Volume 2",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter3" ],
+        "SortOrder": "050203",
+        "ChapterName": "Talking and Tallying",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "05-Avatar of a Goddess\\03-Story",
+        "Year": 8,
+        "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
+        "VolumeSubfolder": "05-Avatar of a Goddess\\0502-Volume 2",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter4", "insert4", "chapter4_1" ],
+        "SortOrder": "050204",
+        "ChapterName": "Frustrating Tea Parties",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "05-Avatar of a Goddess\\03-Story",
+        "Year": 8,
+        "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
+        "VolumeSubfolder": "05-Avatar of a Goddess\\0502-Volume 2",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter5" ],
+        "SortOrder": "050205",
+        "ChapterName": "Doing a Little Scheming",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "05-Avatar of a Goddess\\03-Story",
+        "Year": 8,
+        "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
+        "VolumeSubfolder": "05-Avatar of a Goddess\\0502-Volume 2",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter6" ],
+        "SortOrder": "050206",
+        "ChapterName": "Preparing for the Ritual",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "05-Avatar of a Goddess\\03-Story",
+        "Year": 8,
+        "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
+        "VolumeSubfolder": "05-Avatar of a Goddess\\0502-Volume 2",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter7", "insert5", "chapter7_1" ],
+        "SortOrder": "050207a",
+        "ChapterName": "The Royal Academy's Dedication Ritual",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "05-Avatar of a Goddess\\03-Story",
+        "Year": 8,
+        "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
+        "VolumeSubfolder": "05-Avatar of a Goddess\\0502-Volume 2",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter8", "insert6", "chapter8_1" ],
+        "SortOrder": "050208a",
+        "ChapterName": "Using the Rest of the Mana",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "05-Avatar of a Goddess\\03-Story",
+        "Year": 8,
+        "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
+        "VolumeSubfolder": "05-Avatar of a Goddess\\0502-Volume 2",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter9" ],
+        "SortOrder": "050209",
+        "ChapterName": "Tea Parties and Negotiations",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "05-Avatar of a Goddess\\03-Story",
+        "Year": 8,
+        "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
+        "VolumeSubfolder": "05-Avatar of a Goddess\\0502-Volume 2",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter10", "insert7", "chapter10_1" ],
+        "SortOrder": "050210",
+        "ChapterName": "Confrontation",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "05-Avatar of a Goddess\\03-Story",
+        "Year": 8,
+        "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
+        "VolumeSubfolder": "05-Avatar of a Goddess\\0502-Volume 2",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter11" ],
+        "SortOrder": "050211",
+        "ChapterName": "Preparing for Ditter",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "05-Avatar of a Goddess\\03-Story",
+        "Year": 8,
+        "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
+        "VolumeSubfolder": "05-Avatar of a Goddess\\0502-Volume 2",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter12", "insert8", "chapter12_1" ],
+        "SortOrder": "050212",
+        "ChapterName": "Bride-Taking Ditter",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "05-Avatar of a Goddess\\03-Story",
+        "Year": 8,
+        "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
+        "VolumeSubfolder": "05-Avatar of a Goddess\\0502-Volume 2",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter13" ],
+        "SortOrder": "050213",
+        "ChapterName": "Intruders",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "05-Avatar of a Goddess\\03-Story",
+        "Year": 8,
+        "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
+        "VolumeSubfolder": "05-Avatar of a Goddess\\0502-Volume 2",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter14", "insert9", "chapter14_1" ],
+        "SortOrder": "050214",
+        "ChapterName": "Epilogue [Hannelore]",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "05-Avatar of a Goddess\\03-Story",
+        "Year": 8,
+        "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
+        "VolumeSubfolder": "05-Avatar of a Goddess\\0502-Volume 2",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter15", "insert10", "chapter15_1" ],
+        "SortOrder": "050207b",
+        "OriginalOrder": "050297a",
+        "ChapterName": "The Saint's Ritual [Lueuradi]",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "05-Avatar of a Goddess\\03-Story",
+        "Year": 8,
+        "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
+        "VolumeSubfolder": "05-Avatar of a Goddess\\0502-Volume 2",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter16" ],
+        "SortOrder": "050200b",
+        "OriginalOrder": "050297b",
+        "ChapterName": "Someone Worthy of Caution [Sigiswald]",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "05-Avatar of a Goddess\\03-Story",
+        "Year": 8,
+        "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
+        "VolumeSubfolder": "05-Avatar of a Goddess\\0502-Volume 2",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter17" ],
+        "SortOrder": "050208b",
+        "OriginalOrder": "050297c",
+        "ChapterName": "Headache Inducing Reports (Third Year) [Sylvester]",
+        "FlatSubfolder": "03-Story",
+        "PartsSubfolder": "05-Avatar of a Goddess\\03-Story",
+        "Year": 8,
+        "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
+        "VolumeSubfolder": "05-Avatar of a Goddess\\0502-Volume 2",
         "ProcessedInPartFive": true
       },
       {
