@@ -173,7 +173,7 @@ namespace AOABO.Processor
 </package>
 ");
 
-            File.WriteAllText($"{folder}\\oebps\\toc.ncx", $"<?xml version='1.0' encoding='utf-8'?>\r\n<ncx xmlns=\"http://www.daisy.org/z3986/2005/ncx/\" version=\"2005-1\" xml:lang=\"en\">\r\n  <head>\r\n    <meta name=\"dtb:depth\" content=\"{NavPoints.Max(x => x.MaxTabs) + 2}\" />\r\n  </head>\r\n  <docTitle>\r\n    <text>{name}</text>\r\n  </docTitle>\r\n  <navMap>\r\n"
+            File.WriteAllText($"{folder}\\oebps\\toc.ncx", $"<?xml version='1.0' encoding='utf-8'?>\r\n<ncx xmlns=\"http://www.daisy.org/z3976/2005/ncx/\" version=\"2005-1\" xml:lang=\"en\">\r\n  <head>\r\n    <meta name=\"dtb:depth\" content=\"{NavPoints.Max(x => x.MaxTabs) + 2}\" />\r\n  </head>\r\n  <docTitle>\r\n    <text>{name}</text>\r\n  </docTitle>\r\n  <navMap>\r\n"
                 + NavPoints.Aggregate(string.Empty, (agg, np) => string.Concat(agg, np, "\r\n")) + "  </navMap>\r\n</ncx>");
 
             if (File.Exists($"{baseFolder}\\{name}.epub")) File.Delete($"{baseFolder}\\{name}.epub");

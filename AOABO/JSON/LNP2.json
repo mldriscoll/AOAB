@@ -19,7 +19,7 @@
       {
         "OriginalFilenames": [ "extra1" ],
         "SortOrder": "020106b",
-        "AlternateSortOrder": "020197a",
+        "AlternateSortOrder": "020196a",
         "ChapterName": "A Place Still Far From Here [Tuuli]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
@@ -31,7 +31,7 @@
       {
         "OriginalFilenames": [ "extra2" ],
         "SortOrder": "020116b",
-        "AlternateSortOrder": "020197b",
+        "AlternateSortOrder": "020196b",
         "ChapterName": "An Attendant's Self-Awareness [Gil]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
@@ -350,7 +350,7 @@
       {
         "OriginalFilenames": [ "extra1", "insert9", "extra1_1" ],
         "SortOrder": "020203b",
-        "AlternateSortOrder": "020297a",
+        "AlternateSortOrder": "020296a",
         "ChapterName": "The Attendant of an Apprentice Blue Shrine Maiden [Rosina]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
@@ -362,7 +362,7 @@
       {
         "OriginalFilenames": [ "extra2" ],
         "SortOrder": "020219b",
-        "AlternateSortOrder": "020297b",
+        "AlternateSortOrder": "020296b",
         "ChapterName": "Apprentice Chef in the Temple [Ella]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
@@ -681,7 +681,7 @@
       {
         "OriginalFilenames": [ "extra1" ],
         "SortOrder": "020312b",
-        "AlternateSortOrder": "020397a",
+        "AlternateSortOrder": "020396a",
         "ChapterName": "Lunchtime in the Temple [Damuel]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
@@ -693,7 +693,7 @@
       {
         "OriginalFilenames": [ "extra2", "insert9", "extra2_1" ],
         "SortOrder": "020311b",
-        "AlternateSortOrder": "020397b",
+        "AlternateSortOrder": "020396b",
         "ChapterName": "The Title of 'Gutenberg' [Johann]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
@@ -968,7 +968,7 @@
       {
         "OriginalFilenames": [ "extra1" ],
         "SortOrder": "020415c",
-        "AlternateSortOrder": "020497a",
+        "AlternateSortOrder": "020496a",
         "ChapterName": "A Visit to the Noble's Quarter [Freida]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
@@ -980,7 +980,7 @@
       {
         "OriginalFilenames": [ "extra2" ],
         "SortOrder": "020415b",
-        "AlternateSortOrder": "020497b",
+        "AlternateSortOrder": "020496b",
         "ChapterName": "Cleaning up the Mess [Sylvester]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
@@ -992,7 +992,7 @@
       {
         "OriginalFilenames": [ "extra3" ],
         "SortOrder": "020415d",
-        "AlternateSortOrder": "020497c",
+        "AlternateSortOrder": "020496c",
         "ChapterName": "Fran and I [Arno]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
@@ -1004,7 +1004,7 @@
       {
         "OriginalFilenames": [ "extra4" ],
         "SortOrder": "020415e",
-        "AlternateSortOrder": "020497d",
+        "AlternateSortOrder": "020496d",
         "ChapterName": "Maybe Lessen the Workload [Benno]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
@@ -1016,7 +1016,7 @@
       {
         "OriginalFilenames": [ "extra5" ],
         "SortOrder": "020416b",
-        "AlternateSortOrder": "020497e",
+        "AlternateSortOrder": "020496e",
         "ChapterName": "To Serve as the High Bishop's Attendant [Fran]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
@@ -1028,7 +1028,7 @@
       {
         "OriginalFilenames": [ "extra6", "insert9" ],
         "SortOrder": "020416c",
-        "AlternateSortOrder": "020497f",
+        "AlternateSortOrder": "020496f",
         "ChapterName": "Facing the Future [Effa]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
@@ -1040,7 +1040,7 @@
       {
         "OriginalFilenames": [ "extra7" ],
         "SortOrder": "020406b",
-        "AlternateSortOrder": "020497g",
+        "AlternateSortOrder": "020496g",
         "ChapterName": "Beruf Certification [Josef]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
@@ -1052,7 +1052,7 @@
       {
         "OriginalFilenames": [ "extra8" ],
         "SortOrder": "020318b",
-        "AlternateSortOrder": "020397c",
+        "AlternateSortOrder": "020396c",
         "ChapterName": "Sylvester Undercover [Leon]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
@@ -1262,22 +1262,15 @@
       }
     ],
     "ComfyLifeChapter": {
+      "ProcessedInPartTwo": true,
       "OriginalFilenames": [ "manga1", "manga2" ],
-      "SortOrder": "020498",
-      "PartEndSortOrder": "020504",
-      "OmnibusEndSortOrder": "060204",
-      "ChapterName": "LN204",
-      "FlatSubfolder": "04-Story",
+      "FlatSubfolder": "03-Story",
       "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
-      "Year": 2,
       "YearsSubfolder": "03-Story\\[Year]\\4-Spring",
       "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0204-Volume 4",
-      "ProcessedInPartTwo": true,
-      "PartEndVolumeFolder": "02-Apprentice Shrine Maiden\\05-A Comfy Life with my Family",
-      "PartEndYearFolder": "03-Story\\[Year]\\4-Spring",
-      "PartEndYear": 2,
-      "OmnibusEndYear ": 2,
-      "OmnibusEndFolder": "05-A Comfy Life with my Family"
+      "ChapterName": "Comfy Life 204",
+      "Year": 2,
+      "SortOrder": "020498"
     }
   }
 ]

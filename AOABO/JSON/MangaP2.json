@@ -7,7 +7,7 @@
       {
         "OriginalFilenames": [ "186", "187", "188", "189", "190", "191", "192", "193", "194", "195" ],
         "SortOrder": "020105b",
-        "AlternateSortOrder": "020197c",
+        "AlternateSortOrder": "020196c",
         "ChapterName": "Fran and the Commoner Apprentice Shrine Maiden [Zahm]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
@@ -69,7 +69,7 @@
       {
         "OriginalFilenames": [ "170", "171", "172", "173", "174", "175", "176", "177" ],
         "SortOrder": "020113b",
-        "AlternateSortOrder": "020197d",
+        "AlternateSortOrder": "020196d",
         "ChapterName": "The Other Side of the Orphanage Incident [Ferdinand]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
@@ -133,7 +133,7 @@
       {
         "OriginalFilenames": [ "161", "162", "163", "164", "165", "166", "167", "168" ],
         "SortOrder": "020114b",
-        "AlternateSortOrder": "020198a",
+        "AlternateSortOrder": "020197a",
         "ChapterName": "Sister Myne and Me [Fran]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
@@ -152,7 +152,7 @@
       {
         "OriginalFilenames": [ "163", "164", "165", "166", "167", "168", "169", "170" ],
         "SortOrder": "020118b",
-        "AlternateSortOrder": "020198b",
+        "AlternateSortOrder": "020197b",
         "ChapterName": "Ordering Ceremonial Robes [Manga]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
@@ -166,7 +166,7 @@
       {
         "OriginalFilenames": [ "172", "173", "174", "175", "176", "177", "178", "179" ],
         "SortOrder": "020119b",
-        "AlternateSortOrder": "020197e",
+        "AlternateSortOrder": "020196e",
         "ChapterName": "Gathering Taues [Rico]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
@@ -235,7 +235,7 @@
       {
         "OriginalFilenames": [ "158", "159", "160", "161", "162", "163", "164", "165" ],
         "SortOrder": "020122b",
-        "AlternateSortOrder": "020197f",
+        "AlternateSortOrder": "020196f",
         "ChapterName": "This Thing Called Family [Gil]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
@@ -284,7 +284,7 @@
       {
         "OriginalFilenames": [ "170", "171", "172", "173", "174", "175", "176", "177", "178" ],
         "SortOrder": "020210b",
-        "AlternateSortOrder": "020297c",
+        "AlternateSortOrder": "020296c",
         "ChapterName": "Preparing for the Baby [Tuuli]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
@@ -369,7 +369,7 @@
       {
         "OriginalFilenames": [ "180", "181", "182", "183", "184", "185", "186", "187", "188", "189" ],
         "SortOrder": "020214b",
-        "AlternateSortOrder": "020297d",
+        "AlternateSortOrder": "020296d",
         "ChapterName": "Books and Karuta [Delia]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
@@ -441,17 +441,19 @@
         }
       }
     ],
+    "ComfyLifeChapter": {
+      "OriginalFilenames": [ "192", "193" ],
+      "SortOrder": "020298b",
+      "ChapterName": "Comfy Life M206",
+      "FlatSubfolder": "03-Story",
+      "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+      "Year": 2,
+      "YearsSubfolder": "03-Story\\[Year]\\2-Autumn",
+      "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0202-Volume 2",
+      "ProcessedInPartTwo": true
+    },
     "Chapters": [
-      {
-        "OriginalFilenames": [ "192", "193" ],
-        "SortOrder": "0202b",
-        "ChapterName": "M206",
-        "FlatSubfolder": "04-Manga",
-        "PartsSubfolder": "02-Apprentice Shrine Maiden\\04-A Comfy Life with my Family",
-        "YearsSubfolder": "04-Manga",
-        "VolumeSubfolder": "02-Apprentice Shrine Maiden\\03-A Comfy Life with my Family",
-        "ProcessedInPartTwo": true
-      },
+
       {
         "OriginalFilenames": [ "003", "002" ],
         "SortOrder": "03",

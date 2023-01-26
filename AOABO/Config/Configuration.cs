@@ -7,6 +7,7 @@ namespace AOABO.Config
     {
         public static readonly List<Volume> Volumes;
         public static readonly List<VolumeName> VolumeNames;
+        public static readonly Dictionary<string, string> FolderNames;
         public static VolumeOptions Options { get; set; }
 
         static Configuration()
@@ -17,6 +18,14 @@ namespace AOABO.Config
             {
                 DataContractJsonSerializer deserializer = new DataContractJsonSerializer(typeof(VolumeName[]));
                 VolumeNames = ((VolumeName[])deserializer.ReadObject(reader.BaseStream)).ToList();
+            }
+
+            using (var reader = new StreamReader("JSON\\folders.json"))
+            {
+                DataContractJsonSerializer deserializer = new DataContractJsonSerializer(typeof(FolderName[]));
+                var list = ((FolderName[])deserializer.ReadObject(reader.BaseStream)).ToList();
+
+                FolderNames = list.ToDictionary(x => x.Name, x => x.Folder);
             }
 
             if (File.Exists("options.txt"))
@@ -37,38 +46,38 @@ namespace AOABO.Config
             {
                 Volumes.AddRange(((Volume[])deserializer.ReadObject(reader.BaseStream)));
             }
-            using (var reader = new StreamReader("JSON\\Fanbooks.json"))
-            {
-                Volumes.AddRange(((Volume[])deserializer.ReadObject(reader.BaseStream)));
-            }
-            using (var reader = new StreamReader("JSON\\MangaP1.json"))
-            {
-                Volumes.AddRange(((Volume[])deserializer.ReadObject(reader.BaseStream)));
-            }
-            using (var reader = new StreamReader("JSON\\MangaP2.json"))
-            {
-                Volumes.AddRange(((Volume[])deserializer.ReadObject(reader.BaseStream)));
-            }
-            using (var reader = new StreamReader("JSON\\LNP1.json"))
-            {
-                Volumes.AddRange(((Volume[])deserializer.ReadObject(reader.BaseStream)));
-            }
-            using (var reader = new StreamReader("JSON\\LNP2.json"))
-            {
-                Volumes.AddRange(((Volume[])deserializer.ReadObject(reader.BaseStream)));
-            }
-            using (var reader = new StreamReader("JSON\\LNP3.json"))
-            {
-                Volumes.AddRange(((Volume[])deserializer.ReadObject(reader.BaseStream)));
-            }
-            using (var reader = new StreamReader("JSON\\LNP4.json"))
-            {
-                Volumes.AddRange(((Volume[])deserializer.ReadObject(reader.BaseStream)));
-            }
-            using (var reader = new StreamReader("JSON\\LNP5.json"))
-            {
-                Volumes.AddRange(((Volume[])deserializer.ReadObject(reader.BaseStream)));
-            }
+            //using (var reader = new StreamReader("JSON\\Fanbooks.json"))
+            //{
+            //    Volumes.AddRange(((Volume[])deserializer.ReadObject(reader.BaseStream)));
+            //}
+            //using (var reader = new StreamReader("JSON\\MangaP1.json"))
+            //{
+            //    Volumes.AddRange(((Volume[])deserializer.ReadObject(reader.BaseStream)));
+            //}
+            //using (var reader = new StreamReader("JSON\\MangaP2.json"))
+            //{
+            //    Volumes.AddRange(((Volume[])deserializer.ReadObject(reader.BaseStream)));
+            //}
+            //using (var reader = new StreamReader("JSON\\LNP1.json"))
+            //{
+            //    Volumes.AddRange(((Volume[])deserializer.ReadObject(reader.BaseStream)));
+            //}
+            //using (var reader = new StreamReader("JSON\\LNP2.json"))
+            //{
+            //    Volumes.AddRange(((Volume[])deserializer.ReadObject(reader.BaseStream)));
+            //}
+            //using (var reader = new StreamReader("JSON\\LNP3.json"))
+            //{
+            //    Volumes.AddRange(((Volume[])deserializer.ReadObject(reader.BaseStream)));
+            //}
+            //using (var reader = new StreamReader("JSON\\LNP4.json"))
+            //{
+            //    Volumes.AddRange(((Volume[])deserializer.ReadObject(reader.BaseStream)));
+            //}
+            //using (var reader = new StreamReader("JSON\\LNP5.json"))
+            //{
+            //    Volumes.AddRange(((Volume[])deserializer.ReadObject(reader.BaseStream)));
+            //}
         }
 
         public static void UpdateOptions()
@@ -339,19 +348,15 @@ namespace AOABO.Config
             Options.ComfyLifeChapters = ComfyLifeSetting.VolumeEnd;
             Console.WriteLine();
             Console.WriteLine("0 - Place Comfy Life Chapters after the volume they were published with.");
-            Console.WriteLine("1 - Place Comfy Life Chapters at the end of the part they were published with.");
-            Console.WriteLine("2 - Place Comfy Life Chapters at the end of the omnibus.");
-            Console.WriteLine("3 - Leave out Comfy Life Chapters");
+            Console.WriteLine("1 - Place Comfy Life Chapters at the end of the omnibus.");
+            Console.WriteLine("2 - Leave out Comfy Life Chapters");
             var key = Console.ReadKey();
             switch (key.KeyChar)
             {
                 case '1':
-                    Options.ComfyLifeChapters = ComfyLifeSetting.PartEnd;
-                    break;
-                case '2':
                     Options.ComfyLifeChapters = ComfyLifeSetting.OmnibusEnd;
                     break;
-                case '3':
+                case '2':
                     Options.ComfyLifeChapters = ComfyLifeSetting.None;
                     break;
             }

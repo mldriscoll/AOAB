@@ -23,7 +23,7 @@
       {
         "OriginalFilenames": [ "temple", "24", "temple_1" ],
         "SortOrder": "020415f",
-        "AlternateSortOrder": "020497h",
+        "AlternateSortOrder": "020496h",
         "ChapterName": "Temple Tour [Nicola]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
@@ -37,7 +37,7 @@
       {
         "OriginalFilenames": [ "37", "38", "39", "40", "41", "42", "43", "44" ],
         "SortOrder": "010116b",
-        "AlternateSortOrder": "010198c",
+        "AlternateSortOrder": "010197c",
         "ChapterName": "My Daughter's about to be a Criminal [Gunther]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
@@ -47,6 +47,17 @@
         "ProcessedInPartOne": true
       }
     ],
+    "ComfyLifeChapter": {
+      "OriginalFilenames": [ "45", "46" ],
+      "SortOrder": "030398b",
+      "ChapterName": "Comfy Life Fanbook 1",
+      "FlatSubfolder": "03-Story",
+      "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+      "Year": 3,
+      "YearsSubfolder": "03-Story\\[Year]\\4-Spring",
+      "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0303-Volume 3",
+      "ProcessedInPartThree": true
+    },
     "Chapters": [
       {
         "OriginalFilenames": [ "24" ],
@@ -78,16 +89,6 @@
         "PartsSubfolder": "11-Fanbooks",
         "YearsSubfolder": "06-Fanbooks",
         "VolumeSubfolder": "06-Fanbooks"
-      },
-      {
-        "OriginalFilenames": [ "45", "46" ],
-        "SortOrder": "0303b",
-        "ChapterName": "FB1",
-        "FlatSubfolder": "04-Manga",
-        "PartsSubfolder": "03-Adopted Daughter of an Archduke\\04-A Comfy Life with my Family",
-        "YearsSubfolder": "04-Manga",
-        "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\04-A Comfy Life with my Family",
-        "ProcessedInPartThree": true
       }
     ]
   },
@@ -115,7 +116,7 @@
       {
         "OriginalFilenames": [ "side1", 2 ],
         "SortOrder": "010114b",
-        "AlternateSortOrder": "010197d",
+        "AlternateSortOrder": "010196d",
         "ChapterName": "One Winter's Day",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
@@ -127,7 +128,7 @@
       {
         "OriginalFilenames": [ "side2" ],
         "SortOrder": "020126",
-        "AlternateSortOrder": "020197g",
+        "AlternateSortOrder": "020196g",
         "ChapterName": "I'm Not Givin' Ya My Daughter! [Gunther]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
@@ -139,7 +140,7 @@
       {
         "OriginalFilenames": [ "side3" ],
         "SortOrder": "020214c",
-        "AlternateSortOrder": "020297e",
+        "AlternateSortOrder": "020296e",
         "ChapterName": "My Handful of a Little Sister [Tuuli]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
@@ -151,7 +152,7 @@
       {
         "OriginalFilenames": [ "side4" ],
         "SortOrder": "020218b",
-        "AlternateSortOrder": "020297f",
+        "AlternateSortOrder": "020296f",
         "ChapterName": "Studying Literature and Picture Books [Tuuli]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
@@ -163,7 +164,7 @@
       {
         "OriginalFilenames": [ "side5" ],
         "SortOrder": "030121b",
-        "AlternateSortOrder": "030197c",
+        "AlternateSortOrder": "030196c",
         "ChapterName": "A Tea Party with My Older Sister [Christel]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
@@ -175,7 +176,7 @@
       {
         "OriginalFilenames": [ "side6" ],
         "SortOrder": "030509b",
-        "AlternateSortOrder": "030597h",
+        "AlternateSortOrder": "030596h",
         "ChapterName": "Feelings of Panic [Tuuli]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
@@ -187,7 +188,7 @@
       {
         "OriginalFilenames": [ "side7", "3", "side7_1" ],
         "SortOrder": "040108b",
-        "AlternateSortOrder": "040197c",
+        "AlternateSortOrder": "040196c",
         "ChapterName": "The Start of Life as a Retainer [Brunhilde]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
@@ -197,6 +198,17 @@
         "ProcessedInPartFour": true
       }
     ],
+    "ComfyLifeChapter": {
+      "OriginalFilenames": [ "28", "29" ],
+      "SortOrder": "040198b",
+      "ChapterName": "Comfy Life Fanbook 2",
+      "FlatSubfolder": "03-Story",
+      "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
+      "Year": 6,
+      "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
+      "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\0403a-Volume 3",
+      "ProcessedInPartFour": true
+    },
     "Chapters": [
       {
         "OriginalFilenames": [ "3" ],
@@ -253,16 +265,6 @@
         "PartsSubfolder": "11-Fanbooks",
         "YearsSubfolder": "06-Fanbooks",
         "VolumeSubfolder": "06-Fanbooks"
-      },
-      {
-        "OriginalFilenames": [ "28", "29" ],
-        "SortOrder": "0403b",
-        "ChapterName": "FB2",
-        "FlatSubfolder": "04-Manga",
-        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\04-A Comfy Life with my Family",
-        "YearsSubfolder": "04-Manga",
-        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\05-A Comfy Life with my Family",
-        "ProcessedInPartFour": true
       }
     ]
   },
@@ -290,7 +292,7 @@
       {
         "OriginalFilenames": [ "side", "map", "side_1" ],
         "SortOrder": "040121b",
-        "AlternateSortOrder": "0401997d",
+        "AlternateSortOrder": "0401996d",
         "ChapterName": "A Secret Tour of the Library [Philine]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
@@ -304,7 +306,7 @@
       {
         "OriginalFilenames": [ "40", "41", "42", "43" ],
         "SortOrder": "030107b",
-        "AlternateSortOrder": "030198a",
+        "AlternateSortOrder": "030197a",
         "ChapterName": "Welcoming a Certain Someone [Manga]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
@@ -313,6 +315,17 @@
         "ProcessedInPartThree": true
       }
     ],
+    "ComfyLifeChapter": {
+      "OriginalFilenames": [ "44", "46" ],
+      "SortOrder": "040398c",
+      "ChapterName": "Comfy Life Fanbook 3",
+      "FlatSubfolder": "03-Story",
+      "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
+      "Year": 6,
+      "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
+      "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\0403a-Volume 3",
+      "ProcessedInPartFour": true
+    },
     "Chapters": [
       {
         "OriginalFilenames": [ "21", "22" ],
@@ -331,16 +344,6 @@
         "PartsSubfolder": "11-Fanbooks",
         "YearsSubfolder": "06-Fanbooks",
         "VolumeSubfolder": "06-Fanbooks"
-      },
-      {
-        "OriginalFilenames": [ "44", "46" ],
-        "SortOrder": "0403d",
-        "ChapterName": "FB3",
-        "FlatSubfolder": "04-Manga",
-        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\04-A Comfy Life with my Family",
-        "YearsSubfolder": "04-Manga",
-        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\05-A Comfy Life with my Family",
-        "ProcessedInPartFour": true
       },
       {
         "OriginalFilenames": [ "45" ],

@@ -19,7 +19,7 @@
       {
         "OriginalFilenames": [ "chapter22" ],
         "SortOrder": "050120b",
-        "AlternateSortOrder": "050197a",
+        "AlternateSortOrder": "050196a",
         "ChapterName": "Fantasy versus Reality [Muriella]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "05-Avatar of a Goddess\\03-Story",
@@ -31,7 +31,7 @@
       {
         "OriginalFilenames": [ "chapter23" ],
         "SortOrder": "050104b",
-        "AlternateSortOrder": "050197b",
+        "AlternateSortOrder": "050196b",
         "ChapterName": "Finding Purpose and the Guardians of Knowledge [Hortensia]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "05-Avatar of a Goddess\\03-Story",
@@ -41,17 +41,18 @@
         "ProcessedInPartFive": true
       }
     ],
+    "ComfyLifeChapter": {
+      "OriginalFilenames": [ "manga1", "manga2" ],
+      "SortOrder": "050198",
+      "ChapterName": "501",
+      "FlatSubfolder": "03-Story\\0501x-Bonus",
+      "PartsSubfolder": "05-Avatar of a Goddess\\03-Story\\0501x-Bonus",
+      "Year": 8,
+      "YearsSubfolder": "03-Story\\[Year]\\3-Winter\\0501x-Bonus",
+      "VolumeSubfolder": "05-Avatar of a Goddess\\0501-Volume 1\\0501x-Bonus",
+      "ProcessedInPartFive": true
+    },
     "Chapters": [
-      {
-        "OriginalFilenames": [ "manga1", "manga2" ],
-        "SortOrder": "0501",
-        "ChapterName": "LN501",
-        "FlatSubfolder": "04-Manga",
-        "PartsSubfolder": "05-Avatar of a Goddess\\04-A Comfy Life with my Family",
-        "YearsSubfolder": "04-Manga",
-        "VolumeSubfolder": "05-Avatar of a Goddess\\06-A Comfy Life with my Family",
-        "ProcessedInPartFive": true
-      },
       {
         "OriginalFilenames": [ "prologue", "insert1", "prologue_1" ],
         "SortOrder": "050100",

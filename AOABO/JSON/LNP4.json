@@ -5,7 +5,7 @@
     "Gallery": {
       "SplashImages": [ "bonus2", "bonus1" ],
       "ChapterImages": [ "insert1", "insert2", "insert3", "insert4", "insert5", "insert6", "insert7", "insert8", "insert9", "insert10" ],
-      "SortOrder": "0401",
+      "StartOfBookSortOrder": "0401",
       "EndOfBookSortOrder": "040199",
       "ChapterName": "LN401",
       "AltName": "Volume 1",
@@ -19,7 +19,7 @@
       {
         "OriginalFilenames": [ "chapter23" ],
         "SortOrder": "040119b",
-        "AlternateSortOrder": "040197a",
+        "AlternateSortOrder": "040196a",
         "ChapterName": "A Productive Earthday [Lieseleta]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
@@ -31,7 +31,7 @@
       {
         "OriginalFilenames": [ "chapter24", "insert10", "chapter24_1" ],
         "SortOrder": "040101b",
-        "AlternateSortOrder": "040197b",
+        "AlternateSortOrder": "040196b",
         "ChapterName": "Myne Awakes [Effa]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
@@ -41,17 +41,18 @@
         "ProcessedInPartFour": true
       }
     ],
+    "ComfyLifeChapter": {
+      "OriginalFilenames": [ "manga1", "manga2" ],
+      "SortOrder": "040198",
+      "ChapterName": "Comfy Life 401",
+      "FlatSubfolder": "03-Story\\0401x-Bonus",
+      "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story\\0401x-Bonus",
+      "Year": 6,
+      "YearsSubfolder": "03-Story\\[Year]\\3-Winter\\0401x-Bonus",
+      "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\0401-Volume 1\\0401x-Bonus",
+      "ProcessedInPartFour": true
+    },
     "Chapters": [
-      {
-        "OriginalFilenames": [ "manga1", "manga2" ],
-        "SortOrder": "0401",
-        "ChapterName": "LN401",
-        "FlatSubfolder": "04-Manga",
-        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\04-A Comfy Life with my Family",
-        "YearsSubfolder": "04-Manga",
-        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\05-A Comfy Life with my Family",
-        "ProcessedInPartFour": true
-      },
       {
         "OriginalFilenames": [ "poll1", "poll2" ],
         "SortOrder": "CP2",
@@ -348,7 +349,7 @@
       {
         "OriginalFilenames": [ "chapter20" ],
         "SortOrder": "040214b",
-        "AlternateSortOrder": "040297a",
+        "AlternateSortOrder": "040296a",
         "ChapterName": "Honest Courting [Anastasius]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
@@ -360,7 +361,7 @@
       {
         "OriginalFilenames": [ "chapter21" ],
         "SortOrder": "040218b",
-        "AlternateSortOrder": "040297b",
+        "AlternateSortOrder": "040296b",
         "ChapterName": "Life without One's Lady [Leonore]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
@@ -370,17 +371,18 @@
         "ProcessedInPartFour": true
       }
     ],
+    "ComfyLifeChapter": {
+      "OriginalFilenames": [ "manga1", "manga2" ],
+      "SortOrder": "040298",
+      "ChapterName": "Comfy Life 402",
+      "FlatSubfolder": "03-Story",
+      "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
+      "Year": 6,
+      "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
+      "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\0402-Volume 2",
+      "ProcessedInPartFour": true
+    },
     "Chapters": [
-      {
-        "OriginalFilenames": [ "manga1", "manga2" ],
-        "SortOrder": "0402",
-        "ChapterName": "LN402",
-        "FlatSubfolder": "04-Manga",
-        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\04-A Comfy Life with my Family",
-        "YearsSubfolder": "04-Manga",
-        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\05-A Comfy Life with my Family",
-        "ProcessedInPartFour": true
-      },
       {
         "OriginalFilenames": [ "prologue" ],
         "SortOrder": "040200",
@@ -634,7 +636,7 @@
       {
         "OriginalFilenames": [ "chapter21" ],
         "SortOrder": "040319b",
-        "AlternateSortOrder": "040397a",
+        "AlternateSortOrder": "040396a",
         "ChapterName": "The Passage of Time and a New Promise [Lutz]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
@@ -646,7 +648,7 @@
       {
         "OriginalFilenames": [ "chapter22" ],
         "SortOrder": "040313b",
-        "AlternateSortOrder": "040397b",
+        "AlternateSortOrder": "040396b",
         "ChapterName": "The Blessing at the Graduation Ceremony [Eglantine]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
@@ -656,17 +658,18 @@
         "ProcessedInPartFour": true
       }
     ],
+    "ComfyLifeChapter": {
+      "OriginalFilenames": [ "manga1", "manga2" ],
+      "SortOrder": "040398a",
+      "ChapterName": "Comfy Life 403",
+      "FlatSubfolder": "03-Story",
+      "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
+      "Year": 6,
+      "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
+      "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\0403a-Volume 3",
+      "ProcessedInPartFour": true
+    },
     "Chapters": [
-      {
-        "OriginalFilenames": [ "manga1", "manga2" ],
-        "SortOrder": "0403a",
-        "ChapterName": "LN403",
-        "FlatSubfolder": "04-Manga",
-        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\04-A Comfy Life with my Family",
-        "YearsSubfolder": "04-Manga",
-        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\05-A Comfy Life with my Family",
-        "ProcessedInPartFour": true
-      },
       {
         "OriginalFilenames": [ "prologue", "insert1", "prologue_1" ],
         "SortOrder": "040300",
@@ -931,7 +934,7 @@
       {
         "OriginalFilenames": [ "chapter17" ],
         "SortOrder": "040412b",
-        "AlternateSortOrder": "040497a",
+        "AlternateSortOrder": "040496a",
         "ChapterName": "The Miracle of Haldenzel [Giebe Claudio Haldenzel]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
@@ -943,7 +946,7 @@
       {
         "OriginalFilenames": [ "chapter18" ],
         "SortOrder": "040413b",
-        "AlternateSortOrder": "040497b",
+        "AlternateSortOrder": "040496b",
         "ChapterName": "Preventing Destructive Reconstruction [Gunther]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
@@ -953,17 +956,18 @@
         "ProcessedInPartFour": true
       }
     ],
+    "ComfyLifeChapter": {
+      "OriginalFilenames": [ "manga1", "manga2" ],
+      "SortOrder": "040498",
+      "ChapterName": "Comfy Life 404",
+      "FlatSubfolder": "03-Story",
+      "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
+      "Year": 6,
+      "YearsSubfolder": "03-Story\\[Year]\\4-Spring",
+      "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\0404-Volume 4",
+      "ProcessedInPartFour": true
+    },
     "Chapters": [
-      {
-        "OriginalFilenames": [ "manga1", "manga2" ],
-        "SortOrder": "0404",
-        "ChapterName": "LN404",
-        "FlatSubfolder": "04-Manga",
-        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\04-A Comfy Life with my Family",
-        "YearsSubfolder": "04-Manga",
-        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\05-A Comfy Life with my Family",
-        "ProcessedInPartFour": true
-      },
       {
         "OriginalFilenames": [ "prologue", "insert1", "prologue_1" ],
         "SortOrder": "040400",
@@ -1184,7 +1188,7 @@
       {
         "OriginalFilenames": [ "chapter19" ],
         "SortOrder": "040507b",
-        "AlternateSortOrder": "040597a",
+        "AlternateSortOrder": "040596a",
         "ChapterName": "Staying Home at the Castle [Philine]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
@@ -1196,7 +1200,7 @@
       {
         "OriginalFilenames": [ "chapter20" ],
         "SortOrder": "040509c",
-        "AlternateSortOrder": "040597b",
+        "AlternateSortOrder": "040596b",
         "ChapterName": "Reaching a Crossroads [Aurelia]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
@@ -1208,7 +1212,7 @@
       {
         "OriginalFilenames": [ "chapter21", "insert10", "chapter21_1" ],
         "SortOrder": "040509b",
-        "AlternateSortOrder": "040597c",
+        "AlternateSortOrder": "040596c",
         "ChapterName": "The Road to Exclusive Business [Effa]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
@@ -1218,17 +1222,18 @@
         "ProcessedInPartFour": true
       }
     ],
+    "ComfyLifeChapter": {
+      "OriginalFilenames": [ "manga1", "manga2" ],
+      "SortOrder": "040598",
+      "ChapterName": "Comfy Life 405",
+      "FlatSubfolder": "03-Story",
+      "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
+      "Year": 7,
+      "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
+      "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\0405-Volume 5",
+      "ProcessedInPartFour": true
+    },
     "Chapters": [
-      {
-        "OriginalFilenames": [ "manga1", "manga2" ],
-        "SortOrder": "0405",
-        "ChapterName": "LN405",
-        "FlatSubfolder": "04-Manga",
-        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\04-A Comfy Life with my Family",
-        "YearsSubfolder": "04-Manga",
-        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\05-A Comfy Life with my Family",
-        "ProcessedInPartFour": true
-      },
       {
         "OriginalFilenames": [ "prologue", "insert1", "prologue_1" ],
         "SortOrder": "040500",
@@ -1471,7 +1476,7 @@
       {
         "OriginalFilenames": [ "chapter20" ],
         "SortOrder": "040615b",
-        "AlternateSortOrder": "040697a",
+        "AlternateSortOrder": "040696a",
         "ChapterName": "Unshakeable Resolve [Roderick]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
@@ -1483,7 +1488,7 @@
       {
         "OriginalFilenames": [ "chapter21" ],
         "SortOrder": "040618b",
-        "AlternateSortOrder": "040697b",
+        "AlternateSortOrder": "040696b",
         "ChapterName": "Investigating the Former Werkestock Dormitory [Rauffen]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
@@ -1493,17 +1498,18 @@
         "ProcessedInPartFour": true
       }
     ],
+    "ComfyLifeChapter": {
+      "OriginalFilenames": [ "manga1", "manga2" ],
+      "SortOrder": "040698",
+      "ChapterName": "Comfy Life 406",
+      "FlatSubfolder": "03-Story",
+      "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
+      "Year": 7,
+      "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
+      "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\0406-Volume 6",
+      "ProcessedInPartFour": true
+    },
     "Chapters": [
-      {
-        "OriginalFilenames": [ "manga1", "manga2" ],
-        "SortOrder": "0406",
-        "ChapterName": "LN406",
-        "FlatSubfolder": "04-Manga",
-        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\04-A Comfy Life with my Family",
-        "YearsSubfolder": "04-Manga",
-        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\05-A Comfy Life with my Family",
-        "ProcessedInPartFour": true
-      },
       {
         "OriginalFilenames": [ "prologue" ],
         "SortOrder": "040600",
@@ -1757,7 +1763,7 @@
       {
         "OriginalFilenames": [ "chapter19" ],
         "SortOrder": "040706b",
-        "AlternateSortOrder": "040797a",
+        "AlternateSortOrder": "040796a",
         "ChapterName": "Speaking at the Gazebo [Clarissa]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
@@ -1769,7 +1775,7 @@
       {
         "OriginalFilenames": [ "chapter20" ],
         "SortOrder": "040701b",
-        "AlternateSortOrder": "040797b",
+        "AlternateSortOrder": "040796b",
         "ChapterName": "Rendezvous at the Gazebo [Leonore]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
@@ -1779,17 +1785,18 @@
         "ProcessedInPartFour": true
       }
     ],
+    "ComfyLifeChapter": {
+      "OriginalFilenames": [ "manga1", "manga2" ],
+      "SortOrder": "040798",
+      "ChapterName": "Comfy Life 407",
+      "FlatSubfolder": "03-Story",
+      "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
+      "Year": 7,
+      "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
+      "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\0407-Volume 7",
+      "ProcessedInPartFour": true
+    },
     "Chapters": [
-      {
-        "OriginalFilenames": [ "manga1", "manga2" ],
-        "SortOrder": "0407",
-        "ChapterName": "LN407",
-        "FlatSubfolder": "04-Manga",
-        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\04-A Comfy Life with my Family",
-        "YearsSubfolder": "04-Manga",
-        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\05-A Comfy Life with my Family",
-        "ProcessedInPartFour": true
-      },
       {
         "OriginalFilenames": [ "prologue", "insert1", "prologue_1" ],
         "SortOrder": "040700",
@@ -2036,7 +2043,7 @@
       {
         "OriginalFilenames": [ "chapter21" ],
         "SortOrder": "040811b",
-        "AlternateSortOrder": "040897a",
+        "AlternateSortOrder": "040896a",
         "ChapterName": "Clearing Regrets from Ten Years Ago [Heisshitze]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
@@ -2048,7 +2055,7 @@
       {
         "OriginalFilenames": [ "chapter22" ],
         "SortOrder": "040814b",
-        "AlternateSortOrder": "040897b",
+        "AlternateSortOrder": "040896b",
         "ChapterName": "Ten Years of Change [Eckhart]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
@@ -2058,6 +2065,17 @@
         "ProcessedInPartFour": true
       }
     ],
+    "ComfyLifeChapter": {
+      "OriginalFilenames": [ "manga1", "manga2" ],
+      "SortOrder": "040898",
+      "ChapterName": "Comfy Life 408",
+      "FlatSubfolder": "03-Story",
+      "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
+      "Year": 8,
+      "YearsSubfolder": "03-Story\\[Year]\\1-Summer",
+      "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\0408-Volume 8",
+      "ProcessedInPartFour": true
+    },
     "Chapters": [
       {
         "OriginalFilenames": [ "map2" ],
@@ -2081,16 +2099,6 @@
         "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\02-Characters",
         "YearsSubfolder": "02-Characters",
         "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\02-Characters",
-        "ProcessedInPartFour": true
-      },
-      {
-        "OriginalFilenames": [ "manga1", "manga2" ],
-        "SortOrder": "0408",
-        "ChapterName": "LN408",
-        "FlatSubfolder": "04-Manga",
-        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\04-A Comfy Life with my Family",
-        "YearsSubfolder": "04-Manga",
-        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\05-A Comfy Life with my Family",
         "ProcessedInPartFour": true
       },
       {
@@ -2357,7 +2365,7 @@
       {
         "OriginalFilenames": [ "chapter15" ],
         "SortOrder": "040915b",
-        "AlternateSortOrder": "040997a",
+        "AlternateSortOrder": "040996a",
         "ChapterName": "Irreplaceable [Sylvester]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
@@ -2369,7 +2377,7 @@
       {
         "OriginalFilenames": [ "chapter16" ],
         "SortOrder": "040915c",
-        "AlternateSortOrder": "040997b",
+        "AlternateSortOrder": "040996b",
         "ChapterName": "Starting Life in Ahrensbach [Justus]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
@@ -2381,7 +2389,7 @@
       {
         "OriginalFilenames": [ "chapter17" ],
         "SortOrder": "040915d",
-        "AlternateSortOrder": "040997c",
+        "AlternateSortOrder": "040996c",
         "ChapterName": "The Start of a Busy Winter [Cornelius]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
@@ -2393,7 +2401,7 @@
       {
         "OriginalFilenames": [ "chapter18", "insert9", "chapter18_1" ],
         "SortOrder": "040915e",
-        "AlternateSortOrder": "040997d",
+        "AlternateSortOrder": "040996d",
         "ChapterName": "Out of Time [Matthias]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
@@ -2405,7 +2413,7 @@
       {
         "OriginalFilenames": [ "chapter19" ],
         "SortOrder": "040915f",
-        "AlternateSortOrder": "040997e",
+        "AlternateSortOrder": "040996e",
         "ChapterName": "The New Children [Wilma]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
@@ -2417,7 +2425,7 @@
       {
         "OriginalFilenames": [ "chapter20", "insert10", "chapter20_1" ],
         "SortOrder": "040915g",
-        "AlternateSortOrder": "040997f",
+        "AlternateSortOrder": "040996f",
         "ChapterName": "Winter Resolution [Kamil]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
@@ -2429,7 +2437,7 @@
       {
         "OriginalFilenames": [ "chapter21" ],
         "SortOrder": "040914b",
-        "AlternateSortOrder": "040997g",
+        "AlternateSortOrder": "040996g",
         "ChapterName": "My Son's Departure [Rihyarda]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
@@ -2441,7 +2449,7 @@
       {
         "OriginalFilenames": [ "chapter22" ],
         "SortOrder": "040913b",
-        "AlternateSortOrder": "040997h",
+        "AlternateSortOrder": "040996h",
         "ChapterName": "Memories and Farewells [Fran]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
@@ -2451,17 +2459,18 @@
         "ProcessedInPartFour": true
       }
     ],
+    "ComfyLifeChapter": {
+      "OriginalFilenames": [ "manga1", "manga2" ],
+      "SortOrder": "040998",
+      "ChapterName": "Comfy Life 409",
+      "FlatSubfolder": "03-Story",
+      "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\03-Story",
+      "Year": 8,
+      "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
+      "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\0409-Volume 9",
+      "ProcessedInPartFour": true
+    },
     "Chapters": [
-      {
-        "OriginalFilenames": [ "manga1", "manga2" ],
-        "SortOrder": "0409",
-        "ChapterName": "LN409",
-        "FlatSubfolder": "04-Manga",
-        "PartsSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\04-A Comfy Life with my Family",
-        "YearsSubfolder": "04-Manga",
-        "VolumeSubfolder": "04-Founder of the Royal Academy's So-Called Library Committee\\05-A Comfy Life with my Family",
-        "ProcessedInPartFour": true
-      },
       {
         "OriginalFilenames": [ "prologue", "insert1", "prologue_1" ],
         "SortOrder": "040900",

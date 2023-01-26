@@ -65,30 +65,15 @@
 
     public class ComfyLifeChapter : Chapter
     {
-        public string PartEndSortOrder { get; set; }
-        public string PartEndVolumeFolder { get; set; }
-        public string PartEndYearFolder { get; set; }
-        public string OmnibusEndSortOrder { get; set; }
-        public string OmnibusEndFolder { get; set; }
-        public int PartEndYear { get; set; }
-        public int OmnibusEndYear { get; set; }
         public void SetSortOrder(ComfyLifeSetting setting)
         {
             switch (setting)
             {
                 case ComfyLifeSetting.OmnibusEnd:
-                    SortOrder = OmnibusEndSortOrder;
-                    YearsSubfolder = OmnibusEndFolder;
-                    VolumeSubfolder = OmnibusEndFolder;
-                    PartsSubfolder = OmnibusEndFolder;
-                    FlatSubfolder = OmnibusEndFolder;
-                    Year = OmnibusEndYear;
-                    break;
-                case ComfyLifeSetting.PartEnd:
-                    SortOrder = PartEndSortOrder;
-                    YearsSubfolder = PartEndYearFolder;
-                    VolumeSubfolder = PartEndVolumeFolder;
-                    Year = PartEndYear;
+                    YearsSubfolder = "05-A Comfy Life with my Family";
+                    VolumeSubfolder = "05-A Comfy Life with my Family";
+                    PartsSubfolder = "05-A Comfy Life with my Family";
+                    FlatSubfolder = "05-A Comfy Life with my Family";
                     break;
             }
         }

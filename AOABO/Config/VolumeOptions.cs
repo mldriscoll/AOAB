@@ -127,7 +127,6 @@ namespace AOABO.Config
     {
         None,
         VolumeEnd,
-        PartEnd,
         OmnibusEnd
     }
     public enum AfterwordSetting
@@ -147,5 +146,11 @@ namespace AOABO.Config
         Start,
         End,
         None
+    }
+
+    public class FolderName
+    {
+        public string Folder { get; set; }
+        public string Name { get; set; }
     }
 }

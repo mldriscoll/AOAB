@@ -11,6 +11,9 @@
     <None Update="JSON\Fanbooks.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="JSON\folders.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="JSON\LNP1.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

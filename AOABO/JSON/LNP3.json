@@ -19,7 +19,7 @@
       {
         "OriginalFilenames": [ "extra1" ],
         "SortOrder": "030102b",
-        "AlternateSortOrder": "030197a",
+        "AlternateSortOrder": "030196a",
         "ChapterName": "Being My Little Sister's Knight [Cornelius]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
@@ -31,7 +31,7 @@
       {
         "OriginalFilenames": [ "extra2" ],
         "SortOrder": "030112b",
-        "AlternateSortOrder": "030197b",
+        "AlternateSortOrder": "030196b",
         "ChapterName": "One Stressed-Out Chef [Hugo]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
@@ -42,16 +42,6 @@
       }
     ],
     "Chapters": [
-      {
-        "OriginalFilenames": [ "manga1", "manga2" ],
-        "SortOrder": "0301",
-        "ChapterName": "LN301",
-        "FlatSubfolder": "04-Manga",
-        "PartsSubfolder": "03-Adopted Daughter of an Archduke\\04-A Comfy Life with my Family",
-        "YearsSubfolder": "04-Manga",
-        "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\04-A Comfy Life with my Family",
-        "ProcessedInPartThree": true
-      },
       {
         "OriginalFilenames": [ "poll1", "poll2" ],
         "SortOrder": "CP1",
@@ -304,7 +294,18 @@
         "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0301-Volume 1",
         "ProcessedInPartThree": true
       }
-    ]
+    ],
+    "ComfyLifeChapter": {
+      "OriginalFilenames": [ "manga1", "manga2" ],
+      "SortOrder": "030198",
+      "ChapterName": "Comfy Life 301",
+      "FlatSubfolder": "03-Story",
+      "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+      "Year": 3,
+      "YearsSubfolder": "03-Story\\[Year]\\1-Summer",
+      "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0301-Volume 1",
+      "ProcessedInPartThree": true
+    }
   },
   {
     "InternalName": "LN0302",
@@ -326,7 +327,7 @@
       {
         "OriginalFilenames": [ "extra1", "insert9", "extra1_1" ],
         "SortOrder": "030209b",
-        "AlternateSortOrder": "030297a",
+        "AlternateSortOrder": "030296a",
         "ChapterName": "Wilfried's Day as the High Bishop [Wilfried]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
@@ -338,7 +339,7 @@
       {
         "OriginalFilenames": [ "extra2" ],
         "SortOrder": "030216b",
-        "AlternateSortOrder": "030297b",
+        "AlternateSortOrder": "030296b",
         "ChapterName": "Hasse's Orphans [Thore]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
@@ -350,7 +351,7 @@
       {
         "OriginalFilenames": [ "extra3" ],
         "SortOrder": "030209c",
-        "AlternateSortOrder": "030297c",
+        "AlternateSortOrder": "030296c",
         "ChapterName": "Justus's Grand Lower City Infiltration [Justus]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
@@ -361,16 +362,6 @@
       }
     ],
     "Chapters": [
-      {
-        "OriginalFilenames": [ "manga1", "manga2" ],
-        "SortOrder": "0302",
-        "ChapterName": "LN302",
-        "FlatSubfolder": "04-Manga",
-        "PartsSubfolder": "03-Adopted Daughter of an Archduke\\04-A Comfy Life with my Family",
-        "YearsSubfolder": "04-Manga",
-        "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\04-A Comfy Life with my Family",
-        "ProcessedInPartThree": true
-      },
       {
         "OriginalFilenames": [ "prologue", "insert1", "prologue_1" ],
         "SortOrder": "030200",
@@ -580,7 +571,18 @@
         "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0302-Volume 2",
         "ProcessedInPartThree": true
       }
-    ]
+    ],
+    "ComfyLifeChapter": {
+      "OriginalFilenames": [ "manga1", "manga2" ],
+      "SortOrder": "030298",
+      "ChapterName": "Comfy Life 302",
+      "FlatSubfolder": "03-Story",
+      "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+      "Year": 3,
+      "YearsSubfolder": "03-Story\\[Year]\\2-Autumn",
+      "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0302-Volume 2",
+      "ProcessedInPartThree": true
+    }
   },
   {
     "InternalName": "LN0303",
@@ -602,7 +604,7 @@
       {
         "OriginalFilenames": [ "extra1" ],
         "SortOrder": "030307b",
-        "AlternateSortOrder": "030397a",
+        "AlternateSortOrder": "030396a",
         "ChapterName": "Winter Debut and the Playroom [Lamprecht]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
@@ -614,7 +616,7 @@
       {
         "OriginalFilenames": [ "extra2" ],
         "SortOrder": "030302b",
-        "AlternateSortOrder": "030397b",
+        "AlternateSortOrder": "030396b",
         "ChapterName": "The High Bishop's Exclusive Business [Ingo]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
@@ -624,17 +626,18 @@
         "ProcessedInPartThree": true
       }
     ],
+    "ComfyLifeChapter": {
+      "OriginalFilenames": [ "manga1", "manga2" ],
+      "SortOrder": "030398",
+      "ChapterName": "Comfy Life 303",
+      "FlatSubfolder": "03-Story",
+      "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+      "Year": 3,
+      "YearsSubfolder": "03-Story\\[Year]\\4-Spring",
+      "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0303-Volume 3",
+      "ProcessedInPartThree": true
+    },
     "Chapters": [
-      {
-        "OriginalFilenames": [ "manga1", "manga2" ],
-        "SortOrder": "0303",
-        "ChapterName": "LN303",
-        "FlatSubfolder": "04-Manga",
-        "PartsSubfolder": "03-Adopted Daughter of an Archduke\\04-A Comfy Life with my Family",
-        "YearsSubfolder": "04-Manga",
-        "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\04-A Comfy Life with my Family",
-        "ProcessedInPartThree": true
-      },
       {
         "OriginalFilenames": [ "prologue" ],
         "SortOrder": "030300",
@@ -899,7 +902,7 @@
       {
         "OriginalFilenames": [ "chapter20" ],
         "SortOrder": "030419b",
-        "AlternateSortOrder": "030497a",
+        "AlternateSortOrder": "030496a",
         "ChapterName": "Tea Party [Florencia]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
@@ -911,7 +914,7 @@
       {
         "OriginalFilenames": [ "chapter21", "insert9", "chapter21_1" ],
         "SortOrder": "030413b",
-        "AlternateSortOrder": "030497b",
+        "AlternateSortOrder": "030496b",
         "ChapterName": "Damuel's Proposal [Brigitte]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
@@ -923,7 +926,7 @@
       {
         "OriginalFilenames": [ "chapter22" ],
         "SortOrder": "030418b",
-        "AlternateSortOrder": "030497c",
+        "AlternateSortOrder": "030496c",
         "ChapterName": "Staying in Illgner [Gil]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
@@ -934,16 +937,6 @@
       }
     ],
     "Chapters": [
-      {
-        "OriginalFilenames": [ "manga1", "manga2" ],
-        "SortOrder": "0304",
-        "ChapterName": "LN304",
-        "FlatSubfolder": "04-Manga",
-        "PartsSubfolder": "03-Adopted Daughter of an Archduke\\04-A Comfy Life with my Family",
-        "YearsSubfolder": "04-Manga",
-        "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\04-A Comfy Life with my Family",
-        "ProcessedInPartThree": true
-      },
       {
         "OriginalFilenames": [ "prologue" ],
         "SortOrder": "030400",
@@ -1175,7 +1168,18 @@
         "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0304-Volume 4",
         "ProcessedInPartThree": true
       }
-    ]
+    ],
+    "ComfyLifeChapter": {
+      "OriginalFilenames": [ "manga1", "manga2" ],
+      "SortOrder": "030498",
+      "ChapterName": "Comfy Life 304",
+      "FlatSubfolder": "03-Story",
+      "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+      "Year": 4,
+      "YearsSubfolder": "03-Story\\[Year]\\1-Summer",
+      "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0304-Volume 4",
+      "ProcessedInPartThree": true
+    }
   },
   {
     "InternalName": "LN0305",
@@ -1200,7 +1204,7 @@
       {
         "OriginalFilenames": [ "chapter15" ],
         "SortOrder": "030514b",
-        "AlternateSortOrder": "030597a",
+        "AlternateSortOrder": "030596a",
         "ChapterName": "Grandfather on the Day of the Baptism [Bonifatius]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
@@ -1212,7 +1216,7 @@
       {
         "OriginalFilenames": [ "chapter16", "insert6", "chapter16_1" ],
         "SortOrder": "030514c",
-        "AlternateSortOrder": "030597b",
+        "AlternateSortOrder": "030596b",
         "ChapterName": "In Place of My Older Sister [Charlotte]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
@@ -1224,7 +1228,7 @@
       {
         "OriginalFilenames": [ "chapter17" ],
         "SortOrder": "030514d",
-        "AlternateSortOrder": "030597c",
+        "AlternateSortOrder": "030596c",
         "ChapterName": "Two Marriages [Giebe Illgner]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
@@ -1236,7 +1240,7 @@
       {
         "OriginalFilenames": [ "chapter18", "insert7", "chapter18_1", "insert8", "chapter18_2" ],
         "SortOrder": "030514g",
-        "AlternateSortOrder": "030597d",
+        "AlternateSortOrder": "030596d",
         "ChapterName": "No Rest for Us [Lutz]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
@@ -1248,7 +1252,7 @@
       {
         "OriginalFilenames": [ "chapter19", "insert9", "chapter19_1" ],
         "SortOrder": "030514h",
-        "AlternateSortOrder": "030597e",
+        "AlternateSortOrder": "030596e",
         "ChapterName": "Meanwhile at the Temple [Fran]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
@@ -1260,7 +1264,7 @@
       {
         "OriginalFilenames": [ "chapter20" ],
         "SortOrder": "030514e",
-        "AlternateSortOrder": "030597f",
+        "AlternateSortOrder": "030596f",
         "ChapterName": "The Laynoble Guard Knight [Damuel]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
@@ -1272,7 +1276,7 @@
       {
         "OriginalFilenames": [ "chapter21" ],
         "SortOrder": "030514f",
-        "AlternateSortOrder": "030597g",
+        "AlternateSortOrder": "030596g",
         "ChapterName": "One Handful of a Chef [Ella]",
         "FlatSubfolder": "03-Story",
         "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
@@ -1282,17 +1286,18 @@
         "ProcessedInPartThree": true
       }
     ],
+    "ComfyLifeChapter": {
+      "OriginalFilenames": [ "manga1", "manga2" ],
+      "SortOrder": "030598",
+      "ChapterName": "Comfy Life 305",
+      "FlatSubfolder": "03-Story",
+      "PartsSubfolder": "03-Adopted Daughter of an Archduke\\03-Story",
+      "Year": 6,
+      "YearsSubfolder": "03-Story\\[Year]\\2-Autumn",
+      "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\0305-Volume 5",
+      "ProcessedInPartThree": true
+    },
     "Chapters": [
-      {
-        "OriginalFilenames": [ "manga1", "manga2" ],
-        "SortOrder": "0305",
-        "ChapterName": "LN305",
-        "FlatSubfolder": "04-Manga",
-        "PartsSubfolder": "03-Adopted Daughter of an Archduke\\04-A Comfy Life with my Family",
-        "YearsSubfolder": "04-Manga",
-        "VolumeSubfolder": "03-Adopted Daughter of an Archduke\\04-A Comfy Life with my Family",
-        "ProcessedInPartThree": true
-      },
       {
         "OriginalFilenames": [ "map" ],
         "SortOrder": "02",
