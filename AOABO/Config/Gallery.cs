@@ -24,7 +24,7 @@
                 AltName = AltName,
                 ChapterName = ChapterName,
                 EarlySeason = EarlySeason,
-                EarlyYear = LateYear,
+                EarlyYear = EarlyYear,
                 LateSeason = LateSeason,
                 LateYear = LateYear,
                 ProcessedInFanbooks = ProcessedInFanbooks,

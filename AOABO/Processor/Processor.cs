@@ -66,13 +66,14 @@ namespace AOABO.Processor
             //Directory.CreateDirectory(folder + "\\text");
             int tocCounter = 0;
 
+            Directory.CreateDirectory($"{folder}\\oebps\\Text");
             foreach (var chapter in Chapters.OrderBy(x => x.SubFolder + "\\" + x.SortOrder))
             {
                 string cssLink = string.Empty;
                 var fileName = humanReadable ? chapter.FileName : $"{tocCounter}.xhtml";
                 string imFolderReplace;
 
-                if (!string.IsNullOrWhiteSpace(chapter.SubFolder))
+                if (humanReadable && !string.IsNullOrWhiteSpace(chapter.SubFolder))
                 {
                     var li = chapter.SubFolder.LastIndexOf('\\');
                     if(li > 0)
