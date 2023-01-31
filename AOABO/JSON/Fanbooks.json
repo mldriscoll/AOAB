@@ -32,8 +32,8 @@
     "MangaChapters": [
       {
         "OriginalFilenames": [ "37", "38", "39", "40", "41", "42", "43", "44" ],
-        "SortOrder": "010116b",
-        "AlternateSortOrder": "010197c",
+        "EarlySortOrder": "010116b",
+        "LateSortOrder": "010197c",
         "ChapterName": "My Daughter's about to be a Criminal [Gunther]",
         "EarlyYear": 0,
         "LateYear" : 1,
@@ -246,7 +246,7 @@
       "SplashImages": [ "cover", "30" ],
       "ChapterImages": [],
       "EarlySortOrder": "0403d",
-      "LateSortOrder": "0403d99",
+      "LateSortOrder": "040399c",
       "ChapterName": "FB3",
       "AltName": "Fanbook 3",
       "Volume": "0403",
@@ -276,7 +276,7 @@
         "EarlySortOrder": "030107b",
         "LateSortOrder": "030197a",
         "ChapterName": "Welcoming a Certain Someone [Manga]",
-        "Volume": "0401",
+        "Volume": "0301",
         "EarlyYear": 3,
         "EarlySeason": "Summer",
         "LateYear": 3,

@@ -138,22 +138,4 @@ namespace AOABO.Config
             OriginalFilenames.RemoveAll(x => x.StartsWith("insert", StringComparison.InvariantCultureIgnoreCase));
         }
     }
-
-    public class OCRSettings {
-        public List<Correction> Corrections { get; set; } = new List<Correction>();
-        public List<Italics> Italics { get; set; } = new List<Italics>();
-        public string Header { get; set; }
-    }
-
-    public class Correction
-    {
-        public string Original { get; set; }
-        public string Replacement { get; set; }
-    }
-
-    public class Italics
-    {
-        public string Start { get; set; }
-        public string End { get; set; }
-    }
 }

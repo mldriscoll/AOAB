@@ -123,40 +123,4 @@ namespace AOABO.Config
         public bool Polls { get; set; } = true;
 
     }
-    public enum BonusChapterSetting
-    {
-        Chronological = 0,
-        EndOfBook = 1,
-        LeaveOut = 2
-    }
-    public enum ComfyLifeSetting
-    {
-        None,
-        VolumeEnd,
-        OmnibusEnd
-    }
-    public enum AfterwordSetting
-    {
-        None,
-        VolumeEnd,
-        OmnibusEnd
-    }
-    public enum CharacterSheets
-    {
-        All,
-        PerPart,
-        None
-    }
-    public enum GallerySetting
-    {
-        Start,
-        End,
-        None
-    }
-
-    public class FolderName
-    {
-        public string Folder { get; set; }
-        public string Name { get; set; }
-    }
 }

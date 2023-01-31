@@ -70,7 +70,7 @@
     },
     "CharacterSheet": {
       "OriginalFilenames": [ "characters1", "characters2", "characters3" ],
-      "SortOrder": "0409",
+      "SortOrder": "0401",
       "ChapterName": "Founder of the Royal Academy's So-Called Library Committee Characters",
       "Volume": "0401",
       "Year": 6,
@@ -846,7 +846,7 @@
     "BonusChapters": [
       {
         "OriginalFilenames": [ "chapter17" ],
-        "SortOrder": "040412b",
+        "EarlySortOrder": "040412b",
         "LateSortOrder": "040496a",
         "ChapterName": "The Miracle of Haldenzel [Giebe Claudio Haldenzel]",
         "Volume": "0404",
@@ -858,7 +858,7 @@
       },
       {
         "OriginalFilenames": [ "chapter18" ],
-        "SortOrder": "040413b",
+        "EarlySortOrder": "040413b",
         "LateSortOrder": "040496b",
         "ChapterName": "Preventing Destructive Reconstruction [Gunther]",
         "Volume": "0404",
@@ -1092,7 +1092,7 @@
       },
       {
         "OriginalFilenames": [ "chapter20" ],
-        "SortOrder": "040509c",
+        "EarlySortOrder": "040509c",
         "LateSortOrder": "040596b",
         "ChapterName": "Reaching a Crossroads [Aurelia]",
         "Volume": "0405",
@@ -1104,7 +1104,7 @@
       },
       {
         "OriginalFilenames": [ "chapter21", "insert10", "chapter21_1" ],
-        "SortOrder": "040509b",
+        "EarlySortOrder": "040509b",
         "LateSortOrder": "040596c",
         "ChapterName": "The Road to Exclusive Business [Effa]",
         "Volume": "0405",
@@ -1591,8 +1591,8 @@
     "Gallery": {
       "SplashImages": [ "bonus2", "bonus1" ],
       "ChapterImages": [ "insert1", "insert2", "insert3", "insert4", "insert5", "insert6", "insert7", "insert8", "insert9", "insert10" ],
-      "SortOrder": "0407",
-      "EndOfBookSortOrder": "040799",
+      "EarlySortOrder": "0407",
+      "LateSortOrder": "040799",
       "ChapterName": "LN407",
       "AltName": "Volume 7",
       "Volume": "0407",
@@ -1605,7 +1605,7 @@
     "BonusChapters": [
       {
         "OriginalFilenames": [ "chapter19" ],
-        "SortOrder": "040706b",
+        "EarlySortOrder": "040706b",
         "LateSortOrder": "040796a",
         "ChapterName": "Speaking at the Gazebo [Clarissa]",
         "Volume": "0407",
@@ -1617,7 +1617,7 @@
       },
       {
         "OriginalFilenames": [ "chapter20" ],
-        "SortOrder": "040701b",
+        "EarlySortOrder": "040701b",
         "LateSortOrder": "040796b",
         "ChapterName": "Rendezvous at the Gazebo [Leonore]",
         "Volume": "0407",
@@ -1843,8 +1843,8 @@
     "Gallery": {
       "SplashImages": [ "bonus2", "bonus1" ],
       "ChapterImages": [ "insert1", "insert2", "insert3", "insert4", "insert5", "insert6", "insert7", "insert8", "insert9", "insert10" ],
-      "SortOrder": "0408",
-      "EndOfBookSortOrder": "040899",
+      "EarlySortOrder": "0408",
+      "LateSortOrder": "040899",
       "ChapterName": "LN408",
       "AltName": "Volume 8",
       "Volume": "0408",
