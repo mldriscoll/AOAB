@@ -1,13 +1,37 @@
 ﻿namespace AOABO.Config
 {
-    public class Gallery : Chapter
+    public abstract class MoveableChapter : Chapter
+    {
+        public string EarlySortOrder { get; set; }
+        public string LateSortOrder { get; set; }
+        public int EarlyYear { get; set; }
+        public int LateYear { get; set; }
+        public string EarlySeason { get; set; }
+        public string LateSeason { get; set; }
+
+        protected abstract bool IsEarly();
+
+        protected override string GetYearsSubFolder()
+        {
+            if (IsEarly())
+            {
+                Year = EarlyYear;
+                Season = EarlySeason;
+            }
+            else
+            {
+                Year = LateYear;
+                Season = LateSeason;
+            }
+            return base.GetYearsSubFolder();
+        }
+    }
+    public class Gallery : MoveableChapter
     {
         public List<string> SplashImages { get; set; }
         public List<string> ChapterImages { get; set; }
-        public string EndOfBookSortOrder { get; set; }
-        public string StartOfBookSortOrder { get; set; }
 
-        private bool startOfBook = false;
+        private bool StartOfBook = false;
 
         public Gallery GetChapter(bool startOfBook, bool splashImages, bool chapterImages)
         {
@@ -16,49 +40,75 @@
                 return null;
             }
 
-            //var chapter = Copy();
-
-            if (startOfBook)
+            var c = new Gallery
             {
-                SortOrder = StartOfBookSortOrder;
-                startOfBook = true;
-            }
-            else
-            {
-                startOfBook = false;
-                SortOrder = EndOfBookSortOrder;
-                //ChapterName = $"{ChapterName} Gallery";
-                //AltName = $"{AltName} Gallery";
-            }
+                SortOrder = startOfBook ? EarlySortOrder : LateSortOrder,
+                Year = startOfBook ? EarlyYear : LateYear,
+                Season = startOfBook ? EarlySeason : LateSeason,
+                StartOfBook = startOfBook,
+                Volume = Volume,
+                AltName = AltName,
+                ChapterName = ChapterName,
+                EarlySeason = EarlySeason,
+                EarlyYear = LateYear,
+                LateSeason = LateSeason,
+                LateYear = LateYear,
+                ProcessedInFanbooks = ProcessedInFanbooks,
+                ProcessedInPartFive = ProcessedInPartFive,
+                ProcessedInPartFour = ProcessedInPartFour,
+                ProcessedInPartOne = ProcessedInPartOne,
+                ProcessedInPartThree = ProcessedInPartThree,
+                ProcessedInPartTwo = ProcessedInPartTwo,
+                OriginalFilenames = new List<string>()
+            };
 
             if (splashImages)
             {
-                OriginalFilenames.AddRange(SplashImages);
+                c.OriginalFilenames.AddRange(SplashImages);
             }
 
             if (chapterImages)
             {
-                OriginalFilenames.AddRange(ChapterImages);
+                c.OriginalFilenames.AddRange(ChapterImages);
             }
-            return this;
+            return c;
         }
 
         protected override string GetPartSubFolder()
         {
-            return Volume switch
-            {
-                "0401" or "0402" or "0403" or "0404" or "0405" or "0406" or "0407" or "0408" or "0409" => $"{Configuration.FolderNames["PartFour"]}\\01-Inserts",
-                _ => throw new Exception($"GetPartSubFolder (Gallery) - {ChapterName}"),
-            };
+            if (StartOfBook)
+                return $"{base.GetPartSubFolder()}\\01-Inserts";
+            else
+                return $"{base.GetPartSubFolder()}\\{Volume}xx-{getVolumeName()} Bonus";
         }
 
         protected override string GetVolumeSubFolder()
         {
-            return Volume switch
-            {
-                "0403"  => startOfBook ? $"{Configuration.FolderNames["PartFour"]}\\0403-Volume 3" : $"{Configuration.FolderNames["PartFour"]}\\0403-Volume 3\\x-Extras",
-                _ => throw new Exception($"GetVolumeSubFolder (Gallery) - {ChapterName}")
-            };
+            if (StartOfBook)
+                return $"{base.GetVolumeSubFolder()}\\01-Inserts";
+            else
+                return $"{base.GetVolumeSubFolder()}\\{Volume}xx-{getVolumeName()} Bonus";
+        }
+
+        protected override string GetFlatSubFolder()
+        {
+            if (StartOfBook)
+                return "01-Inserts";
+            else
+                return "04-Gallery";
+        }
+
+        protected override string GetYearsSubFolder()
+        {
+            if (StartOfBook)
+                return base.GetYearsSubFolder();
+            else 
+                return $"{base.GetYearsSubFolder()}\\{Volume}xx-{getVolumeName()} Bonus";
+        }
+
+        protected override bool IsEarly()
+        {
+            return StartOfBook;
         }
     }
 }

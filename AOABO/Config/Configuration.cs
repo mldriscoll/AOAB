@@ -46,38 +46,38 @@ namespace AOABO.Config
             {
                 Volumes.AddRange(((Volume[])deserializer.ReadObject(reader.BaseStream)));
             }
-            //using (var reader = new StreamReader("JSON\\Fanbooks.json"))
-            //{
-            //    Volumes.AddRange(((Volume[])deserializer.ReadObject(reader.BaseStream)));
-            //}
-            //using (var reader = new StreamReader("JSON\\MangaP1.json"))
-            //{
-            //    Volumes.AddRange(((Volume[])deserializer.ReadObject(reader.BaseStream)));
-            //}
-            //using (var reader = new StreamReader("JSON\\MangaP2.json"))
-            //{
-            //    Volumes.AddRange(((Volume[])deserializer.ReadObject(reader.BaseStream)));
-            //}
-            //using (var reader = new StreamReader("JSON\\LNP1.json"))
-            //{
-            //    Volumes.AddRange(((Volume[])deserializer.ReadObject(reader.BaseStream)));
-            //}
-            //using (var reader = new StreamReader("JSON\\LNP2.json"))
-            //{
-            //    Volumes.AddRange(((Volume[])deserializer.ReadObject(reader.BaseStream)));
-            //}
-            //using (var reader = new StreamReader("JSON\\LNP3.json"))
-            //{
-            //    Volumes.AddRange(((Volume[])deserializer.ReadObject(reader.BaseStream)));
-            //}
-            //using (var reader = new StreamReader("JSON\\LNP4.json"))
-            //{
-            //    Volumes.AddRange(((Volume[])deserializer.ReadObject(reader.BaseStream)));
-            //}
-            //using (var reader = new StreamReader("JSON\\LNP5.json"))
-            //{
-            //    Volumes.AddRange(((Volume[])deserializer.ReadObject(reader.BaseStream)));
-            //}
+            using (var reader = new StreamReader("JSON\\Fanbooks.json"))
+            {
+                Volumes.AddRange(((Volume[])deserializer.ReadObject(reader.BaseStream)));
+            }
+            using (var reader = new StreamReader("JSON\\MangaP1.json"))
+            {
+                Volumes.AddRange(((Volume[])deserializer.ReadObject(reader.BaseStream)));
+            }
+            using (var reader = new StreamReader("JSON\\MangaP2.json"))
+            {
+                Volumes.AddRange(((Volume[])deserializer.ReadObject(reader.BaseStream)));
+            }
+            using (var reader = new StreamReader("JSON\\LNP1.json"))
+            {
+                Volumes.AddRange(((Volume[])deserializer.ReadObject(reader.BaseStream)));
+            }
+            using (var reader = new StreamReader("JSON\\LNP2.json"))
+            {
+                Volumes.AddRange(((Volume[])deserializer.ReadObject(reader.BaseStream)));
+            }
+            using (var reader = new StreamReader("JSON\\LNP3.json"))
+            {
+                Volumes.AddRange(((Volume[])deserializer.ReadObject(reader.BaseStream)));
+            }
+            using (var reader = new StreamReader("JSON\\LNP4.json"))
+            {
+                Volumes.AddRange(((Volume[])deserializer.ReadObject(reader.BaseStream)));
+            }
+            using (var reader = new StreamReader("JSON\\LNP5.json"))
+            {
+                Volumes.AddRange(((Volume[])deserializer.ReadObject(reader.BaseStream)));
+            }
         }
 
         public static void UpdateOptions()
@@ -300,7 +300,7 @@ namespace AOABO.Config
             {
                 case 'y':
                 case 'Y':
-                    Options.UseHumanReadableFileStructure = false;
+                    Options.UseHumanReadableFileStructure = true;
                     break;
             }
         }
@@ -374,7 +374,6 @@ namespace AOABO.Config
             var key = Console.ReadKey();
             Console.WriteLine();
             IFolder folder = new BasicFolder();
-            int? baseYear = null;
             switch (key.KeyChar)
             {
                 case '1':
@@ -386,7 +385,8 @@ namespace AOABO.Config
                 case '3':
                     Options.OutputStructure = OutputStructure.Seasons;
                     Console.WriteLine();
-                    while (baseYear == null)
+                    Options.StartYear = -100;
+                    while (Options.StartYear == -100)
                     {
                         Console.WriteLine("Which year should be used for the story beginning (Myne is 5 at the start of P1V1)?");
                         var yearinput = Console.ReadLine();

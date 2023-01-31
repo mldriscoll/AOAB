@@ -6,19 +6,11 @@ namespace AOABO.Config
     {
         public List<string> OriginalFilenames { get; set; } = new List<string>();
         public string ChapterName { get; set; }
-
         public string AltName { get; set; }
         public string SortOrder { get; set; }
-        public string OriginalOrder { get; set; }
-        public string FlatSubfolder { get; set; }
-        public string PartsSubfolder { get; set; }
-        public string VolumeSubfolder { get; set; }
-        public string YearsSubfolder { get; set; }
         public int? Year { get; set; }
         public string Season { get; set; }
-
         public string Volume { get; set; } = string.Empty;
-        public string Type { get; set; } = string.Empty;
 
         public string GetSubFolder(OutputStructure structure)
         {
@@ -46,48 +38,58 @@ namespace AOABO.Config
                 "0201" or "0202" or "0203" or "0204" => $"{Configuration.FolderNames["PartTwo"]}\\03-Story",
                 "0301" or "0302" or "0303" or "0304" or "0305" => $"{Configuration.FolderNames["PartThree"]}\\03-Story",
                 "0401" or "0402" or "0403" or "0404" or "0405" or "0406" or "0407" or "0408" or "0409" => $"{Configuration.FolderNames["PartFour"]}\\03-Story",
-                "0501" => $"{Configuration.FolderNames["PartFive"]}\\03-Story",
+                "0501" or "0502" => $"{Configuration.FolderNames["PartFive"]}\\03-Story",
+                "FB1" or "FB2" or "FB3" => $"11-Fanbooks",
                 _ => throw new Exception($"GetPartSubFolder - {ChapterName}"),
             };
         }
         protected virtual string GetYearsSubFolder()
         {
-            return $"03-Story\\[Year]\\{GetSeason}";
+            return Volume switch
+            {
+                "FB1" or "FB2" or "FB3" => $"06-Fanbooks",
+                _ => $"03-Story\\[Year]\\{GetSeason()}"
+            };
         }
 
         protected virtual string GetVolumeSubFolder()
         {
             return Volume switch
             {
-                "0101" => $"{Configuration.FolderNames["PartOne"]}\\0101-Volume 1",
-                "0102" => $"{Configuration.FolderNames["PartOne"]}\\0102-Volume 2",
-                "0103" => $"{Configuration.FolderNames["PartOne"]}\\0103-Volume 3",
-                "0201" => $"{Configuration.FolderNames["PartTwo"]}\\0201-Volume 1",
-                "0202" => $"{Configuration.FolderNames["PartTwo"]}\\0201-Volume 2",
-                "0203" => $"{Configuration.FolderNames["PartTwo"]}\\0201-Volume 3",
-                "0204" => $"{Configuration.FolderNames["PartTwo"]}\\0201-Volume 4",
-                "0301" => $"{Configuration.FolderNames["PartThree"]}\\0301-Volume 1",
-                "0302" => $"{Configuration.FolderNames["PartThree"]}\\0302-Volume 2",
-                "0303" => $"{Configuration.FolderNames["PartThree"]}\\0303-Volume 3",
-                "0304" => $"{Configuration.FolderNames["PartThree"]}\\0304-Volume 4",
-                "0305" => $"{Configuration.FolderNames["PartThree"]}\\0305-Volume 5",
-                "0401" => $"{Configuration.FolderNames["PartFour"]}\\0401-Volume 1",
-                "0402" => $"{Configuration.FolderNames["PartFour"]}\\0402-Volume 2",
-                "0403" => $"{Configuration.FolderNames["PartFour"]}\\0403-Volume 3",
-                "0404" => $"{Configuration.FolderNames["PartFour"]}\\0404-Volume 4",
-                "0405" => $"{Configuration.FolderNames["PartFour"]}\\0405-Volume 5",
-                "0406" => $"{Configuration.FolderNames["PartFour"]}\\0406-Volume 6",
-                "0407" => $"{Configuration.FolderNames["PartFour"]}\\0407-Volume 7",
-                "0408" => $"{Configuration.FolderNames["PartFour"]}\\0408-Volume 8",
-                "0409" => $"{Configuration.FolderNames["PartFour"]}\\0409-Volume 9",
-                "0501" => $"{Configuration.FolderNames["PartFive"]}\\0501-Volume 1",
+                "0101" or "0102" or "0103" => $"{Configuration.FolderNames["PartOne"]}\\{Volume}-{getVolumeName()}",
+                "0201" or "0202" or "0203" or "0204" => $"{Configuration.FolderNames["PartTwo"]}\\{Volume}-{getVolumeName()}",
+                "0301" or "0302" or "0303" or "0304" or "0305" => $"{Configuration.FolderNames["PartThree"]}\\{Volume}-{getVolumeName()}",
+                "0401" or "0402" or "0403" or "0404" or "0405" or "0406" or "0407" or "0408" or "0409" => $"{Configuration.FolderNames["PartFour"]}\\{Volume}-{getVolumeName()}",
+                "0501" or "0502" => $"{Configuration.FolderNames["PartFive"]}\\{Volume}-{getVolumeName()}",
+                "FB1" or "FB2" or "FB3" => $"06-Fanbooks",
                 _ => throw new Exception($"GetVolumeSubFolder - {ChapterName}")
+            };
+        }
+
+        protected string getVolumeName()
+        {
+            return Volume switch
+            {
+                "0101" or "0201" or "0301" or "0401" or "0501" => "Volume 1",
+                "0102" or "0202" or "0302" or "0402" or "0502" => "Volume 2",
+                "0103" or "0203" or "0303" or "0403" => "Volume 3",
+                "0204" or "0304" or "0404" => "Volume 4",
+                "0305" or "0405" => "Volume 5",
+                "0406" => "Volume 6",
+                "0407" => "Volume 7",
+                "0408" => "Volume 8",
+                "0409" => "Volume 9",
+                _ => throw new NotImplementedException($"GetVolumeName - {Volume}")
             };
         }
 
         protected virtual string GetFlatSubFolder()
         {
-            return "03-Story";
+            return Volume switch
+            {
+                "FB1" or "FB2" or "FB3" => $"06-Fanbooks",
+                _ => $"03-Story"
+            };
         }
 
         private string GetSeason()
@@ -110,6 +112,7 @@ namespace AOABO.Config
         public bool ProcessedInPartThree { get; set; } = false;
         public bool ProcessedInPartFour { get; set; } = false;
         public bool ProcessedInPartFive { get; set; } = false;
+        public bool ProcessedInFanbooks { get; set; } = false;
         public OCRSettings OCR { get; set; }
 
         public Chapter Copy()
@@ -119,19 +122,14 @@ namespace AOABO.Config
                 OriginalFilenames = OriginalFilenames.ToList(),
                 AltName = AltName,
                 ChapterName = ChapterName,
-                FlatSubfolder = FlatSubfolder,
                 OCR = OCR,
-                OriginalOrder = OriginalOrder,
-                PartsSubfolder = PartsSubfolder,
                 ProcessedInPartFive = ProcessedInPartFive,
                 ProcessedInPartFour = ProcessedInPartFour,
                 ProcessedInPartOne = ProcessedInPartOne,
                 ProcessedInPartThree = ProcessedInPartThree,
                 ProcessedInPartTwo = ProcessedInPartTwo,
                 SortOrder = SortOrder,
-                VolumeSubfolder = VolumeSubfolder,
                 Year = Year,
-                YearsSubfolder = YearsSubfolder
             };
         }
 

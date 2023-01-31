@@ -13,7 +13,8 @@ namespace AOABO.Omnibus
             PartTwo,
             PartThree,
             PartFour,
-            PartFive
+            PartFive,
+            Fanbooks
         }
 
         public static string OverrideDirectory = Directory.GetCurrentDirectory() + "\\Overrides\\";
@@ -31,6 +32,7 @@ namespace AOABO.Omnibus
             Console.WriteLine("3: Part Three (Adopted Daughter of an Archduke)");
             Console.WriteLine("4: Part Four (Founder of the Royal Academy's So-Called Library Committee)");
             Console.WriteLine("5: Part Five (Avatar of a Goddess)");
+            Console.WriteLine("6: Fanbooks");
             var key = Console.ReadKey();
             Console.WriteLine();
             PartToProcess partScope;
@@ -57,6 +59,10 @@ namespace AOABO.Omnibus
                     partScope = PartToProcess.PartFive;
                     bookTitle = "Ascendance of a Bookworm Part 5 - Avatar of a Goddess";
                     break;
+                case '6':
+                    partScope = PartToProcess.Fanbooks;
+                    bookTitle = "Ascendance of a Bookworm Fanbooks";
+                    break;
                 default:
                     partScope = PartToProcess.EntireSeries;
                     bookTitle = "Ascendance of a Bookworm Anthology";
@@ -80,11 +86,12 @@ namespace AOABO.Omnibus
                     var volume = Configuration.Volumes.FirstOrDefault(x => x.InternalName.Equals(vol.InternalName));
                     if (volume == null) continue;
 
-                    if (partScope == PartToProcess.PartOne && !volume.ProcessedInPartOne
-                        || partScope == PartToProcess.PartTwo && !volume.ProcessedInPartTwo
-                        || partScope == PartToProcess.PartThree && !volume.ProcessedInPartThree
-                        || partScope == PartToProcess.PartFour && !volume.ProcessedInPartFour
-                        || partScope == PartToProcess.PartFive && !volume.ProcessedInPartFive) continue;
+                    if ((partScope == PartToProcess.PartOne && !volume.ProcessedInPartOne)
+                        || (partScope == PartToProcess.PartTwo && !volume.ProcessedInPartTwo)
+                        || (partScope == PartToProcess.PartThree && !volume.ProcessedInPartThree)
+                        || (partScope == PartToProcess.PartFour && !volume.ProcessedInPartFour)
+                        || (partScope == PartToProcess.PartFive && !volume.ProcessedInPartFive)
+                        || (partScope == PartToProcess.Fanbooks && !volume.ProcessedInFanbooks)) continue;
 
                     ZipFile.ExtractToDirectory(file, $"inputtemp\\{volume.InternalName}");
                 }
@@ -156,6 +163,9 @@ namespace AOABO.Omnibus
                     case PartToProcess.PartFive:
                         chapters = BuildChapterList(volume, c => c.ProcessedInPartFive);
                         break;
+                    case PartToProcess.Fanbooks:
+                        chapters = BuildChapterList(volume, c => c.ProcessedInFanbooks);
+                        break;
                     default:
                         chapters = BuildChapterList(volume, c => true);
                         break;
@@ -173,9 +183,9 @@ namespace AOABO.Omnibus
                             Contents = string.Empty,
                             CssFiles = new List<string>(),
                             Name = (Configuration.Options.OutputStructure == OutputStructure.Volumes ? chapter.AltName ?? chapter.ChapterName : chapter.ChapterName) + ".xhtml",
-                            SortOrder = chapter.SortOrder,
                             SubFolder = folder.MakeFolder(chapter.GetSubFolder(Configuration.Options.OutputStructure), Configuration.Options.StartYear, chapter.Year ?? 0)
                         };
+                        newChapter.SortOrder = chapter.SortOrder;
                         outProcessor.Chapters.Add(newChapter);
 
 
@@ -296,49 +306,42 @@ namespace AOABO.Omnibus
                     chapters.AddRange(volume.BonusChapters.Where(filter));
                     break;
                 case BonusChapterSetting.EndOfBook:
-                    volume.BonusChapters.ForEach(x => x.UseAlternateSortOrder());
                     chapters.AddRange(volume.BonusChapters.Where(filter));
                     break;
             }
 
             if (Configuration.Options.MangaChapters != BonusChapterSetting.LeaveOut)
             {
-                if (Configuration.Options.MangaChapters == BonusChapterSetting.EndOfBook)
-                {
-                    volume.MangaChapters.ForEach(x => x.UseAlternateSortOrder());
-                }
                 chapters.AddRange(volume.MangaChapters.Where(filter));
             }
 
-            if (Configuration.Options.ComfyLifeChapters != ComfyLifeSetting.None && volume.ComfyLifeChapter != null)
+            if (Configuration.Options.ComfyLifeChapters != ComfyLifeSetting.None && volume.ComfyLifeChapter != null && filter(volume.ComfyLifeChapter))
             {
-                volume.ComfyLifeChapter.SetSortOrder(Configuration.Options.ComfyLifeChapters);
                 chapters.Add(volume.ComfyLifeChapter);
             }
 
-            if ((Configuration.Options.CharacterSheets == CharacterSheets.All) && (volume.CharacterSheet != null))
+            if ((Configuration.Options.CharacterSheets == CharacterSheets.All) && (volume.CharacterSheet != null) && filter(volume.CharacterSheet))
             {
                 chapters.Add(volume.CharacterSheet);
             }
-            
-            if ((Configuration.Options.CharacterSheets == CharacterSheets.PerPart) && (volume.CharacterSheet != null))
+            else if ((Configuration.Options.CharacterSheets == CharacterSheets.PerPart) && (volume.CharacterSheet != null) && volume.CharacterSheet.PartSheet && filter(volume.CharacterSheet))
             {
-                chapters.AddRange(volume.CharacterSheet.PartOnlyChapter());
+                chapters.Add(volume.CharacterSheet);
             }
 
             if (Configuration.Options.Maps)
             {
-                chapters.AddRange(volume.Maps);
+                chapters.AddRange(volume.Maps.Where(filter));
             }
 
             if (volume.Afterword != null && Configuration.Options.AfterwordSetting != AfterwordSetting.None && filter(volume.Afterword))
             {
                 chapters.Add(volume.Afterword);
+            }
 
-                if (Configuration.Options.AfterwordSetting == AfterwordSetting.OmnibusEnd)
-                {
-                    volume.Afterword.EndOfOmnibus();
-                }
+            if(Configuration.Options.Polls && volume.CharacterPoll != null && filter(volume.CharacterPoll))
+            {
+                chapters.Add(volume.CharacterPoll);
             }
 
             return chapters;

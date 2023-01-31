@@ -1,55 +1,52 @@
 [
   {
     "InternalName": "M0101",
-    "ProcessedInPartOne": true,
     "MangaChapters": [
       {
         "OriginalFilenames": [ "151", "152", "153", "154", "155", "156" ],
-        "SortOrder": "010105b",
-        "AlternateSortOrder": "010197a",
+        "EarlySortOrder": "010105b",
+        "LateSortOrder": "010197a",
         "ChapterName": "Myne's Gotten Weird [Tuuli]",
-        "FlatSubfolder": "03-Story",
-        "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
-        "Year": 0,
-        "YearsSubfolder": "03-Story\\[Year]\\2-Autumn",
-        "VolumeSubfolder": "01-Daughter of a Soldier\\0101-Volume 1",
+        "Volume": "0101",
+        "EarlyYear": 0,
+        "EarlySeason": "Autumn",
+        "LateYear": 1,
+        "LateSeason": "Summer",
         "ProcessedInPartOne": true
       }
     ]
   },
   {
     "InternalName": "M0102",
-    "ProcessedInPartOne": true,
     "MangaChapters": [
       {
         "OriginalFilenames": [ "167", "168", "169", "170", "171", "172" ],
-        "SortOrder": "010113b",
-        "AlternateSortOrder": "010197b",
+        "EarlySortOrder": "010113b",
+        "LateSortOrder": "010197b",
         "ChapterName": "Lutz and the Parue Tree [Lutz]",
-        "FlatSubfolder": "03-Story",
-        "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
-        "Year": 0,
-        "YearsSubfolder": "03-Story\\[Year]\\3-Winter",
-        "VolumeSubfolder": "01-Daughter of a Soldier\\0101-Volume 1",
+        "Volume": "0101",
+        "EarlyYear": 0,
+        "EarlySeason": "Winter",
+        "LateYear": 1,
+        "LateSeason": "Summer",
         "ProcessedInPartOne": true
       }
     ]
   },
   {
     "InternalName": "M0103",
-    "ProcessedInPartOne": true,
     "OCR": true,
     "BonusChapters": [
       {
         "OriginalFilenames": [ "184", "185", "186", "187", "188", "189", "190" ],
-        "SortOrder": "010118b",
-        "AlternateSortOrder": "010196c",
+        "EarlySortOrder": "010118b",
+        "LateSortOrder": "010196c",
         "ChapterName": "The Baptism Ceremony and the Hairpin [Freida]",
-        "FlatSubfolder": "03-Story",
-        "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
-        "Year": 1,
-        "YearsSubfolder": "03-Story\\[Year]\\1-Summer",
-        "VolumeSubfolder": "01-Daughter of a Soldier\\0101-Volume 1",
+        "Volume": "0101",
+        "EarlyYear": 1,
+        "EarlySeason": "Summer",
+        "LateYear": 1,
+        "LateSeason": "Summer",
         "ProcessedInPartOne": true,
         "OCR": {
           "Corrections": [
@@ -82,19 +79,18 @@
   },
   {
     "InternalName": "M0104",
-    "ProcessedInPartOne": true,
     "OCR": true,
     "BonusChapters": [
       {
         "OriginalFilenames": [ "166", "167", "168", "169", "170", "171", "172", "173" ],
-        "SortOrder": "010206b",
-        "AlternateSortOrder": "010296c",
+        "EarlySortOrder": "010206b",
+        "LateSortOrder": "010296c",
         "ChapterName": "Zeg the Apprentice Craftsman [Zeg]",
-        "FlatSubfolder": "03-Story",
-        "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
-        "Year": 1,
-        "YearsSubfolder": "03-Story\\[Year]\\1-Summer",
-        "VolumeSubfolder": "01-Daughter of a Soldier\\0102-Volume 2",
+        "Volume": "0102",
+        "EarlyYear": 1,
+        "EarlySeason": "Summer",
+        "LateYear": 1,
+        "LateSeason": "Autumn",
         "ProcessedInPartOne": true,
         "OCR": {
           "Corrections": [
@@ -127,19 +123,18 @@
   },
   {
     "InternalName": "M0105",
-    "ProcessedInPartOne": true,
     "OCR": true,
     "BonusChapters": [
       {
         "OriginalFilenames": [ "176", "177", "178", "179", "180", "181", "182", "183", "184", "185" ],
-        "SortOrder": "010218b",
-        "AlternateSortOrder": "010296d",
+        "EarlySortOrder": "010218b",
+        "LateSortOrder": "010296d",
         "ChapterName": "Hairpins and the Meeting of Stores [Benno]",
-        "FlatSubfolder": "03-Story",
-        "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
-        "Year": 1,
-        "YearsSubfolder": "03-Story\\[Year]\\2-Autumn",
-        "VolumeSubfolder": "01-Daughter of a Soldier\\0102-Volume 2",
+        "Volume": "0102",
+        "EarlyYear": 1,
+        "EarlySeason": "Autumn",
+        "LateYear": 1,
+        "LateSeason": "Autumn",
         "ProcessedInPartOne": true,
         "OCR": {
           "Corrections": [
@@ -180,33 +175,32 @@
   },
   {
     "InternalName": "M0106",
-    "ProcessedInPartOne": true,
     "OCR": true,
     "MangaChapters": [
       {
         "OriginalFilenames": [ "171", "172", "173", "174", "175", "176", "177", "178", "180" ],
-        "SortOrder": "010314b",
-        "AlternateSortOrder": "010397a",
+        "EarlySortOrder": "010314b",
+        "LateSortOrder": "010397a",
         "ChapterName": "Some Time in the Woods [Benno]",
-        "FlatSubfolder": "03-Story",
-        "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
-        "Year": 1,
-        "YearsSubfolder": "03-Story\\[Year]\\4-Spring",
-        "VolumeSubfolder": "01-Daughter of a Soldier\\0103-Volume 3",
+        "Volume": "0103",
+        "EarlyYear": 1,
+        "EarlySeason": "Spring",
+        "LateYear": 2,
+        "LateSeason": "Summer",
         "ProcessedInPartOne": true
       }
     ],
     "BonusChapters": [
       {
         "OriginalFilenames": [ "182", "183", "184", "185", "186", "187", "188", "189" ],
-        "SortOrder": "010315b",
-        "AlternateSortOrder": "010396g",
+        "EarlySortOrder": "010315b",
+        "LateSortOrder": "010396g",
         "ChapterName": "A Long-Awaited Reunion [Freida]",
-        "FlatSubfolder": "03-Story",
-        "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
-        "Year": 1,
-        "YearsSubfolder": "03-Story\\[Year]\\4-Spring",
-        "VolumeSubfolder": "01-Daughter of a Soldier\\0103-Volume 3",
+        "Volume": "0103",
+        "EarlyYear": 1,
+        "EarlySeason": "Spring",
+        "LateYear": 2,
+        "LateSeason": "Summer",
         "ProcessedInPartOne": true,
         "OCR": {
           "Corrections": [
@@ -251,19 +245,18 @@
   },
   {
     "InternalName": "M0107",
-    "ProcessedInPartOne": true,
     "OCR": true,
     "BonusChapters": [
       {
         "OriginalFilenames": [ "210", "211", "212", "213", "214", "215", "216", "217", "218", "219", "220", "221" ],
-        "SortOrder": "010325d",
-        "AlternateSortOrder": "010396h",
+        "EarlySortOrder": "010325d",
+        "LateSortOrder": "010396h",
         "ChapterName": "As the Gilberta Company's Successor [Corinna]",
-        "FlatSubfolder": "03-Story",
-        "PartsSubfolder": "01-Daughter of a Soldier\\03-Story",
-        "Year": 2,
-        "YearsSubfolder": "03-Story\\[Year]\\1-Summer",
-        "VolumeSubfolder": "01-Daughter of a Soldier\\0103-Volume 3",
+        "Volume": "0103",
+        "EarlyYear": 2,
+        "EarlySeason": "Summer",
+        "LateYear": 2,
+        "LateSeason": "Summer",
         "ProcessedInPartOne": true,
         "OCR": {
           "Corrections": [

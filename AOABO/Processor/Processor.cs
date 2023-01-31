@@ -74,27 +74,28 @@ namespace AOABO.Processor
 
                 if (!string.IsNullOrWhiteSpace(chapter.SubFolder))
                 {
-                    var li = fileName.LastIndexOf('\\');
+                    var li = chapter.SubFolder.LastIndexOf('\\');
                     if(li > 0)
                     {
-                        var subdir = fileName.Substring(0, fileName.LastIndexOf('\\'));
-                        cssLink = subdir.Split('\\').Aggregate(string.Empty, (agg, str) => string.Concat(agg, "../"));
-                        imFolderReplace = subdir.Split('\\').Aggregate("images", (agg, str) => string.Concat("../", agg));
+                        var subdir = chapter.SubFolder;
+                        cssLink = subdir.Split('\\').Aggregate("../", (agg, str) => string.Concat(agg, "../"));
+                        imFolderReplace = subdir.Split('\\').Aggregate("../images", (agg, str) => string.Concat("../", agg));
                         Directory.CreateDirectory($"{folder}\\oebps\\Text\\{subdir}");
                     }
                     else
                     {
                         cssLink = "../";
-                        imFolderReplace = "../images";
-                        Directory.CreateDirectory($"{folder}\\oebps\\Text\\");
+                        imFolderReplace = "../../images";
+                        Directory.CreateDirectory($"{folder}\\oebps\\Text\\{chapter.SubFolder}");
                     }
                 }
                 else
                 {
-                    imFolderReplace = "images";
+                    imFolderReplace = "../images";
                 }
 
-                var fullFileName = $"{folder}\\oebps\\Text\\{fileName}";
+                var a = humanReadable ? chapter.SubFolder + "\\" : string.Empty;
+                var fullFileName = $"{folder}\\oebps\\Text\\{(a + fileName)}";
 
                 while (File.Exists(fullFileName))
                 {
@@ -123,7 +124,7 @@ namespace AOABO.Processor
                         var np = nps.FirstOrDefault(x => x.Label.Equals(folderName));
                         if (np == null)
                         {
-                            np = new NavPoint { Label = folderName, Source = Uri.EscapeUriString($"Text/{fileName}".Replace('\\', '/').Replace(":", "").Replace(" ", "")), Id = tocCounter };
+                            np = new NavPoint { Label = folderName, Source = Uri.EscapeUriString($"Text/{(a + fileName)}".Replace('\\', '/').Replace(":", "").Replace(" ", "")), Id = tocCounter };
                             tocCounter++;
                             nps.Add(np);
                         }
@@ -140,7 +141,7 @@ namespace AOABO.Processor
                     chapter.Contents = chapter.Contents.Replace("[ImageFolder]", imFolderReplace);
                 }
 
-                nps.Add(new NavPoint { Label = chapter.Name, Source = Uri.EscapeUriString($"Text/{fileName}".Replace('\\', '/').Replace(":", "").Replace(" ", "")), Id = tocCounter });
+                nps.Add(new NavPoint { Label = chapter.Name, Source = Uri.EscapeUriString($"Text/{(a + fileName)}".Replace('\\', '/').Replace(":", "").Replace(" ", "")), Id = tocCounter });
                 tocCounter++;
 
 
@@ -151,7 +152,7 @@ namespace AOABO.Processor
     <meta http-equiv={"\""}Content-Type{"\""} content={"\""}text/html; charset=utf-8{"\""} />
   <link rel={"\""}stylesheet{"\""} type={"\""}text/css{"\""} href={"\""}{cssLink}css.css{"\""} />
 </head>{ chapter.Contents}</html>");
-                manifest.Add($"    <item id={"\""}id{Chapters.IndexOf(chapter)}{"\""} href={"\""}Text/{fileName.Replace('\\', '/').Replace(":", "").Replace(" ", "")}{"\""} media-type={"\""}application/xhtml+xml{"\""}/>");
+                manifest.Add($"    <item id={"\""}id{Chapters.IndexOf(chapter)}{"\""} href={"\""}Text/{(a + fileName).Replace('\\', '/').Replace(":", "").Replace(" ", "")}{"\""} media-type={"\""}application/xhtml+xml{"\""}/>");
                 spine.Add($"    <itemref idref={"\""}id{Chapters.IndexOf(chapter)}{"\""}/>");
             }
 

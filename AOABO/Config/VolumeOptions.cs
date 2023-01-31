@@ -86,6 +86,10 @@ namespace AOABO.Config
             {
                 ChapterImages = EnumParse<GallerySetting>(split[14]);
             }
+            if (split.Length > 15)
+            {
+                Polls = bool.Parse(split[15]);
+            }
         }
 
         private T EnumParse<T>(string str) where T : Enum
@@ -98,7 +102,7 @@ namespace AOABO.Config
             return $"{UpdateChapterNames}\r\n{BonusChapterSetting}\r\n{OutputStructure}\r\n{StartYear}\r\n{OutputYearFormat}" +
                 $"\r\n{AfterwordSetting}\r\n{IncludeRegularChapters}\r\n{IncludeImagesInChapters}" +
                 $"\r\n{UseHumanReadableFileStructure}\r\n{MangaChapters}\r\n{ComfyLifeChapters}\r\n" +
-                $"{CharacterSheets}\r\n{Maps}\r\n{SplashImages}\r\n{ChapterImages}";
+                $"{CharacterSheets}\r\n{Maps}\r\n{SplashImages}\r\n{ChapterImages}\r\n{Polls}";
         }
 
         public bool UpdateChapterNames { get; set; } = false;
@@ -115,7 +119,9 @@ namespace AOABO.Config
         public CharacterSheets CharacterSheets { get; set; } = CharacterSheets.PerPart;
         public GallerySetting SplashImages { get; set; } = GallerySetting.Start;
         public GallerySetting ChapterImages { get; set; } = GallerySetting.None;
-        public bool Maps { get; set; } = false;
+        public bool Maps { get; set; } = true;
+        public bool Polls { get; set; } = true;
+
     }
     public enum BonusChapterSetting
     {

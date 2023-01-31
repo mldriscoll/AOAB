@@ -1,19 +1,18 @@
 [
   {
     "InternalName": "M0201",
-    "ProcessedInPartTwo": true,
     "OCR": true,
     "BonusChapters": [
       {
         "OriginalFilenames": [ "186", "187", "188", "189", "190", "191", "192", "193", "194", "195" ],
-        "SortOrder": "020105b",
-        "AlternateSortOrder": "020196c",
+        "EarlySortOrder": "020105b",
+        "LateSortOrder": "020196c",
         "ChapterName": "Fran and the Commoner Apprentice Shrine Maiden [Zahm]",
-        "FlatSubfolder": "03-Story",
-        "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
-        "Year": 2,
-        "YearsSubfolder": "03-Story\\[Year]\\1-Summer",
-        "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0201-Volume 1",
+        "EarlyYear": 2,
+        "LateYear": 2,
+        "EarlySeason": "Summer",
+        "LateSeason": "Summer",
+        "Volume": "0201",
         "ProcessedInPartTwo": true,
         "OCR": {
           "Corrections": [
@@ -63,20 +62,19 @@
   },
   {
     "InternalName": "M0202",
-    "ProcessedInPartTwo": true,
     "OCR": true,
     "BonusChapters": [
       {
         "OriginalFilenames": [ "170", "171", "172", "173", "174", "175", "176", "177" ],
-        "SortOrder": "020113b",
-        "AlternateSortOrder": "020196d",
+        "EarlySortOrder": "020113b",
+        "LateSortOrder": "020196d",
         "ChapterName": "The Other Side of the Orphanage Incident [Ferdinand]",
-        "FlatSubfolder": "03-Story",
-        "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
-        "Year": 2,
-        "YearsSubfolder": "03-Story\\[Year]\\1-Summer",
-        "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0201-Volume 1",
+        "EarlyYear": 2,
+        "LateYear": 2,
+        "EarlySeason": "Summer",
+        "LateSeason": "Summer",
         "ProcessedInPartTwo": true,
+        "Volume": "0201",
         "OCR": {
           "Corrections": [
             {
@@ -132,47 +130,46 @@
     "MangaChapters": [
       {
         "OriginalFilenames": [ "161", "162", "163", "164", "165", "166", "167", "168" ],
-        "SortOrder": "020114b",
-        "AlternateSortOrder": "020197a",
+        "EarlySortOrder": "020114b",
+        "LateSortOrder": "020197a",
         "ChapterName": "Sister Myne and Me [Fran]",
-        "FlatSubfolder": "03-Story",
-        "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
-        "Year": 2,
-        "YearsSubfolder": "03-Story\\[Year]\\1-Summer",
-        "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0201-Volume 1",
+        "EarlyYear": 2,
+        "LateYear": 2,
+        "EarlySeason": "Summer",
+        "LateSeason": "Summer",
+        "Volume": "0201",
         "ProcessedInPartTwo": true
       }
     ]
   },
   {
     "InternalName": "M0203",
-    "ProcessedInPartTwo": true,
     "OCR": true,
     "MangaChapters": [
       {
         "OriginalFilenames": [ "163", "164", "165", "166", "167", "168", "169", "170" ],
-        "SortOrder": "020118b",
-        "AlternateSortOrder": "020197b",
+        "EarlySortOrder": "020118b",
+        "LateSortOrder": "020197b",
         "ChapterName": "Ordering Ceremonial Robes [Manga]",
-        "FlatSubfolder": "03-Story",
-        "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
-        "Year": 2,
-        "YearsSubfolder": "03-Story\\[Year]\\1-Summer",
-        "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0201-Volume 1",
+        "EarlyYear": 2,
+        "LateYear": 2,
+        "EarlySeason": "Summer",
+        "LateSeason": "Summer",
+        "Volume": "0201",
         "ProcessedInPartTwo": true
       }
     ],
     "BonusChapters": [
       {
         "OriginalFilenames": [ "172", "173", "174", "175", "176", "177", "178", "179" ],
-        "SortOrder": "020119b",
-        "AlternateSortOrder": "020196e",
+        "EarlySortOrder": "020119b",
+        "LateSortOrder": "020196e",
         "ChapterName": "Gathering Taues [Rico]",
-        "FlatSubfolder": "03-Story",
-        "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
-        "Year": 2,
-        "YearsSubfolder": "03-Story\\[Year]\\1-Summer",
-        "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0201-Volume 1",
+        "EarlyYear": 2,
+        "LateYear": 2,
+        "EarlySeason": "Summer",
+        "LateSeason": "Summer",
+        "Volume": "0201",
         "ProcessedInPartTwo": true,
         "OCR": {
           "Corrections": [
@@ -229,19 +226,18 @@
   },
   {
     "InternalName": "M0204",
-    "ProcessedInPartTwo": true,
     "OCR": true,
     "BonusChapters": [
       {
         "OriginalFilenames": [ "158", "159", "160", "161", "162", "163", "164", "165" ],
-        "SortOrder": "020122b",
-        "AlternateSortOrder": "020196f",
+        "EarlySortOrder": "020122b",
+        "LateSortOrder": "020196f",
         "ChapterName": "This Thing Called Family [Gil]",
-        "FlatSubfolder": "03-Story",
-        "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
-        "Year": 2,
-        "YearsSubfolder": "03-Story\\[Year]\\1-Summer",
-        "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0201-Volume 1",
+        "EarlyYear": 2,
+        "LateYear": 2,
+        "EarlySeason": "Summer",
+        "LateSeason": "Summer",
+        "Volume": "0201",
         "ProcessedInPartTwo": true,
         "OCR": {
           "Corrections": [
@@ -278,19 +274,18 @@
   },
   {
     "InternalName": "M0205",
-    "ProcessedInPartTwo": true,
     "OCR": true,
     "BonusChapters": [
       {
         "OriginalFilenames": [ "170", "171", "172", "173", "174", "175", "176", "177", "178" ],
-        "SortOrder": "020210b",
-        "AlternateSortOrder": "020296c",
+        "EarlySortOrder": "020210b",
+        "LateSortOrder": "020296c",
         "ChapterName": "Preparing for the Baby [Tuuli]",
-        "FlatSubfolder": "03-Story",
-        "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
-        "Year": 2,
-        "YearsSubfolder": "03-Story\\[Year]\\2-Autumn",
-        "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0202-Volume 2",
+        "Volume": "0202",
+        "EarlyYear": 2,
+        "LateYear": 2,
+        "EarlySeason": "Autumn",
+        "LateSeason": "Autumn",
         "ProcessedInPartTwo": true,
         "OCR": {
           "Corrections": [
@@ -363,19 +358,18 @@
   },
   {
     "InternalName": "M0206",
-    "ProcessedInPartTwo": true,
     "OCR": true,
     "BonusChapters": [
       {
         "OriginalFilenames": [ "180", "181", "182", "183", "184", "185", "186", "187", "188", "189" ],
-        "SortOrder": "020214b",
-        "AlternateSortOrder": "020296d",
+        "EarlySortOrder": "020214b",
+        "LateSortOrder": "020296d",
         "ChapterName": "Books and Karuta [Delia]",
-        "FlatSubfolder": "03-Story",
-        "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
-        "Year": 2,
-        "YearsSubfolder": "03-Story\\[Year]\\2-Autumn",
-        "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0202-Volume 2",
+        "Volume": "0202",
+        "EarlyYear": 2,
+        "LateYear": 2,
+        "EarlySeason": "Autumn",
+        "LateSeason": "Autumn",
         "ProcessedInPartTwo": true,
         "OCR": {
           "Corrections": [
@@ -445,27 +439,21 @@
       "OriginalFilenames": [ "192", "193" ],
       "SortOrder": "020298b",
       "ChapterName": "Comfy Life M206",
-      "FlatSubfolder": "03-Story",
-      "PartsSubfolder": "02-Apprentice Shrine Maiden\\03-Story",
+      "Volume": "0202",
       "Year": 2,
-      "YearsSubfolder": "03-Story\\[Year]\\2-Autumn",
-      "VolumeSubfolder": "02-Apprentice Shrine Maiden\\0202-Volume 2",
+      "Season": "Autumn",
       "ProcessedInPartTwo": true
     },
-    "Chapters": [
-
+    "Maps": [
       {
         "OriginalFilenames": [ "003", "002" ],
         "SortOrder": "03",
         "ChapterName": "Ehrenfest Temple",
-        "FlatSubfolder": "05-Maps",
-        "PartsSubfolder": "10-Maps",
-        "YearsSubfolder": "05-Maps",
-        "VolumeSubfolder": "05-Maps",
         "ProcessedInPartTwo": true,
         "ProcessedInPartThree": true,
         "ProcessedInPartFour": true,
-        "ProcessedInPartFive": true
+        "ProcessedInPartFive": true,
+        "ProcessedInFanbooks": true
       }
     ]
   }
