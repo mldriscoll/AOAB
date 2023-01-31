@@ -104,8 +104,9 @@ namespace AOABO.Config
                     return "02-Autumn";
                 case "Winter":
                     return "03-Winter";
+                default:
+                    return "00-Unknown";
             }
-            return string.Empty;
         }
         public bool ProcessedInPartOne { get; set; } = false;
         public bool ProcessedInPartTwo { get; set; } = false;
