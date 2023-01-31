@@ -1,0 +1,460 @@
+[
+  {
+    "InternalName": "M0201",
+    "OCR": true,
+    "BonusChapters": [
+      {
+        "OriginalFilenames": [ "186", "187", "188", "189", "190", "191", "192", "193", "194", "195" ],
+        "EarlySortOrder": "020105b",
+        "LateSortOrder": "020196c",
+        "ChapterName": "Fran and the Commoner Apprentice Shrine Maiden [Zahm]",
+        "EarlyYear": 2,
+        "LateYear": 2,
+        "EarlySeason": "Summer",
+        "LateSeason": "Summer",
+        "Volume": "0201",
+        "ProcessedInPartTwo": true,
+        "OCR": {
+          "Corrections": [
+            {
+              "Original": "Priest’s </p>\r\n<p>“It has been decided that Fran shall become the head chambers. attendant",
+              "Replacement": "Priest’s chambers. “It has been decided that Fran shall become the head attendant"
+            },
+            {
+              "Original": "herselfto",
+              "Replacement": "herself to"
+            },
+            {
+              "Original": "Justfrom walking... ?",
+              "Replacement": "Just from walking...?"
+            },
+            {
+              "Original": "<p>Apprentice Blue Shrine Maiden </p>\r\n",
+              "Replacement": ""
+            },
+            {
+              "Original": "<p> </p>\r\n",
+              "Replacement": ""
+            }
+          ],
+          "Header": "Fran and the Commoner Apprentice Blue Shrine Maiden",
+          "Italics": [
+            {
+              "Start": "Fran, why are",
+              "End": "happening here."
+            },
+            {
+              "Start": "Collapse?",
+              "End": "walking...?"
+            },
+            {
+              "Start": "Perhaps this",
+              "End": "temper again?"
+            },
+            {
+              "Start": "However...",
+              "End": "However..."
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "InternalName": "M0202",
+    "OCR": true,
+    "BonusChapters": [
+      {
+        "OriginalFilenames": [ "170", "171", "172", "173", "174", "175", "176", "177" ],
+        "EarlySortOrder": "020113b",
+        "LateSortOrder": "020196d",
+        "ChapterName": "The Other Side of the Orphanage Incident [Ferdinand]",
+        "EarlyYear": 2,
+        "LateYear": 2,
+        "EarlySeason": "Summer",
+        "LateSeason": "Summer",
+        "ProcessedInPartTwo": true,
+        "Volume": "0201",
+        "OCR": {
+          "Corrections": [
+            {
+              "Original": " ofa ",
+              "Replacement": " of a "
+            },
+            {
+              "Original": "my work that is,",
+              "Replacement": "my work—that is,"
+            },
+            {
+              "Original": "girls'",
+              "Replacement": "girls’"
+            },
+            {
+              "Original": "look around and think.",
+              "Replacement": "look around and <i>think</i>."
+            }
+          ],
+          "Italics": [
+            {
+              "Start": "That said, Myne is",
+              "End": "useful than I expected."
+            },
+            {
+              "Start": "If this goes well, Sylvester",
+              "End": "Bishop’s power in the temple."
+            },
+            {
+              "Start": "It is not something",
+              "End": "situation is nothing rare."
+            },
+            {
+              "Start": "Hm... From",
+              "End": "information leak?"
+            },
+            {
+              "Start": "I suppose I will need",
+              "End": "woman is present."
+            },
+            {
+              "Start": "My head aches...",
+              "End": "My head aches..."
+            },
+            {
+              "Start": "I can only imagine",
+              "End": "caring about Myne’s request."
+            }
+          ]
+        }
+      }
+    ],
+    "MangaChapters": [
+      {
+        "OriginalFilenames": [ "161", "162", "163", "164", "165", "166", "167", "168" ],
+        "EarlySortOrder": "020114b",
+        "LateSortOrder": "020197a",
+        "ChapterName": "Sister Myne and Me [Fran]",
+        "EarlyYear": 2,
+        "LateYear": 2,
+        "EarlySeason": "Summer",
+        "LateSeason": "Summer",
+        "Volume": "0201",
+        "ProcessedInPartTwo": true
+      }
+    ]
+  },
+  {
+    "InternalName": "M0203",
+    "OCR": true,
+    "MangaChapters": [
+      {
+        "OriginalFilenames": [ "163", "164", "165", "166", "167", "168", "169", "170" ],
+        "EarlySortOrder": "020118b",
+        "LateSortOrder": "020197b",
+        "ChapterName": "Ordering Ceremonial Robes [Manga]",
+        "EarlyYear": 2,
+        "LateYear": 2,
+        "EarlySeason": "Summer",
+        "LateSeason": "Summer",
+        "Volume": "0201",
+        "ProcessedInPartTwo": true
+      }
+    ],
+    "BonusChapters": [
+      {
+        "OriginalFilenames": [ "172", "173", "174", "175", "176", "177", "178", "179" ],
+        "EarlySortOrder": "020119b",
+        "LateSortOrder": "020196e",
+        "ChapterName": "Gathering Taues [Rico]",
+        "EarlyYear": 2,
+        "LateYear": 2,
+        "EarlySeason": "Summer",
+        "LateSeason": "Summer",
+        "Volume": "0201",
+        "ProcessedInPartTwo": true,
+        "OCR": {
+          "Corrections": [
+            {
+              "Original": "'cause",
+              "Replacement": "’cause"
+            },
+            {
+              "Original": "oftaues",
+              "Replacement": "of taues"
+            },
+            {
+              "Original": "'cramped'",
+              "Replacement": "‘cramped’"
+            },
+            {
+              "Original": "Ere..",
+              "Replacement": "Er..."
+            },
+            {
+              "Original": "<p>We arrived in the forest to find",
+              "Replacement": "<br />\r\n<p>We arrived in the forest to find"
+            },
+            {
+              "Original": "\"Don’t let Tuuli beat </p>\r\n<br />",
+              "Replacement": "“Don’t let Tuuli beat us!”</p>"
+            },
+            {
+              "Original": "7hough",
+              "Replacement": "Though"
+            }
+          ],
+          "Italics": [
+            {
+              "Start": "I need to grab a ton",
+              "End": "For Sister Myne too."
+            },
+            {
+              "Start": "Though the main reason",
+              "End": "to sleep on the floor."
+            },
+            {
+              "Start": "I hope we can go",
+              "End": "together someday..."
+            },
+            {
+              "Start": "It was because of Sister Myne’s",
+              "End": "the forest with us one day..."
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "InternalName": "M0204",
+    "OCR": true,
+    "BonusChapters": [
+      {
+        "OriginalFilenames": [ "158", "159", "160", "161", "162", "163", "164", "165" ],
+        "EarlySortOrder": "020122b",
+        "LateSortOrder": "020196f",
+        "ChapterName": "This Thing Called Family [Gil]",
+        "EarlyYear": 2,
+        "LateYear": 2,
+        "EarlySeason": "Summer",
+        "LateSeason": "Summer",
+        "Volume": "0201",
+        "ProcessedInPartTwo": true,
+        "OCR": {
+          "Corrections": [
+            {
+              "Original": "'cause",
+              "Replacement": "’cause"
+            },
+            {
+              "Original": "girls'",
+              "Replacement": "girls’"
+            }
+          ],
+          "Italics": [
+            {
+              "Start": "Is this like how I",
+              "End": "to the repentance chamber...?"
+            },
+            {
+              "Start": "Plus, this means Lutz trusts me.",
+              "End": "Plus, this means Lutz trusts me."
+            },
+            {
+              "Start": "Are families that important to people?",
+              "End": "Are families that important to people?"
+            },
+            {
+              "Start": "Oh yeah. Here",
+              "End": "work among ourselves."
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "InternalName": "M0205",
+    "OCR": true,
+    "BonusChapters": [
+      {
+        "OriginalFilenames": [ "170", "171", "172", "173", "174", "175", "176", "177", "178" ],
+        "EarlySortOrder": "020210b",
+        "LateSortOrder": "020296c",
+        "ChapterName": "Preparing for the Baby [Tuuli]",
+        "Volume": "0202",
+        "EarlyYear": 2,
+        "LateYear": 2,
+        "EarlySeason": "Autumn",
+        "LateSeason": "Autumn",
+        "ProcessedInPartTwo": true,
+        "OCR": {
+          "Corrections": [
+            {
+              "Original": "“Oh well...” </p>\r\n<p>I replied",
+              "Replacement": "“Oh well...” I replied"
+            },
+            {
+              "Original": "ofher",
+              "Replacement": "of her"
+            },
+            {
+              "Original": "over and over and over",
+              "Replacement": "over and over <i>and over</i>"
+            },
+            {
+              "Original": "never even seen a book.",
+              "Replacement": "never even <i>seen</i> a book."
+            },
+            {
+              "Original": "Those were book substitutes!",
+              "Replacement": "Those were book <i>substitutes</i>!"
+            },
+            {
+              "Original": "Then she got Wilma",
+              "Replacement": "<i>Then</i> she got Wilma"
+            },
+            {
+              "Original": "be able to find someone, right?",
+              "Replacement": "be able to find <i>someone</i>, right?"
+            },
+            {
+              "Original": "\"That way, she could",
+              "Replacement": "“That way, she could—”"
+            },
+            {
+              "Original": "remember what you said when",
+              "Replacement": "remember what <i>you</i> said when"
+            },
+            {
+              "Original": "'“Hopefully the baby is strong and healthy.”'",
+              "Replacement": "“‘Hopefully the baby is strong and healthy.’”"
+            },
+            {
+              "Original": "'Do you really think we’ll keep you here if you won’t even help out around the house?”'",
+              "Replacement": "‘Do you really think we’ll keep you here if you won’t even help out around the house?’”"
+            },
+            {
+              "Original": "\"People",
+              "Replacement": "“People"
+            },
+            {
+              "Original": "much.\"",
+              "Replacement": "much.”"
+            }
+          ],
+          "Italics": [
+            {
+              "Start": "At this rate, we",
+              "End": "make her change her mind!"
+            },
+            {
+              "Start": "Mom tells them every",
+              "End": "humanatee on your own..."
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "InternalName": "M0206",
+    "OCR": true,
+    "BonusChapters": [
+      {
+        "OriginalFilenames": [ "180", "181", "182", "183", "184", "185", "186", "187", "188", "189" ],
+        "EarlySortOrder": "020214b",
+        "LateSortOrder": "020296d",
+        "ChapterName": "Books and Karuta [Delia]",
+        "Volume": "0202",
+        "EarlyYear": 2,
+        "LateYear": 2,
+        "EarlySeason": "Autumn",
+        "LateSeason": "Autumn",
+        "ProcessedInPartTwo": true,
+        "OCR": {
+          "Corrections": [
+            {
+              "Original": "Tais",
+              "Replacement": "This"
+            },
+            {
+              "Original": "boys'",
+              "Replacement": "boys’"
+            },
+            {
+              "Original": "'long,' I think. Oh, and this here is 'time,'",
+              "Replacement": "‘long,’ I think. Oh, and this here is ‘time,’"
+            },
+            {
+              "Original": "Wait, can you read it?",
+              "Replacement": "Wait, can <i>you</i> read it?"
+            }
+          ],
+          "Italics": [
+            {
+              "Start": "So those are what",
+              "End": "been making..."
+            },
+            {
+              "Start": "It’s standard procedure",
+              "End": "before I can serve it."
+            },
+            {
+              "Start": "This sucks...",
+              "End": "This sucks..."
+            },
+            {
+              "Start": "I know it can’t be",
+              "End": "I could write, but still..."
+            },
+            {
+              "Start": "Because, I mean, I’m",
+              "End": "get any extra jobs."
+            },
+            {
+              "Start": "If I could go",
+              "End": "At least a little."
+            },
+            {
+              "Start": "It’s a shame because",
+              "End": "intelligence I gathered there."
+            },
+            {
+              "Start": "Plus, I don’t need",
+              "End": "I don’t have any reason to go there."
+            },
+            {
+              "Start": "I’m the first one",
+              "End": "She wants my thoughts."
+            },
+            {
+              "Start": "A whole day will",
+              "End": "read it all, surely."
+            }
+          ]
+        }
+      }
+    ],
+    "ComfyLifeChapter": {
+      "OriginalFilenames": [ "192", "193" ],
+      "SortOrder": "020298b",
+      "ChapterName": "Comfy Life M206",
+      "Volume": "0202",
+      "Year": 2,
+      "Season": "Autumn",
+      "ProcessedInPartTwo": true
+    },
+    "Maps": [
+      {
+        "OriginalFilenames": [ "003", "002" ],
+        "SortOrder": "03",
+        "ChapterName": "Ehrenfest Temple",
+        "ProcessedInPartTwo": true,
+        "ProcessedInPartThree": true,
+        "ProcessedInPartFour": true,
+        "ProcessedInPartFive": true,
+        "ProcessedInFanbooks": true
+      }
+    ]
+  }
+]

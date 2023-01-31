@@ -1,0 +1,542 @@
+[
+  {
+    "InternalName": "LN0501",
+    "Gallery": {
+      "SplashImages": [ "bonus2", "bonus1" ],
+      "ChapterImages": [ "insert1", "insert2", "insert3", "insert4", "insert5", "insert6", "insert7", "insert8", "insert9", "insert10" ],
+      "EarlySortOrder": "0501",
+      "LateSortOrder": "050199",
+      "ChapterName": "LN501",
+      "AltName": "Volume 1",
+      "Volume": "0501",
+      "EarlyYear": 8,
+      "EarlySeason": "Winter",
+      "LateYear": 8,
+      "LateSeason": "Winter",
+      "ProcessedInPartFive": true
+    },
+    "BonusChapters": [
+      {
+        "OriginalFilenames": [ "chapter22" ],
+        "EarlySortOrder": "050120b",
+        "LateSortOrder": "050196a",
+        "ChapterName": "Fantasy versus Reality [Muriella]",
+        "Volume": "0501",
+        "EarlyYear": 8,
+        "EarlySeason": "Winter",
+        "LateYear": 8,
+        "LateSeason": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter23" ],
+        "EarlySortOrder": "050104b",
+        "LateSortOrder": "050196b",
+        "ChapterName": "Finding Purpose and the Guardians of Knowledge [Hortensia]",
+        "Volume": "0501",
+        "EarlyYear": 8,
+        "EarlySeason": "Winter",
+        "LateYear": 8,
+        "LateSeason": "Winter",
+        "ProcessedInPartFive": true
+      }
+    ],
+    "ComfyLifeChapter": {
+      "OriginalFilenames": [ "manga1", "manga2" ],
+      "SortOrder": "050198",
+      "ChapterName": "Comfy Life 501",
+      "Volume": "0501",
+      "Year": 8,
+      "Season": "Winter",
+      "ProcessedInPartFive": true
+    },
+    "Chapters": [
+      {
+        "OriginalFilenames": [ "prologue", "insert1", "prologue_1" ],
+        "SortOrder": "050100",
+        "ChapterName": "Prologue [Hildebrand]",
+        "Volume": "0501",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter1" ],
+        "SortOrder": "050101",
+        "ChapterName": "The Children of the Former Veronica Faction",
+        "Volume": "0501",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter2" ],
+        "SortOrder": "050102",
+        "ChapterName": "The Fellowship Gatherings",
+        "Volume": "0501",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [
+          "chapter3",
+          "insert2",
+          "chapter3_1"
+        ],
+        "SortOrder": "050103",
+        "ChapterName": "Passing Classes",
+        "Volume": "0501",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [
+          "chapter4",
+          "insert3",
+          "chapter4_1"
+        ],
+        "SortOrder": "050104a",
+        "ChapterName": "The New Librarian",
+        "Volume": "0501",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter5" ],
+        "SortOrder": "050105",
+        "ChapterName": "Practical: Divine Protections of the Gods",
+        "Volume": "0501",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter6" ],
+        "SortOrder": "050106",
+        "ChapterName": "Music and Everyone's Rituals",
+        "Volume": "0501",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [
+          "chapter7",
+          "insert4",
+          "chapter7_1"
+        ],
+        "SortOrder": "050107",
+        "ChapterName": "Discussing Divine Protections with Hirschur",
+        "Volume": "0501",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [
+          "chapter8"
+        ],
+        "SortOrder": "050108",
+        "ChapterName": "Beginning the Archduke Candidate Course",
+        "Volume": "0501",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [
+          "chapter9"
+        ],
+        "SortOrder": "050109",
+        "ChapterName": "Dedication Whirling (Third Year)",
+        "Volume": "0501",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [
+          "chapter10",
+          "insert5",
+          "chapter10_1"
+        ],
+        "SortOrder": "050110",
+        "ChapterName": "Hirschur's Meeting with the Aub",
+        "Volume": "0501",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter11" ],
+        "SortOrder": "050111",
+        "ChapterName": "Researching Rituals and an Update on the Purge",
+        "Volume": "0501",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter12" ],
+        "SortOrder": "050112",
+        "ChapterName": "Finishing the Archduke Candidate Lessons",
+        "Volume": "0501",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter13" ],
+        "SortOrder": "050113",
+        "ChapterName": "Passing Professor Gundolf's Classes",
+        "Volume": "0501",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [
+          "chapter14",
+          "insert6",
+          "chapter14_1"
+        ],
+        "SortOrder": "050114",
+        "ChapterName": "Gretia's Circumstances and Gathering Ingredients",
+        "Volume": "0501",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [
+          "chapter15",
+          "insert7",
+          "chapter15_1"
+        ],
+        "SortOrder": "050115",
+        "ChapterName": "Professor Faurlarm's Class",
+        "Volume": "0501",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter16" ],
+        "SortOrder": "050116",
+        "ChapterName": "Hirschur's Personal Librarian",
+        "Volume": "0501",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [
+          "chapter17",
+          "insert8",
+          "chapter17_1"
+        ],
+        "SortOrder": "050117",
+        "ChapterName": "A Request from Royalty",
+        "Volume": "0501",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter18" ],
+        "SortOrder": "050118",
+        "ChapterName": "Tea Party for Bookworms",
+        "Volume": "0501",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [
+          "chapter19",
+          "insert9",
+          "chapter19_1"
+        ],
+        "SortOrder": "050119",
+        "ChapterName": "Tea Party with Dunkelfelger",
+        "Volume": "0501",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [
+          "chapter20",
+          "insert10",
+          "chapter20_1"
+        ],
+        "SortOrder": "050120a",
+        "ChapterName": "Replies",
+        "Volume": "0501",
+        "Year": 8,
+        "Season": "Winter",
+        "VolumeSubfolder": "05-Avatar of a Goddess\\0501-Volume 1",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter21" ],
+        "SortOrder": "050121",
+        "ChapterName": "Epilogue [Lestilaut]",
+        "Volume": "0501",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      }
+    ],
+    "CharacterSheet": {
+      "OriginalFilenames": [ "characters1", "characters2", "characters3" ],
+      "SortOrder": "0501",
+      "ChapterName": "Avatar of a Goddess Characters",
+      "Volume": "0501",
+      "Year": 8,
+      "Season": "Winter",
+      "ProcessedInPartFive": true
+    },
+    "CharacterPoll": {
+      "OriginalFilenames": [
+        "poll1",
+        "poll2"
+      ],
+      "SortOrder": "CP3",
+      "ProcessedInPartFive": true,
+      "ChapterName": "Part 5 Character Poll"
+    },
+    "Afterword": {
+      "OriginalFilenames": [ "afterword" ],
+      "SortOrder": "050197",
+      "ChapterName": "LN501 Afterword",
+      "Volume": "0501",
+      "Year": 8,
+      "Season": "Winter",
+      "ProcessedInPartFive": true
+    }
+  },
+  {
+    "InternalName": "LN0502",
+    "Gallery": {
+      "SplashImages": [ "bonus2", "bonus1" ],
+      "ChapterImages": [ "insert1", "insert2", "insert3", "insert4", "insert5", "insert6", "insert7", "insert8", "insert9", "insert10" ],
+      "EarlySortOrder": "0502",
+      "LateSortOrder": "050299",
+      "ChapterName": "LN502",
+      "AltName": "Volume 2",
+      "Volume": "0502",
+      "EarlyYear": 8,
+      "EarlySeason": "Winter",
+      "LateYear": 8,
+      "LateSeason": "Winter",
+      "ProcessedInPartFive": true
+    },
+    "ComfyLifeChapter": {
+      "OriginalFilenames": [ "manga1", "manga2" ],
+      "SortOrder": "050298",
+      "ChapterName": "Comfy Life 502",
+      "Volume": "0502",
+      "Year": 8,
+      "Season": "Winter",
+      "ProcessedInPartFive": true
+    },
+    "CharacterSheet": {
+      "OriginalFilenames": [ "characters1", "characters2", "characters3" ],
+      "SortOrder": "0502",
+      "ChapterName": "Avatar of a Goddess Characters",
+      "Volume": "0502",
+      "Year": 8,
+      "Season": "Winter",
+      "ProcessedInPartFive": true,
+      "PartSheet": true
+    },
+    "Afterword": {
+      "OriginalFilenames": [ "afterword" ],
+      "SortOrder": "050297",
+      "ChapterName": "LN502 Afterword",
+      "Volume": "0502",
+      "Year": 8,
+      "Season": "Winter",
+      "ProcessedInPartFive": true
+    },
+    "Chapters": [
+      {
+        "OriginalFilenames": [ "prologue", "insert1", "prologue_1" ],
+        "SortOrder": "050200a",
+        "ChapterName": "Prologue [Ferdinand]",
+        "Volume": "0502",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter1", "insert2", "chapter1_1" ],
+        "SortOrder": "050201",
+        "ChapterName": "The Royal Family and the Library",
+        "Volume": "0502",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter2", "insert3", "chapter2_1" ],
+        "SortOrder": "050202",
+        "ChapterName": "Dunkelfelger's Ritual",
+        "Volume": "0502",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter3" ],
+        "SortOrder": "050203",
+        "ChapterName": "Talking and Tallying",
+        "Volume": "0502",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter4", "insert4", "chapter4_1" ],
+        "SortOrder": "050204",
+        "ChapterName": "Frustrating Tea Parties",
+        "Volume": "0502",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter5" ],
+        "SortOrder": "050205",
+        "ChapterName": "Doing a Little Scheming",
+        "Volume": "0502",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter6" ],
+        "SortOrder": "050206",
+        "ChapterName": "Preparing for the Ritual",
+        "Volume": "0502",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter7", "insert5", "chapter7_1" ],
+        "SortOrder": "050207a",
+        "ChapterName": "The Royal Academy's Dedication Ritual",
+        "Volume": "0502",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter8", "insert6", "chapter8_1" ],
+        "SortOrder": "050208a",
+        "ChapterName": "Using the Rest of the Mana",
+        "Volume": "0502",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter9" ],
+        "SortOrder": "050209",
+        "ChapterName": "Tea Parties and Negotiations",
+        "Volume": "0502",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter10", "insert7", "chapter10_1" ],
+        "SortOrder": "050210",
+        "ChapterName": "Confrontation",
+        "Volume": "0502",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter11" ],
+        "SortOrder": "050211",
+        "ChapterName": "Preparing for Ditter",
+        "Volume": "0502",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter12", "insert8", "chapter12_1" ],
+        "SortOrder": "050212",
+        "ChapterName": "Bride-Taking Ditter",
+        "Volume": "0502",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter13" ],
+        "SortOrder": "050213",
+        "ChapterName": "Intruders",
+        "Volume": "0502",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter14", "insert9", "chapter14_1" ],
+        "SortOrder": "050214",
+        "ChapterName": "Epilogue [Hannelore]",
+        "Volume": "0502",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      }
+    ],
+    "BonusChapters": [
+      {
+        "OriginalFilenames": [ "chapter15", "insert10", "chapter15_1" ],
+        "EarlySortOrder": "050207b",
+        "LateSortOrder": "050296b",
+        "Volume": "0502",
+        "ChapterName": "The Saint's Ritual [Lueradi]",
+        "EarlyYear": 8,
+        "LateYear": 8,
+        "EarlySeason": "Winter",
+        "LateSeason": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter16" ],
+        "EarlySortOrder": "050200b",
+        "LateSortOrder": "050296a",
+        "Volume": "0502",
+        "ChapterName": "Someone Worthy of Caution [Sigiswald]",
+        "EarlyYear": 8,
+        "LateYear": 8,
+        "EarlySeason": "Winter",
+        "LateSeason": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter17" ],
+        "EarlySortOrder": "050208b",
+        "LateSortOrder": "050296c",
+        "Volume": "0502",
+        "ChapterName": "Headache Inducing Reports (Third Year) [Sylvester]",
+        "EarlyYear": 8,
+        "LateYear": 8,
+        "EarlySeason": "Winter",
+        "LateSeason": "Winter",
+        "ProcessedInPartFive": true
+      }
+    ]
+  }
+]

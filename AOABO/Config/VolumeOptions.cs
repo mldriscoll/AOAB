@@ -110,7 +110,7 @@ namespace AOABO.Config
         public OutputStructure OutputStructure { get; set; } = OutputStructure.Volumes;
         public int StartYear { get; set; } = 5;
         public int OutputYearFormat { get; set; } = 0;
-        public AfterwordSetting AfterwordSetting { get; set; } = AfterwordSetting.None;
+        public AfterwordSetting AfterwordSetting { get; set; } = AfterwordSetting.OmnibusEnd;
         public bool IncludeRegularChapters { get; set; } = true;
         public bool IncludeImagesInChapters { get; set; } = true;
         public bool UseHumanReadableFileStructure { get; set; } = false;

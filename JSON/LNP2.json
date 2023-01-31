@@ -1,0 +1,1157 @@
+[
+  {
+    "InternalName": "LN0201",
+    "Gallery": {
+      "SplashImages": [ "bonus2", "bonus1" ],
+      "ChapterImages": [ "insert1", "insert2", "insert3", "insert4", "insert5", "insert6", "insert7", "insert8", "insert9" ],
+      "EarlySortOrder": "0201",
+      "LateSortOrder": "020199",
+      "Volume": "0201",
+      "EarlyYear": 2,
+      "LateYear": 2,
+      "EarlySeason": "Summer",
+      "LateSeason": "Summer",
+      "ChapterName": "LN201",
+      "AltName": "Volume 1",
+      "ProcessedInPartTwo": true
+    },
+    "BonusChapters": [
+      {
+        "OriginalFilenames": [ "extra1" ],
+        "EarlySortOrder": "020106b",
+        "LateSortOrder": "020196a",
+        "ChapterName": "A Place Still Far From Here [Tuuli]",
+        "Volume": "0201",
+        "EarlyYear": 2,
+        "LateYear": 2,
+        "EarlySeason": "Summer",
+        "LateSeason": "Summer",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "extra2" ],
+        "EarlySortOrder": "020116b",
+        "LateSortOrder": "020196b",
+        "ChapterName": "An Attendant's Self-Awareness [Gil]",
+        "Volume": "0201",
+        "EarlyYear": 2,
+        "LateYear": 2,
+        "EarlySeason": "Summer",
+        "LateSeason": "Summer",
+        "ProcessedInPartTwo": true
+      }
+    ],
+    "Chapters": [
+      {
+        "OriginalFilenames": [ "prologue" ],
+        "SortOrder": "020100",
+        "ChapterName": "Prologue [Ferdinand]",
+        "Volume": "0201",
+        "Year": 2,
+        "Season": "Summer",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter01", "insert1", "chapter01_1" ],
+        "SortOrder": "020101",
+        "ChapterName": "Attendants and the Fealty Ceremony",
+        "Volume": "0201",
+        "Year": 2,
+        "Season": "Summer",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter02" ],
+        "SortOrder": "020102",
+        "ChapterName": "A Shrine Maiden's Job",
+        "Volume": "0201",
+        "Year": 2,
+        "Season": "Summer",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter03" ],
+        "SortOrder": "020103",
+        "ChapterName": "Not Like the Other Blue Robes",
+        "Volume": "0201",
+        "Year": 2,
+        "Season": "Summer",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter04" ],
+        "SortOrder": "020104",
+        "ChapterName": "Benno's Meeting With the High Priest",
+        "Volume": "0201",
+        "Year": 2,
+        "Season": "Summer",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter05", "insert2", "chapter05_1" ],
+        "SortOrder": "020105a",
+        "ChapterName": "The Meeting Begins",
+        "Volume": "0201",
+        "Year": 2,
+        "Season": "Summer",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter06" ],
+        "SortOrder": "020106a",
+        "ChapterName": "Buying Secondhand Clothes",
+        "Volume": "0201",
+        "Year": 2,
+        "Season": "Summer",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter07", "insert3", "chapter07_1" ],
+        "SortOrder": "020107",
+        "ChapterName": "The Animosity of Lutz and Gil",
+        "Volume": "0201",
+        "Year": 2,
+        "Season": "Summer",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter08" ],
+        "SortOrder": "020108",
+        "ChapterName": "What They Deserve",
+        "Volume": "0201",
+        "Year": 2,
+        "Season": "Summer",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter09" ],
+        "SortOrder": "020109",
+        "ChapterName": "First Time Outside",
+        "Volume": "0201",
+        "Year": 2,
+        "Season": "Summer",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter10", "insert4", "chapter10_1" ],
+        "SortOrder": "020110",
+        "ChapterName": "Training the Chefs",
+        "Volume": "0201",
+        "Year": 2,
+        "Season": "Summer",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter11" ],
+        "SortOrder": "020111",
+        "ChapterName": "Delia's Job",
+        "Volume": "0201",
+        "Year": 2,
+        "Season": "Summer",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter12" ],
+        "SortOrder": "020112",
+        "ChapterName": "The Reality of the Orphanage",
+        "Volume": "0201",
+        "Year": 2,
+        "Season": "Summer",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter13" ],
+        "SortOrder": "020113a",
+        "ChapterName": "Discussion With the High Priest and My Resolve",
+        "Volume": "0201",
+        "Year": 2,
+        "Season": "Summer",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter14", "insert5", "chapter14_1" ],
+        "SortOrder": "020114",
+        "ChapterName": "Secret Talk With the High Priest",
+        "Volume": "0201",
+        "Year": 2,
+        "Season": "Summer",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter15" ],
+        "SortOrder": "020115",
+        "ChapterName": "Cleaning Up the Orphanage",
+        "Volume": "0201",
+        "Year": 2,
+        "Season": "Summer",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter16", "insert6", "chapter16_1" ],
+        "SortOrder": "020116a",
+        "ChapterName": "Ideas for New Products",
+        "Volume": "0201",
+        "Year": 2,
+        "Season": "Summer",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter17" ],
+        "SortOrder": "020117",
+        "ChapterName": "Diptychs and Cards",
+        "Volume": "0201",
+        "Year": 2,
+        "Season": "Summer",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter18" ],
+        "SortOrder": "020118a",
+        "ChapterName": "Preparing for the Star Festival",
+        "Volume": "0201",
+        "Year": 2,
+        "Season": "Summer",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter19", "insert7", "chapter19_1" ],
+        "SortOrder": "020119a",
+        "ChapterName": "The Star Festival",
+        "Volume": "0201",
+        "Year": 2,
+        "Season": "Summer",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter20" ],
+        "SortOrder": "020120",
+        "ChapterName": "After the Festival",
+        "Volume": "0201",
+        "Year": 2,
+        "Season": "Summer",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter21" ],
+        "SortOrder": "020121",
+        "ChapterName": "Lutz's Path Through Life",
+        "Volume": "0201",
+        "Year": 2,
+        "Season": "Summer",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter22", "insert8", "chapter22_1" ],
+        "SortOrder": "020122",
+        "ChapterName": "Lutz Running Away From Home",
+        "Volume": "0201",
+        "Year": 2,
+        "Season": "Summer",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter23" ],
+        "SortOrder": "020123",
+        "ChapterName": "The High Priest's Letter of Invitation",
+        "Volume": "0201",
+        "Year": 2,
+        "Season": "Summer",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter24", "insert9", "chapter24_1" ],
+        "SortOrder": "020124",
+        "ChapterName": "Family Meeting at the Temple",
+        "Volume": "0201",
+        "Year": 2,
+        "Season": "Summer",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "epilogue" ],
+        "SortOrder": "020125",
+        "ChapterName": "Epilogue [Deid]",
+        "Volume": "0201",
+        "Year": 2,
+        "Season": "Summer",
+        "ProcessedInPartTwo": true
+      }
+    ],
+    "Afterword": {
+      "OriginalFilenames": [ "afterword" ],
+      "SortOrder": "020197",
+      "ChapterName": "LN201 Afterword",
+      "Volume": "0201",
+      "Year": 2,
+      "Season": "Summer",
+      "ProcessedInPartTwo": true
+    },
+    "CharacterSheet": {
+      "OriginalFilenames": [ "characters1", "characters2" ],
+      "SortOrder": "0201",
+      "ChapterName": "Apprentice Shrine Maiden Characters",
+      "Year": 2,
+      "Season": "Summer",
+      "Volume": "0201",
+      "ProcessedInPartTwo": true
+    }
+  },
+  {
+    "InternalName": "LN0202",
+    "Gallery": {
+      "SplashImages": [ "bonus2", "bonus1" ],
+      "ChapterImages": [ "insert1", "insert2", "insert3", "insert4", "insert5", "insert6", "insert7", "insert8", "insert9" ],
+      "EarlySortOrder": "0202",
+      "LateSortOrder": "020299",
+      "ChapterName": "LN202",
+      "AltName": "Volume 2",
+      "ProcessedInPartTwo": true,
+      "Volume": "0202",
+      "EarlyYear": 2,
+      "LateYear": 2,
+      "EarlySeason": "Summer",
+      "LateSeason": "Autumn"
+    },
+    "BonusChapters": [
+      {
+        "OriginalFilenames": [ "extra1", "insert9", "extra1_1" ],
+        "EarlySortOrder": "020203b",
+        "LateSortOrder": "020296a",
+        "ChapterName": "The Attendant of an Apprentice Blue Shrine Maiden [Rosina]",
+        "Volume": "0202",
+        "EarlyYear": 2,
+        "LateYear": 2,
+        "EarlySeason": "Summer",
+        "LateSeason": "Autumn",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "extra2" ],
+        "EarlySortOrder": "020219b",
+        "LateSortOrder": "020296b",
+        "ChapterName": "Apprentice Chef in the Temple [Ella]",
+        "ProcessedInPartTwo": true,
+        "Volume": "0202",
+        "EarlyYear": 2,
+        "LateYear": 2,
+        "EarlySeason": "Autumn",
+        "LateSeason": "Autumn"
+      }
+    ],
+    "Chapters": [
+      {
+        "OriginalFilenames": [ "prologue" ],
+        "SortOrder": "020200",
+        "ChapterName": "Prologue [Effa]",
+        "Volume": "0202",
+        "Year": 2,
+        "Season": "Summer",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter01", "insert1", "chapter01_1" ],
+        "SortOrder": "020201",
+        "ChapterName": "One Wilma, Please",
+        "Volume": "0202",
+        "Year": 2,
+        "Season": "Summer",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter02" ],
+        "SortOrder": "020202",
+        "ChapterName": "Rosina and Harspiels",
+        "Volume": "0202",
+        "Year": 2,
+        "Season": "Summer",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter03" ],
+        "SortOrder": "020203a",
+        "ChapterName": "An Attendant's Job",
+        "Volume": "0202",
+        "Year": 2,
+        "Season": "Summer",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter04", "insert2", "chapter04_1" ],
+        "SortOrder": "020204",
+        "ChapterName": "The Italian Restaurant's Interior Decoration",
+        "Volume": "0202",
+        "Year": 2,
+        "Season": "Summer",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter05" ],
+        "SortOrder": "020205",
+        "ChapterName": "How to Run a Restaurant",
+        "Volume": "0202",
+        "Year": 2,
+        "Season": "Summer",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter06" ],
+        "SortOrder": "020206",
+        "ChapterName": "The Significance of Going Outside",
+        "Volume": "0202",
+        "Year": 2,
+        "Season": "Summer",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter07" ],
+        "SortOrder": "020207",
+        "ChapterName": "Preparing to Make Ink",
+        "Volume": "0202",
+        "Year": 2,
+        "Season": "Summer",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter08" ],
+        "SortOrder": "020208",
+        "ChapterName": "Black Oil Paint",
+        "Volume": "0202",
+        "Year": 2,
+        "Season": "Autumn",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter09" ],
+        "SortOrder": "020209",
+        "ChapterName": "Making Picture Books with Woodblock Printing",
+        "Volume": "0202",
+        "Year": 2,
+        "Season": "Autumn",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter10" ],
+        "SortOrder": "020210a",
+        "ChapterName": "Black-and-White Picture Books",
+        "Volume": "0202",
+        "Year": 2,
+        "Season": "Autumn",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter11", "insert3", "chapter11_1" ],
+        "SortOrder": "020211",
+        "ChapterName": "Preparing for the Children's Bible",
+        "Volume": "0202",
+        "Year": 2,
+        "Season": "Autumn",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter12", "insert4", "chapter12_1" ],
+        "SortOrder": "020212",
+        "ChapterName": "Binding Children's Bibles",
+        "Volume": "0202",
+        "Year": 2,
+        "Season": "Autumn",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter13" ],
+        "SortOrder": "020213",
+        "ChapterName": "Missing the Harvest Festival",
+        "Volume": "0202",
+        "Year": 2,
+        "Season": "Autumn",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter14" ],
+        "SortOrder": "020214a",
+        "ChapterName": "The Myne Decimal System",
+        "Volume": "0202",
+        "Year": 2,
+        "Season": "Autumn",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter15" ],
+        "SortOrder": "020215",
+        "ChapterName": "A Book for Benno and First Fitting",
+        "Volume": "0202",
+        "Year": 2,
+        "Season": "Autumn",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter16" ],
+        "SortOrder": "020216",
+        "ChapterName": "Cinderella and a Book for the High Priest",
+        "Volume": "0202",
+        "Year": 2,
+        "Season": "Autumn",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter17" ],
+        "SortOrder": "020217",
+        "ChapterName": "A Discussion About Winter Preparations",
+        "Volume": "0202",
+        "Year": 2,
+        "Season": "Autumn",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter18", "insert5", "chapter18_1" ],
+        "SortOrder": "020218a",
+        "ChapterName": "Off to Buy Winter Clothes",
+        "Volume": "0202",
+        "Year": 2,
+        "Season": "Autumn",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter19" ],
+        "SortOrder": "020219a",
+        "ChapterName": "Butchering and Absence",
+        "Volume": "0202",
+        "Year": 2,
+        "Season": "Autumn",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter20" ],
+        "SortOrder": "020220",
+        "ChapterName": "The End of Winter Preparations",
+        "Volume": "0202",
+        "Year": 2,
+        "Season": "Autumn",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter21", "insert6", "chapter21_1" ],
+        "SortOrder": "020221",
+        "ChapterName": "Summons from the Knight's Order",
+        "Volume": "0202",
+        "Year": 2,
+        "Season": "Autumn",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter22" ],
+        "SortOrder": "020222",
+        "ChapterName": "Trombe Extermination",
+        "Volume": "0202",
+        "Year": 2,
+        "Season": "Autumn",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter23" ],
+        "SortOrder": "020223",
+        "ChapterName": "Rescue and Reprimand",
+        "Volume": "0202",
+        "Year": 2,
+        "Season": "Autumn",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter24", "insert7", "chapter24_1" ],
+        "SortOrder": "020224",
+        "ChapterName": "The Healing Ritual",
+        "Volume": "0202",
+        "Year": 2,
+        "Season": "Autumn",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "epilogue", "insert8", "epilogue_1" ],
+        "SortOrder": "020225",
+        "ChapterName": "Epilogue [Ferdinand]",
+        "Volume": "0202",
+        "Year": 2,
+        "Season": "Autumn",
+        "ProcessedInPartTwo": true
+      }
+    ],
+    "Afterword": {
+      "OriginalFilenames": [ "afterword" ],
+      "SortOrder": "020297",
+      "ChapterName": "LN202 Afterword",
+      "Volume": "0202",
+      "Year": 2,
+      "Season": "Autumn",
+      "ProcessedInPartTwo": true
+    },
+    "CharacterSheet": {
+      "OriginalFilenames": [ "characters1", "characters2" ],
+      "SortOrder": "0202",
+      "ChapterName": "Apprentice Shrine Maiden Characters",
+      "Year": 2,
+      "Season": "Autumn",
+      "Volume": "0202",
+      "ProcessedInPartTwo": true
+    }
+  },
+  {
+    "InternalName": "LN0203",
+    "Gallery": {
+      "SplashImages": [ "bonus2", "bonus1" ],
+      "ChapterImages": [ "insert1", "insert2", "insert3", "insert4", "insert5", "insert6", "insert7", "insert8", "insert9" ],
+      "EarlySortOrder": "0203",
+      "LateSortOrder": "020399",
+      "ChapterName": "LN203",
+      "AltName": "Volume 3",
+      "Volume": "0203",
+      "EarlyYear": 2,
+      "LateYear": 2,
+      "EarlySeason": "Autumn",
+      "LateSeason": "Spring",
+      "ProcessedInPartTwo": true
+    },
+    "BonusChapters": [
+      {
+        "OriginalFilenames": [ "extra1" ],
+        "EarlySortOrder": "020312b",
+        "LateSortOrder": "020396a",
+        "ChapterName": "Lunchtime in the Temple [Damuel]",
+        "AltName": "Volume 3",
+        "Volume": "0203",
+        "EarlyYear": 2,
+        "LateYear": 2,
+        "EarlySeason": "Spring",
+        "LateSeason": "Spring",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "extra2", "insert9", "extra2_1" ],
+        "EarlySortOrder": "020311b",
+        "LateSortOrder": "020396b",
+        "ChapterName": "The Title of 'Gutenberg' [Johann]",
+        "AltName": "Volume 3",
+        "Volume": "0203",
+        "EarlyYear": 2,
+        "LateYear": 2,
+        "EarlySeason": "Spring",
+        "LateSeason": "Spring",
+        "ProcessedInPartTwo": true
+      }
+    ],
+    "Chapters": [
+      {
+        "OriginalFilenames": [ "prologue" ],
+        "SortOrder": "020300",
+        "ChapterName": "Prologue [Karstedt]",
+        "Volume": "0203",
+        "Year": 2,
+        "Season": "Autumn",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter01" ],
+        "SortOrder": "020301",
+        "ChapterName": "Printing Guild",
+        "Volume": "0203",
+        "Year": 2,
+        "Season": "Autumn",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter02", "insert1", "chapter02_1" ],
+        "SortOrder": "020302",
+        "ChapterName": "Johann's Task",
+        "Volume": "0203",
+        "Year": 2,
+        "Season": "Autumn",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter03" ],
+        "SortOrder": "020303",
+        "ChapterName": "The Ink Guild and the Beginning of Winter",
+        "Volume": "0203",
+        "Year": 2,
+        "Season": "Winter",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter04" ],
+        "SortOrder": "020304",
+        "ChapterName": "Winter Hibernation and Handiwork",
+        "Volume": "0203",
+        "Year": 2,
+        "Season": "Winter",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter05" ],
+        "SortOrder": "020305",
+        "ChapterName": "Meeting of the Minds",
+        "Volume": "0203",
+        "Year": 2,
+        "Season": "Winter",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter06", "insert2", "chapter06_1" ],
+        "SortOrder": "020306",
+        "ChapterName": "Punishment for the Knight's Order and My Future",
+        "Volume": "0203",
+        "Year": 2,
+        "Season": "Winter",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter07" ],
+        "SortOrder": "020307",
+        "ChapterName": "Daily Winter Life",
+        "Volume": "0203",
+        "Year": 2,
+        "Season": "Winter",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter08" ],
+        "SortOrder": "020308",
+        "ChapterName": "The Dedication Ritual",
+        "Volume": "0203",
+        "Year": 2,
+        "Season": "Winter",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter09", "insert3" ],
+        "SortOrder": "020309",
+        "ChapterName": "Rosina's Coming of Age Ceremony",
+        "Volume": "0203",
+        "Year": 2,
+        "Season": "Winter",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter10" ],
+        "SortOrder": "020310",
+        "ChapterName": "Rumtopf and Shoes",
+        "Volume": "0203",
+        "Year": 2,
+        "Season": "Spring",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter11" ],
+        "SortOrder": "020311a",
+        "ChapterName": "Completion of the Metal Letter Types",
+        "Volume": "0203",
+        "Year": 2,
+        "Season": "Spring",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter12", "insert4", "chapter12_1" ],
+        "SortOrder": "020312a",
+        "ChapterName": "Temple Stay Extended",
+        "Volume": "0203",
+        "Year": 2,
+        "Season": "Spring",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter13", "insert5" ],
+        "SortOrder": "020313",
+        "ChapterName": "Preparing for the Spring Prayer",
+        "Volume": "0203",
+        "Year": 2,
+        "Season": "Spring",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter14" ],
+        "SortOrder": "020314",
+        "ChapterName": "Spring Prayer",
+        "Volume": "0203",
+        "Year": 2,
+        "Season": "Spring",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter15" ],
+        "SortOrder": "020315",
+        "ChapterName": "An After-Meal Invitation",
+        "Volume": "0203",
+        "Year": 2,
+        "Season": "Spring",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter16", "insert6", "chapter16_1" ],
+        "SortOrder": "020316",
+        "ChapterName": "Ambush",
+        "Volume": "0203",
+        "Year": 2,
+        "Season": "Spring",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter17" ],
+        "SortOrder": "020317",
+        "ChapterName": "The Wild and Uncontrollable Blue Priest",
+        "Volume": "0203",
+        "Year": 2,
+        "Season": "Spring",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter18", "insert7", "chapter18_1" ],
+        "SortOrder": "020318a",
+        "ChapterName": "Visit to the Orphanage and Workshop",
+        "Volume": "0203",
+        "Year": 2,
+        "Season": "Spring",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter19" ],
+        "SortOrder": "020319",
+        "ChapterName": "Talking with the High Priest and Returning Home",
+        "Volume": "0203",
+        "Year": 2,
+        "Season": "Spring",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter20", "insert8", "chapter20_1" ],
+        "SortOrder": "020320",
+        "ChapterName": "A New Member of the Family",
+        "Volume": "0203",
+        "Year": 2,
+        "Season": "Spring",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "epilogue" ],
+        "SortOrder": "020321",
+        "ChapterName": "Epilogue [Delia]",
+        "Volume": "0203",
+        "Year": 2,
+        "Season": "Spring",
+        "ProcessedInPartTwo": true
+      }
+    ],
+    "Afterword": {
+      "OriginalFilenames": [ "afterword" ],
+      "SortOrder": "020397",
+      "ChapterName": "LN203 Afterword",
+      "Volume": "0203",
+      "Year": 2,
+      "Season": "Spring",
+      "ProcessedInPartTwo": true
+    },
+    "CharacterSheet": {
+      "OriginalFilenames": [ "characters1", "characters2" ],
+      "SortOrder": "0203",
+      "ChapterName": "Apprentice Shrine Maiden Characters",
+      "Year": 2,
+      "Season": "Spring",
+      "Volume": "0203",
+      "ProcessedInPartTwo": true
+    }
+  },
+  {
+    "InternalName": "LN0204",
+    "Gallery": {
+      "SplashImages": [ "bonus2", "bonus1" ],
+      "ChapterImages": [ "insert1", "insert2", "insert3", "insert4", "insert5", "insert6", "insert7", "insert8", "insert9" ],
+      "EarlySortOrder": "0204",
+      "LateSortOrder": "020499",
+      "ChapterName": "LN204",
+      "AltName": "Volume 4",
+      "Volume": "0204",
+      "EarlyYear": 2,
+      "EarlySeason": "Spring",
+      "LateYear": 2,
+      "LateSeason": "Spring",
+      "ProcessedInPartTwo": true
+    },
+    "BonusChapters": [
+      {
+        "OriginalFilenames": [ "extra1" ],
+        "EarlySortOrder": "020415c",
+        "LateSortOrder": "020496a",
+        "ChapterName": "A Visit to the Noble's Quarter [Freida]",
+        "Volume": "0204",
+        "EarlyYear": 2,
+        "EarlySeason": "Spring",
+        "LateYear": 2,
+        "LateSeason": "Spring",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "extra2" ],
+        "EarlySortOrder": "020415b",
+        "LateSortOrder": "020496b",
+        "ChapterName": "Cleaning up the Mess [Sylvester]",
+        "Volume": "0204",
+        "EarlyYear": 2,
+        "EarlySeason": "Spring",
+        "LateYear": 2,
+        "LateSeason": "Spring",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "extra3" ],
+        "EarlySortOrder": "020415d",
+        "LateSortOrder": "020496c",
+        "ChapterName": "Fran and I [Arno]",
+        "Volume": "0204",
+        "EarlyYear": 2,
+        "EarlySeason": "Spring",
+        "LateYear": 2,
+        "LateSeason": "Spring",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "extra4" ],
+        "EarlySortOrder": "020415e",
+        "LateSortOrder": "020496d",
+        "ChapterName": "Maybe Lessen the Workload [Benno]",
+        "Volume": "0204",
+        "EarlyYear": 2,
+        "EarlySeason": "Spring",
+        "LateYear": 2,
+        "LateSeason": "Spring",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "extra5" ],
+        "EarlySortOrder": "020416b",
+        "LateSortOrder": "020496e",
+        "ChapterName": "To Serve as the High Bishop's Attendant [Fran]",
+        "Volume": "0204",
+        "EarlyYear": 2,
+        "EarlySeason": "Spring",
+        "LateYear": 2,
+        "LateSeason": "Spring",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "extra6", "insert9" ],
+        "EarlySortOrder": "020416c",
+        "LateSortOrder": "020496f",
+        "ChapterName": "Facing the Future [Effa]",
+        "Volume": "0204",
+        "EarlyYear": 2,
+        "EarlySeason": "Spring",
+        "LateYear": 2,
+        "LateSeason": "Spring",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "extra7" ],
+        "EarlySortOrder": "020406b",
+        "LateSortOrder": "020496g",
+        "ChapterName": "Beruf Certification [Josef]",
+        "Volume": "0204",
+        "EarlyYear": 2,
+        "EarlySeason": "Spring",
+        "LateYear": 2,
+        "LateSeason": "Spring",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "extra8" ],
+        "EarlySortOrder": "020318b",
+        "LateSortOrder": "020396c",
+        "ChapterName": "Sylvester Undercover [Leon]",
+        "Volume": "0203",
+        "EarlyYear": 2,
+        "EarlySeason": "Spring",
+        "LateYear": 2,
+        "LateSeason": "Spring",
+        "ProcessedInPartTwo": true
+      }
+    ],
+    "CharacterSheet": {
+      "OriginalFilenames": [ "characters1", "characters2" ],
+      "SortOrder": "0204",
+      "ChapterName": "Apprentice Shrine Maiden Characters",
+      "Year": 2,
+      "Season": "Spring",
+      "Volume": "0204",
+      "ProcessedInPartTwo": true,
+      "PartSheet": true
+    },
+    "Chapters": [
+      {
+        "OriginalFilenames": [ "prologue" ],
+        "SortOrder": "020400",
+        "ChapterName": "Prologue [Bezewanst]",
+        "Year": 2,
+        "Season": "Spring",
+        "Volume": "0204",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter1" ],
+        "SortOrder": "020401",
+        "ChapterName": "Caring for Kamil",
+        "Year": 2,
+        "Season": "Spring",
+        "Volume": "0204",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter2", "insert1", "chapter2_1" ],
+        "SortOrder": "020402",
+        "ChapterName": "The Abandoned Child",
+        "Year": 2,
+        "Season": "Spring",
+        "Volume": "0204",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter3" ],
+        "SortOrder": "020403",
+        "ChapterName": "What to Do About Dirk",
+        "Year": 2,
+        "Season": "Spring",
+        "Volume": "0204",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter4" ],
+        "SortOrder": "020404",
+        "ChapterName": "The Ink Guild and Succession",
+        "Year": 2,
+        "Season": "Spring",
+        "Volume": "0204",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter5", "insert2", "chapter5_1" ],
+        "SortOrder": "020405",
+        "ChapterName": "Researching Color-Making",
+        "Year": 2,
+        "Season": "Spring",
+        "Volume": "0204",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter6" ],
+        "SortOrder": "020406a",
+        "ChapterName": "Challenging Wax Stencils",
+        "Year": 2,
+        "Season": "Spring",
+        "Volume": "0204",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter7" ],
+        "SortOrder": "020407",
+        "ChapterName": "Delia's Progress",
+        "Year": 2,
+        "Season": "Spring",
+        "Volume": "0204",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter8" ],
+        "SortOrder": "020408",
+        "ChapterName": "Both Sides of the Story",
+        "Year": 2,
+        "Season": "Spring",
+        "Volume": "0204",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter9" ],
+        "SortOrder": "020409",
+        "ChapterName": "The Two Who Left",
+        "Year": 2,
+        "Season": "Spring",
+        "Volume": "0204",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter10", "insert3", "chapter10_1" ],
+        "SortOrder": "020410",
+        "ChapterName": "The Shadow Falls",
+        "Year": 2,
+        "Season": "Spring",
+        "Volume": "0204",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter11", "insert4", "chapter11_1" ],
+        "SortOrder": "020411",
+        "ChapterName": "The Noble from Another Duchy",
+        "Year": 2,
+        "Season": "Spring",
+        "Volume": "0204",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter12", "insert5", "chapter12_1" ],
+        "SortOrder": "020412",
+        "ChapterName": "The Black Charm",
+        "Year": 2,
+        "Season": "Spring",
+        "Volume": "0204",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter13", "insert6", "chapter13_1" ],
+        "SortOrder": "020413",
+        "ChapterName": "The Source of Strife",
+        "Year": 2,
+        "Season": "Spring",
+        "Volume": "0204",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter14" ],
+        "SortOrder": "020414",
+        "ChapterName": "The New Me",
+        "Year": 2,
+        "Season": "Spring",
+        "Volume": "0204",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter15", "insert7", "chapter15_1" ],
+        "SortOrder": "020415a",
+        "ChapterName": "Ripped Apart",
+        "Year": 2,
+        "Season": "Spring",
+        "Volume": "0204",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "epilogue", "insert8", "epilogue_1" ],
+        "SortOrder": "020416a",
+        "ChapterName": "Epilogue [Lutz]",
+        "Year": 2,
+        "Season": "Spring",
+        "Volume": "0204",
+        "ProcessedInPartTwo": true
+      }
+    ],
+    "ComfyLifeChapter": {
+      "ProcessedInPartTwo": true,
+      "OriginalFilenames": [ "manga1", "manga2" ],
+      "ChapterName": "Comfy Life 204",
+      "Year": 2,
+      "Season": "Spring",
+      "Volume": "0204",
+      "SortOrder": "020498"
+    },
+    "Afterword": {
+      "OriginalFilenames": [ "afterword" ],
+      "SortOrder": "020497",
+      "ChapterName": "LN204 Afterword",
+      "Volume": "0204",
+      "Year": 2,
+      "Season": "Spring",
+      "ProcessedInPartTwo": true
+    }
+  }
+]
