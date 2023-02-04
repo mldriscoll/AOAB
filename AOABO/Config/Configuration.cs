@@ -100,6 +100,7 @@ namespace AOABO.Config
                 Console.WriteLine("9 - Maps");
                 Console.WriteLine("a - Afterwords");
                 Console.WriteLine("b - Internal Filenames");
+                Console.WriteLine("c - Polls");
                 Console.WriteLine("Press any other key to return to main menu");
 
                 var key = Console.ReadKey();
@@ -143,6 +144,10 @@ namespace AOABO.Config
                     case 'B':
                         SetFilenames();
                         break;
+                    case 'c':
+                    case 'C':
+                        SetBool("Do you want to include the Character Polls?", x => Options.Polls = x);
+                        break;
                     default:
                         finished = true;
                         break;
@@ -154,6 +159,21 @@ namespace AOABO.Config
                 File.Delete("options.txt");
             }
             File.WriteAllText("options.txt", Options.ToString());
+        }
+
+        private static void SetBool(string question, Action<bool> set)
+        {
+            Console.WriteLine();
+            Console.WriteLine($"{question} Y/N");
+            var key = Console.ReadKey();
+            set(false);
+            switch (key.KeyChar)
+            {
+                case 'y':
+                case 'Y':
+                    set(true);
+                    break;
+            }
         }
 
         private static void SetMaps()
