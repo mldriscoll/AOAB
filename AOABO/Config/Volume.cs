@@ -114,6 +114,7 @@
         public bool OCR { get; set; } = false;
 
         public List<Chapter> Chapters { get; set; } = new List<Chapter>();
+        public List<POVChapter> POVChapters { get; set; } = new List<POVChapter>();
         public List<BonusChapter> MangaChapters { get; set; } = new List<BonusChapter>();
 
         public List<BonusChapter> BonusChapters { get; set; } = new List<BonusChapter>();

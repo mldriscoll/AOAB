@@ -47,7 +47,7 @@
       "ChapterName": "Part 3 Character Poll",
       "ProcessedInPartThree": true
     },
-    "Chapters": [
+    "POVChapters": [
       {
         "OriginalFilenames": [ "prologue" ],
         "SortOrder": "030100",
@@ -57,6 +57,17 @@
         "Season": "Spring",
         "ProcessedInPartThree": true
       },
+      {
+        "OriginalFilenames": [ "epilogue", "insert9", "epilogue_1" ],
+        "SortOrder": "030121a",
+        "ChapterName": "Epilogue [Lutz]",
+        "Volume": "0301",
+        "Year": 3,
+        "Season": "Summer",
+        "ProcessedInPartThree": true
+      }
+    ],
+    "Chapters": [
       {
         "OriginalFilenames": [ "chapter1" ],
         "SortOrder": "030101",
@@ -236,15 +247,6 @@
         "Year": 3,
         "Season": "Summer",
         "ProcessedInPartThree": true
-      },
-      {
-        "OriginalFilenames": [ "epilogue", "insert9", "epilogue_1" ],
-        "SortOrder": "030121a",
-        "ChapterName": "Epilogue [Lutz]",
-        "Volume": "0301",
-        "Year": 3,
-        "Season": "Summer",
-        "ProcessedInPartThree": true
       }
     ],
     "ComfyLifeChapter": {
@@ -329,7 +331,7 @@
         "ProcessedInPartThree": true
       }
     ],
-    "Chapters": [
+    "POVChapters": [
       {
         "OriginalFilenames": [ "prologue", "insert1", "prologue_1" ],
         "SortOrder": "030200",
@@ -339,6 +341,17 @@
         "Season": "Summer",
         "ProcessedInPartThree": true
       },
+      {
+        "OriginalFilenames": [ "epilogue" ],
+        "SortOrder": "030218",
+        "ChapterName": "Epilogue [Brigitte]",
+        "Volume": "0302",
+        "Year": 3,
+        "Season": "Autumn",
+        "ProcessedInPartThree": true
+      }
+    ],
+    "Chapters": [
       {
         "OriginalFilenames": [ "chapter1" ],
         "SortOrder": "030201",
@@ -491,15 +504,6 @@
         "Year": 3,
         "Season": "Autumn",
         "ProcessedInPartThree": true
-      },
-      {
-        "OriginalFilenames": [ "epilogue" ],
-        "SortOrder": "030218",
-        "ChapterName": "Epilogue [Brigitte]",
-        "Volume": "0302",
-        "Year": 3,
-        "Season": "Autumn",
-        "ProcessedInPartThree": true
       }
     ],
     "ComfyLifeChapter": {
@@ -599,7 +603,7 @@
       "Volume": "0303",
       "ProcessedInPartThree": true
     },
-    "Chapters": [
+    "POVChapters": [
       {
         "OriginalFilenames": [ "prologue" ],
         "SortOrder": "030300",
@@ -609,6 +613,17 @@
         "Season": "Autumn",
         "ProcessedInPartThree": true
       },
+      {
+        "OriginalFilenames": [ "epilogue" ],
+        "SortOrder": "030321",
+        "ChapterName": "Epilogue [Eckhart]",
+        "Volume": "0303",
+        "Year": 3,
+        "Season": "Spring",
+        "ProcessedInPartThree": true
+      }
+    ],
+    "Chapters": [
       {
         "OriginalFilenames": [ "chapter1" ],
         "SortOrder": "030301",
@@ -788,15 +803,6 @@
         "Year": 3,
         "Season": "Spring",
         "ProcessedInPartThree": true
-      },
-      {
-        "OriginalFilenames": [ "epilogue" ],
-        "SortOrder": "030321",
-        "ChapterName": "Epilogue [Eckhart]",
-        "Volume": "0303",
-        "Year": 3,
-        "Season": "Spring",
-        "ProcessedInPartThree": true
       }
     ]
   },
@@ -854,7 +860,7 @@
         "ProcessedInPartThree": true
       }
     ],
-    "Chapters": [
+    "POVChapters": [
       {
         "OriginalFilenames": [ "prologue" ],
         "SortOrder": "030400",
@@ -864,6 +870,17 @@
         "Season": "Spring",
         "ProcessedInPartThree": true
       },
+      {
+        "OriginalFilenames": [ "epilogue" ],
+        "SortOrder": "030420",
+        "ChapterName": "Epilogue [Gloria]",
+        "Volume": "0304",
+        "Year": 4,
+        "Season": "Summer",
+        "ProcessedInPartThree": true
+      }
+    ],
+    "Chapters": [
       {
         "OriginalFilenames": [ "chapter1" ],
         "SortOrder": "030301",
@@ -1030,15 +1047,6 @@
         "OriginalFilenames": [ "chapter19" ],
         "SortOrder": "030419a",
         "ChapterName": "Georgine Departs",
-        "Volume": "0304",
-        "Year": 4,
-        "Season": "Summer",
-        "ProcessedInPartThree": true
-      },
-      {
-        "OriginalFilenames": [ "epilogue" ],
-        "SortOrder": "030420",
-        "ChapterName": "Epilogue [Gloria]",
         "Volume": "0304",
         "Year": 4,
         "Season": "Summer",
@@ -1224,7 +1232,7 @@
         "ProcessedInFanbooks": true
       }
     ],
-    "Chapters": [
+    "POVChapters": [
       {
         "OriginalFilenames": [ "prologue", "insert1", "prologue_1" ],
         "SortOrder": "030500",
@@ -1234,6 +1242,17 @@
         "Season": "Autumn",
         "ProcessedInPartThree": true
       },
+      {
+        "OriginalFilenames": [ "epilogue" ],
+        "SortOrder": "030515",
+        "ChapterName": "Epilogue [Ferdinand]",
+        "Volume": "0305",
+        "Year": 6,
+        "Season": "Autumn",
+        "ProcessedInPartThree": true
+      }
+    ],
+    "Chapters": [
       {
         "OriginalFilenames": [ "chapter1" ],
         "SortOrder": "030501",
@@ -1358,15 +1377,6 @@
         "Volume": "0305",
         "Year": 4,
         "Season": "Winter",
-        "ProcessedInPartThree": true
-      },
-      {
-        "OriginalFilenames": [ "epilogue" ],
-        "SortOrder": "030515",
-        "ChapterName": "Epilogue [Ferdinand]",
-        "Volume": "0305",
-        "Year": 6,
-        "Season": "Autumn",
         "ProcessedInPartThree": true
       }
     ]

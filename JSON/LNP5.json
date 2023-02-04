@@ -50,7 +50,7 @@
       "Season": "Winter",
       "ProcessedInPartFive": true
     },
-    "Chapters": [
+    "POVChapters": [
       {
         "OriginalFilenames": [ "prologue", "insert1", "prologue_1" ],
         "SortOrder": "050100",
@@ -60,6 +60,17 @@
         "Season": "Winter",
         "ProcessedInPartFive": true
       },
+      {
+        "OriginalFilenames": [ "chapter21" ],
+        "SortOrder": "050121",
+        "ChapterName": "Epilogue [Lestilaut]",
+        "Volume": "0501",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      }
+    ],
+    "Chapters": [
       {
         "OriginalFilenames": [ "chapter1" ],
         "SortOrder": "050101",
@@ -280,15 +291,6 @@
         "Season": "Winter",
         "VolumeSubfolder": "05-Avatar of a Goddess\\0501-Volume 1",
         "ProcessedInPartFive": true
-      },
-      {
-        "OriginalFilenames": [ "chapter21" ],
-        "SortOrder": "050121",
-        "ChapterName": "Epilogue [Lestilaut]",
-        "Volume": "0501",
-        "Year": 8,
-        "Season": "Winter",
-        "ProcessedInPartFive": true
       }
     ],
     "CharacterSheet": {
@@ -363,7 +365,7 @@
       "Season": "Winter",
       "ProcessedInPartFive": true
     },
-    "Chapters": [
+    "POVChapters": [
       {
         "OriginalFilenames": [ "prologue", "insert1", "prologue_1" ],
         "SortOrder": "050200a",
@@ -373,6 +375,17 @@
         "Season": "Winter",
         "ProcessedInPartFive": true
       },
+      {
+        "OriginalFilenames": [ "chapter14", "insert9", "chapter14_1" ],
+        "SortOrder": "050214",
+        "ChapterName": "Epilogue [Hannelore]",
+        "Volume": "0502",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      }
+    ],
+    "Chapters": [
       {
         "OriginalFilenames": [ "chapter1", "insert2", "chapter1_1" ],
         "SortOrder": "050201",
@@ -485,15 +498,6 @@
         "OriginalFilenames": [ "chapter13" ],
         "SortOrder": "050213",
         "ChapterName": "Intruders",
-        "Volume": "0502",
-        "Year": 8,
-        "Season": "Winter",
-        "ProcessedInPartFive": true
-      },
-      {
-        "OriginalFilenames": [ "chapter14", "insert9", "chapter14_1" ],
-        "SortOrder": "050214",
-        "ChapterName": "Epilogue [Hannelore]",
         "Volume": "0502",
         "Year": 8,
         "Season": "Winter",

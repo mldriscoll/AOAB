@@ -1,7 +1,7 @@
 [
   {
     "InternalName": "LN0101",
-    "Chapters": [
+    "POVChapters": [
       {
         "OriginalFilenames": [ "prologue" ],
         "SortOrder": "010100a",
@@ -10,6 +10,17 @@
         "ProcessedInPartOne": true,
         "Volume": "0101"
       },
+      {
+        "OriginalFilenames": [ "epilogue", "insert9", "epilogue1" ],
+        "SortOrder": "010125",
+        "ChapterName": "Epilogue [Otto]",
+        "Year": 1,
+        "Season": "Summer",
+        "ProcessedInPartOne": true,
+        "Volume": "0101"
+      }
+    ],
+    "Chapters": [
       {
         "OriginalFilenames": [ "chapter01" ],
         "SortOrder": "010101",
@@ -225,15 +236,6 @@
         "Season": "Summer",
         "ProcessedInPartOne": true,
         "Volume": "0101"
-      },
-      {
-        "OriginalFilenames": [ "epilogue", "insert9", "epilogue1" ],
-        "SortOrder": "010125",
-        "ChapterName": "Epilogue [Otto]",
-        "Year": 1,
-        "Season": "Summer",
-        "ProcessedInPartOne": true,
-        "Volume": "0101"
       }
     ],
     "Gallery": {
@@ -312,7 +314,7 @@
         "Volume": "0102"
       }
     ],
-    "Chapters": [
+    "POVChapters": [
       {
         "OriginalFilenames": [ "prologue" ],
         "SortOrder": "010200",
@@ -322,6 +324,17 @@
         "ProcessedInPartOne": true,
         "Volume": "0102"
       },
+      {
+        "OriginalFilenames": [ "epilogue" ],
+        "SortOrder": "010222",
+        "ChapterName": "Epilogue [Lutz]",
+        "Year": 1,
+        "Season": "Autumn",
+        "ProcessedInPartOne": true,
+        "Volume": "0102"
+      }
+    ],
+    "Chapters": [
       {
         "OriginalFilenames": [ "chapter01", "insert1", "chapter01_1" ],
         "SortOrder": "010201",
@@ -510,15 +523,6 @@
         "Season": "Autumn",
         "ProcessedInPartOne": true,
         "Volume": "0102"
-      },
-      {
-        "OriginalFilenames": [ "epilogue" ],
-        "SortOrder": "010222",
-        "ChapterName": "Epilogue [Lutz]",
-        "Year": 1,
-        "Season": "Autumn",
-        "ProcessedInPartOne": true,
-        "Volume": "0102"
       }
     ],
     "Gallery": {
@@ -647,7 +651,7 @@
         "ProcessedInPartFive": true
       }
     ],
-    "Chapters": [
+    "POVChapters": [
       {
         "OriginalFilenames": [ "prologue" ],
         "SortOrder": "010300",
@@ -657,6 +661,17 @@
         "ProcessedInPartOne": true,
         "Volume": "0103"
       },
+      {
+        "OriginalFilenames": [ "epilogue" ],
+        "SortOrder": "010325a",
+        "ChapterName": "Epilogue [Gunther]",
+        "Year": 2,
+        "Season": "Summer",
+        "ProcessedInPartOne": true,
+        "Volume": "0103"
+      }
+    ],
+    "Chapters": [
       {
         "OriginalFilenames": [ "chapter01" ],
         "SortOrder": "010301",
@@ -868,15 +883,6 @@
         "OriginalFilenames": [ "chapter24", "insert6", "chapter24_1" ],
         "SortOrder": "010324",
         "ChapterName": "Confrontation",
-        "Year": 2,
-        "Season": "Summer",
-        "ProcessedInPartOne": true,
-        "Volume": "0103"
-      },
-      {
-        "OriginalFilenames": [ "epilogue" ],
-        "SortOrder": "010325a",
-        "ChapterName": "Epilogue [Gunther]",
         "Year": 2,
         "Season": "Summer",
         "ProcessedInPartOne": true,

@@ -15,6 +15,26 @@
       "AltName": "Volume 1",
       "ProcessedInPartTwo": true
     },
+    "POVChapters": [
+      {
+        "OriginalFilenames": [ "prologue" ],
+        "SortOrder": "020100",
+        "ChapterName": "Prologue [Ferdinand]",
+        "Volume": "0201",
+        "Year": 2,
+        "Season": "Summer",
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "epilogue" ],
+        "SortOrder": "020125",
+        "ChapterName": "Epilogue [Deid]",
+        "Volume": "0201",
+        "Year": 2,
+        "Season": "Summer",
+        "ProcessedInPartTwo": true
+      }
+    ],
     "BonusChapters": [
       {
         "OriginalFilenames": [ "extra1" ],
@@ -42,15 +62,6 @@
       }
     ],
     "Chapters": [
-      {
-        "OriginalFilenames": [ "prologue" ],
-        "SortOrder": "020100",
-        "ChapterName": "Prologue [Ferdinand]",
-        "Volume": "0201",
-        "Year": 2,
-        "Season": "Summer",
-        "ProcessedInPartTwo": true
-      },
       {
         "OriginalFilenames": [ "chapter01", "insert1", "chapter01_1" ],
         "SortOrder": "020101",
@@ -266,15 +277,6 @@
         "Year": 2,
         "Season": "Summer",
         "ProcessedInPartTwo": true
-      },
-      {
-        "OriginalFilenames": [ "epilogue" ],
-        "SortOrder": "020125",
-        "ChapterName": "Epilogue [Deid]",
-        "Volume": "0201",
-        "Year": 2,
-        "Season": "Summer",
-        "ProcessedInPartTwo": true
       }
     ],
     "Afterword": {
@@ -338,7 +340,7 @@
         "LateSeason": "Autumn"
       }
     ],
-    "Chapters": [
+    "POVChapters": [
       {
         "OriginalFilenames": [ "prologue" ],
         "SortOrder": "020200",
@@ -348,6 +350,17 @@
         "Season": "Summer",
         "ProcessedInPartTwo": true
       },
+      {
+        "OriginalFilenames": [ "epilogue", "insert8", "epilogue_1" ],
+        "SortOrder": "020225",
+        "ChapterName": "Epilogue [Ferdinand]",
+        "Volume": "0202",
+        "Year": 2,
+        "Season": "Autumn",
+        "ProcessedInPartTwo": true
+      }
+    ],
+    "Chapters": [
       {
         "OriginalFilenames": [ "chapter01", "insert1", "chapter01_1" ],
         "SortOrder": "020201",
@@ -563,15 +576,6 @@
         "Year": 2,
         "Season": "Autumn",
         "ProcessedInPartTwo": true
-      },
-      {
-        "OriginalFilenames": [ "epilogue", "insert8", "epilogue_1" ],
-        "SortOrder": "020225",
-        "ChapterName": "Epilogue [Ferdinand]",
-        "Volume": "0202",
-        "Year": 2,
-        "Season": "Autumn",
-        "ProcessedInPartTwo": true
       }
     ],
     "Afterword": {
@@ -615,7 +619,6 @@
         "EarlySortOrder": "020312b",
         "LateSortOrder": "020396a",
         "ChapterName": "Lunchtime in the Temple [Damuel]",
-        "AltName": "Volume 3",
         "Volume": "0203",
         "EarlyYear": 2,
         "LateYear": 2,
@@ -628,7 +631,6 @@
         "EarlySortOrder": "020311b",
         "LateSortOrder": "020396b",
         "ChapterName": "The Title of 'Gutenberg' [Johann]",
-        "AltName": "Volume 3",
         "Volume": "0203",
         "EarlyYear": 2,
         "LateYear": 2,
@@ -637,7 +639,7 @@
         "ProcessedInPartTwo": true
       }
     ],
-    "Chapters": [
+    "POVChapters": [
       {
         "OriginalFilenames": [ "prologue" ],
         "SortOrder": "020300",
@@ -647,6 +649,17 @@
         "Season": "Autumn",
         "ProcessedInPartTwo": true
       },
+      {
+        "OriginalFilenames": [ "epilogue" ],
+        "SortOrder": "020321",
+        "ChapterName": "Epilogue [Delia]",
+        "Volume": "0203",
+        "Year": 2,
+        "Season": "Spring",
+        "ProcessedInPartTwo": true
+      }
+    ],
+    "Chapters": [
       {
         "OriginalFilenames": [ "chapter01" ],
         "SortOrder": "020301",
@@ -826,15 +839,6 @@
         "Year": 2,
         "Season": "Spring",
         "ProcessedInPartTwo": true
-      },
-      {
-        "OriginalFilenames": [ "epilogue" ],
-        "SortOrder": "020321",
-        "ChapterName": "Epilogue [Delia]",
-        "Volume": "0203",
-        "Year": 2,
-        "Season": "Spring",
-        "ProcessedInPartTwo": true
       }
     ],
     "Afterword": {
@@ -980,7 +984,7 @@
       "ProcessedInPartTwo": true,
       "PartSheet": true
     },
-    "Chapters": [
+    "POVChapters": [
       {
         "OriginalFilenames": [ "prologue" ],
         "SortOrder": "020400",
@@ -990,6 +994,17 @@
         "Volume": "0204",
         "ProcessedInPartTwo": true
       },
+      {
+        "OriginalFilenames": [ "epilogue", "insert8", "epilogue_1" ],
+        "SortOrder": "020416a",
+        "ChapterName": "Epilogue [Lutz]",
+        "Year": 2,
+        "Season": "Spring",
+        "Volume": "0204",
+        "ProcessedInPartTwo": true
+      }
+    ],
+    "Chapters": [
       {
         "OriginalFilenames": [ "chapter1" ],
         "SortOrder": "020401",
@@ -1120,15 +1135,6 @@
         "OriginalFilenames": [ "chapter15", "insert7", "chapter15_1" ],
         "SortOrder": "020415a",
         "ChapterName": "Ripped Apart",
-        "Year": 2,
-        "Season": "Spring",
-        "Volume": "0204",
-        "ProcessedInPartTwo": true
-      },
-      {
-        "OriginalFilenames": [ "epilogue", "insert8", "epilogue_1" ],
-        "SortOrder": "020416a",
-        "ChapterName": "Epilogue [Lutz]",
         "Year": 2,
         "Season": "Spring",
         "Volume": "0204",

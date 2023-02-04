@@ -35,6 +35,12 @@
     <None Update="JSON\MangaP2.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="JSON\VolumeNames.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="JSON\SideStories.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="OCR\OCRTemplate.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

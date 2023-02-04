@@ -14,7 +14,7 @@ namespace AOABO.Config
         {
             Volumes = new List<Volume>();
             ReloadVolumes();
-            using (var reader = new StreamReader("VolumeNames.json"))
+            using (var reader = new StreamReader("JSON\\VolumeNames.json"))
             {
                 DataContractJsonSerializer deserializer = new DataContractJsonSerializer(typeof(VolumeName[]));
                 VolumeNames = ((VolumeName[])deserializer.ReadObject(reader.BaseStream)).ToList();
@@ -36,13 +36,21 @@ namespace AOABO.Config
             {
                 Options = new VolumeOptions();
             }
+
+            if (File.Exists("options.json"))
+            {
+                using (var reader = new StreamReader("options.json")) {
+                    var deserializer = new DataContractJsonSerializer(typeof(VolumeOptions));
+                    Options = (VolumeOptions)deserializer.ReadObject(reader.BaseStream);
+                }
+            }
         }
 
         public static void ReloadVolumes()
         {
             DataContractJsonSerializer deserializer = new DataContractJsonSerializer(typeof(Volume[]));
             Volumes.Clear();
-            using (var reader = new StreamReader("Volumes.json"))
+            using (var reader = new StreamReader("JSON\\SideStories.json"))
             {
                 Volumes.AddRange(((Volume[])deserializer.ReadObject(reader.BaseStream)));
             }
@@ -101,6 +109,7 @@ namespace AOABO.Config
                 Console.WriteLine("a - Afterwords");
                 Console.WriteLine("b - Internal Filenames");
                 Console.WriteLine("c - Polls");
+                Console.WriteLine("d - POV Chapter Collection");
                 Console.WriteLine("Press any other key to return to main menu");
 
                 var key = Console.ReadKey();
@@ -148,6 +157,10 @@ namespace AOABO.Config
                     case 'C':
                         SetBool("Do you want to include the Character Polls?", x => Options.Polls = x);
                         break;
+                    case 'd':
+                    case 'D':
+                        SetBool("Do you want to include a collection of the POV chapters?", x => Options.Collection.POVChapterCollection = x);
+                        break;
                     default:
                         finished = true;
                         break;
@@ -158,7 +171,15 @@ namespace AOABO.Config
             {
                 File.Delete("options.txt");
             }
-            File.WriteAllText("options.txt", Options.ToString());
+            if (File.Exists("options.json"))
+            {
+                File.Delete("options.json");
+            }
+            var serializer = new DataContractJsonSerializer(typeof(VolumeOptions));
+            using (var stream = File.Open("options.json", FileMode.Create))
+            {
+                serializer.WriteObject(stream, Options);
+            }
         }
 
         private static void SetBool(string question, Action<bool> set)

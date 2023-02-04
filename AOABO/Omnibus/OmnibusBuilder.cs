@@ -344,6 +344,13 @@ namespace AOABO.Omnibus
                 chapters.Add(volume.CharacterPoll);
             }
 
+            if (Configuration.Options.Collection.POVChapterCollection)
+            {
+                chapters.AddRange(volume.BonusChapters.Select(x => x.GetCollectionChapter()).Where(filter));
+                chapters.AddRange(volume.POVChapters.Select(x => x.GetCollectionChapter()).Where(filter));
+            }
+            chapters.AddRange(volume.POVChapters.Where(filter));
+
             return chapters;
         }
     }

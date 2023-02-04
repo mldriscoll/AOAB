@@ -10,6 +10,7 @@
         public string LateSeason { get; set; }
 
         protected abstract bool IsEarly();
+        public abstract CollectionChapter GetCollectionChapter(); 
 
         protected override string GetYearsSubFolder()
         {

@@ -121,6 +121,11 @@ namespace AOABO.Config
         public GallerySetting ChapterImages { get; set; } = GallerySetting.None;
         public bool Maps { get; set; } = true;
         public bool Polls { get; set; } = true;
+        public Collections Collection { get; set; } = new Collections();
 
+        public class Collections
+        {
+            public bool POVChapterCollection { get; set; } = true;
+        }
     }
 }

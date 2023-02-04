@@ -63,7 +63,6 @@ namespace AOABO.Processor
                 }
             }
 
-            //Directory.CreateDirectory(folder + "\\text");
             int tocCounter = 0;
 
             Directory.CreateDirectory($"{folder}\\oebps\\Text");

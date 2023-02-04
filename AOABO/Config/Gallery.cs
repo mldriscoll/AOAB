@@ -84,5 +84,10 @@
         {
             return StartOfBook;
         }
+
+        public override CollectionChapter GetCollectionChapter()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

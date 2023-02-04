@@ -77,7 +77,7 @@
       "Season": "Winter",
       "ProcessedInPartFour": true
     },
-    "Chapters": [
+    "POVChapters": [
       {
         "OriginalFilenames": [ "prologue", "insert1", "prologue_1" ],
         "SortOrder": "040100",
@@ -87,6 +87,17 @@
         "Season": "Autumn",
         "ProcessedInPartFour": true
       },
+      {
+        "OriginalFilenames": [ "epilogue", "insert9", "epilogue_1" ],
+        "SortOrder": "040123",
+        "ChapterName": "Epilogue [Sylvester]",
+        "Volume": "0401",
+        "Year": 6,
+        "Season": "Winter",
+        "ProcessedInPartFour": true
+      }
+    ],
+    "Chapters": [
       {
         "OriginalFilenames": [ "chapter1" ],
         "SortOrder": "040101a",
@@ -284,15 +295,6 @@
         "Year": 6,
         "Season": "Winter",
         "ProcessedInPartFour": true
-      },
-      {
-        "OriginalFilenames": [ "epilogue", "insert9", "epilogue_1" ],
-        "SortOrder": "040123",
-        "ChapterName": "Epilogue [Sylvester]",
-        "Volume": "0401",
-        "Year": 6,
-        "Season": "Winter",
-        "ProcessedInPartFour": true
       }
     ]
   },
@@ -365,7 +367,7 @@
       "Season": "Winter",
       "ProcessedInPartFour": true
     },
-    "Chapters": [
+    "POVChapters": [
       {
         "OriginalFilenames": [ "prologue" ],
         "SortOrder": "040200",
@@ -375,6 +377,17 @@
         "Season": "Winter",
         "ProcessedInPartFour": true
       },
+      {
+        "OriginalFilenames": [ "epilogue", "insert10" ],
+        "SortOrder": "040220a",
+        "ChapterName": "Epilogue [Benno]",
+        "Volume": "0402",
+        "Year": 6,
+        "Season": "Winter",
+        "ProcessedInPartFour": true
+      }
+    ],
+    "Chapters": [
       {
         "OriginalFilenames": [ "chapter1" ],
         "SortOrder": "040201",
@@ -545,15 +558,6 @@
         "Year": 6,
         "Season": "Winter",
         "ProcessedInPartFour": true
-      },
-      {
-        "OriginalFilenames": [ "epilogue", "insert10" ],
-        "SortOrder": "040220a",
-        "ChapterName": "Epilogue [Benno]",
-        "Volume": "0402",
-        "Year": 6,
-        "Season": "Winter",
-        "ProcessedInPartFour": true
       }
     ]
   },
@@ -626,7 +630,7 @@
       "Season": "Winter",
       "ProcessedInPartFour": true
     },
-    "Chapters": [
+    "POVChapters": [
       {
         "OriginalFilenames": [ "prologue", "insert1", "prologue_1" ],
         "SortOrder": "040300",
@@ -636,6 +640,17 @@
         "Season": "Winter",
         "ProcessedInPartFour": true
       },
+      {
+        "OriginalFilenames": [ "epilogue" ],
+        "SortOrder": "040321",
+        "ChapterName": "Epilogue [Justus]",
+        "Volume": "0403",
+        "Year": 6,
+        "Season": "Winter",
+        "ProcessedInPartFour": true
+      }
+    ],
+    "Chapters": [
       {
         "OriginalFilenames": [ "chapter1" ],
         "SortOrder": "040301a",
@@ -815,15 +830,6 @@
         "Year": 6,
         "Season": "Winter",
         "ProcessedInPartFour": true
-      },
-      {
-        "OriginalFilenames": [ "epilogue" ],
-        "SortOrder": "040321",
-        "ChapterName": "Epilogue [Justus]",
-        "Volume": "0403",
-        "Year": 6,
-        "Season": "Winter",
-        "ProcessedInPartFour": true
       }
     ]
   },
@@ -896,7 +902,7 @@
       "Season": "Spring",
       "ProcessedInPartFour": true
     },
-    "Chapters": [
+    "POVChapters": [
       {
         "OriginalFilenames": [ "prologue", "insert1", "prologue_1" ],
         "SortOrder": "040400",
@@ -906,6 +912,17 @@
         "Season": "Winter",
         "ProcessedInPartFour": true
       },
+      {
+        "OriginalFilenames": [ "epilogue" ],
+        "SortOrder": "040417",
+        "ChapterName": "Epilogue [Gieselfried]",
+        "Volume": "0404",
+        "Year": 6,
+        "Season": "Spring",
+        "ProcessedInPartFour": true
+      }
+    ],
+    "Chapters": [
       {
         "OriginalFilenames": [ "chapter1" ],
         "SortOrder": "040401",
@@ -1049,15 +1066,6 @@
         "Year": 6,
         "Season": "Spring",
         "ProcessedInPartFour": true
-      },
-      {
-        "OriginalFilenames": [ "epilogue" ],
-        "SortOrder": "040417",
-        "ChapterName": "Epilogue [Gieselfried]",
-        "Volume": "0404",
-        "Year": 6,
-        "Season": "Spring",
-        "ProcessedInPartFour": true
       }
     ]
   },
@@ -1142,7 +1150,7 @@
       "Season": "Winter",
       "ProcessedInPartFour": true
     },
-    "Chapters": [
+    "POVChapters": [
       {
         "OriginalFilenames": [ "prologue", "insert1", "prologue_1" ],
         "SortOrder": "040500",
@@ -1152,6 +1160,17 @@
         "Season": "Spring",
         "ProcessedInPartFour": true
       },
+      {
+        "OriginalFilenames": [ "epilogue" ],
+        "SortOrder": "040519",
+        "ChapterName": "Epilogue [Hildebrand]",
+        "Volume": "0405",
+        "Year": 7,
+        "Season": "Winter",
+        "ProcessedInPartFour": true
+      }
+    ],
+    "Chapters": [
       {
         "OriginalFilenames": [ "chapter1" ],
         "SortOrder": "040501",
@@ -1313,15 +1332,6 @@
         "Year": 7,
         "Season": "Winter",
         "ProcessedInPartFour": true
-      },
-      {
-        "OriginalFilenames": [ "epilogue" ],
-        "SortOrder": "040519",
-        "ChapterName": "Epilogue [Hildebrand]",
-        "Volume": "0405",
-        "Year": 7,
-        "Season": "Winter",
-        "ProcessedInPartFour": true
       }
     ]
   },
@@ -1394,7 +1404,7 @@
       "Season": "Winter",
       "ProcessedInPartFour": true
     },
-    "Chapters": [
+    "POVChapters": [
       {
         "OriginalFilenames": [ "prologue" ],
         "SortOrder": "040600",
@@ -1404,6 +1414,17 @@
         "Season": "Winter",
         "ProcessedInPartFour": true
       },
+      {
+        "OriginalFilenames": [ "epilogue", "insert10", "epilogue_1" ],
+        "SortOrder": "040620",
+        "ChapterName": "Epilogue [Sylvester]",
+        "Volume": "0406",
+        "Year": 7,
+        "Season": "Winter",
+        "ProcessedInPartFour": true
+      }
+    ],
+    "Chapters": [
       {
         "OriginalFilenames": [ "chapter1", "insert1", "chapter1_1" ],
         "SortOrder": "040601",
@@ -1574,15 +1595,6 @@
         "Year": 7,
         "Season": "Winter",
         "ProcessedInPartFour": true
-      },
-      {
-        "OriginalFilenames": [ "epilogue", "insert10", "epilogue_1" ],
-        "SortOrder": "040620",
-        "ChapterName": "Epilogue [Sylvester]",
-        "Volume": "0406",
-        "Year": 7,
-        "Season": "Winter",
-        "ProcessedInPartFour": true
       }
     ]
   },
@@ -1655,7 +1667,7 @@
       "Season": "Winter",
       "ProcessedInPartFour": true
     },
-    "Chapters": [
+    "POVChapters": [
       {
         "OriginalFilenames": [ "prologue", "insert1", "prologue_1" ],
         "SortOrder": "040700",
@@ -1665,6 +1677,17 @@
         "Season": "Winter",
         "ProcessedInPartFour": true
       },
+      {
+        "OriginalFilenames": [ "epilogue" ],
+        "SortOrder": "040719",
+        "ChapterName": "Epilogue [Eglantine]",
+        "Volume": "0407",
+        "Year": 7,
+        "Season": "Winter",
+        "ProcessedInPartFour": true
+      }
+    ],
+    "Chapters": [
       {
         "OriginalFilenames": [ "chapter1" ],
         "SortOrder": "040701a",
@@ -1826,15 +1849,6 @@
         "Year": 7,
         "Season": "Winter",
         "ProcessedInPartFour": true
-      },
-      {
-        "OriginalFilenames": [ "epilogue" ],
-        "SortOrder": "040719",
-        "ChapterName": "Epilogue [Eglantine]",
-        "Volume": "0407",
-        "Year": 7,
-        "Season": "Winter",
-        "ProcessedInPartFour": true
       }
     ]
   },
@@ -1907,7 +1921,7 @@
       "Season": "Summer",
       "ProcessedInPartFour": true
     },
-    "Chapters": [
+    "POVChapters": [
       {
         "OriginalFilenames": [ "prologue" ],
         "SortOrder": "040800",
@@ -1917,6 +1931,17 @@
         "Season": "Winter",
         "ProcessedInPartFour": true
       },
+      {
+        "OriginalFilenames": [ "epilogue", "insert10" ],
+        "SortOrder": "040821",
+        "ChapterName": "Epilogue [Detlinde]",
+        "Volume": "0408",
+        "Year": 8,
+        "Season": "Summer",
+        "ProcessedInPartFour": true
+      }
+    ],
+    "Chapters": [
       {
         "OriginalFilenames": [ "chapter1" ],
         "SortOrder": "040801",
@@ -2096,15 +2121,6 @@
         "Year": 8,
         "Season": "Summer",
         "ProcessedInPartFour": true
-      },
-      {
-        "OriginalFilenames": [ "epilogue", "insert10" ],
-        "SortOrder": "040821",
-        "ChapterName": "Epilogue [Detlinde]",
-        "Volume": "0408",
-        "Year": 8,
-        "Season": "Summer",
-        "ProcessedInPartFour": true
       }
     ]
   },
@@ -2231,7 +2247,7 @@
       "Season": "Winter",
       "ProcessedInPartFour": true
     },
-    "Chapters": [
+    "POVChapters": [
       {
         "OriginalFilenames": [ "prologue", "insert1", "prologue_1" ],
         "SortOrder": "040900",
@@ -2241,6 +2257,17 @@
         "Season": "Summer",
         "ProcessedInPartFour": true
       },
+      {
+        "OriginalFilenames": [ "epilogue", "insert8" ],
+        "SortOrder": "040915a",
+        "ChapterName": "Epilogue [Ferdinand]",
+        "Volume": "0409",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFour": true
+      }
+    ],
+    "Chapters": [
       {
         "OriginalFilenames": [ "chapter1", "insert2", "chapter1_1" ],
         "SortOrder": "040901",
@@ -2362,15 +2389,6 @@
         "OriginalFilenames": [ "chapter14" ],
         "SortOrder": "040914a",
         "ChapterName": "Separation",
-        "Volume": "0409",
-        "Year": 8,
-        "Season": "Winter",
-        "ProcessedInPartFour": true
-      },
-      {
-        "OriginalFilenames": [ "epilogue", "insert8" ],
-        "SortOrder": "040915a",
-        "ChapterName": "Epilogue [Ferdinand]",
         "Volume": "0409",
         "Year": 8,
         "Season": "Winter",
