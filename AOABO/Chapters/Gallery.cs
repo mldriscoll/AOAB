@@ -1,13 +1,13 @@
-﻿namespace AOABO.Config
+﻿namespace AOABO.Chapters
 {
     public class Gallery : MoveableChapter
     {
-        public List<string> SplashImages { get; set; }
-        public List<string> ChapterImages { get; set; }
+        public List<string> SplashImages { get; set; } = new List<string>();
+        public List<string> ChapterImages { get; set; } = new List<string>();
 
         private bool StartOfBook = false;
 
-        public Gallery GetChapter(bool startOfBook, bool splashImages, bool chapterImages)
+        public Gallery? GetChapter(bool startOfBook, bool splashImages, bool chapterImages)
         {
             if (!splashImages && !chapterImages)
             {
@@ -76,7 +76,7 @@
         {
             if (StartOfBook)
                 return base.GetYearsSubFolder();
-            else 
+            else
                 return $"{base.GetYearsSubFolder()}\\{Volume}xx-{getVolumeName()} Bonus";
         }
 

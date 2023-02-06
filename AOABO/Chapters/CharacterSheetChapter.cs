@@ -1,4 +1,6 @@
-﻿namespace AOABO.Config
+﻿using AOABO.Chapters;
+
+namespace AOABO.Config
 {
     public class CharacterSheetChapter : Chapter
     {
@@ -12,7 +14,7 @@
                 return base.GetFlatSubFolder();
             }
             SortOrder = SortOrder.Substring(0, 2);
-            return "02-Characters";
+            return Configuration.FolderNames["CharacterSheets"];
         }
 
         protected override string GetYearsSubFolder()
@@ -22,7 +24,7 @@
                 return base.GetYearsSubFolder();
             }
             SortOrder = SortOrder.Substring(0, 2);
-            return "02-Characters";
+            return Configuration.FolderNames["CharacterSheets"];
         }
 
         protected override string GetPartSubFolder()

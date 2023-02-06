@@ -1,4 +1,6 @@
-﻿namespace AOABO.Config
+﻿using AOABO.Config;
+
+namespace AOABO.Chapters
 {
     public class Map : Chapter
     {

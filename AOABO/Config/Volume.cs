@@ -1,8 +1,10 @@
-﻿namespace AOABO.Config
+﻿using AOABO.Chapters;
+
+namespace AOABO.Config
 {
     public class Volume
     {
-        public string InternalName { get; set; }
+        public string InternalName { get; set; } = string.Empty;
 
         public override string ToString()
         {
@@ -119,16 +121,16 @@
 
         public List<BonusChapter> BonusChapters { get; set; } = new List<BonusChapter>();
 
-        public ComfyLifeChapter ComfyLifeChapter { get; set; }
+        public ComfyLifeChapter? ComfyLifeChapter { get; set; }
 
-        public Afterword Afterword { get; set; }
+        public Afterword? Afterword { get; set; }
 
-        public Gallery Gallery { get; set; }
+        public Gallery Gallery { get; set; } = new Gallery();
 
-        public CharacterSheetChapter CharacterSheet { get; set; }
+        public CharacterSheetChapter? CharacterSheet { get; set; }
 
         public List<Map> Maps { get; set; } = new List<Map>();
 
-        public CharacterPoll CharacterPoll { get; set; }
+        public CharacterPoll? CharacterPoll { get; set; }
     }
 }

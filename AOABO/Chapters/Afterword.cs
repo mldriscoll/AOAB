@@ -1,10 +1,12 @@
-﻿namespace AOABO.Config
+﻿using AOABO.Config;
+
+namespace AOABO.Chapters
 {
-    public class ComfyLifeChapter : Chapter
+    public class Afterword : Chapter
     {
         protected override string GetFlatSubFolder()
         {
-            return "05-A Comfy Life with my Family";
+            return Configuration.FolderNames["Afterwords"];
         }
 
         protected override string GetPartSubFolder()
@@ -12,7 +14,7 @@
             if (Configuration.Options.ComfyLifeChapters == ComfyLifeSetting.OmnibusEnd)
                 return GetFlatSubFolder();
 
-            return $"{base.GetPartSubFolder()}\\{Volume}xx-{getVolumeName()} Bonus";
+            return $"{base.GetPartSubFolder()}\\{Volume}xx-{getVolumeName()} {Configuration.FolderNames["VolumeBonusChapters"]}";
         }
 
         protected override string GetVolumeSubFolder()
@@ -20,7 +22,7 @@
             if (Configuration.Options.ComfyLifeChapters == ComfyLifeSetting.OmnibusEnd)
                 return GetFlatSubFolder();
 
-            return $"{base.GetVolumeSubFolder()}\\{Volume}xx-{getVolumeName()} Bonus";
+            return $"{base.GetVolumeSubFolder()}\\{Volume}xx-{getVolumeName()} {Configuration.FolderNames["VolumeBonusChapters"]}";
         }
 
         protected override string GetYearsSubFolder()
@@ -28,8 +30,7 @@
             if (Configuration.Options.ComfyLifeChapters == ComfyLifeSetting.OmnibusEnd)
                 return GetFlatSubFolder();
 
-            return $"{base.GetYearsSubFolder()}\\{Volume}xx-{getVolumeName()} Bonus";
+            return $"{base.GetYearsSubFolder()}\\{Volume}xx-{getVolumeName()} {Configuration.FolderNames["VolumeBonusChapters"]}";
         }
     }
-
 }

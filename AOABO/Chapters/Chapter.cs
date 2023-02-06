@@ -1,15 +1,16 @@
-﻿using AOABO.Omnibus;
+﻿using AOABO.Config;
+using AOABO.Omnibus;
 
-namespace AOABO.Config
+namespace AOABO.Chapters
 {
     public class Chapter
     {
         public List<string> OriginalFilenames { get; set; } = new List<string>();
-        public string ChapterName { get; set; }
-        public string AltName { get; set; }
-        public string SortOrder { get; set; }
-        public int? Year { get; set; }
-        public string Season { get; set; }
+        public string ChapterName { get; set; } = String.Empty;
+        public string AltName { get; set; } = String.Empty;
+        public string SortOrder { get; set; } = String.Empty;
+        public int Year { get; set; } = 0;
+        public string Season { get; set; } = String.Empty;
         public string Volume { get; set; } = string.Empty;
 
         public string GetSubFolder(OutputStructure structure)
@@ -114,7 +115,7 @@ namespace AOABO.Config
         public bool ProcessedInPartFour { get; set; } = false;
         public bool ProcessedInPartFive { get; set; } = false;
         public bool ProcessedInFanbooks { get; set; } = false;
-        public OCRSettings OCR { get; set; }
+        public OCRSettings? OCR { get; set; }
 
         public Chapter Copy()
         {

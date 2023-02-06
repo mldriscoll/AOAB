@@ -1,4 +1,4 @@
-﻿namespace AOABO.Config
+﻿namespace AOABO.Chapters
 {
     public class POVChapter : MoveableChapter
     {

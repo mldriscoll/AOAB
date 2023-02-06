@@ -1,25 +1,27 @@
-﻿namespace AOABO.Config
+﻿using AOABO.Config;
+
+namespace AOABO.Chapters
 {
     public class CharacterPoll : Chapter
     {
         protected override string GetFlatSubFolder()
         {
-            return "CP-Character Polls";
+            return Configuration.FolderNames["CharacterPolls"];
         }
 
         protected override string GetPartSubFolder()
         {
-            return "CP-Character Polls";
+            return Configuration.FolderNames["CharacterPolls"];
         }
 
         protected override string GetVolumeSubFolder()
         {
-            return "CP-Character Polls";
+            return Configuration.FolderNames["CharacterPolls"];
         }
 
         protected override string GetYearsSubFolder()
         {
-            return "CP-Character Polls";
+            return Configuration.FolderNames["CharacterPolls"];
         }
     }
 

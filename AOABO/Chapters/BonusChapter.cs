@@ -1,4 +1,6 @@
-﻿namespace AOABO.Config
+﻿using AOABO.Config;
+
+namespace AOABO.Chapters
 {
     public class BonusChapter : MoveableChapter
     {
@@ -35,7 +37,7 @@
             SortOrder = IsEarly() ? EarlySortOrder : LateSortOrder;
 
             if (Configuration.Options.BonusChapterSetting == BonusChapterSetting.EndOfBook)
-                return $"{base.GetPartSubFolder()}\\{Volume}xx-{getVolumeName()} Bonus";
+                return $"{base.GetPartSubFolder()}\\{Volume}xx-{getVolumeName()} {Configuration.FolderNames["VolumeBonusChapters"]}";
             else
                 return base.GetPartSubFolder();
         }
@@ -45,7 +47,7 @@
             SortOrder = IsEarly() ? EarlySortOrder : LateSortOrder;
 
             if (Configuration.Options.BonusChapterSetting == BonusChapterSetting.EndOfBook)
-                return $"{base.GetVolumeSubFolder()}\\{Volume}xx-{getVolumeName()} Bonus";
+                return $"{base.GetVolumeSubFolder()}\\{Volume}xx-{getVolumeName()} {Configuration.FolderNames["VolumeBonusChapters"]}";
             else
                 return base.GetVolumeSubFolder();
         }
@@ -55,7 +57,7 @@
             SortOrder = IsEarly() ? EarlySortOrder : LateSortOrder;
 
             if (Configuration.Options.BonusChapterSetting == BonusChapterSetting.EndOfBook)
-                return $"{base.GetYearsSubFolder()}\\{Volume}xx-{getVolumeName()} Bonus";
+                return $"{base.GetYearsSubFolder()}\\{Volume}xx-{getVolumeName()} {Configuration.FolderNames["VolumeBonusChapters"]}";
             else
                 return base.GetYearsSubFolder();
         }

@@ -1,4 +1,6 @@
-﻿namespace AOABO.Config
+﻿using AOABO.Config;
+
+namespace AOABO.Chapters
 {
     public class CollectionChapter : Chapter
     {
@@ -28,7 +30,7 @@
             switch (Gallery)
             {
                 case CollectionEnum.POVGallery:
-                    return "05-POV Chapters";
+                    return Configuration.FolderNames["POVGallery"];
                 default:
                     throw new Exception($"GalleryChapter Unknown Gallery Type {Gallery}");
             }
