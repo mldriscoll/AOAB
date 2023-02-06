@@ -6,11 +6,10 @@ namespace AOABO.Chapters
     public class Chapter
     {
         public List<string> OriginalFilenames { get; set; } = new List<string>();
-        public string ChapterName { get; set; } = String.Empty;
-        public string AltName { get; set; } = String.Empty;
-        public string SortOrder { get; set; } = String.Empty;
+        public string ChapterName { get; set; } = string.Empty;
+        public string SortOrder { get; set; } = string.Empty;
         public int Year { get; set; } = 0;
-        public string Season { get; set; } = String.Empty;
+        public string Season { get; set; } = string.Empty;
         public string Volume { get; set; } = string.Empty;
 
         public string GetSubFolder(OutputStructure structure)
@@ -116,24 +115,6 @@ namespace AOABO.Chapters
         public bool ProcessedInPartFive { get; set; } = false;
         public bool ProcessedInFanbooks { get; set; } = false;
         public OCRSettings? OCR { get; set; }
-
-        public Chapter Copy()
-        {
-            return new Chapter
-            {
-                OriginalFilenames = OriginalFilenames.ToList(),
-                AltName = AltName,
-                ChapterName = ChapterName,
-                OCR = OCR,
-                ProcessedInPartFive = ProcessedInPartFive,
-                ProcessedInPartFour = ProcessedInPartFour,
-                ProcessedInPartOne = ProcessedInPartOne,
-                ProcessedInPartThree = ProcessedInPartThree,
-                ProcessedInPartTwo = ProcessedInPartTwo,
-                SortOrder = SortOrder,
-                Year = Year,
-            };
-        }
 
         public void RemoveInserts()
         {

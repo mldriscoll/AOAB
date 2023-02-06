@@ -125,7 +125,7 @@ namespace AOABO.Config
 
         public Afterword? Afterword { get; set; }
 
-        public Gallery Gallery { get; set; } = new Gallery();
+        public Gallery? Gallery { get; set; }
 
         public CharacterSheetChapter? CharacterSheet { get; set; }
 

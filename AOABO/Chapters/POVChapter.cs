@@ -11,7 +11,6 @@
         {
             return new CollectionChapter
             {
-                AltName = AltName,
                 ChapterName = ChapterName,
                 OriginalFilenames = OriginalFilenames,
                 Season = Season,

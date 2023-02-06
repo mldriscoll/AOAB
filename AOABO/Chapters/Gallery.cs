@@ -1,9 +1,13 @@
-﻿namespace AOABO.Chapters
+﻿using AOABO.Config;
+using AOABO.Omnibus;
+
+namespace AOABO.Chapters
 {
     public class Gallery : MoveableChapter
     {
         public List<string> SplashImages { get; set; } = new List<string>();
         public List<string> ChapterImages { get; set; } = new List<string>();
+        public string AltName { get; set; } = string.Empty;
 
         private bool StartOfBook = false;
 
@@ -21,8 +25,7 @@
                 Season = startOfBook ? EarlySeason : LateSeason,
                 StartOfBook = startOfBook,
                 Volume = Volume,
-                AltName = AltName,
-                ChapterName = ChapterName,
+                ChapterName = (Configuration.Options.OutputStructure == OutputStructure.Volumes ? AltName ?? ChapterName : ChapterName),
                 EarlySeason = EarlySeason,
                 EarlyYear = EarlyYear,
                 LateSeason = LateSeason,

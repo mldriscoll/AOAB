@@ -183,7 +183,7 @@ namespace AOABO.Omnibus
                         {
                             Contents = string.Empty,
                             CssFiles = new List<string>(),
-                            Name = (Configuration.Options.OutputStructure == OutputStructure.Volumes ? chapter.AltName ?? chapter.ChapterName : chapter.ChapterName) + ".xhtml",
+                            Name = chapter.ChapterName + ".xhtml",
                             SubFolder = folder.MakeFolder(chapter.GetSubFolder(Configuration.Options.OutputStructure), Configuration.Options.StartYear, chapter.Year)
                         };
                         newChapter.SortOrder = chapter.SortOrder;
