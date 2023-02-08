@@ -268,7 +268,7 @@ namespace AOABO.Omnibus
             outProcessor.Metadata.Add("<dc:publisher>J-Novel Club</dc:publisher>");
             outProcessor.Metadata.Add("<dc:identifier id=\"pub-id\">1</dc:identifier>");
 
-            outProcessor.FullOutput(false, Configuration.Options.UseHumanReadableFileStructure, bookTitle);
+            outProcessor.FullOutput(false, Configuration.Options.UseHumanReadableFileStructure, bookTitle, Configuration.Options.Image.MaxWidth, Configuration.Options.Image.MaxHeight, Configuration.Options.Image.Quality);
 
             if (Directory.Exists("inputtemp")) Directory.Delete("inputtemp", true);
 
@@ -281,7 +281,7 @@ namespace AOABO.Omnibus
             List<Chapter> chapters = new List<Chapter>();
             if (Configuration.Options.IncludeRegularChapters)
             {
-                if (!Configuration.Options.IncludeImagesInChapters)
+                if (!Configuration.Options.Image.IncludeImagesInChapters)
                 {
                     volume.Chapters.ForEach(x => x.RemoveInserts());
                 }
@@ -290,14 +290,14 @@ namespace AOABO.Omnibus
 
             if (volume.Gallery != null && filter(volume.Gallery))
             {
-                var startGallery = volume.Gallery.GetChapter(true, Configuration.Options.SplashImages == GallerySetting.Start, Configuration.Options.ChapterImages == GallerySetting.Start);
+                var startGallery = volume.Gallery.GetChapter(true, Configuration.Options.Image.SplashImages == GallerySetting.Start, Configuration.Options.Image.ChapterImages == GallerySetting.Start);
                 if (startGallery != null) chapters.Add(startGallery);
 
-                var endGallery = volume.Gallery.GetChapter(false, Configuration.Options.SplashImages == GallerySetting.End, Configuration.Options.ChapterImages == GallerySetting.End);
+                var endGallery = volume.Gallery.GetChapter(false, Configuration.Options.Image.SplashImages == GallerySetting.End, Configuration.Options.Image.ChapterImages == GallerySetting.End);
                 if (endGallery != null) chapters.Add(endGallery);
             }
 
-            if (!Configuration.Options.IncludeImagesInChapters)
+            if (!Configuration.Options.Image.IncludeImagesInChapters)
             {
                 volume.BonusChapters.ForEach(x => x.RemoveInserts());
             }

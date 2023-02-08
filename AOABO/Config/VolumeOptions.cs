@@ -1,4 +1,5 @@
 ﻿using AOABO.Omnibus;
+using System.Text.Json.Serialization;
 
 namespace AOABO.Config
 {
@@ -97,14 +98,6 @@ namespace AOABO.Config
             return (T)Enum.Parse(typeof(T), str);
         }
 
-        public override string ToString()
-        {
-            return $"{UpdateChapterNames}\r\n{BonusChapterSetting}\r\n{OutputStructure}\r\n{StartYear}\r\n{OutputYearFormat}" +
-                $"\r\n{AfterwordSetting}\r\n{IncludeRegularChapters}\r\n{IncludeImagesInChapters}" +
-                $"\r\n{UseHumanReadableFileStructure}\r\n{MangaChapters}\r\n{ComfyLifeChapters}\r\n" +
-                $"{CharacterSheets}\r\n{Maps}\r\n{SplashImages}\r\n{ChapterImages}\r\n{Polls}";
-        }
-
         public bool UpdateChapterNames { get; set; } = false;
         public BonusChapterSetting BonusChapterSetting { get; set; } = BonusChapterSetting.Chronological;
         public OutputStructure OutputStructure { get; set; } = OutputStructure.Volumes;
@@ -112,20 +105,92 @@ namespace AOABO.Config
         public int OutputYearFormat { get; set; } = 0;
         public AfterwordSetting AfterwordSetting { get; set; } = AfterwordSetting.OmnibusEnd;
         public bool IncludeRegularChapters { get; set; } = true;
-        public bool IncludeImagesInChapters { get; set; } = true;
+        [JsonIgnore]
+        public bool IncludeImagesInChapters { set { Image.IncludeImagesInChapters = value; } }
         public bool UseHumanReadableFileStructure { get; set; } = false;
         public BonusChapterSetting MangaChapters { get; set; } = BonusChapterSetting.Chronological;
         public ComfyLifeSetting ComfyLifeChapters { get; set; } = ComfyLifeSetting.VolumeEnd;
         public CharacterSheets CharacterSheets { get; set; } = CharacterSheets.PerPart;
-        public GallerySetting SplashImages { get; set; } = GallerySetting.Start;
-        public GallerySetting ChapterImages { get; set; } = GallerySetting.None;
+        [JsonIgnore]
+        public GallerySetting SplashImages { set { Image.SplashImages = value; } }
+        [JsonIgnore]
+        public GallerySetting ChapterImages { set { Image.ChapterImages = value; } }
         public bool Maps { get; set; } = true;
         public bool Polls { get; set; } = true;
         public Collections Collection { get; set; } = new Collections();
+        public Images Image { get; set; } = new Images();
 
         public class Collections
         {
             public bool POVChapterCollection { get; set; } = true;
+        }
+
+        public class Images
+        {
+            public int? MaxHeight { get; set; }
+            [JsonIgnore]
+            public string MaxHeightSetting
+            {
+                get
+                {
+                    if (MaxHeight.HasValue)
+                    {
+                        return $"{MaxHeight.Value} pixels";
+                    }
+                    return "No limit set";
+                }
+            }
+            public int? MaxWidth { get; set; }
+            [JsonIgnore]
+            public string MaxWidthSetting
+            {
+                get
+                {
+                    if (MaxWidth.HasValue)
+                    {
+                        return $"{MaxWidth.Value} pixels";
+                    }
+                    return "No limit set";
+                }
+            }
+            public bool IncludeImagesInChapters { get; set; } = true;
+            [JsonIgnore]
+            public string IncludeImagesInChaptersSetting { get
+                {
+                    return IncludeImagesInChapters ? "Included" : "Excluded";
+                } }
+            public int Quality { get; set; } = 90;
+            public GallerySetting SplashImages { get; set; } = GallerySetting.Start;
+            [JsonIgnore]
+            public string SplashImagesSetting { get
+                {
+                    switch (SplashImages)
+                    {
+                        case GallerySetting.Start:
+                            return "at start of each volume";
+                        case GallerySetting.End:
+                            return "at end of each volume";
+                    }
+
+                    return "no Gallery";
+                } }
+            public GallerySetting ChapterImages { get; set; } = GallerySetting.None;
+            [JsonIgnore]
+            public string ChapterImagesSetting
+            {
+                get
+                {
+                    switch (ChapterImages)
+                    {
+                        case GallerySetting.Start:
+                            return "at start of each volume";
+                        case GallerySetting.End:
+                            return "at end of each volume";
+                    }
+
+                    return "no Gallery";
+                }
+            }
         }
     }
 }

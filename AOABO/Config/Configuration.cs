@@ -100,16 +100,15 @@ namespace AOABO.Config
                 Console.WriteLine("1 - Bonus Chapter Placement");
                 Console.WriteLine("2 - Exclude Regular Chapters");
                 Console.WriteLine("3 - Chapter Headers");
-                Console.WriteLine("4 - Chapter Inserts");
-                Console.WriteLine("5 - Galleries");
-                Console.WriteLine("6 - Manga Chapters");
-                Console.WriteLine("7 - Comfy Life Strips");
-                Console.WriteLine("8 - Character Sheets");
-                Console.WriteLine("9 - Maps");
-                Console.WriteLine("a - Afterwords");
-                Console.WriteLine("b - Internal Filenames");
-                Console.WriteLine("c - Polls");
-                Console.WriteLine("d - POV Chapter Collection");
+                Console.WriteLine("4 - Image Settings");
+                Console.WriteLine("5 - Manga Chapters");
+                Console.WriteLine("6 - Comfy Life Strips");
+                Console.WriteLine("7 - Character Sheets");
+                Console.WriteLine("8 - Maps");
+                Console.WriteLine("9 - Afterwords");
+                Console.WriteLine("a - Internal Filenames");
+                Console.WriteLine("b - Polls");
+                Console.WriteLine("c - POV Chapter Collection");
                 Console.WriteLine("Press any other key to return to main menu");
 
                 var key = Console.ReadKey();
@@ -128,37 +127,33 @@ namespace AOABO.Config
                         SetChapterHeaders();
                         break;
                     case '4':
-                        SetChapterInserts();
+                        SetImageSettings();
                         break;
                     case '5':
-                        SetGallery();
-                        break;
-                    case '6':
                         SetMangaChapters();
                         break;
-                    case '7':
+                    case '6':
                         SetComfyLifeChapters();
                         break;
-                    case '8':
+                    case '7':
                         SetCharacterSheets();
                         break;
-                    case '9':
+                    case '8':
                         SetMaps();
+                        break;
+                    case '9':
+                        SetAfterwords();
                         break;
                     case 'a':
                     case 'A':
-                        SetAfterwords();
+                        SetFilenames();
                         break;
                     case 'b':
                     case 'B':
-                        SetFilenames();
+                        SetBool("Do you want to include the Character Polls?", x => Options.Polls = x);
                         break;
                     case 'c':
                     case 'C':
-                        SetBool("Do you want to include the Character Polls?", x => Options.Polls = x);
-                        break;
-                    case 'd':
-                    case 'D':
                         SetBool("Do you want to include a collection of the POV chapters?", x => Options.Collection.POVChapterCollection = x);
                         break;
                     default:
@@ -197,6 +192,41 @@ namespace AOABO.Config
             }
         }
 
+        private static void SetNullableInt(string question, string intQuestion, Action<int?> set, int? min, int? max)
+        {
+            Console.WriteLine();
+            Console.WriteLine($"{question} Y/N");
+            var key = Console.ReadKey();
+            switch (key.KeyChar)
+            {
+                case 'y':
+                case 'Y':
+                    SetInt(intQuestion, x => set(x), min, max);
+                    break;
+                default:
+                    set(null);
+                    break;
+            }
+        }
+
+        private static void SetInt(string question, Action<int> set, int? min, int? max)
+        {
+            while (true)
+            {
+                Console.WriteLine();
+                Console.WriteLine($"{question}");
+                var str = Console.ReadLine();
+                if (int.TryParse(str, out var value))
+                {
+                    if ((!min.HasValue || min <= value) && (!max.HasValue || max >= value))
+                    {
+                        set(value);
+                        break;
+                    }
+                }
+            }
+        }
+
         private static void SetMaps()
         {
             Console.WriteLine();
@@ -228,41 +258,6 @@ namespace AOABO.Config
                     break;
                 case '2':
                     Options.CharacterSheets = CharacterSheets.None;
-                    break;
-            }
-        }
-        private static void SetGallery()
-        {
-            Console.WriteLine();
-            Console.WriteLine("Which gallery do you want Bonus Images to be included in?");
-            Console.WriteLine("0 - The Start of each Volume.");
-            Console.WriteLine("1 - The End of each Volume.");
-            Console.WriteLine("2 - None");
-            Options.SplashImages = GallerySetting.Start;
-            var key = Console.ReadKey();
-            switch (key.KeyChar)
-            {
-                case '1':
-                    Options.SplashImages = GallerySetting.End;
-                    break;
-                case '2':
-                    Options.SplashImages = GallerySetting.None;
-                    break;
-            }
-            Console.WriteLine();
-            Console.WriteLine("Which gallery do you want Chapter Images to be included in?");
-            Console.WriteLine("0 - The Start of each Volume.");
-            Console.WriteLine("1 - The End of each Volume.");
-            Console.WriteLine("2 - None");
-            Options.ChapterImages = GallerySetting.Start;
-            key = Console.ReadKey();
-            switch (key.KeyChar)
-            {
-                case '1':
-                    Options.ChapterImages = GallerySetting.End;
-                    break;
-                case '2':
-                    Options.ChapterImages = GallerySetting.None;
                     break;
             }
         }
@@ -316,18 +311,71 @@ namespace AOABO.Config
             }
         }
 
-        private static void SetChapterInserts()
+        private static void SetImageSettings()
         {
-            Console.WriteLine();
-            Options.IncludeImagesInChapters = true;
-            Console.WriteLine("Exclude Chapter Insert Images Y/N?");
-            var key = Console.ReadKey();
-            switch (key.KeyChar)
+            while (true)
             {
-                case 'y':
-                case 'Y':
-                    Options.IncludeImagesInChapters = false;
-                    break;
+                Console.Clear();
+                Console.WriteLine($"0 - Include/Exclude Chapter Inserts (Currently {Options.Image.IncludeImagesInChaptersSetting})");
+                Console.WriteLine($"1 - Bonus Image Gallery (Currently {Options.Image.SplashImagesSetting})");
+                Console.WriteLine($"2 - Chapter Insert Gallery (Currently {Options.Image.ChapterImagesSetting})");
+                Console.WriteLine($"3 - Set Maximum Image Width (Currently {Options.Image.MaxWidthSetting})");
+                Console.WriteLine($"4 - Set Maximum Image Height (Currently {Options.Image.MaxHeightSetting})");
+                Console.WriteLine($"5 - Set Resized Image Quality (Currently {Options.Image.Quality})");
+                var key = Console.ReadKey();
+                switch (key.KeyChar)
+                {
+                    case '0':
+                        SetBool("Include Chapter Insert Images", x => Options.Image.IncludeImagesInChapters = x);
+                        break;
+                    case '1':
+                        Console.WriteLine();
+                        Console.WriteLine("Which gallery do you want Bonus Images to be included in?");
+                        Console.WriteLine("0 - The Start of each Volume.");
+                        Console.WriteLine("1 - The End of each Volume.");
+                        Console.WriteLine("2 - None");
+                        Options.SplashImages = GallerySetting.Start;
+                        key = Console.ReadKey();
+                        switch (key.KeyChar)
+                        {
+                            case '1':
+                                Options.SplashImages = GallerySetting.End;
+                                break;
+                            case '2':
+                                Options.SplashImages = GallerySetting.None;
+                                break;
+                        }
+                        break;
+                    case '2':
+                        Console.WriteLine();
+                        Console.WriteLine("Which gallery do you want Chapter Inserts to be included in?");
+                        Console.WriteLine("0 - The Start of each Volume.");
+                        Console.WriteLine("1 - The End of each Volume.");
+                        Console.WriteLine("2 - None");
+                        Options.ChapterImages = GallerySetting.Start;
+                        key = Console.ReadKey();
+                        switch (key.KeyChar)
+                        {
+                            case '1':
+                                Options.ChapterImages = GallerySetting.End;
+                                break;
+                            case '2':
+                                Options.ChapterImages = GallerySetting.None;
+                                break;
+                        }
+                        break;
+                    case '3':
+                        SetNullableInt("Do you want to enforce a maximum image width?", "How many pixels wide should the limit be?", x => Options.Image.MaxWidth = x, 1, null);
+                        break;
+                    case '4':
+                        SetNullableInt("Do you want to enforce a maximum image height?", "How many pixels tall should the limit be?", x => Options.Image.MaxHeight = x, 1, null);
+                        break;
+                    case '5':
+                        SetInt("Pick a new Image Quality (1-100, higher numbers produce better images and larger file sizes)", x => Options.Image.Quality = x, 1, 100);
+                        break;
+                    default:
+                        return;
+                }
             }
         }
 

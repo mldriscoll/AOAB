@@ -1,4 +1,5 @@
 ﻿using AOABO.Omnibus;
+using ImageProcessor;
 using System.IO.Compression;
 using System.Text.RegularExpressions;
 
@@ -14,7 +15,7 @@ namespace AOABO.Processor
         public string baseSortOrder;
         public string baseFolder;
 
-        public void FullOutput(bool textOnly, bool humanReadable, string name = null)
+        public void FullOutput(bool textOnly, bool humanReadable, string name = null, int? maxX = null, int? maxY = null, int imageQuality = 90)
         {
             var folder = $"{baseFolder}\\temp";
             if (Directory.Exists(folder)) Directory.Delete(folder, true);
@@ -58,7 +59,39 @@ namespace AOABO.Processor
 
                 foreach (var im in Images.Where(x => x.Referenced))
                 {
-                    File.Copy(im.OldLocation, folder + "\\oebps\\images\\" + im.Name);
+                    if (maxX.HasValue || maxY.HasValue)
+                    {
+                        var scale = 1m;
+                        var ifac = new ImageFactory();
+                        ifac.Load(im.OldLocation);
+
+                        if (maxX.HasValue && ifac.Image.Width > maxX)
+                        {
+                            scale = (decimal)ifac.Image.Width / (decimal)maxX.Value;
+                        }
+
+                        if (maxY.HasValue && ifac.Image.Height > maxY)
+                        {
+                            var yScale = (decimal)ifac.Image.Height / (decimal)maxY.Value;
+
+                            scale = scale > yScale ? scale : yScale;
+                        }
+
+                        if (scale > 1)
+                        {
+                            ifac.Resize(new System.Drawing.Size((int)(ifac.Image.Width / scale), (int)(ifac.Image.Height / scale)));
+                            ifac.Quality(imageQuality);
+                            ifac.Save(folder + "\\oebps\\images\\" + im.Name);
+                        }
+                        else
+                        {
+                            File.Copy(im.OldLocation, folder + "\\oebps\\images\\" + im.Name);
+                        }
+                    }
+                    else
+                    {
+                        File.Copy(im.OldLocation, folder + "\\oebps\\images\\" + im.Name);
+                    }
                     manifest.Add($"    <item id={"\""}im{Images.IndexOf(im)}{"\""} href={"\""}images/{im.Name}{"\""} media-type={"\""}image/jpeg{"\""}/>");
                 }
             }
