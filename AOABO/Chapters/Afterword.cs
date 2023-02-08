@@ -11,7 +11,7 @@ namespace AOABO.Chapters
 
         protected override string GetPartSubFolder()
         {
-            if (Configuration.Options.ComfyLifeChapters == ComfyLifeSetting.OmnibusEnd)
+            if (Configuration.Options.Extras.ComfyLifeChapters == ComfyLifeSetting.OmnibusEnd)
                 return GetFlatSubFolder();
 
             return $"{base.GetPartSubFolder()}\\{Volume}xx-{getVolumeName()} {Configuration.FolderNames["VolumeBonusChapters"]}";
@@ -19,7 +19,7 @@ namespace AOABO.Chapters
 
         protected override string GetVolumeSubFolder()
         {
-            if (Configuration.Options.ComfyLifeChapters == ComfyLifeSetting.OmnibusEnd)
+            if (Configuration.Options.Extras.ComfyLifeChapters == ComfyLifeSetting.OmnibusEnd)
                 return GetFlatSubFolder();
 
             return $"{base.GetVolumeSubFolder()}\\{Volume}xx-{getVolumeName()} {Configuration.FolderNames["VolumeBonusChapters"]}";
@@ -27,7 +27,7 @@ namespace AOABO.Chapters
 
         protected override string GetYearsSubFolder()
         {
-            if (Configuration.Options.ComfyLifeChapters == ComfyLifeSetting.OmnibusEnd)
+            if (Configuration.Options.Extras.ComfyLifeChapters == ComfyLifeSetting.OmnibusEnd)
                 return GetFlatSubFolder();
 
             return $"{base.GetYearsSubFolder()}\\{Volume}xx-{getVolumeName()} {Configuration.FolderNames["VolumeBonusChapters"]}";

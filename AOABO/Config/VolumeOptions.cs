@@ -7,13 +7,6 @@ namespace AOABO.Config
     {
         public VolumeOptions()
         {
-            UpdateChapterNames = false;
-            BonusChapterSetting = BonusChapterSetting.Chronological;
-            StartYear = 5;
-            OutputStructure = OutputStructure.Volumes;
-            OutputYearFormat = 0;
-            AfterwordSetting = AfterwordSetting.None;
-            IncludeRegularChapters = true;
         }
 
         public VolumeOptions(string str)
@@ -32,7 +25,7 @@ namespace AOABO.Config
                 catch
                 {
                     var oldSetting = bool.Parse(split[1]);
-                    BonusChapterSetting = oldSetting ? BonusChapterSetting.Chronological : BonusChapterSetting.EndOfBook;
+                    BonusChapterSetting = oldSetting ? Config.BonusChapterSetting.Chronological : Config.BonusChapterSetting.EndOfBook;
                 }
             }
             if (split.Length > 2)
@@ -98,31 +91,189 @@ namespace AOABO.Config
             return (T)Enum.Parse(typeof(T), str);
         }
 
-        public bool UpdateChapterNames { get; set; } = false;
-        public BonusChapterSetting BonusChapterSetting { get; set; } = BonusChapterSetting.Chronological;
+        public void Upgrade()
+        {
+            if (IncludeImagesInChapters.HasValue)
+            {
+                Image.IncludeImagesInChapters = IncludeImagesInChapters.Value;
+                IncludeImagesInChapters = null;
+            }
+            if (SplashImages.HasValue)
+            {
+                Image.SplashImages = SplashImages.Value;
+                SplashImages = null;
+            }
+            if (ChapterImages.HasValue)
+            {
+                Image.ChapterImages = ChapterImages.Value;
+                ChapterImages = null;
+            }
+            if (IncludeRegularChapters.HasValue)
+            {
+                Chapter.IncludeRegularChapters = IncludeRegularChapters.Value;
+                IncludeRegularChapters = null;
+            }
+            if (BonusChapterSetting.HasValue)
+            {
+                Chapter.BonusChapter = BonusChapterSetting.Value;
+                BonusChapterSetting = null;
+            }
+            if (MangaChapters.HasValue)
+            {
+                Chapter.MangaChapters = MangaChapters.Value;
+                MangaChapters = null;
+            }
+            if (UpdateChapterNames.HasValue)
+            {
+                Chapter.UpdateChapterNames = UpdateChapterNames.Value;
+                UpdateChapterNames = null;
+            }
+            if (ComfyLifeChapters.HasValue)
+            {
+                Extras.ComfyLifeChapters = ComfyLifeChapters.Value;
+                ComfyLifeChapters = null;
+            }
+            if (CharacterSheets.HasValue)
+            {
+                Extras.CharacterSheets = CharacterSheets.Value;
+                CharacterSheets = null;
+            }
+            if (Maps.HasValue)
+            {
+                Extras.Maps = Maps.Value;
+                Maps = null;
+            }
+            if (AfterwordSetting.HasValue)
+            {
+                Extras.Afterword = AfterwordSetting.Value;
+                AfterwordSetting = null;
+            }
+            if (Polls.HasValue)
+            {
+                Extras.Polls = Polls.Value;
+                Polls = null;
+            }
+        }
+
+        public bool? UpdateChapterNames { get; set; }
+        public BonusChapterSetting? BonusChapterSetting { get; set; }
         public OutputStructure OutputStructure { get; set; } = OutputStructure.Volumes;
+        [JsonIgnore]
+        public string OutputStructureSetting { get
+            {
+                switch (OutputStructure)
+                {
+                    case OutputStructure.Volumes:
+                        return "by Part/Volume";
+                    case OutputStructure.Parts:
+                        return "by Part";
+                    case OutputStructure.Seasons:
+                        return "by Year/Season";
+                }
+                return "Flat";
+            } }
         public int StartYear { get; set; } = 5;
         public int OutputYearFormat { get; set; } = 0;
-        public AfterwordSetting AfterwordSetting { get; set; } = AfterwordSetting.OmnibusEnd;
-        public bool IncludeRegularChapters { get; set; } = true;
-        [JsonIgnore]
-        public bool IncludeImagesInChapters { set { Image.IncludeImagesInChapters = value; } }
+        public AfterwordSetting? AfterwordSetting { get; set; }
+        public bool? IncludeRegularChapters { get; set; }
+        public bool? IncludeImagesInChapters { get; set; }
         public bool UseHumanReadableFileStructure { get; set; } = false;
-        public BonusChapterSetting MangaChapters { get; set; } = BonusChapterSetting.Chronological;
-        public ComfyLifeSetting ComfyLifeChapters { get; set; } = ComfyLifeSetting.VolumeEnd;
-        public CharacterSheets CharacterSheets { get; set; } = CharacterSheets.PerPart;
-        [JsonIgnore]
-        public GallerySetting SplashImages { set { Image.SplashImages = value; } }
-        [JsonIgnore]
-        public GallerySetting ChapterImages { set { Image.ChapterImages = value; } }
-        public bool Maps { get; set; } = true;
-        public bool Polls { get; set; } = true;
+        public BonusChapterSetting? MangaChapters { get; set; }
+        public ComfyLifeSetting? ComfyLifeChapters { get; set; }
+        public CharacterSheets? CharacterSheets { get; set; }
+        public GallerySetting? SplashImages { get; set; }
+        public GallerySetting? ChapterImages { get; set; }
+        public bool? Maps { get; set; }
+        public bool? Polls { get; set; }
         public Collections Collection { get; set; } = new Collections();
         public Images Image { get; set; } = new Images();
+        public Chapters Chapter { get; set; } = new Chapters();
+        public ExtraContent Extras { get; set; } = new ExtraContent();
 
         public class Collections
         {
             public bool POVChapterCollection { get; set; } = true;
+        }
+
+        public class ExtraContent
+        {
+            public ComfyLifeSetting ComfyLifeChapters { get; set; } = ComfyLifeSetting.VolumeEnd;
+            [JsonIgnore]
+            public string ComfyLifeChaptersSetting { get { return BonusChapterSettingText(ComfyLifeChapters); } }
+            public CharacterSheets CharacterSheets { get; set; } = CharacterSheets.PerPart;
+            [JsonIgnore]
+            public string CharacterSheetsSetting
+            {
+                get
+                {
+                    switch (CharacterSheets)
+                    {
+                        case CharacterSheets.PerPart:
+                            return "one per Part";
+                        case CharacterSheets.All:
+                            return "all of them";
+                    }
+                    return "none of them";
+                }
+            }
+
+            private string BonusChapterSettingText(ComfyLifeSetting setting)
+            {
+                switch (setting)
+                {
+                    case Config.ComfyLifeSetting.VolumeEnd:
+                        return "placed after the relevant volume";
+                    case Config.ComfyLifeSetting.OmnibusEnd:
+                        return "placed in a section after the story content";
+                }
+
+                return "left out";
+            }
+            public bool Maps { get; set; } = true;
+            public AfterwordSetting Afterword { get; set; } = Config.AfterwordSetting.OmnibusEnd;
+            [JsonIgnore]
+            public string AfterwordSetting
+            {
+                get
+                {
+                    switch (Afterword)
+                    {
+                        case Config.AfterwordSetting.VolumeEnd:
+                            return "at the end of each volume";
+                        case Config.AfterwordSetting.OmnibusEnd:
+                            return "at the end of the Omnibus";
+                    }
+                    return "leave out";
+                }
+            }
+
+            public bool Polls { get; set; } = true;
+        }
+
+        public class Chapters
+        {
+            public bool IncludeRegularChapters { get; set; } = true;
+            public BonusChapterSetting BonusChapter { get; set; } = Config.BonusChapterSetting.Chronological;
+            [JsonIgnore]
+            public string BonusChapterSetting { get { return BonusChapterSettingText(BonusChapter); } }
+            public BonusChapterSetting MangaChapters { get; set; } = Config.BonusChapterSetting.Chronological;
+            [JsonIgnore]
+            public string MangaChapterSetting { get { return BonusChapterSettingText(MangaChapters); } }
+
+            private string BonusChapterSettingText(BonusChapterSetting setting)
+            {
+                switch (setting)
+                {
+                    case Config.BonusChapterSetting.Chronological:
+                        return "placed after the last overlapping chapter";
+                    case Config.BonusChapterSetting.EndOfBook:
+                        return "placed after the last overlapping volume";
+                }
+
+                return "left out";
+            }
+
+            public bool UpdateChapterNames { get; set; } = false;
         }
 
         public class Images

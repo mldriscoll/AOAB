@@ -9,7 +9,7 @@ namespace AOABO.Config
 
         protected override string GetFlatSubFolder()
         {
-            if (Configuration.Options.CharacterSheets == CharacterSheets.All)
+            if (Configuration.Options.Extras.CharacterSheets == CharacterSheets.All)
             {
                 return base.GetFlatSubFolder();
             }
@@ -19,7 +19,7 @@ namespace AOABO.Config
 
         protected override string GetYearsSubFolder()
         {
-            if (Configuration.Options.CharacterSheets == CharacterSheets.All)
+            if (Configuration.Options.Extras.CharacterSheets == CharacterSheets.All)
             {
                 return base.GetYearsSubFolder();
             }
@@ -29,7 +29,7 @@ namespace AOABO.Config
 
         protected override string GetPartSubFolder()
         {
-            if (Configuration.Options.CharacterSheets == CharacterSheets.All)
+            if (Configuration.Options.Extras.CharacterSheets == CharacterSheets.All)
             {
                 return Volume switch
                 {
@@ -55,7 +55,7 @@ namespace AOABO.Config
 
         protected override string GetVolumeSubFolder()
         {
-            if (Configuration.Options.CharacterSheets == CharacterSheets.All)
+            if (Configuration.Options.Extras.CharacterSheets == CharacterSheets.All)
             {
                 return Volume switch
                 {

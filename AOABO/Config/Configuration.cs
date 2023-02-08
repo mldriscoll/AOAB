@@ -42,6 +42,7 @@ namespace AOABO.Config
                 using (var reader = new StreamReader("options.json")) {
                     var deserializer = new DataContractJsonSerializer(typeof(VolumeOptions));
                     Options = (VolumeOptions)deserializer.ReadObject(reader.BaseStream);
+                    Options.Upgrade();
                 }
             }
         }
@@ -96,19 +97,11 @@ namespace AOABO.Config
                 Console.Clear();
 
                 Console.WriteLine("Which setting would you like to change?");
-                Console.WriteLine("0 - Omnibus Structure");
-                Console.WriteLine("1 - Bonus Chapter Placement");
-                Console.WriteLine("2 - Exclude Regular Chapters");
-                Console.WriteLine("3 - Chapter Headers");
-                Console.WriteLine("4 - Image Settings");
-                Console.WriteLine("5 - Manga Chapters");
-                Console.WriteLine("6 - Comfy Life Strips");
-                Console.WriteLine("7 - Character Sheets");
-                Console.WriteLine("8 - Maps");
-                Console.WriteLine("9 - Afterwords");
-                Console.WriteLine("a - Internal Filenames");
-                Console.WriteLine("b - Polls");
-                Console.WriteLine("c - POV Chapter Collection");
+                Console.WriteLine($"0 - Omnibus Structure ({Options.OutputStructureSetting})");
+                Console.WriteLine("1 - Chapter Settings");
+                Console.WriteLine("2 - Image Settings");
+                Console.WriteLine("3 - Extra Content Settings");
+                Console.WriteLine($"4 - Human-Readable Internal Filenames ({Options.UseHumanReadableFileStructure})");
                 Console.WriteLine("Press any other key to return to main menu");
 
                 var key = Console.ReadKey();
@@ -118,43 +111,16 @@ namespace AOABO.Config
                         SetStructure();
                         break;
                     case '1':
-                        SetBonusChapters();
+                        SetChapterSettings();
                         break;
                     case '2':
-                        SetRegularChapters();
-                        break;
-                    case '3':
-                        SetChapterHeaders();
-                        break;
-                    case '4':
                         SetImageSettings();
                         break;
-                    case '5':
-                        SetMangaChapters();
+                    case '3':
+                        SetExtraContentSettings();
                         break;
-                    case '6':
-                        SetComfyLifeChapters();
-                        break;
-                    case '7':
-                        SetCharacterSheets();
-                        break;
-                    case '8':
-                        SetMaps();
-                        break;
-                    case '9':
-                        SetAfterwords();
-                        break;
-                    case 'a':
-                    case 'A':
-                        SetFilenames();
-                        break;
-                    case 'b':
-                    case 'B':
-                        SetBool("Do you want to include the Character Polls?", x => Options.Polls = x);
-                        break;
-                    case 'c':
-                    case 'C':
-                        SetBool("Do you want to include a collection of the POV chapters?", x => Options.Collection.POVChapterCollection = x);
+                    case '4':
+                        SetBool("Use human-readable file names inside the .epub? (May cause issues with iBooks.)", x => Options.UseHumanReadableFileStructure = x);
                         break;
                     default:
                         finished = true;
@@ -227,87 +193,62 @@ namespace AOABO.Config
             }
         }
 
-        private static void SetMaps()
+        private static void SetChapterSettings()
         {
-            Console.WriteLine();
-            Console.WriteLine("Would you like to include maps? Y/N");
-            var key = Console.ReadKey();
-            Options.Maps = false;
-            switch (key.KeyChar)
+            while (true)
             {
-                case 'y':
-                case 'Y':
-                    Options.Maps = true;
-                    break;
-            }
-        }
+                Console.Clear();
+                Console.WriteLine($"0 - Include Regular Chapters (Currently {Options.Chapter.IncludeRegularChapters})");
+                Console.WriteLine($"1 - Include Bonus Chapters (Currently {Options.Chapter.BonusChapterSetting})");
+                Console.WriteLine($"2 - Include Manga Chapters (Currently {Options.Chapter.MangaChapterSetting})");
+                Console.WriteLine($"3 - Update Chapter Headers to match the names in the index (Currently {Options.Chapter.UpdateChapterNames})");
 
-        private static void SetCharacterSheets()
-        {
-            Console.WriteLine();
-            Console.WriteLine("How many Character Sheets do you want included?");
-            Console.WriteLine("0 - All of them.");
-            Console.WriteLine("1 - Last one in each part.");
-            Console.WriteLine("2 - None");
-            Options.CharacterSheets = CharacterSheets.PerPart;
-            var key = Console.ReadKey();
-            switch (key.KeyChar)
-            {
-                case '0':
-                    Options.CharacterSheets = CharacterSheets.All;
-                    break;
-                case '2':
-                    Options.CharacterSheets = CharacterSheets.None;
-                    break;
-            }
-        }
-
-        private static void SetChapterHeaders()
-        {
-            Console.WriteLine();
-            Console.WriteLine("Would you like the chapter headers updated to match their titles in the index? Y/N");
-            var key = Console.ReadKey();
-            Options.UpdateChapterNames = false;
-            switch (key.KeyChar)
-            {
-                case 'y':
-                case 'Y':
-                    Options.UpdateChapterNames = true;
-                    break;
-            }
-        }
-
-        private static void SetAfterwords()
-        {
-            Console.WriteLine();
-            Options.AfterwordSetting = AfterwordSetting.None;
-            Console.WriteLine("0 - Exclude Afterwords");
-            Console.WriteLine("1 - Include Afterwords at the end of each volume");
-            Console.WriteLine("2 - Include Afterwords at the end of the Omnibus");
-            var key = Console.ReadKey();
-            switch (key.KeyChar)
-            {
-                case '1':
-                    Options.AfterwordSetting = AfterwordSetting.VolumeEnd;
-                    break;
-                case '2':
-                    Options.AfterwordSetting = AfterwordSetting.OmnibusEnd;
-                    break;
-            }
-        }
-
-        private static void SetRegularChapters()
-        {
-            Console.WriteLine();
-            Options.IncludeRegularChapters = true;
-            Console.WriteLine("Exclude regular chapters Y/N?");
-            var key = Console.ReadKey();
-            switch (key.KeyChar)
-            {
-                case 'y':
-                case 'Y':
-                    Options.IncludeRegularChapters = false;
-                    break;
+                var key = Console.ReadKey();
+                switch (key.KeyChar)
+                {
+                    case '0':
+                        SetBool("Include Regular Chapters (Myne POV + Prologues and Epilogues)", x => Options.Chapter.IncludeRegularChapters = x);
+                        break;
+                    case '1':
+                        Options.Chapter.BonusChapter = BonusChapterSetting.Chronological;
+                        Console.WriteLine();
+                        Console.WriteLine("0 - Place Bonus Chapters after the last chapter they overlap with.");
+                        Console.WriteLine("1 - Place Bonus Chapters at the end of the Volume");
+                        Console.WriteLine("2 - Leave out Bonus Chapters");
+                        key = Console.ReadKey();
+                        switch (key.KeyChar)
+                        {
+                            case '1':
+                                Options.Chapter.BonusChapter = BonusChapterSetting.EndOfBook;
+                                break;
+                            case '2':
+                                Options.Chapter.BonusChapter = BonusChapterSetting.LeaveOut;
+                                break;
+                        }
+                        break;
+                    case '2':
+                        Options.Chapter.MangaChapters = BonusChapterSetting.Chronological;
+                        Console.WriteLine();
+                        Console.WriteLine("0 - Place Manga Chapters after the last chapter they overlap with.");
+                        Console.WriteLine("1 - Place Manga Chapters at the end of the Volume");
+                        Console.WriteLine("2 - Leave out Manga Chapters");
+                        key = Console.ReadKey();
+                        switch (key.KeyChar)
+                        {
+                            case '1':
+                                Options.Chapter.MangaChapters = BonusChapterSetting.EndOfBook;
+                                break;
+                            case '2':
+                                Options.Chapter.MangaChapters = BonusChapterSetting.LeaveOut;
+                                break;
+                        }
+                        break;
+                    case '3':
+                        SetBool("Would you like the chapter headers updated to match their titles in the index?", x => Options.Chapter.UpdateChapterNames = x);
+                        break;
+                    default:
+                        return;
+                }
             }
         }
 
@@ -334,15 +275,15 @@ namespace AOABO.Config
                         Console.WriteLine("0 - The Start of each Volume.");
                         Console.WriteLine("1 - The End of each Volume.");
                         Console.WriteLine("2 - None");
-                        Options.SplashImages = GallerySetting.Start;
+                        Options.Image.SplashImages = GallerySetting.Start;
                         key = Console.ReadKey();
                         switch (key.KeyChar)
                         {
                             case '1':
-                                Options.SplashImages = GallerySetting.End;
+                                Options.Image.SplashImages = GallerySetting.End;
                                 break;
                             case '2':
-                                Options.SplashImages = GallerySetting.None;
+                                Options.Image.SplashImages = GallerySetting.None;
                                 break;
                         }
                         break;
@@ -352,15 +293,15 @@ namespace AOABO.Config
                         Console.WriteLine("0 - The Start of each Volume.");
                         Console.WriteLine("1 - The End of each Volume.");
                         Console.WriteLine("2 - None");
-                        Options.ChapterImages = GallerySetting.Start;
+                        Options.Image.ChapterImages = GallerySetting.Start;
                         key = Console.ReadKey();
                         switch (key.KeyChar)
                         {
                             case '1':
-                                Options.ChapterImages = GallerySetting.End;
+                                Options.Image.ChapterImages = GallerySetting.End;
                                 break;
                             case '2':
-                                Options.ChapterImages = GallerySetting.None;
+                                Options.Image.ChapterImages = GallerySetting.None;
                                 break;
                         }
                         break;
@@ -379,75 +320,85 @@ namespace AOABO.Config
             }
         }
 
-        private static void SetFilenames()
+        private static void SetExtraContentSettings()
         {
-            Console.WriteLine();
-            Options.UseHumanReadableFileStructure = false;
-            Console.WriteLine("Use human-readable file names inside the .epub? (May cause issues with iBooks.) Y/N?");
-            var key = Console.ReadKey();
-            switch (key.KeyChar)
+            while (true)
             {
-                case 'y':
-                case 'Y':
-                    Options.UseHumanReadableFileStructure = true;
-                    break;
-            }
-        }
+                Console.Clear();
+                Console.WriteLine($"0 - Include Comfy Life Chapters (Currently {Options.Extras.ComfyLifeChaptersSetting})");
+                Console.WriteLine($"1 - Include Character Sheets ({Options.Extras.CharacterSheetsSetting})");
+                Console.WriteLine($"2 - Include Maps ({Options.Extras.Maps})");
+                Console.WriteLine($"3 - Include Afterwords ({Options.Extras.AfterwordSetting})");
+                Console.WriteLine($"4 - Include Polls ({Options.Extras.Polls})");
+                Console.WriteLine($"5 - Include POV Chapter collection ({Options.Collection.POVChapterCollection})");
 
-        private static void SetBonusChapters()
-        {
-            Options.BonusChapterSetting = BonusChapterSetting.Chronological;
-            Console.WriteLine();
-            Console.WriteLine("0 - Place Bonus Chapters after the last chapter they overlap with.");
-            Console.WriteLine("1 - Place Bonus Chapters at the end of the Volume");
-            Console.WriteLine("2 - Leave out Bonus Chapters");
-            var key = Console.ReadKey();
-            switch (key.KeyChar)
-            {
-                case '1':
-                    Options.BonusChapterSetting = BonusChapterSetting.EndOfBook;
-                    break;
-                case '2':
-                    Options.BonusChapterSetting = BonusChapterSetting.LeaveOut;
-                    break;
-            }
-        }
-
-        private static void SetMangaChapters()
-        {
-            Options.MangaChapters = BonusChapterSetting.Chronological;
-            Console.WriteLine();
-            Console.WriteLine("0 - Place Manga Chapters after the last chapter they overlap with.");
-            Console.WriteLine("1 - Place Manga Chapters at the end of the Volume");
-            Console.WriteLine("2 - Leave out Manga Chapters");
-            var key = Console.ReadKey();
-            switch (key.KeyChar)
-            {
-                case '1':
-                    Options.MangaChapters = BonusChapterSetting.EndOfBook;
-                    break;
-                case '2':
-                    Options.MangaChapters = BonusChapterSetting.LeaveOut;
-                    break;
-            }
-        }
-
-        private static void SetComfyLifeChapters()
-        {
-            Options.ComfyLifeChapters = ComfyLifeSetting.VolumeEnd;
-            Console.WriteLine();
-            Console.WriteLine("0 - Place Comfy Life Chapters after the volume they were published with.");
-            Console.WriteLine("1 - Place Comfy Life Chapters at the end of the omnibus.");
-            Console.WriteLine("2 - Leave out Comfy Life Chapters");
-            var key = Console.ReadKey();
-            switch (key.KeyChar)
-            {
-                case '1':
-                    Options.ComfyLifeChapters = ComfyLifeSetting.OmnibusEnd;
-                    break;
-                case '2':
-                    Options.ComfyLifeChapters = ComfyLifeSetting.None;
-                    break;
+                var key = Console.ReadKey();
+                switch (key.KeyChar)
+                {
+                    case '0':
+                        Options.Extras.ComfyLifeChapters = ComfyLifeSetting.VolumeEnd;
+                        Console.WriteLine();
+                        Console.WriteLine("0 - Place Comfy Life Chapters after the volume they were published with.");
+                        Console.WriteLine("1 - Place Comfy Life Chapters at the end of the omnibus.");
+                        Console.WriteLine("2 - Leave out Comfy Life Chapters");
+                        key = Console.ReadKey();
+                        switch (key.KeyChar)
+                        {
+                            case '1':
+                                Options.Extras.ComfyLifeChapters = ComfyLifeSetting.OmnibusEnd;
+                                break;
+                            case '2':
+                                Options.Extras.ComfyLifeChapters = ComfyLifeSetting.None;
+                                break;
+                        }
+                        break;
+                    case '1':
+                        Console.WriteLine();
+                        Console.WriteLine("How many Character Sheets do you want included?");
+                        Console.WriteLine("0 - All of them.");
+                        Console.WriteLine("1 - Last one in each part.");
+                        Console.WriteLine("2 - None");
+                        Options.Extras.CharacterSheets = CharacterSheets.PerPart;
+                        key = Console.ReadKey();
+                        switch (key.KeyChar)
+                        {
+                            case '0':
+                                Options.Extras.CharacterSheets = CharacterSheets.All;
+                                break;
+                            case '2':
+                                Options.Extras.CharacterSheets = CharacterSheets.None;
+                                break;
+                        }
+                        break;
+                    case '2':
+                        SetBool("Would you like to include maps?", x => Options.Extras.Maps = x);
+                        break;
+                    case '3':
+                        Console.WriteLine();
+                        Options.Extras.Afterword = AfterwordSetting.None;
+                        Console.WriteLine("0 - Exclude Afterwords");
+                        Console.WriteLine("1 - Include Afterwords at the end of each volume");
+                        Console.WriteLine("2 - Include Afterwords at the end of the Omnibus");
+                        key = Console.ReadKey();
+                        switch (key.KeyChar)
+                        {
+                            case '1':
+                                Options.Extras.Afterword = AfterwordSetting.VolumeEnd;
+                                break;
+                            case '2':
+                                Options.Extras.Afterword = AfterwordSetting.OmnibusEnd;
+                                break;
+                        }
+                        break;
+                    case '4':
+                        SetBool("Do you want to include the Character Polls?", x => Options.Extras.Polls = x);
+                        break;
+                    case '5':
+                        SetBool("Do you want to include a collection of the POV chapters?", x => Options.Collection.POVChapterCollection = x);
+                        break;
+                    default:
+                        return;
+                }
             }
         }
 

@@ -225,7 +225,7 @@ namespace AOABO.Omnibus
                             newChapter.Contents = string.Concat(newChapter.Contents, "</body>");
                         }
 
-                        if (Configuration.Options.UpdateChapterNames)
+                        if (Configuration.Options.Chapter.UpdateChapterNames)
                         {
                             var match = chapterTitleRegex.Match(newChapter.Contents);
                             if(match.Success)
@@ -279,7 +279,7 @@ namespace AOABO.Omnibus
         private static List<Chapter> BuildChapterList(Volume volume, Func<Chapter, bool> filter)
         {
             List<Chapter> chapters = new List<Chapter>();
-            if (Configuration.Options.IncludeRegularChapters)
+            if (Configuration.Options.Chapter.IncludeRegularChapters)
             {
                 if (!Configuration.Options.Image.IncludeImagesInChapters)
                 {
@@ -311,36 +311,36 @@ namespace AOABO.Omnibus
                     break;
             }
 
-            if (Configuration.Options.MangaChapters != BonusChapterSetting.LeaveOut)
+            if (Configuration.Options.Chapter.MangaChapters != BonusChapterSetting.LeaveOut)
             {
                 chapters.AddRange(volume.MangaChapters.Where(filter));
             }
 
-            if (Configuration.Options.ComfyLifeChapters != ComfyLifeSetting.None && volume.ComfyLifeChapter != null && filter(volume.ComfyLifeChapter))
+            if (Configuration.Options.Extras.ComfyLifeChapters != ComfyLifeSetting.None && volume.ComfyLifeChapter != null && filter(volume.ComfyLifeChapter))
             {
                 chapters.Add(volume.ComfyLifeChapter);
             }
 
-            if ((Configuration.Options.CharacterSheets == CharacterSheets.All) && (volume.CharacterSheet != null) && filter(volume.CharacterSheet))
+            if ((Configuration.Options.Extras.CharacterSheets == CharacterSheets.All) && (volume.CharacterSheet != null) && filter(volume.CharacterSheet))
             {
                 chapters.Add(volume.CharacterSheet);
             }
-            else if ((Configuration.Options.CharacterSheets == CharacterSheets.PerPart) && (volume.CharacterSheet != null) && volume.CharacterSheet.PartSheet && filter(volume.CharacterSheet))
+            else if ((Configuration.Options.Extras.CharacterSheets == CharacterSheets.PerPart) && (volume.CharacterSheet != null) && volume.CharacterSheet.PartSheet && filter(volume.CharacterSheet))
             {
                 chapters.Add(volume.CharacterSheet);
             }
 
-            if (Configuration.Options.Maps)
+            if (Configuration.Options.Extras.Maps)
             {
                 chapters.AddRange(volume.Maps.Where(filter));
             }
 
-            if (volume.Afterword != null && Configuration.Options.AfterwordSetting != AfterwordSetting.None && filter(volume.Afterword))
+            if (volume.Afterword != null && Configuration.Options.Extras.Afterword != AfterwordSetting.None && filter(volume.Afterword))
             {
                 chapters.Add(volume.Afterword);
             }
 
-            if(Configuration.Options.Polls && volume.CharacterPoll != null && filter(volume.CharacterPoll))
+            if(Configuration.Options.Extras.Polls && volume.CharacterPoll != null && filter(volume.CharacterPoll))
             {
                 chapters.Add(volume.CharacterPoll);
             }
