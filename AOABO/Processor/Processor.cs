@@ -68,7 +68,7 @@ namespace AOABO.Processor
             Directory.CreateDirectory($"{folder}\\oebps\\Text");
             foreach (var chapter in Chapters.OrderBy(x => x.SubFolder + "\\" + x.SortOrder))
             {
-                string cssLink = string.Empty;
+                string cssLink = "../";
                 var fileName = humanReadable ? chapter.FileName : $"{tocCounter}.xhtml";
                 string imFolderReplace;
 

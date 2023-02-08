@@ -443,7 +443,110 @@
       "Year": 2,
       "Season": "Autumn",
       "ProcessedInPartTwo": true
-    },
+    }
+  },
+  {
+    "InternalName": "M0207",
+    "OCR": true,
+    "BonusChapters": [
+      {
+        "OriginalFilenames": [ "162", "163", "164", "165", "166", "167", "168", "169", "170", "171", "172" ],
+        "EarlySortOrder": "020221b",
+        "LateSortOrder": "020296e",
+        "ChapterName": "My First Trombe Hunt [Damuel]",
+        "Volume": "0202",
+        "EarlyYear": 2,
+        "LateYear": 2,
+        "EarlySeason": "Autumn",
+        "LateSeason": "Autumn",
+        "ProcessedInPartTwo": true,
+        "OCR": {
+          "Crop": true,
+          "Corrections": [
+            {
+              "Original": "\"Its branches won’t always come from in front of you!",
+              "Replacement": "“Its branches won’t always come from in front of you!”"
+            },
+            {
+              "Original": "attack! ”",
+              "Replacement": "attack!”"
+            },
+            {
+              "Original": "“Yes, sir!” Lord Lamprecht",
+              "Replacement": "“Yes, sir!”</p><p>Lord Lamprecht"
+            },
+            {
+              "Original": "\"Mount </p>\r\n<br />",
+              "Replacement": "“Mount up!”</p>"
+            },
+            {
+              "Original": "<p>Before we left",
+              "Replacement": "<br />\r\n<p>Before we left"
+            },
+            {
+              "Original": "7h-7hat cape...",
+              "Replacement": "<i>Th-That cape...</i>"
+            },
+            {
+              "Original": "011... ?",
+              "Replacement": "<i>Oh...?</i>"
+            },
+            {
+              "Original": "ofthe",
+              "Replacement": "of the"
+            },
+            {
+              "Original": "<h1></p>\r\n<p>",
+              "Replacement": "<h1>"
+            }
+          ],
+          "Italics": [
+            {
+              "Start": "It must feel",
+              "End": "attacks that big..."
+            },
+            {
+              "Start": "Halmbarte!",
+              "End": "Halmbarte!"
+            },
+            {
+              "Start": "It’s finally here, huh?",
+              "End": "It’s finally here, huh?"
+            },
+            {
+              "Start": "Shikza and I do",
+              "End": "Shikza and I do"
+            },
+            {
+              "Start": "get along.",
+              "End": "get along."
+            },
+            {
+              "Start": "Plus, Shikza isn’t happy about us working together either.",
+              "End": "Plus, Shikza isn’t happy about us working together either."
+            },
+            {
+              "Start": "Rumor has it he",
+              "End": "ask for his help..."
+            }
+          ]
+        }
+      }
+    ],
+    "MangaChapters": [
+      {
+        "OriginalFilenames": [ "157", "158", "159", "160" ],
+        "EarlySortOrder": "020223b",
+        "LateSortOrder": "020297c",
+        "ChapterName": "Mental Image [Lutz]",
+        "EarlyYear": 2,
+        "LateYear": 2,
+        "EarlySeason": "Autumn",
+        "LateSeason": "Autumn",
+        "Volume": "0202",
+        "ProcessedInPartTwo": true
+      }
+    ],
     "Maps": [
       {
         "OriginalFilenames": [ "003", "002" ],

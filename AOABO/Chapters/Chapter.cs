@@ -114,7 +114,6 @@ namespace AOABO.Chapters
         public bool ProcessedInPartFour { get; set; } = false;
         public bool ProcessedInPartFive { get; set; } = false;
         public bool ProcessedInFanbooks { get; set; } = false;
-        public OCRSettings? OCR { get; set; }
 
         public void RemoveInserts()
         {

@@ -39,7 +39,7 @@ namespace AOABO.Downloads
                             var diff = finfo.LastWriteTime.Subtract(downloaded);
                             var isLastDownload = diff.TotalSeconds < 30 && diff.TotalSeconds > -30;
 
-                            if (downloaded < updated && isLastDownload) continue;
+                            if (downloaded > updated && isLastDownload) continue;
 
                             if (!isLastDownload)
                             {

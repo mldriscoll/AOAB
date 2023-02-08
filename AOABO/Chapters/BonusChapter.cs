@@ -4,6 +4,7 @@ namespace AOABO.Chapters
 {
     public class BonusChapter : MoveableChapter
     {
+        public OCRSettings? OCR { get; set; }
         public override CollectionChapter GetCollectionChapter()
         {
             return new CollectionChapter

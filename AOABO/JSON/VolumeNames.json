@@ -251,5 +251,12 @@
     "ApiSlug": "ascendance-of-a-bookworm-part-5-volume-2",
     "FileName": "ascendance-of-a-bookworm-part-5-volume-2.epub",
     "OutputUnusedFiles": false
+  },
+  {
+    "InternalName": "M0207",
+    "ApiSlug": "ascendance-of-a-bookworm-manga-part-2-volume-7",
+    "FileName": "Ascendance of a Bookworm (Manga) Part 2 Volume 7_{0}.epub",
+    "Quality": [ "3840", "2560", "1400" ],
+    "OutputUnusedFiles": false
   }
 ]

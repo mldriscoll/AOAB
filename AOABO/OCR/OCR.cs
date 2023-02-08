@@ -1,7 +1,10 @@
 ﻿using AOABO.Chapters;
 using AOABO.Config;
 using AOABO.Downloads;
+using System.Drawing;
+using System.Drawing.Imaging;
 using System.IO.Compression;
+using System.Runtime.InteropServices;
 using System.Text.RegularExpressions;
 using Windows.Media.Ocr;
 
@@ -24,7 +27,7 @@ namespace AOABO.OCR
 
                 ZipFile.ExtractToDirectory(tempDirectory + "\\temp.epub", tempDirectory);
 
-                foreach (var chapter in vol.Chapters.Where(x => x.OCR != null))
+                foreach (var chapter in vol.BonusChapters.Where(x => x.OCR != null))
                 {
                     await DoOCR(chapter);
                 }
@@ -40,7 +43,54 @@ namespace AOABO.OCR
             await Downloader.DownloadSpecificVolume(volname.ApiSlug, login.AccessToken, tempDirectory + "\\temp.epub", new HttpClient());
         }
 
-        private static async Task DoOCR(Chapter chapter)
+        public static Color GetPixel(int x, int y, BitmapData data, Byte[] Pixels, int Bpp)
+        {
+            Color clr = Color.Empty;
+
+            int i = (y * data.Stride) + (x * Bpp);
+
+            if (i > Pixels.Length - Bpp)
+                throw new IndexOutOfRangeException();
+
+            if (Bpp == 4) 
+            {
+                byte b = Pixels[i];
+                byte g = Pixels[i + 1];
+                byte r = Pixels[i + 2];
+                byte a = Pixels[i + 3];
+                clr = Color.FromArgb(a, r, g, b);
+            }
+            if (Bpp == 3)
+            {
+                byte b = Pixels[i];
+                byte g = Pixels[i + 1];
+                byte r = Pixels[i + 2];
+                clr = Color.FromArgb(r, g, b);
+            }
+            if (Bpp == 1)
+            {
+                byte c = Pixels[i];
+                clr = Color.FromArgb(c, c, c);
+            }
+            return clr;
+        }
+
+        private static int GetBPP(PixelFormat f)
+        {
+            switch (f)
+            {
+                case PixelFormat.Format24bppRgb:
+                    return 3;
+                case PixelFormat.Format32bppArgb:
+                    return 4;
+                case PixelFormat.Format8bppIndexed:
+                    return 1;
+                default:
+                    throw new Exception("Unknown Bitmap Format");
+            }
+        }
+
+        private static async Task DoOCR(BonusChapter chapter)
         {
             try
             {
@@ -51,8 +101,55 @@ namespace AOABO.OCR
                 var OcrContent = new List<string>();
                 foreach (var chapterFile in chapter.OriginalFilenames)
                 {
+                    var filename = $"{tempDirectory}\\item\\image\\i-{chapterFile:000}.jpg";
+
+                    if (chapter.OCR?.Crop ?? false)
+                    {
+                        var minX = int.MaxValue; 
+                        var maxX = int.MinValue;
+                        var minY = int.MaxValue;
+                        var maxY = int.MinValue;
+
+                        using (Bitmap b = new Bitmap(filename))
+                        {
+                            var data = b.LockBits(new Rectangle(0, 0, b.Width, b.Height), System.Drawing.Imaging.ImageLockMode.ReadWrite, b.PixelFormat);
+
+                            var bpp = GetBPP(b.PixelFormat);
+                            Color white = Color.FromArgb(255, 255, 255, 255);
+
+                            var Pixels = new byte[data.Stride * b.Height];
+                            Marshal.Copy(data.Scan0, Pixels, 0, Pixels.Length);
+
+                            for (int y = 0; y < b.Height; y++)
+                            {
+                                for (int x = 0; x < b.Width; x++)
+                                {
+                                    if (GetPixel(x, y, data, Pixels, bpp) != white)
+                                    {
+                                        if (x < minX) minX = x;
+                                        if (x > maxX) maxX = x;
+                                        if (y < minY) minY = y;
+                                        if (y > maxY) maxY = y;
+                                    }
+                                }
+                            }
+
+                            minX /= 2;
+                            minY /= 2;
+                            maxX = b.Width - ((b.Width - maxX) / 2);
+                            maxY = b.Height - ((b.Height - maxY) / 2);
+                        }
+
+                        using (var a = new ImageProcessor.ImageFactory())
+                        {
+                            a.Load(filename);
+                            a.Crop(new Rectangle(minX / 2, minY / 2, maxX - (minX / 2), maxY - (minY / 2)));
+                            a.Save(filename);
+                        }
+                    }
+
                     var memStream = new MemoryStream();
-                    using (var stream = File.OpenRead($"{tempDirectory}\\item\\image\\i-{chapterFile:000}.jpg"))
+                    using (var stream = File.OpenRead(filename))
                     {
                         await stream.CopyToAsync(memStream);
                     }
@@ -90,7 +187,7 @@ namespace AOABO.OCR
                 }
 
                 var previous = string.Empty;
-                var header = chapter.OCR.Header ?? OcrContent.First();
+                var header = chapter.OCR?.Header ?? OcrContent.First();
                 var body = OcrContent.Skip(1).Aggregate(string.Empty, (agg, s) => string.Concat(agg, " ", s));
 
                 var speechRegex = new Regex("\".*?\"");

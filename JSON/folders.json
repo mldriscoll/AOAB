@@ -22,5 +22,29 @@
   {
     "Name": "Maps",
     "Folder": "Maps"
+  },
+  {
+    "Name": "Afterwords",
+    "Folder": "09-Afterwords"
+  },
+  {
+    "Name": "VolumeBonusChapters",
+    "Folder": "Bonus"
+  },
+  {
+    "Name": "CharacterPolls",
+    "Folder": "CP-Character Polls"
+  },
+  {
+    "Name": "CharacterSheets",
+    "Folder": "02-Characters"
+  },
+  {
+    "Name": "POVGallery",
+    "Folder": "06-POV Chapters"
+  },
+  {
+    "Name": "ComfyLife",
+    "Folder": "05-A Comfy Life with my Family"
   }
 ]
