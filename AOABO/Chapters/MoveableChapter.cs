@@ -2,6 +2,15 @@
 {
     public abstract class MoveableChapter : Chapter
     {
+
+        public string POV { get; set; } = string.Empty;
+        public void ApplyPOVToTitle()
+        {
+            if (!string.IsNullOrWhiteSpace(POV))
+            {
+                ChapterName = $"{ChapterName} [{POV}]";
+            }
+        }
         public string EarlySortOrder { get; set; } = string.Empty;
         public string LateSortOrder { get; set; } = string.Empty;
         public int EarlyYear { get; set; }

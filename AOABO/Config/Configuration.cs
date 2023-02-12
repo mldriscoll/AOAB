@@ -330,7 +330,7 @@ namespace AOABO.Config
                 Console.WriteLine($"2 - Include Maps ({Options.Extras.Maps})");
                 Console.WriteLine($"3 - Include Afterwords ({Options.Extras.AfterwordSetting})");
                 Console.WriteLine($"4 - Include Polls ({Options.Extras.Polls})");
-                Console.WriteLine($"5 - Include POV Chapter collection ({Options.Collection.POVChapterCollection})");
+                Console.WriteLine($"5 - Include POV Chapter collection ({Options.Collection.POVChapterOrderingSetting})");
 
                 var key = Console.ReadKey();
                 switch (key.KeyChar)
@@ -395,6 +395,10 @@ namespace AOABO.Config
                         break;
                     case '5':
                         SetBool("Do you want to include a collection of the POV chapters?", x => Options.Collection.POVChapterCollection = x);
+                        if (Options.Collection.POVChapterCollection)
+                        {
+                            SetBool("Do you want the POV chapters ordered by POV character?", x => Options.Collection.POVChapterOrdering = x);
+                        }
                         break;
                     default:
                         return;

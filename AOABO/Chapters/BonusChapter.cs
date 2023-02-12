@@ -15,6 +15,7 @@ namespace AOABO.Chapters
                 SortOrder = IsEarly() ? EarlySortOrder : LateSortOrder,
                 Volume = Volume,
                 Year = Year,
+                SubFolder = Configuration.Options.Collection.POVChapterOrdering ? POV : string.Empty,
                 Gallery = CollectionChapter.CollectionEnum.POVGallery,
                 ProcessedInFanbooks = ProcessedInFanbooks,
                 ProcessedInPartFive = ProcessedInPartFive,

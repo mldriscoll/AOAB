@@ -279,6 +279,14 @@ namespace AOABO.Omnibus
         private static List<Chapter> BuildChapterList(Volume volume, Func<Chapter, bool> filter)
         {
             List<Chapter> chapters = new List<Chapter>();
+
+            if (Configuration.Options.UpdateChapterNames ?? false)
+            {
+                volume.POVChapters.ForEach(x => x.ApplyPOVToTitle());
+                volume.BonusChapters.ForEach(x => x.ApplyPOVToTitle());
+                volume.MangaChapters.ForEach(x => x.ApplyPOVToTitle());
+            }
+
             if (Configuration.Options.Chapter.IncludeRegularChapters)
             {
                 if (!Configuration.Options.Image.IncludeImagesInChapters)
@@ -347,8 +355,9 @@ namespace AOABO.Omnibus
 
             if (Configuration.Options.Collection.POVChapterCollection)
             {
-                chapters.AddRange(volume.BonusChapters.Select(x => x.GetCollectionChapter()).Where(filter));
-                chapters.AddRange(volume.POVChapters.Select(x => x.GetCollectionChapter()).Where(filter));
+                chapters.AddRange(volume.BonusChapters.Where(x => !string.IsNullOrWhiteSpace(x.POV)).Select(x => x.GetCollectionChapter()).Where(filter));
+                chapters.AddRange(volume.POVChapters.Where(x => !string.IsNullOrWhiteSpace(x.POV)).Select(x => x.GetCollectionChapter()).Where(filter));
+                chapters.AddRange(volume.MangaChapters.Where(x => !string.IsNullOrWhiteSpace(x.POV)).Select(x => x.GetCollectionChapter()).Where(filter));
             }
             chapters.AddRange(volume.POVChapters.Where(filter));
 

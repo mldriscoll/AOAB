@@ -1,4 +1,6 @@
-﻿namespace AOABO.Chapters
+﻿using AOABO.Config;
+
+namespace AOABO.Chapters
 {
     public class POVChapter : MoveableChapter
     {
@@ -15,6 +17,7 @@
                 OriginalFilenames = OriginalFilenames,
                 Season = Season,
                 SortOrder = SortOrder,
+                SubFolder = Configuration.Options.Collection.POVChapterOrdering ? POV : string.Empty,
                 Volume = Volume,
                 Year = Year,
                 Gallery = CollectionChapter.CollectionEnum.POVGallery,

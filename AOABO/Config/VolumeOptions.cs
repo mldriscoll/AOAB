@@ -193,6 +193,13 @@ namespace AOABO.Config
         public class Collections
         {
             public bool POVChapterCollection { get; set; } = true;
+            public bool POVChapterOrdering { get; set; } = false;
+            [JsonIgnore]
+            public string POVChapterOrderingSetting { get
+                {
+                    if (!POVChapterCollection) return string.Empty;
+                    return POVChapterOrdering ? "in Character Order" : "in Chronological Order";
+                } }
         }
 
         public class ExtraContent

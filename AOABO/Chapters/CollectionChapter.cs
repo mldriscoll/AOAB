@@ -4,6 +4,7 @@ namespace AOABO.Chapters
 {
     public class CollectionChapter : Chapter
     {
+        public string SubFolder { get; set; } = string.Empty;
         public CollectionEnum Gallery { get; set; }
         public enum CollectionEnum
         {
@@ -30,7 +31,11 @@ namespace AOABO.Chapters
             switch (Gallery)
             {
                 case CollectionEnum.POVGallery:
-                    return Configuration.FolderNames["POVGallery"];
+                    if (string.IsNullOrWhiteSpace(SubFolder))
+                    {
+                        return Configuration.FolderNames["POVGallery"];
+                    }
+                    return $"{Configuration.FolderNames["POVGallery"]}\\{SubFolder}";
                 default:
                     throw new Exception($"GalleryChapter Unknown Gallery Type {Gallery}");
             }
