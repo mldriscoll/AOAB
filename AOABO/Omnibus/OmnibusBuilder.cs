@@ -280,7 +280,7 @@ namespace AOABO.Omnibus
         {
             List<Chapter> chapters = new List<Chapter>();
 
-            if (Configuration.Options.UpdateChapterNames ?? false)
+            if (Configuration.Options.Chapter.UpdateChapterNames)
             {
                 volume.POVChapters.ForEach(x => x.ApplyPOVToTitle());
                 volume.BonusChapters.ForEach(x => x.ApplyPOVToTitle());
@@ -309,7 +309,7 @@ namespace AOABO.Omnibus
             {
                 volume.BonusChapters.ForEach(x => x.RemoveInserts());
             }
-            switch (Configuration.Options.BonusChapterSetting)
+            switch (Configuration.Options.Chapter.BonusChapter)
             {
                 case BonusChapterSetting.Chronological:
                     chapters.AddRange(volume.BonusChapters.Where(filter));
