@@ -2,7 +2,7 @@
 {
     public abstract class MoveableChapter : Chapter
     {
-
+        public string OverrideName { get; set; } = string.Empty;
         public string POV { get; set; } = string.Empty;
         public void ApplyPOVToTitle()
         {

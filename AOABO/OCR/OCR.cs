@@ -12,11 +12,15 @@ namespace AOABO.OCR
 {
     internal class OCR
     {
-        static string overrideDirectory = Directory.GetCurrentDirectory() + "\\Overrides";
         static string tempDirectory = Directory.GetCurrentDirectory() + "\\temp";
 
         internal static async Task BuildOCROverrides(Login login)
         {
+            var inputFolder = string.IsNullOrWhiteSpace(Configuration.Options.Folder.InputFolder) ? Directory.GetCurrentDirectory() :
+                Configuration.Options.Folder.InputFolder.Length > 1 && Configuration.Options.Folder.InputFolder[1].Equals(':') ? Configuration.Options.Folder.InputFolder : Directory.GetCurrentDirectory() + "\\" + Configuration.Options.Folder.InputFolder;
+
+            var overrideDirectory = inputFolder + "\\Overrides";
+
             if (!Directory.Exists(overrideDirectory)) Directory.CreateDirectory(overrideDirectory);
             if(Directory.Exists(tempDirectory)) Directory.Delete(tempDirectory, true);
 
@@ -29,7 +33,7 @@ namespace AOABO.OCR
 
                 foreach (var chapter in vol.BonusChapters.Where(x => x.OCR != null))
                 {
-                    await DoOCR(chapter);
+                    await DoOCR(chapter, overrideDirectory);
                 }
                 Directory.Delete(tempDirectory, true);
             }
@@ -90,7 +94,7 @@ namespace AOABO.OCR
             }
         }
 
-        private static async Task DoOCR(BonusChapter chapter)
+        private static async Task DoOCR(BonusChapter chapter, string overrideDirectory)
         {
             try
             {
@@ -209,11 +213,11 @@ namespace AOABO.OCR
                 var content = $"<h1>{header}</h1>\r\n<p>{body}</p>";
                 chapterContent = File.ReadAllText("OCR\\OCRTemplate.txt").Replace("[Content]", content);
 
-                File.WriteAllText(overrideDirectory + "\\" + chapter.ChapterName + ".xhtml", chapterContent);
+                File.WriteAllText(overrideDirectory + "\\" + chapter.OverrideName + ".xhtml", chapterContent);
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error processing chapter {chapter.ChapterName}");
+                Console.WriteLine($"Error processing chapter {chapter.OverrideName}");
                 Console.WriteLine(ex.ToString());
             }
         }

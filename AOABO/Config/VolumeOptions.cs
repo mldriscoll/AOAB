@@ -159,7 +159,9 @@ namespace AOABO.Config
         public BonusChapterSetting? BonusChapterSetting { get; set; }
         public OutputStructure OutputStructure { get; set; } = OutputStructure.Volumes;
         [JsonIgnore]
-        public string OutputStructureSetting { get
+        public string OutputStructureSetting
+        {
+            get
             {
                 switch (OutputStructure)
                 {
@@ -171,7 +173,8 @@ namespace AOABO.Config
                         return "by Year/Season";
                 }
                 return "Flat";
-            } }
+            }
+        }
         public int StartYear { get; set; } = 5;
         public int OutputYearFormat { get; set; } = 0;
         public AfterwordSetting? AfterwordSetting { get; set; }
@@ -190,6 +193,7 @@ namespace AOABO.Config
         public Chapters Chapter { get; set; } = new Chapters();
         public ExtraContent Extras { get; set; } = new ExtraContent();
 
+        public Folders Folder { get; set; } = new Folders();
         public class Collections
         {
             public bool POVChapterCollection { get; set; } = true;
@@ -349,6 +353,38 @@ namespace AOABO.Config
                     return "no Gallery";
                 }
             }
+        }
+
+        public class Folders
+        {
+            public string InputFolder { get; set; } = string.Empty;
+            [JsonIgnore]
+            public string InputFolderSetting
+            {
+                get
+                {
+                    return FolderDisplay(InputFolder);
+                }
+            }
+
+            public string OutputFolder { get; set; } = string.Empty;
+            [JsonIgnore]
+            public string OutputFolderSetting { get { return FolderDisplay(OutputFolder); } }
+
+            private string FolderDisplay(string folder)
+            {
+                if (string.IsNullOrWhiteSpace(folder))
+                    return "[current folder]";
+
+                if (folder.Length > 1 && folder[1].Equals(':'))
+                {
+                    return folder;
+                }
+
+                return $"[current folder]\\{folder}";
+            }
+
+            public bool DeleteTempFolder { get; set; } = true;
         }
     }
 }

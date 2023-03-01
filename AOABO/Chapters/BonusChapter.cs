@@ -10,6 +10,7 @@ namespace AOABO.Chapters
             return new CollectionChapter
             {
                 ChapterName = ChapterName,
+                OverrideName = OverrideName,
                 OriginalFilenames = OriginalFilenames,
                 Season = Season,
                 SortOrder = IsEarly() ? EarlySortOrder : LateSortOrder,

@@ -15,7 +15,7 @@ namespace AOABO.Processor
         public string baseSortOrder;
         public string baseFolder;
 
-        public void FullOutput(bool textOnly, bool humanReadable, string name = null, int? maxX = null, int? maxY = null, int imageQuality = 90)
+        public void FullOutput(bool textOnly, bool humanReadable, bool deleteFolder, string name = null, int? maxX = null, int? maxY = null, int imageQuality = 90)
         {
             var folder = $"{baseFolder}\\temp";
             if (Directory.Exists(folder)) Directory.Delete(folder, true);
@@ -32,7 +32,7 @@ namespace AOABO.Processor
                 name = Console.ReadLine();
             }
 
-            foreach(var chapter in Chapters)
+            foreach (var chapter in Chapters)
             {
                 foreach (var imMatch in imageRegex.Matches(chapter.Contents))
                 {
@@ -108,7 +108,7 @@ namespace AOABO.Processor
                 if (humanReadable && !string.IsNullOrWhiteSpace(chapter.SubFolder))
                 {
                     var li = chapter.SubFolder.LastIndexOf('\\');
-                    if(li > 0)
+                    if (li > 0)
                     {
                         var subdir = chapter.SubFolder;
                         cssLink = subdir.Split('\\').Aggregate("../", (agg, str) => string.Concat(agg, "../"));
@@ -225,7 +225,10 @@ namespace AOABO.Processor
                 }
             }
             archive.Dispose();
-            Directory.Delete(folder, true);
+            if (deleteFolder)
+            {
+                Directory.Delete(folder, true);
+            }
         }
 
         static Regex ImgRemover = new Regex("<img.*?\\/>");

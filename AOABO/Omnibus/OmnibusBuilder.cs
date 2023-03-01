@@ -18,11 +18,19 @@ namespace AOABO.Omnibus
             Fanbooks
         }
 
-        public static string OverrideDirectory = Directory.GetCurrentDirectory() + "\\Overrides\\";
         private static Regex chapterTitleRegex = new Regex("<h1>[\\s\\S]*?<\\/h1>");
 
         public static void BuildOmnibus()
         {
+            var inputFolder = string.IsNullOrWhiteSpace(Configuration.Options.Folder.InputFolder) ? Directory.GetCurrentDirectory() :
+                Configuration.Options.Folder.InputFolder.Length > 1 && Configuration.Options.Folder.InputFolder[1].Equals(':') ? Configuration.Options.Folder.InputFolder : Directory.GetCurrentDirectory() + "\\" + Configuration.Options.Folder.InputFolder;
+
+            var outputFolder = string.IsNullOrWhiteSpace(Configuration.Options.Folder.OutputFolder) ? Directory.GetCurrentDirectory() :
+                Configuration.Options.Folder.OutputFolder.Length > 1 && Configuration.Options.Folder.OutputFolder[1].Equals(':') ? Configuration.Options.Folder.OutputFolder : Directory.GetCurrentDirectory() + "\\" + Configuration.Options.Folder.OutputFolder;
+
+            var OverrideDirectory = inputFolder + "\\Overrides\\";
+
+
             Console.Clear();
             Console.WriteLine("Creating an Ascendance of a Bookworm Omnibus");
             Console.WriteLine();
@@ -70,10 +78,10 @@ namespace AOABO.Omnibus
                     break;
             }
 
-            if (Directory.Exists("inputtemp")) Directory.Delete("inputtemp", true);
-            Directory.CreateDirectory("inputtemp");
+            if (Directory.Exists($"{inputFolder}\\inputtemp")) Directory.Delete($"{inputFolder}\\inputtemp", true);
+            Directory.CreateDirectory($"{inputFolder}\\inputtemp");
 
-            var epubs = Directory.GetFiles(Directory.GetCurrentDirectory(), "*.epub");
+            var epubs = Directory.GetFiles(inputFolder, "*.epub");
 
             if (!epubs.Any())
                 return;
@@ -94,7 +102,7 @@ namespace AOABO.Omnibus
                         || (partScope == PartToProcess.PartFive && !volume.ProcessedInPartFive)
                         || (partScope == PartToProcess.Fanbooks && !volume.ProcessedInFanbooks)) continue;
 
-                    ZipFile.ExtractToDirectory(file, $"inputtemp\\{volume.InternalName}");
+                    ZipFile.ExtractToDirectory(file, $"{inputFolder}\\inputtemp\\{volume.InternalName}");
                 }
                 catch (Exception ex)
                 {
@@ -105,8 +113,8 @@ namespace AOABO.Omnibus
             var outProcessor = new Processor.Processor();
             var inProcessor = new Processor.Processor();
 
-            inProcessor.UnpackFolder("inputtemp");
-            outProcessor.UnpackFolder("inputtemp");
+            inProcessor.UnpackFolder($"{inputFolder}\\inputtemp");
+            outProcessor.UnpackFolder($"{inputFolder}\\inputtemp");
             outProcessor.Chapters.Clear();
 
             IFolder folder = Configuration.Options.OutputYearFormat == 0 ? new YearNumberFolder() : new YearFolder();
@@ -190,9 +198,9 @@ namespace AOABO.Omnibus
                         outProcessor.Chapters.Add(newChapter);
 
 
-                        if (File.Exists(OverrideDirectory + chapter.ChapterName + ".xhtml"))
+                        if (File.Exists($"{OverrideDirectory}{(chapter as MoveableChapter)?.OverrideName}.xhtml"))
                         {
-                            newChapter.Contents = File.ReadAllText(OverrideDirectory + chapter.ChapterName + ".xhtml");
+                            newChapter.Contents = File.ReadAllText(OverrideDirectory + (chapter as MoveableChapter)?.OverrideName + ".xhtml");
                         }
                         else
                         {
@@ -249,7 +257,7 @@ namespace AOABO.Omnibus
             }
 
 
-            outProcessor.baseFolder = Directory.GetCurrentDirectory();
+            outProcessor.baseFolder = outputFolder;
             outProcessor.Metadata.Add("<meta name=\"cover\" content=\"images/cover.jpg\" />");
             outProcessor.Images.Add(new Processor.Image { Name = "cover.jpg", Referenced = true, OldLocation = "cover.jpg" });
 
@@ -268,9 +276,9 @@ namespace AOABO.Omnibus
             outProcessor.Metadata.Add("<dc:publisher>J-Novel Club</dc:publisher>");
             outProcessor.Metadata.Add("<dc:identifier id=\"pub-id\">1</dc:identifier>");
 
-            outProcessor.FullOutput(false, Configuration.Options.UseHumanReadableFileStructure, bookTitle, Configuration.Options.Image.MaxWidth, Configuration.Options.Image.MaxHeight, Configuration.Options.Image.Quality);
+            outProcessor.FullOutput(false, Configuration.Options.UseHumanReadableFileStructure, Configuration.Options.Folder.DeleteTempFolder, bookTitle, Configuration.Options.Image.MaxWidth, Configuration.Options.Image.MaxHeight, Configuration.Options.Image.Quality);
 
-            if (Directory.Exists("inputtemp")) Directory.Delete("inputtemp", true);
+            if (Directory.Exists($"{inputFolder}\\inputtemp")) Directory.Delete($"{inputFolder}\\inputtemp", true);
 
             Console.WriteLine($"\"{bookTitle}\" creation complete. Press any key to continue.");
             Console.ReadKey();

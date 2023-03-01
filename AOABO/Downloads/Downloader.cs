@@ -16,7 +16,10 @@ namespace AOABO.Downloads
 
             var library = await GetLibrary(client, token);
 
-            var epubs = Directory.GetFiles(Directory.GetCurrentDirectory(), "*.epub");
+            var inputFolder = string.IsNullOrWhiteSpace(Configuration.Options.Folder.InputFolder) ? Directory.GetCurrentDirectory() :
+                Configuration.Options.Folder.InputFolder.Length > 1 && Configuration.Options.Folder.InputFolder[1].Equals(':') ? Configuration.Options.Folder.InputFolder : Directory.GetCurrentDirectory() + "\\" + Configuration.Options.Folder.InputFolder;
+
+            var epubs = Directory.GetFiles(inputFolder, "*.epub");
             foreach (var fileName in Config.Configuration.VolumeNames)
             {
                 try
@@ -26,7 +29,7 @@ namespace AOABO.Downloads
                     if (libraryBook == null) continue;
                     if (string.IsNullOrEmpty(match))
                     {
-                        await doDownload(libraryBook, fileName, client);
+                        await doDownload(libraryBook, fileName, client, inputFolder);
                     }
                     else
                     {
@@ -48,12 +51,12 @@ namespace AOABO.Downloads
                                 Console.WriteLine();
                                 if (yn.KeyChar.Equals('y') || yn.KeyChar.Equals('Y'))
                                 {
-                                    await doDownload(libraryBook, fileName, client);
+                                    await doDownload(libraryBook, fileName, client, inputFolder);
                                 }
                             }
                             else
                             {
-                                await doDownload(libraryBook, fileName, client);
+                                await doDownload(libraryBook, fileName, client, inputFolder);
                             }
                         }
                     }
@@ -80,9 +83,7 @@ new AuthenticationHeaderValue("Bearer", token);
 
             if (library == null) throw new Exception("Failed to load j-novel.club library");
 
-
-            client.DefaultRequestHeaders.Authorization =
-      null;
+            client.DefaultRequestHeaders.Authorization = null;
 
             return library;
         }
@@ -90,7 +91,7 @@ new AuthenticationHeaderValue("Bearer", token);
 
         static Regex mangaSizeRegex = new Regex("\\?height=.*&");
 
-        private async static Task doDownload(LibraryResponse.Book book, VolumeName name, HttpClient client)
+        private async static Task doDownload(LibraryResponse.Book book, VolumeName name, HttpClient client, string folder)
         {
             LibraryResponse.Book.Download download = null;
             if (book.downloads.Count < 1) return;
@@ -119,8 +120,9 @@ new AuthenticationHeaderValue("Bearer", token);
 
             using (var stream = await client.GetStreamAsync(download.link))
             {
-                if (File.Exists(name.FileName)) File.Delete(name.FileName);
-                using (var fileStream = File.OpenWrite(name.FileName))
+                var fileName = $"{folder}\\{name.FileName}";
+                if (File.Exists(fileName)) File.Delete(fileName);
+                using (var fileStream = File.OpenWrite(fileName))
                 {
                     await stream.CopyToAsync(fileStream);
                 }

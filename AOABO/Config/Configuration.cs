@@ -102,6 +102,7 @@ namespace AOABO.Config
                 Console.WriteLine("2 - Image Settings");
                 Console.WriteLine("3 - Extra Content Settings");
                 Console.WriteLine($"4 - Human-Readable Internal Filenames ({Options.UseHumanReadableFileStructure})");
+                Console.WriteLine("5 - Folder Settings");
                 Console.WriteLine("Press any other key to return to main menu");
 
                 var key = Console.ReadKey();
@@ -121,6 +122,9 @@ namespace AOABO.Config
                         break;
                     case '4':
                         SetBool("Use human-readable file names inside the .epub? (May cause issues with iBooks.)", x => Options.UseHumanReadableFileStructure = x);
+                        break;
+                    case '5':
+                        SetFolderSettings();
                         break;
                     default:
                         finished = true;
@@ -313,6 +317,39 @@ namespace AOABO.Config
                         break;
                     case '5':
                         SetInt("Pick a new Image Quality (1-100, higher numbers produce better images and larger file sizes)", x => Options.Image.Quality = x, 1, 100);
+                        break;
+                    default:
+                        return;
+                }
+            }
+        }
+
+        private static void SetFolderSettings()
+        {
+            while (true)
+            {
+                Console.Clear();
+                Console.WriteLine($"0 - Input Folder (Currently {Options.Folder.InputFolderSetting})");
+                Console.WriteLine($"1 - Output Folder (Currently {Options.Folder.OutputFolderSetting})");
+                Console.WriteLine($"2 - Delete the Temporary Folder once the omnibus is built? ({Options.Folder.DeleteTempFolder})");
+
+                var key = Console.ReadKey();
+                switch (key.KeyChar)
+                {
+                    case '0':
+                        Console.WriteLine();
+                        Console.WriteLine("Enter the new input folder.");
+                        Console.WriteLine("This can be absolute or relative, leave blank for 'the folder this program is in'.");
+                        Options.Folder.InputFolder = Console.ReadLine() ?? string.Empty;
+                        break;
+                    case '1':
+                        Console.WriteLine();
+                        Console.WriteLine("Enter the new output folder.");
+                        Console.WriteLine("This can be absolute or relative, leave blank for 'the folder this program is in'.");
+                        Options.Folder.OutputFolder = Console.ReadLine() ?? string.Empty;
+                        break;
+                    case '2':
+                        SetBool("Delete the Temporary Folder once the omnibus is built?", x => Options.Folder.DeleteTempFolder = x);
                         break;
                     default:
                         return;

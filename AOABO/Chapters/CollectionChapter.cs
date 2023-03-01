@@ -2,7 +2,7 @@
 
 namespace AOABO.Chapters
 {
-    public class CollectionChapter : Chapter
+    public class CollectionChapter : MoveableChapter
     {
         public string SubFolder { get; set; } = string.Empty;
         public CollectionEnum Gallery { get; set; }
@@ -39,6 +39,16 @@ namespace AOABO.Chapters
                 default:
                     throw new Exception($"GalleryChapter Unknown Gallery Type {Gallery}");
             }
+        }
+
+        protected override bool IsEarly()
+        {
+            return false;
+        }
+
+        public override CollectionChapter GetCollectionChapter()
+        {
+            return this;
         }
     }
 }
