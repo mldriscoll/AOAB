@@ -1,6 +1,6 @@
 ﻿using System.Runtime.Serialization.Json;
 
-namespace AOABO
+namespace Core
 {
     public class Login
     {
@@ -56,7 +56,7 @@ namespace AOABO
                 using (var loginStream = await loginCall.Content.ReadAsStreamAsync())
                 {
                     var deserializer = new DataContractJsonSerializer(typeof(LoginResponse));
-                    bearerToken = (deserializer.ReadObject(loginStream) as LoginResponse).id;
+                    bearerToken = (deserializer.ReadObject(loginStream) as LoginResponse).Id;
                 }
 
                 return new Login(username, password, bearerToken);
@@ -70,7 +70,7 @@ namespace AOABO
         }
         public class LoginResponse
         {
-            public string id { get; set; }
+            public string Id { get; set; } = string.Empty;
         }
     }
 }

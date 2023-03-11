@@ -2,6 +2,7 @@
 using AOABO.Config;
 using AOABO.OCR;
 using AOABO.Omnibus;
+using Core;
 using Core.Downloads;
 
 var executing = true;

@@ -1,5 +1,6 @@
 ﻿using AOABO.Chapters;
 using AOABO.Config;
+using Core;
 using Core.Downloads;
 using System.Drawing;
 using System.Drawing.Imaging;
