@@ -29,7 +29,7 @@ while (executing)
     {
         case ('1', true):
         case ('1', false):
-            OmnibusBuilder.BuildOmnibus();
+            await OmnibusBuilder.BuildOmnibus();
             break;
         case ('2', true):
         case ('2', false):

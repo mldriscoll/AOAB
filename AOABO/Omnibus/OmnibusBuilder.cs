@@ -1,5 +1,6 @@
 ﻿using AOABO.Chapters;
 using AOABO.Config;
+using Core.Processor;
 using System.IO.Compression;
 using System.Text.RegularExpressions;
 
@@ -20,7 +21,7 @@ namespace AOABO.Omnibus
 
         private static Regex chapterTitleRegex = new Regex("<h1>[\\s\\S]*?<\\/h1>");
 
-        public static void BuildOmnibus()
+        public static async Task BuildOmnibus()
         {
             var inputFolder = string.IsNullOrWhiteSpace(Configuration.Options.Folder.InputFolder) ? Directory.GetCurrentDirectory() :
                 Configuration.Options.Folder.InputFolder.Length > 1 && Configuration.Options.Folder.InputFolder[1].Equals(':') ? Configuration.Options.Folder.InputFolder : Directory.GetCurrentDirectory() + "\\" + Configuration.Options.Folder.InputFolder;
@@ -110,8 +111,8 @@ namespace AOABO.Omnibus
                 }
             }
 
-            var outProcessor = new Processor.Processor();
-            var inProcessor = new Processor.Processor();
+            var outProcessor = new Processor();
+            var inProcessor = new Processor();
 
             inProcessor.UnpackFolder($"{inputFolder}\\inputtemp");
             outProcessor.UnpackFolder($"{inputFolder}\\inputtemp");
@@ -154,7 +155,7 @@ namespace AOABO.Omnibus
 
                 Console.WriteLine($"Processing book {volume.InternalName}");
 
-                List<Chapter> chapters;
+                List<Chapters.Chapter> chapters;
                 switch (partScope)
                 {
                     case PartToProcess.PartOne:
@@ -187,7 +188,7 @@ namespace AOABO.Omnibus
                     try
                     {
                         bool notFirst = false;
-                        var newChapter = new Processor.Chapter
+                        var newChapter = new Core.Processor.Chapter
                         {
                             Contents = string.Empty,
                             CssFiles = new List<string>(),
@@ -256,14 +257,12 @@ namespace AOABO.Omnibus
                 }
             }
 
-
-            outProcessor.baseFolder = outputFolder;
             outProcessor.Metadata.Add("<meta name=\"cover\" content=\"images/cover.jpg\" />");
-            outProcessor.Images.Add(new Processor.Image { Name = "cover.jpg", Referenced = true, OldLocation = "cover.jpg" });
+            outProcessor.Images.Add(new Core.Processor.Image { Name = "cover.jpg", Referenced = true, OldLocation = "cover.jpg" });
 
             var coverContents = File.ReadAllText("Reference\\cover.txt");
 
-            outProcessor.Chapters.Add(new Processor.Chapter { Contents = coverContents, Name = "Cover.xhtml", SortOrder = "00", SubFolder = "00-Cover" });
+            outProcessor.Chapters.Add(new Core.Processor.Chapter { Contents = coverContents, Name = "Cover.xhtml", SortOrder = "00", SubFolder = "00-Cover" });
 
             if (File.Exists($"{bookTitle}.epub")) File.Delete($"{bookTitle}.epub");
 
@@ -276,7 +275,7 @@ namespace AOABO.Omnibus
             outProcessor.Metadata.Add("<dc:publisher>J-Novel Club</dc:publisher>");
             outProcessor.Metadata.Add("<dc:identifier id=\"pub-id\">1</dc:identifier>");
 
-            outProcessor.FullOutput(false, Configuration.Options.UseHumanReadableFileStructure, Configuration.Options.Folder.DeleteTempFolder, bookTitle, Configuration.Options.Image.MaxWidth, Configuration.Options.Image.MaxHeight, Configuration.Options.Image.Quality);
+            await outProcessor.FullOutput(outputFolder, false, Configuration.Options.UseHumanReadableFileStructure, Configuration.Options.Folder.DeleteTempFolder, bookTitle, Configuration.Options.Image.MaxWidth, Configuration.Options.Image.MaxHeight, Configuration.Options.Image.Quality);
 
             if (Directory.Exists($"{inputFolder}\\inputtemp")) Directory.Delete($"{inputFolder}\\inputtemp", true);
 
@@ -284,9 +283,9 @@ namespace AOABO.Omnibus
             Console.ReadKey();
         }
 
-        private static List<Chapter> BuildChapterList(Volume volume, Func<Chapter, bool> filter)
+        private static List<Chapters.Chapter> BuildChapterList(Volume volume, Func<Chapters.Chapter, bool> filter)
         {
-            List<Chapter> chapters = new List<Chapter>();
+            var chapters = new List<Chapters.Chapter>();
 
             if (Configuration.Options.Chapter.UpdateChapterNames)
             {

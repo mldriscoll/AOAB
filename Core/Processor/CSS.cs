@@ -1,10 +1,10 @@
-﻿namespace AOABO.Processor
+﻿namespace Core.Processor
 {
     public class CSS
     {
-        public string Contents { get; set; }
-        public List<string> OldNames { get; set; }
-        public string Name { get; set; }
+        public string Contents { get; set; } = string.Empty;
+        public List<string> OldNames { get; set; } = new List<string>();
+        public string Name { get; set; } = string.Empty;
 
         public override string ToString()
         {

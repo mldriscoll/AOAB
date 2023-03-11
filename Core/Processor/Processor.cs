@@ -1,9 +1,8 @@
-﻿using AOABO.Omnibus;
-using ImageProcessor;
+﻿using SixLabors.ImageSharp.Formats.Jpeg;
 using System.IO.Compression;
 using System.Text.RegularExpressions;
 
-namespace AOABO.Processor
+namespace Core.Processor
 {
     public class Processor
     {
@@ -12,11 +11,14 @@ namespace AOABO.Processor
         public List<Image> Images = new List<Image>();
         public List<NavPoint> NavPoints = new List<NavPoint>();
         public List<string> Metadata = new List<string>();
-        public string baseSortOrder;
-        public string baseFolder;
 
-        public void FullOutput(bool textOnly, bool humanReadable, bool deleteFolder, string name = null, int? maxX = null, int? maxY = null, int imageQuality = 90)
+        public async Task FullOutput(string baseFolder, bool textOnly, bool humanReadable, bool deleteFolder, string name, int? maxX = null, int? maxY = null, int imageQuality = 90)
         {
+            if (string.IsNullOrWhiteSpace(name))
+            {
+                throw new ArgumentNullException("name");
+            }
+
             var folder = $"{baseFolder}\\temp";
             if (Directory.Exists(folder)) Directory.Delete(folder, true);
             Directory.CreateDirectory(folder);
@@ -25,12 +27,6 @@ namespace AOABO.Processor
 
             File.WriteAllText($"{folder}\\mimetype", "application/epub+zip");
             File.WriteAllText($"{folder}\\META-INF\\container.xml", "<?xml version=\"1.0\" encoding=\"UTF-8\"?><container version=\"1.0\" xmlns=\"urn:oasis:names:tc:opendocument:xmlns:container\"><rootfiles><rootfile full-path=\"oebps/content.opf\" media-type=\"application/oebps-package+xml\"/></rootfiles></container>");
-
-            if (name == null)
-            {
-                Console.WriteLine("Book Name");
-                name = Console.ReadLine();
-            }
 
             foreach (var chapter in Chapters)
             {
@@ -62,26 +58,25 @@ namespace AOABO.Processor
                     if (maxX.HasValue || maxY.HasValue)
                     {
                         var scale = 1m;
-                        var ifac = new ImageFactory();
-                        ifac.Load(im.OldLocation);
+                        var image = await SixLabors.ImageSharp.Image.LoadAsync(im.OldLocation);
 
-                        if (maxX.HasValue && ifac.Image.Width > maxX)
+                        if (maxX.HasValue && image.Width > maxX)
                         {
-                            scale = (decimal)ifac.Image.Width / (decimal)maxX.Value;
+                            scale = image.Width / (decimal)maxX.Value;
                         }
 
-                        if (maxY.HasValue && ifac.Image.Height > maxY)
+                        if (maxY.HasValue && image.Height > maxY)
                         {
-                            var yScale = (decimal)ifac.Image.Height / (decimal)maxY.Value;
+                            var yScale = image.Height / (decimal)maxY.Value;
 
                             scale = scale > yScale ? scale : yScale;
                         }
 
                         if (scale > 1)
                         {
-                            ifac.Resize(new System.Drawing.Size((int)(ifac.Image.Width / scale), (int)(ifac.Image.Height / scale)));
-                            ifac.Quality(imageQuality);
-                            ifac.Save(folder + "\\oebps\\images\\" + im.Name);
+                            image.Mutate(
+                                i => i.Resize((int)(image.Width / scale), (int)(image.Height / scale)));
+                            await image.SaveAsJpegAsync(folder + "\\oebps\\images\\" + im.Name, new JpegEncoder { Quality = imageQuality });
                         }
                         else
                         {
@@ -128,7 +123,7 @@ namespace AOABO.Processor
                 }
 
                 var a = humanReadable ? chapter.SubFolder + "\\" : string.Empty;
-                var fullFileName = $"{folder}\\oebps\\Text\\{(a + fileName)}";
+                var fullFileName = $"{folder}\\oebps\\Text\\{a + fileName}";
 
                 while (File.Exists(fullFileName))
                 {
@@ -157,7 +152,7 @@ namespace AOABO.Processor
                         var np = nps.FirstOrDefault(x => x.Label.Equals(folderName));
                         if (np == null)
                         {
-                            np = new NavPoint { Label = folderName, Source = Uri.EscapeUriString($"Text/{(a + fileName)}".Replace('\\', '/').Replace(":", "").Replace(" ", "")), Id = tocCounter };
+                            np = new NavPoint { Label = folderName, Source = Uri.EscapeDataString($"Text/{a + fileName}".Replace('\\', '/').Replace(":", "").Replace(" ", "")), Id = tocCounter };
                             tocCounter++;
                             nps.Add(np);
                         }
@@ -174,14 +169,14 @@ namespace AOABO.Processor
                     chapter.Contents = chapter.Contents.Replace("[ImageFolder]", imFolderReplace);
                 }
 
-                nps.Add(new NavPoint { Label = chapter.Name, Source = Uri.EscapeUriString($"Text/{(a + fileName)}".Replace('\\', '/').Replace(":", "").Replace(" ", "")), Id = tocCounter });
+                nps.Add(new NavPoint { Label = chapter.Name, Source = Uri.EscapeDataString($"Text/{a + fileName}".Replace('\\', '/').Replace(":", "").Replace(" ", "")), Id = tocCounter });
                 tocCounter++;
 
 
                 File.WriteAllText(fullFileName, $@"<?xml version='1.0' encoding='utf-8'?>
 <html xmlns={"\""}http://www.w3.org/1999/xhtml{"\""} xmlns:epub={"\""}http://www.idpf.org/2007/ops{"\""} xml:lang={"\""}en{"\""}>
   <head>
-    <title>Ascendance of a Bookworm Omnibus</title>
+    <title>{name}</title>
     <meta http-equiv={"\""}Content-Type{"\""} content={"\""}text/html; charset=utf-8{"\""} />
   <link rel={"\""}stylesheet{"\""} type={"\""}text/css{"\""} href={"\""}{cssLink}css.css{"\""} />
 </head>{ chapter.Contents}</html>");
@@ -250,37 +245,43 @@ namespace AOABO.Processor
             foreach (var f in cssFiles)
             {
                 var text = File.ReadAllText(f);
-                int? start = null;
-                int? space = null;
-                int? open = null;
+                int start = -1;
+                int space = -1;
+                int open = -1;
                 for (int counter = 0; counter < text.Length; counter++)
                 {
-                    if (start == null && classStartRegex.IsMatch(text.Substring(counter, 1)))
+                    if (start == -1 && classStartRegex.IsMatch(text.Substring(counter, 1)))
                     {
                         start = counter;
                     }
 
-                    if (start != null && space == null && text[counter].Equals(' '))
+                    if (start == -1) continue;
+
+                    if (space == -1 && text[counter].Equals(' '))
                     {
                         space = counter - 1;
                     }
 
-                    if (space != null && open == null && text[counter].Equals('{'))
+                    if (space == -1) continue;
+
+                    if (open == -1 && text[counter].Equals('{'))
                     {
                         open = counter;
                     }
 
-                    if (open != null && text[counter].Equals('}'))
+                    if (open == -1) continue;
+
+                    if (text[counter].Equals('}'))
                     {
-                        var contents = text.Substring(open.Value, counter - open.Value + 1);
+                        var contents = text.Substring(open, counter - open + 1);
                         var match = CSS.FirstOrDefault(x => x.Contents.Equals(contents));
                         if (match != null)
                         {
-                            match.OldNames.Add($"{f}:{text.Substring(start.Value, space.Value - start.Value + 1)}");
+                            match.OldNames.Add($"{f}:{text.Substring(start, space - start + 1)}");
                         }
                         else
                         {
-                            var substring = text.Substring(start.Value, space.Value - start.Value + 1);
+                            var substring = text.Substring(start, space - start + 1);
 
                             if (substring.StartsWith('.'))
                             {
@@ -312,9 +313,9 @@ namespace AOABO.Processor
                             }
                         }
 
-                        start = null;
-                        space = null;
-                        open = null;
+                        start = -1;
+                        space = -1;
+                        open = -1;
                     }
                 }
             }

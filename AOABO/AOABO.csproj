@@ -13,6 +13,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="JSON\Fanbooks.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
