@@ -1,8 +1,8 @@
 ﻿using AOABO;
 using AOABO.Config;
-using AOABO.Downloads;
 using AOABO.OCR;
 using AOABO.Omnibus;
+using Core.Downloads;
 
 var executing = true;
 HttpClient client = new HttpClient();
@@ -40,7 +40,9 @@ while (executing)
             login = await Login.FromConsole(client);
             break;
         case ('4', true):
-            await Downloader.DoDownloads(client, login.AccessToken);
+            var inputFolder = string.IsNullOrWhiteSpace(Configuration.Options.Folder.InputFolder) ? Directory.GetCurrentDirectory() :
+                Configuration.Options.Folder.InputFolder.Length > 1 && Configuration.Options.Folder.InputFolder[1].Equals(':') ? Configuration.Options.Folder.InputFolder : Directory.GetCurrentDirectory() + "\\" + Configuration.Options.Folder.InputFolder;
+            await Downloader.DoDownloads(client, login.AccessToken, inputFolder, Configuration.VolumeNames.Select(x => new Name { ApiSlug = x.ApiSlug, FileName = x.FileName, Quality = x.Quality }));
             break;
         case ('5', true):
             await OCR.BuildOCROverrides(login);
