@@ -1,0 +1,52 @@
+[
+  {
+    "Name": "The Apothecary Diaries",
+    "InternalName": "tAD",
+    "Author": "Natsu Hyuuga",
+    "AuthorSort": "HYUUGA, NATSU",
+    "Volumes": [
+      {
+        "ApiSlug": "the-apothecary-diaries-volume-1",
+        "FileName": "the-apothecary-diaries-volume-1.epub",
+        "InternalName": "tAD01",
+        "ShowRemainingFiles": true
+      },
+      {
+        "ApiSlug": "the-apothecary-diaries-volume-2",
+        "FileName": "the-apothecary-diaries-volume-2.epub",
+        "InternalName": "tAD02",
+        "ShowRemainingFiles": true
+      },
+      {
+        "ApiSlug": "the-apothecary-diaries-volume-3",
+        "FileName": "the-apothecary-diaries-volume-3.epub",
+        "InternalName": "tAD03",
+        "ShowRemainingFiles": true
+      },
+      {
+        "ApiSlug": "the-apothecary-diaries-volume-4",
+        "FileName": "the-apothecary-diaries-volume-4.epub",
+        "InternalName": "tAD04",
+        "ShowRemainingFiles": true
+      },
+      {
+        "ApiSlug": "the-apothecary-diaries-volume-5",
+        "FileName": "the-apothecary-diaries-volume-5.epub",
+        "InternalName": "tAD05",
+        "ShowRemainingFiles": true
+      },
+      {
+        "ApiSlug": "the-apothecary-diaries-volume-6",
+        "FileName": "the-apothecary-diaries-volume-6.epub",
+        "InternalName": "tAD06",
+        "ShowRemainingFiles": true
+      },
+      {
+        "ApiSlug": "the-apothecary-diaries-volume-7",
+        "FileName": "the-apothecary-diaries-volume-7.epub",
+        "InternalName": "tAD07",
+        "ShowRemainingFiles": true
+      }
+    ]
+  }
+]
