@@ -25,7 +25,7 @@ namespace Core.Downloads
                 try
                 {
                     var match = fileName.NameMatch(epubs);
-                    var libraryBook = library.Books.FirstOrDefault(x => x.Volume.Slug.Equals(fileName.ApiSlug, StringComparison.InvariantCultureIgnoreCase));
+                    var libraryBook = library.books.FirstOrDefault(x => x.volume.slug.Equals(fileName.ApiSlug, StringComparison.InvariantCultureIgnoreCase));
                     if (libraryBook == null) continue;
                     if (string.IsNullOrEmpty(match))
                     {
@@ -33,11 +33,11 @@ namespace Core.Downloads
                     }
                     else
                     {
-                        if (string.IsNullOrWhiteSpace(libraryBook.LastDownload)) continue;
+                        if (string.IsNullOrWhiteSpace(libraryBook.lastDownload)) continue;
                         else
                         {
-                            DateTime downloaded = DateTime.Parse(libraryBook.LastDownload);
-                            DateTime updated = DateTime.Parse(libraryBook.LastUpdated);
+                            DateTime downloaded = DateTime.Parse(libraryBook.lastDownload);
+                            DateTime updated = DateTime.Parse(libraryBook.lastUpdated);
                             var finfo = new FileInfo(match);
                             var diff = finfo.LastWriteTime.Subtract(downloaded);
                             var isLastDownload = diff.TotalSeconds < 30 && diff.TotalSeconds > -30;
@@ -93,31 +93,31 @@ namespace Core.Downloads
         private async static Task doDownload(LibraryResponse.Book book, Name name, HttpClient client, string folder)
         {
             LibraryResponse.Book.Download download = null;
-            if (book.Downloads.Count < 1) return;
+            if (book.downloads.Count < 1) return;
 
             Console.WriteLine($"Downloading {name.FileName}");
 
-            if (book.Downloads.Count > 1)
+            if (book.downloads.Count > 1)
             {
                 Console.WriteLine("Which version do you want to download?");
-                for (int i = 0; i < book.Downloads.Count; i++)
+                for (int i = 0; i < book.downloads.Count; i++)
                 {
-                    Console.WriteLine($"{i} - {book.Downloads[i].Label}");
+                    Console.WriteLine($"{i} - {book.downloads[i].label}");
                 }
                 var str = Console.ReadKey().KeyChar.ToString();
                 var key = int.Parse(str);
 
-                download = book.Downloads[key];
+                download = book.downloads[key];
 
-                var size = mangaSizeRegex.Match(download.Link).ToString().Replace("?height=", string.Empty).Replace("&", string.Empty);
+                var size = mangaSizeRegex.Match(download.link).ToString().Replace("?height=", string.Empty).Replace("&", string.Empty);
                 name.FileName = string.Format(name.FileName, size);
             }
             else
             {
-                download = book.Downloads[0];
+                download = book.downloads[0];
             }
 
-            using (var stream = await client.GetStreamAsync(download.Link))
+            using (var stream = await client.GetStreamAsync(download.link))
             {
                 var fileName = $"{folder}\\{name.FileName}";
                 if (File.Exists(fileName)) File.Delete(fileName);
@@ -132,11 +132,11 @@ namespace Core.Downloads
         {
             var library = await GetLibrary(client, token);
 
-            var libraryBook = library.Books.FirstOrDefault(x => x.Volume.Slug.Equals(slug, StringComparison.InvariantCultureIgnoreCase));
+            var libraryBook = library.books.FirstOrDefault(x => x.volume.slug.Equals(slug, StringComparison.InvariantCultureIgnoreCase));
 
-            var download = libraryBook.Downloads.Last();
+            var download = libraryBook.downloads.Last();
 
-            using (var stream = await client.GetStreamAsync(download.Link))
+            using (var stream = await client.GetStreamAsync(download.link))
             {
                 using (var filestream = File.OpenWrite(fileName))
                 {

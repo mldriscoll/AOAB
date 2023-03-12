@@ -56,7 +56,7 @@ namespace Core
                 using (var loginStream = await loginCall.Content.ReadAsStreamAsync())
                 {
                     var deserializer = new DataContractJsonSerializer(typeof(LoginResponse));
-                    bearerToken = (deserializer.ReadObject(loginStream) as LoginResponse).Id;
+                    bearerToken = (deserializer.ReadObject(loginStream) as LoginResponse).id;
                 }
 
                 return new Login(username, password, bearerToken);
@@ -70,7 +70,7 @@ namespace Core
         }
         public class LoginResponse
         {
-            public string Id { get; set; } = string.Empty;
+            public string id { get; set; } = string.Empty;
         }
     }
 }
