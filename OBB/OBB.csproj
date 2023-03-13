@@ -16,6 +16,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="JSON\DiB.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="JSON\Series.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

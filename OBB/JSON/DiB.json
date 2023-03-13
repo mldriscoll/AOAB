@@ -1,5 +1,1221 @@
 [
   {
-
+    "InternalName": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-1",
+    "Chapters": [
+      {
+        "ChapterName": "Volume 01",
+        "SortOrder": "01",
+        "Chapters": [
+          {
+            "ChapterName": "The Day She Decided to Hold Her Head High",
+            "SortOrder": "01",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1",
+              "insert1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Breaking Off the Engagement",
+            "SortOrder": "02",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2",
+              "insert2",
+              "chapter2_1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "A Knight from the Beast Hunters",
+            "SortOrder": "03",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter3"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "The Senior Apprentice",
+            "SortOrder": "04",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter4"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "The Rossetti Trading Company",
+            "SortOrder": "05",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter5",
+              "insert3",
+              "chapter5_1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Re-u-Knighted",
+            "SortOrder": "06",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter6",
+              "insert4",
+              "chapter6_1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Stepping Out Together",
+            "SortOrder": "08",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter8"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Friends",
+            "SortOrder": "09",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter9",
+              "insert5",
+              "chapter9_1",
+              "insert6",
+              "chapter9_2"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Magical Toolmaker Dahlia",
+            "SortOrder": "11",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter11",
+              "insert7",
+              "insert8"
+            ],
+            "Chapters": []
+          }
+        ]
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "Volume 01",
+        "SortOrder": "01",
+        "Chapters": [
+          {
+            "ChapterName": "Interlude: Withering Happiness",
+            "SortOrder": "07",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter7"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Interlude: The Chairman of Orlando \u0026amp; Co.",
+            "SortOrder": "10",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter10"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Extra Story: A Father and Daughter\u2019s Magical Tool Invention Diaries\u2014the Dryer",
+            "SortOrder": "12",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "extra"
+            ]
+          }
+        ]
+      }
+    ],
+    "ExtraContent": [
+      {
+        "ChapterName": "Volume 01",
+        "SortOrder": "01",
+        "SubFolder": "90-Translator's Notes",
+        "OriginalFilenames": [
+          "bonus"
+        ],
+        "Chapters": []
+      }
+    ],
+    "Gallery": {
+      "SplashImages": [
+        "color1",
+        "color2",
+        "color3"
+      ],
+      "ChapterImages": [
+        "insert1",
+        "insert2",
+        "insert3",
+        "insert4",
+        "insert5",
+        "insert6",
+        "insert7",
+        "insert8"
+      ],
+      "ChapterName": "",
+      "SortOrder": "",
+      "SubFolder": "01-Volume 01",
+      "OriginalFilenames": [],
+      "Chapters": []
+    }
+  },
+  {
+    "InternalName": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-2",
+    "Chapters": [
+      {
+        "ChapterName": "Volume 02",
+        "SortOrder": "02",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Waiting to Meet Again",
+            "SortOrder": "01",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "The Man-Made Magical Sword\u2014Blade of the Dark Lord\u2019s Minion",
+            "SortOrder": "02",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2",
+              "insert1",
+              "chapter2_1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "The Gastoni Witch",
+            "SortOrder": "03",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter3"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Friends for Dinner",
+            "SortOrder": "04",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter4",
+              "insert2",
+              "chapter4_1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "The Black Reaper and the Monster Husks",
+            "SortOrder": "05",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter5",
+              "insert3"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "The Apology and the Unicorn\u2019s Horn",
+            "SortOrder": "06",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter6"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "The Titan Frog Hunt and Volf\u2019s Report",
+            "SortOrder": "07",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter7"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "The Meeting at the Merchants\u2019 Guild",
+            "SortOrder": "08",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter8"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Tricky Negotiations at the Merchants\u2019 Guild",
+            "SortOrder": "09",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter9"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "The Unicorn Pendant",
+            "SortOrder": "10",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter10"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "His Brother and His Nightmares",
+            "SortOrder": "11",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter11",
+              "insert4",
+              "chapter11_1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "The Sk\u00F6ll Bracelet",
+            "SortOrder": "12",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter12",
+              "insert5",
+              "chapter12_1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "New Staff and a Royal Invitation",
+            "SortOrder": "13",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter13"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "The Castle, Athlete\u2019s Foot, and the Magical Toolmaker",
+            "SortOrder": "14",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter14",
+              "insert6",
+              "chapter14_1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "The Apology and the Confession Game",
+            "SortOrder": "15",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter15"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Respects after the Rain",
+            "SortOrder": "16",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter16",
+              "insert7"
+            ],
+            "Chapters": []
+          }
+        ]
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "Volume 02",
+        "SortOrder": "02",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Extra Story: A Father and Daughter\u2019s Magical Tool Invention Diaries\u2014Waterproof Cloth",
+            "SortOrder": "17",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "extra"
+            ],
+            "Chapters": []
+          }
+        ]
+      }
+    ],
+    "ExtraContent": [
+      {
+        "ChapterName": "Volume 02",
+        "SortOrder": "02",
+        "SubFolder": "90-Translator's Notes",
+        "OriginalFilenames": [
+          "bonus"
+        ],
+        "Chapters": []
+      }
+    ],
+    "Gallery": {
+      "SplashImages": [
+        "color1",
+        "color2",
+        "color3"
+      ],
+      "ChapterImages": [
+        "insert1",
+        "insert2",
+        "insert3",
+        "insert4",
+        "insert5",
+        "insert6",
+        "insert7"
+      ],
+      "ChapterName": "",
+      "SortOrder": "",
+      "SubFolder": "02-Volume 02",
+      "OriginalFilenames": [],
+      "Chapters": []
+    }
+  },
+  {
+    "InternalName": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-3",
+    "Chapters": [
+      {
+        "ChapterName": "Volume 03",
+        "SortOrder": "03",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "The Pop-Up Toaster",
+            "SortOrder": "01",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "The Artisans\u2019 T\u00EAte-\u00E0-T\u00EAte",
+            "SortOrder": "02",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2",
+              "insert1",
+              "chapter2_1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "The Harpy Hunt",
+            "SortOrder": "03",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter3"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "The Road Less Traveled",
+            "SortOrder": "04",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter4"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "The Man-Made Magical Sword: Second Attempt\u2014the Creeping Blade",
+            "SortOrder": "05",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter5",
+              "insert2",
+              "chapter5_1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Merriment Under the Stars",
+            "SortOrder": "06",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter6"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "The New and Improved Compact Magical Stove",
+            "SortOrder": "07",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter7"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "The Love Letter and the Royal Knights\u2019 Joint Maneuvers",
+            "SortOrder": "08",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter8",
+              "insert3",
+              "chapter8_1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Rock Oysters with Guido",
+            "SortOrder": "09",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter9"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Working with Pride",
+            "SortOrder": "10",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter10"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "The Magical Toolmaker, the Knight, the Craftsman, and the Merchant",
+            "SortOrder": "11",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter11",
+              "insert5",
+              "chapter11_1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "The Man-Made Magical Sword: Third Attempt\u2014the Frozen Blade",
+            "SortOrder": "12",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter12"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "The Purple Bicorns",
+            "SortOrder": "13",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter13",
+              "insert6",
+              "chapter13_1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Grilled Butterfish and the Seven Wonders of the Royal Capital",
+            "SortOrder": "15",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter14",
+              "insert7"
+            ],
+            "Chapters": []
+          }
+        ]
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "Volume 03",
+        "SortOrder": "03",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Interlude: The Atonement of a Coward",
+            "SortOrder": "10",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "interlude1",
+              "insert4",
+              "interlude1_1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Interlude: The Veteran\u2019s Pride",
+            "SortOrder": "14",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "interlude2"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Extra Story: A Father and Daughter\u2019s Magical Tool Invention Diaries\u2014the Fairy Glass Lantern",
+            "SortOrder": "16",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "extra"
+            ],
+            "Chapters": []
+          }
+        ]
+      }
+    ],
+    "ExtraContent": [
+      {
+        "ChapterName": "Volume 03",
+        "SortOrder": "03",
+        "SubFolder": "90-Translator's Notes",
+        "OriginalFilenames": [
+          "bonus"
+        ],
+        "Chapters": []
+      }
+    ],
+    "Gallery": {
+      "SplashImages": [
+        "color1",
+        "color2",
+        "color3"
+      ],
+      "ChapterImages": [
+        "insert1",
+        "insert2",
+        "insert3",
+        "insert4",
+        "insert5",
+        "insert6",
+        "insert7"
+      ],
+      "ChapterName": "",
+      "SortOrder": "",
+      "SubFolder": "03-Volume 03",
+      "OriginalFilenames": [],
+      "Chapters": []
+    }
+  },
+  {
+    "InternalName": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-4",
+    "Chapters": [
+      {
+        "ChapterName": "Volume 04",
+        "SortOrder": "04",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Castle Etiquette and the Lady of the Green Tower",
+            "SortOrder": "0402",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1",
+              "insert1",
+              "chapter1_1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Imitation Ravioli and the Witch\u2019s Cottage",
+            "SortOrder": "0403",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Cloudy with a Chance of Monsters",
+            "SortOrder": "0404",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter3"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Official Delivery and the Order of Beast Hunters",
+            "SortOrder": "0405",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter4"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Pasta Noodle Soup to Round Off the Night",
+            "SortOrder": "0407",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter5"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Fried Chicken and the Guy Friend",
+            "SortOrder": "0409",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter6",
+              "insert2",
+              "chapter6_1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "The Man-Made Magical Sword: Fourth Attempt\u2014the Lamenting Blade",
+            "SortOrder": "0410",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter7"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "A Friend\u2019s Misunderstanding and the Zephyricloth",
+            "SortOrder": "0411",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter8",
+              "insert3",
+              "chapter8_1",
+              "insert4",
+              "chapter8_2",
+              "insert5",
+              "chapter8_3"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "For Whom the Camp Stoves",
+            "SortOrder": "0413",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter9",
+              "insert6",
+              "chapter9_1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "This Magical Toolmaker Named Dahlia",
+            "SortOrder": "0415",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter10",
+              "insert7",
+              "chapter10_1"
+            ],
+            "Chapters": []
+          }
+        ]
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "Volume 04",
+        "SortOrder": "04",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Interlude: The Master of the Tailors\u2019 Guild \u0026amp; the Noble Way",
+            "SortOrder": "0406",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "interlude1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Interlude: The Master of the Merchants\u2019 Guild \u0026amp; the Noble Way",
+            "SortOrder": "0408",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "interlude2"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Interlude: Escort Duty \u0026amp; the First Cup of Tea",
+            "SortOrder": "0412",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "interlude3"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Interlude: The Headstrong \u0026amp; Well-Connected",
+            "SortOrder": "0414",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "interlude4"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Extra Story: A Father and Daughter\u2019s Magical Tool Invention Diaries\u2014the Voice Caster",
+            "SortOrder": "0416",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "extra"
+            ],
+            "Chapters": []
+          }
+        ]
+      }
+    ],
+    "ExtraContent": [
+      {
+        "ChapterName": "Volume 04",
+        "SortOrder": "04",
+        "SubFolder": "90-Translator's Notes",
+        "OriginalFilenames": [
+          "bonus"
+        ],
+        "Chapters": []
+      }
+    ],
+    "Gallery": {
+      "SplashImages": [
+        "color1",
+        "color2",
+        "color3"
+      ],
+      "ChapterImages": [
+        "insert1",
+        "insert2",
+        "insert3",
+        "insert4",
+        "insert5",
+        "insert6",
+        "insert7"
+      ],
+      "ChapterName": "",
+      "SortOrder": "",
+      "SubFolder": "04-Volume 04",
+      "OriginalFilenames": [],
+      "Chapters": []
+    }
+  },
+  {
+    "InternalName": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-5",
+    "Chapters": [
+      {
+        "ChapterName": "Volume 05",
+        "SortOrder": "05",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Summer Fete and Kraken Tape",
+            "SortOrder": "0502",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1",
+              "insert1",
+              "chapter1_1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "The Magical Toolmaking Teacher",
+            "SortOrder": "0503",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Guarding and Gratitude",
+            "SortOrder": "0504",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter3"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "The Adventurers\u2019 Guild",
+            "SortOrder": "0505",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter4"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "The Slime Farm and Nectar Wine",
+            "SortOrder": "0506",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter5",
+              "insert2",
+              "chapter5_1",
+              "insert3"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Married Men and Scorpio",
+            "SortOrder": "0507",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter6"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "A Mountain of Letters and the Employee",
+            "SortOrder": "0508",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter7",
+              "insert4",
+              "chapter7_1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "The Forest Serpent\u2019s Slip",
+            "SortOrder": "0509",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter8"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Tea Party with a Friend\u2019s Brother",
+            "SortOrder": "0510",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter9",
+              "insert5",
+              "chapter9_1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "The Bestiary and the Man-Made Magical Sword: Fifth Attempt\u2014The Riving Blade",
+            "SortOrder": "0512",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter11"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "The Present and the Professor\u2019s Wisdom",
+            "SortOrder": "0514",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter13"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "The Hog Farm and the Giant Boar",
+            "SortOrder": "0515",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter14",
+              "insert6",
+              "chapter14_1",
+              "insert7"
+            ],
+            "Chapters": []
+          }
+        ]
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "Volume 05",
+        "SortOrder": "05",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Interlude: The Employee\u2019s Invitation to the After-Party",
+            "SortOrder": "0511",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter10"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Interlude: The Employee\u2019s Offer for Subcontracting",
+            "SortOrder": "0513",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter12"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Extra Story: A Father and Daughter\u2019s Magical Tool Invention Diaries\u2014Magical Lantern Decoration",
+            "SortOrder": "0516",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "extra"
+            ],
+            "Chapters": []
+          }
+        ]
+      }
+    ],
+    "ExtraContent": [
+      {
+        "ChapterName": "Volume 05",
+        "SortOrder": "05",
+        "SubFolder": "90-Translator's Notes",
+        "OriginalFilenames": [
+          "bonus"
+        ],
+        "Chapters": []
+      }
+    ],
+    "Gallery": {
+      "SplashImages": [
+        "color1",
+        "color2",
+        "color3"
+      ],
+      "ChapterImages": [
+        "insert1",
+        "insert2",
+        "insert3",
+        "insert4",
+        "insert5",
+        "insert6",
+        "insert7"
+      ],
+      "ChapterName": "",
+      "SortOrder": "",
+      "SubFolder": "05-Volume 05",
+      "OriginalFilenames": [],
+      "Chapters": []
+    }
+  },
+  {
+    "InternalName": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-6",
+    "Chapters": [
+      {
+        "ChapterName": "Volume 06",
+        "SortOrder": "06",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Panfried Giant Chicken and Cleaning Out His Room",
+            "SortOrder": "0602",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "The Benefactors and the Beneficiary",
+            "SortOrder": "0603",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2",
+              "insert1",
+              "chapter2_1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "The Senior Apprentice and the Magic-Leeching Bracelet",
+            "SortOrder": "0604",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter3",
+              "insert2",
+              "chapter3_1",
+              "insert3",
+              "chapter3_2"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Good Night and Pleasant Dreams",
+            "SortOrder": "0605",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter4"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Proud of Her Friend",
+            "SortOrder": "0606",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter5",
+              "insert4"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "A Father\u2019s Decision",
+            "SortOrder": "0607",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter6"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Guarantors and the New Employees",
+            "SortOrder": "0609",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter7"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Crystal-Roasted Sweet Potatoes and Silversabers",
+            "SortOrder": "0610",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter8"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "The New Guarantor and the Kit",
+            "SortOrder": "0611",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter9"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "The Newcomers\u2019 Meeting",
+            "SortOrder": "0612",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter10",
+              "insert5",
+              "chapter10_1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "The Marsh Spider Hunt and Field Rations",
+            "SortOrder": "0613",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter11"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "The Rossetti Trading Company\u2019s Get-Together",
+            "SortOrder": "0614",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter12",
+              "insert6"
+            ],
+            "Chapters": []
+          }
+        ]
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "Volume 06",
+        "SortOrder": "06",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Interlude: Anguish, or the Conclusion to the Picture Books",
+            "SortOrder": "0608",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "interlude1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Interlude: The Black Leather Gloves",
+            "SortOrder": "0615",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "interlude2",
+              "insert7"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Extra Story: A Father and Daughter\u2019s Magical Tool Invention Diaries\u2014the Raincoat",
+            "SortOrder": "0616",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "extra"
+            ],
+            "Chapters": []
+          }
+        ]
+      }
+    ],
+    "ExtraContent": [
+      {
+        "ChapterName": "Volume 06",
+        "SortOrder": "06",
+        "SubFolder": "90-Translator's Notes",
+        "OriginalFilenames": [
+          "bonus"
+        ],
+        "Chapters": []
+      }],
+    "Gallery": {
+      "SplashImages": [
+        "color1",
+        "color2",
+        "color3"
+      ],
+      "ChapterImages": [
+        "insert1",
+        "insert2",
+        "insert3",
+        "insert4",
+        "insert5",
+        "insert6",
+        "insert7"
+      ],
+      "ChapterName": "",
+      "SortOrder": "",
+      "SubFolder": "06-Volume 06",
+      "OriginalFilenames": [],
+      "Chapters": []
+    }
   }
 ]
