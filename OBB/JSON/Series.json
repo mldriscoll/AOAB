@@ -52,38 +52,38 @@
   {
     "Name": "Dahlia in Bloom",
     "InternalName": "DiB",
-    "Author": "",
-    "AuthorSort": "",
+    "Author": "Hisaya Amagishi",
+    "AuthorSort": "AMAGISHI, HISAYA",
     "Volumes": [
       {
         "ApiSlug": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-1",
         "FileName": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-1.epub",
-        "InternalName": "DiB01"
+        "InternalName": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-1"
       },
       {
         "ApiSlug": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-2",
         "FileName": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-2.epub",
-        "InternalName": "DiB02"
+        "InternalName": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-2"
       },
       {
         "ApiSlug": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-3",
         "FileName": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-3.epub",
-        "InternalName": "DiB03"
+        "InternalName": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-3"
       },
       {
         "ApiSlug": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-4",
         "FileName": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-4.epub",
-        "InternalName": "DiB04"
+        "InternalName": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-4"
       },
       {
         "ApiSlug": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-5",
         "FileName": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-5.epub",
-        "InternalName": "DiB05"
+        "InternalName": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-5"
       },
       {
         "ApiSlug": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-6",
         "FileName": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-6.epub",
-        "InternalName": "DiB06"
+        "InternalName": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-6"
       }
     ]
   }

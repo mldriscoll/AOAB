@@ -1,4 +1,4 @@
-﻿namespace OBB.JSON
+﻿namespace OBB.JSONCode
 {
     public class Chapter
     {

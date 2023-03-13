@@ -1,4 +1,4 @@
-﻿namespace OBB.JSON
+﻿namespace OBB.JSONCode
 {
     public class Gallery : Chapter
     {
@@ -11,7 +11,7 @@
             {
                 ChapterName = "Gallery",
                 SubFolder = SubFolder,
-                SortOrder = early ? String.Empty : "99"
+                SortOrder = early ? string.Empty : "99"
             };
 
             if (includeSplashImages)
