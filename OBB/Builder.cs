@@ -76,7 +76,7 @@ namespace OBB
                 foreach (var vol in selection.Volumes)
                 {
                     var file = $"{inFolder}\\{vol.FileName}";
-                    var temp = $"{inFolder}\\inputtemp\\{vol.InternalName}";
+                    var temp = $"{inFolder}\\inputtemp\\{vol.ApiSlug}";
                     if (!File.Exists(file)) continue;
 
                     try
@@ -110,10 +110,10 @@ namespace OBB
 
                 foreach (var vol in selection.Volumes)
                 {
-                    var temp = $"{inFolder}\\inputtemp\\{vol.InternalName}";
+                    var temp = $"{inFolder}\\inputtemp\\{vol.ApiSlug}";
                     if (!Directory.Exists(temp)) continue;
 
-                    var volume = volumes.FirstOrDefault(x => string.Equals(x.InternalName, vol.InternalName));
+                    var volume = volumes.FirstOrDefault(x => string.Equals(x.InternalName, vol.ApiSlug));
                     if (volume == null) continue;
 
                     if (!coverPicked)
@@ -186,14 +186,14 @@ namespace OBB
                         }
                         catch (Exception ex)
                         {
-                            Console.WriteLine($"Error processing chapter {chapter.ChapterName} in book {vol.InternalName}");
+                            Console.WriteLine($"Error processing chapter {chapter.ChapterName} in book {vol.ApiSlug}");
                             Console.WriteLine(ex.ToString());
                         }
                     }
 
                     if (vol.ShowRemainingFiles)
                     {
-                        Console.WriteLine($"Unprocessed Files in volume {vol.InternalName}");
+                        Console.WriteLine($"Unprocessed Files in volume {vol.ApiSlug}");
                         foreach (var entry in inChapters.Where(x => !x.Processed))
                         {
                             Console.WriteLine($"\tUnprocessed chapter {entry.Name}");

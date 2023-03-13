@@ -1,0 +1,398 @@
+[
+  {
+    "InternalName": "when-the-clock-strikes-z-volume-1",
+    "Chapters": [
+      {
+        "ChapterName": "Volume 1",
+        "SortOrder": "1",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "",
+            "SortOrder": "101",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "frontmatter1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "102",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "frontmatter4"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Prologue: Breaking NewZ",
+            "SortOrder": "103",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "prologue",
+              "insert1",
+              "prologue_1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 1: Family TieZ",
+            "SortOrder": "104",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1",
+              "insert2",
+              "chapter1_1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 2: A World in RuinZ",
+            "SortOrder": "105",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2",
+              "insert3",
+              "chapter2_1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 3: Faces Behind the NameZ",
+            "SortOrder": "106",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter3",
+              "insert4",
+              "chapter3_1",
+              "insert5",
+              "chapter3_2",
+              "insert6",
+              "chapter3_3",
+              "insert7",
+              "chapter3_4",
+              "insert8",
+              "chapter3_5"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Afterword",
+            "SortOrder": "107",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "afterword"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "108",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "frontmatter2"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "109",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "frontmatter3"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Bonus Short StorieZ",
+            "SortOrder": "110",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Landmarks",
+            "SortOrder": "111",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "toc"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "112",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "signup"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "copyright"
+            ],
+            "Chapters": []
+          }
+        ]
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "Volume 1",
+        "SortOrder": "1",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": []
+      }
+    ],
+    "ExtraContent": [],
+    "Gallery": {
+      "SplashImages": [
+        "cover",
+        "frontmatter1",
+        "frontmatter2",
+        "frontmatter3",
+        "frontmatter4"
+      ],
+      "ChapterImages": [
+        "insert1",
+        "insert2",
+        "insert3",
+        "insert4",
+        "insert5",
+        "insert6",
+        "insert7",
+        "insert8"
+      ],
+      "ChapterName": "",
+      "SortOrder": "",
+      "SubFolder": "1-Volume 1",
+      "OriginalFilenames": [],
+      "Chapters": []
+    }
+  },
+  {
+    "InternalName": "when-the-clock-strikes-z-volume-2",
+    "Chapters": [
+      {
+        "ChapterName": "Volume 2",
+        "SortOrder": "2",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "",
+            "SortOrder": "201",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "frontmatter4"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Prologue: New BeginningZ",
+            "SortOrder": "202",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "prologue"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 1: High HopeZ",
+            "SortOrder": "203",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1",
+              "insert1",
+              "chapter1_1",
+              "insert2",
+              "chapter1_2",
+              "insert3",
+              "chapter1_3",
+              "insert4",
+              "chapter1_4",
+              "insert5",
+              "chapter1_5"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 2: Critical CrossroadZ",
+            "SortOrder": "204",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2",
+              "insert6",
+              "chapter2_1",
+              "insert7",
+              "chapter2_2",
+              "insert8",
+              "chapter2_3",
+              "insert9",
+              "chapter2_4"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Epilogue",
+            "SortOrder": "205",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "epilogue",
+              "insert10"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Afterword",
+            "SortOrder": "206",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "afterword"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "207",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "frontmatter1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "208",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "frontmatter2"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "209",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "frontmatter3"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "210",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "211",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus2"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "212",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus3"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "213",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus4"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Landmarks",
+            "SortOrder": "214",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "toc"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "215",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "signup"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "copyright"
+            ],
+            "Chapters": []
+          }
+        ]
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "Volume 2",
+        "SortOrder": "2",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": []
+      }
+    ],
+    "ExtraContent": [],
+    "Gallery": {
+      "SplashImages": [
+        "bonus1",
+        "bonus2",
+        "bonus3",
+        "bonus4",
+        "cover",
+        "frontmatter1",
+        "frontmatter2",
+        "frontmatter3",
+        "frontmatter4"
+      ],
+      "ChapterImages": [
+        "insert1",
+        "insert10",
+        "insert2",
+        "insert3",
+        "insert4",
+        "insert5",
+        "insert6",
+        "insert7",
+        "insert8",
+        "insert9"
+      ],
+      "ChapterName": "",
+      "SortOrder": "",
+      "SubFolder": "2-Volume 2",
+      "OriginalFilenames": [],
+      "Chapters": []
+    }
+  }
+]

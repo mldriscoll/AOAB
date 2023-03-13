@@ -1,0 +1,245 @@
+[
+  {
+    "InternalName": "the-game-master-has-logged-into-a-different-world-volume-1",
+    "Chapters": [
+      {
+        "ChapterName": "Volume 1",
+        "SortOrder": "1",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "",
+            "SortOrder": "101",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "tocimg"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 1",
+            "SortOrder": "102",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1",
+              "insert1",
+              "chapter1_1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 2",
+            "SortOrder": "103",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2",
+              "insert2",
+              "chapter2_1",
+              "insert3",
+              "chapter2_2"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 3",
+            "SortOrder": "104",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter3",
+              "insert4",
+              "chapter3_1",
+              "insert5",
+              "chapter3_2"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 4",
+            "SortOrder": "105",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter4"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 5",
+            "SortOrder": "106",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter5",
+              "insert6",
+              "chapter5_1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 6",
+            "SortOrder": "107",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter6"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 7",
+            "SortOrder": "108",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter7",
+              "insert7",
+              "chapter7_1",
+              "insert8",
+              "chapter7_2",
+              "insert9",
+              "chapter7_3",
+              "insert10",
+              "chapter7_4"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Side Story: Adel\u2019s Thoughts",
+            "SortOrder": "109",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "side"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Afterword",
+            "SortOrder": "110",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "afterword"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "111",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "color1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "112",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "color2"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "113",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "color3"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "114",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "115",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus2"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "116",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus3"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Landmarks",
+            "SortOrder": "117",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "toc"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "118",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "signup"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "copyright"
+            ],
+            "Chapters": []
+          }
+        ]
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "Volume 1",
+        "SortOrder": "1",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": []
+      }
+    ],
+    "ExtraContent": [],
+    "Gallery": {
+      "SplashImages": [
+        "bonus1",
+        "bonus2",
+        "bonus3",
+        "color1",
+        "color2",
+        "color3",
+        "cover",
+        "toc"
+      ],
+      "ChapterImages": [
+        "insert1",
+        "insert10",
+        "insert2",
+        "insert3",
+        "insert4",
+        "insert5",
+        "insert6",
+        "insert7",
+        "insert8",
+        "insert9"
+      ],
+      "ChapterName": "",
+      "SortOrder": "",
+      "SubFolder": "1-Volume 1",
+      "OriginalFilenames": [],
+      "Chapters": []
+    }
+  }
+]

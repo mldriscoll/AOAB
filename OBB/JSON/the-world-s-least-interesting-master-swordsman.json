@@ -1,0 +1,1540 @@
+[
+  {
+    "InternalName": "the-world-s-least-interesting-master-swordsman-volume-1",
+    "Chapters": [
+      {
+        "ChapterName": "Volume 1",
+        "SortOrder": "1",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "",
+            "SortOrder": "101",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "frontmatter1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "102",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "frontmatter2"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Landmarks",
+            "SortOrder": "103",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "toc"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Prologue \u2014 Lightning Slasher",
+            "SortOrder": "104",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "prologue"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 1 \u2014 The Baby-Faced Immortal Swordmaster",
+            "SortOrder": "105",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1",
+              "insert1",
+              "chapter1_1",
+              "insert2",
+              "chapter1_2",
+              "insert3",
+              "chapter1_3",
+              "insert4",
+              "chapter1_4"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 2 \u2014 The Prince Who Dances with Shadows",
+            "SortOrder": "106",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2",
+              "insert5",
+              "chapter2_1",
+              "insert6",
+              "chapter2_2",
+              "insert7",
+              "chapter2_3"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Side Story \u2014 Colic and a Walk Among the Stars",
+            "SortOrder": "107",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "extra"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Afterword",
+            "SortOrder": "108",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "afterword"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Bonus Short Story",
+            "SortOrder": "109",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "110",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "signup"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "copyright"
+            ],
+            "Chapters": []
+          }
+        ]
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "Volume 1",
+        "SortOrder": "1",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": []
+      }
+    ],
+    "ExtraContent": [],
+    "Gallery": {
+      "SplashImages": [
+        "cover",
+        "frontmatter1",
+        "frontmatter2"
+      ],
+      "ChapterImages": [
+        "insert1",
+        "insert2",
+        "insert3",
+        "insert4",
+        "insert5",
+        "insert6",
+        "insert7"
+      ],
+      "ChapterName": "",
+      "SortOrder": "",
+      "SubFolder": "1-Volume 1",
+      "OriginalFilenames": [],
+      "Chapters": []
+    }
+  },
+  {
+    "InternalName": "the-world-s-least-interesting-master-swordsman-volume-2",
+    "Chapters": [
+      {
+        "ChapterName": "Volume 2",
+        "SortOrder": "2",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "",
+            "SortOrder": "201",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "frontmatter1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "202",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "frontmatter2"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Landmarks",
+            "SortOrder": "203",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "toc"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Prologue \u2014 Name",
+            "SortOrder": "204",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "prologue",
+              "insert1",
+              "prologue_1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 1 \u2014 The True Strength to Aspire To...",
+            "SortOrder": "205",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1",
+              "insert2",
+              "chapter1_1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 2 \u2014 The Scarred Fool",
+            "SortOrder": "206",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2",
+              "insert3",
+              "chapter2_1",
+              "insert4",
+              "chapter2_2"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 3 \u2014 Instruction from the Master",
+            "SortOrder": "207",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter3",
+              "insert5",
+              "chapter3_1",
+              "insert6",
+              "chapter3_2"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Special Episode \u2014 Ashtray",
+            "SortOrder": "208",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "extra",
+              "insert7",
+              "extra_1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Afterword",
+            "SortOrder": "209",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "afterword"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Bonus Short Story",
+            "SortOrder": "210",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "211",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "signup"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "copyright"
+            ],
+            "Chapters": []
+          }
+        ]
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "Volume 2",
+        "SortOrder": "2",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": []
+      }
+    ],
+    "ExtraContent": [],
+    "Gallery": {
+      "SplashImages": [
+        "cover",
+        "frontmatter1",
+        "frontmatter2"
+      ],
+      "ChapterImages": [
+        "insert1",
+        "insert2",
+        "insert3",
+        "insert4",
+        "insert5",
+        "insert6",
+        "insert7"
+      ],
+      "ChapterName": "",
+      "SortOrder": "",
+      "SubFolder": "2-Volume 2",
+      "OriginalFilenames": [],
+      "Chapters": []
+    }
+  },
+  {
+    "InternalName": "the-world-s-least-interesting-master-swordsman-volume-3",
+    "Chapters": [
+      {
+        "ChapterName": "Volume 3",
+        "SortOrder": "3",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "",
+            "SortOrder": "301",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "frontmatter1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "302",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "frontmatter2"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Landmarks",
+            "SortOrder": "303",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "toc"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Prologue \u2014 Explanation",
+            "SortOrder": "304",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "prologue"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 1 \u2014 The Nobles of a Fallen Empire",
+            "SortOrder": "305",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1",
+              "insert1",
+              "chapter1_1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 2 \u2014 Dictator of a Foreign Land",
+            "SortOrder": "306",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2",
+              "insert2",
+              "chapter2_1",
+              "insert3",
+              "chapter2_2",
+              "insert4",
+              "chapter2_3",
+              "insert5",
+              "chapter2_4",
+              "insert6"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Side Stories",
+            "SortOrder": "307",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "extra",
+              "insert7",
+              "extra_1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Afterword",
+            "SortOrder": "308",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "afterword"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Bonus Short Story",
+            "SortOrder": "309",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "310",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "signup"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "copyright"
+            ],
+            "Chapters": []
+          }
+        ]
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "Volume 3",
+        "SortOrder": "3",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": []
+      }
+    ],
+    "ExtraContent": [],
+    "Gallery": {
+      "SplashImages": [
+        "cover",
+        "frontmatter1",
+        "frontmatter2"
+      ],
+      "ChapterImages": [
+        "insert1",
+        "insert2",
+        "insert3",
+        "insert4",
+        "insert5",
+        "insert6",
+        "insert7"
+      ],
+      "ChapterName": "",
+      "SortOrder": "",
+      "SubFolder": "3-Volume 3",
+      "OriginalFilenames": [],
+      "Chapters": []
+    }
+  },
+  {
+    "InternalName": "the-world-s-least-interesting-master-swordsman-volume-4",
+    "Chapters": [
+      {
+        "ChapterName": "Volume 4",
+        "SortOrder": "4",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "",
+            "SortOrder": "401",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "frontmatter1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "402",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "frontmatter2"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Landmarks",
+            "SortOrder": "403",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "toc"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Part 1 \u2014 Accession",
+            "SortOrder": "404",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "part1",
+              "insert1",
+              "part1_1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Part 2 \u2014 Custom",
+            "SortOrder": "405",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "part2"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Part 3 \u2014 Toad",
+            "SortOrder": "406",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "part3",
+              "insert2",
+              "part3_1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Part 4 \u2014 Divine Beast",
+            "SortOrder": "407",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "part4"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Part 5 \u2014 Meaning",
+            "SortOrder": "408",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "part5"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Part 6 \u2014 Discussion",
+            "SortOrder": "409",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "part6"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Part 7 \u2014 Alignment",
+            "SortOrder": "410",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "part7",
+              "insert3",
+              "part7_1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Part 8 \u2014 Setback",
+            "SortOrder": "411",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "part8"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Part 9 \u2014 Reason",
+            "SortOrder": "412",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "part9"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Part 10 \u2014 Arrogance",
+            "SortOrder": "413",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "part10"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Part 11 \u2014 Self-Control",
+            "SortOrder": "414",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "part11"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Part 12 \u2014 Out of Control",
+            "SortOrder": "415",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "part12"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Part 13 \u2014 Breaking Free",
+            "SortOrder": "416",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "part13"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Part 14 \u2014 Suspicion",
+            "SortOrder": "417",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "part14"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Part 15 \u2014 Accumulation",
+            "SortOrder": "418",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "part15"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Part 16 \u2014 Shame",
+            "SortOrder": "419",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "part16"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Part 17 \u2014 Immortal Arts",
+            "SortOrder": "420",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "part17"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Part 18 \u2014 Meeting",
+            "SortOrder": "421",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "part18"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Part 19 \u2014 See No Evil, Hear No Evil, Say No Evil",
+            "SortOrder": "422",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "part19",
+              "insert4",
+              "part19_1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Part 20 \u2014 Role",
+            "SortOrder": "423",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "part20",
+              "insert5",
+              "part20_1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Side Story \u2014 Contradictions",
+            "SortOrder": "424",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "side1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Afterword",
+            "SortOrder": "425",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "afterword"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Bonus Short Story",
+            "SortOrder": "426",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "427",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "signup"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "copyright"
+            ],
+            "Chapters": []
+          }
+        ]
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "Volume 4",
+        "SortOrder": "4",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": []
+      }
+    ],
+    "ExtraContent": [],
+    "Gallery": {
+      "SplashImages": [
+        "cover",
+        "frontmatter1",
+        "frontmatter2"
+      ],
+      "ChapterImages": [
+        "insert1",
+        "insert2",
+        "insert3",
+        "insert4",
+        "insert5"
+      ],
+      "ChapterName": "",
+      "SortOrder": "",
+      "SubFolder": "4-Volume 4",
+      "OriginalFilenames": [],
+      "Chapters": []
+    }
+  },
+  {
+    "InternalName": "the-world-s-least-interesting-master-swordsman-volume-5",
+    "Chapters": [
+      {
+        "ChapterName": "Volume 5",
+        "SortOrder": "5",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "",
+            "SortOrder": "501",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "frontmatter1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "502",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "frontmatter2"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Landmarks",
+            "SortOrder": "503",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "toc"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 1 \u2014 A Family\u2019s Journey",
+            "SortOrder": "504",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1",
+              "insert1",
+              "chapter1_1",
+              "insert2",
+              "chapter1_2",
+              "insert3",
+              "chapter1_3"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 2 \u2014 The One Who Claims the Heavens",
+            "SortOrder": "505",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2",
+              "insert4",
+              "chapter2_1",
+              "insert5",
+              "chapter2_2"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Side Story \u2014 Pillar of Flame",
+            "SortOrder": "506",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "side"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Afterword",
+            "SortOrder": "507",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "afterword"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Bonus Short Story",
+            "SortOrder": "508",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "509",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "signup"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "copyright"
+            ],
+            "Chapters": []
+          }
+        ]
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "Volume 5",
+        "SortOrder": "5",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": []
+      }
+    ],
+    "ExtraContent": [],
+    "Gallery": {
+      "SplashImages": [
+        "cover",
+        "frontmatter1",
+        "frontmatter2"
+      ],
+      "ChapterImages": [
+        "insert1",
+        "insert2",
+        "insert3",
+        "insert4",
+        "insert5"
+      ],
+      "ChapterName": "",
+      "SortOrder": "",
+      "SubFolder": "5-Volume 5",
+      "OriginalFilenames": [],
+      "Chapters": []
+    }
+  },
+  {
+    "InternalName": "the-world-s-least-interesting-master-swordsman-volume-6",
+    "Chapters": [
+      {
+        "ChapterName": "Volume 6",
+        "SortOrder": "6",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "",
+            "SortOrder": "601",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "frontmatter1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "602",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "frontmatter2"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Landmarks",
+            "SortOrder": "603",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "toc"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 1 \u2014 Searching for the Bull",
+            "SortOrder": "604",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1",
+              "insert1",
+              "chapter1_1",
+              "insert2",
+              "chapter1_2",
+              "insert3",
+              "chapter1_3",
+              "insert4",
+              "chapter1_4"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 2 \u2014 The Age of the Sword Apostle",
+            "SortOrder": "605",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2",
+              "insert5",
+              "chapter2_1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Side Story I \u2014 Vantage Point",
+            "SortOrder": "606",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "side1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Side Story II \u2014 Sedition",
+            "SortOrder": "607",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "side2"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Afterword",
+            "SortOrder": "608",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "afterword"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Bonus Short Story",
+            "SortOrder": "609",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "610",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "signup"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "copyright"
+            ],
+            "Chapters": []
+          }
+        ]
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "Volume 6",
+        "SortOrder": "6",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": []
+      }
+    ],
+    "ExtraContent": [],
+    "Gallery": {
+      "SplashImages": [
+        "cover",
+        "frontmatter1",
+        "frontmatter2"
+      ],
+      "ChapterImages": [
+        "insert1",
+        "insert2",
+        "insert3",
+        "insert4",
+        "insert5"
+      ],
+      "ChapterName": "",
+      "SortOrder": "",
+      "SubFolder": "6-Volume 6",
+      "OriginalFilenames": [],
+      "Chapters": []
+    }
+  },
+  {
+    "InternalName": "the-world-s-least-interesting-master-swordsman-volume-7",
+    "Chapters": [
+      {
+        "ChapterName": "Volume 7",
+        "SortOrder": "7",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "",
+            "SortOrder": "701",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "frontmatter1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "702",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "frontmatter2"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Landmarks",
+            "SortOrder": "703",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "toc"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 1 \u2014 Before Departure",
+            "SortOrder": "704",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 2 \u2014 The Kingdom of the Strong",
+            "SortOrder": "705",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2",
+              "insert1",
+              "chapter2_1",
+              "insert2",
+              "chapter2_2",
+              "insert3",
+              "chapter2_3",
+              "insert4",
+              "chapter2_4",
+              "insert5",
+              "chapter2_5"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Side Story \u2014 Example",
+            "SortOrder": "706",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "side"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Afterword",
+            "SortOrder": "707",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "afterword"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Bonus Short Story",
+            "SortOrder": "708",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "709",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "signup"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "copyright"
+            ],
+            "Chapters": []
+          }
+        ]
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "Volume 7",
+        "SortOrder": "7",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": []
+      }
+    ],
+    "ExtraContent": [],
+    "Gallery": {
+      "SplashImages": [
+        "cover",
+        "frontmatter1",
+        "frontmatter2"
+      ],
+      "ChapterImages": [
+        "insert1",
+        "insert2",
+        "insert3",
+        "insert4",
+        "insert5"
+      ],
+      "ChapterName": "",
+      "SortOrder": "",
+      "SubFolder": "7-Volume 7",
+      "OriginalFilenames": [],
+      "Chapters": []
+    }
+  },
+  {
+    "InternalName": "the-world-s-least-interesting-master-swordsman-volume-8",
+    "Chapters": [
+      {
+        "ChapterName": "Volume 8",
+        "SortOrder": "8",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "",
+            "SortOrder": "801",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "frontmatter1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "802",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "frontmatter2"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Landmarks",
+            "SortOrder": "803",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "toc"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 1 \u2014 Matters to Settle before Departure",
+            "SortOrder": "804",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1",
+              "insert1",
+              "chapter1_1",
+              "insert2",
+              "chapter1_2"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 2 \u2014 The Clover and the Club",
+            "SortOrder": "805",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2",
+              "insert3",
+              "chapter2_1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 3 \u2014 Family Reunion",
+            "SortOrder": "806",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter3",
+              "insert4",
+              "chapter3_1",
+              "insert5",
+              "chapter3_2"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 4 \u2014 Whistling New Tunes",
+            "SortOrder": "807",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter4"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Afterword",
+            "SortOrder": "808",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "afterword"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Bonus Short Story",
+            "SortOrder": "809",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "810",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "signup"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "copyright"
+            ],
+            "Chapters": []
+          }
+        ]
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "Volume 8",
+        "SortOrder": "8",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": []
+      }
+    ],
+    "ExtraContent": [],
+    "Gallery": {
+      "SplashImages": [
+        "cover",
+        "frontmatter1",
+        "frontmatter2"
+      ],
+      "ChapterImages": [
+        "insert1",
+        "insert2",
+        "insert3",
+        "insert4",
+        "insert5"
+      ],
+      "ChapterName": "",
+      "SortOrder": "",
+      "SubFolder": "8-Volume 8",
+      "OriginalFilenames": [],
+      "Chapters": []
+    }
+  },
+  {
+    "InternalName": "the-world-s-least-interesting-master-swordsman-volume-9",
+    "Chapters": [
+      {
+        "ChapterName": "Volume 9",
+        "SortOrder": "9",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "",
+            "SortOrder": "901",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "frontmatter1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "902",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "frontmatter2"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Landmarks",
+            "SortOrder": "903",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "toc"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 1: Organizer\u2019s Worries",
+            "SortOrder": "904",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1",
+              "insert1",
+              "chapter1_1",
+              "insert2",
+              "chapter1_2"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 2 \u2014 Ambiguous Words",
+            "SortOrder": "905",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2",
+              "insert3",
+              "chapter2_1",
+              "insert4",
+              "chapter2_2"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 3 \u2014 The Well-Dressed God of Death",
+            "SortOrder": "906",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter3"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 4 \u2014 The Temptation of Isolation",
+            "SortOrder": "907",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter4",
+              "insert5",
+              "chapter4_1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Side Story Compilation I \u2014 Four and Three",
+            "SortOrder": "908",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "side1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Side Story Compilation II \u2014 Disaea\u2019s Arms",
+            "SortOrder": "909",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "side2"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Afterword",
+            "SortOrder": "910",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "afterword"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Bonus Short Story",
+            "SortOrder": "911",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "912",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "signup"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "copyright"
+            ],
+            "Chapters": []
+          }
+        ]
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "Volume 9",
+        "SortOrder": "9",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": []
+      }
+    ],
+    "ExtraContent": [],
+    "Gallery": {
+      "SplashImages": [
+        "cover",
+        "frontmatter1",
+        "frontmatter2"
+      ],
+      "ChapterImages": [
+        "insert1",
+        "insert2",
+        "insert3",
+        "insert4",
+        "insert5"
+      ],
+      "ChapterName": "",
+      "SortOrder": "",
+      "SubFolder": "9-Volume 9",
+      "OriginalFilenames": [],
+      "Chapters": []
+    }
+  }
+]

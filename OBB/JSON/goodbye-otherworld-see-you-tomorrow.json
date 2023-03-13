@@ -1,0 +1,650 @@
+[
+  {
+    "InternalName": "goodbye-otherworld-see-you-tomorrow-volume-1",
+    "Chapters": [
+      {
+        "ChapterName": "Volume 1",
+        "SortOrder": "1",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "",
+            "SortOrder": "101",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "tocimg"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Prologue \u2014 An Indigo Carpet of Night",
+            "SortOrder": "102",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "prologue"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "[Keisuke\u2019s Notes] The Kettle",
+            "SortOrder": "103",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "notes1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 1 \u2014 A Train Station Floating on Horizon Blue",
+            "SortOrder": "104",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1",
+              "insert1",
+              "chapter1_1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "[Keisuke\u2019s Notes] Otherworlder",
+            "SortOrder": "105",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "notes2"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 2 \u2014 A Steam Workshop in Van Dyke Brown",
+            "SortOrder": "106",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2",
+              "insert2",
+              "chapter2_1",
+              "insert3",
+              "chapter2_2"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Intermission \u2014 Beyond the Blue Light\u2019s Reach",
+            "SortOrder": "107",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "intermission1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 3 \u2014 An Ivory Honeymoon",
+            "SortOrder": "108",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter3",
+              "insert4",
+              "chapter3_1",
+              "insert5"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "[Keisuke\u2019s Notes] Mana Collapse",
+            "SortOrder": "109",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "notes3"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Intermission \u2014 Scarlet for the Bonfire",
+            "SortOrder": "110",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "intermission2"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "[Keisuke\u2019s Notes] Crystallization",
+            "SortOrder": "111",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "notes4"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 4 \u2014 A Hazy Phantom Gray in the Distance",
+            "SortOrder": "112",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter4",
+              "insert6",
+              "chapter4_1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 5 \u2014 Olympia Green Awaits",
+            "SortOrder": "113",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter5",
+              "insert7",
+              "chapter5_1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "[Keisuke\u2019s Notes] Witch",
+            "SortOrder": "114",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "notes5"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Curtain Call \u2014 An Aurelion Dawn",
+            "SortOrder": "115",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter6",
+              "insert8",
+              "chapter6_1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Afterword",
+            "SortOrder": "116",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "afterword"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "117",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "color1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "118",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "color2"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "119",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "color3"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "120",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "color4"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "121",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "characters"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "122",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "123",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus2"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "124",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus3"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "125",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus4"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "126",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus5"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Landmarks",
+            "SortOrder": "127",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "toc"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "128",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "signup"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "copyright"
+            ],
+            "Chapters": []
+          }
+        ]
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "Volume 1",
+        "SortOrder": "1",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": []
+      }
+    ],
+    "ExtraContent": [],
+    "Gallery": {
+      "SplashImages": [
+        "bonus1",
+        "bonus2",
+        "bonus3",
+        "bonus4",
+        "bonus5",
+        "characters",
+        "color1",
+        "color2",
+        "color3",
+        "color4",
+        "cover",
+        "toc"
+      ],
+      "ChapterImages": [
+        "insert1",
+        "insert2",
+        "insert3",
+        "insert4",
+        "insert5",
+        "insert6",
+        "insert7",
+        "insert8"
+      ],
+      "ChapterName": "",
+      "SortOrder": "",
+      "SubFolder": "1-Volume 1",
+      "OriginalFilenames": [],
+      "Chapters": []
+    }
+  },
+  {
+    "InternalName": "goodbye-otherworld-see-you-tomorrow-volume-2",
+    "Chapters": [
+      {
+        "ChapterName": "Volume 2",
+        "SortOrder": "2",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "",
+            "SortOrder": "201",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "tocimg"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Prologue \u2014 Standing in the Sky-Gray Rain",
+            "SortOrder": "202",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "prologue"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "[Keisuke\u2019s Notes] The Golden Sea",
+            "SortOrder": "203",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "notes0"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 1 \u2014 Ruby Red, Hidden in the Bag",
+            "SortOrder": "204",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1",
+              "insert1",
+              "chapter1_1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 2 \u2014 Sepia Shut within the Box",
+            "SortOrder": "205",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2",
+              "insert2",
+              "chapter2_1",
+              "insert3",
+              "chapter2_2"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "[Keisuke\u2019s Notes] Mercian",
+            "SortOrder": "206",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "notes1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 3 \u2014 Praying to the Rouge from That Day",
+            "SortOrder": "207",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter3"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "[Keisuke\u2019s Notes] The Lantern Flower Festival",
+            "SortOrder": "208",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "notes2"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 4 \u2014 Amethyst Eluded by Dawn",
+            "SortOrder": "209",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter4",
+              "insert4",
+              "chapter4_1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "[Keisuke\u2019s Notes] The Crimson Saint",
+            "SortOrder": "210",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "notes3"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 5 \u2014 Alone Together in the Midnight Blue",
+            "SortOrder": "211",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter5",
+              "insert5",
+              "chapter5_1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 6 \u2014 Keeping the Scarlet Glow Alive",
+            "SortOrder": "212",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter6",
+              "insert6",
+              "chapter6_1",
+              "insert7",
+              "chapter6_2"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "[Keisuke\u2019s Notes] Couriers",
+            "SortOrder": "213",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "notes4"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Curtain Call \u2014 Forget-Me-Not",
+            "SortOrder": "214",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter7"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "[Keisuke\u2019s Notes] The Man in Black",
+            "SortOrder": "215",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "notes5"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Afterword",
+            "SortOrder": "216",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "afterword"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "217",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "color1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "218",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "color2"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "219",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "color3"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "220",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "color4"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "221",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "222",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus2"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "223",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus3"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "224",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus4"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "225",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus5"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Landmarks",
+            "SortOrder": "226",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "toc"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "227",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "signup"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "copyright"
+            ],
+            "Chapters": []
+          }
+        ]
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "Volume 2",
+        "SortOrder": "2",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": []
+      }
+    ],
+    "ExtraContent": [],
+    "Gallery": {
+      "SplashImages": [
+        "color1",
+        "bonus1",
+        "cover",
+        "toc",
+        "color4",
+        "color3",
+        "bonus5",
+        "bonus2",
+        "bonus3",
+        "bonus4",
+        "color2"
+      ],
+      "ChapterImages": [
+        "insert2",
+        "insert5",
+        "insert4",
+        "insert3",
+        "insert7",
+        "insert6",
+        "insert1"
+      ],
+      "ChapterName": "",
+      "SortOrder": "",
+      "SubFolder": "2-Volume 2",
+      "OriginalFilenames": [],
+      "Chapters": []
+    }
+  }
+]

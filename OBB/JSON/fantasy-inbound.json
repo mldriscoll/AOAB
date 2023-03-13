@@ -1,0 +1,641 @@
+[
+  {
+    "InternalName": "fantasy-inbound-volume-1",
+    "Chapters": [
+      {
+        "ChapterName": "Volume 1",
+        "SortOrder": "1",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "",
+            "SortOrder": "101",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "color2"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "TERMINOLOGY",
+            "SortOrder": "102",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "terminology"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Prologue",
+            "SortOrder": "103",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "prologue"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 1: Project Rebirth",
+            "SortOrder": "104",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1",
+              "insert1",
+              "chapter1_1",
+              "insert2",
+              "chapter1_2"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "105",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "intermissionimg"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 2: The Flying Castle\u2019s Reprisal",
+            "SortOrder": "106",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2",
+              "insert3",
+              "chapter2_1",
+              "insert4",
+              "chapter2_2"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "\u003Cb\u003EEXPLICATIONS\u003C/b\u003E",
+            "SortOrder": "107",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "dialogue1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 3: Journey\u2019s Beginning",
+            "SortOrder": "108",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter3",
+              "insert5",
+              "chapter3_1",
+              "insert6",
+              "chapter3_2"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 4: The Osakan Escape",
+            "SortOrder": "109",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter4",
+              "insert7",
+              "chapter4_1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "\u003Cb\u003EEXPLICATIONS\u003C/b\u003E",
+            "SortOrder": "110",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "dialogue2"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Afterword",
+            "SortOrder": "111",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "afterword"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "112",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "color1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "113",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "color3"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "114",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "color4"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Bonus Translator\u2019s Notes",
+            "SortOrder": "115",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Landmarks",
+            "SortOrder": "116",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "toc"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "117",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "signup"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "copyright"
+            ],
+            "Chapters": []
+          }
+        ]
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "Volume 1",
+        "SortOrder": "1",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": []
+      }
+    ],
+    "ExtraContent": [],
+    "Gallery": {
+      "SplashImages": [
+        "color1",
+        "color2",
+        "color3",
+        "color4",
+        "cover",
+        "intermission"
+      ],
+      "ChapterImages": [
+        "insert1",
+        "insert2",
+        "insert3",
+        "insert4",
+        "insert5",
+        "insert6",
+        "insert7"
+      ],
+      "ChapterName": "",
+      "SortOrder": "",
+      "SubFolder": "1-Volume 1",
+      "OriginalFilenames": [],
+      "Chapters": []
+    }
+  },
+  {
+    "InternalName": "fantasy-inbound-volume-2",
+    "Chapters": [
+      {
+        "ChapterName": "Volume 2",
+        "SortOrder": "2",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "",
+            "SortOrder": "201",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "color2"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "TERMINOLOGY",
+            "SortOrder": "202",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "terminology"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 1: Prisoners of Castle Whirlwind",
+            "SortOrder": "203",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1",
+              "insert1",
+              "chapter1_1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 2: A City on the Sea",
+            "SortOrder": "204",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2",
+              "insert2",
+              "chapter2_1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 3: A New Life",
+            "SortOrder": "205",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter3",
+              "insert3",
+              "chapter3_1",
+              "insert4",
+              "chapter3_2"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 4: The King\u2019s Return",
+            "SortOrder": "206",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter4",
+              "insert5",
+              "chapter4_1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "\u003Cb\u003EEXPLICATIONS\u003C/b\u003E",
+            "SortOrder": "207",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "dialogue1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 5: Across Sky and Ocean",
+            "SortOrder": "208",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter5"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "209",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "intermissionimg",
+              "chapter5_1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Epilogue",
+            "SortOrder": "210",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "epilogue"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "\u003Cb\u003EEXPLICATIONS\u003C/b\u003E",
+            "SortOrder": "211",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "dialogue2"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Afterword",
+            "SortOrder": "212",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "afterword"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "213",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "color1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "214",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "color3"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Translator Notes",
+            "SortOrder": "215",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Landmarks",
+            "SortOrder": "216",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "toc"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "217",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "signup"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "copyright"
+            ],
+            "Chapters": []
+          }
+        ]
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "Volume 2",
+        "SortOrder": "2",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": []
+      }
+    ],
+    "ExtraContent": [],
+    "Gallery": {
+      "SplashImages": [
+        "color1",
+        "color2",
+        "color3",
+        "cover",
+        "intermission"
+      ],
+      "ChapterImages": [
+        "insert1",
+        "insert2",
+        "insert3",
+        "insert4",
+        "insert5"
+      ],
+      "ChapterName": "",
+      "SortOrder": "",
+      "SubFolder": "2-Volume 2",
+      "OriginalFilenames": [],
+      "Chapters": []
+    }
+  },
+  {
+    "InternalName": "fantasy-inbound-volume-3",
+    "Chapters": [
+      {
+        "ChapterName": "Volume 3",
+        "SortOrder": "3",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "",
+            "SortOrder": "301",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "color3"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "TERMINOLOGY",
+            "SortOrder": "302",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "terminology"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Prologue",
+            "SortOrder": "303",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "prologue"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 1: Waves Under the Moon",
+            "SortOrder": "304",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1",
+              "insert1",
+              "chapter1_1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 2: Of the Wind",
+            "SortOrder": "305",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2",
+              "insert2",
+              "chapter2_1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 3: The Asura of Flashfire",
+            "SortOrder": "306",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter3",
+              "insert3",
+              "chapter3_1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 4: Starcaller",
+            "SortOrder": "307",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter4",
+              "insert4",
+              "chapter4_1",
+              "insert5",
+              "chapter4_2"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 5: Falling Stars",
+            "SortOrder": "308",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter5",
+              "insert6"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Epilogue",
+            "SortOrder": "309",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "epilogue"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Afterword",
+            "SortOrder": "310",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "afterword"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "311",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "color1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "312",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "color2"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Translator Notes",
+            "SortOrder": "313",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Landmarks",
+            "SortOrder": "314",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "toc"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "315",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "signup"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "copyright"
+            ],
+            "Chapters": []
+          }
+        ]
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "Volume 3",
+        "SortOrder": "3",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": []
+      }
+    ],
+    "ExtraContent": [],
+    "Gallery": {
+      "SplashImages": [
+        "color1",
+        "color2",
+        "color3",
+        "cover"
+      ],
+      "ChapterImages": [
+        "insert1",
+        "insert2",
+        "insert3",
+        "insert4",
+        "insert5",
+        "insert6"
+      ],
+      "ChapterName": "",
+      "SortOrder": "",
+      "SubFolder": "3-Volume 3",
+      "OriginalFilenames": [],
+      "Chapters": []
+    }
+  }
+]

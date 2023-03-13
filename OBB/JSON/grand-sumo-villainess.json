@@ -1,0 +1,231 @@
+[
+  {
+    "InternalName": "grand-sumo-villainess-volume-1",
+    "Chapters": [
+      {
+        "ChapterName": "Volume 1",
+        "SortOrder": "1",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Landmarks",
+            "SortOrder": "101",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "toc"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 1: Sumo at Aryaka\u2019s Royal Castle",
+            "SortOrder": "102",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1",
+              "insert1",
+              "chapter1_1",
+              "insert2",
+              "chapter1_2",
+              "insert3",
+              "chapter1_3"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Interlude: Overlooking the Path to the Gate, from atop the Balcony at Aryaka\u2019s Royal Castle",
+            "SortOrder": "103",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "interlude1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 2: Sumo at the Hobbema Marquisate",
+            "SortOrder": "104",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2",
+              "insert4",
+              "chapter2_1",
+              "insert5",
+              "chapter2_2"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Interlude: Central Dining Room at Aryaka\u2019s Royal Castle",
+            "SortOrder": "105",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "interlude2"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 3: Sumo at Fort Varian",
+            "SortOrder": "106",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter3",
+              "insert6",
+              "chapter3_1",
+              "insert7",
+              "chapter3_2",
+              "insert8",
+              "chapter3_3"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Interlude: At Aryaka\u2019s Royal Castle\u2014in the Room with a Statue of the Goddess, in the Throne Room, and on the Veranda",
+            "SortOrder": "107",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "interlude3"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Chapter 4: Grand Finale: Sumo at Aryaka\u2019s Royal Castle",
+            "SortOrder": "108",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter4",
+              "insert9",
+              "chapter4_1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Epilogue: The Final Jinku Disappears into the Sky of the Royal Capital",
+            "SortOrder": "109",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "epilogue",
+              "insert10"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Extra Stories",
+            "SortOrder": "110",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "extra1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Special Extra: In the Age of Grand Sumo, a Girl Comes from the East",
+            "SortOrder": "111",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "extra2"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "A Somewhat Long Afterword: The Road to Creating \u003Cem\u003EGrand Sumo Villainess\u003C/em\u003E",
+            "SortOrder": "112",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "afterword"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "113",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "backmatter1"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "114",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "backmatter2"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "115",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "backmatter3"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "Bonus Short Story",
+            "SortOrder": "116",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "117",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "signup"
+            ],
+            "Chapters": []
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "copyright"
+            ],
+            "Chapters": []
+          }
+        ]
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "Volume 1",
+        "SortOrder": "1",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": []
+      }
+    ],
+    "ExtraContent": [],
+    "Gallery": {
+      "SplashImages": [
+        "color1",
+        "color2",
+        "color3",
+        "cover"
+      ],
+      "ChapterImages": [
+        "insert1",
+        "insert10",
+        "insert2",
+        "insert3",
+        "insert4",
+        "insert5",
+        "insert6",
+        "insert7",
+        "insert8",
+        "insert9"
+      ],
+      "ChapterName": "",
+      "SortOrder": "",
+      "SubFolder": "1-Volume 1",
+      "OriginalFilenames": [],
+      "Chapters": []
+    }
+  }
+]

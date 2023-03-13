@@ -1,6 +1,6 @@
 [
   {
-    "InternalName": "tAD01",
+    "InternalName": "the-apothecary-diaries-volume-1",
     "Chapters": [
       {
         "ChapterName": "Volume 1",
@@ -189,7 +189,7 @@
     }
   },
   {
-    "InternalName": "tAD02",
+    "InternalName": "the-apothecary-diaries-volume-2",
     "Chapters": [
       {
         "ChapterName": "Volume 2",
@@ -328,7 +328,7 @@
     }
   },
   {
-    "InternalName": "tAD03",
+    "InternalName": "the-apothecary-diaries-volume-3",
     "Chapters": [
       {
         "ChapterName": "Volume 3",
@@ -462,7 +462,7 @@
     }
   },
   {
-    "InternalName": "tAD04",
+    "InternalName": "the-apothecary-diaries-volume-4",
     "Chapters": [
       {
         "ChapterName": "Volume 4",
@@ -471,122 +471,122 @@
           {
             "ChapterName": "Prologue",
             "SortOrder": "00",
-            "OriginalFilenames": ["prologue"]
+            "OriginalFilenames": [ "prologue" ]
           },
           {
             "ChapterName": "The Bath",
             "SortOrder": "01",
-            "OriginalFilenames": ["chapter1", "insert1", "chapter1_1"]
+            "OriginalFilenames": [ "chapter1", "insert1", "chapter1_1" ]
           },
           {
             "ChapterName": "Seki-u",
             "SortOrder": "02",
-            "OriginalFilenames": ["chapter2"]
+            "OriginalFilenames": [ "chapter2" ]
           },
           {
             "ChapterName": "The Dancing Ghost",
             "SortOrder": "03",
-            "OriginalFilenames": ["chapter3"]
+            "OriginalFilenames": [ "chapter3" ]
           },
           {
             "ChapterName": "The Rumored Eunuchs",
             "SortOrder": "04",
-            "OriginalFilenames": ["chapter4", "insert2", "chapter4_1"]
+            "OriginalFilenames": [ "chapter4", "insert2", "chapter4_1" ]
           },
           {
             "ChapterName": "Ice",
             "SortOrder": "05",
-            "OriginalFilenames": ["chapter5"]
+            "OriginalFilenames": [ "chapter5" ]
           },
           {
             "ChapterName": "Breech Birth",
             "SortOrder": "06",
-            "OriginalFilenames": ["chapter6"]
+            "OriginalFilenames": [ "chapter6" ]
           },
           {
             "ChapterName": "Festering Resentment (Part One)",
             "SortOrder": "07",
-            "OriginalFilenames": ["chapter7"]
+            "OriginalFilenames": [ "chapter7" ]
           },
           {
             "ChapterName": "Festering Resentment (Part Two)",
             "SortOrder": "08",
-            "OriginalFilenames": ["chapter8", "insert3", "chapter8_1"]
+            "OriginalFilenames": [ "chapter8", "insert3", "chapter8_1" ]
           },
           {
             "ChapterName": "The Fox and the Tanuki Match Wits",
             "SortOrder": "09",
-            "OriginalFilenames": ["chapter9"]
+            "OriginalFilenames": [ "chapter9" ]
           },
           {
             "ChapterName": "Traces",
             "SortOrder": "10",
-            "OriginalFilenames": ["chapter10"]
+            "OriginalFilenames": [ "chapter10" ]
           },
           {
             "ChapterName": "The Fox Village",
             "SortOrder": "11",
-            "OriginalFilenames": ["chapter11"]
+            "OriginalFilenames": [ "chapter11" ]
           },
           {
             "ChapterName": "Lantern Plant",
             "SortOrder": "12",
-            "OriginalFilenames": ["chapter12", "insert4", "chapter12_1"]
+            "OriginalFilenames": [ "chapter12", "insert4", "chapter12_1" ]
           },
           {
             "ChapterName": "Festival",
             "SortOrder": "13",
-            "OriginalFilenames": ["chapter13"]
+            "OriginalFilenames": [ "chapter13" ]
           },
           {
             "ChapterName": "The Worksite",
             "SortOrder": "14",
-            "OriginalFilenames": ["chapter14"]
+            "OriginalFilenames": [ "chapter14" ]
           },
           {
             "ChapterName": "The Stronghold",
             "SortOrder": "15",
-            "OriginalFilenames": ["chapter15"]
+            "OriginalFilenames": [ "chapter15" ]
           },
           {
             "ChapterName": "Lahan",
             "SortOrder": "16",
-            "OriginalFilenames": ["chapter16"]
+            "OriginalFilenames": [ "chapter16" ]
           },
           {
             "ChapterName": "Taibon",
             "SortOrder": "17",
-            "OriginalFilenames": ["chapter17"]
+            "OriginalFilenames": [ "chapter17" ]
           },
           {
             "ChapterName": "Feifa",
             "SortOrder": "18",
-            "OriginalFilenames": ["chapter18", "insert5", "chapter18_1"]
+            "OriginalFilenames": [ "chapter18", "insert5", "chapter18_1" ]
           },
           {
             "ChapterName": "The Army Marches",
             "SortOrder": "19",
-            "OriginalFilenames": ["chapter19"]
+            "OriginalFilenames": [ "chapter19" ]
           },
           {
             "ChapterName": "The Ambush",
             "SortOrder": "20",
-            "OriginalFilenames": ["chapter20", "insert6", "chapter20_1"]
+            "OriginalFilenames": [ "chapter20", "insert6", "chapter20_1" ]
           },
           {
             "ChapterName": "How it Began",
             "SortOrder": "21",
-            "OriginalFilenames": ["chapter21"]
+            "OriginalFilenames": [ "chapter21" ]
           },
           {
             "ChapterName": "In the Clutches of the Fox",
             "SortOrder": "22",
-            "OriginalFilenames": ["chapter22"]
+            "OriginalFilenames": [ "chapter22" ]
           },
           {
             "ChapterName": "Epilogue",
             "SortOrder": "23",
-            "OriginalFilenames": ["epilogue", "insert7", "epilogue_1"]
+            "OriginalFilenames": [ "epilogue", "insert7", "epilogue_1" ]
           }
         ]
       }
@@ -611,7 +611,7 @@
     }
   },
   {
-    "InternalName": "tAD05",
+    "InternalName": "the-apothecary-diaries-volume-5",
     "Chapters": [
       {
         "ChapterName": "Volume 5",
@@ -620,92 +620,92 @@
           {
             "ChapterName": "Prologue",
             "SortOrder": "00b",
-            "OriginalFilenames": ["prologue"]
+            "OriginalFilenames": [ "prologue" ]
           },
           {
             "ChapterName": "Locusts",
             "SortOrder": "01",
-            "OriginalFilenames": ["chapter1", "insert1", "chapter1_1"]
+            "OriginalFilenames": [ "chapter1", "insert1", "chapter1_1" ]
           },
           {
             "ChapterName": "Ukyou",
             "SortOrder": "02",
-            "OriginalFilenames": ["chapter2"]
+            "OriginalFilenames": [ "chapter2" ]
           },
           {
             "ChapterName": "Sleep",
             "SortOrder": "03",
-            "OriginalFilenames": ["chapter3", "insert2"]
+            "OriginalFilenames": [ "chapter3", "insert2" ]
           },
           {
             "ChapterName": "The Fire-Rat Cloak",
             "SortOrder": "04",
-            "OriginalFilenames": ["chapter4"]
+            "OriginalFilenames": [ "chapter4" ]
           },
           {
             "ChapterName": "Let Them Eat Cake",
             "SortOrder": "05",
-            "OriginalFilenames": ["chapter5"]
+            "OriginalFilenames": [ "chapter5" ]
           },
           {
             "ChapterName": "The Last Volume",
             "SortOrder": "06",
-            "OriginalFilenames": ["chapter6", "insert3", "chapter6_1"]
+            "OriginalFilenames": [ "chapter6", "insert3", "chapter6_1" ]
           },
           {
             "ChapterName": "The White-Snake Immortal",
             "SortOrder": "07",
-            "OriginalFilenames": ["chapter7"]
+            "OriginalFilenames": [ "chapter7" ]
           },
           {
             "ChapterName": "Proficiencies",
             "SortOrder": "08",
-            "OriginalFilenames": ["chapter8", "insert4"]
+            "OriginalFilenames": [ "chapter8", "insert4" ]
           },
           {
             "ChapterName": "The Paper Village",
             "SortOrder": "09",
-            "OriginalFilenames": ["chapter9", "insert5", "chapter9_1"]
+            "OriginalFilenames": [ "chapter9", "insert5", "chapter9_1" ]
           },
           {
             "ChapterName": "Hemp and Folk Religion",
             "SortOrder": "10",
-            "OriginalFilenames": ["chapter10"]
+            "OriginalFilenames": [ "chapter10" ]
           },
           {
             "ChapterName": "Bandits",
             "SortOrder": "11",
-            "OriginalFilenames": ["chapter11", "insert6", "chapter11_1"]
+            "OriginalFilenames": [ "chapter11", "insert6", "chapter11_1" ]
           },
           {
             "ChapterName": "Problems Accumulate",
             "SortOrder": "12",
-            "OriginalFilenames": ["chapter12"]
+            "OriginalFilenames": [ "chapter12" ]
           },
           {
             "ChapterName": "The Western Capital—Day One",
             "SortOrder": "13",
-            "OriginalFilenames": ["chapter13"]
+            "OriginalFilenames": [ "chapter13" ]
           },
           {
             "ChapterName": "The Western Capital—Day Two",
             "SortOrder": "14",
-            "OriginalFilenames": ["chapter14"]
+            "OriginalFilenames": [ "chapter14" ]
           },
           {
             "ChapterName": "The Banquet (Part One)",
             "SortOrder": "15",
-            "OriginalFilenames": ["chapter15", "insert7", "chapter15_1"]
+            "OriginalFilenames": [ "chapter15", "insert7", "chapter15_1" ]
           },
           {
             "ChapterName": "The Banquet (Part Two)",
             "SortOrder": "16",
-            "OriginalFilenames": ["chapter16", "insert8", "chapter16_1"]
+            "OriginalFilenames": [ "chapter16", "insert8", "chapter16_1" ]
           },
           {
             "ChapterName": "Epilogue",
             "SortOrder": "17",
-            "OriginalFilenames": ["epilogue", "insert9", "epilogue_1"]
+            "OriginalFilenames": [ "epilogue", "insert9", "epilogue_1" ]
           }
         ]
       }
@@ -741,7 +741,7 @@
     }
   },
   {
-    "InternalName": "tAD06",
+    "InternalName": "the-apothecary-diaries-volume-6",
     "Chapters": [
       {
         "ChapterName": "Volume 6",
@@ -750,92 +750,92 @@
           {
             "ChapterName": "Prologue",
             "SortOrder": "00b",
-            "OriginalFilenames": ["prologue"]
+            "OriginalFilenames": [ "prologue" ]
           },
           {
             "ChapterName": "The Western Capital—Day Four",
             "SortOrder": "01",
-            "OriginalFilenames": ["chapter1"]
+            "OriginalFilenames": [ "chapter1" ]
           },
           {
             "ChapterName": "The Floating Bride (Part One)",
             "SortOrder": "02",
-            "OriginalFilenames": ["chapter2"]
+            "OriginalFilenames": [ "chapter2" ]
           },
           {
             "ChapterName": "The Floating Bride (Part Two)",
             "SortOrder": "03",
-            "OriginalFilenames": ["chapter3", "insert1", "chapter3_1"]
+            "OriginalFilenames": [ "chapter3", "insert1", "chapter3_1" ]
           },
           {
             "ChapterName": "Homeward Bound",
             "SortOrder": "04",
-            "OriginalFilenames": ["chapter4"]
+            "OriginalFilenames": [ "chapter4" ]
           },
           {
             "ChapterName": "Wrapping Up in the Western Capital",
             "SortOrder": "05",
-            "OriginalFilenames": ["chapter5"]
+            "OriginalFilenames": [ "chapter5" ]
           },
           {
             "ChapterName": "The La Clan (Part One)",
             "SortOrder": "06",
-            "OriginalFilenames": ["chapter6"]
+            "OriginalFilenames": [ "chapter6" ]
           },
           {
             "ChapterName": "The La Clan (Part Two)",
             "SortOrder": "07",
-            "OriginalFilenames": ["chapter7"]
+            "OriginalFilenames": [ "chapter7" ]
           },
           {
             "ChapterName": "The Conclusion of Lishu’s Journey",
             "SortOrder": "08",
-            "OriginalFilenames": ["chapter8", "insert2", "chapter8_1"]
+            "OriginalFilenames": [ "chapter8", "insert2", "chapter8_1" ]
           },
           {
             "ChapterName": "Homecoming",
             "SortOrder": "09",
-            "OriginalFilenames": ["chapter9"]
+            "OriginalFilenames": [ "chapter9" ]
           },
           {
             "ChapterName": "The Bad Dumplings",
             "SortOrder": "10",
-            "OriginalFilenames": ["chapter10", "insert3"]
+            "OriginalFilenames": [ "chapter10", "insert3" ]
           },
           {
             "ChapterName": "The Dancing Water Sprite",
             "SortOrder": "11",
-            "OriginalFilenames": ["chapter11"]
+            "OriginalFilenames": [ "chapter11" ]
           },
           {
             "ChapterName": "The Trials of Consort Lishu",
             "SortOrder": "12",
-            "OriginalFilenames": ["chapter12", "insert4", "chapter12_1"]
+            "OriginalFilenames": [ "chapter12", "insert4", "chapter12_1" ]
           },
           {
             "ChapterName": "Scandal (Part One)",
             "SortOrder": "13",
-            "OriginalFilenames": ["chapter13"]
+            "OriginalFilenames": [ "chapter13" ]
           },
           {
             "ChapterName": "Scandal (Part Two)",
             "SortOrder": "14",
-            "OriginalFilenames": ["chapter14"]
+            "OriginalFilenames": [ "chapter14" ]
           },
           {
             "ChapterName": "Scandal (Part Three)",
             "SortOrder": "15",
-            "OriginalFilenames": ["chapter15"]
+            "OriginalFilenames": [ "chapter15" ]
           },
           {
             "ChapterName": "Basen and Lishu",
             "SortOrder": "16",
-            "OriginalFilenames": ["chapter16"]
+            "OriginalFilenames": [ "chapter16" ]
           },
           {
             "ChapterName": "Epilogue",
             "SortOrder": "17",
-            "OriginalFilenames": ["epilogue", "insert5"]
+            "OriginalFilenames": [ "epilogue", "insert5" ]
           }
         ]
       }
@@ -871,7 +871,7 @@
     }
   },
   {
-    "InternalName": "tAD07",
+    "InternalName": "the-apothecary-diaries-volume-7",
     "Chapters": [
       {
         "ChapterName": "Volume 7",
@@ -880,122 +880,122 @@
           {
             "ChapterName": "Prologue",
             "SortOrder": "00b",
-            "OriginalFilenames": ["prologue"]
+            "OriginalFilenames": [ "prologue" ]
           },
           {
             "ChapterName": "The Court Ladies’ Service Exam",
             "SortOrder": "01",
-            "OriginalFilenames": ["chapter1", "insert1", "chapter1_1"]
+            "OriginalFilenames": [ "chapter1", "insert1", "chapter1_1" ]
           },
           {
             "ChapterName": "Harassment",
             "SortOrder": "02",
-            "OriginalFilenames": ["chapter2"]
+            "OriginalFilenames": [ "chapter2" ]
           },
           {
             "ChapterName": "Medical Assistant",
             "SortOrder": "03",
-            "OriginalFilenames": ["chapter3"]
+            "OriginalFilenames": [ "chapter3" ]
           },
           {
             "ChapterName": "The Rear Palace",
             "SortOrder": "04",
-            "OriginalFilenames": ["chapter4"]
+            "OriginalFilenames": [ "chapter4" ]
           },
           {
             "ChapterName": "Fortune Cookies",
             "SortOrder": "05",
-            "OriginalFilenames": ["chapter5", "insert2", "chapter5_1"]
+            "OriginalFilenames": [ "chapter5", "insert2", "chapter5_1" ]
           },
           {
             "ChapterName": "Strategist Down",
             "SortOrder": "06",
-            "OriginalFilenames": ["chapter6"]
+            "OriginalFilenames": [ "chapter6" ]
           },
           {
             "ChapterName": "Aylin’s Intentions",
             "SortOrder": "07",
-            "OriginalFilenames": ["chapter7"]
+            "OriginalFilenames": [ "chapter7" ]
           },
           {
             "ChapterName": "The Thought Behind the Thought",
             "SortOrder": "08",
-            "OriginalFilenames": ["chapter8", "insert3", "chapter8_1"]
+            "OriginalFilenames": [ "chapter8", "insert3", "chapter8_1" ]
           },
           {
             "ChapterName": "Empress",
             "SortOrder": "09",
-            "OriginalFilenames": ["chapter9"]
+            "OriginalFilenames": [ "chapter9" ]
           },
           {
             "ChapterName": "Covert Ops",
             "SortOrder": "10",
-            "OriginalFilenames": ["chapter10", "insert4", "chapter10_1"]
+            "OriginalFilenames": [ "chapter10", "insert4", "chapter10_1" ]
           },
           {
             "ChapterName": "Before the Celebration",
             "SortOrder": "11",
-            "OriginalFilenames": ["chapter11"]
+            "OriginalFilenames": [ "chapter11" ]
           },
           {
             "ChapterName": "Child of a Foreign Land",
             "SortOrder": "12",
-            "OriginalFilenames": ["chapter12", "insert5", "chapter12_1"]
+            "OriginalFilenames": [ "chapter12", "insert5", "chapter12_1" ]
           },
           {
             "ChapterName": "Lady-in-Waiting to His Majesty’s Younger Brother",
             "SortOrder": "13",
-            "OriginalFilenames": ["chapter13", "insert6"]
+            "OriginalFilenames": [ "chapter13", "insert6" ]
           },
           {
             "ChapterName": "Meeting the Shrine Maiden",
             "SortOrder": "14",
-            "OriginalFilenames": ["chapter14"]
+            "OriginalFilenames": [ "chapter14" ]
           },
           {
             "ChapterName": "“Mom”",
             "SortOrder": "15",
-            "OriginalFilenames": ["chapter15"]
+            "OriginalFilenames": [ "chapter15" ]
           },
           {
             "ChapterName": "The Dinner",
             "SortOrder": "16",
-            "OriginalFilenames": ["chapter16", "insert7", "chapter16_1"]
+            "OriginalFilenames": [ "chapter16", "insert7", "chapter16_1" ]
           },
           {
             "ChapterName": "The Suspect",
             "SortOrder": "17",
-            "OriginalFilenames": ["chapter17"]
+            "OriginalFilenames": [ "chapter17" ]
           },
           {
             "ChapterName": "A Man and a Woman Play the Game",
             "SortOrder": "18",
-            "OriginalFilenames": ["chapter18"]
+            "OriginalFilenames": [ "chapter18" ]
           },
           {
             "ChapterName": "The Truth Behind the Truth",
             "SortOrder": "19",
-            "OriginalFilenames": ["chapter19"]
+            "OriginalFilenames": [ "chapter19" ]
           },
           {
             "ChapterName": "Mushroom Congee",
             "SortOrder": "20",
-            "OriginalFilenames": ["chapter20"]
+            "OriginalFilenames": [ "chapter20" ]
           },
           {
             "ChapterName": "The Shrine Maiden’s Confession",
             "SortOrder": "21",
-            "OriginalFilenames": ["chapter21"]
+            "OriginalFilenames": [ "chapter21" ]
           },
           {
             "ChapterName": "The Future Shrine Maiden",
             "SortOrder": "22",
-            "OriginalFilenames": ["chapter22"]
+            "OriginalFilenames": [ "chapter22" ]
           },
           {
             "ChapterName": "Epilogue",
             "SortOrder": "23",
-            "OriginalFilenames": ["epilogue"]
+            "OriginalFilenames": [ "epilogue" ]
           }
         ]
       }

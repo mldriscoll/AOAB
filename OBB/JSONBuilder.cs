@@ -11,31 +11,25 @@ namespace OBB
         private static readonly Regex chapterTitleRegex = new Regex("<h1>[\\s\\S]*?<\\/h1>");
         public static async Task ExtractJSON()
         {
-            var inFolder = Settings.MiscSettings.InputFolder == null ? Environment.CurrentDirectory :
-                Settings.MiscSettings.InputFolder.Length > 1 && Settings.MiscSettings.InputFolder[1].Equals(':') ? Settings.MiscSettings.InputFolder : Environment.CurrentDirectory + "\\" + Settings.MiscSettings.InputFolder;
+            var inFolder = Settings.MiscSettings.GetInputFolder();
+            var files = Directory.GetFiles(Settings.MiscSettings.GetInputFolder(), "*.epub");
 
-            var files = Directory.GetFiles(inFolder, "*.epub");
             var dict = new Dictionary<int, string>();
 
-
-            List<Series> series;
+            List<Series> series = await GetSeries();
             List<string> volumes = new List<string>();
 
-            using (var reader = new StreamReader("JSON\\Series.json"))
+            foreach (var serie in series)
             {
-                var a = await JsonSerializer.DeserializeAsync<Series[]>(reader.BaseStream);
-                
-                series = a.ToList();
-            }
-
-            foreach(var serie in series)
-            {
-                using (var reader = new StreamReader($"JSON\\{serie.InternalName}.json"))
+                if (File.Exists($"JSON\\{serie.InternalName}.json"))
                 {
-                    var a = await JsonSerializer.DeserializeAsync<Volume[]>(reader.BaseStream);
-                    foreach(var entry in a)
+                    using (var reader = new StreamReader($"JSON\\{serie.InternalName}.json"))
                     {
-                        serie.Volumes.RemoveAll(x => x.InternalName.Equals(entry.InternalName));
+                        var a = await JsonSerializer.DeserializeAsync<Volume[]>(reader.BaseStream);
+                        foreach (var entry in a)
+                        {
+                            serie.Volumes.RemoveAll(x => x.ApiSlug.Equals(entry.InternalName));
+                        }
                     }
                 }
             }
@@ -65,6 +59,103 @@ namespace OBB
 
             var epub = dict[pick];
 
+            Volume volume = GenerateVolumeInfo(inFolder, volumeName, epub);
+
+            using (var writer = new StreamWriter("Volume.json"))
+            {
+                var options = new JsonSerializerOptions
+                {
+                    WriteIndented = true
+                };
+                await JsonSerializer.SerializeAsync(writer.BaseStream, volume, options);
+            }
+
+            Console.WriteLine("Draft volume json saved to Volume.json");
+            Console.ReadLine();
+        }
+
+        public static async Task ExtractAvailableJSON()
+        {
+            var inFolder = Settings.MiscSettings.GetInputFolder();
+            var files = Directory.GetFiles(Settings.MiscSettings.GetInputFolder(), "*.epub");
+
+            List<Series> series = await GetSeries();
+
+            foreach (var serie in series)
+            {
+                string seriesJsonFileName = $"JSON\\{serie.InternalName}.json";
+                List<Volume?> existingVolumeData = new(serie.Volumes.Count);
+                existingVolumeData.AddRange(serie.Volumes.Select<VolumeName, Volume?>(x => null));
+
+                if (File.Exists(seriesJsonFileName))
+                {
+                    using (var reader = new StreamReader(seriesJsonFileName))
+                    {
+                        var a = await JsonSerializer.DeserializeAsync<Volume[]>(reader.BaseStream);
+                        foreach (var vol in a)
+                        {
+                            int pos = serie.Volumes.FindIndex(x => x.ApiSlug.Equals(vol.InternalName));
+                            if (pos == -1)
+                            {
+                                Console.WriteLine($"Found volume data {vol.InternalName} without matching volume name in {serie.InternalName}.");
+                                existingVolumeData.Add(vol);
+                            }
+                            else
+                            {
+                                existingVolumeData[pos] = vol;
+                            }
+                        }
+                        existingVolumeData.AddRange(a);
+                    }
+                }
+
+                bool generated = false;
+                for (var i = 0; i < serie.Volumes.Count; i++)
+                {
+                    if (existingVolumeData[i] != null)
+                        continue;
+                    string epubFileName = inFolder + "\\" + serie.Volumes[i].FileName;
+                    if (!files.Contains(epubFileName))
+                    {
+                        Console.WriteLine($"File not found {epubFileName} not extracting volume metadata.");
+                        continue;
+                    }
+                    Console.WriteLine($"Extracting volume metadata from {epubFileName} (Volume {i + 1}).");
+                    existingVolumeData[i] = GenerateVolumeInfo(inFolder, (i + 1).ToString(), epubFileName);
+                    generated = true;
+                }
+
+                if (generated)
+                {
+                    Console.WriteLine($"Updating {seriesJsonFileName} with new volume data.");
+                    using (var writer = new StreamWriter(seriesJsonFileName))
+                    {
+                        var options = new JsonSerializerOptions
+                        {
+                            WriteIndented = true
+                        };
+                        await JsonSerializer.SerializeAsync(writer.BaseStream, existingVolumeData.Where(x => x != null).ToArray(), options);
+                    }
+                }
+            }
+        }
+
+        private static async Task<List<Series>> GetSeries()
+        {
+            List<Series> series;
+
+            using (var reader = new StreamReader("JSON\\Series.json"))
+            {
+                var a = await JsonSerializer.DeserializeAsync<Series[]>(reader.BaseStream);
+
+                series = a.ToList();
+            }
+
+            return series;
+        }
+
+        private static Volume GenerateVolumeInfo(string inFolder, string? volumeName, string epub)
+        {
             if (Directory.Exists("jsontemp")) Directory.Delete("jsontemp", true);
             ZipFile.ExtractToDirectory(epub, "jsontemp");
 
@@ -94,7 +185,7 @@ namespace OBB
             };
 
             int order = 1;
-            foreach(var line in content)
+            foreach (var line in content)
             {
                 if (inSpine)
                 {
@@ -105,7 +196,7 @@ namespace OBB
                     else
                     {
                         var match = ItemRefRegex.Match(line).Value;
-                        
+
                         if (!match.Contains(".xhtml"))
                         {
 
@@ -146,7 +237,7 @@ namespace OBB
             finalChapter.OriginalFilenames.AddRange(chapterFiles.Select(x => x.Replace(".xhtml", string.Empty)));
 
             var imageFiles = Directory.GetFiles("jsontemp\\OEBPS\\Images", "*.jpg");
-            foreach(var file in imageFiles)
+            foreach (var file in imageFiles)
             {
                 if (file.Contains("Insert"))
                 {
@@ -158,18 +249,53 @@ namespace OBB
                 }
             }
             volume.Gallery.SubFolder = $"{volumeName}-Volume {volumeName}";
+            return volume;
+        }
 
-            using (var writer = new StreamWriter("Volume.json"))
+        public static async Task GenerateTable()
+        {
+            var series = await GetSeries();
+
+            series.RemoveAll(x => x.Volumes.Count < 2);
+
+            series = series.OrderBy(x => x.Name).ToList();
+
+            File.Delete("JSON\\Series.json");
+
+            using (var writer = new StreamWriter("JSON\\Series.json"))
             {
                 var options = new JsonSerializerOptions
                 {
                     WriteIndented = true
                 };
-                await JsonSerializer.SerializeAsync(writer.BaseStream, volume, options);
+                await JsonSerializer.SerializeAsync<List<Series>>(writer.BaseStream, series, options);
             }
 
-            Console.WriteLine("Draft volume json saved to Volume.json");
-            Console.ReadLine();
+            var lines = new List<string> {
+                "|Series|Edited Volumes|Autogenerated Volumes|Editors",
+                "|-|-|-|-"
+            };
+
+            var files = Directory.GetFiles("JSON", "*.json").ToList();
+            files.Remove("JSON\\Series.json");
+
+            foreach(var serie in series)
+            {
+                var edited = serie.Volumes.Count(x => x.EditedBy != null);
+                var unedited = serie.Volumes.Count(x => x.EditedBy == null);
+                var editors = serie.Volumes.Where(x => x.EditedBy != null)?.Select(x => x.EditedBy)?.Distinct();
+                string editor = editors.Any() ? editors.Aggregate((editor, set) => string.Concat(set, editor, " ")) : string.Empty;
+
+                lines.Add($"|{serie.Name}|{edited}|{unedited}|{editor}");
+                files.Remove("JSON\\" + serie.InternalName + ".json");
+            }
+
+            foreach(var file in files)
+            {
+                File.Delete(file);
+            }
+
+            await File.WriteAllLinesAsync("table.txt", lines);
         }
     }
 }
