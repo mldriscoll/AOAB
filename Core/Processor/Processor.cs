@@ -257,7 +257,7 @@ namespace Core.Processor
 
                     if (start == -1) continue;
 
-                    if (space == -1 && text[counter].Equals(' '))
+                    if (open == -1 && text[counter].Equals(' '))
                     {
                         space = counter - 1;
                     }
