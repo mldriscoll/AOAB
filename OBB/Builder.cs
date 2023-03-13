@@ -4,10 +4,116 @@ using Core.Processor;
 using OBB.JSON;
 using System.IO.Compression;
 using System.Runtime.Serialization.Json;
+using System.Text.Json;
 using System.Text.RegularExpressions;
 
 namespace OBB
 {
+    public static class JSONBuilder
+    {
+        static Regex ItemRefRegex = new Regex("\".*?\"");
+        private static readonly Regex chapterTitleRegex = new Regex("<h1>[\\s\\S]*?<\\/h1>");
+        public static async Task ExtractJSON()
+        {
+            var inFolder = Settings.MiscSettings.InputFolder == null ? Environment.CurrentDirectory :
+                Settings.MiscSettings.InputFolder.Length > 1 && Settings.MiscSettings.InputFolder[1].Equals(':') ? Settings.MiscSettings.InputFolder : Environment.CurrentDirectory + "\\" + Settings.MiscSettings.InputFolder;
+
+            var files = Directory.GetFiles(inFolder, "*.epub");
+            var dict = new Dictionary<int, string>();
+            foreach (var file in files)
+            {
+                dict.Add(dict.Keys.Count, file);
+                Console.WriteLine($"{dict.Keys.Last()} - {dict[dict.Keys.Last()].Replace(inFolder + "\\", string.Empty)}");
+            }
+
+            Console.WriteLine();
+            Console.WriteLine("Which .epub file do you wish to extract JSON from?");
+
+            var read = Console.ReadLine();
+
+            if (!int.TryParse(read, out var pick)) return;
+            if (!dict.ContainsKey(pick)) return;
+
+            var epub = dict[pick];
+
+            if (Directory.Exists("jsontemp")) Directory.Delete("jsontemp", true);
+            ZipFile.ExtractToDirectory(epub, "jsontemp");
+
+            var content = File.ReadAllLines("jsontemp\\OEBPS\\content.opf");
+            bool inSpine = false;
+            List<string> chapterFiles = new List<string>();
+
+            var volume = new Volume
+            {
+                InternalName = epub.Replace(inFolder + "\\", string.Empty).Replace(".epub", string.Empty)
+            };
+
+            foreach(var line in content)
+            {
+                if (inSpine)
+                {
+                    if (line.Contains("</spine"))
+                    {
+                        inSpine = false;
+                    }
+                    else
+                    {
+                        var match = ItemRefRegex.Match(line).Value;
+                        
+                        if (!match.Contains(".xhtml"))
+                        {
+
+                        }
+                        else if (match.Contains('_') || match.StartsWith("\"insert"))
+                        {
+                            chapterFiles.Add(match.Replace("\"", ""));
+                        }
+                        else
+                        {
+                            if (chapterFiles.Any())
+                            {
+                                var chapter = new JSON.Chapter
+                                {
+                                    ChapterName = "",
+                                };
+                                volume.Chapters.Add(chapter);
+                                chapter.OriginalFilenames.AddRange(chapterFiles);
+                                var chapterContent = File.ReadAllText("jsontemp\\OEBPS\\text\\" + chapterFiles[0]);
+                                chapter.ChapterName = chapterTitleRegex.Match(chapterContent).Value.Replace("<h1>", string.Empty).Replace("</h1>", string.Empty);
+                            }
+                            chapterFiles.Clear();
+                            chapterFiles.Add(match.Replace("\"", ""));
+                        }
+                    }
+                }
+
+
+                if (line.Contains("<spine"))
+                {
+                    inSpine = true;
+                }
+            }
+
+            var finalChapter = new JSON.Chapter
+            {
+                ChapterName = "",
+            };
+            volume.Chapters.Add(finalChapter);
+            finalChapter.OriginalFilenames.AddRange(chapterFiles);
+
+
+            using (var writer = new StreamWriter("jsontemp\\Volume.json"))
+            {
+                var options = new JsonSerializerOptions();
+                options.WriteIndented = true;
+                await JsonSerializer.SerializeAsync(writer.BaseStream, volume, options);
+            }
+
+
+            Console.WriteLine();
+            Console.ReadKey();
+        }
+    }
     public static class Builder
     {
         private static readonly Regex chapterTitleRegex = new Regex("<h1>[\\s\\S]*?<\\/h1>");

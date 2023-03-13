@@ -15,6 +15,7 @@ while (true)
     Console.WriteLine("3 - Update Image Settings");
     Console.WriteLine("4 - Update Miscellaneous Settings");
     Console.WriteLine("5 - Update JNC Login Details");
+    Console.WriteLine("6 - Create .json from .epub");
 
     var line = Console.ReadLine();
 
@@ -36,6 +37,9 @@ while (true)
             break;
         case 5:
             await Login.FromConsole(new HttpClient());
+            break;
+        case 6:
+            await JSONBuilder.ExtractJSON();
             break;
         default:
             break;
