@@ -8182,5 +8182,33 @@
     ],
     "Author": "toshizou",
     "AuthorSort": "TOSHIZOU"
+  },
+  {
+    "Name": "Housekeeping Mage from Another World",
+    "InternalName": "Housekeeping Mage",
+    "Author": "You Fugurama",
+    "AuthorSort": "FUGURAMA, YOU",
+    "Volumes": [
+      {
+        "ApiSlug": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-1",
+        "FileName": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-1.epub",
+        "EditedBy": "kuali"
+      },
+      {
+        "ApiSlug": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-2",
+        "FileName": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-2.epub",
+        "EditedBy": "kuali"
+      },
+      {
+        "ApiSlug": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-3",
+        "FileName": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-3.epub",
+        "EditedBy": "kuali"
+      },
+      {
+        "ApiSlug": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-4",
+        "FileName": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-4.epub",
+        "EditedBy": "kuali"
+      }
+    ]
   }
 ]
