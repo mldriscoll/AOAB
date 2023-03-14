@@ -3,7 +3,7 @@
     "InternalName": "kokoro-connect-hito-random",
     "Chapters": [
       {
-        "ChapterName": "Volume 1",
+        "ChapterName": "Hito Random",
         "SortOrder": "1",
         "SubFolder": "",
         "OriginalFilenames": [],
@@ -263,7 +263,7 @@
     ],
     "BonusChapters": [
       {
-        "ChapterName": "Volume 1",
+        "ChapterName": "Hito Random",
         "SortOrder": "1",
         "SubFolder": "",
         "OriginalFilenames": [],
@@ -292,7 +292,7 @@
       ],
       "ChapterName": "",
       "SortOrder": "",
-      "SubFolder": "1-Volume 1",
+      "SubFolder": "1-Hito Random",
       "OriginalFilenames": [],
       "Chapters": []
     }
@@ -301,7 +301,7 @@
     "InternalName": "kokoro-connect-kizu-random",
     "Chapters": [
       {
-        "ChapterName": "Volume 2",
+        "ChapterName": "Kizu Random",
         "SortOrder": "2",
         "SubFolder": "",
         "OriginalFilenames": [],
@@ -541,7 +541,7 @@
     ],
     "BonusChapters": [
       {
-        "ChapterName": "Volume 2",
+        "ChapterName": "Kizu Random",
         "SortOrder": "2",
         "SubFolder": "",
         "OriginalFilenames": [],
@@ -568,7 +568,7 @@
       ],
       "ChapterName": "",
       "SortOrder": "",
-      "SubFolder": "2-Volume 2",
+      "SubFolder": "2-Kizu Random",
       "OriginalFilenames": [],
       "Chapters": []
     }
@@ -577,7 +577,7 @@
     "InternalName": "kokoro-connect-kako-random",
     "Chapters": [
       {
-        "ChapterName": "Volume 3",
+        "ChapterName": "Kako Random",
         "SortOrder": "3",
         "SubFolder": "",
         "OriginalFilenames": [],
@@ -837,7 +837,7 @@
     ],
     "BonusChapters": [
       {
-        "ChapterName": "Volume 3",
+        "ChapterName": "Kako Random",
         "SortOrder": "3",
         "SubFolder": "",
         "OriginalFilenames": [],
@@ -866,7 +866,7 @@
       ],
       "ChapterName": "",
       "SortOrder": "",
-      "SubFolder": "3-Volume 3",
+      "SubFolder": "3-Kako Random",
       "OriginalFilenames": [],
       "Chapters": []
     }
@@ -875,7 +875,7 @@
     "InternalName": "kokoro-connect-michi-random",
     "Chapters": [
       {
-        "ChapterName": "Volume 4",
+        "ChapterName": "Michi Random",
         "SortOrder": "4",
         "SubFolder": "",
         "OriginalFilenames": [],
@@ -1135,7 +1135,7 @@
     ],
     "BonusChapters": [
       {
-        "ChapterName": "Volume 4",
+        "ChapterName": "Michi Random",
         "SortOrder": "4",
         "SubFolder": "",
         "OriginalFilenames": [],
@@ -1164,7 +1164,7 @@
       ],
       "ChapterName": "",
       "SortOrder": "",
-      "SubFolder": "4-Volume 4",
+      "SubFolder": "4-Michi Random",
       "OriginalFilenames": [],
       "Chapters": []
     }
@@ -1173,7 +1173,7 @@
     "InternalName": "kokoro-connect-clip-time",
     "Chapters": [
       {
-        "ChapterName": "Volume 5",
+        "ChapterName": "Clip Time",
         "SortOrder": "5",
         "SubFolder": "",
         "OriginalFilenames": [],
@@ -1343,7 +1343,7 @@
     ],
     "BonusChapters": [
       {
-        "ChapterName": "Volume 5",
+        "ChapterName": "Clip Time",
         "SortOrder": "5",
         "SubFolder": "",
         "OriginalFilenames": [],
@@ -1373,7 +1373,7 @@
       ],
       "ChapterName": "",
       "SortOrder": "",
-      "SubFolder": "5-Volume 5",
+      "SubFolder": "5-Clip Time",
       "OriginalFilenames": [],
       "Chapters": []
     }
@@ -1382,7 +1382,7 @@
     "InternalName": "kokoro-connect-nise-random",
     "Chapters": [
       {
-        "ChapterName": "Volume 6",
+        "ChapterName": "Nise Random",
         "SortOrder": "6",
         "SubFolder": "",
         "OriginalFilenames": [],
@@ -1612,7 +1612,7 @@
     ],
     "BonusChapters": [
       {
-        "ChapterName": "Volume 6",
+        "ChapterName": "Nise Random",
         "SortOrder": "6",
         "SubFolder": "",
         "OriginalFilenames": [],
@@ -1638,7 +1638,7 @@
       ],
       "ChapterName": "",
       "SortOrder": "",
-      "SubFolder": "6-Volume 6",
+      "SubFolder": "6-Nise Random",
       "OriginalFilenames": [],
       "Chapters": []
     }
@@ -1647,7 +1647,7 @@
     "InternalName": "kokoro-connect-yume-random",
     "Chapters": [
       {
-        "ChapterName": "Volume 7",
+        "ChapterName": "Yume Random",
         "SortOrder": "7",
         "SubFolder": "",
         "OriginalFilenames": [],
@@ -1908,7 +1908,7 @@
     ],
     "BonusChapters": [
       {
-        "ChapterName": "Volume 7",
+        "ChapterName": "Yume Random",
         "SortOrder": "7",
         "SubFolder": "",
         "OriginalFilenames": [],
@@ -1938,7 +1938,7 @@
       ],
       "ChapterName": "",
       "SortOrder": "",
-      "SubFolder": "7-Volume 7",
+      "SubFolder": "7-Yume Random",
       "OriginalFilenames": [],
       "Chapters": []
     }
@@ -1947,7 +1947,7 @@
     "InternalName": "kokoro-connect-step-time",
     "Chapters": [
       {
-        "ChapterName": "Volume 8",
+        "ChapterName": "Step Time",
         "SortOrder": "8",
         "SubFolder": "",
         "OriginalFilenames": [],
@@ -2103,7 +2103,7 @@
     ],
     "BonusChapters": [
       {
-        "ChapterName": "Volume 8",
+        "ChapterName": "Step Time",
         "SortOrder": "8",
         "SubFolder": "",
         "OriginalFilenames": [],
@@ -2133,7 +2133,7 @@
       ],
       "ChapterName": "",
       "SortOrder": "",
-      "SubFolder": "8-Volume 8",
+      "SubFolder": "8-Step Time",
       "OriginalFilenames": [],
       "Chapters": []
     }
@@ -2142,7 +2142,7 @@
     "InternalName": "kokoro-connect-asu-random-part-1",
     "Chapters": [
       {
-        "ChapterName": "Volume 9",
+        "ChapterName": "Asu Random Part 1",
         "SortOrder": "9",
         "SubFolder": "",
         "OriginalFilenames": [],
@@ -2345,7 +2345,7 @@
     ],
     "BonusChapters": [
       {
-        "ChapterName": "Volume 9",
+        "ChapterName": "Asu Random Part 1",
         "SortOrder": "9",
         "SubFolder": "",
         "OriginalFilenames": [],
@@ -2371,7 +2371,7 @@
       ],
       "ChapterName": "",
       "SortOrder": "",
-      "SubFolder": "9-Volume 9",
+      "SubFolder": "9-Asu Random Part 1",
       "OriginalFilenames": [],
       "Chapters": []
     }
@@ -2380,7 +2380,7 @@
     "InternalName": "kokoro-connect-asu-random-part-2",
     "Chapters": [
       {
-        "ChapterName": "Volume 10",
+        "ChapterName": "Asu Random Part 2",
         "SortOrder": "10",
         "SubFolder": "",
         "OriginalFilenames": [],
@@ -2576,7 +2576,7 @@
     ],
     "BonusChapters": [
       {
-        "ChapterName": "Volume 10",
+        "ChapterName": "Asu Random Part 2",
         "SortOrder": "10",
         "SubFolder": "",
         "OriginalFilenames": [],
@@ -2605,7 +2605,7 @@
       ],
       "ChapterName": "",
       "SortOrder": "",
-      "SubFolder": "10-Volume 10",
+      "SubFolder": "10-Asu Random Part 2",
       "OriginalFilenames": [],
       "Chapters": []
     }
@@ -2614,7 +2614,7 @@
     "InternalName": "kokoro-connect-precious-time",
     "Chapters": [
       {
-        "ChapterName": "Volume 11",
+        "ChapterName": "Precious Time",
         "SortOrder": "11",
         "SubFolder": "",
         "OriginalFilenames": [],
@@ -2792,7 +2792,7 @@
     ],
     "BonusChapters": [
       {
-        "ChapterName": "Volume 11",
+        "ChapterName": "Precious Time",
         "SortOrder": "11",
         "SubFolder": "",
         "OriginalFilenames": [],
@@ -2825,7 +2825,7 @@
       ],
       "ChapterName": "",
       "SortOrder": "",
-      "SubFolder": "11-Volume 11",
+      "SubFolder": "11-Precious Time",
       "OriginalFilenames": [],
       "Chapters": []
     }

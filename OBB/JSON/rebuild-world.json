@@ -3,7 +3,7 @@
     "InternalName": "rebuild-world-volume-1-part-one",
     "Chapters": [
       {
-        "ChapterName": "Volume 1",
+        "ChapterName": "Volume 1 Part One",
         "SortOrder": "1",
         "SubFolder": "",
         "OriginalFilenames": [],
@@ -278,7 +278,7 @@
     ],
     "BonusChapters": [
       {
-        "ChapterName": "Volume 1",
+        "ChapterName": "Volume 1 Part One",
         "SortOrder": "1",
         "SubFolder": "",
         "OriginalFilenames": [],
@@ -312,7 +312,7 @@
       ],
       "ChapterName": "",
       "SortOrder": "",
-      "SubFolder": "1-Volume 1",
+      "SubFolder": "1-Volume 1 Part One",
       "OriginalFilenames": [],
       "Chapters": []
     }
@@ -321,7 +321,7 @@
     "InternalName": "rebuild-world-volume-1-part-two",
     "Chapters": [
       {
-        "ChapterName": "Volume 2",
+        "ChapterName": "Volume 1 Part Two",
         "SortOrder": "2",
         "SubFolder": "",
         "OriginalFilenames": [],
@@ -623,7 +623,7 @@
     ],
     "BonusChapters": [
       {
-        "ChapterName": "Volume 2",
+        "ChapterName": "Volume 1 Part Two",
         "SortOrder": "2",
         "SubFolder": "",
         "OriginalFilenames": [],
@@ -657,7 +657,7 @@
       ],
       "ChapterName": "",
       "SortOrder": "",
-      "SubFolder": "2-Volume 2",
+      "SubFolder": "2-Volume 1 Part Two",
       "OriginalFilenames": [],
       "Chapters": []
     }
@@ -666,7 +666,7 @@
     "InternalName": "rebuild-world-volume-2-part-one",
     "Chapters": [
       {
-        "ChapterName": "Volume 3",
+        "ChapterName": "Volume 2 Part One",
         "SortOrder": "3",
         "SubFolder": "",
         "OriginalFilenames": [],
@@ -988,7 +988,7 @@
     ],
     "BonusChapters": [
       {
-        "ChapterName": "Volume 3",
+        "ChapterName": "Volume 2 Part One",
         "SortOrder": "3",
         "SubFolder": "",
         "OriginalFilenames": [],
@@ -1022,7 +1022,7 @@
       ],
       "ChapterName": "",
       "SortOrder": "",
-      "SubFolder": "3-Volume 3",
+      "SubFolder": "3-Volume 2 Part One",
       "OriginalFilenames": [],
       "Chapters": []
     }

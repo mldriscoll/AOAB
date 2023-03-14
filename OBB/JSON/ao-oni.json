@@ -3,7 +3,7 @@
     "InternalName": "ao-oni-volume-1",
     "Chapters": [
       {
-        "ChapterName": "Volume 1",
+        "ChapterName": "Ao Oni",
         "SortOrder": "1",
         "SubFolder": "",
         "OriginalFilenames": [],
@@ -486,7 +486,7 @@
     ],
     "BonusChapters": [
       {
-        "ChapterName": "Volume 1",
+        "ChapterName": "Ao Oni",
         "SortOrder": "1",
         "SubFolder": "",
         "OriginalFilenames": [],
@@ -546,7 +546,7 @@
       ],
       "ChapterName": "",
       "SortOrder": "",
-      "SubFolder": "1-Volume 1",
+      "SubFolder": "1-Ao Oni",
       "OriginalFilenames": [],
       "Chapters": []
     }
@@ -555,7 +555,7 @@
     "InternalName": "ao-oni-vengeance",
     "Chapters": [
       {
-        "ChapterName": "Volume 2",
+        "ChapterName": "Vengeance",
         "SortOrder": "2",
         "SubFolder": "",
         "OriginalFilenames": [],
@@ -945,7 +945,7 @@
     ],
     "BonusChapters": [
       {
-        "ChapterName": "Volume 2",
+        "ChapterName": "Vengeance",
         "SortOrder": "2",
         "SubFolder": "",
         "OriginalFilenames": [],
@@ -1013,7 +1013,7 @@
       ],
       "ChapterName": "",
       "SortOrder": "",
-      "SubFolder": "2-Volume 2",
+      "SubFolder": "2-Vengeance",
       "OriginalFilenames": [],
       "Chapters": []
     }
@@ -1022,7 +1022,7 @@
     "InternalName": "ao-oni-mutation",
     "Chapters": [
       {
-        "ChapterName": "Volume 3",
+        "ChapterName": "Mutation",
         "SortOrder": "3",
         "SubFolder": "",
         "OriginalFilenames": [],
@@ -1455,7 +1455,7 @@
     ],
     "BonusChapters": [
       {
-        "ChapterName": "Volume 3",
+        "ChapterName": "Mutation",
         "SortOrder": "3",
         "SubFolder": "",
         "OriginalFilenames": [],
@@ -1514,7 +1514,7 @@
       ],
       "ChapterName": "",
       "SortOrder": "",
-      "SubFolder": "3-Volume 3",
+      "SubFolder": "3-Mutation",
       "OriginalFilenames": [],
       "Chapters": []
     }
@@ -1523,7 +1523,7 @@
     "InternalName": "ao-oni-grudge",
     "Chapters": [
       {
-        "ChapterName": "Volume 4",
+        "ChapterName": "Grudge",
         "SortOrder": "4",
         "SubFolder": "",
         "OriginalFilenames": [],
@@ -1933,7 +1933,7 @@
     ],
     "BonusChapters": [
       {
-        "ChapterName": "Volume 4",
+        "ChapterName": "Grudge",
         "SortOrder": "4",
         "SubFolder": "",
         "OriginalFilenames": [],
@@ -1989,7 +1989,7 @@
       ],
       "ChapterName": "",
       "SortOrder": "",
-      "SubFolder": "4-Volume 4",
+      "SubFolder": "4-Grudge",
       "OriginalFilenames": [],
       "Chapters": []
     }
@@ -1998,7 +1998,7 @@
     "InternalName": "ao-oni-forever",
     "Chapters": [
       {
-        "ChapterName": "Volume 5",
+        "ChapterName": "Forever",
         "SortOrder": "5",
         "SubFolder": "",
         "OriginalFilenames": [],
@@ -2474,7 +2474,7 @@
     ],
     "BonusChapters": [
       {
-        "ChapterName": "Volume 5",
+        "ChapterName": "Forever",
         "SortOrder": "5",
         "SubFolder": "",
         "OriginalFilenames": [],
@@ -2533,7 +2533,7 @@
       ],
       "ChapterName": "",
       "SortOrder": "",
-      "SubFolder": "5-Volume 5",
+      "SubFolder": "5-Forever",
       "OriginalFilenames": [],
       "Chapters": []
     }
