@@ -10,9 +10,9 @@
         {
             var chapter = new Chapter
             {
-                ChapterName = "Gallery",
-                SubFolder = early ? SubFolder : string.IsNullOrWhiteSpace(LateSubFolder) ? SubFolder : LateSubFolder,
-                SortOrder = early ? string.Empty : "99"
+                ChapterName = early && !string.IsNullOrWhiteSpace(ChapterName) ? ChapterName : "Gallery",
+                SubFolder = early ? SubFolder : LateSubFolder ?? SubFolder,
+                SortOrder = early ? SortOrder : "99"
             };
 
             if (includeSplashImages)

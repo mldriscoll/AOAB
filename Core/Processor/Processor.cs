@@ -94,7 +94,7 @@ namespace Core.Processor
             int tocCounter = 0;
 
             Directory.CreateDirectory($"{folder}\\oebps\\Text");
-            foreach (var chapter in Chapters.OrderBy(x => x.SubFolder + "\\" + x.SortOrder))
+            foreach (var chapter in Chapters.OrderBy(x => x.CombinedSortOrder()))
             {
                 string cssLink = "../";
                 var fileName = humanReadable ? chapter.FileName : $"{tocCounter}.xhtml";

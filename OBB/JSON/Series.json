@@ -2664,6 +2664,38 @@
     "AuthorSort": "MOCHIZUKI, MAI"
   },
   {
+    "Name": "Housekeeping Mage from Another World",
+    "InternalName": "Housekeeping Mage",
+    "Volumes": [
+      {
+        "ApiSlug": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-1",
+        "FileName": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-1.epub",
+        "EditedBy": "kuali",
+        "ShowRemainingFiles": false
+      },
+      {
+        "ApiSlug": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-2",
+        "FileName": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-2.epub",
+        "EditedBy": "kuali",
+        "ShowRemainingFiles": false
+      },
+      {
+        "ApiSlug": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-3",
+        "FileName": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-3.epub",
+        "EditedBy": "kuali",
+        "ShowRemainingFiles": false
+      },
+      {
+        "ApiSlug": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-4",
+        "FileName": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-4.epub",
+        "EditedBy": "kuali",
+        "ShowRemainingFiles": false
+      }
+    ],
+    "Author": "You Fugurama",
+    "AuthorSort": "FUGURAMA, YOU"
+  },
+  {
     "Name": "How a Realist Hero Rebuilt the Kingdom",
     "InternalName": "how-a-realist-hero-rebuilt-the-kingdom",
     "Volumes": [
@@ -7926,6 +7958,32 @@
     "AuthorSort": "616TH SPECIAL INFORMATION BATTALION"
   },
   {
+    "Name": "VTuber Legend How I Went Viral After Forgetting To Turn Off My Stream",
+    "InternalName": "VTuber Legend",
+    "Volumes": [
+      {
+        "ApiSlug": "vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream-volume-1",
+        "FileName": "vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream-volume-1.epub",
+        "EditedBy": "kuali",
+        "ShowRemainingFiles": false
+      },
+      {
+        "ApiSlug": "vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream-volume-2",
+        "FileName": "vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream-volume-2.epub",
+        "EditedBy": "kuali",
+        "ShowRemainingFiles": false
+      },
+      {
+        "ApiSlug": "vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream-volume-3",
+        "FileName": "vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream-volume-3.epub",
+        "EditedBy": "kuali",
+        "ShowRemainingFiles": false
+      }
+    ],
+    "Author": "Nana Nanato",
+    "AuthorSort": "NANATO, NANA"
+  },
+  {
     "Name": "Walking My Second Path in Life",
     "InternalName": "walking-my-second-path-in-life",
     "Volumes": [
@@ -8182,33 +8240,5 @@
     ],
     "Author": "toshizou",
     "AuthorSort": "TOSHIZOU"
-  },
-  {
-    "Name": "Housekeeping Mage from Another World",
-    "InternalName": "Housekeeping Mage",
-    "Author": "You Fugurama",
-    "AuthorSort": "FUGURAMA, YOU",
-    "Volumes": [
-      {
-        "ApiSlug": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-1",
-        "FileName": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-1.epub",
-        "EditedBy": "kuali"
-      },
-      {
-        "ApiSlug": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-2",
-        "FileName": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-2.epub",
-        "EditedBy": "kuali"
-      },
-      {
-        "ApiSlug": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-3",
-        "FileName": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-3.epub",
-        "EditedBy": "kuali"
-      },
-      {
-        "ApiSlug": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-4",
-        "FileName": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-4.epub",
-        "EditedBy": "kuali"
-      }
-    ]
   }
 ]

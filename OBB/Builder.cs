@@ -152,7 +152,7 @@ namespace OBB
                                 {
                                     try
                                     {
-                                        var entry = inChapters.First(x => x.Name.Equals(chapterFile));
+                                        var entry = inChapters.First(x => x.Name.Equals(chapterFile, StringComparison.InvariantCultureIgnoreCase));
                                         newChapter.CssFiles.AddRange(entry.CssFiles);
                                         var fileContent = entry.Contents;
 
@@ -170,7 +170,7 @@ namespace OBB
                                     }
                                     catch (Exception ex)
                                     {
-                                        throw new Exception($"{ex.Message} while processing file {chapterFile}", ex);
+                                        Console.WriteLine($"{ex.Message} while processing file {chapterFile}");
                                     }
                                 }
 

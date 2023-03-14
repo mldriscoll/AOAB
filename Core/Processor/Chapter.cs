@@ -22,5 +22,12 @@
         public string FileName { get { return $"{SortOrder}-{Name}.{Extension}".Replace(":", ""); } }
 
         public bool Processed { get; set; } = false;
+
+        public string CombinedSortOrder()
+        {
+            if (string.IsNullOrWhiteSpace(SubFolder)) return SortOrder;
+
+            return SubFolder + "\\" + SortOrder;
+        }
     }
 }
