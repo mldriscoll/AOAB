@@ -15,129 +15,32 @@ namespace OBB
             var files = Directory.GetFiles(Settings.MiscSettings.GetInputFolder(), "*.epub");
 
             var dict = new Dictionary<int, string>();
-
-            List<Series> series = await GetSeries();
-            List<string> volumes = new List<string>();
-
-            foreach (var serie in series)
-            {
-                if (File.Exists($"JSON\\{serie.InternalName}.json"))
-                {
-                    using (var reader = new StreamReader($"JSON\\{serie.InternalName}.json"))
-                    {
-                        var a = await JsonSerializer.DeserializeAsync<Volume[]>(reader.BaseStream);
-                        foreach (var entry in a)
-                        {
-                            serie.Volumes.RemoveAll(x => x.ApiSlug.Equals(entry.InternalName));
-                        }
-                    }
-                }
-            }
-
-            var unMappedFiles = series.SelectMany(x => x.Volumes).Select(x => x.FileName);
+            var series = await GetSeries();
 
             foreach (var file in files)
             {
-                if (unMappedFiles.Contains(file.Replace(inFolder + "\\", string.Empty)))
+                var serie = series.FirstOrDefault(x => x.Volumes.Any(y => (inFolder + "\\" + y.FileName).Equals(file)));
+                if (serie == null)
                 {
-
-                    dict.Add(dict.Keys.Count, file);
-                    Console.WriteLine($"{dict.Keys.Last()} - {dict[dict.Keys.Last()].Replace(inFolder + "\\", string.Empty)}");
+                    Console.WriteLine($"Epub {file} has not been added to a series yet");
+                }
+                else
+                {
+                    var vols = await GetVolumes(serie.InternalName);
+                    var vol = serie.Volumes.First(x => (inFolder + "\\" + x.FileName).Equals(file));
+                    if (vol.EditedBy == null)
+                    {
+                        var volum = GenerateVolumeInfo(inFolder, (serie.Volumes.IndexOf(vol) + 1).ToString("00"), file);
+                        vols.RemoveAll(x => x.InternalName.Equals(vol.ApiSlug));
+                        vols.Add(volum);
+                        vols = vols.OrderBy(x => x.InternalName).ToList();
+                    }
+                    await SaveVolumes(serie.InternalName, vols);
                 }
             }
 
-            Console.WriteLine();
-            Console.WriteLine("Which .epub file do you wish to extract JSON from?");
-
-            var read = Console.ReadLine();
-
-            if (!int.TryParse(read, out var pick)) return;
-            if (!dict.ContainsKey(pick)) return;
-
-            Console.WriteLine("Which Volume of the series is this?");
-            var volumeName = Console.ReadLine();
-
-            var epub = dict[pick];
-
-            Volume volume = GenerateVolumeInfo(inFolder, volumeName, epub);
-
-            using (var writer = new StreamWriter("Volume.json"))
-            {
-                var options = new JsonSerializerOptions
-                {
-                    WriteIndented = true
-                };
-                await JsonSerializer.SerializeAsync(writer.BaseStream, volume, options);
-            }
-
-            Console.WriteLine("Draft volume json saved to Volume.json");
+            Console.WriteLine("Volume json updated");
             Console.ReadLine();
-        }
-
-        public static async Task ExtractAvailableJSON()
-        {
-            var inFolder = Settings.MiscSettings.GetInputFolder();
-            var files = Directory.GetFiles(Settings.MiscSettings.GetInputFolder(), "*.epub");
-
-            List<Series> series = await GetSeries();
-
-            foreach (var serie in series)
-            {
-                string seriesJsonFileName = $"JSON\\{serie.InternalName}.json";
-                List<Volume?> existingVolumeData = new(serie.Volumes.Count);
-                existingVolumeData.AddRange(serie.Volumes.Select<VolumeName, Volume?>(x => null));
-
-                if (File.Exists(seriesJsonFileName))
-                {
-                    using (var reader = new StreamReader(seriesJsonFileName))
-                    {
-                        var a = await JsonSerializer.DeserializeAsync<Volume[]>(reader.BaseStream);
-                        foreach (var vol in a)
-                        {
-                            int pos = serie.Volumes.FindIndex(x => x.ApiSlug.Equals(vol.InternalName));
-                            if (pos == -1)
-                            {
-                                Console.WriteLine($"Found volume data {vol.InternalName} without matching volume name in {serie.InternalName}.");
-                                existingVolumeData.Add(vol);
-                            }
-                            else
-                            {
-                                existingVolumeData[pos] = vol;
-                            }
-                        }
-                        existingVolumeData.AddRange(a);
-                    }
-                }
-
-                bool generated = false;
-                for (var i = 0; i < serie.Volumes.Count; i++)
-                {
-                    if (existingVolumeData[i] != null)
-                        continue;
-                    string epubFileName = inFolder + "\\" + serie.Volumes[i].FileName;
-                    if (!files.Contains(epubFileName))
-                    {
-                        Console.WriteLine($"File not found {epubFileName} not extracting volume metadata.");
-                        continue;
-                    }
-                    Console.WriteLine($"Extracting volume metadata from {epubFileName} (Volume {i + 1}).");
-                    existingVolumeData[i] = GenerateVolumeInfo(inFolder, (i + 1).ToString(), epubFileName);
-                    generated = true;
-                }
-
-                if (generated)
-                {
-                    Console.WriteLine($"Updating {seriesJsonFileName} with new volume data.");
-                    using (var writer = new StreamWriter(seriesJsonFileName))
-                    {
-                        var options = new JsonSerializerOptions
-                        {
-                            WriteIndented = true
-                        };
-                        await JsonSerializer.SerializeAsync(writer.BaseStream, existingVolumeData.Where(x => x != null).ToArray(), options);
-                    }
-                }
-            }
         }
 
         private static async Task<List<Series>> GetSeries()
@@ -152,6 +55,28 @@ namespace OBB
             }
 
             return series;
+        }
+
+        private static async Task<List<Volume>> GetVolumes(string seriesInternalName)
+        {
+            var filename = $"JSON\\{seriesInternalName}.json";
+            if (!File.Exists(filename)) return new List<Volume>();
+            using (var reader = new StreamReader(filename))
+            {
+                return await JsonSerializer.DeserializeAsync<List<Volume>>(reader.BaseStream);
+            }
+        }
+
+        private static async Task SaveVolumes(string seriesInternalName, List<Volume> volumes)
+        {
+            var options = new JsonSerializerOptions
+            {
+                WriteIndented = true
+            };
+            using (var writer = new StreamWriter($"JSON\\{seriesInternalName}.json"))
+            {
+                await JsonSerializer.SerializeAsync(writer.BaseStream, volumes, options);
+            }
         }
 
         private static Volume GenerateVolumeInfo(string inFolder, string? volumeName, string epub)
@@ -197,7 +122,12 @@ namespace OBB
                     {
                         var match = ItemRefRegex.Match(line).Value;
 
-                        if (!match.Contains(".xhtml"))
+                        if (!match.Contains(".xhtml") 
+                            || match.StartsWith("\"signup")
+                            || match.StartsWith("\"copyright")
+                            || match.StartsWith("\"frontmatter")
+                            || match.StartsWith("\"bonus")
+                            )
                         {
 
                         }
@@ -212,8 +142,10 @@ namespace OBB
                                 var chapter = new Chapter();
                                 chapter.SortOrder = volumeName + order.ToString("00");
                                 order++;
-                                volume.Chapters[0].Chapters.Add(chapter);
                                 chapter.OriginalFilenames.AddRange(chapterFiles.Select(x => x.Replace(".xhtml", string.Empty)));
+
+                                AddChapter(volume, chapter);
+
                                 var chapterContent = File.ReadAllText("jsontemp\\OEBPS\\text\\" + chapterFiles[0]);
                                 chapter.ChapterName = chapterTitleRegex.Match(chapterContent).Value.Replace("<h1>", string.Empty).Replace("</h1>", string.Empty);
                             }
@@ -229,29 +161,45 @@ namespace OBB
                 }
             }
 
-            var finalChapter = new Chapter
-            {
-                ChapterName = "",
-            };
-            volume.Chapters[0].Chapters.Add(finalChapter);
+            var finalChapter = new Chapter { SortOrder = volumeName + order.ToString("00") };
             finalChapter.OriginalFilenames.AddRange(chapterFiles.Select(x => x.Replace(".xhtml", string.Empty)));
+            var finalChapterContent = File.ReadAllText("jsontemp\\OEBPS\\text\\" + chapterFiles[0]);
+            finalChapter.ChapterName = chapterTitleRegex.Match(finalChapterContent).Value.Replace("<h1>", string.Empty).Replace("</h1>", string.Empty);
+            AddChapter(volume, finalChapter);
 
             var imageFiles = Directory.GetFiles("jsontemp\\OEBPS\\Images", "*.jpg");
             foreach (var file in imageFiles)
             {
                 if (file.Contains("Insert"))
                 {
-                    volume.Gallery.ChapterImages.Add(file.Replace("jsontemp\\OEBPS\\Images\\", string.Empty).Replace(".jpg", string.Empty).ToLower());
+                    AddImage(file, volume.Gallery.ChapterImages);
                 }
                 else
                 {
-                    volume.Gallery.SplashImages.Add(file.Replace("jsontemp\\OEBPS\\Images\\", string.Empty).Replace(".jpg", string.Empty).ToLower());
+                    AddImage(file, volume.Gallery.SplashImages);
                 }
             }
             volume.Gallery.SubFolder = $"{volumeName}-Volume {volumeName}";
             return volume;
         }
 
+        private static void AddChapter(Volume vol, Chapter chapter)
+        {
+            if (chapter.OriginalFilenames.Any(x => x.StartsWith("side")
+                                    || x.StartsWith("interlude")
+                                    ))
+            {
+                vol.BonusChapters[0].Chapters.Add(chapter);
+            }
+            else if (chapter.OriginalFilenames.Any(x => x.StartsWith("afterword")))
+            {
+                vol.ExtraContent.Add(chapter);
+            }
+            else
+            {
+                vol.Chapters[0].Chapters.Add(chapter);
+            }
+        }
         public static async Task GenerateTable()
         {
             var series = await GetSeries();
@@ -268,17 +216,17 @@ namespace OBB
                 {
                     WriteIndented = true
                 };
-                await JsonSerializer.SerializeAsync<List<Series>>(writer.BaseStream, series, options);
+                await JsonSerializer.SerializeAsync(writer.BaseStream, series, options);
             }
 
             var lines = new List<string> {
-                "|Series|Edited Volumes|Autogenerated Volumes|Editors",
-                "|-|-|-|-"
+                "|Number|Series|Edited Volumes|Autogenerated Volumes|Editors",
+                "|-|-|-|-|-"
             };
 
             var files = Directory.GetFiles("JSON", "*.json").ToList();
             files.Remove("JSON\\Series.json");
-
+            int i = 0;
             foreach(var serie in series)
             {
                 var edited = serie.Volumes.Count(x => x.EditedBy != null);
@@ -286,8 +234,9 @@ namespace OBB
                 var editors = serie.Volumes.Where(x => x.EditedBy != null)?.Select(x => x.EditedBy)?.Distinct();
                 string editor = editors.Any() ? editors.Aggregate((editor, set) => string.Concat(set, editor, " ")) : string.Empty;
 
-                lines.Add($"|{serie.Name}|{edited}|{unedited}|{editor}");
+                lines.Add($"|{i}|{serie.Name}|{edited}|{unedited}|{editor}");
                 files.Remove("JSON\\" + serie.InternalName + ".json");
+                i++;
             }
 
             foreach(var file in files)
@@ -296,6 +245,24 @@ namespace OBB
             }
 
             await File.WriteAllLinesAsync("table.txt", lines);
+        }
+
+        private static void AddImage(string file, List<string> imageList)
+        {
+            var miniFile = file.Replace("jsontemp\\OEBPS\\Images\\", string.Empty).Replace(".jpg", string.Empty).ToLower();
+            if (File.Exists("jsontemp\\OEBPS\\text\\" + miniFile + ".xhtml"))
+            {
+                imageList.Add(miniFile);
+            }
+            else
+            {
+                var files = Directory.GetFiles("jsontemp\\OEBPS\\text").ToDictionary(x => x, x => File.ReadAllText(x));
+                var fileMatches = files.Where(x => x.Value.Contains(miniFile + ".jpg", StringComparison.InvariantCultureIgnoreCase));
+                foreach (var match in fileMatches)
+                {
+                    imageList.Add(match.Key.Replace("jsontemp\\OEBPS\\text\\", string.Empty).Replace(".xhtml", string.Empty));
+                }
+            }
         }
     }
 }
