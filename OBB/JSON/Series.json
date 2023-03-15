@@ -1295,61 +1295,61 @@
   },
   {
     "Name": "Crest of the Stars",
-    "InternalName": "crest-of-the-stars",
+    "InternalName": "Crest of the Stars",
     "Volumes": [
       {
         "ApiSlug": "crest-of-the-stars-volume-1",
         "FileName": "crest-of-the-stars-volume-1.epub",
-        "EditedBy": null,
-        "ShowRemainingFiles": true
+        "EditedBy": "endoftheline",
+        "ShowRemainingFiles": false
       },
       {
         "ApiSlug": "crest-of-the-stars-volume-2",
         "FileName": "crest-of-the-stars-volume-2.epub",
-        "EditedBy": null,
-        "ShowRemainingFiles": true
+        "EditedBy": "endoftheline",
+        "ShowRemainingFiles": false
       },
       {
         "ApiSlug": "crest-of-the-stars-volume-3",
         "FileName": "crest-of-the-stars-volume-3.epub",
-        "EditedBy": null,
-        "ShowRemainingFiles": true
+        "EditedBy": "endoftheline",
+        "ShowRemainingFiles": false
       },
       {
         "ApiSlug": "banner-of-the-stars-volume-1",
         "FileName": "banner-of-the-stars-volume-1.epub",
-        "EditedBy": null,
-        "ShowRemainingFiles": true
+        "EditedBy": "endoftheline",
+        "ShowRemainingFiles": false
       },
       {
         "ApiSlug": "banner-of-the-stars-volume-2",
         "FileName": "banner-of-the-stars-volume-2.epub",
-        "EditedBy": null,
-        "ShowRemainingFiles": true
+        "EditedBy": "endoftheline",
+        "ShowRemainingFiles": false
       },
       {
         "ApiSlug": "banner-of-the-stars-volume-3",
         "FileName": "banner-of-the-stars-volume-3.epub",
-        "EditedBy": null,
-        "ShowRemainingFiles": true
+        "EditedBy": "endoftheline",
+        "ShowRemainingFiles": false
       },
       {
         "ApiSlug": "banner-of-the-stars-volume-4",
         "FileName": "banner-of-the-stars-volume-4.epub",
-        "EditedBy": null,
-        "ShowRemainingFiles": true
+        "EditedBy": "endoftheline",
+        "ShowRemainingFiles": false
       },
       {
         "ApiSlug": "banner-of-the-stars-volume-5",
         "FileName": "banner-of-the-stars-volume-5.epub",
-        "EditedBy": null,
-        "ShowRemainingFiles": true
+        "EditedBy": "endoftheline",
+        "ShowRemainingFiles": false
       },
       {
         "ApiSlug": "banner-of-the-stars-volume-6",
         "FileName": "banner-of-the-stars-volume-6.epub",
-        "EditedBy": null,
-        "ShowRemainingFiles": true
+        "EditedBy": "endoftheline",
+        "ShowRemainingFiles": false
       }
     ],
     "Author": "Hiroyuki Morioka",
