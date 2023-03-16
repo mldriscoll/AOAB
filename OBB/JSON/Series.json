@@ -4927,41 +4927,42 @@
   },
   {
     "Name": "My Little Sister Can Read Kanji",
-    "InternalName": "my-little-sister-can-read-kanji",
+    "InternalName": "My Little Sister Can Read Kanji",
     "Volumes": [
       {
         "ApiSlug": "my-little-sister-can-read-kanji-volume-1",
         "FileName": "my-little-sister-can-read-kanji-volume-1.epub",
-        "EditedBy": null,
-        "ShowRemainingFiles": true
+        "EditedBy": "endoftheline",
+        "ShowRemainingFiles": false
       },
       {
         "ApiSlug": "my-little-sister-can-read-kanji-volume-2",
         "FileName": "my-little-sister-can-read-kanji-volume-2.epub",
-        "EditedBy": null,
-        "ShowRemainingFiles": true
+        "EditedBy": "endoftheline",
+        "ShowRemainingFiles": false
       },
       {
         "ApiSlug": "my-little-sister-can-read-kanji-volume-3",
         "FileName": "my-little-sister-can-read-kanji-volume-3.epub",
-        "EditedBy": null,
-        "ShowRemainingFiles": true
+        "EditedBy": "endoftheline",
+        "ShowRemainingFiles": false
       },
       {
         "ApiSlug": "my-little-sister-can-read-kanji-volume-4",
         "FileName": "my-little-sister-can-read-kanji-volume-4.epub",
-        "EditedBy": null,
-        "ShowRemainingFiles": true
+        "EditedBy": "endoftheline",
+        "ShowRemainingFiles": false
       },
       {
         "ApiSlug": "my-little-sister-can-read-kanji-volume-5",
         "FileName": "my-little-sister-can-read-kanji-volume-5.epub",
-        "EditedBy": null,
-        "ShowRemainingFiles": true
+        "EditedBy": "endoftheline",
+        "ShowRemainingFiles": false
       }
     ],
     "Author": "Takashi Kajii",
-    "AuthorSort": "KAJII, TAKASHI"
+    "AuthorSort": "KAJII, TAKASHI",
+    "DisableHyphenProcessing": true
   },
   {
     "Name": "My Next Life as a Villainess: All Routes Lead to Doom!",

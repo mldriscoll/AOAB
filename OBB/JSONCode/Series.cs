@@ -7,5 +7,6 @@
         public List<VolumeName> Volumes { get; set; } = new List<VolumeName>();
         public string Author { get; set; } = string.Empty;
         public string AuthorSort { get; set; } = string.Empty;
+        public bool DisableHyphenProcessing { get; set; } = false;
     }
 }

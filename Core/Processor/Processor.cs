@@ -369,6 +369,8 @@ namespace Core.Processor
         static Regex classRegex = new Regex("class=\".*?\"");
         static Regex imageRegex = new Regex("(src|xlink:href)=\".*?\"");
 
+        public bool DisableHyphenProcessing { get; set; } = false;
+
         private void ImportHtmlFile(string baseFolder, string file)
         {
             var chapter = new Chapter { CssFiles = new List<string>() };
@@ -378,7 +380,7 @@ namespace Core.Processor
             var folders = file.Replace(baseFolder + "\\", string.Empty).Split('\\').ToList();
             var last = folders.Last();
             var index = last.IndexOf('-');
-            if (index == -1)
+            if (index == -1 || DisableHyphenProcessing)
             {
                 chapter.Name = last;
                 chapter.SortOrder = "000";
