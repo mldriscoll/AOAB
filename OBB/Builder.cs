@@ -119,7 +119,10 @@ namespace OBB
                     Console.WriteLine(vol.FileName);
                 }
 
-                var inProcessor = new Processor();
+                var inProcessor = new Processor()
+                {
+                    DisableHyphenProcessing = selection.DisableHyphenProcessing
+                };
                 var outProcessor = new Processor();
                 inProcessor.UnpackFolder($"{inFolder}\\inputtemp");
                 outProcessor.UnpackFolder($"{inFolder}\\inputtemp");
