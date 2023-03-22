@@ -9,6 +9,8 @@
 
         public List<Chapter> Chapters { get; set; } = new List<Chapter>();
 
+        public List<ChapterSplit> Splits { get; set; } = new List<ChapterSplit>();
+
         public void RemoveInserts()
         {
             OriginalFilenames.RemoveAll(x => x.StartsWith("insert", StringComparison.InvariantCultureIgnoreCase));

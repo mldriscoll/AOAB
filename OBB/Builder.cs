@@ -145,8 +145,6 @@ namespace OBB
                             {
 
                                 newChapter.SortOrder = chapter.SortOrder;
-                                outProcessor.Chapters.Add(newChapter);
-
 
                                 foreach (var chapterFile in chapter.OriginalFilenames)
                                 {
@@ -174,13 +172,38 @@ namespace OBB
                                     }
                                 }
 
-                                newChapter.Contents = string.Concat(newChapter.Contents, "</body>");
-
-                                if (Settings.ChapterSettings.UpdateChapterTitles)
+                                if (chapter.Splits.Any())
                                 {
-                                    var match = chapterTitleRegex.Match(newChapter.Contents);
-                                    if (match.Success)
-                                        newChapter.Contents = newChapter.Contents.Replace(match.Value, $"<h1>{newChapter.Name}</h1>");
+                                    var dict = chapter.Splits.ToDictionary(x => newChapter.Contents.IndexOf(x.SplitLine), x => x);
+                                    var keys = dict.Keys.OrderByDescending(x => x);
+                                    int? previousIndex = null;
+                                    var divRegex = new Regex("<div class=\".*?\">");
+                                    var div = divRegex.Match(newChapter.Contents).Value;
+                                    foreach(var key in keys)
+                                    {
+                                        var split = previousIndex.HasValue ? newChapter.Contents.Substring(key + dict[key].SplitLine.Length, previousIndex.Value - key) : newChapter.Contents.Substring(key + dict[key].SplitLine.Length);
+
+                                        var splitChapter = new Core.Processor.Chapter
+                                        {
+                                            Contents = $"<body>{div}<h1>{dict[key].Name}</h1>{split}</div></body>",
+                                            CssFiles = newChapter.CssFiles,
+                                            Name = dict[key].Name + ".xhtml",
+                                            SubFolder = newChapter.SubFolder,
+                                            SortOrder = dict[key].SortOrder,
+                                        };
+                                        outProcessor.Chapters.Add(splitChapter);
+                                    }
+                                }
+                                else
+                                {
+                                    outProcessor.Chapters.Add(newChapter);
+                                    newChapter.Contents = string.Concat(newChapter.Contents, "</body>");
+                                    if (Settings.ChapterSettings.UpdateChapterTitles)
+                                    {
+                                        var match = chapterTitleRegex.Match(newChapter.Contents);
+                                        if (match.Success)
+                                            newChapter.Contents = newChapter.Contents.Replace(match.Value, $"<h1>{newChapter.Name}</h1>");
+                                    }
                                 }
                             }
                         }
