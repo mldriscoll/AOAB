@@ -10,6 +10,21 @@ namespace OBB
 {
     public static class Builder
     {
+        private static bool AFileIsAvailable(Series series, LibraryResponse? library)
+        {
+            var inFolder = Settings.MiscSettings.InputFolder == null ? Environment.CurrentDirectory :
+                Settings.MiscSettings.InputFolder.Length > 1 && Settings.MiscSettings.InputFolder[1].Equals(':') ? Settings.MiscSettings.InputFolder : Environment.CurrentDirectory + "\\" + Settings.MiscSettings.InputFolder;
+            if (series.Volumes.Any(x => File.Exists(inFolder + "\\" + x.FileName)))
+                return true;
+
+            if (library != null)
+            {
+                if (library.books.Any(x => series.Volumes.Any(y => y.ApiSlug.Equals(x.volume.slug))))
+                    return true;
+            }
+
+            return false;
+        }
         private static readonly Regex chapterTitleRegex = new Regex("<h1>[\\s\\S]*?<\\/h1>");
         public static async Task SeriesLoop()
         {
@@ -19,8 +34,23 @@ namespace OBB
                 var deserializer = new DataContractJsonSerializer(typeof(Series[]));
                 var list = ((Series[])deserializer.ReadObject(reader.BaseStream)).ToList();
 
+                LibraryResponse? library = null;
+                if (Settings.MiscSettings.DownloadBooks)
+                {
+                    using (var client = new HttpClient())
+                    {
+                        var login = await Login.FromFile(client);
+                        login = login ?? await Login.FromConsole(client);
+
+                        if (login != null)
+                        {
+                            library = await Downloader.GetLibrary(client, login.AccessToken);
+                        }
+                    }
+                }
+
                 var i = 0;
-                seriesList = list.OrderBy(x => x.Name).ToDictionary(x => i++, x => x);
+                seriesList = list.Where(x => AFileIsAvailable(x, library)).OrderBy(x => x.Name).ToDictionary(x => i++, x => x);
             }
 
             while (true)

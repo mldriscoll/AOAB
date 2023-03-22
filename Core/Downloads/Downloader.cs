@@ -68,7 +68,7 @@ namespace Core.Downloads
             }
         }
 
-        private static async Task<LibraryResponse> GetLibrary(HttpClient client, string token)
+        public static async Task<LibraryResponse> GetLibrary(HttpClient client, string token)
         {
             client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
 
