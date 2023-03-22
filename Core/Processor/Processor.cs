@@ -12,6 +12,11 @@ namespace Core.Processor
         public List<NavPoint> NavPoints = new List<NavPoint>();
         public List<string> Metadata = new List<string>();
 
+        private string RemoveUnwantedCharacters(string str)
+        {
+            return str.Replace(":", "").Replace(" ", "").Replace(";", "");
+        }
+
         public async Task FullOutput(string baseFolder, bool textOnly, bool humanReadable, bool deleteFolder, string name, int? maxX = null, int? maxY = null, int imageQuality = 90)
         {
             if (string.IsNullOrWhiteSpace(name))
@@ -108,13 +113,13 @@ namespace Core.Processor
                         var subdir = chapter.SubFolder;
                         cssLink = subdir.Split('\\').Aggregate("../", (agg, str) => string.Concat(agg, "../"));
                         imFolderReplace = subdir.Split('\\').Aggregate("../images", (agg, str) => string.Concat("../", agg));
-                        Directory.CreateDirectory($"{folder}\\oebps\\Text\\{subdir}");
+                        Directory.CreateDirectory($"{folder}\\oebps\\Text\\{RemoveUnwantedCharacters(subdir)}");
                     }
                     else
                     {
                         cssLink = "../";
                         imFolderReplace = "../../images";
-                        Directory.CreateDirectory($"{folder}\\oebps\\Text\\{chapter.SubFolder}");
+                        Directory.CreateDirectory($"{folder}\\oebps\\Text\\{RemoveUnwantedCharacters(chapter.SubFolder)}");
                     }
                 }
                 else
@@ -123,7 +128,7 @@ namespace Core.Processor
                 }
 
                 var a = humanReadable ? chapter.SubFolder + "\\" : string.Empty;
-                var fullFileName = $"{folder}\\oebps\\Text\\{a + fileName}";
+                var fullFileName = $"{folder}\\oebps\\Text\\{RemoveUnwantedCharacters(a + fileName)}";
 
                 while (File.Exists(fullFileName))
                 {
@@ -152,7 +157,7 @@ namespace Core.Processor
                         var np = nps.FirstOrDefault(x => x.Label.Equals(folderName));
                         if (np == null)
                         {
-                            np = new NavPoint { Label = folderName, Source = Uri.EscapeDataString($"Text/{a + fileName}".Replace('\\', '/').Replace(":", "").Replace(" ", "")), Id = tocCounter };
+                            np = new NavPoint { Label = folderName, Source = Uri.EscapeDataString(RemoveUnwantedCharacters($"Text/{a + fileName}").Replace('\\', '/')), Id = tocCounter };
                             tocCounter++;
                             nps.Add(np);
                         }
@@ -169,7 +174,7 @@ namespace Core.Processor
                     chapter.Contents = chapter.Contents.Replace("[ImageFolder]", imFolderReplace);
                 }
 
-                nps.Add(new NavPoint { Label = chapter.Name, Source = Uri.EscapeDataString($"Text/{a + fileName}".Replace('\\', '/').Replace(":", "").Replace(" ", "")), Id = tocCounter });
+                nps.Add(new NavPoint { Label = chapter.Name, Source = Uri.EscapeDataString($"Text/{RemoveUnwantedCharacters(a + fileName)}".Replace('\\', '/')), Id = tocCounter });
                 tocCounter++;
 
 
@@ -180,7 +185,7 @@ namespace Core.Processor
     <meta http-equiv={"\""}Content-Type{"\""} content={"\""}text/html; charset=utf-8{"\""} />
   <link rel={"\""}stylesheet{"\""} type={"\""}text/css{"\""} href={"\""}{cssLink}css.css{"\""} />
 </head>{ chapter.Contents}</html>");
-                manifest.Add($"    <item id={"\""}id{Chapters.IndexOf(chapter)}{"\""} href={"\""}Text/{(a + fileName).Replace('\\', '/').Replace(":", "").Replace(" ", "")}{"\""} media-type={"\""}application/xhtml+xml{"\""}/>");
+                manifest.Add($"    <item id={"\""}id{Chapters.IndexOf(chapter)}{"\""} href={"\""}Text/{RemoveUnwantedCharacters(a + fileName).Replace('\\', '/')}{"\""} media-type={"\""}application/xhtml+xml{"\""}/>");
                 spine.Add($"    <itemref idref={"\""}id{Chapters.IndexOf(chapter)}{"\""}/>");
             }
 

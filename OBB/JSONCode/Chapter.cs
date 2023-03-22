@@ -11,6 +11,7 @@
 
         public List<ChapterSplit> Splits { get; set; } = new List<ChapterSplit>();
 
+        public bool KeepFirstSplitSection { get; set; } = true;
         public void RemoveInserts()
         {
             OriginalFilenames.RemoveAll(x => x.StartsWith("insert", StringComparison.InvariantCultureIgnoreCase));

@@ -21,7 +21,7 @@
           },
           {
             "ChapterName": "Chapter 1",
-            "SortOrder": "",
+            "SortOrder": "0101",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter1",
@@ -29,6 +29,7 @@
               "chapter1_1"
             ],
             "Chapters": [],
+            "KeepFirstSplitSection": false,
             "Splits": [
               {
                 "Name": "Solo Stream",
@@ -44,7 +45,7 @@
           },
           {
             "ChapterName": "Chapter 2",
-            "SortOrder": "",
+            "SortOrder": "0104",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter2",
@@ -55,6 +56,7 @@
               "insert5",
               "chapter2_3"
             ],
+            "KeepFirstSplitSection": false,
             "Chapters": [],
             "Splits": [
               {
@@ -91,8 +93,9 @@
           },
           {
             "ChapterName": "Chapter 3",
-            "SortOrder": "",
+            "SortOrder": "0111",
             "SubFolder": "",
+            "KeepFirstSplitSection": false,
             "OriginalFilenames": [
               "chapter3",
               "insert6",
@@ -121,13 +124,14 @@
           },
           {
             "ChapterName": "Chapter 4",
-            "SortOrder": "",
+            "SortOrder": "0114",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter4",
               "insert8",
               "chapter4_1"
             ],
+            "KeepFirstSplitSection": false,
             "Chapters": [],
             "Splits": [
               {
@@ -245,7 +249,7 @@
           },
           {
             "ChapterName": "Chapter 1",
-            "SortOrder": "",
+            "SortOrder": "0202",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter1",
@@ -255,6 +259,7 @@
               "chapter1_2"
             ],
             "Chapters": [],
+            "KeepFirstSplitSection": false,
             "Splits": [
               {
                 "Name": "Chill Collab (IMHO) With Mashiron",
@@ -275,8 +280,9 @@
           },
           {
             "ChapterName": "Chapter 2",
-            "SortOrder": "",
+            "SortOrder": "0206",
             "SubFolder": "",
+            "KeepFirstSplitSection": false,
             "OriginalFilenames": [
               "chapter2",
               "insert6",
@@ -298,8 +304,9 @@
           },
           {
             "ChapterName": "Chapter 3",
-            "SortOrder": "",
+            "SortOrder": "0209",
             "SubFolder": "",
+            "KeepFirstSplitSection": false,
             "OriginalFilenames": [
               "chapter3",
               "insert7",
@@ -321,8 +328,9 @@
           },
           {
             "ChapterName": "Chapter 4",
-            "SortOrder": "",
+            "SortOrder": "0211",
             "SubFolder": "",
+            "KeepFirstSplitSection": false,
             "OriginalFilenames": [
               "chapter4",
               "insert8"
@@ -433,12 +441,13 @@
           },
           {
             "ChapterName": "Chapter 1",
-            "SortOrder": "",
+            "SortOrder": "0302",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter1"
             ],
             "Chapters": [],
+            "KeepFirstSplitSection": false,
             "Splits": [
               {
                 "SplitLine": "<h2>The L-1 Grand Prix</h2>",
@@ -454,7 +463,7 @@
           },
           {
             "ChapterName": "Chapter 2",
-            "SortOrder": "0306",
+            "SortOrder": "0305",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter2",
@@ -463,6 +472,7 @@
               "insert2",
               "chapter2_2"
             ],
+            "KeepFirstSplitSection": false,
             "Chapters": [],
             "Splits": [
               {
@@ -479,12 +489,12 @@
                 "SplitLine": "<h2>The Live-On Common Sense Squad</h2>",
                 "Name": "The Live-On Common Sense Squad",
                 "SortOrder": "0307"
-              }              
+              }
             ]
           },
           {
             "ChapterName": "Chapter 3",
-            "SortOrder": "0308",
+            "SortOrder": "0309",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter3",
@@ -492,6 +502,7 @@
               "chapter3_1"
             ],
             "Chapters": [],
+            "KeepFirstSplitSection": false,
             "Splits": [
               {
                 "SplitLine": "<h2>Diamond Dust</h2>",

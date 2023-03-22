@@ -26,6 +26,7 @@ namespace OBB
             return false;
         }
         private static readonly Regex chapterTitleRegex = new Regex("<h1>[\\s\\S]*?<\\/h1>");
+        private static Login Login;
         public static async Task SeriesLoop()
         {
             Dictionary<int, Series> seriesList;
@@ -39,12 +40,12 @@ namespace OBB
                 {
                     using (var client = new HttpClient())
                     {
-                        var login = await Login.FromFile(client);
-                        login = login ?? await Login.FromConsole(client);
+                        Login = await Login.FromFile(client);
+                        Login = Login ?? await Login.FromConsole(client);
 
-                        if (login != null)
+                        if (Login != null)
                         {
-                            library = await Downloader.GetLibrary(client, login.AccessToken);
+                            library = await Downloader.GetLibrary(client, Login.AccessToken);
                         }
                     }
                 }
@@ -86,13 +87,9 @@ namespace OBB
                 {
                     using (var client = new HttpClient())
                     {
-                        var login = await Login.FromFile(client);
-
-                        login = login ?? await Login.FromConsole(client);
-
-                        if (login != null)
+                        if (Login != null)
                         {
-                            await Downloader.DoDownloads(client, login.AccessToken, inFolder, selection.Volumes.Select(x => new Name { ApiSlug = x.ApiSlug, FileName = x.FileName }));
+                            await Downloader.DoDownloads(client, Login.AccessToken, inFolder, selection.Volumes.Select(x => new Name { ApiSlug = x.ApiSlug, FileName = x.FileName }));
                         }
                     }
                 }
@@ -211,29 +208,36 @@ namespace OBB
                                     var div = divRegex.Match(newChapter.Contents).Value;
                                     foreach(var key in keys)
                                     {
-                                        var split = previousIndex.HasValue ? newChapter.Contents.Substring(key + dict[key].SplitLine.Length, previousIndex.Value - key) : newChapter.Contents.Substring(key + dict[key].SplitLine.Length);
+                                        var split = previousIndex.HasValue ? newChapter.Contents.Substring(key + dict[key].SplitLine.Length, previousIndex.Value - key - dict[key].SplitLine.Length) : newChapter.Contents.Substring(key + dict[key].SplitLine.Length);
 
                                         var splitChapter = new Core.Processor.Chapter
                                         {
                                             Contents = $"<body>{div}<h1>{dict[key].Name}</h1>{split}</div></body>",
                                             CssFiles = newChapter.CssFiles,
                                             Name = dict[key].Name + ".xhtml",
-                                            SubFolder = newChapter.SubFolder,
+                                            SubFolder = newChapter.SubFolder + $"\\{newChapter.SortOrder}-{newChapter.Name}",
                                             SortOrder = dict[key].SortOrder,
                                         };
                                         outProcessor.Chapters.Add(splitChapter);
+                                        previousIndex = key;
+                                    }
+
+                                    if (chapter.KeepFirstSplitSection)
+                                    {
+                                        newChapter.Contents = newChapter.Contents.Substring(0, previousIndex ?? newChapter.Contents.Length) + "</div></body>";
+                                        outProcessor.Chapters.Add(newChapter);
                                     }
                                 }
                                 else
                                 {
                                     outProcessor.Chapters.Add(newChapter);
                                     newChapter.Contents = string.Concat(newChapter.Contents, "</body>");
-                                    if (Settings.ChapterSettings.UpdateChapterTitles)
-                                    {
-                                        var match = chapterTitleRegex.Match(newChapter.Contents);
-                                        if (match.Success)
-                                            newChapter.Contents = newChapter.Contents.Replace(match.Value, $"<h1>{newChapter.Name}</h1>");
-                                    }
+                                }
+                                if (Settings.ChapterSettings.UpdateChapterTitles)
+                                {
+                                    var match = chapterTitleRegex.Match(newChapter.Contents);
+                                    if (match.Success)
+                                        newChapter.Contents = newChapter.Contents.Replace(match.Value, $"<h1>{newChapter.Name}</h1>");
                                 }
                             }
                         }
