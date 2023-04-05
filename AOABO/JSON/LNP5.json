@@ -357,8 +357,7 @@
       "Volume": "0502",
       "Year": 8,
       "Season": "Winter",
-      "ProcessedInPartFive": true,
-      "PartSheet": true
+      "ProcessedInPartFive": true
     },
     "Afterword": {
       "OriginalFilenames": [ "afterword" ],
@@ -544,6 +543,260 @@
         "Volume": "0502",
         "POV": "Sylvester",
         "ChapterName": "Headache Inducing Reports (Third Year)",
+        "EarlyYear": 8,
+        "LateYear": 8,
+        "EarlySeason": "Winter",
+        "LateSeason": "Winter",
+        "ProcessedInPartFive": true
+      }
+    ]
+  },
+  {
+    "InternalName": "LN0503",
+    "Gallery": {
+      "SplashImages": [ "bonus2", "bonus1" ],
+      "ChapterImages": [ "insert1", "insert2", "insert3", "insert4", "insert5", "insert6", "insert7", "insert8", "insert9", "insert10" ],
+      "EarlySortOrder": "0503",
+      "LateSortOrder": "050399",
+      "ChapterName": "LN503",
+      "AltName": "Volume 3",
+      "Volume": "0503",
+      "EarlyYear": 8,
+      "EarlySeason": "Winter",
+      "LateYear": 8,
+      "LateSeason": "Winter",
+      "ProcessedInPartFive": true
+    },
+    "ComfyLifeChapter": {
+      "OriginalFilenames": [ "manga1", "manga2" ],
+      "SortOrder": "050398",
+      "ChapterName": "Comfy Life 503",
+      "Volume": "0503",
+      "Year": 8,
+      "Season": "Winter",
+      "ProcessedInPartFive": true
+    },
+    "CharacterSheet": {
+      "OriginalFilenames": [ "characters1", "characters2", "characters3" ],
+      "SortOrder": "0503",
+      "ChapterName": "Avatar of a Goddess Characters",
+      "Volume": "0503",
+      "Year": 8,
+      "Season": "Winter",
+      "ProcessedInPartFive": true,
+      "PartSheet": true
+    },
+    "Afterword": {
+      "OriginalFilenames": [ "afterword" ],
+      "SortOrder": "050397",
+      "ChapterName": "LN503 Afterword",
+      "Volume": "0503",
+      "Year": 8,
+      "Season": "Winter",
+      "ProcessedInPartFive": true
+    },
+    "POVChapters": [
+      {
+        "OriginalFilenames": [ "prologue", "insert1", "prologue_1" ],
+        "SortOrder": "050300a",
+        "POV": "Matthias",
+        "ChapterName": "Prologue",
+        "Volume": "0503",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter17", "insert10", "chapter17_1" ],
+        "SortOrder": "050317",
+        "POV": "Martina",
+        "ChapterName": "Epilogue",
+        "Volume": "0503",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      }
+    ],
+    "Chapters": [
+      {
+        "OriginalFilenames": [ "chapter1" ],
+        "SortOrder": "050301",
+        "ChapterName": "Awakening and Reports",
+        "Volume": "0503",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter2" ],
+        "SortOrder": "050302",
+        "ChapterName": "Preparing for the Interduchy Tournament",
+        "Volume": "0503",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter3" ],
+        "SortOrder": "050303",
+        "ChapterName": "Raimund’s Research and Hirschur’s Warning",
+        "Volume": "0503",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter4", "insert2", "chapter4_1" ],
+        "SortOrder": "050304",
+        "ChapterName": "The Interduchy Tournament (Third Year)",
+        "Volume": "0503",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter5", "insert3", "chapter5_1" ],
+        "SortOrder": "050305",
+        "ChapterName": "Socializing with Dunkelfelger",
+        "Volume": "0503",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter6" ],
+        "SortOrder": "050306a",
+        "ChapterName": "Socializing with Ahrensbach",
+        "Volume": "0503",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter7", "insert4", "chapter7_1" ],
+        "SortOrder": "050307",
+        "ChapterName": "Socializing with Royalty",
+        "Volume": "0503",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter8" ],
+        "SortOrder": "050308a",
+        "ChapterName": "Socializing with Other Duchies",
+        "Volume": "0503",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter9" ],
+        "SortOrder": "050309",
+        "ChapterName": "Socializing with Frenbeltag",
+        "Volume": "0503",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter10", "insert5", "chapter10_1" ],
+        "SortOrder": "050310",
+        "ChapterName": "Ditter and Dunkelfelger’s Demonstration",
+        "Volume": "0503",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter11" ],
+        "SortOrder": "050311",
+        "ChapterName": "My First Awards Ceremony",
+        "Volume": "0503",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter12", "insert6", "chapter12_1" ],
+        "SortOrder": "050312",
+        "ChapterName": "Dinner with Ferdinand",
+        "Volume": "0503",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter13", "insert7", "chapter13_1", "insert8", "chapter13_2" ],
+        "SortOrder": "050313",
+        "ChapterName": "Farewells and the Coming-of-Age Ceremony",
+        "Volume": "0503",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter14" ],
+        "SortOrder": "050314",
+        "ChapterName": "Detlinde’s Dedication Whirl",
+        "Volume": "0503",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter15", "insert9", "chapter15_1" ],
+        "SortOrder": "050315",
+        "ChapterName": "A Discussion with Eglantine",
+        "Volume": "0503",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter16" ],
+        "SortOrder": "050316a",
+        "ChapterName": "Lending Books and a Place for One’s Heart",
+        "Volume": "0503",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      }
+    ],
+    "BonusChapters": [
+      {
+        "OriginalFilenames": [ "chapter18" ],
+        "EarlySortOrder": "050306b",
+        "LateSortOrder": "050396a",
+        "Volume": "0503",
+        "POV": "Lueuradi",
+        "ChapterName": "Resolve at the Interduchy Tournament",
+        "EarlyYear": 8,
+        "LateYear": 8,
+        "EarlySeason": "Winter",
+        "LateSeason": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter19" ],
+        "EarlySortOrder": "050308b",
+        "LateSortOrder": "050396b",
+        "Volume": "0503",
+        "POV": "Sieglinde",
+        "ChapterName": "My Daughter’s Perspective and Resolve",
+        "EarlyYear": 8,
+        "LateYear": 8,
+        "EarlySeason": "Winter",
+        "LateSeason": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter20" ],
+        "EarlySortOrder": "050316b",
+        "LateSortOrder": "050396c",
+        "Volume": "0503",
+        "POV": "Wilfried",
+        "ChapterName": "Suspicions and Gewinnen",
         "EarlyYear": 8,
         "LateYear": 8,
         "EarlySeason": "Winter",

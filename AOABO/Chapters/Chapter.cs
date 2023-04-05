@@ -38,7 +38,7 @@ namespace AOABO.Chapters
                 "0201" or "0202" or "0203" or "0204" => $"{Configuration.FolderNames["PartTwo"]}\\03-Story",
                 "0301" or "0302" or "0303" or "0304" or "0305" => $"{Configuration.FolderNames["PartThree"]}\\03-Story",
                 "0401" or "0402" or "0403" or "0404" or "0405" or "0406" or "0407" or "0408" or "0409" => $"{Configuration.FolderNames["PartFour"]}\\03-Story",
-                "0501" or "0502" => $"{Configuration.FolderNames["PartFive"]}\\03-Story",
+                "0501" or "0502" or "0503" => $"{Configuration.FolderNames["PartFive"]}\\03-Story",
                 "FB1" or "FB2" or "FB3" => $"11-Fanbooks",
                 _ => throw new Exception($"GetPartSubFolder - {ChapterName}"),
             };
@@ -60,7 +60,7 @@ namespace AOABO.Chapters
                 "0201" or "0202" or "0203" or "0204" => $"{Configuration.FolderNames["PartTwo"]}\\{Volume}-{getVolumeName()}",
                 "0301" or "0302" or "0303" or "0304" or "0305" => $"{Configuration.FolderNames["PartThree"]}\\{Volume}-{getVolumeName()}",
                 "0401" or "0402" or "0403" or "0404" or "0405" or "0406" or "0407" or "0408" or "0409" => $"{Configuration.FolderNames["PartFour"]}\\{Volume}-{getVolumeName()}",
-                "0501" or "0502" => $"{Configuration.FolderNames["PartFive"]}\\{Volume}-{getVolumeName()}",
+                "0501" or "0502" or "0503" => $"{Configuration.FolderNames["PartFive"]}\\{Volume}-{getVolumeName()}",
                 "FB1" or "FB2" or "FB3" => $"06-Fanbooks",
                 _ => throw new Exception($"GetVolumeSubFolder - {ChapterName}")
             };
@@ -72,7 +72,7 @@ namespace AOABO.Chapters
             {
                 "0101" or "0201" or "0301" or "0401" or "0501" => "Volume 1",
                 "0102" or "0202" or "0302" or "0402" or "0502" => "Volume 2",
-                "0103" or "0203" or "0303" or "0403" => "Volume 3",
+                "0103" or "0203" or "0303" or "0403" or "0503" => "Volume 3",
                 "0204" or "0304" or "0404" => "Volume 4",
                 "0305" or "0405" => "Volume 5",
                 "0406" => "Volume 6",

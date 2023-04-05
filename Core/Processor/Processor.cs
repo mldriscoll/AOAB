@@ -318,17 +318,23 @@ namespace Core.Processor
                             }
                             else
                             {
-                                var newCSS = new CSS
-                                {
-                                    Contents = contents,
-                                    Name = substring,
-                                    OldNames = new List<string>
+                                // Exclude the p { display: none; } entries from the AOAB Manga
+                                if (string.Equals(substring, "p") && contents.Contains("display: none;")){
+
+                                }
+                                else {
+                                    var newCSS = new CSS
+                                    {
+                                        Contents = contents,
+                                        Name = substring,
+                                        OldNames = new List<string>
                                     {
                                     $"{f}:{substring}"
                                     }
-                                };
+                                    };
 
-                                CSS.Add(newCSS);
+                                    CSS.Add(newCSS);
+                                } 
                             }
                         }
 
