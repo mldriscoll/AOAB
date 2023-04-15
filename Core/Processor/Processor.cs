@@ -15,7 +15,7 @@ namespace Core.Processor
         private string RemoveUnwantedFileCharacters(string str)
         {
             var s = str;
-            foreach(var c in Path.GetInvalidFileNameChars())
+            foreach (var c in Path.GetInvalidFileNameChars().Union(new char[] {';'}))
             {
                 s = s.Replace(c.ToString(), string.Empty);
             }
@@ -141,7 +141,7 @@ namespace Core.Processor
                     imFolderReplace = "../images";
                 }
 
-                var a = humanReadable ? chapter.SubFolder + "\\" : string.Empty;
+                var a = humanReadable && !string.IsNullOrWhiteSpace(chapter.SubFolder) ? chapter.SubFolder + "\\" : string.Empty;
                 var fullFileName = $"{folder}\\oebps\\Text\\{RemoveUnwantedPathCharacters(a) + RemoveUnwantedFileCharacters(fileName)}";
 
                 while (File.Exists(fullFileName))

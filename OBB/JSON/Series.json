@@ -1495,7 +1495,7 @@
   },
   {
     "Name": "Death\u0027s Daughter and the Ebony Blade",
-    "InternalName": "death-s-daughter-and-the-ebony-blade",
+    "InternalName": "Death's Daughter and the Ebony Blade",
     "Volumes": [
       {
         "ApiSlug": "death-s-daughter-and-the-ebony-blade-volume-1",
@@ -1512,8 +1512,8 @@
       {
         "ApiSlug": "death-s-daughter-and-the-ebony-blade-volume-3",
         "FileName": "death-s-daughter-and-the-ebony-blade-volume-3.epub",
-        "EditedBy": null,
-        "ShowRemainingFiles": true
+        "EditedBy": "kuali",
+        "ShowRemainingFiles": false
       },
       {
         "ApiSlug": "death-s-daughter-and-the-ebony-blade-volume-4",

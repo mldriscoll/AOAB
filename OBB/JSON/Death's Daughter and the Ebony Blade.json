@@ -227,16 +227,6 @@
         ],
         "Chapters": [],
         "Splits": []
-      },
-      {
-        "ChapterName": "Maps",
-        "SortOrder": "001",
-        "SubFolder": "",
-        "OriginalFilenames": [
-          "map"
-        ],
-        "Chapters": [],
-        "Splits": []
       }
     ],
     "Gallery": {
@@ -599,45 +589,14 @@
     "InternalName": "death-s-daughter-and-the-ebony-blade-volume-3",
     "Chapters": [
       {
-        "ChapterName": "Volume 3",
-        "SortOrder": "3",
+        "ChapterName": "Volume 03",
+        "SortOrder": "03",
         "SubFolder": "",
         "OriginalFilenames": [],
         "Chapters": [
           {
-            "ChapterName": "",
-            "SortOrder": "301",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "map"
-            ],
-            "Chapters": [],
-            "Splits": []
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "302",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "characters1"
-            ],
-            "Chapters": [],
-            "Splits": []
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "303",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "characters2",
-              "toc_img"
-            ],
-            "Chapters": [],
-            "Splits": []
-          },
-          {
-            "ChapterName": "Prologue: He Who Bore the Weight of the Crossed Azure Swords",
-            "SortOrder": "304",
+            "ChapterName": "He Who Bore the Weight of the Crossed Azure Swords",
+            "SortOrder": "0302",
             "SubFolder": "",
             "OriginalFilenames": [
               "prologue"
@@ -646,8 +605,8 @@
             "Splits": []
           },
           {
-            "ChapterName": "Chapter One: Mayhem at Fort Astora!",
-            "SortOrder": "305",
+            "ChapterName": "Mayhem at Fort Astora!",
+            "SortOrder": "0303",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter1",
@@ -659,11 +618,32 @@
               "chapter1_3"
             ],
             "Chapters": [],
-            "Splits": []
+            "Splits": [
+              {
+                "Name": "II",
+                "SplitLine": "<h2>II</h2>",
+                "SortOrder": "02"
+              },
+              {
+                "Name": "III",
+                "SplitLine": "<h2>III</h2>",
+                "SortOrder": "03"
+              },
+              {
+                "Name": "IV",
+                "SplitLine": "<h2>IV</h2>",
+                "SortOrder": "04"
+              },
+              {
+                "Name": "V",
+                "SplitLine": "<h2>V</h2>",
+                "SortOrder": "05"
+              }
+            ]
           },
           {
-            "ChapterName": "Chapter Two: The Royal Library",
-            "SortOrder": "306",
+            "ChapterName": "The Royal Library",
+            "SortOrder": "0304",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter2",
@@ -671,11 +651,27 @@
               "chapter2_1"
             ],
             "Chapters": [],
-            "Splits": []
+            "Splits": [
+              {
+                "Name": "II",
+                "SplitLine": "<h2>II</h2>",
+                "SortOrder": "02"
+              },
+              {
+                "Name": "III",
+                "SplitLine": "<h2>III</h2>",
+                "SortOrder": "03"
+              },
+              {
+                "Name": "IV",
+                "SplitLine": "<h2>IV</h2>",
+                "SortOrder": "04"
+              }
+            ]
           },
           {
-            "ChapterName": "Interlude: Temptation",
-            "SortOrder": "307",
+            "ChapterName": "Temptation",
+            "SortOrder": "0305",
             "SubFolder": "",
             "OriginalFilenames": [
               "interlude"
@@ -684,8 +680,8 @@
             "Splits": []
           },
           {
-            "ChapterName": "Chapter Three: An Ebony Blossom in a Perilous Dance",
-            "SortOrder": "308",
+            "ChapterName": "An Ebony Blossom in a Perilous Dance",
+            "SortOrder": "0306",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter3",
@@ -698,21 +694,63 @@
               "insert8"
             ],
             "Chapters": [],
-            "Splits": []
+            "Splits": [
+              {
+                "Name": "II",
+                "SplitLine": "<h2>II</h2>",
+                "SortOrder": "02"
+              },
+              {
+                "Name": "III",
+                "SplitLine": "<h2>III</h2>",
+                "SortOrder": "03"
+              },
+              {
+                "Name": "IV",
+                "SplitLine": "<h2>IV</h2>",
+                "SortOrder": "04"
+              },
+              {
+                "Name": "V",
+                "SplitLine": "<h2>V</h2>",
+                "SortOrder": "05"
+              },
+              {
+                "Name": "VI",
+                "SplitLine": "<h2>VI</h2>",
+                "SortOrder": "06"
+              }
+            ]
           },
           {
-            "ChapterName": "Chapter Four: The Battle of Nobis",
-            "SortOrder": "309",
+            "ChapterName": "The Battle of Nobis",
+            "SortOrder": "0307",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter4"
             ],
             "Chapters": [],
-            "Splits": []
+            "Splits": [
+              {
+                "Name": "II",
+                "SplitLine": "<h2>II</h2>",
+                "SortOrder": "02"
+              },
+              {
+                "Name": "III",
+                "SplitLine": "<h2>III</h2>",
+                "SortOrder": "03"
+              },
+              {
+                "Name": "IV",
+                "SplitLine": "<h2>IV</h2>",
+                "SortOrder": "04"
+              }
+            ]
           },
           {
-            "ChapterName": "Chapter Five: Ballroom Hostilities",
-            "SortOrder": "310",
+            "ChapterName": "Ballroom Hostilities",
+            "SortOrder": "0308",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter5",
@@ -720,11 +758,27 @@
               "chapter5_1"
             ],
             "Chapters": [],
-            "Splits": []
+            "Splits": [
+              {
+                "Name": "II",
+                "SplitLine": "<h2>II</h2>",
+                "SortOrder": "02"
+              },
+              {
+                "Name": "III",
+                "SplitLine": "<h2>III</h2>",
+                "SortOrder": "03"
+              },
+              {
+                "Name": "IV",
+                "SplitLine": "<h2>IV</h2>",
+                "SortOrder": "04"
+              }
+            ]
           },
           {
-            "ChapterName": "Chapter Six: Magic and Magecraft",
-            "SortOrder": "311",
+            "ChapterName": "Magic and Magecraft",
+            "SortOrder": "0309",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter6",
@@ -732,95 +786,36 @@
               "chapter6_1"
             ],
             "Chapters": [],
-            "Splits": []
+            "Splits": [
+              {
+                "Name": "II",
+                "SplitLine": "<h2>II</h2>",
+                "SortOrder": "02"
+              },
+              {
+                "Name": "III",
+                "SplitLine": "<h2>III</h2>",
+                "SortOrder": "03"
+              },
+              {
+                "Name": "IV",
+                "SplitLine": "<h2>IV</h2>",
+                "SortOrder": "04"
+              },
+              {
+                "Name": "V",
+                "SplitLine": "<h2>V</h2>",
+                "SortOrder": "05"
+              }
+            ]
           },
           {
-            "ChapterName": "Epilogue: A Spring Storm",
-            "SortOrder": "312",
+            "ChapterName": "A Spring Storm",
+            "SortOrder": "0310",
             "SubFolder": "",
             "OriginalFilenames": [
               "epilogue",
               "insert11"
-            ],
-            "Chapters": [],
-            "Splits": []
-          },
-          {
-            "ChapterName": "Afterword",
-            "SortOrder": "313",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "afterword"
-            ],
-            "Chapters": [],
-            "Splits": []
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "314",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "backmatter1"
-            ],
-            "Chapters": [],
-            "Splits": []
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "315",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "backmatter2"
-            ],
-            "Chapters": [],
-            "Splits": []
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "316",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "backmatter3"
-            ],
-            "Chapters": [],
-            "Splits": []
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "317",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "bonusimg"
-            ],
-            "Chapters": [],
-            "Splits": []
-          },
-          {
-            "ChapterName": "Bonus Short Stories",
-            "SortOrder": "318",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "bonus"
-            ],
-            "Chapters": [],
-            "Splits": []
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "319",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "signup"
-            ],
-            "Chapters": [],
-            "Splits": []
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "copyright"
             ],
             "Chapters": [],
             "Splits": []
@@ -831,31 +826,89 @@
     ],
     "BonusChapters": [
       {
-        "ChapterName": "Volume 3",
-        "SortOrder": "3",
+        "ChapterName": "Volume 03",
+        "SortOrder": "03",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Bonus Short Stories",
+            "SortOrder": "0311",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus"
+            ],
+            "Chapters": [],
+            "KeepFirstSplitSection": false,
+            "Splits": [
+              {
+                "Name": "A Third Day with Olivia and Ashton",
+                "SplitLine": "<h2>A Third Day with Olivia and Ashton</h2>",
+                "SortOrder": "01"
+              },
+              {
+                "Name": "A Third Day with Olivia and Claudia",
+                "SplitLine": "<h2>A Third Day with Olivia and Claudia</h2>",
+                "SortOrder": "02"
+              },
+              {
+                "Name": "A Day with Olivia and Cornelius",
+                "SplitLine": "<h2>A Day with Olivia and Cornelius</h2>",
+                "SortOrder": "03"
+              },
+              {
+                "Name": "A Day with Olivia and Blood",
+                "SplitLine": "<h2>A Day with Olivia and Blood</h2>",
+                "SortOrder": "04"
+              }
+            ]
+          }
+        ],
+        "Splits": []
+      }
+    ],
+    "ExtraContent": [
+      {
+        "ChapterName": "Maps",
+        "SortOrder": "001",
+        "SubFolder": "",
+        "OriginalFilenames": [
+          "map"
+        ],
+        "Chapters": [],
+        "Splits": []
+      },
+      {
+        "ChapterName": "Characters",
+        "SortOrder": "0301",
+        "SubFolder": "03-Volume 03",
+        "OriginalFilenames": [
+          "characters1",
+          "characters2"
+        ],
+        "Chapters": [],
+        "Splits": []
+      },
+      {
+        "ChapterName": "Volume 3",
+        "SortOrder": "03",
+        "SubFolder": "99-Afterwords",
+        "OriginalFilenames": [
+          "afterword"
+        ],
         "Chapters": [],
         "Splits": []
       }
     ],
-    "ExtraContent": [],
     "Gallery": {
       "SplashImages": [
-        "bonus",
-        "color1",
-        "color2",
-        "color3",
-        "color4",
-        "color5",
-        "cover",
-        "map",
-        "toc"
+        "bonusimg",
+        "backmatter1",
+        "backmatter2",
+        "backmatter3"
       ],
       "ChapterImages": [
         "insert1",
-        "insert10",
-        "insert11",
         "insert2",
         "insert3",
         "insert4",
@@ -863,12 +916,14 @@
         "insert6",
         "insert7",
         "insert8",
-        "insert9"
+        "insert9",
+        "insert10",
+        "insert11"
       ],
       "LateSubFolder": null,
       "ChapterName": "",
       "SortOrder": "",
-      "SubFolder": "3-Volume 3",
+      "SubFolder": "03-Volume 03",
       "OriginalFilenames": [],
       "Chapters": [],
       "Splits": []
