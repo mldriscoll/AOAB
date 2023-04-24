@@ -70,12 +70,12 @@
       },
       {
         "OriginalFilenames": [ "chapter06" ],
-        "SortOrder": "010106",
+        "SortOrder": "010106a",
         "ChapterName": "Neighborhood Boys",
+        "Volume": "0101",
         "Year": 0,
         "Season": "Autumn",
-        "ProcessedInPartOne": true,
-        "Volume": "0101"
+        "ProcessedInPartOne": true
       },
       {
         "OriginalFilenames": [ "chapter07", "insert2", "chapter071" ],
@@ -124,12 +124,12 @@
       },
       {
         "OriginalFilenames": [ "chapter12", "insert4", "chapter121" ],
-        "SortOrder": "010112",
+        "SortOrder": "010112a",
         "ChapterName": "The Sweet Taste of Winter",
+        "Volume": "0101",
         "Year": 0,
         "Season": "Winter",
-        "ProcessedInPartOne": true,
-        "Volume": "0101"
+        "ProcessedInPartOne": true
       },
       {
         "OriginalFilenames": [ "chapter13" ],
@@ -257,27 +257,32 @@
       {
         "OriginalFilenames": [ "extra2" ],
         "EarlySortOrder": "010100b",
-        "LateSortOrder": "010196b",
+        "LateSortOrder": "010196a",
         "POV": "Shuu",
         "ChapterName": "Unchanging Daily Life",
+        "Volume": "0101",
         "EarlyYear": -1,
+        "EarlySeason": "",
         "LateYear": 1,
         "LateSeason": "Summer",
-        "ProcessedInPartOne": true,
-        "Volume": "0101"
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartOne": true
       },
       {
         "OriginalFilenames": [ "extra1" ],
         "EarlySortOrder": "010122b",
-        "LateSortOrder": "010196a",
+        "LateSortOrder": "010196i",
         "POV": "Lutz",
         "ChapterName": "A Day Without Myne",
-        "EarlySeason": "Summer",
-        "LateSeason": "Summer",
+        "Volume": "0101",
         "EarlyYear": 1,
+        "EarlySeason": "Summer",
         "LateYear": 1,
-        "ProcessedInPartOne": true,
-        "Volume": "0101"
+        "LateSeason": "Summer",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartOne": true
       }
     ],
     "Afterword": {
@@ -296,7 +301,7 @@
       {
         "OriginalFilenames": [ "extra2" ],
         "EarlySortOrder": "010220b",
-        "LateSortOrder": "010296b",
+        "LateSortOrder": "010296c",
         "POV": "Effa",
         "ChapterName": "Gossiping by the Well",
         "EarlyYear": 1,
@@ -309,7 +314,7 @@
       {
         "OriginalFilenames": [ "extra1" ],
         "EarlySortOrder": "010221b",
-        "LateSortOrder": "010296a",
+        "LateSortOrder": "010296d",
         "POV": "Corinna",
         "ChapterName": "Corinna's Married Life",
         "EarlyYear": 1,

@@ -34,14 +34,16 @@
       {
         "OriginalFilenames": [ "37", "38", "39", "40", "41", "42", "43", "44" ],
         "EarlySortOrder": "010116b",
-        "LateSortOrder": "010197c",
-        "ChapterName": "My Daughter's about to be a Criminal",
+        "LateSortOrder": "010196g",
         "POV": "Gunther",
-        "EarlyYear": 0,
-        "LateYear" : 1,
-        "EarlySeason": "Spring",
-        "LateSeason": "Summer",
+        "ChapterName": "My Daughter's about to be a Criminal",
         "Volume": "0101",
+        "EarlyYear": 0,
+        "EarlySeason": "Spring",
+        "LateYear": 1,
+        "LateSeason": "Summer",
+        "Set": "MyDaughter",
+        "Priority": 2,
         "ProcessedInPartOne": true
       }
     ],
@@ -103,13 +105,15 @@
       {
         "OriginalFilenames": [ "side1", 2 ],
         "EarlySortOrder": "010114b",
-        "LateSortOrder": "010196d",
+        "LateSortOrder": "010196f",
         "ChapterName": "One Winter's Day",
+        "Volume": "0101",
         "EarlyYear": 0,
         "EarlySeason": "Winter",
         "LateYear": 1,
         "LateSeason": "Summer",
-        "Volume": "0101",
+        "Set": "",
+        "Priority": 0,
         "ProcessedInPartOne": true
       },
       {

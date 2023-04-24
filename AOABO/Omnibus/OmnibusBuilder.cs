@@ -193,7 +193,9 @@ namespace AOABO.Omnibus
                             Contents = string.Empty,
                             CssFiles = new List<string>(),
                             Name = chapter.ChapterName + ".xhtml",
-                            SubFolder = folder.MakeFolder(chapter.GetSubFolder(Configuration.Options.OutputStructure), Configuration.Options.StartYear, chapter.Year)
+                            SubFolder = folder.MakeFolder(chapter.GetSubFolder(Configuration.Options.OutputStructure), Configuration.Options.StartYear, chapter.Year),
+                            Set = chapter.Set,
+                            Priority = chapter.Priority
                         };
                         newChapter.SortOrder = chapter.SortOrder;
                         outProcessor.Chapters.Add(newChapter);

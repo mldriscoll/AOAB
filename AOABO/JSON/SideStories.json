@@ -261,5 +261,75 @@
       "Season": "Winter",
       "ProcessedInPartFour": true
     }
+  },
+  {
+    "InternalName": "SS01",
+    "ProcessedInPartOne": true,
+    "Gallery": {
+      "SplashImages": [ "bonus2", "bonus1" ],
+      "ChapterImages": [ "insert1", "insert2", "insert3", "insert4", "insert5", "insert6", "insert7", "insert8", "insert9", "insert10" ],
+      "EarlySortOrder": "0405b",
+      "LateSortOrder": "040598",
+      "ChapterName": "SS01",
+      "AltName": "Side Story Collection 1",
+      "Volume": "0405",
+      "EarlyYear": 6,
+      "EarlySeason": "Spring",
+      "LateYear": 7,
+      "LateSeason": "Winter"
+    },
+    "ComfyLifeChapter": {
+      "OriginalFilenames": [ "manga1", "manga2" ],
+      "SortOrder": "040597b",
+      "ChapterName": "Comfy Life SS1",
+      "Volume": "0405",
+      "Year": 7,
+      "Season": "Winter",
+      "ProcessedInPartFour": true
+    },
+    "BonusChapters": [
+      {
+        "OriginalFilenames": [ "chapter1" ],
+        "EarlySortOrder": "010105b",
+        "LateSortOrder": "010196b",
+        "POV": "Tuuli",
+        "ChapterName": "My Little Sister's Gotten Weird",
+        "Volume": "0101",
+        "EarlyYear": 0,
+        "EarlySeason": "Autumn",
+        "LateYear": 1,
+        "LateSeason": "Summer",
+        "ProcessedInPartOne": true
+      },
+      {
+        "OriginalFilenames": [ "chapter2", "chapter2_1" ],
+        "EarlySortOrder": "010112b",
+        "LateSortOrder": "010196d",
+        "POV": "Lutz",
+        "ChapterName": "My Savior",
+        "Volume": "0101",
+        "EarlyYear": 0,
+        "EarlySeason": "Winter",
+        "LateYear": 1,
+        "LateSeason": "Summer",
+        "ProcessedInPartOne": true
+      },
+      {
+        "OriginalFilenames": [ "chapter3" ],
+        "EarlySortOrder": "010116b",
+        "LateSortOrder": "010196g",
+        "POV": "Gunther",
+        "ChapterName": "My Daughter's About to Be a Criminal?!",
+        "Volume": "0101",
+        "EarlyYear": 0,
+        "EarlySeason": "Spring",
+        "LateYear": 1,
+        "LateSeason": "Summer",
+        "Set": "MyDaughter",
+        "Priority": 1,
+        "ProcessedInPartOne": true
+      }
+
+    ]
   }
 ]

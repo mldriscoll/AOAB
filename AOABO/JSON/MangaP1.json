@@ -4,8 +4,8 @@
     "MangaChapters": [
       {
         "OriginalFilenames": [ "151", "152", "153", "154", "155", "156" ],
-        "EarlySortOrder": "010105b",
-        "LateSortOrder": "010197a",
+        "EarlySortOrder": "010106b",
+        "LateSortOrder": "010196c",
         "POV": "Tuuli",
         "ChapterName": "Myne's Gotten Weird",
         "Volume": "0101",
@@ -13,6 +13,8 @@
         "EarlySeason": "Autumn",
         "LateYear": 1,
         "LateSeason": "Summer",
+        "Set": "",
+        "Priority": 0,
         "ProcessedInPartOne": true
       }
     ]
@@ -23,7 +25,7 @@
       {
         "OriginalFilenames": [ "167", "168", "169", "170", "171", "172" ],
         "EarlySortOrder": "010113b",
-        "LateSortOrder": "010197b",
+        "LateSortOrder": "010196e",
         "POV": "Lutz",
         "ChapterName": "Lutz and the Parue Tree",
         "Volume": "0101",
@@ -31,6 +33,8 @@
         "EarlySeason": "Winter",
         "LateYear": 1,
         "LateSeason": "Summer",
+        "Set": "",
+        "Priority": 0,
         "ProcessedInPartOne": true
       }
     ]
@@ -42,7 +46,7 @@
       {
         "OriginalFilenames": [ "184", "185", "186", "187", "188", "189", "190" ],
         "EarlySortOrder": "010118b",
-        "LateSortOrder": "010196c",
+        "LateSortOrder": "010196h",
         "POV": "Freida",
         "ChapterName": "The Baptism Ceremony and the Hairpin",
         "OverrideName": "The Baptism Ceremony and the Hairpin",
@@ -88,7 +92,7 @@
       {
         "OriginalFilenames": [ "166", "167", "168", "169", "170", "171", "172", "173" ],
         "EarlySortOrder": "010206b",
-        "LateSortOrder": "010296c",
+        "LateSortOrder": "010296a",
         "POV": "Zeg",
         "ChapterName": "Zeg the Apprentice Craftsman",
         "OverrideName": "Zeg the Apprentice Craftsman",
@@ -134,7 +138,7 @@
       {
         "OriginalFilenames": [ "176", "177", "178", "179", "180", "181", "182", "183", "184", "185" ],
         "EarlySortOrder": "010218b",
-        "LateSortOrder": "010296d",
+        "LateSortOrder": "010296b",
         "POV": "Benno",
         "ChapterName": "Hairpins and the Meeting of Stores",
         "OverrideName": "Hairpins and the Meeting of Stores",
@@ -188,7 +192,7 @@
       {
         "OriginalFilenames": [ "171", "172", "173", "174", "175", "176", "177", "178", "180" ],
         "EarlySortOrder": "010314b",
-        "LateSortOrder": "010397a",
+        "LateSortOrder": "010396a",
         "POV": "Benno",
         "ChapterName": "Some Time in the Woods",
         "Volume": "0103",
@@ -203,7 +207,7 @@
       {
         "OriginalFilenames": [ "182", "183", "184", "185", "186", "187", "188", "189" ],
         "EarlySortOrder": "010315b",
-        "LateSortOrder": "010396g",
+        "LateSortOrder": "010396b",
         "POV": "Freida",
         "OverrideName": "A Long-Awaited Reunion",
         "ChapterName": "A Long-Awaited Reunion",

@@ -38,6 +38,13 @@ namespace Core.Processor
                 throw new ArgumentNullException("name");
             }
 
+            // Remove Duplicate Chapters
+            foreach (var set in Chapters.Where(x => !string.IsNullOrWhiteSpace(x.Set)).GroupBy(x => x.Set).ToList().Where(x => x.Count() > 1))
+            {
+                var minPriority = set.Min(x => x.Priority);
+                Chapters.RemoveAll(x => x.Set.Equals(set.Key) && x.Priority > minPriority);
+            }
+
             var folder = $"{baseFolder}\\temp";
             if (Directory.Exists(folder)) Directory.Delete(folder, true);
             Directory.CreateDirectory(folder);

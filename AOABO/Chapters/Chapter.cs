@@ -12,6 +12,9 @@ namespace AOABO.Chapters
         public string Season { get; set; } = string.Empty;
         public string Volume { get; set; } = string.Empty;
 
+        public string Set { get; set; } = string.Empty;
+        public int Priority { get; set; } = 0;
+
         public string GetSubFolder(OutputStructure structure)
         {
             switch (structure)

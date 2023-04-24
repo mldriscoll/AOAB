@@ -21,6 +21,9 @@
 
         public string FileName { get { return $"{SortOrder}-{Name}.{Extension}".Replace(":", ""); } }
 
+        public string Set { get; set; } = string.Empty;
+        public int Priority { get; set; } = 0;
+
         public bool Processed { get; set; } = false;
 
         public string CombinedSortOrder()
