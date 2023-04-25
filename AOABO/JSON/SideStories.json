@@ -28,6 +28,7 @@
         "EarlySeason": "Winter",
         "LateYear": 6,
         "LateSeason": "Winter",
+        "Source": "RAS",
         "ProcessedInPartFour": true
       },
       {
@@ -41,7 +42,8 @@
         "EarlySeason": "Winter",
         "LateYear": 6,
         "LateSeason": "Winter",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "RAS C1"
       },
       {
         "OriginalFilenames": [ "chapter2", "insert1", "chapter2_1" ],
@@ -54,7 +56,8 @@
         "EarlySeason": "Winter",
         "LateYear": 6,
         "LateSeason": "Winter",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "RAS C2"
       },
       {
         "OriginalFilenames": [ "chapter3", "insert2", "chapter3_1" ],
@@ -67,7 +70,8 @@
         "EarlySeason": "Winter",
         "LateYear": 6,
         "LateSeason": "Winter",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "RAS C3"
       },
       {
         "OriginalFilenames": [ "chapter4", "insert3", "chapter4_1" ],
@@ -80,7 +84,8 @@
         "EarlySeason": "Winter",
         "LateYear": 6,
         "LateSeason": "Winter",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "RAS C4"
       },
       {
         "OriginalFilenames": [ "chapter5" ],
@@ -93,7 +98,8 @@
         "EarlySeason": "Winter",
         "LateYear": 6,
         "LateSeason": "Winter",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "RAS C5"
       },
       {
         "OriginalFilenames": [ "chapter6" ],
@@ -106,7 +112,8 @@
         "EarlySeason": "Winter",
         "LateYear": 6,
         "LateSeason": "Winter",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "RAS C6"
       },
       {
         "OriginalFilenames": [ "chapter7", "insert4", "chapter7_1" ],
@@ -119,7 +126,8 @@
         "EarlySeason": "Winter",
         "LateYear": 6,
         "LateSeason": "Winter",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "RAS C7"
       },
       {
         "OriginalFilenames": [ "chapter8", "insert5", "chapter8_1" ],
@@ -132,7 +140,8 @@
         "EarlySeason": "Winter",
         "LateYear": 6,
         "LateSeason": "Winter",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "RAS C8"
       },
       {
         "OriginalFilenames": [ "chapter9" ],
@@ -145,7 +154,8 @@
         "EarlySeason": "Winter",
         "LateYear": 6,
         "LateSeason": "Winter",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "RAS C9"
       },
       {
         "OriginalFilenames": [ "chapter10", "insert6", "chapter10_1" ],
@@ -158,7 +168,8 @@
         "EarlySeason": "Winter",
         "LateYear": 6,
         "LateSeason": "Winter",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "RAS C10"
       },
       {
         "OriginalFilenames": [ "chapter11", "insert7", "chapter11_1" ],
@@ -171,7 +182,8 @@
         "EarlySeason": "Winter",
         "LateYear": 6,
         "LateSeason": "Winter",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "RAS C11"
       },
       {
         "OriginalFilenames": [ "chapter12", "insert8", "chapter12_1" ],
@@ -184,7 +196,8 @@
         "EarlySeason": "Winter",
         "LateYear": 6,
         "LateSeason": "Winter",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "RAS C12"
       },
       {
         "OriginalFilenames": [ "chapter13" ],
@@ -197,7 +210,8 @@
         "EarlySeason": "Winter",
         "LateYear": 6,
         "LateSeason": "Winter",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "RAS C13"
       },
       {
         "OriginalFilenames": [ "chapter14" ],
@@ -210,7 +224,8 @@
         "EarlySeason": "Winter",
         "LateYear": 6,
         "LateSeason": "Winter",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "RAS C14"
       },
       {
         "OriginalFilenames": [ "chapter15", "insert9", "chapter15_1" ],
@@ -223,7 +238,8 @@
         "EarlySeason": "Winter",
         "LateYear": 6,
         "LateSeason": "Winter",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "RAS C15"
       },
       {
         "OriginalFilenames": [ "chapter16" ],
@@ -236,7 +252,8 @@
         "EarlySeason": "Winter",
         "LateYear": 6,
         "LateSeason": "Winter",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "RAS C16"
       },
       {
         "OriginalFilenames": [ "chapter17", "insert10" ],
@@ -249,7 +266,8 @@
         "EarlySeason": "Winter",
         "LateYear": 6,
         "LateSeason": "Winter",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "RAS C17"
       }
     ],
     "ComfyLifeChapter": {
@@ -298,7 +316,8 @@
         "EarlySeason": "Autumn",
         "LateYear": 1,
         "LateSeason": "Summer",
-        "ProcessedInPartOne": true
+        "ProcessedInPartOne": true,
+        "Source": "SS1C1"
       },
       {
         "OriginalFilenames": [ "chapter2", "insert1", "chapter2_1" ],
@@ -311,7 +330,8 @@
         "EarlySeason": "Winter",
         "LateYear": 1,
         "LateSeason": "Summer",
-        "ProcessedInPartOne": true
+        "ProcessedInPartOne": true,
+        "Source": "SS1C2"
       },
       {
         "OriginalFilenames": [ "chapter3" ],
@@ -326,7 +346,8 @@
         "LateSeason": "Summer",
         "Set": "MyDaughter",
         "Priority": 1,
-        "ProcessedInPartOne": true
+        "ProcessedInPartOne": true,
+        "Source": "SS1C3"
       },
       {
         "OriginalFilenames": [ "chapter4", "insert2", "chapter4_1" ],
@@ -341,7 +362,8 @@
         "LateSeason": "Autumn",
         "Set": "",
         "Priority": 0,
-        "ProcessedInPartTwo": true
+        "ProcessedInPartTwo": true,
+        "Source": "SS1C4"
       },
       {
         "OriginalFilenames": [ "chapter5" ],
@@ -356,7 +378,8 @@
         "LateSeason": "Summer",
         "Set": "NotGiving",
         "Priority": 2,
-        "ProcessedInPartTwo": true
+        "ProcessedInPartTwo": true,
+        "Source": "SS1C5"
       },
       {
         "OriginalFilenames": [ "chapter6", "insert3", "chapter6_1" ],
@@ -371,7 +394,8 @@
         "LateSeason": "Autumn",
         "Set": "LPB",
         "Priority": 2,
-        "ProcessedInPartTwo": true
+        "ProcessedInPartTwo": true,
+        "Source": "SS1C6"
       },
       {
         "OriginalFilenames": [ "chapter10", "insert5", "chapter10_1" ],
@@ -386,7 +410,8 @@
         "LateSeason": "Autumn",
         "Set": "",
         "Priority": 0,
-        "ProcessedInPartThree": true
+        "ProcessedInPartThree": true,
+        "Source": "SS1C10"
       },
       {
         "OriginalFilenames": [ "chapter11" ],
@@ -401,7 +426,8 @@
         "LateSeason": "Autumn",
         "Set": "",
         "Priority": 0,
-        "ProcessedInPartThree": true
+        "ProcessedInPartThree": true,
+        "Source": "SS1C11"
       },
       {
         "OriginalFilenames": [ "chapter12", "insert6", "chapter12_1" ],
@@ -416,7 +442,8 @@
         "LateSeason": "Summer",
         "Set": "",
         "Priority": 0,
-        "ProcessedInPartThree": true
+        "ProcessedInPartThree": true,
+        "Source": "SS1C12"
       },
       {
         "OriginalFilenames": [ "chapter13" ],
@@ -431,7 +458,8 @@
         "LateSeason": "Autumn",
         "Set": "",
         "Priority": 0,
-        "ProcessedInPartThree": true
+        "ProcessedInPartThree": true,
+        "Source": "SS1C13"
       },
       {
         "OriginalFilenames": [ "chapter14", "insert7", "chapter14_1" ],
@@ -446,7 +474,8 @@
         "LateSeason": "Autumn",
         "Set": "",
         "Priority": 0,
-        "ProcessedInPartThree": true
+        "ProcessedInPartThree": true,
+        "Source": "SS1C14"
       },
       {
         "OriginalFilenames": [ "chapter7" ],
@@ -461,7 +490,8 @@
         "LateSeason": "Summer",
         "Set": "",
         "Priority": 0,
-        "ProcessedInPartThree": true
+        "ProcessedInPartThree": true,
+        "Source": "SS1C7"
       },
       {
         "OriginalFilenames": [ "chapter8", "insert4", "chapter8_1" ],
@@ -476,7 +506,8 @@
         "LateSeason": "Summer",
         "Set": "",
         "Priority": 0,
-        "ProcessedInPartThree": true
+        "ProcessedInPartThree": true,
+        "Source": "SS1C8"
       },
       {
         "OriginalFilenames": [ "chapter9" ],
@@ -491,7 +522,8 @@
         "LateSeason": "Summer",
         "Set": "TeaParty",
         "Priority": 2,
-        "ProcessedInPartThree": true
+        "ProcessedInPartThree": true,
+        "Source": "SS1C9"
       },
       {
         "OriginalFilenames": [ "chapter15", "insert8" ],
@@ -506,7 +538,8 @@
         "LateSeason": "Winter",
         "Set": "",
         "Priority": 0,
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "SS1C15"
       },
       {
         "OriginalFilenames": [ "chapter16", "insert9", "chapter16_1" ],
@@ -521,7 +554,8 @@
         "LateSeason": "Winter",
         "Set": "",
         "Priority": 0,
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "SS1C16"
       },
       {
         "OriginalFilenames": [ "chapter17" ],
@@ -536,7 +570,8 @@
         "LateSeason": "Winter",
         "Set": "",
         "Priority": 0,
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "SS1C17"
       },
       {
         "OriginalFilenames": [ "chapter18" ],
@@ -551,7 +586,8 @@
         "LateSeason": "Winter",
         "Set": "",
         "Priority": 0,
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "SS1C18"
       },
       {
         "OriginalFilenames": [ "chapter19", "insert10", "chapter19_1" ],
@@ -566,7 +602,8 @@
         "LateSeason": "Spring",
         "Set": "",
         "Priority": 0,
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "SS1C19"
       },
       {
         "OriginalFilenames": [ "chapter20" ],
@@ -581,7 +618,8 @@
         "LateSeason": "Spring",
         "Set": "",
         "Priority": 0,
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "SS1C20"
       },
       {
         "OriginalFilenames": [ "chapter21" ],
@@ -596,7 +634,8 @@
         "LateSeason": "Winter",
         "Set": "",
         "Priority": 0,
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "SS1C21"
       }
     ],
     "Afterword": {

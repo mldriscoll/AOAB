@@ -36,7 +36,8 @@
         "EarlySeason": "Winter",
         "LateYear": 6,
         "LateSeason": "Winter",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "P4V1 Extra 1"
       },
       {
         "OriginalFilenames": [ "chapter24", "insert10", "chapter24_1" ],
@@ -49,7 +50,8 @@
         "EarlySeason": "Autumn",
         "LateYear": 6,
         "LateSeason": "Winter",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "P4V1 Extra 2"
       }
     ],
     "ComfyLifeChapter": {
@@ -88,7 +90,8 @@
         "Volume": "0401",
         "Year": 6,
         "Season": "Autumn",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "P4V1"
       },
       {
         "OriginalFilenames": [ "epilogue", "insert9", "epilogue_1" ],
@@ -98,7 +101,8 @@
         "Volume": "0401",
         "Year": 6,
         "Season": "Winter",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "P4V1"
       }
     ],
     "Chapters": [
@@ -330,7 +334,8 @@
         "EarlySeason": "Winter",
         "LateYear": 6,
         "LateSeason": "Winter",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "P4V2 Extra 1"
       },
       {
         "OriginalFilenames": [ "chapter21" ],
@@ -343,7 +348,8 @@
         "EarlySeason": "Winter",
         "LateYear": 6,
         "LateSeason": "Winter",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "P4V2 Extra 2"
       }
     ],
     "ComfyLifeChapter": {
@@ -382,7 +388,8 @@
         "Volume": "0402",
         "Year": 6,
         "Season": "Winter",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "P4V2"
       },
       {
         "OriginalFilenames": [ "epilogue", "insert10" ],
@@ -392,7 +399,8 @@
         "Volume": "0402",
         "Year": 6,
         "Season": "Winter",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "P4V2"
       }
     ],
     "Chapters": [
@@ -597,7 +605,8 @@
         "EarlySeason": "Winter",
         "LateYear": 6,
         "LateSeason": "Winter",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "P4V3 Extra 1"
       },
       {
         "OriginalFilenames": [ "chapter22" ],
@@ -610,7 +619,8 @@
         "EarlySeason": "Winter",
         "LateYear": 6,
         "LateSeason": "Winter",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "P4V3 Extra 2"
       }
     ],
     "ComfyLifeChapter": {
@@ -649,7 +659,8 @@
         "Volume": "0403",
         "Year": 6,
         "Season": "Winter",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "P4V3"
       },
       {
         "OriginalFilenames": [ "epilogue" ],
@@ -659,7 +670,8 @@
         "Volume": "0403",
         "Year": 6,
         "Season": "Winter",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "P4V3"
       }
     ],
     "Chapters": [
@@ -873,7 +885,8 @@
         "EarlySeason": "Spring",
         "LateYear": 6,
         "LateSeason": "Spring",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "P4V4 Extra 1"
       },
       {
         "OriginalFilenames": [ "chapter18" ],
@@ -886,7 +899,8 @@
         "EarlySeason": "Spring",
         "LateYear": 6,
         "LateSeason": "Spring",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "P4V4 Extra 2"
       }
     ],
     "ComfyLifeChapter": {
@@ -925,7 +939,8 @@
         "Volume": "0404",
         "Year": 6,
         "Season": "Winter",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "P4V4"
       },
       {
         "OriginalFilenames": [ "epilogue" ],
@@ -935,7 +950,8 @@
         "Volume": "0404",
         "Year": 6,
         "Season": "Spring",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "P4V4"
       }
     ],
     "Chapters": [
@@ -1113,7 +1129,8 @@
         "EarlySeason": "Summer",
         "LateYear": 7,
         "LateSeason": "Winter",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "P4V5 Extra 1"
       },
       {
         "OriginalFilenames": [ "chapter20" ],
@@ -1126,7 +1143,8 @@
         "EarlySeason": "Autumn",
         "LateYear": 7,
         "LateSeason": "Winter",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "P4V5 Extra 2"
       },
       {
         "OriginalFilenames": [ "chapter21", "insert10", "chapter21_1" ],
@@ -1139,7 +1157,8 @@
         "EarlySeason": "Autumn",
         "LateYear": 7,
         "LateSeason": "Winter",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "P4V5 Extra 3"
       }
     ],
     "ComfyLifeChapter": {
@@ -1178,7 +1197,8 @@
         "Volume": "0405",
         "Year": 6,
         "Season": "Spring",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "P4V5"
       },
       {
         "OriginalFilenames": [ "epilogue" ],
@@ -1188,7 +1208,8 @@
         "Volume": "0405",
         "Year": 7,
         "Season": "Winter",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "P4V5"
       }
     ],
     "Chapters": [
@@ -1384,7 +1405,8 @@
         "LateYear": 7,
         "EarlySeason": "Winter",
         "LateSeason": "Winter",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "P4V6 Extra 1"
       },
       {
         "OriginalFilenames": [ "chapter21" ],
@@ -1397,7 +1419,8 @@
         "LateYear": 7,
         "EarlySeason": "Winter",
         "LateSeason": "Winter",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "P4V6 Extra 2"
       }
     ],
     "ComfyLifeChapter": {
@@ -1436,7 +1459,8 @@
         "Volume": "0406",
         "Year": 7,
         "Season": "Winter",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "P4V6"
       },
       {
         "OriginalFilenames": [ "epilogue", "insert10", "epilogue_1" ],
@@ -1446,7 +1470,8 @@
         "Volume": "0406",
         "Year": 7,
         "Season": "Winter",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "P4V6"
       }
     ],
     "Chapters": [
@@ -1651,7 +1676,8 @@
         "LateYear": 7,
         "EarlySeason": "Winter",
         "LateSeason": "Winter",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "P4V7 Extra 1"
       },
       {
         "OriginalFilenames": [ "chapter20" ],
@@ -1664,7 +1690,8 @@
         "EarlySeason": "Winter",
         "LateYear": 7,
         "LateSeason": "Winter",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "P4V7 Extra 2"
       }
     ],
     "ComfyLifeChapter": {
@@ -1703,7 +1730,8 @@
         "Volume": "0407",
         "Year": 7,
         "Season": "Winter",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "P4V7"
       },
       {
         "OriginalFilenames": [ "epilogue" ],
@@ -1713,7 +1741,8 @@
         "Volume": "0407",
         "Year": 7,
         "Season": "Winter",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "P4V7"
       }
     ],
     "Chapters": [
@@ -1909,7 +1938,8 @@
         "EarlySeason": "Spring",
         "LateYear": 8,
         "LateSeason": "Summer",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "P4V8 Extra 1"
       },
       {
         "OriginalFilenames": [ "chapter22" ],
@@ -1922,7 +1952,8 @@
         "EarlySeason": "Spring",
         "LateYear": 8,
         "LateSeason": "Summer",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "P4V8 Extra 2"
       }
     ],
     "ComfyLifeChapter": {
@@ -1961,7 +1992,8 @@
         "Volume": "0408",
         "Year": 7,
         "Season": "Winter",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "P4V8"
       },
       {
         "OriginalFilenames": [ "epilogue", "insert10" ],
@@ -1971,7 +2003,8 @@
         "Volume": "0408",
         "Year": 8,
         "Season": "Summer",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "P4V8"
       }
     ],
     "Chapters": [
@@ -2185,7 +2218,8 @@
         "EarlySeason": "Winter",
         "LateYear": 8,
         "LateSeason": "Winter",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "P4V9 Extra 1"
       },
       {
         "OriginalFilenames": [ "chapter16" ],
@@ -2198,7 +2232,8 @@
         "EarlySeason": "Winter",
         "LateYear": 8,
         "LateSeason": "Winter",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "P4V9 Extra 2"
       },
       {
         "OriginalFilenames": [ "chapter17" ],
@@ -2211,7 +2246,8 @@
         "EarlySeason": "Winter",
         "LateYear": 8,
         "LateSeason": "Winter",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "P4V9 Extra 3"
       },
       {
         "OriginalFilenames": [ "chapter18", "insert9", "chapter18_1" ],
@@ -2224,7 +2260,8 @@
         "EarlySeason": "Winter",
         "LateYear": 8,
         "LateSeason": "Winter",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "P4V9 Extra 4"
       },
       {
         "OriginalFilenames": [ "chapter19" ],
@@ -2237,7 +2274,8 @@
         "EarlySeason": "Winter",
         "LateYear": 8,
         "LateSeason": "Winter",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "P4V9 Extra 5"
       },
       {
         "OriginalFilenames": [ "chapter20", "insert10", "chapter20_1" ],
@@ -2250,7 +2288,8 @@
         "EarlySeason": "Winter",
         "LateYear": 8,
         "LateSeason": "Winter",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "P4V9 Extra 6"
       },
       {
         "OriginalFilenames": [ "chapter21" ],
@@ -2263,7 +2302,8 @@
         "EarlySeason": "Winter",
         "LateYear": 8,
         "LateSeason": "Winter",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "P4V9 Extra 7"
       },
       {
         "OriginalFilenames": [ "chapter22" ],
@@ -2276,7 +2316,8 @@
         "EarlySeason": "Winter",
         "LateYear": 8,
         "LateSeason": "Winter",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "P4V9 Extra 8"
       }
     ],
     "ComfyLifeChapter": {
@@ -2297,7 +2338,8 @@
         "Volume": "0409",
         "Year": 8,
         "Season": "Summer",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "P4V9"
       },
       {
         "OriginalFilenames": [ "epilogue", "insert8" ],
@@ -2307,7 +2349,8 @@
         "Volume": "0409",
         "Year": 8,
         "Season": "Winter",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "P4V9"
       }
     ],
     "Chapters": [

@@ -15,7 +15,8 @@
         "LateSeason": "Summer",
         "Set": "",
         "Priority": 0,
-        "ProcessedInPartOne": true
+        "ProcessedInPartOne": true,
+        "Source": "M1V1 Bonus"
       }
     ]
   },
@@ -35,7 +36,8 @@
         "LateSeason": "Summer",
         "Set": "",
         "Priority": 0,
-        "ProcessedInPartOne": true
+        "ProcessedInPartOne": true,
+        "Source": "M1V2 Bonus"
       }
     ]
   },
@@ -56,6 +58,7 @@
         "LateYear": 1,
         "LateSeason": "Summer",
         "ProcessedInPartOne": true,
+        "Source": "M1V3 Written Bonus",
         "OCR": {
           "Corrections": [
             {
@@ -102,6 +105,7 @@
         "LateYear": 1,
         "LateSeason": "Autumn",
         "ProcessedInPartOne": true,
+        "Source": "M1V4 Written Bonus",
         "OCR": {
           "Corrections": [
             {
@@ -148,6 +152,7 @@
         "LateYear": 1,
         "LateSeason": "Autumn",
         "ProcessedInPartOne": true,
+        "Source": "M1V5 Written Bonus",
         "OCR": {
           "Corrections": [
           ],
@@ -200,6 +205,7 @@
         "EarlySeason": "Spring",
         "LateYear": 2,
         "LateSeason": "Summer",
+        "Source": "M1V6 Bonus",
         "ProcessedInPartOne": true
       }
     ],
@@ -217,6 +223,7 @@
         "LateYear": 2,
         "LateSeason": "Summer",
         "ProcessedInPartOne": true,
+        "Source": "M1V6 Written Bonus",
         "OCR": {
           "Corrections": [
             {
@@ -275,6 +282,7 @@
         "LateYear": 2,
         "LateSeason": "Summer",
         "ProcessedInPartOne": true,
+        "Source": "M1V7 Written Bonus",
         "OCR": {
           "Corrections": [
             {

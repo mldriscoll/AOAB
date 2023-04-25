@@ -24,7 +24,8 @@
         "Volume": "0201",
         "Year": 2,
         "Season": "Summer",
-        "ProcessedInPartTwo": true
+        "ProcessedInPartTwo": true,
+        "Source": "P2V1"
       },
       {
         "OriginalFilenames": [ "epilogue" ],
@@ -34,7 +35,8 @@
         "Volume": "0201",
         "Year": 2,
         "Season": "Summer",
-        "ProcessedInPartTwo": true
+        "ProcessedInPartTwo": true,
+        "Source": "P2V1"
       }
     ],
     "BonusChapters": [
@@ -49,7 +51,8 @@
         "LateYear": 2,
         "EarlySeason": "Summer",
         "LateSeason": "Summer",
-        "ProcessedInPartTwo": true
+        "ProcessedInPartTwo": true,
+        "Source": "P2V1 Extra 1"
       },
       {
         "OriginalFilenames": [ "extra2" ],
@@ -62,7 +65,8 @@
         "LateYear": 2,
         "EarlySeason": "Summer",
         "LateSeason": "Summer",
-        "ProcessedInPartTwo": true
+        "ProcessedInPartTwo": true,
+        "Source": "P2V1 Extra 2"
       }
     ],
     "Chapters": [
@@ -330,7 +334,8 @@
         "LateYear": 2,
         "EarlySeason": "Summer",
         "LateSeason": "Autumn",
-        "ProcessedInPartTwo": true
+        "ProcessedInPartTwo": true,
+        "Source": "P2V2 Extra 1"
       },
       {
         "OriginalFilenames": [ "extra2" ],
@@ -343,7 +348,8 @@
         "EarlyYear": 2,
         "LateYear": 2,
         "EarlySeason": "Autumn",
-        "LateSeason": "Autumn"
+        "LateSeason": "Autumn",
+        "Source": "P2V2 Extra 2"
       }
     ],
     "POVChapters": [
@@ -355,7 +361,8 @@
         "Volume": "0202",
         "Year": 2,
         "Season": "Summer",
-        "ProcessedInPartTwo": true
+        "ProcessedInPartTwo": true,
+        "Source": "P2V2"
       },
       {
         "OriginalFilenames": [ "epilogue", "insert8", "epilogue_1" ],
@@ -365,7 +372,8 @@
         "Volume": "0202",
         "Year": 2,
         "Season": "Autumn",
-        "ProcessedInPartTwo": true
+        "ProcessedInPartTwo": true,
+        "Source": "P2V2"
       }
     ],
     "Chapters": [
@@ -633,7 +641,8 @@
         "LateYear": 2,
         "EarlySeason": "Spring",
         "LateSeason": "Spring",
-        "ProcessedInPartTwo": true
+        "ProcessedInPartTwo": true,
+        "Source": "P2V3 Extra 1"
       },
       {
         "OriginalFilenames": [ "extra2", "insert9", "extra2_1" ],
@@ -646,7 +655,8 @@
         "LateYear": 2,
         "EarlySeason": "Spring",
         "LateSeason": "Spring",
-        "ProcessedInPartTwo": true
+        "ProcessedInPartTwo": true,
+        "Source": "P2V3 Extra 2"
       }
     ],
     "POVChapters": [
@@ -658,7 +668,8 @@
         "Volume": "0203",
         "Year": 2,
         "Season": "Autumn",
-        "ProcessedInPartTwo": true
+        "ProcessedInPartTwo": true,
+        "Source": "P2V3"
       },
       {
         "OriginalFilenames": [ "epilogue" ],
@@ -668,7 +679,8 @@
         "Volume": "0203",
         "Year": 2,
         "Season": "Spring",
-        "ProcessedInPartTwo": true
+        "ProcessedInPartTwo": true,
+        "Source": "P2V3"
       }
     ],
     "Chapters": [
@@ -900,7 +912,8 @@
         "EarlySeason": "Spring",
         "LateYear": 2,
         "LateSeason": "Spring",
-        "ProcessedInPartTwo": true
+        "ProcessedInPartTwo": true,
+        "Source": "P2V4 Extra 1"
       },
       {
         "OriginalFilenames": [ "extra2" ],
@@ -913,7 +926,8 @@
         "EarlySeason": "Spring",
         "LateYear": 2,
         "LateSeason": "Spring",
-        "ProcessedInPartTwo": true
+        "ProcessedInPartTwo": true,
+        "Source": "P2V4 Extra 2"
       },
       {
         "OriginalFilenames": [ "extra3" ],
@@ -926,7 +940,8 @@
         "EarlySeason": "Spring",
         "LateYear": 2,
         "LateSeason": "Spring",
-        "ProcessedInPartTwo": true
+        "ProcessedInPartTwo": true,
+        "Source": "P2V4 Extra 3"
       },
       {
         "OriginalFilenames": [ "extra4" ],
@@ -939,7 +954,8 @@
         "EarlySeason": "Spring",
         "LateYear": 2,
         "LateSeason": "Spring",
-        "ProcessedInPartTwo": true
+        "ProcessedInPartTwo": true,
+        "Source": "P2V4 Extra 4"
       },
       {
         "OriginalFilenames": [ "extra5" ],
@@ -952,7 +968,8 @@
         "EarlySeason": "Spring",
         "LateYear": 2,
         "LateSeason": "Spring",
-        "ProcessedInPartTwo": true
+        "ProcessedInPartTwo": true,
+        "Source": "P2V4 Extra 5"
       },
       {
         "OriginalFilenames": [ "extra6", "insert9" ],
@@ -965,7 +982,8 @@
         "EarlySeason": "Spring",
         "LateYear": 2,
         "LateSeason": "Spring",
-        "ProcessedInPartTwo": true
+        "ProcessedInPartTwo": true,
+        "Source": "P2V4 Extra 6"
       },
       {
         "OriginalFilenames": [ "extra7" ],
@@ -978,7 +996,8 @@
         "EarlySeason": "Spring",
         "LateYear": 2,
         "LateSeason": "Spring",
-        "ProcessedInPartTwo": true
+        "ProcessedInPartTwo": true,
+        "Source": "P2V4 Extra 7"
       },
       {
         "OriginalFilenames": [ "extra8" ],
@@ -991,7 +1010,8 @@
         "EarlySeason": "Spring",
         "LateYear": 2,
         "LateSeason": "Spring",
-        "ProcessedInPartTwo": true
+        "ProcessedInPartTwo": true,
+        "Source": "P2V4 Extra 8"
       }
     ],
     "CharacterSheet": {
@@ -1013,7 +1033,8 @@
         "Year": 2,
         "Season": "Spring",
         "Volume": "0204",
-        "ProcessedInPartTwo": true
+        "ProcessedInPartTwo": true,
+        "Source": "P2V4"
       },
       {
         "OriginalFilenames": [ "epilogue", "insert8", "epilogue_1" ],
@@ -1023,7 +1044,8 @@
         "Year": 2,
         "Season": "Spring",
         "Volume": "0204",
-        "ProcessedInPartTwo": true
+        "ProcessedInPartTwo": true,
+        "Source": "P2V4"
       }
     ],
     "Chapters": [

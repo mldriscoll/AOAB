@@ -27,7 +27,8 @@
         "EarlySeason": "Spring",
         "LateYear": 3,
         "LateSeason": "Summer",
-        "ProcessedInPartThree": true
+        "ProcessedInPartThree": true,
+        "Source": "P3V1 Extra 1"
       },
       {
         "OriginalFilenames": [ "extra2" ],
@@ -40,7 +41,8 @@
         "EarlySeason": "Summer",
         "LateYear": 3,
         "LateSeason": "Summer",
-        "ProcessedInPartThree": true
+        "ProcessedInPartThree": true,
+        "Source": "P3V1 Extra 2"
       }
     ],
     "CharacterPoll": {
@@ -58,7 +60,8 @@
         "Volume": "0301",
         "Year": 2,
         "Season": "Spring",
-        "ProcessedInPartThree": true
+        "ProcessedInPartThree": true,
+        "Source": "P3V1"
       },
       {
         "OriginalFilenames": [ "epilogue", "insert9", "epilogue_1" ],
@@ -68,7 +71,8 @@
         "Volume": "0301",
         "Year": 3,
         "Season": "Summer",
-        "ProcessedInPartThree": true
+        "ProcessedInPartThree": true,
+        "Source": "P3V1"
       }
     ],
     "Chapters": [
@@ -309,7 +313,8 @@
         "EarlySeason": "Autumn",
         "LateYear": 3,
         "LateSeason": "Autumn",
-        "ProcessedInPartThree": true
+        "ProcessedInPartThree": true,
+        "Source": "P3V2 Extra 1"
       },
       {
         "OriginalFilenames": [ "extra2" ],
@@ -322,7 +327,8 @@
         "EarlySeason": "Autumn",
         "LateYear": 3,
         "LateSeason": "Autumn",
-        "ProcessedInPartThree": true
+        "ProcessedInPartThree": true,
+        "Source": "P3V2 Extra 2"
       },
       {
         "OriginalFilenames": [ "extra3" ],
@@ -335,7 +341,8 @@
         "EarlySeason": "Autumn",
         "LateYear": 3,
         "LateSeason": "Autumn",
-        "ProcessedInPartThree": true
+        "ProcessedInPartThree": true,
+        "Source": "P3V2 Extra 3"
       }
     ],
     "POVChapters": [
@@ -347,7 +354,8 @@
         "Volume": "0302",
         "Year": 3,
         "Season": "Summer",
-        "ProcessedInPartThree": true
+        "ProcessedInPartThree": true,
+        "Source": "P3V2"
       },
       {
         "OriginalFilenames": [ "epilogue" ],
@@ -357,7 +365,8 @@
         "Volume": "0302",
         "Year": 3,
         "Season": "Autumn",
-        "ProcessedInPartThree": true
+        "ProcessedInPartThree": true,
+        "Source": "P3V2"
       }
     ],
     "Chapters": [
@@ -571,7 +580,8 @@
         "EarlySeason": "Winter",
         "LateYear": 3,
         "LateSeason": "Spring",
-        "ProcessedInPartThree": true
+        "ProcessedInPartThree": true,
+        "Source": "P3V3 Extra 1"
       },
       {
         "OriginalFilenames": [ "extra2" ],
@@ -584,7 +594,8 @@
         "EarlySeason": "Autumn",
         "LateYear": 3,
         "LateSeason": "Spring",
-        "ProcessedInPartThree": true
+        "ProcessedInPartThree": true,
+        "Source": "P3V3 Extra 2"
       }
     ],
     "ComfyLifeChapter": {
@@ -623,7 +634,8 @@
         "Volume": "0303",
         "Year": 3,
         "Season": "Autumn",
-        "ProcessedInPartThree": true
+        "ProcessedInPartThree": true,
+        "Source": "P3V3"
       },
       {
         "OriginalFilenames": [ "epilogue" ],
@@ -633,7 +645,8 @@
         "Volume": "0303",
         "Year": 3,
         "Season": "Spring",
-        "ProcessedInPartThree": true
+        "ProcessedInPartThree": true,
+        "Source": "P3V3"
       }
     ],
     "Chapters": [
@@ -847,7 +860,8 @@
         "EarlySeason": "Summer",
         "LateYear": 4,
         "LateSeason": "Summer",
-        "ProcessedInPartThree": true
+        "ProcessedInPartThree": true,
+        "Source": "P3V4 Extra 1"
       },
       {
         "OriginalFilenames": [ "chapter21", "insert9", "chapter21_1" ],
@@ -860,7 +874,8 @@
         "EarlySeason": "Summer",
         "LateYear": 4,
         "LateSeason": "Summer",
-        "ProcessedInPartThree": true
+        "ProcessedInPartThree": true,
+        "Source": "P3V4 Extra 2"
       },
       {
         "OriginalFilenames": [ "chapter22" ],
@@ -873,7 +888,8 @@
         "EarlySeason": "Summer",
         "LateYear": 4,
         "LateSeason": "Summer",
-        "ProcessedInPartThree": true
+        "ProcessedInPartThree": true,
+        "Source": "P3V4 Extra 3"
       }
     ],
     "POVChapters": [
@@ -885,7 +901,8 @@
         "Volume": "0304",
         "Year": 3,
         "Season": "Spring",
-        "ProcessedInPartThree": true
+        "ProcessedInPartThree": true,
+        "Source": "P3V4"
       },
       {
         "OriginalFilenames": [ "epilogue" ],
@@ -895,7 +912,8 @@
         "Volume": "0304",
         "Year": 4,
         "Season": "Summer",
-        "ProcessedInPartThree": true
+        "ProcessedInPartThree": true,
+        "Source": "P3V4"
       }
     ],
     "Chapters": [
@@ -1127,7 +1145,8 @@
         "EarlySeason": "Winter",
         "LateYear": 6,
         "LateSeason": "Autumn",
-        "ProcessedInPartThree": true
+        "ProcessedInPartThree": true,
+        "Source": "P3V5 Extra 1"
       },
       {
         "OriginalFilenames": [ "chapter16", "insert6", "chapter16_1" ],
@@ -1140,7 +1159,8 @@
         "EarlySeason": "Spring",
         "LateYear": 6,
         "LateSeason": "Autumn",
-        "ProcessedInPartThree": true
+        "ProcessedInPartThree": true,
+        "Source": "P3V5 Extra 2"
       },
       {
         "OriginalFilenames": [ "chapter17" ],
@@ -1153,7 +1173,8 @@
         "EarlySeason": "Summer",
         "LateYear": 6,
         "LateSeason": "Autumn",
-        "ProcessedInPartThree": true
+        "ProcessedInPartThree": true,
+        "Source": "P3V5 Extra 3"
       },
       {
         "OriginalFilenames": [ "chapter18", "insert7", "chapter18_1", "insert8", "chapter18_2" ],
@@ -1166,7 +1187,8 @@
         "EarlySeason": "Autumn",
         "LateYear": 6,
         "LateSeason": "Autumn",
-        "ProcessedInPartThree": true
+        "ProcessedInPartThree": true,
+        "Source": "P3V5 Extra 4"
       },
       {
         "OriginalFilenames": [ "chapter19", "insert9", "chapter19_1" ],
@@ -1179,7 +1201,8 @@
         "EarlySeason": "Autumn",
         "LateYear": 6,
         "LateSeason": "Autumn",
-        "ProcessedInPartThree": true
+        "ProcessedInPartThree": true,
+        "Source": "P3V5 Extra 5"
       },
       {
         "OriginalFilenames": [ "chapter20" ],
@@ -1192,7 +1215,8 @@
         "EarlySeason": "Summer",
         "LateYear": 6,
         "LateSeason": "Autumn",
-        "ProcessedInPartThree": true
+        "ProcessedInPartThree": true,
+        "Source": "P3V5 Extra 6"
       },
       {
         "OriginalFilenames": [ "chapter21" ],
@@ -1205,7 +1229,8 @@
         "EarlySeason": "Summer",
         "LateYear": 6,
         "LateSeason": "Autumn",
-        "ProcessedInPartThree": true
+        "ProcessedInPartThree": true,
+        "Source": "P3V5 Extra 7"
       }
     ],
     "ComfyLifeChapter": {
@@ -1266,7 +1291,8 @@
         "Volume": "0305",
         "Year": 4,
         "Season": "Autumn",
-        "ProcessedInPartThree": true
+        "ProcessedInPartThree": true,
+        "Source": "P3V5"
       },
       {
         "OriginalFilenames": [ "epilogue" ],
@@ -1276,7 +1302,8 @@
         "Volume": "0305",
         "Year": 6,
         "Season": "Autumn",
-        "ProcessedInPartThree": true
+        "ProcessedInPartThree": true,
+        "Source": "P3V5"
       }
     ],
     "Chapters": [

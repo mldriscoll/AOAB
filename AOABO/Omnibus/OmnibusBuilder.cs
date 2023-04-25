@@ -121,6 +121,8 @@ namespace AOABO.Omnibus
             IFolder folder = Configuration.Options.OutputYearFormat == 0 ? new YearNumberFolder() : new YearFolder();
             Configuration.ReloadVolumes();
 
+            var povChapters = new List<Chapters.MoveableChapter>();
+
             foreach (var vol in Configuration.VolumeNames)
             {
                 try
@@ -180,6 +182,10 @@ namespace AOABO.Omnibus
                         chapters = BuildChapterList(volume, c => true);
                         break;
                 }
+
+#if DEBUG
+                povChapters.AddRange(chapters.Where(x => x is MoveableChapter).Select(x => (MoveableChapter)x).Where(x => !string.IsNullOrWhiteSpace(x.POV)));
+#endif
 
                 var inChapters = inProcessor.Chapters.Where(x => x.SubFolder.Contains(volume.InternalName)).ToList();
                 foreach (var chapter in chapters)
@@ -280,6 +286,42 @@ namespace AOABO.Omnibus
             await outProcessor.FullOutput(outputFolder, false, Configuration.Options.UseHumanReadableFileStructure, Configuration.Options.Folder.DeleteTempFolder, bookTitle, Configuration.Options.Image.MaxWidth, Configuration.Options.Image.MaxHeight, Configuration.Options.Image.Quality);
 
             if (Directory.Exists($"{inputFolder}\\inputtemp")) Directory.Delete($"{inputFolder}\\inputtemp", true);
+
+#if DEBUG
+            // Remove Duplicate Chapters
+            foreach (var set in povChapters.Where(x => !string.IsNullOrWhiteSpace(x.Set)).GroupBy(x => x.Set).ToList().Where(x => x.Count() > 1))
+            {
+                var minPriority = set.Min(x => x.Priority);
+                povChapters.RemoveAll(x => x.Set.Equals(set.Key) && x.Priority > minPriority);
+            }
+
+            List<string> tableRows = new List<string>
+            {
+                "|Character|Chapter|Name|",
+                "|-|-|-|"
+            };
+            foreach(var character in povChapters.GroupBy(x => x.POV).OrderBy(x => x.Key))
+            {
+                var first = true;
+                foreach(var chapter in character.OrderBy(x => string.IsNullOrEmpty(x.EarlySortOrder) ? x.SortOrder : x.EarlySortOrder))
+                {
+                    var name = chapter.ChapterName.Equals("Prologue") || chapter.ChapterName.Equals("Epilogue") ? $"*{chapter.ChapterName}*" : $"**{chapter.ChapterName}**";
+
+                    if (first)
+                    {
+                        tableRows.Add($"|{character.Key}|{chapter.Source}|{name}");
+                        first = false;
+                    }
+                    else
+                    {
+                        tableRows.Add($"| |{chapter.Source}|{name}");
+                    }
+                }
+                tableRows.Add("");
+            }
+
+            await File.WriteAllLinesAsync("POVList.txt", tableRows);
+#endif
 
             Console.WriteLine($"\"{bookTitle}\" creation complete. Press any key to continue.");
             Console.ReadKey();

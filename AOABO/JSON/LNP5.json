@@ -27,7 +27,8 @@
         "EarlySeason": "Winter",
         "LateYear": 8,
         "LateSeason": "Winter",
-        "ProcessedInPartFive": true
+        "ProcessedInPartFive": true,
+        "Source": "P5V1 Extra 1"
       },
       {
         "OriginalFilenames": [ "chapter23" ],
@@ -40,7 +41,8 @@
         "EarlySeason": "Winter",
         "LateYear": 8,
         "LateSeason": "Winter",
-        "ProcessedInPartFive": true
+        "ProcessedInPartFive": true,
+        "Source": "P5V1 Extra 2"
       }
     ],
     "ComfyLifeChapter": {
@@ -61,7 +63,8 @@
         "Volume": "0501",
         "Year": 8,
         "Season": "Winter",
-        "ProcessedInPartFive": true
+        "ProcessedInPartFive": true,
+        "Source": "P5V1"
       },
       {
         "OriginalFilenames": [ "chapter21" ],
@@ -71,7 +74,8 @@
         "Volume": "0501",
         "Year": 8,
         "Season": "Winter",
-        "ProcessedInPartFive": true
+        "ProcessedInPartFive": true,
+        "Source": "P5V1"
       }
     ],
     "Chapters": [
@@ -377,7 +381,8 @@
         "Volume": "0502",
         "Year": 8,
         "Season": "Winter",
-        "ProcessedInPartFive": true
+        "ProcessedInPartFive": true,
+        "Source": "P5V2"
       },
       {
         "OriginalFilenames": [ "chapter14", "insert9", "chapter14_1" ],
@@ -387,7 +392,8 @@
         "Volume": "0502",
         "Year": 8,
         "Season": "Winter",
-        "ProcessedInPartFive": true
+        "ProcessedInPartFive": true,
+        "Source": "P5V2"
       }
     ],
     "Chapters": [
@@ -521,7 +527,8 @@
         "LateYear": 8,
         "EarlySeason": "Winter",
         "LateSeason": "Winter",
-        "ProcessedInPartFive": true
+        "ProcessedInPartFive": true,
+        "Source": "P5V2 Extra 1"
       },
       {
         "OriginalFilenames": [ "chapter16" ],
@@ -534,7 +541,8 @@
         "LateYear": 8,
         "EarlySeason": "Winter",
         "LateSeason": "Winter",
-        "ProcessedInPartFive": true
+        "ProcessedInPartFive": true,
+        "Source": "P5V2 Extra 2"
       },
       {
         "OriginalFilenames": [ "chapter17" ],
@@ -547,7 +555,8 @@
         "LateYear": 8,
         "EarlySeason": "Winter",
         "LateSeason": "Winter",
-        "ProcessedInPartFive": true
+        "ProcessedInPartFive": true,
+        "Source": "P5V2 Extra 3"
       }
     ]
   },
@@ -604,7 +613,8 @@
         "Volume": "0503",
         "Year": 8,
         "Season": "Winter",
-        "ProcessedInPartFive": true
+        "ProcessedInPartFive": true,
+        "Source": "P5V3"
       },
       {
         "OriginalFilenames": [ "chapter17", "insert10", "chapter17_1" ],
@@ -614,7 +624,8 @@
         "Volume": "0503",
         "Year": 8,
         "Season": "Winter",
-        "ProcessedInPartFive": true
+        "ProcessedInPartFive": true,
+        "Source": "P5V3"
       }
     ],
     "Chapters": [
@@ -775,7 +786,8 @@
         "LateYear": 8,
         "EarlySeason": "Winter",
         "LateSeason": "Winter",
-        "ProcessedInPartFive": true
+        "ProcessedInPartFive": true,
+        "Source": "P5V3 Extra 1"
       },
       {
         "OriginalFilenames": [ "chapter19" ],
@@ -788,7 +800,8 @@
         "LateYear": 8,
         "EarlySeason": "Winter",
         "LateSeason": "Winter",
-        "ProcessedInPartFive": true
+        "ProcessedInPartFive": true,
+        "Source": "P5V3 Extra 2"
       },
       {
         "OriginalFilenames": [ "chapter20" ],
@@ -801,7 +814,8 @@
         "LateYear": 8,
         "EarlySeason": "Winter",
         "LateSeason": "Winter",
-        "ProcessedInPartFive": true
+        "ProcessedInPartFive": true,
+        "Source": "P5V3 Extra 3"
       }
     ]
   }

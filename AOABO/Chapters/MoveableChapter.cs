@@ -4,6 +4,7 @@
     {
         public string OverrideName { get; set; } = string.Empty;
         public string POV { get; set; } = string.Empty;
+        public string Source { get; set; } = string.Empty;
         public void ApplyPOVToTitle()
         {
             if (!string.IsNullOrWhiteSpace(POV))

@@ -27,7 +27,8 @@
         "EarlySeason": "Spring",
         "LateYear": 2,
         "LateSeason": "Spring",
-        "ProcessedInPartTwo": true
+        "ProcessedInPartTwo": true,
+        "Source": "FB1 Story"
       }
     ],
     "MangaChapters": [
@@ -44,7 +45,8 @@
         "LateSeason": "Summer",
         "Set": "MyDaughter",
         "Priority": 2,
-        "ProcessedInPartOne": true
+        "ProcessedInPartOne": true,
+        "Source": "FB1 Bonus Manga"
       }
     ],
     "ComfyLifeChapter": {
@@ -114,7 +116,8 @@
         "LateSeason": "Summer",
         "Set": "",
         "Priority": 0,
-        "ProcessedInPartOne": true
+        "ProcessedInPartOne": true,
+        "Source": "FB2 Story 1"
       },
       {
         "OriginalFilenames": [ "side2" ],
@@ -129,7 +132,8 @@
         "Volume": "0201",
         "ProcessedInPartTwo": true,
         "Set": "NotGiving",
-        "Priority": 1
+        "Priority": 1,
+        "Source": "FB2 Story 2"
       },
       {
         "OriginalFilenames": [ "side3" ],
@@ -142,7 +146,8 @@
         "LateYear": 2,
         "LateSeason": "Autumn",
         "Volume": "0202",
-        "ProcessedInPartTwo": true
+        "ProcessedInPartTwo": true,
+        "Source": "FB2 Story 3"
       },
       {
         "OriginalFilenames": [ "side4" ],
@@ -157,7 +162,8 @@
         "Volume": "0202",
         "ProcessedInPartTwo": true,
         "Set": "LPB",
-        "Priority": 1
+        "Priority": 1,
+        "Source": "FB2 Story 4"
       },
       {
         "OriginalFilenames": [ "side5" ],
@@ -172,7 +178,8 @@
         "LateSeason": "Summer",
         "Set": "TeaParty",
         "Priority": 1,
-        "ProcessedInPartThree": true
+        "ProcessedInPartThree": true,
+        "Source": "FB2 Story 5"
       },
       {
         "OriginalFilenames": [ "side6" ],
@@ -187,7 +194,8 @@
         "LateSeason": "Autumn",
         "Set": "",
         "Priority": 0,
-        "ProcessedInPartThree": true
+        "ProcessedInPartThree": true,
+        "Source": "FB2 Story 6"
       },
       {
         "OriginalFilenames": [ "side7", "3", "side7_1" ],
@@ -200,7 +208,8 @@
         "EarlySeason": "Winter",
         "LateYear": 6,
         "LateSeason": "Winter",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "FB2 Story 7"
       }
     ],
     "ComfyLifeChapter": {
@@ -288,7 +297,8 @@
         "EarlySeason": "Winter",
         "LateYear": 6,
         "LateSeason": "Winter",
-        "ProcessedInPartFour": true
+        "ProcessedInPartFour": true,
+        "Source": "FB3 Story"
       }
     ],
     "MangaChapters": [

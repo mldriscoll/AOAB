@@ -9,7 +9,8 @@
         "ChapterName": "Prologue",
         "Year": -1,
         "ProcessedInPartOne": true,
-        "Volume": "0101"
+        "Volume": "0101",
+        "Source": "P1V1"
       },
       {
         "OriginalFilenames": [ "epilogue", "insert9", "epilogue1" ],
@@ -19,7 +20,8 @@
         "Year": 1,
         "Season": "Summer",
         "ProcessedInPartOne": true,
-        "Volume": "0101"
+        "Volume": "0101",
+        "Source": "P1V1"
       }
     ],
     "Chapters": [
@@ -267,7 +269,8 @@
         "LateSeason": "Summer",
         "Set": "",
         "Priority": 0,
-        "ProcessedInPartOne": true
+        "ProcessedInPartOne": true,
+        "Source": "P1V1 Extra 2"
       },
       {
         "OriginalFilenames": [ "extra1" ],
@@ -282,7 +285,8 @@
         "LateSeason": "Summer",
         "Set": "",
         "Priority": 0,
-        "ProcessedInPartOne": true
+        "ProcessedInPartOne": true,
+        "Source": "P1V1 Extra 1"
       }
     ],
     "Afterword": {
@@ -309,7 +313,8 @@
         "EarlySeason": "Autumn",
         "LateSeason": "Autumn",
         "ProcessedInPartOne": true,
-        "Volume": "0102"
+        "Volume": "0102",
+        "Source": "P1V2 Extra 2"
       },
       {
         "OriginalFilenames": [ "extra1" ],
@@ -322,7 +327,8 @@
         "EarlySeason": "Autumn",
         "LateSeason": "Autumn",
         "ProcessedInPartOne": true,
-        "Volume": "0102"
+        "Volume": "0102",
+        "Source": "P1V2 Extra 1"
       }
     ],
     "POVChapters": [
@@ -334,7 +340,8 @@
         "Year": 1,
         "Season": "Summer",
         "ProcessedInPartOne": true,
-        "Volume": "0102"
+        "Volume": "0102",
+        "Source": "P1V2"
       },
       {
         "OriginalFilenames": [ "epilogue" ],
@@ -344,7 +351,8 @@
         "Year": 1,
         "Season": "Autumn",
         "ProcessedInPartOne": true,
-        "Volume": "0102"
+        "Volume": "0102",
+        "Source": "P1V2"
       }
     ],
     "Chapters": [
@@ -590,7 +598,8 @@
         "EarlySeason": "Summer",
         "LateSeason": "Summer",
         "ProcessedInPartOne": true,
-        "Volume": "0103"
+        "Volume": "0103",
+        "Source": "P1V3 Extra 1"
       },
       {
         "OriginalFilenames": [ "extra2" ],
@@ -603,7 +612,8 @@
         "EarlySeason": "Summer",
         "LateSeason": "Summer",
         "ProcessedInPartOne": true,
-        "Volume": "0103"
+        "Volume": "0103",
+        "Source": "P1V3 Extra 2"
       },
       {
         "OriginalFilenames": [ "extra3", "insert8", "extra3_1" ],
@@ -616,7 +626,8 @@
         "EarlySeason": "Summer",
         "LateSeason": "Summer",
         "ProcessedInPartOne": true,
-        "Volume": "0103"
+        "Volume": "0103",
+        "Source": "P1V3 Extra 3"
       },
       {
         "OriginalFilenames": [ "extra4" ],
@@ -629,7 +640,8 @@
         "EarlySeason": "Summer",
         "LateSeason": "Summer",
         "ProcessedInPartOne": true,
-        "Volume": "0103"
+        "Volume": "0103",
+        "Source": "P1V3 Extra 4"
       },
       {
         "OriginalFilenames": [ "extra5", "insert9", "extra5_1" ],
@@ -642,7 +654,8 @@
         "EarlySeason": "Summer",
         "LateSeason": "Summer",
         "ProcessedInPartOne": true,
-        "Volume": "0103"
+        "Volume": "0103",
+        "Source": "P1V3 Extra 5"
       },
       {
         "OriginalFilenames": [ "extra6" ],
@@ -655,7 +668,8 @@
         "EarlySeason": "Summer",
         "LateSeason": "Summer",
         "Volume": "0103",
-        "ProcessedInPartOne": true
+        "ProcessedInPartOne": true,
+        "Source": "P1V3 Extra 6"
       }
     ],
     "Maps": [
@@ -679,7 +693,8 @@
         "Year": 1,
         "Season": "Autumn",
         "ProcessedInPartOne": true,
-        "Volume": "0103"
+        "Volume": "0103",
+        "Source": "P1V3"
       },
       {
         "OriginalFilenames": [ "epilogue" ],
@@ -689,7 +704,8 @@
         "Year": 2,
         "Season": "Summer",
         "ProcessedInPartOne": true,
-        "Volume": "0103"
+        "Volume": "0103",
+        "Source": "P1V3"
       }
     ],
     "Chapters": [
