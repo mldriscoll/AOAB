@@ -32,7 +32,7 @@
       {
         "OriginalFilenames": [ "extra2" ],
         "EarlySortOrder": "030112b",
-        "LateSortOrder": "030196b",
+        "LateSortOrder": "030196e",
         "POV": "Hugo",
         "ChapterName": "One Stressed-Out Chef",
         "Volume": "0301",
@@ -101,7 +101,7 @@
       },
       {
         "OriginalFilenames": [ "chapter4", "insert2", "chapter4_1" ],
-        "SortOrder": "030104",
+        "SortOrder": "030104a",
         "ChapterName": "Adoption",
         "Volume": "0301",
         "Year": 3,
@@ -146,7 +146,7 @@
       },
       {
         "OriginalFilenames": [ "chapter9" ],
-        "SortOrder": "030109",
+        "SortOrder": "030109a",
         "ChapterName": "The Archduke's Castle",
         "Volume": "0301",
         "Year": 3,
@@ -314,7 +314,7 @@
       {
         "OriginalFilenames": [ "extra2" ],
         "EarlySortOrder": "030216b",
-        "LateSortOrder": "030296b",
+        "LateSortOrder": "030296c",
         "POV": "Thore",
         "ChapterName": "Hasse's Orphans",
         "Volume": "0302",
@@ -327,7 +327,7 @@
       {
         "OriginalFilenames": [ "extra3" ],
         "EarlySortOrder": "030209c",
-        "LateSortOrder": "030296c",
+        "LateSortOrder": "030296b",
         "POV": "Justus",
         "ChapterName": "Justus's Grand Lower City Infiltration",
         "Volume": "0302",
@@ -507,7 +507,7 @@
       },
       {
         "OriginalFilenames": [ "chapter17" ],
-        "SortOrder": "030217",
+        "SortOrder": "030217a",
         "ChapterName": "My Winter Preparations",
         "Volume": "0302",
         "Year": 3,
@@ -563,7 +563,7 @@
       {
         "OriginalFilenames": [ "extra1" ],
         "EarlySortOrder": "030307b",
-        "LateSortOrder": "030396a",
+        "LateSortOrder": "030396b",
         "POV": "Lamprecht",
         "ChapterName": "Winter Debut and the Playroom",
         "Volume": "0303",
@@ -576,7 +576,7 @@
       {
         "OriginalFilenames": [ "extra2" ],
         "EarlySortOrder": "030302b",
-        "LateSortOrder": "030396b",
+        "LateSortOrder": "030396a",
         "POV": "Ingo",
         "ChapterName": "The High Bishop's Exclusive Business",
         "Volume": "0303",
@@ -839,7 +839,7 @@
       {
         "OriginalFilenames": [ "chapter20" ],
         "EarlySortOrder": "030419b",
-        "LateSortOrder": "030496a",
+        "LateSortOrder": "030496d",
         "POV": "Florencia",
         "ChapterName": "Tea Party",
         "Volume": "0304",
@@ -946,7 +946,7 @@
       },
       {
         "OriginalFilenames": [ "chapter6", "insert2", "chapter6_1" ],
-        "SortOrder": "030406",
+        "SortOrder": "030406a",
         "ChapterName": "Angelica's Manablade",
         "Volume": "0304",
         "Year": 3,
@@ -1118,8 +1118,8 @@
     "BonusChapters": [
       {
         "OriginalFilenames": [ "chapter15" ],
-        "EarlySortOrder": "030514b",
-        "LateSortOrder": "030596a",
+        "EarlySortOrder": "030514c",
+        "LateSortOrder": "030596c",
         "POV": "Bonifatius",
         "ChapterName": "Grandfather on the Day of the Baptism",
         "Volume": "0305",
@@ -1131,8 +1131,8 @@
       },
       {
         "OriginalFilenames": [ "chapter16", "insert6", "chapter16_1" ],
-        "EarlySortOrder": "030514c",
-        "LateSortOrder": "030596b",
+        "EarlySortOrder": "030514e",
+        "LateSortOrder": "030596e",
         "POV": "Charlotte",
         "ChapterName": "In Place of My Older Sister",
         "Volume": "0305",
@@ -1144,8 +1144,8 @@
       },
       {
         "OriginalFilenames": [ "chapter17" ],
-        "EarlySortOrder": "030514d",
-        "LateSortOrder": "030596c",
+        "EarlySortOrder": "030514f",
+        "LateSortOrder": "030596f",
         "POV": "Giebe Illgner",
         "ChapterName": "Two Marriages",
         "Volume": "0305",
@@ -1157,8 +1157,8 @@
       },
       {
         "OriginalFilenames": [ "chapter18", "insert7", "chapter18_1", "insert8", "chapter18_2" ],
-        "EarlySortOrder": "030514g",
-        "LateSortOrder": "030596d",
+        "EarlySortOrder": "030514i",
+        "LateSortOrder": "030596i",
         "POV": "Lutz",
         "ChapterName": "No Rest for Us",
         "Volume": "0305",
@@ -1170,8 +1170,8 @@
       },
       {
         "OriginalFilenames": [ "chapter19", "insert9", "chapter19_1" ],
-        "EarlySortOrder": "030514h",
-        "LateSortOrder": "030596e",
+        "EarlySortOrder": "030514j",
+        "LateSortOrder": "030596j",
         "POV": "Fran",
         "ChapterName": "Meanwhile at the Temple",
         "Volume": "0305",
@@ -1183,8 +1183,8 @@
       },
       {
         "OriginalFilenames": [ "chapter20" ],
-        "EarlySortOrder": "030514e",
-        "LateSortOrder": "030596f",
+        "EarlySortOrder": "030514g",
+        "LateSortOrder": "030596g",
         "POV": "Damuel",
         "ChapterName": "The Laynoble Guard Knight",
         "Volume": "0305",
@@ -1196,8 +1196,8 @@
       },
       {
         "OriginalFilenames": [ "chapter21" ],
-        "EarlySortOrder": "030514f",
-        "LateSortOrder": "030596g",
+        "EarlySortOrder": "030514h",
+        "LateSortOrder": "030596h",
         "POV": "Ella",
         "ChapterName": "One Handful of a Chef",
         "Volume": "0305",
