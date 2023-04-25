@@ -19,7 +19,7 @@
       {
         "OriginalFilenames": [ "temple", "24", "temple_1" ],
         "EarlySortOrder": "020415f",
-        "LateSortOrder": "020496h",
+        "LateSortOrder": "020496f",
         "ChapterName": "Temple Tour",
         "POV": "Nicola",
         "Volume": "0204",
@@ -118,8 +118,8 @@
       },
       {
         "OriginalFilenames": [ "side2" ],
-        "EarlySortOrder": "020126",
-        "LateSortOrder": "020196g",
+        "EarlySortOrder": "020125b",
+        "LateSortOrder": "020196i",
         "ChapterName": "I'm Not Givin' Ya My Daughter!",
         "POV": "Gunther",
         "EarlyYear": 2,
@@ -127,7 +127,9 @@
         "EarlySeason": "Summer",
         "LateSeason": "Summer",
         "Volume": "0201",
-        "ProcessedInPartTwo": true
+        "ProcessedInPartTwo": true,
+        "Set": "NotGiving",
+        "Priority": 1
       },
       {
         "OriginalFilenames": [ "side3" ],
@@ -153,7 +155,9 @@
         "LateYear": 2,
         "LateSeason": "Autumn",
         "Volume": "0202",
-        "ProcessedInPartTwo": true
+        "ProcessedInPartTwo": true,
+        "Set": "LPB",
+        "Priority": 1
       },
       {
         "OriginalFilenames": [ "side5" ],

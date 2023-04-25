@@ -265,6 +265,7 @@
   {
     "InternalName": "SS01",
     "ProcessedInPartOne": true,
+    "ProcessedInPartTwo": true,
     "Gallery": {
       "SplashImages": [ "bonus2", "bonus1" ],
       "ChapterImages": [ "insert1", "insert2", "insert3", "insert4", "insert5", "insert6", "insert7", "insert8", "insert9", "insert10" ],
@@ -302,7 +303,7 @@
         "ProcessedInPartOne": true
       },
       {
-        "OriginalFilenames": [ "chapter2", "chapter2_1" ],
+        "OriginalFilenames": [ "chapter2", "insert1", "chapter2_1" ],
         "EarlySortOrder": "010112b",
         "LateSortOrder": "010196d",
         "POV": "Lutz",
@@ -328,8 +329,52 @@
         "Set": "MyDaughter",
         "Priority": 1,
         "ProcessedInPartOne": true
+      },
+      {
+        "OriginalFilenames": [ "chapter4", "insert2", "chapter4_1" ],
+        "EarlySortOrder": "020203c",
+        "LateSortOrder": "020296b",
+        "POV": "Wilma",
+        "ChapterName": "Servants of Sister Christine",
+        "Volume": "0202",
+        "EarlyYear": 2,
+        "EarlySeason": "Autumn",
+        "LateYear": 2,
+        "LateSeason": "Autumn",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter5" ],
+        "EarlySortOrder": "020125b",
+        "LateSortOrder": "020196i",
+        "POV": "Gunther",
+        "ChapterName": "I'm Not Givin' Up My Daughter!",
+        "Volume": "0201",
+        "EarlyYear": 2,
+        "EarlySeason": "Summer",
+        "LateYear": 2,
+        "LateSeason": "Summer",
+        "Set": "NotGiving",
+        "Priority": 2,
+        "ProcessedInPartTwo": true
+      },
+      {
+        "OriginalFilenames": [ "chapter6", "insert3", "chapter6_1" ],
+        "EarlySortOrder": "020218b",
+        "LateSortOrder": "020296f",
+        "POV": "Tuuli",
+        "ChapterName": "Studying Literature and Picture Books",
+        "Volume": "0202",
+        "EarlyYear": 2,
+        "EarlySeason": "Autumn",
+        "LateYear": 2,
+        "LateSeason": "Autumn",
+        "Set": "LPB",
+        "Priority": 2,
+        "ProcessedInPartTwo": true
       }
-
     ]
   }
 ]

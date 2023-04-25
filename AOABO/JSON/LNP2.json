@@ -28,7 +28,7 @@
       },
       {
         "OriginalFilenames": [ "epilogue" ],
-        "SortOrder": "020125",
+        "SortOrder": "020125a",
         "POV": "Deid",
         "ChapterName": "Epilogue",
         "Volume": "0201",
@@ -41,7 +41,7 @@
       {
         "OriginalFilenames": [ "extra1" ],
         "EarlySortOrder": "020106b",
-        "LateSortOrder": "020196a",
+        "LateSortOrder": "020196b",
         "POV": "Tuuli",
         "ChapterName": "A Place Still Far From Here",
         "Volume": "0201",
@@ -54,7 +54,7 @@
       {
         "OriginalFilenames": [ "extra2" ],
         "EarlySortOrder": "020116b",
-        "LateSortOrder": "020196b",
+        "LateSortOrder": "020196e",
         "POV": "Gil",
         "ChapterName": "An Attendant's Self-Awareness",
         "Volume": "0201",
@@ -185,7 +185,7 @@
       },
       {
         "OriginalFilenames": [ "chapter14", "insert5", "chapter14_1" ],
-        "SortOrder": "020114",
+        "SortOrder": "020114a",
         "ChapterName": "Secret Talk With the High Priest",
         "Volume": "0201",
         "Year": 2,
@@ -257,7 +257,7 @@
       },
       {
         "OriginalFilenames": [ "chapter22", "insert8", "chapter22_1" ],
-        "SortOrder": "020122",
+        "SortOrder": "020122a",
         "ChapterName": "Lutz Running Away From Home",
         "Volume": "0201",
         "Year": 2,
@@ -335,7 +335,7 @@
       {
         "OriginalFilenames": [ "extra2" ],
         "EarlySortOrder": "020219b",
-        "LateSortOrder": "020296b",
+        "LateSortOrder": "020296g",
         "POV": "Ella",
         "ChapterName": "Apprentice Chef in the Temple",
         "ProcessedInPartTwo": true,
@@ -625,7 +625,7 @@
       {
         "OriginalFilenames": [ "extra1" ],
         "EarlySortOrder": "020312b",
-        "LateSortOrder": "020396a",
+        "LateSortOrder": "020396b",
         "POV": "Damuel",
         "ChapterName": "Lunchtime in the Temple",
         "Volume": "0203",
@@ -638,7 +638,7 @@
       {
         "OriginalFilenames": [ "extra2", "insert9", "extra2_1" ],
         "EarlySortOrder": "020311b",
-        "LateSortOrder": "020396b",
+        "LateSortOrder": "020396a",
         "POV": "Johann",
         "ChapterName": "The Title of 'Gutenberg'",
         "Volume": "0203",
@@ -892,7 +892,7 @@
       {
         "OriginalFilenames": [ "extra1" ],
         "EarlySortOrder": "020415c",
-        "LateSortOrder": "020496a",
+        "LateSortOrder": "020496c",
         "POV": "Freida",
         "ChapterName": "A Visit to the Noble's Quarter",
         "Volume": "0204",
@@ -918,7 +918,7 @@
       {
         "OriginalFilenames": [ "extra3" ],
         "EarlySortOrder": "020415d",
-        "LateSortOrder": "020496c",
+        "LateSortOrder": "020496d",
         "POV": "Arno",
         "ChapterName": "Fran and I",
         "Volume": "0204",
@@ -931,7 +931,7 @@
       {
         "OriginalFilenames": [ "extra4" ],
         "EarlySortOrder": "020415e",
-        "LateSortOrder": "020496d",
+        "LateSortOrder": "020496e",
         "POV": "Benno",
         "ChapterName": "Maybe Lessen the Workload",
         "Volume": "0204",
@@ -944,7 +944,7 @@
       {
         "OriginalFilenames": [ "extra5" ],
         "EarlySortOrder": "020416b",
-        "LateSortOrder": "020496e",
+        "LateSortOrder": "020496g",
         "POV": "Fran",
         "ChapterName": "To Serve as the High Bishop's Attendant",
         "Volume": "0204",
@@ -957,7 +957,7 @@
       {
         "OriginalFilenames": [ "extra6", "insert9" ],
         "EarlySortOrder": "020416c",
-        "LateSortOrder": "020496f",
+        "LateSortOrder": "020496h",
         "POV": "Effa",
         "ChapterName": "Facing the Future",
         "Volume": "0204",
@@ -970,7 +970,7 @@
       {
         "OriginalFilenames": [ "extra7" ],
         "EarlySortOrder": "020406b",
-        "LateSortOrder": "020496g",
+        "LateSortOrder": "020496a",
         "POV": "Josef",
         "ChapterName": "Beruf Certification",
         "Volume": "0204",
@@ -985,7 +985,7 @@
         "EarlySortOrder": "020318b",
         "LateSortOrder": "020396c",
         "POV": "Leon",
-        "ChapterName": "Sylvester Undercover [Leon]",
+        "ChapterName": "Sylvester Undercover",
         "Volume": "0203",
         "EarlyYear": 2,
         "EarlySeason": "Spring",
