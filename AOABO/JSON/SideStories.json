@@ -19,8 +19,8 @@
     "BonusChapters": [
       {
         "OriginalFilenames": [ "prologue" ],
-        "EarlySortOrder": "040317b",
-        "LateSortOrder": "040396c",
+        "EarlySortOrder": "040316b",
+        "LateSortOrder": "040396l",
         "POV": "Solange",
         "ChapterName": "Prologue",
         "Volume": "0403",
@@ -33,7 +33,7 @@
       {
         "OriginalFilenames": [ "chapter1" ],
         "EarlySortOrder": "040210d",
-        "LateSortOrder": "040296d",
+        "LateSortOrder": "040296e",
         "POV": "Cornelius",
         "ChapterName": "As a Guard Knight and a Brother",
         "Volume": "0402",
@@ -46,7 +46,7 @@
       {
         "OriginalFilenames": [ "chapter2", "insert1", "chapter2_1" ],
         "EarlySortOrder": "040205b",
-        "LateSortOrder": "040296e",
+        "LateSortOrder": "040296b",
         "POV": "Roderick",
         "ChapterName": "One Day in the Royal Academy",
         "Volume": "0402",
@@ -59,7 +59,7 @@
       {
         "OriginalFilenames": [ "chapter3", "insert2", "chapter3_1" ],
         "EarlySortOrder": "040210b",
-        "LateSortOrder": "040296f",
+        "LateSortOrder": "040296c",
         "POV": "Hannelore",
         "ChapterName": "Careless Mumbles Lead to Ditter",
         "Volume": "0402",
@@ -72,7 +72,7 @@
       {
         "OriginalFilenames": [ "chapter4", "insert3", "chapter4_1" ],
         "EarlySortOrder": "040210c",
-        "LateSortOrder": "040296g",
+        "LateSortOrder": "040296d",
         "POV": "Rauffen",
         "ChapterName": "Wondrous Ditter",
         "Volume": "0402",
@@ -85,7 +85,7 @@
       {
         "OriginalFilenames": [ "chapter5" ],
         "EarlySortOrder": "040214c",
-        "LateSortOrder": "040296h",
+        "LateSortOrder": "040296g",
         "POV": "Wilfried",
         "ChapterName": "An Inelegant Time at the Royal Academy",
         "Volume": "0402",
@@ -98,7 +98,7 @@
       {
         "OriginalFilenames": [ "chapter6" ],
         "EarlySortOrder": "040220b",
-        "LateSortOrder": "040296i",
+        "LateSortOrder": "040296j",
         "POV": "Hannelore",
         "ChapterName": "Cursed with Such Unfortunate Timing",
         "Volume": "0402",
@@ -111,7 +111,7 @@
       {
         "OriginalFilenames": [ "chapter7", "insert4", "chapter7_1" ],
         "EarlySortOrder": "040302b",
-        "LateSortOrder": "040396j",
+        "LateSortOrder": "040396b",
         "POV": "Wilfried",
         "ChapterName": "Tea Parties for Girls",
         "Volume": "0403",
@@ -124,7 +124,7 @@
       {
         "OriginalFilenames": [ "chapter8", "insert5", "chapter8_1" ],
         "EarlySortOrder": "040301b",
-        "LateSortOrder": "040396k",
+        "LateSortOrder": "040396a",
         "POV": "Angelica",
         "ChapterName": "A Guard Knight at the Temple",
         "Volume": "0403",
@@ -137,7 +137,7 @@
       {
         "OriginalFilenames": [ "chapter9" ],
         "EarlySortOrder": "040216b",
-        "LateSortOrder": "040296l",
+        "LateSortOrder": "040296h",
         "POV": "Judithe",
         "ChapterName": "A Guard Knight Always Left Behind",
         "Volume": "0402",
@@ -150,7 +150,7 @@
       {
         "OriginalFilenames": [ "chapter10", "insert6", "chapter10_1" ],
         "EarlySortOrder": "040304b",
-        "LateSortOrder": "040396m",
+        "LateSortOrder": "040396c",
         "POV": "Hartmut",
         "ChapterName": "Dunkelfelger Women",
         "Volume": "0403",
@@ -163,7 +163,7 @@
       {
         "OriginalFilenames": [ "chapter11", "insert7", "chapter11_1" ],
         "EarlySortOrder": "040306b",
-        "LateSortOrder": "040396n",
+        "LateSortOrder": "040396d",
         "POV": "Wilfried",
         "ChapterName": "Male Socializing",
         "Volume": "0403",
@@ -176,7 +176,7 @@
       {
         "OriginalFilenames": [ "chapter12", "insert8", "chapter12_1" ],
         "EarlySortOrder": "040309b",
-        "LateSortOrder": "040396o",
+        "LateSortOrder": "040396e",
         "POV": "Traugott",
         "ChapterName": "A Worse Punishment than Expected",
         "Volume": "0403",
@@ -189,7 +189,7 @@
       {
         "OriginalFilenames": [ "chapter13" ],
         "EarlySortOrder": "040309c",
-        "LateSortOrder": "040396p",
+        "LateSortOrder": "040396f",
         "POV": "Wilfried",
         "ChapterName": "Uncle's Retainer",
         "Volume": "0403",
@@ -202,7 +202,7 @@
       {
         "OriginalFilenames": [ "chapter14" ],
         "EarlySortOrder": "040311b",
-        "LateSortOrder": "040396q",
+        "LateSortOrder": "040396g",
         "POV": "Hannelore",
         "ChapterName": "Ehrenfest's Tea Party",
         "Volume": "0403",
@@ -215,7 +215,7 @@
       {
         "OriginalFilenames": [ "chapter15", "insert9", "chapter15_1" ],
         "EarlySortOrder": "040311c",
-        "LateSortOrder": "040396r",
+        "LateSortOrder": "040396h",
         "POV": "Ortwin",
         "ChapterName": "The Drewanchel Siblings",
         "Volume": "0403",
@@ -228,7 +228,7 @@
       {
         "OriginalFilenames": [ "chapter16" ],
         "EarlySortOrder": "040314b",
-        "LateSortOrder": "040396s",
+        "LateSortOrder": "040396j",
         "POV": "Hannelore",
         "ChapterName": "Ehrenfest Books",
         "Volume": "0403",
@@ -241,7 +241,7 @@
       {
         "OriginalFilenames": [ "chapter17", "insert10" ],
         "EarlySortOrder": "040319c",
-        "LateSortOrder": "040396t",
+        "LateSortOrder": "040396o",
         "POV": "Solange",
         "ChapterName": "Closed-Stack Archives and the Old Diaries",
         "Volume": "0403",
@@ -264,9 +264,6 @@
   },
   {
     "InternalName": "SS01",
-    "ProcessedInPartOne": true,
-    "ProcessedInPartTwo": true,
-    "ProcessedInPartThree": true,
     "Gallery": {
       "SplashImages": [ "bonus2", "bonus1" ],
       "ChapterImages": [ "insert1", "insert2", "insert3", "insert4", "insert5", "insert6", "insert7", "insert8", "insert9", "insert10" ],
@@ -495,7 +492,121 @@
         "Set": "TeaParty",
         "Priority": 2,
         "ProcessedInPartThree": true
+      },
+      {
+        "OriginalFilenames": [ "chapter15", "insert8" ],
+        "EarlySortOrder": "040101c",
+        "LateSortOrder": "040196b",
+        "POV": "Hirschur",
+        "ChapterName": "Special Accommodations",
+        "Volume": "0401",
+        "EarlyYear": 6,
+        "EarlySeason": "Autumn",
+        "LateYear": 6,
+        "LateSeason": "Winter",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartFour": true
+      },
+      {
+        "OriginalFilenames": [ "chapter16", "insert9", "chapter16_1" ],
+        "EarlySortOrder": "040203b",
+        "LateSortOrder": "040296a",
+        "POV": "Roderick",
+        "ChapterName": "She Who Saved My Heart",
+        "Volume": "0402",
+        "EarlyYear": 6,
+        "EarlySeason": "Winter",
+        "LateYear": 6,
+        "LateSeason": "Winter",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartFour": true
+      },
+      {
+        "OriginalFilenames": [ "chapter17" ],
+        "EarlySortOrder": "040315b",
+        "LateSortOrder": "040396k",
+        "POV": "Philine",
+        "ChapterName": "Coming Home from the Royal Academy",
+        "Volume": "0403",
+        "EarlyYear": 6,
+        "EarlySeason": "Winter",
+        "LateYear": 6,
+        "LateSeason": "Winter",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartFour": true
+      },
+      {
+        "OriginalFilenames": [ "chapter18" ],
+        "EarlySortOrder": "040317b",
+        "LateSortOrder": "040396m",
+        "POV": "Philine",
+        "ChapterName": "My Knight in Shining Armor",
+        "Volume": "0403",
+        "EarlyYear": 6,
+        "EarlySeason": "Winter",
+        "LateYear": 6,
+        "LateSeason": "Winter",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartFour": true
+      },
+      {
+        "OriginalFilenames": [ "chapter19", "insert10", "chapter19_1" ],
+        "EarlySortOrder": "040401b",
+        "LateSortOrder": "040496a",
+        "POV": "Charlotte",
+        "ChapterName": "A New Step Forward",
+        "Volume": "0404",
+        "EarlyYear": 6,
+        "EarlySeason": "Spring",
+        "LateYear": 6,
+        "LateSeason": "Spring",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartFour": true
+      },
+      {
+        "OriginalFilenames": [ "chapter20" ],
+        "EarlySortOrder": "040402b",
+        "LateSortOrder": "040496b",
+        "POV": "Charlotte",
+        "ChapterName": "My Task",
+        "Volume": "0404",
+        "EarlyYear": 6,
+        "EarlySeason": "Spring",
+        "LateYear": 6,
+        "LateSeason": "Spring",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartFour": true
+      },
+      {
+        "OriginalFilenames": [ "chapter21" ],
+        "EarlySortOrder": "040502b",
+        "LateSortOrder": "040596a",
+        "POV": "Philine",
+        "ChapterName": "I Serve Lady Rozemyne",
+        "Volume": "0405",
+        "EarlyYear": 6,
+        "EarlySeason": "Spring",
+        "LateYear": 7,
+        "LateSeason": "Winter",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartFour": true
       }
-    ]
+    ],
+    "Afterword": {
+      "OriginalFilenames": [ "afterword" ],
+      "SortOrder": "040597b",
+      "ChapterName": "Short Story Collection 1 Afterword",
+      "Volume": "0405",
+      "Year": 7,
+      "Season": "Winter",
+      "ProcessedInPartFour": true
+    }
   }
 ]

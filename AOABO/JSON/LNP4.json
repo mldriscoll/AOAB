@@ -28,7 +28,7 @@
       {
         "OriginalFilenames": [ "chapter23" ],
         "EarlySortOrder": "040119b",
-        "LateSortOrder": "040196a",
+        "LateSortOrder": "040196d",
         "POV": "Lieseleta",
         "ChapterName": "A Productive Earthday",
         "Volume": "0401",
@@ -41,7 +41,7 @@
       {
         "OriginalFilenames": [ "chapter24", "insert10", "chapter24_1" ],
         "EarlySortOrder": "040101b",
-        "LateSortOrder": "040196b",
+        "LateSortOrder": "040196a",
         "POV": "Effa",
         "ChapterName": "Myne Awakes",
         "Volume": "0401",
@@ -322,7 +322,7 @@
       {
         "OriginalFilenames": [ "chapter20" ],
         "EarlySortOrder": "040214b",
-        "LateSortOrder": "040296a",
+        "LateSortOrder": "040296f",
         "POV": "Anastasius",
         "ChapterName": "Honest Courting",
         "Volume": "0402",
@@ -335,7 +335,7 @@
       {
         "OriginalFilenames": [ "chapter21" ],
         "EarlySortOrder": "040218b",
-        "LateSortOrder": "040296b",
+        "LateSortOrder": "040296i",
         "POV": "Leonore",
         "ChapterName": "Life without One's Lady",
         "Volume": "0402",
@@ -416,7 +416,7 @@
       },
       {
         "OriginalFilenames": [ "chapter3" ],
-        "SortOrder": "040203",
+        "SortOrder": "040203a",
         "ChapterName": "I Want to Found the Library Committee",
         "Volume": "0402",
         "Year": 6,
@@ -589,7 +589,7 @@
       {
         "OriginalFilenames": [ "chapter21" ],
         "EarlySortOrder": "040319b",
-        "VolumeSortOrder": "040396a",
+        "LateSortOrder": "040396n",
         "POV": "Lutz",
         "ChapterName": "The Passage of Time and a New Promise",
         "Volume": "0403",
@@ -602,7 +602,7 @@
       {
         "OriginalFilenames": [ "chapter22" ],
         "EarlySortOrder": "040313b",
-        "LateSortOrder": "040396b",
+        "LateSortOrder": "040396i",
         "POV": "Eglantine",
         "ChapterName": "The Blessing at the Graduation Ceremony",
         "Volume": "0403",
@@ -791,7 +791,7 @@
       },
       {
         "OriginalFilenames": [ "chapter15" ],
-        "SortOrder": "040315",
+        "SortOrder": "040315a",
         "ChapterName": "Buying Information and the Mana Compression Lecture",
         "Volume": "0403",
         "Year": 6,
@@ -800,7 +800,7 @@
       },
       {
         "OriginalFilenames": [ "chapter16", "insert8", "chapter16_1" ],
-        "SortOrder": "040316",
+        "SortOrder": "040316a",
         "ChapterName": "Philine’s Family Circumstances",
         "Volume": "0403",
         "Year": 6,
@@ -865,7 +865,7 @@
       {
         "OriginalFilenames": [ "chapter17" ],
         "EarlySortOrder": "040412b",
-        "LateSortOrder": "040496a",
+        "LateSortOrder": "040496c",
         "POV": "Giebe Haldenzel",
         "ChapterName": "The Miracle of Haldenzel",
         "Volume": "0404",
@@ -878,7 +878,7 @@
       {
         "OriginalFilenames": [ "chapter18" ],
         "EarlySortOrder": "040413b",
-        "LateSortOrder": "040496b",
+        "LateSortOrder": "040496d",
         "POV": "Gunther",
         "ChapterName": "Preventing Destructive Reconstruction",
         "Volume": "0404",
@@ -941,7 +941,7 @@
     "Chapters": [
       {
         "OriginalFilenames": [ "chapter1" ],
-        "SortOrder": "040401",
+        "SortOrder": "040401a",
         "ChapterName": "The Feast Celebrating Spring",
         "Volume": "0404",
         "Year": 6,
@@ -950,7 +950,7 @@
       },
       {
         "OriginalFilenames": [ "chapter2" ],
-        "SortOrder": "040402",
+        "SortOrder": "040402a",
         "ChapterName": "Meeting the Scholars",
         "Volume": "0404",
         "Year": 6,
@@ -1105,7 +1105,7 @@
       {
         "OriginalFilenames": [ "chapter19" ],
         "EarlySortOrder": "040507b",
-        "LateSortOrder": "040596a",
+        "LateSortOrder": "040596b",
         "POV": "Philine",
         "ChapterName": "Staying Home at the Castle",
         "Volume": "0405",
@@ -1118,7 +1118,7 @@
       {
         "OriginalFilenames": [ "chapter20" ],
         "EarlySortOrder": "040509c",
-        "LateSortOrder": "040596b",
+        "LateSortOrder": "040596d",
         "POV": "Aurelia",
         "ChapterName": "Reaching a Crossroads",
         "Volume": "0405",
@@ -1203,7 +1203,7 @@
       },
       {
         "OriginalFilenames": [ "chapter2" ],
-        "SortOrder": "040502",
+        "SortOrder": "040502a",
         "ChapterName": "A Discussion with the Lower City",
         "Volume": "0405",
         "Year": 6,
