@@ -282,6 +282,7 @@ namespace AOABO.Omnibus
             outProcessor.Metadata.Add("<dc:language>en</dc:language>");
             outProcessor.Metadata.Add("<dc:publisher>J-Novel Club</dc:publisher>");
             outProcessor.Metadata.Add("<dc:identifier id=\"pub-id\">1</dc:identifier>");
+            outProcessor.Metadata.Add($"<meta property=\"dcterms:modified\">{DateTime.UtcNow.ToString("yyyy-MM-ddThh:mm:ssZ")}</meta>");
 
             await outProcessor.FullOutput(outputFolder, false, Configuration.Options.UseHumanReadableFileStructure, Configuration.Options.Folder.DeleteTempFolder, bookTitle, Configuration.Options.Image.MaxWidth, Configuration.Options.Image.MaxHeight, Configuration.Options.Image.Quality);
 

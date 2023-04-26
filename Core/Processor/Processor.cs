@@ -138,7 +138,7 @@ namespace Core.Processor
                     }
                     else
                     {
-                        cssLink = "../";
+                        cssLink = "../../";
                         imFolderReplace = "../../images";
                         Directory.CreateDirectory($"{folder}\\oebps\\Text\\{RemoveUnwantedPathCharacters(chapter.SubFolder)}");
                     }
@@ -153,6 +153,7 @@ namespace Core.Processor
 
                 while (File.Exists(fullFileName))
                 {
+                    fullFileName = fullFileName.Replace(chapter.SortOrder, chapter.SortOrder + "x");
                     chapter.SortOrder = chapter.SortOrder + "x";
                 }
 
@@ -223,12 +224,12 @@ namespace Core.Processor
   <spine toc={"\""}ncx{"\""}>
 {spine.Aggregate(string.Empty, (agg, str) => string.Concat(agg, str, "\r\n"))}  </spine>
   <guide>
-    <reference type={"\""}cover{"\""} href={"\""}00-Cover/00-Cover.xhtml{"\""} title={"\""}Cover{"\""}/>    
+    <reference type={"\""}cover{"\""} href={"\""}Text/00-Cover/00-Cover.xhtml{"\""} title={"\""}Cover{"\""}/>    
   </guide>
 </package>
 ");
 
-            File.WriteAllText($"{folder}\\oebps\\toc.ncx", $"<?xml version='1.0' encoding='utf-8'?>\r\n<ncx xmlns=\"http://www.daisy.org/z3976/2005/ncx/\" version=\"2005-1\" xml:lang=\"en\">\r\n  <head>\r\n    <meta name=\"dtb:depth\" content=\"{NavPoints.Max(x => x.MaxTabs) + 2}\" />\r\n  </head>\r\n  <docTitle>\r\n    <text>{name}</text>\r\n  </docTitle>\r\n  <navMap>\r\n"
+            File.WriteAllText($"{folder}\\oebps\\toc.ncx", $"<?xml version='1.0' encoding='utf-8'?>\r\n<ncx xmlns=\"http://www.daisy.org/z3986/2005/ncx/\" version=\"2005-1\" xml:lang=\"en\">\r\n  <head>\r\n    <meta name=\"dtb:depth\" content=\"{NavPoints.Max(x => x.MaxTabs) + 2}\" />\r\n  </head>\r\n  <docTitle>\r\n    <text>{name}</text>\r\n  </docTitle>\r\n  <navMap>\r\n"
                 + NavPoints.Aggregate(string.Empty, (agg, np) => string.Concat(agg, np, "\r\n")) + "  </navMap>\r\n</ncx>");
 
             if (File.Exists($"{baseFolder}\\{name}.epub")) File.Delete($"{baseFolder}\\{name}.epub");
@@ -241,7 +242,8 @@ namespace Core.Processor
                 }
                 else
                 {
-                    var target = file.Replace(folder + "\\", string.Empty);
+                    var target = file.Replace(folder + "\\", string.Empty).Replace("\\","/");
+                    //if (file.EndsWith("container.xml") || file.EndsWith("content.opf")) target = target.Replace("\\","/");
                     archive.CreateEntryFromFile(file, target, CompressionLevel.Optimal);
                 }
             }
@@ -327,6 +329,10 @@ namespace Core.Processor
                             {
                                 // Exclude the p { display: none; } entries from the AOAB Manga
                                 if (string.Equals(substring, "p") && contents.Contains("display: none;")){
+
+                                }
+                                else if (substring.Contains("UTF-8"))
+                                {
 
                                 }
                                 else {
