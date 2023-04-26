@@ -29,5 +29,12 @@ namespace AOABO.Chapters
                 ProcessedInPartTwo = ProcessedInPartTwo,
             };
         }
+
+        protected override string GetYearsSubFolder()
+        {
+            EarlySeason = Season;
+            EarlyYear = Year;
+            return base.GetYearsSubFolder();
+        }
     }
 }
