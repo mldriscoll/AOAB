@@ -6496,25 +6496,25 @@
   },
   {
     "Name": "Tearmoon Empire",
-    "InternalName": "tearmoon-empire",
+    "InternalName": "Tearmoon Empire",
     "Volumes": [
       {
         "ApiSlug": "tearmoon-empire-volume-1",
         "FileName": "tearmoon-empire-volume-1.epub",
-        "EditedBy": null,
-        "ShowRemainingFiles": true
+        "EditedBy": "kuali",
+        "ShowRemainingFiles": false
       },
       {
         "ApiSlug": "tearmoon-empire-volume-2",
         "FileName": "tearmoon-empire-volume-2.epub",
-        "EditedBy": null,
-        "ShowRemainingFiles": true
+        "EditedBy": "kuali",
+        "ShowRemainingFiles": false
       },
       {
         "ApiSlug": "tearmoon-empire-volume-3",
         "FileName": "tearmoon-empire-volume-3.epub",
-        "EditedBy": null,
-        "ShowRemainingFiles": true
+        "EditedBy": "kuali",
+        "ShowRemainingFiles": false
       },
       {
         "ApiSlug": "tearmoon-empire-volume-4",

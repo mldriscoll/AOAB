@@ -12,7 +12,7 @@
             {
                 ChapterName = early && !string.IsNullOrWhiteSpace(ChapterName) ? ChapterName : "Gallery",
                 SubFolder = early ? SubFolder : LateSubFolder ?? SubFolder,
-                SortOrder = early ? SortOrder : "99"
+                SortOrder = early ? SortOrder : $"X{SortOrder}"
             };
 
             if (includeSplashImages)

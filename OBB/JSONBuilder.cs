@@ -106,6 +106,14 @@ namespace OBB
                         ChapterName = $"Volume {volumeName}",
                         SortOrder = volumeName
                     }
+                },
+                ExtraContent = new List<Chapter>
+                {
+                    new Chapter
+                    {
+                        ChapterName = $"Volume {volumeName}",
+                        SortOrder = volumeName
+                    }
                 }
             };
 
@@ -144,10 +152,11 @@ namespace OBB
                                 order++;
                                 chapter.OriginalFilenames.AddRange(chapterFiles.Select(x => x.Replace(".xhtml", string.Empty)));
 
-                                AddChapter(volume, chapter);
-
                                 var chapterContent = File.ReadAllText("jsontemp\\OEBPS\\text\\" + chapterFiles[0]);
                                 chapter.ChapterName = chapterTitleRegex.Match(chapterContent).Value.Replace("<h1>", string.Empty).Replace("</h1>", string.Empty);
+
+                                AddChapter(volume, chapter, volumeName);
+
                             }
                             chapterFiles.Clear();
                             chapterFiles.Add(match.Replace("\"", ""));
@@ -165,7 +174,7 @@ namespace OBB
             finalChapter.OriginalFilenames.AddRange(chapterFiles.Select(x => x.Replace(".xhtml", string.Empty)));
             var finalChapterContent = File.ReadAllText("jsontemp\\OEBPS\\text\\" + chapterFiles[0]);
             finalChapter.ChapterName = chapterTitleRegex.Match(finalChapterContent).Value.Replace("<h1>", string.Empty).Replace("</h1>", string.Empty);
-            AddChapter(volume, finalChapter);
+            AddChapter(volume, finalChapter, volumeName);
 
             var imageFiles = Directory.GetFiles("jsontemp\\OEBPS\\Images", "*.jpg");
             foreach (var file in imageFiles)
@@ -183,16 +192,33 @@ namespace OBB
             return volume;
         }
 
-        private static void AddChapter(Volume vol, Chapter chapter)
+        private static void AddChapter(Volume vol, Chapter chapter, string? volumeName)
         {
             if (chapter.OriginalFilenames.Any(x => x.StartsWith("side")
                                     || x.StartsWith("interlude")
+                                    || x.StartsWith("extra")
+                                    || x.StartsWith("bonus")
+                                    || x.StartsWith("diary")
                                     ))
             {
                 vol.BonusChapters[0].Chapters.Add(chapter);
             }
             else if (chapter.OriginalFilenames.Any(x => x.StartsWith("afterword")))
             {
+                chapter.SubFolder = "99-Afterwords";
+                chapter.SortOrder = volumeName ?? String.Empty;
+                chapter.ChapterName = $"Volume {volumeName}";
+                vol.ExtraContent.Add(chapter);
+            }
+            else if (chapter.OriginalFilenames.Any(x => x.StartsWith("character")))
+            {
+                chapter.ChapterName = "Character Sheet";
+                vol.ExtraContent[0].Chapters.Add(chapter);
+            }
+            else if (chapter.OriginalFilenames.Any(x => x.StartsWith("map")))
+            {
+                chapter.ChapterName = "Map";
+                chapter.SubFolder = "98-Maps";
                 vol.ExtraContent.Add(chapter);
             }
             else
@@ -248,6 +274,13 @@ namespace OBB
         private static void AddImage(string file, List<string> imageList)
         {
             var miniFile = file.Replace("jsontemp\\OEBPS\\Images\\", string.Empty).Replace(".jpg", string.Empty).ToLower();
+
+            if (miniFile.StartsWith("map")
+                || miniFile.StartsWith("character"))
+            {
+                return;
+            }
+
             if (File.Exists("jsontemp\\OEBPS\\text\\" + miniFile + ".xhtml"))
             {
                 imageList.Add(miniFile);

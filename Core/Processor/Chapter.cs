@@ -32,5 +32,12 @@
 
             return SubFolder + "\\" + SortOrder;
         }
+
+        public string FullFileName { get; set; } = string.Empty;
+        public string OutputFileName { get; set; } = string.Empty;
+        public string OutputFolder { get; set; } = string.Empty;
+        public string CSSLink { get; set; } = string.Empty;
+
+        public List<string> ChapterLinks { get; set; } = new List<string>();
     }
 }

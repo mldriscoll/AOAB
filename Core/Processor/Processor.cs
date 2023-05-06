@@ -24,7 +24,7 @@ namespace Core.Processor
         private string RemoveUnwantedPathCharacters(string str)
         {
             var s = str;
-            foreach(var c in Path.GetInvalidPathChars())
+            foreach(var c in Path.GetInvalidPathChars().Union(new char[] {':'}))
             {
                 s = s.Replace(c.ToString(), string.Empty);
             }
@@ -122,8 +122,8 @@ namespace Core.Processor
             Directory.CreateDirectory($"{folder}\\oebps\\Text");
             foreach (var chapter in Chapters.OrderBy(x => x.CombinedSortOrder()))
             {
-                string cssLink = "../";
-                var fileName = humanReadable ? chapter.FileName : $"{tocCounter}.xhtml";
+                chapter.CSSLink = "../";
+                chapter.OutputFileName = RemoveUnwantedFileCharacters(humanReadable ? chapter.FileName : $"{tocCounter}.xhtml");
                 string imFolderReplace;
 
                 if (humanReadable && !string.IsNullOrWhiteSpace(chapter.SubFolder))
@@ -132,13 +132,13 @@ namespace Core.Processor
                     if (li > 0)
                     {
                         var subdir = chapter.SubFolder;
-                        cssLink = subdir.Split('\\').Aggregate("../", (agg, str) => string.Concat(agg, "../"));
+                        chapter.CSSLink = subdir.Split('\\').Aggregate("../", (agg, str) => string.Concat(agg, "../"));
                         imFolderReplace = subdir.Split('\\').Aggregate("../images", (agg, str) => string.Concat("../", agg));
                         Directory.CreateDirectory($"{folder}\\oebps\\Text\\{RemoveUnwantedPathCharacters(subdir)}");
                     }
                     else
                     {
-                        cssLink = "../../";
+                        chapter.CSSLink = "../../";
                         imFolderReplace = "../../images";
                         Directory.CreateDirectory($"{folder}\\oebps\\Text\\{RemoveUnwantedPathCharacters(chapter.SubFolder)}");
                     }
@@ -148,12 +148,12 @@ namespace Core.Processor
                     imFolderReplace = "../images";
                 }
 
-                var a = humanReadable && !string.IsNullOrWhiteSpace(chapter.SubFolder) ? chapter.SubFolder + "\\" : string.Empty;
-                var fullFileName = $"{folder}\\oebps\\Text\\{RemoveUnwantedPathCharacters(a) + RemoveUnwantedFileCharacters(fileName)}";
+                chapter.OutputFolder = humanReadable && !string.IsNullOrWhiteSpace(chapter.SubFolder) ? chapter.SubFolder + "\\" : string.Empty;
+                chapter.FullFileName = $"{folder}\\oebps\\Text\\{RemoveUnwantedPathCharacters(chapter.OutputFolder) + chapter.OutputFileName}";
 
-                while (File.Exists(fullFileName))
+                while (File.Exists(chapter.FullFileName))
                 {
-                    fullFileName = fullFileName.Replace(chapter.SortOrder, chapter.SortOrder + "x");
+                    chapter.FullFileName = chapter.FullFileName.Replace(chapter.SortOrder, chapter.SortOrder + "x");
                     chapter.SortOrder = chapter.SortOrder + "x";
                 }
 
@@ -179,7 +179,7 @@ namespace Core.Processor
                         var np = nps.FirstOrDefault(x => x.Label.Equals(folderName));
                         if (np == null)
                         {
-                            np = new NavPoint { Label = folderName, Source = Uri.EscapeDataString(RemoveUnwantedPathCharacters($"Text/{a}").Replace('\\', '/') + RemoveUnwantedFileCharacters(fileName)), Id = tocCounter };
+                            np = new NavPoint { Label = folderName, Source = Uri.EscapeDataString(RemoveUnwantedPathCharacters($"Text/{chapter.OutputFolder}").Replace('\\', '/') + chapter.OutputFileName), Id = tocCounter };
                             tocCounter++;
                             nps.Add(np);
                         }
@@ -196,18 +196,36 @@ namespace Core.Processor
                     chapter.Contents = chapter.Contents.Replace("[ImageFolder]", imFolderReplace);
                 }
 
-                nps.Add(new NavPoint { Label = chapter.Name, Source = Uri.EscapeDataString($"Text/{RemoveUnwantedPathCharacters(a) + RemoveUnwantedFileCharacters(fileName)}".Replace('\\', '/')), Id = tocCounter });
+                nps.Add(new NavPoint { Label = chapter.Name, Source = Uri.EscapeDataString($"Text/{RemoveUnwantedPathCharacters(chapter.OutputFolder) + chapter.OutputFileName}".Replace('\\', '/')), Id = tocCounter });
                 tocCounter++;
 
 
-                File.WriteAllText(fullFileName, $@"<?xml version='1.0' encoding='utf-8'?>
+            }
+
+            foreach(var chapter in Chapters)
+            {
+                foreach (var chapterlink in chapter.ChapterLinks)
+                {
+                    try
+                    {
+                        var otherChapter = Chapters.First(x => x.FileName.Equals(chapterlink, StringComparison.InvariantCultureIgnoreCase));
+
+                        chapter.Contents = chapter.Contents.Replace(chapterlink, otherChapter.OutputFileName, StringComparison.InvariantCultureIgnoreCase);
+                    }
+                    catch (Exception ex)
+                    {
+                        throw new Exception($"Chapter {chapter.Name} tried to link to chapter {chapterlink} that was not found in the ebook output");
+                    }
+                }
+
+                File.WriteAllText(chapter.FullFileName, $@"<?xml version='1.0' encoding='utf-8'?>
 <html xmlns={"\""}http://www.w3.org/1999/xhtml{"\""} xmlns:epub={"\""}http://www.idpf.org/2007/ops{"\""} xml:lang={"\""}en{"\""}>
   <head>
     <title>{name}</title>
     <meta http-equiv={"\""}Content-Type{"\""} content={"\""}text/html; charset=utf-8{"\""} />
-  <link rel={"\""}stylesheet{"\""} type={"\""}text/css{"\""} href={"\""}{cssLink}css.css{"\""} />
+  <link rel={"\""}stylesheet{"\""} type={"\""}text/css{"\""} href={"\""}{chapter.CSSLink}css.css{"\""} />
 </head>{ chapter.Contents}</html>");
-                manifest.Add($"    <item id={"\""}id{Chapters.IndexOf(chapter)}{"\""} href={"\""}Text/{RemoveUnwantedPathCharacters(a).Replace('\\', '/') + RemoveUnwantedFileCharacters(fileName)}{"\""} media-type={"\""}application/xhtml+xml{"\""}/>");
+                manifest.Add($"    <item id={"\""}id{Chapters.IndexOf(chapter)}{"\""} href={"\""}Text/{RemoveUnwantedPathCharacters(chapter.OutputFolder).Replace('\\', '/') + chapter.OutputFileName}{"\""} media-type={"\""}application/xhtml+xml{"\""}/>");
                 spine.Add($"    <itemref idref={"\""}id{Chapters.IndexOf(chapter)}{"\""}/>");
             }
 

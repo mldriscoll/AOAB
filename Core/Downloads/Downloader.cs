@@ -87,6 +87,21 @@ namespace Core.Downloads
             return library;
         }
 
+        public static async Task<LibraryResponse> GetSeries(HttpClient client, string slug)
+        {
+            var libraryCall = await client.GetAsync($"https://labs.j-novel.club/app/v1/series/{slug}/volumes");
+            LibraryResponse? library;
+            using (var loginStream = await libraryCall.Content.ReadAsStreamAsync())
+            {
+                var deserializer = new DataContractJsonSerializer(typeof(LibraryResponse));
+                library = deserializer.ReadObject(loginStream) as LibraryResponse;
+            }
+
+            if (library == null) throw new Exception("Failed to load j-novel.club library");
+
+            return library;
+        }
+
 
         static Regex mangaSizeRegex = new Regex("\\?height=.*&");
 
