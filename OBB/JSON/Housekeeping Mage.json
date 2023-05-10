@@ -5,6 +5,8 @@
       {
         "ChapterName": "A Housekeeping Mage\u2019s Daily Life",
         "SortOrder": "01",
+        "SubFolder": "",
+        "OriginalFilenames": [],
         "Chapters": [
           {
             "ChapterName": "Four Years Earlier",
@@ -13,7 +15,11 @@
             "OriginalFilenames": [
               "chapter0"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Woman Who Became a Housekeeping Mage",
@@ -24,7 +30,11 @@
               "insert1",
               "chapter1_1"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Making Portable Foods to Order",
@@ -33,7 +43,11 @@
             "OriginalFilenames": [
               "chapter2"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Making a Visit to Comfort the Orphans",
@@ -42,7 +56,11 @@
             "OriginalFilenames": [
               "chapter3"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Undertaking a Search for Lost Children",
@@ -53,7 +71,11 @@
               "insert2",
               "chapter4_1"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "I Will Not Serve as Your Opponent in a Quarrel",
@@ -64,7 +86,11 @@
               "insert3",
               "chapter5_1"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "We Will Care for Those Who Suddenly Fall Ill",
@@ -76,13 +102,23 @@
               "chapter6_1",
               "insert5"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           }
-        ]
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       },
       {
         "ChapterName": "The Familiar\u2019s Homecoming",
         "SortOrder": "02",
+        "SubFolder": "",
+        "OriginalFilenames": [],
         "Chapters": [
           {
             "ChapterName": "The Visitor",
@@ -93,7 +129,11 @@
               "insert6",
               "chapter7_1"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Requests and Rewards",
@@ -104,7 +144,11 @@
               "insert7",
               "chapter8_1"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Closing the Distance",
@@ -114,9 +158,17 @@
               "chapter9",
               "insert8"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           }
-        ]
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
     "BonusChapters": [
@@ -133,7 +185,11 @@
             "OriginalFilenames": [
               "interlude1"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Diary of Rurii the Familiar",
@@ -142,7 +198,11 @@
             "OriginalFilenames": [
               "interlude2"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Their Thoughts and Hearts",
@@ -151,13 +211,23 @@
             "OriginalFilenames": [
               "interlude3"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           }
-        ]
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       },
       {
         "ChapterName": "The Familiar\u2019s Homecoming",
         "SortOrder": "02",
+        "SubFolder": "",
+        "OriginalFilenames": [],
         "Chapters": [
           {
             "ChapterName": "Rurii\u2019s Soliloquy",
@@ -166,9 +236,17 @@
             "OriginalFilenames": [
               "side"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           }
-        ]
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
     "ExtraContent": [
@@ -179,7 +257,11 @@
         "OriginalFilenames": [
           "afterword"
         ],
-        "Chapters": []
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
     "Gallery": {
@@ -202,7 +284,11 @@
       "SortOrder": "",
       "SubFolder": "01-A Housekeeping Mage\u2019s Daily Life",
       "OriginalFilenames": [],
-      "Chapters": []
+      "Chapters": [],
+      "Splits": [],
+      "Replacements": [],
+      "LinkedChapters": [],
+      "KeepFirstSplitSection": true
     }
   },
   {
@@ -211,6 +297,8 @@
       {
         "ChapterName": "Love Ending, Love Beginning",
         "SortOrder": "03",
+        "SubFolder": "",
+        "OriginalFilenames": [],
         "Chapters": [
           {
             "ChapterName": "Changes in the Forest",
@@ -223,7 +311,11 @@
               "insert2",
               "chapter1_2"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Love Ending, Love Beginning",
@@ -234,9 +326,17 @@
               "insert3",
               "chapter2_1"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           }
-        ]
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       },
       {
         "ChapterName": "To New Days",
@@ -245,7 +345,7 @@
         "OriginalFilenames": [],
         "Chapters": [
           {
-            "ChapterName": "The Forest’s Retribution",
+            "ChapterName": "The Forest\u2019s Retribution",
             "SortOrder": "0204",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -253,7 +353,11 @@
               "insert4",
               "chapter3_1"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Conclusion of the Case",
@@ -264,7 +368,11 @@
               "insert5",
               "chapter4_1"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "To New Days",
@@ -275,9 +383,17 @@
               "insert6",
               "chapter5_1"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           }
-        ]
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
     "BonusChapters": [
@@ -288,7 +404,11 @@
         "OriginalFilenames": [
           "interlude1"
         ],
-        "Chapters": []
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       },
       {
         "ChapterName": "To New Days",
@@ -303,7 +423,11 @@
             "OriginalFilenames": [
               "interlude2"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "A New Friend",
@@ -314,7 +438,11 @@
               "insert7",
               "interlude3_1"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Diary of Pel, the Familiar",
@@ -323,7 +451,11 @@
             "OriginalFilenames": [
               "interlude4"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Diary of Rurii, the Familiar",
@@ -332,7 +464,11 @@
             "OriginalFilenames": [
               "interlude5"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Shiori\u2019s New Diary",
@@ -341,7 +477,11 @@
             "OriginalFilenames": [
               "interlude6"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Story of a Certain Prince and His Father",
@@ -350,7 +490,11 @@
             "OriginalFilenames": [
               "interlude7"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Flower Decorations",
@@ -360,9 +504,17 @@
               "interlude8",
               "insert8"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           }
-        ]
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
     "ExtraContent": [
@@ -373,7 +525,11 @@
         "OriginalFilenames": [
           "afterword"
         ],
-        "Chapters": []
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
     "Gallery": {
@@ -396,7 +552,11 @@
       "SortOrder": "",
       "SubFolder": "03-Love Ending, Love Beginning",
       "OriginalFilenames": [],
-      "Chapters": []
+      "Chapters": [],
+      "Splits": [],
+      "Replacements": [],
+      "LinkedChapters": [],
+      "KeepFirstSplitSection": true
     }
   },
   {
@@ -405,6 +565,8 @@
       {
         "ChapterName": "Proof of Remembrance",
         "SortOrder": "05",
+        "SubFolder": "",
+        "OriginalFilenames": [],
         "Chapters": [
           {
             "ChapterName": "A Most Troublesome Client",
@@ -417,7 +579,11 @@
               "insert2",
               "chapter1_2"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Proof of Remembrance",
@@ -430,9 +596,17 @@
               "insert4",
               "chapter2_2"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           }
-        ]
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       },
       {
         "ChapterName": "The Purity of Ever-Changing Scenery",
@@ -447,7 +621,11 @@
             "OriginalFilenames": [
               "chapter3"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Purity of Ever-Changing Scenery",
@@ -462,15 +640,25 @@
               "insert8",
               "chapter4_3"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           }
-        ]
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
     "BonusChapters": [
       {
         "ChapterName": "Proof of Remembrance",
         "SortOrder": "05",
+        "SubFolder": "",
+        "OriginalFilenames": [],
         "Chapters": [
           {
             "ChapterName": "Two Men and a Wasted Feast",
@@ -479,7 +667,11 @@
             "OriginalFilenames": [
               "interlude1"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Diary of Pel, the Familiar",
@@ -490,9 +682,17 @@
               "insert5",
               "interlude2_1"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           }
-        ]
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       },
       {
         "ChapterName": "The Purity of Ever-Changing Scenery",
@@ -507,7 +707,11 @@
             "OriginalFilenames": [
               "side1"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Of a Margravine and Her Husband",
@@ -516,7 +720,11 @@
             "OriginalFilenames": [
               "side2"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Promised Flowers",
@@ -525,9 +733,17 @@
             "OriginalFilenames": [
               "side3"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           }
-        ]
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
     "ExtraContent": [
@@ -538,7 +754,11 @@
         "OriginalFilenames": [
           "afterword"
         ],
-        "Chapters": []
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
     "Gallery": {
@@ -561,7 +781,11 @@
       "SortOrder": "",
       "SubFolder": "05-Proof of Remembrance",
       "OriginalFilenames": [],
-      "Chapters": []
+      "Chapters": [],
+      "Splits": [],
+      "Replacements": [],
+      "LinkedChapters": [],
+      "KeepFirstSplitSection": true
     }
   },
   {
@@ -570,6 +794,8 @@
       {
         "ChapterName": "Blending Hearts",
         "SortOrder": "07",
+        "SubFolder": "",
+        "OriginalFilenames": [],
         "Chapters": [
           {
             "ChapterName": "The Woman from the Heavens",
@@ -580,7 +806,11 @@
               "insert1",
               "chapter1_1"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Melting Hearts",
@@ -592,9 +822,17 @@
               "chapter2_1",
               "insert3"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           }
-        ]
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       },
       {
         "ChapterName": "Vows in White",
@@ -611,7 +849,11 @@
               "insert4",
               "chapter3_1"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Vows in White",
@@ -622,9 +864,17 @@
               "insert5",
               "chapter4_1"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           }
-        ]
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
     "BonusChapters": [
@@ -641,7 +891,11 @@
             "OriginalFilenames": [
               "interlude1"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Consolation Party for Mending Hearts",
@@ -650,7 +904,11 @@
             "OriginalFilenames": [
               "interlude2"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Diary of Rurii the Familiar",
@@ -659,7 +917,11 @@
             "OriginalFilenames": [
               "interlude3"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Holy Woman of the Moonlight",
@@ -674,9 +936,17 @@
               "insert8",
               "side1_3"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           }
-        ]
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
     "ExtraContent": [
@@ -687,7 +957,11 @@
         "OriginalFilenames": [
           "afterword"
         ],
-        "Chapters": []
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
     "Gallery": {
@@ -710,7 +984,215 @@
       "SortOrder": "",
       "SubFolder": "07-Blending Hearts",
       "OriginalFilenames": [],
-      "Chapters": []
+      "Chapters": [],
+      "Splits": [],
+      "Replacements": [],
+      "LinkedChapters": [],
+      "KeepFirstSplitSection": true
+    }
+  },
+  {
+    "InternalName": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-5",
+    "Chapters": [
+      {
+        "ChapterName": "Idol of the Holy Night",
+        "SortOrder": "09",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "A Night of Conspiracy",
+            "SortOrder": "0501",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1",
+              "insert1",
+              "chapter1_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Eve of the Songstress",
+            "SortOrder": "0502",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2",
+              "insert2",
+              "chapter2_1",
+              "insert3",
+              "chapter2_2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Songstress of the Holy Night",
+            "SortOrder": "0503",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter3",
+              "insert4",
+              "chapter3_1",
+              "insert5",
+              "chapter3_2",
+              "insert6",
+              "chapter3_3"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      },
+      {
+        "ChapterName": "A Distant Prayer",
+        "SortOrder": "10",
+        "SubFolder": "",
+        "OriginalFilenames": [
+          "chapter4",
+          "insert7",
+          "chapter4_1",
+          "insert8",
+          "chapter4_2"
+        ],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "Volume 05",
+        "SortOrder": "05",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "The Thoughts of Holy Men",
+            "SortOrder": "0504",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "interlude1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Diary of Rurii, the Familiar",
+            "SortOrder": "0505",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "interlude2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      },
+      {
+        "ChapterName": "A Distant Prayer",
+        "SortOrder": "10",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "The Temptation of the Snow Violets",
+            "SortOrder": "0507",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "side1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Short Story",
+            "SortOrder": "0508",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "ExtraContent": [
+      {
+        "ChapterName": "Volume 05",
+        "SortOrder": "05",
+        "SubFolder": "99-Afterwords",
+        "OriginalFilenames": [
+          "afterword"
+        ],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "Gallery": {
+      "SplashImages": [
+        "cover",
+        "frontmatter1"
+      ],
+      "ChapterImages": [
+        "insert1",
+        "insert2",
+        "insert3",
+        "insert4",
+        "insert5",
+        "insert6",
+        "insert7",
+        "insert8"
+      ],
+      "LateSubFolder": "10-A Distant Prayer",
+      "ChapterName": "",
+      "SortOrder": "",
+      "SubFolder": "09-Idol of the Holy Night",
+      "OriginalFilenames": [],
+      "Chapters": [],
+      "Splits": [],
+      "Replacements": [],
+      "LinkedChapters": [],
+      "KeepFirstSplitSection": true
     }
   }
 ]
