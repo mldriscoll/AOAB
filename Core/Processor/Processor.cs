@@ -202,7 +202,7 @@ namespace Core.Processor
 
             }
 
-            foreach(var chapter in Chapters)
+            foreach (var chapter in Chapters.OrderBy(x => x.CombinedSortOrder()))
             {
                 foreach (var chapterlink in chapter.ChapterLinks)
                 {
@@ -231,6 +231,8 @@ namespace Core.Processor
 
             manifest.Add("    <item id=\"ncx\" href=\"toc.ncx\" media-type=\"application/x-dtbncx+xml\"/>");
 
+            var coverLink = humanReadable ? "Text/0000-Cover.xhtml" : "Text/0.xhtml";
+
             File.WriteAllText($"{folder}\\oebps\\content.opf",
     $@"<?xml version={"\""}1.0{"\""} encoding={"\""}UTF-8{"\""}?>
 <package xmlns={"\""}http://www.idpf.org/2007/opf{"\""} version={"\""}3.0{"\""} unique-identifier={"\""}pub-id{"\""} xml:lang={"\""}en{"\""}>
@@ -242,7 +244,7 @@ namespace Core.Processor
   <spine toc={"\""}ncx{"\""}>
 {spine.Aggregate(string.Empty, (agg, str) => string.Concat(agg, str, "\r\n"))}  </spine>
   <guide>
-    <reference type={"\""}cover{"\""} href={"\""}Text/00-Cover/00-Cover.xhtml{"\""} title={"\""}Cover{"\""}/>    
+    <reference type={"\""}cover{"\""} href={"\""}{coverLink}{"\""} title={"\""}Cover{"\""}/>    
   </guide>
 </package>
 ");
