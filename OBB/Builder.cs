@@ -36,7 +36,7 @@ namespace OBB
             return $" - {auto.Count} auto-generated";
         }
 
-        private static readonly Regex chapterTitleRegex = new Regex("<h1>[\\s\\S]*?<\\/h1>");
+        private static readonly Regex chapterTitleRegex = new Regex("<h1>[\\s\\S]*<\\/h1>");
         private static Login Login;
         public static async Task SeriesLoop()
         {
