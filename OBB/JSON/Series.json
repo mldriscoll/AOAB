@@ -7614,13 +7614,13 @@
   },
   {
     "Name": "The Tales of Marielle Clarac",
-    "InternalName": "the-tales-of-marielle-clarac",
+    "InternalName": "The Tales of Marielle Clarac",
     "Volumes": [
       {
         "ApiSlug": "the-engagement-of-marielle-clarac",
         "FileName": "the-engagement-of-marielle-clarac.epub",
-        "EditedBy": null,
-        "ShowRemainingFiles": true
+        "EditedBy": "kuali",
+        "ShowRemainingFiles": false
       },
       {
         "ApiSlug": "the-beloved-of-marielle-clarac",
