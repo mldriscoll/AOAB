@@ -1,0 +1,227 @@
+[
+  {
+    "InternalName": "young-lady-albert-is-courting-disaster-light-novel-volume-1",
+    "Chapters": [
+      {
+        "ChapterName": "Volume 01",
+        "SortOrder": "01",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Prologue",
+            "SortOrder": "0102",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "prologue"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter 1",
+            "SortOrder": "0103",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1",
+              "insert1",
+              "chapter1_1",
+              "insert2",
+              "chapter1_2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter 2",
+            "SortOrder": "0104",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2",
+              "insert3",
+              "chapter2_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter 3",
+            "SortOrder": "0105",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter3"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter 4",
+            "SortOrder": "0106",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter4",
+              "insert4",
+              "chapter4_1",
+              "insert5",
+              "chapter4_2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter 5",
+            "SortOrder": "0107",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter5"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter 6",
+            "SortOrder": "0108",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter6"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter 7",
+            "SortOrder": "0109",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter7"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter 8",
+            "SortOrder": "0110",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter8",
+              "insert6",
+              "chapter8_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Epilogue",
+            "SortOrder": "0111",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "epilogue"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "Volume 01",
+        "SortOrder": "01",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "After the Graduation Ceremony",
+            "SortOrder": "0112",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "extrastory"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "ExtraContent": [
+      {
+        "ChapterName": "Volume 01",
+        "SortOrder": "01",
+        "SubFolder": "99-Afterwords",
+        "OriginalFilenames": [
+          "afterword"
+        ],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "Gallery": {
+      "SplashImages": [
+        "bonus1",
+        "bonus3"
+      ],
+      "ChapterImages": [
+        "insert1",
+        "insert2",
+        "insert3",
+        "insert4",
+        "insert5",
+        "insert6"
+      ],
+      "LateSubFolder": null,
+      "ChapterName": "",
+      "SortOrder": "",
+      "SubFolder": "01-Volume 01",
+      "OriginalFilenames": [],
+      "Chapters": [],
+      "Splits": [],
+      "Replacements": [],
+      "LinkedChapters": [],
+      "KeepFirstSplitSection": true
+    }
+  }
+]
