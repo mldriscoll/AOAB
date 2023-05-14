@@ -3,23 +3,14 @@
     "InternalName": "prison-life-is-easy-for-a-villainess-volume-1",
     "Chapters": [
       {
-        "ChapterName": "Volume 1",
-        "SortOrder": "1",
+        "ChapterName": "Volume 01",
+        "SortOrder": "01",
         "SubFolder": "",
         "OriginalFilenames": [],
         "Chapters": [
           {
-            "ChapterName": "Landmarks",
-            "SortOrder": "101",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "toc"
-            ],
-            "Chapters": []
-          },
-          {
-            "ChapterName": "Chapter 1: The Young Lady Moves",
-            "SortOrder": "102",
+            "ChapterName": "The Young Lady Moves",
+            "SortOrder": "0102",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter1",
@@ -28,11 +19,46 @@
               "insert2",
               "chapter1_2"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [
+              {
+                "Name": "The Young Lady Is Sent to Prison",
+                "SplitLine": "<h2>01: The Young Lady Is Sent to Prison</h2>",
+                "SortOrder": "01"
+              },
+              {
+                "Name": "The Young Lady Shuts Herself in the Prison",
+                "SplitLine": "<h2>02: The Young Lady Shuts Herself in the Prison</h2>",
+                "SortOrder": "02"
+              },
+              {
+                "Name": "The Young Lady Renovates the Prison",
+                "SplitLine": "<h2>03: The Young Lady Renovates the Prison</h2>",
+                "SortOrder": "03"
+              },
+              {
+                "Name": "The Duke Realizes the Situation",
+                "SplitLine": "<h2>04: The Duke Realizes the Situation</h2>",
+                "SortOrder": "04"
+              },
+              {
+                "Name": "The Young Lady Chases off the Prince",
+                "SplitLine": "<h2>05: The Young Lady Chases off the Prince</h2>",
+                "SortOrder": "05"
+              },
+              {
+                "Name": "The Young Lady Hears Something Wonderful",
+                "SplitLine": "<h2>06: The Young Lady Hears Something Wonderful</h2>",
+                "SortOrder": "06"
+              }
+            ],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": false
           },
           {
-            "ChapterName": "Chapter 2: An Exciting New Life",
-            "SortOrder": "103",
+            "ChapterName": "An Exciting New Life",
+            "SortOrder": "0103",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter2",
@@ -41,22 +67,82 @@
               "insert4",
               "chapter2_2"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [
+              {
+                "Name": "The Young Lady Enjoys Gourmet Delicacies",
+                "SplitLine": "<h2>07: The Young Lady Enjoys Gourmet Delicacies</h2>",
+                "SortOrder": "07"
+              },
+              {
+                "Name": "The Young Lady Idles the Day Away",
+                "SplitLine": "<h2>08: The Young Lady Idles the Day Away</h2>",
+                "SortOrder": "08"
+              },
+              {
+                "Name": "The Prince Learns What the Young Lady is Thinking",
+                "SplitLine": "<h2>09: The Prince Learns What the Young Lady is Thinking</h2>",
+                "SortOrder": "09"
+              },
+              {
+                "Name": "The Young Lady’s Art Explodes",
+                "SplitLine": "<h2>10: The Young Lady’s Art Explodes</h2>",
+                "SortOrder": "10"
+              },
+              {
+                "Name": "The Young Lady Snipes Her Dinner",
+                "SplitLine": "<h2>11: The Young Lady Snipes Her Dinner</h2>",
+                "SortOrder": "11"
+              }
+            ],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": false
           },
           {
-            "ChapterName": "Chapter 3: Let\u2019s Get Proactive",
-            "SortOrder": "104",
+            "ChapterName": "Let\u2019s Get Proactive",
+            "SortOrder": "0104",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter3",
               "insert5",
               "chapter3_1"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [
+              {
+                "Name": "The Young Lady Bribes the Prison Guard",
+                "SplitLine": "<h2>12: The Young Lady Bribes the Prison Guard</h2>",
+                "SortOrder": "12"
+              },
+              {
+                "Name": "The Young Lady Kills Time",
+                "SplitLine": "<h2>13: The Young Lady Kills Time</h2>",
+                "SortOrder": "13"
+              },
+              {
+                "Name": "The Prince is Led Astray by a Debate",
+                "SplitLine": "<h2>14: The Prince is Led Astray by a Debate</h2>",
+                "SortOrder": "14"
+              },
+              {
+                "Name": "The Young Lady Shops",
+                "SplitLine": "<h2>15: The Young Lady Shops</h2>",
+                "SortOrder": "15"
+              },
+              {
+                "Name": "The Young Lady Does Charity Work",
+                "SplitLine": "<h2>16: The Young Lady Does Charity Work</h2>",
+                "SortOrder": "16"
+              }
+            ],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": false
           },
           {
-            "ChapterName": "Chapter 4: Hello, Little Girl",
-            "SortOrder": "105",
+            "ChapterName": "Hello, Little Girl",
+            "SortOrder": "0105",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter4",
@@ -65,11 +151,41 @@
               "insert7",
               "chapter4_2"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [
+              {
+                "Name": "The Girl Visits the Young Lady",
+                "SplitLine": "<h2>17: The Girl Visits the Young Lady</h2>",
+                "SortOrder": "17"
+              },
+              {
+                "Name": "The Duke is Confused by the Situation",
+                "SplitLine": "<h2>18: The Duke is Confused by the Situation</h2>",
+                "SortOrder": "18"
+              },
+              {
+                "Name": "The Girl Plans Ahead",
+                "SplitLine": "<h2>19: The Girl Plans Ahead</h2>",
+                "SortOrder": "19"
+              },
+              {
+                "Name": "The Duke Has an Audience with the King",
+                "SplitLine": "<h2>20: The Duke Has an Audience with the King</h2>",
+                "SortOrder": "20"
+              },
+              {
+                "Name": "The Young Lady Gets to Know the Girl",
+                "SplitLine": "<h2>21: The Young Lady Gets to Know the Girl</h2>",
+                "SortOrder": "21"
+              }
+            ],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": false
           },
           {
-            "ChapterName": "Chapter 5: Memories of a Sister and Brother",
-            "SortOrder": "106",
+            "ChapterName": "Memories of a Sister and Brother",
+            "SortOrder": "0106",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter5",
@@ -78,158 +194,99 @@
               "insert9",
               "chapter5_2"
             ],
-            "Chapters": []
-          },
-          {
-            "ChapterName": "Afterword",
-            "SortOrder": "107",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "afterword"
+            "Chapters": [],
+            "Splits": [
+              {
+                "Name": "The Maid Brings a Delivery to Her Master",
+                "SplitLine": "<h2>22: The Maid Brings a Delivery to Her Master</h2>",
+                "SortOrder": "22"
+              },
+              {
+                "Name": "The Maid Deals with an Unwanted Guest",
+                "SplitLine": "<h2>23: The Maid Deals with an Unwanted Guest</h2>",
+                "SortOrder": "23"
+              },
+              {
+                "Name": "The Maid is Busy",
+                "SplitLine": "<h2>24: The Maid is Busy</h2>",
+                "SortOrder": "24"
+              },
+              {
+                "Name": "The Young Lady Entertains Guests",
+                "SplitLine": "<h2>25: The Young Lady Entertains Guests</h2>",
+                "SortOrder": "25"
+              },
+              {
+                "Name": "The Young Lady Takes Care of Her Little Brother",
+                "SplitLine": "<h2>26: The Young Lady Takes Care of Her Little Brother</h2>",
+                "SortOrder": "26"
+              },
+              {
+                "Name": "The Little Brother Recalls the Past",
+                "SplitLine": "<h2>27: The Little Brother Recalls the Past</h2>",
+                "SortOrder": "27"
+              },
+              {
+                "Name": "The Little Brother Hears about the Things He Had Forgotten",
+                "SplitLine": "<h2>28: The Little Brother Hears about the Things He Had Forgotten</h2>",
+                "SortOrder": "28"
+              }
             ],
-            "Chapters": []
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "108",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "color1"
-            ],
-            "Chapters": []
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "109",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "color2"
-            ],
-            "Chapters": []
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "110",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "color3"
-            ],
-            "Chapters": []
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "111",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "color4"
-            ],
-            "Chapters": []
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "112",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "bonus1"
-            ],
-            "Chapters": []
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "113",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "bonus2"
-            ],
-            "Chapters": []
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "114",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "bonus3"
-            ],
-            "Chapters": []
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "115",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "bonus4"
-            ],
-            "Chapters": []
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "116",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "bonus5"
-            ],
-            "Chapters": []
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "117",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "signup"
-            ],
-            "Chapters": []
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "copyright"
-            ],
-            "Chapters": []
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": false
           }
-        ]
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
-    "BonusChapters": [
+    "BonusChapters": [],
+    "ExtraContent": [
       {
-        "ChapterName": "Volume 1",
-        "SortOrder": "1",
-        "SubFolder": "",
-        "OriginalFilenames": [],
-        "Chapters": []
+        "ChapterName": "Volume 01",
+        "SortOrder": "01",
+        "SubFolder": "99-Afterwords",
+        "OriginalFilenames": [
+          "afterword"
+        ],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
-    "ExtraContent": [],
     "Gallery": {
       "SplashImages": [
-        "color4",
-        "color3",
-        "bonus5",
         "bonus2",
-        "cover",
         "bonus3",
         "bonus4",
-        "color2",
-        "color1",
-        "bonus1"
+        "bonus5"
       ],
       "ChapterImages": [
-        "insert9",
-        "insert7",
         "insert1",
-        "insert6",
-        "insert8",
-        "insert5",
         "insert2",
         "insert3",
-        "insert4"
+        "insert4",
+        "insert5",
+        "insert6",
+        "insert7",
+        "insert8",
+        "insert9"
       ],
+      "LateSubFolder": null,
       "ChapterName": "",
       "SortOrder": "",
-      "SubFolder": "1-Volume 1",
+      "SubFolder": "01-Volume 01",
       "OriginalFilenames": [],
-      "Chapters": []
+      "Chapters": [],
+      "Splits": [],
+      "Replacements": [],
+      "LinkedChapters": [],
+      "KeepFirstSplitSection": true
     }
   },
   {
@@ -248,7 +305,11 @@
             "OriginalFilenames": [
               "toc"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Chapter 6: So Long, Sykes",
@@ -261,7 +322,11 @@
               "insert2",
               "chapter1_2"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Chapter 7: The Melancholy and Restless Prince",
@@ -276,7 +341,11 @@
               "insert5",
               "chapter2_3"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Chapter 8: The Curtains Fall on This Cheap Play",
@@ -293,7 +362,11 @@
               "insert9",
               "chapter3_4"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Afterword",
@@ -302,7 +375,11 @@
             "OriginalFilenames": [
               "afterword"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "",
@@ -311,7 +388,11 @@
             "OriginalFilenames": [
               "color1"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "",
@@ -320,7 +401,11 @@
             "OriginalFilenames": [
               "color2"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "",
@@ -329,7 +414,11 @@
             "OriginalFilenames": [
               "color3"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "",
@@ -338,7 +427,11 @@
             "OriginalFilenames": [
               "bonus1"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "",
@@ -347,7 +440,11 @@
             "OriginalFilenames": [
               "bonus2"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "",
@@ -356,7 +453,11 @@
             "OriginalFilenames": [
               "bonus3"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "",
@@ -365,7 +466,11 @@
             "OriginalFilenames": [
               "bonus4"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "",
@@ -374,7 +479,11 @@
             "OriginalFilenames": [
               "signup"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "",
@@ -383,9 +492,17 @@
             "OriginalFilenames": [
               "copyright"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           }
-        ]
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
     "BonusChapters": [
@@ -394,7 +511,11 @@
         "SortOrder": "2",
         "SubFolder": "",
         "OriginalFilenames": [],
-        "Chapters": []
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
     "ExtraContent": [],
@@ -420,11 +541,16 @@
         "insert5",
         "insert2"
       ],
+      "LateSubFolder": null,
       "ChapterName": "",
       "SortOrder": "",
       "SubFolder": "2-Volume 2",
       "OriginalFilenames": [],
-      "Chapters": []
+      "Chapters": [],
+      "Splits": [],
+      "Replacements": [],
+      "LinkedChapters": [],
+      "KeepFirstSplitSection": true
     }
   }
 ]
