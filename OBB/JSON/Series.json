@@ -2925,7 +2925,8 @@
   },
   {
     "Name": "I Refuse to Be Your Enemy!",
-    "InternalName": "i-refuse-to-be-your-enemy",
+    "InternalName": "I Refuse to Be Your Enemy!",
+    "DisableHyphenProcessing": true,
     "Volumes": [
       {
         "ApiSlug": "i-refuse-to-be-your-enemy",
@@ -2960,8 +2961,8 @@
       {
         "ApiSlug": "i-refuse-to-be-your-enemy-volume-6",
         "FileName": "i-refuse-to-be-your-enemy-volume-6.epub",
-        "EditedBy": null,
-        "ShowRemainingFiles": true
+        "EditedBy": "kuali",
+        "ShowRemainingFiles": false
       }
     ],
     "Author": "Kanata Satsuki",

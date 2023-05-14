@@ -1,0 +1,1816 @@
+[
+  {
+    "InternalName": "i-refuse-to-be-your-enemy",
+    "Chapters": [
+      {
+        "ChapterName": "Volume 1",
+        "SortOrder": "01",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "",
+            "SortOrder": "0101",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "frontmatter1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "0102",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "frontmatter2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Landmarks",
+            "SortOrder": "0103",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "toc"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Prologue",
+            "SortOrder": "0104",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "prologue"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter 1: I\u2019m Getting Out Of Here!",
+            "SortOrder": "0105",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1",
+              "insert1",
+              "chapter1_1",
+              "insert2",
+              "chapter1_2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter 2: The Path to Sorcery",
+            "SortOrder": "0106",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2",
+              "insert3",
+              "chapter2_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter 3: Struck Too Soon",
+            "SortOrder": "0107",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter3",
+              "insert4",
+              "chapter3_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter 4: The Toll of Fate\u2019s Bell",
+            "SortOrder": "0108",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter4",
+              "insert5",
+              "chapter4_1",
+              "insert6",
+              "chapter4_2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Side Story: The Midnight Lesson",
+            "SortOrder": "0109",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "sidestory",
+              "insert7",
+              "sidestory_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Afterword",
+            "SortOrder": "0110",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "afterword"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "0111",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "0112",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "0113",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "signup"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "copyright"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "Volume 1",
+        "SortOrder": "01",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "ExtraContent": [],
+    "Gallery": {
+      "SplashImages": [
+        "bonus1",
+        "bonus2",
+        "cover",
+        "frontmatter1",
+        "frontmatter2",
+        "jnovelclubrgb"
+      ],
+      "ChapterImages": [
+        "insert1",
+        "insert2",
+        "insert3",
+        "insert4",
+        "insert5",
+        "insert6",
+        "insert7"
+      ],
+      "LateSubFolder": null,
+      "ChapterName": "",
+      "SortOrder": "",
+      "SubFolder": "01-Volume 1",
+      "OriginalFilenames": [],
+      "Chapters": [],
+      "Splits": [],
+      "Replacements": [],
+      "LinkedChapters": [],
+      "KeepFirstSplitSection": true
+    }
+  },
+  {
+    "InternalName": "i-refuse-to-be-your-enemy-volume-2",
+    "Chapters": [
+      {
+        "ChapterName": "Volume 2",
+        "SortOrder": "02",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "",
+            "SortOrder": "0201",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "frontmatter1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "0202",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "frontmatter2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Landmarks",
+            "SortOrder": "0203",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "toc"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter 1: Counterattack on the Hills of Dilhorne",
+            "SortOrder": "0204",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1",
+              "insert1",
+              "chapter1_1",
+              "insert2",
+              "chapter1_2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Interlude: Her Bloodstained Hand",
+            "SortOrder": "0205",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "interlude1",
+              "insert3"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter 2: Fate Closes In",
+            "SortOrder": "0206",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2",
+              "insert4",
+              "chapter2_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter 3: Departure from \u00C9vrard",
+            "SortOrder": "0207",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter3",
+              "insert5",
+              "chapter3_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter 4: The Battle of Fort Clonfert",
+            "SortOrder": "0208",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter4",
+              "insert6"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter 5: Mercenaries in Maynard City",
+            "SortOrder": "0209",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter5"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Side Story: Dreaming Under the Sunbeams",
+            "SortOrder": "0210",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "sidestory",
+              "insert7",
+              "sidestory_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Afterword",
+            "SortOrder": "0211",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "afterword"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Bonus Short Story",
+            "SortOrder": "0212",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "0213",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "signup"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "copyright"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "Volume 2",
+        "SortOrder": "02",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "ExtraContent": [],
+    "Gallery": {
+      "SplashImages": [
+        "cover",
+        "frontmatter1",
+        "frontmatter2"
+      ],
+      "ChapterImages": [
+        "insert1",
+        "insert2",
+        "insert3",
+        "insert4",
+        "insert5",
+        "insert6",
+        "insert7"
+      ],
+      "LateSubFolder": null,
+      "ChapterName": "",
+      "SortOrder": "",
+      "SubFolder": "02-Volume 2",
+      "OriginalFilenames": [],
+      "Chapters": [],
+      "Splits": [],
+      "Replacements": [],
+      "LinkedChapters": [],
+      "KeepFirstSplitSection": true
+    }
+  },
+  {
+    "InternalName": "i-refuse-to-be-your-enemy-volume-3",
+    "Chapters": [
+      {
+        "ChapterName": "Volume 3",
+        "SortOrder": "03",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "",
+            "SortOrder": "0301",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "frontmatter1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "0302",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "frontmatter2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "0303",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "frontmatter3"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Landmarks",
+            "SortOrder": "0304",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "toc"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter 1: The Battle of Cassia Castle",
+            "SortOrder": "0305",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1",
+              "insert1",
+              "chapter1_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter 2: The Siege of Sorwen",
+            "SortOrder": "0306",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2",
+              "insert2",
+              "chapter2_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Interlude: Destiny\u2019s Turning Point",
+            "SortOrder": "0307",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "interlude1",
+              "insert3",
+              "interlude1_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter 3: A Midsummer Cake and the Beginnings of Autumn",
+            "SortOrder": "0308",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter3"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Interlude: The Fall of the Royal Capital",
+            "SortOrder": "0309",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "interlude2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter 4: Battle on the Delphion Border",
+            "SortOrder": "0310",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter4",
+              "insert4",
+              "chapter4_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter 5: Welcome to Delphion",
+            "SortOrder": "0311",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter5",
+              "insert5",
+              "chapter5_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Interlude: The Farzian Spellcaster",
+            "SortOrder": "0312",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "interlude3"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter 6: The Fort Inion Rescue Mission",
+            "SortOrder": "0313",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter6",
+              "insert6",
+              "chapter6_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Side Story: The Spellcaster\u2019s Side Hustle",
+            "SortOrder": "0314",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "side1",
+              "insert7",
+              "side1_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Afterword",
+            "SortOrder": "0315",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "afterword"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Bonus Chapter: Reginald and Gina",
+            "SortOrder": "0316",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "0317",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "0318",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "signup"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "copyright"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "Volume 3",
+        "SortOrder": "03",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "ExtraContent": [],
+    "Gallery": {
+      "SplashImages": [
+        "bonus1",
+        "cover",
+        "frontmatter1",
+        "frontmatter2",
+        "frontmatter3"
+      ],
+      "ChapterImages": [
+        "insert1",
+        "insert2",
+        "insert3",
+        "insert4",
+        "insert5",
+        "insert6",
+        "insert7"
+      ],
+      "LateSubFolder": null,
+      "ChapterName": "",
+      "SortOrder": "",
+      "SubFolder": "03-Volume 3",
+      "OriginalFilenames": [],
+      "Chapters": [],
+      "Splits": [],
+      "Replacements": [],
+      "LinkedChapters": [],
+      "KeepFirstSplitSection": true
+    }
+  },
+  {
+    "InternalName": "i-refuse-to-be-your-enemy-volume-4",
+    "Chapters": [
+      {
+        "ChapterName": "Volume 4",
+        "SortOrder": "04",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "",
+            "SortOrder": "0401",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "frontmatter1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "0402",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "frontmatter2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "0403",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "frontmatter3"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "0404",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "frontmatter4"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Landmarks",
+            "SortOrder": "0405",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "toc"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter 1: A Formal Introduction and a Reunion with an Oddball",
+            "SortOrder": "0406",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1",
+              "insert1",
+              "chapter1_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Interlude: Her First Impression",
+            "SortOrder": "0407",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "interlude1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter 2: Battle on the Alesia River",
+            "SortOrder": "0408",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2",
+              "insert2",
+              "chapter2_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Interlude: What Was Touched by Flame",
+            "SortOrder": "0409",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "interlude2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter 3: The Delphion Festival",
+            "SortOrder": "0410",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter3",
+              "insert3",
+              "chapter3_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Interlude: The Scars of the Festival",
+            "SortOrder": "0411",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "interlude3"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter 4: The Incident\u2019s Unexpected Aftermath",
+            "SortOrder": "0412",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter4",
+              "insert4",
+              "chapter4_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter 5: The Fires of Farewell",
+            "SortOrder": "0413",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter5",
+              "insert5",
+              "chapter5_1",
+              "insert6",
+              "chapter5_2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Side Story: Flustered on a Full Moon Night",
+            "SortOrder": "0414",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "sidestory",
+              "insert7"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "0415",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "sidestory2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Afterword",
+            "SortOrder": "0416",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "afterword"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Bonus Short Story",
+            "SortOrder": "0417",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "0418",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "0419",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "signup"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "copyright"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "Volume 4",
+        "SortOrder": "04",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "ExtraContent": [],
+    "Gallery": {
+      "SplashImages": [
+        "bonus",
+        "cover",
+        "frontmatter1",
+        "frontmatter2",
+        "frontmatter3",
+        "frontmatter4"
+      ],
+      "ChapterImages": [
+        "insert1",
+        "insert2",
+        "insert3",
+        "insert4",
+        "insert5",
+        "insert6",
+        "insert7"
+      ],
+      "LateSubFolder": null,
+      "ChapterName": "",
+      "SortOrder": "",
+      "SubFolder": "04-Volume 4",
+      "OriginalFilenames": [],
+      "Chapters": [],
+      "Splits": [],
+      "Replacements": [],
+      "LinkedChapters": [],
+      "KeepFirstSplitSection": true
+    }
+  },
+  {
+    "InternalName": "i-refuse-to-be-your-enemy-volume-5",
+    "Chapters": [
+      {
+        "ChapterName": "Volume 5",
+        "SortOrder": "05",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "",
+            "SortOrder": "0501",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "cover"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "0502",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "frontmatter1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "0503",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "frontmatter2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "0504",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "frontmatter3"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "0505",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "frontmatter4"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Landmarks",
+            "SortOrder": "0506",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "toc"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter 1: An Unexpected Reunion at Liadna",
+            "SortOrder": "0507",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1",
+              "insert1",
+              "chapter1_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Interlude: Out of His Reach",
+            "SortOrder": "0508",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "interlude1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter 2: The Captive Spellcaster",
+            "SortOrder": "0509",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2",
+              "insert2",
+              "chapter2_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Interlude: Watching Him Leave",
+            "SortOrder": "0510",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "interlude2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter 3: A Place to Call Home",
+            "SortOrder": "0511",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter3",
+              "insert3",
+              "chapter3_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Interlude: What I Can Do for Her",
+            "SortOrder": "0512",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "interlude3",
+              "insert4",
+              "interlude3_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter 4: A Thorny Future",
+            "SortOrder": "0513",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter4"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter 5: The Blood Flowing Through Eirlain",
+            "SortOrder": "0514",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter5",
+              "insert5",
+              "chapter5_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Interlude: Washed Ashore",
+            "SortOrder": "0515",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "interlude4"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter 6: The Light That Shines on the Battlefield",
+            "SortOrder": "0516",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter6",
+              "insert6",
+              "chapter6_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Interlude: Never Let You Go",
+            "SortOrder": "0517",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "interlude5"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter 7: The Post-Battle Agenda",
+            "SortOrder": "0518",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter7",
+              "insert7",
+              "chapter7_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Side Story: The Yearning After the Kiss",
+            "SortOrder": "0519",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "sidestory"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Afterword",
+            "SortOrder": "0520",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "afterword"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Bonus Short Story",
+            "SortOrder": "0521",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "0522",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "signup"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "copyright"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "Volume 5",
+        "SortOrder": "05",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "ExtraContent": [],
+    "Gallery": {
+      "SplashImages": [
+        "cover",
+        "frontmatter1",
+        "frontmatter2",
+        "frontmatter3",
+        "frontmatter4"
+      ],
+      "ChapterImages": [
+        "insert1",
+        "insert2",
+        "insert3",
+        "insert4",
+        "insert5",
+        "insert6",
+        "insert7"
+      ],
+      "LateSubFolder": null,
+      "ChapterName": "",
+      "SortOrder": "",
+      "SubFolder": "05-Volume 5",
+      "OriginalFilenames": [],
+      "Chapters": [],
+      "Splits": [],
+      "Replacements": [],
+      "LinkedChapters": [],
+      "KeepFirstSplitSection": true
+    }
+  },
+  {
+    "InternalName": "i-refuse-to-be-your-enemy-volume-6",
+    "Chapters": [
+      {
+        "ChapterName": "Volume 06",
+        "SortOrder": "06",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "What the Thorn Princess Once Sought",
+            "SortOrder": "0603",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1",
+              "insert1",
+              "chapter1-1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Assault on Fort Nazant",
+            "SortOrder": "0607",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2",
+              "insert2",
+              "chapter2-1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Battle on the Sestina Plains",
+            "SortOrder": "0610",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter3",
+              "insert3",
+              "chapter3-1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Thorn Princess and Her Memories",
+            "SortOrder": "0612",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter4",
+              "insert4"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "To the Royal Capital",
+            "SortOrder": "0613",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter5"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Final Battle",
+            "SortOrder": "0614",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter6",
+              "insert5",
+              "chapter6-1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "A New Beginning",
+            "SortOrder": "0616",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapterf",
+              "insert6",
+              "chapterf-1",
+              "insert7"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "Volume 06",
+        "SortOrder": "06",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Interlude: What Can I Do for You?",
+            "SortOrder": "0605",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "interlude1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Interlude: And Thus Did They Meet",
+            "SortOrder": "0606",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "interlude2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Interlude: A Sacrificial Bird",
+            "SortOrder": "0609",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "interlude3"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Side Story: The Happily Ever After Continues",
+            "SortOrder": "0618",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "side1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Bonus Short Story: Another Reason I'm Glad I Married You",
+            "SortOrder": "0619",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [
+              {
+                "Original": "<h1>Bonus Short Story: Another Reason I'm Glad I Married You</h1>\n\n      <h2>Another Reason I’m Glad I Married You</h2>",
+                "Replacement": "<h1>Bonus Short Story: Another Reason I'm Glad I Married You</h1>"
+              }
+            ],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "ExtraContent": [
+      {
+        "ChapterName": "Volume 06",
+        "SortOrder": "06",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Characters",
+            "SortOrder": "0600",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "frontmatter2",
+              "frontmatter3"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      },
+      {
+        "ChapterName": "Volume 06",
+        "SortOrder": "06",
+        "SubFolder": "99-Afterwords",
+        "OriginalFilenames": [
+          "afterword",
+          "insert8"
+        ],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      },
+      {
+        "ChapterName": "Maps",
+        "SortOrder": "001",
+        "SubFolder": "",
+        "OriginalFilenames": [
+          "frontmatter4"
+        ],
+        "Chapters": [],
+        "Splits": []
+      }
+    ],
+    "Gallery": {
+      "SplashImages": [
+        "cover",
+        "frontmatter1"
+      ],
+      "ChapterImages": [
+        "insert1",
+        "insert2",
+        "insert3",
+        "insert4",
+        "insert5",
+        "insert6",
+        "insert7",
+        "insert8"
+      ],
+      "LateSubFolder": null,
+      "ChapterName": "",
+      "SortOrder": "",
+      "SubFolder": "06-Volume 06",
+      "OriginalFilenames": [],
+      "Chapters": [],
+      "Splits": [],
+      "Replacements": [],
+      "LinkedChapters": [],
+      "KeepFirstSplitSection": true
+    }
+  }
+]
