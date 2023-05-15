@@ -134,7 +134,6 @@ namespace OBB
                             || match.StartsWith("\"signup")
                             || match.StartsWith("\"copyright")
                             || match.StartsWith("\"frontmatter")
-                            || match.StartsWith("\"bonus")
                             )
                         {
 
