@@ -16,7 +16,10 @@
               "prologue"
             ],
             "Chapters": [],
-            "Splits": []
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "And So, the Girl Was Unleashed upon the World",
@@ -37,30 +40,38 @@
             "Splits": [
               {
                 "Name": "II",
-                "SplitLine": "<h2>II</h2>",
-                "SortOrder": "02"
+                "SplitLine": "\u003Ch2\u003EII\u003C/h2\u003E",
+                "SortOrder": "02",
+                "SubFolder": ""
               },
               {
                 "Name": "III",
-                "SplitLine": "<h2>III</h2>",
-                "SortOrder": "03"
+                "SplitLine": "\u003Ch2\u003EIII\u003C/h2\u003E",
+                "SortOrder": "03",
+                "SubFolder": ""
               },
               {
                 "Name": "IV",
-                "SplitLine": "<h2>IV</h2>",
-                "SortOrder": "04"
+                "SplitLine": "\u003Ch2\u003EIV\u003C/h2\u003E",
+                "SortOrder": "04",
+                "SubFolder": ""
               },
               {
                 "Name": "V",
-                "SplitLine": "<h2>V</h2>",
-                "SortOrder": "05"
+                "SplitLine": "\u003Ch2\u003EV\u003C/h2\u003E",
+                "SortOrder": "05",
+                "SubFolder": ""
               },
               {
                 "Name": "VI",
-                "SplitLine": "<h2>VI</h2>",
-                "SortOrder": "06"
+                "SplitLine": "\u003Ch2\u003EVI\u003C/h2\u003E",
+                "SortOrder": "06",
+                "SubFolder": ""
               }
-            ]
+            ],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Strongest Piece on the Board",
@@ -77,20 +88,26 @@
             "Splits": [
               {
                 "Name": "II",
-                "SplitLine": "<h2>II</h2>",
-                "SortOrder": "02"
+                "SplitLine": "\u003Ch2\u003EII\u003C/h2\u003E",
+                "SortOrder": "02",
+                "SubFolder": ""
               },
               {
                 "Name": "III",
-                "SplitLine": "<h2>III</h2>",
-                "SortOrder": "03"
+                "SplitLine": "\u003Ch2\u003EIII\u003C/h2\u003E",
+                "SortOrder": "03",
+                "SubFolder": ""
               },
               {
                 "Name": "IV",
-                "SplitLine": "<h2>IV</h2>",
-                "SortOrder": "04"
+                "SplitLine": "\u003Ch2\u003EIV\u003C/h2\u003E",
+                "SortOrder": "04",
+                "SubFolder": ""
               }
-            ]
+            ],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Battle of Ilys",
@@ -109,15 +126,20 @@
             "Splits": [
               {
                 "Name": "II",
-                "SplitLine": "<h2>II</h2>",
-                "SortOrder": "02"
+                "SplitLine": "\u003Ch2\u003EII\u003C/h2\u003E",
+                "SortOrder": "02",
+                "SubFolder": ""
               },
               {
                 "Name": "III",
-                "SplitLine": "<h2>III</h2>",
-                "SortOrder": "03"
+                "SplitLine": "\u003Ch2\u003EIII\u003C/h2\u003E",
+                "SortOrder": "03",
+                "SubFolder": ""
               }
-            ]
+            ],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "A Fated Encounter",
@@ -130,25 +152,32 @@
             "Splits": [
               {
                 "Name": "II",
-                "SplitLine": "<h2>II</h2>",
-                "SortOrder": "02"
+                "SplitLine": "\u003Ch2\u003EII\u003C/h2\u003E",
+                "SortOrder": "02",
+                "SubFolder": ""
               },
               {
                 "Name": "III",
-                "SplitLine": "<h2>III</h2>",
-                "SortOrder": "03"
+                "SplitLine": "\u003Ch2\u003EIII\u003C/h2\u003E",
+                "SortOrder": "03",
+                "SubFolder": ""
               },
               {
                 "Name": "IV",
-                "SplitLine": "<h2>IV</h2>",
-                "SortOrder": "04"
+                "SplitLine": "\u003Ch2\u003EIV\u003C/h2\u003E",
+                "SortOrder": "04",
+                "SubFolder": ""
               },
               {
                 "Name": "V",
-                "SplitLine": "<h2>V</h2>",
-                "SortOrder": "05"
+                "SplitLine": "\u003Ch2\u003EV\u003C/h2\u003E",
+                "SortOrder": "05",
+                "SubFolder": ""
               }
-            ]
+            ],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Conferment Ceremony, and...",
@@ -160,10 +189,16 @@
               "epilogue_1"
             ],
             "Chapters": [],
-            "Splits": []
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           }
         ],
-        "Splits": []
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
     "BonusChapters": [
@@ -177,31 +212,39 @@
             "ChapterName": "Bonus Short Stories",
             "SortOrder": "0108",
             "SubFolder": "01-Volume 1",
-            "OriginalFilenames": [ "bonus" ],
+            "OriginalFilenames": [
+              "bonus"
+            ],
             "Chapters": [],
-            "KeepFirstSplitSection": false,
             "Splits": [
               {
                 "Name": "A Day with Olivia and Neinhardt",
-                "SplitLine": "<h2>A Day with Olivia and Neinhardt</h2>",
-                "SortOrder": "0108"
+                "SplitLine": "\u003Ch2\u003EA Day with Olivia and Neinhardt\u003C/h2\u003E",
+                "SortOrder": "0108",
+                "SubFolder": ""
               },
               {
                 "Name": "A Day with Olivia and Otto",
-                "SplitLine": "<h2>A Day with Olivia and Otto</h2>",
-                "SortOrder": "0109"
+                "SplitLine": "\u003Ch2\u003EA Day with Olivia and Otto\u003C/h2\u003E",
+                "SortOrder": "0109",
+                "SubFolder": ""
               },
               {
                 "Name": "A Day with Olivia and Ashton",
-                "SplitLine": "<h2>A Day with Olivia and Ashton</h2>",
-                "SortOrder": "0110"
+                "SplitLine": "\u003Ch2\u003EA Day with Olivia and Ashton\u003C/h2\u003E",
+                "SortOrder": "0110",
+                "SubFolder": ""
               },
               {
                 "Name": "A Day with Olivia and Claudia",
-                "SplitLine": "<h2>A Day with Olivia and Claudia</h2>",
-                "SortOrder": "0110"
+                "SplitLine": "\u003Ch2\u003EA Day with Olivia and Claudia\u003C/h2\u003E",
+                "SortOrder": "0110",
+                "SubFolder": ""
               }
-            ]
+            ],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": false
           },
           {
             "ChapterName": "Claudia\u2019s Secret",
@@ -211,22 +254,44 @@
               "chapter5"
             ],
             "Chapters": [],
-            "Splits": []
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           }
         ],
-        "Splits": []
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
     "ExtraContent": [
       {
-        "ChapterName": "Volume 1",
+        "ChapterName": "Volume 01",
         "SortOrder": "01",
         "SubFolder": "99-Afterwords",
         "OriginalFilenames": [
           "afterword"
         ],
         "Chapters": [],
-        "Splits": []
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      },
+      {
+        "ChapterName": "Southern and Central Fernest",
+        "SortOrder": "0101",
+        "SubFolder": "98-Maps",
+        "OriginalFilenames": [
+          "map"
+        ],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
     "Gallery": {
@@ -254,7 +319,10 @@
       "SubFolder": "01-Volume 01",
       "OriginalFilenames": [],
       "Chapters": [],
-      "Splits": []
+      "Splits": [],
+      "Replacements": [],
+      "LinkedChapters": [],
+      "KeepFirstSplitSection": true
     }
   },
   {
@@ -274,7 +342,10 @@
               "prologue"
             ],
             "Chapters": [],
-            "Splits": []
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Girl They Called Hero; The Girl They Called Monster",
@@ -289,15 +360,20 @@
             "Splits": [
               {
                 "Name": "II",
-                "SplitLine": "<h2>II</h2>",
-                "SortOrder": "02"
+                "SplitLine": "\u003Ch2\u003EII\u003C/h2\u003E",
+                "SortOrder": "02",
+                "SubFolder": ""
               },
               {
                 "Name": "III",
-                "SplitLine": "<h2>III</h2>",
-                "SortOrder": "03"
+                "SplitLine": "\u003Ch2\u003EIII\u003C/h2\u003E",
+                "SortOrder": "03",
+                "SubFolder": ""
               }
-            ]
+            ],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Independent Cavalry Regiment Moves Out",
@@ -314,25 +390,32 @@
             "Splits": [
               {
                 "Name": "II",
-                "SplitLine": "<h2>II</h2>",
-                "SortOrder": "02"
+                "SplitLine": "\u003Ch2\u003EII\u003C/h2\u003E",
+                "SortOrder": "02",
+                "SubFolder": ""
               },
               {
                 "Name": "III",
-                "SplitLine": "<h2>III</h2>",
-                "SortOrder": "03"
+                "SplitLine": "\u003Ch2\u003EIII\u003C/h2\u003E",
+                "SortOrder": "03",
+                "SubFolder": ""
               },
               {
                 "Name": "IV",
-                "SplitLine": "<h2>IV</h2>",
-                "SortOrder": "04"
+                "SplitLine": "\u003Ch2\u003EIV\u003C/h2\u003E",
+                "SortOrder": "04",
+                "SubFolder": ""
               },
               {
                 "Name": "V",
-                "SplitLine": "<h2>V</h2>",
-                "SortOrder": "05"
+                "SplitLine": "\u003Ch2\u003EV\u003C/h2\u003E",
+                "SortOrder": "05",
+                "SubFolder": ""
               }
-            ]
+            ],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Scattering Death",
@@ -347,20 +430,26 @@
             "Splits": [
               {
                 "Name": "II",
-                "SplitLine": "<h2>II</h2>",
-                "SortOrder": "02"
+                "SplitLine": "\u003Ch2\u003EII\u003C/h2\u003E",
+                "SortOrder": "02",
+                "SubFolder": ""
               },
               {
                 "Name": "III",
-                "SplitLine": "<h2>III</h2>",
-                "SortOrder": "03"
+                "SplitLine": "\u003Ch2\u003EIII\u003C/h2\u003E",
+                "SortOrder": "03",
+                "SubFolder": ""
               },
               {
                 "Name": "IV",
-                "SplitLine": "<h2>IV</h2>",
-                "SortOrder": "04"
+                "SplitLine": "\u003Ch2\u003EIV\u003C/h2\u003E",
+                "SortOrder": "04",
+                "SubFolder": ""
               }
-            ]
+            ],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Hero and the Knight",
@@ -375,20 +464,26 @@
             "Splits": [
               {
                 "Name": "II",
-                "SplitLine": "<h2>II</h2>",
-                "SortOrder": "02"
+                "SplitLine": "\u003Ch2\u003EII\u003C/h2\u003E",
+                "SortOrder": "02",
+                "SubFolder": ""
               },
               {
                 "Name": "III",
-                "SplitLine": "<h2>III</h2>",
-                "SortOrder": "03"
+                "SplitLine": "\u003Ch2\u003EIII\u003C/h2\u003E",
+                "SortOrder": "03",
+                "SubFolder": ""
               },
               {
                 "Name": "IV",
-                "SplitLine": "<h2>IV</h2>",
-                "SortOrder": "04"
+                "SplitLine": "\u003Ch2\u003EIV\u003C/h2\u003E",
+                "SortOrder": "04",
+                "SubFolder": ""
               }
-            ]
+            ],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Interlude: Gile Marion",
@@ -398,7 +493,10 @@
               "interlude"
             ],
             "Chapters": [],
-            "Splits": []
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Divide and Conquer",
@@ -415,20 +513,26 @@
             "Splits": [
               {
                 "Name": "II",
-                "SplitLine": "<h2>II</h2>",
-                "SortOrder": "02"
+                "SplitLine": "\u003Ch2\u003EII\u003C/h2\u003E",
+                "SortOrder": "02",
+                "SubFolder": ""
               },
               {
                 "Name": "III",
-                "SplitLine": "<h2>III</h2>",
-                "SortOrder": "03"
+                "SplitLine": "\u003Ch2\u003EIII\u003C/h2\u003E",
+                "SortOrder": "03",
+                "SubFolder": ""
               },
               {
                 "Name": "IV",
-                "SplitLine": "<h2>IV</h2>",
-                "SortOrder": "04"
+                "SplitLine": "\u003Ch2\u003EIV\u003C/h2\u003E",
+                "SortOrder": "04",
+                "SubFolder": ""
               }
-            ]
+            ],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Battle of Carnac",
@@ -445,20 +549,26 @@
             "Splits": [
               {
                 "Name": "II",
-                "SplitLine": "<h2>II</h2>",
-                "SortOrder": "02"
+                "SplitLine": "\u003Ch2\u003EII\u003C/h2\u003E",
+                "SortOrder": "02",
+                "SubFolder": ""
               },
               {
                 "Name": "III",
-                "SplitLine": "<h2>III</h2>",
-                "SortOrder": "03"
+                "SplitLine": "\u003Ch2\u003EIII\u003C/h2\u003E",
+                "SortOrder": "03",
+                "SubFolder": ""
               },
               {
                 "Name": "IV",
-                "SplitLine": "<h2>IV</h2>",
-                "SortOrder": "04"
+                "SplitLine": "\u003Ch2\u003EIV\u003C/h2\u003E",
+                "SortOrder": "04",
+                "SubFolder": ""
               }
-            ]
+            ],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "After the Battle Was Won",
@@ -471,10 +581,14 @@
             "Splits": [
               {
                 "Name": "II",
-                "SplitLine": "<h2>II</h2>",
-                "SortOrder": "02"
+                "SplitLine": "\u003Ch2\u003EII\u003C/h2\u003E",
+                "SortOrder": "02",
+                "SubFolder": ""
               }
-            ]
+            ],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Seraph",
@@ -485,10 +599,16 @@
               "insert10"
             ],
             "Chapters": [],
-            "Splits": []
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           }
         ],
-        "Splits": []
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
     "BonusChapters": [
@@ -501,37 +621,52 @@
           {
             "ChapterName": "Bonus Short Stories",
             "SortOrder": "0212",
-            "OriginalFilenames": [ "bonus" ],
-            "KeepFirstSplitSection": false,
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus"
+            ],
+            "Chapters": [],
             "Splits": [
               {
                 "Name": "A Second Day with Olivia and Claudia",
-                "SplitLine": "<h2>A Second Day with Olivia and Claudia</h2>",
-                "SortOrder": "01"
+                "SplitLine": "\u003Ch2\u003EA Second Day with Olivia and Claudia\u003C/h2\u003E",
+                "SortOrder": "01",
+                "SubFolder": ""
               },
               {
                 "Name": "A Second Day with Olivia and Ashton",
-                "SplitLine": "<h2>A Second Day with Olivia and Ashton</h2>",
-                "SortOrder": "02"
+                "SplitLine": "\u003Ch2\u003EA Second Day with Olivia and Ashton\u003C/h2\u003E",
+                "SortOrder": "02",
+                "SubFolder": ""
               },
               {
                 "Name": "A Day with Olivia and Gauss",
-                "SplitLine": "<h2>A Day with Olivia and Gauss</h2>",
-                "SortOrder": "03"
+                "SplitLine": "\u003Ch2\u003EA Day with Olivia and Gauss\u003C/h2\u003E",
+                "SortOrder": "03",
+                "SubFolder": ""
               },
               {
                 "Name": "A Second Day with Olivia and Paul",
-                "SplitLine": "<h2>A Second Day with Olivia and Paul</h2>",
-                "SortOrder": "04"
+                "SplitLine": "\u003Ch2\u003EA Second Day with Olivia and Paul\u003C/h2\u003E",
+                "SortOrder": "04",
+                "SubFolder": ""
               },
               {
                 "Name": "A Second Day with Olivia and Otto",
-                "SplitLine": "<h2>A Second Day with Olivia and Otto</h2>",
-                "SortOrder": "05"
+                "SplitLine": "\u003Ch2\u003EA Second Day with Olivia and Otto\u003C/h2\u003E",
+                "SortOrder": "05",
+                "SubFolder": ""
               }
-            ]
+            ],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": false
           }
-        ]
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
     "ExtraContent": [
@@ -544,17 +679,36 @@
           "characters2"
         ],
         "Chapters": [],
-        "Splits": []
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       },
       {
-        "ChapterName": "Volume 2",
+        "ChapterName": "Volume 02",
         "SortOrder": "02",
         "SubFolder": "99-Afterwords",
         "OriginalFilenames": [
           "afterword"
         ],
         "Chapters": [],
-        "Splits": []
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      },
+      {
+        "ChapterName": "Northern and Central Fernest",
+        "SortOrder": "0201",
+        "SubFolder": "98-Maps",
+        "OriginalFilenames": [
+          "map"
+        ],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
     "Gallery": {
@@ -582,7 +736,10 @@
       "SubFolder": "02-Volume 02",
       "OriginalFilenames": [],
       "Chapters": [],
-      "Splits": []
+      "Splits": [],
+      "Replacements": [],
+      "LinkedChapters": [],
+      "KeepFirstSplitSection": true
     }
   },
   {
@@ -602,7 +759,10 @@
               "prologue"
             ],
             "Chapters": [],
-            "Splits": []
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Mayhem at Fort Astora!",
@@ -621,25 +781,32 @@
             "Splits": [
               {
                 "Name": "II",
-                "SplitLine": "<h2>II</h2>",
-                "SortOrder": "02"
+                "SplitLine": "\u003Ch2\u003EII\u003C/h2\u003E",
+                "SortOrder": "02",
+                "SubFolder": ""
               },
               {
                 "Name": "III",
-                "SplitLine": "<h2>III</h2>",
-                "SortOrder": "03"
+                "SplitLine": "\u003Ch2\u003EIII\u003C/h2\u003E",
+                "SortOrder": "03",
+                "SubFolder": ""
               },
               {
                 "Name": "IV",
-                "SplitLine": "<h2>IV</h2>",
-                "SortOrder": "04"
+                "SplitLine": "\u003Ch2\u003EIV\u003C/h2\u003E",
+                "SortOrder": "04",
+                "SubFolder": ""
               },
               {
                 "Name": "V",
-                "SplitLine": "<h2>V</h2>",
-                "SortOrder": "05"
+                "SplitLine": "\u003Ch2\u003EV\u003C/h2\u003E",
+                "SortOrder": "05",
+                "SubFolder": ""
               }
-            ]
+            ],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Royal Library",
@@ -654,20 +821,26 @@
             "Splits": [
               {
                 "Name": "II",
-                "SplitLine": "<h2>II</h2>",
-                "SortOrder": "02"
+                "SplitLine": "\u003Ch2\u003EII\u003C/h2\u003E",
+                "SortOrder": "02",
+                "SubFolder": ""
               },
               {
                 "Name": "III",
-                "SplitLine": "<h2>III</h2>",
-                "SortOrder": "03"
+                "SplitLine": "\u003Ch2\u003EIII\u003C/h2\u003E",
+                "SortOrder": "03",
+                "SubFolder": ""
               },
               {
                 "Name": "IV",
-                "SplitLine": "<h2>IV</h2>",
-                "SortOrder": "04"
+                "SplitLine": "\u003Ch2\u003EIV\u003C/h2\u003E",
+                "SortOrder": "04",
+                "SubFolder": ""
               }
-            ]
+            ],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Temptation",
@@ -677,7 +850,10 @@
               "interlude"
             ],
             "Chapters": [],
-            "Splits": []
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "An Ebony Blossom in a Perilous Dance",
@@ -697,30 +873,38 @@
             "Splits": [
               {
                 "Name": "II",
-                "SplitLine": "<h2>II</h2>",
-                "SortOrder": "02"
+                "SplitLine": "\u003Ch2\u003EII\u003C/h2\u003E",
+                "SortOrder": "02",
+                "SubFolder": ""
               },
               {
                 "Name": "III",
-                "SplitLine": "<h2>III</h2>",
-                "SortOrder": "03"
+                "SplitLine": "\u003Ch2\u003EIII\u003C/h2\u003E",
+                "SortOrder": "03",
+                "SubFolder": ""
               },
               {
                 "Name": "IV",
-                "SplitLine": "<h2>IV</h2>",
-                "SortOrder": "04"
+                "SplitLine": "\u003Ch2\u003EIV\u003C/h2\u003E",
+                "SortOrder": "04",
+                "SubFolder": ""
               },
               {
                 "Name": "V",
-                "SplitLine": "<h2>V</h2>",
-                "SortOrder": "05"
+                "SplitLine": "\u003Ch2\u003EV\u003C/h2\u003E",
+                "SortOrder": "05",
+                "SubFolder": ""
               },
               {
                 "Name": "VI",
-                "SplitLine": "<h2>VI</h2>",
-                "SortOrder": "06"
+                "SplitLine": "\u003Ch2\u003EVI\u003C/h2\u003E",
+                "SortOrder": "06",
+                "SubFolder": ""
               }
-            ]
+            ],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Battle of Nobis",
@@ -733,20 +917,26 @@
             "Splits": [
               {
                 "Name": "II",
-                "SplitLine": "<h2>II</h2>",
-                "SortOrder": "02"
+                "SplitLine": "\u003Ch2\u003EII\u003C/h2\u003E",
+                "SortOrder": "02",
+                "SubFolder": ""
               },
               {
                 "Name": "III",
-                "SplitLine": "<h2>III</h2>",
-                "SortOrder": "03"
+                "SplitLine": "\u003Ch2\u003EIII\u003C/h2\u003E",
+                "SortOrder": "03",
+                "SubFolder": ""
               },
               {
                 "Name": "IV",
-                "SplitLine": "<h2>IV</h2>",
-                "SortOrder": "04"
+                "SplitLine": "\u003Ch2\u003EIV\u003C/h2\u003E",
+                "SortOrder": "04",
+                "SubFolder": ""
               }
-            ]
+            ],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Ballroom Hostilities",
@@ -761,20 +951,26 @@
             "Splits": [
               {
                 "Name": "II",
-                "SplitLine": "<h2>II</h2>",
-                "SortOrder": "02"
+                "SplitLine": "\u003Ch2\u003EII\u003C/h2\u003E",
+                "SortOrder": "02",
+                "SubFolder": ""
               },
               {
                 "Name": "III",
-                "SplitLine": "<h2>III</h2>",
-                "SortOrder": "03"
+                "SplitLine": "\u003Ch2\u003EIII\u003C/h2\u003E",
+                "SortOrder": "03",
+                "SubFolder": ""
               },
               {
                 "Name": "IV",
-                "SplitLine": "<h2>IV</h2>",
-                "SortOrder": "04"
+                "SplitLine": "\u003Ch2\u003EIV\u003C/h2\u003E",
+                "SortOrder": "04",
+                "SubFolder": ""
               }
-            ]
+            ],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Magic and Magecraft",
@@ -789,25 +985,32 @@
             "Splits": [
               {
                 "Name": "II",
-                "SplitLine": "<h2>II</h2>",
-                "SortOrder": "02"
+                "SplitLine": "\u003Ch2\u003EII\u003C/h2\u003E",
+                "SortOrder": "02",
+                "SubFolder": ""
               },
               {
                 "Name": "III",
-                "SplitLine": "<h2>III</h2>",
-                "SortOrder": "03"
+                "SplitLine": "\u003Ch2\u003EIII\u003C/h2\u003E",
+                "SortOrder": "03",
+                "SubFolder": ""
               },
               {
                 "Name": "IV",
-                "SplitLine": "<h2>IV</h2>",
-                "SortOrder": "04"
+                "SplitLine": "\u003Ch2\u003EIV\u003C/h2\u003E",
+                "SortOrder": "04",
+                "SubFolder": ""
               },
               {
                 "Name": "V",
-                "SplitLine": "<h2>V</h2>",
-                "SortOrder": "05"
+                "SplitLine": "\u003Ch2\u003EV\u003C/h2\u003E",
+                "SortOrder": "05",
+                "SubFolder": ""
               }
-            ]
+            ],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "A Spring Storm",
@@ -818,10 +1021,16 @@
               "insert11"
             ],
             "Chapters": [],
-            "Splits": []
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           }
         ],
-        "Splits": []
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
     "BonusChapters": [
@@ -839,44 +1048,56 @@
               "bonus"
             ],
             "Chapters": [],
-            "KeepFirstSplitSection": false,
             "Splits": [
               {
                 "Name": "A Third Day with Olivia and Ashton",
-                "SplitLine": "<h2>A Third Day with Olivia and Ashton</h2>",
-                "SortOrder": "01"
+                "SplitLine": "\u003Ch2\u003EA Third Day with Olivia and Ashton\u003C/h2\u003E",
+                "SortOrder": "01",
+                "SubFolder": ""
               },
               {
                 "Name": "A Third Day with Olivia and Claudia",
-                "SplitLine": "<h2>A Third Day with Olivia and Claudia</h2>",
-                "SortOrder": "02"
+                "SplitLine": "\u003Ch2\u003EA Third Day with Olivia and Claudia\u003C/h2\u003E",
+                "SortOrder": "02",
+                "SubFolder": ""
               },
               {
                 "Name": "A Day with Olivia and Cornelius",
-                "SplitLine": "<h2>A Day with Olivia and Cornelius</h2>",
-                "SortOrder": "03"
+                "SplitLine": "\u003Ch2\u003EA Day with Olivia and Cornelius\u003C/h2\u003E",
+                "SortOrder": "03",
+                "SubFolder": ""
               },
               {
                 "Name": "A Day with Olivia and Blood",
-                "SplitLine": "<h2>A Day with Olivia and Blood</h2>",
-                "SortOrder": "04"
+                "SplitLine": "\u003Ch2\u003EA Day with Olivia and Blood\u003C/h2\u003E",
+                "SortOrder": "04",
+                "SubFolder": ""
               }
-            ]
+            ],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": false
           }
         ],
-        "Splits": []
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
     "ExtraContent": [
       {
-        "ChapterName": "Maps",
-        "SortOrder": "001",
-        "SubFolder": "",
+        "ChapterName": "Central Fernest",
+        "SortOrder": "0301",
+        "SubFolder": "98-Maps",
         "OriginalFilenames": [
           "map"
         ],
         "Chapters": [],
-        "Splits": []
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       },
       {
         "ChapterName": "Characters",
@@ -887,17 +1108,23 @@
           "characters2"
         ],
         "Chapters": [],
-        "Splits": []
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       },
       {
-        "ChapterName": "Volume 3",
+        "ChapterName": "Volume 03",
         "SortOrder": "03",
         "SubFolder": "99-Afterwords",
         "OriginalFilenames": [
           "afterword"
         ],
         "Chapters": [],
-        "Splits": []
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
     "Gallery": {
@@ -926,7 +1153,485 @@
       "SubFolder": "03-Volume 03",
       "OriginalFilenames": [],
       "Chapters": [],
-      "Splits": []
+      "Splits": [],
+      "Replacements": [],
+      "LinkedChapters": [],
+      "KeepFirstSplitSection": true
+    }
+  },
+  {
+    "InternalName": "death-s-daughter-and-the-ebony-blade-volume-4",
+    "Chapters": [
+      {
+        "ChapterName": "Volume 04",
+        "SortOrder": "04",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "The Jewel of the South",
+            "SortOrder": "0404",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "prologue"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Under the Lion Banner",
+            "SortOrder": "0405",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1",
+              "insert1",
+              "chapter1_1",
+              "insert2",
+              "chapter1_2"
+            ],
+            "Chapters": [],
+            "Splits": [
+              {
+                "Name": "II",
+                "SplitLine": "\u003Ch2\u003EII\u003C/h2\u003E",
+                "SortOrder": "02",
+                "SubFolder": ""
+              },
+              {
+                "Name": "III",
+                "SplitLine": "\u003Ch2\u003EIII\u003C/h2\u003E",
+                "SortOrder": "03",
+                "SubFolder": ""
+              },
+              {
+                "Name": "IV",
+                "SplitLine": "\u003Ch2\u003EIV\u003C/h2\u003E",
+                "SortOrder": "04",
+                "SubFolder": ""
+              }
+            ],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "For Whom We Fight",
+            "SortOrder": "0406",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2",
+              "insert3",
+              "chapter2_1"
+            ],
+            "Chapters": [],
+            "Splits": [
+              {
+                "Name": "II",
+                "SplitLine": "\u003Ch2\u003EII\u003C/h2\u003E",
+                "SortOrder": "02",
+                "SubFolder": ""
+              },
+              {
+                "Name": "III",
+                "SplitLine": "\u003Ch2\u003EIII\u003C/h2\u003E",
+                "SortOrder": "03",
+                "SubFolder": ""
+              },
+              {
+                "Name": "IV",
+                "SplitLine": "\u003Ch2\u003EIV\u003C/h2\u003E",
+                "SortOrder": "04",
+                "SubFolder": ""
+              }
+            ],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Titans Clash!",
+            "SortOrder": "0408",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter3",
+              "insert4",
+              "chapter3_1",
+              "insert5"
+            ],
+            "Chapters": [],
+            "Splits": [
+              {
+                "Name": "II",
+                "SplitLine": "\u003Ch2\u003EII\u003C/h2\u003E",
+                "SortOrder": "02",
+                "SubFolder": ""
+              },
+              {
+                "Name": "III",
+                "SplitLine": "\u003Ch2\u003EIII\u003C/h2\u003E",
+                "SortOrder": "03",
+                "SubFolder": ""
+              },
+              {
+                "Name": "IV",
+                "SplitLine": "\u003Ch2\u003EIV\u003C/h2\u003E",
+                "SortOrder": "04",
+                "SubFolder": ""
+              },
+              {
+                "Name": "V",
+                "SplitLine": "\u003Ch2\u003EV\u003C/h2\u003E",
+                "SortOrder": "05",
+                "SubFolder": ""
+              },
+              {
+                "Name": "VI",
+                "SplitLine": "\u003Ch2\u003EVI\u003C/h2\u003E",
+                "SortOrder": "06",
+                "SubFolder": ""
+              },
+              {
+                "Name": "VII",
+                "SplitLine": "\u003Ch2\u003EVII\u003C/h2\u003E",
+                "SortOrder": "07",
+                "SubFolder": ""
+              }
+            ],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "First Action",
+            "SortOrder": "0409",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter4",
+              "insert6",
+              "chapter4_1"
+            ],
+            "Chapters": [],
+            "Splits": [
+              {
+                "Name": "II",
+                "SplitLine": "\u003Ch2\u003EII\u003C/h2\u003E",
+                "SortOrder": "02",
+                "SubFolder": ""
+              },
+              {
+                "Name": "III",
+                "SplitLine": "\u003Ch2\u003EIII\u003C/h2\u003E",
+                "SortOrder": "03",
+                "SubFolder": ""
+              },
+              {
+                "Name": "IV",
+                "SplitLine": "\u003Ch2\u003EIV\u003C/h2\u003E",
+                "SortOrder": "04",
+                "SubFolder": ""
+              },
+              {
+                "Name": "V",
+                "SplitLine": "\u003Ch2\u003EV\u003C/h2\u003E",
+                "SortOrder": "05",
+                "SubFolder": ""
+              }
+            ],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Battle of Vilan",
+            "SortOrder": "0410",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter5",
+              "insert7",
+              "chapter5_1",
+              "insert8"
+            ],
+            "Chapters": [],
+            "Splits": [
+              {
+                "Name": "II",
+                "SplitLine": "\u003Ch2\u003EII\u003C/h2\u003E",
+                "SortOrder": "02",
+                "SubFolder": ""
+              },
+              {
+                "Name": "III",
+                "SplitLine": "\u003Ch2\u003EIII\u003C/h2\u003E",
+                "SortOrder": "03",
+                "SubFolder": ""
+              },
+              {
+                "Name": "IV",
+                "SplitLine": "\u003Ch2\u003EIV\u003C/h2\u003E",
+                "SortOrder": "04",
+                "SubFolder": ""
+              },
+              {
+                "Name": "V",
+                "SplitLine": "\u003Ch2\u003EV\u003C/h2\u003E",
+                "SortOrder": "05",
+                "SubFolder": ""
+              },
+              {
+                "Name": "VI",
+                "SplitLine": "\u003Ch2\u003EVI\u003C/h2\u003E",
+                "SortOrder": "06",
+                "SubFolder": ""
+              },
+              {
+                "Name": "VII",
+                "SplitLine": "\u003Ch2\u003EVII\u003C/h2\u003E",
+                "SortOrder": "07",
+                "SubFolder": ""
+              },
+              {
+                "Name": "VIII",
+                "SplitLine": "\u003Ch2\u003EVIII\u003C/h2\u003E",
+                "SortOrder": "08",
+                "SubFolder": ""
+              }
+            ],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "A Feigned Alliance",
+            "SortOrder": "0411",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter6",
+              "insert9",
+              "chapter6_1"
+            ],
+            "Chapters": [],
+            "Splits": [
+              {
+                "Name": "II",
+                "SplitLine": "\u003Ch2\u003EII\u003C/h2\u003E",
+                "SortOrder": "02",
+                "SubFolder": ""
+              },
+              {
+                "Name": "III",
+                "SplitLine": "\u003Ch2\u003EIII\u003C/h2\u003E",
+                "SortOrder": "03",
+                "SubFolder": ""
+              }
+            ],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The White Forest",
+            "SortOrder": "0412",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter7"
+            ],
+            "Chapters": [],
+            "Splits": [
+              {
+                "Name": "II",
+                "SplitLine": "\u003Ch2\u003EII\u003C/h2\u003E",
+                "SortOrder": "02",
+                "SubFolder": ""
+              },
+              {
+                "Name": "III",
+                "SplitLine": "\u003Ch2\u003EIII\u003C/h2\u003E",
+                "SortOrder": "03",
+                "SubFolder": ""
+              }
+            ],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Light of Dawn",
+            "SortOrder": "0413",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "epilogue",
+              "insert10"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "Volume 04",
+        "SortOrder": "04",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Interlude: Ellis\u2019s Capriccio",
+            "SortOrder": "0407",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "interlude"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Bonus Short Stories",
+            "SortOrder": "0414",
+            "OriginalFilenames": [ "bonus" ],
+            "Splits": [
+              {
+                "Name": "A Fourth Day With Olivia and Claudia",
+                "SplitLine": "\u003Ch2\u003EA Fourth Day With Olivia and Claudia\u003C/h2\u003E",
+                "SortOrder": "01",
+                "SubFolder": ""
+              },
+              {
+                "Name": "A Second Day With Olivia and Blood",
+                "SplitLine": "\u003Ch2\u003EA Second Day With Olivia and Blood\u003C/h2\u003E",
+                "SortOrder": "02",
+                "SubFolder": ""
+              },
+              {
+                "Name": "A Day With Olivia and Riful",
+                "SplitLine": "\u003Ch2\u003EA Day With Olivia and Riful\u003C/h2\u003E",
+                "SortOrder": "03",
+                "SubFolder": ""
+              },
+              {
+                "Name": "A Fourth Day With Olivia and Ashton",
+                "SplitLine": "\u003Ch2\u003EA Fourth Day With Olivia and Ashton\u003C/h2\u003E",
+                "SortOrder": "04",
+                "SubFolder": ""
+              },
+              {
+                "Name": "A Day With Olivia and Sara",
+                "SplitLine": "\u003Ch2\u003EA Day With Olivia and Sara\u003C/h2\u003E",
+                "SortOrder": "05",
+                "SubFolder": ""
+              },
+              {
+                "Name": "A Day With Olivia and Gile",
+                "SplitLine": "\u003Ch2\u003EA Day With Olivia and Gile\u003C/h2\u003E",
+                "SortOrder": "06",
+                "SubFolder": ""
+              }
+            ],
+            "KeepFirstSplitSection": false
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "ExtraContent": [
+      {
+        "ChapterName": "Volume 04",
+        "SortOrder": "04",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Character Sheet",
+            "SortOrder": "0402",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "characters1",
+              "characters2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      },
+      {
+        "ChapterName": "Southern Fernest and Eastern Sutherland",
+        "SortOrder": "0401",
+        "SubFolder": "98-Maps",
+        "OriginalFilenames": [
+          "map"
+        ],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      },
+      {
+        "ChapterName": "Volume 04",
+        "SortOrder": "04",
+        "SubFolder": "99-Afterwords",
+        "OriginalFilenames": [
+          "afterword"
+        ],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "Gallery": {
+      "SplashImages": [
+        "bonusimg",
+        "backmatter1",
+        "backmatter2",
+        "backmatter3"
+      ],
+      "ChapterImages": [
+        "insert1",
+        "insert2",
+        "insert3",
+        "insert4",
+        "insert5",
+        "insert6",
+        "insert7",
+        "insert8",
+        "insert9",
+        "insert10"
+      ],
+      "LateSubFolder": null,
+      "ChapterName": "",
+      "SortOrder": "",
+      "SubFolder": "04-Volume 04",
+      "OriginalFilenames": [],
+      "Chapters": [],
+      "Splits": [],
+      "Replacements": [],
+      "LinkedChapters": [],
+      "KeepFirstSplitSection": true
     }
   }
 ]
