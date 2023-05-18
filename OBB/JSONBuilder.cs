@@ -1,4 +1,6 @@
-﻿using OBB.JSONCode;
+﻿using Core;
+using Core.Downloads;
+using OBB.JSONCode;
 using System.IO.Compression;
 using System.Text.Json;
 using System.Text.RegularExpressions;
@@ -17,6 +19,24 @@ namespace OBB
             var dict = new Dictionary<int, string>();
             var series = await GetSeries();
 
+
+            using (var client = new HttpClient()) 
+            {
+                var login = await Login.FromFile(client);
+                login = login ?? await Login.FromConsole(client);
+                var library = await Downloader.GetLibrary(client, login.AccessToken);
+                foreach (var vol in series.SelectMany(x => x.Volumes))
+                {
+                    if (!files.Any(x => x.Equals(inFolder + "\\" + vol.FileName, StringComparison.InvariantCultureIgnoreCase))
+                        && library.books.Any(x => x.volume.slug.Equals(vol.ApiSlug)))
+                    {
+                        await Downloader.DoDownloads(client, login.AccessToken, inFolder, new List<Name> { new Name { ApiSlug = vol.ApiSlug, FileName = vol.FileName } });
+                    }
+                }
+            }
+            
+            files = Directory.GetFiles(Settings.MiscSettings.GetInputFolder(), "*.epub");
+
             foreach (var file in files)
             {
                 var serie = series.FirstOrDefault(x => x.Volumes.Any(y => (inFolder + "\\" + y.FileName).Equals(file)));
@@ -30,15 +50,20 @@ namespace OBB
                     var vol = serie.Volumes.First(x => (inFolder + "\\" + x.FileName).Equals(file));
                     if (vol.EditedBy == null)
                     {
-                        var volum = GenerateVolumeInfo(inFolder, (serie.Volumes.IndexOf(vol) + 1).ToString("00"), file);
+                        Console.Write($"Mark {file} as edited by:");
+                        var editor = Console.ReadLine();
+                        if (!string.IsNullOrWhiteSpace(editor)) vol.EditedBy = editor;
+
+                        var volume = GenerateVolumeInfo(inFolder, (serie.Volumes.IndexOf(vol) + 1).ToString("00"), file);
                         vols.RemoveAll(x => x.InternalName.Equals(vol.ApiSlug));
-                        vols.Add(volum);
+                        vols.Add(volume);
                         vols = vols.OrderBy(x => x.InternalName).ToList();
                     }
                     await SaveVolumes(serie.InternalName, vols);
                 }
             }
 
+            await SaveSeries(series);
             Console.WriteLine("Volume json updated");
             Console.ReadLine();
         }
@@ -71,11 +96,24 @@ namespace OBB
         {
             var options = new JsonSerializerOptions
             {
-                WriteIndented = true
+                WriteIndented = true,
+                Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping
             };
             using (var writer = new StreamWriter($"JSON\\{seriesInternalName}.json"))
             {
                 await JsonSerializer.SerializeAsync(writer.BaseStream, volumes, options);
+            }
+        }
+        private static async Task SaveSeries(List<Series> series)
+        {
+            var options = new JsonSerializerOptions
+            {
+                WriteIndented = true,
+                Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping
+            };
+            using (var writer = new StreamWriter($"JSON\\Series.json"))
+            {
+                await JsonSerializer.SerializeAsync(writer.BaseStream, series.OrderBy(x => x.Name).ToArray(), options);
             }
         }
 

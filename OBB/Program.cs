@@ -16,6 +16,7 @@ while (true)
     Console.WriteLine("4 - Update Miscellaneous Settings");
     Console.WriteLine("5 - Update JNC Login Details");
     Console.WriteLine("6 - Create .json from .epub");
+    Console.WriteLine("7 - Add new books from your account to a series");
 #if DEBUG
     Console.WriteLine("10 - Create Series Summary Table");
 #endif
@@ -43,6 +44,9 @@ while (true)
             break;
         case 6:
             await JSONBuilder.ExtractJSON();
+            break;
+        case 7:
+            await NewVolumes.List();
             break;
 #if DEBUG
         case 10:

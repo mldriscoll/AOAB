@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http.Headers;
+using System.Net.NetworkInformation;
 using System.Runtime.Serialization.Json;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -148,6 +149,8 @@ namespace Core.Downloads
             var library = await GetLibrary(client, token);
 
             var libraryBook = library.books.FirstOrDefault(x => x.volume.slug.Equals(slug, StringComparison.InvariantCultureIgnoreCase));
+
+            if (libraryBook == null) return;
 
             var download = libraryBook.downloads.Last();
 
