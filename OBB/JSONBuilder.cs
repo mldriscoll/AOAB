@@ -79,7 +79,7 @@ namespace OBB
             }
         }
 
-        private static Volume GenerateVolumeInfo(string inFolder, string? volumeName, string epub)
+        public static Volume GenerateVolumeInfo(string inFolder, string? volumeName, string epub)
         {
             if (Directory.Exists("jsontemp")) Directory.Delete("jsontemp", true);
             ZipFile.ExtractToDirectory(epub, "jsontemp");

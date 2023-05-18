@@ -155,6 +155,7 @@ namespace OBB
                     if (!Directory.Exists(temp)) continue;
 
                     var volume = volumes.FirstOrDefault(x => string.Equals(x.InternalName, vol.ApiSlug));
+                    volume ??= JSONBuilder.GenerateVolumeInfo(Settings.MiscSettings.GetInputFolder(), vol.ApiSlug, Settings.MiscSettings.GetInputFolder() + "\\" + vol.FileName);
                     if (volume == null) continue;
 
                     if (!coverPicked)
