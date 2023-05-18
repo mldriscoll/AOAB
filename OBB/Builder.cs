@@ -132,7 +132,7 @@ namespace OBB
 
                 var inProcessor = new Processor()
                 {
-                    DisableHyphenProcessing = selection.DisableHyphenProcessing
+                    DisableHyphenProcessing = true
                 };
                 var outProcessor = new Processor();
                 inProcessor.UnpackFolder($"{inFolder}\\inputtemp");
