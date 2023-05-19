@@ -24,32 +24,38 @@
               {
                 "Name": "The Young Lady Is Sent to Prison",
                 "SplitLine": "<h2>01: The Young Lady Is Sent to Prison</h2>",
-                "SortOrder": "01"
+                "SortOrder": "01",
+                "SubFolder": ""
               },
               {
                 "Name": "The Young Lady Shuts Herself in the Prison",
                 "SplitLine": "<h2>02: The Young Lady Shuts Herself in the Prison</h2>",
-                "SortOrder": "02"
+                "SortOrder": "02",
+                "SubFolder": ""
               },
               {
                 "Name": "The Young Lady Renovates the Prison",
                 "SplitLine": "<h2>03: The Young Lady Renovates the Prison</h2>",
-                "SortOrder": "03"
+                "SortOrder": "03",
+                "SubFolder": ""
               },
               {
                 "Name": "The Duke Realizes the Situation",
                 "SplitLine": "<h2>04: The Duke Realizes the Situation</h2>",
-                "SortOrder": "04"
+                "SortOrder": "04",
+                "SubFolder": ""
               },
               {
                 "Name": "The Young Lady Chases off the Prince",
                 "SplitLine": "<h2>05: The Young Lady Chases off the Prince</h2>",
-                "SortOrder": "05"
+                "SortOrder": "05",
+                "SubFolder": ""
               },
               {
                 "Name": "The Young Lady Hears Something Wonderful",
                 "SplitLine": "<h2>06: The Young Lady Hears Something Wonderful</h2>",
-                "SortOrder": "06"
+                "SortOrder": "06",
+                "SubFolder": ""
               }
             ],
             "Replacements": [],
@@ -72,27 +78,32 @@
               {
                 "Name": "The Young Lady Enjoys Gourmet Delicacies",
                 "SplitLine": "<h2>07: The Young Lady Enjoys Gourmet Delicacies</h2>",
-                "SortOrder": "07"
+                "SortOrder": "07",
+                "SubFolder": ""
               },
               {
                 "Name": "The Young Lady Idles the Day Away",
                 "SplitLine": "<h2>08: The Young Lady Idles the Day Away</h2>",
-                "SortOrder": "08"
+                "SortOrder": "08",
+                "SubFolder": ""
               },
               {
                 "Name": "The Prince Learns What the Young Lady is Thinking",
                 "SplitLine": "<h2>09: The Prince Learns What the Young Lady is Thinking</h2>",
-                "SortOrder": "09"
+                "SortOrder": "09",
+                "SubFolder": ""
               },
               {
                 "Name": "The Young Lady’s Art Explodes",
                 "SplitLine": "<h2>10: The Young Lady’s Art Explodes</h2>",
-                "SortOrder": "10"
+                "SortOrder": "10",
+                "SubFolder": ""
               },
               {
                 "Name": "The Young Lady Snipes Her Dinner",
                 "SplitLine": "<h2>11: The Young Lady Snipes Her Dinner</h2>",
-                "SortOrder": "11"
+                "SortOrder": "11",
+                "SubFolder": ""
               }
             ],
             "Replacements": [],
@@ -100,7 +111,7 @@
             "KeepFirstSplitSection": false
           },
           {
-            "ChapterName": "Let\u2019s Get Proactive",
+            "ChapterName": "Let’s Get Proactive",
             "SortOrder": "0104",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -113,27 +124,32 @@
               {
                 "Name": "The Young Lady Bribes the Prison Guard",
                 "SplitLine": "<h2>12: The Young Lady Bribes the Prison Guard</h2>",
-                "SortOrder": "12"
+                "SortOrder": "12",
+                "SubFolder": ""
               },
               {
                 "Name": "The Young Lady Kills Time",
                 "SplitLine": "<h2>13: The Young Lady Kills Time</h2>",
-                "SortOrder": "13"
+                "SortOrder": "13",
+                "SubFolder": ""
               },
               {
                 "Name": "The Prince is Led Astray by a Debate",
                 "SplitLine": "<h2>14: The Prince is Led Astray by a Debate</h2>",
-                "SortOrder": "14"
+                "SortOrder": "14",
+                "SubFolder": ""
               },
               {
                 "Name": "The Young Lady Shops",
                 "SplitLine": "<h2>15: The Young Lady Shops</h2>",
-                "SortOrder": "15"
+                "SortOrder": "15",
+                "SubFolder": ""
               },
               {
                 "Name": "The Young Lady Does Charity Work",
                 "SplitLine": "<h2>16: The Young Lady Does Charity Work</h2>",
-                "SortOrder": "16"
+                "SortOrder": "16",
+                "SubFolder": ""
               }
             ],
             "Replacements": [],
@@ -156,27 +172,32 @@
               {
                 "Name": "The Girl Visits the Young Lady",
                 "SplitLine": "<h2>17: The Girl Visits the Young Lady</h2>",
-                "SortOrder": "17"
+                "SortOrder": "17",
+                "SubFolder": ""
               },
               {
                 "Name": "The Duke is Confused by the Situation",
                 "SplitLine": "<h2>18: The Duke is Confused by the Situation</h2>",
-                "SortOrder": "18"
+                "SortOrder": "18",
+                "SubFolder": ""
               },
               {
                 "Name": "The Girl Plans Ahead",
                 "SplitLine": "<h2>19: The Girl Plans Ahead</h2>",
-                "SortOrder": "19"
+                "SortOrder": "19",
+                "SubFolder": ""
               },
               {
                 "Name": "The Duke Has an Audience with the King",
                 "SplitLine": "<h2>20: The Duke Has an Audience with the King</h2>",
-                "SortOrder": "20"
+                "SortOrder": "20",
+                "SubFolder": ""
               },
               {
                 "Name": "The Young Lady Gets to Know the Girl",
                 "SplitLine": "<h2>21: The Young Lady Gets to Know the Girl</h2>",
-                "SortOrder": "21"
+                "SortOrder": "21",
+                "SubFolder": ""
               }
             ],
             "Replacements": [],
@@ -199,37 +220,44 @@
               {
                 "Name": "The Maid Brings a Delivery to Her Master",
                 "SplitLine": "<h2>22: The Maid Brings a Delivery to Her Master</h2>",
-                "SortOrder": "22"
+                "SortOrder": "22",
+                "SubFolder": ""
               },
               {
                 "Name": "The Maid Deals with an Unwanted Guest",
                 "SplitLine": "<h2>23: The Maid Deals with an Unwanted Guest</h2>",
-                "SortOrder": "23"
+                "SortOrder": "23",
+                "SubFolder": ""
               },
               {
                 "Name": "The Maid is Busy",
                 "SplitLine": "<h2>24: The Maid is Busy</h2>",
-                "SortOrder": "24"
+                "SortOrder": "24",
+                "SubFolder": ""
               },
               {
                 "Name": "The Young Lady Entertains Guests",
                 "SplitLine": "<h2>25: The Young Lady Entertains Guests</h2>",
-                "SortOrder": "25"
+                "SortOrder": "25",
+                "SubFolder": ""
               },
               {
                 "Name": "The Young Lady Takes Care of Her Little Brother",
                 "SplitLine": "<h2>26: The Young Lady Takes Care of Her Little Brother</h2>",
-                "SortOrder": "26"
+                "SortOrder": "26",
+                "SubFolder": ""
               },
               {
                 "Name": "The Little Brother Recalls the Past",
                 "SplitLine": "<h2>27: The Little Brother Recalls the Past</h2>",
-                "SortOrder": "27"
+                "SortOrder": "27",
+                "SubFolder": ""
               },
               {
                 "Name": "The Little Brother Hears about the Things He Had Forgotten",
                 "SplitLine": "<h2>28: The Little Brother Hears about the Things He Had Forgotten</h2>",
-                "SortOrder": "28"
+                "SortOrder": "28",
+                "SubFolder": ""
               }
             ],
             "Replacements": [],
@@ -293,27 +321,14 @@
     "InternalName": "prison-life-is-easy-for-a-villainess-volume-2",
     "Chapters": [
       {
-        "ChapterName": "Volume 2",
-        "SortOrder": "2",
+        "ChapterName": "Volume 02",
+        "SortOrder": "02",
         "SubFolder": "",
         "OriginalFilenames": [],
         "Chapters": [
           {
-            "ChapterName": "Landmarks",
-            "SortOrder": "201",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "toc"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter 6: So Long, Sykes",
-            "SortOrder": "202",
+            "ChapterName": "So Long, Sykes",
+            "SortOrder": "0202",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter1",
@@ -323,14 +338,51 @@
               "chapter1_2"
             ],
             "Chapters": [],
-            "Splits": [],
+            "Splits": [
+              {
+                "Name": "The Young Lady’s Basement Session",
+                "SplitLine": "<h2>29: The Young Lady’s Basement Session</h2>",
+                "SortOrder": "29",
+                "SubFolder": ""
+              },
+              {
+                "Name": "The Young Lady Exercises",
+                "SplitLine": "<h2>30: The Young Lady Exercises</h2>",
+                "SortOrder": "30",
+                "SubFolder": ""
+              },
+              {
+                "Name": "The Girl Shouts at the Dawning Sun",
+                "SplitLine": "<h2>31: The Girl Shouts at the Dawning Sun</h2>",
+                "SortOrder": "31",
+                "SubFolder": ""
+              },
+              {
+                "Name": "The Girl Sells “Flowers”",
+                "SplitLine": "<h2>32. The Girl Sells “Flowers”</h2>",
+                "SortOrder": "32",
+                "SubFolder": ""
+              },
+              {
+                "Name": "The Young Lady Receives a Sympathy Call from Some Old Friends",
+                "SplitLine": "<h2>33: The Young Lady Receives a Sympathy Call from Some Old Friends</h2>",
+                "SortOrder": "33",
+                "SubFolder": ""
+              },
+              {
+                "Name": "The Young Lady Does Nothing Because She is in Prison",
+                "SplitLine": "<h2>34: The Young Lady Does Nothing Because She is in Prison</h2>",
+                "SortOrder": "34",
+                "SubFolder": ""
+              }
+            ],
             "Replacements": [],
             "LinkedChapters": [],
-            "KeepFirstSplitSection": true
+            "KeepFirstSplitSection": false
           },
           {
-            "ChapterName": "Chapter 7: The Melancholy and Restless Prince",
-            "SortOrder": "203",
+            "ChapterName": "The Melancholy and Restless Prince",
+            "SortOrder": "0203",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter2",
@@ -342,14 +394,51 @@
               "chapter2_3"
             ],
             "Chapters": [],
-            "Splits": [],
+            "Splits": [
+              {
+                "Name": "The Young Lady Gets a Pet",
+                "SplitLine": "<h2>35: The Young Lady Gets a Pet</h2>",
+                "SortOrder": "35",
+                "SubFolder": ""
+              },
+              {
+                "Name": "The Monkey Walks around the Palace",
+                "SplitLine": "<h2>36: The Monkey Walks around the Palace</h2>",
+                "SortOrder": "36",
+                "SubFolder": ""
+              },
+              {
+                "Name": "The King Was Enjoying a Bath",
+                "SplitLine": "<h2>37: The King Was Enjoying a Bath</h2>",
+                "SortOrder": "37",
+                "SubFolder": ""
+              },
+              {
+                "Name": "The Maid is Troubled by a Group of Supporters",
+                "SplitLine": "<h2>38: The Maid is Troubled by a Group of Supporters</h2>",
+                "SortOrder": "38",
+                "SubFolder": ""
+              },
+              {
+                "Name": "The Young Lady Hosts a Fun Party",
+                "SplitLine": "<h2>39: The Young Lady Hosts a Fun Party</h2>",
+                "SortOrder": "39",
+                "SubFolder": ""
+              },
+              {
+                "Name": "The Pervert Drinks with a Monkey",
+                "SplitLine": "<h2>40: The Pervert Drinks with a Monkey</h2>",
+                "SortOrder": "40",
+                "SubFolder": ""
+              }
+            ],
             "Replacements": [],
             "LinkedChapters": [],
-            "KeepFirstSplitSection": true
+            "KeepFirstSplitSection": false
           },
           {
-            "ChapterName": "Chapter 8: The Curtains Fall on This Cheap Play",
-            "SortOrder": "204",
+            "ChapterName": "The Curtains Fall on This Cheap Play",
+            "SortOrder": "0204",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter3",
@@ -363,140 +452,47 @@
               "chapter3_4"
             ],
             "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Afterword",
-            "SortOrder": "205",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "afterword"
+            "Splits": [
+              {
+                "Name": "The Young Lady is Frightened by a Storm",
+                "SplitLine": "<h2>41: The Young Lady is Frightened by a Storm</h2>",
+                "SortOrder": "41",
+                "SubFolder": ""
+              },
+              {
+                "Name": "The Prince Assassinates the Young Lady (or Plans To)",
+                "SplitLine": "<h2>42: The Prince Assassinates the Young Lady (or Plans To)</h2>",
+                "SortOrder": "42",
+                "SubFolder": ""
+              },
+              {
+                "Name": "The Newlyweds Have a Talk",
+                "SplitLine": "<h2>43: The Newlyweds Have a Talk</h2>",
+                "SortOrder": "43",
+                "SubFolder": ""
+              },
+              {
+                "Name": "The King Renders Judgment",
+                "SplitLine": "<h2>44: The King Renders Judgment</h2>",
+                "SortOrder": "44",
+                "SubFolder": ""
+              },
+              {
+                "Name": "The Prince Learns the Limits of His Power",
+                "SplitLine": "<h2>45: The Prince Learns the Limits of His Power</h2>",
+                "SortOrder": "45",
+                "SubFolder": ""
+              },
+              {
+                "Name": "The Day of Departure and Their New Lives",
+                "SplitLine": "<h2>46: The Day of Departure and Their New Lives</h2>",
+                "SortOrder": "46",
+                "SubFolder": ""
+              }
             ],
-            "Chapters": [],
-            "Splits": [],
             "Replacements": [],
             "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "206",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "color1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "207",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "color2"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "208",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "color3"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "209",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "bonus1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "210",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "bonus2"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "211",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "bonus3"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "212",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "bonus4"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "213",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "signup"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "copyright"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
+            "KeepFirstSplitSection": false
           }
         ],
         "Splits": [],
@@ -505,12 +501,15 @@
         "KeepFirstSplitSection": true
       }
     ],
-    "BonusChapters": [
+    "BonusChapters": [],
+    "ExtraContent": [
       {
-        "ChapterName": "Volume 2",
-        "SortOrder": "2",
-        "SubFolder": "",
-        "OriginalFilenames": [],
+        "ChapterName": "Volume 02",
+        "SortOrder": "02",
+        "SubFolder": "99-Afterwords",
+        "OriginalFilenames": [
+          "afterword"
+        ],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -518,33 +517,28 @@
         "KeepFirstSplitSection": true
       }
     ],
-    "ExtraContent": [],
     "Gallery": {
       "SplashImages": [
-        "color1",
         "bonus1",
         "bonus2",
-        "color3",
-        "cover",
-        "color2",
-        "bonus4",
-        "bonus3"
+        "bonus3",
+        "bonus4"
       ],
       "ChapterImages": [
         "insert1",
-        "insert6",
-        "insert8",
-        "insert9",
-        "insert7",
+        "insert2",
         "insert3",
         "insert4",
         "insert5",
-        "insert2"
+        "insert6",
+        "insert7",
+        "insert8",
+        "insert9"
       ],
       "LateSubFolder": null,
       "ChapterName": "",
       "SortOrder": "",
-      "SubFolder": "2-Volume 2",
+      "SubFolder": "02-Volume 02",
       "OriginalFilenames": [],
       "Chapters": [],
       "Splits": [],
