@@ -3504,13 +3504,13 @@
     "InternalName": "tearmoon-empire-volume-5",
     "Chapters": [
       {
-        "ChapterName": "Volume 05",
-        "SortOrder": "05",
+        "ChapterName": "Part 2: The Lodestar Girl",
+        "SortOrder": "02",
         "SubFolder": "",
         "OriginalFilenames": [],
         "Chapters": [
           {
-            "ChapterName": "Part 2: The Lodestar Girl III",
+            "ChapterName": "Prologue: Bel and Her Small Piece of Happiness I",
             "SortOrder": "0504",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -3523,7 +3523,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 1: To Be or Not To Be...",
+            "ChapterName": "To Be or Not To Be...",
             "SortOrder": "0505",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -3537,7 +3537,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 2: Anne\u2019s Resolve",
+            "ChapterName": "Anne\u2019s Resolve",
             "SortOrder": "0506",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -3550,7 +3550,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 3: The Last Friend",
+            "ChapterName": "The Last Friend",
             "SortOrder": "0507",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -3564,7 +3564,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 4: Princess Mia...Reaches a Peak! (In Her Opinion)",
+            "ChapterName": "Princess Mia...Reaches a Peak! (In Her Opinion)",
             "SortOrder": "0508",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -3577,7 +3577,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 5: Follow the Glowing Blue Path",
+            "ChapterName": "Follow the Glowing Blue Path",
             "SortOrder": "0509",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -3590,7 +3590,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 6: Anne...Discourses About (Her Version of) The Great Sage of the Empire",
+            "ChapterName": "Anne...Discourses About (Her Version of) The Great Sage of the Empire",
             "SortOrder": "0510",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -3603,7 +3603,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 7: Mia\u2019s Roots",
+            "ChapterName": "Mia\u2019s Roots",
             "SortOrder": "0511",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -3616,7 +3616,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 8: Princess Mia...Inflates Her Status",
+            "ChapterName": "Princess Mia...Inflates Her Status",
             "SortOrder": "0512",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -3630,7 +3630,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 9: Best Friend",
+            "ChapterName": "Best Friend",
             "SortOrder": "0513",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -3643,7 +3643,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 10: \u201CI\u2019ll Be Right Back,\u201D Said Esmeralda Before Disappearing",
+            "ChapterName": "\u201CI\u2019ll Be Right Back,\u201D Said Esmeralda Before Disappearing",
             "SortOrder": "0514",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -3656,7 +3656,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 11: Princess Mia...Is Pulled Along",
+            "ChapterName": "Princess Mia...Is Pulled Along",
             "SortOrder": "0515",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -3671,7 +3671,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 12: The Great Hero of the Open Sea, Princess Mia, Lets Out a Fierce Roar!",
+            "ChapterName": "The Great Hero of the Open Sea, Princess Mia, Lets Out a Fierce Roar!",
             "SortOrder": "0516",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -3684,7 +3684,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 13: Loyalties (Read: Kinks) Come in All Shapes and Sizes",
+            "ChapterName": "Loyalties (Read: Kinks) Come in All Shapes and Sizes",
             "SortOrder": "0517",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -3697,7 +3697,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Epilogue: Prelude to Battle",
+            "ChapterName": "Prelude to Battle",
             "SortOrder": "0518",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -3708,9 +3708,17 @@
             "Replacements": [],
             "LinkedChapters": [],
             "KeepFirstSplitSection": true
-          },
+          }
+        ]
+      },
+      {
+        "ChapterName": "Part 3: A New Oath Between the Moon and Stars",
+        "SortOrder": "03",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
           {
-            "ChapterName": "Part 3: A New Oath Between the Moon and Stars I",
+            "ChapterName": "Prologue: Lugwig...Soars!",
             "SortOrder": "0520",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -3723,7 +3731,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 1: Weight Loss Occurs! ...To the Princess Mia Chronicles",
+            "ChapterName": "Weight Loss Occurs! ...To the Princess Mia Chronicles",
             "SortOrder": "0521",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -3736,7 +3744,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 2: Miabel...Introduces Her Grandmother to a Friend!",
+            "ChapterName": "Miabel...Introduces Her Grandmother to a Friend!",
             "SortOrder": "0522",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -3749,7 +3757,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 3: Princess Mia, Embodiment of Truth",
+            "ChapterName": "Princess Mia, Embodiment of Truth",
             "SortOrder": "0523",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -3762,7 +3770,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 4: The Expiration Date of That Grudge",
+            "ChapterName": "The Expiration Date of That Grudge",
             "SortOrder": "0524",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -3775,7 +3783,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 5: Chicken Tactics",
+            "ChapterName": "Chicken Tactics",
             "SortOrder": "0525",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -3788,7 +3796,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 6: A Challenge from the Fair Daughter of the Red Moon",
+            "ChapterName": "A Challenge from the Fair Daughter of the Red Moon",
             "SortOrder": "0526",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -3801,7 +3809,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 7: Princess Mia...Picks Up the Gauntlet!",
+            "ChapterName": "Princess Mia...Picks Up the Gauntlet!",
             "SortOrder": "0527",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -3816,7 +3824,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 8: Mia the Acrobat",
+            "ChapterName": "Mia the Acrobat",
             "SortOrder": "0528",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -3829,7 +3837,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 9: Princess Mia...Becomes Wind",
+            "ChapterName": "Princess Mia...Becomes Wind",
             "SortOrder": "0529",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -3842,7 +3850,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 10: Princess Mia...Will Not Rest Until She Has Her Revenge!",
+            "ChapterName": "Princess Mia...Will Not Rest Until She Has Her Revenge!",
             "SortOrder": "0530",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -3855,7 +3863,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 11: Even If the Flames of Her Passion Burn to the Bone...",
+            "ChapterName": "Even If the Flames of Her Passion Burn to the Bone...",
             "SortOrder": "0531",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -3868,7 +3876,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 12: The Pegasus Princess Struggles",
+            "ChapterName": "The Pegasus Princess Struggles",
             "SortOrder": "0532",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -3881,7 +3889,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 13: Princess Mia...Cheers! For the Horse, That Is...",
+            "ChapterName": "Princess Mia...Cheers! For the Horse, That Is...",
             "SortOrder": "0533",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -3894,7 +3902,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 14: Good News! Malong\u2019s Respect for Mia Grows Even Further",
+            "ChapterName": "Good News! Malong\u2019s Respect for Mia Grows Even Further",
             "SortOrder": "0534",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -3907,7 +3915,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 15: The Brand Her Soul Carries",
+            "ChapterName": "The Brand Her Soul Carries",
             "SortOrder": "0535",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -3920,7 +3928,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 16: Princess Mia...Turns On God Mode",
+            "ChapterName": "Princess Mia...Turns On God Mode",
             "SortOrder": "0536",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -3933,7 +3941,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 17: Princess Mia Is a Sheep in Wolf\u2019s\u2014 Nay, Horse\u2019s Clothing!",
+            "ChapterName": "Princess Mia Is a Sheep in Wolf\u2019s\u2014 Nay, Horse\u2019s Clothing!",
             "SortOrder": "0537",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -3946,7 +3954,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 18: The Mystery of Life and an Odd D\u00E9j\u00E0 Vu",
+            "ChapterName": "The Mystery of Life and an Odd D\u00E9j\u00E0 Vu",
             "SortOrder": "0538",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -3961,7 +3969,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 19: A Horse as Red as the Setting Sun",
+            "ChapterName": "A Horse as Red as the Setting Sun",
             "SortOrder": "0539",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -3974,7 +3982,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 20: Princess Mia Will Stay True to Herself, No Matter the Situation",
+            "ChapterName": "Princess Mia Will Stay True to Herself, No Matter the Situation",
             "SortOrder": "0540",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -3987,7 +3995,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 21: Premonition of Bumpiness",
+            "ChapterName": "Premonition of Bumpiness",
             "SortOrder": "0541",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -4000,7 +4008,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 22: It Is I, Mia Luna Seamoon!",
+            "ChapterName": "It Is I, Mia Luna Seamoon!",
             "SortOrder": "0542",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -4013,7 +4021,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 23: The Moment of Truth Is Upon Us! Their Hearts Become One! ...Maybe?",
+            "ChapterName": "The Moment of Truth Is Upon Us! Their Hearts Become One! ...Maybe?",
             "SortOrder": "0543",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -4028,7 +4036,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 24: Romance Mode Engaged! All Systems Are Go!",
+            "ChapterName": "Romance Mode Engaged! All Systems Are Go!",
             "SortOrder": "0544",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -4043,50 +4051,11 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 25: Of Inflations and Influencers",
+            "ChapterName": "Of Inflations and Influencers",
             "SortOrder": "0545",
             "SubFolder": "",
             "OriginalFilenames": [
               "part3_chapter25"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "0551",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "manga"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "0552",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "poll1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "0553",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "poll2"
             ],
             "Chapters": [],
             "Splits": [],
@@ -4103,8 +4072,8 @@
     ],
     "BonusChapters": [
       {
-        "ChapterName": "Volume 05",
-        "SortOrder": "05",
+        "ChapterName": "Part 2: The Lodestar Girl",
+        "SortOrder": "02",
         "SubFolder": "",
         "OriginalFilenames": [],
         "Chapters": [
@@ -4120,7 +4089,15 @@
             "Replacements": [],
             "LinkedChapters": [],
             "KeepFirstSplitSection": true
-          },
+          }
+        ]
+      },
+      {
+        "ChapterName": "Part 3: A New Oath Between the Moon and Stars",
+        "SortOrder": "03",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
           {
             "ChapterName": "Side Chapter: Bel and Her Small Piece of Happiness III",
             "SortOrder": "0546",
@@ -4140,19 +4117,7 @@
             "SubFolder": "",
             "OriginalFilenames": [
               "extra",
-              "insert9"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "0548",
-            "SubFolder": "",
-            "OriginalFilenames": [
+              "insert9",
               "extra_1"
             ],
             "Chapters": [],
@@ -4175,193 +4140,357 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Bonus Short Story",
+            "ChapterName": "Otome Game IV Girls’ Side",
             "SortOrder": "0554",
             "SubFolder": "",
             "OriginalFilenames": [
-              "bonus"
             ],
-            "Chapters": [],
+            "Chapters": [
+              {
+                "ChapterName": "Start",
+                "SortOrder": "400",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "bonus"
+                ],
+                "Replacements": [
+                  {
+                    "Original": "../Text/bonus1a.xhtml",
+                    "Replacement": "401-A1.xhtml"
+                  },
+                  {
+                    "Original": "../Text/bonus2a.xhtml",
+                    "Replacement": "402-A2.xhtml"
+                  },
+                  {
+                    "Original": "../Text/bonus1d.xhtml",
+                    "Replacement": "414-D1.xhtml"
+                  }
+                ],
+                "LinkedChapters": [
+                  "401-A1.xhtml",
+                  "402-A2.xhtml",
+                  "414-D1.xhtml"
+                ]
+              },
+              {
+                "ChapterName": "A1",
+                "SortOrder": "401",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "bonus1a"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [
+                  {
+                    "Original": "../Text/bonus.xhtml",
+                    "Replacement": "400-start.xhtml"
+                  }
+                ],
+                "LinkedChapters": [
+                  "400-Start.xhtml"
+                ],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "A2",
+                "SortOrder": "402",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "bonus2a"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [
+                  {
+                    "Original": "../Text/bonus1b.xhtml",
+                    "Replacement": "403-B1.xhtml"
+                  },
+                  {
+                    "Original": "../Text/bonus2b.xhtml",
+                    "Replacement": "404-B2.xhtml"
+                  },
+                  {
+                    "Original": "../Text/bonus3b.xhtml",
+                    "Replacement": "405-B3.xhtml"
+                  },
+                  {
+                    "Original": "../Text/bonus4b.xhtml",
+                    "Replacement": "406-B4.xhtml"
+                  }
+                ],
+                "LinkedChapters": [
+                  "403-B1.xhtml",
+                  "404-B2.xhtml",
+                  "405-B3.xhtml",
+                  "406-B4.xhtml"
+                ],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "B1",
+                "SortOrder": "403",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "bonus1b"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [
+                  {
+                    "Original": "../Text/bonus.xhtml",
+                    "Replacement": "400-start.xhtml"
+                  }],
+                "LinkedChapters": [
+                  "400-Start.xhtml"
+                ],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "B2",
+                "SortOrder": "404",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "bonus2b"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [
+                  {
+                    "Original": "../Text/bonus1c.xhtml",
+                    "Replacement": "407-C1.xhtml"
+                  },
+                  {
+                    "Original": "../Text/bonus2c.xhtml",
+                    "Replacement": "408-C2.xhtml"
+                  }
+                ],
+                "LinkedChapters": [
+                  "407-C1.xhtml",
+                  "408-C2.xhtml"
+                ],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "B3",
+                "SortOrder": "405",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "bonus3b"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [
+                  {
+                    "Original": "../Text/bonus3c.xhtml",
+                    "Replacement": "409-C3.xhtml"
+                  },
+                  {
+                    "Original": "../Text/bonus4c.xhtml",
+                    "Replacement": "410-C4.xhtml"
+                  },
+                  {
+                    "Original": "../Text/bonus5c.xhtml",
+                    "Replacement": "411-C5.xhtml"
+                  }
+                ],
+                "LinkedChapters": [
+                  "409-C3.xhtml",
+                  "410-C4.xhtml",
+                  "411-C5.xhtml"
+                ],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "B4",
+                "SortOrder": "406",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "bonus4b"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [
+                  {
+                    "Original": "../Text/bonus6c.xhtml",
+                    "Replacement": "412-C6.xhtml"
+                  },
+                  {
+                    "Original": "../Text/bonus7c.xhtml",
+                    "Replacement": "413-C7.xhtml"
+                  }
+                ],
+                "LinkedChapters": [
+                  "412-C6.xhtml",
+                  "413-C7.xhtml"
+                ],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "C1",
+                "SortOrder": "407",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "bonus1c"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [
+                  {
+                    "Original": "../Text/bonus.xhtml",
+                    "Replacement": "400-start.xhtml"
+                  }],
+                "LinkedChapters": [
+                  "400-Start.xhtml"
+                ],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "C2",
+                "SortOrder": "408",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "bonus2c"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [
+                  {
+                    "Original": "../Text/bonus.xhtml",
+                    "Replacement": "400-start.xhtml"
+                  }],
+                "LinkedChapters": [
+                  "400-Start.xhtml"
+                ],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "C3",
+                "SortOrder": "409",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "bonus3c"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [
+                  {
+                    "Original": "../Text/bonus.xhtml",
+                    "Replacement": "400-start.xhtml"
+                  }],
+                "LinkedChapters": [
+                  "400-Start.xhtml"
+                ],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "C4",
+                "SortOrder": "410",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "bonus4c"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [
+                  {
+                    "Original": "../Text/bonus.xhtml",
+                    "Replacement": "400-start.xhtml"
+                  }],
+                "LinkedChapters": [
+                  "400-Start.xhtml"
+                ],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "C5",
+                "SortOrder": "411",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "bonus5c"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [
+                  {
+                    "Original": "../Text/bonus.xhtml",
+                    "Replacement": "400-start.xhtml"
+                  }],
+                "LinkedChapters": [
+                  "400-Start.xhtml"
+                ],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "C6",
+                "SortOrder": "412",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "bonus6c"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [
+                  {
+                    "Original": "../Text/bonus.xhtml",
+                    "Replacement": "400-start.xhtml"
+                  }],
+                "LinkedChapters": [
+                  "400-Start.xhtml"
+                ],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "C7",
+                "SortOrder": "413",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "bonus7c"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [
+                  {
+                    "Original": "../Text/bonus.xhtml",
+                    "Replacement": "400-start.xhtml"
+                  }],
+                "LinkedChapters": [
+                  "400-Start.xhtml"
+                ],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "D1",
+                "SortOrder": "414",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "bonus1d"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [
+                  {
+                    "Original": "../Text/bonus.xhtml",
+                    "Replacement": "400-start.xhtml"
+                  }],
+                "LinkedChapters": [
+                  "400-Start.xhtml"
+                ],
+                "KeepFirstSplitSection": true
+              }
+            ],
             "Splits": [],
             "Replacements": [],
             "LinkedChapters": [],
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "",
-            "SortOrder": "0555",
+            "ChapterName": "Revenge",
+            "SortOrder": "0551",
             "SubFolder": "",
             "OriginalFilenames": [
-              "bonus1a"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "0556",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "bonus2a"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "0557",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "bonus1b"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "0558",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "bonus2b"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "0559",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "bonus3b"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "0560",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "bonus4b"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "0561",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "bonus1c"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "0562",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "bonus2c"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "0563",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "bonus3c"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "0564",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "bonus4c"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "0565",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "bonus5c"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "0566",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "bonus6c"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "0567",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "bonus7c"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "0568",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "bonus1d"
+              "manga"
             ],
             "Chapters": [],
             "Splits": [],
@@ -4378,8 +4507,8 @@
     ],
     "ExtraContent": [
       {
-        "ChapterName": "Volume 05",
-        "SortOrder": "05",
+        "ChapterName": "Part 2: The Lodestar Girl",
+        "SortOrder": "02",
         "SubFolder": "",
         "OriginalFilenames": [],
         "Chapters": [
@@ -4388,19 +4517,7 @@
             "SortOrder": "0501",
             "SubFolder": "",
             "OriginalFilenames": [
-              "characters1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Character Sheet",
-            "SortOrder": "0502",
-            "SubFolder": "",
-            "OriginalFilenames": [
+              "characters1",
               "characters2"
             ],
             "Chapters": [],
@@ -4416,13 +4533,26 @@
         "KeepFirstSplitSection": true
       },
       {
-        "ChapterName": "Map",
-        "SortOrder": "0503",
-        "SubFolder": "98-Maps",
-        "OriginalFilenames": [
-          "map"
+        "ChapterName": "Part 3: A New Oath Between the Moon and Stars",
+        "SortOrder": "03",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "First Character Poll",
+            "SortOrder": "0552",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "poll1",
+              "poll2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
         ],
-        "Chapters": [],
         "Splits": [],
         "Replacements": [],
         "LinkedChapters": [],
@@ -4444,12 +4574,8 @@
     ],
     "Gallery": {
       "SplashImages": [
-        "cover",
-        "frontmatter1",
         "frontmatter2",
-        "manga",
-        "poll1",
-        "poll2"
+        "frontmatter1"
       ],
       "ChapterImages": [
         "insert1",
@@ -4462,10 +4588,10 @@
         "insert8",
         "insert9"
       ],
-      "LateSubFolder": null,
+      "LateSubFolder": "03-Part 3: A New Oath Between the Moon and Stars",
       "ChapterName": "",
-      "SortOrder": "",
-      "SubFolder": "05-Volume 05",
+      "SortOrder": "0500",
+      "SubFolder": "02-Part 2: The Lodestar Girl",
       "OriginalFilenames": [],
       "Chapters": [],
       "Splits": [],
