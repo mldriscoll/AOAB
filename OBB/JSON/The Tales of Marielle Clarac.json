@@ -376,53 +376,14 @@
     "InternalName": "the-beloved-of-marielle-clarac",
     "Chapters": [
       {
-        "ChapterName": "Volume 2",
-        "SortOrder": "2",
+        "ChapterName": "The Beloved of Marielle Clarac",
+        "SortOrder": "02",
         "SubFolder": "",
         "OriginalFilenames": [],
         "Chapters": [
           {
-            "ChapterName": "",
-            "SortOrder": "201",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "frontmatter1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "202",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "frontmatter2"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "203",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "frontmatter3"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
             "ChapterName": "Chapter One",
-            "SortOrder": "204",
+            "SortOrder": "0201",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter1"
@@ -435,7 +396,7 @@
           },
           {
             "ChapterName": "Chapter Two",
-            "SortOrder": "205",
+            "SortOrder": "0202",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter2"
@@ -448,7 +409,7 @@
           },
           {
             "ChapterName": "Chapter Three",
-            "SortOrder": "206",
+            "SortOrder": "0203",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter3",
@@ -463,7 +424,7 @@
           },
           {
             "ChapterName": "Chapter Four",
-            "SortOrder": "207",
+            "SortOrder": "0204",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter4",
@@ -478,7 +439,7 @@
           },
           {
             "ChapterName": "Chapter Five",
-            "SortOrder": "208",
+            "SortOrder": "0205",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter5"
@@ -491,7 +452,7 @@
           },
           {
             "ChapterName": "Chapter Six",
-            "SortOrder": "209",
+            "SortOrder": "0206",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter6",
@@ -506,7 +467,7 @@
           },
           {
             "ChapterName": "Chapter Seven",
-            "SortOrder": "210",
+            "SortOrder": "0207",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter7",
@@ -520,7 +481,7 @@
           },
           {
             "ChapterName": "Chapter Eight",
-            "SortOrder": "211",
+            "SortOrder": "0208",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter8"
@@ -533,7 +494,7 @@
           },
           {
             "ChapterName": "Chapter Nine",
-            "SortOrder": "212",
+            "SortOrder": "0209",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter9",
@@ -548,7 +509,7 @@
           },
           {
             "ChapterName": "Chapter Ten",
-            "SortOrder": "213",
+            "SortOrder": "0210",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter10"
@@ -561,7 +522,7 @@
           },
           {
             "ChapterName": "Chapter Eleven",
-            "SortOrder": "214",
+            "SortOrder": "0211",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter11",
@@ -578,7 +539,7 @@
           },
           {
             "ChapterName": "Chapter Twelve",
-            "SortOrder": "215",
+            "SortOrder": "0212",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter12",
@@ -593,75 +554,10 @@
           },
           {
             "ChapterName": "Chapter Thirteen",
-            "SortOrder": "216",
+            "SortOrder": "0213",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter13"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "The Blissfulness of Simeon Flaubert",
-            "SortOrder": "217",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "extra"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Afterword",
-            "SortOrder": "218",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "afterword"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "219",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "bonus"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "220",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "signup"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "copyright"
             ],
             "Chapters": [],
             "Splits": [],
@@ -678,10 +574,65 @@
     ],
     "BonusChapters": [
       {
-        "ChapterName": "Volume 2",
-        "SortOrder": "2",
+        "ChapterName": "The Beloved of Marielle Clarac",
+        "SortOrder": "02",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "The Blissfulness of Simeon Flaubert",
+            "SortOrder": "0214",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "extra"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "ExtraContent": [
+      {
+        "ChapterName": "The Beloved of Marielle Clarac",
+        "SortOrder": "02",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Character Sheet",
+            "SortOrder": "0200",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "frontmatter2",
+              "frontmatter3"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      },
+      {
+        "ChapterName": "The Beloved of Marielle Clarac",
+        "SortOrder": "02",
+        "SubFolder": "99-Afterwords",
+        "OriginalFilenames": [
+          "afterword"
+        ],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -689,14 +640,10 @@
         "KeepFirstSplitSection": true
       }
     ],
-    "ExtraContent": [],
     "Gallery": {
       "SplashImages": [
         "bonus",
-        "cover",
-        "frontmatter1",
-        "frontmatter2",
-        "frontmatter3"
+        "frontmatter1"
       ],
       "ChapterImages": [
         "insert1",
@@ -711,7 +658,7 @@
       "LateSubFolder": null,
       "ChapterName": "",
       "SortOrder": "",
-      "SubFolder": "2-Volume 2",
+      "SubFolder": "02-The Beloved of Marielle Clarac",
       "OriginalFilenames": [],
       "Chapters": [],
       "Splits": [],
@@ -787,7 +734,11 @@
             "LinkedChapters": [],
             "KeepFirstSplitSection": true
           }
-        ]
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       },
       {
         "ChapterName": "The Love Story of Marielle Clarac",
@@ -907,7 +858,10 @@
               "frontmatter3"
             ],
             "Chapters": [],
-            "Splits": []
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           }
         ],
         "Splits": [],
@@ -2465,53 +2419,14 @@
     "InternalName": "the-temptation-of-marielle-clarac",
     "Chapters": [
       {
-        "ChapterName": "Volume 3",
-        "SortOrder": "3",
+        "ChapterName": "Volume 03",
+        "SortOrder": "03",
         "SubFolder": "",
         "OriginalFilenames": [],
         "Chapters": [
           {
-            "ChapterName": "",
-            "SortOrder": "301",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "frontmatter1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "302",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "frontmatter2"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "303",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "frontmatter3"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
             "ChapterName": "Chapter One",
-            "SortOrder": "304",
+            "SortOrder": "0301",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter1",
@@ -2526,7 +2441,7 @@
           },
           {
             "ChapterName": "Chapter Two",
-            "SortOrder": "305",
+            "SortOrder": "0302",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter2"
@@ -2539,7 +2454,7 @@
           },
           {
             "ChapterName": "Chapter Three",
-            "SortOrder": "306",
+            "SortOrder": "0303",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter3",
@@ -2554,7 +2469,7 @@
           },
           {
             "ChapterName": "Chapter Four",
-            "SortOrder": "307",
+            "SortOrder": "0304",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter4"
@@ -2567,7 +2482,7 @@
           },
           {
             "ChapterName": "Chapter Five",
-            "SortOrder": "308",
+            "SortOrder": "0305",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter5",
@@ -2582,7 +2497,7 @@
           },
           {
             "ChapterName": "Chapter Six",
-            "SortOrder": "309",
+            "SortOrder": "0306",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter6"
@@ -2595,7 +2510,7 @@
           },
           {
             "ChapterName": "Chapter Seven",
-            "SortOrder": "310",
+            "SortOrder": "0307",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter7",
@@ -2610,7 +2525,7 @@
           },
           {
             "ChapterName": "Chapter Eight",
-            "SortOrder": "311",
+            "SortOrder": "0308",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter8",
@@ -2625,7 +2540,7 @@
           },
           {
             "ChapterName": "Chapter Nine",
-            "SortOrder": "312",
+            "SortOrder": "0309",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter9"
@@ -2638,7 +2553,7 @@
           },
           {
             "ChapterName": "Chapter Ten",
-            "SortOrder": "313",
+            "SortOrder": "0310",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter10",
@@ -2652,7 +2567,7 @@
           },
           {
             "ChapterName": "Chapter Eleven",
-            "SortOrder": "314",
+            "SortOrder": "0311",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter11"
@@ -2665,7 +2580,7 @@
           },
           {
             "ChapterName": "Chapter Twelve",
-            "SortOrder": "315",
+            "SortOrder": "0312",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter12",
@@ -2680,89 +2595,11 @@
           },
           {
             "ChapterName": "Chapter Thirteen",
-            "SortOrder": "316",
+            "SortOrder": "0313",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter13",
               "insert8"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "The Sorrows of Prince Severin",
-            "SortOrder": "317",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "extra1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Afterword",
-            "SortOrder": "318",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "afterword"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Bonus Short Stories",
-            "SortOrder": "319",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "bonus1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "320",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "bonus"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "321",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "signup"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "copyright"
             ],
             "Chapters": [],
             "Splits": [],
@@ -2779,8 +2616,61 @@
     ],
     "BonusChapters": [
       {
-        "ChapterName": "Volume 3",
-        "SortOrder": "3",
+        "ChapterName": "Volume 03",
+        "SortOrder": "03",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "The Sorrows of Prince Severin",
+            "SortOrder": "0314",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "extra1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Bonus Short Stories",
+            "SortOrder": "0316",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "0317",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "ExtraContent": [
+      {
+        "ChapterName": "Volume 03",
+        "SortOrder": "03",
         "SubFolder": "",
         "OriginalFilenames": [],
         "Chapters": [],
@@ -2788,9 +2678,21 @@
         "Replacements": [],
         "LinkedChapters": [],
         "KeepFirstSplitSection": true
+      },
+      {
+        "ChapterName": "Volume 03",
+        "SortOrder": "03",
+        "SubFolder": "99-Afterwords",
+        "OriginalFilenames": [
+          "afterword"
+        ],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
-    "ExtraContent": [],
     "Gallery": {
       "SplashImages": [
         "bonus1",
@@ -2812,7 +2714,7 @@
       "LateSubFolder": null,
       "ChapterName": "",
       "SortOrder": "",
-      "SubFolder": "3-Volume 3",
+      "SubFolder": "03-Volume 03",
       "OriginalFilenames": [],
       "Chapters": [],
       "Splits": [],
