@@ -1163,92 +1163,14 @@
     "InternalName": "i-refuse-to-be-your-enemy-volume-5",
     "Chapters": [
       {
-        "ChapterName": "Volume 5",
+        "ChapterName": "Volume 05",
         "SortOrder": "05",
         "SubFolder": "",
         "OriginalFilenames": [],
         "Chapters": [
           {
-            "ChapterName": "",
-            "SortOrder": "0501",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "cover"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "0502",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "frontmatter1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
+            "ChapterName": "An Unexpected Reunion at Liadna",
             "SortOrder": "0503",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "frontmatter2"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "0504",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "frontmatter3"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "0505",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "frontmatter4"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Landmarks",
-            "SortOrder": "0506",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "toc"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter 1: An Unexpected Reunion at Liadna",
-            "SortOrder": "0507",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter1",
@@ -1262,21 +1184,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Interlude: Out of His Reach",
-            "SortOrder": "0508",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "interlude1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter 2: The Captive Spellcaster",
-            "SortOrder": "0509",
+            "ChapterName": "The Captive Spellcaster",
+            "SortOrder": "0505",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter2",
@@ -1290,21 +1199,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Interlude: Watching Him Leave",
-            "SortOrder": "0510",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "interlude2"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter 3: A Place to Call Home",
-            "SortOrder": "0511",
+            "ChapterName": "A Place to Call Home",
+            "SortOrder": "0507",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter3",
@@ -1318,23 +1214,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Interlude: What I Can Do for Her",
-            "SortOrder": "0512",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "interlude3",
-              "insert4",
-              "interlude3_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter 4: A Thorny Future",
-            "SortOrder": "0513",
+            "ChapterName": "A Thorny Future",
+            "SortOrder": "0509",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter4"
@@ -1346,8 +1227,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 5: The Blood Flowing Through Eirlain",
-            "SortOrder": "0514",
+            "ChapterName": "The Blood Flowing Through Eirlain",
+            "SortOrder": "0510",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter5",
@@ -1361,21 +1242,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Interlude: Washed Ashore",
-            "SortOrder": "0515",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "interlude4"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter 6: The Light That Shines on the Battlefield",
-            "SortOrder": "0516",
+            "ChapterName": "The Light That Shines on the Battlefield",
+            "SortOrder": "0512",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter6",
@@ -1389,91 +1257,13 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Interlude: Never Let You Go",
-            "SortOrder": "0517",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "interlude5"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter 7: The Post-Battle Agenda",
-            "SortOrder": "0518",
+            "ChapterName": "The Post-Battle Agenda",
+            "SortOrder": "0514",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter7",
               "insert7",
               "chapter7_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Side Story: The Yearning After the Kiss",
-            "SortOrder": "0519",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "sidestory"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Afterword",
-            "SortOrder": "0520",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "afterword"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Bonus Short Story",
-            "SortOrder": "0521",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "bonus"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "0522",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "signup"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "copyright"
             ],
             "Chapters": [],
             "Splits": [],
@@ -1490,10 +1280,149 @@
     ],
     "BonusChapters": [
       {
-        "ChapterName": "Volume 5",
+        "ChapterName": "Volume 05",
         "SortOrder": "05",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Out of His Reach [Reggie]",
+            "SortOrder": "0504",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "interlude1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Watching Him Leave [Alan]",
+            "SortOrder": "0506",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "interlude2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "What I Can Do for Her [Reginald]",
+            "SortOrder": "0508",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "interlude3",
+              "insert4",
+              "interlude3_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Washed Ashore [Ada]",
+            "SortOrder": "0511",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "interlude4"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Never Let You Go [Reggie]",
+            "SortOrder": "0513",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "interlude5"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Side Story: The Yearning After the Kiss",
+            "SortOrder": "0515",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "sidestory"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "His Perspective [Isaac]",
+            "SortOrder": "0517",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [
+              {
+                "Original": "<h1>His Perspective [Isaac]</h1>\r\n\r\n      <h2>His Perspective</h2>",
+                "Replacement": "<h1>His Perspective [Isaac]</h1>"
+              }
+            ],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "ExtraContent": [
+      {
+        "ChapterName": "Volume 05",
+        "SortOrder": "05",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Character Sheet",
+            "SortOrder": "05",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "frontmatter3",
+              "frontmatter4"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      },
+      {
+        "ChapterName": "Volume 05",
+        "SortOrder": "05",
+        "SubFolder": "99-Afterwords",
+        "OriginalFilenames": [
+          "afterword"
+        ],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -1501,14 +1430,10 @@
         "KeepFirstSplitSection": true
       }
     ],
-    "ExtraContent": [],
     "Gallery": {
       "SplashImages": [
         "cover",
-        "frontmatter1",
-        "frontmatter2",
-        "frontmatter3",
-        "frontmatter4"
+        "frontmatter1"
       ],
       "ChapterImages": [
         "insert1",
@@ -1522,7 +1447,7 @@
       "LateSubFolder": null,
       "ChapterName": "",
       "SortOrder": "",
-      "SubFolder": "05-Volume 5",
+      "SubFolder": "05-Volume 05",
       "OriginalFilenames": [],
       "Chapters": [],
       "Splits": [],
@@ -1658,7 +1583,7 @@
         "OriginalFilenames": [],
         "Chapters": [
           {
-            "ChapterName": "Interlude: What Can I Do for You?",
+            "ChapterName": "What Can I Do for You? [Cain]",
             "SortOrder": "0605",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -1671,7 +1596,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Interlude: And Thus Did They Meet",
+            "ChapterName": "And Thus Did They Meet [Ada]",
             "SortOrder": "0606",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -1684,7 +1609,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Interlude: A Sacrificial Bird",
+            "ChapterName": "A Sacrificial Bird [Damian]",
             "SortOrder": "0609",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -1710,7 +1635,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Bonus Short Story: Another Reason I'm Glad I Married You",
+            "ChapterName": "Another Reason I'm Glad I Married You [Reggie]",
             "SortOrder": "0619",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -1720,8 +1645,8 @@
             "Splits": [],
             "Replacements": [
               {
-                "Original": "<h1>Bonus Short Story: Another Reason I'm Glad I Married You</h1>\n\n      <h2>Another Reason I’m Glad I Married You</h2>",
-                "Replacement": "<h1>Bonus Short Story: Another Reason I'm Glad I Married You</h1>"
+                "Original": "<h1>Another Reason I'm Glad I Married You [Reggie]</h1>\n\n      <h2>Another Reason I’m Glad I Married You</h2>",
+                "Replacement": "<h1>Another Reason I'm Glad I Married You [Reggie]</h1>"
               }
             ],
             "LinkedChapters": [],
@@ -1783,7 +1708,10 @@
           "frontmatter4"
         ],
         "Chapters": [],
-        "Splits": []
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
     "Gallery": {
