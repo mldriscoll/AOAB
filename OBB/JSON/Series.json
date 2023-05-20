@@ -1527,13 +1527,13 @@
   },
   {
     "Name": "Deathbound Duke's Daughter",
-    "InternalName": "deathbound-duke-s-daughter",
+    "InternalName": "Deathbound Duke's Daughter",
     "Volumes": [
       {
         "ApiSlug": "deathbound-duke-s-daughter-volume-1",
         "FileName": "deathbound-duke-s-daughter-volume-1.epub",
-        "EditedBy": null,
-        "ShowRemainingFiles": true
+        "EditedBy": "kuali",
+        "ShowRemainingFiles": false
       },
       {
         "ApiSlug": "deathbound-duke-s-daughter-volume-2",
@@ -2955,7 +2955,7 @@
         "ApiSlug": "i-refuse-to-be-your-enemy-volume-5",
         "FileName": "i-refuse-to-be-your-enemy-volume-5.epub",
         "EditedBy": "kuali",
-        "ShowRemainingFiles": false
+        "ShowRemainingFiles": true
       },
       {
         "ApiSlug": "i-refuse-to-be-your-enemy-volume-6",

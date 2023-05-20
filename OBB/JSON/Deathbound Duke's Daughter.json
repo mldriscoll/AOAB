@@ -1,0 +1,567 @@
+[
+  {
+    "InternalName": "deathbound-duke-s-daughter-volume-1",
+    "Chapters": [
+      {
+        "ChapterName": "Erika Aurelia and the Seafarer's Ruins",
+        "SortOrder": "01",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Erika Aurelia, the Villainess",
+            "SortOrder": "0102",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "prologue"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Spring Palace",
+            "SortOrder": "0103",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1",
+              "insert1",
+              "chapter1_1"
+            ],
+            "Chapters": [],
+            "Splits": [
+              {
+                "Name": "2",
+                "SplitLine": "<h2>2</h2>",
+                "SortOrder": "02",
+                "SubFolder": ""
+              },
+              {
+                "Name": "3",
+                "SplitLine": "<h2>3</h2>",
+                "SortOrder": "03",
+                "SubFolder": ""
+              },
+              {
+                "Name": "4",
+                "SplitLine": "<h2>4</h2>",
+                "SortOrder": "04",
+                "SubFolder": ""
+              },
+              {
+                "Name": "5",
+                "SplitLine": "<h2>5</h2>",
+                "SortOrder": "05",
+                "SubFolder": ""
+              },
+              {
+                "Name": "6",
+                "SplitLine": "<h2>6</h2>",
+                "SortOrder": "06",
+                "SubFolder": ""
+              }
+            ],
+            "Replacements": [
+              {
+                "Original": "<h2>1</h2>",
+                "Replacement": ""
+              }
+            ],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Seafarer’s Ruins",
+            "SortOrder": "0104",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2",
+              "insert2",
+              "chapter2_1",
+              "insert3",
+              "chapter2_2",
+              "insert4",
+              "chapter2_3",
+              "insert5",
+              "chapter2_4"
+            ],
+            "Chapters": [],
+            "Splits": [
+              {
+                "Name": "2",
+                "SplitLine": "<h2>2</h2>",
+                "SortOrder": "02",
+                "SubFolder": ""
+              },
+              {
+                "Name": "3",
+                "SplitLine": "<h2>3</h2>",
+                "SortOrder": "03",
+                "SubFolder": ""
+              },
+              {
+                "Name": "4",
+                "SplitLine": "<h2>4</h2>",
+                "SortOrder": "04",
+                "SubFolder": ""
+              },
+              {
+                "Name": "5",
+                "SplitLine": "<h2>5</h2>",
+                "SortOrder": "05",
+                "SubFolder": ""
+              },
+              {
+                "Name": "6",
+                "SplitLine": "<h2>6</h2>",
+                "SortOrder": "06",
+                "SubFolder": ""
+              }
+            ],
+            "Replacements": [
+              {
+                "Original": "<h2>1</h2>",
+                "Replacement": ""
+              }
+            ],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Megalith Altar",
+            "SortOrder": "0105",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter3",
+              "insert6",
+              "chapter3_1",
+              "insert7",
+              "chapter3_2"
+            ],
+            "Chapters": [],
+            "Splits": [
+              {
+                "Name": "2",
+                "SplitLine": "<h2>2</h2>",
+                "SortOrder": "02",
+                "SubFolder": ""
+              },
+              {
+                "Name": "3",
+                "SplitLine": "<h2>3</h2>",
+                "SortOrder": "03",
+                "SubFolder": ""
+              },
+              {
+                "Name": "4",
+                "SplitLine": "<h2>4</h2>",
+                "SortOrder": "04",
+                "SubFolder": ""
+              }
+            ],
+            "Replacements": [
+              {
+                "Original": "<h2>1</h2>",
+                "Replacement": ""
+              }
+            ],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Promised Land",
+            "SortOrder": "0106",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter4",
+              "insert8",
+              "chapter4_1",
+              "insert9",
+              "chapter4_2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Claus Hafan’s Letter",
+            "SortOrder": "0107",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter5",
+              "insert10",
+              "chapter5_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "Erika Aurelia and the Seafarer's Ruins",
+        "SortOrder": "01",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Reflections of Eduard Aurelia",
+            "SortOrder": "0108",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "extra1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "ExtraContent": [
+      {
+        "ChapterName": "Volume 01",
+        "SortOrder": "01",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "Gallery": {
+      "SplashImages": [
+        "bonus1",
+        "frontmatter1",
+        "frontmatter2",
+        "frontmatter3",
+        "frontmatter4"
+      ],
+      "ChapterImages": [
+        "insert1",
+        "insert2",
+        "insert3",
+        "insert4",
+        "insert5",
+        "insert6",
+        "insert7",
+        "insert8",
+        "insert9",
+        "insert10"
+      ],
+      "LateSubFolder": null,
+      "ChapterName": "",
+      "SortOrder": "",
+      "SubFolder": "01-Erika Aurelia and the Seafarer's Ruins",
+      "OriginalFilenames": [],
+      "Chapters": [],
+      "Splits": [],
+      "Replacements": [],
+      "LinkedChapters": [],
+      "KeepFirstSplitSection": true
+    }
+  },
+  {
+    "InternalName": "deathbound-duke-s-daughter-volume-2",
+    "Chapters": [
+      {
+        "ChapterName": "Volume 02",
+        "SortOrder": "02",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Landmarks",
+            "SortOrder": "0201",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "toc"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Prologue: Erika Aurelia, Destined to Die",
+            "SortOrder": "0202",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "prologue"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter 1: Ynys Negesydd",
+            "SortOrder": "0203",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1",
+              "insert1",
+              "chapter1_1",
+              "insert2",
+              "chapter1_2",
+              "insert3",
+              "chapter1_3"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter 2: The Joust",
+            "SortOrder": "0204",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2",
+              "insert4",
+              "chapter2_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter 3: The Angel’s Crypt",
+            "SortOrder": "0205",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter3",
+              "insert5",
+              "chapter3_1",
+              "insert6",
+              "chapter3_2",
+              "insert7",
+              "chapter3_3",
+              "insert8",
+              "chapter3_4"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter 4: The Sky Throne",
+            "SortOrder": "0206",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter4",
+              "insert9",
+              "chapter4_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "August Ignitia’s Journal",
+            "SortOrder": "0207",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "journal1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Last Chapter: Where the Sun Sets",
+            "SortOrder": "0208",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter5"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Records of Eduard Aurelia",
+            "SortOrder": "0209",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "records",
+              "insert10",
+              "records_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "Volume 02",
+        "SortOrder": "02",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "",
+            "SortOrder": "0210",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "0211",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "0212",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus3"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "0213",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus4"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "0214",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus5"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "ExtraContent": [
+      {
+        "ChapterName": "Volume 02",
+        "SortOrder": "02",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "Gallery": {
+      "SplashImages": [
+        "bonus1",
+        "bonus2",
+        "bonus3",
+        "bonus4",
+        "bonus5",
+        "cover",
+        "frontmatter1",
+        "frontmatter2",
+        "frontmatter3",
+        "frontmatter4",
+        "frontmatter5"
+      ],
+      "ChapterImages": [
+        "insert1",
+        "insert10",
+        "insert2",
+        "insert3",
+        "insert4",
+        "insert5",
+        "insert6",
+        "insert7",
+        "insert8",
+        "insert9"
+      ],
+      "LateSubFolder": null,
+      "ChapterName": "",
+      "SortOrder": "",
+      "SubFolder": "02-Volume 02",
+      "OriginalFilenames": [],
+      "Chapters": [],
+      "Splits": [],
+      "Replacements": [],
+      "LinkedChapters": [],
+      "KeepFirstSplitSection": true
+    }
+  }
+]
