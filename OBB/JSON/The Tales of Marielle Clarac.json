@@ -2419,7 +2419,7 @@
     "InternalName": "the-temptation-of-marielle-clarac",
     "Chapters": [
       {
-        "ChapterName": "Volume 03",
+        "ChapterName": "The Temptation of Marielle Clarac",
         "SortOrder": "03",
         "SubFolder": "",
         "OriginalFilenames": [],
@@ -2616,7 +2616,7 @@
     ],
     "BonusChapters": [
       {
-        "ChapterName": "Volume 03",
+        "ChapterName": "The Temptation of Marielle Clarac",
         "SortOrder": "03",
         "SubFolder": "",
         "OriginalFilenames": [],
@@ -2642,17 +2642,43 @@
               "bonus1"
             ],
             "Chapters": [],
-            "Splits": [],
+            "Splits": [
+              {
+                "Name": "Gerard",
+                "SplitLine": "<h2>Gerard</h2>",
+                "SortOrder": "01"
+              },
+              {
+                "Name": "Julianne",
+                "SplitLine": "<h2>Julianne</h2>",
+                "SortOrder": "02"
+              }
+            ],
             "Replacements": [],
             "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
+            "KeepFirstSplitSection": false
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "ExtraContent": [
+      {
+        "ChapterName": "The Temptation of Marielle Clarac",
+        "SortOrder": "03",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
           {
-            "ChapterName": "",
-            "SortOrder": "0317",
+            "ChapterName": "Character Sheet",
+            "SortOrder": "0200",
             "SubFolder": "",
             "OriginalFilenames": [
-              "bonus"
+              "frontmatter2",
+              "frontmatter3"
             ],
             "Chapters": [],
             "Splits": [],
@@ -2665,22 +2691,9 @@
         "Replacements": [],
         "LinkedChapters": [],
         "KeepFirstSplitSection": true
-      }
-    ],
-    "ExtraContent": [
-      {
-        "ChapterName": "Volume 03",
-        "SortOrder": "03",
-        "SubFolder": "",
-        "OriginalFilenames": [],
-        "Chapters": [],
-        "Splits": [],
-        "Replacements": [],
-        "LinkedChapters": [],
-        "KeepFirstSplitSection": true
       },
       {
-        "ChapterName": "Volume 03",
+        "ChapterName": "The Temptation of Marielle Clarac",
         "SortOrder": "03",
         "SubFolder": "99-Afterwords",
         "OriginalFilenames": [
@@ -2695,11 +2708,7 @@
     ],
     "Gallery": {
       "SplashImages": [
-        "bonus1",
-        "cover",
-        "frontmatter1",
-        "frontmatter2",
-        "frontmatter3"
+        "frontmatter1"
       ],
       "ChapterImages": [
         "insert1",
@@ -2714,7 +2723,7 @@
       "LateSubFolder": null,
       "ChapterName": "",
       "SortOrder": "",
-      "SubFolder": "03-Volume 03",
+      "SubFolder": "03-The Temptation of Marielle Clarac",
       "OriginalFilenames": [],
       "Chapters": [],
       "Splits": [],
