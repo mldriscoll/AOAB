@@ -285,26 +285,13 @@
     "InternalName": "deathbound-duke-s-daughter-volume-2",
     "Chapters": [
       {
-        "ChapterName": "Volume 02",
+        "ChapterName": "Erika Aurelia and the Angel's Crypt",
         "SortOrder": "02",
         "SubFolder": "",
         "OriginalFilenames": [],
         "Chapters": [
           {
-            "ChapterName": "Landmarks",
-            "SortOrder": "0201",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "toc"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Prologue: Erika Aurelia, Destined to Die",
+            "ChapterName": "Erika Aurelia, Destined to Die",
             "SortOrder": "0202",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -317,7 +304,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 1: Ynys Negesydd",
+            "ChapterName": "Ynys Negesydd",
             "SortOrder": "0203",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -330,13 +317,79 @@
               "chapter1_3"
             ],
             "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
+            "Splits": [
+              {
+                "Name": "2",
+                "SplitLine": "<h2>2</h2>",
+                "SortOrder": "02",
+                "SubFolder": ""
+              },
+              {
+                "Name": "3",
+                "SplitLine": "<h2>3</h2>",
+                "SortOrder": "03",
+                "SubFolder": ""
+              },
+              {
+                "Name": "4",
+                "SplitLine": "<h2>4</h2>",
+                "SortOrder": "04",
+                "SubFolder": ""
+              },
+              {
+                "Name": "5",
+                "SplitLine": "<h2>5</h2>",
+                "SortOrder": "05",
+                "SubFolder": ""
+              },
+              {
+                "Name": "6",
+                "SplitLine": "<h2>6</h2>",
+                "SortOrder": "06",
+                "SubFolder": ""
+              },
+              {
+                "Name": "7",
+                "SplitLine": "<h2>7</h2>",
+                "SortOrder": "07",
+                "SubFolder": ""
+              },
+              {
+                "Name": "8",
+                "SplitLine": "<h2>8</h2>",
+                "SortOrder": "08",
+                "SubFolder": ""
+              },
+              {
+                "Name": "9",
+                "SplitLine": "<h2>9</h2>",
+                "SortOrder": "09",
+                "SubFolder": ""
+              },
+              {
+                "Name": "10",
+                "SplitLine": "<h2>10</h2>",
+                "SortOrder": "10",
+                "SubFolder": ""
+              },
+              {
+                "Name": "11",
+                "SplitLine": "<h2>11</h2>",
+                "SortOrder": "11",
+                "SubFolder": ""
+              }
+            ],
+            "Replacements": [
+              {
+                "Original": "<h2>1</h2>",
+                "Replacement": ""
+              }
+            ],
             "LinkedChapters": [],
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 2: The Joust",
+            "ChapterName": "The Joust",
             "SortOrder": "0204",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -345,13 +398,37 @@
               "chapter2_1"
             ],
             "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
+            "Splits": [
+              {
+                "Name": "2",
+                "SplitLine": "<h2>2</h2>",
+                "SortOrder": "02",
+                "SubFolder": ""
+              },
+              {
+                "Name": "3",
+                "SplitLine": "<h2>3</h2>",
+                "SortOrder": "03",
+                "SubFolder": ""
+              },
+              {
+                "Name": "4",
+                "SplitLine": "<h2>4</h2>",
+                "SortOrder": "04",
+                "SubFolder": ""
+              }
+            ],
+            "Replacements": [
+              {
+                "Original": "<h2>1</h2>",
+                "Replacement": ""
+              }
+            ],
             "LinkedChapters": [],
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 3: The Angel’s Crypt",
+            "ChapterName": "The Angel’s Crypt",
             "SortOrder": "0205",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -366,13 +443,73 @@
               "chapter3_4"
             ],
             "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
+            "Splits": [
+              {
+                "Name": "2",
+                "SplitLine": "<h2>2</h2>",
+                "SortOrder": "02",
+                "SubFolder": ""
+              },
+              {
+                "Name": "3",
+                "SplitLine": "<h2>3</h2>",
+                "SortOrder": "03",
+                "SubFolder": ""
+              },
+              {
+                "Name": "4",
+                "SplitLine": "<h2>4</h2>",
+                "SortOrder": "04",
+                "SubFolder": ""
+              },
+              {
+                "Name": "5",
+                "SplitLine": "<h2>5</h2>",
+                "SortOrder": "05",
+                "SubFolder": ""
+              },
+              {
+                "Name": "6",
+                "SplitLine": "<h2>6</h2>",
+                "SortOrder": "06",
+                "SubFolder": ""
+              },
+              {
+                "Name": "7",
+                "SplitLine": "<h2>7</h2>",
+                "SortOrder": "07",
+                "SubFolder": ""
+              },
+              {
+                "Name": "8",
+                "SplitLine": "<h2>8</h2>",
+                "SortOrder": "08",
+                "SubFolder": ""
+              },
+              {
+                "Name": "9",
+                "SplitLine": "<h2>9</h2>",
+                "SortOrder": "09",
+                "SubFolder": ""
+              },
+              {
+                "Name": "10",
+                "SplitLine": "<h2>10</h2>",
+                "SortOrder": "10",
+                "SubFolder": ""
+              }
+            ],
+            "Replacements": [
+              {
+                "Original": "<h2>1</h2>",
+                "Replacement": ""
+              }
+            ],
             "LinkedChapters": [],
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 4: The Sky Throne",
+            "ChapterName": "The Sky Throne",
             "SortOrder": "0206",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -381,30 +518,80 @@
               "chapter4_1"
             ],
             "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
+            "Splits": [
+              {
+                "Name": "2",
+                "SplitLine": "<h2>2</h2>",
+                "SortOrder": "02",
+                "SubFolder": ""
+              },
+              {
+                "Name": "3",
+                "SplitLine": "<h2>3</h2>",
+                "SortOrder": "03",
+                "SubFolder": ""
+              },
+              {
+                "Name": "4",
+                "SplitLine": "<h2>4</h2>",
+                "SortOrder": "04",
+                "SubFolder": ""
+              },
+              {
+                "Name": "5",
+                "SplitLine": "<h2>5</h2>",
+                "SortOrder": "05",
+                "SubFolder": ""
+              },
+              {
+                "Name": "6",
+                "SplitLine": "<h2>6</h2>",
+                "SortOrder": "06",
+                "SubFolder": ""
+              }
+            ],
+            "Replacements": [
+              {
+                "Original": "<h2>1</h2>",
+                "Replacement": ""
+              }
+            ],
             "LinkedChapters": [],
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "August Ignitia’s Journal",
-            "SortOrder": "0207",
+            "ChapterName": "Where the Sun Sets",
+            "SortOrder": "0208",
             "SubFolder": "",
             "OriginalFilenames": [
-              "journal1"
+              "chapter5"
             ],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
             "LinkedChapters": [],
             "KeepFirstSplitSection": true
-          },
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "Erika Aurelia and the Angel's Crypt",
+        "SortOrder": "02",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
           {
-            "ChapterName": "Last Chapter: Where the Sun Sets",
-            "SortOrder": "0208",
+            "ChapterName": "August Ignitia’s Journal",
+            "SortOrder": "0207",
             "SubFolder": "",
             "OriginalFilenames": [
-              "chapter5"
+              "journal1"
             ],
             "Chapters": [],
             "Splits": [],
@@ -434,107 +621,10 @@
         "KeepFirstSplitSection": true
       }
     ],
-    "BonusChapters": [
-      {
-        "ChapterName": "Volume 02",
-        "SortOrder": "02",
-        "SubFolder": "",
-        "OriginalFilenames": [],
-        "Chapters": [
-          {
-            "ChapterName": "",
-            "SortOrder": "0210",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "bonus1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "0211",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "bonus2"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "0212",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "bonus3"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "0213",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "bonus4"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "0214",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "bonus5"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          }
-        ],
-        "Splits": [],
-        "Replacements": [],
-        "LinkedChapters": [],
-        "KeepFirstSplitSection": true
-      }
-    ],
-    "ExtraContent": [
-      {
-        "ChapterName": "Volume 02",
-        "SortOrder": "02",
-        "SubFolder": "",
-        "OriginalFilenames": [],
-        "Chapters": [],
-        "Splits": [],
-        "Replacements": [],
-        "LinkedChapters": [],
-        "KeepFirstSplitSection": true
-      }
-    ],
+    "ExtraContent": [],
     "Gallery": {
       "SplashImages": [
         "bonus1",
-        "bonus2",
-        "bonus3",
-        "bonus4",
-        "bonus5",
-        "cover",
-        "frontmatter1",
         "frontmatter2",
         "frontmatter3",
         "frontmatter4",
@@ -542,7 +632,6 @@
       ],
       "ChapterImages": [
         "insert1",
-        "insert10",
         "insert2",
         "insert3",
         "insert4",
@@ -550,12 +639,13 @@
         "insert6",
         "insert7",
         "insert8",
-        "insert9"
+        "insert9",
+        "insert10"
       ],
       "LateSubFolder": null,
       "ChapterName": "",
       "SortOrder": "",
-      "SubFolder": "02-Volume 02",
+      "SubFolder": "02-Erika Aurelia and the Angel's Crypt",
       "OriginalFilenames": [],
       "Chapters": [],
       "Splits": [],
