@@ -184,9 +184,15 @@
           {
             "ChapterName": "Character Sheet",
             "SortOrder": "0100",
+            "SubFolder": "",
             "OriginalFilenames": [
               "color2"
-            ]
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           }
         ],
         "Splits": [],
