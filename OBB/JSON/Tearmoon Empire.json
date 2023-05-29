@@ -5344,26 +5344,13 @@
     "InternalName": "tearmoon-empire-volume-7",
     "Chapters": [
       {
-        "ChapterName": "Volume 07",
-        "SortOrder": "07",
+        "ChapterName": "Part 3: A New Oath Between the Moon and Stars",
+        "SortOrder": "03",
         "SubFolder": "",
         "OriginalFilenames": [],
         "Chapters": [
           {
-            "ChapterName": "",
-            "SortOrder": "0704",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "title1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter 1: Princess Mia’s Festival of Debauchery (Part A) —Is This Gluttony? No, It’s Principle—",
+            "ChapterName": "Princess Mia’s Festival of Debauchery (Part A) —Is This Gluttony? No, It’s Principle—",
             "SortOrder": "0705",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -5376,7 +5363,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 2: Princess Mia’s Festival of Debauchery (Part B) —The Light of Hope and the Miraculous Memory—",
+            "ChapterName": "Princess Mia’s Festival of Debauchery (Part B) —The Light of Hope and the Miraculous Memory—",
             "SortOrder": "0706",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -5391,7 +5378,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 3: Donning the Most Sublime of Colors, Mia Prepares to Step Forth onto the Road to Empress!",
+            "ChapterName": "Donning the Most Sublime of Colors, Mia Prepares to Step Forth onto the Road to Empress!",
             "SortOrder": "0707",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -5408,7 +5395,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 4: The Tea Party of the Moon and Stars —Thus They Joined in Oath—",
+            "ChapterName": "The Tea Party of the Moon and Stars —Thus They Joined in Oath—",
             "SortOrder": "0708",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -5421,20 +5408,18 @@
             "Replacements": [],
             "LinkedChapters": [],
             "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "0709",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "title2"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      },
+      {
+        "ChapterName": "Part 4: To the Moon-Led Morrow",
+        "SortOrder": "04",
+        "SubFolder": "",
+        "Chapters": [
           {
             "ChapterName": "Prologue: It Begins with Mushroom Stew...",
             "SortOrder": "0710",
@@ -5449,7 +5434,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 1: Princess Mia...Be Spitting Facts",
+            "ChapterName": "Princess Mia...Be Spitting Facts",
             "SortOrder": "0711",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -5462,7 +5447,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 2: To Wrong Someone through Food Is to Know True Fury",
+            "ChapterName": "To Wrong Someone through Food Is to Know True Fury",
             "SortOrder": "0712",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -5475,7 +5460,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 3: The Birth Cry of the Empress Faction —Mia’s Hand Moves of Its Own Accord Again—",
+            "ChapterName": "The Birth Cry of the Empress Faction —Mia’s Hand Moves of Its Own Accord Again—",
             "SortOrder": "0713",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -5488,7 +5473,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 4: Berman Gains Mia’s Trust",
+            "ChapterName": "Berman Gains Mia’s Trust",
             "SortOrder": "0714",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -5501,7 +5486,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 5: Cowards Win through Sheer Numbers",
+            "ChapterName": "Cowards Win through Sheer Numbers",
             "SortOrder": "0715",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -5514,21 +5499,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Side Chapter: Why Is That Flower...",
-            "SortOrder": "0716",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter11",
-              "insert5"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter 6: Princess Mia...Resolves to Play the Gracious Host!",
+            "ChapterName": "Princess Mia...Resolves to Play the Gracious Host!",
             "SortOrder": "0717",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -5541,7 +5512,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 7: My? Actually, That Time, I Was...",
+            "ChapterName": "My? Actually, That Time, I Was...",
             "SortOrder": "0718",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -5554,7 +5525,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 8: The Bread-Cake Declaration",
+            "ChapterName": "The Bread-Cake Declaration",
             "SortOrder": "0719",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -5567,7 +5538,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 9: The Rule of Merchants",
+            "ChapterName": "The Rule of Merchants",
             "SortOrder": "0720",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -5580,7 +5551,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 10: Grandmother Mia Is a Passionate Educator",
+            "ChapterName": "Grandmother Mia Is a Passionate Educator",
             "SortOrder": "0721",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -5595,7 +5566,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 11: Despite Overeating, She Still...",
+            "ChapterName": "Despite Overeating, She Still...",
             "SortOrder": "0722",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -5608,7 +5579,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 12: A Modicum of Payback —Groundwork—",
+            "ChapterName": "A Modicum of Payback —Groundwork—",
             "SortOrder": "0723",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -5622,7 +5593,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 13: The Storied Life of Shalloak Cornrogue the Merchant King",
+            "ChapterName": "The Storied Life of Shalloak Cornrogue the Merchant King",
             "SortOrder": "0724",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -5635,7 +5606,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 14: The Loyal Subject Anne...Hardens Her Heart (for Tough Love)",
+            "ChapterName": "The Loyal Subject Anne...Hardens Her Heart (for Tough Love)",
             "SortOrder": "0725",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -5648,7 +5619,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 15: Princess Mia...Recognizes Her F.A.T.",
+            "ChapterName": "Princess Mia...Recognizes Her F.A.T.",
             "SortOrder": "0726",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -5661,7 +5632,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 16: Friends of Bamboo",
+            "ChapterName": "Friends of Bamboo",
             "SortOrder": "0727",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -5674,7 +5645,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 17: Princess Mia...Enjoys a Fruit-Picking Session",
+            "ChapterName": "Princess Mia...Enjoys a Fruit-Picking Session",
             "SortOrder": "0728",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -5687,7 +5658,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 18: Castle-Shaped Cake⇔Cake-Shaped Castle",
+            "ChapterName": "Castle-Shaped Cake⇔Cake-Shaped Castle",
             "SortOrder": "0729",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -5700,7 +5671,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 19: The Two Princesses Walk up the Golden Slope",
+            "ChapterName": "The Two Princesses Walk up the Golden Slope",
             "SortOrder": "0730",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -5713,7 +5684,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 20: One Does Not Simply Evade the Great Sage of the Empire",
+            "ChapterName": "One Does Not Simply Evade the Great Sage of the Empire",
             "SortOrder": "0731",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -5726,7 +5697,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 21: Mia’s All-Out Negative Campaign: Operation Mudslinging!",
+            "ChapterName": "Mia’s All-Out Negative Campaign: Operation Mudslinging!",
             "SortOrder": "0732",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -5739,7 +5710,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 22: Princess Mia...Takes a Dagger from Tatiana (in Her Heart)",
+            "ChapterName": "Princess Mia...Takes a Dagger from Tatiana (in Her Heart)",
             "SortOrder": "0733",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -5754,7 +5725,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 23: The Fateful Banquet —To Start the Party, Knock Back Three...Mushrooms—",
+            "ChapterName": "The Fateful Banquet —To Start the Party, Knock Back Three...Mushrooms—",
             "SortOrder": "0734",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -5767,7 +5738,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 24: The Fateful Banquet —Like a Thorn Stuck in the Heart—",
+            "ChapterName": "The Fateful Banquet —Like a Thorn Stuck in the Heart—",
             "SortOrder": "0735",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -5780,7 +5751,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 25: Could You Please Place Your Trust in Me?",
+            "ChapterName": "Could You Please Place Your Trust in Me?",
             "SortOrder": "0736",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -5793,7 +5764,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 26: Great General Mia Takes No Prisoners",
+            "ChapterName": "Great General Mia Takes No Prisoners",
             "SortOrder": "0737",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -5806,7 +5777,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 27: Princess Mia...Pumps Her Arms",
+            "ChapterName": "Princess Mia...Pumps Her Arms",
             "SortOrder": "0738",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -5819,7 +5790,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 28: Thread",
+            "ChapterName": "Thread",
             "SortOrder": "0739",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -5832,7 +5803,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 29: Encouragement from Mushroom Empress Mia",
+            "ChapterName": "Encouragement from Mushroom Empress Mia",
             "SortOrder": "0740",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -5845,7 +5816,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 30: A Perujin Night",
+            "ChapterName": "A Perujin Night",
             "SortOrder": "0741",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -5858,7 +5829,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 31: The People Mia Dragged into Her Plans",
+            "ChapterName": "The People Mia Dragged into Her Plans",
             "SortOrder": "0742",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -5866,20 +5837,12 @@
             ],
             "Chapters": [],
             "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "0746",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "manga"
+            "Replacements": [
+              {
+                "Original": "Part 3: A New Oath Between the Moon and Stars III Fin",
+                "Replacement": "Part 4: To the Moon-Led Morrow I Fin"
+              }
             ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
             "LinkedChapters": [],
             "KeepFirstSplitSection": true
           }
@@ -5892,13 +5855,13 @@
     ],
     "BonusChapters": [
       {
-        "ChapterName": "Volume 07",
-        "SortOrder": "07",
+        "ChapterName": "Part 4: To the Moon-Led Morrow",
+        "SortOrder": "04",
         "SubFolder": "",
         "OriginalFilenames": [],
         "Chapters": [
           {
-            "ChapterName": "The Promised Castilla",
+            "ChapterName": "The Promised Castilla [Anne]",
             "SortOrder": "0743",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -5926,24 +5889,37 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Bonus Short Story",
+            "ChapterName": "“O Friend From a Faraway Land...”",
             "SortOrder": "0747",
             "SubFolder": "",
             "OriginalFilenames": [
               "bonus"
             ],
             "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
+            "Splits": [
+              {
+                "Name": "Mia’s Fine Foods Travel Diary —Eat Till You Drop in Perujin—",
+                "SplitLine": "<h2>Mia’s Fine Foods Travel Diary —Eat Till You Drop in Perujin—</h2>",
+                "SortOrder": "0748",
+                "SubFolder": "04-Part 4: To the Moon-Led Morrow"
+              }
+            ],
+            "Replacements": [
+              {
+                "Original": "<h1>“O Friend From a Faraway Land...”</h1>\n\n      <h2>“O Friend From a Faraway Land...”</h2>",
+                "Replacement": "<h1>“O Friend From a Faraway Land...”</h1>"
+              }
+            ],
             "LinkedChapters": [],
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "",
-            "SortOrder": "0748",
+            "ChapterName": "Why Is That Flower... [Cyril]",
+            "SortOrder": "0716",
             "SubFolder": "",
             "OriginalFilenames": [
-              "bonus2"
+              "chapter11",
+              "insert5"
             ],
             "Chapters": [],
             "Splits": [],
@@ -5960,8 +5936,8 @@
     ],
     "ExtraContent": [
       {
-        "ChapterName": "Volume 07",
-        "SortOrder": "07",
+        "ChapterName": "Part 4: To the Moon-Led Morrow",
+        "SortOrder": "04",
         "SubFolder": "",
         "OriginalFilenames": [],
         "Chapters": [
@@ -5970,7 +5946,8 @@
             "SortOrder": "0701",
             "SubFolder": "",
             "OriginalFilenames": [
-              "characters1"
+              "characters1",
+              "characters2"
             ],
             "Chapters": [],
             "Splits": [],
@@ -5979,11 +5956,11 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Character Sheet",
-            "SortOrder": "0702",
+            "ChapterName": "Bel's Delusion",
+            "SortOrder": "0746",
             "SubFolder": "",
             "OriginalFilenames": [
-              "characters2"
+              "manga"
             ],
             "Chapters": [],
             "Splits": [],
@@ -5992,19 +5969,6 @@
             "KeepFirstSplitSection": true
           }
         ],
-        "Splits": [],
-        "Replacements": [],
-        "LinkedChapters": [],
-        "KeepFirstSplitSection": true
-      },
-      {
-        "ChapterName": "Map",
-        "SortOrder": "0703",
-        "SubFolder": "98-Maps",
-        "OriginalFilenames": [
-          "map"
-        ],
-        "Chapters": [],
         "Splits": [],
         "Replacements": [],
         "LinkedChapters": [],
@@ -6026,11 +5990,9 @@
     ],
     "Gallery": {
       "SplashImages": [
-        "bonus",
-        "cover",
-        "frontmatter1",
         "frontmatter2",
-        "manga"
+        "bonus2",
+        "frontmatter1"
       ],
       "ChapterImages": [
         "insert1",
@@ -6046,7 +6008,7 @@
       "LateSubFolder": null,
       "ChapterName": "",
       "SortOrder": "",
-      "SubFolder": "07-Volume 07",
+      "SubFolder": "04-Part 4: To the Moon-Led Morrow",
       "OriginalFilenames": [],
       "Chapters": [],
       "Splits": [],

@@ -234,7 +234,7 @@ namespace OBB
                                             Contents = $"<body>{div}<h1>{dict[key].Name}</h1>{split}</div></body>",
                                             CssFiles = newChapter.CssFiles,
                                             Name = dict[key].Name + ".xhtml",
-                                            SubFolder = newChapter.SubFolder + $"\\{newChapter.SortOrder}-{newChapter.Name}",
+                                            SubFolder = string.IsNullOrWhiteSpace(dict[key].SubFolder) ? newChapter.SubFolder + $"\\{newChapter.SortOrder}-{newChapter.Name}" : dict[key].SubFolder,
                                             SortOrder = dict[key].SortOrder,
                                         };
                                         outProcessor.Chapters.Add(splitChapter);
