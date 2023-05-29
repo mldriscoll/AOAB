@@ -7,6 +7,18 @@ Settings.LoadChapterSettings();
 Settings.LoadImageSettings();
 Settings.LoadMiscSettings();
 
+#if DEBUG
+// Copy JSON from the source folder
+Directory.Delete("JSON", true);
+Directory.CreateDirectory("JSON");
+var json = Directory.GetFiles("../../../JSON", "*.json");
+foreach(var file in json)
+{
+    var info = new FileInfo(file);
+    File.Copy(file, $"JSON/{info.Name}");
+}
+#endif
+
 while (true)
 {
     Console.Clear();
@@ -57,5 +69,18 @@ while (true)
             break;
     }
 }
+
+
+#if DEBUG
+// Copy JSON back to source folder
+Directory.Delete("../../../JSON", true);
+Directory.CreateDirectory("../../../JSON");
+json = Directory.GetFiles("JSON", "*.json");
+foreach (var file in json)
+{
+    var info = new FileInfo(file);
+    File.Copy(file, $"../../../JSON/{info.Name}");
+}
+#endif
 
 
