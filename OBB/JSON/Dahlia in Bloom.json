@@ -5,6 +5,8 @@
       {
         "ChapterName": "Volume 01",
         "SortOrder": "01",
+        "SubFolder": "",
+        "OriginalFilenames": [],
         "Chapters": [
           {
             "ChapterName": "The Day She Decided to Hold Her Head High",
@@ -14,7 +16,11 @@
               "chapter1",
               "insert1"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Breaking Off the Engagement",
@@ -25,7 +31,11 @@
               "insert2",
               "chapter2_1"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "A Knight from the Beast Hunters",
@@ -34,7 +44,11 @@
             "OriginalFilenames": [
               "chapter3"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Senior Apprentice",
@@ -43,7 +57,11 @@
             "OriginalFilenames": [
               "chapter4"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Rossetti Trading Company",
@@ -54,7 +72,11 @@
               "insert3",
               "chapter5_1"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Re-u-Knighted",
@@ -65,7 +87,11 @@
               "insert4",
               "chapter6_1"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Stepping Out Together",
@@ -74,7 +100,11 @@
             "OriginalFilenames": [
               "chapter8"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Friends",
@@ -87,7 +117,11 @@
               "insert6",
               "chapter9_2"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Magical Toolmaker Dahlia",
@@ -98,15 +132,25 @@
               "insert7",
               "insert8"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           }
-        ]
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
     "BonusChapters": [
       {
         "ChapterName": "Volume 01",
         "SortOrder": "01",
+        "SubFolder": "",
+        "OriginalFilenames": [],
         "Chapters": [
           {
             "ChapterName": "Interlude: Withering Happiness",
@@ -115,26 +159,43 @@
             "OriginalFilenames": [
               "chapter7"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Interlude: The Chairman of Orlando \u0026amp; Co.",
+            "ChapterName": "Interlude: The Chairman of Orlando &amp; Co.",
             "SortOrder": "10",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter10"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Extra Story: A Father and Daughter\u2019s Magical Tool Invention Diaries\u2014the Dryer",
+            "ChapterName": "Extra Story: A Father and Daughter’s Magical Tool Invention Diaries—the Dryer",
             "SortOrder": "12",
             "SubFolder": "",
             "OriginalFilenames": [
               "extra"
-            ]
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           }
-        ]
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
     "ExtraContent": [
@@ -145,7 +206,11 @@
         "OriginalFilenames": [
           "bonus"
         ],
-        "Chapters": []
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
     "Gallery": {
@@ -164,11 +229,16 @@
         "insert7",
         "insert8"
       ],
+      "LateSubFolder": null,
       "ChapterName": "",
       "SortOrder": "",
       "SubFolder": "01-Volume 01",
       "OriginalFilenames": [],
-      "Chapters": []
+      "Chapters": [],
+      "Splits": [],
+      "Replacements": [],
+      "LinkedChapters": [],
+      "KeepFirstSplitSection": true
     }
   },
   {
@@ -187,10 +257,14 @@
             "OriginalFilenames": [
               "chapter1"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "The Man-Made Magical Sword\u2014Blade of the Dark Lord\u2019s Minion",
+            "ChapterName": "The Man-Made Magical Sword—Blade of the Dark Lord’s Minion",
             "SortOrder": "02",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -198,7 +272,11 @@
               "insert1",
               "chapter2_1"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Gastoni Witch",
@@ -207,7 +285,11 @@
             "OriginalFilenames": [
               "chapter3"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Friends for Dinner",
@@ -218,7 +300,11 @@
               "insert2",
               "chapter4_1"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Black Reaper and the Monster Husks",
@@ -228,43 +314,63 @@
               "chapter5",
               "insert3"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "The Apology and the Unicorn\u2019s Horn",
+            "ChapterName": "The Apology and the Unicorn’s Horn",
             "SortOrder": "06",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter6"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "The Titan Frog Hunt and Volf\u2019s Report",
+            "ChapterName": "The Titan Frog Hunt and Volf’s Report",
             "SortOrder": "07",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter7"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "The Meeting at the Merchants\u2019 Guild",
+            "ChapterName": "The Meeting at the Merchants’ Guild",
             "SortOrder": "08",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter8"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Tricky Negotiations at the Merchants\u2019 Guild",
+            "ChapterName": "Tricky Negotiations at the Merchants’ Guild",
             "SortOrder": "09",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter9"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Unicorn Pendant",
@@ -273,7 +379,11 @@
             "OriginalFilenames": [
               "chapter10"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "His Brother and His Nightmares",
@@ -284,10 +394,14 @@
               "insert4",
               "chapter11_1"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "The Sk\u00F6ll Bracelet",
+            "ChapterName": "The Sköll Bracelet",
             "SortOrder": "12",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -295,7 +409,11 @@
               "insert5",
               "chapter12_1"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "New Staff and a Royal Invitation",
@@ -304,10 +422,14 @@
             "OriginalFilenames": [
               "chapter13"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "The Castle, Athlete\u2019s Foot, and the Magical Toolmaker",
+            "ChapterName": "The Castle, Athlete’s Foot, and the Magical Toolmaker",
             "SortOrder": "14",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -315,7 +437,11 @@
               "insert6",
               "chapter14_1"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Apology and the Confession Game",
@@ -324,7 +450,11 @@
             "OriginalFilenames": [
               "chapter15"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Respects after the Rain",
@@ -334,9 +464,17 @@
               "chapter16",
               "insert7"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           }
-        ]
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
     "BonusChapters": [
@@ -347,15 +485,23 @@
         "OriginalFilenames": [],
         "Chapters": [
           {
-            "ChapterName": "Extra Story: A Father and Daughter\u2019s Magical Tool Invention Diaries\u2014Waterproof Cloth",
+            "ChapterName": "Extra Story: A Father and Daughter’s Magical Tool Invention Diaries—Waterproof Cloth",
             "SortOrder": "17",
             "SubFolder": "",
             "OriginalFilenames": [
               "extra"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           }
-        ]
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
     "ExtraContent": [
@@ -366,7 +512,11 @@
         "OriginalFilenames": [
           "bonus"
         ],
-        "Chapters": []
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
     "Gallery": {
@@ -384,11 +534,16 @@
         "insert6",
         "insert7"
       ],
+      "LateSubFolder": null,
       "ChapterName": "",
       "SortOrder": "",
       "SubFolder": "02-Volume 02",
       "OriginalFilenames": [],
-      "Chapters": []
+      "Chapters": [],
+      "Splits": [],
+      "Replacements": [],
+      "LinkedChapters": [],
+      "KeepFirstSplitSection": true
     }
   },
   {
@@ -407,10 +562,14 @@
             "OriginalFilenames": [
               "chapter1"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "The Artisans\u2019 T\u00EAte-\u00E0-T\u00EAte",
+            "ChapterName": "The Artisans’ Tête-à-Tête",
             "SortOrder": "02",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -418,7 +577,11 @@
               "insert1",
               "chapter2_1"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Harpy Hunt",
@@ -427,7 +590,11 @@
             "OriginalFilenames": [
               "chapter3"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Road Less Traveled",
@@ -436,10 +603,14 @@
             "OriginalFilenames": [
               "chapter4"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "The Man-Made Magical Sword: Second Attempt\u2014the Creeping Blade",
+            "ChapterName": "The Man-Made Magical Sword: Second Attempt—the Creeping Blade",
             "SortOrder": "05",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -447,7 +618,11 @@
               "insert2",
               "chapter5_1"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Merriment Under the Stars",
@@ -456,7 +631,11 @@
             "OriginalFilenames": [
               "chapter6"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The New and Improved Compact Magical Stove",
@@ -465,10 +644,14 @@
             "OriginalFilenames": [
               "chapter7"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "The Love Letter and the Royal Knights\u2019 Joint Maneuvers",
+            "ChapterName": "The Love Letter and the Royal Knights’ Joint Maneuvers",
             "SortOrder": "08",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -476,7 +659,11 @@
               "insert3",
               "chapter8_1"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Rock Oysters with Guido",
@@ -485,7 +672,11 @@
             "OriginalFilenames": [
               "chapter9"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Working with Pride",
@@ -494,7 +685,11 @@
             "OriginalFilenames": [
               "chapter10"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Magical Toolmaker, the Knight, the Craftsman, and the Merchant",
@@ -505,16 +700,24 @@
               "insert5",
               "chapter11_1"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "The Man-Made Magical Sword: Third Attempt\u2014the Frozen Blade",
+            "ChapterName": "The Man-Made Magical Sword: Third Attempt—the Frozen Blade",
             "SortOrder": "12",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter12"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Purple Bicorns",
@@ -525,7 +728,11 @@
               "insert6",
               "chapter13_1"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Grilled Butterfish and the Seven Wonders of the Royal Capital",
@@ -535,9 +742,17 @@
               "chapter14",
               "insert7"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           }
-        ]
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
     "BonusChapters": [
@@ -556,27 +771,43 @@
               "insert4",
               "interlude1_1"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Interlude: The Veteran\u2019s Pride",
+            "ChapterName": "Interlude: The Veteran’s Pride",
             "SortOrder": "14",
             "SubFolder": "",
             "OriginalFilenames": [
               "interlude2"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Extra Story: A Father and Daughter\u2019s Magical Tool Invention Diaries\u2014the Fairy Glass Lantern",
+            "ChapterName": "Extra Story: A Father and Daughter’s Magical Tool Invention Diaries—the Fairy Glass Lantern",
             "SortOrder": "16",
             "SubFolder": "",
             "OriginalFilenames": [
               "extra"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           }
-        ]
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
     "ExtraContent": [
@@ -587,7 +818,11 @@
         "OriginalFilenames": [
           "bonus"
         ],
-        "Chapters": []
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
     "Gallery": {
@@ -605,11 +840,16 @@
         "insert6",
         "insert7"
       ],
+      "LateSubFolder": null,
       "ChapterName": "",
       "SortOrder": "",
       "SubFolder": "03-Volume 03",
       "OriginalFilenames": [],
-      "Chapters": []
+      "Chapters": [],
+      "Splits": [],
+      "Replacements": [],
+      "LinkedChapters": [],
+      "KeepFirstSplitSection": true
     }
   },
   {
@@ -630,16 +870,24 @@
               "insert1",
               "chapter1_1"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Imitation Ravioli and the Witch\u2019s Cottage",
+            "ChapterName": "Imitation Ravioli and the Witch’s Cottage",
             "SortOrder": "0403",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter2"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Cloudy with a Chance of Monsters",
@@ -648,7 +896,11 @@
             "OriginalFilenames": [
               "chapter3"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Official Delivery and the Order of Beast Hunters",
@@ -657,7 +909,11 @@
             "OriginalFilenames": [
               "chapter4"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Pasta Noodle Soup to Round Off the Night",
@@ -666,7 +922,11 @@
             "OriginalFilenames": [
               "chapter5"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Fried Chicken and the Guy Friend",
@@ -677,19 +937,27 @@
               "insert2",
               "chapter6_1"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "The Man-Made Magical Sword: Fourth Attempt\u2014the Lamenting Blade",
+            "ChapterName": "The Man-Made Magical Sword: Fourth Attempt—the Lamenting Blade",
             "SortOrder": "0410",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter7"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "A Friend\u2019s Misunderstanding and the Zephyricloth",
+            "ChapterName": "A Friend’s Misunderstanding and the Zephyricloth",
             "SortOrder": "0411",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -701,7 +969,11 @@
               "insert5",
               "chapter8_3"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "For Whom the Camp Stoves",
@@ -712,7 +984,11 @@
               "insert6",
               "chapter9_1"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "This Magical Toolmaker Named Dahlia",
@@ -723,9 +999,17 @@
               "insert7",
               "chapter10_1"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           }
-        ]
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
     "BonusChapters": [
@@ -736,51 +1020,75 @@
         "OriginalFilenames": [],
         "Chapters": [
           {
-            "ChapterName": "Interlude: The Master of the Tailors\u2019 Guild \u0026amp; the Noble Way",
+            "ChapterName": "Interlude: The Master of the Tailors’ Guild &amp; the Noble Way",
             "SortOrder": "0406",
             "SubFolder": "",
             "OriginalFilenames": [
               "interlude1"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Interlude: The Master of the Merchants\u2019 Guild \u0026amp; the Noble Way",
+            "ChapterName": "Interlude: The Master of the Merchants’ Guild &amp; the Noble Way",
             "SortOrder": "0408",
             "SubFolder": "",
             "OriginalFilenames": [
               "interlude2"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Interlude: Escort Duty \u0026amp; the First Cup of Tea",
+            "ChapterName": "Interlude: Escort Duty &amp; the First Cup of Tea",
             "SortOrder": "0412",
             "SubFolder": "",
             "OriginalFilenames": [
               "interlude3"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Interlude: The Headstrong \u0026amp; Well-Connected",
+            "ChapterName": "Interlude: The Headstrong &amp; Well-Connected",
             "SortOrder": "0414",
             "SubFolder": "",
             "OriginalFilenames": [
               "interlude4"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Extra Story: A Father and Daughter\u2019s Magical Tool Invention Diaries\u2014the Voice Caster",
+            "ChapterName": "Extra Story: A Father and Daughter’s Magical Tool Invention Diaries—the Voice Caster",
             "SortOrder": "0416",
             "SubFolder": "",
             "OriginalFilenames": [
               "extra"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           }
-        ]
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
     "ExtraContent": [
@@ -791,7 +1099,11 @@
         "OriginalFilenames": [
           "bonus"
         ],
-        "Chapters": []
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
     "Gallery": {
@@ -809,11 +1121,16 @@
         "insert6",
         "insert7"
       ],
+      "LateSubFolder": null,
       "ChapterName": "",
       "SortOrder": "",
       "SubFolder": "04-Volume 04",
       "OriginalFilenames": [],
-      "Chapters": []
+      "Chapters": [],
+      "Splits": [],
+      "Replacements": [],
+      "LinkedChapters": [],
+      "KeepFirstSplitSection": true
     }
   },
   {
@@ -834,7 +1151,11 @@
               "insert1",
               "chapter1_1"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Magical Toolmaking Teacher",
@@ -843,7 +1164,11 @@
             "OriginalFilenames": [
               "chapter2"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Guarding and Gratitude",
@@ -852,16 +1177,24 @@
             "OriginalFilenames": [
               "chapter3"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "The Adventurers\u2019 Guild",
+            "ChapterName": "The Adventurers’ Guild",
             "SortOrder": "0505",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter4"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Slime Farm and Nectar Wine",
@@ -873,7 +1206,11 @@
               "chapter5_1",
               "insert3"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Married Men and Scorpio",
@@ -882,7 +1219,11 @@
             "OriginalFilenames": [
               "chapter6"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "A Mountain of Letters and the Employee",
@@ -893,19 +1234,27 @@
               "insert4",
               "chapter7_1"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "The Forest Serpent\u2019s Slip",
+            "ChapterName": "The Forest Serpent’s Slip",
             "SortOrder": "0509",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter8"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Tea Party with a Friend\u2019s Brother",
+            "ChapterName": "Tea Party with a Friend’s Brother",
             "SortOrder": "0510",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -913,25 +1262,37 @@
               "insert5",
               "chapter9_1"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "The Bestiary and the Man-Made Magical Sword: Fifth Attempt\u2014The Riving Blade",
+            "ChapterName": "The Bestiary and the Man-Made Magical Sword: Fifth Attempt—The Riving Blade",
             "SortOrder": "0512",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter11"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "The Present and the Professor\u2019s Wisdom",
+            "ChapterName": "The Present and the Professor’s Wisdom",
             "SortOrder": "0514",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter13"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Hog Farm and the Giant Boar",
@@ -943,9 +1304,17 @@
               "chapter14_1",
               "insert7"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           }
-        ]
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
     "BonusChapters": [
@@ -956,33 +1325,49 @@
         "OriginalFilenames": [],
         "Chapters": [
           {
-            "ChapterName": "Interlude: The Employee\u2019s Invitation to the After-Party",
+            "ChapterName": "Interlude: The Employee’s Invitation to the After-Party",
             "SortOrder": "0511",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter10"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Interlude: The Employee\u2019s Offer for Subcontracting",
+            "ChapterName": "Interlude: The Employee’s Offer for Subcontracting",
             "SortOrder": "0513",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter12"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Extra Story: A Father and Daughter\u2019s Magical Tool Invention Diaries\u2014Magical Lantern Decoration",
+            "ChapterName": "Extra Story: A Father and Daughter’s Magical Tool Invention Diaries—Magical Lantern Decoration",
             "SortOrder": "0516",
             "SubFolder": "",
             "OriginalFilenames": [
               "extra"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           }
-        ]
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
     "ExtraContent": [
@@ -993,7 +1378,11 @@
         "OriginalFilenames": [
           "bonus"
         ],
-        "Chapters": []
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
     "Gallery": {
@@ -1011,11 +1400,16 @@
         "insert6",
         "insert7"
       ],
+      "LateSubFolder": null,
       "ChapterName": "",
       "SortOrder": "",
       "SubFolder": "05-Volume 05",
       "OriginalFilenames": [],
-      "Chapters": []
+      "Chapters": [],
+      "Splits": [],
+      "Replacements": [],
+      "LinkedChapters": [],
+      "KeepFirstSplitSection": true
     }
   },
   {
@@ -1034,7 +1428,11 @@
             "OriginalFilenames": [
               "chapter1"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Benefactors and the Beneficiary",
@@ -1045,7 +1443,11 @@
               "insert1",
               "chapter2_1"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Senior Apprentice and the Magic-Leeching Bracelet",
@@ -1058,7 +1460,11 @@
               "insert3",
               "chapter3_2"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Good Night and Pleasant Dreams",
@@ -1067,7 +1473,11 @@
             "OriginalFilenames": [
               "chapter4"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Proud of Her Friend",
@@ -1077,16 +1487,24 @@
               "chapter5",
               "insert4"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "A Father\u2019s Decision",
+            "ChapterName": "A Father’s Decision",
             "SortOrder": "0607",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter6"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Guarantors and the New Employees",
@@ -1095,7 +1513,11 @@
             "OriginalFilenames": [
               "chapter7"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Crystal-Roasted Sweet Potatoes and Silversabers",
@@ -1104,7 +1526,11 @@
             "OriginalFilenames": [
               "chapter8"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The New Guarantor and the Kit",
@@ -1113,10 +1539,14 @@
             "OriginalFilenames": [
               "chapter9"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "The Newcomers\u2019 Meeting",
+            "ChapterName": "The Newcomers’ Meeting",
             "SortOrder": "0612",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -1124,7 +1554,11 @@
               "insert5",
               "chapter10_1"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Marsh Spider Hunt and Field Rations",
@@ -1133,19 +1567,31 @@
             "OriginalFilenames": [
               "chapter11"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "The Rossetti Trading Company\u2019s Get-Together",
+            "ChapterName": "The Rossetti Trading Company’s Get-Together",
             "SortOrder": "0614",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter12",
               "insert6"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           }
-        ]
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
     "BonusChapters": [
@@ -1162,7 +1608,11 @@
             "OriginalFilenames": [
               "interlude1"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Interlude: The Black Leather Gloves",
@@ -1172,18 +1622,30 @@
               "interlude2",
               "insert7"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Extra Story: A Father and Daughter\u2019s Magical Tool Invention Diaries\u2014the Raincoat",
+            "ChapterName": "Extra Story: A Father and Daughter’s Magical Tool Invention Diaries—the Raincoat",
             "SortOrder": "0616",
             "SubFolder": "",
             "OriginalFilenames": [
               "extra"
             ],
-            "Chapters": []
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           }
-        ]
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
     "ExtraContent": [
@@ -1194,8 +1656,13 @@
         "OriginalFilenames": [
           "bonus"
         ],
-        "Chapters": []
-      }],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
     "Gallery": {
       "SplashImages": [
         "color1",
@@ -1211,11 +1678,284 @@
         "insert6",
         "insert7"
       ],
+      "LateSubFolder": null,
       "ChapterName": "",
       "SortOrder": "",
       "SubFolder": "06-Volume 06",
       "OriginalFilenames": [],
-      "Chapters": []
+      "Chapters": [],
+      "Splits": [],
+      "Replacements": [],
+      "LinkedChapters": [],
+      "KeepFirstSplitSection": true
+    }
+  },
+  {
+    "InternalName": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-7",
+    "Chapters": [
+      {
+        "ChapterName": "Volume 07",
+        "SortOrder": "07",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "The Knight and the Toolmaker’s Accumulation",
+            "SortOrder": "0702",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Man-Made Magical Sword: Sixth Attempt—Galeforce Blades",
+            "SortOrder": "0703",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2",
+              "insert1",
+              "chapter2_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Winter Coat and Dessert",
+            "SortOrder": "0704",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter3"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Battleground and the Naming",
+            "SortOrder": "0706",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter4",
+              "insert2",
+              "chapter4_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Galeforce Blades and the Longicollis",
+            "SortOrder": "0707",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter4b"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Heated Low Table and the Salmon Hot Pot",
+            "SortOrder": "0708",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter5",
+              "insert3",
+              "chapter5_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Heated Low Table Tour",
+            "SortOrder": "0709",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter6",
+              "insert4",
+              "chapter6_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Noble Way and Commoner Custom",
+            "SortOrder": "0710",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter7",
+              "insert5",
+              "chapter7_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "White Horse, Black Horse",
+            "SortOrder": "0711",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter8"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Brother’s Reproach and the Galeforce Bow",
+            "SortOrder": "0712",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter9",
+              "insert6",
+              "chapter9_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "Volume 07",
+        "SortOrder": "07",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Interlude: The Golden Owl and the Cerulean Crow",
+            "SortOrder": "0705",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "interlude1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Interlude: Their Tables",
+            "SortOrder": "0713",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "interlude2",
+              "insert7",
+              "interlude2_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Extra Story: A Father and Daughter’s Magical Tool Invention Diaries—Heated Low Table Mk I",
+            "SortOrder": "0714",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "extra"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Character Guide",
+            "SortOrder": "0700",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "color2",
+              "color3"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "ExtraContent": [
+      {
+        "ChapterName": "Volume 07",
+        "SortOrder": "07",
+        "SubFolder": "90-Translator's Notes",
+        "OriginalFilenames": [
+          "bonus"
+        ],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "Gallery": {
+      "SplashImages": [
+        "cover",
+        "color1"
+      ],
+      "ChapterImages": [
+        "insert1",
+        "insert2",
+        "insert3",
+        "insert4",
+        "insert5",
+        "insert6",
+        "insert7"
+      ],
+      "LateSubFolder": null,
+      "ChapterName": "",
+      "SortOrder": "",
+      "SubFolder": "07-Volume 07",
+      "OriginalFilenames": [],
+      "Chapters": [],
+      "Splits": [],
+      "Replacements": [],
+      "LinkedChapters": [],
+      "KeepFirstSplitSection": true
     }
   }
 ]
