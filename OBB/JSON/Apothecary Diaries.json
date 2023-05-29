@@ -3,1031 +3,3169 @@
     "InternalName": "the-apothecary-diaries-volume-1",
     "Chapters": [
       {
-        "ChapterName": "Volume 1",
+        "ChapterName": "Volume 01",
         "SortOrder": "01",
+        "SubFolder": "",
+        "OriginalFilenames": [],
         "Chapters": [
           {
             "ChapterName": "Maomao",
             "SortOrder": "0101",
-            "OriginalFilenames": [ "chapter1" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Two Consorts",
             "SortOrder": "0102",
-            "OriginalFilenames": [ "chapter2", "insert1", "chapter2_1" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2",
+              "insert1",
+              "chapter2_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Jinshi",
             "SortOrder": "0103",
-            "OriginalFilenames": [ "chapter3" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter3"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Nymph’s Smile",
             "SortOrder": "0104",
-            "OriginalFilenames": [ "chapter4" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter4"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Attendant",
             "SortOrder": "0105",
-            "OriginalFilenames": [ "chapter5" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter5"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Poison Tester",
             "SortOrder": "0106",
-            "OriginalFilenames": [ "chapter6" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter6"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Branch",
             "SortOrder": "0107",
-            "OriginalFilenames": [ "chapter7" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter7"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Love Potion",
             "SortOrder": "0108",
-            "OriginalFilenames": [ "chapter8" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter8"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Cacao",
             "SortOrder": "0109",
-            "OriginalFilenames": [ "chapter9" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter9"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Unsettling Matter of the Spirit (Part One)",
             "SortOrder": "0110",
-            "OriginalFilenames": [ "chapter10", "insert2" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter10",
+              "insert2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Unsettling Matter of the Spirit (Part Two)",
             "SortOrder": "0111",
-            "OriginalFilenames": [ "chapter11" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter11"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Threat",
             "SortOrder": "0112",
-            "OriginalFilenames": [ "chapter12" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter12"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Nursing",
             "SortOrder": "0113",
-            "OriginalFilenames": [ "chapter13" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter13"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Fire",
             "SortOrder": "0114",
-            "OriginalFilenames": [ "chapter14" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter14"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Covert Operations",
             "SortOrder": "0115",
-            "OriginalFilenames": [ "chapter15", "insert3", "chapter15_1" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter15",
+              "insert3",
+              "chapter15_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Garden Party (Part One)",
             "SortOrder": "0116",
-            "OriginalFilenames": [ "chapter16" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter16"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Garden Party (Part Two)",
             "SortOrder": "0117",
-            "OriginalFilenames": [ "chapter17" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter17"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Garden Party (Part Three)",
             "SortOrder": "0118",
-            "OriginalFilenames": [ "chapter18", "insert4", "chapter18_1" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter18",
+              "insert4",
+              "chapter18_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "After the Festivities",
             "SortOrder": "0119",
-            "OriginalFilenames": [ "chapter19", "insert5", "chapter19_1" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter19",
+              "insert5",
+              "chapter19_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Fingers",
             "SortOrder": "0120",
-            "OriginalFilenames": [ "chapter20" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter20"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Lihaku",
             "SortOrder": "0121",
-            "OriginalFilenames": [ "chapter21", "insert6", "chapter21_1" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter21",
+              "insert6",
+              "chapter21_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Homecoming",
             "SortOrder": "0122",
-            "OriginalFilenames": [ "chapter22" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter22"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Wheat Stalks",
             "SortOrder": "0123",
-            "OriginalFilenames": [ "chapter23" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter23"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "A Misunderstanding",
             "SortOrder": "0124",
-            "OriginalFilenames": [ "chapter24", "insert7", "chapter24_1" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter24",
+              "insert7",
+              "chapter24_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Wine",
             "SortOrder": "0125",
-            "OriginalFilenames": [ "chapter25" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter25"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Two ’Cides to Every Story",
             "SortOrder": "0126",
-            "OriginalFilenames": [ "chapter26", "insert8", "chapter26_1" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter26",
+              "insert8",
+              "chapter26_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Honey (Part One)",
             "SortOrder": "0127",
-            "OriginalFilenames": [ "chapter27" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter27"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Honey (Part Two)",
             "SortOrder": "0128",
-            "OriginalFilenames": [ "chapter28" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter28"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Honey (Part Three)",
             "SortOrder": "0129",
-            "OriginalFilenames": [ "chapter29" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter29"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Ah-Duo",
             "SortOrder": "0130",
-            "OriginalFilenames": [ "chapter30" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter30"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Dismissal",
             "SortOrder": "0131",
-            "OriginalFilenames": [ "chapter31" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter31"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Eunuch and the Courtesan",
             "SortOrder": "0132",
-            "OriginalFilenames": [ "epilogue" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "epilogue"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           }
-        ]
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
+    "BonusChapters": [],
     "ExtraContent": [
       {
         "ChapterName": "Translator Notes",
         "SortOrder": "90",
+        "SubFolder": "",
+        "OriginalFilenames": [],
         "Chapters": [
           {
             "ChapterName": "Volume One",
             "SortOrder": "01",
-            "OriginalFilenames": [ "bonus" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           }
-        ]
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
     "Gallery": {
-      "SubFolder": "01-Volume 1",
-      "SplashImages": [ "cover", "frontmatter1", "frontmatter2", "frontmatter3", "frontmatter4" ],
-      "ChapterImages": [ "insert1", "insert2", "insert3", "insert4", "insert5", "insert6", "insert7", "insert8" ]
+      "SplashImages": [
+        "cover",
+        "frontmatter1",
+        "frontmatter2",
+        "frontmatter3",
+        "frontmatter4"
+      ],
+      "ChapterImages": [
+        "insert1",
+        "insert2",
+        "insert3",
+        "insert4",
+        "insert5",
+        "insert6",
+        "insert7",
+        "insert8"
+      ],
+      "LateSubFolder": null,
+      "ChapterName": "",
+      "SortOrder": "",
+      "SubFolder": "01-Volume 01",
+      "OriginalFilenames": [],
+      "Chapters": [],
+      "Splits": [],
+      "Replacements": [],
+      "LinkedChapters": [],
+      "KeepFirstSplitSection": true
     }
   },
   {
     "InternalName": "the-apothecary-diaries-volume-2",
     "Chapters": [
       {
-        "ChapterName": "Volume 2",
+        "ChapterName": "Volume 02",
         "SortOrder": "02",
+        "SubFolder": "",
+        "OriginalFilenames": [],
         "Chapters": [
           {
             "ChapterName": "Prologue",
             "SortOrder": "00",
-            "OriginalFilenames": [ "prologue", "insert1", "prologue_1" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "prologue",
+              "insert1",
+              "prologue_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Serving in the Outer Court",
             "SortOrder": "01",
-            "OriginalFilenames": [ "chapter1" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Pipe",
             "SortOrder": "02",
-            "OriginalFilenames": [ "chapter2", "insert2", "chapter2_1" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2",
+              "insert2",
+              "chapter2_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Teaching at the Rear Palace",
             "SortOrder": "03",
-            "OriginalFilenames": [ "chapter3" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter3"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Raw Fish",
             "SortOrder": "04",
-            "OriginalFilenames": [ "chapter4", "insert3", "chapter4_1" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter4",
+              "insert3",
+              "chapter4_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Lead",
             "SortOrder": "05",
-            "OriginalFilenames": [ "chapter5" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter5"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Makeup",
             "SortOrder": "06",
-            "OriginalFilenames": [ "chapter6", "insert4", "chapter6_1" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter6",
+              "insert4",
+              "chapter6_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "A Jaunt Around Town",
             "SortOrder": "07",
-            "OriginalFilenames": [ "chapter7" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter7"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Plum Poison",
             "SortOrder": "08",
-            "OriginalFilenames": [ "chapter8" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter8"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Lakan",
             "SortOrder": "09",
-            "OriginalFilenames": [ "chapter9", "insert5", "chapter9_1" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter9",
+              "insert5",
+              "chapter9_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Suirei",
             "SortOrder": "10",
-            "OriginalFilenames": [ "chapter10" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter10"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Chance or Something More",
             "SortOrder": "11",
-            "OriginalFilenames": [ "chapter11" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter11"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Ritual",
             "SortOrder": "12",
-            "OriginalFilenames": [ "chapter12", "insert6" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter12",
+              "insert6"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Thornapple",
             "SortOrder": "13",
-            "OriginalFilenames": [ "chapter13" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter13"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Gaoshun",
             "SortOrder": "14",
-            "OriginalFilenames": [ "chapter14" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter14"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Rear Palace Redux",
             "SortOrder": "15",
-            "OriginalFilenames": [ "chapter15" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter15"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Paper",
             "SortOrder": "16",
-            "OriginalFilenames": [ "chapter16", "insert7", "chapter16_1" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter16",
+              "insert7",
+              "chapter16_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "How to Buy Out a Contract",
             "SortOrder": "17",
-            "OriginalFilenames": [ "chapter17" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter17"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Blue Roses",
             "SortOrder": "18",
-            "OriginalFilenames": [ "chapter18", "insert8", "chapter18_1" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter18",
+              "insert8",
+              "chapter18_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Red Nails",
             "SortOrder": "19",
-            "OriginalFilenames": [ "chapter19" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter19"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Balsam and Woodsorrel",
             "SortOrder": "20",
-            "OriginalFilenames": [ "chapter20", "insert9", "chapter20_1" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter20",
+              "insert9",
+              "chapter20_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Epilogue",
             "SortOrder": "21",
-            "OriginalFilenames": [ "epilogue", "insert10" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "epilogue",
+              "insert10"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           }
-        ]
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
+    "BonusChapters": [],
     "ExtraContent": [
       {
         "ChapterName": "Translator Notes",
         "SortOrder": "90",
+        "SubFolder": "",
+        "OriginalFilenames": [],
         "Chapters": [
           {
             "ChapterName": "Volume Two",
             "SortOrder": "02",
-            "OriginalFilenames": [ "bonus" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           }
-        ]
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
     "Gallery": {
-      "SubFolder": "02-Volume 2",
-      "SplashImages": [ "cover", "frontmatter1", "frontmatter2", "frontmatter3", "frontmatter4" ],
-      "ChapterImages": [ "insert1", "insert2", "insert3", "insert4", "insert5", "insert6", "insert7", "insert8", "insert9", "insert10" ]
+      "SplashImages": [
+        "cover",
+        "frontmatter1",
+        "frontmatter2",
+        "frontmatter3",
+        "frontmatter4"
+      ],
+      "ChapterImages": [
+        "insert1",
+        "insert2",
+        "insert3",
+        "insert4",
+        "insert5",
+        "insert6",
+        "insert7",
+        "insert8",
+        "insert9",
+        "insert10"
+      ],
+      "LateSubFolder": null,
+      "ChapterName": "",
+      "SortOrder": "",
+      "SubFolder": "02-Volume 02",
+      "OriginalFilenames": [],
+      "Chapters": [],
+      "Splits": [],
+      "Replacements": [],
+      "LinkedChapters": [],
+      "KeepFirstSplitSection": true
     }
   },
   {
     "InternalName": "the-apothecary-diaries-volume-3",
     "Chapters": [
       {
-        "ChapterName": "Volume 3",
+        "ChapterName": "Volume 03",
         "SortOrder": "03",
+        "SubFolder": "",
+        "OriginalFilenames": [],
         "Chapters": [
           {
             "ChapterName": "Prologue",
             "SortOrder": "00",
-            "OriginalFilenames": [ "prologue" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "prologue"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Books",
             "SortOrder": "01",
-            "OriginalFilenames": [ "chapter1", "insert1", "chapter1_1" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1",
+              "insert1",
+              "chapter1_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Cat",
             "SortOrder": "02",
-            "OriginalFilenames": [ "chapter2" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Caravan",
             "SortOrder": "03",
-            "OriginalFilenames": [ "chapter3", "insert2", "chapter3_1" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter3",
+              "insert2",
+              "chapter3_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Perfume Oil",
             "SortOrder": "04",
-            "OriginalFilenames": [ "chapter4" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter4"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Corpse Fungus (Part One)",
             "SortOrder": "05",
-            "OriginalFilenames": [ "chapter5" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter5"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Corpse Fungus (Part Two)",
             "SortOrder": "06",
-            "OriginalFilenames": [ "chapter6", "insert3", "chapter6_1" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter6",
+              "insert3",
+              "chapter6_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Mirrors",
             "SortOrder": "07",
-            "OriginalFilenames": [ "chapter7" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter7"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Moon Spirit",
             "SortOrder": "08",
-            "OriginalFilenames": [ "chapter8", "insert4", "chapter8_1" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter8",
+              "insert4",
+              "chapter8_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Clinic",
             "SortOrder": "09",
-            "OriginalFilenames": [ "chapter9" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter9"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Third Time’s the Charm (Part One)",
             "SortOrder": "10",
-            "OriginalFilenames": [ "chapter10" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter10"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Third Time’s the Charm (Part Two)",
             "SortOrder": "11",
-            "OriginalFilenames": [ "chapter11", "insert5", "chapter11_1" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter11",
+              "insert5",
+              "chapter11_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Shrine of Choosing",
             "SortOrder": "12",
-            "OriginalFilenames": [ "chapter12" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter12"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Empress Dowager",
             "SortOrder": "13",
-            "OriginalFilenames": [ "chapter13" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter13"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "His Former Majesty",
             "SortOrder": "14",
-            "OriginalFilenames": [ "chapter14", "insert6", "chapter14_1" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter14",
+              "insert6",
+              "chapter14_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Scary Stories",
             "SortOrder": "15",
-            "OriginalFilenames": [ "chapter15" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter15"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Beating the Heat",
             "SortOrder": "16",
-            "OriginalFilenames": [ "chapter16", "insert7", "chapter16_1" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter16",
+              "insert7",
+              "chapter16_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Hunt (Part One)",
             "SortOrder": "17",
-            "OriginalFilenames": [ "chapter17" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter17"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Hunt (Part Two)",
             "SortOrder": "18",
-            "OriginalFilenames": [ "chapter18" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter18"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Hunt (Part Three)",
             "SortOrder": "19",
-            "OriginalFilenames": [ "chapter19", "insert8", "chapter19_1" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter19",
+              "insert8",
+              "chapter19_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Epilogue",
             "SortOrder": "20",
-            "OriginalFilenames": [ "epilogue", "insert9", "epilogue_1" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "epilogue",
+              "insert9",
+              "epilogue_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           }
-        ]
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
+    "BonusChapters": [],
     "ExtraContent": [
       {
         "ChapterName": "Translator Notes",
         "SortOrder": "90",
+        "SubFolder": "",
+        "OriginalFilenames": [],
         "Chapters": [
           {
             "ChapterName": "Volume Three",
             "SortOrder": "03",
-            "OriginalFilenames": [ "bonus" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           }
-        ]
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
     "Gallery": {
-      "SubFolder": "03-Volume 3",
-      "SplashImages": [ "cover", "frontmatter1", "frontmatter2", "frontmatter3", "frontmatter4", "frontmatter5" ],
-      "ChapterImages": [ "insert1", "insert2", "insert3", "insert4", "insert5", "insert6", "insert7", "insert8", "insert9" ]
+      "SplashImages": [
+        "cover",
+        "frontmatter1",
+        "frontmatter2",
+        "frontmatter3",
+        "frontmatter4",
+        "frontmatter5"
+      ],
+      "ChapterImages": [
+        "insert1",
+        "insert2",
+        "insert3",
+        "insert4",
+        "insert5",
+        "insert6",
+        "insert7",
+        "insert8",
+        "insert9"
+      ],
+      "LateSubFolder": null,
+      "ChapterName": "",
+      "SortOrder": "",
+      "SubFolder": "03-Volume 03",
+      "OriginalFilenames": [],
+      "Chapters": [],
+      "Splits": [],
+      "Replacements": [],
+      "LinkedChapters": [],
+      "KeepFirstSplitSection": true
     }
   },
   {
     "InternalName": "the-apothecary-diaries-volume-4",
     "Chapters": [
       {
-        "ChapterName": "Volume 4",
+        "ChapterName": "Volume 04",
         "SortOrder": "04",
+        "SubFolder": "",
+        "OriginalFilenames": [],
         "Chapters": [
           {
             "ChapterName": "Prologue",
             "SortOrder": "00",
-            "OriginalFilenames": [ "prologue" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "prologue"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Bath",
             "SortOrder": "01",
-            "OriginalFilenames": [ "chapter1", "insert1", "chapter1_1" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1",
+              "insert1",
+              "chapter1_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Seki-u",
             "SortOrder": "02",
-            "OriginalFilenames": [ "chapter2" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Dancing Ghost",
             "SortOrder": "03",
-            "OriginalFilenames": [ "chapter3" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter3"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Rumored Eunuchs",
             "SortOrder": "04",
-            "OriginalFilenames": [ "chapter4", "insert2", "chapter4_1" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter4",
+              "insert2",
+              "chapter4_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Ice",
             "SortOrder": "05",
-            "OriginalFilenames": [ "chapter5" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter5"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Breech Birth",
             "SortOrder": "06",
-            "OriginalFilenames": [ "chapter6" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter6"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Festering Resentment (Part One)",
             "SortOrder": "07",
-            "OriginalFilenames": [ "chapter7" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter7"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Festering Resentment (Part Two)",
             "SortOrder": "08",
-            "OriginalFilenames": [ "chapter8", "insert3", "chapter8_1" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter8",
+              "insert3",
+              "chapter8_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Fox and the Tanuki Match Wits",
             "SortOrder": "09",
-            "OriginalFilenames": [ "chapter9" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter9"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Traces",
             "SortOrder": "10",
-            "OriginalFilenames": [ "chapter10" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter10"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Fox Village",
             "SortOrder": "11",
-            "OriginalFilenames": [ "chapter11" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter11"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Lantern Plant",
             "SortOrder": "12",
-            "OriginalFilenames": [ "chapter12", "insert4", "chapter12_1" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter12",
+              "insert4",
+              "chapter12_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Festival",
             "SortOrder": "13",
-            "OriginalFilenames": [ "chapter13" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter13"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Worksite",
             "SortOrder": "14",
-            "OriginalFilenames": [ "chapter14" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter14"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Stronghold",
             "SortOrder": "15",
-            "OriginalFilenames": [ "chapter15" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter15"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Lahan",
             "SortOrder": "16",
-            "OriginalFilenames": [ "chapter16" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter16"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Taibon",
             "SortOrder": "17",
-            "OriginalFilenames": [ "chapter17" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter17"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Feifa",
             "SortOrder": "18",
-            "OriginalFilenames": [ "chapter18", "insert5", "chapter18_1" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter18",
+              "insert5",
+              "chapter18_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Army Marches",
             "SortOrder": "19",
-            "OriginalFilenames": [ "chapter19" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter19"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Ambush",
             "SortOrder": "20",
-            "OriginalFilenames": [ "chapter20", "insert6", "chapter20_1" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter20",
+              "insert6",
+              "chapter20_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "How it Began",
             "SortOrder": "21",
-            "OriginalFilenames": [ "chapter21" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter21"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "In the Clutches of the Fox",
             "SortOrder": "22",
-            "OriginalFilenames": [ "chapter22" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter22"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Epilogue",
             "SortOrder": "23",
-            "OriginalFilenames": [ "epilogue", "insert7", "epilogue_1" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "epilogue",
+              "insert7",
+              "epilogue_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           }
-        ]
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
+    "BonusChapters": [],
     "ExtraContent": [
       {
         "ChapterName": "Translator Notes",
         "SortOrder": "90",
+        "SubFolder": "",
+        "OriginalFilenames": [],
         "Chapters": [
           {
             "ChapterName": "Volume Four",
             "SortOrder": "04",
-            "OriginalFilenames": [ "bonus" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           }
-        ]
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
     "Gallery": {
-      "SubFolder": "04-Volume 4",
-      "SplashImages": [ "cover", "frontmatter1", "frontmatter2", "frontmatter3", "frontmatter4", "frontmatter5" ],
-      "ChapterImages": [ "insert1", "insert2", "insert3", "insert4", "insert5", "insert6", "insert7" ]
+      "SplashImages": [
+        "cover",
+        "frontmatter1",
+        "frontmatter2",
+        "frontmatter3",
+        "frontmatter4",
+        "frontmatter5"
+      ],
+      "ChapterImages": [
+        "insert1",
+        "insert2",
+        "insert3",
+        "insert4",
+        "insert5",
+        "insert6",
+        "insert7"
+      ],
+      "LateSubFolder": null,
+      "ChapterName": "",
+      "SortOrder": "",
+      "SubFolder": "04-Volume 04",
+      "OriginalFilenames": [],
+      "Chapters": [],
+      "Splits": [],
+      "Replacements": [],
+      "LinkedChapters": [],
+      "KeepFirstSplitSection": true
     }
   },
   {
     "InternalName": "the-apothecary-diaries-volume-5",
     "Chapters": [
       {
-        "ChapterName": "Volume 5",
+        "ChapterName": "Volume 05",
         "SortOrder": "05",
+        "SubFolder": "",
+        "OriginalFilenames": [],
         "Chapters": [
           {
             "ChapterName": "Prologue",
             "SortOrder": "00b",
-            "OriginalFilenames": [ "prologue" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "prologue"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Locusts",
             "SortOrder": "01",
-            "OriginalFilenames": [ "chapter1", "insert1", "chapter1_1" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1",
+              "insert1",
+              "chapter1_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Ukyou",
             "SortOrder": "02",
-            "OriginalFilenames": [ "chapter2" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Sleep",
             "SortOrder": "03",
-            "OriginalFilenames": [ "chapter3", "insert2" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter3",
+              "insert2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Fire-Rat Cloak",
             "SortOrder": "04",
-            "OriginalFilenames": [ "chapter4" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter4"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Let Them Eat Cake",
             "SortOrder": "05",
-            "OriginalFilenames": [ "chapter5" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter5"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Last Volume",
             "SortOrder": "06",
-            "OriginalFilenames": [ "chapter6", "insert3", "chapter6_1" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter6",
+              "insert3",
+              "chapter6_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The White-Snake Immortal",
             "SortOrder": "07",
-            "OriginalFilenames": [ "chapter7" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter7"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Proficiencies",
             "SortOrder": "08",
-            "OriginalFilenames": [ "chapter8", "insert4" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter8",
+              "insert4"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Paper Village",
             "SortOrder": "09",
-            "OriginalFilenames": [ "chapter9", "insert5", "chapter9_1" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter9",
+              "insert5",
+              "chapter9_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Hemp and Folk Religion",
             "SortOrder": "10",
-            "OriginalFilenames": [ "chapter10" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter10"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Bandits",
             "SortOrder": "11",
-            "OriginalFilenames": [ "chapter11", "insert6", "chapter11_1" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter11",
+              "insert6",
+              "chapter11_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Problems Accumulate",
             "SortOrder": "12",
-            "OriginalFilenames": [ "chapter12" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter12"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Western Capital—Day One",
             "SortOrder": "13",
-            "OriginalFilenames": [ "chapter13" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter13"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Western Capital—Day Two",
             "SortOrder": "14",
-            "OriginalFilenames": [ "chapter14" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter14"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Banquet (Part One)",
             "SortOrder": "15",
-            "OriginalFilenames": [ "chapter15", "insert7", "chapter15_1" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter15",
+              "insert7",
+              "chapter15_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Banquet (Part Two)",
             "SortOrder": "16",
-            "OriginalFilenames": [ "chapter16", "insert8", "chapter16_1" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter16",
+              "insert8",
+              "chapter16_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Epilogue",
             "SortOrder": "17",
-            "OriginalFilenames": [ "epilogue", "insert9", "epilogue_1" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "epilogue",
+              "insert9",
+              "epilogue_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           }
-        ]
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
+    "BonusChapters": [],
     "ExtraContent": [
       {
         "ChapterName": "Translator Notes",
         "SortOrder": "90",
+        "SubFolder": "",
+        "OriginalFilenames": [],
         "Chapters": [
           {
             "ChapterName": "Volume Five",
             "SortOrder": "05",
-            "OriginalFilenames": [ "bonus" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           }
-        ]
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       },
       {
-        "ChapterName": "Volume 5",
+        "ChapterName": "Volume 05",
         "SortOrder": "05",
+        "SubFolder": "",
+        "OriginalFilenames": [],
         "Chapters": [
           {
             "ChapterName": "Profile",
             "SortOrder": "00a",
-            "OriginalFilenames": [ "profile" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "profile"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           }
-        ]
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
     "Gallery": {
-      "SubFolder": "05-Volume 5",
-      "SplashImages": [ "cover", "frontmatter1", "frontmatter2", "frontmatter3", "frontmatter4", "frontmatter5", "frontmatter6" ],
-      "ChapterImages": [ "insert1", "insert2", "insert3", "insert4", "insert5", "insert6", "insert7", "insert8", "insert9" ]
+      "SplashImages": [
+        "cover",
+        "frontmatter1",
+        "frontmatter2",
+        "frontmatter3",
+        "frontmatter4",
+        "frontmatter5",
+        "frontmatter6"
+      ],
+      "ChapterImages": [
+        "insert1",
+        "insert2",
+        "insert3",
+        "insert4",
+        "insert5",
+        "insert6",
+        "insert7",
+        "insert8",
+        "insert9"
+      ],
+      "LateSubFolder": null,
+      "ChapterName": "",
+      "SortOrder": "",
+      "SubFolder": "05-Volume 05",
+      "OriginalFilenames": [],
+      "Chapters": [],
+      "Splits": [],
+      "Replacements": [],
+      "LinkedChapters": [],
+      "KeepFirstSplitSection": true
     }
   },
   {
     "InternalName": "the-apothecary-diaries-volume-6",
     "Chapters": [
       {
-        "ChapterName": "Volume 6",
+        "ChapterName": "Volume 06",
         "SortOrder": "06",
+        "SubFolder": "",
+        "OriginalFilenames": [],
         "Chapters": [
           {
             "ChapterName": "Prologue",
             "SortOrder": "00b",
-            "OriginalFilenames": [ "prologue" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "prologue"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Western Capital—Day Four",
             "SortOrder": "01",
-            "OriginalFilenames": [ "chapter1" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Floating Bride (Part One)",
             "SortOrder": "02",
-            "OriginalFilenames": [ "chapter2" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Floating Bride (Part Two)",
             "SortOrder": "03",
-            "OriginalFilenames": [ "chapter3", "insert1", "chapter3_1" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter3",
+              "insert1",
+              "chapter3_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Homeward Bound",
             "SortOrder": "04",
-            "OriginalFilenames": [ "chapter4" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter4"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Wrapping Up in the Western Capital",
             "SortOrder": "05",
-            "OriginalFilenames": [ "chapter5" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter5"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The La Clan (Part One)",
             "SortOrder": "06",
-            "OriginalFilenames": [ "chapter6" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter6"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The La Clan (Part Two)",
             "SortOrder": "07",
-            "OriginalFilenames": [ "chapter7" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter7"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Conclusion of Lishu’s Journey",
             "SortOrder": "08",
-            "OriginalFilenames": [ "chapter8", "insert2", "chapter8_1" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter8",
+              "insert2",
+              "chapter8_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Homecoming",
             "SortOrder": "09",
-            "OriginalFilenames": [ "chapter9" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter9"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Bad Dumplings",
             "SortOrder": "10",
-            "OriginalFilenames": [ "chapter10", "insert3" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter10",
+              "insert3"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Dancing Water Sprite",
             "SortOrder": "11",
-            "OriginalFilenames": [ "chapter11" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter11"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Trials of Consort Lishu",
             "SortOrder": "12",
-            "OriginalFilenames": [ "chapter12", "insert4", "chapter12_1" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter12",
+              "insert4",
+              "chapter12_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Scandal (Part One)",
             "SortOrder": "13",
-            "OriginalFilenames": [ "chapter13" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter13"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Scandal (Part Two)",
             "SortOrder": "14",
-            "OriginalFilenames": [ "chapter14" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter14"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Scandal (Part Three)",
             "SortOrder": "15",
-            "OriginalFilenames": [ "chapter15" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter15"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Basen and Lishu",
             "SortOrder": "16",
-            "OriginalFilenames": [ "chapter16" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter16"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Epilogue",
             "SortOrder": "17",
-            "OriginalFilenames": [ "epilogue", "insert5" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "epilogue",
+              "insert5"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           }
-        ]
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
+    "BonusChapters": [],
     "ExtraContent": [
       {
         "ChapterName": "Translator Notes",
         "SortOrder": "90",
+        "SubFolder": "",
+        "OriginalFilenames": [],
         "Chapters": [
           {
             "ChapterName": "Volume Six",
             "SortOrder": "06",
-            "OriginalFilenames": [ "bonus" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           }
-        ]
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       },
       {
-        "ChapterName": "Volume 6",
+        "ChapterName": "Volume 06",
         "SortOrder": "06",
+        "SubFolder": "",
+        "OriginalFilenames": [],
         "Chapters": [
           {
             "ChapterName": "Profile",
             "SortOrder": "00a",
-            "OriginalFilenames": [ "profile" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "profile"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           }
-        ]
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
     "Gallery": {
-      "SubFolder": "06-Volume 6",
-      "SplashImages": [ "cover", "frontmatter1", "frontmatter2", "frontmatter3", "frontmatter4", "frontmatter5" ],
-      "ChapterImages": [ "insert1", "insert2", "insert3", "insert4", "insert5" ]
+      "SplashImages": [
+        "cover",
+        "frontmatter1",
+        "frontmatter2",
+        "frontmatter3",
+        "frontmatter4",
+        "frontmatter5"
+      ],
+      "ChapterImages": [
+        "insert1",
+        "insert2",
+        "insert3",
+        "insert4",
+        "insert5"
+      ],
+      "LateSubFolder": null,
+      "ChapterName": "",
+      "SortOrder": "",
+      "SubFolder": "06-Volume 06",
+      "OriginalFilenames": [],
+      "Chapters": [],
+      "Splits": [],
+      "Replacements": [],
+      "LinkedChapters": [],
+      "KeepFirstSplitSection": true
     }
   },
   {
     "InternalName": "the-apothecary-diaries-volume-7",
     "Chapters": [
       {
-        "ChapterName": "Volume 7",
+        "ChapterName": "Volume 07",
         "SortOrder": "07",
+        "SubFolder": "",
+        "OriginalFilenames": [],
         "Chapters": [
           {
             "ChapterName": "Prologue",
             "SortOrder": "00b",
-            "OriginalFilenames": [ "prologue" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "prologue"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Court Ladies’ Service Exam",
             "SortOrder": "01",
-            "OriginalFilenames": [ "chapter1", "insert1", "chapter1_1" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1",
+              "insert1",
+              "chapter1_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Harassment",
             "SortOrder": "02",
-            "OriginalFilenames": [ "chapter2" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Medical Assistant",
             "SortOrder": "03",
-            "OriginalFilenames": [ "chapter3" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter3"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Rear Palace",
             "SortOrder": "04",
-            "OriginalFilenames": [ "chapter4" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter4"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Fortune Cookies",
             "SortOrder": "05",
-            "OriginalFilenames": [ "chapter5", "insert2", "chapter5_1" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter5",
+              "insert2",
+              "chapter5_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Strategist Down",
             "SortOrder": "06",
-            "OriginalFilenames": [ "chapter6" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter6"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Aylin’s Intentions",
             "SortOrder": "07",
-            "OriginalFilenames": [ "chapter7" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter7"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Thought Behind the Thought",
             "SortOrder": "08",
-            "OriginalFilenames": [ "chapter8", "insert3", "chapter8_1" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter8",
+              "insert3",
+              "chapter8_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Empress",
             "SortOrder": "09",
-            "OriginalFilenames": [ "chapter9" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter9"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Covert Ops",
             "SortOrder": "10",
-            "OriginalFilenames": [ "chapter10", "insert4", "chapter10_1" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter10",
+              "insert4",
+              "chapter10_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Before the Celebration",
             "SortOrder": "11",
-            "OriginalFilenames": [ "chapter11" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter11"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Child of a Foreign Land",
             "SortOrder": "12",
-            "OriginalFilenames": [ "chapter12", "insert5", "chapter12_1" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter12",
+              "insert5",
+              "chapter12_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Lady-in-Waiting to His Majesty’s Younger Brother",
             "SortOrder": "13",
-            "OriginalFilenames": [ "chapter13", "insert6" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter13",
+              "insert6"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Meeting the Shrine Maiden",
             "SortOrder": "14",
-            "OriginalFilenames": [ "chapter14" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter14"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "“Mom”",
             "SortOrder": "15",
-            "OriginalFilenames": [ "chapter15" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter15"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Dinner",
             "SortOrder": "16",
-            "OriginalFilenames": [ "chapter16", "insert7", "chapter16_1" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter16",
+              "insert7",
+              "chapter16_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Suspect",
             "SortOrder": "17",
-            "OriginalFilenames": [ "chapter17" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter17"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "A Man and a Woman Play the Game",
             "SortOrder": "18",
-            "OriginalFilenames": [ "chapter18" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter18"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Truth Behind the Truth",
             "SortOrder": "19",
-            "OriginalFilenames": [ "chapter19" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter19"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Mushroom Congee",
             "SortOrder": "20",
-            "OriginalFilenames": [ "chapter20" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter20"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Shrine Maiden’s Confession",
             "SortOrder": "21",
-            "OriginalFilenames": [ "chapter21" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter21"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "The Future Shrine Maiden",
             "SortOrder": "22",
-            "OriginalFilenames": [ "chapter22" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter22"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           },
           {
             "ChapterName": "Epilogue",
             "SortOrder": "23",
-            "OriginalFilenames": [ "epilogue" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "epilogue"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           }
-        ]
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
+    "BonusChapters": [],
     "ExtraContent": [
       {
         "ChapterName": "Translator Notes",
         "SortOrder": "90",
+        "SubFolder": "",
+        "OriginalFilenames": [],
         "Chapters": [
           {
             "ChapterName": "Volume Seven",
             "SortOrder": "07",
-            "OriginalFilenames": [ "bonus" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           }
-        ]
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       },
       {
-        "ChapterName": "Volume 7",
+        "ChapterName": "Volume 07",
         "SortOrder": "07",
+        "SubFolder": "",
+        "OriginalFilenames": [],
         "Chapters": [
           {
             "ChapterName": "Profile",
             "SortOrder": "00a",
-            "OriginalFilenames": [ "profile" ]
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "profile"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
           }
-        ]
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       }
     ],
     "Gallery": {
-      "SubFolder": "07-Volume 7",
-      "SplashImages": [ "cover", "frontmatter1", "frontmatter2", "frontmatter3", "frontmatter4", "frontmatter5" ],
-      "ChapterImages": [ "insert1", "insert2", "insert3", "insert4", "insert5", "insert6", "insert7" ]
+      "SplashImages": [
+        "cover",
+        "frontmatter1",
+        "frontmatter2",
+        "frontmatter3",
+        "frontmatter4",
+        "frontmatter5"
+      ],
+      "ChapterImages": [
+        "insert1",
+        "insert2",
+        "insert3",
+        "insert4",
+        "insert5",
+        "insert6",
+        "insert7"
+      ],
+      "LateSubFolder": null,
+      "ChapterName": "",
+      "SortOrder": "",
+      "SubFolder": "07-Volume 07",
+      "OriginalFilenames": [],
+      "Chapters": [],
+      "Splits": [],
+      "Replacements": [],
+      "LinkedChapters": [],
+      "KeepFirstSplitSection": true
+    }
+  },
+  {
+    "InternalName": "the-apothecary-diaries-volume-8",
+    "Chapters": [
+      {
+        "ChapterName": "Volume 08",
+        "SortOrder": "08",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Prologue",
+            "SortOrder": "0803",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "prologue"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Go Book",
+            "SortOrder": "0804",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1",
+              "insert1",
+              "chapter1_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "A Jaunt Around Town",
+            "SortOrder": "0805",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2",
+              "insert2",
+              "chapter2_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Trends",
+            "SortOrder": "0806",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter3"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Ma Siblings",
+            "SortOrder": "0807",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter4"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Cards",
+            "SortOrder": "0808",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter5"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Thunderclap",
+            "SortOrder": "0809",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter6",
+              "insert3",
+              "chapter6_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Expedition",
+            "SortOrder": "0810",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter7"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Harassment",
+            "SortOrder": "0811",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter8",
+              "insert4",
+              "chapter8_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Jinshi’s Idea",
+            "SortOrder": "0812",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter9"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Baitang",
+            "SortOrder": "0813",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter10"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Sport and Fear",
+            "SortOrder": "0814",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter11",
+              "insert5",
+              "chapter11_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Bad Cooking",
+            "SortOrder": "0815",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter12"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Hair Stick Thief",
+            "SortOrder": "0816",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter13"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Go Contest (Part One)",
+            "SortOrder": "0817",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter14"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Go Contest (Interlude)",
+            "SortOrder": "0818",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter15",
+              "insert6",
+              "chapter15_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Go Contest (Part Two)",
+            "SortOrder": "0819",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter16"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Freak vs. Perv",
+            "SortOrder": "0820",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter17"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Fingers’ Owner",
+            "SortOrder": "0821",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter18"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Go Sage",
+            "SortOrder": "0822",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter19",
+              "insert7",
+              "chapter19_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Check",
+            "SortOrder": "0823",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter20",
+              "insert8",
+              "chapter20_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Epilogue",
+            "SortOrder": "0824",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "epilogue"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "BonusChapters": [],
+    "ExtraContent": [
+      {
+        "ChapterName": "Volume 08",
+        "SortOrder": "08",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Character Profiles",
+            "SortOrder": "0802",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "profile"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      },
+      {
+        "ChapterName": "Translator Notes",
+        "SortOrder": "90",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Volume Eight",
+            "SortOrder": "0830",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "Gallery": {
+      "SplashImages": [
+        "cover",
+        "backmatter1",
+        "backmatter2",
+        "backmatter3",
+        "backmatter4",
+        "backmatter5"
+      ],
+      "ChapterImages": [
+        "insert1",
+        "insert2",
+        "insert3",
+        "insert4",
+        "insert5",
+        "insert6",
+        "insert7",
+        "insert8"
+      ],
+      "LateSubFolder": null,
+      "ChapterName": "",
+      "SortOrder": "",
+      "SubFolder": "08-Volume 08",
+      "OriginalFilenames": [],
+      "Chapters": [],
+      "Splits": [],
+      "Replacements": [],
+      "LinkedChapters": [],
+      "KeepFirstSplitSection": true
     }
   }
 ]
