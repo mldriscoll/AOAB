@@ -5344,79 +5344,14 @@
     "InternalName": "tearmoon-empire-volume-7",
     "Chapters": [
       {
-        "ChapterName": "Volume 7",
-        "SortOrder": "7",
+        "ChapterName": "Volume 07",
+        "SortOrder": "07",
         "SubFolder": "",
         "OriginalFilenames": [],
         "Chapters": [
           {
             "ChapterName": "",
-            "SortOrder": "701",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "frontmatter1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "702",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "frontmatter2"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "703",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "characters1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "704",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "characters2"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "705",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "map"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "706",
+            "SortOrder": "0704",
             "SubFolder": "",
             "OriginalFilenames": [
               "title1"
@@ -5429,7 +5364,7 @@
           },
           {
             "ChapterName": "Chapter 1: Princess Mia’s Festival of Debauchery (Part A) —Is This Gluttony? No, It’s Principle—",
-            "SortOrder": "707",
+            "SortOrder": "0705",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter1"
@@ -5442,7 +5377,7 @@
           },
           {
             "ChapterName": "Chapter 2: Princess Mia’s Festival of Debauchery (Part B) —The Light of Hope and the Miraculous Memory—",
-            "SortOrder": "708",
+            "SortOrder": "0706",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter2",
@@ -5457,7 +5392,7 @@
           },
           {
             "ChapterName": "Chapter 3: Donning the Most Sublime of Colors, Mia Prepares to Step Forth onto the Road to Empress!",
-            "SortOrder": "709",
+            "SortOrder": "0707",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter3",
@@ -5474,7 +5409,7 @@
           },
           {
             "ChapterName": "Chapter 4: The Tea Party of the Moon and Stars —Thus They Joined in Oath—",
-            "SortOrder": "710",
+            "SortOrder": "0708",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter4",
@@ -5489,7 +5424,7 @@
           },
           {
             "ChapterName": "",
-            "SortOrder": "711",
+            "SortOrder": "0709",
             "SubFolder": "",
             "OriginalFilenames": [
               "title2"
@@ -5502,7 +5437,7 @@
           },
           {
             "ChapterName": "Prologue: It Begins with Mushroom Stew...",
-            "SortOrder": "712",
+            "SortOrder": "0710",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter5"
@@ -5515,7 +5450,7 @@
           },
           {
             "ChapterName": "Chapter 1: Princess Mia...Be Spitting Facts",
-            "SortOrder": "713",
+            "SortOrder": "0711",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter6"
@@ -5528,7 +5463,7 @@
           },
           {
             "ChapterName": "Chapter 2: To Wrong Someone through Food Is to Know True Fury",
-            "SortOrder": "714",
+            "SortOrder": "0712",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter7"
@@ -5541,7 +5476,7 @@
           },
           {
             "ChapterName": "Chapter 3: The Birth Cry of the Empress Faction —Mia’s Hand Moves of Its Own Accord Again—",
-            "SortOrder": "715",
+            "SortOrder": "0713",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter8"
@@ -5554,7 +5489,7 @@
           },
           {
             "ChapterName": "Chapter 4: Berman Gains Mia’s Trust",
-            "SortOrder": "716",
+            "SortOrder": "0714",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter9"
@@ -5567,7 +5502,7 @@
           },
           {
             "ChapterName": "Chapter 5: Cowards Win through Sheer Numbers",
-            "SortOrder": "717",
+            "SortOrder": "0715",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter10"
@@ -5580,7 +5515,7 @@
           },
           {
             "ChapterName": "Side Chapter: Why Is That Flower...",
-            "SortOrder": "718",
+            "SortOrder": "0716",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter11",
@@ -5594,7 +5529,7 @@
           },
           {
             "ChapterName": "Chapter 6: Princess Mia...Resolves to Play the Gracious Host!",
-            "SortOrder": "719",
+            "SortOrder": "0717",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter12"
@@ -5607,7 +5542,7 @@
           },
           {
             "ChapterName": "Chapter 7: My? Actually, That Time, I Was...",
-            "SortOrder": "720",
+            "SortOrder": "0718",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter13"
@@ -5620,7 +5555,7 @@
           },
           {
             "ChapterName": "Chapter 8: The Bread-Cake Declaration",
-            "SortOrder": "721",
+            "SortOrder": "0719",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter14"
@@ -5633,7 +5568,7 @@
           },
           {
             "ChapterName": "Chapter 9: The Rule of Merchants",
-            "SortOrder": "722",
+            "SortOrder": "0720",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter15"
@@ -5646,7 +5581,7 @@
           },
           {
             "ChapterName": "Chapter 10: Grandmother Mia Is a Passionate Educator",
-            "SortOrder": "723",
+            "SortOrder": "0721",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter16",
@@ -5661,7 +5596,7 @@
           },
           {
             "ChapterName": "Chapter 11: Despite Overeating, She Still...",
-            "SortOrder": "724",
+            "SortOrder": "0722",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter17"
@@ -5674,7 +5609,7 @@
           },
           {
             "ChapterName": "Chapter 12: A Modicum of Payback —Groundwork—",
-            "SortOrder": "725",
+            "SortOrder": "0723",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter18",
@@ -5688,7 +5623,7 @@
           },
           {
             "ChapterName": "Chapter 13: The Storied Life of Shalloak Cornrogue the Merchant King",
-            "SortOrder": "726",
+            "SortOrder": "0724",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter19"
@@ -5701,7 +5636,7 @@
           },
           {
             "ChapterName": "Chapter 14: The Loyal Subject Anne...Hardens Her Heart (for Tough Love)",
-            "SortOrder": "727",
+            "SortOrder": "0725",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter20"
@@ -5714,7 +5649,7 @@
           },
           {
             "ChapterName": "Chapter 15: Princess Mia...Recognizes Her F.A.T.",
-            "SortOrder": "728",
+            "SortOrder": "0726",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter21"
@@ -5727,7 +5662,7 @@
           },
           {
             "ChapterName": "Chapter 16: Friends of Bamboo",
-            "SortOrder": "729",
+            "SortOrder": "0727",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter22"
@@ -5740,7 +5675,7 @@
           },
           {
             "ChapterName": "Chapter 17: Princess Mia...Enjoys a Fruit-Picking Session",
-            "SortOrder": "730",
+            "SortOrder": "0728",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter23"
@@ -5753,7 +5688,7 @@
           },
           {
             "ChapterName": "Chapter 18: Castle-Shaped Cake⇔Cake-Shaped Castle",
-            "SortOrder": "731",
+            "SortOrder": "0729",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter24"
@@ -5766,7 +5701,7 @@
           },
           {
             "ChapterName": "Chapter 19: The Two Princesses Walk up the Golden Slope",
-            "SortOrder": "732",
+            "SortOrder": "0730",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter25"
@@ -5779,7 +5714,7 @@
           },
           {
             "ChapterName": "Chapter 20: One Does Not Simply Evade the Great Sage of the Empire",
-            "SortOrder": "733",
+            "SortOrder": "0731",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter26"
@@ -5792,7 +5727,7 @@
           },
           {
             "ChapterName": "Chapter 21: Mia’s All-Out Negative Campaign: Operation Mudslinging!",
-            "SortOrder": "734",
+            "SortOrder": "0732",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter27"
@@ -5805,7 +5740,7 @@
           },
           {
             "ChapterName": "Chapter 22: Princess Mia...Takes a Dagger from Tatiana (in Her Heart)",
-            "SortOrder": "735",
+            "SortOrder": "0733",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter28",
@@ -5820,7 +5755,7 @@
           },
           {
             "ChapterName": "Chapter 23: The Fateful Banquet —To Start the Party, Knock Back Three...Mushrooms—",
-            "SortOrder": "736",
+            "SortOrder": "0734",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter29"
@@ -5833,7 +5768,7 @@
           },
           {
             "ChapterName": "Chapter 24: The Fateful Banquet —Like a Thorn Stuck in the Heart—",
-            "SortOrder": "737",
+            "SortOrder": "0735",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter30"
@@ -5846,7 +5781,7 @@
           },
           {
             "ChapterName": "Chapter 25: Could You Please Place Your Trust in Me?",
-            "SortOrder": "738",
+            "SortOrder": "0736",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter31"
@@ -5859,7 +5794,7 @@
           },
           {
             "ChapterName": "Chapter 26: Great General Mia Takes No Prisoners",
-            "SortOrder": "739",
+            "SortOrder": "0737",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter32"
@@ -5872,7 +5807,7 @@
           },
           {
             "ChapterName": "Chapter 27: Princess Mia...Pumps Her Arms",
-            "SortOrder": "740",
+            "SortOrder": "0738",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter33"
@@ -5885,7 +5820,7 @@
           },
           {
             "ChapterName": "Chapter 28: Thread",
-            "SortOrder": "741",
+            "SortOrder": "0739",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter34"
@@ -5898,7 +5833,7 @@
           },
           {
             "ChapterName": "Chapter 29: Encouragement from Mushroom Empress Mia",
-            "SortOrder": "742",
+            "SortOrder": "0740",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter35"
@@ -5911,7 +5846,7 @@
           },
           {
             "ChapterName": "Chapter 30: A Perujin Night",
-            "SortOrder": "743",
+            "SortOrder": "0741",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter36"
@@ -5924,7 +5859,7 @@
           },
           {
             "ChapterName": "Chapter 31: The People Mia Dragged into Her Plans",
-            "SortOrder": "744",
+            "SortOrder": "0742",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter37"
@@ -5936,104 +5871,11 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "The Promised Castilla",
-            "SortOrder": "745",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "extra",
-              "insert9",
-              "extra_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Mia’s Diary of the Birthday Festival",
-            "SortOrder": "746",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "diary"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Afterword",
-            "SortOrder": "747",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "afterword"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
             "ChapterName": "",
-            "SortOrder": "748",
+            "SortOrder": "0746",
             "SubFolder": "",
             "OriginalFilenames": [
               "manga"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Bonus Short Story",
-            "SortOrder": "749",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "bonus"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "750",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "bonus2"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "751",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "signup"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "copyright"
             ],
             "Chapters": [],
             "Splits": [],
@@ -6050,10 +5892,131 @@
     ],
     "BonusChapters": [
       {
-        "ChapterName": "Volume 7",
-        "SortOrder": "7",
+        "ChapterName": "Volume 07",
+        "SortOrder": "07",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "The Promised Castilla",
+            "SortOrder": "0743",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "extra",
+              "insert9",
+              "extra_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Mia’s Diary of the Birthday Festival",
+            "SortOrder": "0744",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "diary"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Bonus Short Story",
+            "SortOrder": "0747",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "0748",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "ExtraContent": [
+      {
+        "ChapterName": "Volume 07",
+        "SortOrder": "07",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Character Sheet",
+            "SortOrder": "0701",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "characters1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Character Sheet",
+            "SortOrder": "0702",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "characters2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      },
+      {
+        "ChapterName": "Map",
+        "SortOrder": "0703",
+        "SubFolder": "98-Maps",
+        "OriginalFilenames": [
+          "map"
+        ],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      },
+      {
+        "ChapterName": "Volume 07",
+        "SortOrder": "07",
+        "SubFolder": "99-Afterwords",
+        "OriginalFilenames": [
+          "afterword"
+        ],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -6061,17 +6024,13 @@
         "KeepFirstSplitSection": true
       }
     ],
-    "ExtraContent": [],
     "Gallery": {
       "SplashImages": [
         "bonus",
-        "characters1",
-        "characters2",
         "cover",
         "frontmatter1",
         "frontmatter2",
-        "manga",
-        "map"
+        "manga"
       ],
       "ChapterImages": [
         "insert1",
@@ -6087,7 +6046,7 @@
       "LateSubFolder": null,
       "ChapterName": "",
       "SortOrder": "",
-      "SubFolder": "7-Volume 7",
+      "SubFolder": "07-Volume 07",
       "OriginalFilenames": [],
       "Chapters": [],
       "Splits": [],
