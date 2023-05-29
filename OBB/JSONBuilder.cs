@@ -86,6 +86,7 @@ namespace OBB
         {
             var filename = $"JSON\\{seriesInternalName}.json";
             if (!File.Exists(filename)) return new List<Volume>();
+            if ((new FileInfo(filename)).Length == 0) return new List<Volume>();
             using (var reader = new StreamReader(filename))
             {
                 return await JsonSerializer.DeserializeAsync<List<Volume>>(reader.BaseStream);

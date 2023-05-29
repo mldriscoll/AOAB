@@ -1488,6 +1488,12 @@
         "FileName": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-6.epub",
         "EditedBy": "kuali",
         "ShowRemainingFiles": false
+      },
+      {
+        "ApiSlug": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-7",
+        "FileName": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-7.epub",
+        "EditedBy": null,
+        "ShowRemainingFiles": true
       }
     ],
     "Author": "Hisaya Amagishi",
@@ -6632,6 +6638,12 @@
         "FileName": "the-apothecary-diaries-volume-7.epub",
         "EditedBy": "kuali",
         "ShowRemainingFiles": false
+      },
+      {
+        "ApiSlug": "the-apothecary-diaries-volume-8",
+        "FileName": "the-apothecary-diaries-volume-8.epub",
+        "EditedBy": null,
+        "ShowRemainingFiles": true
       }
     ],
     "Author": "Natsu Hyuuga",
@@ -7950,6 +7962,20 @@
     ],
     "Author": "Itsuki Mizuho",
     "AuthorSort": "MIZUHO, ITSUKI"
+  },
+  {
+    "Name": "Villainess Level 99: I May Be the Hidden Boss but I'm Not the Demon Lord",
+    "InternalName": "Villainess Level 99",
+    "Volumes": [
+      {
+        "ApiSlug": "villainess-level-99-i-may-be-the-hidden-boss-but-i-m-not-the-demon-lord-volume-1",
+        "FileName": "villainess-level-99-i-may-be-the-hidden-boss-but-i-m-not-the-demon-lord-volume-1.epub",
+        "EditedBy": null,
+        "ShowRemainingFiles": true
+      }
+    ],
+    "Author": "Satori Tanabata",
+    "AuthorSort": "TANABATA, SATORI"
   },
   {
     "Name": "Villainess: Reloaded! Blowing Away Bad Ends with Modern Weapons",

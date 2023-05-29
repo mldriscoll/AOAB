@@ -141,10 +141,13 @@ namespace OBB
 
                 var volumes = new List<Volume>();
 
-                using (var reader = new StreamReader($"JSON\\{selection.InternalName}.json"))
+                if ((new FileInfo($"JSON\\{selection.InternalName}.json")).Length > 0)
                 {
-                    var deserializer = new DataContractJsonSerializer(typeof(Volume[]));
-                    volumes = ((Volume[])deserializer.ReadObject(reader.BaseStream)).ToList();
+                    using (var reader = new StreamReader($"JSON\\{selection.InternalName}.json"))
+                    {
+                        var deserializer = new DataContractJsonSerializer(typeof(Volume[]));
+                        volumes = ((Volume[])deserializer.ReadObject(reader.BaseStream)).ToList();
+                    }
                 }
 
                 bool coverPicked = false;
