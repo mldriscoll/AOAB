@@ -593,7 +593,7 @@
       "Year": 8,
       "Season": "Winter",
       "ProcessedInPartFive": true,
-      "PartSheet": true
+      "PartSheet": false
     },
     "Afterword": {
       "OriginalFilenames": [ "afterword" ],
@@ -816,6 +816,251 @@
         "LateSeason": "Winter",
         "ProcessedInPartFive": true,
         "Source": "P5V3 Extra 3"
+      }
+    ]
+  },
+  {
+    "InternalName": "LN0504",
+    "Gallery": {
+      "SplashImages": [ "bonus2", "bonus1" ],
+      "ChapterImages": [ "insert1", "insert2", "insert3", "insert4", "insert5", "insert6", "insert7", "insert8", "insert9", "insert10" ],
+      "EarlySortOrder": "0504",
+      "LateSortOrder": "050499",
+      "ChapterName": "LN504",
+      "AltName": "Volume 4",
+      "Volume": "0504",
+      "EarlyYear": 8,
+      "EarlySeason": "Winter",
+      "LateYear": 8,
+      "LateSeason": "Winter",
+      "ProcessedInPartFive": true
+    },
+    "ComfyLifeChapter": {
+      "OriginalFilenames": [ "manga1", "manga2" ],
+      "SortOrder": "050498",
+      "ChapterName": "Comfy Life 504",
+      "Volume": "0504",
+      "Year": 8,
+      "Season": "Winter",
+      "ProcessedInPartFive": true
+    },
+    "CharacterSheet": {
+      "OriginalFilenames": [ "characters1", "characters2", "characters3" ],
+      "SortOrder": "0504",
+      "ChapterName": "Avatar of a Goddess Characters",
+      "Volume": "0504",
+      "Year": 8,
+      "Season": "Winter",
+      "ProcessedInPartFive": true,
+      "PartSheet": true
+    },
+    "Afterword": {
+      "OriginalFilenames": [ "afterword" ],
+      "SortOrder": "050497",
+      "ChapterName": "LN504 Afterword",
+      "Volume": "0504",
+      "Year": 8,
+      "Season": "Winter",
+      "ProcessedInPartFive": true
+    },
+    "POVChapters": [
+      {
+        "OriginalFilenames": [ "prologue", "insert1", "prologue_1" ],
+        "SortOrder": "050400",
+        "ChapterName": "Prologue",
+        "Volume": "0504",
+        "Year": 8,
+        "Season": "Winter",
+        "POV": "Lamprecht",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter17", "insert9", "chapter17_1" ],
+        "SortOrder": "050417",
+        "ChapterName": "Epilogue",
+        "Volume": "0504",
+        "Year": 8,
+        "Season": "Spring",
+        "POV": "Alexis",
+        "ProcessedInPartFive": true
+      }
+    ],
+    "Chapters": [
+      {
+        "OriginalFilenames": [ "chapter1" ],
+        "SortOrder": "050401",
+        "ChapterName": "Returning Home and Everyone’s Situation",
+        "Volume": "0504",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter2" ],
+        "SortOrder": "050402",
+        "ChapterName": "Lamprecht and Nikolaus",
+        "Volume": "0504",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter3", "insert2", "chapter3_1" ],
+        "SortOrder": "050403",
+        "ChapterName": "Archducal Family Meeting",
+        "Volume": "0504",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter4", "insert3", "chapter4_1" ],
+        "SortOrder": "050404",
+        "ChapterName": "Melchior and Preparing for the Temple",
+        "Volume": "0504",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter5" ],
+        "SortOrder": "050405",
+        "ChapterName": "The Will of the Leisegangs",
+        "Volume": "0504",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter6" ],
+        "SortOrder": "050406",
+        "ChapterName": "Speaking with the Aub",
+        "Volume": "0504",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter7", "insert4", "chapter7_1" ],
+        "SortOrder": "050407",
+        "ChapterName": "Brunhilde’s Suggestion",
+        "Volume": "0504",
+        "Year": 8,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter8" ],
+        "SortOrder": "050408a",
+        "ChapterName": "Changing Surroundings and the Feast Celebrating Spring",
+        "Volume": "0504",
+        "Year": 8,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter9", "insert5", "chapter9_1" ],
+        "SortOrder": "050409",
+        "ChapterName": "Touring the Temple",
+        "Volume": "0504",
+        "Year": 8,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter10", "insert6", "chapter10_1" ],
+        "SortOrder": "050410",
+        "ChapterName": "Preparing the Ritual",
+        "Volume": "0504",
+        "Year": 8,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter11" ],
+        "SortOrder": "050411",
+        "ChapterName": "Reobtaining Divine Protections",
+        "Volume": "0504",
+        "Year": 8,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter12", "insert7", "chapter12_1" ],
+        "SortOrder": "050412",
+        "ChapterName": "Clarissa’s Invasion",
+        "Volume": "0504",
+        "Year": 8,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter13", "insert8", "chapter13_1" ],
+        "SortOrder": "050413a",
+        "ChapterName": "She Arrived Immediately",
+        "Volume": "0504",
+        "Year": 8,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter14" ],
+        "SortOrder": "050414",
+        "ChapterName": "Melchior and Spring Prayer",
+        "Volume": "0504",
+        "Year": 8,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter15" ],
+        "SortOrder": "050415",
+        "ChapterName": "The Disciples of the Gutenbergs",
+        "Volume": "0504",
+        "Year": 8,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter16" ],
+        "SortOrder": "050416",
+        "ChapterName": "Kirnberger’s Country Gate",
+        "Volume": "0504",
+        "Year": 8,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      }
+    ],
+    "BonusChapters": [
+      {
+        "OriginalFilenames": [ "chapter18" ],
+        "EarlySortOrder": "050408b",
+        "LateSortOrder": "050496a",
+        "POV": "Charlotte",
+        "ChapterName": "Reflection and Envy",
+        "Volume": "0504",
+        "EarlyYear": 8,
+        "EarlySeason": "Spring",
+        "LateYear": 7,
+        "LateSeason": "Spring",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter19", "insert10", "chapter19_1" ],
+        "EarlySortOrder": "050413b",
+        "LateSortOrder": "050496b",
+        "POV": "Gunther",
+        "ChapterName": "Defense of the West Gate",
+        "Volume": "0504",
+        "EarlyYear": 8,
+        "EarlySeason": "Spring",
+        "LateYear": 7,
+        "LateSeason": "Spring",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartFive": true
       }
     ]
   }
