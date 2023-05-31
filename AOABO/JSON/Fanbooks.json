@@ -69,7 +69,7 @@
       {
         "OriginalFilenames": [ "qa" ],
         "SortOrder": "0102",
-        "ChapterName": "Fanbook One QnA",
+        "ChapterName": "Fanbook One Q&A",
         "Volume": "FB1",
         "ProcessedInFanbooks": true
       }
@@ -242,7 +242,7 @@
       {
         "OriginalFilenames": [ "qa" ],
         "SortOrder": "0202",
-        "ChapterName": "Fanbook 2 QnA",
+        "ChapterName": "Fanbook Two Q&A",
         "Volume": "FB2",
         "ProcessedInFanbooks": true
       },
@@ -342,7 +342,7 @@
       {
         "OriginalFilenames": [ "qa" ],
         "SortOrder": "0304",
-        "ChapterName": "Fanbook 3 QnA",
+        "ChapterName": "Fanbook Three Q&A",
         "Volume": "FB3",
         "ProcessedInFanbooks": true
       }
