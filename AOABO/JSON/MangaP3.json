@@ -1,0 +1,123 @@
+[
+  {
+    "InternalName": "M0301",
+    "OCR": true,
+    "BonusChapters": [
+      {
+        "OriginalFilenames": [ "194", "195", "196", "197", "198", "199", "200", "201", "202" ],
+        "EarlySortOrder": "030107b",
+        "LateSortOrder": "030196d",
+        "POV": "Tuuli",
+        "ChapterName": "My First Letter",
+        "OverrideName": "My First Letter",
+        "Volume": "0301",
+        "EarlyYear": 3,
+        "LateYear": 3,
+        "EarlySeason": "Summer",
+        "LateSeason": "Summer",
+        "ProcessedInPartThree": true,
+        "Source": "M3V1 Written Bonus",
+        "OCR": {
+          "Crop": false,
+          "Corrections": [
+            {
+              "Original": "And if she does succeed at her baptism",
+              "Replacement": "And if she <i>does</i> succeed at her baptism"
+            },
+            {
+              "Original": "able to protect Myne though that didn’t happen",
+              "Replacement": "able to protect Myne—though that didn’t happen"
+            },
+            {
+              "Original": "as much anymore..",
+              "Replacement": "as much anymore."
+            },
+            {
+              "Original": "'Myne",
+              "Replacement": "‘Myne"
+            },
+            {
+              "Original": "to...'",
+              "Replacement": "to...’"
+            },
+            {
+              "Original": "'learn'",
+              "Replacement": "‘learn’"
+            },
+            {
+              "Original": "'sew'",
+              "Replacement": "‘sew’"
+            },
+            {
+              "Original": "slate,”Lutz",
+              "Replacement": "slate,” Lutz"
+            },
+            {
+              "Original": "my lousy handwriting",
+              "Replacement": "<i>my</i> lousy handwriting"
+            },
+            {
+              "Original": "flew open, and",
+              "Replacement": "flew open, and—"
+            },
+            {
+              "Original": "'I’",
+              "Replacement": "‘I’"
+            },
+            {
+              "Original": "Ihe hairpin was that important to her? Noble life must be really hard.",
+              "Replacement": "<i>The hairpin was that important to her? Noble life must be really hard.</i>"
+            }
+          ],
+          "Italics": [
+            {
+              "Start": "I’m so glad Myne is okay.",
+              "End": "I’m so glad Myne is okay."
+            },
+            {
+              "Start": "Mm... I think I’ll manage.",
+              "End": "Mm... I think I’ll manage."
+            },
+            {
+              "Start": "Sniff... But I keep",
+              "End": "ordered through Benno."
+            },
+            {
+              "Start": "A response from Myne!",
+              "End": "A response from Myne!"
+            },
+            {
+              "Start": "I’ll make so many hairpins for her.",
+              "End": "I’ll make so many hairpins for her."
+            },
+            {
+              "Start": "Lutz is so lucky...",
+              "End": "Lutz is so lucky..."
+            },
+            {
+              "Start": "We’ll only catch",
+              "End": "all we can do for now."
+            }
+          ]
+        }
+      }
+    ],
+    "MangaChapters": [
+      {
+        "OriginalFilenames": [ "181","182","183","184","185","186","187","188","189","190","191","192" ],
+        "EarlySortOrder": "030104c",
+        "LateSortOrder": "030196c",
+        "POV": "Cornelius",
+        "ChapterName": "The Knight Commander's Youngest Son",
+        "EarlyYear": 3,
+        "LateYear": 3,
+        "EarlySeason": "Summer",
+        "LateSeason": "Summer",
+        "Volume": "0301",
+        "Source": "M3V1 Bonus",
+        "ProcessedInPartThree": true
+      }
+    ],
+    "Maps": []
+  }
+]

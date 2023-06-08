@@ -69,7 +69,7 @@
       {
         "OriginalFilenames": [ "qa" ],
         "SortOrder": "0102",
-        "ChapterName": "Fanbook One Q&A",
+        "ChapterName": "Fanbook One Q&amp;A",
         "Volume": "FB1",
         "ProcessedInFanbooks": true
       }
@@ -168,7 +168,7 @@
       {
         "OriginalFilenames": [ "side5" ],
         "EarlySortOrder": "030121b",
-        "LateSortOrder": "030196f",
+        "LateSortOrder": "030196h",
         "POV": "Christel",
         "ChapterName": "A Tea Party with My Older Sister",
         "Volume": "0301",
@@ -242,7 +242,7 @@
       {
         "OriginalFilenames": [ "qa" ],
         "SortOrder": "0202",
-        "ChapterName": "Fanbook Two Q&A",
+        "ChapterName": "Fanbook Two Q&amp;A",
         "Volume": "FB2",
         "ProcessedInFanbooks": true
       },
@@ -304,8 +304,8 @@
     "MangaChapters": [
       {
         "OriginalFilenames": [ "40", "41", "42", "43" ],
-        "EarlySortOrder": "030107b",
-        "LateSortOrder": "030196c",
+        "EarlySortOrder": "030107c",
+        "LateSortOrder": "030196e",
         "ChapterName": "Welcoming a Certain Someone",
         "Volume": "0301",
         "EarlyYear": 3,
@@ -342,7 +342,7 @@
       {
         "OriginalFilenames": [ "qa" ],
         "SortOrder": "0304",
-        "ChapterName": "Fanbook Three Q&A",
+        "ChapterName": "Fanbook Three Q&amp;A",
         "Volume": "FB3",
         "ProcessedInFanbooks": true
       }

@@ -104,6 +104,7 @@ namespace AOABO.OCR
                 string chapterContent = string.Empty;
 
                 var OcrContent = new List<string>();
+                bool firstPage = true;
                 foreach (var chapterFile in chapter.OriginalFilenames)
                 {
                     var filename = $"{tempDirectory}\\item\\image\\i-{chapterFile:000}.jpg";
@@ -165,10 +166,15 @@ namespace AOABO.OCR
                     {
                         if (result.Lines.Count > 0)
                         {
+                            var leftmost = result.Lines.Min(x => x.Words[0].BoundingRect.Left);
+                            var rightmost = result.Lines.OrderByDescending(x => x.Words[0].BoundingRect.Left).Skip(firstPage ? chapter.OCR.HeaderLines : 0).First().Words[0].BoundingRect.Left;
+                            var threshold = leftmost + ((rightmost - leftmost) / 2);
+                            firstPage = false;
+
                             var oldTop = 0.0;
                             foreach (var line in result.Lines)
                             {
-                                if (line.Words[0].BoundingRect.Left < 350)
+                                if (line.Words[0].BoundingRect.Left < threshold)
                                 {
                                     OcrContent.Add(line.Text);
                                 }

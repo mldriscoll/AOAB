@@ -18,6 +18,7 @@
         "ProcessedInPartTwo": true,
         "Source": "M2V1 Written Bonus",
         "OCR": {
+          "HeaderLines": 2,
           "Corrections": [
             {
               "Original": "Priest’s </p>\r\n<p>“It has been decided that Fran shall become the head chambers. attendant",
@@ -306,6 +307,7 @@
         "ProcessedInPartTwo": true,
         "Source": "M2V5 Written Bonus",
         "OCR": {
+          "HeaderLines": 2,
           "Corrections": [
             {
               "Original": "“Oh well...” </p>\r\n<p>I replied",
