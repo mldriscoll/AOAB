@@ -3446,19 +3446,6 @@
         "KeepFirstSplitSection": true
       },
       {
-        "ChapterName": "The World of Tearmoon Empire",
-        "SortOrder": "98",
-        "SubFolder": "",
-        "OriginalFilenames": [
-          "map"
-        ],
-        "Chapters": [],
-        "Splits": [],
-        "Replacements": [],
-        "LinkedChapters": [],
-        "KeepFirstSplitSection": true
-      },
-      {
         "ChapterName": "Volume 04",
         "SortOrder": "04",
         "SubFolder": "99-Afterwords",
@@ -5419,6 +5406,7 @@
         "ChapterName": "Part 4: To the Moon-Led Morrow",
         "SortOrder": "04",
         "SubFolder": "",
+        "OriginalFilenames": [],
         "Chapters": [
           {
             "ChapterName": "Prologue: It Begins with Mushroom Stew...",
@@ -6021,105 +6009,14 @@
     "InternalName": "tearmoon-empire-volume-8",
     "Chapters": [
       {
-        "ChapterName": "Volume 8",
-        "SortOrder": "8",
+        "ChapterName": "Part 4: To the Moon-Led Morrow",
+        "SortOrder": "04",
         "SubFolder": "",
         "OriginalFilenames": [],
         "Chapters": [
           {
-            "ChapterName": "",
-            "SortOrder": "801",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "frontmatter1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "802",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "frontmatter2"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "803",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "characters1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "804",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "characters2"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "805",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "characters3"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "806",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "map"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "807",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "title1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter 1: A Request from King Yuhal",
-            "SortOrder": "808",
+            "ChapterName": "A Request from King Yuhal",
+            "SortOrder": "0806",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter1"
@@ -6131,8 +6028,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 2: Princess Mia...Throws Herself into Dancing!",
-            "SortOrder": "809",
+            "ChapterName": "Princess Mia...Throws Herself into Dancing!",
+            "SortOrder": "0807",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter2"
@@ -6144,8 +6041,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 3: Dance of Dawn",
-            "SortOrder": "810",
+            "ChapterName": "Dance of Dawn",
+            "SortOrder": "0808",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter3"
@@ -6157,8 +6054,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 4: Perujin Dawn —Where the Cake-Shaped Castle Leads—",
-            "SortOrder": "811",
+            "ChapterName": "Perujin Dawn —Where the Cake-Shaped Castle Leads—",
+            "SortOrder": "0809",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter4",
@@ -6172,8 +6069,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 5: That Is the Way Bel Chooses to Live",
-            "SortOrder": "812",
+            "ChapterName": "That Is the Way Bel Chooses to Live",
+            "SortOrder": "0810",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter5",
@@ -6187,21 +6084,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Side Chapter: Untold Histories of Wheat —The Mythical Great Famine—",
-            "SortOrder": "813",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "side1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter 6: To Each Their Own Summers",
-            "SortOrder": "814",
+            "ChapterName": "To Each Their Own Summers",
+            "SortOrder": "0812",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter6"
@@ -6213,8 +6097,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 7: Sion in Crisis and Mia in Thought",
-            "SortOrder": "815",
+            "ChapterName": "Sion in Crisis and Mia in Thought",
+            "SortOrder": "0813",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter7"
@@ -6226,8 +6110,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 8: Aboard the H.I.M.S. Mia",
-            "SortOrder": "816",
+            "ChapterName": "Aboard the H.I.M.S. Mia",
+            "SortOrder": "0814",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter8"
@@ -6239,8 +6123,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 9: Ludwig...Gets the Hint",
-            "SortOrder": "817",
+            "ChapterName": "Ludwig...Gets the Hint",
+            "SortOrder": "0815",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter9"
@@ -6252,8 +6136,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 10: Princess Mia...Begins Her True Business!",
-            "SortOrder": "818",
+            "ChapterName": "Princess Mia...Begins Her True Business!",
+            "SortOrder": "0816",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter10"
@@ -6265,8 +6149,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 11: Surely... Probably...",
-            "SortOrder": "819",
+            "ChapterName": "Surely... Probably...",
+            "SortOrder": "0817",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter11"
@@ -6278,8 +6162,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 12: The Royal Council",
-            "SortOrder": "820",
+            "ChapterName": "The Royal Council",
+            "SortOrder": "0818",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter12",
@@ -6292,8 +6176,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 13: Girls Talk... Girls Talk?",
-            "SortOrder": "821",
+            "ChapterName": "Girls Talk... Girls Talk?",
+            "SortOrder": "0819",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter13"
@@ -6305,8 +6189,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 14: A Gathering of Rabid Fans",
-            "SortOrder": "822",
+            "ChapterName": "A Gathering of Rabid Fans",
+            "SortOrder": "0820",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter14",
@@ -6319,8 +6203,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 15: The Abyssal Depth of the Great Sage of the Empire",
-            "SortOrder": "823",
+            "ChapterName": "The Abyssal Depth of the Great Sage of the Empire",
+            "SortOrder": "0821",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter15"
@@ -6332,8 +6216,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 16: Tour Guide Mia",
-            "SortOrder": "824",
+            "ChapterName": "Tour Guide Mia",
+            "SortOrder": "0822",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter16"
@@ -6345,8 +6229,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 17: Princess Mia...Talks Mushrooms!",
-            "SortOrder": "825",
+            "ChapterName": "Princess Mia...Talks Mushrooms!",
+            "SortOrder": "0823",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter17"
@@ -6358,8 +6242,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 18: Mia the Great Sage and Her Great-Sagely Strategizing",
-            "SortOrder": "826",
+            "ChapterName": "Mia the Great Sage and Her Great-Sagely Strategizing",
+            "SortOrder": "0824",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter18"
@@ -6371,8 +6255,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 19: As the Sword of the Great Sage of the Empire",
-            "SortOrder": "827",
+            "ChapterName": "As the Sword of the Great Sage of the Empire",
+            "SortOrder": "0825",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter19"
@@ -6384,8 +6268,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 20: Princess Mia...Is Put in an Extremely Forgiving Mood",
-            "SortOrder": "828",
+            "ChapterName": "Princess Mia...Is Put in an Extremely Forgiving Mood",
+            "SortOrder": "0826",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter20",
@@ -6399,8 +6283,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 21: Mia’s Trust Does Not Waver!",
-            "SortOrder": "829",
+            "ChapterName": "Mia’s Trust Does Not Waver!",
+            "SortOrder": "0827",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter21"
@@ -6412,8 +6296,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 22: Love Withered",
-            "SortOrder": "830",
+            "ChapterName": "Love Withered",
+            "SortOrder": "0828",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter22"
@@ -6425,8 +6309,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 23: Great Detective Mia...Finds the Perp! By Cheating!",
-            "SortOrder": "831",
+            "ChapterName": "Great Detective Mia...Finds the Perp! By Cheating!",
+            "SortOrder": "0829",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter23"
@@ -6438,8 +6322,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 24: At the Edge of the Ring, Princess Mia...Takes a Stray Arrow",
-            "SortOrder": "832",
+            "ChapterName": "At the Edge of the Ring, Princess Mia...Takes a Stray Arrow",
+            "SortOrder": "0830",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter24"
@@ -6451,8 +6335,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 25: No Sweets, Only Jelly",
-            "SortOrder": "833",
+            "ChapterName": "No Sweets, Only Jelly",
+            "SortOrder": "0831",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter25"
@@ -6464,8 +6348,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 26: Actors Assemble",
-            "SortOrder": "834",
+            "ChapterName": "Actors Assemble",
+            "SortOrder": "0832",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter26"
@@ -6477,8 +6361,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 27: Annoyingly Cute",
-            "SortOrder": "835",
+            "ChapterName": "Annoyingly Cute",
+            "SortOrder": "0833",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter27"
@@ -6490,8 +6374,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 28: A Terrifying Truth (Of Terror!)",
-            "SortOrder": "836",
+            "ChapterName": "A Terrifying Truth (Of Terror!)",
+            "SortOrder": "0834",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter28"
@@ -6503,8 +6387,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 29: Two Scents",
-            "SortOrder": "837",
+            "ChapterName": "Two Scents",
+            "SortOrder": "0835",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter29",
@@ -6518,8 +6402,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 30: Two Girls and a Workhorse",
-            "SortOrder": "838",
+            "ChapterName": "Two Girls and a Workhorse",
+            "SortOrder": "0836",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter30"
@@ -6531,8 +6415,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 31: Citrina’s Happiness",
-            "SortOrder": "839",
+            "ChapterName": "Citrina’s Happiness",
+            "SortOrder": "0837",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter31"
@@ -6544,8 +6428,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 32: Request to Dine",
-            "SortOrder": "840",
+            "ChapterName": "Request to Dine",
+            "SortOrder": "0838",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter32"
@@ -6557,8 +6441,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 33: Aurelia Sirupis",
-            "SortOrder": "841",
+            "ChapterName": "Aurelia Sirupis",
+            "SortOrder": "0839",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter33"
@@ -6570,8 +6454,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 34: A Changing Heart",
-            "SortOrder": "842",
+            "ChapterName": "A Changing Heart",
+            "SortOrder": "0840",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter34"
@@ -6583,8 +6467,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 35: Citrina’s Pastime",
-            "SortOrder": "843",
+            "ChapterName": "Citrina’s Pastime",
+            "SortOrder": "0841",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter35",
@@ -6597,8 +6481,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 36: With a Heart Ninety-Seven Percent Pure",
-            "SortOrder": "844",
+            "ChapterName": "With a Heart Ninety-Seven Percent Pure",
+            "SortOrder": "0842",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter36"
@@ -6610,8 +6494,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 37: One Of My Best Friends - One Of = Best Friend?",
-            "SortOrder": "845",
+            "ChapterName": "One Of My Best Friends - One Of = Best Friend?",
+            "SortOrder": "0843",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter37"
@@ -6623,8 +6507,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 38: Esmeralda, Lover of Good Looks, and Mia, Lover of Good Food",
-            "SortOrder": "846",
+            "ChapterName": "Esmeralda, Lover of Good Looks, and Mia, Lover of Good Food",
+            "SortOrder": "0844",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter38"
@@ -6636,8 +6520,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 39: Have You Noticed, by the Way?",
-            "SortOrder": "847",
+            "ChapterName": "Have You Noticed, by the Way?",
+            "SortOrder": "0845",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter39"
@@ -6649,8 +6533,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 40: Slurp! This Is...Poison?!",
-            "SortOrder": "848",
+            "ChapterName": "Slurp! This Is...Poison?!",
+            "SortOrder": "0846",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter40"
@@ -6662,8 +6546,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 41: A Doozy of Information from Keithwood",
-            "SortOrder": "849",
+            "ChapterName": "A Doozy of Information from Keithwood",
+            "SortOrder": "0847",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter41"
@@ -6675,8 +6559,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 42: Miabel...Is Brainwashed",
-            "SortOrder": "850",
+            "ChapterName": "Miabel...Is Brainwashed",
+            "SortOrder": "0848",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter42"
@@ -6688,8 +6572,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 43: Another Big Sister",
-            "SortOrder": "851",
+            "ChapterName": "Another Big Sister",
+            "SortOrder": "0849",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter43"
@@ -6701,8 +6585,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 44: Debriefing Session",
-            "SortOrder": "852",
+            "ChapterName": "Debriefing Session",
+            "SortOrder": "0850",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter44"
@@ -6714,119 +6598,11 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 45: The Challenge (Received) by Great Detective Mia",
-            "SortOrder": "853",
+            "ChapterName": "The Challenge (Received) by Great Detective Mia",
+            "SortOrder": "0851",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter45"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Side Chapter: The Fair and Righteous King of Justice",
-            "SortOrder": "854",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "side2",
-              "insert8",
-              "side2_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Where Girls Talk, Romance Blooms",
-            "SortOrder": "855",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "extra",
-              "insert9",
-              "extra_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Mia’s Diary —The Gastronome’s Guide to Tearmoon—",
-            "SortOrder": "856",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "diary"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Afterword",
-            "SortOrder": "857",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "afterword"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "858",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "manga"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Bonus Short Story",
-            "SortOrder": "859",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "bonus"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "860",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "signup"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "copyright"
             ],
             "Chapters": [],
             "Splits": [],
@@ -6843,10 +6619,148 @@
     ],
     "BonusChapters": [
       {
-        "ChapterName": "Volume 8",
-        "SortOrder": "8",
+        "ChapterName": "Part 4: To the Moon-Led Morrow",
+        "SortOrder": "04",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Side Chapter: Untold Histories of Wheat —The Mythical Great Famine—",
+            "SortOrder": "0811",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "side1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Side Chapter: The Fair and Righteous King of Justice",
+            "SortOrder": "0852",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "side2",
+              "insert8",
+              "side2_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Where Girls Talk, Romance Blooms",
+            "SortOrder": "0853",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "extra",
+              "insert9",
+              "extra_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Mia’s Diary —The Gastronome’s Guide to Tearmoon—",
+            "SortOrder": "0854",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "diary"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Princess Mia’s Project X —The Quest for the Infinity Cake—",
+            "SortOrder": "0857",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Secret to Dancing Better",
+            "SortOrder": "0856",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "manga"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "ExtraContent": [
+      {
+        "ChapterName": "Part 4: To the Moon-Led Morrow",
+        "SortOrder": "04",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Character Sheet",
+            "SortOrder": "0801",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "characters1",
+              "characters2",
+              "characters3"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      },
+      {
+        "ChapterName": "The World of Tearmoon Empire",
+        "SortOrder": "98",
+        "SubFolder": "",
+        "OriginalFilenames": [
+          "map"
+        ],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      },
+      {
+        "ChapterName": "Volume 08",
+        "SortOrder": "08",
+        "SubFolder": "99-Afterwords",
+        "OriginalFilenames": [
+          "afterword"
+        ],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -6854,17 +6768,10 @@
         "KeepFirstSplitSection": true
       }
     ],
-    "ExtraContent": [],
     "Gallery": {
       "SplashImages": [
-        "characters1",
-        "characters2",
-        "characters3",
-        "cover",
-        "frontmatter1",
         "frontmatter2",
-        "manga",
-        "map"
+        "frontmatter1"
       ],
       "ChapterImages": [
         "insert1",
@@ -6880,7 +6787,7 @@
       "LateSubFolder": null,
       "ChapterName": "",
       "SortOrder": "",
-      "SubFolder": "8-Volume 8",
+      "SubFolder": "04-Part 4: To the Moon-Led Morrow",
       "OriginalFilenames": [],
       "Chapters": [],
       "Splits": [],
