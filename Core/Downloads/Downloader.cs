@@ -88,14 +88,47 @@ namespace Core.Downloads
             return library;
         }
 
-        public static async Task<LibraryResponse> GetSeries(HttpClient client, string slug)
+        public static async Task<SeriesList> GetSeriesList(HttpClient client, string token)
         {
-            var libraryCall = await client.GetAsync($"https://labs.j-novel.club/app/v1/series/{slug}/volumes");
-            LibraryResponse? library;
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+
+            SeriesList list = new SeriesList { series = new List<SeriesListResponse>() };
+            bool cont = true;
+            int skip = 0;
+            while (cont)
+            {
+                var libraryCall = await client.GetAsync($"https://labs.j-novel.club/app/v1/series?format=json&skip={skip}");
+
+                using (var loginStream = await libraryCall.Content.ReadAsStreamAsync())
+                {
+                    var deserializer = new DataContractJsonSerializer(typeof(SeriesList));
+                    var l = deserializer.ReadObject(loginStream) as SeriesList;
+
+                    if (l.series.Count < 50)
+                    {
+                        cont = false;
+                    }
+
+                    skip += l.series.Count;
+                    list.series.AddRange(l.series);
+                }
+            }
+
+            if (list == null) throw new Exception("Failed to load j-novel.club series");
+
+            client.DefaultRequestHeaders.Authorization = null;
+
+            return list;
+        }
+
+        public static async Task<SeriesVolumesResponse> GetSeries(HttpClient client, string slug)
+        {
+            var libraryCall = await client.GetAsync($"https://labs.j-novel.club/app/v1/series/{slug}/volumes?format=json");
+            SeriesVolumesResponse? library;
             using (var loginStream = await libraryCall.Content.ReadAsStreamAsync())
             {
-                var deserializer = new DataContractJsonSerializer(typeof(LibraryResponse));
-                library = deserializer.ReadObject(loginStream) as LibraryResponse;
+                var deserializer = new DataContractJsonSerializer(typeof(SeriesVolumesResponse));
+                library = deserializer.ReadObject(loginStream) as SeriesVolumesResponse;
             }
 
             if (library == null) throw new Exception("Failed to load j-novel.club library");

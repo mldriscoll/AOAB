@@ -28,7 +28,7 @@ while (true)
     Console.WriteLine("4 - Update Miscellaneous Settings");
     Console.WriteLine("5 - Update JNC Login Details");
     Console.WriteLine("6 - Create .json from .epub");
-    Console.WriteLine("7 - Add new books from your account to a series");
+    Console.WriteLine("7 - Update Series List");
 #if DEBUG
     Console.WriteLine("10 - Create Series Summary Table");
 #endif
