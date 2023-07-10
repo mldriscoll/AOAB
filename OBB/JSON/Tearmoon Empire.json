@@ -6800,105 +6800,14 @@
     "InternalName": "tearmoon-empire-volume-9",
     "Chapters": [
       {
-        "ChapterName": "Volume 9",
-        "SortOrder": "9",
+        "ChapterName": "Part 4: To the Moon-Led Morrow",
+        "SortOrder": "04",
         "SubFolder": "",
         "OriginalFilenames": [],
         "Chapters": [
           {
-            "ChapterName": "",
-            "SortOrder": "901",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "frontmatter1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "902",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "frontmatter2"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "903",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "characters1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "904",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "characters2"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "905",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "characters3"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "906",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "map"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "907",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "title1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
             "ChapterName": "Prologue: The Doctrine of Empress Mia —Ludwig’s Important Duty—",
-            "SortOrder": "908",
+            "SortOrder": "0906",
             "SubFolder": "",
             "OriginalFilenames": [
               "prologue"
@@ -6910,8 +6819,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 1: The Secret Behind That Dress...",
-            "SortOrder": "909",
+            "ChapterName": "The Secret Behind That Dress...",
+            "SortOrder": "0907",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter1",
@@ -6925,8 +6834,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 2: Princess Mia Thinks...and Thinks...",
-            "SortOrder": "910",
+            "ChapterName": "Princess Mia Thinks...and Thinks...",
+            "SortOrder": "0908",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter2"
@@ -6938,8 +6847,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 3: Mia...Isn’t Living a Lie!",
-            "SortOrder": "911",
+            "ChapterName": "Mia...Isn’t Living a Lie!",
+            "SortOrder": "0909",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter3"
@@ -6951,8 +6860,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 4: Nod, Nod...Nod?",
-            "SortOrder": "912",
+            "ChapterName": "Nod, Nod...Nod?",
+            "SortOrder": "0910",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter4"
@@ -6964,8 +6873,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 5: Fond Visions of Four-Eyes Past",
-            "SortOrder": "913",
+            "ChapterName": "Fond Visions of Four-Eyes Past",
+            "SortOrder": "0911",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter5"
@@ -6977,8 +6886,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 6: Princess Mia...Speaks with a Bit of an Accent",
-            "SortOrder": "914",
+            "ChapterName": "Princess Mia...Speaks with a Bit of an Accent",
+            "SortOrder": "0912",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter6"
@@ -6990,8 +6899,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 7: Spark",
-            "SortOrder": "915",
+            "ChapterName": "Spark",
+            "SortOrder": "0913",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter7"
@@ -7003,8 +6912,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 8: A World of F.A.T.",
-            "SortOrder": "916",
+            "ChapterName": "A World of F.A.T.",
+            "SortOrder": "0914",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter8"
@@ -7016,8 +6925,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 9: Mia Channels Her Inner Seductress",
-            "SortOrder": "917",
+            "ChapterName": "Mia Channels Her Inner Seductress",
+            "SortOrder": "0915",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter9"
@@ -7029,8 +6938,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 10: The Dance of Her Dreams, and Then...",
-            "SortOrder": "918",
+            "ChapterName": "The Dance of Her Dreams, and Then...",
+            "SortOrder": "0916",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter10"
@@ -7042,8 +6951,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 11: A Turn for the Worse",
-            "SortOrder": "919",
+            "ChapterName": "A Turn for the Worse",
+            "SortOrder": "0917",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter11"
@@ -7055,8 +6964,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 12: An Ancient Poison —Coincidental Encounter—",
-            "SortOrder": "920",
+            "ChapterName": "An Ancient Poison —Coincidental Encounter—",
+            "SortOrder": "0918",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter12"
@@ -7068,8 +6977,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 13: Two Noble Girls Who Dared Rage...and One Princess Who Definitely Didn’t Dare and Must Watch with Horror!",
-            "SortOrder": "921",
+            "ChapterName": "Two Noble Girls Who Dared Rage...and One Princess Who Definitely Didn’t Dare and Must Watch with Horror!",
+            "SortOrder": "0919",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter13",
@@ -7083,8 +6992,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 14: Citrina...Finally Sees the True Nature of the Great Sage of the Empire...or Does She?",
-            "SortOrder": "922",
+            "ChapterName": "Citrina...Finally Sees the True Nature of the Great Sage of the Empire...or Does She?",
+            "SortOrder": "0920",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter14",
@@ -7100,8 +7009,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 15: Miabel...Goes on an Adven—Tour of the Castle!",
-            "SortOrder": "923",
+            "ChapterName": "Miabel...Goes on an Adven—Tour of the Castle!",
+            "SortOrder": "0921",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter15"
@@ -7113,8 +7022,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 16: Time of Judgment, Friend or Foe...",
-            "SortOrder": "924",
+            "ChapterName": "Time of Judgment, Friend or Foe...",
+            "SortOrder": "0922",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter16"
@@ -7126,8 +7035,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 17: Princess Mia...Rides a Wave in a Breakthrough",
-            "SortOrder": "925",
+            "ChapterName": "Princess Mia...Rides a Wave in a Breakthrough",
+            "SortOrder": "0923",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter17"
@@ -7139,8 +7048,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 18: Swoosh, Swoosh!",
-            "SortOrder": "926",
+            "ChapterName": "Swoosh, Swoosh!",
+            "SortOrder": "0924",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter18"
@@ -7152,8 +7061,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 19: The Miabel Dialogue: What Is a King?",
-            "SortOrder": "927",
+            "ChapterName": "The Miabel Dialogue: What Is a King?",
+            "SortOrder": "0925",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter19",
@@ -7167,8 +7076,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 20: Princess Mia...Is Left Bereft!",
-            "SortOrder": "928",
+            "ChapterName": "Princess Mia...Is Left Bereft!",
+            "SortOrder": "0926",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter20"
@@ -7180,8 +7089,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 21: A Delivery from a Loyal Subject",
-            "SortOrder": "929",
+            "ChapterName": "A Delivery from a Loyal Subject",
+            "SortOrder": "0927",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter21"
@@ -7193,8 +7102,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 22: Princess Mia...Finally Decides on Revenge!",
-            "SortOrder": "930",
+            "ChapterName": "Princess Mia...Finally Decides on Revenge!",
+            "SortOrder": "0928",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter22"
@@ -7206,8 +7115,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 23: Sion’s Decision",
-            "SortOrder": "931",
+            "ChapterName": "Sion’s Decision",
+            "SortOrder": "0929",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter23"
@@ -7219,8 +7128,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 24: Someone Perfect for You Is Surely...",
-            "SortOrder": "932",
+            "ChapterName": "Someone Perfect for You Is Surely...",
+            "SortOrder": "0930",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter24",
@@ -7234,8 +7143,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 25: As King and as Father",
-            "SortOrder": "933",
+            "ChapterName": "As King and as Father",
+            "SortOrder": "0931",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter25"
@@ -7247,8 +7156,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 26: The Night When Love Was Lost",
-            "SortOrder": "934",
+            "ChapterName": "The Night When Love Was Lost",
+            "SortOrder": "0932",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter26",
@@ -7262,8 +7171,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 27: The Brothers Embark",
-            "SortOrder": "935",
+            "ChapterName": "The Brothers Embark",
+            "SortOrder": "0933",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter27"
@@ -7275,47 +7184,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Side Chapter: Mialogy —Ludwig’s Unpalatably Delicious Wine—",
-            "SortOrder": "936",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "side1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Side Chapter: Empress Mia’s Trick or Treat",
-            "SortOrder": "937",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "side2"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Side Chapter: The Seed That Did Not Sprout",
-            "SortOrder": "938",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "side3"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter 28: A Delightful Gathering of Girls —Princess Mia Is Filled with a Sense of Duty—",
-            "SortOrder": "939",
+            "ChapterName": "A Delightful Gathering of Girls —Princess Mia Is Filled with a Sense of Duty—",
+            "SortOrder": "0937",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter28"
@@ -7327,8 +7197,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 29: Miabel’s Nearly Spine-chilling Waking of Suspense and Horror",
-            "SortOrder": "940",
+            "ChapterName": "Miabel’s Nearly Spine-chilling Waking of Suspense and Horror",
+            "SortOrder": "0938",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter29"
@@ -7340,8 +7210,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 30: Bel Asks the Hard Questions",
-            "SortOrder": "941",
+            "ChapterName": "Bel Asks the Hard Questions",
+            "SortOrder": "0939",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter30"
@@ -7353,8 +7223,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 31: Onward! To the Equestrian Kingdom!",
-            "SortOrder": "942",
+            "ChapterName": "Onward! To the Equestrian Kingdom!",
+            "SortOrder": "0940",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter31",
@@ -7367,104 +7237,13 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 32: The High Priestess of the Serpents Dances",
-            "SortOrder": "943",
+            "ChapterName": "The High Priestess of the Serpents Dances",
+            "SortOrder": "0941",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter32",
               "insert9",
               "chapter32_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chancellor Ludwig Loves His Wine",
-            "SortOrder": "944",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "extra"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Mia’s Diary of Deeper Dining —Three Exquisite Sunkland Dishes for Those Who Wish to Deepen Their Appreciation of Food—",
-            "SortOrder": "945",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "diary"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Afterword",
-            "SortOrder": "946",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "afterword"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "947",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "manga"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Bonus Short Story",
-            "SortOrder": "948",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "bonus"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "949",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "signup"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "copyright"
             ],
             "Chapters": [],
             "Splits": [],
@@ -7481,10 +7260,149 @@
     ],
     "BonusChapters": [
       {
-        "ChapterName": "Volume 9",
-        "SortOrder": "9",
+        "ChapterName": "Part 4: To the Moon-Led Morrow",
+        "SortOrder": "04",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Mialogy —Ludwig’s Unpalatably Delicious Wine— [Ludwig]",
+            "SortOrder": "0934",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "side1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Empress Mia’s Trick or Treat [Empress Mia]",
+            "SortOrder": "0935",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "side2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Side Chapter: The Seed That Did Not Sprout",
+            "SortOrder": "0936",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "side3"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chancellor Ludwig Loves His Wine [Ludwig]",
+            "SortOrder": "0942",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "extra"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Mia’s Diary of Deeper Dining —Three Exquisite Sunkland Dishes for Those Who Wish to Deepen Their Appreciation of Food—",
+            "SortOrder": "0943",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "diary"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Ludwig and <i>Empress Mia's Maxims</i>",
+            "SortOrder": "0946",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [
+              {
+                "Original": "<h1>Ludwig and <i>Empress Mia's Maxims</i></h1>\r\n\r\n      <h2>Side Chapter: Ludwig and <em>Empress Mia’s Maxims</em></h2>",
+                "Replacement": "<h1>Ludwig and <i>Empress Mia's Maxims</i></h1>\r\n\r\n"
+              }
+            ],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Serving Bias",
+            "SortOrder": "0945",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "manga"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "ExtraContent": [
+      {
+        "ChapterName": "Part 4: To the Moon-Led Morrow",
+        "SortOrder": "04",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Character Sheet",
+            "SortOrder": "0901",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "characters1",
+              "characters2",
+              "characters3"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      },
+      {
+        "ChapterName": "Volume 09",
+        "SortOrder": "09",
+        "SubFolder": "99-Afterwords",
+        "OriginalFilenames": [
+          "afterword"
+        ],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -7492,17 +7410,10 @@
         "KeepFirstSplitSection": true
       }
     ],
-    "ExtraContent": [],
     "Gallery": {
       "SplashImages": [
-        "characters1",
-        "characters2",
-        "characters3",
-        "cover",
-        "frontmatter1",
         "frontmatter2",
-        "manga",
-        "map"
+        "frontmatter1"
       ],
       "ChapterImages": [
         "insert1",
@@ -7518,7 +7429,7 @@
       "LateSubFolder": null,
       "ChapterName": "",
       "SortOrder": "",
-      "SubFolder": "9-Volume 9",
+      "SubFolder": "04-Part 4: To the Moon-Led Morrow",
       "OriginalFilenames": [],
       "Chapters": [],
       "Splits": [],
