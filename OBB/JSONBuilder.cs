@@ -82,7 +82,7 @@ namespace OBB
             return series;
         }
 
-        private static async Task<List<Volume>> GetVolumes(string seriesInternalName)
+        public static async Task<List<Volume>> GetVolumes(string seriesInternalName)
         {
             var filename = $"JSON\\{seriesInternalName}.json";
             if (!File.Exists(filename)) return new List<Volume>();
@@ -193,7 +193,7 @@ namespace OBB
                                 var chapterContent = File.ReadAllText("jsontemp\\OEBPS\\text\\" + chapterFiles[0]);
                                 chapter.ChapterName = chapterTitleRegex.Match(chapterContent).Value.Replace("<h1>", string.Empty).Replace("</h1>", string.Empty);
 
-                                AddChapter(volume, chapter, volumeName);
+                                AddChapter(volume, chapter, volumeName, volOrder);
 
                             }
                             chapterFiles.Clear();
@@ -212,7 +212,7 @@ namespace OBB
             finalChapter.OriginalFilenames.AddRange(chapterFiles.Select(x => x.Replace(".xhtml", string.Empty)));
             var finalChapterContent = File.ReadAllText("jsontemp\\OEBPS\\text\\" + chapterFiles[0]);
             finalChapter.ChapterName = chapterTitleRegex.Match(finalChapterContent).Value.Replace("<h1>", string.Empty).Replace("</h1>", string.Empty);
-            AddChapter(volume, finalChapter, volumeName);
+            AddChapter(volume, finalChapter, volumeName, volOrder);
 
             var imageFiles = Directory.GetFiles("jsontemp\\OEBPS\\Images", "*.jpg");
             foreach (var file in imageFiles)
@@ -230,7 +230,7 @@ namespace OBB
             return volume;
         }
 
-        private static void AddChapter(Volume vol, Chapter chapter, string? volumeName)
+        private static void AddChapter(Volume vol, Chapter chapter, string volumeName, int volumeSortOrder)
         {
             if (chapter.OriginalFilenames.Any(x => x.StartsWith("side")
                                     || x.StartsWith("interlude")
@@ -244,8 +244,8 @@ namespace OBB
             else if (chapter.OriginalFilenames.Any(x => x.StartsWith("afterword")))
             {
                 chapter.SubFolder = "999-Afterwords";
-                chapter.SortOrder = volumeName ?? String.Empty;
-                chapter.ChapterName = $"Volume {volumeName}";
+                chapter.SortOrder = volumeSortOrder.ToString("000");
+                chapter.ChapterName = volumeName;
                 vol.ExtraContent.Add(chapter);
             }
             else if (chapter.OriginalFilenames.Any(x => x.StartsWith("character")))

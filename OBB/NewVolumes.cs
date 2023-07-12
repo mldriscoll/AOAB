@@ -63,6 +63,49 @@ namespace OBB
                         {
                             var order = 100 * (series.ApiSlugs.FirstOrDefault(x => x.Slug.Equals(serie.Key.slug, StringComparison.InvariantCultureIgnoreCase))?.Order ?? 1);
 
+                            if (series.Volumes.All(x => string.IsNullOrWhiteSpace(x.EditedBy)))
+                            {
+                                File.Delete($"JSON\\{series.InternalName}.json");
+                            }
+                            else if (series.Volumes.Any(x => string.IsNullOrWhiteSpace(x.EditedBy)))
+                            {
+                                List<Volume> volumes;
+                                using (var reader = new StreamReader($"JSON\\{series.InternalName}.json"))
+                                {
+                                    var deserializer = new DataContractJsonSerializer(typeof(Volume[]));
+                                    volumes = ((Volume[])deserializer.ReadObject(reader.BaseStream)).ToList();
+                                }
+
+                                volumes.RemoveAll(x =>
+                                {
+                                    var match = series.Volumes.FirstOrDefault(y => y.ApiSlug.Equals(x.InternalName, StringComparison.InvariantCultureIgnoreCase));
+
+                                    if (match == null || string.IsNullOrEmpty(match.EditedBy))
+                                    {
+                                        return true;
+                                    }
+                                    return false;
+                                });
+
+                                volumes = volumes.OrderBy(x =>
+                                {
+                                    var match = series.Volumes.First(y => y.ApiSlug.Equals(x.InternalName, StringComparison.InvariantCultureIgnoreCase));
+                                    return match.Order;
+                                }).ToList();
+
+                                using (var writer = new StreamWriter($"JSON\\{series.InternalName}.json"))
+                                {
+                                    var serializer = new DataContractJsonSerializer(typeof(Volume[]));
+
+                                    var options = new JsonSerializerOptions
+                                    {
+                                        WriteIndented = true,
+                                        Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping
+                                    };
+                                    await JsonSerializer.SerializeAsync(writer.BaseStream, volumes.ToArray(), options);
+                                }
+                            }
+
                             series.Volumes.AddRange(serie.Value.Where(x => !series.Volumes.Any(y => y.ApiSlug.Equals(x.slug, StringComparison.OrdinalIgnoreCase))).ToList().Select(x => new VolumeName
                             {
                                 ApiSlug = x.slug,
@@ -95,8 +138,6 @@ namespace OBB
                             };
 
                             seriesList.Add(series);
-
-                            File.WriteAllText($"JSON\\{series.InternalName}.json", "[]");
                         }
                     }
             }

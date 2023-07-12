@@ -139,16 +139,7 @@ namespace OBB
                 outProcessor.UnpackFolder($"{inFolder}\\inputtemp");
                 outProcessor.Chapters.Clear();
 
-                var volumes = new List<Volume>();
-
-                if ((new FileInfo($"JSON\\{selection.InternalName}.json")).Length > 0)
-                {
-                    using (var reader = new StreamReader($"JSON\\{selection.InternalName}.json"))
-                    {
-                        var deserializer = new DataContractJsonSerializer(typeof(Volume[]));
-                        volumes = ((Volume[])deserializer.ReadObject(reader.BaseStream)).ToList();
-                    }
-                }
+                var volumes = await JSONBuilder.GetVolumes(selection.InternalName);
 
                 bool coverPicked = false;
 
