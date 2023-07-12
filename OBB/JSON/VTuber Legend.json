@@ -19,6 +19,8 @@
             ],
             "Chapters": [],
             "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
             "KeepFirstSplitSection": true
           },
           {
@@ -34,17 +36,19 @@
             "Splits": [
               {
                 "Name": "Solo Stream",
-                "SplitLine": "\u003Ch2\u003ESolo Stream\u003C/h2\u003E",
+                "SplitLine": "<h2>Solo Stream</h2>",
                 "SortOrder": "0101",
                 "SubFolder": ""
               },
               {
                 "Name": "Third-Gen Collab Stream",
-                "SplitLine": "\u003Ch2\u003EThird-Gen Collab Stream\u003C/h2\u003E",
+                "SplitLine": "<h2>Third-Gen Collab Stream</h2>",
                 "SortOrder": "0102",
                 "SubFolder": ""
               }
             ],
+            "Replacements": [],
+            "LinkedChapters": [],
             "KeepFirstSplitSection": false
           },
           {
@@ -64,41 +68,43 @@
             "Splits": [
               {
                 "Name": "Seiso Stream",
-                "SplitLine": "\u003Ch2\u003ESeiso Stream\u003C/h2\u003E",
+                "SplitLine": "<h2>Seiso Stream</h2>",
                 "SortOrder": "0104",
                 "SubFolder": ""
               },
               {
                 "Name": "Offline Karaoke Collab with Second-Generation VTubers",
-                "SplitLine": "\u003Ch2\u003EOffline Karaoke Collab with Second-Generation VTubers\u003C/h2\u003E",
+                "SplitLine": "<h2>Offline Karaoke Collab with Second-Generation VTubers</h2>",
                 "SortOrder": "0105",
                 "SubFolder": ""
               },
               {
                 "Name": "Offline Collab with Chami-chan",
-                "SplitLine": "\u003Ch2\u003EOffline Collab with Chami-chan\u003C/h2\u003E",
+                "SplitLine": "<h2>Offline Collab with Chami-chan</h2>",
                 "SortOrder": "0106",
                 "SubFolder": ""
               },
               {
-                "Name": "The Mission to Recapture Awayuki Kokorone\u2019s Seiso",
-                "SplitLine": "\u003Ch2\u003EThe Mission to Recapture Awayuki Kokorone\u2019s Seiso\u003C/h2\u003E",
+                "Name": "The Mission to Recapture Awayuki Kokorone’s Seiso",
+                "SplitLine": "<h2>The Mission to Recapture Awayuki Kokorone’s Seiso</h2>",
                 "SortOrder": "0107",
                 "SubFolder": ""
               },
               {
                 "Name": "Monetization Commemoration Stream",
-                "SplitLine": "\u003Ch2\u003EMonetization Commemoration Stream\u003C/h2\u003E",
+                "SplitLine": "<h2>Monetization Commemoration Stream</h2>",
                 "SortOrder": "0108",
                 "SubFolder": ""
               },
               {
                 "Name": "First Sunrise of the Year",
-                "SplitLine": "\u003Ch2\u003EFirst Sunrise of the Year\u003C/h2\u003E",
+                "SplitLine": "<h2>First Sunrise of the Year</h2>",
                 "SortOrder": "0109",
                 "SubFolder": ""
               }
             ],
+            "Replacements": [],
+            "LinkedChapters": [],
             "KeepFirstSplitSection": false
           },
           {
@@ -116,23 +122,25 @@
             "Splits": [
               {
                 "Name": "Long Fit Stream",
-                "SplitLine": "\u003Ch2\u003ELong Fit Stream\u003C/h2\u003E",
+                "SplitLine": "<h2>Long Fit Stream</h2>",
                 "SortOrder": "0111",
                 "SubFolder": ""
               },
               {
                 "Name": "Animal Kart Stream",
-                "SplitLine": "\u003Ch2\u003EAnimal Kart Stream\u003C/h2\u003E",
+                "SplitLine": "<h2>Animal Kart Stream</h2>",
                 "SortOrder": "0112",
                 "SubFolder": ""
               },
               {
-                "Name": "Let\u2019s Watch Everyone\u2019s Streams",
-                "SplitLine": "\u003Ch2\u003ELet\u2019s Watch Everyone\u2019s Streams\u003C/h2\u003E",
+                "Name": "Let’s Watch Everyone’s Streams",
+                "SplitLine": "<h2>Let’s Watch Everyone’s Streams</h2>",
                 "SortOrder": "0113",
                 "SubFolder": ""
               }
             ],
+            "Replacements": [],
+            "LinkedChapters": [],
             "KeepFirstSplitSection": false
           },
           {
@@ -148,11 +156,13 @@
             "Splits": [
               {
                 "Name": "Live Start",
-                "SplitLine": "\u003Ch2\u003ELive Start\u003C/h2\u003E",
+                "SplitLine": "<h2>Live Start</h2>",
                 "SortOrder": "0114",
                 "SubFolder": ""
               }
             ],
+            "Replacements": [],
+            "LinkedChapters": [],
             "KeepFirstSplitSection": false
           },
           {
@@ -164,10 +174,14 @@
             ],
             "Chapters": [],
             "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
             "KeepFirstSplitSection": true
           }
         ],
         "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
         "KeepFirstSplitSection": true
       }
     ],
@@ -187,10 +201,12 @@
             ],
             "Chapters": [],
             "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Idle Talk: One Day, on Mashiron\u2019s Stream",
+            "ChapterName": "Idle Talk: One Day, on Mashiron’s Stream",
             "SortOrder": "0110",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -198,10 +214,14 @@
             ],
             "Chapters": [],
             "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
             "KeepFirstSplitSection": true
           }
         ],
         "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
         "KeepFirstSplitSection": true
       }
     ],
@@ -215,6 +235,8 @@
         ],
         "Chapters": [],
         "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
         "KeepFirstSplitSection": true
       },
       {
@@ -226,6 +248,8 @@
         ],
         "Chapters": [],
         "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
         "KeepFirstSplitSection": true
       }
     ],
@@ -253,6 +277,8 @@
       "OriginalFilenames": [],
       "Chapters": [],
       "Splits": [],
+      "Replacements": [],
+      "LinkedChapters": [],
       "KeepFirstSplitSection": true
     }
   },
@@ -280,6 +306,8 @@
             ],
             "Chapters": [],
             "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
             "KeepFirstSplitSection": true
           },
           {
@@ -297,23 +325,25 @@
             "Splits": [
               {
                 "Name": "Chill Collab (IMHO) With Mashiron",
-                "SplitLine": "\u003Ch2\u003EChill Collab (IMHO) With Mashiron\u003C/h2\u003E",
+                "SplitLine": "<h2>Chill Collab (IMHO) With Mashiron</h2>",
                 "SortOrder": "0202",
                 "SubFolder": ""
               },
               {
                 "Name": "Dark Past Viewing Stream",
-                "SplitLine": "\u003Ch2\u003EDark Past Viewing Stream\u003C/h2\u003E",
+                "SplitLine": "<h2>Dark Past Viewing Stream</h2>",
                 "SortOrder": "0203",
                 "SubFolder": ""
               },
               {
                 "Name": "Quiz: The Mysteries of Animals",
-                "SplitLine": "\u003Ch2\u003EQuiz: The Mysteries of Animals\u003C/h2\u003E",
+                "SplitLine": "<h2>Quiz: The Mysteries of Animals</h2>",
                 "SortOrder": "0204",
                 "SubFolder": ""
               }
             ],
+            "Replacements": [],
+            "LinkedChapters": [],
             "KeepFirstSplitSection": false
           },
           {
@@ -329,17 +359,19 @@
             "Splits": [
               {
                 "Name": "Live-On News",
-                "SplitLine": "\u003Ch2\u003ELive-On News\u003C/h2\u003E",
+                "SplitLine": "<h2>Live-On News</h2>",
                 "SortOrder": "0206",
                 "SubFolder": ""
               },
               {
                 "Name": "Mommy Spotted",
-                "SplitLine": "\u003Ch2\u003EMommy Spotted\u003C/h2\u003E",
+                "SplitLine": "<h2>Mommy Spotted</h2>",
                 "SortOrder": "0207",
                 "SubFolder": ""
               }
             ],
+            "Replacements": [],
+            "LinkedChapters": [],
             "KeepFirstSplitSection": false
           },
           {
@@ -355,17 +387,19 @@
             "Splits": [
               {
                 "Name": "Zoo Visit with Chami-chan Retrospective Stream",
-                "SplitLine": "\u003Ch2\u003EZoo Visit with Chami-chan Retrospective Stream\u003C/h2\u003E",
+                "SplitLine": "<h2>Zoo Visit with Chami-chan Retrospective Stream</h2>",
                 "SortOrder": "0209",
                 "SubFolder": ""
               },
               {
                 "Name": "Worldcraft Stream",
-                "SplitLine": "\u003Ch2\u003EWorldcraft Stream\u003C/h2\u003E",
+                "SplitLine": "<h2>Worldcraft Stream</h2>",
                 "SortOrder": "0210",
                 "SubFolder": ""
               }
             ],
+            "Replacements": [],
+            "LinkedChapters": [],
             "KeepFirstSplitSection": false
           },
           {
@@ -380,11 +414,13 @@
             "Splits": [
               {
                 "Name": "AwaMashi Sleepover Collab",
-                "SplitLine": "\u003Ch2\u003EAwaMashi Sleepover Collab\u003C/h2\u003E",
+                "SplitLine": "<h2>AwaMashi Sleepover Collab</h2>",
                 "SortOrder": "0211",
                 "SubFolder": ""
               }
             ],
+            "Replacements": [],
+            "LinkedChapters": [],
             "KeepFirstSplitSection": false
           },
           {
@@ -396,10 +432,14 @@
             ],
             "Chapters": [],
             "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
             "KeepFirstSplitSection": true
           }
         ],
         "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
         "KeepFirstSplitSection": true
       }
     ],
@@ -419,6 +459,8 @@
             ],
             "Chapters": [],
             "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
             "KeepFirstSplitSection": true
           },
           {
@@ -430,10 +472,14 @@
             ],
             "Chapters": [],
             "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
             "KeepFirstSplitSection": true
           }
         ],
         "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
         "KeepFirstSplitSection": true
       }
     ],
@@ -447,6 +493,8 @@
         ],
         "Chapters": [],
         "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
         "KeepFirstSplitSection": true
       }
     ],
@@ -475,6 +523,8 @@
       "OriginalFilenames": [],
       "Chapters": [],
       "Splits": [],
+      "Replacements": [],
+      "LinkedChapters": [],
       "KeepFirstSplitSection": true
     }
   },
@@ -496,6 +546,8 @@
             ],
             "Chapters": [],
             "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
             "KeepFirstSplitSection": true
           },
           {
@@ -509,17 +561,19 @@
             "Splits": [
               {
                 "Name": "The L-1 Grand Prix",
-                "SplitLine": "\u003Ch2\u003EThe L-1 Grand Prix\u003C/h2\u003E",
+                "SplitLine": "<h2>The L-1 Grand Prix</h2>",
                 "SortOrder": "0302",
                 "SubFolder": ""
               },
               {
                 "Name": "First Sponsored Stream",
-                "SplitLine": "\u003Ch2\u003EFirst Sponsored Stream\u003C/h2\u003E",
+                "SplitLine": "<h2>First Sponsored Stream</h2>",
                 "SortOrder": "0303",
                 "SubFolder": ""
               }
             ],
+            "Replacements": [],
+            "LinkedChapters": [],
             "KeepFirstSplitSection": false
           },
           {
@@ -537,23 +591,25 @@
             "Splits": [
               {
                 "Name": "Horror Games without Honor or Humanity",
-                "SplitLine": "\u003Ch2\u003EHorror Games without Honor or Humanity\u003C/h2\u003E",
+                "SplitLine": "<h2>Horror Games without Honor or Humanity</h2>",
                 "SortOrder": "0305",
                 "SubFolder": ""
               },
               {
                 "Name": "The Struggle for Awayuki Kokorone",
-                "SplitLine": "\u003Ch2\u003EThe Struggle for Awayuki Kokorone\u003C/h2\u003E",
+                "SplitLine": "<h2>The Struggle for Awayuki Kokorone</h2>",
                 "SortOrder": "0306",
                 "SubFolder": ""
               },
               {
                 "Name": "The Live-On Common Sense Squad",
-                "SplitLine": "\u003Ch2\u003EThe Live-On Common Sense Squad\u003C/h2\u003E",
+                "SplitLine": "<h2>The Live-On Common Sense Squad</h2>",
                 "SortOrder": "0307",
                 "SubFolder": ""
               }
             ],
+            "Replacements": [],
+            "LinkedChapters": [],
             "KeepFirstSplitSection": false
           },
           {
@@ -569,17 +625,19 @@
             "Splits": [
               {
                 "Name": "Diamond Dust",
-                "SplitLine": "\u003Ch2\u003EDiamond Dust\u003C/h2\u003E",
+                "SplitLine": "<h2>Diamond Dust</h2>",
                 "SortOrder": "0309",
                 "SubFolder": ""
               },
               {
                 "Name": "The Newcomer Big-Shot VTuber",
-                "SplitLine": "\u003Ch2\u003EThe Newcomer Big-Shot VTuber\u003C/h2\u003E",
+                "SplitLine": "<h2>The Newcomer Big-Shot VTuber</h2>",
                 "SortOrder": "0310",
                 "SubFolder": ""
               }
             ],
+            "Replacements": [],
+            "LinkedChapters": [],
             "KeepFirstSplitSection": false
           },
           {
@@ -591,10 +649,14 @@
             ],
             "Chapters": [],
             "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
             "KeepFirstSplitSection": true
           }
         ],
         "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
         "KeepFirstSplitSection": true
       }
     ],
@@ -614,6 +676,8 @@
             ],
             "Chapters": [],
             "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
             "KeepFirstSplitSection": true
           },
           {
@@ -627,10 +691,14 @@
             ],
             "Chapters": [],
             "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
             "KeepFirstSplitSection": true
           }
         ],
         "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
         "KeepFirstSplitSection": true
       }
     ],
@@ -644,6 +712,8 @@
         ],
         "Chapters": [],
         "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
         "KeepFirstSplitSection": true
       }
     ],
@@ -667,6 +737,8 @@
       "OriginalFilenames": [],
       "Chapters": [],
       "Splits": [],
+      "Replacements": [],
+      "LinkedChapters": [],
       "KeepFirstSplitSection": true
     }
   },
@@ -688,6 +760,8 @@
             ],
             "Chapters": [],
             "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
             "KeepFirstSplitSection": true
           },
           {
@@ -704,19 +778,24 @@
               {
                 "Name": "<em>Worldcraft </em>Stream 2",
                 "SplitLine": "<h2><em>Worldcraft </em>Stream 2</h2>",
-                "SortOrder": "0401"
+                "SortOrder": "0401",
+                "SubFolder": ""
               },
               {
                 "Name": "Sleepover with Alice-chan",
                 "SplitLine": "<h2>Sleepover with Alice-chan</h2>",
-                "SortOrder": "0402"
+                "SortOrder": "0402",
+                "SubFolder": ""
               },
               {
                 "Name": "Kusoge with Nekoma-senpai",
                 "SplitLine": "<h2>Kusoge with Nekoma-senpai</h2>",
-                "SortOrder": "0403"
+                "SortOrder": "0403",
+                "SubFolder": ""
               }
             ],
+            "Replacements": [],
+            "LinkedChapters": [],
             "KeepFirstSplitSection": false
           },
           {
@@ -739,19 +818,24 @@
               {
                 "Name": "It’s Huntin’ Time",
                 "SplitLine": "<h2>It’s Huntin’ Time</h2>",
-                "SortOrder": "0405"
+                "SortOrder": "0405",
+                "SubFolder": ""
               },
               {
                 "Name": "Shuwa-Chan’s Castella Responses",
                 "SplitLine": "<h2>Shuwa-Chan’s Castella Responses</h2>",
-                "SortOrder": "0406"
+                "SortOrder": "0406",
+                "SubFolder": ""
               },
               {
                 "Name": "The Mission to Retake Sei-sama’s Monetization",
                 "SplitLine": "<h2>The Mission to Retake Sei-sama’s Monetization</h2>",
-                "SortOrder": "0407"
+                "SortOrder": "0407",
+                "SubFolder": ""
               }
             ],
+            "Replacements": [],
+            "LinkedChapters": [],
             "KeepFirstSplitSection": false
           },
           {
@@ -769,9 +853,12 @@
               {
                 "Name": "Starting Sound (Shion)",
                 "SplitLine": "<h2>Starting Sound (Shion)</h2>",
-                "SortOrder": "0408"
+                "SortOrder": "0408",
+                "SubFolder": ""
               }
             ],
+            "Replacements": [],
+            "LinkedChapters": [],
             "KeepFirstSplitSection": false
           },
           {
@@ -783,10 +870,14 @@
             ],
             "Chapters": [],
             "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
             "KeepFirstSplitSection": true
           }
         ],
         "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
         "KeepFirstSplitSection": true
       }
     ],
@@ -807,10 +898,14 @@
             ],
             "Chapters": [],
             "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
             "KeepFirstSplitSection": true
           }
         ],
         "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
         "KeepFirstSplitSection": true
       }
     ],
@@ -824,6 +919,8 @@
         ],
         "Chapters": [],
         "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
         "KeepFirstSplitSection": true
       }
     ],
@@ -851,6 +948,249 @@
       "OriginalFilenames": [],
       "Chapters": [],
       "Splits": [],
+      "Replacements": [],
+      "LinkedChapters": [],
+      "KeepFirstSplitSection": true
+    }
+  },
+  {
+    "InternalName": "vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream-volume-5",
+    "Chapters": [
+      {
+        "ChapterName": "Volume 05",
+        "SortOrder": "105",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Prologue",
+            "SortOrder": "10503",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "prologue"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter 1: Live-On All-Star Collab: <em>Amidst Us</em>",
+            "SortOrder": "10504",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1",
+              "map",
+              "chapter1_1",
+              "insert1",
+              "chapter1_2",
+              "insert2",
+              "chapter1_3",
+              "insert3",
+              "chapter1_4"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter 2: A Date with Hikari-chan",
+            "SortOrder": "10507",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2",
+              "insert4",
+              "chapter2_1",
+              "insert5",
+              "chapter2_2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter 3: There’s Something Strange About Chami-chan...",
+            "SortOrder": "10509",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter3",
+              "insert6",
+              "chapter3_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter 4: The Breakdown of Hikari-chan",
+            "SortOrder": "10511",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter4",
+              "insert7",
+              "chapter4_1",
+              "insert8",
+              "chapter4_2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter 5: Third Generation Debut One-Year-and-One-Month Anniversary Stream",
+            "SortOrder": "10513",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter5",
+              "insert9",
+              "chapter5_1",
+              "insert10",
+              "chapter5_2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Epilogue",
+            "SortOrder": "10514",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "epilogue"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "Volume 05",
+        "SortOrder": "105",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Idle Talk: Awayuki Kokorone Answers Castellas",
+            "SortOrder": "10506",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "side1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Idle Talk: Chami Yanagase Answers Castellas",
+            "SortOrder": "10508",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "side2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Idle Talk: Hikari Matsuriya Answers Castellas",
+            "SortOrder": "10510",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "side3"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Idle Talk: Mashiro Irodori Answers Castellas",
+            "SortOrder": "10512",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "side4"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "ExtraContent": [
+      {
+        "ChapterName": "Volume 05",
+        "SortOrder": "105",
+        "SubFolder": "999-Afterwords",
+        "OriginalFilenames": [
+          "afterword"
+        ],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "Gallery": {
+      "SplashImages": [
+        "bonus1",
+        "bonus2",
+        "bonus3",
+        "bonus4"
+      ],
+      "ChapterImages": [
+        "insert1",
+        "insert2",
+        "insert3",
+        "insert4",
+        "insert5",
+        "insert6",
+        "insert7",
+        "insert8",
+        "insert9",
+        "insert10"
+      ],
+      "LateSubFolder": null,
+      "ChapterName": "",
+      "SortOrder": "",
+      "SubFolder": "105-Volume 05",
+      "OriginalFilenames": [],
+      "Chapters": [],
+      "Splits": [],
+      "Replacements": [],
+      "LinkedChapters": [],
       "KeepFirstSplitSection": true
     }
   }
