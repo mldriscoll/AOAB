@@ -156,6 +156,8 @@ namespace OBB
                 }
             };
 
+            var imageFiles = Directory.GetFiles("jsontemp\\OEBPS\\Images", "*.jpg").Select(x => x.Replace("jsontemp\\OEBPS\\Images\\", string.Empty).Replace(".jpg", string.Empty).ToLower()).ToList();
+
             int order = 1;
             foreach (var line in content)
             {
@@ -193,7 +195,7 @@ namespace OBB
                                 var chapterContent = File.ReadAllText("jsontemp\\OEBPS\\text\\" + chapterFiles[0]);
                                 chapter.ChapterName = chapterTitleRegex.Match(chapterContent).Value.Replace("<h1>", string.Empty).Replace("</h1>", string.Empty);
 
-                                AddChapter(volume, chapter, volumeName, volOrder);
+                                AddChapter(volume, chapter, volumeName, volOrder, imageFiles);
 
                             }
                             chapterFiles.Clear();
@@ -212,12 +214,11 @@ namespace OBB
             finalChapter.OriginalFilenames.AddRange(chapterFiles.Select(x => x.Replace(".xhtml", string.Empty)));
             var finalChapterContent = File.ReadAllText("jsontemp\\OEBPS\\text\\" + chapterFiles[0]);
             finalChapter.ChapterName = chapterTitleRegex.Match(finalChapterContent).Value.Replace("<h1>", string.Empty).Replace("</h1>", string.Empty);
-            AddChapter(volume, finalChapter, volumeName, volOrder);
+            AddChapter(volume, finalChapter, volumeName, volOrder, imageFiles);
 
-            var imageFiles = Directory.GetFiles("jsontemp\\OEBPS\\Images", "*.jpg");
             foreach (var file in imageFiles)
             {
-                if (file.Contains("Insert"))
+                if (file.Contains("insert"))
                 {
                     AddImage(file, volume.Gallery.ChapterImages);
                 }
@@ -230,9 +231,16 @@ namespace OBB
             return volume;
         }
 
-        private static void AddChapter(Volume vol, Chapter chapter, string volumeName, int volumeSortOrder)
+        private static void AddChapter(Volume vol, Chapter chapter, string volumeName, int volumeSortOrder, List<string> imageFiles)
         {
-            if (chapter.OriginalFilenames.Any(x => x.StartsWith("side")
+            // No need to include the old contents pages or chapters that only include images
+            if (chapter.OriginalFilenames.All(x => x.Equals("tocimg", StringComparison.InvariantCultureIgnoreCase)
+                || x.Equals("toc", StringComparison.InvariantCultureIgnoreCase)
+                || imageFiles.Any(y => y.Equals(x, StringComparison.InvariantCultureIgnoreCase))))
+            {
+
+            }
+            else if (chapter.OriginalFilenames.Any(x => x.StartsWith("side")
                                     || x.StartsWith("interlude")
                                     || x.StartsWith("extra")
                                     || x.StartsWith("bonus")
