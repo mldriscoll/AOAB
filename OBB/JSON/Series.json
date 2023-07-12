@@ -1,5 +1,35 @@
 [
   {
+    "Name": "A Cave King’s Road to Paradise: Climbing to the Top with My Almighty Mining Skills!",
+    "InternalName": "a-cave-king-s-road-to-paradise-climbing-to-the-top-with-my-almighty-mining-skills",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "a-cave-king-s-road-to-paradise-climbing-to-the-top-with-my-almighty-mining-skills"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "a-cave-king-s-road-to-paradise-climbing-to-the-top-with-my-almighty-mining-skills-volume-1",
+        "FileName": "a-cave-king-s-road-to-paradise-climbing-to-the-top-with-my-almighty-mining-skills-volume-1.epub",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-04-24",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "a-cave-king-s-road-to-paradise-climbing-to-the-top-with-my-almighty-mining-skills-volume-2",
+        "FileName": "a-cave-king-s-road-to-paradise-climbing-to-the-top-with-my-almighty-mining-skills-volume-2.epub",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-07-17",
+        "Order": 102
+      }
+    ],
+    "Author": "Hajime Naehara",
+    "AuthorSort": "NAEHARA, HAJIME"
+  },
+  {
     "Name": "A Late-Start Tamer’s Laid-Back Life",
     "InternalName": "a-late-start-tamer-s-laid-back-life",
     "ApiSlugs": [
@@ -68,6 +98,66 @@
     ],
     "Author": "Yuu Tanaka",
     "AuthorSort": "TANAKA, YUU"
+  },
+  {
+    "Name": "A Pale Moon Reverie",
+    "InternalName": "a-pale-moon-reverie",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "a-pale-moon-reverie"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "a-pale-moon-reverie-volume-1",
+        "FileName": "a-pale-moon-reverie-volume-1.epub",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-05-22",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "a-pale-moon-reverie-volume-2",
+        "FileName": "a-pale-moon-reverie-volume-2.epub",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-09-15",
+        "Order": 102
+      }
+    ],
+    "Author": "Kuji Furumiya",
+    "AuthorSort": "FURUMIYA, KUJI"
+  },
+  {
+    "Name": "A Royal Rebound: Forget My Ex-Fiancé, I'm Being Pampered by the Prince!",
+    "InternalName": "a-royal-rebound",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "a-royal-rebound"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "a-royal-rebound-forget-my-ex-fianc-i-m-being-pampered-by-the-prince-volume-1",
+        "FileName": "a-royal-rebound-forget-my-ex-fianc-i-m-being-pampered-by-the-prince-volume-1.epub",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-04-27",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "a-royal-rebound-forget-my-ex-fianc-i-m-being-pampered-by-the-prince-volume-2",
+        "FileName": "a-royal-rebound-forget-my-ex-fianc-i-m-being-pampered-by-the-prince-volume-2.epub",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-07-07",
+        "Order": 102
+      }
+    ],
+    "Author": "Micoto Sakurai",
+    "AuthorSort": "SAKURAI, MICOTO"
   },
   {
     "Name": "A Wild Last Boss Appeared!",
@@ -1190,6 +1280,36 @@
     ],
     "Author": "Doufu Mayoi",
     "AuthorSort": "MAYOI, DOUFU"
+  },
+  {
+    "Name": "BLADE & BASTARD",
+    "InternalName": "blade-bastard",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "blade-bastard"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "blade-bastard-volume-1",
+        "FileName": "blade-bastard-volume-1.epub",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-12-09",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "blade-bastard-wireframe-dungeon-dragon-with-red-dead-volume-2",
+        "FileName": "blade-bastard-wireframe-dungeon-dragon-with-red-dead-volume-2.epub",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-06-09",
+        "Order": 102
+      }
+    ],
+    "Author": "Kumo Kagyu",
+    "AuthorSort": "KAGYU, KUMO"
   },
   {
     "Name": "Bluesteel Blasphemer",
@@ -2804,6 +2924,44 @@
     "AuthorSort": "WARINAI, TARISA"
   },
   {
+    "Name": "Earl and Fairy",
+    "InternalName": "earl-and-fairy",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "earl-and-fairy"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "earl-and-fairy-volume-1",
+        "FileName": "earl-and-fairy-volume-1.epub",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-05-11",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "earl-and-fairy-volume-2",
+        "FileName": "earl-and-fairy-volume-2.epub",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-07-13",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "earl-and-fairy-volume-3",
+        "FileName": "earl-and-fairy-volume-3.epub",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-09-21",
+        "Order": 103
+      }
+    ],
+    "Author": "Mizue Tani",
+    "AuthorSort": "TANI, MIZUE"
+  },
+  {
     "Name": "Endo and Kobayashi Live! The Latest on Tsundere Villainess Lieselotte",
     "InternalName": "endo-and-kobayashi-live-the-latest-on-tsundere-villainess-lieselotte",
     "ApiSlugs": [
@@ -2878,6 +3036,36 @@
     ],
     "Author": "rarutori",
     "AuthorSort": "RARUTORI"
+  },
+  {
+    "Name": "Fake Saint of the Year: You Wanted the Perfect Saint? Too Bad!",
+    "InternalName": "fake-saint-of-the-year-you-wanted-the-perfect-saint-too-bad",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "fake-saint-of-the-year-you-wanted-the-perfect-saint-too-bad"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "fake-saint-of-the-year-you-wanted-the-perfect-saint-too-bad-volume-1",
+        "FileName": "fake-saint-of-the-year-you-wanted-the-perfect-saint-too-bad-volume-1.epub",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-06-12",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "fake-saint-of-the-year-you-wanted-the-perfect-saint-too-bad-volume-2",
+        "FileName": "fake-saint-of-the-year-you-wanted-the-perfect-saint-too-bad-volume-2.epub",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-09-18",
+        "Order": 102
+      }
+    ],
+    "Author": "kabedondaikou",
+    "AuthorSort": "KABEDONDAIKOU"
   },
   {
     "Name": "Fantasy Inbound",
@@ -4306,6 +4494,66 @@
     "AuthorSort": "MURASAKI, YUKIYA"
   },
   {
+    "Name": "I Got Hit By a Truck But I Wasn’t Sent to Another World! What the Heck?!",
+    "InternalName": "i-got-hit-by-a-truck-but-i-wasn-t-sent-to-another-world-what-the-heck",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "i-got-hit-by-a-truck-but-i-wasn-t-sent-to-another-world-what-the-heck"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "i-got-hit-by-a-truck-but-i-wasn-t-sent-to-another-world-what-the-heck-sermon-3-1415926535",
+        "FileName": "i-got-hit-by-a-truck-but-i-wasn-t-sent-to-another-world-what-the-heck-sermon-3-1415926535.epub",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "3333-03-03",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "i-got-hit-by-a-truck-but-i-wasn-t-sent-to-another-world-what-the-heck-sermon-39",
+        "FileName": "i-got-hit-by-a-truck-but-i-wasn-t-sent-to-another-world-what-the-heck-sermon-39.epub",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "3333-03-03",
+        "Order": 102
+      }
+    ],
+    "Author": "LeVon Jaymes",
+    "AuthorSort": "JAYMES, LEVON"
+  },
+  {
+    "Name": "I Only Have Six Months to Live, So I’m Gonna Break the Curse with Light Magic or Die Trying",
+    "InternalName": "i-only-have-six-months-to-live",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "i-only-have-six-months-to-live"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "i-only-have-six-months-to-live-so-i-m-gonna-break-the-curse-with-light-magic-or-die-trying-volume-1",
+        "FileName": "i-only-have-six-months-to-live-so-i-m-gonna-break-the-curse-with-light-magic-or-die-trying-volume-1.epub",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-05-02",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "i-only-have-six-months-to-live-so-i-m-gonna-break-the-curse-with-light-magic-or-die-trying-volume-2",
+        "FileName": "i-only-have-six-months-to-live-so-i-m-gonna-break-the-curse-with-light-magic-or-die-trying-volume-2.epub",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-06-30",
+        "Order": 102
+      }
+    ],
+    "Author": "Genkotsu Kumano",
+    "AuthorSort": "KUMANO, GENKOTSU"
+  },
+  {
     "Name": "I Parry Everything: What Do You Mean I’m the Strongest? I’m Not Even an Adventurer Yet!",
     "InternalName": "i-parry-everything",
     "ApiSlugs": [
@@ -5700,6 +5948,36 @@
     "AuthorSort": "TAKEHAYA"
   },
   {
+    "Name": "Invaders of the Rokujouma!? Kickstarter Backer Stories",
+    "InternalName": "invaders-of-the-rokujouma-kickstarter-backer-stories",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "invaders-of-the-rokujouma-kickstarter-backer-stories"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "invaders-of-the-rokujouma-kickstarter-backer-stories-collection-1",
+        "FileName": "invaders-of-the-rokujouma-kickstarter-backer-stories-collection-1.epub",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-07-01",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "invaders-of-the-rokujouma-kickstarter-backer-stories-collection-2",
+        "FileName": "invaders-of-the-rokujouma-kickstarter-backer-stories-collection-2.epub",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-07-01",
+        "Order": 102
+      }
+    ],
+    "Author": "Takehaya",
+    "AuthorSort": "TAKEHAYA"
+  },
+  {
     "Name": "Isekai Rebuilding Project",
     "InternalName": "isekai-rebuilding-project",
     "ApiSlugs": [
@@ -6388,6 +6666,66 @@
     ],
     "Author": "Taro Hitsuji",
     "AuthorSort": "HITSUJI, TARO"
+  },
+  {
+    "Name": "Magic Stone Gourmet: Eating Magical Power Made Me The Strongest",
+    "InternalName": "magic-stone-gourmet-eating-magical-power-made-me-the-strongest",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "magic-stone-gourmet-eating-magical-power-made-me-the-strongest"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "magic-stone-gourmet-eating-magical-power-made-me-the-strongest-volume-1",
+        "FileName": "magic-stone-gourmet-eating-magical-power-made-me-the-strongest-volume-1.epub",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-06-08",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "magic-stone-gourmet-eating-magical-power-made-me-the-strongest-volume-2",
+        "FileName": "magic-stone-gourmet-eating-magical-power-made-me-the-strongest-volume-2.epub",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-08-24",
+        "Order": 102
+      }
+    ],
+    "Author": "Ryou Yuuki",
+    "AuthorSort": "YUUKI, RYOU"
+  },
+  {
+    "Name": "Make It Stop! I’m Not Strong… It’s Just My Sword!",
+    "InternalName": "make-it-stop-i-m-not-strong-it-s-just-my-sword",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "make-it-stop-i-m-not-strong-it-s-just-my-sword"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "make-it-stop-i-m-not-strong-it-s-just-my-sword-volume-1",
+        "FileName": "make-it-stop-i-m-not-strong-it-s-just-my-sword-volume-1.epub",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-05-26",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "make-it-stop-i-m-not-strong-it-s-just-my-sword-volume-2",
+        "FileName": "make-it-stop-i-m-not-strong-it-s-just-my-sword-volume-2.epub",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-08-14",
+        "Order": 102
+      }
+    ],
+    "Author": "Manzi Mazi",
+    "AuthorSort": "MAZI, MANZI"
   },
   {
     "Name": "Making Magic: The Sweet Life of a Witch Who Knows an Infinite MP Loophole",
@@ -7628,6 +7966,36 @@
     "AuthorSort": "SHIKURA, CHIYOMARU"
   },
   {
+    "Name": "Only the Villainous Lord Wields the Power to Level Up",
+    "InternalName": "only-the-villainous-lord-wields-the-power-to-level-up",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "only-the-villainous-lord-wields-the-power-to-level-up"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "only-the-villainous-lord-wields-the-power-to-level-up-volume-1",
+        "FileName": "only-the-villainous-lord-wields-the-power-to-level-up-volume-1.epub",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-05-17",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "only-the-villainous-lord-wields-the-power-to-level-up-volume-2",
+        "FileName": "only-the-villainous-lord-wields-the-power-to-level-up-volume-2.epub",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-07-26",
+        "Order": 102
+      }
+    ],
+    "Author": "Waruiotoko",
+    "AuthorSort": "WARUIOTOKO"
+  },
+  {
     "Name": "Otherside Picnic",
     "InternalName": "otherside-picnic",
     "ApiSlugs": [
@@ -8064,6 +8432,14 @@
         "ShowRemainingFiles": true,
         "Published": "2023-08-07",
         "Order": 104
+      },
+      {
+        "ApiSlug": "peddler-in-another-world-i-can-go-back-to-my-world-whenever-i-want-volume-5",
+        "FileName": "peddler-in-another-world-i-can-go-back-to-my-world-whenever-i-want-volume-5.epub",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-11-06",
+        "Order": 105
       }
     ],
     "Author": "Hiiro Shimotsuki",
@@ -8842,6 +9218,82 @@
     "AuthorSort": "AIDA, RHYTHM"
   },
   {
+    "Name": "Reincarnated Mage with Inferior Eyes: Breezing through the Future as an Oppressed Ex-Hero",
+    "InternalName": "reincarnated-mage-with-inferior-eyes",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "reincarnated-mage-with-inferior-eyes"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "reincarnated-mage-with-inferior-eyes-breezing-through-the-future-as-an-oppressed-ex-hero-volume-1",
+        "FileName": "reincarnated-mage-with-inferior-eyes-breezing-through-the-future-as-an-oppressed-ex-hero-volume-1.epub",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-04-10",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "reincarnated-mage-with-inferior-eyes-breezing-through-the-future-as-an-oppressed-ex-hero-volume-2",
+        "FileName": "reincarnated-mage-with-inferior-eyes-breezing-through-the-future-as-an-oppressed-ex-hero-volume-2.epub",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-06-12",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "reincarnated-mage-with-inferior-eyes-breezing-through-the-future-as-an-oppressed-ex-hero-volume-3",
+        "FileName": "reincarnated-mage-with-inferior-eyes-breezing-through-the-future-as-an-oppressed-ex-hero-volume-3.epub",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-07-28",
+        "Order": 103
+      },
+      {
+        "ApiSlug": "reincarnated-mage-with-inferior-eyes-breezing-through-the-future-as-an-oppressed-ex-hero-volume-4",
+        "FileName": "reincarnated-mage-with-inferior-eyes-breezing-through-the-future-as-an-oppressed-ex-hero-volume-4.epub",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-09-18",
+        "Order": 104
+      }
+    ],
+    "Author": "Yusura Kankitsu",
+    "AuthorSort": "KANKITSU, YUSURA"
+  },
+  {
+    "Name": "Safe & Sound in the Arms of an Elite Knight",
+    "InternalName": "safe-sound-in-the-arms-of-an-elite-knight",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "safe-sound-in-the-arms-of-an-elite-knight"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "safe-sound-in-the-arms-of-an-elite-knight-volume-1",
+        "FileName": "safe-sound-in-the-arms-of-an-elite-knight-volume-1.epub",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-06-19",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "safe-sound-in-the-arms-of-an-elite-knight-volume-2",
+        "FileName": "safe-sound-in-the-arms-of-an-elite-knight-volume-2.epub",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-08-18",
+        "Order": 102
+      }
+    ],
+    "Author": "Fuyu Aoki",
+    "AuthorSort": "AOKI, FUYU"
+  },
+  {
     "Name": "Saint? No! I'm Just a Passing Beast Tamer!",
     "InternalName": "saint-no-i-m-just-a-passing-beast-tamer",
     "ApiSlugs": [
@@ -9546,6 +9998,36 @@
     "AuthorSort": "YUKI, SHINOBU"
   },
   {
+    "Name": "Survival Strategies of a Corrupt Aristocrat",
+    "InternalName": "survival-strategies-of-a-corrupt-aristocrat",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "survival-strategies-of-a-corrupt-aristocrat"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "survival-strategies-of-a-corrupt-aristocrat",
+        "FileName": "survival-strategies-of-a-corrupt-aristocrat.epub",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-04-13",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "survival-strategies-of-a-corrupt-aristocrat-volume-2",
+        "FileName": "survival-strategies-of-a-corrupt-aristocrat-volume-2.epub",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-09-22",
+        "Order": 102
+      }
+    ],
+    "Author": "Wanta",
+    "AuthorSort": "WANTA"
+  },
+  {
     "Name": "Tearmoon Empire",
     "InternalName": "Tearmoon Empire",
     "ApiSlugs": [
@@ -9676,6 +10158,36 @@
     ],
     "Author": "Tsukasa Tanimai",
     "AuthorSort": "TANIMAI, TSUKASA"
+  },
+  {
+    "Name": "The 100th Time’s the Charm: She Was Executed 99 Times, So How Did She Unlock “Super Love” Mode?!",
+    "InternalName": "the-100th-time-s-the-charm",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "the-100th-time-s-the-charm"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "the-100th-time-s-the-charm-she-was-executed-99-times-so-how-did-she-unlock-super-love-mode-volume-1",
+        "FileName": "the-100th-time-s-the-charm-she-was-executed-99-times-so-how-did-she-unlock-super-love-mode-volume-1.epub",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-05-04",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "the-100th-time-s-the-charm-she-was-executed-99-times-so-how-did-she-unlock-super-love-mode-volume-2",
+        "FileName": "the-100th-time-s-the-charm-she-was-executed-99-times-so-how-did-she-unlock-super-love-mode-volume-2.epub",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-07-05",
+        "Order": 102
+      }
+    ],
+    "Author": "Yuji Yuji",
+    "AuthorSort": "YUJI, YUJI"
   },
   {
     "Name": "The Apothecary Diaries",
@@ -11126,6 +11638,14 @@
         "ShowRemainingFiles": true,
         "Published": "2023-07-27",
         "Order": 104
+      },
+      {
+        "ApiSlug": "the-mythical-hero-s-otherworld-chronicles-volume-5",
+        "FileName": "the-mythical-hero-s-otherworld-chronicles-volume-5.epub",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-10-12",
+        "Order": 105
       }
     ],
     "Author": "Tatematsuri",
@@ -12240,6 +12760,36 @@
     ],
     "Author": "Dojyomaru",
     "AuthorSort": "DOJYOMARU"
+  },
+  {
+    "Name": "You Like Me, Not My Daughter?!",
+    "InternalName": "you-like-me-not-my-daughter",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "you-like-me-not-my-daughter"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "you-like-me-not-my-daughter-volume-1",
+        "FileName": "you-like-me-not-my-daughter-volume-1.epub",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-07-28",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "you-like-me-not-my-daughter-volume-2",
+        "FileName": "you-like-me-not-my-daughter-volume-2.epub",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-09-29",
+        "Order": 102
+      }
+    ],
+    "Author": "Kota Nozomi",
+    "AuthorSort": "NOZOMI, KOTA"
   },
   {
     "Name": "Young Lady Albert Is Courting Disaster",
