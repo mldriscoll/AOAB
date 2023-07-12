@@ -303,33 +303,49 @@ namespace OBB
 
             foreach(var serie in series)
             {
+                int prepub = serie.Volumes.Count(x => DateTime.Parse(x.Published) > DateTime.UtcNow.Date);
                 // Fully Edited
-                if (serie.Volumes.All(x => !string.IsNullOrEmpty(x.EditedBy)))
+                if (serie.Volumes.All(x => !string.IsNullOrEmpty(x.EditedBy) || DateTime.Parse(x.Published) > DateTime.UtcNow.Date)  && serie.Volumes.Count > prepub)
                 {
-                    if (serie.Volumes.GroupBy(x => x.EditedBy).Count() > 1)
+                    if (serie.Volumes.Where(x => x.EditedBy != null).GroupBy(x => x.EditedBy).Count() > 1)
                     {
-                        fullyEdited.Add($"* {serie.Name} ({serie.Volumes.Count} books) - Edited by {serie.Volumes.GroupBy(x => x.EditedBy).Aggregate(string.Empty, (acc, item) => string.Concat(acc, " ", item))}");
+                        if (prepub > 0)
+                            fullyEdited.Add($"* {serie.Name} ({serie.Volumes.Count} books) - Edited by {serie.Volumes.GroupBy(x => x.EditedBy).Aggregate(string.Empty, (acc, item) => string.Concat(acc, " ", item.Key))}");
+                        else
+                            fullyEdited.Add($"* {serie.Name} ({serie.Volumes.Count} books) - Edited by {serie.Volumes.GroupBy(x => x.EditedBy).Aggregate(string.Empty, (acc, item) => string.Concat(acc, " ", item.Key))}");
                     }
                     else
                     {
-                        fullyEdited.Add($"* {serie.Name} ({serie.Volumes.Count} books) - Edited by {serie.Volumes[0].EditedBy}");
+                        if (prepub > 0)
+                            fullyEdited.Add($"* {serie.Name} ({serie.Volumes.Count - prepub} books) - Edited by {serie.Volumes[0].EditedBy} + {prepub} in pre-publication");
+                        else
+                            fullyEdited.Add($"* {serie.Name} ({serie.Volumes.Count - prepub} books) - Edited by {serie.Volumes[0].EditedBy}");
                     }
                 }
                 // Fully Unedited
                 else if (serie.Volumes.All(x => string.IsNullOrEmpty(x.EditedBy)))
                 {
-                    unedited.Add($"* {serie.Name} ({serie.Volumes.Count} books)");
+                    if (prepub > 0)
+                        unedited.Add($"* {serie.Name} ({serie.Volumes.Count - prepub} books) + {prepub} in pre-publication");
+                    else
+                        unedited.Add($"* {serie.Name} ({serie.Volumes.Count} books)");
                 }
                 else
                 {
                     var editedVolumes = serie.Volumes.Where(x => !string.IsNullOrEmpty(x.EditedBy)).ToList();
                     if (editedVolumes.GroupBy(x => x.EditedBy).Count() > 1)
                     {
-                        partEdited.Add($"* {serie.Name} ({serie.Volumes.Count} books) - Edited by {editedVolumes.GroupBy(x => x.EditedBy).Aggregate(string.Empty, (acc, item) => string.Concat(acc, " ", item, "(", item.Count(), " books)"))}");
+                        if (prepub > 0)
+                            partEdited.Add($"* {serie.Name} ({serie.Volumes.Count - prepub} books) - Edited by {editedVolumes.GroupBy(x => x.EditedBy).Aggregate(string.Empty, (acc, item) => string.Concat(acc, " ", item, "(", item.Count(), " books)"))} + {prepub} in pre-publication");
+                        else
+                            partEdited.Add($"* {serie.Name} ({serie.Volumes.Count} books) - Edited by {editedVolumes.GroupBy(x => x.EditedBy).Aggregate(string.Empty, (acc, item) => string.Concat(acc, " ", item, "(", item.Count(), " books)"))}");
                     }
                     else
                     {
-                        partEdited.Add($"* {serie.Name} ({serie.Volumes.Count} books) - Edited by {editedVolumes[0].EditedBy} ({editedVolumes.Count} books)");
+                        if (prepub > 0)
+                            partEdited.Add($"* {serie.Name} ({serie.Volumes.Count - prepub} books) - Edited by {editedVolumes[0].EditedBy} ({editedVolumes.Count} books) + {prepub} in pre-publication");
+                        else
+                            partEdited.Add($"* {serie.Name} ({serie.Volumes.Count} books) - Edited by {editedVolumes[0].EditedBy} ({editedVolumes.Count} books)");
                     }
                 }
             }
