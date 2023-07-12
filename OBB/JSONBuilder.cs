@@ -11,6 +11,7 @@ namespace OBB
     {
         static Regex ItemRefRegex = new Regex("\".*?\"");
         private static readonly Regex chapterTitleRegex = new Regex("<h1>[\\s\\S]*?<\\/h1>");
+        private static readonly Regex chapterSubTitleRegex = new Regex("<h2>[\\s\\S]*?<\\/h2>");
         public static async Task ExtractJSON()
         {
             var inFolder = Settings.MiscSettings.GetInputFolder();
@@ -194,6 +195,19 @@ namespace OBB
 
                                 var chapterContent = File.ReadAllText("jsontemp\\OEBPS\\text\\" + chapterFiles[0]);
                                 chapter.ChapterName = chapterTitleRegex.Match(chapterContent).Value.Replace("<h1>", string.Empty).Replace("</h1>", string.Empty);
+
+                                int subSection = 1;
+                                foreach (Match subHeader in chapterSubTitleRegex.Matches(chapterContent))
+                                {
+                                    chapter.Splits.Add(new ChapterSplit
+                                    {
+                                        Name = subHeader.Value.Replace("<h2>", "").Replace("</h2>", ""),
+                                        SplitLine = subHeader.Value,
+                                        SortOrder = subSection.ToString("00"),
+                                        SubFolder = string.Empty
+                                    });
+                                    subSection++;
+                                }
 
                                 AddChapter(volume, chapter, volumeName, volOrder, imageFiles);
 
