@@ -270,7 +270,7 @@
       {
         "ChapterName": "Volume 01",
         "SortOrder": "01",
-        "SubFolder": "99-Afterwords",
+        "SubFolder": "999-Afterwords",
         "OriginalFilenames": [
           "afterword"
         ],
@@ -687,7 +687,7 @@
       {
         "ChapterName": "Volume 02",
         "SortOrder": "02",
-        "SubFolder": "99-Afterwords",
+        "SubFolder": "999-Afterwords",
         "OriginalFilenames": [
           "afterword"
         ],
@@ -1116,7 +1116,7 @@
       {
         "ChapterName": "Volume 03",
         "SortOrder": "03",
-        "SubFolder": "99-Afterwords",
+        "SubFolder": "999-Afterwords",
         "OriginalFilenames": [
           "afterword"
         ],
@@ -1592,7 +1592,7 @@
       {
         "ChapterName": "Volume 04",
         "SortOrder": "04",
-        "SubFolder": "99-Afterwords",
+        "SubFolder": "999-Afterwords",
         "OriginalFilenames": [
           "afterword"
         ],

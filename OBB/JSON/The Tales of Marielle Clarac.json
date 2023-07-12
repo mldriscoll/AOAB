@@ -629,7 +629,7 @@
       {
         "ChapterName": "The Beloved of Marielle Clarac",
         "SortOrder": "02",
-        "SubFolder": "99-Afterwords",
+        "SubFolder": "999-Afterwords",
         "OriginalFilenames": [
           "afterword"
         ],
@@ -872,7 +872,7 @@
       {
         "ChapterName": "The Engagement of Marielle Clarac",
         "SortOrder": "01",
-        "SubFolder": "99-Afterwords",
+        "SubFolder": "999-Afterwords",
         "OriginalFilenames": [
           "afterword"
         ],
@@ -2697,7 +2697,7 @@
       {
         "ChapterName": "The Temptation of Marielle Clarac",
         "SortOrder": "03",
-        "SubFolder": "99-Afterwords",
+        "SubFolder": "999-Afterwords",
         "OriginalFilenames": [
           "afterword"
         ],

@@ -243,7 +243,7 @@ namespace OBB
             }
             else if (chapter.OriginalFilenames.Any(x => x.StartsWith("afterword")))
             {
-                chapter.SubFolder = "99-Afterwords";
+                chapter.SubFolder = "999-Afterwords";
                 chapter.SortOrder = volumeName ?? String.Empty;
                 chapter.ChapterName = $"Volume {volumeName}";
                 vol.ExtraContent.Add(chapter);
