@@ -178,31 +178,6 @@
       {
         "ChapterName": "Volume 01",
         "SortOrder": "01",
-        "SubFolder": "",
-        "OriginalFilenames": [],
-        "Chapters": [
-          {
-            "ChapterName": "Character Sheet",
-            "SortOrder": "0100",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "color2"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          }
-        ],
-        "Splits": [],
-        "Replacements": [],
-        "LinkedChapters": [],
-        "KeepFirstSplitSection": true
-      },
-      {
-        "ChapterName": "Volume 01",
-        "SortOrder": "01",
         "SubFolder": "999-Afterwords",
         "OriginalFilenames": [
           "afterword"
@@ -217,6 +192,7 @@
     "Gallery": {
       "SplashImages": [
         "color1",
+        "color2",
         "color3",
         "color4"
       ],
@@ -234,6 +210,186 @@
       "ChapterName": "",
       "SortOrder": "",
       "SubFolder": "01-Volume 01",
+      "OriginalFilenames": [],
+      "Chapters": [],
+      "Splits": [],
+      "Replacements": [],
+      "LinkedChapters": [],
+      "KeepFirstSplitSection": true
+    }
+  },
+  {
+    "InternalName": "the-apothecary-witch-turned-divorce-agent-volume-2",
+    "Chapters": [
+      {
+        "ChapterName": "Volume 02",
+        "SortOrder": "102",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Carla’s Apothecary",
+            "SortOrder": "10202",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1",
+              "insert1",
+              "chapter1_1",
+              "insert2",
+              "chapter1_2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Herbs and the Gathering of the Witches",
+            "SortOrder": "10203",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Queen’s Circumstances",
+            "SortOrder": "10204",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter3"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Lakebell",
+            "SortOrder": "10205",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter4",
+              "insert3",
+              "chapter4_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Terms of the Exchange",
+            "SortOrder": "10206",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter5",
+              "insert4",
+              "chapter5_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Residence of the Viscount of Marsden",
+            "SortOrder": "10207",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter6",
+              "insert5",
+              "chapter6_1",
+              "insert6",
+              "chapter6_2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Foresight Witch",
+            "SortOrder": "10208",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter7",
+              "insert7",
+              "chapter7_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "At the Theater",
+            "SortOrder": "10209",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter8",
+              "insert8"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "BonusChapters": [],
+    "ExtraContent": [
+      {
+        "ChapterName": "Volume 02",
+        "SortOrder": "102",
+        "SubFolder": "999-Afterwords",
+        "OriginalFilenames": [
+          "afterword"
+        ],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "Gallery": {
+      "SplashImages": [
+        "color1",
+        "color2",
+        "color3",
+        "color4"
+      ],
+      "ChapterImages": [
+        "insert1",
+        "insert2",
+        "insert3",
+        "insert4",
+        "insert5",
+        "insert6",
+        "insert7",
+        "insert8"
+      ],
+      "LateSubFolder": null,
+      "ChapterName": "",
+      "SortOrder": "",
+      "SubFolder": "102-Volume 02",
       "OriginalFilenames": [],
       "Chapters": [],
       "Splits": [],
