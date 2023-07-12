@@ -54,7 +54,7 @@ namespace OBB
                         var editor = Console.ReadLine();
                         if (!string.IsNullOrWhiteSpace(editor)) vol.EditedBy = editor;
 
-                        var volume = GenerateVolumeInfo(inFolder, (serie.Volumes.IndexOf(vol) + 1).ToString("00"), file);
+                        var volume = GenerateVolumeInfo(inFolder, vol.Title, vol.Order, file);
                         vols.RemoveAll(x => x.InternalName.Equals(vol.ApiSlug));
                         vols.Add(volume);
                         vols = vols.OrderBy(x => x.InternalName).ToList();
@@ -118,7 +118,7 @@ namespace OBB
             }
         }
 
-        public static Volume GenerateVolumeInfo(string inFolder, string? volumeName, string epub)
+        public static Volume GenerateVolumeInfo(string inFolder, string? volumeName, int volOrder, string epub)
         {
             if (Directory.Exists("jsontemp")) Directory.Delete("jsontemp", true);
             ZipFile.ExtractToDirectory(epub, "jsontemp");
@@ -134,24 +134,24 @@ namespace OBB
                 {
                     new Chapter
                     {
-                        ChapterName = $"Volume {volumeName}",
-                        SortOrder = volumeName
+                        ChapterName = volumeName,
+                        SortOrder = volOrder.ToString("000")
                     }
                 },
                 BonusChapters = new List<Chapter>
                 {
                     new Chapter
                     {
-                        ChapterName = $"Volume {volumeName}",
-                        SortOrder = volumeName
+                        ChapterName = volumeName,
+                        SortOrder = volOrder.ToString("000")
                     }
                 },
                 ExtraContent = new List<Chapter>
                 {
                     new Chapter
                     {
-                        ChapterName = $"Volume {volumeName}",
-                        SortOrder = volumeName
+                        ChapterName = volumeName,
+                        SortOrder = volOrder.ToString("000")
                     }
                 }
             };
@@ -186,7 +186,7 @@ namespace OBB
                             if (chapterFiles.Any())
                             {
                                 var chapter = new Chapter();
-                                chapter.SortOrder = volumeName + order.ToString("00");
+                                chapter.SortOrder = ((volOrder * 100) + order).ToString("00000");
                                 order++;
                                 chapter.OriginalFilenames.AddRange(chapterFiles.Select(x => x.Replace(".xhtml", string.Empty)));
 
@@ -208,7 +208,7 @@ namespace OBB
                 }
             }
 
-            var finalChapter = new Chapter { SortOrder = volumeName + order.ToString("00") };
+            var finalChapter = new Chapter { SortOrder = ((volOrder * 100) + order).ToString("00000") };
             finalChapter.OriginalFilenames.AddRange(chapterFiles.Select(x => x.Replace(".xhtml", string.Empty)));
             var finalChapterContent = File.ReadAllText("jsontemp\\OEBPS\\text\\" + chapterFiles[0]);
             finalChapter.ChapterName = chapterTitleRegex.Match(finalChapterContent).Value.Replace("<h1>", string.Empty).Replace("</h1>", string.Empty);
@@ -226,7 +226,7 @@ namespace OBB
                     AddImage(file, volume.Gallery.SplashImages);
                 }
             }
-            volume.Gallery.SubFolder = $"{volumeName}-Volume {volumeName}";
+            volume.Gallery.SubFolder = $"{volOrder}-{volumeName}";
             return volume;
         }
 
@@ -256,7 +256,7 @@ namespace OBB
             else if (chapter.OriginalFilenames.Any(x => x.StartsWith("map")))
             {
                 chapter.ChapterName = "Map";
-                chapter.SubFolder = "98-Maps";
+                chapter.SubFolder = "998-Maps";
                 vol.ExtraContent.Add(chapter);
             }
             else

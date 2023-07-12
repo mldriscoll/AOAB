@@ -62,7 +62,6 @@ namespace OBB
                         if (series != null)
                         {
                             var order = 100 * (series.ApiSlugs.FirstOrDefault(x => x.Slug.Equals(serie.Key.slug, StringComparison.InvariantCultureIgnoreCase))?.Order ?? 1);
-                            series.Volumes = series.Volumes.GroupBy(x => x.ApiSlug).Select(x => x.OrderByDescending(y => y.Published).First()).ToList();
 
                             series.Volumes.AddRange(serie.Value.Where(x => !series.Volumes.Any(y => y.ApiSlug.Equals(x.slug, StringComparison.OrdinalIgnoreCase))).ToList().Select(x => new VolumeName
                             {
@@ -85,12 +84,13 @@ namespace OBB
                                 Name = serie.Key.title,
                                 Volumes = serie.Value.Select(x => new VolumeName
                                 {
-                                    ApiSlug = x.slug,
+                                    ApiSlug = x.slug ?? string.Empty,
                                     EditedBy = null,
                                     FileName = $"{x.slug}.epub",
                                     ShowRemainingFiles = true,
                                     Order = 100 + x.number,
-                                    Published = DateOnly.FromDateTime(DateTime.Parse(x.publishing)).ToString("yyyy-MM-dd")
+                                    Published = DateOnly.FromDateTime(DateTime.Parse(x.publishing)).ToString("yyyy-MM-dd"),
+                                    Title = x.title ?? string.Empty
                                 }).ToList()
                             };
 
