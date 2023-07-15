@@ -166,53 +166,14 @@
     "InternalName": "i-refuse-to-be-your-enemy-volume-2",
     "Chapters": [
       {
-        "ChapterName": "Volume 2",
-        "SortOrder": "02",
+        "ChapterName": "Volume 02",
+        "SortOrder": "102",
         "SubFolder": "",
         "OriginalFilenames": [],
         "Chapters": [
           {
-            "ChapterName": "",
-            "SortOrder": "0201",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "frontmatter1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "0202",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "frontmatter2"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Landmarks",
-            "SortOrder": "0203",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "toc"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter 1: Counterattack on the Hills of Dilhorne",
-            "SortOrder": "0204",
+            "ChapterName": "Counterattack on the Hills of Dilhorne",
+            "SortOrder": "10202",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter1",
@@ -228,22 +189,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Interlude: Her Bloodstained Hand",
-            "SortOrder": "0205",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "interlude1",
-              "insert3"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter 2: Fate Closes In",
-            "SortOrder": "0206",
+            "ChapterName": "Fate Closes In",
+            "SortOrder": "10204",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter2",
@@ -257,8 +204,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 3: Departure from Évrard",
-            "SortOrder": "0207",
+            "ChapterName": "Departure from Évrard",
+            "SortOrder": "10205",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter3",
@@ -272,8 +219,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 4: The Battle of Fort Clonfert",
-            "SortOrder": "0208",
+            "ChapterName": "The Battle of Fort Clonfert",
+            "SortOrder": "10206",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter4",
@@ -286,78 +233,11 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 5: Mercenaries in Maynard City",
-            "SortOrder": "0209",
+            "ChapterName": "Mercenaries in Maynard City",
+            "SortOrder": "10207",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter5"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Side Story: Dreaming Under the Sunbeams",
-            "SortOrder": "0210",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "sidestory",
-              "insert7",
-              "sidestory_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Afterword",
-            "SortOrder": "0211",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "afterword"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Bonus Short Story",
-            "SortOrder": "0212",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "bonus"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "0213",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "signup"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "copyright"
             ],
             "Chapters": [],
             "Splits": [],
@@ -374,10 +254,73 @@
     ],
     "BonusChapters": [
       {
-        "ChapterName": "Volume 2",
-        "SortOrder": "02",
+        "ChapterName": "Volume 02",
+        "SortOrder": "102",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Her Bloodstained Hand [Mabel and Queen Marianne]",
+            "SortOrder": "10203",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "interlude1",
+              "insert3"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Side Story: Dreaming Under the Sunbeams",
+            "SortOrder": "10208",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "sidestory",
+              "insert7",
+              "sidestory_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Maya’s Close Encounter of the Doll Kind [Maya]",
+            "SortOrder": "10210",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [
+              {
+                "Original": "<h1>Maya’s Close Encounter of the Doll Kind [Maya]</h1>\r\n\r\n      <h2>Maya’s Close Encounter of the Doll Kind</h2>",
+                "Replacement": "<h1>Maya’s Close Encounter of the Doll Kind [Maya]</h1>"
+              }
+            ],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "ExtraContent": [
+      {
+        "ChapterName": "Volume 02",
+        "SortOrder": "102",
+        "SubFolder": "999-Afterwords",
+        "OriginalFilenames": [
+          "afterword"
+        ],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -385,12 +328,10 @@
         "KeepFirstSplitSection": true
       }
     ],
-    "ExtraContent": [],
     "Gallery": {
       "SplashImages": [
         "cover",
-        "frontmatter1",
-        "frontmatter2"
+        "frontmatter1"
       ],
       "ChapterImages": [
         "insert1",
@@ -404,7 +345,7 @@
       "LateSubFolder": null,
       "ChapterName": "",
       "SortOrder": "",
-      "SubFolder": "02-Volume 2",
+      "SubFolder": "102-Volume 02",
       "OriginalFilenames": [],
       "Chapters": [],
       "Splits": [],
@@ -997,7 +938,7 @@
     "Chapters": [
       {
         "ChapterName": "Volume 05",
-        "SortOrder": "05",
+        "SortOrder": "105",
         "SubFolder": "",
         "OriginalFilenames": [],
         "Chapters": [
@@ -1114,7 +1055,7 @@
     "BonusChapters": [
       {
         "ChapterName": "Volume 05",
-        "SortOrder": "05",
+        "SortOrder": "105",
         "SubFolder": "",
         "OriginalFilenames": [],
         "Chapters": [
@@ -1226,7 +1167,7 @@
     "ExtraContent": [
       {
         "ChapterName": "Volume 05",
-        "SortOrder": "05",
+        "SortOrder": "105",
         "SubFolder": "",
         "OriginalFilenames": [],
         "Chapters": [
@@ -1252,8 +1193,8 @@
       },
       {
         "ChapterName": "Volume 05",
-        "SortOrder": "05",
-        "SubFolder": "99-Afterwords",
+        "SortOrder": "105",
+        "SubFolder": "999-Afterwords",
         "OriginalFilenames": [
           "afterword"
         ],
@@ -1281,7 +1222,7 @@
       "LateSubFolder": null,
       "ChapterName": "",
       "SortOrder": "",
-      "SubFolder": "05-Volume 05",
+      "SubFolder": "105-Volume 05",
       "OriginalFilenames": [],
       "Chapters": [],
       "Splits": [],
