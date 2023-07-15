@@ -3,53 +3,14 @@
     "InternalName": "i-refuse-to-be-your-enemy",
     "Chapters": [
       {
-        "ChapterName": "Volume 1",
-        "SortOrder": "01",
+        "ChapterName": "Volume 01",
+        "SortOrder": "101",
         "SubFolder": "",
         "OriginalFilenames": [],
         "Chapters": [
           {
-            "ChapterName": "",
-            "SortOrder": "0101",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "frontmatter1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "0102",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "frontmatter2"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Landmarks",
-            "SortOrder": "0103",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "toc"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
             "ChapterName": "Prologue",
-            "SortOrder": "0104",
+            "SortOrder": "10102",
             "SubFolder": "",
             "OriginalFilenames": [
               "prologue"
@@ -61,8 +22,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 1: I’m Getting Out Of Here!",
-            "SortOrder": "0105",
+            "ChapterName": "I’m Getting Out Of Here!",
+            "SortOrder": "10103",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter1",
@@ -78,8 +39,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 2: The Path to Sorcery",
-            "SortOrder": "0106",
+            "ChapterName": "The Path to Sorcery",
+            "SortOrder": "10104",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter2",
@@ -93,8 +54,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 3: Struck Too Soon",
-            "SortOrder": "0107",
+            "ChapterName": "Struck Too Soon",
+            "SortOrder": "10105",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter3",
@@ -108,8 +69,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 4: The Toll of Fate’s Bell",
-            "SortOrder": "0108",
+            "ChapterName": "The Toll of Fate’s Bell",
+            "SortOrder": "10106",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter4",
@@ -117,86 +78,6 @@
               "chapter4_1",
               "insert6",
               "chapter4_2"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Side Story: The Midnight Lesson",
-            "SortOrder": "0109",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "sidestory",
-              "insert7",
-              "sidestory_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Afterword",
-            "SortOrder": "0110",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "afterword"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "0111",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "bonus1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "0112",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "bonus2"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "0113",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "signup"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "copyright"
             ],
             "Chapters": [],
             "Splits": [],
@@ -213,10 +94,41 @@
     ],
     "BonusChapters": [
       {
-        "ChapterName": "Volume 1",
-        "SortOrder": "01",
+        "ChapterName": "Volume 01",
+        "SortOrder": "101",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Side Story: The Midnight Lesson",
+            "SortOrder": "10107",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "sidestory",
+              "insert7",
+              "sidestory_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "ExtraContent": [
+      {
+        "ChapterName": "Volume 01",
+        "SortOrder": "101",
+        "SubFolder": "999-Afterwords",
+        "OriginalFilenames": [
+          "afterword"
+        ],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -224,15 +136,10 @@
         "KeepFirstSplitSection": true
       }
     ],
-    "ExtraContent": [],
     "Gallery": {
       "SplashImages": [
-        "bonus1",
-        "bonus2",
         "cover",
-        "frontmatter1",
-        "frontmatter2",
-        "jnovelclubrgb"
+        "frontmatter1"
       ],
       "ChapterImages": [
         "insert1",
@@ -246,7 +153,7 @@
       "LateSubFolder": null,
       "ChapterName": "",
       "SortOrder": "",
-      "SubFolder": "01-Volume 1",
+      "SubFolder": "101-Volume 01",
       "OriginalFilenames": [],
       "Chapters": [],
       "Splits": [],
@@ -1388,7 +1295,7 @@
     "Chapters": [
       {
         "ChapterName": "Volume 06",
-        "SortOrder": "06",
+        "SortOrder": "106",
         "SubFolder": "",
         "OriginalFilenames": [],
         "Chapters": [
@@ -1505,7 +1412,7 @@
     "BonusChapters": [
       {
         "ChapterName": "Volume 06",
-        "SortOrder": "06",
+        "SortOrder": "106",
         "SubFolder": "",
         "OriginalFilenames": [],
         "Chapters": [
@@ -1589,7 +1496,7 @@
     "ExtraContent": [
       {
         "ChapterName": "Volume 06",
-        "SortOrder": "06",
+        "SortOrder": "106",
         "SubFolder": "",
         "OriginalFilenames": [],
         "Chapters": [
@@ -1615,8 +1522,8 @@
       },
       {
         "ChapterName": "Volume 06",
-        "SortOrder": "06",
-        "SubFolder": "99-Afterwords",
+        "SortOrder": "106",
+        "SubFolder": "999-Afterwords",
         "OriginalFilenames": [
           "afterword",
           "insert8"
@@ -1630,7 +1537,7 @@
       {
         "ChapterName": "Final",
         "SortOrder": "06",
-        "SubFolder": "98-Maps",
+        "SubFolder": "998-Maps",
         "OriginalFilenames": [
           "frontmatter4"
         ],
@@ -1659,7 +1566,7 @@
       "LateSubFolder": null,
       "ChapterName": "",
       "SortOrder": "",
-      "SubFolder": "06-Volume 06",
+      "SubFolder": "106-Volume 06",
       "OriginalFilenames": [],
       "Chapters": [],
       "Splits": [],

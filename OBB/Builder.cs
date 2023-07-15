@@ -160,7 +160,7 @@ namespace OBB
                         coverPicked = true;
                     }
 
-                    var inChapters = inProcessor.Chapters.Where(x => x.SubFolder.Contains(volume.InternalName)).ToList();
+                    var inChapters = inProcessor.Chapters.Where(x => x.SubFolder.Contains(volume.InternalName + "\\")).ToList();
                     var chapters = BuildChapterList(volume, x => true);
 
                     foreach (var chapter in chapters)
