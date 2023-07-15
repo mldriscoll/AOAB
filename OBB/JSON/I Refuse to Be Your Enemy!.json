@@ -358,66 +358,14 @@
     "InternalName": "i-refuse-to-be-your-enemy-volume-3",
     "Chapters": [
       {
-        "ChapterName": "Volume 3",
-        "SortOrder": "03",
+        "ChapterName": "Volume 03",
+        "SortOrder": "103",
         "SubFolder": "",
         "OriginalFilenames": [],
         "Chapters": [
           {
-            "ChapterName": "",
-            "SortOrder": "0301",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "frontmatter1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "0302",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "frontmatter2"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "0303",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "frontmatter3"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Landmarks",
-            "SortOrder": "0304",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "toc"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter 1: The Battle of Cassia Castle",
-            "SortOrder": "0305",
+            "ChapterName": "The Battle of Cassia Castle",
+            "SortOrder": "10302",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter1",
@@ -431,8 +379,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 2: The Siege of Sorwen",
-            "SortOrder": "0306",
+            "ChapterName": "The Siege of Sorwen",
+            "SortOrder": "10303",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter2",
@@ -446,23 +394,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Interlude: Destiny’s Turning Point",
-            "SortOrder": "0307",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "interlude1",
-              "insert3",
-              "interlude1_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter 3: A Midsummer Cake and the Beginnings of Autumn",
-            "SortOrder": "0308",
+            "ChapterName": "A Midsummer Cake and the Beginnings of Autumn",
+            "SortOrder": "10305",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter3"
@@ -474,21 +407,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Interlude: The Fall of the Royal Capital",
-            "SortOrder": "0309",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "interlude2"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter 4: Battle on the Delphion Border",
-            "SortOrder": "0310",
+            "ChapterName": "Battle on the Delphion Border",
+            "SortOrder": "10307",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter4",
@@ -502,8 +422,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 5: Welcome to Delphion",
-            "SortOrder": "0311",
+            "ChapterName": "Welcome to Delphion",
+            "SortOrder": "10308",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter5",
@@ -517,106 +437,13 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Interlude: The Farzian Spellcaster",
-            "SortOrder": "0312",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "interlude3"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter 6: The Fort Inion Rescue Mission",
-            "SortOrder": "0313",
+            "ChapterName": "The Fort Inion Rescue Mission",
+            "SortOrder": "10310",
             "SubFolder": "",
             "OriginalFilenames": [
               "chapter6",
               "insert6",
               "chapter6_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Side Story: The Spellcaster’s Side Hustle",
-            "SortOrder": "0314",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "side1",
-              "insert7",
-              "side1_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Afterword",
-            "SortOrder": "0315",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "afterword"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Bonus Chapter: Reginald and Gina",
-            "SortOrder": "0316",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "bonus"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "0317",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "bonus1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "0318",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "signup"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "copyright"
             ],
             "Chapters": [],
             "Splits": [],
@@ -633,10 +460,120 @@
     ],
     "BonusChapters": [
       {
-        "ChapterName": "Volume 3",
-        "SortOrder": "03",
+        "ChapterName": "Volume 03",
+        "SortOrder": "103",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Destiny’s Turning Point [Ada]",
+            "SortOrder": "10304",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "interlude1",
+              "insert3",
+              "interlude1_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Fall of the Royal Capital [Ada]",
+            "SortOrder": "10306",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "interlude2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Farzian Spellcaster [Isaac]",
+            "SortOrder": "10309",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "interlude3"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Side Story: The Spellcaster’s Side Hustle",
+            "SortOrder": "10311",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "side1",
+              "insert7",
+              "side1_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Reginald and Gina [Gina]",
+            "SortOrder": "10313",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "ExtraContent": [
+      {
+        "ChapterName": "Volume 03",
+        "SortOrder": "103",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Character Sheet",
+            "SortOrder": "10300",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "frontmatter3"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      },
+      {
+        "ChapterName": "Volume 03",
+        "SortOrder": "103",
+        "SubFolder": "999-Afterwords",
+        "OriginalFilenames": [
+          "afterword"
+        ],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -644,14 +581,10 @@
         "KeepFirstSplitSection": true
       }
     ],
-    "ExtraContent": [],
     "Gallery": {
       "SplashImages": [
-        "bonus1",
         "cover",
-        "frontmatter1",
-        "frontmatter2",
-        "frontmatter3"
+        "frontmatter1"
       ],
       "ChapterImages": [
         "insert1",
@@ -665,7 +598,7 @@
       "LateSubFolder": null,
       "ChapterName": "",
       "SortOrder": "",
-      "SubFolder": "03-Volume 3",
+      "SubFolder": "103-Volume 03",
       "OriginalFilenames": [],
       "Chapters": [],
       "Splits": [],
@@ -679,7 +612,7 @@
     "Chapters": [
       {
         "ChapterName": "Volume 04",
-        "SortOrder": "04",
+        "SortOrder": "104",
         "SubFolder": "",
         "OriginalFilenames": [],
         "Chapters": [
@@ -770,7 +703,7 @@
     "BonusChapters": [
       {
         "ChapterName": "Volume 04",
-        "SortOrder": "04",
+        "SortOrder": "104",
         "SubFolder": "",
         "OriginalFilenames": [],
         "Chapters": [
@@ -856,7 +789,7 @@
     "ExtraContent": [
       {
         "ChapterName": "Volume 04",
-        "SortOrder": "04",
+        "SortOrder": "104",
         "SubFolder": "",
         "OriginalFilenames": [],
         "Chapters": [
@@ -882,8 +815,8 @@
       },
       {
         "ChapterName": "Volume 04",
-        "SortOrder": "04",
-        "SubFolder": "99-Afterwords",
+        "SortOrder": "104",
+        "SubFolder": "999-Afterwords",
         "OriginalFilenames": [
           "afterword"
         ],
@@ -896,7 +829,7 @@
       {
         "ChapterName": "Color",
         "SortOrder": "04",
-        "SubFolder": "98-Maps",
+        "SubFolder": "998-Maps",
         "OriginalFilenames": [
           "frontmatter4"
         ],
@@ -924,7 +857,7 @@
       "LateSubFolder": null,
       "ChapterName": "",
       "SortOrder": "",
-      "SubFolder": "04-Volume 04",
+      "SubFolder": "104-Volume 04",
       "OriginalFilenames": [],
       "Chapters": [],
       "Splits": [],
