@@ -224,7 +224,7 @@ namespace Core.Processor
     <title>{name}</title>
     <meta http-equiv={"\""}Content-Type{"\""} content={"\""}text/html; charset=utf-8{"\""} />
   <link rel={"\""}stylesheet{"\""} type={"\""}text/css{"\""} href={"\""}{chapter.CSSLink}css.css{"\""} />
-</head>{ chapter.Contents}</html>");
+</head>{ chapter.Contents}</body></html>");
                 manifest.Add($"    <item id={"\""}id{Chapters.IndexOf(chapter)}{"\""} href={"\""}Text/{RemoveUnwantedPathCharacters(chapter.OutputFolder).Replace('\\', '/') + chapter.OutputFileName}{"\""} media-type={"\""}application/xhtml+xml{"\""}/>");
                 spine.Add($"    <itemref idref={"\""}id{Chapters.IndexOf(chapter)}{"\""}/>");
             }

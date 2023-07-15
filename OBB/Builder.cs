@@ -143,7 +143,7 @@ namespace OBB
 
                 bool coverPicked = false;
 
-                foreach (var vol in selection.Volumes)
+                foreach (var vol in selection.Volumes.OrderBy(x => x.Order))
                 {
                     var temp = $"{inFolder}\\inputtemp\\{vol.ApiSlug}";
                     if (!Directory.Exists(temp)) continue;
@@ -165,7 +165,6 @@ namespace OBB
 
                     foreach (var chapter in chapters)
                     {
-
                         try
                         {
                             bool notFirst = false;
@@ -222,7 +221,7 @@ namespace OBB
 
                                         var splitChapter = new Core.Processor.Chapter
                                         {
-                                            Contents = $"<body>{div}<h1>{dict[key].Name}</h1>{split}</div></body>",
+                                            Contents = $"<body>{div}<h1>{dict[key].Name}</h1>{split}</div>",
                                             CssFiles = newChapter.CssFiles,
                                             Name = dict[key].Name + ".xhtml",
                                             SubFolder = string.IsNullOrWhiteSpace(dict[key].SubFolder) ? newChapter.SubFolder + $"\\{newChapter.SortOrder}-{newChapter.Name}" : dict[key].SubFolder,
@@ -234,14 +233,8 @@ namespace OBB
 
                                     if (chapter.KeepFirstSplitSection)
                                     {
-                                        newChapter.Contents = newChapter.Contents.Substring(0, previousIndex ?? newChapter.Contents.Length) + "</div></body>";
-                                        outProcessor.Chapters.Add(newChapter);
+                                        newChapter.Contents = newChapter.Contents.Substring(0, previousIndex ?? newChapter.Contents.Length) + "</div>";
                                     }
-                                }
-                                else
-                                {
-                                    outProcessor.Chapters.Add(newChapter);
-                                    newChapter.Contents = string.Concat(newChapter.Contents, "</body>");
                                 }
 
                                 if (Settings.ChapterSettings.UpdateChapterTitles)
@@ -254,6 +247,20 @@ namespace OBB
                                 foreach (var replacement in chapter.Replacements)
                                 {
                                     newChapter.Contents = newChapter.Contents.Replace(replacement.Original, replacement.Replacement);
+                                }
+
+                                if (!chapter.Splits.Any() || chapter.KeepFirstSplitSection)
+                                {
+                                    var matchingChapter = outProcessor.Chapters.FirstOrDefault(x => x.Name.Equals(newChapter.Name) && x.SortOrder == newChapter.SortOrder && x.SubFolder.Equals(newChapter.SubFolder));
+                                    if (matchingChapter != null)
+                                    {
+                                        matchingChapter.Contents = string.Concat(matchingChapter.Contents, newChapter.Contents);
+                                        matchingChapter.CssFiles = matchingChapter.CssFiles.Union(newChapter.CssFiles).Distinct().ToList();
+                                    }
+                                    else
+                                    {
+                                        outProcessor.Chapters.Add(newChapter);
+                                    }
                                 }
                             }
                         }
