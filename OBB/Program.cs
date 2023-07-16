@@ -30,6 +30,7 @@ while (true)
     Console.WriteLine("6 - Create .json from .epub");
     Console.WriteLine("7 - Update Series List");
 #if DEBUG
+    Console.WriteLine("9 - Verify All JSON");
     Console.WriteLine("10 - Create Series Summary Table");
 #endif
 
@@ -61,6 +62,23 @@ while (true)
             await NewVolumes.List();
             break;
 #if DEBUG
+        case 9:
+            var series = await JSONBuilder.GetSeries();
+            foreach (var serie in series)
+            {
+                try
+                {
+                    await JSONBuilder.GetVolumes(serie.InternalName);
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(serie.InternalName);
+                    Console.Write(ex.Message);
+                }
+            }
+            Console.Write("Check Complete");
+            Console.ReadKey();
+            break;
         case 10:
             await JSONBuilder.GenerateTable();
             break;

@@ -3,7 +3,7 @@
     "InternalName": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-1",
     "Chapters": [
       {
-        "ChapterName": "A Housekeeping Mage\u2019s Daily Life",
+        "ChapterName": "A Housekeeping Mage’s Daily Life",
         "SortOrder": "01",
         "SubFolder": "",
         "OriginalFilenames": [],
@@ -115,7 +115,7 @@
         "KeepFirstSplitSection": true
       },
       {
-        "ChapterName": "The Familiar\u2019s Homecoming",
+        "ChapterName": "The Familiar’s Homecoming",
         "SortOrder": "02",
         "SubFolder": "",
         "OriginalFilenames": [],
@@ -173,7 +173,7 @@
     ],
     "BonusChapters": [
       {
-        "ChapterName": "A Housekeeping Mage\u2019s Daily Life",
+        "ChapterName": "A Housekeeping Mage’s Daily Life",
         "SortOrder": "01",
         "SubFolder": "",
         "OriginalFilenames": [],
@@ -224,13 +224,13 @@
         "KeepFirstSplitSection": true
       },
       {
-        "ChapterName": "The Familiar\u2019s Homecoming",
+        "ChapterName": "The Familiar’s Homecoming",
         "SortOrder": "02",
         "SubFolder": "",
         "OriginalFilenames": [],
         "Chapters": [
           {
-            "ChapterName": "Rurii\u2019s Soliloquy",
+            "ChapterName": "Rurii’s Soliloquy",
             "SortOrder": "0114",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -264,32 +264,34 @@
         "KeepFirstSplitSection": true
       }
     ],
-    "Gallery": {
-      "SplashImages": [
-        "cover",
-        "frontmatter1"
-      ],
-      "ChapterImages": [
-        "insert1",
-        "insert2",
-        "insert3",
-        "insert4",
-        "insert5",
-        "insert6",
-        "insert7",
-        "insert8"
-      ],
-      "LateSubFolder": "02-The Familiar\u2019s Homecoming",
-      "ChapterName": "",
-      "SortOrder": "",
-      "SubFolder": "01-A Housekeeping Mage\u2019s Daily Life",
-      "OriginalFilenames": [],
-      "Chapters": [],
-      "Splits": [],
-      "Replacements": [],
-      "LinkedChapters": [],
-      "KeepFirstSplitSection": true
-    }
+    "Gallery": [
+      {
+        "SplashImages": [
+          "cover",
+          "frontmatter1"
+        ],
+        "ChapterImages": [
+          "insert1",
+          "insert2",
+          "insert3",
+          "insert4",
+          "insert5",
+          "insert6",
+          "insert7",
+          "insert8"
+        ],
+        "LateSubFolder": "02-The Familiar’s Homecoming",
+        "ChapterName": "",
+        "SortOrder": "",
+        "SubFolder": "01-A Housekeeping Mage’s Daily Life",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ]
   },
   {
     "InternalName": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-2",
@@ -345,7 +347,7 @@
         "OriginalFilenames": [],
         "Chapters": [
           {
-            "ChapterName": "The Forest\u2019s Retribution",
+            "ChapterName": "The Forest’s Retribution",
             "SortOrder": "0204",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -398,7 +400,7 @@
     ],
     "BonusChapters": [
       {
-        "ChapterName": "Shiori\u2019s Lost Diary",
+        "ChapterName": "Shiori’s Lost Diary",
         "SortOrder": "0203",
         "SubFolder": "03-Love Ending, Love Beginning",
         "OriginalFilenames": [
@@ -471,7 +473,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Shiori\u2019s New Diary",
+            "ChapterName": "Shiori’s New Diary",
             "SortOrder": "0211",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -532,32 +534,34 @@
         "KeepFirstSplitSection": true
       }
     ],
-    "Gallery": {
-      "SplashImages": [
-        "cover",
-        "frontmatter1"
-      ],
-      "ChapterImages": [
-        "insert1",
-        "insert2",
-        "insert3",
-        "insert4",
-        "insert5",
-        "insert6",
-        "insert7",
-        "insert8"
-      ],
-      "LateSubFolder": "04-To New Days",
-      "ChapterName": "",
-      "SortOrder": "",
-      "SubFolder": "03-Love Ending, Love Beginning",
-      "OriginalFilenames": [],
-      "Chapters": [],
-      "Splits": [],
-      "Replacements": [],
-      "LinkedChapters": [],
-      "KeepFirstSplitSection": true
-    }
+    "Gallery": [
+      {
+        "SplashImages": [
+          "cover",
+          "frontmatter1"
+        ],
+        "ChapterImages": [
+          "insert1",
+          "insert2",
+          "insert3",
+          "insert4",
+          "insert5",
+          "insert6",
+          "insert7",
+          "insert8"
+        ],
+        "LateSubFolder": "04-To New Days",
+        "ChapterName": "",
+        "SortOrder": "",
+        "SubFolder": "03-Love Ending, Love Beginning",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ]
   },
   {
     "InternalName": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-3",
@@ -701,7 +705,7 @@
         "OriginalFilenames": [],
         "Chapters": [
           {
-            "ChapterName": "The Herbalist Physician\u2019s Tender Wish",
+            "ChapterName": "The Herbalist Physician’s Tender Wish",
             "SortOrder": "0307",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -761,32 +765,34 @@
         "KeepFirstSplitSection": true
       }
     ],
-    "Gallery": {
-      "SplashImages": [
-        "cover",
-        "frontmatter1"
-      ],
-      "ChapterImages": [
-        "insert1",
-        "insert2",
-        "insert3",
-        "insert4",
-        "insert5",
-        "insert6",
-        "insert7",
-        "insert8"
-      ],
-      "LateSubFolder": "06-The Purity of Ever-Changing Scenery",
-      "ChapterName": "",
-      "SortOrder": "",
-      "SubFolder": "05-Proof of Remembrance",
-      "OriginalFilenames": [],
-      "Chapters": [],
-      "Splits": [],
-      "Replacements": [],
-      "LinkedChapters": [],
-      "KeepFirstSplitSection": true
-    }
+    "Gallery": [
+      {
+        "SplashImages": [
+          "cover",
+          "frontmatter1"
+        ],
+        "ChapterImages": [
+          "insert1",
+          "insert2",
+          "insert3",
+          "insert4",
+          "insert5",
+          "insert6",
+          "insert7",
+          "insert8"
+        ],
+        "LateSubFolder": "06-The Purity of Ever-Changing Scenery",
+        "ChapterName": "",
+        "SortOrder": "",
+        "SubFolder": "05-Proof of Remembrance",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ]
   },
   {
     "InternalName": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-4",
@@ -885,7 +891,7 @@
         "OriginalFilenames": [],
         "Chapters": [
           {
-            "ChapterName": "A Younger Brother\u2019s Request",
+            "ChapterName": "A Younger Brother’s Request",
             "SortOrder": "0405",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -964,32 +970,34 @@
         "KeepFirstSplitSection": true
       }
     ],
-    "Gallery": {
-      "SplashImages": [
-        "cover",
-        "frontmatter1"
-      ],
-      "ChapterImages": [
-        "insert1",
-        "insert2",
-        "insert3",
-        "insert4",
-        "insert5",
-        "insert6",
-        "insert7",
-        "insert8"
-      ],
-      "LateSubFolder": "08-Vows in White",
-      "ChapterName": "",
-      "SortOrder": "",
-      "SubFolder": "07-Blending Hearts",
-      "OriginalFilenames": [],
-      "Chapters": [],
-      "Splits": [],
-      "Replacements": [],
-      "LinkedChapters": [],
-      "KeepFirstSplitSection": true
-    }
+    "Gallery": [
+      {
+        "SplashImages": [
+          "cover",
+          "frontmatter1"
+        ],
+        "ChapterImages": [
+          "insert1",
+          "insert2",
+          "insert3",
+          "insert4",
+          "insert5",
+          "insert6",
+          "insert7",
+          "insert8"
+        ],
+        "LateSubFolder": "08-Vows in White",
+        "ChapterName": "",
+        "SortOrder": "",
+        "SubFolder": "07-Blending Hearts",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ]
   },
   {
     "InternalName": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-5",
@@ -1168,31 +1176,33 @@
         "KeepFirstSplitSection": true
       }
     ],
-    "Gallery": {
-      "SplashImages": [
-        "cover",
-        "frontmatter1"
-      ],
-      "ChapterImages": [
-        "insert1",
-        "insert2",
-        "insert3",
-        "insert4",
-        "insert5",
-        "insert6",
-        "insert7",
-        "insert8"
-      ],
-      "LateSubFolder": "10-A Distant Prayer",
-      "ChapterName": "",
-      "SortOrder": "",
-      "SubFolder": "09-Idol of the Holy Night",
-      "OriginalFilenames": [],
-      "Chapters": [],
-      "Splits": [],
-      "Replacements": [],
-      "LinkedChapters": [],
-      "KeepFirstSplitSection": true
-    }
+    "Gallery": [
+      {
+        "SplashImages": [
+          "cover",
+          "frontmatter1"
+        ],
+        "ChapterImages": [
+          "insert1",
+          "insert2",
+          "insert3",
+          "insert4",
+          "insert5",
+          "insert6",
+          "insert7",
+          "insert8"
+        ],
+        "LateSubFolder": "10-A Distant Prayer",
+        "ChapterName": "",
+        "SortOrder": "",
+        "SubFolder": "09-Idol of the Holy Night",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ]
   }
 ]

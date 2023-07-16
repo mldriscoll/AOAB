@@ -249,37 +249,39 @@
         "KeepFirstSplitSection": true
       }
     ],
-    "Gallery": {
-      "SplashImages": [
-        "bonus1",
-        "frontmatter1",
-        "frontmatter2",
-        "frontmatter3",
-        "frontmatter4"
-      ],
-      "ChapterImages": [
-        "insert1",
-        "insert2",
-        "insert3",
-        "insert4",
-        "insert5",
-        "insert6",
-        "insert7",
-        "insert8",
-        "insert9",
-        "insert10"
-      ],
-      "LateSubFolder": null,
-      "ChapterName": "",
-      "SortOrder": "",
-      "SubFolder": "01-Erika Aurelia and the Seafarer's Ruins",
-      "OriginalFilenames": [],
-      "Chapters": [],
-      "Splits": [],
-      "Replacements": [],
-      "LinkedChapters": [],
-      "KeepFirstSplitSection": true
-    }
+    "Gallery": [
+      {
+        "SplashImages": [
+          "bonus1",
+          "frontmatter1",
+          "frontmatter2",
+          "frontmatter3",
+          "frontmatter4"
+        ],
+        "ChapterImages": [
+          "insert1",
+          "insert2",
+          "insert3",
+          "insert4",
+          "insert5",
+          "insert6",
+          "insert7",
+          "insert8",
+          "insert9",
+          "insert10"
+        ],
+        "LateSubFolder": null,
+        "ChapterName": "",
+        "SortOrder": "",
+        "SubFolder": "01-Erika Aurelia and the Seafarer's Ruins",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ]
   },
   {
     "InternalName": "deathbound-duke-s-daughter-volume-2",
@@ -622,36 +624,38 @@
       }
     ],
     "ExtraContent": [],
-    "Gallery": {
-      "SplashImages": [
-        "bonus1",
-        "frontmatter2",
-        "frontmatter3",
-        "frontmatter4",
-        "frontmatter5"
-      ],
-      "ChapterImages": [
-        "insert1",
-        "insert2",
-        "insert3",
-        "insert4",
-        "insert5",
-        "insert6",
-        "insert7",
-        "insert8",
-        "insert9",
-        "insert10"
-      ],
-      "LateSubFolder": null,
-      "ChapterName": "",
-      "SortOrder": "",
-      "SubFolder": "02-Erika Aurelia and the Angel's Crypt",
-      "OriginalFilenames": [],
-      "Chapters": [],
-      "Splits": [],
-      "Replacements": [],
-      "LinkedChapters": [],
-      "KeepFirstSplitSection": true
-    }
+    "Gallery": [
+      {
+        "SplashImages": [
+          "bonus1",
+          "frontmatter2",
+          "frontmatter3",
+          "frontmatter4",
+          "frontmatter5"
+        ],
+        "ChapterImages": [
+          "insert1",
+          "insert2",
+          "insert3",
+          "insert4",
+          "insert5",
+          "insert6",
+          "insert7",
+          "insert8",
+          "insert9",
+          "insert10"
+        ],
+        "LateSubFolder": null,
+        "ChapterName": "",
+        "SortOrder": "",
+        "SubFolder": "02-Erika Aurelia and the Angel's Crypt",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ]
   }
 ]

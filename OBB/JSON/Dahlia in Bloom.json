@@ -213,33 +213,35 @@
         "KeepFirstSplitSection": true
       }
     ],
-    "Gallery": {
-      "SplashImages": [
-        "color1",
-        "color2",
-        "color3"
-      ],
-      "ChapterImages": [
-        "insert1",
-        "insert2",
-        "insert3",
-        "insert4",
-        "insert5",
-        "insert6",
-        "insert7",
-        "insert8"
-      ],
-      "LateSubFolder": null,
-      "ChapterName": "",
-      "SortOrder": "",
-      "SubFolder": "01-Volume 01",
-      "OriginalFilenames": [],
-      "Chapters": [],
-      "Splits": [],
-      "Replacements": [],
-      "LinkedChapters": [],
-      "KeepFirstSplitSection": true
-    }
+    "Gallery": [
+      {
+        "SplashImages": [
+          "color1",
+          "color2",
+          "color3"
+        ],
+        "ChapterImages": [
+          "insert1",
+          "insert2",
+          "insert3",
+          "insert4",
+          "insert5",
+          "insert6",
+          "insert7",
+          "insert8"
+        ],
+        "LateSubFolder": null,
+        "ChapterName": "",
+        "SortOrder": "",
+        "SubFolder": "01-Volume 01",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ]
   },
   {
     "InternalName": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-2",
@@ -519,32 +521,34 @@
         "KeepFirstSplitSection": true
       }
     ],
-    "Gallery": {
-      "SplashImages": [
-        "color1",
-        "color2",
-        "color3"
-      ],
-      "ChapterImages": [
-        "insert1",
-        "insert2",
-        "insert3",
-        "insert4",
-        "insert5",
-        "insert6",
-        "insert7"
-      ],
-      "LateSubFolder": null,
-      "ChapterName": "",
-      "SortOrder": "",
-      "SubFolder": "02-Volume 02",
-      "OriginalFilenames": [],
-      "Chapters": [],
-      "Splits": [],
-      "Replacements": [],
-      "LinkedChapters": [],
-      "KeepFirstSplitSection": true
-    }
+    "Gallery": [
+      {
+        "SplashImages": [
+          "color1",
+          "color2",
+          "color3"
+        ],
+        "ChapterImages": [
+          "insert1",
+          "insert2",
+          "insert3",
+          "insert4",
+          "insert5",
+          "insert6",
+          "insert7"
+        ],
+        "LateSubFolder": null,
+        "ChapterName": "",
+        "SortOrder": "",
+        "SubFolder": "02-Volume 02",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ]
   },
   {
     "InternalName": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-3",
@@ -825,32 +829,34 @@
         "KeepFirstSplitSection": true
       }
     ],
-    "Gallery": {
-      "SplashImages": [
-        "color1",
-        "color2",
-        "color3"
-      ],
-      "ChapterImages": [
-        "insert1",
-        "insert2",
-        "insert3",
-        "insert4",
-        "insert5",
-        "insert6",
-        "insert7"
-      ],
-      "LateSubFolder": null,
-      "ChapterName": "",
-      "SortOrder": "",
-      "SubFolder": "03-Volume 03",
-      "OriginalFilenames": [],
-      "Chapters": [],
-      "Splits": [],
-      "Replacements": [],
-      "LinkedChapters": [],
-      "KeepFirstSplitSection": true
-    }
+    "Gallery": [
+      {
+        "SplashImages": [
+          "color1",
+          "color2",
+          "color3"
+        ],
+        "ChapterImages": [
+          "insert1",
+          "insert2",
+          "insert3",
+          "insert4",
+          "insert5",
+          "insert6",
+          "insert7"
+        ],
+        "LateSubFolder": null,
+        "ChapterName": "",
+        "SortOrder": "",
+        "SubFolder": "03-Volume 03",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ]
   },
   {
     "InternalName": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-4",
@@ -1106,32 +1112,34 @@
         "KeepFirstSplitSection": true
       }
     ],
-    "Gallery": {
-      "SplashImages": [
-        "color1",
-        "color2",
-        "color3"
-      ],
-      "ChapterImages": [
-        "insert1",
-        "insert2",
-        "insert3",
-        "insert4",
-        "insert5",
-        "insert6",
-        "insert7"
-      ],
-      "LateSubFolder": null,
-      "ChapterName": "",
-      "SortOrder": "",
-      "SubFolder": "04-Volume 04",
-      "OriginalFilenames": [],
-      "Chapters": [],
-      "Splits": [],
-      "Replacements": [],
-      "LinkedChapters": [],
-      "KeepFirstSplitSection": true
-    }
+    "Gallery": [
+      {
+        "SplashImages": [
+          "color1",
+          "color2",
+          "color3"
+        ],
+        "ChapterImages": [
+          "insert1",
+          "insert2",
+          "insert3",
+          "insert4",
+          "insert5",
+          "insert6",
+          "insert7"
+        ],
+        "LateSubFolder": null,
+        "ChapterName": "",
+        "SortOrder": "",
+        "SubFolder": "04-Volume 04",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ]
   },
   {
     "InternalName": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-5",
@@ -1385,32 +1393,34 @@
         "KeepFirstSplitSection": true
       }
     ],
-    "Gallery": {
-      "SplashImages": [
-        "color1",
-        "color2",
-        "color3"
-      ],
-      "ChapterImages": [
-        "insert1",
-        "insert2",
-        "insert3",
-        "insert4",
-        "insert5",
-        "insert6",
-        "insert7"
-      ],
-      "LateSubFolder": null,
-      "ChapterName": "",
-      "SortOrder": "",
-      "SubFolder": "05-Volume 05",
-      "OriginalFilenames": [],
-      "Chapters": [],
-      "Splits": [],
-      "Replacements": [],
-      "LinkedChapters": [],
-      "KeepFirstSplitSection": true
-    }
+    "Gallery": [
+      {
+        "SplashImages": [
+          "color1",
+          "color2",
+          "color3"
+        ],
+        "ChapterImages": [
+          "insert1",
+          "insert2",
+          "insert3",
+          "insert4",
+          "insert5",
+          "insert6",
+          "insert7"
+        ],
+        "LateSubFolder": null,
+        "ChapterName": "",
+        "SortOrder": "",
+        "SubFolder": "05-Volume 05",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ]
   },
   {
     "InternalName": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-6",
@@ -1663,32 +1673,34 @@
         "KeepFirstSplitSection": true
       }
     ],
-    "Gallery": {
-      "SplashImages": [
-        "color1",
-        "color2",
-        "color3"
-      ],
-      "ChapterImages": [
-        "insert1",
-        "insert2",
-        "insert3",
-        "insert4",
-        "insert5",
-        "insert6",
-        "insert7"
-      ],
-      "LateSubFolder": null,
-      "ChapterName": "",
-      "SortOrder": "",
-      "SubFolder": "06-Volume 06",
-      "OriginalFilenames": [],
-      "Chapters": [],
-      "Splits": [],
-      "Replacements": [],
-      "LinkedChapters": [],
-      "KeepFirstSplitSection": true
-    }
+    "Gallery": [
+      {
+        "SplashImages": [
+          "color1",
+          "color2",
+          "color3"
+        ],
+        "ChapterImages": [
+          "insert1",
+          "insert2",
+          "insert3",
+          "insert4",
+          "insert5",
+          "insert6",
+          "insert7"
+        ],
+        "LateSubFolder": null,
+        "ChapterName": "",
+        "SortOrder": "",
+        "SubFolder": "06-Volume 06",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ]
   },
   {
     "InternalName": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-7",
@@ -1932,30 +1944,32 @@
         "KeepFirstSplitSection": true
       }
     ],
-    "Gallery": {
-      "SplashImages": [
-        "cover",
-        "color1"
-      ],
-      "ChapterImages": [
-        "insert1",
-        "insert2",
-        "insert3",
-        "insert4",
-        "insert5",
-        "insert6",
-        "insert7"
-      ],
-      "LateSubFolder": null,
-      "ChapterName": "",
-      "SortOrder": "",
-      "SubFolder": "07-Volume 07",
-      "OriginalFilenames": [],
-      "Chapters": [],
-      "Splits": [],
-      "Replacements": [],
-      "LinkedChapters": [],
-      "KeepFirstSplitSection": true
-    }
+    "Gallery": [
+      {
+        "SplashImages": [
+          "cover",
+          "color1"
+        ],
+        "ChapterImages": [
+          "insert1",
+          "insert2",
+          "insert3",
+          "insert4",
+          "insert5",
+          "insert6",
+          "insert7"
+        ],
+        "LateSubFolder": null,
+        "ChapterName": "",
+        "SortOrder": "",
+        "SubFolder": "07-Volume 07",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ]
   }
 ]

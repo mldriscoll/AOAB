@@ -253,34 +253,36 @@
         "KeepFirstSplitSection": true
       }
     ],
-    "Gallery": {
-      "SplashImages": [
-        "bonus1",
-        "bonus2",
-        "bonus3",
-        "bonus4"
-      ],
-      "ChapterImages": [
-        "insert1",
-        "insert2",
-        "insert3",
-        "insert4",
-        "insert5",
-        "insert6",
-        "insert7",
-        "insert8"
-      ],
-      "LateSubFolder": "01-Volume 01",
-      "ChapterName": "Volume 01",
-      "SortOrder": "01",
-      "SubFolder": "",
-      "OriginalFilenames": [],
-      "Chapters": [],
-      "Splits": [],
-      "Replacements": [],
-      "LinkedChapters": [],
-      "KeepFirstSplitSection": true
-    }
+    "Gallery": [
+      {
+        "SplashImages": [
+          "bonus1",
+          "bonus2",
+          "bonus3",
+          "bonus4"
+        ],
+        "ChapterImages": [
+          "insert1",
+          "insert2",
+          "insert3",
+          "insert4",
+          "insert5",
+          "insert6",
+          "insert7",
+          "insert8"
+        ],
+        "LateSubFolder": "01-Volume 01",
+        "ChapterName": "Volume 01",
+        "SortOrder": "01",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ]
   },
   {
     "InternalName": "vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream-volume-2",
@@ -498,35 +500,37 @@
         "KeepFirstSplitSection": true
       }
     ],
-    "Gallery": {
-      "SplashImages": [
-        "bonus1",
-        "bonus2",
-        "bonus3",
-        "bonus4",
-        "summary"
-      ],
-      "ChapterImages": [
-        "insert1",
-        "insert2",
-        "insert3",
-        "insert4",
-        "insert5",
-        "insert6",
-        "insert7",
-        "insert8"
-      ],
-      "LateSubFolder": "02-Volume 02",
-      "ChapterName": "Volume 02",
-      "SortOrder": "02",
-      "SubFolder": "",
-      "OriginalFilenames": [],
-      "Chapters": [],
-      "Splits": [],
-      "Replacements": [],
-      "LinkedChapters": [],
-      "KeepFirstSplitSection": true
-    }
+    "Gallery": [
+      {
+        "SplashImages": [
+          "bonus1",
+          "bonus2",
+          "bonus3",
+          "bonus4",
+          "summary"
+        ],
+        "ChapterImages": [
+          "insert1",
+          "insert2",
+          "insert3",
+          "insert4",
+          "insert5",
+          "insert6",
+          "insert7",
+          "insert8"
+        ],
+        "LateSubFolder": "02-Volume 02",
+        "ChapterName": "Volume 02",
+        "SortOrder": "02",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ]
   },
   {
     "InternalName": "vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream-volume-3",
@@ -717,30 +721,32 @@
         "KeepFirstSplitSection": true
       }
     ],
-    "Gallery": {
-      "SplashImages": [
-        "bonus1",
-        "bonus2",
-        "bonus3",
-        "bonus4"
-      ],
-      "ChapterImages": [
-        "insert1",
-        "insert2",
-        "insert3",
-        "insert4"
-      ],
-      "LateSubFolder": "03-Volume 03",
-      "ChapterName": "Volume 03",
-      "SortOrder": "03",
-      "SubFolder": "",
-      "OriginalFilenames": [],
-      "Chapters": [],
-      "Splits": [],
-      "Replacements": [],
-      "LinkedChapters": [],
-      "KeepFirstSplitSection": true
-    }
+    "Gallery": [
+      {
+        "SplashImages": [
+          "bonus1",
+          "bonus2",
+          "bonus3",
+          "bonus4"
+        ],
+        "ChapterImages": [
+          "insert1",
+          "insert2",
+          "insert3",
+          "insert4"
+        ],
+        "LateSubFolder": "03-Volume 03",
+        "ChapterName": "Volume 03",
+        "SortOrder": "03",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ]
   },
   {
     "InternalName": "vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream-volume-4",
@@ -924,34 +930,36 @@
         "KeepFirstSplitSection": true
       }
     ],
-    "Gallery": {
-      "SplashImages": [
-        "bonus1",
-        "bonus2",
-        "bonus3",
-        "bonus4"
-      ],
-      "ChapterImages": [
-        "insert1",
-        "insert2",
-        "insert3",
-        "insert4",
-        "insert5",
-        "insert6",
-        "insert7",
-        "insert8"
-      ],
-      "LateSubFolder": "04-Volume 04",
-      "ChapterName": "Volume 04",
-      "SortOrder": "04",
-      "SubFolder": "",
-      "OriginalFilenames": [],
-      "Chapters": [],
-      "Splits": [],
-      "Replacements": [],
-      "LinkedChapters": [],
-      "KeepFirstSplitSection": true
-    }
+    "Gallery": [
+      {
+        "SplashImages": [
+          "bonus1",
+          "bonus2",
+          "bonus3",
+          "bonus4"
+        ],
+        "ChapterImages": [
+          "insert1",
+          "insert2",
+          "insert3",
+          "insert4",
+          "insert5",
+          "insert6",
+          "insert7",
+          "insert8"
+        ],
+        "LateSubFolder": "04-Volume 04",
+        "ChapterName": "Volume 04",
+        "SortOrder": "04",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ]
   },
   {
     "InternalName": "vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream-volume-5",
@@ -1163,35 +1171,37 @@
         "KeepFirstSplitSection": true
       }
     ],
-    "Gallery": {
-      "SplashImages": [
-        "bonus1",
-        "bonus2",
-        "bonus3",
-        "bonus4"
-      ],
-      "ChapterImages": [
-        "insert1",
-        "insert2",
-        "insert3",
-        "insert4",
-        "insert5",
-        "insert6",
-        "insert7",
-        "insert8",
-        "insert9",
-        "insert10"
-      ],
-      "LateSubFolder": null,
-      "ChapterName": "",
-      "SortOrder": "",
-      "SubFolder": "105-Volume 05",
-      "OriginalFilenames": [],
-      "Chapters": [],
-      "Splits": [],
-      "Replacements": [],
-      "LinkedChapters": [],
-      "KeepFirstSplitSection": true
-    }
+    "Gallery": [
+      {
+        "SplashImages": [
+          "bonus1",
+          "bonus2",
+          "bonus3",
+          "bonus4"
+        ],
+        "ChapterImages": [
+          "insert1",
+          "insert2",
+          "insert3",
+          "insert4",
+          "insert5",
+          "insert6",
+          "insert7",
+          "insert8",
+          "insert9",
+          "insert10"
+        ],
+        "LateSubFolder": null,
+        "ChapterName": "",
+        "SortOrder": "",
+        "SubFolder": "105-Volume 05",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ]
   }
 ]

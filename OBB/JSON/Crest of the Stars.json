@@ -120,12 +120,14 @@
         ]
       }
     ],
-    "Gallery": {
-      "SplashImages": [ "cover", "frontmatter1" ],
-      "ChapterImages": [],
-      "ChapterName": "",
-      "SubFolder": "01-Crest of the Stars: Volume 1"
-    }
+    "Gallery": [
+      {
+        "SplashImages": [ "cover", "frontmatter1" ],
+        "ChapterImages": [],
+        "ChapterName": "",
+        "SubFolder": "01-Crest of the Stars: Volume 1"
+      }
+    ]
   },
   {
     "InternalName": "crest-of-the-stars-volume-2",
@@ -253,12 +255,14 @@
         ]
       }
     ],
-    "Gallery": {
-      "SplashImages": [ "cover", "frontmatter1" ],
-      "ChapterImages": [],
-      "ChapterName": "",
-      "SubFolder": "02-Crest of the Stars: Volume 2"
-    }
+    "Gallery": [
+      {
+        "SplashImages": [ "cover", "frontmatter1" ],
+        "ChapterImages": [],
+        "ChapterName": "",
+        "SubFolder": "02-Crest of the Stars: Volume 2"
+      }
+    ]
   },
   {
     "InternalName": "crest-of-the-stars-volume-3",
@@ -386,12 +390,14 @@
         ]
       }
     ],
-    "Gallery": {
-      "SplashImages": [ "cover", "frontmatter1" ],
-      "ChapterImages": [],
-      "ChapterName": "",
-      "SubFolder": "03-Crest of the Stars: Volume 3"
-    }
+    "Gallery": [
+      {
+        "SplashImages": [ "cover", "frontmatter1" ],
+        "ChapterImages": [],
+        "ChapterName": "",
+        "SubFolder": "03-Crest of the Stars: Volume 3"
+      }
+    ]
   },
   {
     "InternalName": "banner-of-the-stars-volume-1",
@@ -514,12 +520,14 @@
         ]
       }
     ],
-    "Gallery": {
-      "SplashImages": [ "cover", "frontmatter1" ],
-      "ChapterImages": [ "insert1", "insert2" ],
-      "ChapterName": "",
-      "SubFolder": "04-Banner of the Stars: Volume 1"
-    }
+    "Gallery": [
+      {
+        "SplashImages": [ "cover", "frontmatter1" ],
+        "ChapterImages": [ "insert1", "insert2" ],
+        "ChapterName": "",
+        "SubFolder": "04-Banner of the Stars: Volume 1"
+      }
+    ]
   },
   {
     "InternalName": "banner-of-the-stars-volume-2",
@@ -642,12 +650,14 @@
         ]
       }
     ],
-    "Gallery": {
-      "SplashImages": [ "cover", "frontmatter1", "frontmatter2" ],
-      "ChapterImages": [],
-      "ChapterName": "",
-      "SubFolder": "05-Banner of the Stars: Volume 2"
-    }
+    "Gallery": [
+      {
+        "SplashImages": [ "cover", "frontmatter1", "frontmatter2" ],
+        "ChapterImages": [],
+        "ChapterName": "",
+        "SubFolder": "05-Banner of the Stars: Volume 2"
+      }
+    ]
   },
   {
     "InternalName": "banner-of-the-stars-volume-3",
@@ -753,12 +763,14 @@
         ]
       }
     ],
-    "Gallery": {
-      "SplashImages": [ "cover", "frontmatter1" ],
-      "ChapterImages": [],
-      "ChapterName": "",
-      "SubFolder": "06-Banner of the Stars: Volume 3"
-    }
+    "Gallery": [
+      {
+        "SplashImages": [ "cover", "frontmatter1" ],
+        "ChapterImages": [],
+        "ChapterName": "",
+        "SubFolder": "06-Banner of the Stars: Volume 3"
+      }
+    ]
   },
   {
     "InternalName": "banner-of-the-stars-volume-4",
@@ -859,12 +871,14 @@
         ]
       }
     ],
-    "Gallery": {
-      "SplashImages": [ "cover", "frontmatter1" ],
-      "ChapterImages": [],
-      "ChapterName": "",
-      "SubFolder": "07-Banner of the Stars: Volume 4"
-    }
+    "Gallery": [
+      {
+        "SplashImages": [ "cover", "frontmatter1" ],
+        "ChapterImages": [],
+        "ChapterName": "",
+        "SubFolder": "07-Banner of the Stars: Volume 4"
+      }
+    ]
   },
   {
     "InternalName": "banner-of-the-stars-volume-5",
@@ -950,12 +964,14 @@
         ]
       }
     ],
-    "Gallery": {
-      "SplashImages": [ "cover", "frontmatter1" ],
-      "ChapterImages": [],
-      "ChapterName": "",
-      "SubFolder": "08-Banner of the Stars: Volume 5"
-    }
+    "Gallery": [
+      {
+        "SplashImages": [ "cover", "frontmatter1" ],
+        "ChapterImages": [],
+        "ChapterName": "",
+        "SubFolder": "08-Banner of the Stars: Volume 5"
+      }
+    ]
   },
   {
     "InternalName": "banner-of-the-stars-volume-6",
@@ -1086,11 +1102,13 @@
         ]
       }
     ],
-    "Gallery": {
-      "SplashImages": [ "cover", "frontmatter1" ],
-      "ChapterImages": [],
-      "ChapterName": "",
-      "SubFolder": "09-Banner of the Stars: Volume 6"
-    }
+    "Gallery": [
+      {
+        "SplashImages": [ "cover", "frontmatter1" ],
+        "ChapterImages": [],
+        "ChapterName": "",
+        "SubFolder": "09-Banner of the Stars: Volume 6"
+      }
+    ]
   }
 ]

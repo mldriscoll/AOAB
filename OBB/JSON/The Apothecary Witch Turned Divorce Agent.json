@@ -189,34 +189,36 @@
         "KeepFirstSplitSection": true
       }
     ],
-    "Gallery": {
-      "SplashImages": [
-        "color1",
-        "color2",
-        "color3",
-        "color4"
-      ],
-      "ChapterImages": [
-        "insert1",
-        "insert2",
-        "insert3",
-        "insert4",
-        "insert5",
-        "insert6",
-        "insert7",
-        "insert8"
-      ],
-      "LateSubFolder": null,
-      "ChapterName": "",
-      "SortOrder": "",
-      "SubFolder": "01-Volume 01",
-      "OriginalFilenames": [],
-      "Chapters": [],
-      "Splits": [],
-      "Replacements": [],
-      "LinkedChapters": [],
-      "KeepFirstSplitSection": true
-    }
+    "Gallery": [
+      {
+        "SplashImages": [
+          "color1",
+          "color2",
+          "color3",
+          "color4"
+        ],
+        "ChapterImages": [
+          "insert1",
+          "insert2",
+          "insert3",
+          "insert4",
+          "insert5",
+          "insert6",
+          "insert7",
+          "insert8"
+        ],
+        "LateSubFolder": null,
+        "ChapterName": "",
+        "SortOrder": "",
+        "SubFolder": "01-Volume 01",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ]
   },
   {
     "InternalName": "the-apothecary-witch-turned-divorce-agent-volume-2",
@@ -369,33 +371,35 @@
         "KeepFirstSplitSection": true
       }
     ],
-    "Gallery": {
-      "SplashImages": [
-        "color1",
-        "color2",
-        "color3",
-        "color4"
-      ],
-      "ChapterImages": [
-        "insert1",
-        "insert2",
-        "insert3",
-        "insert4",
-        "insert5",
-        "insert6",
-        "insert7",
-        "insert8"
-      ],
-      "LateSubFolder": null,
-      "ChapterName": "",
-      "SortOrder": "",
-      "SubFolder": "102-Volume 02",
-      "OriginalFilenames": [],
-      "Chapters": [],
-      "Splits": [],
-      "Replacements": [],
-      "LinkedChapters": [],
-      "KeepFirstSplitSection": true
-    }
+    "Gallery": [
+      {
+        "SplashImages": [
+          "color1",
+          "color2",
+          "color3",
+          "color4"
+        ],
+        "ChapterImages": [
+          "insert1",
+          "insert2",
+          "insert3",
+          "insert4",
+          "insert5",
+          "insert6",
+          "insert7",
+          "insert8"
+        ],
+        "LateSubFolder": null,
+        "ChapterName": "",
+        "SortOrder": "",
+        "SubFolder": "102-Volume 02",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ]
   }
 ]

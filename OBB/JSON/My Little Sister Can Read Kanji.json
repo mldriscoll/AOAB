@@ -131,33 +131,35 @@
         ]
       }
     ],
-    "Gallery": {
-      "SplashImages": [
-        "cover",
-        "frontmatter1",
-        "frontmatter2",
-        "frontmatter3",
-        "appendix1"
-      ],
-      "ChapterImages": [
-        "insert1",
-        "insert2",
-        "insert3",
-        "insert4",
-        "insert5",
-        "insert6",
-        "insert7",
-        "insert8",
-        "insert9",
-        "insert10",
-        "insert11"
-      ],
-      "ChapterName": "",
-      "SortOrder": "",
-      "SubFolder": "1-Volume 1",
-      "OriginalFilenames": [],
-      "Chapters": []
-    }
+    "Gallery": [
+      {
+        "SplashImages": [
+          "cover",
+          "frontmatter1",
+          "frontmatter2",
+          "frontmatter3",
+          "appendix1"
+        ],
+        "ChapterImages": [
+          "insert1",
+          "insert2",
+          "insert3",
+          "insert4",
+          "insert5",
+          "insert6",
+          "insert7",
+          "insert8",
+          "insert9",
+          "insert10",
+          "insert11"
+        ],
+        "ChapterName": "",
+        "SortOrder": "",
+        "SubFolder": "1-Volume 1",
+        "OriginalFilenames": [],
+        "Chapters": []
+      }
+    ]
   },
   {
     "InternalName": "my-little-sister-can-read-kanji-volume-2",
@@ -292,33 +294,35 @@
         ]
       }
     ],
-    "Gallery": {
-      "SplashImages": [
-        "cover",
-        "frontmatter1",
-        "frontmatter2",
-        "frontmatter3"
-      ],
-      "ChapterImages": [
-        "insert1",
-        "insert2",
-        "insert3",
-        "insert4",
-        "insert5",
-        "insert6",
-        "insert7",
-        "insert8",
-        "insert9",
-        "insert10",
-        "insert105",
-        "insert11"
-      ],
-      "ChapterName": "",
-      "SortOrder": "",
-      "SubFolder": "2-Volume 2",
-      "OriginalFilenames": [],
-      "Chapters": []
-    }
+    "Gallery": [
+      {
+        "SplashImages": [
+          "cover",
+          "frontmatter1",
+          "frontmatter2",
+          "frontmatter3"
+        ],
+        "ChapterImages": [
+          "insert1",
+          "insert2",
+          "insert3",
+          "insert4",
+          "insert5",
+          "insert6",
+          "insert7",
+          "insert8",
+          "insert9",
+          "insert10",
+          "insert105",
+          "insert11"
+        ],
+        "ChapterName": "",
+        "SortOrder": "",
+        "SubFolder": "2-Volume 2",
+        "OriginalFilenames": [],
+        "Chapters": []
+      }
+    ]
   },
   {
     "InternalName": "my-little-sister-can-read-kanji-volume-3",
@@ -461,31 +465,33 @@
         ]
       }
     ],
-    "Gallery": {
-      "SplashImages": [
-        "cover",
-        "frontmatter1",
-        "frontmatter2",
-        "frontmatter3"
-      ],
-      "ChapterImages": [
-        "insert1",
-        "insert2",
-        "insert3",
-        "insert4",
-        "insert5",
-        "insert6",
-        "insert7",
-        "insert8",
-        "insert9",
-        "insert10"
-      ],
-      "ChapterName": "",
-      "SortOrder": "",
-      "SubFolder": "3-Volume 3",
-      "OriginalFilenames": [],
-      "Chapters": []
-    }
+    "Gallery": [
+      {
+        "SplashImages": [
+          "cover",
+          "frontmatter1",
+          "frontmatter2",
+          "frontmatter3"
+        ],
+        "ChapterImages": [
+          "insert1",
+          "insert2",
+          "insert3",
+          "insert4",
+          "insert5",
+          "insert6",
+          "insert7",
+          "insert8",
+          "insert9",
+          "insert10"
+        ],
+        "ChapterName": "",
+        "SortOrder": "",
+        "SubFolder": "3-Volume 3",
+        "OriginalFilenames": [],
+        "Chapters": []
+      }
+    ]
   },
   {
     "InternalName": "my-little-sister-can-read-kanji-volume-4",
@@ -645,31 +651,33 @@
         ]
       }
     ],
-    "Gallery": {
-      "SplashImages": [
-        "cover",
-        "frontmatter1",
-        "frontmatter2",
-        "frontmatter3"
-      ],
-      "ChapterImages": [
-        "insert1",
-        "insert2",
-        "insert3",
-        "insert4",
-        "insert5",
-        "insert6",
-        "insert7",
-        "insert8",
-        "insert9",
-        "insert10"
-      ],
-      "ChapterName": "",
-      "SortOrder": "",
-      "SubFolder": "4-Volume 4",
-      "OriginalFilenames": [],
-      "Chapters": []
-    }
+    "Gallery": [
+      {
+        "SplashImages": [
+          "cover",
+          "frontmatter1",
+          "frontmatter2",
+          "frontmatter3"
+        ],
+        "ChapterImages": [
+          "insert1",
+          "insert2",
+          "insert3",
+          "insert4",
+          "insert5",
+          "insert6",
+          "insert7",
+          "insert8",
+          "insert9",
+          "insert10"
+        ],
+        "ChapterName": "",
+        "SortOrder": "",
+        "SubFolder": "4-Volume 4",
+        "OriginalFilenames": [],
+        "Chapters": []
+      }
+    ]
   },
   {
     "InternalName": "my-little-sister-can-read-kanji-volume-5",
@@ -793,30 +801,32 @@
         ]
       }
     ],
-    "Gallery": {
-      "SplashImages": [
-        "cover",
-        "frontmatter1",
-        "frontmatter2",
-        "frontmatter3"
-      ],
-      "ChapterImages": [
-        "insert1",
-        "insert2",
-        "insert3",
-        "insert4",
-        "insert5",
-        "insert6",
-        "insert7",
-        "insert8",
-        "insert9",
-        "insert10"
-      ],
-      "ChapterName": "",
-      "SortOrder": "",
-      "SubFolder": "5-Volume 5",
-      "OriginalFilenames": [],
-      "Chapters": []
-    }
+    "Gallery": [
+      {
+        "SplashImages": [
+          "cover",
+          "frontmatter1",
+          "frontmatter2",
+          "frontmatter3"
+        ],
+        "ChapterImages": [
+          "insert1",
+          "insert2",
+          "insert3",
+          "insert4",
+          "insert5",
+          "insert6",
+          "insert7",
+          "insert8",
+          "insert9",
+          "insert10"
+        ],
+        "ChapterName": "",
+        "SortOrder": "",
+        "SubFolder": "5-Volume 5",
+        "OriginalFilenames": [],
+        "Chapters": []
+      }
+    ]
   }
 ]

@@ -69,7 +69,7 @@ namespace OBB
             Console.ReadLine();
         }
 
-        private static async Task<List<Series>> GetSeries()
+        public static async Task<List<Series>> GetSeries()
         {
             List<Series> series;
 
