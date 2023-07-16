@@ -3,787 +3,799 @@
     "InternalName": "tearmoon-empire-volume-1",
     "Chapters": [
       {
-        "ChapterName": "Part 1: The Princess and the Guillotine",
+        "ChapterName": "The Princess and the Guillotine",
         "SortOrder": "01",
         "SubFolder": "",
         "OriginalFilenames": [],
         "Chapters": [
           {
-            "ChapterName": "Starting at the Guillotine",
-            "SortOrder": "0104",
+            "ChapterName": "Part 1",
+            "SortOrder": "01",
             "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter1",
-              "insert1",
-              "chapter1_1"
+            "OriginalFilenames": [],
+            "Chapters": [
+              {
+                "ChapterName": "Starting at the Guillotine",
+                "SortOrder": "0104",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter1",
+                  "insert1",
+                  "chapter1_1"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "Things Mia Hates and Voices from the Past",
+                "SortOrder": "0105",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter2"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "Reunion",
+                "SortOrder": "0106",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter3"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "The Loyal Maid",
+                "SortOrder": "0107",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter4",
+                  "insert2",
+                  "chapter4_1"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "An Adorable Way to Show Loyalty",
+                "SortOrder": "0108",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter5"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "Princess Mia... Gets Off Her Butt",
+                "SortOrder": "0109",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter6"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "Princess Mia... Puts on a Smug Grin",
+                "SortOrder": "0110",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter7",
+                  "insert3"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "The Greatest Ally",
+                "SortOrder": "0111",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter8"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "Prediction/Bloody Diary",
+                "SortOrder": "0112",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter9"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "Lunatear’s Shadow",
+                "SortOrder": "0113",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter10"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "A Great Leader Bestowed Upon Us by the Heavens (Note: A Terrible Misunderstanding)",
+                "SortOrder": "0114",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter11"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "The Stench of a Plague",
+                "SortOrder": "0115",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter12"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "The Secret of the Hairpin",
+                "SortOrder": "0116",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter13"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "Tea Party",
+                "SortOrder": "0117",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter14"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "Princess Mia... Attains Enlightenment",
+                "SortOrder": "0118",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter15"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "The Unfinished Novel",
+                "SortOrder": "0119",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter16"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "The Princess Chronicles of Saint Mia",
+                "SortOrder": "0120",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter17"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "A Winter Day’s Promise",
+                "SortOrder": "0121",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter18"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "To New Lands",
+                "SortOrder": "0122",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter19"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "Squandering Sweat and Blood",
+                "SortOrder": "0123",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter20"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "Princess Mia... Sows the Seeds",
+                "SortOrder": "0124",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter21"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "Princess Mia used Verbal Assault! Tiona... Regained Health?!",
+                "SortOrder": "0125",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter22",
+                  "insert4"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "The Cast Assembles...",
+                "SortOrder": "0126",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter23"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "Girls Talk",
+                "SortOrder": "0127",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter24"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "The Secret to Beauty",
+                "SortOrder": "0128",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter25"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "The Daughter of the Duke of Belluga",
+                "SortOrder": "0129",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter26"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "An Army Ten Thousand Strong",
+                "SortOrder": "0130",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter27"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "Wisdom and Strategist and Council of Love",
+                "SortOrder": "0131",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter28"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "Operation Handkerchief Drop",
+                "SortOrder": "0132",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter29"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "A Ray of Light",
+                "SortOrder": "0133",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter30"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "Princess Mia... Appears in All Her Glory",
+                "SortOrder": "0134",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter31"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "Saint, Schemer, or Seductress?",
+                "SortOrder": "0135",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter32"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "Natural Beauty",
+                "SortOrder": "0136",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter33",
+                  "insert5",
+                  "chapter33_1"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "Mia’s Forte",
+                "SortOrder": "0137",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter34"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "Shall We Dance?",
+                "SortOrder": "0138",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter35"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "Cool Kindness",
+                "SortOrder": "0139",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter36"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "A Maid Behind the Scenes",
+                "SortOrder": "0140",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter37"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "A Maid Behind the Scenes — Outcome",
+                "SortOrder": "0141",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter38"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "Princess Mia... Hits Peak Mental Performance!",
+                "SortOrder": "0142",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter39"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "The First Friend!",
+                "SortOrder": "0143",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter40"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "Classes Begin!",
+                "SortOrder": "0144",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter41"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "Princess Mia Tries Joining a Club",
+                "SortOrder": "0145",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter42"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "Horseback Panic",
+                "SortOrder": "0146",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter43"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "A Subtle Misunderstanding",
+                "SortOrder": "0147",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter44",
+                  "insert6",
+                  "chapter44_1"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "Princess Mia is No Loner",
+                "SortOrder": "0148",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter45"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "Book Buddies",
+                "SortOrder": "0149",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter46"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "Lunchbox Arrangements",
+                "SortOrder": "0150",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter47"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "Anne’s Ingenious Idea",
+                "SortOrder": "0151",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter48"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "Princess Mia... Hits Peak Mental Performance! (2)",
+                "SortOrder": "0152",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter49"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "Keithwood Also Hits Peak Mental Performance!",
+                "SortOrder": "0153",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter50"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "Keithwood’s Culinary Class",
+                "SortOrder": "0154",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter51",
+                  "insert7",
+                  "chapter51_1"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "Princess Mia... Feels Her Heart Flutter!",
+                "SortOrder": "0155",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter52"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "Behold! The Horse-Shaped Sandwich!",
+                "SortOrder": "0156",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter53"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "The Swordsmanship Tournament: Abel’s Battle",
+                "SortOrder": "0157",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter54"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "A Lunch Adventure... You Can Cry, Keithwood",
+                "SortOrder": "0158",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter55"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "The Swordsmanship Tournament 2: Grand Finals",
+                "SortOrder": "0159",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter56",
+                  "insert8",
+                  "chapter56_1"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "The True Essence of Princess Mia — Keithwood’s Delusion",
+                "SortOrder": "0160",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter57"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "The Swordsmanship Tournament 3: Promise of a Rematch",
+                "SortOrder": "0161",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter58"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              },
+              {
+                "ChapterName": "The Dreams and Memories of a Cold-Stricken Mia",
+                "SortOrder": "0162",
+                "SubFolder": "",
+                "OriginalFilenames": [
+                  "chapter59"
+                ],
+                "Chapters": [],
+                "Splits": [],
+                "Replacements": [],
+                "LinkedChapters": [],
+                "KeepFirstSplitSection": true
+              }
             ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Things Mia Hates and Voices from the Past",
-            "SortOrder": "0105",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter2"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Reunion",
-            "SortOrder": "0106",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter3"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "The Loyal Maid",
-            "SortOrder": "0107",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter4",
-              "insert2",
-              "chapter4_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "An Adorable Way to Show Loyalty",
-            "SortOrder": "0108",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter5"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Princess Mia... Gets Off Her Butt",
-            "SortOrder": "0109",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter6"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Princess Mia... Puts on a Smug Grin",
-            "SortOrder": "0110",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter7",
-              "insert3"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "The Greatest Ally",
-            "SortOrder": "0111",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter8"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Prediction/Bloody Diary",
-            "SortOrder": "0112",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter9"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Lunatear’s Shadow",
-            "SortOrder": "0113",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter10"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "A Great Leader Bestowed Upon Us by the Heavens (Note: A Terrible Misunderstanding)",
-            "SortOrder": "0114",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter11"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "The Stench of a Plague",
-            "SortOrder": "0115",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter12"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "The Secret of the Hairpin",
-            "SortOrder": "0116",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter13"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Tea Party",
-            "SortOrder": "0117",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter14"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Princess Mia... Attains Enlightenment",
-            "SortOrder": "0118",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter15"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "The Unfinished Novel",
-            "SortOrder": "0119",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter16"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "The Princess Chronicles of Saint Mia",
-            "SortOrder": "0120",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter17"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "A Winter Day’s Promise",
-            "SortOrder": "0121",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter18"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "To New Lands",
-            "SortOrder": "0122",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter19"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Squandering Sweat and Blood",
-            "SortOrder": "0123",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter20"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Princess Mia... Sows the Seeds",
-            "SortOrder": "0124",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter21"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Princess Mia used Verbal Assault! Tiona... Regained Health?!",
-            "SortOrder": "0125",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter22",
-              "insert4"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "The Cast Assembles...",
-            "SortOrder": "0126",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter23"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Girls Talk",
-            "SortOrder": "0127",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter24"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "The Secret to Beauty",
-            "SortOrder": "0128",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter25"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "The Daughter of the Duke of Belluga",
-            "SortOrder": "0129",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter26"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "An Army Ten Thousand Strong",
-            "SortOrder": "0130",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter27"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Wisdom and Strategist and Council of Love",
-            "SortOrder": "0131",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter28"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Operation Handkerchief Drop",
-            "SortOrder": "0132",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter29"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "A Ray of Light",
-            "SortOrder": "0133",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter30"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Princess Mia... Appears in All Her Glory",
-            "SortOrder": "0134",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter31"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Saint, Schemer, or Seductress?",
-            "SortOrder": "0135",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter32"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Natural Beauty",
-            "SortOrder": "0136",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter33",
-              "insert5",
-              "chapter33_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Mia’s Forte",
-            "SortOrder": "0137",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter34"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Shall We Dance?",
-            "SortOrder": "0138",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter35"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Cool Kindness",
-            "SortOrder": "0139",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter36"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "A Maid Behind the Scenes",
-            "SortOrder": "0140",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter37"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "A Maid Behind the Scenes — Outcome",
-            "SortOrder": "0141",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter38"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Princess Mia... Hits Peak Mental Performance!",
-            "SortOrder": "0142",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter39"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "The First Friend!",
-            "SortOrder": "0143",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter40"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Classes Begin!",
-            "SortOrder": "0144",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter41"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Princess Mia Tries Joining a Club",
-            "SortOrder": "0145",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter42"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Horseback Panic",
-            "SortOrder": "0146",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter43"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "A Subtle Misunderstanding",
-            "SortOrder": "0147",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter44",
-              "insert6",
-              "chapter44_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Princess Mia is No Loner",
-            "SortOrder": "0148",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter45"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Book Buddies",
-            "SortOrder": "0149",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter46"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Lunchbox Arrangements",
-            "SortOrder": "0150",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter47"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Anne’s Ingenious Idea",
-            "SortOrder": "0151",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter48"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Princess Mia... Hits Peak Mental Performance! (2)",
-            "SortOrder": "0152",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter49"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Keithwood Also Hits Peak Mental Performance!",
-            "SortOrder": "0153",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter50"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Keithwood’s Culinary Class",
-            "SortOrder": "0154",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter51",
-              "insert7",
-              "chapter51_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Princess Mia... Feels Her Heart Flutter!",
-            "SortOrder": "0155",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter52"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Behold! The Horse-Shaped Sandwich!",
-            "SortOrder": "0156",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter53"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "The Swordsmanship Tournament: Abel’s Battle",
-            "SortOrder": "0157",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter54"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "A Lunch Adventure... You Can Cry, Keithwood",
-            "SortOrder": "0158",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter55"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "The Swordsmanship Tournament 2: Grand Finals",
-            "SortOrder": "0159",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter56",
-              "insert8",
-              "chapter56_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "The True Essence of Princess Mia — Keithwood’s Delusion",
-            "SortOrder": "0160",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter57"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "The Swordsmanship Tournament 3: Promise of a Rematch",
-            "SortOrder": "0161",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter58"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "The Dreams and Memories of a Cold-Stricken Mia",
-            "SortOrder": "0162",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter59"
-            ],
-            "Chapters": [],
             "Splits": [],
             "Replacements": [],
             "LinkedChapters": [],
@@ -798,9 +810,9 @@
     ],
     "BonusChapters": [
       {
-        "ChapterName": "Part 1: The Princess and the Guillotine",
+        "ChapterName": "Part 1",
         "SortOrder": "01",
-        "SubFolder": "",
+        "SubFolder": "01-The Princess and the Guillotine",
         "OriginalFilenames": [],
         "Chapters": [
           {
@@ -866,41 +878,43 @@
         "KeepFirstSplitSection": true
       }
     ],
-    "Gallery": {
-      "SplashImages": [
-        "frontmatter2",
-        "frontmatter1"
-      ],
-      "ChapterImages": [
-        "insert1",
-        "insert2",
-        "insert3",
-        "insert4",
-        "insert5",
-        "insert6",
-        "insert7",
-        "insert8",
-        "insert9"
-      ],
-      "LateSubFolder": null,
-      "ChapterName": "Volume 01 Inserts",
-      "SortOrder": "0100",
-      "SubFolder": "01-Part 1: The Princess and the Guillotine",
-      "OriginalFilenames": [],
-      "Chapters": [],
-      "Splits": [],
-      "Replacements": [],
-      "LinkedChapters": [],
-      "KeepFirstSplitSection": true
-    }
+    "Gallery": [
+      {
+        "SplashImages": [
+          "frontmatter2",
+          "frontmatter1"
+        ],
+        "ChapterImages": [
+          "insert1",
+          "insert2",
+          "insert3",
+          "insert4",
+          "insert5",
+          "insert6",
+          "insert7",
+          "insert8",
+          "insert9"
+        ],
+        "LateSubFolder": null,
+        "ChapterName": "",
+        "SortOrder": "",
+        "SubFolder": "01-The Princess and the Guillotine",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ]
   },
   {
     "InternalName": "tearmoon-empire-volume-2",
     "Chapters": [
       {
-        "ChapterName": "Part 1: The Princess and the Guillotine",
-        "SortOrder": "01",
-        "SubFolder": "",
+        "ChapterName": "Part 2",
+        "SortOrder": "02",
+        "SubFolder": "01-The Princess and the Guillotine",
         "OriginalFilenames": [],
         "Chapters": [
           {
@@ -1526,9 +1540,9 @@
     ],
     "BonusChapters": [
       {
-        "ChapterName": "Part 1: The Princess and the Guillotine",
-        "SortOrder": "01",
-        "SubFolder": "",
+        "ChapterName": "Part 2",
+        "SortOrder": "02",
+        "SubFolder": "01-The Princess and the Guillotine",
         "OriginalFilenames": [],
         "Chapters": [
           {
@@ -1593,8 +1607,8 @@
     "ExtraContent": [
       {
         "ChapterName": "Character Sheet",
-        "SortOrder": "0201",
-        "SubFolder": "01-Part 1: The Princess and the Guillotine",
+        "SortOrder": "001",
+        "SubFolder": "01-The Princess and the Guillotine",
         "OriginalFilenames": [
           "characters1",
           "characters2"
@@ -1620,42 +1634,44 @@
         "KeepFirstSplitSection": true
       }
     ],
-    "Gallery": {
-      "SplashImages": [
-        "frontmatter2",
-        "frontmatter1"
-      ],
-      "ChapterImages": [
-        "insert1",
-        "insert2",
-        "insert3",
-        "insert4",
-        "insert5",
-        "insert6",
-        "insert7",
-        "insert8",
-        "insert9",
-        "insert10"
-      ],
-      "LateSubFolder": null,
-      "ChapterName": "Volume 02 Inserts",
-      "SortOrder": "0200",
-      "SubFolder": "01-Part 1: The Princess and the Guillotine",
-      "OriginalFilenames": [],
-      "Chapters": [],
-      "Splits": [],
-      "Replacements": [],
-      "LinkedChapters": [],
-      "KeepFirstSplitSection": true
-    }
+    "Gallery": [
+      {
+        "SplashImages": [
+          "frontmatter2",
+          "frontmatter1"
+        ],
+        "ChapterImages": [
+          "insert1",
+          "insert2",
+          "insert3",
+          "insert4",
+          "insert5",
+          "insert6",
+          "insert7",
+          "insert8",
+          "insert9",
+          "insert10"
+        ],
+        "LateSubFolder": null,
+        "ChapterName": "",
+        "SortOrder": "",
+        "SubFolder": "01-The Princess and the Guillotine",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ]
   },
   {
     "InternalName": "tearmoon-empire-volume-3",
     "Chapters": [
       {
-        "ChapterName": "Part 2: The Lodestar Girl",
-        "SortOrder": "02",
-        "SubFolder": "",
+        "ChapterName": "Part 1",
+        "SortOrder": "01",
+        "SubFolder": "02-The Lodestar Girl",
         "OriginalFilenames": [],
         "Chapters": [
           {
@@ -2252,9 +2268,9 @@
     ],
     "BonusChapters": [
       {
-        "ChapterName": "Part 2: The Lodestar Girl",
-        "SortOrder": "02",
-        "SubFolder": "",
+        "ChapterName": "Part 1",
+        "SortOrder": "01",
+        "SubFolder": "02-The Lodestar Girl",
         "OriginalFilenames": [],
         "Chapters": [
           {
@@ -2602,9 +2618,9 @@
     ],
     "ExtraContent": [
       {
-        "ChapterName": "Part 2: The Lodestar Girl",
-        "SortOrder": "02",
-        "SubFolder": "",
+        "ChapterName": "Part 1",
+        "SortOrder": "01",
+        "SubFolder": "02-The Lodestar Girl",
         "OriginalFilenames": [],
         "Chapters": [
           {
@@ -2641,41 +2657,43 @@
         "KeepFirstSplitSection": true
       }
     ],
-    "Gallery": {
-      "SplashImages": [
-        "frontmatter2",
-        "frontmatter1"
-      ],
-      "ChapterImages": [
-        "insert1",
-        "insert2",
-        "insert3",
-        "insert4",
-        "insert5",
-        "insert6",
-        "insert7",
-        "insert8",
-        "insert9"
-      ],
-      "LateSubFolder": null,
-      "ChapterName": "Volume 03 Inserts",
-      "SortOrder": "0300",
-      "SubFolder": "02-Part 2: The Lodestar Girl",
-      "OriginalFilenames": [],
-      "Chapters": [],
-      "Splits": [],
-      "Replacements": [],
-      "LinkedChapters": [],
-      "KeepFirstSplitSection": true
-    }
+    "Gallery": [
+      {
+        "SplashImages": [
+          "frontmatter2",
+          "frontmatter1"
+        ],
+        "ChapterImages": [
+          "insert1",
+          "insert2",
+          "insert3",
+          "insert4",
+          "insert5",
+          "insert6",
+          "insert7",
+          "insert8",
+          "insert9"
+        ],
+        "LateSubFolder": null,
+        "ChapterName": "",
+        "SortOrder": "",
+        "SubFolder": "02-The Lodestar Girl",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ]
   },
   {
     "InternalName": "tearmoon-empire-volume-4",
     "Chapters": [
       {
-        "ChapterName": "Part 2: The Lodestar Girl",
+        "ChapterName": "Part 2",
         "SortOrder": "02",
-        "SubFolder": "",
+        "SubFolder": "02-The Lodestar Girl",
         "OriginalFilenames": [],
         "Chapters": [
           {
@@ -3328,9 +3346,9 @@
     ],
     "BonusChapters": [
       {
-        "ChapterName": "Part 2: The Lodestar Girl",
+        "ChapterName": "Part 2",
         "SortOrder": "02",
-        "SubFolder": "",
+        "SubFolder": "02-The Lodestar Girl",
         "OriginalFilenames": [],
         "Chapters": [
           {
@@ -3420,9 +3438,9 @@
     ],
     "ExtraContent": [
       {
-        "ChapterName": "Part 2: The Lodestar Girl",
+        "ChapterName": "Part 2",
         "SortOrder": "02",
-        "SubFolder": "",
+        "SubFolder": "02-The Lodestar Girl",
         "OriginalFilenames": [],
         "Chapters": [
           {
@@ -3459,41 +3477,43 @@
         "KeepFirstSplitSection": true
       }
     ],
-    "Gallery": {
-      "SplashImages": [
-        "frontmatter2",
-        "frontmatter1"
-      ],
-      "ChapterImages": [
-        "insert1",
-        "insert2",
-        "insert3",
-        "insert4",
-        "insert5",
-        "insert6",
-        "insert7",
-        "insert8",
-        "insert9"
-      ],
-      "LateSubFolder": null,
-      "ChapterName": "Volume 04 Inserts",
-      "SortOrder": "0400",
-      "SubFolder": "02-Part 2: The Lodestar Girl",
-      "OriginalFilenames": [],
-      "Chapters": [],
-      "Splits": [],
-      "Replacements": [],
-      "LinkedChapters": [],
-      "KeepFirstSplitSection": true
-    }
+    "Gallery": [
+      {
+        "SplashImages": [
+          "frontmatter2",
+          "frontmatter1"
+        ],
+        "ChapterImages": [
+          "insert1",
+          "insert2",
+          "insert3",
+          "insert4",
+          "insert5",
+          "insert6",
+          "insert7",
+          "insert8",
+          "insert9"
+        ],
+        "LateSubFolder": null,
+        "ChapterName": "",
+        "SortOrder": "",
+        "SubFolder": "02-The Lodestar Girl",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ]
   },
   {
     "InternalName": "tearmoon-empire-volume-5",
     "Chapters": [
       {
-        "ChapterName": "Part 2: The Lodestar Girl",
-        "SortOrder": "02",
-        "SubFolder": "",
+        "ChapterName": "Part 3",
+        "SortOrder": "03",
+        "SubFolder": "02-The Lodestar Girl",
         "OriginalFilenames": [],
         "Chapters": [
           {
@@ -3703,9 +3723,9 @@
         "KeepFirstSplitSection": true
       },
       {
-        "ChapterName": "Part 3: A New Oath Between the Moon and Stars",
-        "SortOrder": "03",
-        "SubFolder": "",
+        "ChapterName": "Part 1",
+        "SortOrder": "01",
+        "SubFolder": "03-A New Oath Between the Moon and Stars",
         "OriginalFilenames": [],
         "Chapters": [
           {
@@ -4063,9 +4083,9 @@
     ],
     "BonusChapters": [
       {
-        "ChapterName": "Part 2: The Lodestar Girl",
-        "SortOrder": "02",
-        "SubFolder": "",
+        "ChapterName": "Part 3",
+        "SortOrder": "03",
+        "SubFolder": "02-The Lodestar Girl",
         "OriginalFilenames": [],
         "Chapters": [
           {
@@ -4088,9 +4108,9 @@
         "KeepFirstSplitSection": true
       },
       {
-        "ChapterName": "Part 3: A New Oath Between the Moon and Stars",
-        "SortOrder": "03",
-        "SubFolder": "",
+        "ChapterName": "Part 1",
+        "SortOrder": "01",
+        "SubFolder": "03-A New Oath Between the Moon and Stars",
         "OriginalFilenames": [],
         "Chapters": [
           {
@@ -4513,14 +4533,14 @@
     ],
     "ExtraContent": [
       {
-        "ChapterName": "Part 2: The Lodestar Girl",
+        "ChapterName": "The Lodestar Girl",
         "SortOrder": "02",
         "SubFolder": "",
         "OriginalFilenames": [],
         "Chapters": [
           {
             "ChapterName": "Character Sheet",
-            "SortOrder": "0501",
+            "SortOrder": "001",
             "SubFolder": "",
             "OriginalFilenames": [
               "characters1",
@@ -4539,14 +4559,14 @@
         "KeepFirstSplitSection": true
       },
       {
-        "ChapterName": "Part 3: A New Oath Between the Moon and Stars",
+        "ChapterName": "A New Oath Between the Moon and Stars",
         "SortOrder": "03",
         "SubFolder": "",
         "OriginalFilenames": [],
         "Chapters": [
           {
             "ChapterName": "First Character Poll",
-            "SortOrder": "0552",
+            "SortOrder": "90",
             "SubFolder": "",
             "OriginalFilenames": [
               "poll1",
@@ -4578,41 +4598,58 @@
         "KeepFirstSplitSection": true
       }
     ],
-    "Gallery": {
-      "SplashImages": [
-        "frontmatter2",
-        "frontmatter1"
-      ],
-      "ChapterImages": [
-        "insert1",
-        "insert2",
-        "insert3",
-        "insert4",
-        "insert5",
-        "insert6",
-        "insert7",
-        "insert8",
-        "insert9"
-      ],
-      "LateSubFolder": "03-Part 3: A New Oath Between the Moon and Stars",
-      "ChapterName": "",
-      "SortOrder": "0500",
-      "SubFolder": "02-Part 2: The Lodestar Girl",
-      "OriginalFilenames": [],
-      "Chapters": [],
-      "Splits": [],
-      "Replacements": [],
-      "LinkedChapters": [],
-      "KeepFirstSplitSection": true
-    }
+    "Gallery": [
+      {
+        "SplashImages": [
+          "frontmatter2",
+          "frontmatter1"
+        ],
+        "ChapterImages": [
+          "insert1",
+          "insert2",
+          "insert3",
+          "insert4"
+        ],
+        "LateSubFolder": "",
+        "ChapterName": "",
+        "SortOrder": "",
+        "SubFolder": "02-The Lodestar Girl",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      },
+      {
+        "SplashImages": [],
+        "ChapterImages": [
+          "insert5",
+          "insert6",
+          "insert7",
+          "insert8",
+          "insert9"
+        ],
+        "LateSubFolder": "",
+        "ChapterName": "",
+        "SortOrder": "",
+        "SubFolder": "03-A New Oath Between the Moon and Stars",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ]
   },
   {
     "InternalName": "tearmoon-empire-volume-6",
     "Chapters": [
       {
-        "ChapterName": "Part 3: A New Oath Between the Moon and Stars",
-        "SortOrder": "03",
-        "SubFolder": "",
+        "ChapterName": "Part 2",
+        "SortOrder": "02",
+        "SubFolder": "03-A New Oath Between the Moon and Stars",
         "OriginalFilenames": [],
         "Chapters": [
           {
@@ -5188,9 +5225,9 @@
     ],
     "BonusChapters": [
       {
-        "ChapterName": "Part 3: A New Oath Between the Moon and Stars",
-        "SortOrder": "03",
-        "SubFolder": "",
+        "ChapterName": "Part 2",
+        "SortOrder": "02",
+        "SubFolder": "03-A New Oath Between the Moon and Stars",
         "OriginalFilenames": [],
         "Chapters": [
           {
@@ -5259,14 +5296,14 @@
     ],
     "ExtraContent": [
       {
-        "ChapterName": "Part 3: A New Oath Between the Moon and Stars",
+        "ChapterName": "A New Oath Between the Moon and Stars",
         "SortOrder": "03",
         "SubFolder": "",
         "OriginalFilenames": [],
         "Chapters": [
           {
             "ChapterName": "Character Sheet",
-            "SortOrder": "0601",
+            "SortOrder": "001",
             "SubFolder": "",
             "OriginalFilenames": [
               "characters1",
@@ -5298,42 +5335,43 @@
         "KeepFirstSplitSection": true
       }
     ],
-    "Gallery": {
-      "SplashImages": [
-        "cover",
-        "frontmatter1",
-        "frontmatter2"
-      ],
-      "ChapterImages": [
-        "insert1",
-        "insert2",
-        "insert3",
-        "insert4",
-        "insert5",
-        "insert6",
-        "insert7",
-        "insert8",
-        "insert9"
-      ],
-      "LateSubFolder": null,
-      "ChapterName": "",
-      "SortOrder": "",
-      "SubFolder": "03-Part 3: A New Oath Between the Moon and Stars",
-      "OriginalFilenames": [],
-      "Chapters": [],
-      "Splits": [],
-      "Replacements": [],
-      "LinkedChapters": [],
-      "KeepFirstSplitSection": true
-    }
+    "Gallery": [
+      {
+        "SplashImages": [
+          "frontmatter2",
+          "frontmatter1"
+        ],
+        "ChapterImages": [
+          "insert1",
+          "insert2",
+          "insert3",
+          "insert4",
+          "insert5",
+          "insert6",
+          "insert7",
+          "insert8",
+          "insert9"
+        ],
+        "LateSubFolder": null,
+        "ChapterName": "",
+        "SortOrder": "",
+        "SubFolder": "03-A New Oath Between the Moon and Stars",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ]
   },
   {
     "InternalName": "tearmoon-empire-volume-7",
     "Chapters": [
       {
-        "ChapterName": "Part 3: A New Oath Between the Moon and Stars",
+        "ChapterName": "Part 3",
         "SortOrder": "03",
-        "SubFolder": "",
+        "SubFolder": "03-A New Oath Between the Moon and Stars",
         "OriginalFilenames": [],
         "Chapters": [
           {
@@ -5403,9 +5441,9 @@
         "KeepFirstSplitSection": true
       },
       {
-        "ChapterName": "Part 4: To the Moon-Led Morrow",
-        "SortOrder": "04",
-        "SubFolder": "",
+        "ChapterName": "Part 1",
+        "SortOrder": "01",
+        "SubFolder": "04-To the Moon-Led Morrow",
         "OriginalFilenames": [],
         "Chapters": [
           {
@@ -5843,9 +5881,9 @@
     ],
     "BonusChapters": [
       {
-        "ChapterName": "Part 4: To the Moon-Led Morrow",
-        "SortOrder": "04",
-        "SubFolder": "",
+        "ChapterName": "Part 1",
+        "SortOrder": "01",
+        "SubFolder": "04-To the Moon-Led Morrow",
         "OriginalFilenames": [],
         "Chapters": [
           {
@@ -5889,7 +5927,7 @@
                 "Name": "Mia’s Fine Foods Travel Diary —Eat Till You Drop in Perujin—",
                 "SplitLine": "<h2>Mia’s Fine Foods Travel Diary —Eat Till You Drop in Perujin—</h2>",
                 "SortOrder": "0748",
-                "SubFolder": "04-Part 4: To the Moon-Led Morrow"
+                "SubFolder": "04-To the Moon-Led Morrow\\01-Part 1"
               }
             ],
             "Replacements": [
@@ -5924,25 +5962,11 @@
     ],
     "ExtraContent": [
       {
-        "ChapterName": "Part 4: To the Moon-Led Morrow",
-        "SortOrder": "04",
-        "SubFolder": "",
+        "ChapterName": "Part 1",
+        "SortOrder": "01",
+        "SubFolder": "04-To the Moon-Led Morrow",
         "OriginalFilenames": [],
         "Chapters": [
-          {
-            "ChapterName": "Character Sheet",
-            "SortOrder": "0701",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "characters1",
-              "characters2"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
           {
             "ChapterName": "Bel's Delusion",
             "SortOrder": "0746",
@@ -5976,42 +6000,59 @@
         "KeepFirstSplitSection": true
       }
     ],
-    "Gallery": {
-      "SplashImages": [
-        "frontmatter2",
-        "bonus2",
-        "frontmatter1"
-      ],
-      "ChapterImages": [
-        "insert1",
-        "insert2",
-        "insert3",
-        "insert4",
-        "insert5",
-        "insert6",
-        "insert7",
-        "insert8",
-        "insert9"
-      ],
-      "LateSubFolder": null,
-      "ChapterName": "",
-      "SortOrder": "",
-      "SubFolder": "04-Part 4: To the Moon-Led Morrow",
-      "OriginalFilenames": [],
-      "Chapters": [],
-      "Splits": [],
-      "Replacements": [],
-      "LinkedChapters": [],
-      "KeepFirstSplitSection": true
-    }
+    "Gallery": [
+      {
+        "SplashImages": [],
+        "ChapterImages": [
+          "insert1",
+          "insert2",
+          "insert3",
+          "insert4"
+        ],
+        "LateSubFolder": null,
+        "ChapterName": "",
+        "SortOrder": "",
+        "SubFolder": "03-A New Oath Between the Moon and Stars",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      },
+      {
+        "SplashImages": [
+          "frontmatter2",
+          "bonus2",
+          "frontmatter1"
+        ],
+        "ChapterImages": [
+          "insert5",
+          "insert6",
+          "insert7",
+          "insert8",
+          "insert9"
+        ],
+        "LateSubFolder": null,
+        "ChapterName": "",
+        "SortOrder": "",
+        "SubFolder": "04-To the Moon-Led Morrow",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ]
   },
   {
     "InternalName": "tearmoon-empire-volume-8",
     "Chapters": [
       {
-        "ChapterName": "Part 4: To the Moon-Led Morrow",
-        "SortOrder": "04",
-        "SubFolder": "",
+        "ChapterName": "Part 2",
+        "SortOrder": "02",
+        "SubFolder": "04-To the Moon-Led Morrow",
         "OriginalFilenames": [],
         "Chapters": [
           {
@@ -6619,9 +6660,9 @@
     ],
     "BonusChapters": [
       {
-        "ChapterName": "Part 4: To the Moon-Led Morrow",
-        "SortOrder": "04",
-        "SubFolder": "",
+        "ChapterName": "Part 2",
+        "SortOrder": "02",
+        "SubFolder": "04-To the Moon-Led Morrow",
         "OriginalFilenames": [],
         "Chapters": [
           {
@@ -6715,33 +6756,6 @@
     ],
     "ExtraContent": [
       {
-        "ChapterName": "Part 4: To the Moon-Led Morrow",
-        "SortOrder": "04",
-        "SubFolder": "",
-        "OriginalFilenames": [],
-        "Chapters": [
-          {
-            "ChapterName": "Character Sheet",
-            "SortOrder": "0801",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "characters1",
-              "characters2",
-              "characters3"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          }
-        ],
-        "Splits": [],
-        "Replacements": [],
-        "LinkedChapters": [],
-        "KeepFirstSplitSection": true
-      },
-      {
         "ChapterName": "The World of Tearmoon Empire",
         "SortOrder": "98",
         "SubFolder": "",
@@ -6768,41 +6782,43 @@
         "KeepFirstSplitSection": true
       }
     ],
-    "Gallery": {
-      "SplashImages": [
-        "frontmatter2",
-        "frontmatter1"
-      ],
-      "ChapterImages": [
-        "insert1",
-        "insert2",
-        "insert3",
-        "insert4",
-        "insert5",
-        "insert6",
-        "insert7",
-        "insert8",
-        "insert9"
-      ],
-      "LateSubFolder": null,
-      "ChapterName": "",
-      "SortOrder": "",
-      "SubFolder": "04-Part 4: To the Moon-Led Morrow",
-      "OriginalFilenames": [],
-      "Chapters": [],
-      "Splits": [],
-      "Replacements": [],
-      "LinkedChapters": [],
-      "KeepFirstSplitSection": true
-    }
+    "Gallery": [
+      {
+        "SplashImages": [
+          "frontmatter2",
+          "frontmatter1"
+        ],
+        "ChapterImages": [
+          "insert1",
+          "insert2",
+          "insert3",
+          "insert4",
+          "insert5",
+          "insert6",
+          "insert7",
+          "insert8",
+          "insert9"
+        ],
+        "LateSubFolder": null,
+        "ChapterName": "",
+        "SortOrder": "",
+        "SubFolder": "04-To the Moon-Led Morrow",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ]
   },
   {
     "InternalName": "tearmoon-empire-volume-9",
     "Chapters": [
       {
-        "ChapterName": "Part 4: To the Moon-Led Morrow",
-        "SortOrder": "04",
-        "SubFolder": "",
+        "ChapterName": "Part 3",
+        "SortOrder": "03",
+        "SubFolder": "04-To the Moon-Led Morrow",
         "OriginalFilenames": [],
         "Chapters": [
           {
@@ -7260,9 +7276,9 @@
     ],
     "BonusChapters": [
       {
-        "ChapterName": "Part 4: To the Moon-Led Morrow",
-        "SortOrder": "04",
-        "SubFolder": "",
+        "ChapterName": "Part 3",
+        "SortOrder": "03",
+        "SubFolder": "04-To the Moon-Led Morrow",
         "OriginalFilenames": [],
         "Chapters": [
           {
@@ -7370,14 +7386,14 @@
     ],
     "ExtraContent": [
       {
-        "ChapterName": "Part 4: To the Moon-Led Morrow",
+        "ChapterName": "To the Moon-Led Morrow",
         "SortOrder": "04",
         "SubFolder": "",
         "OriginalFilenames": [],
         "Chapters": [
           {
             "ChapterName": "Character Sheet",
-            "SortOrder": "0901",
+            "SortOrder": "002",
             "SubFolder": "",
             "OriginalFilenames": [
               "characters1",
@@ -7410,32 +7426,34 @@
         "KeepFirstSplitSection": true
       }
     ],
-    "Gallery": {
-      "SplashImages": [
-        "frontmatter2",
-        "frontmatter1"
-      ],
-      "ChapterImages": [
-        "insert1",
-        "insert2",
-        "insert3",
-        "insert4",
-        "insert5",
-        "insert6",
-        "insert7",
-        "insert8",
-        "insert9"
-      ],
-      "LateSubFolder": null,
-      "ChapterName": "",
-      "SortOrder": "",
-      "SubFolder": "04-Part 4: To the Moon-Led Morrow",
-      "OriginalFilenames": [],
-      "Chapters": [],
-      "Splits": [],
-      "Replacements": [],
-      "LinkedChapters": [],
-      "KeepFirstSplitSection": true
-    }
+    "Gallery": [
+      {
+        "SplashImages": [
+          "frontmatter2",
+          "frontmatter1"
+        ],
+        "ChapterImages": [
+          "insert1",
+          "insert2",
+          "insert3",
+          "insert4",
+          "insert5",
+          "insert6",
+          "insert7",
+          "insert8",
+          "insert9"
+        ],
+        "LateSubFolder": null,
+        "ChapterName": "",
+        "SortOrder": "",
+        "SubFolder": "04-To the Moon-Led Morrow",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ]
   }
 ]
