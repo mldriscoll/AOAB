@@ -9472,7 +9472,7 @@
         "FileName": "prison-life-is-easy-for-a-villainess-volume-2.epub",
         "Title": "Prison Life is Easy for a Villainess: Volume 2",
         "EditedBy": "kuali",
-        "ShowRemainingFiles": true,
+        "ShowRemainingFiles": false,
         "Published": "2022-05-25",
         "Order": 102
       }
@@ -13045,8 +13045,8 @@
         "ApiSlug": "the-wedding-of-marielle-clarac",
         "FileName": "the-wedding-of-marielle-clarac.epub",
         "Title": "The Wedding of Marielle Clarac",
-        "EditedBy": null,
-        "ShowRemainingFiles": true,
+        "EditedBy": "kuali",
+        "ShowRemainingFiles": false,
         "Published": "2020-10-18",
         "Order": 104
       },
@@ -13540,7 +13540,7 @@
         "FileName": "villainess-level-99-i-may-be-the-hidden-boss-but-i-m-not-the-demon-lord-volume-1.epub",
         "Title": "Villainess Level 99: I May Be the Hidden Boss but I'm Not the Demon Lord Act 1",
         "EditedBy": "kuali",
-        "ShowRemainingFiles": true,
+        "ShowRemainingFiles": false,
         "Published": "2023-05-29",
         "Order": 101
       },

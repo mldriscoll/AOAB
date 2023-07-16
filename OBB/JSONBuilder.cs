@@ -60,7 +60,7 @@ namespace OBB
                         vols.Add(volume);
                         vols = vols.OrderBy(x => x.InternalName).ToList();
                     }
-                    await SaveVolumes(serie.InternalName, vols);
+                    await SaveVolumes(serie.InternalName, vols, serie);
                 }
             }
 
@@ -94,8 +94,14 @@ namespace OBB
             }
         }
 
-        private static async Task SaveVolumes(string seriesInternalName, List<Volume> volumes)
+        private static async Task SaveVolumes(string seriesInternalName, List<Volume> volumes, Series serie)
         {
+            volumes = volumes.OrderBy(x =>
+            {
+                var match = serie.Volumes.FirstOrDefault(y => y.ApiSlug.Equals(x.InternalName));
+
+                return match?.Order ?? 999;
+            }).ToList();
             var options = new JsonSerializerOptions
             {
                 WriteIndented = true,
@@ -106,7 +112,7 @@ namespace OBB
                 await JsonSerializer.SerializeAsync(writer.BaseStream, volumes, options);
             }
         }
-        private static async Task SaveSeries(List<Series> series)
+        public static async Task SaveSeries(List<Series> series)
         {
             var options = new JsonSerializerOptions
             {

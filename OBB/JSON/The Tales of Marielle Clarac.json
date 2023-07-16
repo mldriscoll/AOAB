@@ -1,5 +1,2241 @@
 [
   {
+    "InternalName": "the-engagement-of-marielle-clarac",
+    "Chapters": [
+      {
+        "ChapterName": "The Engagement of Marielle Clarac",
+        "SortOrder": "01a",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Chapter One",
+            "SortOrder": "0101",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Two",
+            "SortOrder": "0102",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2",
+              "insert1",
+              "chapter2_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Three",
+            "SortOrder": "0103",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter3",
+              "insert2",
+              "chapter3_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Four",
+            "SortOrder": "0104",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter4",
+              "insert3",
+              "chapter4_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      },
+      {
+        "ChapterName": "The Love Story of Marielle Clarac",
+        "SortOrder": "01b",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Chapter One",
+            "SortOrder": "0105",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter5",
+              "insert4",
+              "chapter5_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Two",
+            "SortOrder": "0106",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter6"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Three",
+            "SortOrder": "0107",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter7",
+              "insert5",
+              "chapter7_1",
+              "insert6",
+              "chapter7_2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Four",
+            "SortOrder": "0108",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter8"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Five",
+            "SortOrder": "0109",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter9",
+              "insert7",
+              "chapter9_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Six",
+            "SortOrder": "0110",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter10",
+              "insert8",
+              "chapter10_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "BonusChapters": [],
+    "ExtraContent": [
+      {
+        "ChapterName": "The Engagement of Marielle Clarac",
+        "SortOrder": "01a",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Characters",
+            "SortOrder": "0100",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "frontmatter2",
+              "frontmatter3"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      },
+      {
+        "ChapterName": "The Engagement of Marielle Clarac",
+        "SortOrder": "01",
+        "SubFolder": "999-Afterwords",
+        "OriginalFilenames": [
+          "afterword"
+        ],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "Gallery": [
+      {
+        "SplashImages": [
+          "frontmatter1"
+        ],
+        "ChapterImages": [
+          "insert1",
+          "insert2",
+          "insert3"
+        ],
+        "LateSubFolder": null,
+        "ChapterName": "",
+        "SortOrder": "",
+        "SubFolder": "01a-The Engagement of Marielle Clarac",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      },
+      {
+        "SplashImages": [
+        ],
+        "ChapterImages": [
+          "insert4",
+          "insert5",
+          "insert6",
+          "insert7",
+          "insert8"
+        ],
+        "LateSubFolder": null,
+        "ChapterName": "",
+        "SortOrder": "",
+        "SubFolder": "01b-The Love Story of Marielle Clarac",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ]
+  },
+  {
+    "InternalName": "the-beloved-of-marielle-clarac",
+    "Chapters": [
+      {
+        "ChapterName": "The Beloved of Marielle Clarac",
+        "SortOrder": "02",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Chapter One",
+            "SortOrder": "0201",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Two",
+            "SortOrder": "0202",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Three",
+            "SortOrder": "0203",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter3",
+              "insert1",
+              "chapter3_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Four",
+            "SortOrder": "0204",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter4",
+              "insert2",
+              "chapter4_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Five",
+            "SortOrder": "0205",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter5"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Six",
+            "SortOrder": "0206",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter6",
+              "insert3",
+              "chapter6_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Seven",
+            "SortOrder": "0207",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter7",
+              "insert4"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Eight",
+            "SortOrder": "0208",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter8"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Nine",
+            "SortOrder": "0209",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter9",
+              "insert5",
+              "chapter9_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Ten",
+            "SortOrder": "0210",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter10"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Eleven",
+            "SortOrder": "0211",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter11",
+              "insert6",
+              "chapter11_1",
+              "insert7",
+              "chapter11_2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Twelve",
+            "SortOrder": "0212",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter12",
+              "insert8",
+              "chapter12_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Thirteen",
+            "SortOrder": "0213",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter13"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "The Beloved of Marielle Clarac",
+        "SortOrder": "02",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "The Blissfulness of Simeon Flaubert",
+            "SortOrder": "0214",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "extra"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "ExtraContent": [
+      {
+        "ChapterName": "The Beloved of Marielle Clarac",
+        "SortOrder": "02",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Character Sheet",
+            "SortOrder": "0200",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "frontmatter2",
+              "frontmatter3"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      },
+      {
+        "ChapterName": "The Beloved of Marielle Clarac",
+        "SortOrder": "02",
+        "SubFolder": "999-Afterwords",
+        "OriginalFilenames": [
+          "afterword"
+        ],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "Gallery": [
+      {
+        "SplashImages": [
+          "bonus",
+          "frontmatter1"
+        ],
+        "ChapterImages": [
+          "insert1",
+          "insert2",
+          "insert3",
+          "insert4",
+          "insert5",
+          "insert6",
+          "insert7",
+          "insert8"
+        ],
+        "LateSubFolder": null,
+        "ChapterName": "",
+        "SortOrder": "",
+        "SubFolder": "02-The Beloved of Marielle Clarac",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ]
+  },
+  {
+    "InternalName": "the-temptation-of-marielle-clarac",
+    "Chapters": [
+      {
+        "ChapterName": "The Temptation of Marielle Clarac",
+        "SortOrder": "03",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Chapter One",
+            "SortOrder": "0301",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1",
+              "insert1",
+              "chapter1_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Two",
+            "SortOrder": "0302",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Three",
+            "SortOrder": "0303",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter3",
+              "insert2",
+              "chapter3_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Four",
+            "SortOrder": "0304",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter4"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Five",
+            "SortOrder": "0305",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter5",
+              "insert3",
+              "chapter5_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Six",
+            "SortOrder": "0306",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter6"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Seven",
+            "SortOrder": "0307",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter7",
+              "insert4",
+              "chapter7_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Eight",
+            "SortOrder": "0308",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter8",
+              "insert5",
+              "chapter8_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Nine",
+            "SortOrder": "0309",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter9"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Ten",
+            "SortOrder": "0310",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter10",
+              "insert6"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Eleven",
+            "SortOrder": "0311",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter11"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Twelve",
+            "SortOrder": "0312",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter12",
+              "insert7",
+              "chapter12_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Thirteen",
+            "SortOrder": "0313",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter13",
+              "insert8"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "The Temptation of Marielle Clarac",
+        "SortOrder": "03",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "The Sorrows of Prince Severin",
+            "SortOrder": "0314",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "extra1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Bonus Short Stories",
+            "SortOrder": "0316",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus1"
+            ],
+            "Chapters": [],
+            "Splits": [
+              {
+                "Name": "Gerard",
+                "SplitLine": "<h2>Gerard</h2>",
+                "SortOrder": "01",
+                "SubFolder": ""
+              },
+              {
+                "Name": "Julianne",
+                "SplitLine": "<h2>Julianne</h2>",
+                "SortOrder": "02",
+                "SubFolder": ""
+              }
+            ],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": false
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "ExtraContent": [
+      {
+        "ChapterName": "The Temptation of Marielle Clarac",
+        "SortOrder": "03",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Character Sheet",
+            "SortOrder": "0200",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "frontmatter2",
+              "frontmatter3"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      },
+      {
+        "ChapterName": "The Temptation of Marielle Clarac",
+        "SortOrder": "03",
+        "SubFolder": "999-Afterwords",
+        "OriginalFilenames": [
+          "afterword"
+        ],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "Gallery": [
+      {
+        "SplashImages": [
+          "frontmatter1"
+        ],
+        "ChapterImages": [
+          "insert1",
+          "insert2",
+          "insert3",
+          "insert4",
+          "insert5",
+          "insert6",
+          "insert7",
+          "insert8"
+        ],
+        "LateSubFolder": null,
+        "ChapterName": "",
+        "SortOrder": "",
+        "SubFolder": "03-The Temptation of Marielle Clarac",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ]
+  },
+  {
+    "InternalName": "the-wedding-of-marielle-clarac",
+    "Chapters": [
+      {
+        "ChapterName": "The Wedding of Marielle Clarac",
+        "SortOrder": "104",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Chapter One",
+            "SortOrder": "10401",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Two",
+            "SortOrder": "10402",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2",
+              "insert1",
+              "chapter2_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Three",
+            "SortOrder": "10403",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter3"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Four",
+            "SortOrder": "10404",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter4",
+              "insert2",
+              "chapter4_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Five",
+            "SortOrder": "10405",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter5"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Six",
+            "SortOrder": "10406",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter6"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Seven",
+            "SortOrder": "10407",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter7",
+              "insert3",
+              "chapter7_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Eight",
+            "SortOrder": "10408",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter8",
+              "insert4",
+              "chapter8_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Nine",
+            "SortOrder": "10409",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter9"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Ten",
+            "SortOrder": "10410",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter10",
+              "insert5",
+              "chapter10_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Eleven",
+            "SortOrder": "10411",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter11"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Twelve",
+            "SortOrder": "10412",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter12",
+              "insert6",
+              "chapter12_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Thirteen",
+            "SortOrder": "10413",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter13",
+              "insert7",
+              "chapter13_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Fourteen",
+            "SortOrder": "10414",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter14"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Fifteen",
+            "SortOrder": "10415",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter15",
+              "insert8",
+              "chapter15_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "The Wedding of Marielle Clarac",
+        "SortOrder": "104",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "The Calling Card of Lutin the Mysterious Thief",
+            "SortOrder": "10416",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "extra1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Bonus Short Stories",
+            "SortOrder": "10418",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus"
+            ],
+            "Chapters": [],
+            "Splits": [
+              {
+                "Name": "Marielle",
+                "SplitLine": "<h2>Marielle</h2>",
+                "SortOrder": "01",
+                "SubFolder": ""
+              },
+              {
+                "Name": "Simeon",
+                "SplitLine": "<h2>Simeon</h2>",
+                "SortOrder": "02",
+                "SubFolder": ""
+              }
+            ],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": false
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "ExtraContent": [
+      {
+        "ChapterName": "The Wedding of Marielle Clarac",
+        "SortOrder": "104",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Character Sheet",
+            "SortOrder": "10400",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "frontmatter2",
+              "frontmatter3"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      },
+      {
+        "ChapterName": "The Wedding of Marielle Clarac",
+        "SortOrder": "104",
+        "SubFolder": "999-Afterwords",
+        "OriginalFilenames": [
+          "afterword"
+        ],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "Gallery": [
+      {
+        "SplashImages": [
+          "bonus1",
+          "bonus2"
+        ],
+        "ChapterImages": [
+          "insert1",
+          "insert2",
+          "insert3",
+          "insert4",
+          "insert5",
+          "insert6",
+          "insert7",
+          "insert8"
+        ],
+        "LateSubFolder": null,
+        "ChapterName": "",
+        "SortOrder": "",
+        "SubFolder": "104-The Wedding of Marielle Clarac",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ]
+  },
+  {
+    "InternalName": "the-intrigue-of-marielle-clarac",
+    "Chapters": [
+      {
+        "ChapterName": "The Intrigue of Marielle Clarac",
+        "SortOrder": "105",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Chapter One",
+            "SortOrder": "10501",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Two",
+            "SortOrder": "10502",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Three",
+            "SortOrder": "10503",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter3",
+              "insert1",
+              "chapter3_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Four",
+            "SortOrder": "10504",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter4",
+              "insert2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Five",
+            "SortOrder": "10505",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter5"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Six",
+            "SortOrder": "10506",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter6",
+              "insert3",
+              "chapter6_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Seven",
+            "SortOrder": "10507",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter7"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Eight",
+            "SortOrder": "10508",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter8",
+              "insert4",
+              "chapter8_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Nine",
+            "SortOrder": "10509",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter9"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Ten",
+            "SortOrder": "10510",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter10",
+              "insert5",
+              "chapter10_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Eleven",
+            "SortOrder": "10511",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter11",
+              "insert6"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Twelve",
+            "SortOrder": "10512",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter12"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Thirteen",
+            "SortOrder": "10513",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter13"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Fourteen",
+            "SortOrder": "10514",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter14",
+              "insert7",
+              "chapter14_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Fifteen",
+            "SortOrder": "10515",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter15",
+              "insert8"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "The Intrigue of Marielle Clarac",
+        "SortOrder": "105",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "The Sentimentality of Albert Poisson",
+            "SortOrder": "10516",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "extra"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Bonus Short Stories",
+            "SortOrder": "10518",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus"
+            ],
+            "Chapters": [],
+            "Splits": [
+              {
+                "Name": "Marielle",
+                "SplitLine": "<h2>Marielle</h2>",
+                "SortOrder": "01",
+                "SubFolder": ""
+              },
+              {
+                "Name": "Simeon",
+                "SplitLine": "<h2>Simeon</h2>",
+                "SortOrder": "02",
+                "SubFolder": ""
+              }
+            ],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "ExtraContent": [
+      {
+        "ChapterName": "The Intrigue of Marielle Clarac",
+        "SortOrder": "105",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      },
+      {
+        "ChapterName": "The Intrigue of Marielle Clarac",
+        "SortOrder": "105",
+        "SubFolder": "999-Afterwords",
+        "OriginalFilenames": [
+          "afterword"
+        ],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "Gallery": [
+      {
+        "SplashImages": [
+          "bonus1",
+          "bonus2",
+          "cover",
+          "frontmatter1",
+          "frontmatter2",
+          "frontmatter3"
+        ],
+        "ChapterImages": [
+          "insert1",
+          "insert2",
+          "insert3",
+          "insert4",
+          "insert5",
+          "insert6",
+          "insert7",
+          "insert8"
+        ],
+        "LateSubFolder": null,
+        "ChapterName": "",
+        "SortOrder": "",
+        "SubFolder": "105-The Intrigue of Marielle Clarac",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ]
+  },
+  {
+    "InternalName": "the-matchmaking-of-marielle-clarac",
+    "Chapters": [
+      {
+        "ChapterName": "The Matchmaking of Marielle Clarac",
+        "SortOrder": "106",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Chapter One",
+            "SortOrder": "10601",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Two",
+            "SortOrder": "10602",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2",
+              "insert1",
+              "chapter2_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Three",
+            "SortOrder": "10603",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter3",
+              "insert2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Four",
+            "SortOrder": "10604",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter4"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Five",
+            "SortOrder": "10605",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter5"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Six",
+            "SortOrder": "10606",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter6",
+              "insert3",
+              "chapter6_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Seven",
+            "SortOrder": "10607",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter7",
+              "insert4",
+              "chapter7_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Eight",
+            "SortOrder": "10608",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter8"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Nine",
+            "SortOrder": "10609",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter9",
+              "insert5",
+              "chapter9_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Ten",
+            "SortOrder": "10610",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter10"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Eleven",
+            "SortOrder": "10611",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter11"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Twelve",
+            "SortOrder": "10612",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter12",
+              "insert6",
+              "chapter12_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Thirteen",
+            "SortOrder": "10613",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter13",
+              "insert7",
+              "chapter13_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Fourteen",
+            "SortOrder": "10614",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter14"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Fifteen",
+            "SortOrder": "10615",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter15",
+              "insert8",
+              "chapter15_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "The Matchmaking of Marielle Clarac",
+        "SortOrder": "106",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "The Headaches of Simeon Flaubert",
+            "SortOrder": "10616",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "extra"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "ExtraContent": [
+      {
+        "ChapterName": "The Matchmaking of Marielle Clarac",
+        "SortOrder": "106",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      },
+      {
+        "ChapterName": "The Matchmaking of Marielle Clarac",
+        "SortOrder": "106",
+        "SubFolder": "999-Afterwords",
+        "OriginalFilenames": [
+          "afterword"
+        ],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "Gallery": [
+      {
+        "SplashImages": [
+          "bonus1",
+          "bonus2",
+          "cover",
+          "frontmatter1",
+          "frontmatter2",
+          "frontmatter3"
+        ],
+        "ChapterImages": [
+          "insert1",
+          "insert2",
+          "insert3",
+          "insert4",
+          "insert5",
+          "insert6",
+          "insert7",
+          "insert8"
+        ],
+        "LateSubFolder": null,
+        "ChapterName": "",
+        "SortOrder": "",
+        "SubFolder": "106-The Matchmaking of Marielle Clarac",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ]
+  },
+  {
+    "InternalName": "the-holy-crown-of-marielle-clarac",
+    "Chapters": [
+      {
+        "ChapterName": "Volume 7",
+        "SortOrder": "7",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "",
+            "SortOrder": "701",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "frontmatter1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "702",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "frontmatter2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "703",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "frontmatter3"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter One",
+            "SortOrder": "704",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1",
+              "insert1",
+              "chapter1_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Two",
+            "SortOrder": "705",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Three",
+            "SortOrder": "706",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter3"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Four",
+            "SortOrder": "707",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter4",
+              "insert2",
+              "chapter4_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Five",
+            "SortOrder": "708",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter5"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Six",
+            "SortOrder": "709",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter6",
+              "insert3",
+              "chapter6_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Seven",
+            "SortOrder": "710",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter7",
+              "insert4"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Eight",
+            "SortOrder": "711",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter8"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Nine",
+            "SortOrder": "712",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter9"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Ten",
+            "SortOrder": "713",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter10"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Eleven",
+            "SortOrder": "714",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter11",
+              "insert5",
+              "chapter11_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Twelve",
+            "SortOrder": "715",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter12",
+              "insert6",
+              "chapter12_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Thirteen",
+            "SortOrder": "716",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter13",
+              "insert7",
+              "chapter13_1",
+              "insert8"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Fourteen",
+            "SortOrder": "717",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter14"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Musings of Alain Lisnard",
+            "SortOrder": "718",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "extra"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Afterword",
+            "SortOrder": "719",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "afterword"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Bonus Short Stories",
+            "SortOrder": "720",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "721",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "signup"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "",
+            "SortOrder": "",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "copyright"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "Volume 7",
+        "SortOrder": "7",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "ExtraContent": [],
+    "Gallery": [
+      {
+        "SplashImages": [
+          "cover",
+          "frontmatter1",
+          "frontmatter2",
+          "frontmatter3"
+        ],
+        "ChapterImages": [
+          "insert1",
+          "insert2",
+          "insert3",
+          "insert4",
+          "insert5",
+          "insert6",
+          "insert7",
+          "insert8"
+        ],
+        "LateSubFolder": null,
+        "ChapterName": "",
+        "SortOrder": "",
+        "SubFolder": "7-Volume 7",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ]
+  },
+  {
     "InternalName": "the-applause-of-marielle-clarac",
     "Chapters": [
       {
@@ -343,571 +2579,36 @@
       }
     ],
     "ExtraContent": [],
-    "Gallery": {
-      "SplashImages": [
-        "cover",
-        "frontmatter1",
-        "frontmatter2",
-        "frontmatter3"
-      ],
-      "ChapterImages": [
-        "insert1",
-        "insert2",
-        "insert3",
-        "insert4",
-        "insert5",
-        "insert6",
-        "insert7",
-        "insert8"
-      ],
-      "LateSubFolder": null,
-      "ChapterName": "",
-      "SortOrder": "",
-      "SubFolder": "8-Volume 8",
-      "OriginalFilenames": [],
-      "Chapters": [],
-      "Splits": [],
-      "Replacements": [],
-      "LinkedChapters": [],
-      "KeepFirstSplitSection": true
-    }
-  },
-  {
-    "InternalName": "the-beloved-of-marielle-clarac",
-    "Chapters": [
+    "Gallery": [
       {
-        "ChapterName": "The Beloved of Marielle Clarac",
-        "SortOrder": "02",
-        "SubFolder": "",
+        "SplashImages": [
+          "cover",
+          "frontmatter1",
+          "frontmatter2",
+          "frontmatter3"
+        ],
+        "ChapterImages": [
+          "insert1",
+          "insert2",
+          "insert3",
+          "insert4",
+          "insert5",
+          "insert6",
+          "insert7",
+          "insert8"
+        ],
+        "LateSubFolder": null,
+        "ChapterName": "",
+        "SortOrder": "",
+        "SubFolder": "8-Volume 8",
         "OriginalFilenames": [],
-        "Chapters": [
-          {
-            "ChapterName": "Chapter One",
-            "SortOrder": "0201",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Two",
-            "SortOrder": "0202",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter2"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Three",
-            "SortOrder": "0203",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter3",
-              "insert1",
-              "chapter3_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Four",
-            "SortOrder": "0204",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter4",
-              "insert2",
-              "chapter4_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Five",
-            "SortOrder": "0205",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter5"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Six",
-            "SortOrder": "0206",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter6",
-              "insert3",
-              "chapter6_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Seven",
-            "SortOrder": "0207",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter7",
-              "insert4"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Eight",
-            "SortOrder": "0208",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter8"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Nine",
-            "SortOrder": "0209",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter9",
-              "insert5",
-              "chapter9_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Ten",
-            "SortOrder": "0210",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter10"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Eleven",
-            "SortOrder": "0211",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter11",
-              "insert6",
-              "chapter11_1",
-              "insert7",
-              "chapter11_2"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Twelve",
-            "SortOrder": "0212",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter12",
-              "insert8",
-              "chapter12_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Thirteen",
-            "SortOrder": "0213",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter13"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          }
-        ],
-        "Splits": [],
-        "Replacements": [],
-        "LinkedChapters": [],
-        "KeepFirstSplitSection": true
-      }
-    ],
-    "BonusChapters": [
-      {
-        "ChapterName": "The Beloved of Marielle Clarac",
-        "SortOrder": "02",
-        "SubFolder": "",
-        "OriginalFilenames": [],
-        "Chapters": [
-          {
-            "ChapterName": "The Blissfulness of Simeon Flaubert",
-            "SortOrder": "0214",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "extra"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          }
-        ],
-        "Splits": [],
-        "Replacements": [],
-        "LinkedChapters": [],
-        "KeepFirstSplitSection": true
-      }
-    ],
-    "ExtraContent": [
-      {
-        "ChapterName": "The Beloved of Marielle Clarac",
-        "SortOrder": "02",
-        "SubFolder": "",
-        "OriginalFilenames": [],
-        "Chapters": [
-          {
-            "ChapterName": "Character Sheet",
-            "SortOrder": "0200",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "frontmatter2",
-              "frontmatter3"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          }
-        ],
-        "Splits": [],
-        "Replacements": [],
-        "LinkedChapters": [],
-        "KeepFirstSplitSection": true
-      },
-      {
-        "ChapterName": "The Beloved of Marielle Clarac",
-        "SortOrder": "02",
-        "SubFolder": "999-Afterwords",
-        "OriginalFilenames": [
-          "afterword"
-        ],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
         "LinkedChapters": [],
         "KeepFirstSplitSection": true
       }
-    ],
-    "Gallery": {
-      "SplashImages": [
-        "bonus",
-        "frontmatter1"
-      ],
-      "ChapterImages": [
-        "insert1",
-        "insert2",
-        "insert3",
-        "insert4",
-        "insert5",
-        "insert6",
-        "insert7",
-        "insert8"
-      ],
-      "LateSubFolder": null,
-      "ChapterName": "",
-      "SortOrder": "",
-      "SubFolder": "02-The Beloved of Marielle Clarac",
-      "OriginalFilenames": [],
-      "Chapters": [],
-      "Splits": [],
-      "Replacements": [],
-      "LinkedChapters": [],
-      "KeepFirstSplitSection": true
-    }
-  },
-  {
-    "InternalName": "the-engagement-of-marielle-clarac",
-    "Chapters": [
-      {
-        "ChapterName": "The Engagement of Marielle Clarac",
-        "SortOrder": "01a",
-        "SubFolder": "",
-        "OriginalFilenames": [],
-        "Chapters": [
-          {
-            "ChapterName": "Chapter One",
-            "SortOrder": "0101",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Two",
-            "SortOrder": "0102",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter2",
-              "insert1",
-              "chapter2_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Three",
-            "SortOrder": "0103",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter3",
-              "insert2",
-              "chapter3_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Four",
-            "SortOrder": "0104",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter4",
-              "insert3",
-              "chapter4_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          }
-        ],
-        "Splits": [],
-        "Replacements": [],
-        "LinkedChapters": [],
-        "KeepFirstSplitSection": true
-      },
-      {
-        "ChapterName": "The Love Story of Marielle Clarac",
-        "SortOrder": "01b",
-        "SubFolder": "",
-        "OriginalFilenames": [],
-        "Chapters": [
-          {
-            "ChapterName": "Chapter One",
-            "SortOrder": "0105",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter5",
-              "insert4",
-              "chapter5_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Two",
-            "SortOrder": "0106",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter6"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Three",
-            "SortOrder": "0107",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter7",
-              "insert5",
-              "chapter7_1",
-              "insert6",
-              "chapter7_2"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Four",
-            "SortOrder": "0108",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter8"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Five",
-            "SortOrder": "0109",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter9",
-              "insert7",
-              "chapter9_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Six",
-            "SortOrder": "0110",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter10",
-              "insert8",
-              "chapter10_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          }
-        ],
-        "Splits": [],
-        "Replacements": [],
-        "LinkedChapters": [],
-        "KeepFirstSplitSection": true
-      }
-    ],
-    "BonusChapters": [],
-    "ExtraContent": [
-      {
-        "ChapterName": "The Engagement of Marielle Clarac",
-        "SortOrder": "01a",
-        "SubFolder": "",
-        "OriginalFilenames": [],
-        "Chapters": [
-          {
-            "ChapterName": "Characters",
-            "SortOrder": "0100",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "frontmatter2",
-              "frontmatter3"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          }
-        ],
-        "Splits": [],
-        "Replacements": [],
-        "LinkedChapters": [],
-        "KeepFirstSplitSection": true
-      },
-      {
-        "ChapterName": "The Engagement of Marielle Clarac",
-        "SortOrder": "01",
-        "SubFolder": "999-Afterwords",
-        "OriginalFilenames": [
-          "afterword"
-        ],
-        "Chapters": [],
-        "Splits": [],
-        "Replacements": [],
-        "LinkedChapters": [],
-        "KeepFirstSplitSection": true
-      }
-    ],
-    "Gallery": {
-      "SplashImages": [
-        "frontmatter1"
-      ],
-      "ChapterImages": [
-        "insert1",
-        "insert2",
-        "insert3",
-        "insert4",
-        "insert5",
-        "insert6",
-        "insert7",
-        "insert8"
-      ],
-      "LateSubFolder": "01b-The Love Story of Marielle Clarac",
-      "ChapterName": "",
-      "SortOrder": "",
-      "SubFolder": "01a-The Engagement of Marielle Clarac",
-      "OriginalFilenames": [],
-      "Chapters": [],
-      "Splits": [],
-      "Replacements": [],
-      "LinkedChapters": [],
-      "KeepFirstSplitSection": true
-    }
+    ]
   },
   {
     "InternalName": "the-festivities-of-marielle-clarac",
@@ -1240,356 +2941,28 @@
       }
     ],
     "ExtraContent": [],
-    "Gallery": {
-      "SplashImages": [
-        "cover",
-        "frontmatter1",
-        "frontmatter2",
-        "frontmatter3"
-      ],
-      "ChapterImages": [
-        "insert1",
-        "insert2",
-        "insert3",
-        "insert4",
-        "insert5",
-        "insert6",
-        "insert7",
-        "insert8"
-      ],
-      "LateSubFolder": null,
-      "ChapterName": "",
-      "SortOrder": "",
-      "SubFolder": "9-Volume 9",
-      "OriginalFilenames": [],
-      "Chapters": [],
-      "Splits": [],
-      "Replacements": [],
-      "LinkedChapters": [],
-      "KeepFirstSplitSection": true
-    }
-  },
-  {
-    "InternalName": "the-holy-crown-of-marielle-clarac",
-    "Chapters": [
+    "Gallery": [
       {
-        "ChapterName": "Volume 7",
-        "SortOrder": "7",
-        "SubFolder": "",
-        "OriginalFilenames": [],
-        "Chapters": [
-          {
-            "ChapterName": "",
-            "SortOrder": "701",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "frontmatter1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "702",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "frontmatter2"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "703",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "frontmatter3"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter One",
-            "SortOrder": "704",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter1",
-              "insert1",
-              "chapter1_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Two",
-            "SortOrder": "705",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter2"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Three",
-            "SortOrder": "706",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter3"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Four",
-            "SortOrder": "707",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter4",
-              "insert2",
-              "chapter4_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Five",
-            "SortOrder": "708",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter5"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Six",
-            "SortOrder": "709",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter6",
-              "insert3",
-              "chapter6_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Seven",
-            "SortOrder": "710",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter7",
-              "insert4"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Eight",
-            "SortOrder": "711",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter8"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Nine",
-            "SortOrder": "712",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter9"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Ten",
-            "SortOrder": "713",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter10"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Eleven",
-            "SortOrder": "714",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter11",
-              "insert5",
-              "chapter11_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Twelve",
-            "SortOrder": "715",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter12",
-              "insert6",
-              "chapter12_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Thirteen",
-            "SortOrder": "716",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter13",
-              "insert7",
-              "chapter13_1",
-              "insert8"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Fourteen",
-            "SortOrder": "717",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter14"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "The Musings of Alain Lisnard",
-            "SortOrder": "718",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "extra"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Afterword",
-            "SortOrder": "719",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "afterword"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Bonus Short Stories",
-            "SortOrder": "720",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "bonus"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "721",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "signup"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "copyright"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          }
+        "SplashImages": [
+          "cover",
+          "frontmatter1",
+          "frontmatter2",
+          "frontmatter3"
         ],
-        "Splits": [],
-        "Replacements": [],
-        "LinkedChapters": [],
-        "KeepFirstSplitSection": true
-      }
-    ],
-    "BonusChapters": [
-      {
-        "ChapterName": "Volume 7",
-        "SortOrder": "7",
-        "SubFolder": "",
+        "ChapterImages": [
+          "insert1",
+          "insert2",
+          "insert3",
+          "insert4",
+          "insert5",
+          "insert6",
+          "insert7",
+          "insert8"
+        ],
+        "LateSubFolder": null,
+        "ChapterName": "",
+        "SortOrder": "",
+        "SubFolder": "9-Volume 9",
         "OriginalFilenames": [],
         "Chapters": [],
         "Splits": [],
@@ -1597,1543 +2970,6 @@
         "LinkedChapters": [],
         "KeepFirstSplitSection": true
       }
-    ],
-    "ExtraContent": [],
-    "Gallery": {
-      "SplashImages": [
-        "cover",
-        "frontmatter1",
-        "frontmatter2",
-        "frontmatter3"
-      ],
-      "ChapterImages": [
-        "insert1",
-        "insert2",
-        "insert3",
-        "insert4",
-        "insert5",
-        "insert6",
-        "insert7",
-        "insert8"
-      ],
-      "LateSubFolder": null,
-      "ChapterName": "",
-      "SortOrder": "",
-      "SubFolder": "7-Volume 7",
-      "OriginalFilenames": [],
-      "Chapters": [],
-      "Splits": [],
-      "Replacements": [],
-      "LinkedChapters": [],
-      "KeepFirstSplitSection": true
-    }
-  },
-  {
-    "InternalName": "the-intrigue-of-marielle-clarac",
-    "Chapters": [
-      {
-        "ChapterName": "Volume 5",
-        "SortOrder": "5",
-        "SubFolder": "",
-        "OriginalFilenames": [],
-        "Chapters": [
-          {
-            "ChapterName": "",
-            "SortOrder": "501",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "frontmatter1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "502",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "frontmatter2"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "503",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "frontmatter3"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter One",
-            "SortOrder": "504",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Two",
-            "SortOrder": "505",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter2"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Three",
-            "SortOrder": "506",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter3",
-              "insert1",
-              "chapter3_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Four",
-            "SortOrder": "507",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter4",
-              "insert2"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Five",
-            "SortOrder": "508",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter5"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Six",
-            "SortOrder": "509",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter6",
-              "insert3",
-              "chapter6_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Seven",
-            "SortOrder": "510",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter7"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Eight",
-            "SortOrder": "511",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter8",
-              "insert4",
-              "chapter8_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Nine",
-            "SortOrder": "512",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter9"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Ten",
-            "SortOrder": "513",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter10",
-              "insert5",
-              "chapter10_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Eleven",
-            "SortOrder": "514",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter11",
-              "insert6"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Twelve",
-            "SortOrder": "515",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter12"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Thirteen",
-            "SortOrder": "516",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter13"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Fourteen",
-            "SortOrder": "517",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter14",
-              "insert7",
-              "chapter14_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Fifteen",
-            "SortOrder": "518",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter15",
-              "insert8"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "The Sentimentality of Albert Poisson",
-            "SortOrder": "519",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "extra"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Afterword",
-            "SortOrder": "520",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "afterword"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Bonus Short Stories",
-            "SortOrder": "521",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "bonus"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "522",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "bonus1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "523",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "bonus2"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "524",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "signup"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "copyright"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          }
-        ],
-        "Splits": [],
-        "Replacements": [],
-        "LinkedChapters": [],
-        "KeepFirstSplitSection": true
-      }
-    ],
-    "BonusChapters": [
-      {
-        "ChapterName": "Volume 5",
-        "SortOrder": "5",
-        "SubFolder": "",
-        "OriginalFilenames": [],
-        "Chapters": [],
-        "Splits": [],
-        "Replacements": [],
-        "LinkedChapters": [],
-        "KeepFirstSplitSection": true
-      }
-    ],
-    "ExtraContent": [],
-    "Gallery": {
-      "SplashImages": [
-        "bonus1",
-        "bonus2",
-        "cover",
-        "frontmatter1",
-        "frontmatter2",
-        "frontmatter3"
-      ],
-      "ChapterImages": [
-        "insert1",
-        "insert2",
-        "insert3",
-        "insert4",
-        "insert5",
-        "insert6",
-        "insert7",
-        "insert8"
-      ],
-      "LateSubFolder": null,
-      "ChapterName": "",
-      "SortOrder": "",
-      "SubFolder": "5-Volume 5",
-      "OriginalFilenames": [],
-      "Chapters": [],
-      "Splits": [],
-      "Replacements": [],
-      "LinkedChapters": [],
-      "KeepFirstSplitSection": true
-    }
-  },
-  {
-    "InternalName": "the-matchmaking-of-marielle-clarac",
-    "Chapters": [
-      {
-        "ChapterName": "Volume 6",
-        "SortOrder": "6",
-        "SubFolder": "",
-        "OriginalFilenames": [],
-        "Chapters": [
-          {
-            "ChapterName": "",
-            "SortOrder": "601",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "frontmatter1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "602",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "frontmatter2"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "603",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "frontmatter3"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter One",
-            "SortOrder": "604",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Two",
-            "SortOrder": "605",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter2",
-              "insert1",
-              "chapter2_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Three",
-            "SortOrder": "606",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter3",
-              "insert2"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Four",
-            "SortOrder": "607",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter4"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Five",
-            "SortOrder": "608",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter5"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Six",
-            "SortOrder": "609",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter6",
-              "insert3",
-              "chapter6_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Seven",
-            "SortOrder": "610",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter7",
-              "insert4",
-              "chapter7_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Eight",
-            "SortOrder": "611",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter8"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Nine",
-            "SortOrder": "612",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter9",
-              "insert5",
-              "chapter9_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Ten",
-            "SortOrder": "613",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter10"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Eleven",
-            "SortOrder": "614",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter11"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Twelve",
-            "SortOrder": "615",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter12",
-              "insert6",
-              "chapter12_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Thirteen",
-            "SortOrder": "616",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter13",
-              "insert7",
-              "chapter13_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Fourteen",
-            "SortOrder": "617",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter14"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Fifteen",
-            "SortOrder": "618",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter15",
-              "insert8",
-              "chapter15_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "The Headaches of Simeon Flaubert",
-            "SortOrder": "619",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "extra"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Afterword",
-            "SortOrder": "620",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "afterword"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "621",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "bonus1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "622",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "bonus2"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "623",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "signup"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "copyright"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          }
-        ],
-        "Splits": [],
-        "Replacements": [],
-        "LinkedChapters": [],
-        "KeepFirstSplitSection": true
-      }
-    ],
-    "BonusChapters": [
-      {
-        "ChapterName": "Volume 6",
-        "SortOrder": "6",
-        "SubFolder": "",
-        "OriginalFilenames": [],
-        "Chapters": [],
-        "Splits": [],
-        "Replacements": [],
-        "LinkedChapters": [],
-        "KeepFirstSplitSection": true
-      }
-    ],
-    "ExtraContent": [],
-    "Gallery": {
-      "SplashImages": [
-        "bonus1",
-        "bonus2",
-        "cover",
-        "frontmatter1",
-        "frontmatter2",
-        "frontmatter3"
-      ],
-      "ChapterImages": [
-        "insert1",
-        "insert2",
-        "insert3",
-        "insert4",
-        "insert5",
-        "insert6",
-        "insert7",
-        "insert8"
-      ],
-      "LateSubFolder": null,
-      "ChapterName": "",
-      "SortOrder": "",
-      "SubFolder": "6-Volume 6",
-      "OriginalFilenames": [],
-      "Chapters": [],
-      "Splits": [],
-      "Replacements": [],
-      "LinkedChapters": [],
-      "KeepFirstSplitSection": true
-    }
-  },
-  {
-    "InternalName": "the-temptation-of-marielle-clarac",
-    "Chapters": [
-      {
-        "ChapterName": "The Temptation of Marielle Clarac",
-        "SortOrder": "03",
-        "SubFolder": "",
-        "OriginalFilenames": [],
-        "Chapters": [
-          {
-            "ChapterName": "Chapter One",
-            "SortOrder": "0301",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter1",
-              "insert1",
-              "chapter1_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Two",
-            "SortOrder": "0302",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter2"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Three",
-            "SortOrder": "0303",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter3",
-              "insert2",
-              "chapter3_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Four",
-            "SortOrder": "0304",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter4"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Five",
-            "SortOrder": "0305",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter5",
-              "insert3",
-              "chapter5_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Six",
-            "SortOrder": "0306",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter6"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Seven",
-            "SortOrder": "0307",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter7",
-              "insert4",
-              "chapter7_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Eight",
-            "SortOrder": "0308",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter8",
-              "insert5",
-              "chapter8_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Nine",
-            "SortOrder": "0309",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter9"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Ten",
-            "SortOrder": "0310",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter10",
-              "insert6"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Eleven",
-            "SortOrder": "0311",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter11"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Twelve",
-            "SortOrder": "0312",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter12",
-              "insert7",
-              "chapter12_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Thirteen",
-            "SortOrder": "0313",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter13",
-              "insert8"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          }
-        ],
-        "Splits": [],
-        "Replacements": [],
-        "LinkedChapters": [],
-        "KeepFirstSplitSection": true
-      }
-    ],
-    "BonusChapters": [
-      {
-        "ChapterName": "The Temptation of Marielle Clarac",
-        "SortOrder": "03",
-        "SubFolder": "",
-        "OriginalFilenames": [],
-        "Chapters": [
-          {
-            "ChapterName": "The Sorrows of Prince Severin",
-            "SortOrder": "0314",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "extra1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Bonus Short Stories",
-            "SortOrder": "0316",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "bonus1"
-            ],
-            "Chapters": [],
-            "Splits": [
-              {
-                "Name": "Gerard",
-                "SplitLine": "<h2>Gerard</h2>",
-                "SortOrder": "01",
-                "SubFolder": ""
-              },
-              {
-                "Name": "Julianne",
-                "SplitLine": "<h2>Julianne</h2>",
-                "SortOrder": "02",
-                "SubFolder": ""
-              }
-            ],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": false
-          }
-        ],
-        "Splits": [],
-        "Replacements": [],
-        "LinkedChapters": [],
-        "KeepFirstSplitSection": true
-      }
-    ],
-    "ExtraContent": [
-      {
-        "ChapterName": "The Temptation of Marielle Clarac",
-        "SortOrder": "03",
-        "SubFolder": "",
-        "OriginalFilenames": [],
-        "Chapters": [
-          {
-            "ChapterName": "Character Sheet",
-            "SortOrder": "0200",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "frontmatter2",
-              "frontmatter3"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          }
-        ],
-        "Splits": [],
-        "Replacements": [],
-        "LinkedChapters": [],
-        "KeepFirstSplitSection": true
-      },
-      {
-        "ChapterName": "The Temptation of Marielle Clarac",
-        "SortOrder": "03",
-        "SubFolder": "999-Afterwords",
-        "OriginalFilenames": [
-          "afterword"
-        ],
-        "Chapters": [],
-        "Splits": [],
-        "Replacements": [],
-        "LinkedChapters": [],
-        "KeepFirstSplitSection": true
-      }
-    ],
-    "Gallery": {
-      "SplashImages": [
-        "frontmatter1"
-      ],
-      "ChapterImages": [
-        "insert1",
-        "insert2",
-        "insert3",
-        "insert4",
-        "insert5",
-        "insert6",
-        "insert7",
-        "insert8"
-      ],
-      "LateSubFolder": null,
-      "ChapterName": "",
-      "SortOrder": "",
-      "SubFolder": "03-The Temptation of Marielle Clarac",
-      "OriginalFilenames": [],
-      "Chapters": [],
-      "Splits": [],
-      "Replacements": [],
-      "LinkedChapters": [],
-      "KeepFirstSplitSection": true
-    }
-  },
-  {
-    "InternalName": "the-wedding-of-marielle-clarac",
-    "Chapters": [
-      {
-        "ChapterName": "Volume 4",
-        "SortOrder": "4",
-        "SubFolder": "",
-        "OriginalFilenames": [],
-        "Chapters": [
-          {
-            "ChapterName": "",
-            "SortOrder": "401",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "frontmatter1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "402",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "frontmatter2"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "403",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "frontmatter3"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter One",
-            "SortOrder": "404",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Two",
-            "SortOrder": "405",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter2",
-              "insert1",
-              "chapter2_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Three",
-            "SortOrder": "406",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter3"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Four",
-            "SortOrder": "407",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter4",
-              "insert2",
-              "chapter4_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Five",
-            "SortOrder": "408",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter5"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Six",
-            "SortOrder": "409",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter6"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Seven",
-            "SortOrder": "410",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter7",
-              "insert3",
-              "chapter7_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Eight",
-            "SortOrder": "411",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter8",
-              "insert4",
-              "chapter8_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Nine",
-            "SortOrder": "412",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter9"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Ten",
-            "SortOrder": "413",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter10",
-              "insert5",
-              "chapter10_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Eleven",
-            "SortOrder": "414",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter11"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Twelve",
-            "SortOrder": "415",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter12",
-              "insert6",
-              "chapter12_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Thirteen",
-            "SortOrder": "416",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter13",
-              "insert7",
-              "chapter13_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Fourteen",
-            "SortOrder": "417",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter14"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter Fifteen",
-            "SortOrder": "418",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "chapter15",
-              "insert8",
-              "chapter15_1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "The Calling Card of Lutin the Mysterious Thief",
-            "SortOrder": "419",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "extra1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Afterword",
-            "SortOrder": "420",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "afterword"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Bonus Short Stories",
-            "SortOrder": "421",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "bonus"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "422",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "bonus1"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "423",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "bonus2"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "424",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "signup"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "",
-            "SortOrder": "",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "copyright"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          }
-        ],
-        "Splits": [],
-        "Replacements": [],
-        "LinkedChapters": [],
-        "KeepFirstSplitSection": true
-      }
-    ],
-    "BonusChapters": [
-      {
-        "ChapterName": "Volume 4",
-        "SortOrder": "4",
-        "SubFolder": "",
-        "OriginalFilenames": [],
-        "Chapters": [],
-        "Splits": [],
-        "Replacements": [],
-        "LinkedChapters": [],
-        "KeepFirstSplitSection": true
-      }
-    ],
-    "ExtraContent": [],
-    "Gallery": {
-      "SplashImages": [
-        "bonus1",
-        "bonus2",
-        "cover",
-        "frontmatter1",
-        "frontmatter2",
-        "frontmatter3"
-      ],
-      "ChapterImages": [
-        "insert1",
-        "insert2",
-        "insert3",
-        "insert4",
-        "insert5",
-        "insert6",
-        "insert7",
-        "insert8"
-      ],
-      "LateSubFolder": null,
-      "ChapterName": "",
-      "SortOrder": "",
-      "SubFolder": "4-Volume 4",
-      "OriginalFilenames": [],
-      "Chapters": [],
-      "Splits": [],
-      "Replacements": [],
-      "LinkedChapters": [],
-      "KeepFirstSplitSection": true
-    }
+    ]
   }
 ]

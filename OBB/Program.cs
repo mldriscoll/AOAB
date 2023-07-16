@@ -28,7 +28,8 @@ while (true)
     Console.WriteLine("4 - Update Miscellaneous Settings");
     Console.WriteLine("5 - Update JNC Login Details");
     Console.WriteLine("6 - Create .json from .epub");
-    Console.WriteLine("7 - Update Series List");
+    Console.WriteLine("7 - Hide Remaining Files on your edited volumes");
+    Console.WriteLine("8 - Update Series List");
 #if DEBUG
     Console.WriteLine("9 - Verify All JSON");
     Console.WriteLine("10 - Create Series Summary Table");
@@ -59,12 +60,22 @@ while (true)
             await JSONBuilder.ExtractJSON();
             break;
         case 7:
+            var series7 = await JSONBuilder.GetSeries();
+            Console.WriteLine("Please enter the name you edit under");
+            var name = Console.ReadLine();
+            foreach(var serie in series7)
+            {
+                serie.Volumes.Where(x => string.Equals(x.EditedBy, name, StringComparison.InvariantCultureIgnoreCase)).ToList().ForEach(x => x.ShowRemainingFiles = false);
+            }
+            await JSONBuilder.SaveSeries(series7);
+            break;
+        case 8:
             await NewVolumes.List();
             break;
 #if DEBUG
         case 9:
-            var series = await JSONBuilder.GetSeries();
-            foreach (var serie in series)
+            var series9 = await JSONBuilder.GetSeries();
+            foreach (var serie in series9)
             {
                 try
                 {
