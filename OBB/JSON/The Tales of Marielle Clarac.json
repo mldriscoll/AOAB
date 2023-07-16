@@ -1523,7 +1523,8 @@
             "Replacements": [],
             "LinkedChapters": [],
             "KeepFirstSplitSection": true
-          }],
+          }
+        ],
         "Splits": [],
         "Replacements": [],
         "LinkedChapters": [],
@@ -1831,7 +1832,21 @@
         "SortOrder": "106",
         "SubFolder": "",
         "OriginalFilenames": [],
-        "Chapters": [],
+        "Chapters": [
+          {
+            "ChapterName": "Character Sheet",
+            "SortOrder": "10500",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "frontmatter2",
+              "frontmatter3"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }],
         "Splits": [],
         "Replacements": [],
         "LinkedChapters": [],
@@ -1855,11 +1870,7 @@
       {
         "SplashImages": [
           "bonus1",
-          "bonus2",
-          "cover",
-          "frontmatter1",
-          "frontmatter2",
-          "frontmatter3"
+          "bonus2"
         ],
         "ChapterImages": [
           "insert1",
