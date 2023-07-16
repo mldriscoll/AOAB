@@ -234,14 +234,14 @@ namespace OBB
             {
                 if (file.Contains("insert"))
                 {
-                    AddImage(file, volume.Gallery.ChapterImages);
+                    AddImage(file, volume.Gallery[0].ChapterImages);
                 }
                 else
                 {
-                    AddImage(file, volume.Gallery.SplashImages);
+                    AddImage(file, volume.Gallery[0].SplashImages);
                 }
             }
-            volume.Gallery.SubFolder = $"{volOrder}-{volumeName}";
+            volume.Gallery[0].SubFolder = $"{volOrder}-{volumeName}";
             return volume;
         }
 

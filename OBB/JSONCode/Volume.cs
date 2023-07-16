@@ -7,6 +7,6 @@
         public List<Chapter> Chapters { get; set; } = new List<Chapter>();
         public List<Chapter> BonusChapters { get; set; } = new List<Chapter>();
         public List<Chapter> ExtraContent { get; set; } = new List<Chapter>();
-        public Gallery Gallery { get; set; } = new Gallery();
+        public List<Gallery> Gallery { get; set; } = new List<Gallery> { new JSONCode.Gallery() };
     }
 }

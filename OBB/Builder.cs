@@ -346,12 +346,12 @@ namespace OBB
             {
                 if (Settings.ImageSettings.IncludeBonusArtAtStartOfVolume || Settings.ImageSettings.IncludeInsertsAtStartOfVolume)
                 {
-                    ret.Add(volume.Gallery.SetFiles(Settings.ImageSettings.IncludeBonusArtAtStartOfVolume, Settings.ImageSettings.IncludeInsertsAtStartOfVolume, true));
+                    ret.AddRange(volume.Gallery.Select(x => x.SetFiles(Settings.ImageSettings.IncludeBonusArtAtStartOfVolume, Settings.ImageSettings.IncludeInsertsAtStartOfVolume, true)));
                 }
 
                 if (Settings.ImageSettings.IncludeBonusArtAtEndOfVolume || Settings.ImageSettings.IncludeInsertsAtEndOfVolume)
                 {
-                    ret.Add(volume.Gallery.SetFiles(Settings.ImageSettings.IncludeBonusArtAtEndOfVolume, Settings.ImageSettings.IncludeInsertsAtEndOfVolume, false));
+                    ret.AddRange(volume.Gallery.Select(x => x.SetFiles(Settings.ImageSettings.IncludeBonusArtAtEndOfVolume, Settings.ImageSettings.IncludeInsertsAtEndOfVolume, false)));
                 }
             }
 
