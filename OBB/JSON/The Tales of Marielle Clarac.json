@@ -237,8 +237,7 @@
         "KeepFirstSplitSection": true
       },
       {
-        "SplashImages": [
-        ],
+        "SplashImages": [],
         "ChapterImages": [
           "insert4",
           "insert5",
@@ -1177,7 +1176,8 @@
             "Replacements": [],
             "LinkedChapters": [],
             "KeepFirstSplitSection": true
-          }],
+          }
+        ],
         "Splits": [],
         "Replacements": [],
         "LinkedChapters": [],
@@ -1494,7 +1494,7 @@
             ],
             "Replacements": [],
             "LinkedChapters": [],
-            "KeepFirstSplitSection": true
+            "KeepFirstSplitSection": false
           }
         ],
         "Splits": [],
@@ -1509,7 +1509,21 @@
         "SortOrder": "105",
         "SubFolder": "",
         "OriginalFilenames": [],
-        "Chapters": [],
+        "Chapters": [
+          {
+            "ChapterName": "Character Sheet",
+            "SortOrder": "10500",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "frontmatter2",
+              "frontmatter3"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }],
         "Splits": [],
         "Replacements": [],
         "LinkedChapters": [],
@@ -1533,11 +1547,7 @@
       {
         "SplashImages": [
           "bonus1",
-          "bonus2",
-          "cover",
-          "frontmatter1",
-          "frontmatter2",
-          "frontmatter3"
+          "bonus2"
         ],
         "ChapterImages": [
           "insert1",
