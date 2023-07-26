@@ -238,8 +238,6 @@ namespace AOABO.Omnibus
                                     throw new Exception($"{ex.Message} while processing file {chapterFile}", ex);
                                 }
                             }
-
-                            newChapter.Contents = string.Concat(newChapter.Contents, "</body>");
                         }
 
                         if (Configuration.Options.Chapter.UpdateChapterNames)

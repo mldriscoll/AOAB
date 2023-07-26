@@ -852,7 +852,7 @@
       "Year": 8,
       "Season": "Winter",
       "ProcessedInPartFive": true,
-      "PartSheet": true
+      "PartSheet": false
     },
     "Afterword": {
       "OriginalFilenames": [ "afterword" ],
@@ -1041,7 +1041,7 @@
         "Volume": "0504",
         "EarlyYear": 8,
         "EarlySeason": "Spring",
-        "LateYear": 7,
+        "LateYear": 8,
         "LateSeason": "Spring",
         "Set": "",
         "Priority": 0,
@@ -1056,12 +1056,239 @@
         "Volume": "0504",
         "EarlyYear": 8,
         "EarlySeason": "Spring",
-        "LateYear": 7,
+        "LateYear": 8,
         "LateSeason": "Spring",
         "Set": "",
         "Priority": 0,
         "ProcessedInPartFive": true
       }
+    ]
+  },
+  {
+    "InternalName": "LN0505",
+    "Gallery": {
+      "SplashImages": [ "bonus2", "bonus1" ],
+      "ChapterImages": [ "insert1", "insert2", "insert3", "insert4", "insert5", "insert6", "insert7", "insert8", "insert9", "insert10" ],
+      "EarlySortOrder": "0505",
+      "LateSortOrder": "050599",
+      "ChapterName": "LN505",
+      "AltName": "Volume 5",
+      "Volume": "0505",
+      "EarlyYear": 8,
+      "EarlySeason": "Spring",
+      "LateYear": 8,
+      "LateSeason": "Spring",
+      "ProcessedInPartFive": true
+    },
+    "ComfyLifeChapter": {
+      "OriginalFilenames": [ "manga1", "manga2" ],
+      "SortOrder": "050598",
+      "ChapterName": "Comfy Life 505",
+      "Volume": "0505",
+      "Year": 8,
+      "Season": "Spring",
+      "ProcessedInPartFive": true
+    },
+    "CharacterSheet": {
+      "OriginalFilenames": [ "characters1", "characters2", "characters3" ],
+      "SortOrder": "0505",
+      "ChapterName": "Avatar of a Goddess Characters",
+      "Volume": "0505",
+      "Year": 8,
+      "Season": "Spring",
+      "ProcessedInPartFive": true,
+      "PartSheet": true
+    },
+    "Afterword": {
+      "OriginalFilenames": [ "afterword" ],
+      "SortOrder": "050597",
+      "ChapterName": "LN505 Afterword",
+      "Volume": "0505",
+      "Year": 8,
+      "Season": "Spring",
+      "ProcessedInPartFive": true
+    },
+    "POVChapters": [
+      {
+        "OriginalFilenames": [
+          "prologue",
+          "insert1",
+          "prologue_1"
+        ],
+        "SortOrder": "050500",
+        "ChapterName": "Prologue",
+        "Volume": "0505",
+        "Year": 8,
+        "Season": "Spring",
+        "ProcessedInPartFive": true,
+        "POV": "Bonifatius"
+      },
+      {
+        "OriginalFilenames": [ "chapter15", "insert10", "chapter15_1" ],
+        "SortOrder": "050515a",
+        "ChapterName": "Epilogue",
+        "Volume": "0505",
+        "Year": 8,
+        "Season": "Spring",
+        "ProcessedInPartFive": true,
+        "POV": "Hildebrand"
+      }
+    ],
+    "Chapters": [
+      {
+        "OriginalFilenames": [ "chapter1" ],
+        "SortOrder": "050501",
+        "ChapterName": "Apprentice Blues and the Orphanage Children",
+        "Volume": "0505",
+        "Year": 8,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter2" ],
+        "SortOrder": "050502",
+        "ChapterName": "Divine Protections All Around",
+        "Volume": "0505",
+        "Year": 8,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter3", "insert2", "chapter3_1" ],
+        "SortOrder": "050503",
+        "ChapterName": "The Archduke Conference’s Starbinding",
+        "Volume": "0505",
+        "Year": 8,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter4" ],
+        "SortOrder": "050504",
+        "ChapterName": "Work in the Underground Archive",
+        "Volume": "0505",
+        "Year": 8,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter5", "insert3", "chapter5_1" ],
+        "SortOrder": "050505",
+        "ChapterName": "Zent Candidates",
+        "Volume": "0505",
+        "Year": 8,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter6", "insert4", "chapter6_1" ],
+        "SortOrder": "050506",
+        "ChapterName": "The Locations of the Shrines",
+        "Volume": "0505",
+        "Year": 8,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter7" ],
+        "SortOrder": "050507",
+        "ChapterName": "Consultation",
+        "Volume": "0505",
+        "Year": 8,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter8", "insert5", "chapter8_1" ],
+        "SortOrder": "050508",
+        "ChapterName": "Circling the Shrines",
+        "Volume": "0505",
+        "Year": 8,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter9", "insert6", "chapter9_1" ],
+        "SortOrder": "050509",
+        "ChapterName": "Deeper into the Underground Archive",
+        "Volume": "0505",
+        "Year": 8,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter10", "insert7", "chapter10_1" ],
+        "SortOrder": "050510",
+        "ChapterName": "Letters and a Discussion",
+        "Volume": "0505",
+        "Year": 8,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter11", "insert8", "chapter11_1" ],
+        "SortOrder": "050511",
+        "ChapterName": "The Merchant Saint",
+        "Volume": "0505",
+        "Year": 8,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter12" ],
+        "SortOrder": "050512",
+        "ChapterName": "Conditions for Being Adopted",
+        "Volume": "0505",
+        "Year": 8,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter13" ],
+        "SortOrder": "050513",
+        "ChapterName": "Secured Conditions",
+        "Volume": "0505",
+        "Year": 8,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter14", "insert9", "chapter14_1" ],
+        "SortOrder": "050514a",
+        "ChapterName": "The Archduke Conference’s Dedication Ritual",
+        "Volume": "0505",
+        "Year": 8,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      }
+    ],
+    "BonusChapters": [
+      {
+        "OriginalFilenames": [ "chapter16" ],
+        "EarlySortOrder": "050514b",
+        "LateSortOrder": "050596a",
+        "ChapterName": "An Unwanted Marriage",
+        "Volume": "0505",
+        "EarlyYear": 8,
+        "LateYear": 8,
+        "EarlySeason": "Spring",
+        "LateSeason": "Spring",
+        "ProcessedInPartFive": true,
+        "POV": "Adolphine"
+      },
+      {
+        "OriginalFilenames": [ "chapter17" ],
+        "EarlySortOrder": "050515b",
+        "LateSortOrder": "050596b",
+        "ChapterName": "Schlaftraum’s Flowers",
+        "Volume": "0505",
+        "EarlyYear": 8,
+        "LateYear": 8,
+        "EarlySeason": "Spring",
+        "LateSeason": "Spring",
+        "ProcessedInPartFive": true,
+        "POV": "Hortensia"
+      },
     ]
   }
 ]
