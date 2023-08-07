@@ -1647,5 +1647,331 @@
         "KeepFirstSplitSection": true
       }
     ]
+  },
+  {
+    "InternalName": "death-s-daughter-and-the-ebony-blade-volume-5",
+    "Chapters": [
+      {
+        "ChapterName": "Volume 05",
+        "SortOrder": "105",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "The Dead Tell No Tales",
+            "SortOrder": "10504",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "prologue"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "A Journey",
+            "SortOrder": "10505",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1",
+              "insert1",
+              "chapter1_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Spider’s Web",
+            "SortOrder": "10506",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2",
+              "insert2",
+              "chapter2_1"
+            ],
+            "Chapters": [],
+            "Splits": [
+              {
+                "Name": "II",
+                "SplitLine": "<h2>II</h2>",
+                "SortOrder": "02",
+                "SubFolder": ""
+              }
+            ],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Escape",
+            "SortOrder": "10507",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter3",
+              "insert3",
+              "chapter3_1"
+            ],
+            "Chapters": [],
+            "Splits": [
+              {
+                "Name": "II",
+                "SplitLine": "<h2>II</h2>",
+                "SortOrder": "02",
+                "SubFolder": ""
+              },
+              {
+                "Name": "III",
+                "SplitLine": "<h2>III</h2>",
+                "SortOrder": "03",
+                "SubFolder": ""
+              },
+              {
+                "Name": "IV",
+                "SplitLine": "<h2>IV</h2>",
+                "SortOrder": "04",
+                "SubFolder": ""
+              },
+              {
+                "Name": "V",
+                "SplitLine": "<h2>V</h2>",
+                "SortOrder": "05",
+                "SubFolder": ""
+              }
+            ],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Doubt",
+            "SortOrder": "10508",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter4",
+              "insert4",
+              "chapter4_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Rosenmarie Rises Again",
+            "SortOrder": "10510",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter5",
+              "insert5",
+              "chapter5_1",
+              "insert6",
+              "chapter5_2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Twin Lions at Dawn",
+            "SortOrder": "10511",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter6",
+              "insert7",
+              "chapter6_1",
+              "insert8",
+              "chapter6_2"
+            ],
+            "Chapters": [],
+            "Splits": [
+              {
+                "Name": "II",
+                "SplitLine": "<h2>II</h2>",
+                "SortOrder": "02",
+                "SubFolder": ""
+              },
+              {
+                "Name": "III",
+                "SplitLine": "<h2>III</h2>",
+                "SortOrder": "03",
+                "SubFolder": ""
+              },
+              {
+                "Name": "IV",
+                "SplitLine": "<h2>IV</h2>",
+                "SortOrder": "04",
+                "SubFolder": ""
+              }
+            ],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Final Battle",
+            "SortOrder": "10512",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "epilogue",
+              "insert9"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "Volume 05",
+        "SortOrder": "105",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Interlude: Reunited Out of the Blue",
+            "SortOrder": "10509",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "interlude"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Bonus Short Stories",
+            "SortOrder": "10517",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus"
+            ],
+            "Chapters": [],
+            "Splits": [
+              {
+                "Name": "A Day With Olivia and Evanson",
+                "SplitLine": "<h2>A Day With Olivia and Evanson</h2>",
+                "SortOrder": "01",
+                "SubFolder": ""
+              },
+              {
+                "Name": "A Second Day With Olivia and Sara",
+                "SplitLine": "<h2>A Second Day With Olivia and Sara</h2>",
+                "SortOrder": "02",
+                "SubFolder": ""
+              },
+              {
+                "Name": "A Fifth Day With Olivia and Claudia",
+                "SplitLine": "<h2>A Fifth Day With Olivia and Claudia</h2>",
+                "SortOrder": "03",
+                "SubFolder": ""
+              },
+              {
+                "Name": "A Third Day With Olivia and Blood",
+                "SplitLine": "<h2>A Third Day With Olivia and Blood</h2>",
+                "SortOrder": "04",
+                "SubFolder": ""
+              }
+            ],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": false
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "ExtraContent": [
+      {
+        "ChapterName": "Volume 05",
+        "SortOrder": "105",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Character Sheet",
+            "SortOrder": "10503",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "characters1",
+              "characters2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      },
+      {
+        "ChapterName": "Volume 05",
+        "SortOrder": "105",
+        "SubFolder": "999-Afterwords",
+        "OriginalFilenames": [
+          "afterword"
+        ],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "Gallery": [
+      {
+        "SplashImages": [
+          "bonusimg",
+          "backmatter1",
+          "backmatter2",
+          "backmatter3"
+        ],
+        "ChapterImages": [
+          "insert1",
+          "insert2",
+          "insert3",
+          "insert4",
+          "insert5",
+          "insert6",
+          "insert7",
+          "insert8",
+          "insert9"
+        ],
+        "LateSubFolder": null,
+        "ChapterName": "",
+        "SortOrder": "",
+        "SubFolder": "105-Volume 05",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ]
   }
 ]
