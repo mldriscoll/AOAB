@@ -1895,5 +1895,327 @@
         "KeepFirstSplitSection": true
       }
     ]
+  },
+  {
+    "InternalName": "the-holy-crown-of-marielle-clarac",
+    "Chapters": [
+      {
+        "ChapterName": "The Holy Crown of Marielle Clarac",
+        "SortOrder": "107",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Chapter One",
+            "SortOrder": "10701",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1",
+              "insert1",
+              "chapter1_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Two",
+            "SortOrder": "10702",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Three",
+            "SortOrder": "10703",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter3"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Four",
+            "SortOrder": "10704",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter4",
+              "insert2",
+              "chapter4_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Five",
+            "SortOrder": "10705",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter5"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Six",
+            "SortOrder": "10706",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter6",
+              "insert3",
+              "chapter6_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Seven",
+            "SortOrder": "10707",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter7",
+              "insert4"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Eight",
+            "SortOrder": "10708",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter8"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Nine",
+            "SortOrder": "10709",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter9"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Ten",
+            "SortOrder": "10710",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter10"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Eleven",
+            "SortOrder": "10711",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter11",
+              "insert5",
+              "chapter11_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Twelve",
+            "SortOrder": "10712",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter12",
+              "insert6",
+              "chapter12_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Thirteen",
+            "SortOrder": "10713",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter13",
+              "insert7",
+              "chapter13_1",
+              "insert8"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chapter Fourteen",
+            "SortOrder": "10714",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter14"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "The Holy Crown of Marielle Clarac",
+        "SortOrder": "107",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "The Musings of Alain Lisnard",
+            "SortOrder": "10715",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "extra"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Bonus Short Stories",
+            "SortOrder": "10717",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus"
+            ],
+            "Chapters": [],
+            "Splits": [
+              {
+                "Name": "Simeon",
+                "SplitLine": "<h2>Simeon</h2>",
+                "SortOrder": "01",
+                "SubFolder": ""
+              },
+              {
+                "Name": "Severin",
+                "SplitLine": "<h2>Severin</h2>",
+                "SortOrder": "02",
+                "SubFolder": ""
+              }
+            ],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": false
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "ExtraContent": [
+      {
+        "ChapterName": "The Holy Crown of Marielle Clarac",
+        "SortOrder": "107",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      },
+      {
+        "ChapterName": "The Holy Crown of Marielle Clarac",
+        "SortOrder": "107",
+        "SubFolder": "999-Afterwords",
+        "OriginalFilenames": [
+          "afterword"
+        ],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "Gallery": [
+      {
+        "SplashImages": [
+          "cover",
+          "frontmatter1",
+          "frontmatter2",
+          "frontmatter3"
+        ],
+        "ChapterImages": [
+          "insert1",
+          "insert2",
+          "insert3",
+          "insert4",
+          "insert5",
+          "insert6",
+          "insert7",
+          "insert8"
+        ],
+        "LateSubFolder": null,
+        "ChapterName": "",
+        "SortOrder": "",
+        "SubFolder": "107-The Holy Crown of Marielle Clarac",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ]
   }
 ]
