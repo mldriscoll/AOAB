@@ -1085,8 +1085,8 @@
     ],
     "BonusChapters": [
       {
-        "ChapterName": "Volume 05",
-        "SortOrder": "05",
+        "ChapterName": "Idol of the Holy Night",
+        "SortOrder": "09",
         "SubFolder": "",
         "OriginalFilenames": [],
         "Chapters": [
@@ -1196,6 +1196,312 @@
         "ChapterName": "",
         "SortOrder": "",
         "SubFolder": "09-Idol of the Holy Night",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ]
+  },
+  {
+    "InternalName": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-6",
+    "Chapters": [
+      {
+        "ChapterName": "A Place to Call Home",
+        "SortOrder": "11",
+        "Chapters": [
+          {
+            "ChapterName": "The Darkness Lurking in the Depths",
+            "SortOrder": "10601",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1",
+              "insert1",
+              "chapter1_1",
+              "insert2",
+              "chapter1_2",
+              "insert3",
+              "chapter1_3"
+            ],
+            "Chapters": [],
+            "Splits": [
+              {
+                "Name": "2",
+                "SplitLine": "<h2>2</h2>",
+                "SortOrder": "02",
+                "SubFolder": ""
+              },
+              {
+                "Name": "3",
+                "SplitLine": "<h2>3</h2>",
+                "SortOrder": "03",
+                "SubFolder": ""
+              },
+              {
+                "Name": "4",
+                "SplitLine": "<h2>4</h2>",
+                "SortOrder": "04",
+                "SubFolder": ""
+              },
+              {
+                "Name": "5",
+                "SplitLine": "<h2>5</h2>",
+                "SortOrder": "05",
+                "SubFolder": ""
+              }
+            ],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "A Place to Call Home",
+            "SortOrder": "10602",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2",
+              "insert4",
+              "chapter2_1"
+            ],
+            "Chapters": [],
+            "Splits": [
+              {
+                "Name": "2",
+                "SplitLine": "<h2>2</h2>",
+                "SortOrder": "02",
+                "SubFolder": ""
+              }
+            ],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ]
+      },
+      {
+        "ChapterName": "A Tale of Two Princes",
+        "SortOrder": "12",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Two Fateful Encounters and a Parting Omen",
+            "SortOrder": "10606",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter3",
+              "insert5",
+              "chapter3_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Broken Bonds and a Decision to Part",
+            "SortOrder": "10607",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter4"
+            ],
+            "Chapters": [],
+            "Splits": [
+              {
+                "Name": "2",
+                "SplitLine": "<h2>2</h2>",
+                "SortOrder": "02",
+                "SubFolder": ""
+              },
+              {
+                "Name": "3",
+                "SplitLine": "<h2>3</h2>",
+                "SortOrder": "03",
+                "SubFolder": ""
+              },
+              {
+                "Name": "4",
+                "SplitLine": "<h2>4</h2>",
+                "SortOrder": "04",
+                "SubFolder": ""
+              },
+              {
+                "Name": "5",
+                "SplitLine": "<h2>5</h2>",
+                "SortOrder": "05",
+                "SubFolder": ""
+              },
+              {
+                "Name": "6",
+                "SplitLine": "<h2>6</h2>",
+                "SortOrder": "06",
+                "SubFolder": ""
+              }
+            ],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "A Place to Call Home",
+        "SortOrder": "11",
+        "Chapters": [
+          {
+            "ChapterName": "The Resolve of Two Doctors",
+            "SortOrder": "10603",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "interlude1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Diary of Eir, the Familiar",
+            "SortOrder": "10604",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "interlude2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Diary of Rurii, the Familiar",
+            "SortOrder": "10605",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "interlude3"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ]
+      },
+      {
+        "ChapterName": "A Tale of Two Princes",
+        "SortOrder": "12",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Side Story: Of Wraiths and Haunted Villages",
+            "SortOrder": "10608",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "side1",
+              "insert6",
+              "side1_1",
+              "insert7",
+              "side1_2",
+              "insert8",
+              "side1_3"
+            ],
+            "Chapters": [],
+            "Splits": [
+              {
+                "Name": "2",
+                "SplitLine": "<h2>2</h2>",
+                "SortOrder": "02",
+                "SubFolder": ""
+              },
+              {
+                "Name": "3",
+                "SplitLine": "<h2>3</h2>",
+                "SortOrder": "03",
+                "SubFolder": ""
+              }
+            ],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Bonus Short Story",
+            "SortOrder": "10610",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "ExtraContent": [
+      {
+        "ChapterName": "Housekeeping Mage from Another World: Making Your Adventures Feel Like Home! Volume 6",
+        "SortOrder": "106",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      },
+      {
+        "ChapterName": "Volume 06",
+        "SortOrder": "106",
+        "SubFolder": "999-Afterwords",
+        "OriginalFilenames": [
+          "afterword"
+        ],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "Gallery": [
+      {
+        "SplashImages": [
+          "cover",
+          "frontmatter1"
+        ],
+        "ChapterImages": [
+          "insert1",
+          "insert2",
+          "insert3",
+          "insert4",
+          "insert5",
+          "insert6",
+          "insert7",
+          "insert8"
+        ],
+        "LateSubFolder": "12-A Tale of Two Princes",
+        "ChapterName": "",
+        "SortOrder": "",
+        "SubFolder": "11-A Place to Call Home",
         "OriginalFilenames": [],
         "Chapters": [],
         "Splits": [],
