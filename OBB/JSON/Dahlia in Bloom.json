@@ -1971,5 +1971,350 @@
         "KeepFirstSplitSection": true
       }
     ]
+  },
+  {
+    "InternalName": "lucia-and-the-loom-weaving-her-way-to-happiness-volume-1",
+    "Chapters": [
+      {
+        "ChapterName": "Lucia 01",
+        "SortOrder": "03b",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "The Nemophila Girl",
+            "SortOrder": "20102",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Dreams for the Future and the Couturier",
+            "SortOrder": "20103",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2",
+              "insert1",
+              "chapter2_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Master of the Tailors’ Guild and the Wyvern",
+            "SortOrder": "20104",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter3",
+              "insert2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Magical Garment Factory",
+            "SortOrder": "20105",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter4"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Lost Property and Keeping Tidy",
+            "SortOrder": "20106",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter5"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Knight and the Dress",
+            "SortOrder": "20107",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter6",
+              "insert3",
+              "chapter6_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Dinner with the Magical Garment Factory",
+            "SortOrder": "20108",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter7",
+              "insert4",
+              "chapter7_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Old Man and His Granddaughter",
+            "SortOrder": "20109",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter8",
+              "insert5"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Day Off with a Friend",
+            "SortOrder": "20110",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter9"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Noblewomen Twins",
+            "SortOrder": "20111",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter10",
+              "insert6",
+              "chapter10_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Nobleman and Floral Patterns",
+            "SortOrder": "20112",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter11",
+              "insert7",
+              "chapter11_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Couturier and the Inexpensive Dress",
+            "SortOrder": "20113",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter12",
+              "insert8"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "Lucia 01",
+        "SortOrder": "03b",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Extra Story: Mr. Sunset",
+            "SortOrder": "20114",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "extra",
+              "insert9",
+              "extra_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "ExtraContent": [
+      {
+        "ChapterName": "Lucia 01",
+        "SortOrder": "03b",
+        "SubFolder": "90-Translator's Notes",
+        "OriginalFilenames": [
+          "bonus"
+        ],
+        "Chapters": [],
+        "Splits": [
+          {
+            "Name": "Title Goes Here",
+            "SplitLine": "<h2>Title Goes Here</h2>",
+            "SortOrder": "01",
+            "SubFolder": ""
+          },
+          {
+            "Name": "Couturier and Clothier",
+            "SplitLine": "<h2>Couturier and Clothier</h2>",
+            "SortOrder": "02",
+            "SubFolder": ""
+          },
+          {
+            "Name": "Išrana",
+            "SplitLine": "<h2>Išrana</h2>",
+            "SortOrder": "03",
+            "SubFolder": ""
+          },
+          {
+            "Name": "Wyvern Out of the Azure",
+            "SplitLine": "<h2>Wyvern Out of the Azure</h2>",
+            "SortOrder": "04",
+            "SubFolder": ""
+          },
+          {
+            "Name": "Poncho",
+            "SplitLine": "<h2>Poncho</h2>",
+            "SortOrder": "05",
+            "SubFolder": ""
+          },
+          {
+            "Name": "Visionary Vice",
+            "SplitLine": "<h2>Visionary Vice</h2>",
+            "SortOrder": "06",
+            "SubFolder": ""
+          },
+          {
+            "Name": "Sateen and Maxi",
+            "SplitLine": "<h2>Sateen and Maxi</h2>",
+            "SortOrder": "07",
+            "SubFolder": ""
+          },
+          {
+            "Name": "Fritto Misto",
+            "SplitLine": "<h2>Fritto Misto</h2>",
+            "SortOrder": "08",
+            "SubFolder": ""
+          },
+          {
+            "Name": "Flying Fish",
+            "SplitLine": "<h2>Flying Fish</h2>",
+            "SortOrder": "09",
+            "SubFolder": ""
+          },
+          {
+            "Name": "Idioms Continued",
+            "SplitLine": "<h2>Idioms Continued</h2>",
+            "SortOrder": "10",
+            "SubFolder": ""
+          },
+          {
+            "Name": "Etymology",
+            "SplitLine": "<h2>Etymology</h2>",
+            "SortOrder": "11",
+            "SubFolder": ""
+          },
+          {
+            "Name": "Allied and Patron Houses",
+            "SplitLine": "<h2>Allied and Patron Houses</h2>",
+            "SortOrder": "12",
+            "SubFolder": ""
+          },
+          {
+            "Name": "Gall",
+            "SplitLine": "<h2>Gall</h2>",
+            "SortOrder": "13",
+            "SubFolder": ""
+          },
+          {
+            "Name": "Sunset-<em>onii-chan</em>",
+            "SplitLine": "<h2>Sunset-<em>onii-chan</em></h2>",
+            "SortOrder": "14",
+            "SubFolder": ""
+          }
+        ],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "Gallery": [
+      {
+        "SplashImages": [
+          "color1",
+          "color2",
+          "color3"
+        ],
+        "ChapterImages": [
+          "insert1",
+          "insert2",
+          "insert3",
+          "insert4",
+          "insert5",
+          "insert6",
+          "insert7",
+          "insert8",
+          "insert9"
+        ],
+        "LateSubFolder": null,
+        "ChapterName": "",
+        "SortOrder": "",
+        "SubFolder": "03b-Lucia 01",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ]
   }
 ]
