@@ -258,7 +258,7 @@
         "KeepFirstSplitSection": true
       },
       {
-        "ChapterName": "Volume 01",
+        "ChapterName": "Act 1",
         "SortOrder": "01",
         "SubFolder": "999-Afterwords",
         "OriginalFilenames": [
@@ -294,6 +294,323 @@
         "ChapterName": "",
         "SortOrder": "",
         "SubFolder": "01-Act 1",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ]
+  },
+  {
+    "InternalName": "villainess-level-99-i-may-be-the-hidden-boss-but-i-m-not-the-demon-lord-act-2",
+    "Chapters": [
+      {
+        "ChapterName": "Act 2",
+        "SortOrder": "102",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Prologue",
+            "SortOrder": "10202",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "prologue",
+              "insert1",
+              "prologue_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Hidden Boss Graduates",
+            "SortOrder": "10203",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Hidden Boss Becomes a County Owner",
+            "SortOrder": "10205",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2",
+              "insert2",
+              "chapter2_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Hidden Boss Visits Her Fiancé’s Family",
+            "SortOrder": "10207",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter3",
+              "insert3",
+              "chapter3_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Hidden Boss Reforms Her County",
+            "SortOrder": "10209",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter4",
+              "insert4",
+              "chapter4_1",
+              "insert5",
+              "chapter4_2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Hidden Boss Heads to the Royal Capital",
+            "SortOrder": "10211",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter5",
+              "insert6",
+              "chapter5_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Hidden Boss Gains a Friend",
+            "SortOrder": "10213",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter6",
+              "insert7",
+              "chapter6_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Hidden Boss Faces Off Against the Duke",
+            "SortOrder": "10215",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter7",
+              "insert8",
+              "chapter7_1",
+              "insert9",
+              "chapter7_2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Epilogue",
+            "SortOrder": "10216",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "epilogue",
+              "insert10",
+              "epilogue_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "Act 2",
+        "SortOrder": "102",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Interlude 1: The Duke of Hillrose",
+            "SortOrder": "10204",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "interlude1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Interlude 2: Daemon",
+            "SortOrder": "10206",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "interlude2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Interlude 3: Patrick",
+            "SortOrder": "10208",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "interlude3"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Interlude 4: Cliff",
+            "SortOrder": "10210",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "interlude4"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Interlude 5: Phil",
+            "SortOrder": "10212",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "interlude5"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Interlude 6: Eleanora",
+            "SortOrder": "10214",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "interlude6"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "ExtraContent": [
+      {
+        "ChapterName": "Act 2",
+        "SortOrder": "102",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Character Guide",
+            "SortOrder": "10201",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus3"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      },
+      {
+        "ChapterName": "Act 2",
+        "SortOrder": "102",
+        "SubFolder": "999-Afterwords",
+        "OriginalFilenames": [
+          "afterword"
+        ],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "Gallery": [
+      {
+        "SplashImages": [
+          "bonus1",
+          "bonus2",
+          "bonus4"
+        ],
+        "ChapterImages": [
+          "insert1",
+          "insert2",
+          "insert3",
+          "insert4",
+          "insert5",
+          "insert6",
+          "insert7",
+          "insert8",
+          "insert9",
+          "insert10"
+        ],
+        "LateSubFolder": null,
+        "ChapterName": "",
+        "SortOrder": "",
+        "SubFolder": "102-Act 2",
         "OriginalFilenames": [],
         "Chapters": [],
         "Splits": [],
