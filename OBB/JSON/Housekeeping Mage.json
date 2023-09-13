@@ -1211,6 +1211,8 @@
       {
         "ChapterName": "A Place to Call Home",
         "SortOrder": "11",
+        "SubFolder": "",
+        "OriginalFilenames": [],
         "Chapters": [
           {
             "ChapterName": "The Darkness Lurking in the Depths",
@@ -1278,7 +1280,11 @@
             "LinkedChapters": [],
             "KeepFirstSplitSection": true
           }
-        ]
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       },
       {
         "ChapterName": "A Tale of Two Princes",
@@ -1356,6 +1362,8 @@
       {
         "ChapterName": "A Place to Call Home",
         "SortOrder": "11",
+        "SubFolder": "",
+        "OriginalFilenames": [],
         "Chapters": [
           {
             "ChapterName": "The Resolve of Two Doctors",
@@ -1396,7 +1404,11 @@
             "LinkedChapters": [],
             "KeepFirstSplitSection": true
           }
-        ]
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
       },
       {
         "ChapterName": "A Tale of Two Princes",

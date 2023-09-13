@@ -103,6 +103,15 @@
         "ShowRemainingFiles": true,
         "Published": "2023-09-25",
         "Order": 107
+      },
+      {
+        "ApiSlug": "a-late-start-tamer-s-laid-back-life-volume-8",
+        "FileName": "a-late-start-tamer-s-laid-back-life-volume-8.epub",
+        "Title": "",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-12-13",
+        "Order": 108
       }
     ],
     "Author": "Yuu Tanaka",
@@ -1485,6 +1494,15 @@
         "ShowRemainingFiles": true,
         "Published": "2023-09-22",
         "Order": 114
+      },
+      {
+        "ApiSlug": "black-summoner-volume-15",
+        "FileName": "black-summoner-volume-15.epub",
+        "Title": "",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-12-20",
+        "Order": 115
       }
     ],
     "Author": "Doufu Mayoi",
@@ -2046,6 +2064,15 @@
         "ShowRemainingFiles": true,
         "Published": "2023-09-22",
         "Order": 111
+      },
+      {
+        "ApiSlug": "chillin-in-another-world-with-level-2-super-cheat-powers-volume-12",
+        "FileName": "chillin-in-another-world-with-level-2-super-cheat-powers-volume-12.epub",
+        "Title": "",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-12-15",
+        "Order": 112
       }
     ],
     "Author": "Miya Kinojo",
@@ -3363,6 +3390,15 @@
         "ShowRemainingFiles": true,
         "Published": "2023-09-21",
         "Order": 103
+      },
+      {
+        "ApiSlug": "earl-and-fairy-volume-4",
+        "FileName": "earl-and-fairy-volume-4.epub",
+        "Title": "",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-12-29",
+        "Order": 104
       }
     ],
     "Author": "Mizue Tani",
@@ -3486,6 +3522,15 @@
         "ShowRemainingFiles": true,
         "Published": "2023-09-18",
         "Order": 102
+      },
+      {
+        "ApiSlug": "fake-saint-of-the-year-you-wanted-the-perfect-saint-too-bad-volume-3",
+        "FileName": "fake-saint-of-the-year-you-wanted-the-perfect-saint-too-bad-volume-3.epub",
+        "Title": "",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-12-18",
+        "Order": 103
       }
     ],
     "Author": "kabedondaikou",
@@ -3713,6 +3758,15 @@
         "ShowRemainingFiles": true,
         "Published": "2023-09-25",
         "Order": 109
+      },
+      {
+        "ApiSlug": "full-clearing-another-world-under-a-goddess-with-zero-believers-volume-10",
+        "FileName": "full-clearing-another-world-under-a-goddess-with-zero-believers-volume-10.epub",
+        "Title": "",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-12-11",
+        "Order": 110
       }
     ],
     "Author": "Isle Osaki",
@@ -5582,6 +5636,38 @@
     ],
     "Author": "Shin Kouduki",
     "AuthorSort": "KOUDUKI, SHIN"
+  },
+  {
+    "Name": "I Want to Escape from Princess Lessons",
+    "InternalName": "i-want-to-escape-from-princess-lessons",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "i-want-to-escape-from-princess-lessons"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "i-want-to-escape-from-princess-lessons-volume-1",
+        "FileName": "i-want-to-escape-from-princess-lessons-volume-1.epub",
+        "Title": "I Want to Escape from Princess Lessons: Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-09-20",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "i-want-to-escape-from-princess-lessons-volume-2",
+        "FileName": "i-want-to-escape-from-princess-lessons-volume-2.epub",
+        "Title": "I Want to Escape from Princess Lessons: Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-11-22",
+        "Order": 102
+      }
+    ],
+    "Author": "Izumi Sawano",
+    "AuthorSort": "SAWANO, IZUMI"
   },
   {
     "Name": "I'll Never Set Foot in That House Again!",
@@ -8204,6 +8290,38 @@
     "AuthorSort": "HIGURE, MINTO"
   },
   {
+    "Name": "Moon Blossom Asura: The Ruthless Reincarnated Mercenary Forms the Ultimate Army",
+    "InternalName": "moon-blossom-asura",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "moon-blossom-asura"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "moon-blossom-asura-the-ruthless-reincarnated-mercenary-forms-the-ultimate-army-volume-1",
+        "FileName": "moon-blossom-asura-the-ruthless-reincarnated-mercenary-forms-the-ultimate-army-volume-1.epub",
+        "Title": "Moon Blossom Asura: The Ruthless Reincarnated Mercenary Forms the Ultimate Army Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-08-31",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "moon-blossom-asura-the-ruthless-reincarnated-mercenary-forms-the-ultimate-army-volume-2",
+        "FileName": "moon-blossom-asura-the-ruthless-reincarnated-mercenary-forms-the-ultimate-army-volume-2.epub",
+        "Title": "Moon Blossom Asura: The Ruthless Reincarnated Mercenary Forms the Ultimate Army Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-11-28",
+        "Order": 102
+      }
+    ],
+    "Author": "Sou Hazuki",
+    "AuthorSort": "HAZUKI, SOU"
+  },
+  {
     "Name": "My Big Sister Lives in a Fantasy World",
     "InternalName": "my-big-sister-lives-in-a-fantasy-world",
     "ApiSlugs": [
@@ -8614,6 +8732,15 @@
         "ShowRemainingFiles": true,
         "Published": "2023-02-20",
         "Order": 113
+      },
+      {
+        "ApiSlug": "my-instant-death-ability-is-so-overpowered-no-one-in-this-other-world-stands-a-chance-against-me-volume-14",
+        "FileName": "my-instant-death-ability-is-so-overpowered-no-one-in-this-other-world-stands-a-chance-against-me-volume-14.epub",
+        "Title": "",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-12-15",
+        "Order": 114
       }
     ],
     "Author": "Tsuyoshi Fujitaka",
@@ -8677,6 +8804,38 @@
     ],
     "Author": "Takashi Kajii",
     "AuthorSort": "KAJII, TAKASHI"
+  },
+  {
+    "Name": "My Magical Career at Court: Living the Dream After My Nightmare Boss Fired Me from the Mages' Guild!",
+    "InternalName": "my-magical-career-at-court-living-the-dream-after-my-nightmare-boss-fired-me-from-the-mages-guild",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "my-magical-career-at-court-living-the-dream-after-my-nightmare-boss-fired-me-from-the-mages-guild"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "my-magical-career-at-court-living-the-dream-after-my-nightmare-boss-fired-me-from-the-mages-guild-volume-1",
+        "FileName": "my-magical-career-at-court-living-the-dream-after-my-nightmare-boss-fired-me-from-the-mages-guild-volume-1.epub",
+        "Title": "My Magical Career at Court: Living the Dream After My Nightmare Boss Fired Me from the Mages' Guild! Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-09-21",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "my-magical-career-at-court-living-the-dream-after-my-nightmare-boss-fired-me-from-the-mages-guild-volume-2",
+        "FileName": "my-magical-career-at-court-living-the-dream-after-my-nightmare-boss-fired-me-from-the-mages-guild-volume-2.epub",
+        "Title": "My Magical Career at Court: Living the Dream After My Nightmare Boss Fired Me from the Mages' Guild! Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-12-25",
+        "Order": 102
+      }
+    ],
+    "Author": "Shusui Hazuki",
+    "AuthorSort": "HAZUKI, SHUSUI"
   },
   {
     "Name": "My Next Life as a Villainess: All Routes Lead to Doom!",
@@ -9869,6 +10028,15 @@
         "ShowRemainingFiles": true,
         "Published": "2023-09-14",
         "Order": 109
+      },
+      {
+        "ApiSlug": "private-tutor-to-the-duke-s-daughter-volume-10",
+        "FileName": "private-tutor-to-the-duke-s-daughter-volume-10.epub",
+        "Title": "",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-11-30",
+        "Order": 110
       }
     ],
     "Author": "Riku Nanano",
@@ -11926,6 +12094,15 @@
         "ShowRemainingFiles": true,
         "Published": "2023-09-21",
         "Order": 105
+      },
+      {
+        "ApiSlug": "the-conqueror-from-a-dying-kingdom-volume-6",
+        "FileName": "the-conqueror-from-a-dying-kingdom-volume-6.epub",
+        "Title": "",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-12-21",
+        "Order": 106
       }
     ],
     "Author": "Fudeorca",
@@ -13352,6 +13529,38 @@
     ],
     "Author": "Bisu",
     "AuthorSort": "BISU"
+  },
+  {
+    "Name": "The Retired Demon of the Maxed-Out Village",
+    "InternalName": "the-retired-demon-of-the-maxed-out-village",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "the-retired-demon-of-the-maxed-out-village"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "the-retired-demon-of-the-maxed-out-village-volume-1",
+        "FileName": "the-retired-demon-of-the-maxed-out-village-volume-1.epub",
+        "Title": "The Retired Demon of the Maxed-Out Village: Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-09-25",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "the-retired-demon-of-the-maxed-out-village-volume-2",
+        "FileName": "the-retired-demon-of-the-maxed-out-village-volume-2.epub",
+        "Title": "The Retired Demon of the Maxed-Out Village: Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-11-26",
+        "Order": 102
+      }
+    ],
+    "Author": "Akinosuke Nishiyama",
+    "AuthorSort": "NISHIYAMA, AKINOSUKE"
   },
   {
     "Name": "The Sidekick Never Gets the Girl, Let Alone the Protag’s Sister!",
