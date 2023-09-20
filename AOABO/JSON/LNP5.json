@@ -1097,7 +1097,7 @@
       "Year": 8,
       "Season": "Spring",
       "ProcessedInPartFive": true,
-      "PartSheet": true
+      "PartSheet": false
     },
     "Afterword": {
       "OriginalFilenames": [ "afterword" ],
@@ -1288,7 +1288,280 @@
         "LateSeason": "Spring",
         "ProcessedInPartFive": true,
         "POV": "Hortensia"
-      },
+      }
     ]
+  },
+  {
+    "InternalName": "LN0506",
+    "Gallery": {
+      "SplashImages": [ "bonus2", "bonus1" ],
+      "ChapterImages": [ "insert1", "insert2", "insert3", "insert4", "insert5", "insert6", "insert7", "insert8", "insert9", "insert10" ],
+      "EarlySortOrder": "0506",
+      "LateSortOrder": "050699",
+      "ChapterName": "LN506",
+      "AltName": "Volume 6",
+      "Volume": "0506",
+      "EarlyYear": 8,
+      "EarlySeason": "Spring",
+      "LateYear": 9,
+      "LateSeason": "Autumn",
+      "ProcessedInPartFive": true
+    },
+    "POVChapters": [
+      {
+        "OriginalFilenames": [ "prologue" ],
+        "SortOrder": "050600",
+        "POV": "Florencia",
+        "ChapterName": "Prologue",
+        "Volume": "0506",
+        "Year": 8,
+        "Season": "Spring",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "epilogue", "insert9", "epilogue_1" ],
+        "SortOrder": "050618",
+        "POV": "Lutz",
+        "ChapterName": "Epilogue",
+        "Volume": "0506",
+        "Year": 9,
+        "Season": "Autumn",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartFive": true
+      }
+    ],
+    "BonusChapters": [
+      {
+        "OriginalFilenames": [ "chapter19" ],
+        "EarlySortOrder": "050605b",
+        "LateSortOrder": "050696a",
+        "POV": "Lieseleta",
+        "ChapterName": "My Hopes and Their Problems",
+        "Volume": "0506",
+        "EarlyYear": 8,
+        "EarlySeason": "Spring",
+        "LateYear": 9,
+        "LateSeason": "Autumn",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter18", "insert10" ],
+        "EarlySortOrder": "050606b",
+        "LateSortOrder": "050696b",
+        "POV": "Detlinde",
+        "ChapterName": "The Lanzenave Envoys",
+        "Volume": "0506",
+        "EarlyYear": 8,
+        "EarlySeason": "Spring",
+        "LateYear": 9,
+        "LateSeason": "Autumn",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter20" ],
+        "EarlySortOrder": "050611b",
+        "LateSortOrder": "050696c",
+        "POV": "Sylvester",
+        "ChapterName": "Inquiry into the Commotion",
+        "Volume": "0506",
+        "EarlyYear": 9,
+        "EarlySeason": "Summer",
+        "LateYear": 9,
+        "LateSeason": "Autumn",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartFive": true
+      }
+    ],
+    "Chapters": [
+      {
+        "OriginalFilenames": [ "chapter1" ],
+        "SortOrder": "050601",
+        "ChapterName": "Report on the Archduke Conference (Third Year)",
+        "Volume": "0506",
+        "Year": 8,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter2", "insert1", "chapter2_1" ],
+        "SortOrder": "050602",
+        "ChapterName": "The Canceled Engagement and a Choice for the Future",
+        "Volume": "0506",
+        "Year": 8,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter3" ],
+        "SortOrder": "050603",
+        "ChapterName": "My Retainers’ Choices",
+        "Volume": "0506",
+        "Year": 8,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter4", "insert2", "chapter4_1" ],
+        "SortOrder": "050604",
+        "ChapterName": "At Karstedt’s Estate",
+        "Volume": "0506",
+        "Year": 8,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter5" ],
+        "SortOrder": "050605a",
+        "ChapterName": "Mother and Daughter",
+        "Volume": "0506",
+        "Year": 8,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter6", "insert3", "chapter6_1" ],
+        "SortOrder": "050606a",
+        "ChapterName": "Magic Tools for Children",
+        "Volume": "0506",
+        "Year": 8,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter7", "insert4", "chapter7_1" ],
+        "SortOrder": "050607",
+        "ChapterName": "Preparing Fey Paper",
+        "Volume": "0506",
+        "Year": 8,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter8" ],
+        "SortOrder": "050608",
+        "ChapterName": "Making Maximal-Quality Samples",
+        "Volume": "0506",
+        "Year": 8,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter9" ],
+        "SortOrder": "050609",
+        "ChapterName": "The Spring Coming-of-Age Ceremony and Sylvester’s Departure",
+        "Volume": "0506",
+        "Year": 8,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter10", "insert5", "chapter10_1" ],
+        "SortOrder": "050610",
+        "ChapterName": "Kids’ Tea Party",
+        "Volume": "0506",
+        "Year": 9,
+        "Season": "Summer",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter11" ],
+        "SortOrder": "050611a",
+        "ChapterName": "The Leisegang Elders",
+        "Volume": "0506",
+        "Year": 9,
+        "Season": "Summer",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter12" ],
+        "SortOrder": "050612",
+        "ChapterName": "Sylvester Returns",
+        "Volume": "0506",
+        "Year": 9,
+        "Season": "Summer",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter13", "insert6", "chapter13_1" ],
+        "SortOrder": "050613",
+        "ChapterName": "Letters from Ferdinand",
+        "Volume": "0506",
+        "Year": 9,
+        "Season": "Summer",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter14" ],
+        "SortOrder": "050614",
+        "ChapterName": "The Trombe Hunt and the Starbind Ceremony",
+        "Volume": "0506",
+        "Year": 9,
+        "Season": "Summer",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter15", "insert7", "chapter15_1" ],
+        "SortOrder": "050615",
+        "ChapterName": "Tuuli’s Coming-of-Age Ceremony",
+        "Volume": "0506",
+        "Year": 9,
+        "Season": "Summer",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter16", "insert8", "chapter16_1" ],
+        "SortOrder": "050616",
+        "ChapterName": "Interviews with the Aub",
+        "Volume": "0506",
+        "Year": 9,
+        "Season": "Autumn",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter17" ],
+        "SortOrder": "050617",
+        "ChapterName": "The Harvest Festival and the Gutenbergs’ Choices",
+        "Volume": "0506",
+        "Year": 9,
+        "Season": "Autumn",
+        "ProcessedInPartFive": true
+      }
+    ],
+    "ComfyLifeChapter": {
+      "OriginalFilenames": [ "manga1", "manga2" ],
+      "SortOrder": "050698",
+      "ChapterName": "Comfy Life 506",
+      "Volume": "0506",
+      "Year": 9,
+      "Season": "Autumn",
+      "ProcessedInPartFive": true
+    },
+    "CharacterSheet": {
+      "OriginalFilenames": [ "characters1", "characters2", "characters3" ],
+      "SortOrder": "0506",
+      "ChapterName": "Avatar of a Goddess Characters",
+      "Volume": "0506",
+      "Year": 8,
+      "Season": "Spring",
+      "ProcessedInPartFive": true,
+      "PartSheet": true
+    },
+    "Afterword": {
+      "OriginalFilenames": [ "afterword" ],
+      "SortOrder": "050697",
+      "ChapterName": "LN506 Afterword",
+      "Volume": "0506",
+      "Year": 9,
+      "Season": "Autumn",
+      "ProcessedInPartFive": true
+    }
   }
 ]
