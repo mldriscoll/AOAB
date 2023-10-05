@@ -7386,6 +7386,764 @@
     ],
     "ExtraContent": [
       {
+        "ChapterName": "Volume 09",
+        "SortOrder": "09",
+        "SubFolder": "999-Afterwords",
+        "OriginalFilenames": [
+          "afterword"
+        ],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "Gallery": [
+      {
+        "SplashImages": [
+          "frontmatter2",
+          "frontmatter1"
+        ],
+        "ChapterImages": [
+          "insert1",
+          "insert2",
+          "insert3",
+          "insert4",
+          "insert5",
+          "insert6",
+          "insert7",
+          "insert8",
+          "insert9"
+        ],
+        "LateSubFolder": null,
+        "ChapterName": "",
+        "SortOrder": "",
+        "SubFolder": "04-To the Moon-Led Morrow",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ]
+  },
+  {
+    "InternalName": "tearmoon-empire-volume-10",
+    "Chapters": [
+      {
+        "ChapterName": "Part 4",
+        "SortOrder": "04",
+        "SubFolder": "04-To the Moon-Led Morrow",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "The Mushroom Knight",
+            "SortOrder": "11005",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Princess Mia Exhibits the Dignity of a Veteran!",
+            "SortOrder": "11006",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2",
+              "insert1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "My... Oh, My...♡",
+            "SortOrder": "11007",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter3"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "So, It Begins! Life Advice...Horse-style!",
+            "SortOrder": "11008",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter4"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Young Bandit and Mia’s Hunch",
+            "SortOrder": "11009",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter5",
+              "insert2",
+              "chapter5_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Empire’s Finest and the Mushroom Knight Sword Saint",
+            "SortOrder": "11010",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter6",
+              "insert3",
+              "chapter6_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "An Approaching Sense of “Dangà Vu”",
+            "SortOrder": "11011",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter7"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Girl and Wolf",
+            "SortOrder": "11012",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter8",
+              "insert4"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Descendants of the Shepherds",
+            "SortOrder": "11013",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter9"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Citrina and Bel Make a Promise",
+            "SortOrder": "11014",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter10",
+              "insert5",
+              "chapter10_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Princess Mia Finally Discovers the Truth of the Horse Shampoo!",
+            "SortOrder": "11015",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter11"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Veteran Runner and the Hot Milk",
+            "SortOrder": "11016",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter12"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Historic Hymn: <em>What Marketh Our Kingdom’s Beginnings</em> (Gulp... Gulp...)",
+            "SortOrder": "11017",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter13"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Princess Mia, Angry, Enters the Conversation!",
+            "SortOrder": "11018",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter14"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Princess Mia Curses",
+            "SortOrder": "11019",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter15"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Mia Sips Her XXX and Keeps Watch of the Situation!",
+            "SortOrder": "11020",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter16"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Choice of the Chicken-Hearted Selfish Princess",
+            "SortOrder": "11021",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter17"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Befitting of the Great Sage’s Vassal",
+            "SortOrder": "11022",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter18"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Princess Mia Knows Her F.A.T.",
+            "SortOrder": "11024",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter19"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Princess Mia Gets Things Going",
+            "SortOrder": "11025",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter20"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "This Was <em>Definitely</em> Mia",
+            "SortOrder": "11026",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter21"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "In the Kingdom of Remno...",
+            "SortOrder": "11027",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter22",
+              "insert6",
+              "chapter22_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Curious Onlookers",
+            "SortOrder": "11028",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter23"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Mia Takes the Lead!",
+            "SortOrder": "11029",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter24"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Mia Declares That Food Shall Be Eaten Warm!",
+            "SortOrder": "11030",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter25",
+              "insert7",
+              "chapter25_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Conspiracy",
+            "SortOrder": "11031",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter26"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "To Ask After His Older Sister",
+            "SortOrder": "11032",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter27"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Ludwig’s Rumination",
+            "SortOrder": "11033",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter28"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Circumstances of the Fire Clan",
+            "SortOrder": "11034",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter29"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Bel Adven-tours the Village",
+            "SortOrder": "11035",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter30"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Mia First, Explodeth!",
+            "SortOrder": "11036",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter31"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Historic Hymn: Cometh from a Lande Yonder Be the Princess of Thy Winged Horse",
+            "SortOrder": "11037",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter32"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Various Horse-ly Philosophies",
+            "SortOrder": "11038",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter33"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Mia’s View on Horses —Princess Mia Bestoweth Enlightenment on Fools Misguided—",
+            "SortOrder": "11039",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter34"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Mia’s Entrance...Is Some Genius Preparation?",
+            "SortOrder": "11040",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter35"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Great Sage Poses a Question",
+            "SortOrder": "11041",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter36"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Life Advice...Horse-Style! Cont.",
+            "SortOrder": "11042",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter37",
+              "insert8",
+              "chapter37_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Mia’s Nightmare",
+            "SortOrder": "11043",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter38"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "This Is a Battle, and Mia’s Only Option Is to Stand Her Ground!",
+            "SortOrder": "11044",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter39"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Miabel’s Revenge Begins...Maybe?",
+            "SortOrder": "11045",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter40",
+              "insert9"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Diplomacy of the Great Sage of the Empire",
+            "SortOrder": "11046",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter41"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Mia Be a Whirling Tide Descendeth on Thy Land",
+            "SortOrder": "11047",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter42"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Mia’s Intentions —The Princes of Thy Winged Horse Joins the Fray—",
+            "SortOrder": "11048",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter43"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "A Malicious Gaze",
+            "SortOrder": "11049",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter44"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "Part 4",
+        "SortOrder": "04",
+        "SubFolder": "04-To the Moon-Led Morrow",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Side Story: The Castle of Empress Prelate Rafina",
+            "SortOrder": "11023",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "side1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Then, The Monster Fell Away",
+            "SortOrder": "11050",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "side2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Riding Across the White Hill of Memories",
+            "SortOrder": "11051",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "side3"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Mia’s Diary of Thy Winged Horse",
+            "SortOrder": "11052",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "diary"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Bonus Short Stories",
+            "SortOrder": "11055",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus"
+            ],
+            "Chapters": [],
+            "Splits": [
+              {
+                "Name": "Malong, Abel, and the Great Sage",
+                "SplitLine": "<h2>Collections from the Equestrian Kingdom —Malong, Abel, and the Great Sage—</h2>",
+                "SortOrder": "01",
+                "SubFolder": ""
+              },
+              {
+                "Name": "When Scoldings Grow Nostalgic",
+                "SplitLine": "<h2>When Scoldings Grow Nostalgic</h2>",
+                "SortOrder": "02",
+                "SubFolder": ""
+              }
+            ],
+            "Replacements": [
+              {
+                "Original": "<h1>Bonus Short Stories</h1>\n\n      <h2>Collections from the Equestrian Kingdom —Malong, Abel, and the Great Sage—</h2>",
+                "Replacement": "<h1>Malong, Abel, and the Great Sage</h1>"
+              }
+            ],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": false
+          },
+          {
+            "ChapterName": "Unnamed",
+            "SortOrder": "11056",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "manga"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "ExtraContent": [
+      {
         "ChapterName": "To the Moon-Led Morrow",
         "SortOrder": "04",
         "SubFolder": "",
@@ -7413,8 +8171,8 @@
         "KeepFirstSplitSection": true
       },
       {
-        "ChapterName": "Volume 09",
-        "SortOrder": "09",
+        "ChapterName": "Volume 10",
+        "SortOrder": "110",
         "SubFolder": "999-Afterwords",
         "OriginalFilenames": [
           "afterword"
