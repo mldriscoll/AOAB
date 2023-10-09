@@ -3183,5 +3183,407 @@
         "KeepFirstSplitSection": true
       }
     ]
+  },
+  {
+    "InternalName": "the-apothecary-diaries-volume-9",
+    "Chapters": [
+      {
+        "ChapterName": "Volume 09",
+        "SortOrder": "109",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Prologue",
+            "SortOrder": "10903",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "prologue",
+              "insert1",
+              "prologue_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Yao’s Request",
+            "SortOrder": "10904",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1",
+              "insert2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Villa",
+            "SortOrder": "10905",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Kada’s Book (Part 1)",
+            "SortOrder": "10906",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter3",
+              "insert3",
+              "chapter3_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Kada’s Book (Part 2)",
+            "SortOrder": "10907",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter4"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Kada’s Book (Part 3)",
+            "SortOrder": "10908",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter5"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "An Invitation to the Western Capital",
+            "SortOrder": "10909",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter6"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Taboo",
+            "SortOrder": "10910",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter7"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Secret Lessons",
+            "SortOrder": "10911",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter8",
+              "insert4",
+              "chapter8_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Message",
+            "SortOrder": "10912",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter9"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Practical Exercises",
+            "SortOrder": "10913",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter10"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Dissection",
+            "SortOrder": "10914",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter11"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Secret of the Numbers",
+            "SortOrder": "10915",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter12",
+              "insert5",
+              "chapter12_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Gyoku-ou",
+            "SortOrder": "10916",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter13"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Selection",
+            "SortOrder": "10917",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter14"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Preparations",
+            "SortOrder": "10918",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter15"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "A Voyage by Sea",
+            "SortOrder": "10919",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter16",
+              "insert6",
+              "chapter16_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Chue",
+            "SortOrder": "10920",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter17",
+              "insert7",
+              "chapter17_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Anan’s Banquet",
+            "SortOrder": "10921",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter18"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Quack Vanishes",
+            "SortOrder": "10922",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter19"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Smack Up Against the Wall",
+            "SortOrder": "10923",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter20",
+              "insert8"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Epilogue",
+            "SortOrder": "10924",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "epilogue"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "BonusChapters": [],
+    "ExtraContent": [
+      {
+        "ChapterName": "Volume 09",
+        "SortOrder": "109",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Character Profiles",
+            "SortOrder": "10902",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "profile"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      },
+      {
+        "ChapterName": "Translator Notes",
+        "SortOrder": "90",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Volume Nine",
+            "SortOrder": "10930",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "Gallery": [
+      {
+        "SplashImages": [
+          "cover",
+          "backmatter1",
+          "backmatter2",
+          "backmatter3",
+          "backmatter4",
+          "backmatter5"
+        ],
+        "ChapterImages": [
+          "insert1",
+          "insert2",
+          "insert3",
+          "insert4",
+          "insert5",
+          "insert6",
+          "insert7",
+          "insert8"
+        ],
+        "LateSubFolder": null,
+        "ChapterName": "",
+        "SortOrder": "",
+        "SubFolder": "109-Volume 09",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ]
   }
 ]

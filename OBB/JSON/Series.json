@@ -12089,8 +12089,8 @@
         "ApiSlug": "the-apothecary-diaries-volume-9",
         "FileName": "the-apothecary-diaries-volume-9.epub",
         "Title": "The Apothecary Diaries: Volume 9",
-        "EditedBy": null,
-        "ShowRemainingFiles": true,
+        "EditedBy": "kuali",
+        "ShowRemainingFiles": false,
         "Published": "2023-10-09",
         "Order": 109
       },
