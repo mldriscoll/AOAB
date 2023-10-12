@@ -99,7 +99,7 @@ namespace AOABO.OCR
         {
             try
             {
-                OcrEngine ocrEngine = OcrEngine.TryCreateFromLanguage(OcrEngine.AvailableRecognizerLanguages.First(x => x.LanguageTag.Equals("en-US")));
+                OcrEngine ocrEngine = OcrEngine.TryCreateFromLanguage(OcrEngine.AvailableRecognizerLanguages.First(x => x.LanguageTag.StartsWith("en-")));
 
                 string chapterContent = string.Empty;
 

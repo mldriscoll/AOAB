@@ -119,5 +119,114 @@
       }
     ],
     "Maps": []
+  },
+  {
+    "InternalName": "M0302",
+    "OCR": true,
+    "BonusChapters": [
+      {
+        "OriginalFilenames": [ "160", "161", "162", "163", "164", "165", "166", "167", "168" ],
+        "EarlySortOrder": "030114b",
+        "LateSortOrder": "030196i",
+        "POV": "Karstedt",
+        "ChapterName": "Changes at Home",
+        "OverrideName": "Changes at Home",
+        "Volume": "0301",
+        "EarlyYear": 3,
+        "LateYear": 3,
+        "EarlySeason": "Summer",
+        "LateSeason": "Summer",
+        "ProcessedInPartThree": true,
+        "Source": "M3V2 Written Bonus",
+        "OCR": {
+          "Crop": false,
+          "Corrections": [
+            {
+              "Original": "yet I’d never seen",
+              "Replacement": "yet I’d <i>never</i> seen"
+            },
+            {
+              "Original": "So he’s the one you’re",
+              "Replacement": "So <i>he’s</i> the one you’re"
+            },
+            {
+              "Original": "Even Ferdinand calls that",
+              "Replacement": "Even <i>Ferdinand</i> calls that"
+            },
+            {
+              "Original": "Do you know what",
+              "Replacement": "Do <i>you</i> know what"
+            },
+            {
+              "Original": "7hat",
+              "Replacement": "That"
+            },
+            {
+              "Original": "he’ll definitely intrude.",
+              "Replacement": "he’ll <i>definitely</i> intrude."
+            }
+          ],
+          "Italics": [
+            {
+              "Start": "“Karstedt, might I",
+              "End": "worried about Elvira...”"
+            },
+            {
+              "Start": "What in the world happened...?",
+              "End": "What in the world happened...?"
+            },
+            {
+              "Start": "She’s chiding me",
+              "End": "so brightly?"
+            },
+            {
+              "Start": "Yet look at",
+              "End": "How did this happen?"
+            },
+            {
+              "Start": "No, no...",
+              "End": "just can’t be."
+            },
+            {
+              "Start": "Rihyarda got Ferdinand",
+              "End": "against his wishes."
+            },
+            {
+              "Start": "We’ve been married",
+              "End": "things about her."
+            },
+            {
+              "Start": "“Elvira is an incredible mother,”",
+              "End": "“Elvira is an incredible mother,”"
+            },
+            {
+              "Start": "“Even though we share",
+              "End": "while you are absent for work.”"
+            },
+            {
+              "Start": "That must be",
+              "End": "suddenly bothers me."
+            }
+          ]
+        }
+      }
+    ],
+    "MangaChapters": [
+      {
+        "OriginalFilenames": [ "155", "156", "157", "158" ],
+        "EarlySortOrder": "030112c",
+        "LateSortOrder": "030196h",
+        "POV": "Benno/Gustav",
+        "ChapterName": "Benno and Gustav's Suffering",
+        "EarlyYear": 3,
+        "LateYear": 3,
+        "EarlySeason": "Summer",
+        "LateSeason": "Summer",
+        "Volume": "0301",
+        "Source": "M3V2 Bonus",
+        "ProcessedInPartThree": true
+      }
+    ],
+    "Maps": []
   }
 ]
