@@ -984,7 +984,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 1: Live-On All-Star Collab: <em>Amidst Us</em>",
+            "ChapterName": "Live-On All-Star Collab: <em>Amidst Us</em>",
             "SortOrder": "10504",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -1005,7 +1005,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 2: A Date with Hikari-chan",
+            "ChapterName": "A Date with Hikari-chan",
             "SortOrder": "10507",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -1022,7 +1022,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 3: There’s Something Strange About Chami-chan...",
+            "ChapterName": "There’s Something Strange About Chami-chan...",
             "SortOrder": "10509",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -1037,7 +1037,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 4: The Breakdown of Hikari-chan",
+            "ChapterName": "The Breakdown of Hikari-chan",
             "SortOrder": "10511",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -1054,7 +1054,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 5: Third Generation Debut One-Year-and-One-Month Anniversary Stream",
+            "ChapterName": "Third Generation Debut One-Year-and-One-Month Anniversary Stream",
             "SortOrder": "10513",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -1195,6 +1195,196 @@
         "ChapterName": "",
         "SortOrder": "",
         "SubFolder": "105-Volume 05",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ]
+  },
+  {
+    "InternalName": "vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream-volume-6",
+    "Chapters": [
+      {
+        "ChapterName": "Volume 06",
+        "SortOrder": "106",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Prologue",
+            "SortOrder": "10603",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "prologue",
+              "insert1",
+              "prologue_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "<em>WorCra</em> Stream 3",
+            "SortOrder": "10604",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1",
+              "insert2",
+              "chapter1_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Shuwa-chan’s Counseling Corner",
+            "SortOrder": "10606",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2",
+              "insert3",
+              "chapter2_1"
+            ],
+            "Chapters": [],
+            "Splits": [
+              {
+                "Name": "Live-On Common Sense Quiz",
+                "SplitLine": "<h2>Live-On Common Sense Quiz</h2>",
+                "SortOrder": "01",
+                "SubFolder": ""
+              }
+            ],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Shivering and Shuddering",
+            "SortOrder": "10608",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter3",
+              "insert4",
+              "chapter3_1",
+              "insert5",
+              "chapter3_2"
+            ],
+            "Chapters": [],
+            "Splits": [
+              {
+                "Name": "My Dearly Deranged Family",
+                "SplitLine": "<h2>My Dearly Deranged Family</h2>",
+                "SortOrder": "01",
+                "SubFolder": ""
+              }
+            ],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Epilogue",
+            "SortOrder": "10609",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "epilogue",
+              "insert6"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "Volume 06",
+        "SortOrder": "106",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Idle Chat: For Real?!",
+            "SortOrder": "10605",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "side1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Idle Chat: Nightmare",
+            "SortOrder": "10607",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "side2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "ExtraContent": [
+      {
+        "ChapterName": "Volume 06",
+        "SortOrder": "106",
+        "SubFolder": "999-Afterwords",
+        "OriginalFilenames": [
+          "afterword"
+        ],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "Gallery": [
+      {
+        "SplashImages": [
+          "bonus1",
+          "bonus2",
+          "bonus3",
+          "bonus4"
+        ],
+        "ChapterImages": [
+          "insert1",
+          "insert2",
+          "insert3",
+          "insert4",
+          "insert5",
+          "insert6"
+        ],
+        "LateSubFolder": null,
+        "ChapterName": "",
+        "SortOrder": "",
+        "SubFolder": "106-Volume 06",
         "OriginalFilenames": [],
         "Chapters": [],
         "Splits": [],
