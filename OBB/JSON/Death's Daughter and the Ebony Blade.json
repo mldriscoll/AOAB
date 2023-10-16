@@ -1973,5 +1973,383 @@
         "KeepFirstSplitSection": true
       }
     ]
+  },
+  {
+    "InternalName": "death-s-daughter-and-the-ebony-blade-volume-6",
+    "Chapters": [
+      {
+        "ChapterName": "Volume 06",
+        "SortOrder": "106",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "A Light of Determination Dancing in the Night",
+            "SortOrder": "10604",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "prologue"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Prelude to the Final Movement",
+            "SortOrder": "10605",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1"
+            ],
+            "Chapters": [],
+            "Splits": [
+              {
+                "Name": "II",
+                "SplitLine": "<h2>II</h2>",
+                "SortOrder": "02",
+                "SubFolder": ""
+              },
+              {
+                "Name": "III",
+                "SplitLine": "<h2>III</h2>",
+                "SortOrder": "03",
+                "SubFolder": ""
+              },
+              {
+                "Name": "IV",
+                "SplitLine": "<h2>IV</h2>",
+                "SortOrder": "04",
+                "SubFolder": ""
+              },
+              {
+                "Name": "V",
+                "SplitLine": "<h2>V</h2>",
+                "SortOrder": "05",
+                "SubFolder": ""
+              },
+              {
+                "Name": "VI",
+                "SplitLine": "<h2>VI</h2>",
+                "SortOrder": "06",
+                "SubFolder": ""
+              }
+            ],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Blood and Conspiracy on the Wind",
+            "SortOrder": "10606",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2",
+              "insert1",
+              "chapter2_1"
+            ],
+            "Chapters": [],
+            "Splits": [
+              {
+                "Name": "II",
+                "SplitLine": "<h2>II</h2>",
+                "SortOrder": "02",
+                "SubFolder": ""
+              }
+            ],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Creeping Assassins",
+            "SortOrder": "10608",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter3"
+            ],
+            "Chapters": [],
+            "Splits": [
+              {
+                "Name": "II",
+                "SplitLine": "<h2>II</h2>",
+                "SortOrder": "02",
+                "SubFolder": ""
+              },
+              {
+                "Name": "III",
+                "SplitLine": "<h2>III</h2>",
+                "SortOrder": "03",
+                "SubFolder": ""
+              },
+              {
+                "Name": "IV",
+                "SplitLine": "<h2>IV</h2>",
+                "SortOrder": "04",
+                "SubFolder": ""
+              },
+              {
+                "Name": "V",
+                "SplitLine": "<h2>V</h2>",
+                "SortOrder": "05",
+                "SubFolder": ""
+              },
+              {
+                "Name": "VI",
+                "SplitLine": "<h2>VI</h2>",
+                "SortOrder": "06",
+                "SubFolder": ""
+              },
+              {
+                "Name": "VII",
+                "SplitLine": "<h2>VII</h2>",
+                "SortOrder": "07",
+                "SubFolder": ""
+              }
+            ],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "An Inhuman Battle",
+            "SortOrder": "10609",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter4",
+              "insert2",
+              "chapter4_1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Girl Defeated",
+            "SortOrder": "10610",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter5",
+              "insert3",
+              "chapter5_1"
+            ],
+            "Chapters": [],
+            "Splits": [
+              {
+                "Name": "II",
+                "SplitLine": "<h2>II</h2>",
+                "SortOrder": "02",
+                "SubFolder": ""
+              },
+              {
+                "Name": "III",
+                "SplitLine": "<h2>III</h2>",
+                "SortOrder": "03",
+                "SubFolder": ""
+              },
+              {
+                "Name": "IV",
+                "SplitLine": "<h2>IV</h2>",
+                "SortOrder": "04",
+                "SubFolder": ""
+              },
+              {
+                "Name": "V",
+                "SplitLine": "<h2>V</h2>",
+                "SortOrder": "05",
+                "SubFolder": ""
+              },
+              {
+                "Name": "VI",
+                "SplitLine": "<h2>VI</h2>",
+                "SortOrder": "06",
+                "SubFolder": ""
+              },
+              {
+                "Name": "VII",
+                "SplitLine": "<h2>VII</h2>",
+                "SortOrder": "07",
+                "SubFolder": ""
+              }
+            ],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Cradled by the Sky in the Blue Hour",
+            "SortOrder": "10611",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "epilogue",
+              "insert4"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "Volume 06",
+        "SortOrder": "106",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Interlude: A Happy Respite",
+            "SortOrder": "10607",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "interlude"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Bonus Short Stories",
+            "SortOrder": "10616",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus"
+            ],
+            "Chapters": [],
+            "Splits": [
+              {
+                "Name": "A Fourth Day with Olivia and Ashton",
+                "SplitLine": "<h2>A Fourth Day with Olivia and Ashton</h2>",
+                "SortOrder": "01",
+                "SubFolder": ""
+              },
+              {
+                "Name": "A Day with Olivia and Ellis",
+                "SplitLine": "<h2>A Day with Olivia and Ellis</h2>",
+                "SortOrder": "02",
+                "SubFolder": ""
+              },
+              {
+                "Name": "A Sixth Day with Olivia and Claudia",
+                "SplitLine": "<h2>A Sixth Day with Olivia and Claudia</h2>",
+                "SortOrder": "03",
+                "SubFolder": ""
+              },
+              {
+                "Name": "A Second Day with Olivia and Gile",
+                "SplitLine": "<h2>A Second Day with Olivia and Gile</h2>",
+                "SortOrder": "04",
+                "SubFolder": ""
+              },
+              {
+                "Name": "Olivia’s Memory",
+                "SplitLine": "<h2>Olivia’s Memory</h2>",
+                "SortOrder": "05",
+                "SubFolder": ""
+              }
+            ],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": false
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "ExtraContent": [
+      {
+        "ChapterName": "Volume 06",
+        "SortOrder": "106",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Character Sheet",
+            "SortOrder": "10603",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "characters1",
+              "characters2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      },
+      {
+        "ChapterName": "Volume 06",
+        "SortOrder": "106",
+        "SubFolder": "999-Afterwords",
+        "OriginalFilenames": [
+          "afterword"
+        ],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      },
+      {
+        "ChapterName": "The Asvelt Empire",
+        "SortOrder": "0601",
+        "SubFolder": "98-Maps",
+        "OriginalFilenames": [
+          "map"
+        ],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "Gallery": [
+      {
+        "SplashImages": [
+          "bonusimg",
+          "backmatter1",
+          "backmatter2",
+          "backmatter3"
+        ],
+        "ChapterImages": [
+          "insert1",
+          "insert2",
+          "insert3",
+          "insert4"
+        ],
+        "LateSubFolder": null,
+        "ChapterName": "",
+        "SortOrder": "",
+        "SubFolder": "106-Volume 06",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ]
   }
 ]
