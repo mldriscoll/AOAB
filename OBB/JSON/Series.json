@@ -64,6 +64,56 @@
     "AuthorSort": "NAEHARA, HAJIME"
   },
   {
+    "Name": "A Cave King’s Road to Paradise: Climbing to the Top with My Almighty Mining Skills! (Manga)",
+    "InternalName": "a-cave-king-s-road-to-paradise-climbing-to-the-top-with-my-almighty-mining-skills-manga",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "a-cave-king-s-road-to-paradise-climbing-to-the-top-with-my-almighty-mining-skills-manga"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "a-cave-king-s-road-to-paradise-climbing-to-the-top-with-my-almighty-mining-skills-manga-volume-1",
+        "FileName": "a-cave-king-s-road-to-paradise-climbing-to-the-top-with-my-almighty-mining-skills-manga-volume-1.epub",
+        "Title": "A Cave King’s Road to Paradise: Climbing to the Top with My Almighty Mining Skills! (Manga) Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-03-22",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "a-cave-king-s-road-to-paradise-climbing-to-the-top-with-my-almighty-mining-skills-manga-volume-2",
+        "FileName": "a-cave-king-s-road-to-paradise-climbing-to-the-top-with-my-almighty-mining-skills-manga-volume-2.epub",
+        "Title": "A Cave King’s Road to Paradise: Climbing to the Top with My Almighty Mining Skills! (Manga) Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-07-05",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "a-cave-king-s-road-to-paradise-climbing-to-the-top-with-my-almighty-mining-skills-manga-volume-3",
+        "FileName": "a-cave-king-s-road-to-paradise-climbing-to-the-top-with-my-almighty-mining-skills-manga-volume-3.epub",
+        "Title": "A Cave King’s Road to Paradise: Climbing to the Top with My Almighty Mining Skills! (Manga) Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-09-27",
+        "Order": 103
+      },
+      {
+        "ApiSlug": "a-cave-king-s-road-to-paradise-climbing-to-the-top-with-my-almighty-mining-skills-manga-volume-4",
+        "FileName": "a-cave-king-s-road-to-paradise-climbing-to-the-top-with-my-almighty-mining-skills-manga-volume-4.epub",
+        "Title": "A Cave King’s Road to Paradise: Climbing to the Top with My Almighty Mining Skills! (Manga) Volume 4",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-12-20",
+        "Order": 104
+      }
+    ],
+    "Author": "Hajime Naehara",
+    "AuthorSort": "NAEHARA, HAJIME"
+  },
+  {
     "Name": "A Late-Start Tamer’s Laid-Back Life",
     "InternalName": "a-late-start-tamer-s-laid-back-life",
     "ApiSlugs": [
@@ -221,6 +271,65 @@
     ],
     "Author": "Micoto Sakurai",
     "AuthorSort": "SAKURAI, MICOTO"
+  },
+  {
+    "Name": "A Very Fairy Apartment",
+    "InternalName": "a-very-fairy-apartment",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "a-very-fairy-apartment"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "a-very-fairy-apartment-volume-1",
+        "FileName": "a-very-fairy-apartment-volume-1.epub",
+        "Title": "A Very Fairy Apartment Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2019-06-01",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "a-very-fairy-apartment-volume-2",
+        "FileName": "a-very-fairy-apartment-volume-2.epub",
+        "Title": "A Very Fairy Apartment Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2019-11-06",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "a-very-fairy-apartment-volume-3",
+        "FileName": "a-very-fairy-apartment-volume-3.epub",
+        "Title": "A Very Fairy Apartment Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-03-03",
+        "Order": 103
+      },
+      {
+        "ApiSlug": "a-very-fairy-apartment-volume-4",
+        "FileName": "a-very-fairy-apartment-volume-4.epub",
+        "Title": "A Very Fairy Apartment Volume 4",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-07-28",
+        "Order": 104
+      },
+      {
+        "ApiSlug": "a-very-fairy-apartment-volume-5",
+        "FileName": "a-very-fairy-apartment-volume-5.epub",
+        "Title": "A Very Fairy Apartment Volume 5",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-12-01",
+        "Order": 105
+      }
+    ],
+    "Author": "Amakara Surume",
+    "AuthorSort": "SURUME, AMAKARA"
   },
   {
     "Name": "A Wild Last Boss Appeared!",
@@ -743,6 +852,110 @@
     "AuthorSort": "TESHIMA, FUMINORI"
   },
   {
+    "Name": "An Archdemon's Dilemma: How to Love Your Elf Bride (Manga)",
+    "InternalName": "an-archdemon-s-dilemma-how-to-love-your-elf-bride-manga",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "an-archdemon-s-dilemma-how-to-love-your-elf-bride-manga"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "an-archdemon-s-dilemma-how-to-love-your-elf-bride-manga-volume-1",
+        "FileName": "an-archdemon-s-dilemma-how-to-love-your-elf-bride-manga-volume-1.epub",
+        "Title": "An Archdemon's Dilemma: How to Love Your Elf Bride (Manga) Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2019-06-01",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "an-archdemon-s-dilemma-how-to-love-your-elf-bride-manga-volume-2",
+        "FileName": "an-archdemon-s-dilemma-how-to-love-your-elf-bride-manga-volume-2.epub",
+        "Title": "An Archdemon's Dilemma: How to Love Your Elf Bride (Manga) Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2019-12-04",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "an-archdemon-s-dilemma-how-to-love-your-elf-bride-manga-volume-3",
+        "FileName": "an-archdemon-s-dilemma-how-to-love-your-elf-bride-manga-volume-3.epub",
+        "Title": "An Archdemon's Dilemma: How to Love Your Elf Bride (Manga) Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-03-27",
+        "Order": 103
+      },
+      {
+        "ApiSlug": "an-archdemon-s-dilemma-how-to-love-your-elf-bride-manga-volume-4",
+        "FileName": "an-archdemon-s-dilemma-how-to-love-your-elf-bride-manga-volume-4.epub",
+        "Title": "An Archdemon's Dilemma: How to Love Your Elf Bride (Manga) Volume 4",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-02-10",
+        "Order": 104
+      },
+      {
+        "ApiSlug": "an-archdemon-s-dilemma-how-to-love-your-elf-bride-manga-volume-5",
+        "FileName": "an-archdemon-s-dilemma-how-to-love-your-elf-bride-manga-volume-5.epub",
+        "Title": "An Archdemon's Dilemma: How to Love Your Elf Bride (Manga) Volume 5",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-05-05",
+        "Order": 105
+      },
+      {
+        "ApiSlug": "an-archdemon-s-dilemma-how-to-love-your-elf-bride-manga-volume-6",
+        "FileName": "an-archdemon-s-dilemma-how-to-love-your-elf-bride-manga-volume-6.epub",
+        "Title": "An Archdemon's Dilemma: How to Love Your Elf Bride (Manga) Volume 6",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-09-01",
+        "Order": 106
+      },
+      {
+        "ApiSlug": "an-archdemon-s-dilemma-how-to-love-your-elf-bride-manga-volume-7",
+        "FileName": "an-archdemon-s-dilemma-how-to-love-your-elf-bride-manga-volume-7.epub",
+        "Title": "An Archdemon's Dilemma: How to Love Your Elf Bride (Manga) Volume 7",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-01-26",
+        "Order": 107
+      },
+      {
+        "ApiSlug": "an-archdemon-s-dilemma-how-to-love-your-elf-bride-manga-volume-8",
+        "FileName": "an-archdemon-s-dilemma-how-to-love-your-elf-bride-manga-volume-8.epub",
+        "Title": "An Archdemon's Dilemma: How to Love Your Elf Bride (Manga) Volume 8",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-10-12",
+        "Order": 108
+      },
+      {
+        "ApiSlug": "an-archdemon-s-dilemma-how-to-love-your-elf-bride-manga-volume-9",
+        "FileName": "an-archdemon-s-dilemma-how-to-love-your-elf-bride-manga-volume-9.epub",
+        "Title": "An Archdemon's Dilemma: How to Love Your Elf Bride (Manga) Volume 9",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-05-24",
+        "Order": 109
+      },
+      {
+        "ApiSlug": "an-archdemon-s-dilemma-how-to-love-your-elf-bride-manga-volume-10",
+        "FileName": "an-archdemon-s-dilemma-how-to-love-your-elf-bride-manga-volume-10.epub",
+        "Title": "An Archdemon's Dilemma: How to Love Your Elf Bride (Manga) Volume 10",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2024-06-08",
+        "Order": 110
+      }
+    ],
+    "Author": "Fuminori Teshima",
+    "AuthorSort": "TESHIMA, FUMINORI"
+  },
+  {
     "Name": "An Introvert's Hookup Hiccups: This Gyaru Is Head Over Heels for Me!",
     "InternalName": "an-introvert-s-hookup-hiccups",
     "ApiSlugs": [
@@ -800,6 +1013,65 @@
     ],
     "Author": "Yuishi",
     "AuthorSort": "YUISHI"
+  },
+  {
+    "Name": "Animeta!",
+    "InternalName": "animeta",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "animeta"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "animeta-volume-1",
+        "FileName": "animeta-volume-1.epub",
+        "Title": "Animeta! Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2019-06-01",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "animeta-volume-2",
+        "FileName": "animeta-volume-2.epub",
+        "Title": "Animeta! Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2019-10-02",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "animeta-volume-3",
+        "FileName": "animeta-volume-3.epub",
+        "Title": "Animeta! Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-01-08",
+        "Order": 103
+      },
+      {
+        "ApiSlug": "animeta-volume-4",
+        "FileName": "animeta-volume-4.epub",
+        "Title": "Animeta! Volume 4",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-06-10",
+        "Order": 104
+      },
+      {
+        "ApiSlug": "animeta-volume-5",
+        "FileName": "animeta-volume-5.epub",
+        "Title": "Animeta! Volume 5",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-12-09",
+        "Order": 105
+      }
+    ],
+    "Author": "Yaso Hanamura",
+    "AuthorSort": "HANAMURA, YASO"
   },
   {
     "Name": "Ao Oni",
@@ -1169,6 +1441,173 @@
     "AuthorSort": "SHIRAKOME, RYO"
   },
   {
+    "Name": "Ascendance of a Bookworm (Manga)",
+    "InternalName": "ascendance-of-a-bookworm-manga",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "ascendance-of-a-bookworm-manga"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-manga-volume-1",
+        "FileName": "ascendance-of-a-bookworm-manga-volume-1.epub",
+        "Title": "Ascendance of a Bookworm (Manga) Part 1 Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2019-06-01",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-manga-volume-2",
+        "FileName": "ascendance-of-a-bookworm-manga-volume-2.epub",
+        "Title": "Ascendance of a Bookworm (Manga) Part 1 Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2019-12-04",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-manga-volume-3",
+        "FileName": "ascendance-of-a-bookworm-manga-volume-3.epub",
+        "Title": "Ascendance of a Bookworm (Manga) Part 1 Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-03-24",
+        "Order": 103
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-manga-volume-4",
+        "FileName": "ascendance-of-a-bookworm-manga-volume-4.epub",
+        "Title": "Ascendance of a Bookworm (Manga) Part 1 Volume 4",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-05-12",
+        "Order": 104
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-manga-volume-5",
+        "FileName": "ascendance-of-a-bookworm-manga-volume-5.epub",
+        "Title": "Ascendance of a Bookworm (Manga) Part 1 Volume 5",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-09-01",
+        "Order": 105
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-manga-volume-6",
+        "FileName": "ascendance-of-a-bookworm-manga-volume-6.epub",
+        "Title": "Ascendance of a Bookworm (Manga) Part 1 Volume 6",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-01-05",
+        "Order": 106
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-manga-volume-7",
+        "FileName": "ascendance-of-a-bookworm-manga-volume-7.epub",
+        "Title": "Ascendance of a Bookworm (Manga) Part 1 Volume 7",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-05-12",
+        "Order": 107
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-manga-part-2-vol-1",
+        "FileName": "ascendance-of-a-bookworm-manga-part-2-vol-1.epub",
+        "Title": "Ascendance of a Bookworm (Manga) Part 2 Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-07-06",
+        "Order": 108
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-manga-part-2-volume-2",
+        "FileName": "ascendance-of-a-bookworm-manga-part-2-volume-2.epub",
+        "Title": "Ascendance of a Bookworm (Manga) Part 2 Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-08-31",
+        "Order": 109
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-manga-part-2-volume-3",
+        "FileName": "ascendance-of-a-bookworm-manga-part-2-volume-3.epub",
+        "Title": "Ascendance of a Bookworm (Manga) Part 2 Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-11-09",
+        "Order": 110
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-manga-part-2-volume-4",
+        "FileName": "ascendance-of-a-bookworm-manga-part-2-volume-4.epub",
+        "Title": "Ascendance of a Bookworm (Manga) Part 2 Volume 4",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-03-15",
+        "Order": 111
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-manga-part-2-volume-5",
+        "FileName": "ascendance-of-a-bookworm-manga-part-2-volume-5.epub",
+        "Title": "Ascendance of a Bookworm (Manga) Part 2 Volume 5",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-05-03",
+        "Order": 112
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-manga-part-2-volume-6",
+        "FileName": "ascendance-of-a-bookworm-manga-part-2-volume-6.epub",
+        "Title": "Ascendance of a Bookworm (Manga) Part 2 Volume 6",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-08-16",
+        "Order": 113
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-manga-part-2-volume-7",
+        "FileName": "ascendance-of-a-bookworm-manga-part-2-volume-7.epub",
+        "Title": "Ascendance of a Bookworm (Manga) Part 2 Volume 7",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-02-06",
+        "Order": 114
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-manga-part-2-volume-8",
+        "FileName": "ascendance-of-a-bookworm-manga-part-2-volume-8.epub",
+        "Title": "Ascendance of a Bookworm (Manga) Part 2 Volume 8",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2024-01-24",
+        "Order": 115
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-manga-part-3-volume-1",
+        "FileName": "ascendance-of-a-bookworm-manga-part-3-volume-1.epub",
+        "Title": "Ascendance of a Bookworm (Manga) Part 3 Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-06-07",
+        "Order": 201
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-manga-part-3-volume-2",
+        "FileName": "ascendance-of-a-bookworm-manga-part-3-volume-2.epub",
+        "Title": "Ascendance of a Bookworm (Manga) Part 3 Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-10-11",
+        "Order": 202
+      }
+    ],
+    "Author": "Miya Kazuki",
+    "AuthorSort": "KAZUKI, MIYA"
+  },
+  {
     "Name": "Back to the Battlefield: The Veteran Heroes Return to the Fray!",
     "InternalName": "back-to-the-battlefield-the-veteran-heroes-return-to-the-fray",
     "ApiSlugs": [
@@ -1428,6 +1867,74 @@
     "AuthorSort": "YUI"
   },
   {
+    "Name": "Bibliophile Princess (Manga)",
+    "InternalName": "bibliophile-princess-manga",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "bibliophile-princess-manga"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "bibliophile-princess-manga-volume-1",
+        "FileName": "bibliophile-princess-manga-volume-1.epub",
+        "Title": "Bibliophile Princess (Manga) Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-11-03",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "bibliophile-princess-manga-volume-2",
+        "FileName": "bibliophile-princess-manga-volume-2.epub",
+        "Title": "Bibliophile Princess (Manga) Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-02-02",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "bibliophile-princess-manga-volume-3",
+        "FileName": "bibliophile-princess-manga-volume-3.epub",
+        "Title": "Bibliophile Princess (Manga) Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-07-13",
+        "Order": 103
+      },
+      {
+        "ApiSlug": "bibliophile-princess-manga-volume-4",
+        "FileName": "bibliophile-princess-manga-volume-4.epub",
+        "Title": "Bibliophile Princess (Manga) Volume 4",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-11-24",
+        "Order": 104
+      },
+      {
+        "ApiSlug": "bibliophile-princess-manga-volume-5",
+        "FileName": "bibliophile-princess-manga-volume-5.epub",
+        "Title": "Bibliophile Princess (Manga) Volume 5",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-03-01",
+        "Order": 105
+      },
+      {
+        "ApiSlug": "bibliophile-princess-manga-volume-6",
+        "FileName": "bibliophile-princess-manga-volume-6.epub",
+        "Title": "Bibliophile Princess (Manga) Volume 6",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-08-16",
+        "Order": 106
+      }
+    ],
+    "Author": "Yui",
+    "AuthorSort": "YUI"
+  },
+  {
     "Name": "Black Summoner",
     "InternalName": "black-summoner",
     "ApiSlugs": [
@@ -1571,6 +2078,146 @@
         "ShowRemainingFiles": true,
         "Published": "2023-12-20",
         "Order": 115
+      }
+    ],
+    "Author": "Doufu Mayoi",
+    "AuthorSort": "MAYOI, DOUFU"
+  },
+  {
+    "Name": "Black Summoner (Manga)",
+    "InternalName": "black-summoner-manga",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "black-summoner-manga"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "black-summoner-manga-volume-1",
+        "FileName": "black-summoner-manga-volume-1.epub",
+        "Title": "Black Summoner (Manga) Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-12-01",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "black-summoner-manga-volume-2",
+        "FileName": "black-summoner-manga-volume-2.epub",
+        "Title": "Black Summoner (Manga) Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-06-08",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "black-summoner-manga-volume-3",
+        "FileName": "black-summoner-manga-volume-3.epub",
+        "Title": "Black Summoner (Manga) Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-08-03",
+        "Order": 103
+      },
+      {
+        "ApiSlug": "black-summoner-manga-volume-4",
+        "FileName": "black-summoner-manga-volume-4.epub",
+        "Title": "Black Summoner (Manga) Volume 4",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-09-21",
+        "Order": 104
+      },
+      {
+        "ApiSlug": "black-summoner-manga-volume-5",
+        "FileName": "black-summoner-manga-volume-5.epub",
+        "Title": "Black Summoner (Manga) Volume 5",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-01-25",
+        "Order": 105
+      },
+      {
+        "ApiSlug": "black-summoner-manga-volume-6",
+        "FileName": "black-summoner-manga-volume-6.epub",
+        "Title": "Black Summoner (Manga) Volume 6",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-05-10",
+        "Order": 106
+      },
+      {
+        "ApiSlug": "black-summoner-manga-volume-7",
+        "FileName": "black-summoner-manga-volume-7.epub",
+        "Title": "Black Summoner (Manga) Volume 7",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-08-31",
+        "Order": 107
+      },
+      {
+        "ApiSlug": "black-summoner-manga-volume-8",
+        "FileName": "black-summoner-manga-volume-8.epub",
+        "Title": "Black Summoner (Manga) Volume 8",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-10-18",
+        "Order": 108
+      },
+      {
+        "ApiSlug": "black-summoner-manga-volume-9",
+        "FileName": "black-summoner-manga-volume-9.epub",
+        "Title": "Black Summoner (Manga) Volume 9",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-12-14",
+        "Order": 109
+      },
+      {
+        "ApiSlug": "black-summoner-manga-volume-10",
+        "FileName": "black-summoner-manga-volume-10.epub",
+        "Title": "Black Summoner (Manga) Volume 10",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-02-15",
+        "Order": 110
+      },
+      {
+        "ApiSlug": "black-summoner-manga-volume-11",
+        "FileName": "black-summoner-manga-volume-11.epub",
+        "Title": "Black Summoner (Manga) Volume 11",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-04-19",
+        "Order": 111
+      },
+      {
+        "ApiSlug": "black-summoner-manga-volume-12",
+        "FileName": "black-summoner-manga-volume-12.epub",
+        "Title": "Black Summoner (Manga) Volume 12",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-06-14",
+        "Order": 112
+      },
+      {
+        "ApiSlug": "black-summoner-manga-volume-13",
+        "FileName": "black-summoner-manga-volume-13.epub",
+        "Title": "Black Summoner (Manga) Volume 13",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-10-25",
+        "Order": 113
+      },
+      {
+        "ApiSlug": "black-summoner-manga-volume-14",
+        "FileName": "black-summoner-manga-volume-14.epub",
+        "Title": "Black Summoner (Manga) Volume 14",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-12-20",
+        "Order": 114
       }
     ],
     "Author": "Doufu Mayoi",
@@ -1924,6 +2571,160 @@
         "ShowRemainingFiles": true,
         "Published": "2023-09-27",
         "Order": 114
+      }
+    ],
+    "Author": "Ren Eguchi",
+    "AuthorSort": "EGUCHI, REN"
+  },
+  {
+    "Name": "Campfire Cooking in Another World with My Absurd Skill (Manga)",
+    "InternalName": "campfire-cooking-in-another-world-with-my-absurd-skill-manga",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "campfire-cooking-in-another-world-with-my-absurd-skill-manga"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "campfire-cooking-in-another-world-with-my-absurd-skill-manga-volume-1",
+        "FileName": "campfire-cooking-in-another-world-with-my-absurd-skill-manga-volume-1.epub",
+        "Title": "Campfire Cooking in Another World with My Absurd Skill (Manga) Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-10-27",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "campfire-cooking-in-another-world-with-my-absurd-skill-manga-volume-2",
+        "FileName": "campfire-cooking-in-another-world-with-my-absurd-skill-manga-volume-2.epub",
+        "Title": "Campfire Cooking in Another World with My Absurd Skill (Manga) Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-12-29",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "campfire-cooking-in-another-world-with-my-absurd-skill-manga-volume-3",
+        "FileName": "campfire-cooking-in-another-world-with-my-absurd-skill-manga-volume-3.epub",
+        "Title": "Campfire Cooking in Another World with My Absurd Skill (Manga) Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-03-30",
+        "Order": 103
+      },
+      {
+        "ApiSlug": "campfire-cooking-in-another-world-with-my-absurd-skill-manga-volume-4",
+        "FileName": "campfire-cooking-in-another-world-with-my-absurd-skill-manga-volume-4.epub",
+        "Title": "Campfire Cooking in Another World with My Absurd Skill (Manga) Volume 4",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-08-24",
+        "Order": 104
+      },
+      {
+        "ApiSlug": "campfire-cooking-in-another-world-with-my-absurd-skill-manga-volume-5",
+        "FileName": "campfire-cooking-in-another-world-with-my-absurd-skill-manga-volume-5.epub",
+        "Title": "Campfire Cooking in Another World with My Absurd Skill (Manga) Volume 5",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-11-30",
+        "Order": 105
+      },
+      {
+        "ApiSlug": "campfire-cooking-in-another-world-with-my-absurd-skill-manga-volume-6",
+        "FileName": "campfire-cooking-in-another-world-with-my-absurd-skill-manga-volume-6.epub",
+        "Title": "Campfire Cooking in Another World with My Absurd Skill (Manga) Volume 6",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-02-01",
+        "Order": 106
+      },
+      {
+        "ApiSlug": "campfire-cooking-in-another-world-with-my-absurd-skill-manga-volume-7",
+        "FileName": "campfire-cooking-in-another-world-with-my-absurd-skill-manga-volume-7.epub",
+        "Title": "Campfire Cooking in Another World with My Absurd Skill (Manga) Volume 7",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-04-06",
+        "Order": 107
+      },
+      {
+        "ApiSlug": "campfire-cooking-in-another-world-with-my-absurd-skill-manga-volume-8",
+        "FileName": "campfire-cooking-in-another-world-with-my-absurd-skill-manga-volume-8.epub",
+        "Title": "Campfire Cooking in Another World with My Absurd Skill (Manga) Volume 8",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-06-22",
+        "Order": 108
+      },
+      {
+        "ApiSlug": "campfire-cooking-in-another-world-with-my-absurd-skill-manga-volume-9",
+        "FileName": "campfire-cooking-in-another-world-with-my-absurd-skill-manga-volume-9.epub",
+        "Title": "Campfire Cooking in Another World with My Absurd Skill (Manga) Volume 9",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-10-18",
+        "Order": 109
+      }
+    ],
+    "Author": "Ren Eguchi",
+    "AuthorSort": "EGUCHI, REN"
+  },
+  {
+    "Name": "Campfire Cooking in Another World with My Absurd Skill: Sui’s Great Adventure",
+    "InternalName": "campfire-cooking-in-another-world-with-my-absurd-skill-sui-s-great-adventure",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "campfire-cooking-in-another-world-with-my-absurd-skill-sui-s-great-adventure"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "campfire-cooking-in-another-world-with-my-absurd-skill-sui-s-great-adventure-volume-1",
+        "FileName": "campfire-cooking-in-another-world-with-my-absurd-skill-sui-s-great-adventure-volume-1.epub",
+        "Title": "Campfire Cooking in Another World with My Absurd Skill: Sui's Great Adventure Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-11-09",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "campfire-cooking-in-another-world-with-my-absurd-skill-sui-s-great-adventure-volume-2",
+        "FileName": "campfire-cooking-in-another-world-with-my-absurd-skill-sui-s-great-adventure-volume-2.epub",
+        "Title": "Campfire Cooking in Another World with My Absurd Skill: Sui's Great Adventure Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-01-11",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "campfire-cooking-in-another-world-with-my-absurd-skill-sui-s-great-adventure-volume-3",
+        "FileName": "campfire-cooking-in-another-world-with-my-absurd-skill-sui-s-great-adventure-volume-3.epub",
+        "Title": "Campfire Cooking in Another World with My Absurd Skill: Sui's Great Adventure Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-03-29",
+        "Order": 103
+      },
+      {
+        "ApiSlug": "campfire-cooking-in-another-world-with-my-absurd-skill-sui-s-great-adventure-volume-4",
+        "FileName": "campfire-cooking-in-another-world-with-my-absurd-skill-sui-s-great-adventure-volume-4.epub",
+        "Title": "Campfire Cooking in Another World with My Absurd Skill: Sui's Great Adventure Volume 4",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-07-12",
+        "Order": 104
+      },
+      {
+        "ApiSlug": "campfire-cooking-in-another-world-with-my-absurd-skill-sui-s-great-adventure-volume-5",
+        "FileName": "campfire-cooking-in-another-world-with-my-absurd-skill-sui-s-great-adventure-volume-5.epub",
+        "Title": "Campfire Cooking in Another World with My Absurd Skill: Sui's Great Adventure Volume 5",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2024-01-10",
+        "Order": 105
       }
     ],
     "Author": "Ren Eguchi",
@@ -2412,6 +3213,92 @@
         "ShowRemainingFiles": true,
         "Published": "2024-03-04",
         "Order": 123
+      }
+    ],
+    "Author": "EDA",
+    "AuthorSort": "EDA"
+  },
+  {
+    "Name": "Cooking With Wild Game (Manga)",
+    "InternalName": "cooking-with-wild-game-manga",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "cooking-with-wild-game-manga"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "cooking-with-wild-game-manga-volume-1",
+        "FileName": "cooking-with-wild-game-manga-volume-1.epub",
+        "Title": "Cooking With Wild Game (Manga) Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-02-11",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "cooking-with-wild-game-manga-volume-2",
+        "FileName": "cooking-with-wild-game-manga-volume-2.epub",
+        "Title": "Cooking With Wild Game (Manga) Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-04-28",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "cooking-with-wild-game-manga-volume-3",
+        "FileName": "cooking-with-wild-game-manga-volume-3.epub",
+        "Title": "Cooking With Wild Game (Manga) Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-06-30",
+        "Order": 103
+      },
+      {
+        "ApiSlug": "cooking-with-wild-game-manga-volume-4",
+        "FileName": "cooking-with-wild-game-manga-volume-4.epub",
+        "Title": "Cooking With Wild Game (Manga) Volume 4",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-01-26",
+        "Order": 104
+      },
+      {
+        "ApiSlug": "cooking-with-wild-game-manga-volume-5",
+        "FileName": "cooking-with-wild-game-manga-volume-5.epub",
+        "Title": "Cooking With Wild Game (Manga) Volume 5",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-09-21",
+        "Order": 105
+      },
+      {
+        "ApiSlug": "cooking-with-wild-game-manga-volume-6",
+        "FileName": "cooking-with-wild-game-manga-volume-6.epub",
+        "Title": "Cooking With Wild Game (Manga) Volume 6",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-01-11",
+        "Order": 106
+      },
+      {
+        "ApiSlug": "cooking-with-wild-game-manga-volume-7",
+        "FileName": "cooking-with-wild-game-manga-volume-7.epub",
+        "Title": "Cooking With Wild Game (Manga) Volume 7",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-09-12",
+        "Order": 107
+      },
+      {
+        "ApiSlug": "cooking-with-wild-game-manga-volume-8",
+        "FileName": "cooking-with-wild-game-manga-volume-8.epub",
+        "Title": "Cooking With Wild Game (Manga) Volume 8",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2024-08-01",
+        "Order": 108
       }
     ],
     "Author": "EDA",
@@ -3110,6 +3997,110 @@
     "AuthorSort": "KANZAKI, KURONE"
   },
   {
+    "Name": "Demon Lord, Retry! (Manga)",
+    "InternalName": "demon-lord-retry-manga",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "demon-lord-retry-manga"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "demon-lord-retry-manga-volume-1",
+        "FileName": "demon-lord-retry-manga-volume-1.epub",
+        "Title": "Demon Lord, Retry! (Manga) Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-03-03",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "demon-lord-retry-manga-volume-2",
+        "FileName": "demon-lord-retry-manga-volume-2.epub",
+        "Title": "Demon Lord, Retry! (Manga) Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-06-09",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "demon-lord-retry-manga-volume-3",
+        "FileName": "demon-lord-retry-manga-volume-3.epub",
+        "Title": "Demon Lord, Retry! (Manga) Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-09-01",
+        "Order": 103
+      },
+      {
+        "ApiSlug": "demon-lord-retry-manga-volume-4",
+        "FileName": "demon-lord-retry-manga-volume-4.epub",
+        "Title": "Demon Lord, Retry! (Manga) Volume 4",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-12-01",
+        "Order": 104
+      },
+      {
+        "ApiSlug": "demon-lord-retry-manga-volume-5",
+        "FileName": "demon-lord-retry-manga-volume-5.epub",
+        "Title": "Demon Lord, Retry! (Manga) Volume 5",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-03-02",
+        "Order": 105
+      },
+      {
+        "ApiSlug": "demon-lord-retry-r-manga-volume-1",
+        "FileName": "demon-lord-retry-r-manga-volume-1.epub",
+        "Title": "Demon Lord, Retry! R (Manga) Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-11-02",
+        "Order": 106
+      },
+      {
+        "ApiSlug": "demon-lord-retry-r-manga-volume-2",
+        "FileName": "demon-lord-retry-r-manga-volume-2.epub",
+        "Title": "Demon Lord, Retry! R (Manga) Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-01-11",
+        "Order": 107
+      },
+      {
+        "ApiSlug": "demon-lord-retry-r-manga-volume-3",
+        "FileName": "demon-lord-retry-r-manga-volume-3.epub",
+        "Title": "Demon Lord, Retry! R (Manga) Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-09-07",
+        "Order": 108
+      },
+      {
+        "ApiSlug": "demon-lord-retry-r-manga-volume-4",
+        "FileName": "demon-lord-retry-r-manga-volume-4.epub",
+        "Title": "Demon Lord, Retry! R (Manga) Volume 4",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-11-30",
+        "Order": 109
+      },
+      {
+        "ApiSlug": "demon-lord-retry-r-manga-volume-5",
+        "FileName": "demon-lord-retry-r-manga-volume-5.epub",
+        "Title": "Demon Lord, Retry! R (Manga) Volume 5",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-10-25",
+        "Order": 110
+      }
+    ],
+    "Author": "Kurone Kanzaki",
+    "AuthorSort": "KANZAKI, KURONE"
+  },
+  {
     "Name": "Der Werwolf: The Annals of Veight",
     "InternalName": "m-rchen-der-werwolf-the-annals-of-veight",
     "ApiSlugs": [
@@ -3259,6 +4250,101 @@
     "AuthorSort": "HYOUGETSU"
   },
   {
+    "Name": "Der Werwolf: The Annals of Veight -Origins-",
+    "InternalName": "der-werwolf-the-annals-of-veight-origin",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "der-werwolf-the-annals-of-veight-origin"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "der-werwolf-the-annals-of-veight-origin-volume-1",
+        "FileName": "der-werwolf-the-annals-of-veight-origin-volume-1.epub",
+        "Title": "Der Werwolf: The Annals of Veight -Origins- Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-06-23",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "der-werwolf-the-annals-of-veight-origins-volume-2",
+        "FileName": "der-werwolf-the-annals-of-veight-origins-volume-2.epub",
+        "Title": "Der Werwolf: The Annals of Veight -Origins- Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-08-24",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "der-werwolf-the-annals-of-veight-origins-volume-3",
+        "FileName": "der-werwolf-the-annals-of-veight-origins-volume-3.epub",
+        "Title": "Der Werwolf: The Annals of Veight -Origins- Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-11-01",
+        "Order": 103
+      },
+      {
+        "ApiSlug": "der-werwolf-the-annals-of-veight-origins-volume-4",
+        "FileName": "der-werwolf-the-annals-of-veight-origins-volume-4.epub",
+        "Title": "Der Werwolf: The Annals of Veight -Origins- Volume 4",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-11-01",
+        "Order": 104
+      },
+      {
+        "ApiSlug": "der-werwolf-the-annals-of-veight-origins-volume-5",
+        "FileName": "der-werwolf-the-annals-of-veight-origins-volume-5.epub",
+        "Title": "Der Werwolf: The Annals of Veight -Origins- Volume 5",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-02-09",
+        "Order": 105
+      },
+      {
+        "ApiSlug": "der-werwolf-the-annals-of-veight-origins-volume-6",
+        "FileName": "der-werwolf-the-annals-of-veight-origins-volume-6.epub",
+        "Title": "Der Werwolf: The Annals of Veight -Origins- Volume 6",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-05-19",
+        "Order": 106
+      },
+      {
+        "ApiSlug": "der-werwolf-the-annals-of-veight-origins-volume-7",
+        "FileName": "der-werwolf-the-annals-of-veight-origins-volume-7.epub",
+        "Title": "Der Werwolf: The Annals of Veight -Origins- Volume 7",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-06-01",
+        "Order": 107
+      },
+      {
+        "ApiSlug": "der-werwolf-the-annals-of-veight-origins-volume-8",
+        "FileName": "der-werwolf-the-annals-of-veight-origins-volume-8.epub",
+        "Title": "Der Werwolf: The Annals of Veight -Origins- Volume 8",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-12-07",
+        "Order": 108
+      },
+      {
+        "ApiSlug": "der-werwolf-the-annals-of-veight-origins-volume-9",
+        "FileName": "der-werwolf-the-annals-of-veight-origins-volume-9.epub",
+        "Title": "Der Werwolf: The Annals of Veight -Origins- Volume 9",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-05-17",
+        "Order": 109
+      }
+    ],
+    "Author": "Hyougetsu",
+    "AuthorSort": "HYOUGETSU"
+  },
+  {
     "Name": "Did I Seriously Just Get Reincarnated as My Gag Character?!",
     "InternalName": "did-i-seriously-just-get-reincarnated-as-my-gag-character",
     "ApiSlugs": [
@@ -3289,6 +4375,210 @@
     ],
     "Author": "Kanade Otonashi",
     "AuthorSort": "OTONASHI, KANADE"
+  },
+  {
+    "Name": "Did I Seriously Just Get Reincarnated as My Gag Character?! (Manga)",
+    "InternalName": "did-i-seriously-just-get-reincarnated-as-my-gag-character-manga",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "did-i-seriously-just-get-reincarnated-as-my-gag-character-manga"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "did-i-seriously-just-get-reincarnated-as-my-gag-character-manga-volume-1",
+        "FileName": "did-i-seriously-just-get-reincarnated-as-my-gag-character-manga-volume-1.epub",
+        "Title": "Did I Seriously Just Get Reincarnated as My Gag Character?! (Manga) Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-07-29",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "did-i-seriously-just-get-reincarnated-as-my-gag-character-manga-volume-2",
+        "FileName": "did-i-seriously-just-get-reincarnated-as-my-gag-character-manga-volume-2.epub",
+        "Title": "Did I Seriously Just Get Reincarnated as My Gag Character?! (Manga) Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-09-29",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "did-i-seriously-just-get-reincarnated-as-my-gag-character-manga-volume-3",
+        "FileName": "did-i-seriously-just-get-reincarnated-as-my-gag-character-manga-volume-3.epub",
+        "Title": "Did I Seriously Just Get Reincarnated as My Gag Character?! (Manga) Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-02-10",
+        "Order": 103
+      },
+      {
+        "ApiSlug": "did-i-seriously-just-get-reincarnated-as-my-gag-character-manga-volume-4",
+        "FileName": "did-i-seriously-just-get-reincarnated-as-my-gag-character-manga-volume-4.epub",
+        "Title": "Did I Seriously Just Get Reincarnated as My Gag Character?! (Manga) Volume 4",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-12-27",
+        "Order": 104
+      }
+    ],
+    "Author": "Kanade Otonashi, Kamuragi Amane",
+    "AuthorSort": "AMANE, KAMURAGI, OTONASHI,, KANADE"
+  },
+  {
+    "Name": "Discommunication",
+    "InternalName": "discommunication",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "discommunication"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "discommunication",
+        "FileName": "discommunication.epub",
+        "Title": "Discommunication Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2019-11-05",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "discommunication-volume-2",
+        "FileName": "discommunication-volume-2.epub",
+        "Title": "Discommunication Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-01-28",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "discommunication-volume-3",
+        "FileName": "discommunication-volume-3.epub",
+        "Title": "Discommunication Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-04-07",
+        "Order": 103
+      },
+      {
+        "ApiSlug": "discommunication-volume-4",
+        "FileName": "discommunication-volume-4.epub",
+        "Title": "Discommunication Volume 4",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-08-04",
+        "Order": 104
+      },
+      {
+        "ApiSlug": "discommunication-volume-5",
+        "FileName": "discommunication-volume-5.epub",
+        "Title": "Discommunication Volume 5",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-11-03",
+        "Order": 105
+      },
+      {
+        "ApiSlug": "discommunication-volume-6",
+        "FileName": "discommunication-volume-6.epub",
+        "Title": "Discommunication Volume 6",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-02-09",
+        "Order": 106
+      },
+      {
+        "ApiSlug": "discommunication-volume-7",
+        "FileName": "discommunication-volume-7.epub",
+        "Title": "Discommunication Volume 7",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-06-02",
+        "Order": 107
+      }
+    ],
+    "Author": "Ueshiba Riichi",
+    "AuthorSort": "RIICHI, UESHIBA"
+  },
+  {
+    "Name": "Doll-Kara",
+    "InternalName": "doll-kara",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "doll-kara"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "doll-kara-volume-1",
+        "FileName": "doll-kara-volume-1.epub",
+        "Title": "Doll-Kara Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-06-01",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "doll-kara-volume-2",
+        "FileName": "doll-kara-volume-2.epub",
+        "Title": "Doll-Kara Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-07-15",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "doll-kara-volume-3",
+        "FileName": "doll-kara-volume-3.epub",
+        "Title": "Doll-Kara Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-10-31",
+        "Order": 103
+      },
+      {
+        "ApiSlug": "doll-kara-volume-4",
+        "FileName": "doll-kara-volume-4.epub",
+        "Title": "Doll-Kara Volume 4",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-02-28",
+        "Order": 104
+      },
+      {
+        "ApiSlug": "doll-kara-volume-5",
+        "FileName": "doll-kara-volume-5.epub",
+        "Title": "Doll-Kara Volume 5",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-06-21",
+        "Order": 105
+      },
+      {
+        "ApiSlug": "doll-kara-volume-6",
+        "FileName": "doll-kara-volume-6.epub",
+        "Title": "Doll-Kara Volume 6",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-09-20",
+        "Order": 106
+      },
+      {
+        "ApiSlug": "doll-kara-volume-7",
+        "FileName": "doll-kara-volume-7.epub",
+        "Title": "Doll-Kara Volume 7",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2024-01-17",
+        "Order": 107
+      }
+    ],
+    "Author": "Kazuyoshi Ishii, Kei Ryuzoji",
+    "AuthorSort": "RYUZOJI, KEI, ISHII,, KAZUYOSHI"
   },
   {
     "Name": "Dragon Daddy Diaries: A Girl Grows to Greatness",
@@ -3335,6 +4625,47 @@
         "ShowRemainingFiles": true,
         "Published": "2022-12-02",
         "Order": 104
+      }
+    ],
+    "Author": "Ameko Kaeruda",
+    "AuthorSort": "KAERUDA, AMEKO"
+  },
+  {
+    "Name": "Dragon Daddy Diaries: A Girl Grows to Greatness (Manga)",
+    "InternalName": "dragon-daddy-diaries-a-girl-grows-to-greatness-manga",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "dragon-daddy-diaries-a-girl-grows-to-greatness-manga"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "dragon-daddy-diaries-a-girl-grows-to-greatness-manga-volume-1",
+        "FileName": "dragon-daddy-diaries-a-girl-grows-to-greatness-manga-volume-1.epub",
+        "Title": "Dragon Daddy Diaries: A Girl Grows to Greatness (Manga) Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-05-24",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "dragon-daddy-diaries-a-girl-grows-to-greatness-manga-volume-2",
+        "FileName": "dragon-daddy-diaries-a-girl-grows-to-greatness-manga-volume-2.epub",
+        "Title": "Dragon Daddy Diaries: A Girl Grows to Greatness (Manga) Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-08-30",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "dragon-daddy-diaries-a-girl-grows-to-greatness-manga-volume-3",
+        "FileName": "dragon-daddy-diaries-a-girl-grows-to-greatness-manga-volume-3.epub",
+        "Title": "Dragon Daddy Diaries: A Girl Grows to Greatness (Manga) Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-11-22",
+        "Order": 103
       }
     ],
     "Author": "Ameko Kaeruda",
@@ -3544,6 +4875,65 @@
         "ShowRemainingFiles": true,
         "Published": "2023-07-07",
         "Order": 103
+      }
+    ],
+    "Author": "Suzu Enoshima",
+    "AuthorSort": "ENOSHIMA, SUZU"
+  },
+  {
+    "Name": "Endo and Kobayashi Live! The Latest on Tsundere Villainess Lieselotte (Manga)",
+    "InternalName": "endo-and-kobayashi-live-the-latest-on-tsundere-villainess-lieselotte-manga",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "endo-and-kobayashi-live-the-latest-on-tsundere-villainess-lieselotte-manga"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "endo-and-kobayashi-live-the-latest-on-tsundere-villainess-lieselotte-manga-volume-1",
+        "FileName": "endo-and-kobayashi-live-the-latest-on-tsundere-villainess-lieselotte-manga-volume-1.epub",
+        "Title": "Endo and Kobayashi Live! The Latest on Tsundere Villainess Lieselotte (Manga) Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-04-19",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "endo-and-kobayashi-live-the-latest-on-tsundere-villainess-lieselotte-manga-volume-2",
+        "FileName": "endo-and-kobayashi-live-the-latest-on-tsundere-villainess-lieselotte-manga-volume-2.epub",
+        "Title": "Endo and Kobayashi Live! The Latest on Tsundere Villainess Lieselotte (Manga) Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-06-14",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "endo-and-kobayashi-live-the-latest-on-tsundere-villainess-lieselotte-manga-volume-3",
+        "FileName": "endo-and-kobayashi-live-the-latest-on-tsundere-villainess-lieselotte-manga-volume-3.epub",
+        "Title": "Endo and Kobayashi Live! The Latest on Tsundere Villainess Lieselotte (Manga) Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-08-23",
+        "Order": 103
+      },
+      {
+        "ApiSlug": "endo-and-kobayashi-live-the-latest-on-tsundere-villainess-lieselotte-manga-volume-4",
+        "FileName": "endo-and-kobayashi-live-the-latest-on-tsundere-villainess-lieselotte-manga-volume-4.epub",
+        "Title": "Endo and Kobayashi Live! The Latest on Tsundere Villainess Lieselotte (Manga) Volume 4",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-11-01",
+        "Order": 104
+      },
+      {
+        "ApiSlug": "endo-and-kobayashi-live-the-latest-on-tsundere-villainess-lieselotte-manga-volume-5",
+        "FileName": "endo-and-kobayashi-live-the-latest-on-tsundere-villainess-lieselotte-manga-volume-5.epub",
+        "Title": "Endo and Kobayashi Live! The Latest on Tsundere Villainess Lieselotte (Manga) Volume 5",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2024-01-24",
+        "Order": 105
       }
     ],
     "Author": "Suzu Enoshima",
@@ -3918,6 +5308,65 @@
     "AuthorSort": "OSAKI, ISLE"
   },
   {
+    "Name": "Full Clearing Another World under a Goddess with Zero Believers (Manga)",
+    "InternalName": "full-clearing-another-world-under-a-goddess-with-zero-believers-manga",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "full-clearing-another-world-under-a-goddess-with-zero-believers-manga"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "full-clearing-another-world-under-a-goddess-with-zero-believers-manga-volume-1",
+        "FileName": "full-clearing-another-world-under-a-goddess-with-zero-believers-manga-volume-1.epub",
+        "Title": "Full Clearing Another World under a Goddess with Zero Believers (Manga) Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-01-26",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "full-clearing-another-world-under-a-goddess-with-zero-believers-manga-volume-2",
+        "FileName": "full-clearing-another-world-under-a-goddess-with-zero-believers-manga-volume-2.epub",
+        "Title": "Full Clearing Another World under a Goddess with Zero Believers (Manga) Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-03-23",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "full-clearing-another-world-under-a-goddess-with-zero-believers-manga-volume-3",
+        "FileName": "full-clearing-another-world-under-a-goddess-with-zero-believers-manga-volume-3.epub",
+        "Title": "Full Clearing Another World under a Goddess with Zero Believers (Manga) Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-06-29",
+        "Order": 103
+      },
+      {
+        "ApiSlug": "full-clearing-another-world-under-a-goddess-with-zero-believers-manga-volume-4",
+        "FileName": "full-clearing-another-world-under-a-goddess-with-zero-believers-manga-volume-4.epub",
+        "Title": "Full Clearing Another World under a Goddess with Zero Believers (Manga) Volume 4",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-10-25",
+        "Order": 104
+      },
+      {
+        "ApiSlug": "full-clearing-another-world-under-a-goddess-with-zero-believers-manga-volume-5",
+        "FileName": "full-clearing-another-world-under-a-goddess-with-zero-believers-manga-volume-5.epub",
+        "Title": "Full Clearing Another World under a Goddess with Zero Believers (Manga) Volume 5",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-07-05",
+        "Order": 105
+      }
+    ],
+    "Author": "Isle Osaki",
+    "AuthorSort": "OSAKI, ISLE"
+  },
+  {
     "Name": "Full Metal Panic!",
     "InternalName": "full-metal-panic",
     "ApiSlugs": [
@@ -4206,6 +5655,56 @@
         "ShowRemainingFiles": true,
         "Published": "2023-02-02",
         "Order": 107
+      }
+    ],
+    "Author": "Mizuumi Amakawa",
+    "AuthorSort": "AMAKAWA, MIZUUMI"
+  },
+  {
+    "Name": "Fushi no Kami: Rebuilding Civilization Starts With a Village (Manga)",
+    "InternalName": "fushi-no-kami-rebuilding-civilization-starts-with-a-village-manga",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "fushi-no-kami-rebuilding-civilization-starts-with-a-village-manga"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "fushi-no-kami-rebuilding-civilization-starts-with-a-village-manga-volume-1",
+        "FileName": "fushi-no-kami-rebuilding-civilization-starts-with-a-village-manga-volume-1.epub",
+        "Title": "Fushi no Kami: Rebuilding Civilization Starts with a Village (Manga) Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-06-01",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "fushi-no-kami-rebuilding-civilization-starts-with-a-village-manga-volume-2",
+        "FileName": "fushi-no-kami-rebuilding-civilization-starts-with-a-village-manga-volume-2.epub",
+        "Title": "Fushi no Kami: Rebuilding Civilization Starts with a Village (Manga) Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-07-27",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "fushi-no-kami-rebuilding-civilization-starts-with-a-village-manga-volume-3",
+        "FileName": "fushi-no-kami-rebuilding-civilization-starts-with-a-village-manga-volume-3.epub",
+        "Title": "Fushi no Kami: Rebuilding Civilization Starts with a Village (Manga) Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-02-01",
+        "Order": 103
+      },
+      {
+        "ApiSlug": "fushi-no-kami-rebuilding-civilization-starts-with-a-village-manga-volume-4",
+        "FileName": "fushi-no-kami-rebuilding-civilization-starts-with-a-village-manga-volume-4.epub",
+        "Title": "Fushi no Kami: Rebuilding Civilization Starts with a Village (Manga) Volume 4",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-11-08",
+        "Order": 104
       }
     ],
     "Author": "Mizuumi Amakawa",
@@ -4588,6 +6087,101 @@
     "AuthorSort": "MURAKAMI, RIN"
   },
   {
+    "Name": "Gushing over Magical Girls",
+    "InternalName": "gushing-over-magical-girls",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "gushing-over-magical-girls"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "gushing-over-magical-girls-volume-1",
+        "FileName": "gushing-over-magical-girls-volume-1.epub",
+        "Title": "Gushing over Magical Girls Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-06-01",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "gushing-over-magical-girls-volume-2",
+        "FileName": "gushing-over-magical-girls-volume-2.epub",
+        "Title": "Gushing over Magical Girls Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-08-02",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "gushing-over-magical-girls-volume-3",
+        "FileName": "gushing-over-magical-girls-volume-3.epub",
+        "Title": "Gushing over Magical Girls Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-09-28",
+        "Order": 103
+      },
+      {
+        "ApiSlug": "gushing-over-magical-girls-volume-4",
+        "FileName": "gushing-over-magical-girls-volume-4.epub",
+        "Title": "Gushing over Magical Girls Volume 4",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-12-01",
+        "Order": 104
+      },
+      {
+        "ApiSlug": "gushing-over-magical-girls-volume-5",
+        "FileName": "gushing-over-magical-girls-volume-5.epub",
+        "Title": "Gushing over Magical Girls Volume 5",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-02-20",
+        "Order": 105
+      },
+      {
+        "ApiSlug": "gushing-over-magical-girls-volume-6",
+        "FileName": "gushing-over-magical-girls-volume-6.epub",
+        "Title": "Gushing over Magical Girls Volume 6",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-05-31",
+        "Order": 106
+      },
+      {
+        "ApiSlug": "gushing-over-magical-girls-volume-7",
+        "FileName": "gushing-over-magical-girls-volume-7.epub",
+        "Title": "Gushing over Magical Girls Volume 7",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-08-09",
+        "Order": 107
+      },
+      {
+        "ApiSlug": "gushing-over-magical-girls-volume-8",
+        "FileName": "gushing-over-magical-girls-volume-8.epub",
+        "Title": "Gushing over Magical Girls Volume 8",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-10-25",
+        "Order": 108
+      },
+      {
+        "ApiSlug": "gushing-over-magical-girls-volume-9",
+        "FileName": "gushing-over-magical-girls-volume-9.epub",
+        "Title": "Gushing over Magical Girls Volume 9",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2024-01-24",
+        "Order": 109
+      }
+    ],
+    "Author": "Akihiro Ononaka",
+    "AuthorSort": "ONONAKA, AKIHIRO"
+  },
+  {
     "Name": "Haibara’s Teenage New Game+",
     "InternalName": "haibara-s-teenage-new-game",
     "ApiSlugs": [
@@ -4722,6 +6316,38 @@
     ],
     "Author": "Hamuo",
     "AuthorSort": "HAMUO"
+  },
+  {
+    "Name": "Hell Mode (Manga)",
+    "InternalName": "hell-mode-the-hardcore-gamer-dominates-in-another-world-with-garbage-balancing-manga",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "hell-mode-the-hardcore-gamer-dominates-in-another-world-with-garbage-balancing-manga"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "hell-mode-the-hardcore-gamer-dominates-in-another-world-with-garbage-balancing-manga-volume-1",
+        "FileName": "hell-mode-the-hardcore-gamer-dominates-in-another-world-with-garbage-balancing-manga-volume-1.epub",
+        "Title": "Hell Mode (Manga): Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-09-20",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "hell-mode-manga-volume-2",
+        "FileName": "hell-mode-manga-volume-2.epub",
+        "Title": "Hell Mode (Manga): Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-12-27",
+        "Order": 102
+      }
+    ],
+    "Author": "Hamuo/Mo",
+    "AuthorSort": "HAMUO/MO"
   },
   {
     "Name": "Her Majesty’s Swarm",
@@ -5000,6 +6626,65 @@
     "AuthorSort": "FUGURAMA, YOU"
   },
   {
+    "Name": "Housekeeping Mage from Another World: Making Your Adventures Feel Like Home! (Manga)",
+    "InternalName": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-manga",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-manga"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-manga-volume-1",
+        "FileName": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-manga-volume-1.epub",
+        "Title": "Housekeeping Mage from Another World: Making Your Adventures Feel Like Home! (Manga) Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-06-01",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-manga-volume-2",
+        "FileName": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-manga-volume-2.epub",
+        "Title": "Housekeeping Mage from Another World: Making Your Adventures Feel Like Home! (Manga) Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-09-14",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-manga-volume-3",
+        "FileName": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-manga-volume-3.epub",
+        "Title": "Housekeeping Mage from Another World: Making Your Adventures Feel Like Home! (Manga) Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-12-14",
+        "Order": 103
+      },
+      {
+        "ApiSlug": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-manga-volume-4",
+        "FileName": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-manga-volume-4.epub",
+        "Title": "Housekeeping Mage from Another World: Making Your Adventures Feel Like Home! (Manga) Volume 4",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-03-22",
+        "Order": 104
+      },
+      {
+        "ApiSlug": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-manga-volume-5",
+        "FileName": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-manga-volume-5.epub",
+        "Title": "Housekeeping Mage from Another World: Making Your Adventures Feel Like Home! (Manga) Volume 5",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-06-28",
+        "Order": 105
+      }
+    ],
+    "Author": "You Fuguruma",
+    "AuthorSort": "FUGURUMA, YOU"
+  },
+  {
     "Name": "How a Realist Hero Rebuilt the Kingdom",
     "InternalName": "how-a-realist-hero-rebuilt-the-kingdom",
     "ApiSlugs": [
@@ -5179,6 +6864,110 @@
         "ShowRemainingFiles": true,
         "Published": "2023-11-29",
         "Order": 119
+      }
+    ],
+    "Author": "Dojyomaru",
+    "AuthorSort": "DOJYOMARU"
+  },
+  {
+    "Name": "How a Realist Hero Rebuilt the Kingdom (Manga)",
+    "InternalName": "how-a-realist-hero-rebuilt-the-kingdom-manga",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "how-a-realist-hero-rebuilt-the-kingdom-manga"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "how-a-realist-hero-rebuilt-the-kingdom-manga-volume-1",
+        "FileName": "how-a-realist-hero-rebuilt-the-kingdom-manga-volume-1.epub",
+        "Title": "How a Realist Hero Rebuilt the Kingdom Manga Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2019-06-11",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "how-a-realist-hero-rebuilt-the-kingdom-manga-volume-2",
+        "FileName": "how-a-realist-hero-rebuilt-the-kingdom-manga-volume-2.epub",
+        "Title": "How a Realist Hero Rebuilt the Kingdom Manga Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2019-10-30",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "how-a-realist-hero-rebuilt-the-kingdom-manga-volume-3",
+        "FileName": "how-a-realist-hero-rebuilt-the-kingdom-manga-volume-3.epub",
+        "Title": "How a Realist Hero Rebuilt the Kingdom Manga Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-01-29",
+        "Order": 103
+      },
+      {
+        "ApiSlug": "how-a-realist-hero-rebuilt-the-kingdom-manga-volume-4",
+        "FileName": "how-a-realist-hero-rebuilt-the-kingdom-manga-volume-4.epub",
+        "Title": "How a Realist Hero Rebuilt the Kingdom Manga Volume 4",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-07-01",
+        "Order": 104
+      },
+      {
+        "ApiSlug": "how-a-realist-hero-rebuilt-the-kingdom-manga-volume-5",
+        "FileName": "how-a-realist-hero-rebuilt-the-kingdom-manga-volume-5.epub",
+        "Title": "How a Realist Hero Rebuilt the Kingdom Manga Volume 5",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-10-14",
+        "Order": 105
+      },
+      {
+        "ApiSlug": "how-a-realist-hero-rebuilt-the-kingdom-manga-volume-6",
+        "FileName": "how-a-realist-hero-rebuilt-the-kingdom-manga-volume-6.epub",
+        "Title": "How a Realist Hero Rebuilt the Kingdom Manga Volume 6",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-07-07",
+        "Order": 106
+      },
+      {
+        "ApiSlug": "how-a-realist-hero-rebuilt-the-kingdom-manga-volume-7",
+        "FileName": "how-a-realist-hero-rebuilt-the-kingdom-manga-volume-7.epub",
+        "Title": "How a Realist Hero Rebuilt the Kingdom Manga Volume 7",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-01-05",
+        "Order": 107
+      },
+      {
+        "ApiSlug": "how-a-realist-hero-rebuilt-the-kingdom-manga-volume-8",
+        "FileName": "how-a-realist-hero-rebuilt-the-kingdom-manga-volume-8.epub",
+        "Title": "How a Realist Hero Rebuilt the Kingdom Manga Volume 8",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-06-15",
+        "Order": 108
+      },
+      {
+        "ApiSlug": "how-a-realist-hero-rebuilt-the-kingdom-manga-volume-9",
+        "FileName": "how-a-realist-hero-rebuilt-the-kingdom-manga-volume-9.epub",
+        "Title": "How a Realist Hero Rebuilt the Kingdom Manga Volume 9",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-03-13",
+        "Order": 109
+      },
+      {
+        "ApiSlug": "how-a-realist-hero-rebuilt-the-kingdom-manga-volume-10",
+        "FileName": "how-a-realist-hero-rebuilt-the-kingdom-manga-volume-10.epub",
+        "Title": "How a Realist Hero Rebuilt the Kingdom Manga Volume 10",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-12-13",
+        "Order": 110
       }
     ],
     "Author": "Dojyomaru",
@@ -5389,6 +7178,56 @@
     "AuthorSort": "JAYMES, LEVON"
   },
   {
+    "Name": "I Love Yuri and I Got Bodyswapped With a Fujoshi!",
+    "InternalName": "i-love-yuri-and-i-got-bodyswapped-with-a-fujoshi",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "i-love-yuri-and-i-got-bodyswapped-with-a-fujoshi"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "i-love-yuri-and-i-got-bodyswapped-with-a-fujoshi-volume-1",
+        "FileName": "i-love-yuri-and-i-got-bodyswapped-with-a-fujoshi-volume-1.epub",
+        "Title": "I Love Yuri and I Got Bodyswapped With a Fujoshi! Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-11-24",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "i-love-yuri-and-i-got-bodyswapped-with-a-fujoshi-volume-2",
+        "FileName": "i-love-yuri-and-i-got-bodyswapped-with-a-fujoshi-volume-2.epub",
+        "Title": "I Love Yuri and I Got Bodyswapped With a Fujoshi! Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-02-23",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "i-love-yuri-and-i-got-bodyswapped-with-a-fujoshi-volume-3",
+        "FileName": "i-love-yuri-and-i-got-bodyswapped-with-a-fujoshi-volume-3.epub",
+        "Title": "I Love Yuri and I Got Bodyswapped With a Fujoshi! Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-07-06",
+        "Order": 103
+      },
+      {
+        "ApiSlug": "i-love-yuri-and-i-got-bodyswapped-with-a-fujoshi-volume-4",
+        "FileName": "i-love-yuri-and-i-got-bodyswapped-with-a-fujoshi-volume-4.epub",
+        "Title": "I Love Yuri and I Got Bodyswapped With a Fujoshi! Volume 4",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-08-31",
+        "Order": 104
+      }
+    ],
+    "Author": "AJIICHI",
+    "AuthorSort": "AJIICHI"
+  },
+  {
     "Name": "I Only Have Six Months to Live, So I’m Gonna Break the Curse with Light Magic or Die Trying",
     "InternalName": "i-only-have-six-months-to-live",
     "ApiSlugs": [
@@ -5474,6 +7313,38 @@
         "ShowRemainingFiles": true,
         "Published": "2023-12-18",
         "Order": 104
+      }
+    ],
+    "Author": "Nabeshiki",
+    "AuthorSort": "NABESHIKI"
+  },
+  {
+    "Name": "I Parry Everything: What Do You Mean I’m the Strongest? I’m Not Even an Adventurer Yet! (Manga)",
+    "InternalName": "i-parry-everything-what-do-you-mean-i-m-the-strongest-i-m-not-even-an-adventurer-yet-manga",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "i-parry-everything-what-do-you-mean-i-m-the-strongest-i-m-not-even-an-adventurer-yet-manga"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "i-parry-everything-what-do-you-mean-i-m-the-strongest-i-m-not-even-an-adventurer-yet-manga-volume-1",
+        "FileName": "i-parry-everything-what-do-you-mean-i-m-the-strongest-i-m-not-even-an-adventurer-yet-manga-volume-1.epub",
+        "Title": "I Parry Everything: What Do You Mean I’m the Strongest? I’m Not Even an Adventurer Yet! (Manga) Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-03-29",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "i-parry-everything-what-do-you-mean-i-m-the-strongest-i-m-not-even-an-adventurer-yet-manga-volume-2",
+        "FileName": "i-parry-everything-what-do-you-mean-i-m-the-strongest-i-m-not-even-an-adventurer-yet-manga-volume-2.epub",
+        "Title": "I Parry Everything: What Do You Mean I’m the Strongest? I’m Not Even an Adventurer Yet! (Manga) Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-06-14",
+        "Order": 102
       }
     ],
     "Author": "Nabeshiki",
@@ -5801,6 +7672,101 @@
     "AuthorSort": "FUNA"
   },
   {
+    "Name": "I Shall Survive Using Potions! (Manga)",
+    "InternalName": "i-shall-survive-using-potions-manga",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "i-shall-survive-using-potions-manga"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "i-shall-survive-using-potions-manga-volume-1",
+        "FileName": "i-shall-survive-using-potions-manga-volume-1.epub",
+        "Title": "I Shall Survive Using Potions! (Manga) Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2019-06-01",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "i-shall-survive-using-potions-manga-volume-2",
+        "FileName": "i-shall-survive-using-potions-manga-volume-2.epub",
+        "Title": "I Shall Survive Using Potions! (Manga) Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2019-12-11",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "i-shall-survive-using-potions-manga-volume-3",
+        "FileName": "i-shall-survive-using-potions-manga-volume-3.epub",
+        "Title": "I Shall Survive Using Potions! (Manga) Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-09-02",
+        "Order": 103
+      },
+      {
+        "ApiSlug": "i-shall-survive-using-potions-manga-volume-4",
+        "FileName": "i-shall-survive-using-potions-manga-volume-4.epub",
+        "Title": "I Shall Survive Using Potions! (Manga) Volume 4",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-01-06",
+        "Order": 104
+      },
+      {
+        "ApiSlug": "i-shall-survive-using-potions-manga-volume-5",
+        "FileName": "i-shall-survive-using-potions-manga-volume-5.epub",
+        "Title": "I Shall Survive Using Potions! (Manga) Volume 5",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-04-14",
+        "Order": 105
+      },
+      {
+        "ApiSlug": "i-shall-survive-using-potions-manga-volume-6",
+        "FileName": "i-shall-survive-using-potions-manga-volume-6.epub",
+        "Title": "I Shall Survive Using Potions! (Manga) Volume 6",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-08-04",
+        "Order": 106
+      },
+      {
+        "ApiSlug": "i-shall-survive-using-potions-manga-volume-7",
+        "FileName": "i-shall-survive-using-potions-manga-volume-7.epub",
+        "Title": "I Shall Survive Using Potions! (Manga) Volume 7",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-12-06",
+        "Order": 107
+      },
+      {
+        "ApiSlug": "i-shall-survive-using-potions-manga-volume-8",
+        "FileName": "i-shall-survive-using-potions-manga-volume-8.epub",
+        "Title": "I Shall Survive Using Potions! (Manga) Volume 8",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-02-23",
+        "Order": 108
+      },
+      {
+        "ApiSlug": "i-shall-survive-using-potions-manga-volume-9",
+        "FileName": "i-shall-survive-using-potions-manga-volume-9.epub",
+        "Title": "I Shall Survive Using Potions! (Manga) Volume 9",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-06-01",
+        "Order": 109
+      }
+    ],
+    "Author": "FUNA",
+    "AuthorSort": "FUNA"
+  },
+  {
     "Name": "I Surrendered My Sword for a New Life as a Mage",
     "InternalName": "i-surrendered-my-sword-for-a-new-life-as-a-mage",
     "ApiSlugs": [
@@ -6040,6 +8006,70 @@
     ],
     "Author": "Usber",
     "AuthorSort": "USBER"
+  },
+  {
+    "Name": "I’ll Never Set Foot in That House Again! (Manga)",
+    "InternalName": "i-ll-never-set-foot-in-that-house-again-manga",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "i-ll-never-set-foot-in-that-house-again-manga"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "i-ll-never-set-foot-in-that-house-again-manga-volume-1",
+        "FileName": "i-ll-never-set-foot-in-that-house-again-manga-volume-1.epub",
+        "Title": "I’ll Never Set Foot in That House Again! (Manga) Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-09-06",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "i-ll-never-set-foot-in-that-house-again-manga-volume-2",
+        "FileName": "i-ll-never-set-foot-in-that-house-again-manga-volume-2.epub",
+        "Title": "I’ll Never Set Foot in That House Again! (Manga) Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-12-06",
+        "Order": 102
+      }
+    ],
+    "Author": "milli-gram",
+    "AuthorSort": "MILLI-GRAM"
+  },
+  {
+    "Name": "I’m Capped at Level 1?! Thus Begins My Journey to Become the World’s Strongest Badass!",
+    "InternalName": "i-m-capped-at-level-1-thus-begins-my-journey-to-become-the-world-s-strongest-badass",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "i-m-capped-at-level-1-thus-begins-my-journey-to-become-the-world-s-strongest-badass"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "i-m-capped-at-level-1-thus-begins-my-journey-to-become-the-world-s-strongest-badass-volume-1",
+        "FileName": "i-m-capped-at-level-1-thus-begins-my-journey-to-become-the-world-s-strongest-badass-volume-1.epub",
+        "Title": "I’m Capped at Level 1?! Thus Begins My Journey to Become the World’s Strongest Badass! Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-02-27",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "i-m-capped-at-level-1-thus-begins-my-journey-to-become-the-world-s-strongest-badass-volume-2",
+        "FileName": "i-m-capped-at-level-1-thus-begins-my-journey-to-become-the-world-s-strongest-badass-volume-2.epub",
+        "Title": "I’m Capped at Level 1?! Thus Begins My Journey to Become the World’s Strongest Badass! Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-07-19",
+        "Order": 102
+      }
+    ],
+    "Author": "MiraijinA",
+    "AuthorSort": "MIRAIJINA"
   },
   {
     "Name": "If It’s for My Daughter, I’d Even Defeat a Demon Lord",
@@ -6591,6 +8621,119 @@
         "ShowRemainingFiles": true,
         "Published": "2023-10-10",
         "Order": 120
+      }
+    ],
+    "Author": "Sakon Kaidou",
+    "AuthorSort": "KAIDOU, SAKON"
+  },
+  {
+    "Name": "Infinite Dendrogram (Manga)",
+    "InternalName": "infinite-dendrogram-manga",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "infinite-dendrogram-manga"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "infinite-dendrogram-manga-volume-1",
+        "FileName": "infinite-dendrogram-manga-volume-1.epub",
+        "Title": "Infinite Dendrogram Manga Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2019-06-01",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "infinite-dendrogram-manga-volume-2",
+        "FileName": "infinite-dendrogram-manga-volume-2.epub",
+        "Title": "Infinite Dendrogram Manga Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2019-10-09",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "infinite-dendrogram-manga-volume-3",
+        "FileName": "infinite-dendrogram-manga-volume-3.epub",
+        "Title": "Infinite Dendrogram Manga Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-02-05",
+        "Order": 103
+      },
+      {
+        "ApiSlug": "infinite-dendrogram-manga-volume-4",
+        "FileName": "infinite-dendrogram-manga-volume-4.epub",
+        "Title": "Infinite Dendrogram Manga Volume 4",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-07-01",
+        "Order": 104
+      },
+      {
+        "ApiSlug": "infinite-dendrogram-manga-volume-5",
+        "FileName": "infinite-dendrogram-manga-volume-5.epub",
+        "Title": "Infinite Dendrogram Manga Volume 5",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-10-07",
+        "Order": 105
+      },
+      {
+        "ApiSlug": "infinite-dendrogram-manga-volume-6",
+        "FileName": "infinite-dendrogram-manga-volume-6.epub",
+        "Title": "Infinite Dendrogram Manga Volume 6",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-01-06",
+        "Order": 106
+      },
+      {
+        "ApiSlug": "infinite-dendrogram-manga-volume-7",
+        "FileName": "infinite-dendrogram-manga-volume-7.epub",
+        "Title": "Infinite Dendrogram Manga Volume 7",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-04-07",
+        "Order": 107
+      },
+      {
+        "ApiSlug": "infinite-dendrogram-manga-volume-8",
+        "FileName": "infinite-dendrogram-manga-volume-8.epub",
+        "Title": "Infinite Dendrogram Manga Volume 8",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-10-06",
+        "Order": 108
+      },
+      {
+        "ApiSlug": "infinite-dendrogram-manga-volume-9",
+        "FileName": "infinite-dendrogram-manga-volume-9.epub",
+        "Title": "Infinite Dendrogram Manga Volume 9",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-03-02",
+        "Order": 109
+      },
+      {
+        "ApiSlug": "infinite-dendrogram-manga-volume-10",
+        "FileName": "infinite-dendrogram-manga-volume-10.epub",
+        "Title": "Infinite Dendrogram Manga Volume 10",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-11-16",
+        "Order": 110
+      },
+      {
+        "ApiSlug": "infinite-dendrogram-manga-volume-11",
+        "FileName": "infinite-dendrogram-manga-volume-11.epub",
+        "Title": "Infinite Dendrogram Manga Volume 11",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2025-05-21",
+        "Order": 111
       }
     ],
     "Author": "Sakon Kaidou",
@@ -7270,6 +9413,74 @@
     "AuthorSort": "KENICHI"
   },
   {
+    "Name": "Isekai Tensei: Recruited to Another World (Manga)",
+    "InternalName": "isekai-tensei-recruited-to-another-world-manga",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "isekai-tensei-recruited-to-another-world-manga"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "isekai-tensei-recruited-to-another-world-manga-volume-1",
+        "FileName": "isekai-tensei-recruited-to-another-world-manga-volume-1.epub",
+        "Title": "Isekai Tensei: Recruited to Another World (Manga): Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-09-14",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "isekai-tensei-recruited-to-another-world-manga-volume-2",
+        "FileName": "isekai-tensei-recruited-to-another-world-manga-volume-2.epub",
+        "Title": "Isekai Tensei: Recruited to Another World (Manga): Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-11-29",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "isekai-tensei-recruited-to-another-world-manga-volume-3",
+        "FileName": "isekai-tensei-recruited-to-another-world-manga-volume-3.epub",
+        "Title": "Isekai Tensei: Recruited to Another World (Manga): Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-02-20",
+        "Order": 103
+      },
+      {
+        "ApiSlug": "isekai-tensei-recruited-to-another-world-manga-volume-4",
+        "FileName": "isekai-tensei-recruited-to-another-world-manga-volume-4.epub",
+        "Title": "Isekai Tensei: Recruited to Another World (Manga): Volume 4",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-06-21",
+        "Order": 104
+      },
+      {
+        "ApiSlug": "isekai-tensei-recruited-to-another-world-manga-volume-5",
+        "FileName": "isekai-tensei-recruited-to-another-world-manga-volume-5.epub",
+        "Title": "Isekai Tensei: Recruited to Another World (Manga): Volume 5",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-08-30",
+        "Order": 105
+      },
+      {
+        "ApiSlug": "isekai-tensei-recruited-to-another-world-manga-volume-6",
+        "FileName": "isekai-tensei-recruited-to-another-world-manga-volume-6.epub",
+        "Title": "Isekai Tensei: Recruited to Another World (Manga): Volume 6",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-11-15",
+        "Order": 106
+      }
+    ],
+    "Author": "Kenichi",
+    "AuthorSort": "KENICHI"
+  },
+  {
     "Name": "Jessica Bannister",
     "InternalName": "jessica-bannister",
     "ApiSlugs": [
@@ -7465,6 +9676,47 @@
     "AuthorSort": "DARK, JASON"
   },
   {
+    "Name": "Karate Master Isekai",
+    "InternalName": "karate-master-isekai",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "karate-master-isekai"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "karate-master-isekai-volume-1",
+        "FileName": "karate-master-isekai-volume-1.epub",
+        "Title": "Karate Master Isekai: Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-03-15",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "karate-master-isekai-volume-2",
+        "FileName": "karate-master-isekai-volume-2.epub",
+        "Title": "Karate Master Isekai: Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-05-26",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "karate-master-isekai-volume-3",
+        "FileName": "karate-master-isekai-volume-3.epub",
+        "Title": "Karate Master Isekai: Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-11-08",
+        "Order": 103
+      }
+    ],
+    "Author": "D.P, Eito Terry",
+    "AuthorSort": "TERRY, EITO, D.P,"
+  },
+  {
     "Name": "Knight's & Magic",
     "InternalName": "knight-s-magic",
     "ApiSlugs": [
@@ -7640,6 +9892,106 @@
     ],
     "Author": "Sadanatsu Anda",
     "AuthorSort": "ANDA, SADANATSU"
+  },
+  {
+    "Name": "La Ragazza: Living with Francesca",
+    "InternalName": "la-ragazza-living-with-francesca",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "la-ragazza-living-with-francesca"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "la-ragazza-living-with-francesca-volume-1",
+        "FileName": "la-ragazza-living-with-francesca-volume-1.epub",
+        "Title": "La Ragazza: Living with Francesca: Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-08-02",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "la-ragazza-living-with-francesca-volume-2",
+        "FileName": "la-ragazza-living-with-francesca-volume-2.epub",
+        "Title": "La Ragazza: Living with Francesca: Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-10-25",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "la-ragazza-living-with-francesca-volume-3",
+        "FileName": "la-ragazza-living-with-francesca-volume-3.epub",
+        "Title": "La Ragazza: Living with Francesca: Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2024-01-24",
+        "Order": 103
+      }
+    ],
+    "Author": "Hamita",
+    "AuthorSort": "HAMITA"
+  },
+  {
+    "Name": "Lady Rose Just Wants to Be a Commoner!",
+    "InternalName": "lady-rose-just-wants-to-be-a-commoner",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "lady-rose-just-wants-to-be-a-commoner"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "lady-rose-just-wants-to-be-a-commoner",
+        "FileName": "lady-rose-just-wants-to-be-a-commoner.epub",
+        "Title": "Lady Rose Just Wants to Be a Commoner! Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-01-04",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "lady-rose-just-wants-to-be-a-commoner-volume-2",
+        "FileName": "lady-rose-just-wants-to-be-a-commoner-volume-2.epub",
+        "Title": "Lady Rose Just Wants to Be a Commoner! Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-03-22",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "lady-rose-just-wants-to-be-a-commoner-volume-3",
+        "FileName": "lady-rose-just-wants-to-be-a-commoner-volume-3.epub",
+        "Title": "Lady Rose Just Wants to Be a Commoner! Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-06-14",
+        "Order": 103
+      },
+      {
+        "ApiSlug": "lady-rose-just-wants-to-be-a-commoner-volume-4",
+        "FileName": "lady-rose-just-wants-to-be-a-commoner-volume-4.epub",
+        "Title": "Lady Rose Just Wants to Be a Commoner! Volume 4",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-08-30",
+        "Order": 104
+      },
+      {
+        "ApiSlug": "lady-rose-just-wants-to-be-a-commoner-volume-5",
+        "FileName": "lady-rose-just-wants-to-be-a-commoner-volume-5.epub",
+        "Title": "Lady Rose Just Wants to Be a Commoner! Volume 5",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-12-13",
+        "Order": 105
+      }
+    ],
+    "Author": "Kooriame",
+    "AuthorSort": "KOORIAME"
   },
   {
     "Name": "Lazy Dungeon Master",
@@ -8204,6 +10556,205 @@
     "AuthorSort": "KAMONO, UDON"
   },
   {
+    "Name": "Mapping: The Trash-Tier Skill That Got Me Into a Top-Tier Party (Manga)",
+    "InternalName": "mapping-the-trash-tier-skill-that-got-me-into-a-top-tier-party-manga",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "mapping-the-trash-tier-skill-that-got-me-into-a-top-tier-party-manga"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "mapping-the-trash-tier-skill-that-got-me-into-a-top-tier-party-manga-volume-1",
+        "FileName": "mapping-the-trash-tier-skill-that-got-me-into-a-top-tier-party-manga-volume-1.epub",
+        "Title": "Mapping: The Trash-Tier Skill That Got Me Into a Top-Tier Party (Manga) Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-12-01",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "mapping-the-trash-tier-skill-that-got-me-into-a-top-tier-party-manga-volume-2",
+        "FileName": "mapping-the-trash-tier-skill-that-got-me-into-a-top-tier-party-manga-volume-2.epub",
+        "Title": "Mapping: The Trash-Tier Skill That Got Me Into a Top-Tier Party (Manga) Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-03-02",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "mapping-the-trash-tier-skill-that-got-me-into-a-top-tier-party-manga-volume-3",
+        "FileName": "mapping-the-trash-tier-skill-that-got-me-into-a-top-tier-party-manga-volume-3.epub",
+        "Title": "Mapping: The Trash-Tier Skill That Got Me Into a Top-Tier Party (Manga) Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-12-28",
+        "Order": 103
+      }
+    ],
+    "Author": "Udon Kamono",
+    "AuthorSort": "KAMONO, UDON"
+  },
+  {
+    "Name": "Marginal Operation",
+    "InternalName": "marginal-operation",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "marginal-operation"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "marginal-operation",
+        "FileName": "marginal-operation.epub",
+        "Title": "Marginal Operation Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2019-10-01",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "marginal-operation-volume-2",
+        "FileName": "marginal-operation-volume-2.epub",
+        "Title": "Marginal Operation Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-01-07",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "marginal-operation-volume-3",
+        "FileName": "marginal-operation-volume-3.epub",
+        "Title": "Marginal Operation Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-06-02",
+        "Order": 103
+      },
+      {
+        "ApiSlug": "marginal-operation-volume-4",
+        "FileName": "marginal-operation-volume-4.epub",
+        "Title": "Marginal Operation Volume 4",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-06-30",
+        "Order": 104
+      },
+      {
+        "ApiSlug": "marginal-operation-volume-5",
+        "FileName": "marginal-operation-volume-5.epub",
+        "Title": "Marginal Operation Volume 5",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-10-06",
+        "Order": 105
+      },
+      {
+        "ApiSlug": "marginal-operation-volume-6",
+        "FileName": "marginal-operation-volume-6.epub",
+        "Title": "Marginal Operation Volume 6",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-01-05",
+        "Order": 106
+      },
+      {
+        "ApiSlug": "marginal-operation-volume-7",
+        "FileName": "marginal-operation-volume-7.epub",
+        "Title": "Marginal Operation Volume 7",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-06-02",
+        "Order": 107
+      },
+      {
+        "ApiSlug": "marginal-operation-volume-8",
+        "FileName": "marginal-operation-volume-8.epub",
+        "Title": "Marginal Operation Volume 8",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-08-03",
+        "Order": 108
+      },
+      {
+        "ApiSlug": "marginal-operation-volume-9",
+        "FileName": "marginal-operation-volume-9.epub",
+        "Title": "Marginal Operation Volume 9",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-10-05",
+        "Order": 109
+      },
+      {
+        "ApiSlug": "marginal-operation-volume-10",
+        "FileName": "marginal-operation-volume-10.epub",
+        "Title": "Marginal Operation Volume 10",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-11-02",
+        "Order": 110
+      },
+      {
+        "ApiSlug": "marginal-operation-volume-11",
+        "FileName": "marginal-operation-volume-11.epub",
+        "Title": "Marginal Operation Volume 11",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-01-05",
+        "Order": 111
+      },
+      {
+        "ApiSlug": "marginal-operation-volume-12",
+        "FileName": "marginal-operation-volume-12.epub",
+        "Title": "Marginal Operation Volume 12",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-03-02",
+        "Order": 112
+      },
+      {
+        "ApiSlug": "marginal-operation-volume-13",
+        "FileName": "marginal-operation-volume-13.epub",
+        "Title": "Marginal Operation Volume 13",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-06-08",
+        "Order": 113
+      },
+      {
+        "ApiSlug": "marginal-operation-volume-14",
+        "FileName": "marginal-operation-volume-14.epub",
+        "Title": "Marginal Operation Volume 14",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-08-31",
+        "Order": 114
+      },
+      {
+        "ApiSlug": "marginal-operation-volume-15",
+        "FileName": "marginal-operation-volume-15.epub",
+        "Title": "Marginal Operation Volume 15",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-11-23",
+        "Order": 115
+      },
+      {
+        "ApiSlug": "marginal-operation-volume-16",
+        "FileName": "marginal-operation-volume-16.epub",
+        "Title": "Marginal Operation Volume 16",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-01-04",
+        "Order": 116
+      }
+    ],
+    "Author": "Yuri Shibamura",
+    "AuthorSort": "SHIBAMURA, YURI"
+  },
+  {
     "Name": "Me, a Genius? I Was Reborn into Another World and I Think They've Got the Wrong Idea!",
     "InternalName": "me-a-genius-i-was-reborn-into-another-world-and-i-think-they-ve-got-the-wrong-idea",
     "ApiSlugs": [
@@ -8447,6 +10998,47 @@
     ],
     "Author": "Nagaharu Hibihana",
     "AuthorSort": "HIBIHANA, NAGAHARU"
+  },
+  {
+    "Name": "Monster and Parent",
+    "InternalName": "monster-and-parent",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "monster-and-parent"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "monster-and-parent-volume-1",
+        "FileName": "monster-and-parent-volume-1.epub",
+        "Title": "Monster and Parent Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-08-02",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "monster-and-parent-volume-2",
+        "FileName": "monster-and-parent-volume-2.epub",
+        "Title": "Monster and Parent Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-10-25",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "monster-and-parent-volume-3",
+        "FileName": "monster-and-parent-volume-3.epub",
+        "Title": "Monster and Parent Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2024-01-17",
+        "Order": 103
+      }
+    ],
+    "Author": "Ichi Sayo",
+    "AuthorSort": "SAYO, ICHI"
   },
   {
     "Name": "Monster Tamer",
@@ -8820,6 +11412,38 @@
     "AuthorSort": "MOJIKAKIYA"
   },
   {
+    "Name": "My Daughter Left the Nest and Returned an S-Rank Adventurer (Manga)",
+    "InternalName": "my-daughter-left-the-nest-and-returned-an-s-rank-adventurer-manga",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "my-daughter-left-the-nest-and-returned-an-s-rank-adventurer-manga"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "my-daughter-left-the-nest-and-returned-an-s-rank-adventurer-manga-volume-1",
+        "FileName": "my-daughter-left-the-nest-and-returned-an-s-rank-adventurer-manga-volume-1.epub",
+        "Title": "My Daughter Left the Nest and Returned an S-Rank Adventurer (Manga) Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-09-06",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "my-daughter-left-the-nest-and-returned-an-s-rank-adventurer-manga-volume-2",
+        "FileName": "my-daughter-left-the-nest-and-returned-an-s-rank-adventurer-manga-volume-2.epub",
+        "Title": "My Daughter Left the Nest and Returned an S-Rank Adventurer (Manga) Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-11-29",
+        "Order": 102
+      }
+    ],
+    "Author": "MOJIKAKIYA, toi8",
+    "AuthorSort": "TOI8, MOJIKAKIYA,"
+  },
+  {
     "Name": "My Friend's Little Sister Has It In for Me!",
     "InternalName": "my-friend-s-little-sister-has-it-in-for-me",
     "ApiSlugs": [
@@ -9058,6 +11682,92 @@
         "ShowRemainingFiles": true,
         "Published": "2023-12-15",
         "Order": 114
+      }
+    ],
+    "Author": "Tsuyoshi Fujitaka",
+    "AuthorSort": "FUJITAKA, TSUYOSHI"
+  },
+  {
+    "Name": "My Instant Death Ability Is So Overpowered, No One in This Other World Stands a Chance Against Me! —AΩ—",
+    "InternalName": "my-instant-death-ability-is-so-overpowered-no-one-in-this-other-world-stands-a-chance-against-me-manga",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "my-instant-death-ability-is-so-overpowered-no-one-in-this-other-world-stands-a-chance-against-me-manga"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "my-instant-death-ability-is-so-overpowered-no-one-in-this-other-world-stands-a-chance-against-me-manga-volume-1",
+        "FileName": "my-instant-death-ability-is-so-overpowered-no-one-in-this-other-world-stands-a-chance-against-me-manga-volume-1.epub",
+        "Title": "My Instant Death Ability Is So Overpowered, No One in This Other World Stands a Chance Against Me! —AΩ— Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-09-29",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "my-instant-death-ability-is-so-overpowered-no-one-in-this-other-world-stands-a-chance-against-me-a-volume-2",
+        "FileName": "my-instant-death-ability-is-so-overpowered-no-one-in-this-other-world-stands-a-chance-against-me-a-volume-2.epub",
+        "Title": "My Instant Death Ability Is So Overpowered, No One in This Other World Stands a Chance Against Me! —AΩ— Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-11-17",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "my-instant-death-ability-is-so-overpowered-no-one-in-this-other-world-stands-a-chance-against-me-a-volume-3",
+        "FileName": "my-instant-death-ability-is-so-overpowered-no-one-in-this-other-world-stands-a-chance-against-me-a-volume-3.epub",
+        "Title": "My Instant Death Ability Is So Overpowered, No One in This Other World Stands a Chance Against Me! —AΩ— Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-02-09",
+        "Order": 103
+      },
+      {
+        "ApiSlug": "my-instant-death-ability-is-so-overpowered-no-one-in-this-other-world-stands-a-chance-against-me-a-volume-4",
+        "FileName": "my-instant-death-ability-is-so-overpowered-no-one-in-this-other-world-stands-a-chance-against-me-a-volume-4.epub",
+        "Title": "My Instant Death Ability Is So Overpowered, No One in This Other World Stands a Chance Against Me! —AΩ— Volume 4",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-06-01",
+        "Order": 104
+      },
+      {
+        "ApiSlug": "my-instant-death-ability-is-so-overpowered-no-one-in-this-other-world-stands-a-chance-against-me-a-volume-5",
+        "FileName": "my-instant-death-ability-is-so-overpowered-no-one-in-this-other-world-stands-a-chance-against-me-a-volume-5.epub",
+        "Title": "My Instant Death Ability Is So Overpowered, No One in This Other World Stands a Chance Against Me! —AΩ— Volume 5",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-08-03",
+        "Order": 105
+      },
+      {
+        "ApiSlug": "my-instant-death-ability-is-so-overpowered-no-one-in-this-other-world-stands-a-chance-against-me-a-volume-6",
+        "FileName": "my-instant-death-ability-is-so-overpowered-no-one-in-this-other-world-stands-a-chance-against-me-a-volume-6.epub",
+        "Title": "My Instant Death Ability Is So Overpowered, No One in This Other World Stands a Chance Against Me! —AΩ— Volume 6",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-12-01",
+        "Order": 106
+      },
+      {
+        "ApiSlug": "my-instant-death-ability-is-so-overpowered-no-one-in-this-other-world-stands-a-chance-against-me-a-volume-7",
+        "FileName": "my-instant-death-ability-is-so-overpowered-no-one-in-this-other-world-stands-a-chance-against-me-a-volume-7.epub",
+        "Title": "My Instant Death Ability Is So Overpowered, No One in This Other World Stands a Chance Against Me! —AΩ— Volume 7",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-02-24",
+        "Order": 107
+      },
+      {
+        "ApiSlug": "my-instant-death-ability-is-so-overpowered-no-one-in-this-other-world-stands-a-chance-against-me-a-volume-8",
+        "FileName": "my-instant-death-ability-is-so-overpowered-no-one-in-this-other-world-stands-a-chance-against-me-a-volume-8.epub",
+        "Title": "My Instant Death Ability Is So Overpowered, No One in This Other World Stands a Chance Against Me! —AΩ— Volume 8",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-12-27",
+        "Order": 108
       }
     ],
     "Author": "Tsuyoshi Fujitaka",
@@ -9535,6 +12245,47 @@
     "AuthorSort": "RYUYU"
   },
   {
+    "Name": "Now I'm a Demon Lord! Happily Ever After with Monster Girls in My Dungeon (Manga)",
+    "InternalName": "now-i-m-a-demon-lord-happily-ever-after-with-monster-girls-in-my-dungeon-manga",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "now-i-m-a-demon-lord-happily-ever-after-with-monster-girls-in-my-dungeon-manga"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "now-i-m-a-demon-lord-happily-ever-after-with-monster-girls-in-my-dungeon-manga-volume-1",
+        "FileName": "now-i-m-a-demon-lord-happily-ever-after-with-monster-girls-in-my-dungeon-manga-volume-1.epub",
+        "Title": "Now I'm a Demon Lord! Happily Ever After with Monster Girls in My Dungeon (Manga) Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-05-10",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "now-i-m-a-demon-lord-happily-ever-after-with-monster-girls-in-my-dungeon-manga-volume-2",
+        "FileName": "now-i-m-a-demon-lord-happily-ever-after-with-monster-girls-in-my-dungeon-manga-volume-2.epub",
+        "Title": "Now I'm a Demon Lord! Happily Ever After with Monster Girls in My Dungeon (Manga) Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-08-23",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "now-i-m-a-demon-lord-happily-ever-after-with-monster-girls-in-my-dungeon-manga-volume-3",
+        "FileName": "now-i-m-a-demon-lord-happily-ever-after-with-monster-girls-in-my-dungeon-manga-volume-3.epub",
+        "Title": "Now I'm a Demon Lord! Happily Ever After with Monster Girls in My Dungeon (Manga) Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-12-13",
+        "Order": 103
+      }
+    ],
+    "Author": "Ryuyu",
+    "AuthorSort": "RYUYU"
+  },
+  {
     "Name": "Occultic;Nine",
     "InternalName": "occultic-nine",
     "ApiSlugs": [
@@ -9574,6 +12325,47 @@
     ],
     "Author": "Chiyomaru Shikura",
     "AuthorSort": "SHIKURA, CHIYOMARU"
+  },
+  {
+    "Name": "Only I Know That This World Is a Game",
+    "InternalName": "only-i-know-that-this-world-is-a-game",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "only-i-know-that-this-world-is-a-game"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "only-i-know-that-this-world-is-a-game-volume-1",
+        "FileName": "only-i-know-that-this-world-is-a-game-volume-1.epub",
+        "Title": "Only I Know That This World Is a Game: Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-08-02",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "only-i-know-that-this-world-is-a-game-volume-2",
+        "FileName": "only-i-know-that-this-world-is-a-game-volume-2.epub",
+        "Title": "Only I Know That This World Is a Game: Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-10-18",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "only-i-know-that-this-world-is-a-game-volume-3",
+        "FileName": "only-i-know-that-this-world-is-a-game-volume-3.epub",
+        "Title": "Only I Know That This World Is a Game: Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2024-01-17",
+        "Order": 103
+      }
+    ],
+    "Author": "Usber",
+    "AuthorSort": "USBER"
   },
   {
     "Name": "Only the Villainous Lord Wields the Power to Level Up",
@@ -9993,6 +12785,65 @@
     "AuthorSort": "SAITOSA"
   },
   {
+    "Name": "Oversummoned, Overpowered, and Over It! (Manga)",
+    "InternalName": "oversummoned-overpowered-and-over-it-manga",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "oversummoned-overpowered-and-over-it-manga"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "oversummoned-overpowered-and-over-it-manga-volume-1",
+        "FileName": "oversummoned-overpowered-and-over-it-manga-volume-1.epub",
+        "Title": "Oversummoned, Overpowered, and Over It! (Manga) Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-08-10",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "oversummoned-overpowered-and-over-it-manga-volume-2",
+        "FileName": "oversummoned-overpowered-and-over-it-manga-volume-2.epub",
+        "Title": "Oversummoned, Overpowered, and Over It! (Manga) Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-09-21",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "oversummoned-overpowered-and-over-it-manga-volume-3",
+        "FileName": "oversummoned-overpowered-and-over-it-manga-volume-3.epub",
+        "Title": "Oversummoned, Overpowered, and Over It! (Manga) Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-12-14",
+        "Order": 103
+      },
+      {
+        "ApiSlug": "oversummoned-overpowered-and-over-it-manga-volume-4",
+        "FileName": "oversummoned-overpowered-and-over-it-manga-volume-4.epub",
+        "Title": "Oversummoned, Overpowered, and Over It! (Manga) Volume 4",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-03-01",
+        "Order": 104
+      },
+      {
+        "ApiSlug": "oversummoned-overpowered-and-over-it-manga-volume-5",
+        "FileName": "oversummoned-overpowered-and-over-it-manga-volume-5.epub",
+        "Title": "Oversummoned, Overpowered, and Over It! (Manga) Volume 5",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-12-06",
+        "Order": 105
+      }
+    ],
+    "Author": "Saitosa",
+    "AuthorSort": "SAITOSA"
+  },
+  {
     "Name": "Paying to Win in a VRMMO",
     "InternalName": "paying-to-win-in-a-vrmmo",
     "ApiSlugs": [
@@ -10059,6 +12910,56 @@
     ],
     "Author": "Blitz Kiva",
     "AuthorSort": "KIVA, BLITZ"
+  },
+  {
+    "Name": "Peddler in Another World: I Can Go Back to My World Whenever I Want (Manga)",
+    "InternalName": "peddler-in-another-world-i-can-go-back-to-my-world-whenever-i-want-manga",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "peddler-in-another-world-i-can-go-back-to-my-world-whenever-i-want-manga"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "peddler-in-another-world-i-can-go-back-to-my-world-whenever-i-want-manga-volume-1",
+        "FileName": "peddler-in-another-world-i-can-go-back-to-my-world-whenever-i-want-manga-volume-1.epub",
+        "Title": "Peddler in Another World: I Can Go Back to My World Whenever I Want (Manga) Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-03-08",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "peddler-in-another-world-i-can-go-back-to-my-world-whenever-i-want-manga-volume-2",
+        "FileName": "peddler-in-another-world-i-can-go-back-to-my-world-whenever-i-want-manga-volume-2.epub",
+        "Title": "Peddler in Another World: I Can Go Back to My World Whenever I Want (Manga) Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-08-09",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "peddler-in-another-world-i-can-go-back-to-my-world-whenever-i-want-manga-volume-3",
+        "FileName": "peddler-in-another-world-i-can-go-back-to-my-world-whenever-i-want-manga-volume-3.epub",
+        "Title": "Peddler in Another World: I Can Go Back to My World Whenever I Want (Manga) Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-10-11",
+        "Order": 103
+      },
+      {
+        "ApiSlug": "peddler-in-another-world-i-can-go-back-to-my-world-whenever-i-want-manga-volume-4",
+        "FileName": "peddler-in-another-world-i-can-go-back-to-my-world-whenever-i-want-manga-volume-4.epub",
+        "Title": "Peddler in Another World: I Can Go Back to My World Whenever I Want (Manga) Volume 4",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2024-01-31",
+        "Order": 104
+      }
+    ],
+    "Author": "Hiiro Shimotsuki, Shizuku Akechi",
+    "AuthorSort": "AKECHI, SHIZUKU, SHIMOTSUKI,, HIIRO"
   },
   {
     "Name": "Peddler in Another World: I Can Go Back to My World Whenever I Want!",
@@ -10550,6 +13451,56 @@
     "AuthorSort": "HAYAKEN"
   },
   {
+    "Name": "Reborn to Master the Blade: From Hero-King to Extraordinary Squire ♀ (Manga)",
+    "InternalName": "reborn-to-master-the-blade-from-hero-king-to-extraordinary-squire-manga",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "reborn-to-master-the-blade-from-hero-king-to-extraordinary-squire-manga"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "reborn-to-master-the-blade-from-hero-king-to-extraordinary-squire-manga-volume-1",
+        "FileName": "reborn-to-master-the-blade-from-hero-king-to-extraordinary-squire-manga-volume-1.epub",
+        "Title": "Reborn to Master the Blade: From Hero-King to Extraordinary Squire ♀ (Manga) Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-10-13",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "reborn-to-master-the-blade-from-hero-king-to-extraordinary-squire-manga-volume-2",
+        "FileName": "reborn-to-master-the-blade-from-hero-king-to-extraordinary-squire-manga-volume-2.epub",
+        "Title": "Reborn to Master the Blade: From Hero-King to Extraordinary Squire ♀ (Manga) Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-01-12",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "reborn-to-master-the-blade-from-hero-king-to-extraordinary-squire-manga-volume-3",
+        "FileName": "reborn-to-master-the-blade-from-hero-king-to-extraordinary-squire-manga-volume-3.epub",
+        "Title": "Reborn to Master the Blade: From Hero-King to Extraordinary Squire ♀ (Manga) Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-08-01",
+        "Order": 103
+      },
+      {
+        "ApiSlug": "reborn-to-master-the-blade-from-hero-king-to-extraordinary-squire-manga-volume-4",
+        "FileName": "reborn-to-master-the-blade-from-hero-king-to-extraordinary-squire-manga-volume-4.epub",
+        "Title": "Reborn to Master the Blade: From Hero-King to Extraordinary Squire ♀ (Manga) Volume 4",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-03-22",
+        "Order": 104
+      }
+    ],
+    "Author": "Hayaken",
+    "AuthorSort": "HAYAKEN"
+  },
+  {
     "Name": "Rebuild World",
     "InternalName": "rebuild-world",
     "ApiSlugs": [
@@ -10611,6 +13562,74 @@
         "EditedBy": null,
         "ShowRemainingFiles": true,
         "Published": "2024-01-19",
+        "Order": 106
+      }
+    ],
+    "Author": "Nahuse",
+    "AuthorSort": "NAHUSE"
+  },
+  {
+    "Name": "Rebuild World (Manga)",
+    "InternalName": "rebuild-world-manga",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "rebuild-world-manga"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "rebuild-world-manga-volume-1",
+        "FileName": "rebuild-world-manga-volume-1.epub",
+        "Title": "Rebuild World (Manga) Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-11-02",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "rebuild-world-manga-volume-2",
+        "FileName": "rebuild-world-manga-volume-2.epub",
+        "Title": "Rebuild World (Manga) Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-01-11",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "rebuild-world-manga-volume-3",
+        "FileName": "rebuild-world-manga-volume-3.epub",
+        "Title": "Rebuild World (Manga) Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-04-10",
+        "Order": 103
+      },
+      {
+        "ApiSlug": "rebuild-world-manga-volume-4",
+        "FileName": "rebuild-world-manga-volume-4.epub",
+        "Title": "Rebuild World (Manga) Volume 4",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-07-05",
+        "Order": 104
+      },
+      {
+        "ApiSlug": "rebuild-world-manga-volume-5",
+        "FileName": "rebuild-world-manga-volume-5.epub",
+        "Title": "Rebuild World (Manga) Volume 5",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-09-27",
+        "Order": 105
+      },
+      {
+        "ApiSlug": "rebuild-world-manga-volume-6",
+        "FileName": "rebuild-world-manga-volume-6.epub",
+        "Title": "Rebuild World (Manga) Volume 6",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-12-20",
         "Order": 106
       }
     ],
@@ -10828,6 +13847,101 @@
     ],
     "Author": "Ryota Hori",
     "AuthorSort": "HORI, RYOTA"
+  },
+  {
+    "Name": "Record of Wortenia War (Manga)",
+    "InternalName": "record-of-wortenia-war-manga",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "record-of-wortenia-war-manga"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "record-of-wortenia-war-manga-volume-1",
+        "FileName": "record-of-wortenia-war-manga-volume-1.epub",
+        "Title": "Record of Wortenia War (Manga) Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-12-01",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "record-of-wortenia-war-manga-volume-2",
+        "FileName": "record-of-wortenia-war-manga-volume-2.epub",
+        "Title": "Record of Wortenia War (Manga) Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-03-30",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "record-of-wortenia-war-manga-volume-3",
+        "FileName": "record-of-wortenia-war-manga-volume-3.epub",
+        "Title": "Record of Wortenia War (Manga) Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-08-10",
+        "Order": 103
+      },
+      {
+        "ApiSlug": "record-of-wortenia-war-manga-volume-4",
+        "FileName": "record-of-wortenia-war-manga-volume-4.epub",
+        "Title": "Record of Wortenia War (Manga) Volume 4",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-09-28",
+        "Order": 104
+      },
+      {
+        "ApiSlug": "record-of-wortenia-war-manga-volume-5",
+        "FileName": "record-of-wortenia-war-manga-volume-5.epub",
+        "Title": "Record of Wortenia War (Manga) Volume 5",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-11-02",
+        "Order": 105
+      },
+      {
+        "ApiSlug": "record-of-wortenia-war-manga-volume-6",
+        "FileName": "record-of-wortenia-war-manga-volume-6.epub",
+        "Title": "Record of Wortenia War (Manga) Volume 6",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-01-25",
+        "Order": 106
+      },
+      {
+        "ApiSlug": "record-of-wortenia-war-manga-volume-7",
+        "FileName": "record-of-wortenia-war-manga-volume-7.epub",
+        "Title": "Record of Wortenia War (Manga) Volume 7",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-04-13",
+        "Order": 107
+      },
+      {
+        "ApiSlug": "record-of-wortenia-war-manga-volume-8",
+        "FileName": "record-of-wortenia-war-manga-volume-8.epub",
+        "Title": "Record of Wortenia War (Manga) Volume 8",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-09-28",
+        "Order": 108
+      },
+      {
+        "ApiSlug": "record-of-wortenia-war-manga-volume-9",
+        "FileName": "record-of-wortenia-war-manga-volume-9.epub",
+        "Title": "Record of Wortenia War (Manga) Volume 9",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-03-15",
+        "Order": 109
+      }
+    ],
+    "Author": "Fumi Arawi",
+    "AuthorSort": "ARAWI, FUMI"
   },
   {
     "Name": "Redefining the META at VRMMO Academy",
@@ -11396,6 +14510,101 @@
     "AuthorSort": "KITAYAMA, YURI"
   },
   {
+    "Name": "Seirei Gensouki: Spirit Chronicles (Manga)",
+    "InternalName": "seirei-gensouki-spirit-chronicles-manga",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "seirei-gensouki-spirit-chronicles-manga"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "seirei-gensouki-spirit-chronicles-manga-volume-1",
+        "FileName": "seirei-gensouki-spirit-chronicles-manga-volume-1.epub",
+        "Title": "Seirei Gensouki: Spirit Chronicles (Manga) Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2019-06-01",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "seirei-gensouki-spirit-chronicles-manga-volume-2",
+        "FileName": "seirei-gensouki-spirit-chronicles-manga-volume-2.epub",
+        "Title": "Seirei Gensouki: Spirit Chronicles (Manga) Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2019-10-30",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "seirei-gensouki-spirit-chronicles-manga-volume-3",
+        "FileName": "seirei-gensouki-spirit-chronicles-manga-volume-3.epub",
+        "Title": "Seirei Gensouki: Spirit Chronicles (Manga) Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-02-11",
+        "Order": 103
+      },
+      {
+        "ApiSlug": "seirei-gensouki-spirit-chronicles-manga-volume-4",
+        "FileName": "seirei-gensouki-spirit-chronicles-manga-volume-4.epub",
+        "Title": "Seirei Gensouki: Spirit Chronicles (Manga) Volume 4",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-04-28",
+        "Order": 104
+      },
+      {
+        "ApiSlug": "seirei-gensouki-spirit-chronicles-manga-volume-5",
+        "FileName": "seirei-gensouki-spirit-chronicles-manga-volume-5.epub",
+        "Title": "Seirei Gensouki: Spirit Chronicles (Manga) Volume 5",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-01-05",
+        "Order": 105
+      },
+      {
+        "ApiSlug": "seirei-gensouki-spirit-chronicles-manga-volume-6",
+        "FileName": "seirei-gensouki-spirit-chronicles-manga-volume-6.epub",
+        "Title": "Seirei Gensouki: Spirit Chronicles (Manga) Volume 6",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-08-31",
+        "Order": 106
+      },
+      {
+        "ApiSlug": "seirei-gensouki-spirit-chronicles-manga-volume-7",
+        "FileName": "seirei-gensouki-spirit-chronicles-manga-volume-7.epub",
+        "Title": "Seirei Gensouki: Spirit Chronicles (Manga) Volume 7",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-02-08",
+        "Order": 107
+      },
+      {
+        "ApiSlug": "seirei-gensouki-spirit-chronicles-manga-volume-8",
+        "FileName": "seirei-gensouki-spirit-chronicles-manga-volume-8.epub",
+        "Title": "Seirei Gensouki: Spirit Chronicles (Manga) Volume 8",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-08-09",
+        "Order": 108
+      },
+      {
+        "ApiSlug": "seirei-gensouki-spirit-chronicles-manga-volume-9",
+        "FileName": "seirei-gensouki-spirit-chronicles-manga-volume-9.epub",
+        "Title": "Seirei Gensouki: Spirit Chronicles (Manga) Volume 9",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-07-26",
+        "Order": 109
+      }
+    ],
+    "Author": "Yuri Kitayama",
+    "AuthorSort": "KITAYAMA, YURI"
+  },
+  {
     "Name": "Seventh",
     "InternalName": "seventh",
     "ApiSlugs": [
@@ -11695,6 +14904,115 @@
     "AuthorSort": "KANZAKA, HAJIME"
   },
   {
+    "Name": "Sometimes Even Reality Is a Lie!",
+    "InternalName": "sometimes-even-reality-is-a-lie",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "sometimes-even-reality-is-a-lie"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "sometimes-even-reality-is-a-lie-volume-1",
+        "FileName": "sometimes-even-reality-is-a-lie-volume-1.epub",
+        "Title": "Sometimes Even Reality Is a Lie! Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-06-22",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "sometimes-even-reality-is-a-lie-volume-2",
+        "FileName": "sometimes-even-reality-is-a-lie-volume-2.epub",
+        "Title": "Sometimes Even Reality Is a Lie! Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-09-01",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "sometimes-even-reality-is-a-lie-volume-3",
+        "FileName": "sometimes-even-reality-is-a-lie-volume-3.epub",
+        "Title": "Sometimes Even Reality Is a Lie! Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-06-21",
+        "Order": 103
+      }
+    ],
+    "Author": "Niichi",
+    "AuthorSort": "NIICHI"
+  },
+  {
+    "Name": "Sorcerous Stabber Orphen: The Reckless Journey",
+    "InternalName": "sorcerous-stabber-orphen-the-reckless-journey",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "sorcerous-stabber-orphen-the-reckless-journey"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "sorcerous-stabber-orphen-the-reckless-journey-vol-1",
+        "FileName": "sorcerous-stabber-orphen-the-reckless-journey-vol-1.epub",
+        "Title": "Sorcerous Stabber Orphen: The Reckless Journey Vol 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-04-28",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "sorcerous-stabber-orphen-the-reckless-journey-vol-2",
+        "FileName": "sorcerous-stabber-orphen-the-reckless-journey-vol-2.epub",
+        "Title": "Sorcerous Stabber Orphen: The Reckless Journey Vol 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-06-24",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "sorcerous-stabber-orphen-the-reckless-journey-vol-3",
+        "FileName": "sorcerous-stabber-orphen-the-reckless-journey-vol-3.epub",
+        "Title": "Sorcerous Stabber Orphen: The Reckless Journey Vol 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-03-03",
+        "Order": 103
+      },
+      {
+        "ApiSlug": "sorcerous-stabber-orphen-the-reckless-journey-vol-4",
+        "FileName": "sorcerous-stabber-orphen-the-reckless-journey-vol-4.epub",
+        "Title": "Sorcerous Stabber Orphen: The Reckless Journey Vol 4",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-07-07",
+        "Order": 104
+      },
+      {
+        "ApiSlug": "sorcerous-stabber-orphen-the-reckless-journey-vol-5",
+        "FileName": "sorcerous-stabber-orphen-the-reckless-journey-vol-5.epub",
+        "Title": "Sorcerous Stabber Orphen: The Reckless Journey Vol 5",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-01-05",
+        "Order": 105
+      },
+      {
+        "ApiSlug": "sorcerous-stabber-orphen-the-reckless-journey-vol-6",
+        "FileName": "sorcerous-stabber-orphen-the-reckless-journey-vol-6.epub",
+        "Title": "Sorcerous Stabber Orphen: The Reckless Journey Vol 6",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-03-16",
+        "Order": 106
+      }
+    ],
+    "Author": "Yoshinobu Akita",
+    "AuthorSort": "AKITA, YOSHINOBU"
+  },
+  {
     "Name": "Sorcerous Stabber Orphen: The Wayward Journey",
     "InternalName": "sorcerous-stabber-orphen",
     "ApiSlugs": [
@@ -11889,6 +15207,38 @@
     "AuthorSort": "AKITA, YOSHINOBU"
   },
   {
+    "Name": "Sorcerous Stabber Orphen: The Youthful Journey",
+    "InternalName": "sourcerous-stabber-orphen-the-youthful-journey",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "sourcerous-stabber-orphen-the-youthful-journey"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "sorcerous-stabber-orphen-the-youthful-journey-vol-1",
+        "FileName": "sorcerous-stabber-orphen-the-youthful-journey-vol-1.epub",
+        "Title": "Sorcerous Stabber Orphen: The Youthful Journey Vol 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-10-06",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "sorcerous-stabber-orphen-the-youthful-journey-vol-2",
+        "FileName": "sorcerous-stabber-orphen-the-youthful-journey-vol-2.epub",
+        "Title": "Sorcerous Stabber Orphen: The Youthful Journey Vol 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-01-05",
+        "Order": 102
+      }
+    ],
+    "Author": "Kirouran",
+    "AuthorSort": "KIROURAN"
+  },
+  {
     "Name": "Strongest Gamer: Let’s Play in Another World",
     "InternalName": "strongest-gamer-let-s-play-in-another-world",
     "ApiSlugs": [
@@ -11983,6 +15333,101 @@
     ],
     "Author": "Wanta",
     "AuthorSort": "WANTA"
+  },
+  {
+    "Name": "Sweet Reincarnation",
+    "InternalName": "sweet-reincarnation",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "sweet-reincarnation"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "sweet-reincarnation",
+        "FileName": "sweet-reincarnation.epub",
+        "Title": "Sweet Reincarnation Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2019-11-26",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "sweet-reincarnation-volume-2",
+        "FileName": "sweet-reincarnation-volume-2.epub",
+        "Title": "Sweet Reincarnation Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-05-05",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "sweet-reincarnation-volume-3",
+        "FileName": "sweet-reincarnation-volume-3.epub",
+        "Title": "Sweet Reincarnation Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-09-15",
+        "Order": 103
+      },
+      {
+        "ApiSlug": "sweet-reincarnation-volume-4",
+        "FileName": "sweet-reincarnation-volume-4.epub",
+        "Title": "Sweet Reincarnation Volume 4",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-07-27",
+        "Order": 104
+      },
+      {
+        "ApiSlug": "sweet-reincarnation-volume-5",
+        "FileName": "sweet-reincarnation-volume-5.epub",
+        "Title": "Sweet Reincarnation Volume 5",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-09-07",
+        "Order": 105
+      },
+      {
+        "ApiSlug": "sweet-reincarnation-volume-6",
+        "FileName": "sweet-reincarnation-volume-6.epub",
+        "Title": "Sweet Reincarnation Volume 6",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-01-25",
+        "Order": 106
+      },
+      {
+        "ApiSlug": "sweet-reincarnation-volume-7",
+        "FileName": "sweet-reincarnation-volume-7.epub",
+        "Title": "Sweet Reincarnation Volume 7",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-10-05",
+        "Order": 107
+      },
+      {
+        "ApiSlug": "sweet-reincarnation-volume-8",
+        "FileName": "sweet-reincarnation-volume-8.epub",
+        "Title": "Sweet Reincarnation Volume 8",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-10-11",
+        "Order": 108
+      },
+      {
+        "ApiSlug": "sweet-reincarnation-volume-9",
+        "FileName": "sweet-reincarnation-volume-9.epub",
+        "Title": "Sweet Reincarnation Volume 9",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2024-01-03",
+        "Order": 109
+      }
+    ],
+    "Author": "Tomizawa Midori",
+    "AuthorSort": "MIDORI, TOMIZAWA"
   },
   {
     "Name": "Taking My Reincarnation One Step at a Time: No One Told Me There Would Be Monsters!",
@@ -12133,6 +15578,65 @@
         "ShowRemainingFiles": true,
         "Published": "2024-01-05",
         "Order": 111
+      }
+    ],
+    "Author": "Nozomu Mochitsuki",
+    "AuthorSort": "MOCHITSUKI, NOZOMU"
+  },
+  {
+    "Name": "Tearmoon Empire (Manga)",
+    "InternalName": "tearmoon-empire-manga",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "tearmoon-empire-manga"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "tearmoon-empire-manga-volume-1",
+        "FileName": "tearmoon-empire-manga-volume-1.epub",
+        "Title": "Tearmoon Empire (Manga) Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-08-24",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "tearmoon-empire-manga-volume-2",
+        "FileName": "tearmoon-empire-manga-volume-2.epub",
+        "Title": "Tearmoon Empire (Manga) Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-10-05",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "tearmoon-empire-manga-volume-3",
+        "FileName": "tearmoon-empire-manga-volume-3.epub",
+        "Title": "Tearmoon Empire (Manga) Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-12-28",
+        "Order": 103
+      },
+      {
+        "ApiSlug": "tearmoon-empire-manga-volume-4",
+        "FileName": "tearmoon-empire-manga-volume-4.epub",
+        "Title": "Tearmoon Empire (Manga) Volume 4",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-03-08",
+        "Order": 104
+      },
+      {
+        "ApiSlug": "tearmoon-empire-manga-volume-5",
+        "FileName": "tearmoon-empire-manga-volume-5.epub",
+        "Title": "Tearmoon Empire (Manga) Volume 5",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-11-22",
+        "Order": 105
       }
     ],
     "Author": "Nozomu Mochitsuki",
@@ -12552,6 +16056,79 @@
     "AuthorSort": "FUDEORCA"
   },
   {
+    "Name": "The Conqueror from a Dying Kingdom (Manga)",
+    "InternalName": "the-conqueror-from-a-dying-kingdom-manga",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "the-conqueror-from-a-dying-kingdom-manga"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "the-conqueror-from-a-dying-kingdom-manga-volume-1",
+        "FileName": "the-conqueror-from-a-dying-kingdom-manga-volume-1.epub",
+        "Title": "The Conqueror from a Dying Kingdom (Manga) Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-09-06",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "the-conqueror-from-a-dying-kingdom-manga-volume-2",
+        "FileName": "the-conqueror-from-a-dying-kingdom-manga-volume-2.epub",
+        "Title": "The Conqueror from a Dying Kingdom (Manga) Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-12-13",
+        "Order": 102
+      }
+    ],
+    "Author": "Fudeorca",
+    "AuthorSort": "FUDEORCA"
+  },
+  {
+    "Name": "The Coppersmith's Bride",
+    "InternalName": "the-coppersmith-s-bride",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "the-coppersmith-s-bride"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "the-coppersmith-s-bride-volume-1",
+        "FileName": "the-coppersmith-s-bride-volume-1.epub",
+        "Title": "The Coppersmith's Bride: Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-01-04",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "the-coppersmith-s-bride-volume-2",
+        "FileName": "the-coppersmith-s-bride-volume-2.epub",
+        "Title": "The Coppersmith's Bride: Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-04-19",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "the-coppersmith-s-bride-volume-3",
+        "FileName": "the-coppersmith-s-bride-volume-3.epub",
+        "Title": "The Coppersmith's Bride: Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-10-18",
+        "Order": 103
+      }
+    ],
+    "Author": "namo",
+    "AuthorSort": "NAMO"
+  },
+  {
     "Name": "The Economics of Prophecy",
     "InternalName": "the-economics-of-prophecy",
     "ApiSlugs": [
@@ -12627,6 +16204,56 @@
         "EditedBy": null,
         "ShowRemainingFiles": true,
         "Published": "2022-04-07",
+        "Order": 104
+      }
+    ],
+    "Author": "Kanata Satsuki",
+    "AuthorSort": "SATSUKI, KANATA"
+  },
+  {
+    "Name": "The Emperor's Lady-in-Waiting Is Wanted as a Bride (Manga)",
+    "InternalName": "the-emperor-s-lady-in-waiting-is-wanted-as-a-bride-manga",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "the-emperor-s-lady-in-waiting-is-wanted-as-a-bride-manga"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "the-emperor-s-lady-in-waiting-is-wanted-as-a-bride-manga-volume-1",
+        "FileName": "the-emperor-s-lady-in-waiting-is-wanted-as-a-bride-manga-volume-1.epub",
+        "Title": "The Emperor's Lady-in-Waiting Is Wanted as a Bride (Manga) Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-09-21",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "the-emperor-s-lady-in-waiting-is-wanted-as-a-bride-manga-volume-2",
+        "FileName": "the-emperor-s-lady-in-waiting-is-wanted-as-a-bride-manga-volume-2.epub",
+        "Title": "The Emperor's Lady-in-Waiting Is Wanted as a Bride (Manga) Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-12-07",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "the-emperor-s-lady-in-waiting-is-wanted-as-a-bride-manga-volume-3",
+        "FileName": "the-emperor-s-lady-in-waiting-is-wanted-as-a-bride-manga-volume-3.epub",
+        "Title": "The Emperor's Lady-in-Waiting Is Wanted as a Bride (Manga) Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-03-01",
+        "Order": 103
+      },
+      {
+        "ApiSlug": "the-emperor-s-lady-in-waiting-is-wanted-as-a-bride-manga-volume-4",
+        "FileName": "the-emperor-s-lady-in-waiting-is-wanted-as-a-bride-manga-volume-4.epub",
+        "Title": "The Emperor's Lady-in-Waiting Is Wanted as a Bride (Manga) Volume 4",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-07-26",
         "Order": 104
       }
     ],
@@ -12791,6 +16418,151 @@
     ],
     "Author": "Kanata Yanagino",
     "AuthorSort": "YANAGINO, KANATA"
+  },
+  {
+    "Name": "The Faraway Paladin (Manga)",
+    "InternalName": "the-faraway-paladin-manga",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "the-faraway-paladin-manga"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "the-faraway-paladin-manga",
+        "FileName": "the-faraway-paladin-manga.epub",
+        "Title": "The Faraway Paladin (Manga) Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2019-11-26",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "the-faraway-paladin-manga-volume-2",
+        "FileName": "the-faraway-paladin-manga-volume-2.epub",
+        "Title": "The Faraway Paladin (Manga) Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-02-04",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "the-faraway-paladin-manga-volume-3",
+        "FileName": "the-faraway-paladin-manga-volume-3.epub",
+        "Title": "The Faraway Paladin (Manga) Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-05-05",
+        "Order": 103
+      },
+      {
+        "ApiSlug": "the-faraway-paladin-manga-volume-4",
+        "FileName": "the-faraway-paladin-manga-volume-4.epub",
+        "Title": "The Faraway Paladin (Manga) Volume 4",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-01-26",
+        "Order": 104
+      },
+      {
+        "ApiSlug": "the-faraway-paladin-manga-volume-5",
+        "FileName": "the-faraway-paladin-manga-volume-5.epub",
+        "Title": "The Faraway Paladin (Manga) Volume 5",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-07-27",
+        "Order": 105
+      },
+      {
+        "ApiSlug": "the-faraway-paladin-manga-volume-6",
+        "FileName": "the-faraway-paladin-manga-volume-6.epub",
+        "Title": "The Faraway Paladin (Manga) Volume 6",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-08-31",
+        "Order": 106
+      },
+      {
+        "ApiSlug": "the-faraway-paladin-manga-volume-7",
+        "FileName": "the-faraway-paladin-manga-volume-7.epub",
+        "Title": "The Faraway Paladin (Manga) Volume 7",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-12-14",
+        "Order": 107
+      },
+      {
+        "ApiSlug": "the-faraway-paladin-manga-volume-8",
+        "FileName": "the-faraway-paladin-manga-volume-8.epub",
+        "Title": "The Faraway Paladin (Manga) Volume 8",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-03-15",
+        "Order": 108
+      },
+      {
+        "ApiSlug": "the-faraway-paladin-manga-volume-9",
+        "FileName": "the-faraway-paladin-manga-volume-9.epub",
+        "Title": "The Faraway Paladin (Manga) Volume 9",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-02-08",
+        "Order": 109
+      },
+      {
+        "ApiSlug": "the-faraway-paladin-manga-volume-10",
+        "FileName": "the-faraway-paladin-manga-volume-10.epub",
+        "Title": "The Faraway Paladin (Manga) Volume 10",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-08-16",
+        "Order": 110
+      },
+      {
+        "ApiSlug": "the-faraway-paladin-manga-volume-11",
+        "FileName": "the-faraway-paladin-manga-volume-11.epub",
+        "Title": "The Faraway Paladin (Manga) Volume 11",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-12-20",
+        "Order": 111
+      }
+    ],
+    "Author": "Kanata Yanagino",
+    "AuthorSort": "YANAGINO, KANATA"
+  },
+  {
+    "Name": "The Frontier Lord Begins with Zero Subjects: Tales of Blue Dias and the Onikin Alna",
+    "InternalName": "the-frontier-lord-begins-with-zero-subjects-tales-of-blue-dias-and-the-beastkin-alna",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "the-frontier-lord-begins-with-zero-subjects-tales-of-blue-dias-and-the-beastkin-alna"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "the-frontier-lord-begins-with-zero-subjects-tales-of-blue-dias-and-the-beastkin-alna-volume-1",
+        "FileName": "the-frontier-lord-begins-with-zero-subjects-tales-of-blue-dias-and-the-beastkin-alna-volume-1.epub",
+        "Title": "The Frontier Lord Begins with Zero Subjects: Tales of Blue Dias and the Onikin Alna: Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-09-13",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "the-frontier-lord-begins-with-zero-subjects-tales-of-blue-dias-and-the-onikin-alna-volume-2",
+        "FileName": "the-frontier-lord-begins-with-zero-subjects-tales-of-blue-dias-and-the-onikin-alna-volume-2.epub",
+        "Title": "The Frontier Lord Begins with Zero Subjects: Tales of Blue Dias and the Onikin Alna: Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-11-29",
+        "Order": 102
+      }
+    ],
+    "Author": "Fuurou, Kinta",
+    "AuthorSort": "KINTA, FUUROU,"
   },
   {
     "Name": "The Game Master Has Logged In to Another World",
@@ -13472,6 +17244,110 @@
     "AuthorSort": "HITSUJI, GAMEI"
   },
   {
+    "Name": "The Magic in this Other World is Too Far Behind! (Manga)",
+    "InternalName": "the-magic-in-this-other-world-is-too-far-behind-manga",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "the-magic-in-this-other-world-is-too-far-behind-manga"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "the-magic-in-this-other-world-is-too-far-behind-manga-volume-1",
+        "FileName": "the-magic-in-this-other-world-is-too-far-behind-manga-volume-1.epub",
+        "Title": "The Magic in this Other World is Too Far Behind! (Manga) Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2019-06-01",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "the-magic-in-this-other-world-is-too-far-behind-manga-volume-2",
+        "FileName": "the-magic-in-this-other-world-is-too-far-behind-manga-volume-2.epub",
+        "Title": "The Magic in this Other World is Too Far Behind! (Manga) Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2019-10-30",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "the-magic-in-this-other-world-is-too-far-behind-manga-volume-3",
+        "FileName": "the-magic-in-this-other-world-is-too-far-behind-manga-volume-3.epub",
+        "Title": "The Magic in this Other World is Too Far Behind! (Manga) Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-01-08",
+        "Order": 103
+      },
+      {
+        "ApiSlug": "the-magic-in-this-other-world-is-too-far-behind-manga-volume-4",
+        "FileName": "the-magic-in-this-other-world-is-too-far-behind-manga-volume-4.epub",
+        "Title": "The Magic in this Other World is Too Far Behind! (Manga) Volume 4",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-04-01",
+        "Order": 104
+      },
+      {
+        "ApiSlug": "the-magic-in-this-other-world-is-too-far-behind-manga-volume-5",
+        "FileName": "the-magic-in-this-other-world-is-too-far-behind-manga-volume-5.epub",
+        "Title": "The Magic in this Other World is Too Far Behind! (Manga) Volume 5",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-07-08",
+        "Order": 105
+      },
+      {
+        "ApiSlug": "the-magic-in-this-other-world-is-too-far-behind-manga-volume-6",
+        "FileName": "the-magic-in-this-other-world-is-too-far-behind-manga-volume-6.epub",
+        "Title": "The Magic in this Other World is Too Far Behind! (Manga) Volume 6",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-10-28",
+        "Order": 106
+      },
+      {
+        "ApiSlug": "the-magic-in-this-other-world-is-too-far-behind-manga-volume-7",
+        "FileName": "the-magic-in-this-other-world-is-too-far-behind-manga-volume-7.epub",
+        "Title": "The Magic in this Other World is Too Far Behind! (Manga) Volume 7",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-08-04",
+        "Order": 107
+      },
+      {
+        "ApiSlug": "the-magic-in-this-other-world-is-too-far-behind-manga-volume-8",
+        "FileName": "the-magic-in-this-other-world-is-too-far-behind-manga-volume-8.epub",
+        "Title": "The Magic in this Other World is Too Far Behind! (Manga) Volume 8",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-12-29",
+        "Order": 108
+      },
+      {
+        "ApiSlug": "the-magic-in-this-other-world-is-too-far-behind-manga-volume-9",
+        "FileName": "the-magic-in-this-other-world-is-too-far-behind-manga-volume-9.epub",
+        "Title": "The Magic in this Other World is Too Far Behind! (Manga) Volume 9",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-10-20",
+        "Order": 109
+      },
+      {
+        "ApiSlug": "the-magic-in-this-other-world-is-too-far-behind-manga-volume-10",
+        "FileName": "the-magic-in-this-other-world-is-too-far-behind-manga-volume-10.epub",
+        "Title": "The Magic in this Other World is Too Far Behind! (Manga) Volume 10",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-12-13",
+        "Order": 110
+      }
+    ],
+    "Author": "Gamei Hitsuji",
+    "AuthorSort": "HITSUJI, GAMEI"
+  },
+  {
     "Name": "The Magician Who Rose From Failure",
     "InternalName": "the-magician-who-rose-from-failure",
     "ApiSlugs": [
@@ -13534,6 +17410,38 @@
         "ShowRemainingFiles": true,
         "Published": "2023-12-12",
         "Order": 106
+      }
+    ],
+    "Author": "Gamei Hitsuji",
+    "AuthorSort": "HITSUJI, GAMEI"
+  },
+  {
+    "Name": "The Magician Who Rose From Failure (Manga)",
+    "InternalName": "the-magician-who-rose-from-failure-manga",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "the-magician-who-rose-from-failure-manga"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "the-magician-who-rose-from-failure-manga-volume-1",
+        "FileName": "the-magician-who-rose-from-failure-manga-volume-1.epub",
+        "Title": "The Magician Who Rose From Failure (Manga) Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-08-09",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "the-magician-who-rose-from-failure-manga-volume-2",
+        "FileName": "the-magician-who-rose-from-failure-manga-volume-2.epub",
+        "Title": "The Magician Who Rose From Failure (Manga) Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-11-29",
+        "Order": 102
       }
     ],
     "Author": "Gamei Hitsuji",
@@ -13764,6 +17672,83 @@
         "ShowRemainingFiles": true,
         "Published": "2023-09-14",
         "Order": 124
+      }
+    ],
+    "Author": "Seiichi Takayama",
+    "AuthorSort": "TAKAYAMA, SEIICHI"
+  },
+  {
+    "Name": "The Master of Ragnarok & Blesser of Einherjar (Manga)",
+    "InternalName": "the-master-of-ragnarok-blesser-of-einherjar-manga",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "the-master-of-ragnarok-blesser-of-einherjar-manga"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "the-master-of-ragnarok-blesser-of-einherjar-manga-vol-1",
+        "FileName": "the-master-of-ragnarok-blesser-of-einherjar-manga-vol-1.epub",
+        "Title": "The Master of Ragnarok & Blesser of Einherjar (Manga) Vol 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2019-05-31",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "the-master-of-ragnarok-blesser-of-einherjar-manga-vol-2",
+        "FileName": "the-master-of-ragnarok-blesser-of-einherjar-manga-vol-2.epub",
+        "Title": "The Master of Ragnarok & Blesser of Einherjar (Manga) Vol 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2019-12-10",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "the-master-of-ragnarok-blesser-of-einherjar-manga-vol-3",
+        "FileName": "the-master-of-ragnarok-blesser-of-einherjar-manga-vol-3.epub",
+        "Title": "The Master of Ragnarok & Blesser of Einherjar (Manga) Vol 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-05-05",
+        "Order": 103
+      },
+      {
+        "ApiSlug": "the-master-of-ragnarok-blesser-of-einherjar-manga-vol-4",
+        "FileName": "the-master-of-ragnarok-blesser-of-einherjar-manga-vol-4.epub",
+        "Title": "The Master of Ragnarok & Blesser of Einherjar (Manga) Vol 4",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-09-01",
+        "Order": 104
+      },
+      {
+        "ApiSlug": "the-master-of-ragnarok-blesser-of-einherjar-manga-vol-5",
+        "FileName": "the-master-of-ragnarok-blesser-of-einherjar-manga-vol-5.epub",
+        "Title": "The Master of Ragnarok & Blesser of Einherjar (Manga) Vol 5",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-04-06",
+        "Order": 105
+      },
+      {
+        "ApiSlug": "the-master-of-ragnarok-blesser-of-einherjar-manga-vol-6",
+        "FileName": "the-master-of-ragnarok-blesser-of-einherjar-manga-vol-6.epub",
+        "Title": "The Master of Ragnarok & Blesser of Einherjar (Manga) Vol 6",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-09-21",
+        "Order": 106
+      },
+      {
+        "ApiSlug": "the-master-of-ragnarok-blesser-of-einherjar-manga-vol-7",
+        "FileName": "the-master-of-ragnarok-blesser-of-einherjar-manga-vol-7.epub",
+        "Title": "The Master of Ragnarok & Blesser of Einherjar (Manga) Vol 7",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-09-19",
+        "Order": 107
       }
     ],
     "Author": "Seiichi Takayama",
@@ -14024,6 +18009,74 @@
     "AuthorSort": "NISHIYAMA, AKINOSUKE"
   },
   {
+    "Name": "The Saga of Lioncourt",
+    "InternalName": "the-saga-of-lioncourt",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "the-saga-of-lioncourt"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "the-saga-of-lioncourt-volume-1",
+        "FileName": "the-saga-of-lioncourt-volume-1.epub",
+        "Title": "The Saga of Lioncourt Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-06-01",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "the-saga-of-lioncourt-volume-2",
+        "FileName": "the-saga-of-lioncourt-volume-2.epub",
+        "Title": "The Saga of Lioncourt Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-09-14",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "the-saga-of-lioncourt-volume-3",
+        "FileName": "the-saga-of-lioncourt-volume-3.epub",
+        "Title": "The Saga of Lioncourt Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-12-21",
+        "Order": 103
+      },
+      {
+        "ApiSlug": "the-saga-of-lioncourt-volume-4",
+        "FileName": "the-saga-of-lioncourt-volume-4.epub",
+        "Title": "The Saga of Lioncourt Volume 4",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-04-05",
+        "Order": 104
+      },
+      {
+        "ApiSlug": "the-saga-of-lioncourt-volume-5",
+        "FileName": "the-saga-of-lioncourt-volume-5.epub",
+        "Title": "The Saga of Lioncourt Volume 5",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-07-27",
+        "Order": 105
+      },
+      {
+        "ApiSlug": "the-saga-of-lioncourt-volume-6",
+        "FileName": "the-saga-of-lioncourt-volume-6.epub",
+        "Title": "The Saga of Lioncourt Volume 6",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-11-29",
+        "Order": 106
+      }
+    ],
+    "Author": "Hiroaki Ogura, TUGIKURU Corp.",
+    "AuthorSort": "CORP., TUGIKURU, OGURA,, HIROAKI"
+  },
+  {
     "Name": "The Sidekick Never Gets the Girl, Let Alone the Protag’s Sister!",
     "InternalName": "the-sidekick-never-gets-the-girl-let-alone-the-protag-s-sister",
     "ApiSlugs": [
@@ -14054,6 +18107,47 @@
     ],
     "Author": "Toshizo",
     "AuthorSort": "TOSHIZO"
+  },
+  {
+    "Name": "The Skull Dragon's Precious Daughter",
+    "InternalName": "the-skull-dragon-s-precious-daughter",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "the-skull-dragon-s-precious-daughter"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "the-skull-dragon-s-precious-daughter-volume-1",
+        "FileName": "the-skull-dragon-s-precious-daughter-volume-1.epub",
+        "Title": "The Skull Dragon's Precious Daughter: Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-08-09",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "the-skull-dragon-s-precious-daughter-volume-2",
+        "FileName": "the-skull-dragon-s-precious-daughter-volume-2.epub",
+        "Title": "The Skull Dragon's Precious Daughter: Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-10-25",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "the-skull-dragon-s-precious-daughter-volume-3",
+        "FileName": "the-skull-dragon-s-precious-daughter-volume-3.epub",
+        "Title": "The Skull Dragon's Precious Daughter: Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-07-12",
+        "Order": 103
+      }
+    ],
+    "Author": "Ichi Yukishiro",
+    "AuthorSort": "YUKISHIRO, ICHI"
   },
   {
     "Name": "The Sorcerer's Receptionist",
@@ -14204,6 +18298,83 @@
         "ShowRemainingFiles": true,
         "Published": "2024-01-08",
         "Order": 110
+      }
+    ],
+    "Author": "Haruka Momo",
+    "AuthorSort": "MOMO, HARUKA"
+  },
+  {
+    "Name": "The Tales of Marielle Clarac (Manga)",
+    "InternalName": "the-tales-of-marielle-clarac-manga",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "the-tales-of-marielle-clarac-manga"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "the-engagement-of-marielle-clarac-manga",
+        "FileName": "the-engagement-of-marielle-clarac-manga.epub",
+        "Title": "The Engagement of Marielle Clarac (Manga) Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-11-03",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "the-engagement-of-marielle-clarac-manga-volume-2",
+        "FileName": "the-engagement-of-marielle-clarac-manga-volume-2.epub",
+        "Title": "The Engagement of Marielle Clarac (Manga) Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-02-23",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "the-engagement-of-marielle-clarac-manga-volume-3",
+        "FileName": "the-engagement-of-marielle-clarac-manga-volume-3.epub",
+        "Title": "The Engagement of Marielle Clarac (Manga) Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-11-03",
+        "Order": 103
+      },
+      {
+        "ApiSlug": "the-engagement-of-marielle-clarac-manga-volume-4",
+        "FileName": "the-engagement-of-marielle-clarac-manga-volume-4.epub",
+        "Title": "The Engagement of Marielle Clarac (Manga) Volume 4",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-03-16",
+        "Order": 104
+      },
+      {
+        "ApiSlug": "the-engagement-of-marielle-clarac-manga-volume-5",
+        "FileName": "the-engagement-of-marielle-clarac-manga-volume-5.epub",
+        "Title": "The Engagement of Marielle Clarac (Manga) Volume 5",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-06-15",
+        "Order": 105
+      },
+      {
+        "ApiSlug": "the-engagement-of-marielle-clarac-manga-volume-6",
+        "FileName": "the-engagement-of-marielle-clarac-manga-volume-6.epub",
+        "Title": "The Engagement of Marielle Clarac (Manga) Volume 6",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-04-26",
+        "Order": 106
+      },
+      {
+        "ApiSlug": "the-engagement-of-marielle-clarac-manga-volume-7",
+        "FileName": "the-engagement-of-marielle-clarac-manga-volume-7.epub",
+        "Title": "The Engagement of Marielle Clarac (Manga) Volume 7",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2024-02-13",
+        "Order": 107
       }
     ],
     "Author": "Haruka Momo",
@@ -14396,6 +18567,110 @@
     "AuthorSort": "OKANO, YU"
   },
   {
+    "Name": "The Unwanted Undead Adventurer (Manga)",
+    "InternalName": "the-unwanted-undead-adventurer-manga",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "the-unwanted-undead-adventurer-manga"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "the-unwanted-undead-adventurer-manga",
+        "FileName": "the-unwanted-undead-adventurer-manga.epub",
+        "Title": "The Unwanted Undead Adventurer (Manga) Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2019-11-12",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "the-unwanted-undead-adventurer-manga-volume-2",
+        "FileName": "the-unwanted-undead-adventurer-manga-volume-2.epub",
+        "Title": "The Unwanted Undead Adventurer (Manga) Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-03-10",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "the-unwanted-undead-adventurer-manga-volume-3",
+        "FileName": "the-unwanted-undead-adventurer-manga-volume-3.epub",
+        "Title": "The Unwanted Undead Adventurer (Manga) Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-08-04",
+        "Order": 103
+      },
+      {
+        "ApiSlug": "the-unwanted-undead-adventurer-manga-volume-4",
+        "FileName": "the-unwanted-undead-adventurer-manga-volume-4.epub",
+        "Title": "The Unwanted Undead Adventurer (Manga) Volume 4",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2020-11-10",
+        "Order": 104
+      },
+      {
+        "ApiSlug": "the-unwanted-undead-adventurer-manga-volume-5",
+        "FileName": "the-unwanted-undead-adventurer-manga-volume-5.epub",
+        "Title": "The Unwanted Undead Adventurer (Manga) Volume 5",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-03-04",
+        "Order": 105
+      },
+      {
+        "ApiSlug": "the-unwanted-undead-adventurer-manga-volume-6",
+        "FileName": "the-unwanted-undead-adventurer-manga-volume-6.epub",
+        "Title": "The Unwanted Undead Adventurer (Manga) Volume 6",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-07-13",
+        "Order": 106
+      },
+      {
+        "ApiSlug": "the-unwanted-undead-adventurer-manga-volume-7",
+        "FileName": "the-unwanted-undead-adventurer-manga-volume-7.epub",
+        "Title": "The Unwanted Undead Adventurer (Manga) Volume 7",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-12-07",
+        "Order": 107
+      },
+      {
+        "ApiSlug": "the-unwanted-undead-adventurer-manga-volume-8",
+        "FileName": "the-unwanted-undead-adventurer-manga-volume-8.epub",
+        "Title": "The Unwanted Undead Adventurer (Manga) Volume 8",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-06-29",
+        "Order": 108
+      },
+      {
+        "ApiSlug": "the-unwanted-undead-adventurer-manga-volume-9",
+        "FileName": "the-unwanted-undead-adventurer-manga-volume-9.epub",
+        "Title": "The Unwanted Undead Adventurer (Manga) Volume 9",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-12-08",
+        "Order": 109
+      },
+      {
+        "ApiSlug": "the-unwanted-undead-adventurer-manga-volume-10",
+        "FileName": "the-unwanted-undead-adventurer-manga-volume-10.epub",
+        "Title": "The Unwanted Undead Adventurer (Manga) Volume 10",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-11-29",
+        "Order": 110
+      }
+    ],
+    "Author": "Yu Okano",
+    "AuthorSort": "OKANO, YU"
+  },
+  {
     "Name": "The White Cat's Revenge as Plotted from the Dragon King's Lap",
     "InternalName": "the-white-cat-s-revenge-as-plotted-from-the-dragon-king-s-lap",
     "ApiSlugs": [
@@ -14471,6 +18746,38 @@
     ],
     "Author": "Kureha",
     "AuthorSort": "KUREHA"
+  },
+  {
+    "Name": "The Wind That Reaches the Ends of the World",
+    "InternalName": "the-wind-that-reaches-the-ends-of-the-world",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "the-wind-that-reaches-the-ends-of-the-world"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "the-wind-that-reaches-the-ends-of-the-world-volume-1",
+        "FileName": "the-wind-that-reaches-the-ends-of-the-world-volume-1.epub",
+        "Title": "The Wind That Reaches the Ends of the World: Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-09-21",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "the-wind-that-reaches-the-ends-of-the-world-volume-2",
+        "FileName": "the-wind-that-reaches-the-ends-of-the-world-volume-2.epub",
+        "Title": "The Wind That Reaches the Ends of the World: Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2024-01-17",
+        "Order": 102
+      }
+    ],
+    "Author": "Tsukasa Hazumi",
+    "AuthorSort": "HAZUMI, TSUKASA"
   },
   {
     "Name": "The World's Least Interesting Master Swordsman",
@@ -14598,6 +18905,79 @@
     ],
     "Author": "Hagane Kurodome",
     "AuthorSort": "KURODOME, HAGANE"
+  },
+  {
+    "Name": "This Art Club Has a Problem!",
+    "InternalName": "this-art-club-has-a-problem",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "this-art-club-has-a-problem"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "this-art-club-has-a-problem-volume-1",
+        "FileName": "this-art-club-has-a-problem-volume-1.epub",
+        "Title": "This Art Club Has a Problem! Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-09-13",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "this-art-club-has-a-problem-volume-2",
+        "FileName": "this-art-club-has-a-problem-volume-2.epub",
+        "Title": "This Art Club Has a Problem! Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-12-27",
+        "Order": 102
+      }
+    ],
+    "Author": "Imigimuru",
+    "AuthorSort": "IMIGIMURU"
+  },
+  {
+    "Name": "Thompson",
+    "InternalName": "thompson",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "thompson"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "thompson-volume-1",
+        "FileName": "thompson-volume-1.epub",
+        "Title": "Thompson Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-07-26",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "thompson-volume-12",
+        "FileName": "thompson-volume-12.epub",
+        "Title": "Thompson Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-11-01",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "thompson-volume-3",
+        "FileName": "thompson-volume-3.epub",
+        "Title": "Thompson Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2024-03-06",
+        "Order": 103
+      }
+    ],
+    "Author": "Harayasu",
+    "AuthorSort": "HARAYASU"
   },
   {
     "Name": "To Another World... with Land Mines!",
@@ -14775,6 +19155,65 @@
     ],
     "Author": "616th Special Information Battalion",
     "AuthorSort": "616TH SPECIAL INFORMATION BATTALION"
+  },
+  {
+    "Name": "Villainess: Reloaded! Blowing Away Bad Ends with Modern Weapons (Manga)",
+    "InternalName": "villainess-reloaded-blowing-away-bad-end-with-modern-weapons",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "villainess-reloaded-blowing-away-bad-end-with-modern-weapons"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "villainess-reloaded-blowing-away-bad-end-with-modern-weapons",
+        "FileName": "villainess-reloaded-blowing-away-bad-end-with-modern-weapons.epub",
+        "Title": "Villainess: Reloaded! Blowing Away Bad Ends with Modern Weapons (Manga) Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-08-11",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "villainess-reloaded-blowing-away-bad-ends-with-modern-weapons-manga-volume-2",
+        "FileName": "villainess-reloaded-blowing-away-bad-ends-with-modern-weapons-manga-volume-2.epub",
+        "Title": "Villainess: Reloaded! Blowing Away Bad Ends with Modern Weapons (Manga) Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-11-05",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "villainess-reloaded-blowing-away-bad-ends-with-modern-weapons-manga-volume-3",
+        "FileName": "villainess-reloaded-blowing-away-bad-ends-with-modern-weapons-manga-volume-3.epub",
+        "Title": "Villainess: Reloaded! Blowing Away Bad Ends with Modern Weapons (Manga) Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-02-02",
+        "Order": 103
+      },
+      {
+        "ApiSlug": "villainess-reloaded-blowing-away-bad-ends-with-modern-weapons-manga-volume-4",
+        "FileName": "villainess-reloaded-blowing-away-bad-ends-with-modern-weapons-manga-volume-4.epub",
+        "Title": "Villainess: Reloaded! Blowing Away Bad Ends with Modern Weapons (Manga) Volume 4",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-04-27",
+        "Order": 104
+      },
+      {
+        "ApiSlug": "villainess-reloaded-blowing-away-bad-ends-with-modern-weapons-manga-volume-5",
+        "FileName": "villainess-reloaded-blowing-away-bad-ends-with-modern-weapons-manga-volume-5.epub",
+        "Title": "Villainess: Reloaded! Blowing Away Bad Ends with Modern Weapons (Manga) Volume 5",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-09-01",
+        "Order": 105
+      }
+    ],
+    "Author": "616th Special Information Battalion",
+    "AuthorSort": "BATTALION, INFORMATION, SPECIAL, 616TH"
   },
   {
     "Name": "VTuber Legend How I Went Viral After Forgetting To Turn Off My Stream",
@@ -14997,6 +19436,92 @@
         "EditedBy": null,
         "ShowRemainingFiles": true,
         "Published": "2023-06-20",
+        "Order": 108
+      }
+    ],
+    "Author": "Makishima Suzuki",
+    "AuthorSort": "SUZUKI, MAKISHIMA"
+  },
+  {
+    "Name": "Welcome to Japan, Ms. Elf! (Manga)",
+    "InternalName": "welcome-to-japan-ms-elf-manga",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "welcome-to-japan-ms-elf-manga"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "welcome-to-japan-ms-elf-manga-volume-1",
+        "FileName": "welcome-to-japan-ms-elf-manga-volume-1.epub",
+        "Title": "Welcome to Japan, Ms. Elf! (Manga) Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-06-22",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "welcome-to-japan-ms-elf-manga-volume-2",
+        "FileName": "welcome-to-japan-ms-elf-manga-volume-2.epub",
+        "Title": "Welcome to Japan, Ms. Elf! (Manga) Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-07-27",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "welcome-to-japan-ms-elf-manga-volume-3",
+        "FileName": "welcome-to-japan-ms-elf-manga-volume-3.epub",
+        "Title": "Welcome to Japan, Ms. Elf! (Manga) Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-11-02",
+        "Order": 103
+      },
+      {
+        "ApiSlug": "welcome-to-japan-ms-elf-manga-volume-4",
+        "FileName": "welcome-to-japan-ms-elf-manga-volume-4.epub",
+        "Title": "Welcome to Japan, Ms. Elf! (Manga) Volume 4",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2021-12-28",
+        "Order": 104
+      },
+      {
+        "ApiSlug": "welcome-to-japan-ms-elf-manga-volume-5",
+        "FileName": "welcome-to-japan-ms-elf-manga-volume-5.epub",
+        "Title": "Welcome to Japan, Ms. Elf! (Manga) Volume 5",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-04-26",
+        "Order": 105
+      },
+      {
+        "ApiSlug": "welcome-to-japan-ms-elf-manga-volume-6",
+        "FileName": "welcome-to-japan-ms-elf-manga-volume-6.epub",
+        "Title": "Welcome to Japan, Ms. Elf! (Manga) Volume 6",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-09-27",
+        "Order": 106
+      },
+      {
+        "ApiSlug": "welcome-to-japan-ms-elf-manga-volume-7",
+        "FileName": "welcome-to-japan-ms-elf-manga-volume-7.epub",
+        "Title": "Welcome to Japan, Ms. Elf! (Manga) Volume 7",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-03-08",
+        "Order": 107
+      },
+      {
+        "ApiSlug": "welcome-to-japan-ms-elf-manga-volume-8",
+        "FileName": "welcome-to-japan-ms-elf-manga-volume-8.epub",
+        "Title": "Welcome to Japan, Ms. Elf! (Manga) Volume 8",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2024-01-03",
         "Order": 108
       }
     ],
@@ -15348,6 +19873,65 @@
         "ShowRemainingFiles": true,
         "Published": "2023-12-27",
         "Order": 104
+      }
+    ],
+    "Author": "Saki",
+    "AuthorSort": "SAKI"
+  },
+  {
+    "Name": "Young Lady Albert Is Courting Disaster (Manga)",
+    "InternalName": "young-lady-albert-is-courting-disaster",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "young-lady-albert-is-courting-disaster"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "young-lady-albert-is-courting-disaster-volume-1",
+        "FileName": "young-lady-albert-is-courting-disaster-volume-1.epub",
+        "Title": "Young Lady Albert Is Courting Disaster (Manga) Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2022-12-28",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "young-lady-albert-is-courting-disaster-manga-volume-2",
+        "FileName": "young-lady-albert-is-courting-disaster-manga-volume-2.epub",
+        "Title": "Young Lady Albert Is Courting Disaster (Manga) Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-03-16",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "young-lady-albert-is-courting-disaster-manga-volume-3",
+        "FileName": "young-lady-albert-is-courting-disaster-manga-volume-3.epub",
+        "Title": "Young Lady Albert Is Courting Disaster (Manga) Volume 3",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-06-21",
+        "Order": 103
+      },
+      {
+        "ApiSlug": "young-lady-albert-is-courting-disaster-manga-volume-4",
+        "FileName": "young-lady-albert-is-courting-disaster-manga-volume-4.epub",
+        "Title": "Young Lady Albert Is Courting Disaster (Manga) Volume 4",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-09-27",
+        "Order": 104
+      },
+      {
+        "ApiSlug": "young-lady-albert-is-courting-disaster-manga-volume-5",
+        "FileName": "young-lady-albert-is-courting-disaster-manga-volume-5.epub",
+        "Title": "Young Lady Albert Is Courting Disaster (Manga) Volume 5",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-12-20",
+        "Order": 105
       }
     ],
     "Author": "Saki",

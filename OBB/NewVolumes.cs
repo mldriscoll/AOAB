@@ -37,8 +37,8 @@ namespace OBB
                 }
 
                 if (dict != null)
-                    foreach (var serie in dict.Where(x => !x.Key.type.Equals("manga", StringComparison.InvariantCultureIgnoreCase)
-                        && !x.Key.title.Contains("ascendance of a bookworm", StringComparison.InvariantCultureIgnoreCase)
+                    foreach (var serie in dict.Where(x => x.Key.type.Equals("manga", StringComparison.InvariantCultureIgnoreCase)
+                        || !x.Key.title.Contains("ascendance of a bookworm", StringComparison.InvariantCultureIgnoreCase)
                         ))
                     {
                         var series = seriesList.FirstOrDefault(x => x.ApiSlugs.Any(y => y.Slug.Equals(serie.Key.slug, StringComparison.InvariantCultureIgnoreCase)));

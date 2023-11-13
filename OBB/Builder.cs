@@ -155,6 +155,7 @@ namespace OBB
                     if (!coverPicked)
                     {
                         var cover = $"{temp}\\OEBPS\\Images\\Cover.jpg";
+                        if (!File.Exists(cover)) cover = $"{temp}\\item\\image\\cover.jpg";
                         if (File.Exists("cover.jpg")) File.Delete("cover.jpg");
                         File.Copy(cover, "cover.jpg");
                         coverPicked = true;
