@@ -1195,6 +1195,15 @@
         "ShowRemainingFiles": true,
         "Published": "2023-11-11",
         "Order": 102
+      },
+      {
+        "ApiSlug": "back-to-the-battlefield-the-veteran-heroes-return-to-the-fray-volume-3",
+        "FileName": "back-to-the-battlefield-the-veteran-heroes-return-to-the-fray-volume-3.epub",
+        "Title": "",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2024-01-25",
+        "Order": 103
       }
     ],
     "Author": "Kiraku Kishima",
@@ -1254,6 +1263,15 @@
         "ShowRemainingFiles": true,
         "Published": "2023-11-09",
         "Order": 105
+      },
+      {
+        "ApiSlug": "backstabbed-in-a-backwater-dungeon-volume-6",
+        "FileName": "backstabbed-in-a-backwater-dungeon-volume-6.epub",
+        "Title": "",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2024-02-19",
+        "Order": 106
       }
     ],
     "Author": "Meikyou Shisui",
@@ -2385,6 +2403,15 @@
         "ShowRemainingFiles": true,
         "Published": "2023-08-28",
         "Order": 122
+      },
+      {
+        "ApiSlug": "cooking-with-wild-game-volume-23",
+        "FileName": "cooking-with-wild-game-volume-23.epub",
+        "Title": "",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2024-03-04",
+        "Order": 123
       }
     ],
     "Author": "EDA",
@@ -3417,6 +3444,15 @@
         "ShowRemainingFiles": true,
         "Published": "2023-11-23",
         "Order": 105
+      },
+      {
+        "ApiSlug": "dungeon-dive-aim-for-the-deepest-level-volume-6",
+        "FileName": "dungeon-dive-aim-for-the-deepest-level-volume-6.epub",
+        "Title": "",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2024-02-08",
+        "Order": 106
       }
     ],
     "Author": "Tarisa Warinai",
@@ -3558,6 +3594,15 @@
         "ShowRemainingFiles": true,
         "Published": "2023-12-01",
         "Order": 104
+      },
+      {
+        "ApiSlug": "enough-with-this-slow-life-i-was-reincarnated-as-a-high-elf-and-now-i-m-bored-volume-5",
+        "FileName": "enough-with-this-slow-life-i-was-reincarnated-as-a-high-elf-and-now-i-m-bored-volume-5.epub",
+        "Title": "",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2024-02-19",
+        "Order": 105
       }
     ],
     "Author": "rarutori",
@@ -3735,6 +3780,38 @@
     ],
     "Author": "Ichibu Saki",
     "AuthorSort": "SAKI, ICHIBU"
+  },
+  {
+    "Name": "From Old Country Bumpkin to Master Swordsman: My Hotshot Disciples Are All Grown Up Now, and They Won’t Leave Me Alone",
+    "InternalName": "from-old-country-bumpkin-to-master-swordsman-my-hotshot-disciples-are-all-grown-up-now-and-they-won-t-leave-me-alone",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "from-old-country-bumpkin-to-master-swordsman-my-hotshot-disciples-are-all-grown-up-now-and-they-won-t-leave-me-alone"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "from-old-country-bumpkin-to-master-swordsman-my-hotshot-disciples-are-all-grown-up-now-and-they-won-t-leave-me-alone-volume-1",
+        "FileName": "from-old-country-bumpkin-to-master-swordsman-my-hotshot-disciples-are-all-grown-up-now-and-they-won-t-leave-me-alone-volume-1.epub",
+        "Title": "From Old Country Bumpkin to Master Swordsman: My Hotshot Disciples Are All Grown Up Now, and They Won’t Leave Me Alone Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-11-22",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "from-old-country-bumpkin-to-master-swordsman-my-hotshot-disciples-are-all-grown-up-now-and-they-won-t-leave-me-alone-volume-2",
+        "FileName": "from-old-country-bumpkin-to-master-swordsman-my-hotshot-disciples-are-all-grown-up-now-and-they-won-t-leave-me-alone-volume-2.epub",
+        "Title": "From Old Country Bumpkin to Master Swordsman: My Hotshot Disciples Are All Grown Up Now, and They Won’t Leave Me Alone Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2024-02-28",
+        "Order": 102
+      }
+    ],
+    "Author": "Shigeru Sagazaki",
+    "AuthorSort": "SAGAZAKI, SHIGERU"
   },
   {
     "Name": "Full Clearing Another World under a Goddess with Zero Believers",
@@ -5248,6 +5325,38 @@
     "AuthorSort": "MURASAKI, YUKIYA"
   },
   {
+    "Name": "I Could Never Be a Succubus!",
+    "InternalName": "i-could-never-be-a-succubus",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "i-could-never-be-a-succubus"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "i-could-never-be-a-succubus-volume-1",
+        "FileName": "i-could-never-be-a-succubus-volume-1.epub",
+        "Title": "I Could Never Be a Succubus! Volume 1",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2023-12-25",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "i-could-never-be-a-succubus-volume-2",
+        "FileName": "i-could-never-be-a-succubus-volume-2.epub",
+        "Title": "I Could Never Be a Succubus! Volume 2",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2024-03-22",
+        "Order": 102
+      }
+    ],
+    "Author": "Nora Kohigashi",
+    "AuthorSort": "KOHIGASHI, NORA"
+  },
+  {
     "Name": "I Got Hit By a Truck But I Wasn’t Sent to Another World! What the Heck?!",
     "InternalName": "i-got-hit-by-a-truck-but-i-wasn-t-sent-to-another-world-what-the-heck",
     "ApiSlugs": [
@@ -5677,6 +5786,15 @@
         "ShowRemainingFiles": true,
         "Published": "2023-02-20",
         "Order": 108
+      },
+      {
+        "ApiSlug": "i-shall-survive-using-potions-volume-9",
+        "FileName": "i-shall-survive-using-potions-volume-9.epub",
+        "Title": "",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2024-01-24",
+        "Order": 109
       }
     ],
     "Author": "FUNA",
@@ -5868,6 +5986,15 @@
         "ShowRemainingFiles": true,
         "Published": "2023-11-14",
         "Order": 102
+      },
+      {
+        "ApiSlug": "i-m-giving-the-disgraced-noble-lady-i-rescued-a-crash-course-in-naughtiness-volume-3",
+        "FileName": "i-m-giving-the-disgraced-noble-lady-i-rescued-a-crash-course-in-naughtiness-volume-3.epub",
+        "Title": "",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2024-02-14",
+        "Order": 103
       }
     ],
     "Author": "Fukada Sametarou",
@@ -5900,6 +6027,15 @@
         "ShowRemainingFiles": true,
         "Published": "2023-11-22",
         "Order": 102
+      },
+      {
+        "ApiSlug": "i-m-not-the-hero-volume-3",
+        "FileName": "i-m-not-the-hero-volume-3.epub",
+        "Title": "",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2024-02-22",
+        "Order": 103
       }
     ],
     "Author": "Usber",
@@ -6987,6 +7123,15 @@
         "ShowRemainingFiles": true,
         "Published": "2023-09-22",
         "Order": 144
+      },
+      {
+        "ApiSlug": "invaders-of-the-rokujouma-volume-43",
+        "FileName": "invaders-of-the-rokujouma-volume-43.epub",
+        "Title": "",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2024-01-31",
+        "Order": 145
       }
     ],
     "Author": "Takehaya",
@@ -7867,6 +8012,15 @@
         "ShowRemainingFiles": true,
         "Published": "2023-11-09",
         "Order": 103
+      },
+      {
+        "ApiSlug": "magic-stone-gourmet-eating-magical-power-made-me-the-strongest-volume-4",
+        "FileName": "magic-stone-gourmet-eating-magical-power-made-me-the-strongest-volume-4.epub",
+        "Title": "",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2024-02-15",
+        "Order": 104
       }
     ],
     "Author": "Ryou Yuuki",
@@ -9108,6 +9262,15 @@
         "ShowRemainingFiles": true,
         "Published": "2022-01-24",
         "Order": 111
+      },
+      {
+        "ApiSlug": "my-next-life-as-a-villainess-all-routes-lead-to-doom-volume-12",
+        "FileName": "my-next-life-as-a-villainess-all-routes-lead-to-doom-volume-12.epub",
+        "Title": "",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2024-01-31",
+        "Order": 112
       }
     ],
     "Author": "Satoru Yamaguchi",
@@ -10924,6 +11087,15 @@
         "ShowRemainingFiles": true,
         "Published": "2023-11-22",
         "Order": 105
+      },
+      {
+        "ApiSlug": "reincarnated-mage-with-inferior-eyes-breezing-through-the-future-as-an-oppressed-ex-hero-volume-5",
+        "FileName": "reincarnated-mage-with-inferior-eyes-breezing-through-the-future-as-an-oppressed-ex-hero-volume-5.epub",
+        "Title": "",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2024-01-17",
+        "Order": 106
       }
     ],
     "Author": "Yusura Kankitsu",
@@ -14549,6 +14721,15 @@
         "ShowRemainingFiles": true,
         "Published": "2023-11-24",
         "Order": 103
+      },
+      {
+        "ApiSlug": "villainess-level-99-i-may-be-the-hidden-boss-but-i-m-not-the-demon-lord-act-4",
+        "FileName": "villainess-level-99-i-may-be-the-hidden-boss-but-i-m-not-the-demon-lord-act-4.epub",
+        "Title": "",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2024-02-22",
+        "Order": 104
       }
     ],
     "Author": "Satori Tanabata",
@@ -14903,6 +15084,15 @@
         "ShowRemainingFiles": true,
         "Published": "2023-10-19",
         "Order": 108
+      },
+      {
+        "ApiSlug": "when-supernatural-battles-became-commonplace-volume-9",
+        "FileName": "when-supernatural-battles-became-commonplace-volume-9.epub",
+        "Title": "",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2024-01-12",
+        "Order": 109
       }
     ],
     "Author": "Kota Nozomi",
@@ -15099,6 +15289,15 @@
         "ShowRemainingFiles": true,
         "Published": "2023-12-01",
         "Order": 103
+      },
+      {
+        "ApiSlug": "you-like-me-not-my-daughter-volume-4",
+        "FileName": "you-like-me-not-my-daughter-volume-4.epub",
+        "Title": "",
+        "EditedBy": null,
+        "ShowRemainingFiles": true,
+        "Published": "2024-02-02",
+        "Order": 104
       }
     ],
     "Author": "Kota Nozomi",
