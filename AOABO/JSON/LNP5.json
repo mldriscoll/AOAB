@@ -1565,7 +1565,7 @@
       "Year": 8,
       "Season": "Spring",
       "ProcessedInPartFive": true,
-      "PartSheet": true
+      "PartSheet": false
     },
     "Afterword": {
       "OriginalFilenames": [ "afterword" ],
@@ -1574,6 +1574,293 @@
       "Volume": "0506",
       "Year": 9,
       "Season": "Autumn",
+      "ProcessedInPartFive": true
+    }
+  },
+  {
+    "InternalName": "LN0507",
+    "Gallery": {
+      "SplashImages": [ "bonus2", "bonus1" ],
+      "ChapterImages": [ "insert1", "insert2", "insert3", "insert4", "insert5", "insert6", "insert7", "insert8", "insert9", "insert10" ],
+      "EarlySortOrder": "0507",
+      "LateSortOrder": "050799",
+      "ChapterName": "LN507",
+      "AltName": "Volume 7",
+      "Volume": "0507",
+      "EarlyYear": 9,
+      "EarlySeason": "Autumn",
+      "LateYear": 9,
+      "LateSeason": "Spring",
+      "ProcessedInPartFive": true
+    },
+    "POVChapters": [
+      {
+        "OriginalFilenames": [ "prologue" ],
+        "SortOrder": "050700",
+        "POV": "Ferdinand",
+        "ChapterName": "Prologue",
+        "Volume": "0507",
+        "Year": 9,
+        "Season": "Autumn",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartFive": true,
+        "Source": "P5V7"
+      },
+      {
+        "OriginalFilenames": [ "epilogue", "insert9", "epilogue_1" ],
+        "SortOrder": "050718a",
+        "POV": "Letizia",
+        "ChapterName": "Epilogue",
+        "Volume": "0507",
+        "Year": 9,
+        "Season": "Spring",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartFive": true,
+        "Source": "P5V7"
+      }
+    ],
+    "BonusChapters": [
+      {
+        "OriginalFilenames": [ "chapter19", "insert10", "chapter19_1" ],
+        "EarlySortOrder": "050708b",
+        "LateSortOrder": "050796a",
+        "POV": "Sigiswald",
+        "ChapterName": "Rozemyne’s Disappearance and Return",
+        "Volume": "0507",
+        "EarlyYear": 9,
+        "EarlySeason": "Winter",
+        "LateYear": 9,
+        "LateSeason": "Spring",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartFive": true,
+        "Source": "P5V7 Extra 1"
+      },
+      {
+        "OriginalFilenames": [ "chapter20" ],
+        "EarlySortOrder": "050708c",
+        "LateSortOrder": "050796b",
+        "POV": "Charlotte",
+        "ChapterName": "The Royal Academy without My Sister",
+        "Volume": "0507",
+        "EarlyYear": 9,
+        "EarlySeason": "Winter",
+        "LateYear": 9,
+        "LateSeason": "Spring",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartFive": true,
+        "Source": "P5V7 Extra 2"
+      },
+      {
+        "OriginalFilenames": [ "chapter21" ],
+        "EarlySortOrder": "050718b",
+        "LateSortOrder": "050796c",
+        "POV": "Leonzio",
+        "ChapterName": "Their Hopes and Dreams",
+        "Volume": "0507",
+        "EarlyYear": 9,
+        "EarlySeason": "Spring",
+        "LateYear": 9,
+        "LateSeason": "Spring",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartFive": true,
+        "Source": "P5V7 Extra 3"
+      }
+    ],
+    "Chapters": [
+      {
+        "OriginalFilenames": [ "chapter1", "insert1", "chapter1_1" ],
+        "SortOrder": "050701",
+        "ChapterName": "Dirk’s and Bertram’s Baptisms",
+        "Volume": "0507",
+        "Year": 9,
+        "Season": "Autumn",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter2" ],
+        "SortOrder": "050702",
+        "ChapterName": "The Winter Playroom and Another New Term",
+        "Volume": "0507",
+        "Year": 9,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter3", "insert2", "chapter3_1" ],
+        "SortOrder": "050703",
+        "ChapterName": "The Fellowship Gatherings (Fourth Year)",
+        "Volume": "0507",
+        "Year": 9,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter4", "insert3", "chapter4_1" ],
+        "SortOrder": "050704",
+        "ChapterName": "The First Week of Classes",
+        "Volume": "0507",
+        "Year": 9,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter5" ],
+        "SortOrder": "050705",
+        "ChapterName": "The Royal Academy’s Dedication Rituals",
+        "Volume": "0507",
+        "Year": 9,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter6", "insert4", "chapter6_1" ],
+        "SortOrder": "050706",
+        "ChapterName": "Meeting Gramps",
+        "Volume": "0507",
+        "Year": 9,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter7" ],
+        "SortOrder": "050707",
+        "ChapterName": "The Book of Mestionora",
+        "Volume": "0507",
+        "Year": 9,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter8", "insert5", "chapter8_1" ],
+        "SortOrder": "050708a",
+        "ChapterName": "I’m Back",
+        "Volume": "0507",
+        "Year": 9,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter9" ],
+        "SortOrder": "050709",
+        "ChapterName": "The Foundational Magic",
+        "Volume": "0507",
+        "Year": 9,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter10" ],
+        "SortOrder": "050710",
+        "ChapterName": "The Bible’s Key",
+        "Volume": "0507",
+        "Year": 9,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter11", "insert6", "chapter11_1" ],
+        "SortOrder": "050711",
+        "ChapterName": "Anxiety and the Measuring",
+        "Volume": "0507",
+        "Year": 9,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter12" ],
+        "SortOrder": "050712",
+        "ChapterName": "How to Protect Them",
+        "Volume": "0507",
+        "Year": 9,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter13" ],
+        "SortOrder": "050713",
+        "ChapterName": "Preparing for War",
+        "Volume": "0507",
+        "Year": 9,
+        "Season": "Winter",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter14", "insert7", "chapter14_1" ],
+        "SortOrder": "050714",
+        "ChapterName": "Kamil’s Baptism",
+        "Volume": "0507",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter15" ],
+        "SortOrder": "050715",
+        "ChapterName": "Defense Meeting",
+        "Volume": "0507",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter16" ],
+        "SortOrder": "050716",
+        "ChapterName": "Danger Beheld",
+        "Volume": "0507",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter17", "insert8", "chapter17_1" ],
+        "SortOrder": "050717",
+        "ChapterName": "Temptation",
+        "Volume": "0507",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter18" ],
+        "SortOrder": "050719",
+        "ChapterName": "Faster than Steifebrise",
+        "Volume": "0507",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      }
+    ],
+    "ComfyLifeChapter": {
+      "OriginalFilenames": [ "manga1", "manga2" ],
+      "SortOrder": "050798",
+      "ChapterName": "Comfy Life 507",
+      "Volume": "0507",
+      "Year": 9,
+      "Season": "Spring",
+      "ProcessedInPartFive": true
+    },
+    "CharacterSheet": {
+      "OriginalFilenames": [ "characters1", "characters2", "characters3" ],
+      "SortOrder": "0507",
+      "ChapterName": "Avatar of a Goddess Characters",
+      "Volume": "0507",
+      "Year": 9,
+      "Season": "Autumn",
+      "ProcessedInPartFive": true,
+      "PartSheet": true
+    },
+    "Afterword": {
+      "OriginalFilenames": [ "afterword" ],
+      "SortOrder": "050797",
+      "ChapterName": "LN507 Afterword",
+      "Volume": "0507",
+      "Year": 9,
+      "Season": "Spring",
       "ProcessedInPartFive": true
     }
   }
