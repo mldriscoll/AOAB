@@ -1522,5 +1522,401 @@
         "KeepFirstSplitSection": true
       }
     ]
+  },
+  {
+    "InternalName": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-7",
+    "Chapters": [
+      {
+        "ChapterName": "The Eastern Merchant",
+        "SortOrder": "13",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "Celestial Maiden from Another World",
+            "SortOrder": "10701",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter1",
+              "insert1",
+              "chapter1_1"
+            ],
+            "Chapters": [],
+            "Splits": [
+              {
+                "Name": "2",
+                "SplitLine": "<h2>2</h2>",
+                "SortOrder": "02",
+                "SubFolder": ""
+              },
+              {
+                "Name": "3",
+                "SplitLine": "<h2>3</h2>",
+                "SortOrder": "03",
+                "SubFolder": ""
+              },
+              {
+                "Name": "4",
+                "SplitLine": "<h2>4</h2>",
+                "SortOrder": "04",
+                "SubFolder": ""
+              }
+            ],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "New Bonds",
+            "SortOrder": "10702",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter2",
+              "insert2",
+              "chapter2_1"
+            ],
+            "Chapters": [],
+            "Splits": [
+              {
+                "Name": "2",
+                "SplitLine": "<h2>2</h2>",
+                "SortOrder": "02",
+                "SubFolder": ""
+              },
+              {
+                "Name": "3",
+                "SplitLine": "<h2>3</h2>",
+                "SortOrder": "03",
+                "SubFolder": ""
+              },
+              {
+                "Name": "4",
+                "SplitLine": "<h2>4</h2>",
+                "SortOrder": "04",
+                "SubFolder": ""
+              },
+              {
+                "Name": "5",
+                "SplitLine": "<h2>5</h2>",
+                "SortOrder": "05",
+                "SubFolder": ""
+              },
+              {
+                "Name": "6",
+                "SplitLine": "<h2>6</h2>",
+                "SortOrder": "06",
+                "SubFolder": ""
+              },
+              {
+                "Name": "7",
+                "SplitLine": "<h2>7</h2>",
+                "SortOrder": "07",
+                "SubFolder": ""
+              }
+            ],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Open for Cooking Classes",
+            "SortOrder": "10703",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter3",
+              "insert3",
+              "chapter3_1"
+            ],
+            "Chapters": [],
+            "Splits": [
+              {
+                "Name": "1",
+                "SplitLine": "<h2>1</h2>",
+                "SortOrder": "01",
+                "SubFolder": ""
+              },
+              {
+                "Name": "2",
+                "SplitLine": "<h2>2</h2>",
+                "SortOrder": "02",
+                "SubFolder": ""
+              },
+              {
+                "Name": "3",
+                "SplitLine": "<h2>3</h2>",
+                "SortOrder": "03",
+                "SubFolder": ""
+              }
+            ],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      },
+      {
+        "ChapterName": "The Coming of Spring",
+        "SortOrder": "14",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "A Prince in Prayer and a Healing Celestial Maiden",
+            "SortOrder": "10704",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter4",
+              "insert4",
+              "chapter4_1",
+              "insert5",
+              "chapter4_2"
+            ],
+            "Chapters": [],
+            "Splits": [
+              {
+                "Name": "2",
+                "SplitLine": "<h2>2</h2>",
+                "SortOrder": "02",
+                "SubFolder": ""
+              }
+            ],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Coming of Spring",
+            "SortOrder": "10705",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "chapter5",
+              "insert6"
+            ],
+            "Chapters": [],
+            "Splits": [
+              {
+                "Name": "2",
+                "SplitLine": "<h2>2</h2>",
+                "SortOrder": "02",
+                "SubFolder": ""
+              },
+              {
+                "Name": "3",
+                "SplitLine": "<h2>3</h2>",
+                "SortOrder": "03",
+                "SubFolder": ""
+              },
+              {
+                "Name": "4",
+                "SplitLine": "<h2>4</h2>",
+                "SortOrder": "04",
+                "SubFolder": ""
+              }
+            ],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      },
+      {
+        "ChapterName": "The Brothers Holewa",
+        "SortOrder": "15",
+        "SubFolder": "",
+        "OriginalFilenames": [
+          "chapter6",
+          "insert7",
+          "chapter6_1",
+          "insert8",
+          "chapter6_2"
+        ],
+        "Chapters": [],
+        "Splits": [
+          {
+            "Name": "2",
+            "SplitLine": "<h2>2</h2>",
+            "SortOrder": "02",
+            "SubFolder": "15-The Brothers Holewa"
+          },
+          {
+            "Name": "3",
+            "SplitLine": "<h2>3</h2>",
+            "SortOrder": "03",
+            "SubFolder": "15-The Brothers Holewa"
+          }
+        ],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "The Coming of Spring",
+        "SortOrder": "14",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "A Fork in the Road",
+            "SortOrder": "10706",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "interlude1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Diary of Pel, the Familiar",
+            "SortOrder": "10707",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "interlude2"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Diary of Rurii, the Familiar",
+            "SortOrder": "10708",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "interlude3"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      },
+      {
+        "ChapterName": "The Brothers Holewa",
+        "SortOrder": "15",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
+          {
+            "ChapterName": "The Diary of Bla, the Familiar",
+            "SortOrder": "10710",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "interlude4"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "The Diary of Fyrklover, the Familiar",
+            "SortOrder": "10711",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "interlude5"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "A Most Troubling Character Trait",
+            "SortOrder": "10712",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "side1"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Bonus Short Story",
+            "SortOrder": "10714",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "bonus"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "ExtraContent": [
+      {
+        "ChapterName": "Volume 07",
+        "SortOrder": "107",
+        "SubFolder": "999-Afterwords",
+        "OriginalFilenames": [
+          "afterword"
+        ],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "Gallery": [
+      {
+        "SplashImages": [
+          "cover",
+          "frontmatter1"
+        ],
+        "ChapterImages": [
+          "insert1",
+          "insert2",
+          "insert3",
+          "insert4",
+          "insert5",
+          "insert6",
+          "insert7",
+          "insert8"
+        ],
+        "LateSubFolder": "15-The Brothers Holewa",
+        "ChapterName": "",
+        "SortOrder": "",
+        "SubFolder": "13-The Eastern Merchant",
+        "OriginalFilenames": [],
+        "Chapters": [],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ]
   }
 ]
