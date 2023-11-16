@@ -2344,31 +2344,17 @@
     "InternalName": "ascendance-of-a-bookworm-manga-part-2-vol-1",
     "Chapters": [
       {
-        "ChapterName": "Ascendance of a Bookworm (Manga) Part 2 Volume 1",
-        "SortOrder": "108",
+        "ChapterName": "Part 2: I'll even join the temple to read books!",
+        "SortOrder": "2",
         "SubFolder": "",
-        "OriginalFilenames": [],
+        "OriginalFilenames": [
+          "cover",
+          "p-002",
+          "p-003"
+        ],
         "Chapters": [
           {
-            "ChapterName": "Cover",
-            "SortOrder": "10801",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "cover",
-              "p-000",
-              "p-001",
-              "p-002",
-              "p-003",
-              "p-004"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter 1: Apprentice Shrine Maiden in the Temple",
+            "ChapterName": "Apprentice Shrine Maiden in the Temple",
             "SortOrder": "10802",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -2426,8 +2412,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 2: Meeting in the Temple",
-            "SortOrder": "10803",
+            "ChapterName": "Meeting in the Temple",
+            "SortOrder": "10803a",
             "SubFolder": "",
             "OriginalFilenames": [
               "p-051",
@@ -2482,8 +2468,8 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 3: Why I Collapsed",
-            "SortOrder": "10804",
+            "ChapterName": "Why I Collapsed",
+            "SortOrder": "10804a",
             "SubFolder": "",
             "OriginalFilenames": [
               "p-095",
@@ -2520,8 +2506,7 @@
               "p-126",
               "p-127",
               "p-128",
-              "p-129",
-              "p-130"
+              "p-129"
             ],
             "Chapters": [],
             "Splits": [],
@@ -2530,7 +2515,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 4: What They Deserve",
+            "ChapterName": "What They Deserve",
             "SortOrder": "10805",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -2577,19 +2562,31 @@
               "p-171",
               "p-172",
               "p-173",
-              "p-174",
-              "p-175",
-              "p-176"
+              "p-174"
             ],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
             "LinkedChapters": [],
             "KeepFirstSplitSection": true
-          },
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "Part 2: I'll even join the temple to read books!",
+        "SortOrder": "2",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
           {
-            "ChapterName": "Extra: How to Handle the Myne Workshop",
-            "SortOrder": "10806",
+            "ChapterName": "How to Handle the Myne Workshop",
+            "SortOrder": "10803b",
             "SubFolder": "",
             "OriginalFilenames": [
               "p-177",
@@ -2608,11 +2605,10 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Story: Fran and the Commoner Apprentice Blue Shrine Maiden",
-            "SortOrder": "10807",
+            "ChapterName": "Fran and the Commoner Apprentice Blue Shrine Maiden",
+            "SortOrder": "10804b",
             "SubFolder": "",
             "OriginalFilenames": [
-              "p-185",
               "p-186",
               "p-187",
               "p-188",
@@ -2629,36 +2625,6 @@
             "Replacements": [],
             "LinkedChapters": [],
             "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Afterword: Artist&#39;s",
-            "SortOrder": "10808",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "p-196"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Afterword: Author&#39;s",
-            "SortOrder": "10809",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "p-197",
-              "p-198",
-              "p-199",
-              "p-200",
-              "p-201"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
           }
         ],
         "Splits": [],
@@ -2667,26 +2633,30 @@
         "KeepFirstSplitSection": true
       }
     ],
-    "BonusChapters": [
-      {
-        "ChapterName": "Ascendance of a Bookworm (Manga) Part 2 Volume 1",
-        "SortOrder": "108",
-        "SubFolder": "",
-        "OriginalFilenames": [],
-        "Chapters": [],
-        "Splits": [],
-        "Replacements": [],
-        "LinkedChapters": [],
-        "KeepFirstSplitSection": true
-      }
-    ],
     "ExtraContent": [
       {
-        "ChapterName": "Ascendance of a Bookworm (Manga) Part 2 Volume 1",
-        "SortOrder": "108",
-        "SubFolder": "",
+        "ChapterName": "Afterwords",
+        "SortOrder": "999",
+        "SubFolder": "2-Part 2: I'll even join the temple to read books!",
         "OriginalFilenames": [],
-        "Chapters": [],
+        "Chapters": [
+          {
+            "ChapterName": "Volume 1",
+            "SortOrder": "10808",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "p-196",
+              "p-197",
+              "p-198",
+              "p-199"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
         "Splits": [],
         "Replacements": [],
         "LinkedChapters": [],
