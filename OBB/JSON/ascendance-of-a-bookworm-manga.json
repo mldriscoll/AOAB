@@ -3030,9 +3030,7 @@
         "SortOrder": "2",
         "SubFolder": "",
         "OriginalFilenames": [
-          "cover",
-          "p-002",
-          "p-003"
+          "cover"
         ],
         "Chapters": [
           {
@@ -3374,31 +3372,17 @@
     "InternalName": "ascendance-of-a-bookworm-manga-part-2-volume-4",
     "Chapters": [
       {
-        "ChapterName": "Ascendance of a Bookworm (Manga) Part 2 Volume 4",
-        "SortOrder": "111",
+        "ChapterName": "Part 2: I'll even join the temple to read books!",
+        "SortOrder": "2",
         "SubFolder": "",
-        "OriginalFilenames": [],
+        "OriginalFilenames": [
+          "cover",
+          "p-002",
+          "p-003"
+        ],
         "Chapters": [
           {
-            "ChapterName": "Cover",
-            "SortOrder": "11101",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "cover",
-              "p-000",
-              "p-001",
-              "p-002",
-              "p-003",
-              "p-004"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter 16: Lutz&#39;s Path",
+            "ChapterName": "Lutz&#39;s Path",
             "SortOrder": "11102",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -3423,9 +3407,7 @@
               "p-023",
               "p-024",
               "p-025",
-              "p-026",
-              "p-027",
-              "p-028"
+              "p-026"
             ],
             "Chapters": [],
             "Splits": [],
@@ -3434,7 +3416,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 17: Running Away from Home",
+            "ChapterName": "Running Away from Home",
             "SortOrder": "11103",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -3468,8 +3450,7 @@
               "p-056",
               "p-057",
               "p-058",
-              "p-059",
-              "p-060"
+              "p-059"
             ],
             "Chapters": [],
             "Splits": [],
@@ -3478,7 +3459,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 18: Family Meeting at the Temple",
+            "ChapterName": "Family Meeting at the Temple",
             "SortOrder": "11104",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -3516,8 +3497,7 @@
               "p-092",
               "p-093",
               "p-094",
-              "p-095",
-              "p-096"
+              "p-095"
             ],
             "Chapters": [],
             "Splits": [],
@@ -3526,7 +3506,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 19: One Wilma, Please",
+            "ChapterName": "One Wilma, Please",
             "SortOrder": "11105",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -3548,8 +3528,7 @@
               "p-112",
               "p-113",
               "p-114",
-              "p-115",
-              "p-116"
+              "p-115"
             ],
             "Chapters": [],
             "Splits": [],
@@ -3558,7 +3537,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 20: Gifts and an Education",
+            "ChapterName": "Gifts and an Education",
             "SortOrder": "11106",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -3592,18 +3571,31 @@
               "p-144",
               "p-145",
               "p-146",
-              "p-147",
-              "p-148"
+              "p-147"
             ],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
             "LinkedChapters": [],
             "KeepFirstSplitSection": true
-          },
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "Part 2: I'll even join the temple to read books!",
+        "SortOrder": "2",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
           {
-            "ChapterName": "Extra: My Son&#39;s Growth",
-            "SortOrder": "11107",
+            "ChapterName": "My Son&#39;s Growth",
+            "SortOrder": "11104b",
             "SubFolder": "",
             "OriginalFilenames": [
               "p-149",
@@ -3622,11 +3614,10 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Story: This Thing Called Family",
-            "SortOrder": "11108",
+            "ChapterName": "This Thing Called Family",
+            "SortOrder": "11103b",
             "SubFolder": "",
             "OriginalFilenames": [
-              "p-157",
               "p-158",
               "p-159",
               "p-160",
@@ -3635,38 +3626,7 @@
               "p-163",
               "p-164",
               "p-165",
-              "p-166",
-              "p-167"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Afterword: Author&#39;s",
-            "SortOrder": "11109",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "p-168"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Afterword: Artist&#39;s",
-            "SortOrder": "11110",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "p-169",
-              "p-170",
-              "p-171",
-              "p-172",
-              "p-173"
+              "p-166"
             ],
             "Chapters": [],
             "Splits": [],
@@ -3681,26 +3641,30 @@
         "KeepFirstSplitSection": true
       }
     ],
-    "BonusChapters": [
-      {
-        "ChapterName": "Ascendance of a Bookworm (Manga) Part 2 Volume 4",
-        "SortOrder": "111",
-        "SubFolder": "",
-        "OriginalFilenames": [],
-        "Chapters": [],
-        "Splits": [],
-        "Replacements": [],
-        "LinkedChapters": [],
-        "KeepFirstSplitSection": true
-      }
-    ],
     "ExtraContent": [
       {
-        "ChapterName": "Ascendance of a Bookworm (Manga) Part 2 Volume 4",
-        "SortOrder": "111",
-        "SubFolder": "",
+        "ChapterName": "Afterwords",
+        "SortOrder": "999",
+        "SubFolder": "2-Part 2: I'll even join the temple to read books!",
         "OriginalFilenames": [],
-        "Chapters": [],
+        "Chapters": [
+          {
+            "ChapterName": "Volume 4",
+            "SortOrder": "11109",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "p-168",
+              "p-169",
+              "p-170",
+              "p-171"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
         "Splits": [],
         "Replacements": [],
         "LinkedChapters": [],
