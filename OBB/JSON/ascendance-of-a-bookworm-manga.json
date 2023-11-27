@@ -2686,9 +2686,7 @@
         "SortOrder": "2",
         "SubFolder": "",
         "OriginalFilenames": [
-          "cover",
-          "p-002",
-          "p-003"
+          "cover"
         ],
         "Chapters": [
           {
@@ -3028,31 +3026,17 @@
     "InternalName": "ascendance-of-a-bookworm-manga-part-2-volume-3",
     "Chapters": [
       {
-        "ChapterName": "Ascendance of a Bookworm (Manga) Part 2 Volume 3",
-        "SortOrder": "110",
+        "ChapterName": "Part 2: I'll even join the temple to read books!",
+        "SortOrder": "2",
         "SubFolder": "",
-        "OriginalFilenames": [],
+        "OriginalFilenames": [
+          "cover",
+          "p-002",
+          "p-003"
+        ],
         "Chapters": [
           {
-            "ChapterName": "Cover",
-            "SortOrder": "11001",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "cover",
-              "p-000",
-              "p-001",
-              "p-002",
-              "p-003",
-              "p-004"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter 10: The Great Orphanage Cleanup",
+            "ChapterName": "The Great Orphanage Cleanup",
             "SortOrder": "11002",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -3084,7 +3068,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 11: The Orphanage Director&#39;s Visit",
+            "ChapterName": "The Orphanage Director&#39;s Visit",
             "SortOrder": "11003",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -3112,8 +3096,7 @@
               "p-046",
               "p-047",
               "p-048",
-              "p-049",
-              "p-050"
+              "p-049"
             ],
             "Chapters": [],
             "Splits": [],
@@ -3122,7 +3105,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 12: Growing Problems",
+            "ChapterName": "Growing Problems",
             "SortOrder": "11004",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -3162,7 +3145,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 13: Diptychs and Karuta",
+            "ChapterName": "Diptychs and Karuta",
             "SortOrder": "11005",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -3202,7 +3185,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 14: Preparing for the Star Festival",
+            "ChapterName": "Preparing for the Star Festival",
             "SortOrder": "11006",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -3238,7 +3221,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 15: The Star Festival",
+            "ChapterName": "The Star Festival",
             "SortOrder": "11007",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -3278,14 +3261,26 @@
             "Replacements": [],
             "LinkedChapters": [],
             "KeepFirstSplitSection": true
-          },
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "Part 2: I'll even join the temple to read books!",
+        "SortOrder": "2",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
           {
-            "ChapterName": "Extra: Ordering Ceremonial Robes",
-            "SortOrder": "11008",
+            "ChapterName": "Ordering Ceremonial Robes",
+            "SortOrder": "11005b",
             "SubFolder": "",
             "OriginalFilenames": [
-              "p-161",
-              "p-162",
               "p-163",
               "p-164",
               "p-165",
@@ -3302,11 +3297,10 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Story: Gathering Taues",
-            "SortOrder": "11009",
+            "ChapterName": "Gathering Taues",
+            "SortOrder": "11008",
             "SubFolder": "",
             "OriginalFilenames": [
-              "p-171",
               "p-172",
               "p-173",
               "p-174",
@@ -3321,36 +3315,6 @@
             "Replacements": [],
             "LinkedChapters": [],
             "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Afterword: Author&#39;s",
-            "SortOrder": "11010",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "p-180"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Afterword: Artist&#39;s",
-            "SortOrder": "11011",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "p-181",
-              "p-182",
-              "p-183",
-              "p-184",
-              "p-185"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
           }
         ],
         "Splits": [],
@@ -3359,26 +3323,30 @@
         "KeepFirstSplitSection": true
       }
     ],
-    "BonusChapters": [
-      {
-        "ChapterName": "Ascendance of a Bookworm (Manga) Part 2 Volume 3",
-        "SortOrder": "110",
-        "SubFolder": "",
-        "OriginalFilenames": [],
-        "Chapters": [],
-        "Splits": [],
-        "Replacements": [],
-        "LinkedChapters": [],
-        "KeepFirstSplitSection": true
-      }
-    ],
     "ExtraContent": [
       {
-        "ChapterName": "Ascendance of a Bookworm (Manga) Part 2 Volume 3",
-        "SortOrder": "110",
-        "SubFolder": "",
+        "ChapterName": "Afterwords",
+        "SortOrder": "999",
+        "SubFolder": "2-Part 2: I'll even join the temple to read books!",
         "OriginalFilenames": [],
-        "Chapters": [],
+        "Chapters": [
+          {
+            "ChapterName": "Volume 3",
+            "SortOrder": "11010",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "p-180",
+              "p-181",
+              "p-182",
+              "p-183"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
         "Splits": [],
         "Replacements": [],
         "LinkedChapters": [],
