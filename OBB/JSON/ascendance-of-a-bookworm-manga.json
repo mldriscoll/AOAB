@@ -3376,9 +3376,7 @@
         "SortOrder": "2",
         "SubFolder": "",
         "OriginalFilenames": [
-          "cover",
-          "p-002",
-          "p-003"
+          "cover"
         ],
         "Chapters": [
           {
@@ -3692,31 +3690,17 @@
     "InternalName": "ascendance-of-a-bookworm-manga-part-2-volume-5",
     "Chapters": [
       {
-        "ChapterName": "Ascendance of a Bookworm (Manga) Part 2 Volume 5",
-        "SortOrder": "112",
+        "ChapterName": "Part 2: I'll even join the temple to read books!",
+        "SortOrder": "2",
         "SubFolder": "",
-        "OriginalFilenames": [],
+        "OriginalFilenames": [
+          "cover",
+          "p-002",
+          "p-003"
+        ],
         "Chapters": [
           {
-            "ChapterName": "Cover",
-            "SortOrder": "11201",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "cover",
-              "p-000",
-              "p-001",
-              "p-002",
-              "p-003",
-              "p-004"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter 21: My New Attendants",
+            "ChapterName": "My New Attendants",
             "SortOrder": "11202",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -3746,8 +3730,7 @@
               "p-028",
               "p-029",
               "p-030",
-              "p-031",
-              "p-032"
+              "p-031"
             ],
             "Chapters": [],
             "Splits": [],
@@ -3756,7 +3739,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 22: Attendants of an Apprentice Blue Shrine Maiden",
+            "ChapterName": "Attendants of an Apprentice Blue Shrine Maiden",
             "SortOrder": "11203",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -3786,7 +3769,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 22.5: Christine&#39;s Former Attendants",
+            "ChapterName": "Christine&#39;s Former Attendants",
             "SortOrder": "11204",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -3803,9 +3786,7 @@
               "p-061",
               "p-062",
               "p-063",
-              "p-064",
-              "p-065",
-              "p-066"
+              "p-064"
             ],
             "Chapters": [],
             "Splits": [],
@@ -3814,7 +3795,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 23: Preparing to Make Ink",
+            "ChapterName": "Preparing to Make Ink",
             "SortOrder": "11205",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -3837,9 +3818,7 @@
               "p-083",
               "p-084",
               "p-085",
-              "p-086",
-              "p-087",
-              "p-088"
+              "p-086"
             ],
             "Chapters": [],
             "Splits": [],
@@ -3848,7 +3827,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 24: Making Ink",
+            "ChapterName": "Making Ink",
             "SortOrder": "11206",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -3881,9 +3860,7 @@
               "p-115",
               "p-116",
               "p-117",
-              "p-118",
-              "p-119",
-              "p-120"
+              "p-118"
             ],
             "Chapters": [],
             "Splits": [],
@@ -3892,7 +3869,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 25: Challenging Woodblock Printing",
+            "ChapterName": "Challenging Woodblock Printing",
             "SortOrder": "11207",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -3927,19 +3904,31 @@
               "p-149",
               "p-150",
               "p-151",
-              "p-152",
-              "p-153",
-              "p-154"
+              "p-152"
             ],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
             "LinkedChapters": [],
             "KeepFirstSplitSection": true
-          },
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "Part 2: I'll even join the temple to read books!",
+        "SortOrder": "2",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
           {
-            "ChapterName": "Extra: Problems with the Italian Restaurant",
-            "SortOrder": "11208",
+            "ChapterName": "Problems with the Italian Restaurant",
+            "SortOrder": "11204b",
             "SubFolder": "",
             "OriginalFilenames": [
               "p-155",
@@ -3964,11 +3953,10 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Story: Preparing for the Baby",
-            "SortOrder": "11209",
+            "ChapterName": "Preparing for the Baby",
+            "SortOrder": "11208",
             "SubFolder": "",
             "OriginalFilenames": [
-              "p-169",
               "p-170",
               "p-171",
               "p-172",
@@ -3977,38 +3965,7 @@
               "p-175",
               "p-176",
               "p-177",
-              "p-178",
-              "p-179"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Afterword: Author&#39;s",
-            "SortOrder": "11210",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "p-180"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Afterword: Artist&#39;s",
-            "SortOrder": "11211",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "p-181",
-              "p-182",
-              "p-183",
-              "p-184",
-              "p-185"
+              "p-178"
             ],
             "Chapters": [],
             "Splits": [],
@@ -4023,26 +3980,30 @@
         "KeepFirstSplitSection": true
       }
     ],
-    "BonusChapters": [
-      {
-        "ChapterName": "Ascendance of a Bookworm (Manga) Part 2 Volume 5",
-        "SortOrder": "112",
-        "SubFolder": "",
-        "OriginalFilenames": [],
-        "Chapters": [],
-        "Splits": [],
-        "Replacements": [],
-        "LinkedChapters": [],
-        "KeepFirstSplitSection": true
-      }
-    ],
     "ExtraContent": [
       {
-        "ChapterName": "Ascendance of a Bookworm (Manga) Part 2 Volume 5",
-        "SortOrder": "112",
-        "SubFolder": "",
+        "ChapterName": "Afterwords",
+        "SortOrder": "999",
+        "SubFolder": "2-Part 2: I'll even join the temple to read books!",
         "OriginalFilenames": [],
-        "Chapters": [],
+        "Chapters": [
+          {
+            "ChapterName": "Volume 5",
+            "SortOrder": "11210",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "p-180",
+              "p-181",
+              "p-182",
+              "p-183"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
         "Splits": [],
         "Replacements": [],
         "LinkedChapters": [],
