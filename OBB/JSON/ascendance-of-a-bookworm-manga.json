@@ -3694,9 +3694,7 @@
         "SortOrder": "2",
         "SubFolder": "",
         "OriginalFilenames": [
-          "cover",
-          "p-002",
-          "p-003"
+          "cover"
         ],
         "Chapters": [
           {
@@ -4031,31 +4029,17 @@
     "InternalName": "ascendance-of-a-bookworm-manga-part-2-volume-6",
     "Chapters": [
       {
-        "ChapterName": "Ascendance of a Bookworm (Manga) Part 2 Volume 6",
-        "SortOrder": "113",
+        "ChapterName": "Part 2: I'll even join the temple to read books!",
+        "SortOrder": "2",
         "SubFolder": "",
-        "OriginalFilenames": [],
+        "OriginalFilenames": [
+          "cover",
+          "p-002",
+          "p-003"
+        ],
         "Chapters": [
           {
-            "ChapterName": "Cover",
-            "SortOrder": "11301",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "cover",
-              "p-000",
-              "p-001",
-              "p-002",
-              "p-003",
-              "p-004"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter 26: Suspicions and a New Connection",
+            "ChapterName": "Suspicions and a New Connection",
             "SortOrder": "11302",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -4085,7 +4069,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 27: Preparing Stencils",
+            "ChapterName": "Preparing Stencils",
             "SortOrder": "11303",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -4110,9 +4094,7 @@
               "p-041",
               "p-042",
               "p-043",
-              "p-044",
-              "p-045",
-              "p-046"
+              "p-044"
             ],
             "Chapters": [],
             "Splits": [],
@@ -4121,7 +4103,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 28: Binding a Picture-Book Bible for Children",
+            "ChapterName": "Binding a Picture-Book Bible for Children",
             "SortOrder": "11304",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -4164,9 +4146,7 @@
               "p-083",
               "p-084",
               "p-085",
-              "p-086",
-              "p-087",
-              "p-088"
+              "p-086"
             ],
             "Chapters": [],
             "Splits": [],
@@ -4175,7 +4155,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 29: After Completing the Picture Book",
+            "ChapterName": "After Completing the Picture Book",
             "SortOrder": "11305",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -4200,9 +4180,7 @@
               "p-107",
               "p-108",
               "p-109",
-              "p-110",
-              "p-111",
-              "p-112"
+              "p-110"
             ],
             "Chapters": [],
             "Splits": [],
@@ -4211,7 +4189,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 30: The Myne Decimal System",
+            "ChapterName": "The Myne Decimal System",
             "SortOrder": "11306",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -4249,7 +4227,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 31: Starting Winter Prep",
+            "ChapterName": "Starting Winter Prep",
             "SortOrder": "11307",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -4282,18 +4260,30 @@
               "p-165",
               "p-166",
               "p-167",
-              "p-168",
-              "p-169",
-              "p-170"
+              "p-168"
             ],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
             "LinkedChapters": [],
             "KeepFirstSplitSection": true
-          },
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "Part 2: I'll even join the temple to read books!",
+        "SortOrder": "2",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "Chapters": [
           {
-            "ChapterName": "Extra: The Story of Cinderella",
+            "ChapterName": "The Story of Cinderella",
             "SortOrder": "11308",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -4313,11 +4303,10 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Story: Books and Karuta",
-            "SortOrder": "11309",
+            "ChapterName": "Books and Karuta",
+            "SortOrder": "11306b",
             "SubFolder": "",
             "OriginalFilenames": [
-              "p-179",
               "p-180",
               "p-181",
               "p-182",
@@ -4334,36 +4323,6 @@
             "Replacements": [],
             "LinkedChapters": [],
             "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Afterword: Author&#39;s",
-            "SortOrder": "11310",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "p-190"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Afterword: Artist&#39;s",
-            "SortOrder": "11311",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "p-191",
-              "p-192",
-              "p-193",
-              "p-194",
-              "p-195"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
           }
         ],
         "Splits": [],
@@ -4372,26 +4331,30 @@
         "KeepFirstSplitSection": true
       }
     ],
-    "BonusChapters": [
-      {
-        "ChapterName": "Ascendance of a Bookworm (Manga) Part 2 Volume 6",
-        "SortOrder": "113",
-        "SubFolder": "",
-        "OriginalFilenames": [],
-        "Chapters": [],
-        "Splits": [],
-        "Replacements": [],
-        "LinkedChapters": [],
-        "KeepFirstSplitSection": true
-      }
-    ],
     "ExtraContent": [
       {
-        "ChapterName": "Ascendance of a Bookworm (Manga) Part 2 Volume 6",
-        "SortOrder": "113",
-        "SubFolder": "",
+        "ChapterName": "Afterwords",
+        "SortOrder": "999",
+        "SubFolder": "2-Part 2: I'll even join the temple to read books!",
         "OriginalFilenames": [],
-        "Chapters": [],
+        "Chapters": [
+          {
+            "ChapterName": "Volume 6",
+            "SortOrder": "11310",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "p-190",
+              "p-191",
+              "p-192",
+              "p-193"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
         "Splits": [],
         "Replacements": [],
         "LinkedChapters": [],
