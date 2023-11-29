@@ -4033,9 +4033,7 @@
         "SortOrder": "2",
         "SubFolder": "",
         "OriginalFilenames": [
-          "cover",
-          "p-002",
-          "p-003"
+          "cover"
         ],
         "Chapters": [
           {
@@ -4382,31 +4380,17 @@
     "InternalName": "ascendance-of-a-bookworm-manga-part-2-volume-7",
     "Chapters": [
       {
-        "ChapterName": "Ascendance of a Bookworm (Manga) Part 2 Volume 7",
-        "SortOrder": "114",
+        "ChapterName": "Part 2: I'll even join the temple to read books!",
+        "SortOrder": "2",
         "SubFolder": "",
-        "OriginalFilenames": [],
+        "OriginalFilenames": [
+          "cover",
+          "p-002",
+          "p-003"
+        ],
         "Chapters": [
           {
-            "ChapterName": "Cover",
-            "SortOrder": "11401",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "cover",
-              "p-000",
-              "p-001",
-              "p-002",
-              "p-003",
-              "p-004"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter 32: Buying Winter Clothes",
+            "ChapterName": "Buying Winter Clothes",
             "SortOrder": "11402",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -4434,8 +4418,7 @@
               "p-026",
               "p-027",
               "p-028",
-              "p-029",
-              "p-030"
+              "p-029"
             ],
             "Chapters": [],
             "Splits": [],
@@ -4444,7 +4427,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 33: Winter Preparations and the Knight&#39;s Order",
+            "ChapterName": "Winter Preparations and the Knight&#39;s Order",
             "SortOrder": "11403",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -4486,7 +4469,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 34: Trombe Extermination",
+            "ChapterName": "Trombe Extermination",
             "SortOrder": "11404",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -4516,8 +4499,7 @@
               "p-084",
               "p-085",
               "p-086",
-              "p-087",
-              "p-088"
+              "p-087"
             ],
             "Chapters": [],
             "Splits": [],
@@ -4526,7 +4508,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 35: During the Trombe Hunt",
+            "ChapterName": "During the Trombe Hunt",
             "SortOrder": "11405",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -4568,7 +4550,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 36: Rescue and Reprimand",
+            "ChapterName": "Rescue and Reprimand",
             "SortOrder": "11406",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -4607,78 +4589,7 @@
               "p-151",
               "p-152",
               "p-153",
-              "p-154",
-              "p-155",
-              "p-156"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Extra: Mental Image",
-            "SortOrder": "11407",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "p-157",
-              "p-158",
-              "p-159",
-              "p-160"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Story: My First Trombe Hunt",
-            "SortOrder": "11408",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "p-161",
-              "p-162",
-              "p-163",
-              "p-164",
-              "p-165",
-              "p-166",
-              "p-167",
-              "p-168",
-              "p-169",
-              "p-170",
-              "p-171",
-              "p-172",
-              "p-173"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Afterword: Author&#39;s",
-            "SortOrder": "11409",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "p-174"
-            ],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Afterword: Artist&#39;s",
-            "SortOrder": "11410",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "p-175",
-              "p-176",
-              "p-177"
+              "p-154"
             ],
             "Chapters": [],
             "Splits": [],
@@ -4695,11 +4606,51 @@
     ],
     "BonusChapters": [
       {
-        "ChapterName": "Ascendance of a Bookworm (Manga) Part 2 Volume 7",
-        "SortOrder": "114",
+        "ChapterName": "Part 2: I'll even join the temple to read books!",
+        "SortOrder": "2",
         "SubFolder": "",
         "OriginalFilenames": [],
-        "Chapters": [],
+        "Chapters": [
+          {
+            "ChapterName": "Mental Image",
+            "SortOrder": "11407",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "p-157",
+              "p-158",
+              "p-159",
+              "p-160"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "My First Trombe Hunt",
+            "SortOrder": "11404b",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "p-162",
+              "p-163",
+              "p-164",
+              "p-165",
+              "p-166",
+              "p-167",
+              "p-168",
+              "p-169",
+              "p-170",
+              "p-171",
+              "p-172"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
         "Splits": [],
         "Replacements": [],
         "LinkedChapters": [],
@@ -4708,11 +4659,26 @@
     ],
     "ExtraContent": [
       {
-        "ChapterName": "Ascendance of a Bookworm (Manga) Part 2 Volume 7",
-        "SortOrder": "114",
-        "SubFolder": "",
+        "ChapterName": "Afterwords",
+        "SortOrder": "999",
+        "SubFolder": "2-Part 2: I'll even join the temple to read books!",
         "OriginalFilenames": [],
-        "Chapters": [],
+        "Chapters": [
+          {
+            "ChapterName": "Volume 7",
+            "SortOrder": "11409",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "p-174",
+              "p-175"
+            ],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
         "Splits": [],
         "Replacements": [],
         "LinkedChapters": [],
