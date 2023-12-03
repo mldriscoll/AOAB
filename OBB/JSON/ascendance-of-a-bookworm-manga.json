@@ -52,6 +52,12 @@
               "p-039",
               "p-040"
             ],
+            "SplashPages": [
+              {
+                "Left": "p-003",
+                "Right": "p-002"
+              }
+            ],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -840,6 +846,12 @@
               "p-169",
               "p-170"
             ],
+            "SplashPages": [
+              {
+                "Left": "p-169",
+                "Right": "p-168"
+              }
+            ],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1250,6 +1262,12 @@
               "p-175",
               "p-177",
               "p-178"
+            ],
+            "SplashPages": [
+              {
+                "Left": "p-178",
+                "Right": "p-177"
+              }
             ],
             "Chapters": [],
             "Splits": [],
@@ -1973,6 +1991,12 @@
           "p-002",
           "p-003"
         ],
+        "SplashPages": [
+          {
+            "Left": "p-003",
+            "Right": "p-002"
+          }
+        ],
         "Chapters": [
           {
             "ChapterName": "Freida&#39;s Contract &amp; the Baptism Ceremony",
@@ -2196,6 +2220,12 @@
               "p-184",
               "p-185"
             ],
+            "SplashPages": [
+              {
+                "Left": "p-185",
+                "Right": "p-184"
+              }
+            ],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -2403,6 +2433,12 @@
               "p-049",
               "p-050"
             ],
+            "SplashPages": [
+              {
+                "Left": "p-007",
+                "Right": "p-006"
+              }
+            ],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -2505,6 +2541,12 @@
               "p-127",
               "p-128",
               "p-129"
+            ],
+            "SplashPages": [
+              {
+                "Left": "p-105",
+                "Right": "p-104"
+              }
             ],
             "Chapters": [],
             "Splits": [],
@@ -2647,6 +2689,12 @@
               "p-197",
               "p-198",
               "p-199"
+            ],
+            "SplashPages": [
+              {
+                "Left": "p-199",
+                "Right": "p-198"
+              }
             ],
             "Chapters": [],
             "Splits": [],
@@ -2896,6 +2944,12 @@
               "p-157",
               "p-158"
             ],
+            "SplashPages": [
+              {
+                "Left": "p-141",
+                "Right": "p-140"
+              }
+            ],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -3096,6 +3150,12 @@
               "p-048",
               "p-049"
             ],
+            "SplashPages": [
+              {
+                "Left": "p-033",
+                "Right": "p-032"
+              }
+            ],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -3253,6 +3313,16 @@
               "p-158",
               "p-159",
               "p-160"
+            ],
+            "SplashPages": [
+              {
+                "Left": "p-133",
+                "Right": "p-132"
+              },
+              {
+                "Left": "p-153",
+                "Right": "p-152"
+              }
             ],
             "Chapters": [],
             "Splits": [],
@@ -3995,6 +4065,12 @@
               "p-182",
               "p-183"
             ],
+            "SplashPages": [
+              {
+                "Left": "p-183",
+                "Right": "p-182"
+              }
+            ],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -4218,6 +4294,12 @@
               "p-137",
               "p-138"
             ],
+            "SplashPages": [
+              {
+                "Left": "p-115",
+                "Right": "p-114"
+              }
+            ],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -4420,6 +4502,12 @@
               "p-028",
               "p-029"
             ],
+            "SplashPages": [
+              {
+                "Left": "p-011",
+                "Right": "p-010"
+              }
+            ],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -4462,6 +4550,12 @@
               "p-059",
               "p-060"
             ],
+            "SplashPages": [
+              {
+                "Left": "p-051",
+                "Right": "p-050"
+              }
+            ],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -4500,6 +4594,20 @@
               "p-085",
               "p-086",
               "p-087"
+            ],
+            "SplashPages": [
+              {
+                "Left": "p-067",
+                "Right": "p-066"
+              },
+              {
+                "Left": "p-075",
+                "Right": "p-074"
+              },
+              {
+                "Left": "p-081",
+                "Right": "p-080"
+              }
             ],
             "Chapters": [],
             "Splits": [],
@@ -4542,6 +4650,12 @@
               "p-116",
               "p-117",
               "p-118"
+            ],
+            "SplashPages": [
+              {
+                "Left": "p-095",
+                "Right": "p-094"
+              }
             ],
             "Chapters": [],
             "Splits": [],
@@ -4590,6 +4704,12 @@
               "p-152",
               "p-153",
               "p-154"
+            ],
+            "SplashPages": [
+              {
+                "Left": "p-153",
+                "Right": "p-152"
+              }
             ],
             "Chapters": [],
             "Splits": [],
