@@ -93,6 +93,7 @@ namespace OBB
                 Console.WriteLine($"6 - Set a maximum height (in pixels) for images ({ImageSettings.MaxImageHeight})");
                 Console.WriteLine($"7 - Set a maximum width (in pixels) for images ({ImageSettings.MaxImageWidth})");
                 Console.WriteLine($"8 - Set the image quality for any resized images ({ImageSettings.ImageQuality})");
+                Console.WriteLine($"9 - Combine Manga Splash Pages into single images ({ImageSettings.CombineMangaSplashPages})");
                 var line = Console.ReadLine();
 
                 if (!int.TryParse(line, out var choice)) break;
@@ -122,6 +123,9 @@ namespace OBB
                         break;
                     case 8:
                         SetInt("What quality do you want resized images to be saved with?", x => ImageSettings.ImageQuality = x, 1, 100);
+                        break;
+                    case 9:
+                        SetBool("Do you want to combine manga splash pages into single landscape images?", x => ImageSettings.CombineMangaSplashPages = x);
                         break;
                 }
             }

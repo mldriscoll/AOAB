@@ -2,6 +2,7 @@
 {
     public class ImageSettings
     {
+        public bool CombineMangaSplashPages { get; set; } = false;
         public bool IncludeBonusArtAtStartOfVolume { get; set; } = true;
         public bool IncludeBonusArtAtEndOfVolume { get; set; } = false;
         public bool IncludeInsertsAtStartOfVolume { get; set; } = false;

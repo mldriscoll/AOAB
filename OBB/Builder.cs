@@ -2,6 +2,9 @@
 using Core.Downloads;
 using Core.Processor;
 using OBB.JSONCode;
+using SixLabors.ImageSharp;
+using SixLabors.ImageSharp.PixelFormats;
+using SixLabors.ImageSharp.Processing;
 using System.IO.Compression;
 using System.Runtime.Serialization.Json;
 using System.Text.RegularExpressions;
@@ -182,6 +185,35 @@ namespace OBB
                             {
 
                                 newChapter.SortOrder = chapter.SortOrder;
+
+                                if (Settings.ImageSettings.CombineMangaSplashPages)
+                                {
+                                    foreach(var splash in chapter.SplashPages)
+                                    {
+                                        var one = inChapters.First(x => x.Name.Equals(splash.Right, StringComparison.InvariantCultureIgnoreCase));
+                                        var imR = inProcessor.Images.FirstOrDefault(x => one.Contents.Contains(x.Name));
+
+                                        var two = inChapters.First(x => x.Name.Equals(splash.Left, StringComparison.InvariantCultureIgnoreCase));
+                                        var imL = inProcessor.Images.FirstOrDefault(x => two.Contents.Contains(x.Name));
+
+                                        var right = await SixLabors.ImageSharp.Image.LoadAsync(imR.OldLocation);
+                                        var left = await SixLabors.ImageSharp.Image.LoadAsync(imL.OldLocation);
+
+                                        var outputImage = new Image<Rgba32>(right.Width + left.Width, right.Height);
+                                        outputImage.Mutate(x => x
+                                            .DrawImage(left, new Point(0, 0), 1f)
+                                            .DrawImage(right, new Point(left.Width, 0), 1f)
+                                            );
+
+                                        await outputImage.SaveAsJpegAsync(imR.OldLocation);
+                                        chapter.OriginalFilenames.Remove(splash.Left);
+
+                                        var widthRegex = new Regex("width=\"\\d*\"");
+                                        one.Contents = widthRegex.Replace(one.Contents, string.Empty);
+                                        var viewBoxRegex = new Regex("viewBox=\"[\\d ]*\"");
+                                        one.Contents = viewBoxRegex.Replace(one.Contents, $"viewBox=\"0 0 {outputImage.Width} {outputImage.Height}\"");
+                                    }
+                                }
 
                                 foreach (var chapterFile in chapter.OriginalFilenames)
                                 {
