@@ -7,6 +7,7 @@
         "SortOrder": "01",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "The Young Lady Moves",
@@ -19,6 +20,7 @@
               "insert2",
               "chapter1_2"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [
               {
@@ -73,6 +75,7 @@
               "insert4",
               "chapter2_2"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [
               {
@@ -119,6 +122,7 @@
               "insert5",
               "chapter3_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [
               {
@@ -167,6 +171,7 @@
               "insert7",
               "chapter4_2"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [
               {
@@ -215,6 +220,7 @@
               "insert9",
               "chapter5_2"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [
               {
@@ -280,6 +286,7 @@
         "OriginalFilenames": [
           "afterword"
         ],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -311,6 +318,7 @@
         "SortOrder": "",
         "SubFolder": "01-Volume 01",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -327,6 +335,7 @@
         "SortOrder": "02",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "So Long, Sykes",
@@ -339,6 +348,7 @@
               "insert2",
               "chapter1_2"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [
               {
@@ -395,6 +405,7 @@
               "insert5",
               "chapter2_3"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [
               {
@@ -453,6 +464,7 @@
               "insert9",
               "chapter3_4"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [
               {
@@ -512,6 +524,7 @@
         "OriginalFilenames": [
           "afterword"
         ],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -543,6 +556,7 @@
         "SortOrder": "",
         "SubFolder": "02-Volume 02",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],

@@ -7,6 +7,7 @@
         "SortOrder": "01",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Prologue",
@@ -15,6 +16,7 @@
             "OriginalFilenames": [
               "prologue"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -30,6 +32,7 @@
               "insert1",
               "chapter1_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -49,6 +52,7 @@
               "insert4",
               "chapter2_3"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -64,6 +68,7 @@
               "insert5",
               "chapter3_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -81,6 +86,7 @@
               "insert7",
               "chapter4_2"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -96,6 +102,7 @@
               "insert8",
               "chapter5_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -111,6 +118,7 @@
               "insert9",
               "chapter6_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -126,6 +134,7 @@
               "insert10",
               "chapter7_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -139,6 +148,7 @@
             "OriginalFilenames": [
               "epilogue"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -158,6 +168,7 @@
         "SortOrder": "01",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Interlude 1: The King",
@@ -166,6 +177,7 @@
             "OriginalFilenames": [
               "interlude1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -179,6 +191,7 @@
             "OriginalFilenames": [
               "interlude2"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -192,6 +205,7 @@
             "OriginalFilenames": [
               "interlude3"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -205,6 +219,7 @@
             "OriginalFilenames": [
               "interlude4"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -218,6 +233,7 @@
             "OriginalFilenames": [
               "interlude5"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -237,6 +253,7 @@
         "SortOrder": "01",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Character Guide",
@@ -245,6 +262,7 @@
             "OriginalFilenames": [
               "bonus3"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -264,6 +282,7 @@
         "OriginalFilenames": [
           "afterword"
         ],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -295,6 +314,7 @@
         "SortOrder": "",
         "SubFolder": "01-Act 1",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -311,6 +331,7 @@
         "SortOrder": "102",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Prologue",
@@ -321,6 +342,7 @@
               "insert1",
               "prologue_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -334,6 +356,7 @@
             "OriginalFilenames": [
               "chapter1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -349,6 +372,7 @@
               "insert2",
               "chapter2_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -364,6 +388,7 @@
               "insert3",
               "chapter3_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -381,6 +406,7 @@
               "insert5",
               "chapter4_2"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -396,6 +422,7 @@
               "insert6",
               "chapter5_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -411,6 +438,7 @@
               "insert7",
               "chapter6_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -428,6 +456,7 @@
               "insert9",
               "chapter7_2"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -443,6 +472,7 @@
               "insert10",
               "epilogue_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -462,6 +492,7 @@
         "SortOrder": "102",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Interlude 1: The Duke of Hillrose",
@@ -470,6 +501,7 @@
             "OriginalFilenames": [
               "interlude1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -483,6 +515,7 @@
             "OriginalFilenames": [
               "interlude2"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -496,6 +529,7 @@
             "OriginalFilenames": [
               "interlude3"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -509,6 +543,7 @@
             "OriginalFilenames": [
               "interlude4"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -522,6 +557,7 @@
             "OriginalFilenames": [
               "interlude5"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -535,6 +571,7 @@
             "OriginalFilenames": [
               "interlude6"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -554,6 +591,7 @@
         "SortOrder": "102",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Character Guide",
@@ -562,6 +600,7 @@
             "OriginalFilenames": [
               "bonus3"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -581,6 +620,7 @@
         "OriginalFilenames": [
           "afterword"
         ],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -612,6 +652,7 @@
         "SortOrder": "",
         "SubFolder": "102-Act 2",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -628,6 +669,7 @@
         "SortOrder": "103",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Prologue",
@@ -636,6 +678,7 @@
             "OriginalFilenames": [
               "prologue"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -653,6 +696,7 @@
               "insert2",
               "chapter1_2"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -668,6 +712,7 @@
               "insert3",
               "chapter2_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -683,6 +728,7 @@
               "insert4",
               "chapter3_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -704,6 +750,7 @@
               "insert8",
               "chapter4_4"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -721,6 +768,7 @@
               "insert10",
               "chapter5_2"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -734,6 +782,7 @@
             "OriginalFilenames": [
               "epilogue"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -753,6 +802,7 @@
         "SortOrder": "103",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Interlude 1: Lemn",
@@ -761,6 +811,7 @@
             "OriginalFilenames": [
               "interlude1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -774,6 +825,7 @@
             "OriginalFilenames": [
               "interlude2"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -787,6 +839,7 @@
             "OriginalFilenames": [
               "interlude3"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -800,6 +853,7 @@
             "OriginalFilenames": [
               "interlude4"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -821,6 +875,7 @@
         "OriginalFilenames": [
           "afterword"
         ],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -853,6 +908,7 @@
         "SortOrder": "",
         "SubFolder": "103-Act 3",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],

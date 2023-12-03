@@ -7,6 +7,7 @@
         "SortOrder": "01",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Carla, the Apothecary Witch",
@@ -17,6 +18,7 @@
               "insert1",
               "chapter1_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -34,6 +36,7 @@
               "insert3",
               "chapter2_2"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -47,6 +50,7 @@
             "OriginalFilenames": [
               "chapter3"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -60,6 +64,7 @@
             "OriginalFilenames": [
               "chapter4"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -75,6 +80,7 @@
               "insert4",
               "chapter5_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -92,6 +98,7 @@
               "insert6",
               "chapter6_2"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -105,6 +112,7 @@
             "OriginalFilenames": [
               "chapter7"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -120,6 +128,7 @@
               "insert7",
               "chapter8_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -134,6 +143,7 @@
               "chapter9",
               "insert8"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -153,6 +163,7 @@
         "SortOrder": "01",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Side Story: From White to Navy",
@@ -161,6 +172,7 @@
             "OriginalFilenames": [
               "side"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -182,6 +194,7 @@
         "OriginalFilenames": [
           "afterword"
         ],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -212,6 +225,7 @@
         "SortOrder": "",
         "SubFolder": "01-Volume 01",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -228,6 +242,7 @@
         "SortOrder": "102",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Carla’s Apothecary",
@@ -240,6 +255,7 @@
               "insert2",
               "chapter1_2"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -253,6 +269,7 @@
             "OriginalFilenames": [
               "chapter2"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -266,6 +283,7 @@
             "OriginalFilenames": [
               "chapter3"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -281,6 +299,7 @@
               "insert3",
               "chapter4_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -296,6 +315,7 @@
               "insert4",
               "chapter5_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -313,6 +333,7 @@
               "insert6",
               "chapter6_2"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -328,6 +349,7 @@
               "insert7",
               "chapter7_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -342,6 +364,7 @@
               "chapter8",
               "insert8"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -364,6 +387,7 @@
         "OriginalFilenames": [
           "afterword"
         ],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -394,6 +418,7 @@
         "SortOrder": "",
         "SubFolder": "102-Volume 02",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],

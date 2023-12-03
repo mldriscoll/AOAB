@@ -7,6 +7,7 @@
         "SortOrder": "01",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Four Years Earlier",
@@ -15,6 +16,7 @@
             "OriginalFilenames": [
               "chapter0"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -30,6 +32,7 @@
               "insert1",
               "chapter1_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -43,6 +46,7 @@
             "OriginalFilenames": [
               "chapter2"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -56,6 +60,7 @@
             "OriginalFilenames": [
               "chapter3"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -71,6 +76,7 @@
               "insert2",
               "chapter4_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -86,6 +92,7 @@
               "insert3",
               "chapter5_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -102,6 +109,7 @@
               "chapter6_1",
               "insert5"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -119,6 +127,7 @@
         "SortOrder": "02",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "The Visitor",
@@ -129,6 +138,7 @@
               "insert6",
               "chapter7_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -144,6 +154,7 @@
               "insert7",
               "chapter8_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -158,6 +169,7 @@
               "chapter9",
               "insert8"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -177,6 +189,7 @@
         "SortOrder": "01",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "A Gathering to Comfort a Brokenhearted Man",
@@ -185,6 +198,7 @@
             "OriginalFilenames": [
               "interlude1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -198,6 +212,7 @@
             "OriginalFilenames": [
               "interlude2"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -211,6 +226,7 @@
             "OriginalFilenames": [
               "interlude3"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -228,6 +244,7 @@
         "SortOrder": "02",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Rurii’s Soliloquy",
@@ -236,6 +253,7 @@
             "OriginalFilenames": [
               "side"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -257,6 +275,7 @@
         "OriginalFilenames": [
           "afterword"
         ],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -285,6 +304,7 @@
         "SortOrder": "",
         "SubFolder": "01-A Housekeeping Mage’s Daily Life",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -301,6 +321,7 @@
         "SortOrder": "03",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Changes in the Forest",
@@ -313,6 +334,7 @@
               "insert2",
               "chapter1_2"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -328,6 +350,7 @@
               "insert3",
               "chapter2_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -345,6 +368,7 @@
         "SortOrder": "04",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "The Forest’s Retribution",
@@ -355,6 +379,7 @@
               "insert4",
               "chapter3_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -370,6 +395,7 @@
               "insert5",
               "chapter4_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -385,6 +411,7 @@
               "insert6",
               "chapter5_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -406,6 +433,7 @@
         "OriginalFilenames": [
           "interlude1"
         ],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -417,6 +445,7 @@
         "SortOrder": "04",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Crying Party for the Brokenhearted",
@@ -425,6 +454,7 @@
             "OriginalFilenames": [
               "interlude2"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -440,6 +470,7 @@
               "insert7",
               "interlude3_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -453,6 +484,7 @@
             "OriginalFilenames": [
               "interlude4"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -466,6 +498,7 @@
             "OriginalFilenames": [
               "interlude5"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -479,6 +512,7 @@
             "OriginalFilenames": [
               "interlude6"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -492,6 +526,7 @@
             "OriginalFilenames": [
               "interlude7"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -506,6 +541,7 @@
               "interlude8",
               "insert8"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -527,6 +563,7 @@
         "OriginalFilenames": [
           "afterword"
         ],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -555,6 +592,7 @@
         "SortOrder": "",
         "SubFolder": "03-Love Ending, Love Beginning",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -571,6 +609,7 @@
         "SortOrder": "05",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "A Most Troublesome Client",
@@ -583,6 +622,7 @@
               "insert2",
               "chapter1_2"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -600,6 +640,7 @@
               "insert4",
               "chapter2_2"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -617,6 +658,7 @@
         "SortOrder": "06",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "The Color and Shape of Twilight",
@@ -625,6 +667,7 @@
             "OriginalFilenames": [
               "chapter3"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -644,6 +687,7 @@
               "insert8",
               "chapter4_3"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -663,6 +707,7 @@
         "SortOrder": "05",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Two Men and a Wasted Feast",
@@ -671,6 +716,7 @@
             "OriginalFilenames": [
               "interlude1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -686,6 +732,7 @@
               "insert5",
               "interlude2_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -703,6 +750,7 @@
         "SortOrder": "06",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "The Herbalist Physician’s Tender Wish",
@@ -711,6 +759,7 @@
             "OriginalFilenames": [
               "side1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -724,6 +773,7 @@
             "OriginalFilenames": [
               "side2"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -737,6 +787,7 @@
             "OriginalFilenames": [
               "side3"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -758,6 +809,7 @@
         "OriginalFilenames": [
           "afterword"
         ],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -786,6 +838,7 @@
         "SortOrder": "",
         "SubFolder": "05-Proof of Remembrance",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -802,6 +855,7 @@
         "SortOrder": "07",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "The Woman from the Heavens",
@@ -812,6 +866,7 @@
               "insert1",
               "chapter1_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -828,6 +883,7 @@
               "chapter2_1",
               "insert3"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -845,6 +901,7 @@
         "SortOrder": "08",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "The Truth of the Past Comes to Light",
@@ -855,6 +912,7 @@
               "insert4",
               "chapter3_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -870,6 +928,7 @@
               "insert5",
               "chapter4_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -889,6 +948,7 @@
         "SortOrder": "08",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "A Younger Brother’s Request",
@@ -897,6 +957,7 @@
             "OriginalFilenames": [
               "interlude1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -910,6 +971,7 @@
             "OriginalFilenames": [
               "interlude2"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -923,6 +985,7 @@
             "OriginalFilenames": [
               "interlude3"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -942,6 +1005,7 @@
               "insert8",
               "side1_3"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -963,6 +1027,7 @@
         "OriginalFilenames": [
           "afterword"
         ],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -991,6 +1056,7 @@
         "SortOrder": "",
         "SubFolder": "07-Blending Hearts",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -1007,6 +1073,7 @@
         "SortOrder": "09",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "A Night of Conspiracy",
@@ -1017,6 +1084,7 @@
               "insert1",
               "chapter1_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1034,6 +1102,7 @@
               "insert3",
               "chapter2_2"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1053,6 +1122,7 @@
               "insert6",
               "chapter3_3"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1076,6 +1146,7 @@
           "insert8",
           "chapter4_2"
         ],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -1089,6 +1160,7 @@
         "SortOrder": "09",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "The Thoughts of Holy Men",
@@ -1097,6 +1169,7 @@
             "OriginalFilenames": [
               "interlude1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1110,6 +1183,7 @@
             "OriginalFilenames": [
               "interlude2"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1127,6 +1201,7 @@
         "SortOrder": "10",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "The Temptation of the Snow Violets",
@@ -1135,6 +1210,7 @@
             "OriginalFilenames": [
               "side1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1148,6 +1224,7 @@
             "OriginalFilenames": [
               "bonus"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1169,6 +1246,7 @@
         "OriginalFilenames": [
           "afterword"
         ],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -1197,6 +1275,7 @@
         "SortOrder": "",
         "SubFolder": "09-Idol of the Holy Night",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -1213,6 +1292,7 @@
         "SortOrder": "11",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "The Darkness Lurking in the Depths",
@@ -1227,6 +1307,7 @@
               "insert3",
               "chapter1_3"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [
               {
@@ -1267,6 +1348,7 @@
               "insert4",
               "chapter2_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [
               {
@@ -1291,6 +1373,7 @@
         "SortOrder": "12",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Two Fateful Encounters and a Parting Omen",
@@ -1301,6 +1384,7 @@
               "insert5",
               "chapter3_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1314,6 +1398,7 @@
             "OriginalFilenames": [
               "chapter4"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [
               {
@@ -1364,6 +1449,7 @@
         "SortOrder": "11",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "The Resolve of Two Doctors",
@@ -1372,6 +1458,7 @@
             "OriginalFilenames": [
               "interlude1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1385,6 +1472,7 @@
             "OriginalFilenames": [
               "interlude2"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1398,6 +1486,7 @@
             "OriginalFilenames": [
               "interlude3"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1415,6 +1504,7 @@
         "SortOrder": "12",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Side Story: Of Wraiths and Haunted Villages",
@@ -1429,6 +1519,7 @@
               "insert8",
               "side1_3"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [
               {
@@ -1455,6 +1546,7 @@
             "OriginalFilenames": [
               "bonus"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1474,6 +1566,7 @@
         "SortOrder": "106",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -1487,6 +1580,7 @@
         "OriginalFilenames": [
           "afterword"
         ],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -1515,6 +1609,7 @@
         "SortOrder": "",
         "SubFolder": "11-A Place to Call Home",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -1531,6 +1626,7 @@
         "SortOrder": "13",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Celestial Maiden from Another World",
@@ -1541,6 +1637,7 @@
               "insert1",
               "chapter1_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [
               {
@@ -1575,6 +1672,7 @@
               "insert2",
               "chapter2_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [
               {
@@ -1627,6 +1725,7 @@
               "insert3",
               "chapter3_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [
               {
@@ -1663,6 +1762,7 @@
         "SortOrder": "14",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "A Prince in Prayer and a Healing Celestial Maiden",
@@ -1675,6 +1775,7 @@
               "insert5",
               "chapter4_2"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [
               {
@@ -1696,6 +1797,7 @@
               "chapter5",
               "insert6"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [
               {
@@ -1738,6 +1840,7 @@
           "insert8",
           "chapter6_2"
         ],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [
           {
@@ -1764,6 +1867,7 @@
         "SortOrder": "14",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "A Fork in the Road",
@@ -1772,6 +1876,7 @@
             "OriginalFilenames": [
               "interlude1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1785,6 +1890,7 @@
             "OriginalFilenames": [
               "interlude2"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1798,6 +1904,7 @@
             "OriginalFilenames": [
               "interlude3"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1815,6 +1922,7 @@
         "SortOrder": "15",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "The Diary of Bla, the Familiar",
@@ -1823,6 +1931,7 @@
             "OriginalFilenames": [
               "interlude4"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1836,6 +1945,7 @@
             "OriginalFilenames": [
               "interlude5"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1849,6 +1959,7 @@
             "OriginalFilenames": [
               "side1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1862,6 +1973,7 @@
             "OriginalFilenames": [
               "bonus"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1883,6 +1995,7 @@
         "OriginalFilenames": [
           "afterword"
         ],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -1911,6 +2024,7 @@
         "SortOrder": "",
         "SubFolder": "13-The Eastern Merchant",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],

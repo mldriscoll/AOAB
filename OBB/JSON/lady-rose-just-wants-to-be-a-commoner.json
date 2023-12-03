@@ -7,6 +7,7 @@
         "SortOrder": "101",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Chapter 1",
@@ -41,6 +42,7 @@
               "p-027",
               "p-028"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -73,6 +75,7 @@
               "p-049",
               "p-050"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -103,6 +106,7 @@
               "p-069",
               "p-070"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -139,6 +143,7 @@
               "p-095",
               "p-096"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -181,6 +186,7 @@
               "p-127",
               "p-128"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -213,6 +219,7 @@
               "p-147",
               "p-148"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -232,6 +239,7 @@
         "SortOrder": "101",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "The Girl Who Broke the Flags",
@@ -248,6 +256,7 @@
               "p-158",
               "p-159"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -267,6 +276,7 @@
         "SortOrder": "999",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Volume 1",
@@ -277,6 +287,7 @@
               "p-161",
               "p-162"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -299,6 +310,7 @@
         "SortOrder": "",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -317,6 +329,7 @@
         "OriginalFilenames": [
           "cover"
         ],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Chapter 7",
@@ -357,6 +370,7 @@
               "p-032",
               "p-033"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -401,6 +415,7 @@
               "p-065",
               "p-066"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -450,6 +465,7 @@
               "p-104",
               "p-105"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -489,6 +505,7 @@
               "p-132",
               "p-133"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -543,6 +560,7 @@
               "p-175",
               "p-176"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -563,6 +581,7 @@
         "SortOrder": "999",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Volume 2",
@@ -571,6 +590,7 @@
             "OriginalFilenames": [
               "p-178"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -593,6 +613,7 @@
         "SortOrder": "",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -611,6 +632,7 @@
         "OriginalFilenames": [
           "cover"
         ],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Chapter 12",
@@ -641,6 +663,7 @@
               "p-023",
               "p-024"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -679,6 +702,7 @@
               "p-051",
               "p-052"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -717,6 +741,7 @@
               "p-079",
               "p-080"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -753,6 +778,7 @@
               "p-105",
               "p-106"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -803,6 +829,7 @@
               "p-145",
               "p-146"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -822,6 +849,7 @@
         "SortOrder": "103",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Extra Story",
@@ -837,6 +865,7 @@
               "p-155",
               "p-156"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -856,6 +885,7 @@
         "SortOrder": "999",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Volume 3",
@@ -867,6 +897,7 @@
               "p-160",
               "p-161"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -889,6 +920,7 @@
         "SortOrder": "",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -907,6 +939,7 @@
         "OriginalFilenames": [
           "cover"
         ],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Chapter 17",
@@ -948,6 +981,7 @@
               "p-033",
               "p-034"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -992,6 +1026,7 @@
               "p-067",
               "p-068"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1029,6 +1064,7 @@
               "p-094",
               "p-095"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1075,6 +1111,7 @@
               "p-129",
               "p-130"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1115,6 +1152,7 @@
               "p-159",
               "p-160"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1135,6 +1173,7 @@
         "SortOrder": "999",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Volume 4",
@@ -1143,6 +1182,7 @@
             "OriginalFilenames": [
               "p-162"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1165,6 +1205,7 @@
         "SortOrder": "",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],

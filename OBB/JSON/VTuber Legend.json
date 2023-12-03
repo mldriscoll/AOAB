@@ -7,6 +7,7 @@
         "SortOrder": "01",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Prologue",
@@ -17,6 +18,7 @@
               "insert1",
               "prologue_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -32,6 +34,7 @@
               "insert2",
               "chapter1_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [
               {
@@ -64,6 +67,7 @@
               "insert5",
               "chapter2_3"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [
               {
@@ -118,6 +122,7 @@
               "insert7",
               "chapter3_2"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [
               {
@@ -152,6 +157,7 @@
               "insert8",
               "chapter4_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [
               {
@@ -172,6 +178,7 @@
             "OriginalFilenames": [
               "epilogue"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -191,6 +198,7 @@
         "SortOrder": "01",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Idle Talk: The Comment Section After She Forgot to Turn Off Her Stream",
@@ -199,6 +207,7 @@
             "OriginalFilenames": [
               "side1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -212,6 +221,7 @@
             "OriginalFilenames": [
               "side2"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -233,6 +243,7 @@
         "OriginalFilenames": [
           "bonus_text"
         ],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -246,6 +257,7 @@
         "OriginalFilenames": [
           "afterword"
         ],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -276,6 +288,7 @@
         "SortOrder": "01",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -292,6 +305,7 @@
         "SortOrder": "02",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Prologue",
@@ -306,6 +320,7 @@
               "insert3",
               "prologue_3"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -323,6 +338,7 @@
               "insert5",
               "chapter1_2"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [
               {
@@ -357,6 +373,7 @@
               "insert6",
               "chapter2_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [
               {
@@ -385,6 +402,7 @@
               "insert7",
               "chapter3_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [
               {
@@ -412,6 +430,7 @@
               "chapter4",
               "insert8"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [
               {
@@ -432,6 +451,7 @@
             "OriginalFilenames": [
               "epilogue"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -451,6 +471,7 @@
         "SortOrder": "02",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Idle Talk: How I Met Mashiron",
@@ -459,6 +480,7 @@
             "OriginalFilenames": [
               "side1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -472,6 +494,7 @@
             "OriginalFilenames": [
               "side2"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -493,6 +516,7 @@
         "OriginalFilenames": [
           "afterword"
         ],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -524,6 +548,7 @@
         "SortOrder": "02",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -540,6 +565,7 @@
         "SortOrder": "03",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Prologue",
@@ -548,6 +574,7 @@
             "OriginalFilenames": [
               "prologue"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -561,6 +588,7 @@
             "OriginalFilenames": [
               "chapter1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [
               {
@@ -591,6 +619,7 @@
               "insert2",
               "chapter2_2"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [
               {
@@ -625,6 +654,7 @@
               "insert4",
               "chapter3_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [
               {
@@ -651,6 +681,7 @@
             "OriginalFilenames": [
               "epilogue"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -670,6 +701,7 @@
         "SortOrder": "03",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Idle Talk: Suzuki and Hareru",
@@ -678,6 +710,7 @@
             "OriginalFilenames": [
               "side1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -693,6 +726,7 @@
               "insert3",
               "side2_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -714,6 +748,7 @@
         "OriginalFilenames": [
           "afterword"
         ],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -740,6 +775,7 @@
         "SortOrder": "03",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -756,6 +792,7 @@
         "SortOrder": "04",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Prologue",
@@ -764,6 +801,7 @@
             "OriginalFilenames": [
               "prologue"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -779,6 +817,7 @@
               "insert1",
               "chapter1_2"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [
               {
@@ -819,6 +858,7 @@
               "insert6",
               "chapter2_4"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [
               {
@@ -854,6 +894,7 @@
               "chapter3_1",
               "insert8"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [
               {
@@ -874,6 +915,7 @@
             "OriginalFilenames": [
               "epilogue"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -893,6 +935,7 @@
         "SortOrder": "04",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Idle Talk: Portents",
@@ -902,6 +945,7 @@
               "side1",
               "insert2"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -923,6 +967,7 @@
         "OriginalFilenames": [
           "afterword"
         ],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -953,6 +998,7 @@
         "SortOrder": "04",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -969,6 +1015,7 @@
         "SortOrder": "105",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Prologue",
@@ -977,6 +1024,7 @@
             "OriginalFilenames": [
               "prologue"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -998,6 +1046,7 @@
               "insert3",
               "chapter1_4"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1015,6 +1064,7 @@
               "insert5",
               "chapter2_2"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1030,6 +1080,7 @@
               "insert6",
               "chapter3_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1047,6 +1098,7 @@
               "insert8",
               "chapter4_2"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1064,6 +1116,7 @@
               "insert10",
               "chapter5_2"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1077,6 +1130,7 @@
             "OriginalFilenames": [
               "epilogue"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1096,6 +1150,7 @@
         "SortOrder": "105",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Idle Talk: Awayuki Kokorone Answers Castellas",
@@ -1104,6 +1159,7 @@
             "OriginalFilenames": [
               "side1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1117,6 +1173,7 @@
             "OriginalFilenames": [
               "side2"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1130,6 +1187,7 @@
             "OriginalFilenames": [
               "side3"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1143,6 +1201,7 @@
             "OriginalFilenames": [
               "side4"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1164,6 +1223,7 @@
         "OriginalFilenames": [
           "afterword"
         ],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -1196,6 +1256,7 @@
         "SortOrder": "",
         "SubFolder": "105-Volume 05",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -1212,6 +1273,7 @@
         "SortOrder": "106",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Prologue",
@@ -1222,6 +1284,7 @@
               "insert1",
               "prologue_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1237,6 +1300,7 @@
               "insert2",
               "chapter1_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1252,6 +1316,7 @@
               "insert3",
               "chapter2_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [
               {
@@ -1276,6 +1341,7 @@
               "insert5",
               "chapter3_2"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [
               {
@@ -1297,6 +1363,7 @@
               "epilogue",
               "insert6"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1316,6 +1383,7 @@
         "SortOrder": "106",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Idle Chat: For Real?!",
@@ -1324,6 +1392,7 @@
             "OriginalFilenames": [
               "side1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1337,6 +1406,7 @@
             "OriginalFilenames": [
               "side2"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1358,6 +1428,7 @@
         "OriginalFilenames": [
           "afterword"
         ],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -1386,6 +1457,7 @@
         "SortOrder": "",
         "SubFolder": "106-Volume 06",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],

@@ -7,6 +7,7 @@
         "SortOrder": "01",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Prologue",
@@ -15,6 +16,7 @@
             "OriginalFilenames": [
               "prologue"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -32,6 +34,7 @@
               "insert2",
               "chapter1_2"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -47,6 +50,7 @@
               "insert3",
               "chapter2_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -60,6 +64,7 @@
             "OriginalFilenames": [
               "chapter3"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -77,6 +82,7 @@
               "insert5",
               "chapter4_2"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -90,6 +96,7 @@
             "OriginalFilenames": [
               "chapter5"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -103,6 +110,7 @@
             "OriginalFilenames": [
               "chapter6"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -116,6 +124,7 @@
             "OriginalFilenames": [
               "chapter7"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -131,6 +140,7 @@
               "insert6",
               "chapter8_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -144,6 +154,7 @@
             "OriginalFilenames": [
               "epilogue"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -163,6 +174,7 @@
         "SortOrder": "01",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "After the Graduation Ceremony",
@@ -171,6 +183,7 @@
             "OriginalFilenames": [
               "extrastory"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -192,6 +205,7 @@
         "OriginalFilenames": [
           "afterword"
         ],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -218,6 +232,7 @@
         "SortOrder": "",
         "SubFolder": "01-Heart High 1",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -234,6 +249,7 @@
         "SortOrder": "102",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Prologue",
@@ -244,6 +260,7 @@
               "insert1",
               "prologue_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -259,6 +276,7 @@
               "insert2",
               "chapter1_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -274,6 +292,7 @@
               "insert3",
               "chapter2_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -289,6 +308,7 @@
               "insert4",
               "chapter3_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -304,6 +324,7 @@
               "insert5",
               "chapter4_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -317,6 +338,7 @@
             "OriginalFilenames": [
               "chapter5"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -330,6 +352,7 @@
             "OriginalFilenames": [
               "chapter6"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -343,6 +366,7 @@
             "OriginalFilenames": [
               "epilogue"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -362,6 +386,7 @@
         "SortOrder": "102",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "In the Middle of the Party",
@@ -371,6 +396,7 @@
               "extrastory",
               "insert6"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -392,6 +418,7 @@
         "OriginalFilenames": [
           "afterword"
         ],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -418,6 +445,7 @@
         "SortOrder": "",
         "SubFolder": "102-Heart High 2",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -434,6 +462,7 @@
         "SortOrder": "103",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Tea Party",
@@ -442,6 +471,7 @@
             "OriginalFilenames": [
               "chapter1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -457,6 +487,7 @@
               "insert1",
               "chapter2_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -470,6 +501,7 @@
             "OriginalFilenames": [
               "chapter3"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -485,6 +517,7 @@
               "insert2",
               "chapter4_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -498,6 +531,7 @@
             "OriginalFilenames": [
               "chapter5"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -513,6 +547,7 @@
               "insert3",
               "chapter6_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -526,6 +561,7 @@
             "OriginalFilenames": [
               "chapter7"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -541,6 +577,7 @@
               "insert4",
               "chapter8_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -554,6 +591,7 @@
             "OriginalFilenames": [
               "chapter9"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -569,6 +607,7 @@
               "insert5",
               "chapter10_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -585,6 +624,7 @@
               "chapter11_1",
               "insert7"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -607,6 +647,7 @@
         "OriginalFilenames": [
           "afterword"
         ],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -634,6 +675,7 @@
         "SortOrder": "",
         "SubFolder": "103-Short Stories",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],

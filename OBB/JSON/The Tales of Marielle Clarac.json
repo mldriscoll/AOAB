@@ -7,6 +7,7 @@
         "SortOrder": "01a",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Chapter One",
@@ -15,6 +16,7 @@
             "OriginalFilenames": [
               "chapter1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -30,6 +32,7 @@
               "insert1",
               "chapter2_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -45,6 +48,7 @@
               "insert2",
               "chapter3_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -60,6 +64,7 @@
               "insert3",
               "chapter4_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -77,6 +82,7 @@
         "SortOrder": "01b",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Chapter One",
@@ -87,6 +93,7 @@
               "insert4",
               "chapter5_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -100,6 +107,7 @@
             "OriginalFilenames": [
               "chapter6"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -117,6 +125,7 @@
               "insert6",
               "chapter7_2"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -130,6 +139,7 @@
             "OriginalFilenames": [
               "chapter8"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -145,6 +155,7 @@
               "insert7",
               "chapter9_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -160,6 +171,7 @@
               "insert8",
               "chapter10_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -180,6 +192,7 @@
         "SortOrder": "01a",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Characters",
@@ -189,6 +202,7 @@
               "frontmatter2",
               "frontmatter3"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -208,6 +222,7 @@
         "OriginalFilenames": [
           "afterword"
         ],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -230,6 +245,7 @@
         "SortOrder": "",
         "SubFolder": "01a-The Engagement of Marielle Clarac",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -250,6 +266,7 @@
         "SortOrder": "",
         "SubFolder": "01b-The Love Story of Marielle Clarac",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -266,6 +283,7 @@
         "SortOrder": "02",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Chapter One",
@@ -274,6 +292,7 @@
             "OriginalFilenames": [
               "chapter1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -287,6 +306,7 @@
             "OriginalFilenames": [
               "chapter2"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -302,6 +322,7 @@
               "insert1",
               "chapter3_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -317,6 +338,7 @@
               "insert2",
               "chapter4_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -330,6 +352,7 @@
             "OriginalFilenames": [
               "chapter5"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -345,6 +368,7 @@
               "insert3",
               "chapter6_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -359,6 +383,7 @@
               "chapter7",
               "insert4"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -372,6 +397,7 @@
             "OriginalFilenames": [
               "chapter8"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -387,6 +413,7 @@
               "insert5",
               "chapter9_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -400,6 +427,7 @@
             "OriginalFilenames": [
               "chapter10"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -417,6 +445,7 @@
               "insert7",
               "chapter11_2"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -432,6 +461,7 @@
               "insert8",
               "chapter12_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -445,6 +475,7 @@
             "OriginalFilenames": [
               "chapter13"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -464,6 +495,7 @@
         "SortOrder": "02",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "The Blissfulness of Simeon Flaubert",
@@ -472,6 +504,7 @@
             "OriginalFilenames": [
               "extra"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -491,6 +524,7 @@
         "SortOrder": "02",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Character Sheet",
@@ -500,6 +534,7 @@
               "frontmatter2",
               "frontmatter3"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -519,6 +554,7 @@
         "OriginalFilenames": [
           "afterword"
         ],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -547,6 +583,7 @@
         "SortOrder": "",
         "SubFolder": "02-The Beloved of Marielle Clarac",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -563,6 +600,7 @@
         "SortOrder": "03",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Chapter One",
@@ -573,6 +611,7 @@
               "insert1",
               "chapter1_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -586,6 +625,7 @@
             "OriginalFilenames": [
               "chapter2"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -601,6 +641,7 @@
               "insert2",
               "chapter3_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -614,6 +655,7 @@
             "OriginalFilenames": [
               "chapter4"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -629,6 +671,7 @@
               "insert3",
               "chapter5_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -642,6 +685,7 @@
             "OriginalFilenames": [
               "chapter6"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -657,6 +701,7 @@
               "insert4",
               "chapter7_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -672,6 +717,7 @@
               "insert5",
               "chapter8_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -685,6 +731,7 @@
             "OriginalFilenames": [
               "chapter9"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -699,6 +746,7 @@
               "chapter10",
               "insert6"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -712,6 +760,7 @@
             "OriginalFilenames": [
               "chapter11"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -727,6 +776,7 @@
               "insert7",
               "chapter12_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -741,6 +791,7 @@
               "chapter13",
               "insert8"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -760,6 +811,7 @@
         "SortOrder": "03",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "The Sorrows of Prince Severin",
@@ -768,6 +820,7 @@
             "OriginalFilenames": [
               "extra1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -781,6 +834,7 @@
             "OriginalFilenames": [
               "bonus1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [
               {
@@ -813,6 +867,7 @@
         "SortOrder": "03",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Character Sheet",
@@ -822,6 +877,7 @@
               "frontmatter2",
               "frontmatter3"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -841,6 +897,7 @@
         "OriginalFilenames": [
           "afterword"
         ],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -868,6 +925,7 @@
         "SortOrder": "",
         "SubFolder": "03-The Temptation of Marielle Clarac",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -884,6 +942,7 @@
         "SortOrder": "104",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Chapter One",
@@ -892,6 +951,7 @@
             "OriginalFilenames": [
               "chapter1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -907,6 +967,7 @@
               "insert1",
               "chapter2_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -920,6 +981,7 @@
             "OriginalFilenames": [
               "chapter3"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -935,6 +997,7 @@
               "insert2",
               "chapter4_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -948,6 +1011,7 @@
             "OriginalFilenames": [
               "chapter5"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -961,6 +1025,7 @@
             "OriginalFilenames": [
               "chapter6"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -976,6 +1041,7 @@
               "insert3",
               "chapter7_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -991,6 +1057,7 @@
               "insert4",
               "chapter8_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1004,6 +1071,7 @@
             "OriginalFilenames": [
               "chapter9"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1019,6 +1087,7 @@
               "insert5",
               "chapter10_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1032,6 +1101,7 @@
             "OriginalFilenames": [
               "chapter11"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1047,6 +1117,7 @@
               "insert6",
               "chapter12_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1062,6 +1133,7 @@
               "insert7",
               "chapter13_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1075,6 +1147,7 @@
             "OriginalFilenames": [
               "chapter14"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1090,6 +1163,7 @@
               "insert8",
               "chapter15_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1109,6 +1183,7 @@
         "SortOrder": "104",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "The Calling Card of Lutin the Mysterious Thief",
@@ -1117,6 +1192,7 @@
             "OriginalFilenames": [
               "extra1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1130,6 +1206,7 @@
             "OriginalFilenames": [
               "bonus"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [
               {
@@ -1162,6 +1239,7 @@
         "SortOrder": "104",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Character Sheet",
@@ -1171,6 +1249,7 @@
               "frontmatter2",
               "frontmatter3"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1190,6 +1269,7 @@
         "OriginalFilenames": [
           "afterword"
         ],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -1218,6 +1298,7 @@
         "SortOrder": "",
         "SubFolder": "104-The Wedding of Marielle Clarac",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -1234,6 +1315,7 @@
         "SortOrder": "105",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Chapter One",
@@ -1242,6 +1324,7 @@
             "OriginalFilenames": [
               "chapter1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1255,6 +1338,7 @@
             "OriginalFilenames": [
               "chapter2"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1270,6 +1354,7 @@
               "insert1",
               "chapter3_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1284,6 +1369,7 @@
               "chapter4",
               "insert2"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1297,6 +1383,7 @@
             "OriginalFilenames": [
               "chapter5"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1312,6 +1399,7 @@
               "insert3",
               "chapter6_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1325,6 +1413,7 @@
             "OriginalFilenames": [
               "chapter7"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1340,6 +1429,7 @@
               "insert4",
               "chapter8_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1353,6 +1443,7 @@
             "OriginalFilenames": [
               "chapter9"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1368,6 +1459,7 @@
               "insert5",
               "chapter10_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1382,6 +1474,7 @@
               "chapter11",
               "insert6"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1395,6 +1488,7 @@
             "OriginalFilenames": [
               "chapter12"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1408,6 +1502,7 @@
             "OriginalFilenames": [
               "chapter13"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1423,6 +1518,7 @@
               "insert7",
               "chapter14_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1437,6 +1533,7 @@
               "chapter15",
               "insert8"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1456,6 +1553,7 @@
         "SortOrder": "105",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "The Sentimentality of Albert Poisson",
@@ -1464,6 +1562,7 @@
             "OriginalFilenames": [
               "extra"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1477,6 +1576,7 @@
             "OriginalFilenames": [
               "bonus"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [
               {
@@ -1509,6 +1609,7 @@
         "SortOrder": "105",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Character Sheet",
@@ -1518,6 +1619,7 @@
               "frontmatter2",
               "frontmatter3"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1537,6 +1639,7 @@
         "OriginalFilenames": [
           "afterword"
         ],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -1565,6 +1668,7 @@
         "SortOrder": "",
         "SubFolder": "105-The Intrigue of Marielle Clarac",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -1581,6 +1685,7 @@
         "SortOrder": "106",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Chapter One",
@@ -1589,6 +1694,7 @@
             "OriginalFilenames": [
               "chapter1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1604,6 +1710,7 @@
               "insert1",
               "chapter2_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1618,6 +1725,7 @@
               "chapter3",
               "insert2"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1631,6 +1739,7 @@
             "OriginalFilenames": [
               "chapter4"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1644,6 +1753,7 @@
             "OriginalFilenames": [
               "chapter5"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1659,6 +1769,7 @@
               "insert3",
               "chapter6_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1674,6 +1785,7 @@
               "insert4",
               "chapter7_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1687,6 +1799,7 @@
             "OriginalFilenames": [
               "chapter8"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1702,6 +1815,7 @@
               "insert5",
               "chapter9_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1715,6 +1829,7 @@
             "OriginalFilenames": [
               "chapter10"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1728,6 +1843,7 @@
             "OriginalFilenames": [
               "chapter11"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1743,6 +1859,7 @@
               "insert6",
               "chapter12_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1758,6 +1875,7 @@
               "insert7",
               "chapter13_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1771,6 +1889,7 @@
             "OriginalFilenames": [
               "chapter14"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1786,6 +1905,7 @@
               "insert8",
               "chapter15_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1805,6 +1925,7 @@
         "SortOrder": "106",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "The Headaches of Simeon Flaubert",
@@ -1813,6 +1934,7 @@
             "OriginalFilenames": [
               "extra"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1832,6 +1954,7 @@
         "SortOrder": "106",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Character Sheet",
@@ -1841,6 +1964,7 @@
               "frontmatter2",
               "frontmatter3"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1860,6 +1984,7 @@
         "OriginalFilenames": [
           "afterword"
         ],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -1888,6 +2013,7 @@
         "SortOrder": "",
         "SubFolder": "106-The Matchmaking of Marielle Clarac",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -1904,6 +2030,7 @@
         "SortOrder": "107",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Chapter One",
@@ -1914,6 +2041,7 @@
               "insert1",
               "chapter1_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1927,6 +2055,7 @@
             "OriginalFilenames": [
               "chapter2"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1940,6 +2069,7 @@
             "OriginalFilenames": [
               "chapter3"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1955,6 +2085,7 @@
               "insert2",
               "chapter4_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1968,6 +2099,7 @@
             "OriginalFilenames": [
               "chapter5"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1983,6 +2115,7 @@
               "insert3",
               "chapter6_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -1997,6 +2130,7 @@
               "chapter7",
               "insert4"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -2010,6 +2144,7 @@
             "OriginalFilenames": [
               "chapter8"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -2023,6 +2158,7 @@
             "OriginalFilenames": [
               "chapter9"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -2036,6 +2172,7 @@
             "OriginalFilenames": [
               "chapter10"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -2051,6 +2188,7 @@
               "insert5",
               "chapter11_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -2066,6 +2204,7 @@
               "insert6",
               "chapter12_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -2082,6 +2221,7 @@
               "chapter13_1",
               "insert8"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -2095,6 +2235,7 @@
             "OriginalFilenames": [
               "chapter14"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -2114,6 +2255,7 @@
         "SortOrder": "107",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "The Musings of Alain Lisnard",
@@ -2122,6 +2264,7 @@
             "OriginalFilenames": [
               "extra"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -2135,6 +2278,7 @@
             "OriginalFilenames": [
               "bonus"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [
               {
@@ -2167,6 +2311,7 @@
         "SortOrder": "107",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -2180,6 +2325,7 @@
         "OriginalFilenames": [
           "afterword"
         ],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -2210,6 +2356,7 @@
         "SortOrder": "",
         "SubFolder": "107-The Holy Crown of Marielle Clarac",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -2226,6 +2373,7 @@
         "SortOrder": "108",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Chapter One",
@@ -2234,6 +2382,7 @@
             "OriginalFilenames": [
               "chapter1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -2247,6 +2396,7 @@
             "OriginalFilenames": [
               "chapter2"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -2262,6 +2412,7 @@
               "insert1",
               "chapter3_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -2277,6 +2428,7 @@
               "insert2",
               "chapter4_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -2292,6 +2444,7 @@
               "insert3",
               "chapter5_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -2305,6 +2458,7 @@
             "OriginalFilenames": [
               "chapter6"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -2320,6 +2474,7 @@
               "insert4",
               "chapter7_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -2335,6 +2490,7 @@
               "insert5",
               "chapter8_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -2348,6 +2504,7 @@
             "OriginalFilenames": [
               "chapter9"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -2361,6 +2518,7 @@
             "OriginalFilenames": [
               "chapter10"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -2376,6 +2534,7 @@
               "insert6",
               "chapter11_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -2389,6 +2548,7 @@
             "OriginalFilenames": [
               "chapter12"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -2402,6 +2562,7 @@
             "OriginalFilenames": [
               "chapter13"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -2417,6 +2578,7 @@
               "insert7",
               "chapter14_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -2431,6 +2593,7 @@
               "chapter15",
               "insert8"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -2450,6 +2613,7 @@
         "SortOrder": "108",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "The Benediction of Prince Liberto",
@@ -2458,6 +2622,7 @@
             "OriginalFilenames": [
               "extra"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -2471,6 +2636,7 @@
             "OriginalFilenames": [
               "bonus"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [
               {
@@ -2503,6 +2669,7 @@
         "SortOrder": "108",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -2516,6 +2683,7 @@
         "OriginalFilenames": [
           "afterword"
         ],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -2546,6 +2714,7 @@
         "SortOrder": "",
         "SubFolder": "108-The Applause of Marielle Clarac",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -2562,6 +2731,7 @@
         "SortOrder": "109",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Chapter One",
@@ -2570,6 +2740,7 @@
             "OriginalFilenames": [
               "chapter1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -2583,6 +2754,7 @@
             "OriginalFilenames": [
               "chapter2"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -2598,6 +2770,7 @@
               "insert1",
               "chapter3_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -2611,6 +2784,7 @@
             "OriginalFilenames": [
               "chapter4"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -2624,6 +2798,7 @@
             "OriginalFilenames": [
               "chapter5"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -2639,6 +2814,7 @@
               "insert2",
               "chapter6_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -2652,6 +2828,7 @@
             "OriginalFilenames": [
               "chapter7"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -2667,6 +2844,7 @@
               "insert3",
               "chapter8_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -2680,6 +2858,7 @@
             "OriginalFilenames": [
               "chapter9"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -2696,6 +2875,7 @@
               "chapter10_1",
               "insert5"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -2709,6 +2889,7 @@
             "OriginalFilenames": [
               "chapter11"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -2724,6 +2905,7 @@
               "insert6",
               "chapter12_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -2739,6 +2921,7 @@
               "insert7",
               "chapter13_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -2754,6 +2937,7 @@
               "insert8",
               "chapter14_1"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -2767,6 +2951,7 @@
             "OriginalFilenames": [
               "chapter15"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -2786,6 +2971,7 @@
         "SortOrder": "109",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [
           {
             "ChapterName": "Bonus Short Story",
@@ -2794,6 +2980,7 @@
             "OriginalFilenames": [
               "bonus"
             ],
+            "SplashPages": [],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -2813,6 +3000,7 @@
         "SortOrder": "109",
         "SubFolder": "",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -2826,6 +3014,7 @@
         "OriginalFilenames": [
           "afterword"
         ],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
@@ -2856,6 +3045,7 @@
         "SortOrder": "",
         "SubFolder": "109-The Festivities of Marielle Clarac",
         "OriginalFilenames": [],
+        "SplashPages": [],
         "Chapters": [],
         "Splits": [],
         "Replacements": [],
