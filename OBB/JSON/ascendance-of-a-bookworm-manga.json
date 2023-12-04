@@ -4977,33 +4977,18 @@
     "InternalName": "ascendance-of-a-bookworm-manga-part-3-volume-1",
     "Chapters": [
       {
-        "ChapterName": "Ascendance of a Bookworm (Manga) Part 3 Volume 1",
-        "SortOrder": "201",
+        "ChapterName": "Part 3: Let's spread books through the duchy!",
+        "SortOrder": "3",
         "SubFolder": "",
-        "OriginalFilenames": [],
+        "OriginalFilenames": [
+          "cover",
+          "p-002",
+          "p-003"
+        ],
         "SplashPages": [],
         "Chapters": [
           {
-            "ChapterName": "Cover",
-            "SortOrder": "20101",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "cover",
-              "p-000",
-              "p-001",
-              "p-002",
-              "p-003",
-              "p-004"
-            ],
-            "SplashPages": [],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter 1: The Daughter of a Noble",
+            "ChapterName": "The Daughter of a Noble",
             "SortOrder": "20102",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -5048,7 +5033,16 @@
               "p-043",
               "p-044"
             ],
-            "SplashPages": [],
+            "SplashPages": [
+              {
+                "Left": "p-011",
+                "Right": "p-010"
+              },
+              {
+                "Left": "p-013",
+                "Right": "p-012"
+              }
+            ],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -5056,7 +5050,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 2: The Archduke&#39;s Adopted Daughter",
+            "ChapterName": "The Archduke&#39;s Adopted Daughter",
             "SortOrder": "20103",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -5085,7 +5079,12 @@
               "p-067",
               "p-068"
             ],
-            "SplashPages": [],
+            "SplashPages": [
+              {
+                "Left": "p-061",
+                "Right": "p-060"
+              }
+            ],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -5093,7 +5092,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 3: The Adopted Daughter&#39;s New Guard Knight",
+            "ChapterName": "The Adopted Daughter&#39;s New Guard Knights",
             "SortOrder": "20104",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -5116,8 +5115,7 @@
               "p-085",
               "p-086",
               "p-087",
-              "p-088",
-              "p-089"
+              "p-088"
             ],
             "SplashPages": [],
             "Chapters": [],
@@ -5127,7 +5125,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 4: The High Bishop Inauguration Ceremony",
+            "ChapterName": "The High Bishop Inauguration Ceremony",
             "SortOrder": "20105",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -5163,7 +5161,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 5: Reunion with the Gilberta Company",
+            "ChapterName": "Reunion with the Gilberta Company",
             "SortOrder": "20106",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -5196,7 +5194,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 6: In the Hidden Room",
+            "ChapterName": "In the Hidden Room",
             "SortOrder": "20107",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -5229,7 +5227,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 7: The Starbind Ceremony (Lower City)",
+            "ChapterName": "The Starbind Ceremony (Lower City)",
             "SortOrder": "20108",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -5259,19 +5257,38 @@
               "p-176",
               "p-177",
               "p-178",
-              "p-179",
-              "p-180"
+              "p-179"
             ],
-            "SplashPages": [],
+            "SplashPages": [
+              {
+                "Left": "p-171",
+                "Right": "p-170"
+              }
+            ],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
             "LinkedChapters": [],
             "KeepFirstSplitSection": true
-          },
+          }
+        ],
+        "Splits": [],
+        "Replacements": [],
+        "LinkedChapters": [],
+        "KeepFirstSplitSection": true
+      }
+    ],
+    "BonusChapters": [
+      {
+        "ChapterName": "Part 3: Let's spread books through the duchy!",
+        "SortOrder": "3",
+        "SubFolder": "",
+        "OriginalFilenames": [],
+        "SplashPages": [],
+        "Chapters": [
           {
-            "ChapterName": "Extra: The Knight Commander&#39;s Youngest Son",
-            "SortOrder": "20109",
+            "ChapterName": "The Knight Commander&#39;s Youngest Son",
+            "SortOrder": "20104b",
             "SubFolder": "",
             "OriginalFilenames": [
               "p-181",
@@ -5295,11 +5312,10 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Story: My First Letter",
-            "SortOrder": "20110",
+            "ChapterName": "My First Letter",
+            "SortOrder": "20107b",
             "SubFolder": "",
             "OriginalFilenames": [
-              "p-193",
               "p-194",
               "p-195",
               "p-196",
@@ -5308,40 +5324,7 @@
               "p-199",
               "p-200",
               "p-201",
-              "p-202",
-              "p-203"
-            ],
-            "SplashPages": [],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Afterword: Author&#39;s",
-            "SortOrder": "20111",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "p-204"
-            ],
-            "SplashPages": [],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Afterword: Artist&#39;s",
-            "SortOrder": "20112",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "p-205",
-              "p-206",
-              "p-207",
-              "p-208",
-              "p-209"
+              "p-202"
             ],
             "SplashPages": [],
             "Chapters": [],
@@ -5357,28 +5340,32 @@
         "KeepFirstSplitSection": true
       }
     ],
-    "BonusChapters": [
-      {
-        "ChapterName": "Ascendance of a Bookworm (Manga) Part 3 Volume 1",
-        "SortOrder": "201",
-        "SubFolder": "",
-        "OriginalFilenames": [],
-        "SplashPages": [],
-        "Chapters": [],
-        "Splits": [],
-        "Replacements": [],
-        "LinkedChapters": [],
-        "KeepFirstSplitSection": true
-      }
-    ],
     "ExtraContent": [
       {
-        "ChapterName": "Ascendance of a Bookworm (Manga) Part 3 Volume 1",
-        "SortOrder": "201",
-        "SubFolder": "",
+        "ChapterName": "Afterwords",
+        "SortOrder": "999",
+        "SubFolder": "3-Part 3: Let's spread books through the duchy!",
         "OriginalFilenames": [],
         "SplashPages": [],
-        "Chapters": [],
+        "Chapters": [
+          {
+            "ChapterName": "Volume 1",
+            "SortOrder": "20111",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "p-204",
+              "p-205",
+              "p-206",
+              "p-207"
+            ],
+            "SplashPages": [],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
         "Splits": [],
         "Replacements": [],
         "LinkedChapters": [],
