@@ -4981,9 +4981,7 @@
         "SortOrder": "3",
         "SubFolder": "",
         "OriginalFilenames": [
-          "cover",
-          "p-002",
-          "p-003"
+          "cover"
         ],
         "SplashPages": [],
         "Chapters": [
@@ -5394,33 +5392,18 @@
     "InternalName": "ascendance-of-a-bookworm-manga-part-3-volume-2",
     "Chapters": [
       {
-        "ChapterName": "Ascendance of a Bookworm (Manga) Part 3 Volume 2",
-        "SortOrder": "202",
+        "ChapterName": "Part 3: Let's spread books through the duchy!",
+        "SortOrder": "3",
         "SubFolder": "",
-        "OriginalFilenames": [],
+        "OriginalFilenames": [
+          "cover",
+          "p-002",
+          "p-003"
+        ],
         "SplashPages": [],
         "Chapters": [
           {
-            "ChapterName": "Cover",
-            "SortOrder": "20201",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "cover",
-              "p-000",
-              "p-001",
-              "p-002",
-              "p-003",
-              "p-004"
-            ],
-            "SplashPages": [],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Chapter 8: The Archduke&#39;s Castle",
+            "ChapterName": "The Archduke&#39;s Castle",
             "SortOrder": "20202",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -5463,7 +5446,12 @@
               "p-041",
               "p-042"
             ],
-            "SplashPages": [],
+            "SplashPages": [
+              {
+                "Left": "p-007",
+                "Right": "p-006"
+              }
+            ],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -5471,7 +5459,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 9: Italian Restaurant",
+            "ChapterName": "Italian Restaurant",
             "SortOrder": "20203",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -5495,8 +5483,7 @@
               "p-060",
               "p-061",
               "p-062",
-              "p-063",
-              "p-064"
+              "p-063"
             ],
             "SplashPages": [],
             "Chapters": [],
@@ -5506,7 +5493,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 10: Hasse&#39;s Monastery",
+            "ChapterName": "Hasse&#39;s Monastery",
             "SortOrder": "20204",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -5537,7 +5524,12 @@
               "p-089",
               "p-090"
             ],
-            "SplashPages": [],
+            "SplashPages": [
+              {
+                "Left": "p-073",
+                "Right": "p-072"
+              }
+            ],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -5545,7 +5537,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 11: How to Secure Funding",
+            "ChapterName": "How to Secure Funding",
             "SortOrder": "20205",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -5572,7 +5564,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 12: My First Magecraft Lesson",
+            "ChapterName": "My First Magecraft Lesson",
             "SortOrder": "20206",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -5595,7 +5587,12 @@
               "p-121",
               "p-122"
             ],
-            "SplashPages": [],
+            "SplashPages": [
+              {
+                "Left": "p-115",
+                "Right": "p-114"
+              }
+            ],
             "Chapters": [],
             "Splits": [],
             "Replacements": [],
@@ -5603,7 +5600,7 @@
             "KeepFirstSplitSection": true
           },
           {
-            "ChapterName": "Chapter 13: The Path to Wax Stencils",
+            "ChapterName": "The Path to Wax Stencils",
             "SortOrder": "20207",
             "SubFolder": "",
             "OriginalFilenames": [
@@ -5636,82 +5633,7 @@
               "p-149",
               "p-150",
               "p-151",
-              "p-152",
-              "p-153",
-              "p-154"
-            ],
-            "SplashPages": [],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Extra: Benno and Gustav&#39;s Suffering",
-            "SortOrder": "20208",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "p-155",
-              "p-156",
-              "p-157",
-              "p-158"
-            ],
-            "SplashPages": [],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Story: Changes at Home",
-            "SortOrder": "20209",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "p-159",
-              "p-160",
-              "p-161",
-              "p-162",
-              "p-163",
-              "p-164",
-              "p-165",
-              "p-166",
-              "p-167",
-              "p-168",
-              "p-169"
-            ],
-            "SplashPages": [],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Afterword: Author&#39;s",
-            "SortOrder": "20210",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "p-170"
-            ],
-            "SplashPages": [],
-            "Chapters": [],
-            "Splits": [],
-            "Replacements": [],
-            "LinkedChapters": [],
-            "KeepFirstSplitSection": true
-          },
-          {
-            "ChapterName": "Afterword: Artist&#39;s",
-            "SortOrder": "20211",
-            "SubFolder": "",
-            "OriginalFilenames": [
-              "p-171",
-              "p-172",
-              "p-173",
-              "p-174",
-              "p-175"
+              "p-152"
             ],
             "SplashPages": [],
             "Chapters": [],
@@ -5729,12 +5651,52 @@
     ],
     "BonusChapters": [
       {
-        "ChapterName": "Ascendance of a Bookworm (Manga) Part 3 Volume 2",
-        "SortOrder": "202",
+        "ChapterName": "Part 3: Let's spread books through the duchy!",
+        "SortOrder": "3",
         "SubFolder": "",
         "OriginalFilenames": [],
         "SplashPages": [],
-        "Chapters": [],
+        "Chapters": [
+          {
+            "ChapterName": "Benno and Gustav&#39;s Suffering",
+            "SortOrder": "20204b",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "p-155",
+              "p-156",
+              "p-157",
+              "p-158"
+            ],
+            "SplashPages": [],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          },
+          {
+            "ChapterName": "Changes at Home",
+            "SortOrder": "20206b",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "p-160",
+              "p-161",
+              "p-162",
+              "p-163",
+              "p-164",
+              "p-165",
+              "p-166",
+              "p-167",
+              "p-168"
+            ],
+            "SplashPages": [],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
         "Splits": [],
         "Replacements": [],
         "LinkedChapters": [],
@@ -5743,12 +5705,30 @@
     ],
     "ExtraContent": [
       {
-        "ChapterName": "Ascendance of a Bookworm (Manga) Part 3 Volume 2",
-        "SortOrder": "202",
-        "SubFolder": "",
+        "ChapterName": "Afterwords",
+        "SortOrder": "999",
+        "SubFolder": "3-Part 3: Let's spread books through the duchy!",
         "OriginalFilenames": [],
         "SplashPages": [],
-        "Chapters": [],
+        "Chapters": [
+          {
+            "ChapterName": "Volume 2",
+            "SortOrder": "20210",
+            "SubFolder": "",
+            "OriginalFilenames": [
+              "p-170",
+              "p-171",
+              "p-172",
+              "p-173"
+            ],
+            "SplashPages": [],
+            "Chapters": [],
+            "Splits": [],
+            "Replacements": [],
+            "LinkedChapters": [],
+            "KeepFirstSplitSection": true
+          }
+        ],
         "Splits": [],
         "Replacements": [],
         "LinkedChapters": [],
