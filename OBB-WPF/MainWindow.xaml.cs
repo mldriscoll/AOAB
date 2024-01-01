@@ -1,4 +1,6 @@
-﻿using System.Text;
+﻿using System.IO;
+using System.Text;
+using System.Text.Json;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -20,7 +22,30 @@ namespace OBB_WPF
         {
             InitializeComponent();
 
-            foreach(var series in Series)
+            Load();
+        }
+
+        private async void Load()
+        {
+#if DEBUG
+            if (File.Exists($"..\\..\\..\\JSON\\Series.json"))
+            {
+                using (var stream = File.OpenRead($"..\\..\\..\\JSON\\Series.json"))
+                {
+                    Series = await JsonSerializer.DeserializeAsync<List<Series>>(stream);
+                }
+            }
+#else
+            if (File.Exists($"JSON\\Series.json"))
+            {
+                using (var stream = File.OpenRead($"JSON\\Series.json"))
+                {
+                    Series = await JsonSerializer.DeserializeAsync<List<Series>>(stream);
+                }
+            }
+#endif
+
+            foreach (var series in Series)
             {
                 var button = new Button { Content = series.Name };
                 button.Click += (object sender, RoutedEventArgs e) => {
@@ -31,7 +56,7 @@ namespace OBB_WPF
             }
         }
 
-        public List<Series> Series = new List<Series>
+        public static List<Series> Series = new List<Series>
         {
             new Series
             {
@@ -114,13 +139,15 @@ namespace OBB_WPF
         public string ApiSlug { get; set; } = string.Empty;
         public string FileName { get; set; } = string.Empty;
         public string Title { get; set; } = string.Empty;
-        public string? EditedBy { get; set; }
+        public List<string> EditedBy { get; set; } = new List<string>();
         public bool ShowRemainingFiles { get; set; } = true;
         public string? Published { get; set; } = null;
         public int Order { get; set; }
     }
     public class Omnibus
     {
+        public string Name { get; set; } = string.Empty;
+
         internal List<Chapter> AllChapters
         {
             get
@@ -176,7 +203,6 @@ namespace OBB_WPF
 
     public class Source
     {
-        public string SourceBook { get; set; } = string.Empty;
         public string File { get; set; } = string.Empty;
 
         //public List<Source> Alternates { get; set; }

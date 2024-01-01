@@ -1,0 +1,69 @@
+[
+  {
+    "Name": "Lady Rose Just Wants to Be a Commoner!",
+    "InternalName": "lady-rose-just-wants-to-be-a-commoner",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "lady-rose-just-wants-to-be-a-commoner"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "lady-rose-just-wants-to-be-a-commoner",
+        "FileName": "lady-rose-just-wants-to-be-a-commoner.epub",
+        "Title": "Lady Rose Just Wants to Be a Commoner! Volume 1",
+        "EditedBy": [
+          "kuali"
+        ],
+        "ShowRemainingFiles": true,
+        "Published": "2023-01-04",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "lady-rose-just-wants-to-be-a-commoner-2",
+        "FileName": "lady-rose-just-wants-to-be-a-commoner-volume-2.epub",
+        "Title": "Lady Rose Just Wants to Be a Commoner! Volume 2",
+        "EditedBy": [
+          "kuali"
+        ],
+        "ShowRemainingFiles": true,
+        "Published": "2023-03-22",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "lady-rose-just-wants-to-be-a-commoner-3",
+        "FileName": "lady-rose-just-wants-to-be-a-commoner-volume-3.epub",
+        "Title": "Lady Rose Just Wants to Be a Commoner! Volume 3",
+        "EditedBy": [
+          "kuali"
+        ],
+        "ShowRemainingFiles": true,
+        "Published": "2023-06-14",
+        "Order": 103
+      },
+      {
+        "ApiSlug": "lady-rose-just-wants-to-be-a-commoner-4",
+        "FileName": "lady-rose-just-wants-to-be-a-commoner-volume-4.epub",
+        "Title": "Lady Rose Just Wants to Be a Commoner! Volume 4",
+        "EditedBy": [
+          "kuali"
+        ],
+        "ShowRemainingFiles": true,
+        "Published": "2023-08-30",
+        "Order": 104
+      },
+      {
+        "ApiSlug": "lady-rose-just-wants-to-be-a-commoner-5",
+        "FileName": "lady-rose-just-wants-to-be-a-commoner-volume-5.epub",
+        "Title": "Lady Rose Just Wants to Be a Commoner! Volume 5",
+        "EditedBy": [],
+        "ShowRemainingFiles": true,
+        "Published": "2023-12-13",
+        "Order": 105
+      }
+    ],
+    "Author": "Kooriame",
+    "AuthorSort": "KOORIAME"
+  }
+]

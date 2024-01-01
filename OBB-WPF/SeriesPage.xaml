@@ -17,6 +17,9 @@
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
         <Button Click="BuildOmnibus">Create Omnibus</Button>
+        <Button x:Name="SaveButton" Click="SaveButton_Click" Grid.Column="1">Save</Button>
+        <TextBox x:Name="Editor" Grid.Column="2"></TextBox>
+        
         <TreeView x:Name="ChapterList" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="1" />
         <TextBlock x:Name="ChapterName" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="1" Grid.Row="1"></TextBlock>
         <WebBrowser x:Name="Browser" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="2" Grid.Row="1"></WebBrowser>

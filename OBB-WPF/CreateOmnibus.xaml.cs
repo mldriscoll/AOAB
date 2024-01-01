@@ -107,11 +107,9 @@ namespace OBB_WPF
 
             outProcessor.Chapters.Add(new Core.Processor.Chapter { Contents = coverContents, Name = "Cover.xhtml", SortOrder = "0000", SubFolder = "" });
 
-            //if (File.Exists($"{selection.Name}.epub")) File.Delete($"{selection.Name}.epub");
-            if (File.Exists("a.epub")) File.Delete("a.epub");
+            if (File.Exists($"{series.Name}.epub")) File.Delete($"{series.Name}.epub");
 
-            //outProcessor.Metadata.Add(@$"<dc:title>{selection.Name}</dc:title>");
-            outProcessor.Metadata.Add(@$"<dc:title>a</dc:title>");
+            outProcessor.Metadata.Add(@$"<dc:title>{series.Name}</dc:title>");
             //outProcessor.Metadata.Add($"<dc:creator id=\"creator01\">{selection.Author}</dc:creator>");
             outProcessor.Metadata.Add("<meta property=\"display-seq\" refines=\"#creator01\">1</meta>");
             //outProcessor.Metadata.Add($"<meta property=\"file-as\" refines=\"#creator01\">{selection.AuthorSort}</meta>");
@@ -133,7 +131,7 @@ namespace OBB_WPF
                 false,
                 true,
                 false,
-                "a",
+                series.Name,
                 null,
                 null,
                 99);
@@ -198,7 +196,7 @@ namespace OBB_WPF
                     {
                         try
                         {
-                            var entry = inProcessor.Chapters.First(x => (x.SubFolder + "\\" + x.Name + ".xhtml").Equals(chapterFile.SourceBook + "\\" + chapterFile.File, StringComparison.InvariantCultureIgnoreCase));
+                            var entry = inProcessor.Chapters.First(x => (x.SubFolder + "\\" + x.Name + ".xhtml").Equals(chapterFile.File, StringComparison.InvariantCultureIgnoreCase));
                             newChapter.CssFiles.AddRange(entry.CssFiles);
                             var fileContent = entry.Contents;
 

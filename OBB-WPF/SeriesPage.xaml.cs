@@ -14,6 +14,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using System.Text.RegularExpressions;
+using System.Text.Json;
 
 namespace OBB_WPF
 {
@@ -39,11 +40,30 @@ namespace OBB_WPF
         {
             await Unpacker.Unpack(series);
 
-            omnibus = new Omnibus();
+            omnibus = new Omnibus
+            {
+                Name = series.Name
+            };
 
-            //Load Existing Omnibus
+#if DEBUG
+            if (File.Exists($"..\\..\\..\\JSON\\{omnibus.Name}.json"))
+            {
+                using (var stream = File.OpenRead($"..\\..\\..\\JSON\\{omnibus.Name}.json"))
+                {
+                    omnibus = await JsonSerializer.DeserializeAsync<Omnibus>(stream);
+                }
+            }
+#else
+            if (File.Exists($"JSON\\{omnibus.Name}.json"))
+            {
+                using (var stream = File.OpenRead($"JSON\\{omnibus.Name}.json"))
+                {
+                    omnibus = await JsonSerializer.DeserializeAsync<Omnibus>(stream);
+                }
+            }
+#endif
 
-            foreach(var vol in series.Volumes)
+            foreach (var vol in series.Volumes.Where(x => !x.EditedBy.Any()))
             {
                 try
                 {
@@ -82,7 +102,7 @@ namespace OBB_WPF
             }
 
             if (chapter.Sources.Any())
-                Browser.Source = new Uri($"file://{Environment.CurrentDirectory}\\Temp\\{chapter.Sources[0].SourceBook}\\{chapter.Sources[0].File}");
+                Browser.Source = new Uri($"file://{Environment.CurrentDirectory}\\Temp\\{chapter.Sources[0].File}");
             else
                 Browser.Source = new Uri("about:blank");
 
@@ -106,6 +126,63 @@ namespace OBB_WPF
             await page.Start();
             this.Show();
             page.Close();
+        }
+
+        private async void SaveButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(Editor.Text))
+            {
+                MessageBox.Show(this, "Please enter an editor name before saving changes");
+            }
+            else
+            {
+                var options = new JsonSerializerOptions
+                {
+                    WriteIndented = true,
+                    Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping
+                };
+
+                var saveSeries = false;
+                foreach (var a in series.Volumes)
+                {
+                    if (!a.EditedBy.Any() || !a.EditedBy.Any(x => x.Equals(Editor.Text, StringComparison.OrdinalIgnoreCase)))
+                    {
+                        if (File.Exists($"{Configuration.SourceFolder}\\{a.FileName}"))
+                        {
+                            a.EditedBy.Add(Editor.Text);
+                            saveSeries = true;
+                        }
+                    }
+                }
+
+#if DEBUG
+                using (var stream = File.OpenWrite($"..\\..\\..\\JSON\\{omnibus.Name}.json"))
+                {
+                    await JsonSerializer.SerializeAsync(stream, omnibus, options: options);
+                }
+
+                if (saveSeries)
+                {
+                    using (var stream = File.OpenWrite($"..\\..\\..\\JSON\\Series.json"))
+                    {
+                        await JsonSerializer.SerializeAsync(stream, MainWindow.Series, options: options);
+                    }
+                }
+#else
+                using (var stream = File.OpenWrite($"JSON\\{omnibus.Name}.json"))
+                {
+                    await JsonSerializer.SerializeAsync(stream, omnibus, options: options);
+                }
+
+                if (saveSeries)
+                {
+                    using (var stream = File.OpenWrite($"JSON\\Series.json"))
+                    {
+                        await JsonSerializer.SerializeAsync(stream, MainWindow.Series, options: options);
+                    }
+                }
+#endif
+            }
         }
     }
 
@@ -191,7 +268,7 @@ namespace OBB_WPF
                                     var chapter = new Chapter();
                                     chapter.SortOrder = ((volOrder * 100) + order).ToString("00000");
                                     order++;
-                                    chapter.Sources.AddRange(chapterFiles.Select(x => new Source { File = "OEBPS\\text\\" + x, SourceBook = volumeName }));
+                                    chapter.Sources.AddRange(chapterFiles.Select(x => new Source { File = $"{volumeName}\\OEBPS\\text\\{x}" }));
 
                                     var chapterContent = File.ReadAllText($"{inFolder}\\OEBPS\\text\\" + chapterFiles[0]);
                                     chapter.Name = chapterTitleRegex.Match(chapterContent).Value.Replace("<h1>", string.Empty).Replace("</h1>", string.Empty);
@@ -225,7 +302,7 @@ namespace OBB_WPF
                 }
 
                 var finalChapter = new Chapter { SortOrder = ((volOrder * 100) + order).ToString("00000") };
-                finalChapter.Sources.AddRange(chapterFiles.Select(x => new Source { File = "OEBPS\\text\\" + x, SourceBook = volumeName }));
+                finalChapter.Sources.AddRange(chapterFiles.Select(x => new Source { File = $"{volumeName}\\OEBPS\\text\\{x}" }));
                 var finalChapterContent = File.ReadAllText($"{inFolder}\\OEBPS\\text\\" + chapterFiles[0]);
                 finalChapter.Name = chapterTitleRegex.Match(finalChapterContent).Value.Replace("<h1>", string.Empty).Replace("</h1>", string.Empty);
                 AddChapter(finalChapter, ob.Chapters[0], volumeName, volOrder, imageFiles);
@@ -262,7 +339,7 @@ namespace OBB_WPF
                         if (line.Equals("</ol>", StringComparison.InvariantCultureIgnoreCase))
                         {
                             incontents = false;
-                            chapter.Sources.AddRange(files.Select(x => new Source { File = "item\\xhtml\\" + x, SourceBook = volumeName }));
+                            chapter.Sources.AddRange(files.Select(x => new Source { File = $"{volumeName}\\item\\xhtml\\{x}" }));
                         }
                         else if (line.Equals("<ol>", StringComparison.InvariantCultureIgnoreCase))
                         {
@@ -276,7 +353,7 @@ namespace OBB_WPF
                             if (chapter != null)
                             {
                                 var index = files.IndexOf(firstPage);
-                                chapter.Sources.AddRange(files.Take(index).Select(x => new Source { File = "item\\xhtml\\" + x, SourceBook = volumeName }));
+                                chapter.Sources.AddRange(files.Take(index).Select(x => new Source {File = $"{volumeName}\\item\\xhtml\\{x}" }));
                                 files.RemoveRange(0, index);
                             }
 
