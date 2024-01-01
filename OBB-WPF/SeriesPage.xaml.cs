@@ -15,6 +15,9 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using System.Text.RegularExpressions;
 using System.Text.Json;
+using System.Globalization;
+using System.Windows.Markup;
+using System.Collections.ObjectModel;
 
 namespace OBB_WPF
 {
@@ -76,19 +79,32 @@ namespace OBB_WPF
                 }
             }
 
-            foreach (var chapter in omnibus.Chapters)
+            ChapterList.ItemsSource = omnibus.Chapters;
+
+        }
+
+        bool _IsDragging = false;
+        private void Chapter_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (e.LeftButton == MouseButtonState.Pressed && !_IsDragging)
             {
-                try
-                {
-                    var item = new TreeViewItem { Header = chapter.Name, Tag = chapter };
-                    item.Selected += Chapter_Selected;
-                    foreach (var subchapter in chapter.Chapters) AddItemChildren(item, subchapter);
-                    ChapterList.Items.Add(item);
-                }
-                catch (Exception ex)
-                {
-                }
+                _IsDragging = true;
+                DragDrop.DoDragDrop((DependencyObject)sender, sender, DragDropEffects.Move);
             }
+        }
+
+        private void DropOnChapter(object sender, DragEventArgs e)
+        {
+            var dropTarget = (Chapter)((TreeViewItem)sender).Tag;
+            var draggedChapter = ((TextBlock)e.Data.GetData(typeof(TextBlock))).DataContext as Chapter;
+
+            if (draggedChapter != null && draggedChapter != dropTarget)
+            {
+                omnibus.Remove(draggedChapter);
+                dropTarget.Chapters.Add(draggedChapter);
+                dropTarget.Chapters = new ObservableCollection<Chapter>(dropTarget.Chapters.OrderBy(x => x.SortOrder));
+            }
+            e.Handled = true;
         }
 
         private void Chapter_Selected(object sender, RoutedEventArgs e)
@@ -98,7 +114,9 @@ namespace OBB_WPF
 
             if (chapter != null)
             {
-                ChapterName.Text = chapter.Name;
+                ChapterName.DataContext = chapter;
+                SortOrder.DataContext = chapter;
+                DragChapter.DataContext = chapter;
             }
 
             if (chapter.Sources.Any())
@@ -111,7 +129,7 @@ namespace OBB_WPF
 
         private void AddItemChildren(TreeViewItem item, Chapter chapter)
         {
-            var subItem = new TreeViewItem { Header = chapter.Name };
+            var subItem = new ChapterTreeViewItem { Header = chapter.Name, Chapter = chapter };
             subItem.Tag = chapter;
             subItem.Selected += Chapter_Selected;
             foreach (var subchapter in chapter.Chapters) AddItemChildren(subItem, subchapter);
@@ -184,8 +202,22 @@ namespace OBB_WPF
 #endif
             }
         }
+
+        private void DragChapter_PreviewMouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
+            _IsDragging = false;
+        }
+
+        private void DragChapter_MouseLeave(object sender, MouseEventArgs e)
+        {
+            _IsDragging=false;
+        }
     }
 
+    public class ChapterTreeViewItem : TreeViewItem
+    {
+        public Chapter Chapter { get; set; }
+    }
 
     public static class Configuration
     {
@@ -220,7 +252,7 @@ namespace OBB_WPF
 
             var ob = new Omnibus
             {
-                Chapters = new List<Chapter>
+                Chapters = new System.Collections.ObjectModel.ObservableCollection<Chapter>
                 {
                     new Chapter
                     {
@@ -411,10 +443,5 @@ namespace OBB_WPF
             }
             parentChapter.Chapters.Add(chapter);
         }
-    }
-
-    public static class Translator
-    {
-
     }
 }

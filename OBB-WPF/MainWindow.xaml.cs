@@ -1,4 +1,6 @@
-﻿using System.IO;
+﻿using System.Collections.ObjectModel;
+using System.ComponentModel;
+using System.IO;
 using System.Text;
 using System.Text.Json;
 using System.Windows;
@@ -144,20 +146,9 @@ namespace OBB_WPF
         public string? Published { get; set; } = null;
         public int Order { get; set; }
     }
-    public class Omnibus
+    public class Omnibus : ChapterHolder
     {
         public string Name { get; set; } = string.Empty;
-
-        internal List<Chapter> AllChapters
-        {
-            get
-            {
-                return Chapters;
-            }
-            set { }
-        }
-
-        public List<Chapter> Chapters { get; set; } = new List<Chapter>();
 
         public void Combine(Omnibus other)
         {
@@ -173,13 +164,34 @@ namespace OBB_WPF
         }
     }
 
-    public class Chapter
+    public class Chapter : ChapterHolder, INotifyPropertyChanged
     {
-        public string Name { get; set; } = string.Empty;
-        public string SortOrder { get; set; } = string.Empty;
+        private string _name;
+        public string Name
+        {
+            get { return _name; }
+            set
+            {
+                _name = value;
+                if (PropertyChanged != null)
+                    PropertyChanged(this, new PropertyChangedEventArgs("Name"));
+            }
+        }
+        private string _sortOrder = string.Empty;
+
+        public event PropertyChangedEventHandler? PropertyChanged;
+
+        public string SortOrder {
+            get { return _sortOrder; }
+            set
+            {
+                _sortOrder = value;
+                if (PropertyChanged != null)
+                    PropertyChanged(this, new PropertyChangedEventArgs("SortOrder"));
+            }
+        }
         public List<Source> Sources { get; set; } = new List<Source> { };
 
-        public List<Chapter> Chapters { get; set; } = new List<Chapter>();
 
         public bool Match(Chapter other)
         {
@@ -197,6 +209,19 @@ namespace OBB_WPF
                     match.Combine(chapter);
                 else
                     Chapters.Add(chapter);
+            }
+        }
+    }
+
+    public abstract class ChapterHolder
+    {
+        public ObservableCollection<Chapter> Chapters { get; set; } = new ObservableCollection<Chapter>();
+        public void Remove(Chapter chapter)
+        {
+            Chapters.Remove(chapter);
+            foreach (var subchapter in Chapters)
+            {
+                subchapter.Remove(chapter);
             }
         }
     }
