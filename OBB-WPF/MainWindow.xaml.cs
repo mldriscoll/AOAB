@@ -146,23 +146,6 @@ namespace OBB_WPF
         public string? Published { get; set; } = null;
         public int Order { get; set; }
     }
-    public class Omnibus : ChapterHolder
-    {
-        public string Name { get; set; } = string.Empty;
-
-        public void Combine(Omnibus other)
-        {
-            foreach (var chapter in other.Chapters)
-            {
-                var match = Chapters.FirstOrDefault(x => x.Match(chapter));
-                if (match != null)
-                    match.Combine(chapter);
-                else
-                    Chapters.Add(chapter);
-
-            }
-        }
-    }
 
     public class Chapter : ChapterHolder, INotifyPropertyChanged
     {
@@ -190,7 +173,7 @@ namespace OBB_WPF
                     PropertyChanged(this, new PropertyChangedEventArgs("SortOrder"));
             }
         }
-        public List<Source> Sources { get; set; } = new List<Source> { };
+        public ObservableCollection<Source> Sources { get; set; } = new ObservableCollection<Source> { };
 
 
         public bool Match(Chapter other)
@@ -201,7 +184,10 @@ namespace OBB_WPF
 
         public void Combine(Chapter other)
         {
-            Sources.AddRange(other.Sources);
+            foreach(var newSource in other.Sources)
+            {
+                Sources.Add(newSource);
+            }
             foreach(var chapter in other.Chapters)
             {
                 var match = Chapters.FirstOrDefault(x => x.Match(chapter));
@@ -230,6 +216,10 @@ namespace OBB_WPF
     {
         public string File { get; set; } = string.Empty;
 
-        //public List<Source> Alternates { get; set; }
+        public ObservableCollection<string> Alternates { get; set; } = new ObservableCollection<string>();
+
+        public Source OtherSide { get; set; } = null;
+
+        public string SortOrder { get; set; } = string.Empty;
     }
 }

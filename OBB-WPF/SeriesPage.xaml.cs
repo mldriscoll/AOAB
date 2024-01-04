@@ -84,11 +84,21 @@ namespace OBB_WPF
         }
 
         bool _IsDragging = false;
+        bool _IsDraggingSource = false;
         private void Chapter_MouseMove(object sender, MouseEventArgs e)
         {
             if (e.LeftButton == MouseButtonState.Pressed && !_IsDragging)
             {
                 _IsDragging = true;
+                DragDrop.DoDragDrop((DependencyObject)sender, sender, DragDropEffects.Move);
+            }
+        }
+
+        private void DragSource_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (e.LeftButton == MouseButtonState.Pressed && !_IsDraggingSource)
+            {
+                _IsDraggingSource = true;
                 DragDrop.DoDragDrop((DependencyObject)sender, sender, DragDropEffects.Move);
             }
         }
@@ -107,23 +117,22 @@ namespace OBB_WPF
             e.Handled = true;
         }
 
+        Chapter CurrentChapter = null;
+
         private void Chapter_Selected(object sender, RoutedEventArgs e)
         {
             var tvi = (TreeViewItem)sender;
-            var chapter = (Chapter)tvi.Tag;
+            CurrentChapter = (Chapter)tvi.Tag;
 
-            if (chapter != null)
+            if (CurrentChapter != null)
             {
-                ChapterName.DataContext = chapter;
-                SortOrder.DataContext = chapter;
-                DragChapter.DataContext = chapter;
+                ChapterName.DataContext = CurrentChapter;
+                SortOrder.DataContext = CurrentChapter;
+                DragChapter.DataContext = CurrentChapter;
+                Sources.ItemsSource = CurrentChapter.Sources;
             }
 
-            if (chapter.Sources.Any())
-                Browser.Source = new Uri($"file://{Environment.CurrentDirectory}\\Temp\\{chapter.Sources[0].File}");
-            else
-                Browser.Source = new Uri("about:blank");
-
+            Browser.Source = new Uri($"about:blank");
             e.Handled = true;
         }
 
@@ -208,9 +217,101 @@ namespace OBB_WPF
             _IsDragging = false;
         }
 
+        private void DragSource_ButtonUp(object sender, MouseButtonEventArgs e)
+        {
+            _IsDraggingSource = false;
+        }
+
         private void DragChapter_MouseLeave(object sender, MouseEventArgs e)
         {
-            _IsDragging=false;
+            _IsDragging = false;
+        }
+
+        private void DragSource_MouseLeave(object sender, MouseEventArgs e)
+        {
+            _IsDraggingSource = false;
+        }
+
+        private void Delete_Button_Drop(object sender, DragEventArgs e)
+        {
+            var tb = e.Data.GetData(typeof(TextBlock));
+            if (tb != null)
+            {
+                var draggedChapter = ((TextBlock)tb).DataContext as Chapter;
+                DeleteSources(draggedChapter);
+                omnibus.Remove(draggedChapter);
+
+                omnibus.UnusedSources = new ObservableCollection<Source>(omnibus.UnusedSources.OrderBy(x => x.File));
+            }
+
+            var lvi = e.Data.GetData(typeof(ListViewItem));
+            if (lvi != null)
+            {
+                var draggedSource = ((ListViewItem)lvi).DataContext as Source;
+                CurrentChapter.Sources.Remove(draggedSource);
+                omnibus.UnusedSources.Add(draggedSource);
+            }
+        }
+
+        private void DeleteSources(Chapter chapter)
+        {
+            foreach(var source in chapter.Sources)
+            {
+                omnibus.UnusedSources.Add(source);
+            }
+
+            foreach(var subChapter in chapter.Chapters)
+            {
+                DeleteSources(subChapter);
+            }
+        }
+
+        private void Root_Drop(object sender, DragEventArgs e)
+        {
+            var draggedChapter = ((TextBlock)e.Data.GetData(typeof(TextBlock))).DataContext as Chapter;
+
+            if (draggedChapter != null)
+            {
+                omnibus.Remove(draggedChapter);
+                omnibus.Chapters.Add(draggedChapter);
+            }
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            ChapterName.DataContext = null;
+            SortOrder.DataContext = null;
+            DragChapter.DataContext = null;
+            Sources.ItemsSource = omnibus.UnusedSources;
+        }
+
+        private void Source_Selected(object sender, RoutedEventArgs e)
+        {
+            var li = (ListViewItem)sender;
+            var source = li.DataContext as Source;
+
+            Browser.Source = new Uri($"file://{Environment.CurrentDirectory}\\Temp\\{source.File}");
+        }
+
+        private void CoverButton_Drop(object sender, DragEventArgs e)
+        {
+            var lvi = e.Data.GetData(typeof(ListViewItem));
+            if (lvi != null)
+            {
+                var draggedSource = ((ListViewItem)lvi).DataContext as Source;
+                CurrentChapter.Sources.Remove(draggedSource);
+
+                if (omnibus.Cover != null) omnibus.UnusedSources.Add(omnibus.Cover);
+                omnibus.Cover = draggedSource;
+            }
+        }
+
+        private void CoverButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (omnibus.Cover != null)
+                Browser.Source = new Uri($"file://{Environment.CurrentDirectory}\\Temp\\{omnibus.Cover.File}");
+            else
+                Browser.Source = new Uri($"about:blank");
         }
     }
 
@@ -300,7 +401,10 @@ namespace OBB_WPF
                                     var chapter = new Chapter();
                                     chapter.SortOrder = ((volOrder * 100) + order).ToString("00000");
                                     order++;
-                                    chapter.Sources.AddRange(chapterFiles.Select(x => new Source { File = $"{volumeName}\\OEBPS\\text\\{x}" }));
+                                    foreach(var c in chapterFiles)
+                                    {
+                                        chapter.Sources.Add(new Source { File = $"{volumeName}\\OEBPS\\text\\{c}" });
+                                    }
 
                                     var chapterContent = File.ReadAllText($"{inFolder}\\OEBPS\\text\\" + chapterFiles[0]);
                                     chapter.Name = chapterTitleRegex.Match(chapterContent).Value.Replace("<h1>", string.Empty).Replace("</h1>", string.Empty);
@@ -334,7 +438,10 @@ namespace OBB_WPF
                 }
 
                 var finalChapter = new Chapter { SortOrder = ((volOrder * 100) + order).ToString("00000") };
-                finalChapter.Sources.AddRange(chapterFiles.Select(x => new Source { File = $"{volumeName}\\OEBPS\\text\\{x}" }));
+                foreach (var c in chapterFiles)
+                {
+                    finalChapter.Sources.Add(new Source { File = $"{volumeName}\\OEBPS\\text\\{c}" });
+                }
                 var finalChapterContent = File.ReadAllText($"{inFolder}\\OEBPS\\text\\" + chapterFiles[0]);
                 finalChapter.Name = chapterTitleRegex.Match(finalChapterContent).Value.Replace("<h1>", string.Empty).Replace("</h1>", string.Empty);
                 AddChapter(finalChapter, ob.Chapters[0], volumeName, volOrder, imageFiles);
@@ -370,8 +477,11 @@ namespace OBB_WPF
                     {
                         if (line.Equals("</ol>", StringComparison.InvariantCultureIgnoreCase))
                         {
-                            incontents = false;
-                            chapter.Sources.AddRange(files.Select(x => new Source { File = $"{volumeName}\\item\\xhtml\\{x}" }));
+                            incontents = false; 
+                            foreach (var x in files)
+                            {
+                                chapter.Sources.Add(new Source { File = $"{volumeName}\\item\\xhtml\\{x}" });
+                            }
                         }
                         else if (line.Equals("<ol>", StringComparison.InvariantCultureIgnoreCase))
                         {
@@ -385,7 +495,10 @@ namespace OBB_WPF
                             if (chapter != null)
                             {
                                 var index = files.IndexOf(firstPage);
-                                chapter.Sources.AddRange(files.Take(index).Select(x => new Source {File = $"{volumeName}\\item\\xhtml\\{x}" }));
+                                foreach (var x in files.Take(index))
+                                {
+                                    chapter.Sources.Add(new Source { File = $"{volumeName}\\item\\xhtml\\{x}" });
+                                }
                                 files.RemoveRange(0, index);
                             }
 
