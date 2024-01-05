@@ -50,6 +50,8 @@
                         <EventSetter Event="PreviewMouseLeftButtonUp" Handler="DragSource_ButtonUp"></EventSetter>
                         <EventSetter Event="PreviewMouseRightButtonUp" Handler="DragSource_ButtonUp"></EventSetter>
                         <EventSetter Event="MouseLeave" Handler="DragSource_MouseLeave"></EventSetter>
+                        <Setter Property="AllowDrop" Value="True"></Setter>
+                        <EventSetter Event="Drop" Handler="Source_Drop"></EventSetter>
                     </Style>
                 </ListView.ItemContainerStyle>
                 <ListView.Resources>

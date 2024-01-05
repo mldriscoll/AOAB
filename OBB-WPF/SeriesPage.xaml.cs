@@ -313,6 +313,27 @@ namespace OBB_WPF
             else
                 Browser.Source = new Uri($"about:blank");
         }
+
+        private void Source_Drop(object sender, DragEventArgs e)
+        {
+            var target = ((ListViewItem)sender).DataContext as Source;
+            var lvi = e.Data.GetData(typeof(ListViewItem));
+            if (lvi != null)
+            {
+                var draggedSource = ((ListViewItem)lvi).DataContext as Source;
+
+                if (draggedSource != target)
+                {
+                    var popup = new CombineSources(target, draggedSource);
+                    var result = popup.ShowDialog();
+
+                    if (result.HasValue && result.Value)
+                    {
+                        CurrentChapter.Sources.Remove(draggedSource);
+                    }
+                }
+            }
+        }
     }
 
     public class ChapterTreeViewItem : TreeViewItem

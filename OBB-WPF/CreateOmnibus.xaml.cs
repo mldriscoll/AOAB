@@ -16,6 +16,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using Core.Processor;
+using Point = SixLabors.ImageSharp.Point;
 
 namespace OBB_WPF
 {
@@ -86,7 +87,7 @@ namespace OBB_WPF
 
             foreach (var chapter in series.Chapters)
             {
-                ProcessChapter(chapter, inProcessor, outProcessor, string.Empty);
+                await ProcessChapter(chapter, inProcessor, outProcessor, string.Empty);
             }
 
             //if (vol.ShowRemainingFiles)
@@ -139,7 +140,7 @@ namespace OBB_WPF
 
         }
 
-        private void ProcessChapter(Chapter chapter, Processor inProcessor, Processor outProcessor, string subfolder)
+        private async Task ProcessChapter(Chapter chapter, Processor inProcessor, Processor outProcessor, string subfolder)
         {
             try
             {
@@ -159,34 +160,33 @@ namespace OBB_WPF
 
                     newChapter.SortOrder = chapter.SortOrder;
 
-                    //if (Settings.ImageSettings.CombineMangaSplashPages)
-                    //{
-                    //    foreach (var splash in chapter.SplashPages)
-                    //    {
-                    //        var one = inChapters.First(x => x.Name.Equals(splash.Right, StringComparison.InvariantCultureIgnoreCase));
-                    //        var imR = inProcessor.Images.FirstOrDefault(x => one.Contents.Contains(x.Name));
+                    if (true) // Combine Splash Pages on
+                    {
+                        foreach (var splash in chapter.Sources.Where(x => x.OtherSide != null))
+                        {
+                            var one = inProcessor.Chapters.First(x => (x.SubFolder + "\\" + x.Name + ".xhtml").Equals(splash.File, StringComparison.InvariantCultureIgnoreCase));
+                            var imR = inProcessor.Images.FirstOrDefault(x => one.Contents.Contains(x.Name));
 
-                    //        var two = inChapters.First(x => x.Name.Equals(splash.Left, StringComparison.InvariantCultureIgnoreCase));
-                    //        var imL = inProcessor.Images.FirstOrDefault(x => two.Contents.Contains(x.Name));
+                            var two = inProcessor.Chapters.First(x => (x.SubFolder + "\\" + x.Name + ".xhtml").Equals(splash.OtherSide.File, StringComparison.InvariantCultureIgnoreCase));
+                            var imL = inProcessor.Images.FirstOrDefault(x => two.Contents.Contains(x.Name));
 
-                    //        var right = await SixLabors.ImageSharp.Image.LoadAsync(imR.OldLocation);
-                    //        var left = await SixLabors.ImageSharp.Image.LoadAsync(imL.OldLocation);
+                            var right = await SixLabors.ImageSharp.Image.LoadAsync(imR.OldLocation);
+                            var left = await SixLabors.ImageSharp.Image.LoadAsync(imL.OldLocation);
 
-                    //        var outputImage = new Image<Rgba32>(right.Width + left.Width, right.Height);
-                    //        outputImage.Mutate(x => x
-                    //            .DrawImage(left, new Point(0, 0), 1f)
-                    //            .DrawImage(right, new Point(left.Width, 0), 1f)
-                    //            );
+                            var outputImage = new Image<Rgba32>(right.Width + left.Width, right.Height);
+                            outputImage.Mutate(x => x
+                                .DrawImage(left, new Point(0, 0), 1f)
+                                .DrawImage(right, new Point(left.Width, 0), 1f)
+                                );
 
-                    //        await outputImage.SaveAsJpegAsync(imR.OldLocation);
-                    //        chapter.OriginalFilenames.Remove(splash.Left);
+                            await outputImage.SaveAsJpegAsync(imR.OldLocation);
 
-                    //        var widthRegex = new Regex("width=\"\\d*\"");
-                    //        one.Contents = widthRegex.Replace(one.Contents, string.Empty);
-                    //        var viewBoxRegex = new Regex("viewBox=\"[\\d ]*\"");
-                    //        one.Contents = viewBoxRegex.Replace(one.Contents, $"viewBox=\"0 0 {outputImage.Width} {outputImage.Height}\"");
-                    //    }
-                    //}
+                            var widthRegex = new Regex("width=\"\\d*\"");
+                            one.Contents = widthRegex.Replace(one.Contents, string.Empty);
+                            var viewBoxRegex = new Regex("viewBox=\"[\\d ]*\"");
+                            one.Contents = viewBoxRegex.Replace(one.Contents, $"viewBox=\"0 0 {outputImage.Width} {outputImage.Height}\"");
+                        }
+                    }
 
                     foreach (var chapterFile in chapter.Sources)
                     {
@@ -207,6 +207,25 @@ namespace OBB_WPF
                             newChapter.Contents = string.Concat(newChapter.Contents, fileContent.Replace("</body>", string.Empty));
 
                             entry.Processed = true;
+
+                            if (false) //Combine Splash Pages Off
+                            {
+                                var otherentry = inProcessor.Chapters.First(x => (x.SubFolder + "\\" + x.Name + ".xhtml").Equals(chapterFile.File, StringComparison.InvariantCultureIgnoreCase));
+                                newChapter.CssFiles.AddRange(otherentry.CssFiles);
+                                var otherfileContent = otherentry.Contents;
+
+                                if (notFirst)
+                                {
+                                    otherfileContent = otherfileContent.Replace("<body class=\"nomargin center\">", string.Empty).Replace("<body>", string.Empty);
+                                }
+                                else
+                                {
+                                    notFirst = true;
+                                }
+                                newChapter.Contents = string.Concat(newChapter.Contents, otherfileContent.Replace("</body>", string.Empty));
+
+                                entry.Processed = true;
+                            }
                         }
                         catch (Exception ex)
                         {
@@ -284,7 +303,7 @@ namespace OBB_WPF
 
             foreach(var subChapter in chapter.Chapters)
             {
-                ProcessChapter(subChapter, inProcessor, outProcessor, subfolder);
+                await ProcessChapter(subChapter, inProcessor, outProcessor, subfolder);
             }
         }
     }

@@ -1,0 +1,14 @@
+﻿<Window x:Class="OBB_WPF.CombineSources"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OBB_WPF"
+        mc:Ignorable="d"
+        Title="CombineSources" Height="450" Width="800">
+    <ListView>
+        <Button Content="Set as Alternate Source" Name="AlternateSource" HorizontalAlignment="Stretch" Click="AlternateSource_Click"></Button>
+        <Button Content="Set as Left Hand Side Image" Name="ImageCombine" HorizontalAlignment="Stretch" Click="ImageCombine_Click"></Button>
+        <Button Content="Cancel" Name="Cancel" HorizontalAlignment="Stretch" Click="Cancel_Click"></Button>
+    </ListView>
+</Window>

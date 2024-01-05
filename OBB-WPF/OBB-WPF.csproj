@@ -23,4 +23,8 @@
     <Folder Include="JSON\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="SixLabors.ImageSharp" Version="3.0.0" />
+  </ItemGroup>
+
 </Project>
