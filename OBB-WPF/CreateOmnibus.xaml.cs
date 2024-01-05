@@ -69,21 +69,20 @@ namespace OBB_WPF
 
             //var volumes = await JSONBuilder.GetVolumes(selection.InternalName);
 
-            bool coverPicked = false;
-
-            //foreach (var vol in selection.Volumes.OrderBy(x => x.Order))
-            //{
-            //if (!coverPicked)
-            //{
-            //    var cover = $"{temp}\\OEBPS\\Images\\Cover.jpg";
-            //    if (!File.Exists(cover)) cover = $"{temp}\\item\\image\\cover.jpg";
-            //    if (File.Exists("cover.jpg")) File.Delete("cover.jpg");
-            //    File.Copy(cover, "cover.jpg");
-            //    coverPicked = true;
-            //}
-
             //var inChapters = inProcessor.Chapters.Where(x => x.SubFolder.Contains(volume.InternalName + "\\")).ToList();
             //var chapters = BuildChapterList(volume, x => true);
+
+            if (series.Cover != null)
+            {
+                var entry = inProcessor.Chapters.First(x => (x.SubFolder + "\\" + x.Name + ".xhtml").Equals(series.Cover.File, StringComparison.InvariantCultureIgnoreCase));
+                var imageRegex = new Regex("\\[ImageFolder\\]\\/[0-9]*?\\.jpg");
+                var irMatch = imageRegex.Match(entry.Contents);
+                var cim = inProcessor.Images.FirstOrDefault(x => x.Name.Equals(irMatch.Value.Replace("[ImageFolder]/", "")));
+                if (File.Exists("cover.jpg")) File.Delete("cover.jpg");
+                File.Copy(cim.OldLocation, "cover.jpg");
+                outProcessor.Metadata.Add("<meta name=\"cover\" content=\"images/cover.jpg\" />");
+                outProcessor.Images.Add(new Core.Processor.Image { Name = "cover.jpg", Referenced = true, OldLocation = "cover.jpg" });
+            }
 
             foreach (var chapter in series.Chapters)
             {
@@ -99,9 +98,6 @@ namespace OBB_WPF
             //    }
             //}
             //}
-
-            outProcessor.Metadata.Add("<meta name=\"cover\" content=\"images/cover.jpg\" />");
-            outProcessor.Images.Add(new Core.Processor.Image { Name = "cover.jpg", Referenced = true, OldLocation = "cover.jpg" });
 
             var coverContents = File.ReadAllText("Reference\\cover.txt");
 
