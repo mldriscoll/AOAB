@@ -41,6 +41,11 @@
         <ListView Grid.Column="1" Grid.Row="2">
             <TextBox x:Name="ChapterName" HorizontalAlignment="Stretch" Text="{Binding Name}"></TextBox>
             <TextBox x:Name="SortOrder" HorizontalAlignment="Stretch" Text="{Binding SortOrder}"></TextBox>
+            <ComboBox SelectedValue="{Binding ChapType}" SelectedValuePath="Name" HorizontalAlignment="Stretch" Name="ChapterType" Width="100">
+                <ComboBoxItem Name="Story">Story</ComboBoxItem>
+                <ComboBoxItem Name="Bonus">Bonus</ComboBoxItem>
+                <ComboBoxItem Name="NonStory">NonStory</ComboBoxItem>
+            </ComboBox>
             <TextBlock x:Name="DragChapter" Background="Black" Foreground="White" PreviewMouseMove="Chapter_MouseMove" PreviewMouseLeftButtonUp="DragChapter_PreviewMouseLeftButtonUp" PreviewMouseRightButtonUp="DragChapter_PreviewMouseLeftButtonUp" MouseLeave="DragChapter_MouseLeave">Drag this to relocate the current chapter</TextBlock>
             <ListView x:Name="Sources" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
                 <ListView.ItemContainerStyle>
@@ -66,5 +71,8 @@
         <TextBlock Grid.Row="1" Grid.Column="1" AllowDrop="True" Drop="Root_Drop">Move to Root Level</TextBlock>
         <Button Content="Deleted" Grid.Row="1" Grid.Column="0" AllowDrop="True" Drop="Delete_Button_Drop" Click="Button_Click"></Button>
         <Button Content="Cover" Grid.Row="1" Grid.Column="2" AllowDrop="True" Name="CoverButton" Drop="CoverButton_Drop" Click="CoverButton_Click"></Button>
+
+        <Button Content="New Chapter" Grid.Row="3" Click="NewChapter_Click"></Button>
+        <Button Content="Duplicate/Split Chapter" Grid.Row="3" Grid.Column="1" Name="SplitChapter" Click="SplitChapter_Click"></Button>
     </Grid>
 </Window>

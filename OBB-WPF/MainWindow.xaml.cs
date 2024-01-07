@@ -23,12 +23,14 @@ namespace OBB_WPF
         public MainWindow()
         {
             InitializeComponent();
-
             Load();
         }
 
+        public static Configuration Configuration { get; set; } = new Configuration();
+
         private async void Load()
         {
+            Configuration = (await JSON.Load<Configuration>("Configuration.json")) ?? new Configuration();
 #if DEBUG
             if (File.Exists($"..\\..\\..\\JSON\\Series.json"))
             {
@@ -149,6 +151,25 @@ namespace OBB_WPF
 
     public class Chapter : ChapterHolder, INotifyPropertyChanged
     {
+        public enum ChapterType
+        {
+            Story,
+            Bonus,
+            NonStory
+        }
+
+        public ChapterType CType { get; set; } = ChapterType.Story;
+        public string ChapType
+        {
+            get { return CType.ToString(); }
+            set
+            {
+                CType = (ChapterType)Enum.Parse(typeof(ChapterType), value);
+                if (PropertyChanged != null)
+                    PropertyChanged(this, new PropertyChangedEventArgs("ChapType"));
+            }
+        }
+
         private string _name;
         public string Name
         {
@@ -175,6 +196,8 @@ namespace OBB_WPF
         }
         public ObservableCollection<Source> Sources { get; set; } = new ObservableCollection<Source> { };
 
+        public string EndsBeforeLine { get; set; } = string.Empty;
+        public string StartsAtLine { get; set; } = string.Empty;
 
         public bool Match(Chapter other)
         {

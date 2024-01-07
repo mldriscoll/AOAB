@@ -6,7 +6,24 @@
         xmlns:local="clr-namespace:OBB_WPF"
         mc:Ignorable="d"
         Title="CreateOmnibus" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+    <ListBox>
+        <CheckBox Content="Include Regular Story Chapters" IsChecked="{Binding Path=IncStoryChapters}"></CheckBox>
+        <CheckBox Content="Include Bonus Story Chapters" IsChecked="{Binding Path=IncBonusChapters}"></CheckBox>
+        <CheckBox Content="Include Non-Story Chapters" IsChecked="{Binding Path=IncNonStoryChapters}"></CheckBox>
+        <CheckBox Content="Combine Manga Splash Pages" IsChecked="{Binding Path=ConfigCombineImages}"></CheckBox>
+        <CheckBox Content="Update Chapter Titles in text to match the titles in the menu" IsChecked="{Binding Path=UpdateChapterTitles}"></CheckBox>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Text="Maximum Image Width:  "></TextBlock>
+            <TextBox Text="{Binding Path=ImageWidth}" Width="50"></TextBox>
+        </StackPanel>        
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Text="Maximum Image Height: "></TextBlock>
+            <TextBox Text="{Binding Path=ImageHeight}" Width="50"></TextBox>
+        </StackPanel>        
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Text="Image Resize Quality"></TextBlock>
+            <TextBox Text="{Binding Path=ImageQuality}" Width="50"></TextBox>
+        </StackPanel>
+        <Button Click="Button_Click">Create Omnibus</Button>
+    </ListBox>
 </Window>

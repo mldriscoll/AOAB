@@ -16,6 +16,9 @@
     <Compile Update="SeriesPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="SplitChapter.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="CombineSources.xaml">
@@ -28,6 +31,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="SeriesPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SplitChapter.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

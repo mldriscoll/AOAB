@@ -45,7 +45,9 @@ namespace OBB_WPF
 
             omnibus = new Omnibus
             {
-                Name = series.Name
+                Name = series.Name,
+                Author = series.Author,
+                AuthorSort = series.AuthorSort,
             };
 
 #if DEBUG
@@ -130,6 +132,7 @@ namespace OBB_WPF
                 SortOrder.DataContext = CurrentChapter;
                 DragChapter.DataContext = CurrentChapter;
                 Sources.ItemsSource = CurrentChapter.Sources;
+                ChapterType.DataContext = CurrentChapter;
             }
 
             Browser.Source = new Uri($"about:blank");
@@ -148,11 +151,7 @@ namespace OBB_WPF
         private async void BuildOmnibus(object sender, RoutedEventArgs e)
         {
             var page = new CreateOmnibus(omnibus);
-            page.Show();
-            this.Hide();
-            await page.Start();
-            this.Show();
-            page.Close();
+            page.ShowDialog();
         }
 
         private async void SaveButton_Click(object sender, RoutedEventArgs e)
@@ -174,7 +173,7 @@ namespace OBB_WPF
                 {
                     if (!a.EditedBy.Any() || !a.EditedBy.Any(x => x.Equals(Editor.Text, StringComparison.OrdinalIgnoreCase)))
                     {
-                        if (File.Exists($"{Configuration.SourceFolder}\\{a.FileName}"))
+                        if (File.Exists($"{MainWindow.Configuration.SourceFolder}\\{a.FileName}"))
                         {
                             a.EditedBy.Add(Editor.Text);
                             saveSeries = true;
@@ -334,16 +333,29 @@ namespace OBB_WPF
                 }
             }
         }
+
+        private void NewChapter_Click(object sender, RoutedEventArgs e)
+        {
+            var sortOrder = omnibus.Chapters.Any() ? omnibus.Chapters.OrderByDescending(x => x.SortOrder).First().SortOrder + "x" : "001";
+            var chapter = new Chapter
+            {
+                CType = Chapter.ChapterType.Story,
+                Name = "New Chapter",
+                SortOrder = sortOrder
+            };
+            omnibus.Chapters.Add(chapter);
+        }
+
+        private void SplitChapter_Click(object sender, RoutedEventArgs e)
+        {
+            var sc = new SplitChapter(CurrentChapter);
+            sc.ShowDialog();
+        }
     }
 
     public class ChapterTreeViewItem : TreeViewItem
     {
         public Chapter Chapter { get; set; }
-    }
-
-    public static class Configuration
-    {
-        public static string SourceFolder { get; set; } = "D:\\JNC\\Raw";
     }
 
     public static class Unpacker
@@ -354,9 +366,9 @@ namespace OBB_WPF
 
             Directory.CreateDirectory("Temp");
 
-            foreach (var volume in series.Volumes.Where(x => File.Exists($"{Configuration.SourceFolder}\\{x.FileName}")))
+            foreach (var volume in series.Volumes.Where(x => File.Exists($"{MainWindow.Configuration.SourceFolder}\\{x.FileName}")))
             {
-                ZipFile.ExtractToDirectory($"{Configuration.SourceFolder}\\{volume.FileName}", $"Temp\\{volume.ApiSlug}");
+                ZipFile.ExtractToDirectory($"{MainWindow.Configuration.SourceFolder}\\{volume.FileName}", $"Temp\\{volume.ApiSlug}");
             }
             return Task.CompletedTask;
         }

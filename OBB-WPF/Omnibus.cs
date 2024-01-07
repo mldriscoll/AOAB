@@ -6,6 +6,8 @@ namespace OBB_WPF
     {
         public Source Cover { get; set; } = null;
 
+        public string Author { get; set; } = string.Empty;
+        public string AuthorSort { get; set; } = string.Empty;
         public string Name { get; set; } = string.Empty;
 
         public void Combine(Omnibus other)
