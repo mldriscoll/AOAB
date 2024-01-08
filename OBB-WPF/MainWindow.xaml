@@ -7,7 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <ScrollViewer>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Button Content="Update Series List" Name="Update" Click="Update_Click"></Button>
+        <ScrollViewer Grid.Row="1">
             <ListView x:Name="SeriesList">
                 
             </ListView>

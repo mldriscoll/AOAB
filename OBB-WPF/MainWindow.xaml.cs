@@ -1,6 +1,9 @@
-﻿using System.Collections.ObjectModel;
+﻿using Core.Downloads;
+using Core;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.IO;
+using System.Net.Http;
 using System.Text;
 using System.Text.Json;
 using System.Windows;
@@ -12,6 +15,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Runtime.Serialization.Json;
 
 namespace OBB_WPF
 {
@@ -52,7 +56,8 @@ namespace OBB_WPF
             foreach (var series in Series)
             {
                 var button = new Button { Content = series.Name };
-                button.Click += (object sender, RoutedEventArgs e) => {
+                button.Click += (object sender, RoutedEventArgs e) =>
+                {
                     var window = new SeriesPage(series);
                     window.Show();
                 };
@@ -121,6 +126,13 @@ namespace OBB_WPF
                 AuthorSort = "KOORIAME"
             }
         };
+
+        private async void Update_Click(object sender, RoutedEventArgs e)
+        {
+            var up = new UpdateWindow();
+            up.Run();
+            up.ShowDialog();
+        }
     }
 
     public class Series
@@ -196,6 +208,8 @@ namespace OBB_WPF
         }
         public ObservableCollection<Source> Sources { get; set; } = new ObservableCollection<Source> { };
 
+        public ObservableCollection<Link> LinkedChapters { get; set; }
+
         public string EndsBeforeLine { get; set; } = string.Empty;
         public string StartsAtLine { get; set; } = string.Empty;
 
@@ -220,6 +234,14 @@ namespace OBB_WPF
                     Chapters.Add(chapter);
             }
         }
+
+
+    }
+
+    public class Link
+    {
+        public string OriginalLink { get; set; }
+        public Chapter Target { get; set; }
     }
 
     public abstract class ChapterHolder

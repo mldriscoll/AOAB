@@ -13,10 +13,16 @@
     <Compile Update="CreateOmnibus.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="LoginWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="SeriesPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="SplitChapter.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UpdateWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -27,6 +33,9 @@
     <Page Update="CreateOmnibus.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="LoginWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -34,6 +43,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="SplitChapter.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UpdateWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

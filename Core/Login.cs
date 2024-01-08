@@ -29,6 +29,17 @@ namespace Core
             return await CreateLogin(un, pass, client);
         }
 
+        public static async Task<Login> FromUI(HttpClient client, string username, string password)
+        {
+            var login = await CreateLogin(username, password, client);
+            if (login != null)
+            {
+                File.WriteAllText("Account.txt", $"{username}\r\n{password}");
+            }
+
+            return login;
+        }
+
         public static async Task<Login> FromFile(HttpClient client)
         {
             if (!File.Exists("Account.txt"))
