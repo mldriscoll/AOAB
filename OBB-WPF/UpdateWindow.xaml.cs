@@ -115,7 +115,6 @@ namespace OBB_WPF
                                 ApiSlug = x.slug,
                                 EditedBy = new List<string>(),
                                 FileName = $"{x.slug}.epub",
-                                ShowRemainingFiles = true,
                                 Order = order + x.number,
                                 Published = DateOnly.FromDateTime(DateTime.Parse(x.publishing)).ToString("yyyy-MM-dd")
                             }));
@@ -135,7 +134,6 @@ namespace OBB_WPF
                                     ApiSlug = x.slug ?? string.Empty,
                                     EditedBy = new List<string>(),
                                     FileName = $"{x.slug}.epub",
-                                    ShowRemainingFiles = true,
                                     Order = 100 + x.number,
                                     Published = DateOnly.FromDateTime(DateTime.Parse(x.publishing)).ToString("yyyy-MM-dd"),
                                     Title = x.title ?? string.Empty

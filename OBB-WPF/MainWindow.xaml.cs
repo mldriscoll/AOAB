@@ -16,6 +16,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Runtime.Serialization.Json;
+using static Core.Downloads.LibraryResponse.Book;
 
 namespace OBB_WPF
 {
@@ -31,6 +32,7 @@ namespace OBB_WPF
         }
 
         public static Configuration Configuration { get; set; } = new Configuration();
+        public static Login Login { get; set; }
 
         private async void Load()
         {
@@ -52,8 +54,58 @@ namespace OBB_WPF
                 }
             }
 #endif
+            Draw();
+        }
 
-            foreach (var series in Series)
+        private async void Draw()
+        {
+            SeriesList.Items.Clear();
+            SeriesList list = null;
+            if (Login == null)
+            {
+                using (var client = new HttpClient())
+                {
+                    Login = await Login.FromFile(client);
+
+                    if (Login == null)
+                    {
+                        var loginpage = new LoginWindow(client);
+                        var success = loginpage.ShowDialog();
+                        if (success.HasValue && success.Value)
+                        {
+                            Login = await Login.FromFile(client);
+                        }
+                    }
+                }
+            }
+
+            if (Login != null)
+            {
+                var library = await Downloader.GetLibrary(new HttpClient(), Login.AccessToken);
+
+                using (var client = new HttpClient())
+                {
+                    foreach (var book in library.books.Where(x => x.downloads.Any()))
+                    {
+                        if (Series.SelectMany(x => x.Volumes).Any(x => x.ApiSlug.Equals(book.volume.slug)))
+                        {
+                            var filename = Configuration.SourceFolder + "\\" + book.volume.slug + ".epub";
+                            if (!File.Exists(filename))
+                            {
+                                using (var stream = await client.GetStreamAsync(book.downloads.Last().link))
+                                {
+                                    using (var filestream = File.OpenWrite(filename))
+                                    {
+                                        await stream.CopyToAsync(filestream);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            foreach (var series in Series.Where(x => x.Volumes.Any(y => File.Exists(Configuration.SourceFolder + "\\" + y.FileName))))
             {
                 var button = new Button { Content = series.Name };
                 button.Click += (object sender, RoutedEventArgs e) =>
@@ -65,73 +117,14 @@ namespace OBB_WPF
             }
         }
 
-        public static List<Series> Series = new List<Series>
-        {
-            new Series
-            {
-                Name = "Lady Rose Just Wants to Be a Commoner!",
-                InternalName = "lady-rose-just-wants-to-be-a-commoner",
-                ApiSlugs = new List<SeriesSlug>
-                {
-                    new SeriesSlug
-                    {
-                        Order = 1,
-                        Slug = "lady-rose-just-wants-to-be-a-commoner"
-                    }
-                },
-                Volumes = new List<VolumeName>
-                {
-                    new VolumeName
-                    {
-                        ApiSlug = "lady-rose-just-wants-to-be-a-commoner",
-                        FileName = "lady-rose-just-wants-to-be-a-commoner.epub",
-                        Title = "Lady Rose Just Wants to Be a Commoner! Volume 1",
-                        Published = "2023-01-04",
-                        Order = 101
-                    },
-                    new VolumeName
-                    {
-                        ApiSlug = "lady-rose-just-wants-to-be-a-commoner-2",
-                        FileName = "lady-rose-just-wants-to-be-a-commoner-volume-2.epub",
-                        Title = "Lady Rose Just Wants to Be a Commoner! Volume 2",
-                        Published = "2023-03-22",
-                        Order = 102
-                    },
-                    new VolumeName
-                    {
-                        ApiSlug = "lady-rose-just-wants-to-be-a-commoner-3",
-                        FileName = "lady-rose-just-wants-to-be-a-commoner-volume-3.epub",
-                        Title = "Lady Rose Just Wants to Be a Commoner! Volume 3",
-                        Published = "2023-06-14",
-                        Order = 103
-                    },
-                    new VolumeName
-                    {
-                        ApiSlug = "lady-rose-just-wants-to-be-a-commoner-4",
-                        FileName = "lady-rose-just-wants-to-be-a-commoner-volume-4.epub",
-                        Title = "Lady Rose Just Wants to Be a Commoner! Volume 4",
-                        Published = "2023-08-30",
-                        Order = 104
-                    },
-                    new VolumeName
-                    {
-                        ApiSlug = "lady-rose-just-wants-to-be-a-commoner-5",
-                        FileName = "lady-rose-just-wants-to-be-a-commoner-volume-5.epub",
-                        Title = "Lady Rose Just Wants to Be a Commoner! Volume 5",
-                        Published = "2023-12-13",
-                        Order = 105
-                    }
-                },
-                Author = "Kooriame",
-                AuthorSort = "KOORIAME"
-            }
-        };
+        public static List<Series> Series = new List<Series>();
 
         private async void Update_Click(object sender, RoutedEventArgs e)
         {
             var up = new UpdateWindow();
             up.Run();
             up.ShowDialog();
+            Draw();
         }
     }
 
@@ -156,7 +149,6 @@ namespace OBB_WPF
         public string FileName { get; set; } = string.Empty;
         public string Title { get; set; } = string.Empty;
         public List<string> EditedBy { get; set; } = new List<string>();
-        public bool ShowRemainingFiles { get; set; } = true;
         public string? Published { get; set; } = null;
         public int Order { get; set; }
     }
@@ -208,7 +200,7 @@ namespace OBB_WPF
         }
         public ObservableCollection<Source> Sources { get; set; } = new ObservableCollection<Source> { };
 
-        public ObservableCollection<Link> LinkedChapters { get; set; }
+        public ObservableCollection<Link> LinkedChapters { get; set; } = new ObservableCollection<Link>();
 
         public string EndsBeforeLine { get; set; } = string.Empty;
         public string StartsAtLine { get; set; } = string.Empty;

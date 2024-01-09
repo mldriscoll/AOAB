@@ -108,13 +108,25 @@ namespace OBB_WPF
         private void DropOnChapter(object sender, DragEventArgs e)
         {
             var dropTarget = (Chapter)((TreeViewItem)sender).Tag;
-            var draggedChapter = ((TextBlock)e.Data.GetData(typeof(TextBlock))).DataContext as Chapter;
-
-            if (draggedChapter != null && draggedChapter != dropTarget)
+            var tb = e.Data.GetData(typeof(TextBlock));
+            if (tb != null)
             {
-                omnibus.Remove(draggedChapter);
-                dropTarget.Chapters.Add(draggedChapter);
-                dropTarget.Chapters = new ObservableCollection<Chapter>(dropTarget.Chapters.OrderBy(x => x.SortOrder));
+                var draggedChapter = ((TextBlock)tb).DataContext as Chapter;
+
+                if (draggedChapter != null && draggedChapter != dropTarget)
+                {
+                    omnibus.Remove(draggedChapter);
+                    dropTarget.Chapters.Add(draggedChapter);
+                    dropTarget.Chapters = new ObservableCollection<Chapter>(dropTarget.Chapters.OrderBy(x => x.SortOrder));
+                }
+            }
+
+            var lvi = e.Data.GetData(typeof(ListViewItem));
+            if (lvi != null)
+            {
+                var draggedSource = ((ListViewItem)lvi).DataContext as Source;
+                CurrentChapter.Sources.Remove(draggedSource);
+                dropTarget.Sources.Add(draggedSource);
             }
             e.Handled = true;
         }
