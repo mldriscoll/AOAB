@@ -147,7 +147,6 @@ namespace OBB_WPF
                 ChapterType.DataContext = CurrentChapter;
             }
 
-            Browser.Source = new Uri($"about:blank");
             e.Handled = true;
         }
 
@@ -301,7 +300,7 @@ namespace OBB_WPF
             var li = (ListViewItem)sender;
             var source = li.DataContext as Source;
 
-            Browser.Source = new Uri($"file://{Environment.CurrentDirectory}\\Temp\\{source.File}");
+            Browser.Text = File.ReadAllText($"Temp\\{source.File}");
         }
 
         private void CoverButton_Drop(object sender, DragEventArgs e)
@@ -319,10 +318,10 @@ namespace OBB_WPF
 
         private void CoverButton_Click(object sender, RoutedEventArgs e)
         {
-            if (omnibus.Cover != null)
-                Browser.Source = new Uri($"file://{Environment.CurrentDirectory}\\Temp\\{omnibus.Cover.File}");
-            else
-                Browser.Source = new Uri($"about:blank");
+            //if (omnibus.Cover != null)
+            //    Browser.Source = new Uri($"file://{Environment.CurrentDirectory}\\Temp\\{omnibus.Cover.File}");
+            //else
+            //    Browser.Source = new Uri($"about:blank");
         }
 
         private void Source_Drop(object sender, DragEventArgs e)
@@ -362,6 +361,12 @@ namespace OBB_WPF
         {
             var sc = new SplitChapter(CurrentChapter);
             sc.ShowDialog();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            var linkWindow = new CreateLink(CurrentChapter);
+            linkWindow.Show();
         }
     }
 

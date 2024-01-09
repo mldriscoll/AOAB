@@ -59,6 +59,7 @@ namespace OBB_WPF
 
         private async void Draw()
         {
+            Update.IsEnabled = false;
             SeriesList.Items.Clear();
             SeriesList list = null;
             if (Login == null)
@@ -115,6 +116,8 @@ namespace OBB_WPF
                 };
                 SeriesList.Items.Add(button);
             }
+
+            Update.IsEnabled = true;
         }
 
         public static List<Series> Series = new List<Series>();
@@ -233,7 +236,7 @@ namespace OBB_WPF
     public class Link
     {
         public string OriginalLink { get; set; }
-        public Chapter Target { get; set; }
+        public string Target { get; set; }
     }
 
     public abstract class ChapterHolder
@@ -258,5 +261,33 @@ namespace OBB_WPF
         public Source OtherSide { get; set; } = null;
 
         public string SortOrder { get; set; } = string.Empty;
+
+        public string LeftURI
+        {
+            get
+            {
+                if (OtherSide == null) return "about:blank";
+
+                if (System.IO.File.Exists($"TEMP\\{OtherSide.File}")) return $"TEMP\\{OtherSide.File}";
+
+                foreach (var alt in OtherSide.Alternates)
+                    if (System.IO.File.Exists($"TEMP\\{alt}")) return $"TEMP\\{alt}";
+
+                return "about:blank";
+            }
+        }
+
+        public string RightURI
+        {
+            get
+            {
+                if (System.IO.File.Exists($"TEMP\\{File}")) return $"TEMP\\{File}";
+
+                foreach (var alt in Alternates)
+                    if (System.IO.File.Exists($"TEMP\\{alt}")) return $"TEMP\\{alt}";
+
+                return "about:blank";
+            }
+        }
     }
 }

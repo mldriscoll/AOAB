@@ -10,6 +10,9 @@
     <Compile Update="CombineSources.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="CreateLink.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="CreateOmnibus.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -17,6 +20,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="SeriesPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SourcePreview.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="SplitChapter.xaml.cs">
@@ -30,6 +36,9 @@
     <Page Update="CombineSources.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="CreateLink.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="CreateOmnibus.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -40,6 +49,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="SeriesPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SourcePreview.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="SplitChapter.xaml">

@@ -38,7 +38,7 @@
                 </HierarchicalDataTemplate>
             </TreeView.Resources>
         </TreeView>
-        <ListView Grid.Column="1" Grid.Row="2">
+        <ListView Grid.Column="1" Grid.Row="2" VerticalAlignment="Stretch">
             <TextBox x:Name="ChapterName" HorizontalAlignment="Stretch" Text="{Binding Name}"></TextBox>
             <TextBox x:Name="SortOrder" HorizontalAlignment="Stretch" Text="{Binding SortOrder}"></TextBox>
             <ComboBox SelectedValue="{Binding ChapType}" SelectedValuePath="Name" HorizontalAlignment="Stretch" Name="ChapterType" Width="100">
@@ -47,7 +47,14 @@
                 <ComboBoxItem Name="NonStory">NonStory</ComboBoxItem>
             </ComboBox>
             <TextBlock x:Name="DragChapter" Background="Black" Foreground="White" PreviewMouseMove="Chapter_MouseMove" PreviewMouseLeftButtonUp="DragChapter_PreviewMouseLeftButtonUp" PreviewMouseRightButtonUp="DragChapter_PreviewMouseLeftButtonUp" MouseLeave="DragChapter_MouseLeave">Drag this to relocate the current chapter</TextBlock>
-            <ListView x:Name="Sources" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+
+            <Button Content="Add Link" Click="Button_Click_1"></Button>
+            <ListView x:Name="Sources" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" ScrollViewer.HorizontalScrollBarVisibility="Auto">
+                <ListView.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <StackPanel Orientation="Horizontal"></StackPanel>
+                    </ItemsPanelTemplate>
+                </ListView.ItemsPanel>
                 <ListView.ItemContainerStyle>
                     <Style TargetType="ListViewItem">
                         <EventSetter Event="Selected" Handler="Source_Selected"></EventSetter>
@@ -61,12 +68,13 @@
                 </ListView.ItemContainerStyle>
                 <ListView.Resources>
                     <DataTemplate DataType="{x:Type local:Source}">
-                        <TextBlock Text="{Binding File}"></TextBlock>
+                        <local:SourcePreview LeftSource="{Binding LeftURI}" RightSource="{Binding RightURI}" SortOrder="{Binding SortOrder}" Height="500" Width="500"></local:SourcePreview>
                     </DataTemplate>
                 </ListView.Resources>
             </ListView>
+
         </ListView>
-        <WebBrowser x:Name="Browser" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="2" Grid.Row="2"></WebBrowser>
+        <TextBox x:Name="Browser" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="2" Grid.Row="2"></TextBox>
         
         <TextBlock Grid.Row="1" Grid.Column="1" AllowDrop="True" Drop="Root_Drop">Move to Root Level</TextBlock>
         <Button Content="Deleted" Grid.Row="1" Grid.Column="0" AllowDrop="True" Drop="Delete_Button_Drop" Click="Button_Click"></Button>

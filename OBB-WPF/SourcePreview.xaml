@@ -1,0 +1,27 @@
+﻿<UserControl x:Class="OBB_WPF.SourcePreview"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:OBB_WPF" xmlns:wpf="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800" VerticalAlignment="Stretch" ScrollViewer.HorizontalScrollBarVisibility="Hidden">
+    <ListView VerticalAlignment="Stretch" Height="auto" ScrollViewer.HorizontalScrollBarVisibility="Hidden">
+        <Grid HorizontalAlignment="Stretch" Height="40" Width="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type local:SourcePreview}}, Path=ActualWidth}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <TextBox HorizontalAlignment="Stretch" Text="{Binding SortOrder}" Width="auto" IsHitTestVisible="True"></TextBox>
+            <TextBlock HorizontalAlignment="Stretch" Grid.Column="1" IsHitTestVisible="False">View Source</TextBlock>
+        </Grid>
+        <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="400" Width="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type local:SourcePreview}}, Path=ActualWidth}" ScrollViewer.HorizontalScrollBarVisibility="Hidden">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition x:Name="LeftColumn"></ColumnDefinition>
+                <ColumnDefinition x:Name="RightColumn"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <wpf:WebView2 Name="Left" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Source="about:blank" Height="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Grid}}, Path=ActualHeight}"></wpf:WebView2>
+            <wpf:WebView2 Name="Right" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Source="about:blank" Height="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Grid}}, Path=ActualHeight}" Width="auto"></wpf:WebView2>
+        </Grid>
+    </ListView>
+</UserControl>
