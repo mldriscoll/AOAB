@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CefSharp.DevTools.Runtime;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -21,7 +22,7 @@ namespace OBB_WPF
     /// </summary>
     public partial class SourcePreview : UserControl
     {
-        private string lSource;
+        private string lSource = "about:blank";
         public string LeftSource {
             get { return lSource; }
             set {
@@ -40,14 +41,16 @@ namespace OBB_WPF
             if (e.Property == LeftSourceProperty)
             {
                 LeftSource = (string)e.NewValue;
+                Left.Address = LeftSource;
             }
             if (e.Property == RightSourceProperty)
             {
                 RightSource = (string)e.NewValue;
+                Right.LoadUrl(RightSource);
             }
         }
 
-        string rSource;
+        string rSource = "about:blank";
         public string RightSource
         {
             get { return rSource; }
@@ -77,17 +80,25 @@ namespace OBB_WPF
 
         async void InitializeAsync()
         {
-            await Left.EnsureCoreWebView2Async();
-            Left.CoreWebView2.Navigate(lSource);
+            await Left.WaitForInitialLoadAsync();
+            await Right.WaitForInitialLoadAsync();
             if (lSource.EndsWith("blank"))
             {
                 LeftColumn.Width = new GridLength(0, GridUnitType.Pixel);
             }
-            await Right.EnsureCoreWebView2Async();
-            Right.CoreWebView2.Navigate(rSource); 
+            else
+            {
+                Left.Address = lSource;
+                await Left.WaitForNavigationAsync();
+            }
             if (rSource.EndsWith("blank"))
             {
                 RightColumn.Width = new GridLength(0, GridUnitType.Pixel);
+            }
+            else
+            {
+                Right.Address = rSource;
+                Right.LoadUrl(RightSource);
             }
         }
     }

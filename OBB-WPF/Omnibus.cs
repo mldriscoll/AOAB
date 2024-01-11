@@ -23,6 +23,23 @@ namespace OBB_WPF
             }
         }
 
+        public void RemoveDupesFromUnusedList()
+        {
+            UnusedSources.Remove(Cover);
+
+
+            foreach (var chapterList in Chapters.Select(x => x.FindDupes(UnusedSources.ToList())))
+            {
+                foreach(var source in chapterList)
+                {
+                    UnusedSources.Remove(source);
+                }
+            }
+
+            UnusedSources = new ObservableCollection<Source>(UnusedSources.Distinct());
+        }
+
+
         public ObservableCollection<Source> UnusedSources { get; set; } = new ObservableCollection<Source>();
     }
 }

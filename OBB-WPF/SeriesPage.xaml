@@ -6,6 +6,9 @@
         xmlns:local="clr-namespace:OBB_WPF"
         mc:Ignorable="d"
         Title="SeriesPage" Height="450" Width="800">
+    <Window.Resources>
+        <local:MathConverter x:Key="MathConverter"></local:MathConverter>
+    </Window.Resources>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="30"></RowDefinition>
@@ -38,7 +41,7 @@
                 </HierarchicalDataTemplate>
             </TreeView.Resources>
         </TreeView>
-        <ListView Grid.Column="1" Grid.Row="2" VerticalAlignment="Stretch">
+        <ListView Grid.Column="1" Grid.Row="2" VerticalAlignment="Stretch" ScrollViewer.HorizontalScrollBarVisibility="Hidden">
             <TextBox x:Name="ChapterName" HorizontalAlignment="Stretch" Text="{Binding Name}"></TextBox>
             <TextBox x:Name="SortOrder" HorizontalAlignment="Stretch" Text="{Binding SortOrder}"></TextBox>
             <ComboBox SelectedValue="{Binding ChapType}" SelectedValuePath="Name" HorizontalAlignment="Stretch" Name="ChapterType" Width="100">
@@ -49,7 +52,7 @@
             <TextBlock x:Name="DragChapter" Background="Black" Foreground="White" PreviewMouseMove="Chapter_MouseMove" PreviewMouseLeftButtonUp="DragChapter_PreviewMouseLeftButtonUp" PreviewMouseRightButtonUp="DragChapter_PreviewMouseLeftButtonUp" MouseLeave="DragChapter_MouseLeave">Drag this to relocate the current chapter</TextBlock>
 
             <Button Content="Add Link" Click="Button_Click_1"></Button>
-            <ListView x:Name="Sources" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" ScrollViewer.HorizontalScrollBarVisibility="Auto">
+            <ListView x:Name="Sources" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" ScrollViewer.HorizontalScrollBarVisibility="Auto" FlowDirection="RightToLeft" Width="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Grid}}, Converter={StaticResource MathConverter}, Path=ActualWidth}">
                 <ListView.ItemsPanel>
                     <ItemsPanelTemplate>
                         <StackPanel Orientation="Horizontal"></StackPanel>
@@ -82,5 +85,6 @@
 
         <Button Content="New Chapter" Grid.Row="3" Click="NewChapter_Click"></Button>
         <Button Content="Duplicate/Split Chapter" Grid.Row="3" Grid.Column="1" Name="SplitChapter" Click="SplitChapter_Click"></Button>
+        <Button Content="Import Old Mapping" Grid.Row="3" Grid.Column="2" Name="ImportMapping" Click="ImportMapping_Click"></Button>
     </Grid>
 </Window>

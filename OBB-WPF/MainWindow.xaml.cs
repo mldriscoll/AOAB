@@ -230,6 +230,23 @@ namespace OBB_WPF
             }
         }
 
+        public List<Source> FindDupes(List<Source> sourceList)
+        {
+            var ret = new List<Source>();
+            foreach (var s in sourceList)
+            {
+                if (Sources.Contains(s))
+                {
+                    ret.Add(s);
+                }
+            }
+
+            foreach(var chapter in Chapters)
+            {
+                ret.AddRange(chapter.FindDupes(sourceList));
+            }
+            return ret;
+        }
 
     }
 
@@ -248,6 +265,42 @@ namespace OBB_WPF
             foreach (var subchapter in Chapters)
             {
                 subchapter.Remove(chapter);
+            }
+        }
+
+        public List<Source> AllSources(string prefix)
+        {
+            var sources = new List<Source>();
+            foreach(var chapter in Chapters)
+            {
+                sources.AddRange(chapter.Sources.Where(x => x.File.StartsWith(prefix, StringComparison.InvariantCultureIgnoreCase)));
+                foreach(var s in sources)
+                {
+                    chapter.Sources.Remove(s);
+                }
+                sources.AddRange(chapter.AllSources(prefix));
+            }
+            return sources;
+        }
+
+        public void RemoveEmpties()
+        {
+            foreach(var chapter in Chapters)
+            {
+                chapter.RemoveEmpties();
+            }
+
+            Chapters = new ObservableCollection<Chapter>(Chapters.Where(x => x.Sources.Any() || x.Chapters.Any()));
+        }
+
+        public void Sort()
+        {
+            Chapters = new ObservableCollection<Chapter>(Chapters.OrderBy(x => x.SortOrder));
+
+            foreach(var chapter in Chapters)
+            {
+                chapter.Sources = new ObservableCollection<Source>(chapter.Sources.OrderBy(x => x.SortOrder));
+                chapter.Sort();
             }
         }
     }
