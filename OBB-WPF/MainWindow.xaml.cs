@@ -305,8 +305,9 @@ namespace OBB_WPF
         }
     }
 
-    public class Source
+    public class Source : INotifyPropertyChanged
     {
+        public event PropertyChangedEventHandler? PropertyChanged;
         public string File { get; set; } = string.Empty;
 
         public ObservableCollection<string> Alternates { get; set; } = new ObservableCollection<string>();
@@ -317,6 +318,10 @@ namespace OBB_WPF
 
         public string LeftURI
         {
+            set {
+                if (PropertyChanged != null)
+                    PropertyChanged(this, new PropertyChangedEventArgs("LeftURI"));
+            }
             get
             {
                 if (OtherSide == null) return "about:blank";

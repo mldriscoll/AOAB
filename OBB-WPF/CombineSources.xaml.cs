@@ -45,6 +45,7 @@ namespace OBB_WPF
                 one.OtherSide.Alternates.Add(two.File);
                 foreach (var alt in two.Alternates) one.OtherSide.Alternates.Add(alt);
             }
+            one.LeftURI = string.Empty;
             DialogResult = true;
             this.Close();
         }

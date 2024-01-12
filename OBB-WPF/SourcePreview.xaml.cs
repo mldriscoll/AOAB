@@ -82,20 +82,14 @@ namespace OBB_WPF
         {
             await Left.WaitForInitialLoadAsync();
             await Right.WaitForInitialLoadAsync();
-            if (lSource.EndsWith("blank"))
-            {
-                LeftColumn.Width = new GridLength(0, GridUnitType.Pixel);
-            }
-            else
+
+            if (!lSource.EndsWith("blank"))
             {
                 Left.Address = lSource;
                 await Left.WaitForNavigationAsync();
             }
-            if (rSource.EndsWith("blank"))
-            {
-                RightColumn.Width = new GridLength(0, GridUnitType.Pixel);
-            }
-            else
+
+            if (!rSource.EndsWith("blank"))
             {
                 Right.Address = rSource;
                 Right.LoadUrl(RightSource);

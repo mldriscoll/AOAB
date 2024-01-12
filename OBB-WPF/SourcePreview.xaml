@@ -19,7 +19,7 @@
                 <ColumnDefinition x:Name="LeftColumn"></ColumnDefinition>
                 <ColumnDefinition x:Name="RightColumn"></ColumnDefinition>
             </Grid.ColumnDefinitions>
-            <wpf:ChromiumWebBrowser Name="Left" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Grid}}, Path=ActualHeight}"></wpf:ChromiumWebBrowser>
+            <wpf:ChromiumWebBrowser Name="Left" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Grid}}, Path=ActualHeight}" Width="auto"></wpf:ChromiumWebBrowser>
             <wpf:ChromiumWebBrowser Name="Right" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Grid}}, Path=ActualHeight}" Width="auto"></wpf:ChromiumWebBrowser>
         </Grid>
     </ListView>
