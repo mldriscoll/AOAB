@@ -386,6 +386,14 @@
       "SortOrder": "10203006",
       "LeftURI": "about:blank",
       "RightURI": "TEMP\\lady-rose-just-wants-to-be-a-commoner-volume-2\\item\\xhtml\\p-004.xhtml"
+    },
+    {
+      "File": "lady-rose-just-wants-to-be-a-commoner-volume-4\\item\\xhtml\\p-004.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "10403006",
+      "LeftURI": "about:blank",
+      "RightURI": "TEMP\\lady-rose-just-wants-to-be-a-commoner-volume-4\\item\\xhtml\\p-004.xhtml"
     }
   ],
   "Chapters": [
@@ -3142,18 +3150,17 @@
             {
               "File": "lady-rose-just-wants-to-be-a-commoner-volume-3\\item\\xhtml\\p-002.xhtml",
               "Alternates": [],
-              "OtherSide": null,
+              "OtherSide": {
+                "File": "lady-rose-just-wants-to-be-a-commoner-volume-3\\item\\xhtml\\p-003.xhtml",
+                "Alternates": [],
+                "OtherSide": null,
+                "SortOrder": "10303005",
+                "LeftURI": "about:blank",
+                "RightURI": "TEMP\\lady-rose-just-wants-to-be-a-commoner-volume-3\\item\\xhtml\\p-003.xhtml"
+              },
               "SortOrder": "10303004",
-              "LeftURI": "about:blank",
+              "LeftURI": "TEMP\\lady-rose-just-wants-to-be-a-commoner-volume-3\\item\\xhtml\\p-003.xhtml",
               "RightURI": "TEMP\\lady-rose-just-wants-to-be-a-commoner-volume-3\\item\\xhtml\\p-002.xhtml"
-            },
-            {
-              "File": "lady-rose-just-wants-to-be-a-commoner-volume-3\\item\\xhtml\\p-003.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "10303005",
-              "LeftURI": "about:blank",
-              "RightURI": "TEMP\\lady-rose-just-wants-to-be-a-commoner-volume-3\\item\\xhtml\\p-003.xhtml"
             },
             {
               "File": "lady-rose-just-wants-to-be-a-commoner-volume-3\\item\\xhtml\\p-005.xhtml",
@@ -4395,26 +4402,17 @@
             {
               "File": "lady-rose-just-wants-to-be-a-commoner-volume-4\\item\\xhtml\\p-002.xhtml",
               "Alternates": [],
-              "OtherSide": null,
+              "OtherSide": {
+                "File": "lady-rose-just-wants-to-be-a-commoner-volume-4\\item\\xhtml\\p-003.xhtml",
+                "Alternates": [],
+                "OtherSide": null,
+                "SortOrder": "10403005",
+                "LeftURI": "about:blank",
+                "RightURI": "TEMP\\lady-rose-just-wants-to-be-a-commoner-volume-4\\item\\xhtml\\p-003.xhtml"
+              },
               "SortOrder": "10403004",
-              "LeftURI": "about:blank",
+              "LeftURI": "TEMP\\lady-rose-just-wants-to-be-a-commoner-volume-4\\item\\xhtml\\p-003.xhtml",
               "RightURI": "TEMP\\lady-rose-just-wants-to-be-a-commoner-volume-4\\item\\xhtml\\p-002.xhtml"
-            },
-            {
-              "File": "lady-rose-just-wants-to-be-a-commoner-volume-4\\item\\xhtml\\p-003.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "10403005",
-              "LeftURI": "about:blank",
-              "RightURI": "TEMP\\lady-rose-just-wants-to-be-a-commoner-volume-4\\item\\xhtml\\p-003.xhtml"
-            },
-            {
-              "File": "lady-rose-just-wants-to-be-a-commoner-volume-4\\item\\xhtml\\p-004.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "10403006",
-              "LeftURI": "about:blank",
-              "RightURI": "TEMP\\lady-rose-just-wants-to-be-a-commoner-volume-4\\item\\xhtml\\p-004.xhtml"
             },
             {
               "File": "lady-rose-just-wants-to-be-a-commoner-volume-4\\item\\xhtml\\p-005.xhtml",
@@ -4571,18 +4569,17 @@
             {
               "File": "lady-rose-just-wants-to-be-a-commoner-volume-4\\item\\xhtml\\p-024.xhtml",
               "Alternates": [],
-              "OtherSide": null,
+              "OtherSide": {
+                "File": "lady-rose-just-wants-to-be-a-commoner-volume-4\\item\\xhtml\\p-025.xhtml",
+                "Alternates": [],
+                "OtherSide": null,
+                "SortOrder": "10403027",
+                "LeftURI": "about:blank",
+                "RightURI": "TEMP\\lady-rose-just-wants-to-be-a-commoner-volume-4\\item\\xhtml\\p-025.xhtml"
+              },
               "SortOrder": "10403026",
-              "LeftURI": "about:blank",
+              "LeftURI": "TEMP\\lady-rose-just-wants-to-be-a-commoner-volume-4\\item\\xhtml\\p-025.xhtml",
               "RightURI": "TEMP\\lady-rose-just-wants-to-be-a-commoner-volume-4\\item\\xhtml\\p-024.xhtml"
-            },
-            {
-              "File": "lady-rose-just-wants-to-be-a-commoner-volume-4\\item\\xhtml\\p-025.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "10403027",
-              "LeftURI": "about:blank",
-              "RightURI": "TEMP\\lady-rose-just-wants-to-be-a-commoner-volume-4\\item\\xhtml\\p-025.xhtml"
             },
             {
               "File": "lady-rose-just-wants-to-be-a-commoner-volume-4\\item\\xhtml\\p-026.xhtml",
