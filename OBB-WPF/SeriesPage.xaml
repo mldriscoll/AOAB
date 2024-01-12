@@ -14,7 +14,7 @@
             <RowDefinition Height="30"></RowDefinition>
             <RowDefinition Height="30"></RowDefinition>
             <RowDefinition></RowDefinition>
-            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition></RowDefinition>
             <RowDefinition Height="30"></RowDefinition>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
@@ -26,7 +26,7 @@
         <Button x:Name="SaveButton" Click="SaveButton_Click" Grid.Column="1">Save</Button>
         <TextBox x:Name="Editor" Grid.Column="2"></TextBox>
 
-        <TreeView x:Name="ChapterList" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="2" AllowDrop="True" >
+        <TreeView x:Name="ChapterList" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="2" AllowDrop="True" Grid.RowSpan="2" >
             <TreeView.ItemContainerStyle>
                 <Style TargetType="{x:Type TreeViewItem}">
                     <EventSetter Event="TreeViewItem.Selected" Handler="Chapter_Selected"></EventSetter>
@@ -41,7 +41,7 @@
                 </HierarchicalDataTemplate>
             </TreeView.Resources>
         </TreeView>
-        <ListView Grid.Column="1" Grid.Row="2" VerticalAlignment="Stretch" ScrollViewer.HorizontalScrollBarVisibility="Hidden">
+        <ListView Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="2" VerticalAlignment="Stretch" ScrollViewer.HorizontalScrollBarVisibility="Hidden">
             <TextBox x:Name="ChapterName" HorizontalAlignment="Stretch" Text="{Binding Name}"></TextBox>
             <TextBox x:Name="SortOrder" HorizontalAlignment="Stretch" Text="{Binding SortOrder}"></TextBox>
             <ComboBox SelectedValue="{Binding ChapType}" SelectedValuePath="Name" HorizontalAlignment="Stretch" Name="ChapterType" Width="100">
@@ -77,14 +77,14 @@
             </ListView>
 
         </ListView>
-        <TextBox x:Name="Browser" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="2" Grid.Row="2"></TextBox>
+        <TextBox x:Name="Browser" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="3"></TextBox>
         
         <TextBlock Grid.Row="1" Grid.Column="1" AllowDrop="True" Drop="Root_Drop">Move to Root Level</TextBlock>
         <Button Content="Deleted" Grid.Row="1" Grid.Column="0" AllowDrop="True" Drop="Delete_Button_Drop" Click="Button_Click"></Button>
         <Button Content="Cover" Grid.Row="1" Grid.Column="2" AllowDrop="True" Name="CoverButton" Drop="CoverButton_Drop" Click="CoverButton_Click"></Button>
 
-        <Button Content="New Chapter" Grid.Row="3" Click="NewChapter_Click"></Button>
-        <Button Content="Duplicate/Split Chapter" Grid.Row="3" Grid.Column="1" Name="SplitChapter" Click="SplitChapter_Click"></Button>
-        <Button Content="Import Old Mapping" Grid.Row="3" Grid.Column="2" Name="ImportMapping" Click="ImportMapping_Click"></Button>
+        <Button Content="New Chapter" Grid.Row="4" Click="NewChapter_Click"></Button>
+        <Button Content="Duplicate/Split Chapter" Grid.Row="4" Grid.Column="1" Name="SplitChapter" Click="SplitChapter_Click"></Button>
+        <Button Content="Import Old Mapping" Grid.Row="4" Grid.Column="2" Name="ImportMapping" Click="ImportMapping_Click"></Button>
     </Grid>
 </Window>

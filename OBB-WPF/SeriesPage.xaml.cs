@@ -380,7 +380,7 @@ namespace OBB_WPF
         object IValueConverter.Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
             var d = (double)value;
-            return d / 3;
+            return d * 2 / 3;
         }
     }
 

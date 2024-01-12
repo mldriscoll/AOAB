@@ -14,7 +14,7 @@
             </Grid.ColumnDefinitions>
             <TextBox HorizontalAlignment="Stretch" Text="{Binding SortOrder}" Width="auto" IsHitTestVisible="True"></TextBox>
         </Grid>
-        <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="400" Width="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type local:SourcePreview}}, Path=ActualWidth}" ScrollViewer.HorizontalScrollBarVisibility="Hidden">
+        <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="400" Width="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type local:SourcePreview}}, Path=ActualWidth}" ScrollViewer.HorizontalScrollBarVisibility="Hidden" FlowDirection="LeftToRight">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition x:Name="LeftColumn"></ColumnDefinition>
                 <ColumnDefinition x:Name="RightColumn"></ColumnDefinition>

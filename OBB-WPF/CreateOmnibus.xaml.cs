@@ -46,7 +46,7 @@ namespace OBB_WPF
             ConfigCombineImages = MainWindow.Configuration.CombineMangaSplashPages;
             UpdateChapterTitles = MainWindow.Configuration.UpdateChapterTitles;
             if (MainWindow.Configuration.MaxImageWidth.HasValue) ImageWidth = MainWindow.Configuration.MaxImageWidth.Value.ToString();
-            if (MainWindow.Configuration.MaxImageHeight.HasValue) ImageWidth = MainWindow.Configuration.MaxImageHeight.Value.ToString();
+            if (MainWindow.Configuration.MaxImageHeight.HasValue) ImageHeight = MainWindow.Configuration.MaxImageHeight.Value.ToString();
             ImageQuality = MainWindow.Configuration.ResizedImageQuality.ToString();
             DataContext = this;
         }
@@ -143,7 +143,7 @@ namespace OBB_WPF
             await outProcessor.FullOutput(outputFolder,
                 false,
                 false,
-                false,
+                true,
                 series.Name,
                 MainWindow.Configuration.MaxImageWidth,
                 MainWindow.Configuration.MaxImageHeight,
@@ -199,7 +199,7 @@ namespace OBB_WPF
                                 .DrawImage(right, new Point(left.Width, 0), 1f)
                                 );
 
-                            await outputImage.SaveAsJpegAsync(imR.OldLocation);
+                            await outputImage.SaveAsJpegAsync(imR.OldLocation + "combi");
 
                             var widthRegex = new Regex("width=\"\\d*\"");
                             one.Contents = widthRegex.Replace(one.Contents, string.Empty);

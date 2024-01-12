@@ -81,10 +81,11 @@ namespace Core.Processor
 
                 foreach (var im in Images.Where(x => x.Referenced))
                 {
+                    var imOldLocation = File.Exists(im.OldLocation + "combi") ? im.OldLocation + "combi" : im.OldLocation;
                     if (maxX.HasValue || maxY.HasValue)
                     {
                         var scale = 1m;
-                        var image = await SixLabors.ImageSharp.Image.LoadAsync(im.OldLocation);
+                        var image = await SixLabors.ImageSharp.Image.LoadAsync(imOldLocation);
 
                         if (maxX.HasValue && image.Width > maxX)
                         {
@@ -106,12 +107,12 @@ namespace Core.Processor
                         }
                         else
                         {
-                            File.Copy(im.OldLocation, folder + "\\oebps\\images\\" + im.Name);
+                            File.Copy(imOldLocation, folder + "\\oebps\\images\\" + im.Name);
                         }
                     }
                     else
                     {
-                        File.Copy(im.OldLocation, folder + "\\oebps\\images\\" + im.Name);
+                        File.Copy(imOldLocation, folder + "\\oebps\\images\\" + im.Name);
                     }
                     manifest.Add($"    <item id={"\""}im{Images.IndexOf(im)}{"\""} href={"\""}images/{im.Name}{"\""} media-type={"\""}image/jpeg{"\""}/>");
                 }
