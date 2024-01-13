@@ -53,23 +53,9 @@ namespace OBB_WPF
 
         public async Task Start()
         {
-            //var inFolder = Settings.MiscSettings.InputFolder == null ? Environment.CurrentDirectory :
-            //        Settings.MiscSettings.InputFolder.Length > 1 && Settings.MiscSettings.InputFolder[1].Equals(':') ? Settings.MiscSettings.InputFolder : Environment.CurrentDirectory + "\\" + Settings.MiscSettings.InputFolder;
-            var inFolder = @"Temp";
+            var inFolder = series.Name;
 
             if (!Directory.Exists(inFolder)) Directory.CreateDirectory(inFolder);
-
-            //if (Settings.MiscSettings.DownloadBooks)
-            //{
-            //    using (var client = new HttpClient())
-            //    {
-            //        if (Login != null)
-            //        {
-            //            await Downloader.DoDownloads(client, Login.AccessToken, inFolder, selection.Volumes.Select(x => new Name { ApiSlug = x.ApiSlug, FileName = x.FileName }));
-            //        }
-            //    }
-            //}
-
 
             //var outputFolder = Settings.MiscSettings.OutputFolder == null ? Environment.CurrentDirectory :
             //    Settings.MiscSettings.OutputFolder.Length > 1 && Settings.MiscSettings.OutputFolder[1].Equals(':') ? Settings.MiscSettings.OutputFolder : Environment.CurrentDirectory + "\\" + Settings.MiscSettings.OutputFolder;
@@ -88,7 +74,7 @@ namespace OBB_WPF
 
             if (series.Cover != null)
             {
-                var entry = inProcessor.Chapters.First(x => (x.SubFolder + "\\" + x.Name + ".xhtml").Equals(series.Cover.File, StringComparison.InvariantCultureIgnoreCase));
+                var entry = inProcessor.Chapters.First(x => ($"{inFolder}\\{x.SubFolder}\\{x.Name}.xhtml").Equals(series.Cover.File, StringComparison.InvariantCultureIgnoreCase));
                 var imageRegex = new Regex("\\[ImageFolder\\]\\/[0-9]*?\\.jpg");
                 var irMatch = imageRegex.Match(entry.Contents);
                 var cim = inProcessor.Images.FirstOrDefault(x => x.Name.Equals(irMatch.Value.Replace("[ImageFolder]/", "")));
@@ -102,7 +88,7 @@ namespace OBB_WPF
 
             foreach (var chapter in series.Chapters)
             {
-                await ProcessChapter(chapter, inProcessor, outProcessor, string.Empty);
+                await ProcessChapter(chapter, inProcessor, outProcessor, string.Empty, inFolder);
             }
 
             if (File.Exists($"{series.Name}.epub")) File.Delete($"{series.Name}.epub");
@@ -173,7 +159,7 @@ namespace OBB_WPF
             await JSON.Save("Configuration.JSON", MainWindow.Configuration);
         }
 
-        private async Task ProcessChapter(Chapter chapter, Processor inProcessor, Processor outProcessor, string subfolder)
+        private async Task ProcessChapter(Chapter chapter, Processor inProcessor, Processor outProcessor, string subfolder, string inFolder)
         {
             try
             {
@@ -200,10 +186,10 @@ namespace OBB_WPF
                     {
                         foreach (var splash in chapter.Sources.Where(x => x.OtherSide != null))
                         {
-                            var one = inProcessor.Chapters.First(x => (x.SubFolder + "\\" + x.Name + ".xhtml").Equals(splash.File, StringComparison.InvariantCultureIgnoreCase));
+                            var one = inProcessor.Chapters.First(x => ($"{inFolder}\\{x.SubFolder}\\{x.Name}.xhtml").Equals(splash.File, StringComparison.InvariantCultureIgnoreCase));
                             var imR = inProcessor.Images.FirstOrDefault(x => one.Contents.Contains(x.Name));
 
-                            var two = inProcessor.Chapters.First(x => (x.SubFolder + "\\" + x.Name + ".xhtml").Equals(splash.OtherSide.File, StringComparison.InvariantCultureIgnoreCase));
+                            var two = inProcessor.Chapters.First(x => ($"{inFolder}\\{x.SubFolder}\\{x.Name}.xhtml").Equals(splash.OtherSide.File, StringComparison.InvariantCultureIgnoreCase));
                             var imL = inProcessor.Images.FirstOrDefault(x => two.Contents.Contains(x.Name));
 
                             var right = await SixLabors.ImageSharp.Image.LoadAsync(imR.OldLocation);
@@ -228,7 +214,7 @@ namespace OBB_WPF
                     {
                         try
                         {
-                            var entry = inProcessor.Chapters.First(x => (x.SubFolder + "\\" + x.Name + ".xhtml").Equals(chapterFile.File, StringComparison.InvariantCultureIgnoreCase));
+                            var entry = inProcessor.Chapters.First(x => ($"{inFolder}\\{x.SubFolder}\\{x.Name}.xhtml").Equals(chapterFile.File, StringComparison.InvariantCultureIgnoreCase));
                             newChapter.CssFiles.AddRange(entry.CssFiles);
                             var fileContent = entry.Contents;
 
@@ -246,7 +232,7 @@ namespace OBB_WPF
 
                             if (!ConfigCombineImages)
                             {
-                                var otherentry = inProcessor.Chapters.First(x => (x.SubFolder + "\\" + x.Name + ".xhtml").Equals(chapterFile.File, StringComparison.InvariantCultureIgnoreCase));
+                                var otherentry = inProcessor.Chapters.First(x => ($"{inFolder}\\{x.SubFolder}\\{x.Name}.xhtml").Equals(chapterFile.File, StringComparison.InvariantCultureIgnoreCase));
                                 newChapter.CssFiles.AddRange(otherentry.CssFiles);
                                 var otherfileContent = otherentry.Contents;
 
@@ -309,7 +295,7 @@ namespace OBB_WPF
 
             foreach(var subChapter in chapter.Chapters)
             {
-                await ProcessChapter(subChapter, inProcessor, outProcessor, subfolder);
+                await ProcessChapter(subChapter, inProcessor, outProcessor, subfolder, inFolder);
             }
         }
 

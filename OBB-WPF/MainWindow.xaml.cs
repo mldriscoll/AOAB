@@ -17,6 +17,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Runtime.Serialization.Json;
 using static Core.Downloads.LibraryResponse.Book;
+using System.Text.Json.Serialization;
 
 namespace OBB_WPF
 {
@@ -316,6 +317,7 @@ namespace OBB_WPF
 
         public string SortOrder { get; set; } = string.Empty;
 
+        [JsonIgnore]
         public string LeftURI
         {
             set {
@@ -326,23 +328,24 @@ namespace OBB_WPF
             {
                 if (OtherSide == null) return "about:blank";
 
-                if (System.IO.File.Exists($"TEMP\\{OtherSide.File}")) return $"TEMP\\{OtherSide.File}";
+                if (System.IO.File.Exists(OtherSide.File)) return OtherSide.File;
 
                 foreach (var alt in OtherSide.Alternates)
-                    if (System.IO.File.Exists($"TEMP\\{alt}")) return $"TEMP\\{alt}";
+                    if (System.IO.File.Exists(alt)) return alt;
 
                 return "about:blank";
             }
         }
 
+        [JsonIgnore] 
         public string RightURI
         {
             get
             {
-                if (System.IO.File.Exists($"TEMP\\{File}")) return $"TEMP\\{File}";
+                if (System.IO.File.Exists(File)) return File;
 
                 foreach (var alt in Alternates)
-                    if (System.IO.File.Exists($"TEMP\\{alt}")) return $"TEMP\\{alt}";
+                    if (System.IO.File.Exists(alt)) return alt;
 
                 return "about:blank";
             }

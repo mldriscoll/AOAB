@@ -8,7 +8,7 @@ namespace OBB_WPF
         static Regex ItemRefRegex = new Regex("\".*?\"");
         private static readonly Regex chapterTitleRegex = new Regex("<h1>[\\s\\S]*?<\\/h1>");
         private static readonly Regex chapterSubTitleRegex = new Regex("<h2>[\\s\\S]*?<\\/h2>");
-        public static Omnibus GenerateVolumeInfo(string inFolder, string? volumeName, int volOrder)
+        public static Omnibus GenerateVolumeInfo(string inFolder, string series, string? volumeName, int volOrder)
         {
             bool inSpine = false;
             List<string> chapterFiles = new List<string>();
@@ -65,7 +65,7 @@ namespace OBB_WPF
                                     order++;
                                     foreach (var c in chapterFiles)
                                     {
-                                        chapter.Sources.Add(new Source { File = $"{volumeName}\\OEBPS\\text\\{c}", SortOrder = chapter.SortOrder + chapter.Sources.Count.ToString("00") });
+                                        chapter.Sources.Add(new Source { File = $"{series}\\{volumeName}\\OEBPS\\text\\{c}", SortOrder = chapter.SortOrder + chapter.Sources.Count.ToString("00") });
                                     }
 
                                     var chapterContent = File.ReadAllText($"{inFolder}\\OEBPS\\text\\" + chapterFiles[0]);
@@ -111,7 +111,7 @@ namespace OBB_WPF
                 var finalChapter = new Chapter { SortOrder = ((volOrder * 100) + order).ToString("00000") };
                 foreach (var c in chapterFiles)
                 {
-                    finalChapter.Sources.Add(new Source { File = $"{volumeName}\\OEBPS\\text\\{c}" });
+                    finalChapter.Sources.Add(new Source { File = $"{series}\\{volumeName}\\OEBPS\\text\\{c}" });
                 }
                 var finalChapterContent = File.ReadAllText($"{inFolder}\\OEBPS\\text\\" + chapterFiles[0]);
                 finalChapter.Name = chapterTitleRegex.Match(finalChapterContent).Value.Replace("<h1>", string.Empty).Replace("</h1>", string.Empty);
@@ -152,7 +152,7 @@ namespace OBB_WPF
                             incontents = false; 
                             foreach (var x in files)
                             {
-                                chapter.Sources.Add(new Source { File = $"{volumeName}\\item\\xhtml\\{x}", SortOrder = $"{volOrder:000}{order:00}{sourceOrder:000}" });
+                                chapter.Sources.Add(new Source { File = $"{series}\\{volumeName}\\item\\xhtml\\{x}", SortOrder = $"{volOrder:000}{order:00}{sourceOrder:000}" });
                                 sourceOrder++;
                             }
                         }
@@ -170,7 +170,7 @@ namespace OBB_WPF
                                 var index = files.IndexOf(firstPage);
                                 foreach (var x in files.Take(index))
                                 {
-                                    chapter.Sources.Add(new Source { File = $"{volumeName}\\item\\xhtml\\{x}", SortOrder = $"{volOrder:000}{order:00}{sourceOrder:000}" });
+                                    chapter.Sources.Add(new Source { File = $"{series}\\{volumeName}\\item\\xhtml\\{x}", SortOrder = $"{volOrder:000}{order:00}{sourceOrder:000}" });
                                     sourceOrder++;
                                 }
                                 files.RemoveRange(0, index);

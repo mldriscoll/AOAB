@@ -28,9 +28,9 @@ namespace OBB_WPF
 
             foreach (var source in chapter.Sources)
             {
-                if (File.Exists("Temp\\" + source.File))
+                if (File.Exists(source.File))
                 {
-                    SourceBlock.Text = string.Concat(SourceBlock.Text, File.ReadAllText("Temp\\" + source.File));
+                    SourceBlock.Text = string.Concat(SourceBlock.Text, File.ReadAllText(source.File));
                 }
             }
 

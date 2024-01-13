@@ -73,7 +73,7 @@ namespace OBB_WPF
             {
                 try
                 {
-                    var ob = Importer.GenerateVolumeInfo($"Temp\\{vol.ApiSlug}", vol.ApiSlug, vol.Order);
+                    var ob = Importer.GenerateVolumeInfo($"{omnibus.Name}\\{vol.ApiSlug}", omnibus.Name, vol.ApiSlug, vol.Order);
                     omnibus.Combine(ob);
                 }
                 catch(Exception ex)
@@ -288,7 +288,7 @@ namespace OBB_WPF
             var li = (ListViewItem)sender;
             var source = li.DataContext as Source;
 
-            Browser.Text = File.ReadAllText($"Temp\\{source.File}");
+            Browser.Text = File.ReadAllText(source.File);
         }
 
         private void CoverButton_Drop(object sender, DragEventArgs e)
@@ -307,7 +307,7 @@ namespace OBB_WPF
         private void CoverButton_Click(object sender, RoutedEventArgs e)
         {
             //if (omnibus.Cover != null)
-            //    Browser.Source = new Uri($"file://{Environment.CurrentDirectory}\\Temp\\{omnibus.Cover.File}");
+            //    Browser.Source = new Uri($"file://{Environment.CurrentDirectory}\\Lady Rose Just Wants to Be a Commoner!\\{omnibus.Cover.File}");
             //else
             //    Browser.Source = new Uri($"about:blank");
         }
@@ -393,13 +393,22 @@ namespace OBB_WPF
     {
         public static Task Unpack(Series series)
         {
-            if (Directory.Exists("Temp")) Directory.Delete("Temp", true);
-
-            Directory.CreateDirectory("Temp");
+            if (!Directory.Exists(series.Name)) Directory.CreateDirectory(series.Name);
 
             foreach (var volume in series.Volumes.Where(x => File.Exists($"{MainWindow.Configuration.SourceFolder}\\{x.FileName}")))
             {
-                ZipFile.ExtractToDirectory($"{MainWindow.Configuration.SourceFolder}\\{volume.FileName}", $"Temp\\{volume.ApiSlug}");
+                var directory = $"{series.Name}\\{volume.ApiSlug}";
+                if (!Directory.Exists(directory)) ZipFile.ExtractToDirectory($"{MainWindow.Configuration.SourceFolder}\\{volume.FileName}", directory);
+                else
+                {
+                    var finfo = new FileInfo($"{MainWindow.Configuration.SourceFolder}\\{volume.FileName}");
+                    var dinfo = new DirectoryInfo(directory);
+                    if (dinfo.CreationTimeUtc < finfo.CreationTimeUtc)
+                    {
+                        Directory.Delete(directory);
+                        ZipFile.ExtractToDirectory($"{MainWindow.Configuration.SourceFolder}\\{volume.FileName}", directory);
+                    }
+                }
             }
             return Task.CompletedTask;
         }
