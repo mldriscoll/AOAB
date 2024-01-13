@@ -75,6 +75,11 @@ namespace OBB_WPF
 
                                     AddChapter(chapter, ob.Chapters[0], volumeName, volOrder, imageFiles);
 
+                                    foreach(var file in chapterFiles.Skip(1))
+                                    {
+                                        chapterContent = string.Concat(chapterContent, File.ReadAllText($"{inFolder}\\OEBPS\\text\\{file}"));
+                                    }
+
                                     Chapter subChapter = null;
                                     foreach (Match subHeader in chapterSubTitleRegex.Matches(chapterContent))
                                     {
@@ -93,6 +98,7 @@ namespace OBB_WPF
                                             SortOrder = chapter.Chapters.Count.ToString("000"),
                                             Sources = new System.Collections.ObjectModel.ObservableCollection<Source>(chapter.Sources)
                                         };
+                                        chapter.Chapters.Add(subChapter);
                                     }
 
                                 }
@@ -116,6 +122,33 @@ namespace OBB_WPF
                 var finalChapterContent = File.ReadAllText($"{inFolder}\\OEBPS\\text\\" + chapterFiles[0]);
                 finalChapter.Name = chapterTitleRegex.Match(finalChapterContent).Value.Replace("<h1>", string.Empty).Replace("</h1>", string.Empty);
                 AddChapter(finalChapter, ob.Chapters[0], volumeName, volOrder, imageFiles);
+
+                foreach (var file in chapterFiles.Skip(1))
+                {
+                    finalChapterContent = string.Concat(finalChapterContent, File.ReadAllText($"{inFolder}\\OEBPS\\text\\{file}"));
+                }
+
+                Chapter finalSubChapter = null;
+                foreach (Match subHeader in chapterSubTitleRegex.Matches(finalChapterContent))
+                {
+                    if (finalSubChapter != null)
+                    {
+                        finalSubChapter.EndsBeforeLine = subHeader.Value;
+                    }
+                    else
+                    {
+                        finalChapter.EndsBeforeLine = subHeader.Value;
+                    }
+                    finalSubChapter = new Chapter
+                    {
+                        CType = finalChapter.CType,
+                        StartsAtLine = subHeader.Value,
+                        Name = subHeader.Value,
+                        SortOrder = finalChapter.Chapters.Count.ToString("000"),
+                        Sources = new System.Collections.ObjectModel.ObservableCollection<Source>(finalChapter.Sources)
+                    };
+                    finalChapter.Chapters.Add(finalSubChapter);
+                }
 
                 foreach (var file in imageFiles)
                 {
