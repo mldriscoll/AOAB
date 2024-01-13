@@ -41,7 +41,7 @@ namespace AOABO.Chapters
                 "0201" or "0202" or "0203" or "0204" => $"{Configuration.FolderNames["PartTwo"]}\\03-Story",
                 "0301" or "0302" or "0303" or "0304" or "0305" => $"{Configuration.FolderNames["PartThree"]}\\03-Story",
                 "0401" or "0402" or "0403" or "0404" or "0405" or "0406" or "0407" or "0408" or "0409" => $"{Configuration.FolderNames["PartFour"]}\\03-Story",
-                "0501" or "0502" or "0503" or "0504" or "0505" or "0506" or "0507" => $"{Configuration.FolderNames["PartFive"]}\\03-Story",
+                "0501" or "0502" or "0503" or "0504" or "0505" or "0506" or "0507" or "0508" => $"{Configuration.FolderNames["PartFive"]}\\03-Story",
                 "FB1" or "FB2" or "FB3" => $"11-Fanbooks",
                 _ => throw new Exception($"GetPartSubFolder - {ChapterName}"),
             };
@@ -63,7 +63,7 @@ namespace AOABO.Chapters
                 "0201" or "0202" or "0203" or "0204" => $"{Configuration.FolderNames["PartTwo"]}\\{Volume}-{getVolumeName()}",
                 "0301" or "0302" or "0303" or "0304" or "0305" => $"{Configuration.FolderNames["PartThree"]}\\{Volume}-{getVolumeName()}",
                 "0401" or "0402" or "0403" or "0404" or "0405" or "0406" or "0407" or "0408" or "0409" => $"{Configuration.FolderNames["PartFour"]}\\{Volume}-{getVolumeName()}",
-                "0501" or "0502" or "0503" or "0504" or "0505" or "0506" or "0507"  => $"{Configuration.FolderNames["PartFive"]}\\{Volume}-{getVolumeName()}",
+                "0501" or "0502" or "0503" or "0504" or "0505" or "0506" or "0507" or "0508" => $"{Configuration.FolderNames["PartFive"]}\\{Volume}-{getVolumeName()}",
                 "FB1" or "FB2" or "FB3" => $"06-Fanbooks",
                 _ => throw new Exception($"GetVolumeSubFolder - {ChapterName}")
             };
@@ -80,7 +80,7 @@ namespace AOABO.Chapters
                 "0305" or "0405" or "0505" => "Volume 5",
                 "0406" or "0506" => "Volume 6",
                 "0407" or "0507" => "Volume 7",
-                "0408" => "Volume 8",
+                "0408" or "0508" => "Volume 8",
                 "0409" => "Volume 9",
                 _ => throw new NotImplementedException($"GetVolumeName - {Volume}")
             };

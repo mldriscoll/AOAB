@@ -1852,13 +1852,284 @@
       "Year": 9,
       "Season": "Autumn",
       "ProcessedInPartFive": true,
-      "PartSheet": true
+      "PartSheet": false
     },
     "Afterword": {
       "OriginalFilenames": [ "afterword" ],
       "SortOrder": "050797",
       "ChapterName": "LN507 Afterword",
       "Volume": "0507",
+      "Year": 9,
+      "Season": "Spring",
+      "ProcessedInPartFive": true
+    }
+  },
+  {
+    "InternalName": "LN0508",
+    "Gallery": {
+      "SplashImages": [ "bonus2", "bonus1" ],
+      "ChapterImages": [ "insert1", "insert2", "insert3", "insert4", "insert5", "insert6", "insert7", "insert8", "insert9", "insert10" ],
+      "EarlySortOrder": "0508",
+      "LateSortOrder": "050899",
+      "ChapterName": "LN508",
+      "AltName": "Volume 8",
+      "Volume": "0508",
+      "EarlyYear": 9,
+      "EarlySeason": "Spring",
+      "LateYear": 9,
+      "LateSeason": "Spring",
+      "ProcessedInPartFive": true
+    },
+    "POVChapters": [
+      {
+        "OriginalFilenames": [ "prologue", "insert1", "prologue_1" ],
+        "SortOrder": "050800",
+        "POV": "Justus",
+        "ChapterName": "Prologue",
+        "Volume": "0508",
+        "Year": 9,
+        "Season": "Spring",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartFive": true,
+        "Source": "P5V8"
+      },
+      {
+        "OriginalFilenames": [ "epilogue", "insert8", "epilogue_1" ],
+        "SortOrder": "050819",
+        "POV": "Georgine",
+        "ChapterName": "Epilogue",
+        "Volume": "0508",
+        "Year": 9,
+        "Season": "Spring",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartFive": true,
+        "Source": "P5V8"
+      }
+    ],
+    "BonusChapters": [
+      {
+        "OriginalFilenames": [ "side2" ],
+        "EarlySortOrder": "050809b",
+        "LateSortOrder": "050896b",
+        "POV": "Ferdinand",
+        "ChapterName": "Follow Your Heart",
+        "Volume": "0508",
+        "EarlyYear": 9,
+        "EarlySeason": "Spring",
+        "LateYear": 9,
+        "LateSeason": "Spring",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartFive": true,
+        "Source": "P5V8 Extra 2"
+      },
+      {
+        "OriginalFilenames": [ "side1", "insert9", "side1_1", "insert10", "side1_2" ],
+        "EarlySortOrder": "050819b",
+        "LateSortOrder": "050896a",
+        "POV": "Giebe Kirnberger, Brigitte, Philine, Effa, Gunther",
+        "ChapterName": "The Defense of Ehrenfest (First Half)",
+        "Volume": "0508",
+        "EarlyYear": 9,
+        "EarlySeason": "Spring",
+        "LateYear": 9,
+        "LateSeason": "Spring",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartFive": true,
+        "Source": "P5V8 Extra 1"
+      }
+    ],
+    "Chapters": [
+      {
+        "OriginalFilenames": [ "chapter1" ],
+        "SortOrder": "050801",
+        "ChapterName": "Uniting",
+        "Volume": "0508",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter2" ],
+        "SortOrder": "050802",
+        "ChapterName": "Their Information and Name Stones",
+        "Volume": "0508",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter3" ],
+        "SortOrder": "050803",
+        "ChapterName": "Teleporting",
+        "Volume": "0508",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter4", "insert2", "chapter4_1" ],
+        "SortOrder": "050804",
+        "ChapterName": "To Battle",
+        "Volume": "0508",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter5" ],
+        "SortOrder": "050805",
+        "ChapterName": "Ahrensbach’s Temple",
+        "Volume": "0508",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter6" ],
+        "SortOrder": "050806",
+        "ChapterName": "Ahrensbach’s Foundation and Replenishment Hall",
+        "Volume": "0508",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter7", "insert3", "chapter7_1" ],
+        "SortOrder": "050807",
+        "ChapterName": "Rescue",
+        "Volume": "0508",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter8" ],
+        "SortOrder": "050808",
+        "ChapterName": "My Geduldh",
+        "Volume": "0508",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter9" ],
+        "SortOrder": "050809",
+        "ChapterName": "The Zent and the Grutrissheit",
+        "Volume": "0508",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter10" ],
+        "SortOrder": "050810",
+        "ChapterName": "The New Aub",
+        "Volume": "0508",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter11", "insert4" ],
+        "SortOrder": "050811",
+        "ChapterName": "The Aub's Protection",
+        "Volume": "0508",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter12" ],
+        "SortOrder": "050812",
+        "ChapterName": "Lanzenave's Ships",
+        "Volume": "0508",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter13", "insert5", "chapter13_1" ],
+        "SortOrder": "050813",
+        "ChapterName": "Summoning Winter",
+        "Volume": "0508",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter14" ],
+        "SortOrder": "050814",
+        "ChapterName": "Choices",
+        "Volume": "0508",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter15" ],
+        "SortOrder": "050815",
+        "ChapterName": "Playground",
+        "Volume": "0508",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter16", "insert6", "chapter16_1" ],
+        "SortOrder": "050816",
+        "ChapterName": "Rumors and a Departure",
+        "Volume": "0508",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter17", "insert7", "chapter17_1" ],
+        "SortOrder": "050817",
+        "ChapterName": "Bindewald",
+        "Volume": "0508",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter18" ],
+        "SortOrder": "050818",
+        "ChapterName": "Black Weapons and Chalices",
+        "Volume": "0508",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      }
+    ],
+    "ComfyLifeChapter": {
+      "OriginalFilenames": [ "manga1", "manga2" ],
+      "SortOrder": "050898",
+      "ChapterName": "Comfy Life 508",
+      "Volume": "0508",
+      "Year": 9,
+      "Season": "Spring",
+      "ProcessedInPartFive": true
+    },
+    "CharacterSheet": {
+      "OriginalFilenames": [ "characters1", "characters2", "characters3" ],
+      "SortOrder": "0508",
+      "ChapterName": "Avatar of a Goddess Characters",
+      "Volume": "0508",
+      "Year": 9,
+      "Season": "Autumn",
+      "ProcessedInPartFive": true,
+      "PartSheet": true
+    },
+    "Afterword": {
+      "OriginalFilenames": [ "afterword" ],
+      "SortOrder": "050897",
+      "ChapterName": "LN508 Afterword",
+      "Volume": "0508",
       "Year": 9,
       "Season": "Spring",
       "ProcessedInPartFive": true

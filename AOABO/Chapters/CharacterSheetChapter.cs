@@ -37,7 +37,7 @@ namespace AOABO.Config
                     "0201" or "0202" or "0203" or "0204" => $"{Configuration.FolderNames["PartTwo"]}\\03-Story",
                     "0301" or "0302" or "0303" or "0304" or "0305" => $"{Configuration.FolderNames["PartThree"]}\\03-Story",
                     "0401" or "0402" or "0403" or "0404" or "0405" or "0406" or "0407" or "0408" or "0409" => $"{Configuration.FolderNames["PartFour"]}\\03-Story",
-                    "0501" or "0502" or "0503" or "0504" or "0505" or "0506" or "0507" => $"{Configuration.FolderNames["PartFive"]}\\03-Story",
+                    "0501" or "0502" or "0503" or "0504" or "0505" or "0506" or "0507" or "0508" => $"{Configuration.FolderNames["PartFive"]}\\03-Story",
                     _ => throw new Exception($"GetPartSubFolder - {ChapterName}"),
                 };
             }
@@ -48,7 +48,7 @@ namespace AOABO.Config
                 "0201" or "0202" or "0203" or "0204" => $"{Configuration.FolderNames["PartTwo"]}",
                 "0301" or "0302" or "0303" or "0304" or "0305" => $"{Configuration.FolderNames["PartThree"]}",
                 "0401" or "0402" or "0403" or "0404" or "0405" or "0406" or "0407" or "0408" or "0409" => $"{Configuration.FolderNames["PartFour"]}",
-                "0501" or "0502" or "0503" or "0504" or "0505" or "0506" or "0507" => $"{Configuration.FolderNames["PartFive"]}",
+                "0501" or "0502" or "0503" or "0504" or "0505" or "0506" or "0507" or "0508" => $"{Configuration.FolderNames["PartFive"]}",
                 _ => throw new Exception($"GetPartSubFolder - {ChapterName}"),
             };
         }
@@ -63,7 +63,7 @@ namespace AOABO.Config
                     "0201" or "0202" or "0203" or "0204" => $"{Configuration.FolderNames["PartTwo"]}\\{Volume}-{getVolumeName()}",
                     "0301" or "0302" or "0303" or "0304" or "0305" => $"{Configuration.FolderNames["PartThree"]}\\{Volume}-{getVolumeName()}",
                     "0401" or "0402" or "0403" or "0404" or "0405" or "0406" or "0407" or "0408" or "0409" => $"{Configuration.FolderNames["PartFour"]}\\{Volume}-{getVolumeName()}",
-                    "0501" or "0502" or "0503" or "0504" or "0505" or "0506" or "0507" => $"{Configuration.FolderNames["PartFive"]}\\{Volume}-{getVolumeName()}",
+                    "0501" or "0502" or "0503" or "0504" or "0505" or "0506" or "0507" or "0508" => $"{Configuration.FolderNames["PartFive"]}\\{Volume}-{getVolumeName()}",
                     _ => throw new Exception($"GetVolumeSubFolder - {ChapterName}")
                 };
             }
