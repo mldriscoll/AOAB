@@ -25,5 +25,7 @@
             <TextBox Text="{Binding Path=ImageQuality}" Width="50"></TextBox>
         </StackPanel>
         <Button Click="Button_Click">Create Omnibus</Button>
+        <ProgressBar x:Name="PictureProgressBar" Width="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type ListBox}}, Path=ActualWidth}" HorizontalAlignment="Stretch" Maximum="0"></ProgressBar>
+        <ProgressBar x:Name="TextProgressBar" Width="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type ListBox}}, Path=ActualWidth}" HorizontalAlignment="Stretch" Maximum="0"></ProgressBar>
     </ListBox>
 </Window>

@@ -140,6 +140,20 @@ namespace OBB_WPF
                 MainWindow.Configuration.ResizedImageQuality = quality;
             }
 
+            var picprogress = new Progress<int>(x => {
+                if (PictureProgressBar.Maximum == 0)
+                    PictureProgressBar.Maximum = x;
+                else
+                    PictureProgressBar.Value = x;
+            });
+            var textprogress = new Progress<int>(x =>
+            {
+                if (TextProgressBar.Maximum == 0)
+                    TextProgressBar.Maximum = x;
+                else
+                    TextProgressBar.Value = x;
+            });
+
             await outProcessor.FullOutput(outputFolder,
                 false,
                 false,
@@ -147,7 +161,9 @@ namespace OBB_WPF
                 series.Name,
                 MainWindow.Configuration.MaxImageWidth,
                 MainWindow.Configuration.MaxImageHeight,
-                MainWindow.Configuration.ResizedImageQuality);
+                MainWindow.Configuration.ResizedImageQuality,
+                picprogress,
+                textprogress);
 
             MainWindow.Configuration.IncludeNormalChapters = IncStoryChapters;
             MainWindow.Configuration.IncludeExtraChapters = IncBonusChapters;

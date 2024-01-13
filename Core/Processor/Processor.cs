@@ -31,7 +31,7 @@ namespace Core.Processor
             return s;
         }
 
-        public async Task FullOutput(string baseFolder, bool textOnly, bool humanReadable, bool deleteFolder, string name, int? maxX = null, int? maxY = null, int imageQuality = 90)
+        public async Task FullOutput(string baseFolder, bool textOnly, bool humanReadable, bool deleteFolder, string name, int? maxX = null, int? maxY = null, int imageQuality = 90, IProgress<int> pictureProgress = null, IProgress<int> textProgress = null)
         {
             if (string.IsNullOrWhiteSpace(name))
             {
@@ -79,6 +79,8 @@ namespace Core.Processor
             {
                 Directory.CreateDirectory(folder + "\\oebps\\images");
 
+                pictureProgress?.Report(Images.Where(x => x.Referenced).Count());
+                int i = 0;
                 foreach (var im in Images.Where(x => x.Referenced))
                 {
                     var imOldLocation = File.Exists(im.OldLocation + "combi") ? im.OldLocation + "combi" : im.OldLocation;
@@ -115,13 +117,18 @@ namespace Core.Processor
                         File.Copy(imOldLocation, folder + "\\oebps\\images\\" + im.Name);
                     }
                     manifest.Add($"    <item id={"\""}im{Images.IndexOf(im)}{"\""} href={"\""}images/{im.Name}{"\""} media-type={"\""}image/jpeg{"\""}/>");
+
+                    i++;
+                    pictureProgress?.Report(i);
                 }
             }
 
             int tocCounter = 0;
 
             Directory.CreateDirectory($"{folder}\\oebps\\Text");
-            foreach (var chapter in Chapters.OrderBy(x => x.CombinedSortOrder()))
+            var chaps = Chapters.OrderBy(x => x.CombinedSortOrder());
+            textProgress?.Report(chaps.Count());
+            foreach (var chapter in chaps)
             {
                 chapter.CSSLink = "../";
                 chapter.OutputFileName = RemoveUnwantedFileCharacters(humanReadable ? chapter.FileName : $"{tocCounter}.xhtml");
@@ -201,6 +208,7 @@ namespace Core.Processor
                 tocCounter++;
 
 
+                textProgress?.Report(tocCounter);
             }
 
             foreach (var chapter in Chapters.OrderBy(x => x.CombinedSortOrder()))
