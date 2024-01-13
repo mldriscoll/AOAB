@@ -17,6 +17,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using Core.Processor;
 using Point = SixLabors.ImageSharp.Point;
+using Microsoft.Win32;
 
 namespace OBB_WPF
 {
@@ -51,15 +52,14 @@ namespace OBB_WPF
             DataContext = this;
         }
 
-        public async Task Start()
+        public async Task Start(string outputFile)
         {
             var inFolder = series.Name;
 
             if (!Directory.Exists(inFolder)) Directory.CreateDirectory(inFolder);
 
-            //var outputFolder = Settings.MiscSettings.OutputFolder == null ? Environment.CurrentDirectory :
-            //    Settings.MiscSettings.OutputFolder.Length > 1 && Settings.MiscSettings.OutputFolder[1].Equals(':') ? Settings.MiscSettings.OutputFolder : Environment.CurrentDirectory + "\\" + Settings.MiscSettings.OutputFolder;
-            var outputFolder = "D:\\a\\";
+            var osplit = outputFile.Split('\\');
+            var outputFolder = outputFile.Replace(osplit.Last(), string.Empty);
 
             if (!Directory.Exists(outputFolder)) Directory.CreateDirectory(outputFolder);
 
@@ -144,7 +144,7 @@ namespace OBB_WPF
                 false,
                 false,
                 true,
-                series.Name,
+                outputFile.Replace(outputFolder, string.Empty).Replace(".epub", string.Empty, true, null),
                 MainWindow.Configuration.MaxImageWidth,
                 MainWindow.Configuration.MaxImageHeight,
                 MainWindow.Configuration.ResizedImageQuality,
@@ -301,7 +301,11 @@ namespace OBB_WPF
 
         private async void Button_Click(object sender, RoutedEventArgs e)
         {
-            await Start();
+            var filepopup = new SaveFileDialog();
+            filepopup.Filter = "EPUB File|*.epub";
+            filepopup.AddExtension = true;
+            filepopup.ShowDialog();
+            await Start(filepopup.FileName);
             Close();
         }
     }
