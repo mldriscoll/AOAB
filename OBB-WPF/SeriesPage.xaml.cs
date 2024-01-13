@@ -306,10 +306,21 @@ namespace OBB_WPF
 
         private void CoverButton_Click(object sender, RoutedEventArgs e)
         {
-            //if (omnibus.Cover != null)
-            //    Browser.Source = new Uri($"file://{Environment.CurrentDirectory}\\Lady Rose Just Wants to Be a Commoner!\\{omnibus.Cover.File}");
-            //else
-            //    Browser.Source = new Uri($"about:blank");
+            var chapter = new Chapter
+            {
+                Sources = new ObservableCollection<Source>(new List<Source> { omnibus.Cover })
+            };
+
+            CurrentChapter = chapter;
+
+            if (CurrentChapter != null)
+            {
+                ChapterName.DataContext = CurrentChapter;
+                SortOrder.DataContext = CurrentChapter;
+                DragChapter.DataContext = CurrentChapter;
+                Sources.ItemsSource = CurrentChapter.Sources;
+                ChapterType.DataContext = CurrentChapter;
+            }
         }
 
         private void Source_Drop(object sender, DragEventArgs e)
