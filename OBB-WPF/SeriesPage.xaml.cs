@@ -140,10 +140,10 @@ namespace OBB_WPF
                 }
             }
 
-            var lvi = e.Data.GetData(typeof(ListViewItem));
+            var lvi = e.Data.GetData(typeof(SourcePreview));
             if (lvi != null)
             {
-                var draggedSource = ((ListViewItem)lvi).DataContext as Source;
+                var draggedSource = ((SourcePreview)lvi).DataContext as Source;
                 CurrentChapter.Sources.Remove(draggedSource);
                 dropTarget.Sources.Add(draggedSource);
             }
@@ -252,10 +252,10 @@ namespace OBB_WPF
                 omnibus.UnusedSources = new ObservableCollection<Source>(omnibus.UnusedSources.OrderBy(x => x.File));
             }
 
-            var lvi = e.Data.GetData(typeof(ListViewItem));
+            var lvi = e.Data.GetData(typeof(SourcePreview));
             if (lvi != null)
             {
-                var draggedSource = ((ListViewItem)lvi).DataContext as Source;
+                var draggedSource = ((SourcePreview)lvi).DataContext as Source;
                 CurrentChapter.Sources.Remove(draggedSource);
                 omnibus.UnusedSources.Add(draggedSource);
             }
@@ -295,10 +295,10 @@ namespace OBB_WPF
 
         private void CoverButton_Drop(object sender, DragEventArgs e)
         {
-            var lvi = e.Data.GetData(typeof(ListViewItem));
+            var lvi = e.Data.GetData(typeof(SourcePreview));
             if (lvi != null)
             {
-                var draggedSource = ((ListViewItem)lvi).DataContext as Source;
+                var draggedSource = ((SourcePreview)lvi).DataContext as Source;
                 CurrentChapter.Sources.Remove(draggedSource);
 
                 if (omnibus.Cover != null) omnibus.UnusedSources.Add(omnibus.Cover);

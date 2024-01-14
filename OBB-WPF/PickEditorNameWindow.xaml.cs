@@ -29,6 +29,7 @@ namespace OBB_WPF
             if (!string.IsNullOrWhiteSpace(EditorName.Text))
             {
                 MainWindow.Configuration.EditorName = EditorName.Text;
+                this.Close();
             }
         }
     }

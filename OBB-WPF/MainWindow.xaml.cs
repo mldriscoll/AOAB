@@ -305,11 +305,15 @@ namespace OBB_WPF
 
         public void Sort()
         {
-            Chapters = new ObservableCollection<Chapter>(Chapters.OrderBy(x => x.SortOrder));
+            var c = Chapters.OrderBy(x => x.SortOrder).ToList();
+            foreach(var chapter in c)
+            {
+                Chapters.Remove(chapter);
+                Chapters.Add(chapter);
+            }
 
             foreach(var chapter in Chapters)
             {
-                chapter.Sources = new ObservableCollection<Source>(chapter.Sources.OrderBy(x => x.SortOrder));
                 chapter.Sort();
             }
         }

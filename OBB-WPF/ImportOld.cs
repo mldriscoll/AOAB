@@ -8,7 +8,7 @@
             var nob = new Omnibus();
             foreach (var volume in volumes)
             {
-                var sources = omnibus.AllSources(volume.InternalName + "\\").Where(x => x.File.StartsWith(volume.InternalName, StringComparison.OrdinalIgnoreCase)).ToList();
+                var sources = omnibus.AllSources(omnibus.Name + "\\" + volume.InternalName + "\\").ToList();
                 foreach (var s in sources) omnibus.UnusedSources.Add(s);
                 foreach (var chapter in volume.Chapters) await ImportChapter(nob, chapter, OBB_WPF.Chapter.ChapterType.Story, sources);
                 foreach (var chapter in volume.BonusChapters) await ImportChapter(nob, chapter, OBB_WPF.Chapter.ChapterType.Bonus, sources);

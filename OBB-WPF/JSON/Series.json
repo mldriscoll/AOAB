@@ -3404,6 +3404,114 @@
     "AuthorSort": "KONO, TSURANORI"
   },
   {
+    "Name": "Dahlia in Bloom and Lucia and the Loom",
+    "InternalName": "Dahlia in Bloom and Lucia and the Loom",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools"
+      },
+      {
+        "Order": 2,
+        "Slug": "lucia-and-the-loom-weaving-her-way-to-happiness"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "lucia-and-the-loom-weaving-her-way-to-happiness-volume-1",
+        "FileName": "lucia-and-the-loom-weaving-her-way-to-happiness-volume-1.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2023-09-11",
+        "Order": 201
+      },
+      {
+        "ApiSlug": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-1",
+        "FileName": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-1.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2021-09-27",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-2",
+        "FileName": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-2.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2021-12-13",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-3",
+        "FileName": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-3.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2022-03-28",
+        "Order": 103
+      },
+      {
+        "ApiSlug": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-4",
+        "FileName": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-4.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2022-08-08",
+        "Order": 104
+      },
+      {
+        "ApiSlug": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-5",
+        "FileName": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-5.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2022-11-21",
+        "Order": 105
+      },
+      {
+        "ApiSlug": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-6",
+        "FileName": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-6.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2023-02-27",
+        "Order": 106
+      },
+      {
+        "ApiSlug": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-7",
+        "FileName": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-7.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2023-05-29",
+        "Order": 107
+      },
+      {
+        "ApiSlug": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-8",
+        "FileName": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-8.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2023-12-25",
+        "Order": 108
+      }
+    ],
+    "Author": "",
+    "AuthorSort": ""
+  },
+  {
     "Name": "Dahlia in Bloom: Crafting a Fresh Start with Magical Tools",
     "InternalName": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools",
     "ApiSlugs": [
@@ -16292,6 +16400,14 @@
         "EditedBy": [],
         "Published": "2024-02-05",
         "Order": 105
+      },
+      {
+        "ApiSlug": "the-invincible-little-lady-volume-6",
+        "FileName": "the-invincible-little-lady-volume-6.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2024-05-08",
+        "Order": 106
       }
     ],
     "Author": "Chatsufusa",
@@ -18610,6 +18726,14 @@
         "EditedBy": [],
         "Published": "2024-01-12",
         "Order": 109
+      },
+      {
+        "ApiSlug": "when-supernatural-battles-became-commonplace-volume-10",
+        "FileName": "when-supernatural-battles-became-commonplace-volume-10.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2024-04-05",
+        "Order": 110
       }
     ],
     "Author": "Kota Nozomi",
