@@ -109,7 +109,11 @@ namespace OBB_WPF
 
             foreach (var series in Series.Where(x => x.Volumes.Any(y => File.Exists(Configuration.SourceFolder + "\\" + y.FileName))))
             {
-                var button = new Button { Content = series.Name };
+                var totalBooks = series.Volumes.Count;
+                var availableBooks = series.Volumes.Where(x => File.Exists(Configuration.SourceFolder + "\\" + x.FileName)).ToList();
+                var uneditedBooks = availableBooks.Where(x => !x.EditedBy.Any()).Count();
+
+                var button = new Button { Content = $"{series.Name} {totalBooks} books / {availableBooks.Count} available ({uneditedBooks} unedited)" };
                 button.Click += (object sender, RoutedEventArgs e) =>
                 {
                     var window = new SeriesPage(series);
