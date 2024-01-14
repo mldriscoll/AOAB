@@ -227,6 +227,20 @@ namespace Core.Processor
                     }
                 }
 
+                foreach(var chapterLink in chapter.V2ChapterLinks)
+                {
+                    try
+                    {
+                        var otherChapter = Chapters.First(x => x.Contents.Contains(chapterLink.target, StringComparison.InvariantCultureIgnoreCase));
+
+                        chapter.Contents = chapter.Contents.Replace(chapterLink.link, otherChapter.OutputFileName, StringComparison.InvariantCultureIgnoreCase);
+                    }
+                    catch (Exception ex)
+                    {
+                        throw new Exception($"Chapter {chapter.Name} tried to link to chapter {chapterLink} that was not found in the ebook output");
+                    }
+                }
+
                 File.WriteAllText(chapter.FullFileName, $@"<?xml version='1.0' encoding='utf-8'?>
 <html xmlns={"\""}http://www.w3.org/1999/xhtml{"\""} xmlns:epub={"\""}http://www.idpf.org/2007/ops{"\""} xml:lang={"\""}en{"\""}>
   <head>

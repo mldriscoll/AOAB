@@ -39,5 +39,7 @@
         public string CSSLink { get; set; } = string.Empty;
 
         public List<string> ChapterLinks { get; set; } = new List<string>();
+
+        public List<(string link, string target)> V2ChapterLinks { get; set; } = new List<(string link, string target)> { };
     }
 }

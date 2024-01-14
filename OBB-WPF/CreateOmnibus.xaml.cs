@@ -177,7 +177,7 @@ namespace OBB_WPF
                         Name = chapter.Name + ".xhtml",
                         SubFolder = subfolder,
                         SortOrder = chapter.SortOrder,
-                        //ChapterLinks = chapter.LinkedChapters.Select(x => string.Concat(x.Target.SortOrder + "-" + x.Target.Name + ".xhtml")).ToList()
+                        V2ChapterLinks = chapter.LinkedChapters.Select(x => new ValueTuple<string, string>(x.OriginalLink, x.Target)).ToList()
                     };
 
                     newChapter.SortOrder = chapter.SortOrder;
