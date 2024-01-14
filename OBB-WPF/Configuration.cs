@@ -12,6 +12,7 @@
         public int? MaxImageWidth { get; set; } = null;
         public int? MaxImageHeight { get; set; } = null;
         public int ResizedImageQuality { get; set; } = 90;
+        public string? EditorName { get; set; }
 
         public async Task Save()
         {

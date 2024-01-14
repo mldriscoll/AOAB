@@ -19,6 +19,7 @@ using System.Windows.Markup;
 using System.Collections.ObjectModel;
 using System.Text.Json.Nodes;
 using Microsoft.Win32;
+using CefSharp;
 
 namespace OBB_WPF
 {
@@ -92,9 +93,20 @@ namespace OBB_WPF
         {
             if (e.LeftButton == MouseButtonState.Pressed && !_IsDragging)
             {
-                _IsDragging = true;
-                DragDrop.DoDragDrop((DependencyObject)sender, sender, DragDropEffects.Move);
+                var tbSource = e.OriginalSource as TextBlock;
+                if (tbSource != null)
+                {
+                    _IsDragging = true;
+                    DragDrop.DoDragDrop((DependencyObject)sender, FindParent<TreeViewItem>(tbSource), DragDropEffects.Move);
+                }
             }
+        }
+        public static DependencyObject FindParent<T>(DependencyObject dependencyObject)
+        {
+            while (dependencyObject != null && typeof(T) != dependencyObject.GetType())
+                dependencyObject = VisualTreeHelper.GetParent(dependencyObject);
+
+            return dependencyObject;
         }
 
         private void DragSource_MouseMove(object sender, MouseEventArgs e)
@@ -109,16 +121,22 @@ namespace OBB_WPF
         private void DropOnChapter(object sender, DragEventArgs e)
         {
             var dropTarget = (Chapter)((TreeViewItem)sender).Tag;
-            var tb = e.Data.GetData(typeof(TextBlock));
-            if (tb != null)
+            var tvi = e.Data.GetData(typeof(TreeViewItem));
+            if (tvi != null)
             {
-                var draggedChapter = ((TextBlock)tb).DataContext as Chapter;
+                var draggedChapter = ((TreeViewItem)tvi).DataContext as Chapter;
 
                 if (draggedChapter != null && draggedChapter != dropTarget)
                 {
                     omnibus.Remove(draggedChapter);
                     dropTarget.Chapters.Add(draggedChapter);
-                    dropTarget.Chapters = new ObservableCollection<Chapter>(dropTarget.Chapters.OrderBy(x => x.SortOrder));
+                    var chapters = dropTarget.Chapters.ToList();
+                    chapters.Add(draggedChapter);
+                    foreach(var c in chapters.OrderBy(x => x.SortOrder))
+                    {
+                        dropTarget.Chapters.Remove(c);
+                        dropTarget.Chapters.Add(c);
+                    }
                 }
             }
 
@@ -143,7 +161,6 @@ namespace OBB_WPF
             {
                 ChapterName.DataContext = CurrentChapter;
                 SortOrder.DataContext = CurrentChapter;
-                DragChapter.DataContext = CurrentChapter;
                 Sources.ItemsSource = CurrentChapter.Sources;
                 ChapterType.DataContext = CurrentChapter;
             }
@@ -168,45 +185,38 @@ namespace OBB_WPF
 
         private async void SaveButton_Click(object sender, RoutedEventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(Editor.Text))
+            if (string.IsNullOrWhiteSpace(MainWindow.Configuration.EditorName))
             {
-                MessageBox.Show(this, "Please enter an editor name before saving changes");
+                var window = new PickEditorNameWindow();
+                window.ShowDialog();
             }
-            else
+            
+            var saveSeries = false;
+            foreach (var a in series.Volumes)
             {
-                var options = new JsonSerializerOptions
+                if (!a.EditedBy.Any() || !a.EditedBy.Any(x => x.Equals(MainWindow.Configuration.EditorName, StringComparison.OrdinalIgnoreCase)))
                 {
-                    WriteIndented = true,
-                    Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping
-                };
-
-                var saveSeries = false;
-                foreach (var a in series.Volumes)
-                {
-                    if (!a.EditedBy.Any() || !a.EditedBy.Any(x => x.Equals(Editor.Text, StringComparison.OrdinalIgnoreCase)))
+                    if (File.Exists($"{MainWindow.Configuration.SourceFolder}\\{a.FileName}"))
                     {
-                        if (File.Exists($"{MainWindow.Configuration.SourceFolder}\\{a.FileName}"))
-                        {
-                            a.EditedBy.Add(Editor.Text);
-                            saveSeries = true;
-                        }
+                        a.EditedBy.Add(MainWindow.Configuration.EditorName);
+                        saveSeries = true;
                     }
                 }
+            }
 
-                omnibus.Sort();
+            omnibus.Sort();
 
 #if DEBUG
-                var omnibusFile = $"..\\..\\..\\JSON\\{omnibus.Name}.json";
-                var seriesFile = $"..\\..\\..\\JSON\\Series.json";
+            var omnibusFile = $"..\\..\\..\\JSON\\{omnibus.Name}.json";
+            var seriesFile = $"..\\..\\..\\JSON\\Series.json";
 #else
-                var omnibusFile = $"JSON\\{omnibus.Name}.json";
-                var seriesFile = $"JSON\\Series.json";
+            var omnibusFile = $"JSON\\{omnibus.Name}.json";
+            var seriesFile = $"JSON\\Series.json";
 #endif
-                await JSON.Save(omnibusFile, omnibus);
-                if (saveSeries)
-                {
-                    await JSON.Save(seriesFile, MainWindow.Series);
-                }
+            await JSON.Save(omnibusFile, omnibus);
+            if (saveSeries)
+            {
+                await JSON.Save(seriesFile, MainWindow.Series);
             }
         }
 
@@ -232,10 +242,10 @@ namespace OBB_WPF
 
         private void Delete_Button_Drop(object sender, DragEventArgs e)
         {
-            var tb = e.Data.GetData(typeof(TextBlock));
-            if (tb != null)
+            var tvi = e.Data.GetData(typeof(TreeViewItem));
+            if (tvi != null)
             {
-                var draggedChapter = ((TextBlock)tb).DataContext as Chapter;
+                var draggedChapter = ((TreeViewItem)tvi).DataContext as Chapter;
                 DeleteSources(draggedChapter);
                 omnibus.Remove(draggedChapter);
 
@@ -266,10 +276,11 @@ namespace OBB_WPF
 
         private void Root_Drop(object sender, DragEventArgs e)
         {
-            var draggedChapter = ((TextBlock)e.Data.GetData(typeof(TextBlock))).DataContext as Chapter;
-
-            if (draggedChapter != null)
+            var tvi = e.Data.GetData(typeof(TreeViewItem));
+            if (tvi != null)
             {
+                var draggedChapter = ((TreeViewItem)tvi).DataContext as Chapter;
+
                 omnibus.Remove(draggedChapter);
                 omnibus.Chapters.Add(draggedChapter);
             }
@@ -279,16 +290,7 @@ namespace OBB_WPF
         {
             ChapterName.DataContext = null;
             SortOrder.DataContext = null;
-            DragChapter.DataContext = null;
             Sources.ItemsSource = omnibus.UnusedSources;
-        }
-
-        private void Source_Selected(object sender, RoutedEventArgs e)
-        {
-            var li = (ListViewItem)sender;
-            var source = li.DataContext as Source;
-
-            Browser.Text = File.ReadAllText(source.File);
         }
 
         private void CoverButton_Drop(object sender, DragEventArgs e)
@@ -313,23 +315,19 @@ namespace OBB_WPF
 
             CurrentChapter = chapter;
 
-            if (CurrentChapter != null)
-            {
-                ChapterName.DataContext = CurrentChapter;
-                SortOrder.DataContext = CurrentChapter;
-                DragChapter.DataContext = CurrentChapter;
-                Sources.ItemsSource = CurrentChapter.Sources;
-                ChapterType.DataContext = CurrentChapter;
-            }
+            ChapterName.DataContext = CurrentChapter;
+            SortOrder.DataContext = CurrentChapter;
+            Sources.ItemsSource = CurrentChapter.Sources;
+            ChapterType.DataContext = CurrentChapter;
         }
 
         private void Source_Drop(object sender, DragEventArgs e)
         {
-            var target = ((ListViewItem)sender).DataContext as Source;
-            var lvi = e.Data.GetData(typeof(ListViewItem));
+            var target = ((SourcePreview)sender).DataContext as Source;
+            var lvi = e.Data.GetData(typeof(SourcePreview));
             if (lvi != null)
             {
-                var draggedSource = ((ListViewItem)lvi).DataContext as Source;
+                var draggedSource = ((SourcePreview)lvi).DataContext as Source;
 
                 if (draggedSource != target)
                 {
@@ -346,14 +344,28 @@ namespace OBB_WPF
 
         private void NewChapter_Click(object sender, RoutedEventArgs e)
         {
-            var sortOrder = omnibus.Chapters.Any() ? omnibus.Chapters.OrderByDescending(x => x.SortOrder).First().SortOrder + "x" : "001";
-            var chapter = new Chapter
+            if (CurrentChapter != null)
             {
-                CType = Chapter.ChapterType.Story,
-                Name = "New Chapter",
-                SortOrder = sortOrder
-            };
-            omnibus.Chapters.Add(chapter);
+                var sortOrder = CurrentChapter.Chapters.Any() ? CurrentChapter.Chapters.OrderByDescending(x => x.SortOrder).First().SortOrder + "x" : CurrentChapter.SortOrder + "001";
+                var chapter = new Chapter
+                {
+                    CType = CurrentChapter.CType,
+                    Name = "New Chapter",
+                    SortOrder = sortOrder
+                };
+                CurrentChapter.Chapters.Add(chapter);
+            }
+            else
+            {
+                var sortOrder = omnibus.Chapters.Any() ? omnibus.Chapters.OrderByDescending(x => x.SortOrder).First().SortOrder + "x" : "001";
+                var chapter = new Chapter
+                {
+                    CType = Chapter.ChapterType.Story,
+                    Name = "New Chapter",
+                    SortOrder = sortOrder
+                };
+                omnibus.Chapters.Add(chapter);
+            }
         }
 
         private void SplitChapter_Click(object sender, RoutedEventArgs e)
@@ -379,19 +391,13 @@ namespace OBB_WPF
             }
             ChapterList.ItemsSource = omnibus.Chapters;
         }
-    }
 
-    public class MathConverter : IValueConverter
-    {
-        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
+        private void ViewSourceButton_Click(object sender, RoutedEventArgs e)
         {
-            throw new NotImplementedException();
-        }
-
-        object IValueConverter.Convert(object value, Type targetType, object parameter, CultureInfo culture)
-        {
-            var d = (double)value;
-            return d * 2 / 3;
+            var button = (Button)sender;
+            var source = button.DataContext as Source;
+            var window = new ViewSource(source);
+            window.Show();
         }
     }
 

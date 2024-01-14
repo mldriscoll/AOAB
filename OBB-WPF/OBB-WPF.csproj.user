@@ -19,6 +19,9 @@
     <Compile Update="LoginWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="PickEditorNameWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="SeriesPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -29,6 +32,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="UpdateWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ViewSource.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -48,6 +54,9 @@
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="PickEditorNameWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="SeriesPage.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -58,6 +67,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UpdateWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ViewSource.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

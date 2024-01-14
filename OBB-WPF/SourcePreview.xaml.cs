@@ -95,5 +95,9 @@ namespace OBB_WPF
                 Right.LoadUrl(RightSource);
             }
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+        }
     }
 }

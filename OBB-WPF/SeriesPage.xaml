@@ -6,16 +6,10 @@
         xmlns:local="clr-namespace:OBB_WPF"
         mc:Ignorable="d"
         Title="SeriesPage" Height="450" Width="800">
-    <Window.Resources>
-        <local:MathConverter x:Key="MathConverter"></local:MathConverter>
-    </Window.Resources>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="30"></RowDefinition>
-            <RowDefinition Height="30"></RowDefinition>
             <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
-            <RowDefinition Height="30"></RowDefinition>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition></ColumnDefinition>
@@ -24,67 +18,79 @@
         </Grid.ColumnDefinitions>
         <Button Click="BuildOmnibus">Create Omnibus</Button>
         <Button x:Name="SaveButton" Click="SaveButton_Click" Grid.Column="1">Save</Button>
-        <TextBox x:Name="Editor" Grid.Column="2"></TextBox>
+        <Button Content="Import Old Mapping" Grid.Column="2" Name="ImportMapping" Click="ImportMapping_Click"></Button>
 
-        <TreeView x:Name="ChapterList" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="2" AllowDrop="True" Grid.RowSpan="2" >
-            <TreeView.ItemContainerStyle>
-                <Style TargetType="{x:Type TreeViewItem}">
-                    <EventSetter Event="TreeViewItem.Selected" Handler="Chapter_Selected"></EventSetter>
-                    <Setter Property="AllowDrop" Value="True"></Setter>
-                    <EventSetter Event="TreeViewItem.Drop" Handler="DropOnChapter"></EventSetter>
-                    <Setter Property="Tag" Value="{Binding}"></Setter>
-                </Style>
-            </TreeView.ItemContainerStyle>
-            <TreeView.Resources>
-                <HierarchicalDataTemplate DataType="{x:Type local:Chapter}" ItemsSource="{ Binding Chapters }" >
-                    <TextBlock Text="{Binding Name}"></TextBlock>
-                </HierarchicalDataTemplate>
-            </TreeView.Resources>
-        </TreeView>
-        <ListView Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="2" VerticalAlignment="Stretch" ScrollViewer.HorizontalScrollBarVisibility="Hidden">
-            <TextBox x:Name="ChapterName" HorizontalAlignment="Stretch" Text="{Binding Name}"></TextBox>
+        <Grid Grid.Row="1" Grid.RowSpan="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"></RowDefinition>
+                <RowDefinition Height="30"></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition Height="30"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Button Content="Cover" AllowDrop="True" Name="CoverButton" Drop="CoverButton_Drop" Click="CoverButton_Click"></Button>
+            <TextBlock Grid.Row="1" AllowDrop="True" Drop="Root_Drop">Move to Root Level</TextBlock>
+            <TreeView x:Name="ChapterList" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" AllowDrop="True" Grid.Row="2">
+                <TreeView.ItemContainerStyle>
+                    <Style TargetType="{x:Type TreeViewItem}">
+                        <EventSetter Event="TreeViewItem.Selected" Handler="Chapter_Selected"></EventSetter>
+                        <Setter Property="AllowDrop" Value="True"></Setter>
+                        <EventSetter Event="TreeViewItem.Drop" Handler="DropOnChapter"></EventSetter>
+                        <Setter Property="Tag" Value="{Binding}"></Setter>
+                        <EventSetter Event="PreviewMouseMove" Handler="Chapter_MouseMove"></EventSetter>
+                        <EventSetter Event="PreviewMouseLeftButtonUp" Handler="DragChapter_PreviewMouseLeftButtonUp"></EventSetter>
+                        <EventSetter Event="PreviewMouseRightButtonUp" Handler="DragChapter_PreviewMouseLeftButtonUp"></EventSetter>
+                        <EventSetter Event="MouseLeave" Handler="DragChapter_MouseLeave"></EventSetter>
+                    </Style>
+                </TreeView.ItemContainerStyle>
+                <TreeView.Resources>
+                    <HierarchicalDataTemplate DataType="{x:Type local:Chapter}" ItemsSource="{ Binding Chapters }" >
+                        <TextBlock Text="{Binding Name}"></TextBlock>
+                    </HierarchicalDataTemplate>
+                </TreeView.Resources>
+            </TreeView>
+            <Button Content="Deleted" Grid.Row="3" AllowDrop="True" Drop="Delete_Button_Drop" Click="Button_Click"></Button>
+        </Grid>
+
+        <Grid Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="1" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"></RowDefinition>
+                <RowDefinition Height="30"></RowDefinition>
+                <RowDefinition Height="30"></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <TextBox x:Name="ChapterName" HorizontalAlignment="Stretch" Text="{Binding Name}" Grid.Column="1"></TextBox>
             <TextBox x:Name="SortOrder" HorizontalAlignment="Stretch" Text="{Binding SortOrder}"></TextBox>
-            <ComboBox SelectedValue="{Binding ChapType}" SelectedValuePath="Name" HorizontalAlignment="Stretch" Name="ChapterType" Width="100">
+
+            <ComboBox SelectedValue="{Binding ChapType}" SelectedValuePath="Name" HorizontalAlignment="Stretch" Name="ChapterType" Width="100" Grid.Row="1">
                 <ComboBoxItem Name="Story">Story</ComboBoxItem>
                 <ComboBoxItem Name="Bonus">Bonus</ComboBoxItem>
                 <ComboBoxItem Name="NonStory">NonStory</ComboBoxItem>
             </ComboBox>
-            <TextBlock x:Name="DragChapter" Background="Black" Foreground="White" PreviewMouseMove="Chapter_MouseMove" PreviewMouseLeftButtonUp="DragChapter_PreviewMouseLeftButtonUp" PreviewMouseRightButtonUp="DragChapter_PreviewMouseLeftButtonUp" MouseLeave="DragChapter_MouseLeave">Drag this to relocate the current chapter</TextBlock>
+            <Button Content="Add Link" Click="Button_Click_1" Grid.Row="1" Grid.Column="1"></Button>
 
-            <Button Content="Add Link" Click="Button_Click_1"></Button>
-            <ListView x:Name="Sources" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" ScrollViewer.HorizontalScrollBarVisibility="Auto" FlowDirection="RightToLeft" Width="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Grid}}, Converter={StaticResource MathConverter}, Path=ActualWidth}">
+            <Button Content="New Chapter" Click="NewChapter_Click" Grid.Row="2"></Button>
+            <Button Content="Duplicate/Split Chapter" Name="SplitChapter" Click="SplitChapter_Click" Grid.Row="2" Grid.Column="1"></Button>
+
+            <ListView x:Name="Sources" Grid.Row="3" Grid.ColumnSpan="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FlowDirection="RightToLeft" Width="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Grid}}, Path=ActualWidth}">
                 <ListView.ItemsPanel>
                     <ItemsPanelTemplate>
-                        <StackPanel Orientation="Horizontal"></StackPanel>
+                        <WrapPanel Orientation="Horizontal" Width="{Binding (FrameworkElement.ActualWidth), RelativeSource={RelativeSource AncestorType=ScrollContentPresenter}}"></WrapPanel>
                     </ItemsPanelTemplate>
                 </ListView.ItemsPanel>
-                <ListView.ItemContainerStyle>
-                    <Style TargetType="ListViewItem">
-                        <EventSetter Event="Selected" Handler="Source_Selected"></EventSetter>
-                        <EventSetter Event="PreviewMouseMove" Handler="DragSource_MouseMove"></EventSetter>
-                        <EventSetter Event="PreviewMouseLeftButtonUp" Handler="DragSource_ButtonUp"></EventSetter>
-                        <EventSetter Event="PreviewMouseRightButtonUp" Handler="DragSource_ButtonUp"></EventSetter>
-                        <EventSetter Event="MouseLeave" Handler="DragSource_MouseLeave"></EventSetter>
-                        <Setter Property="AllowDrop" Value="True"></Setter>
-                        <EventSetter Event="Drop" Handler="Source_Drop"></EventSetter>
-                    </Style>
-                </ListView.ItemContainerStyle>
                 <ListView.Resources>
                     <DataTemplate DataType="{x:Type local:Source}">
-                        <local:SourcePreview LeftSource="{Binding LeftURI}" RightSource="{Binding RightURI}" SortOrder="{Binding SortOrder}" Height="500" Width="500"></local:SourcePreview>
+                        <ListView>
+                            <local:SourcePreview LeftSource="{Binding LeftURI}" RightSource="{Binding RightURI}" SortOrder="{Binding SortOrder}" Height="500" Width="500" PreviewMouseMove="DragSource_MouseMove" PreviewMouseLeftButtonUp="DragSource_ButtonUp"
+                                                     PreviewMouseLeftButtonDown="DragSource_ButtonUp" MouseLeave="DragSource_MouseLeave" AllowDrop="True" Drop="Source_Drop"></local:SourcePreview>
+                            <Button x:Name="ViewSourceButton" Content="View Source" Click="ViewSourceButton_Click"></Button>
+                        </ListView>
                     </DataTemplate>
                 </ListView.Resources>
             </ListView>
-
-        </ListView>
-        <TextBox x:Name="Browser" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="3"></TextBox>
-        
-        <TextBlock Grid.Row="1" Grid.Column="1" AllowDrop="True" Drop="Root_Drop">Move to Root Level</TextBlock>
-        <Button Content="Deleted" Grid.Row="1" Grid.Column="0" AllowDrop="True" Drop="Delete_Button_Drop" Click="Button_Click"></Button>
-        <Button Content="Cover" Grid.Row="1" Grid.Column="2" AllowDrop="True" Name="CoverButton" Drop="CoverButton_Drop" Click="CoverButton_Click"></Button>
-
-        <Button Content="New Chapter" Grid.Row="4" Click="NewChapter_Click"></Button>
-        <Button Content="Duplicate/Split Chapter" Grid.Row="4" Grid.Column="1" Name="SplitChapter" Click="SplitChapter_Click"></Button>
-        <Button Content="Import Old Mapping" Grid.Row="4" Grid.Column="2" Name="ImportMapping" Click="ImportMapping_Click"></Button>
+        </Grid>
     </Grid>
 </Window>
