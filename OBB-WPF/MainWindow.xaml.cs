@@ -112,8 +112,13 @@ namespace OBB_WPF
                 var totalBooks = series.Volumes.Count;
                 var availableBooks = series.Volumes.Where(x => File.Exists(Configuration.SourceFolder + "\\" + x.FileName)).ToList();
                 var uneditedBooks = availableBooks.Where(x => !x.EditedBy.Any()).Count();
+                var uebstring = uneditedBooks > 0 ? $" ({uneditedBooks} unedited)" : string.Empty;
 
-                var button = new Button { Content = $"{series.Name} {totalBooks} books / {availableBooks.Count} available ({uneditedBooks} unedited)" };
+                var button = new Button { Content = $"{series.Name} {totalBooks} books / {availableBooks.Count} available{uebstring}" };
+                if (uneditedBooks > 0)
+                {
+                    button.Background = new SolidColorBrush(System.Windows.Media.Color.FromRgb(150, 50, 50));
+                }
                 button.Click += (object sender, RoutedEventArgs e) =>
                 {
                     var window = new SeriesPage(series);
