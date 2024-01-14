@@ -163,6 +163,8 @@ namespace OBB_WPF
                 SortOrder.DataContext = CurrentChapter;
                 Sources.ItemsSource = CurrentChapter.Sources;
                 ChapterType.DataContext = CurrentChapter;
+                StartLine.DataContext = CurrentChapter;
+                EndLine.DataContext = CurrentChapter;
             }
 
             e.Handled = true;

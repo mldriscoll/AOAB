@@ -60,6 +60,7 @@
                 <RowDefinition Height="30"></RowDefinition>
                 <RowDefinition Height="30"></RowDefinition>
                 <RowDefinition Height="30"></RowDefinition>
+                <RowDefinition Height="30"></RowDefinition>
                 <RowDefinition></RowDefinition>
             </Grid.RowDefinitions>
             <TextBox x:Name="ChapterName" HorizontalAlignment="Stretch" Text="{Binding Name}" Grid.Column="1"></TextBox>
@@ -75,7 +76,26 @@
             <Button Content="New Chapter" Click="NewChapter_Click" Grid.Row="2"></Button>
             <Button Content="Duplicate/Split Chapter" Name="SplitChapter" Click="SplitChapter_Click" Grid.Row="2" Grid.Column="1"></Button>
 
-            <ListView x:Name="Sources" Grid.Row="3" Grid.ColumnSpan="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FlowDirection="RightToLeft" Width="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Grid}}, Path=ActualWidth}">
+            <ListView Grid.Row="3">
+                <ListView.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <StackPanel Orientation="Horizontal"></StackPanel>
+                    </ItemsPanelTemplate>
+                </ListView.ItemsPanel>
+                <Label>Start Line</Label>
+                <TextBox Text="{Binding StartsAtLine}" Name="StartLine"></TextBox>
+            </ListView>
+            <ListView Grid.Row="3" Grid.Column="1">
+                <ListView.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <StackPanel Orientation="Horizontal"></StackPanel>
+                    </ItemsPanelTemplate>
+                </ListView.ItemsPanel>
+                <Label>Ending Line</Label>
+                <TextBox Text="{Binding EndsBeforeLine}" Name="EndLine"></TextBox>
+            </ListView>
+            
+            <ListView x:Name="Sources" Grid.Row="4" Grid.ColumnSpan="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FlowDirection="RightToLeft" Width="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Grid}}, Path=ActualWidth}">
                 <ListView.ItemsPanel>
                     <ItemsPanelTemplate>
                         <WrapPanel Orientation="Horizontal" Width="{Binding (FrameworkElement.ActualWidth), RelativeSource={RelativeSource AncestorType=ScrollContentPresenter}}"></WrapPanel>
