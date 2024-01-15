@@ -13,6 +13,8 @@
                 foreach (var chapter in volume.Chapters) await ImportChapter(nob, chapter, OBB_WPF.Chapter.ChapterType.Story, sources);
                 foreach (var chapter in volume.BonusChapters) await ImportChapter(nob, chapter, OBB_WPF.Chapter.ChapterType.Bonus, sources);
                 foreach (var chapter in volume.ExtraContent) await ImportChapter(nob, chapter, OBB_WPF.Chapter.ChapterType.NonStory, sources);
+
+                await ImportChapter(nob, new Chapter { ChapterName = volume.InternalName, Chapters = new List<Chapter> { new Chapter { ChapterName = "Gallery", OriginalFilenames = volume.Gallery.SelectMany(x => x.SplashImages).ToList() } } }, OBB_WPF.Chapter.ChapterType.Bonus, sources);
             }
             omnibus.Combine(nob);
             omnibus.RemoveDupesFromUnusedList();
@@ -21,36 +23,54 @@
 
         private static async Task ImportChapter(ChapterHolder holder, Chapter chapter, OBB_WPF.Chapter.ChapterType type, List<Source> Sources)
         {
-            var nchap = holder.Chapters.FirstOrDefault(x => x.SortOrder.Equals(chapter.SortOrder) && x.Name.Equals(chapter.ChapterName));
-            if (nchap == null)
+            if (!string.IsNullOrWhiteSpace(chapter.SubFolder))
             {
-                nchap = new OBB_WPF.Chapter
+                var firstslash = chapter.SubFolder.IndexOf('\\');
+                var split = firstslash == -1 ? chapter.SubFolder : chapter.SubFolder.Split('\\')[0];
+                chapter.SubFolder = chapter.SubFolder.Replace(split, string.Empty);
+                var first = split.IndexOf('-');
+                var newChapter = new Chapter
                 {
-                    CType = type,
-                    Name = chapter.ChapterName,
-                    SortOrder = chapter.SortOrder,
+                    SortOrder = split.Substring(0, first),
+                    ChapterName = split.Substring(first),
+                    Chapters = new List<Chapter> { chapter },
                 };
-                holder.Chapters.Add(nchap);
+
+                await ImportChapter(holder, newChapter, type, Sources);
             }
-
-
-
-            foreach (var file in chapter.OriginalFilenames)
+            else
             {
-                nchap.Sources.Add(Sources.FirstOrDefault(x => x.File.EndsWith($"{file}.xhtml")));
-            }
+                var nchap = holder.Chapters.FirstOrDefault(x => x.SortOrder.Equals(chapter.SortOrder) && x.Name.Equals(chapter.ChapterName));
+                if (nchap == null)
+                {
+                    nchap = new OBB_WPF.Chapter
+                    {
+                        CType = type,
+                        Name = chapter.ChapterName,
+                        SortOrder = chapter.SortOrder,
+                    };
+                    holder.Chapters.Add(nchap);
+                }
 
-            foreach(var splash in chapter.SplashPages)
-            {
-                var right = nchap.Sources.FirstOrDefault(x => x.File.EndsWith($"{splash.Right}.xhtml"));
-                var left = nchap.Sources.FirstOrDefault(x => x.File.EndsWith($"{splash.Left}.xhtml"));
-                nchap.Sources.Remove(left);
-                right.OtherSide = left;
-            }
 
-            foreach(var subChapter in chapter.Chapters)
-            {
-                await ImportChapter(nchap, subChapter, type, Sources);
+
+                foreach (var file in chapter.OriginalFilenames)
+                {
+                    nchap.Sources.Add(Sources.FirstOrDefault(x => x.File.EndsWith($"{file}.xhtml")));
+                }
+
+                foreach (var splash in chapter.SplashPages)
+                {
+                    var right = nchap.Sources.FirstOrDefault(x => x.File.EndsWith($"{splash.Right}.xhtml"));
+                    var left = nchap.Sources.FirstOrDefault(x => x.File.EndsWith($"{splash.Left}.xhtml"));
+                    nchap.Sources.Remove(left);
+                    right.OtherSide = left;
+                }
+
+                foreach (var subChapter in chapter.Chapters)
+                {
+                    await ImportChapter(nchap, subChapter, type, Sources);
+                }
             }
         }
 
