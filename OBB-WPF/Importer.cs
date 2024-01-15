@@ -47,7 +47,6 @@ namespace OBB_WPF
                             if (!match.Contains(".xhtml")
                                 || match.StartsWith("\"signup")
                                 || match.StartsWith("\"copyright")
-                                || match.StartsWith("\"frontmatter")
                                 )
                             {
 

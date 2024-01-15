@@ -6,9 +6,14 @@
         xmlns:local="clr-namespace:OBB_WPF"
         mc:Ignorable="d"
         Title="CreateLink" Height="450" Width="800">
-    <ListView>
-        <TextBox x:Name="Link" Width="40" HorizontalAlignment="Stretch"></TextBox>
-        <TextBox x:Name="Target" Width="40" HorizontalAlignment="Stretch"></TextBox>
-        <Button Content="Save" Click="Button_Click"></Button>
-    </ListView>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBox x:Name="Link" HorizontalAlignment="Stretch"></TextBox>
+        <TextBox x:Name="Target" HorizontalAlignment="Stretch" Grid.Row="1"></TextBox>
+        <Button Content="Save" Click="Button_Click" Grid.Row="2"></Button>
+    </Grid>
 </Window>

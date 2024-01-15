@@ -14727,7 +14727,9 @@
         "ApiSlug": "tearmoon-empire-volume-1",
         "FileName": "tearmoon-empire-volume-1.epub",
         "Title": "Tearmoon Empire: Volume 1",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2020-02-24",
         "Order": 101
       },
@@ -14735,7 +14737,9 @@
         "ApiSlug": "tearmoon-empire-volume-2",
         "FileName": "tearmoon-empire-volume-2.epub",
         "Title": "Tearmoon Empire: Volume 2",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2020-07-19",
         "Order": 102
       },
@@ -14743,7 +14747,9 @@
         "ApiSlug": "tearmoon-empire-volume-3",
         "FileName": "tearmoon-empire-volume-3.epub",
         "Title": "Tearmoon Empire: Volume 3",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2020-12-12",
         "Order": 103
       },
@@ -14751,7 +14757,9 @@
         "ApiSlug": "tearmoon-empire-volume-4",
         "FileName": "tearmoon-empire-volume-4.epub",
         "Title": "Tearmoon Empire: Volume 4",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2021-04-11",
         "Order": 104
       },
@@ -14759,7 +14767,9 @@
         "ApiSlug": "tearmoon-empire-volume-5",
         "FileName": "tearmoon-empire-volume-5.epub",
         "Title": "Tearmoon Empire: Volume 5",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2021-07-19",
         "Order": 105
       },
@@ -14767,7 +14777,9 @@
         "ApiSlug": "tearmoon-empire-volume-6",
         "FileName": "tearmoon-empire-volume-6.epub",
         "Title": "Tearmoon Empire: Volume 6",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2021-11-08",
         "Order": 106
       },
@@ -14775,7 +14787,9 @@
         "ApiSlug": "tearmoon-empire-volume-7",
         "FileName": "tearmoon-empire-volume-7.epub",
         "Title": "Tearmoon Empire: Volume 7",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2022-03-28",
         "Order": 107
       },
@@ -14783,7 +14797,9 @@
         "ApiSlug": "tearmoon-empire-volume-8",
         "FileName": "tearmoon-empire-volume-8.epub",
         "Title": "Tearmoon Empire: Volume 8",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2022-07-04",
         "Order": 108
       },
@@ -14791,7 +14807,9 @@
         "ApiSlug": "tearmoon-empire-volume-9",
         "FileName": "tearmoon-empire-volume-9.epub",
         "Title": "Tearmoon Empire: Volume 9",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2023-01-05",
         "Order": 109
       },
@@ -14799,7 +14817,9 @@
         "ApiSlug": "tearmoon-empire-volume-10",
         "FileName": "tearmoon-empire-volume-10.epub",
         "Title": "Tearmoon Empire: Volume 10",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2023-10-05",
         "Order": 110
       },
@@ -14807,7 +14827,9 @@
         "ApiSlug": "tearmoon-empire-volume-11",
         "FileName": "tearmoon-empire-volume-11.epub",
         "Title": "Tearmoon Empire: Volume 11",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2024-01-05",
         "Order": 111
       },
