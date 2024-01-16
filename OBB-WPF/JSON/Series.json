@@ -3525,7 +3525,9 @@
         "ApiSlug": "death-s-daughter-and-the-ebony-blade-volume-1",
         "FileName": "death-s-daughter-and-the-ebony-blade-volume-1.epub",
         "Title": "Death's Daughter and the Ebony Blade: Volume 1",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2022-09-12",
         "Order": 101
       },
@@ -3533,7 +3535,9 @@
         "ApiSlug": "death-s-daughter-and-the-ebony-blade-volume-2",
         "FileName": "death-s-daughter-and-the-ebony-blade-volume-2.epub",
         "Title": "Death's Daughter and the Ebony Blade: Volume 2",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2022-11-14",
         "Order": 102
       },
@@ -3541,7 +3545,9 @@
         "ApiSlug": "death-s-daughter-and-the-ebony-blade-volume-3",
         "FileName": "death-s-daughter-and-the-ebony-blade-volume-3.epub",
         "Title": "Death's Daughter and the Ebony Blade: Volume 3",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2023-02-17",
         "Order": 103
       },
@@ -3549,7 +3555,9 @@
         "ApiSlug": "death-s-daughter-and-the-ebony-blade-volume-4",
         "FileName": "death-s-daughter-and-the-ebony-blade-volume-4.epub",
         "Title": "Death's Daughter and the Ebony Blade: Volume 4",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2023-05-15",
         "Order": 104
       },
@@ -3557,7 +3565,9 @@
         "ApiSlug": "death-s-daughter-and-the-ebony-blade-volume-5",
         "FileName": "death-s-daughter-and-the-ebony-blade-volume-5.epub",
         "Title": "Death's Daughter and the Ebony Blade: Volume 5",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2023-08-07",
         "Order": 105
       },
@@ -3565,7 +3575,9 @@
         "ApiSlug": "death-s-daughter-and-the-ebony-blade-volume-6",
         "FileName": "death-s-daughter-and-the-ebony-blade-volume-6.epub",
         "Title": "Death's Daughter and the Ebony Blade: Volume 6",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2023-10-16",
         "Order": 106
       },
@@ -3573,7 +3585,9 @@
         "ApiSlug": "death-s-daughter-and-the-ebony-blade-volume-7-exordium",
         "FileName": "death-s-daughter-and-the-ebony-blade-volume-7-exordium.epub",
         "Title": "Death's Daughter and the Ebony Blade: Volume 7 Exordium",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2024-01-15",
         "Order": 107
       }

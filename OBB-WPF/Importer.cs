@@ -85,7 +85,7 @@ namespace OBB_WPF
                                     }
 
                                     Chapter subChapter = null;
-                                    foreach (Match subHeader in chapterSubTitleRegex.Matches(chapterContent))
+                                    foreach (Match subHeader in chapterSubTitleRegex.Matches(chapterContent).Where(x => !string.Equals(x.Value, "<h2>I</h2>")))
                                     {
                                         if (subChapter != null)
                                         {
