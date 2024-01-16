@@ -1,0 +1,4388 @@
+{
+  "Cover": {
+    "File": "The Tales of Marielle Clarac\\the-engagement-of-marielle-clarac\\OEBPS\\text\\frontmatter1.xhtml",
+    "Alternates": [],
+    "OtherSide": null,
+    "SortOrder": "1010100"
+  },
+  "Author": "Haruka Momo",
+  "AuthorSort": "MOMO, HARUKA",
+  "Name": "The Tales of Marielle Clarac",
+  "UnusedSources": [
+    {
+      "File": "The Tales of Marielle Clarac\\the-intrigue-of-marielle-clarac\\OEBPS\\text\\frontmatter1.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1050100"
+    },
+    {
+      "File": "The Tales of Marielle Clarac\\the-matchmaking-of-marielle-clarac\\OEBPS\\text\\frontmatter1.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1060100"
+    },
+    {
+      "File": "The Tales of Marielle Clarac\\the-temptation-of-marielle-clarac\\OEBPS\\text\\bonus.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": ""
+    },
+    {
+      "File": "The Tales of Marielle Clarac\\the-wedding-of-marielle-clarac\\OEBPS\\text\\frontmatter1.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1040100"
+    },
+    {
+      "File": "The Tales of Marielle Clarac\\the-temptation-of-marielle-clarac\\OEBPS\\text\\bonus.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": ""
+    },
+    {
+      "File": "The Tales of Marielle Clarac\\the-wedding-of-marielle-clarac\\OEBPS\\text\\bonus2.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": ""
+    },
+    {
+      "File": "The Tales of Marielle Clarac\\the-intrigue-of-marielle-clarac\\OEBPS\\text\\bonus2.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": ""
+    },
+    {
+      "File": "The Tales of Marielle Clarac\\the-matchmaking-of-marielle-clarac\\OEBPS\\text\\bonus2.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": ""
+    }
+  ],
+  "Chapters": [
+    {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "The Engagement of Marielle Clarac",
+      "SortOrder": "01a",
+      "Sources": [],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "Chapters": [
+        {
+          "CType": 2,
+          "ChapType": "NonStory",
+          "Name": "Characters",
+          "SortOrder": "0100",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-engagement-of-marielle-clarac\\OEBPS\\text\\frontmatter2.xhtml",
+              "Alternates": [],
+              "OtherSide": {
+                "File": "The Tales of Marielle Clarac\\the-engagement-of-marielle-clarac\\OEBPS\\text\\frontmatter3.xhtml",
+                "Alternates": [],
+                "OtherSide": null,
+                "SortOrder": "1010300"
+              },
+              "SortOrder": "1010200"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter One",
+          "SortOrder": "0101",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-engagement-of-marielle-clarac\\OEBPS\\text\\chapter1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010400"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Two",
+          "SortOrder": "0102",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-engagement-of-marielle-clarac\\OEBPS\\text\\chapter2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010500"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-engagement-of-marielle-clarac\\OEBPS\\text\\insert1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010501"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-engagement-of-marielle-clarac\\OEBPS\\text\\chapter2_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010502"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Three",
+          "SortOrder": "0103",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-engagement-of-marielle-clarac\\OEBPS\\text\\chapter3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010600"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-engagement-of-marielle-clarac\\OEBPS\\text\\insert2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010601"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-engagement-of-marielle-clarac\\OEBPS\\text\\chapter3_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010602"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Four",
+          "SortOrder": "0104",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-engagement-of-marielle-clarac\\OEBPS\\text\\chapter4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010700"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-engagement-of-marielle-clarac\\OEBPS\\text\\insert3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010701"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-engagement-of-marielle-clarac\\OEBPS\\text\\chapter4_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010702"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        }
+      ]
+    },
+    {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "The Love Story of Marielle Clarac",
+      "SortOrder": "01b",
+      "Sources": [],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "Chapters": [
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter One",
+          "SortOrder": "0105",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-engagement-of-marielle-clarac\\OEBPS\\text\\chapter5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010800"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-engagement-of-marielle-clarac\\OEBPS\\text\\insert4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010801"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-engagement-of-marielle-clarac\\OEBPS\\text\\chapter5_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010802"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Two",
+          "SortOrder": "0106",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-engagement-of-marielle-clarac\\OEBPS\\text\\chapter6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010900"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Three",
+          "SortOrder": "0107",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-engagement-of-marielle-clarac\\OEBPS\\text\\chapter7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1011000"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-engagement-of-marielle-clarac\\OEBPS\\text\\insert5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1011001"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-engagement-of-marielle-clarac\\OEBPS\\text\\chapter7_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1011002"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-engagement-of-marielle-clarac\\OEBPS\\text\\insert6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1011003"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-engagement-of-marielle-clarac\\OEBPS\\text\\chapter7_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1011004"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Four",
+          "SortOrder": "0108",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-engagement-of-marielle-clarac\\OEBPS\\text\\chapter8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1011100"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Five",
+          "SortOrder": "0109",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-engagement-of-marielle-clarac\\OEBPS\\text\\chapter9.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1011200"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-engagement-of-marielle-clarac\\OEBPS\\text\\insert7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1011201"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-engagement-of-marielle-clarac\\OEBPS\\text\\chapter9_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1011202"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Six",
+          "SortOrder": "0110",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-engagement-of-marielle-clarac\\OEBPS\\text\\chapter10.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1011300"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-engagement-of-marielle-clarac\\OEBPS\\text\\insert8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1011301"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-engagement-of-marielle-clarac\\OEBPS\\text\\chapter10_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1011302"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        }
+      ]
+    },
+    {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "The Beloved of Marielle Clarac",
+      "SortOrder": "02",
+      "Sources": [
+        {
+          "File": "The Tales of Marielle Clarac\\the-beloved-of-marielle-clarac\\OEBPS\\text\\frontmatter1.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1020100"
+        },
+        {
+          "File": "The Tales of Marielle Clarac\\the-beloved-of-marielle-clarac\\OEBPS\\text\\bonus.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1020200"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "Chapters": [
+        {
+          "CType": 2,
+          "ChapType": "NonStory",
+          "Name": "Character Sheet",
+          "SortOrder": "0200",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-beloved-of-marielle-clarac\\OEBPS\\text\\frontmatter2.xhtml",
+              "Alternates": [],
+              "OtherSide": {
+                "File": "The Tales of Marielle Clarac\\the-beloved-of-marielle-clarac\\OEBPS\\text\\frontmatter3.xhtml",
+                "Alternates": [],
+                "OtherSide": null,
+                "SortOrder": "1020300"
+              },
+              "SortOrder": "1020200"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter One",
+          "SortOrder": "0201",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-beloved-of-marielle-clarac\\OEBPS\\text\\chapter1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020400"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Two",
+          "SortOrder": "0202",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-beloved-of-marielle-clarac\\OEBPS\\text\\chapter2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020500"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Three",
+          "SortOrder": "0203",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-beloved-of-marielle-clarac\\OEBPS\\text\\chapter3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020600"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-beloved-of-marielle-clarac\\OEBPS\\text\\insert1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020601"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-beloved-of-marielle-clarac\\OEBPS\\text\\chapter3_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020602"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Four",
+          "SortOrder": "0204",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-beloved-of-marielle-clarac\\OEBPS\\text\\chapter4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020700"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-beloved-of-marielle-clarac\\OEBPS\\text\\insert2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020701"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-beloved-of-marielle-clarac\\OEBPS\\text\\chapter4_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020702"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Five",
+          "SortOrder": "0205",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-beloved-of-marielle-clarac\\OEBPS\\text\\chapter5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020800"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Six",
+          "SortOrder": "0206",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-beloved-of-marielle-clarac\\OEBPS\\text\\chapter6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020900"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-beloved-of-marielle-clarac\\OEBPS\\text\\insert3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020901"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-beloved-of-marielle-clarac\\OEBPS\\text\\chapter6_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020902"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Seven",
+          "SortOrder": "0207",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-beloved-of-marielle-clarac\\OEBPS\\text\\chapter7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1021000"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-beloved-of-marielle-clarac\\OEBPS\\text\\insert4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1021001"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Eight",
+          "SortOrder": "0208",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-beloved-of-marielle-clarac\\OEBPS\\text\\chapter8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1021100"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Nine",
+          "SortOrder": "0209",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-beloved-of-marielle-clarac\\OEBPS\\text\\chapter9.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1021200"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-beloved-of-marielle-clarac\\OEBPS\\text\\insert5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1021201"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-beloved-of-marielle-clarac\\OEBPS\\text\\chapter9_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1021202"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Ten",
+          "SortOrder": "0210",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-beloved-of-marielle-clarac\\OEBPS\\text\\chapter10.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1021300"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Eleven",
+          "SortOrder": "0211",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-beloved-of-marielle-clarac\\OEBPS\\text\\chapter11.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1021400"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-beloved-of-marielle-clarac\\OEBPS\\text\\insert6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1021401"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-beloved-of-marielle-clarac\\OEBPS\\text\\chapter11_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1021402"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-beloved-of-marielle-clarac\\OEBPS\\text\\insert7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1021403"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-beloved-of-marielle-clarac\\OEBPS\\text\\chapter11_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1021404"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Twelve",
+          "SortOrder": "0212",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-beloved-of-marielle-clarac\\OEBPS\\text\\chapter12.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1021500"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-beloved-of-marielle-clarac\\OEBPS\\text\\insert8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1021501"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-beloved-of-marielle-clarac\\OEBPS\\text\\chapter12_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1021502"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Thirteen",
+          "SortOrder": "0213",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-beloved-of-marielle-clarac\\OEBPS\\text\\chapter13.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1021600"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 1,
+          "ChapType": "Bonus",
+          "Name": "The Blissfulness of Simeon Flaubert",
+          "SortOrder": "0214",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-beloved-of-marielle-clarac\\OEBPS\\text\\extra.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1021700"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        }
+      ]
+    },
+    {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "The Temptation of Marielle Clarac",
+      "SortOrder": "03",
+      "Sources": [
+        {
+          "File": "The Tales of Marielle Clarac\\the-temptation-of-marielle-clarac\\OEBPS\\text\\frontmatter1.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1030100"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "Chapters": [
+        {
+          "CType": 2,
+          "ChapType": "NonStory",
+          "Name": "Character Sheet",
+          "SortOrder": "0200",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-temptation-of-marielle-clarac\\OEBPS\\text\\frontmatter3.xhtml",
+              "Alternates": [],
+              "OtherSide": {
+                "File": "The Tales of Marielle Clarac\\the-temptation-of-marielle-clarac\\OEBPS\\text\\frontmatter2.xhtml",
+                "Alternates": [],
+                "OtherSide": null,
+                "SortOrder": "1030200"
+              },
+              "SortOrder": "1030300"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter One",
+          "SortOrder": "0301",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-temptation-of-marielle-clarac\\OEBPS\\text\\chapter1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1030400"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-temptation-of-marielle-clarac\\OEBPS\\text\\insert1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1030401"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-temptation-of-marielle-clarac\\OEBPS\\text\\chapter1_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1030402"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Two",
+          "SortOrder": "0302",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-temptation-of-marielle-clarac\\OEBPS\\text\\chapter2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1030500"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Three",
+          "SortOrder": "0303",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-temptation-of-marielle-clarac\\OEBPS\\text\\chapter3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1030600"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-temptation-of-marielle-clarac\\OEBPS\\text\\insert2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1030601"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-temptation-of-marielle-clarac\\OEBPS\\text\\chapter3_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1030602"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Four",
+          "SortOrder": "0304",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-temptation-of-marielle-clarac\\OEBPS\\text\\chapter4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1030700"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Five",
+          "SortOrder": "0305",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-temptation-of-marielle-clarac\\OEBPS\\text\\chapter5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1030800"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-temptation-of-marielle-clarac\\OEBPS\\text\\insert3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1030801"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-temptation-of-marielle-clarac\\OEBPS\\text\\chapter5_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1030802"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Six",
+          "SortOrder": "0306",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-temptation-of-marielle-clarac\\OEBPS\\text\\chapter6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1030900"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Seven",
+          "SortOrder": "0307",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-temptation-of-marielle-clarac\\OEBPS\\text\\chapter7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1031000"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-temptation-of-marielle-clarac\\OEBPS\\text\\insert4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1031001"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-temptation-of-marielle-clarac\\OEBPS\\text\\chapter7_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1031002"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Eight",
+          "SortOrder": "0308",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-temptation-of-marielle-clarac\\OEBPS\\text\\chapter8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1031100"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-temptation-of-marielle-clarac\\OEBPS\\text\\insert5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1031101"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-temptation-of-marielle-clarac\\OEBPS\\text\\chapter8_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1031102"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Nine",
+          "SortOrder": "0309",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-temptation-of-marielle-clarac\\OEBPS\\text\\chapter9.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1031200"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Ten",
+          "SortOrder": "0310",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-temptation-of-marielle-clarac\\OEBPS\\text\\chapter10.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1031300"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-temptation-of-marielle-clarac\\OEBPS\\text\\insert6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1031301"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Eleven",
+          "SortOrder": "0311",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-temptation-of-marielle-clarac\\OEBPS\\text\\chapter11.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1031400"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Twelve",
+          "SortOrder": "0312",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-temptation-of-marielle-clarac\\OEBPS\\text\\chapter12.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1031500"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-temptation-of-marielle-clarac\\OEBPS\\text\\insert7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1031501"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-temptation-of-marielle-clarac\\OEBPS\\text\\chapter12_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1031502"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Thirteen",
+          "SortOrder": "0313",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-temptation-of-marielle-clarac\\OEBPS\\text\\chapter13.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1031600"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-temptation-of-marielle-clarac\\OEBPS\\text\\insert8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1031601"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 1,
+          "ChapType": "Bonus",
+          "Name": "The Sorrows of Prince Severin",
+          "SortOrder": "0314",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-temptation-of-marielle-clarac\\OEBPS\\text\\extra1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1031700"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 1,
+          "ChapType": "Bonus",
+          "Name": "Bonus Short Stories",
+          "SortOrder": "0316",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-temptation-of-marielle-clarac\\OEBPS\\text\\bonus1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1031900"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        }
+      ]
+    },
+    {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "The Wedding of Marielle Clarac",
+      "SortOrder": "104",
+      "Sources": [
+        {
+          "File": "The Tales of Marielle Clarac\\the-wedding-of-marielle-clarac\\OEBPS\\text\\frontmatter1.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1040100"
+        },
+        {
+          "File": "The Tales of Marielle Clarac\\the-wedding-of-marielle-clarac\\OEBPS\\text\\bonus1.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1042200"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "Chapters": [
+        {
+          "CType": 2,
+          "ChapType": "NonStory",
+          "Name": "Character Sheet",
+          "SortOrder": "10400",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-wedding-of-marielle-clarac\\OEBPS\\text\\frontmatter2.xhtml",
+              "Alternates": [],
+              "OtherSide": {
+                "File": "The Tales of Marielle Clarac\\the-wedding-of-marielle-clarac\\OEBPS\\text\\frontmatter3.xhtml",
+                "Alternates": [],
+                "OtherSide": null,
+                "SortOrder": "1040300"
+              },
+              "SortOrder": "1040200"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter One",
+          "SortOrder": "10401",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-wedding-of-marielle-clarac\\OEBPS\\text\\chapter1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1040400"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Two",
+          "SortOrder": "10402",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-wedding-of-marielle-clarac\\OEBPS\\text\\chapter2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1040500"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-wedding-of-marielle-clarac\\OEBPS\\text\\insert1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1040501"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-wedding-of-marielle-clarac\\OEBPS\\text\\chapter2_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1040502"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Three",
+          "SortOrder": "10403",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-wedding-of-marielle-clarac\\OEBPS\\text\\chapter3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1040600"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Four",
+          "SortOrder": "10404",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-wedding-of-marielle-clarac\\OEBPS\\text\\chapter4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1040700"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-wedding-of-marielle-clarac\\OEBPS\\text\\insert2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1040701"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-wedding-of-marielle-clarac\\OEBPS\\text\\chapter4_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1040702"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Five",
+          "SortOrder": "10405",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-wedding-of-marielle-clarac\\OEBPS\\text\\chapter5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1040800"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Six",
+          "SortOrder": "10406",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-wedding-of-marielle-clarac\\OEBPS\\text\\chapter6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1040900"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Seven",
+          "SortOrder": "10407",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-wedding-of-marielle-clarac\\OEBPS\\text\\chapter7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1041000"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-wedding-of-marielle-clarac\\OEBPS\\text\\insert3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1041001"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-wedding-of-marielle-clarac\\OEBPS\\text\\chapter7_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1041002"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Eight",
+          "SortOrder": "10408",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-wedding-of-marielle-clarac\\OEBPS\\text\\chapter8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1041100"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-wedding-of-marielle-clarac\\OEBPS\\text\\insert4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1041101"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-wedding-of-marielle-clarac\\OEBPS\\text\\chapter8_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1041102"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Nine",
+          "SortOrder": "10409",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-wedding-of-marielle-clarac\\OEBPS\\text\\chapter9.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1041200"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Ten",
+          "SortOrder": "10410",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-wedding-of-marielle-clarac\\OEBPS\\text\\chapter10.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1041300"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-wedding-of-marielle-clarac\\OEBPS\\text\\insert5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1041301"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-wedding-of-marielle-clarac\\OEBPS\\text\\chapter10_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1041302"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Eleven",
+          "SortOrder": "10411",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-wedding-of-marielle-clarac\\OEBPS\\text\\chapter11.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1041400"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Twelve",
+          "SortOrder": "10412",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-wedding-of-marielle-clarac\\OEBPS\\text\\chapter12.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1041500"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-wedding-of-marielle-clarac\\OEBPS\\text\\insert6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1041501"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-wedding-of-marielle-clarac\\OEBPS\\text\\chapter12_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1041502"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Thirteen",
+          "SortOrder": "10413",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-wedding-of-marielle-clarac\\OEBPS\\text\\chapter13.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1041600"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-wedding-of-marielle-clarac\\OEBPS\\text\\insert7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1041601"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-wedding-of-marielle-clarac\\OEBPS\\text\\chapter13_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1041602"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Fourteen",
+          "SortOrder": "10414",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-wedding-of-marielle-clarac\\OEBPS\\text\\chapter14.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1041700"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Fifteen",
+          "SortOrder": "10415",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-wedding-of-marielle-clarac\\OEBPS\\text\\chapter15.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1041800"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-wedding-of-marielle-clarac\\OEBPS\\text\\insert8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1041801"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-wedding-of-marielle-clarac\\OEBPS\\text\\chapter15_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1041802"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 1,
+          "ChapType": "Bonus",
+          "Name": "The Calling Card of Lutin the Mysterious Thief",
+          "SortOrder": "10416",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-wedding-of-marielle-clarac\\OEBPS\\text\\extra1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1041900"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 1,
+          "ChapType": "Bonus",
+          "Name": "Bonus Short Stories",
+          "SortOrder": "10418",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-wedding-of-marielle-clarac\\OEBPS\\text\\bonus.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1042100"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        }
+      ]
+    },
+    {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "The Intrigue of Marielle Clarac",
+      "SortOrder": "105",
+      "Sources": [
+        {
+          "File": "The Tales of Marielle Clarac\\the-intrigue-of-marielle-clarac\\OEBPS\\text\\frontmatter1.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1050100"
+        },
+        {
+          "File": "The Tales of Marielle Clarac\\the-intrigue-of-marielle-clarac\\OEBPS\\text\\bonus1.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1052200"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "Chapters": [
+        {
+          "CType": 2,
+          "ChapType": "NonStory",
+          "Name": "Character Sheet",
+          "SortOrder": "10500",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-intrigue-of-marielle-clarac\\OEBPS\\text\\frontmatter3.xhtml",
+              "Alternates": [],
+              "OtherSide": {
+                "File": "The Tales of Marielle Clarac\\the-intrigue-of-marielle-clarac\\OEBPS\\text\\frontmatter2.xhtml",
+                "Alternates": [],
+                "OtherSide": null,
+                "SortOrder": "1050200"
+              },
+              "SortOrder": "1050300"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter One",
+          "SortOrder": "10501",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-intrigue-of-marielle-clarac\\OEBPS\\text\\chapter1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1050400"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Two",
+          "SortOrder": "10502",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-intrigue-of-marielle-clarac\\OEBPS\\text\\chapter2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1050500"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Three",
+          "SortOrder": "10503",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-intrigue-of-marielle-clarac\\OEBPS\\text\\chapter3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1050600"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-intrigue-of-marielle-clarac\\OEBPS\\text\\insert1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1050601"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-intrigue-of-marielle-clarac\\OEBPS\\text\\chapter3_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1050602"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Four",
+          "SortOrder": "10504",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-intrigue-of-marielle-clarac\\OEBPS\\text\\chapter4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1050700"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-intrigue-of-marielle-clarac\\OEBPS\\text\\insert2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1050701"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Five",
+          "SortOrder": "10505",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-intrigue-of-marielle-clarac\\OEBPS\\text\\chapter5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1050800"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Six",
+          "SortOrder": "10506",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-intrigue-of-marielle-clarac\\OEBPS\\text\\chapter6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1050900"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-intrigue-of-marielle-clarac\\OEBPS\\text\\insert3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1050901"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-intrigue-of-marielle-clarac\\OEBPS\\text\\chapter6_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1050902"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Seven",
+          "SortOrder": "10507",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-intrigue-of-marielle-clarac\\OEBPS\\text\\chapter7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1051000"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Eight",
+          "SortOrder": "10508",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-intrigue-of-marielle-clarac\\OEBPS\\text\\chapter8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1051100"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-intrigue-of-marielle-clarac\\OEBPS\\text\\insert4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1051101"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-intrigue-of-marielle-clarac\\OEBPS\\text\\chapter8_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1051102"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Nine",
+          "SortOrder": "10509",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-intrigue-of-marielle-clarac\\OEBPS\\text\\chapter9.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1051200"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Ten",
+          "SortOrder": "10510",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-intrigue-of-marielle-clarac\\OEBPS\\text\\chapter10.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1051300"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-intrigue-of-marielle-clarac\\OEBPS\\text\\insert5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1051301"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-intrigue-of-marielle-clarac\\OEBPS\\text\\chapter10_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1051302"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Eleven",
+          "SortOrder": "10511",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-intrigue-of-marielle-clarac\\OEBPS\\text\\chapter11.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1051400"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-intrigue-of-marielle-clarac\\OEBPS\\text\\insert6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1051401"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Twelve",
+          "SortOrder": "10512",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-intrigue-of-marielle-clarac\\OEBPS\\text\\chapter12.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1051500"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Thirteen",
+          "SortOrder": "10513",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-intrigue-of-marielle-clarac\\OEBPS\\text\\chapter13.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1051600"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Fourteen",
+          "SortOrder": "10514",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-intrigue-of-marielle-clarac\\OEBPS\\text\\chapter14.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1051700"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-intrigue-of-marielle-clarac\\OEBPS\\text\\insert7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1051701"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-intrigue-of-marielle-clarac\\OEBPS\\text\\chapter14_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1051702"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Fifteen",
+          "SortOrder": "10515",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-intrigue-of-marielle-clarac\\OEBPS\\text\\chapter15.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1051800"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-intrigue-of-marielle-clarac\\OEBPS\\text\\insert8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1051801"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 1,
+          "ChapType": "Bonus",
+          "Name": "The Sentimentality of Albert Poisson",
+          "SortOrder": "10516",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-intrigue-of-marielle-clarac\\OEBPS\\text\\extra.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1051900"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 1,
+          "ChapType": "Bonus",
+          "Name": "Bonus Short Stories",
+          "SortOrder": "10518",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-intrigue-of-marielle-clarac\\OEBPS\\text\\bonus.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1052100"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        }
+      ]
+    },
+    {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "The Matchmaking of Marielle Clarac",
+      "SortOrder": "106",
+      "Sources": [
+        {
+          "File": "The Tales of Marielle Clarac\\the-matchmaking-of-marielle-clarac\\OEBPS\\text\\frontmatter1.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1060100"
+        },
+        {
+          "File": "The Tales of Marielle Clarac\\the-matchmaking-of-marielle-clarac\\OEBPS\\text\\bonus1.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1062100"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "Chapters": [
+        {
+          "CType": 2,
+          "ChapType": "NonStory",
+          "Name": "Character Sheet",
+          "SortOrder": "10500",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-matchmaking-of-marielle-clarac\\OEBPS\\text\\frontmatter3.xhtml",
+              "Alternates": [],
+              "OtherSide": {
+                "File": "The Tales of Marielle Clarac\\the-matchmaking-of-marielle-clarac\\OEBPS\\text\\frontmatter2.xhtml",
+                "Alternates": [],
+                "OtherSide": null,
+                "SortOrder": "1060200"
+              },
+              "SortOrder": "1060300"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter One",
+          "SortOrder": "10601",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-matchmaking-of-marielle-clarac\\OEBPS\\text\\chapter1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060400"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Two",
+          "SortOrder": "10602",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-matchmaking-of-marielle-clarac\\OEBPS\\text\\chapter2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060500"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-matchmaking-of-marielle-clarac\\OEBPS\\text\\insert1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060501"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-matchmaking-of-marielle-clarac\\OEBPS\\text\\chapter2_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060502"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Three",
+          "SortOrder": "10603",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-matchmaking-of-marielle-clarac\\OEBPS\\text\\chapter3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060600"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-matchmaking-of-marielle-clarac\\OEBPS\\text\\insert2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060601"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Four",
+          "SortOrder": "10604",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-matchmaking-of-marielle-clarac\\OEBPS\\text\\chapter4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060700"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Five",
+          "SortOrder": "10605",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-matchmaking-of-marielle-clarac\\OEBPS\\text\\chapter5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060800"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Six",
+          "SortOrder": "10606",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-matchmaking-of-marielle-clarac\\OEBPS\\text\\chapter6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060900"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-matchmaking-of-marielle-clarac\\OEBPS\\text\\insert3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060901"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-matchmaking-of-marielle-clarac\\OEBPS\\text\\chapter6_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060902"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Seven",
+          "SortOrder": "10607",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-matchmaking-of-marielle-clarac\\OEBPS\\text\\chapter7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1061000"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-matchmaking-of-marielle-clarac\\OEBPS\\text\\insert4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1061001"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-matchmaking-of-marielle-clarac\\OEBPS\\text\\chapter7_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1061002"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Eight",
+          "SortOrder": "10608",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-matchmaking-of-marielle-clarac\\OEBPS\\text\\chapter8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1061100"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Nine",
+          "SortOrder": "10609",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-matchmaking-of-marielle-clarac\\OEBPS\\text\\chapter9.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1061200"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-matchmaking-of-marielle-clarac\\OEBPS\\text\\insert5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1061201"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-matchmaking-of-marielle-clarac\\OEBPS\\text\\chapter9_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1061202"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Ten",
+          "SortOrder": "10610",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-matchmaking-of-marielle-clarac\\OEBPS\\text\\chapter10.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1061300"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Eleven",
+          "SortOrder": "10611",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-matchmaking-of-marielle-clarac\\OEBPS\\text\\chapter11.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1061400"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Twelve",
+          "SortOrder": "10612",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-matchmaking-of-marielle-clarac\\OEBPS\\text\\chapter12.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1061500"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-matchmaking-of-marielle-clarac\\OEBPS\\text\\insert6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1061501"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-matchmaking-of-marielle-clarac\\OEBPS\\text\\chapter12_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1061502"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Thirteen",
+          "SortOrder": "10613",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-matchmaking-of-marielle-clarac\\OEBPS\\text\\chapter13.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1061600"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-matchmaking-of-marielle-clarac\\OEBPS\\text\\insert7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1061601"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-matchmaking-of-marielle-clarac\\OEBPS\\text\\chapter13_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1061602"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Fourteen",
+          "SortOrder": "10614",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-matchmaking-of-marielle-clarac\\OEBPS\\text\\chapter14.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1061700"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Fifteen",
+          "SortOrder": "10615",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-matchmaking-of-marielle-clarac\\OEBPS\\text\\chapter15.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1061800"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-matchmaking-of-marielle-clarac\\OEBPS\\text\\insert8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1061801"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-matchmaking-of-marielle-clarac\\OEBPS\\text\\chapter15_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1061802"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 1,
+          "ChapType": "Bonus",
+          "Name": "The Headaches of Simeon Flaubert",
+          "SortOrder": "10616",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-matchmaking-of-marielle-clarac\\OEBPS\\text\\extra.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1061900"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        }
+      ]
+    },
+    {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "The Holy Crown of Marielle Clarac",
+      "SortOrder": "107",
+      "Sources": [
+        {
+          "File": "The Tales of Marielle Clarac\\the-holy-crown-of-marielle-clarac\\OEBPS\\text\\frontmatter1.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1070100"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "Chapters": [
+        {
+          "CType": 1,
+          "ChapType": "Bonus",
+          "Name": "Character Sheets",
+          "SortOrder": "",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-holy-crown-of-marielle-clarac\\OEBPS\\text\\frontmatter3.xhtml",
+              "Alternates": [],
+              "OtherSide": {
+                "File": "The Tales of Marielle Clarac\\the-holy-crown-of-marielle-clarac\\OEBPS\\text\\frontmatter2.xhtml",
+                "Alternates": [],
+                "OtherSide": null,
+                "SortOrder": "1070200"
+              },
+              "SortOrder": "1070300"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter One",
+          "SortOrder": "10701",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-holy-crown-of-marielle-clarac\\OEBPS\\text\\chapter1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1070400"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-holy-crown-of-marielle-clarac\\OEBPS\\text\\insert1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1070401"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-holy-crown-of-marielle-clarac\\OEBPS\\text\\chapter1_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1070402"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Two",
+          "SortOrder": "10702",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-holy-crown-of-marielle-clarac\\OEBPS\\text\\chapter2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1070500"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Three",
+          "SortOrder": "10703",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-holy-crown-of-marielle-clarac\\OEBPS\\text\\chapter3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1070600"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Four",
+          "SortOrder": "10704",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-holy-crown-of-marielle-clarac\\OEBPS\\text\\chapter4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1070700"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-holy-crown-of-marielle-clarac\\OEBPS\\text\\insert2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1070701"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-holy-crown-of-marielle-clarac\\OEBPS\\text\\chapter4_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1070702"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Five",
+          "SortOrder": "10705",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-holy-crown-of-marielle-clarac\\OEBPS\\text\\chapter5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1070800"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Six",
+          "SortOrder": "10706",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-holy-crown-of-marielle-clarac\\OEBPS\\text\\chapter6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1070900"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-holy-crown-of-marielle-clarac\\OEBPS\\text\\insert3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1070901"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-holy-crown-of-marielle-clarac\\OEBPS\\text\\chapter6_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1070902"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Seven",
+          "SortOrder": "10707",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-holy-crown-of-marielle-clarac\\OEBPS\\text\\chapter7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1071000"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-holy-crown-of-marielle-clarac\\OEBPS\\text\\insert4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1071001"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Eight",
+          "SortOrder": "10708",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-holy-crown-of-marielle-clarac\\OEBPS\\text\\chapter8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1071100"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Nine",
+          "SortOrder": "10709",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-holy-crown-of-marielle-clarac\\OEBPS\\text\\chapter9.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1071200"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Ten",
+          "SortOrder": "10710",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-holy-crown-of-marielle-clarac\\OEBPS\\text\\chapter10.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1071300"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Eleven",
+          "SortOrder": "10711",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-holy-crown-of-marielle-clarac\\OEBPS\\text\\chapter11.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1071400"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-holy-crown-of-marielle-clarac\\OEBPS\\text\\insert5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1071401"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-holy-crown-of-marielle-clarac\\OEBPS\\text\\chapter11_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1071402"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Twelve",
+          "SortOrder": "10712",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-holy-crown-of-marielle-clarac\\OEBPS\\text\\chapter12.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1071500"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-holy-crown-of-marielle-clarac\\OEBPS\\text\\insert6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1071501"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-holy-crown-of-marielle-clarac\\OEBPS\\text\\chapter12_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1071502"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Thirteen",
+          "SortOrder": "10713",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-holy-crown-of-marielle-clarac\\OEBPS\\text\\chapter13.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1071600"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-holy-crown-of-marielle-clarac\\OEBPS\\text\\insert7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1071601"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-holy-crown-of-marielle-clarac\\OEBPS\\text\\chapter13_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1071602"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-holy-crown-of-marielle-clarac\\OEBPS\\text\\insert8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1071603"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Fourteen",
+          "SortOrder": "10714",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-holy-crown-of-marielle-clarac\\OEBPS\\text\\chapter14.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1071700"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 1,
+          "ChapType": "Bonus",
+          "Name": "The Musings of Alain Lisnard",
+          "SortOrder": "10715",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-holy-crown-of-marielle-clarac\\OEBPS\\text\\extra.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1071800"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 1,
+          "ChapType": "Bonus",
+          "Name": "Bonus Short Stories",
+          "SortOrder": "10717",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-holy-crown-of-marielle-clarac\\OEBPS\\text\\bonus.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": ""
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        }
+      ]
+    },
+    {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "The Applause of Marielle Clarac",
+      "SortOrder": "108",
+      "Sources": [
+        {
+          "File": "The Tales of Marielle Clarac\\the-applause-of-marielle-clarac\\OEBPS\\text\\frontmatter1.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1080100"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "Chapters": [
+        {
+          "CType": 1,
+          "ChapType": "Bonus",
+          "Name": "Character Sheets",
+          "SortOrder": "",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-applause-of-marielle-clarac\\OEBPS\\text\\frontmatter3.xhtml",
+              "Alternates": [],
+              "OtherSide": {
+                "File": "The Tales of Marielle Clarac\\the-applause-of-marielle-clarac\\OEBPS\\text\\frontmatter2.xhtml",
+                "Alternates": [],
+                "OtherSide": null,
+                "SortOrder": "1080200"
+              },
+              "SortOrder": "1080300"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter One",
+          "SortOrder": "10801",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-applause-of-marielle-clarac\\OEBPS\\text\\chapter1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080400"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Two",
+          "SortOrder": "10802",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-applause-of-marielle-clarac\\OEBPS\\text\\chapter2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080500"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Three",
+          "SortOrder": "10803",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-applause-of-marielle-clarac\\OEBPS\\text\\chapter3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080600"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-applause-of-marielle-clarac\\OEBPS\\text\\insert1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080601"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-applause-of-marielle-clarac\\OEBPS\\text\\chapter3_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080602"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Four",
+          "SortOrder": "10804",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-applause-of-marielle-clarac\\OEBPS\\text\\chapter4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080700"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-applause-of-marielle-clarac\\OEBPS\\text\\insert2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080701"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-applause-of-marielle-clarac\\OEBPS\\text\\chapter4_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080702"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Five",
+          "SortOrder": "10805",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-applause-of-marielle-clarac\\OEBPS\\text\\chapter5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080800"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-applause-of-marielle-clarac\\OEBPS\\text\\insert3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080801"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-applause-of-marielle-clarac\\OEBPS\\text\\chapter5_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080802"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Six",
+          "SortOrder": "10806",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-applause-of-marielle-clarac\\OEBPS\\text\\chapter6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080900"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Seven",
+          "SortOrder": "10807",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-applause-of-marielle-clarac\\OEBPS\\text\\chapter7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081000"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-applause-of-marielle-clarac\\OEBPS\\text\\insert4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081001"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-applause-of-marielle-clarac\\OEBPS\\text\\chapter7_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081002"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Eight",
+          "SortOrder": "10808",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-applause-of-marielle-clarac\\OEBPS\\text\\chapter8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081100"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-applause-of-marielle-clarac\\OEBPS\\text\\insert5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081101"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-applause-of-marielle-clarac\\OEBPS\\text\\chapter8_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081102"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Nine",
+          "SortOrder": "10809",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-applause-of-marielle-clarac\\OEBPS\\text\\chapter9.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081200"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Ten",
+          "SortOrder": "10810",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-applause-of-marielle-clarac\\OEBPS\\text\\chapter10.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081300"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Eleven",
+          "SortOrder": "10811",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-applause-of-marielle-clarac\\OEBPS\\text\\chapter11.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081400"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-applause-of-marielle-clarac\\OEBPS\\text\\insert6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081401"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-applause-of-marielle-clarac\\OEBPS\\text\\chapter11_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081402"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Twelve",
+          "SortOrder": "10812",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-applause-of-marielle-clarac\\OEBPS\\text\\chapter12.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081500"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Thirteen",
+          "SortOrder": "10813",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-applause-of-marielle-clarac\\OEBPS\\text\\chapter13.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081600"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Fourteen",
+          "SortOrder": "10814",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-applause-of-marielle-clarac\\OEBPS\\text\\chapter14.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081700"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-applause-of-marielle-clarac\\OEBPS\\text\\insert7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081701"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-applause-of-marielle-clarac\\OEBPS\\text\\chapter14_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081702"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Fifteen",
+          "SortOrder": "10815",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-applause-of-marielle-clarac\\OEBPS\\text\\chapter15.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081800"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-applause-of-marielle-clarac\\OEBPS\\text\\insert8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081801"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 1,
+          "ChapType": "Bonus",
+          "Name": "The Benediction of Prince Liberto",
+          "SortOrder": "10816",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-applause-of-marielle-clarac\\OEBPS\\text\\extra.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081900"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 1,
+          "ChapType": "Bonus",
+          "Name": "Bonus Short Stories",
+          "SortOrder": "10818",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-applause-of-marielle-clarac\\OEBPS\\text\\bonus.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": ""
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        }
+      ]
+    },
+    {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "The Festivities of Marielle Clarac",
+      "SortOrder": "109",
+      "Sources": [
+        {
+          "File": "The Tales of Marielle Clarac\\the-festivities-of-marielle-clarac\\OEBPS\\text\\frontmatter1.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1090100"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "Chapters": [
+        {
+          "CType": 1,
+          "ChapType": "Bonus",
+          "Name": "Character Sheets",
+          "SortOrder": "",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-festivities-of-marielle-clarac\\OEBPS\\text\\frontmatter3.xhtml",
+              "Alternates": [],
+              "OtherSide": {
+                "File": "The Tales of Marielle Clarac\\the-festivities-of-marielle-clarac\\OEBPS\\text\\frontmatter2.xhtml",
+                "Alternates": [],
+                "OtherSide": null,
+                "SortOrder": "1090200"
+              },
+              "SortOrder": "1090300"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter One",
+          "SortOrder": "10901",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-festivities-of-marielle-clarac\\OEBPS\\text\\chapter1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1090400"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Two",
+          "SortOrder": "10902",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-festivities-of-marielle-clarac\\OEBPS\\text\\chapter2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1090500"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Three",
+          "SortOrder": "10903",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-festivities-of-marielle-clarac\\OEBPS\\text\\chapter3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1090600"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-festivities-of-marielle-clarac\\OEBPS\\text\\insert1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1090601"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-festivities-of-marielle-clarac\\OEBPS\\text\\chapter3_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1090602"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Four",
+          "SortOrder": "10904",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-festivities-of-marielle-clarac\\OEBPS\\text\\chapter4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1090700"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Five",
+          "SortOrder": "10905",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-festivities-of-marielle-clarac\\OEBPS\\text\\chapter5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1090800"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Six",
+          "SortOrder": "10906",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-festivities-of-marielle-clarac\\OEBPS\\text\\chapter6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1090900"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-festivities-of-marielle-clarac\\OEBPS\\text\\insert2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1090901"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-festivities-of-marielle-clarac\\OEBPS\\text\\chapter6_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1090902"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Seven",
+          "SortOrder": "10907",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-festivities-of-marielle-clarac\\OEBPS\\text\\chapter7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1091000"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Eight",
+          "SortOrder": "10908",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-festivities-of-marielle-clarac\\OEBPS\\text\\chapter8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1091100"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-festivities-of-marielle-clarac\\OEBPS\\text\\insert3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1091101"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-festivities-of-marielle-clarac\\OEBPS\\text\\chapter8_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1091102"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Nine",
+          "SortOrder": "10909",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-festivities-of-marielle-clarac\\OEBPS\\text\\chapter9.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1091200"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Ten",
+          "SortOrder": "10910",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-festivities-of-marielle-clarac\\OEBPS\\text\\chapter10.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1091300"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-festivities-of-marielle-clarac\\OEBPS\\text\\insert4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1091301"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-festivities-of-marielle-clarac\\OEBPS\\text\\chapter10_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1091302"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-festivities-of-marielle-clarac\\OEBPS\\text\\insert5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1091303"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Eleven",
+          "SortOrder": "10911",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-festivities-of-marielle-clarac\\OEBPS\\text\\chapter11.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1091400"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Twelve",
+          "SortOrder": "10912",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-festivities-of-marielle-clarac\\OEBPS\\text\\chapter12.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1091500"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-festivities-of-marielle-clarac\\OEBPS\\text\\insert6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1091501"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-festivities-of-marielle-clarac\\OEBPS\\text\\chapter12_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1091502"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Thirteen",
+          "SortOrder": "10913",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-festivities-of-marielle-clarac\\OEBPS\\text\\chapter13.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1091600"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-festivities-of-marielle-clarac\\OEBPS\\text\\insert7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1091601"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-festivities-of-marielle-clarac\\OEBPS\\text\\chapter13_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1091602"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Fourteen",
+          "SortOrder": "10914",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-festivities-of-marielle-clarac\\OEBPS\\text\\chapter14.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1091700"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-festivities-of-marielle-clarac\\OEBPS\\text\\insert8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1091701"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-festivities-of-marielle-clarac\\OEBPS\\text\\chapter14_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1091702"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Behind-the-Scenes of Marielle Clarac",
+          "SortOrder": "10915",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-festivities-of-marielle-clarac\\OEBPS\\text\\chapter15.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1091800"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 1,
+          "ChapType": "Bonus",
+          "Name": "Bonus Short Story",
+          "SortOrder": "10917",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-festivities-of-marielle-clarac\\OEBPS\\text\\bonus.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": ""
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        }
+      ]
+    },
+    {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "The Springtime Chime of Marielle Clarac",
+      "SortOrder": "110",
+      "Sources": [
+        {
+          "File": "The Tales of Marielle Clarac\\the-springtime-chime-of-marielle-clarac\\OEBPS\\text\\frontmatter1.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1100100"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "Chapters": [
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Character Sheet",
+          "SortOrder": "11002",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-springtime-chime-of-marielle-clarac\\OEBPS\\text\\frontmatter3.xhtml",
+              "Alternates": [],
+              "OtherSide": {
+                "File": "The Tales of Marielle Clarac\\the-springtime-chime-of-marielle-clarac\\OEBPS\\text\\frontmatter2.xhtml",
+                "Alternates": [],
+                "OtherSide": null,
+                "SortOrder": "1100200"
+              },
+              "SortOrder": "1100300"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter One",
+          "SortOrder": "11004",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-springtime-chime-of-marielle-clarac\\OEBPS\\text\\chapter1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1100400"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Two",
+          "SortOrder": "11005",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-springtime-chime-of-marielle-clarac\\OEBPS\\text\\chapter2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1100500"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-springtime-chime-of-marielle-clarac\\OEBPS\\text\\insert1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1100501"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-springtime-chime-of-marielle-clarac\\OEBPS\\text\\chapter2_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1100502"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Three",
+          "SortOrder": "11006",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-springtime-chime-of-marielle-clarac\\OEBPS\\text\\chapter3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1100600"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Four",
+          "SortOrder": "11007",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-springtime-chime-of-marielle-clarac\\OEBPS\\text\\chapter4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1100700"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-springtime-chime-of-marielle-clarac\\OEBPS\\text\\insert2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1100701"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-springtime-chime-of-marielle-clarac\\OEBPS\\text\\chapter4_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1100702"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Five",
+          "SortOrder": "11008",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-springtime-chime-of-marielle-clarac\\OEBPS\\text\\chapter5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1100800"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-springtime-chime-of-marielle-clarac\\OEBPS\\text\\insert3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1100801"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-springtime-chime-of-marielle-clarac\\OEBPS\\text\\chapter5_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1100802"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Six",
+          "SortOrder": "11009",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-springtime-chime-of-marielle-clarac\\OEBPS\\text\\chapter6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1100900"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-springtime-chime-of-marielle-clarac\\OEBPS\\text\\insert4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1100901"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-springtime-chime-of-marielle-clarac\\OEBPS\\text\\chapter6_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1100902"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Seven",
+          "SortOrder": "11010",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-springtime-chime-of-marielle-clarac\\OEBPS\\text\\chapter7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1101000"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Eight",
+          "SortOrder": "11011",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-springtime-chime-of-marielle-clarac\\OEBPS\\text\\chapter8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1101100"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-springtime-chime-of-marielle-clarac\\OEBPS\\text\\insert5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1101101"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-springtime-chime-of-marielle-clarac\\OEBPS\\text\\chapter8_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1101102"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Nine",
+          "SortOrder": "11012",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-springtime-chime-of-marielle-clarac\\OEBPS\\text\\chapter9.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1101200"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-springtime-chime-of-marielle-clarac\\OEBPS\\text\\insert6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1101201"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-springtime-chime-of-marielle-clarac\\OEBPS\\text\\chapter9_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1101202"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Ten",
+          "SortOrder": "11013",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-springtime-chime-of-marielle-clarac\\OEBPS\\text\\chapter10.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1101300"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Eleven",
+          "SortOrder": "11014",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-springtime-chime-of-marielle-clarac\\OEBPS\\text\\chapter11.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1101400"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-springtime-chime-of-marielle-clarac\\OEBPS\\text\\insert7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1101401"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-springtime-chime-of-marielle-clarac\\OEBPS\\text\\chapter11_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1101402"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Twelve",
+          "SortOrder": "11015",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-springtime-chime-of-marielle-clarac\\OEBPS\\text\\chapter12.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1101500"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Thirteen",
+          "SortOrder": "11016",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-springtime-chime-of-marielle-clarac\\OEBPS\\text\\chapter13.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1101600"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Fourteen",
+          "SortOrder": "11017",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-springtime-chime-of-marielle-clarac\\OEBPS\\text\\chapter14.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1101700"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-springtime-chime-of-marielle-clarac\\OEBPS\\text\\insert8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1101701"
+            },
+            {
+              "File": "The Tales of Marielle Clarac\\the-springtime-chime-of-marielle-clarac\\OEBPS\\text\\chapter14_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1101702"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Prisoners’ Release",
+          "SortOrder": "11018",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-springtime-chime-of-marielle-clarac\\OEBPS\\text\\chapter15.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1101800"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "A Young Noblewoman’s Deeply Hidden Feelings of Friendship",
+          "SortOrder": "11019",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-springtime-chime-of-marielle-clarac\\OEBPS\\text\\side.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1101900"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 1,
+          "ChapType": "Bonus",
+          "Name": "Bonus Short Story",
+          "SortOrder": "11021",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-springtime-chime-of-marielle-clarac\\OEBPS\\text\\bonus.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": ""
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        }
+      ]
+    },
+    {
+      "CType": 2,
+      "ChapType": "NonStory",
+      "Name": "Afterwords",
+      "SortOrder": "999",
+      "Sources": [],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "Chapters": [
+        {
+          "CType": 2,
+          "ChapType": "NonStory",
+          "Name": "The Engagement of Marielle Clarac",
+          "SortOrder": "01",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-engagement-of-marielle-clarac\\OEBPS\\text\\afterword.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": ""
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 2,
+          "ChapType": "NonStory",
+          "Name": "The Beloved of Marielle Clarac",
+          "SortOrder": "02",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-beloved-of-marielle-clarac\\OEBPS\\text\\afterword.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1021800"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 2,
+          "ChapType": "NonStory",
+          "Name": "The Temptation of Marielle Clarac",
+          "SortOrder": "03",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-temptation-of-marielle-clarac\\OEBPS\\text\\afterword.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1031800"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 2,
+          "ChapType": "NonStory",
+          "Name": "The Wedding of Marielle Clarac",
+          "SortOrder": "104",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-wedding-of-marielle-clarac\\OEBPS\\text\\afterword.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1042000"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 2,
+          "ChapType": "NonStory",
+          "Name": "The Intrigue of Marielle Clarac",
+          "SortOrder": "105",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-intrigue-of-marielle-clarac\\OEBPS\\text\\afterword.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1052000"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 2,
+          "ChapType": "NonStory",
+          "Name": "The Matchmaking of Marielle Clarac",
+          "SortOrder": "106",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-matchmaking-of-marielle-clarac\\OEBPS\\text\\afterword.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1062000"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 2,
+          "ChapType": "NonStory",
+          "Name": "The Holy Crown of Marielle Clarac",
+          "SortOrder": "107",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-holy-crown-of-marielle-clarac\\OEBPS\\text\\afterword.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1071900"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 2,
+          "ChapType": "NonStory",
+          "Name": "The Applause of Marielle Clarac",
+          "SortOrder": "108",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-applause-of-marielle-clarac\\OEBPS\\text\\afterword.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1082000"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 2,
+          "ChapType": "NonStory",
+          "Name": "The Festivities of Marielle Clarac",
+          "SortOrder": "109",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-festivities-of-marielle-clarac\\OEBPS\\text\\afterword.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1091900"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Springtime Chime of Marielle Clarac",
+          "SortOrder": "11020",
+          "Sources": [
+            {
+              "File": "The Tales of Marielle Clarac\\the-springtime-chime-of-marielle-clarac\\OEBPS\\text\\afterword.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1102000"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        }
+      ]
+    }
+  ]
+}

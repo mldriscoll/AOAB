@@ -17459,7 +17459,9 @@
         "ApiSlug": "the-engagement-of-marielle-clarac",
         "FileName": "the-engagement-of-marielle-clarac.epub",
         "Title": "The Engagement of Marielle Clarac",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2020-04-06",
         "Order": 101
       },
@@ -17467,7 +17469,9 @@
         "ApiSlug": "the-beloved-of-marielle-clarac",
         "FileName": "the-beloved-of-marielle-clarac.epub",
         "Title": "The Beloved of Marielle Clarac",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2020-06-07",
         "Order": 102
       },
@@ -17475,7 +17479,9 @@
         "ApiSlug": "the-temptation-of-marielle-clarac",
         "FileName": "the-temptation-of-marielle-clarac.epub",
         "Title": "The Temptation of Marielle Clarac",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2020-08-09",
         "Order": 103
       },
@@ -17483,7 +17489,9 @@
         "ApiSlug": "the-wedding-of-marielle-clarac",
         "FileName": "the-wedding-of-marielle-clarac.epub",
         "Title": "The Wedding of Marielle Clarac",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2020-10-18",
         "Order": 104
       },
@@ -17491,7 +17499,9 @@
         "ApiSlug": "the-intrigue-of-marielle-clarac",
         "FileName": "the-intrigue-of-marielle-clarac.epub",
         "Title": "The Intrigue of Marielle Clarac",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2020-12-19",
         "Order": 105
       },
@@ -17499,7 +17509,9 @@
         "ApiSlug": "the-matchmaking-of-marielle-clarac",
         "FileName": "the-matchmaking-of-marielle-clarac.epub",
         "Title": "The Matchmaking of Marielle Clarac",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2021-04-11",
         "Order": 106
       },
@@ -17507,7 +17519,9 @@
         "ApiSlug": "the-holy-crown-of-marielle-clarac",
         "FileName": "the-holy-crown-of-marielle-clarac.epub",
         "Title": "The Holy Crown of Marielle Clarac",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2021-08-30",
         "Order": 107
       },
@@ -17515,7 +17529,9 @@
         "ApiSlug": "the-applause-of-marielle-clarac",
         "FileName": "the-applause-of-marielle-clarac.epub",
         "Title": "The Applause of Marielle Clarac",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2022-02-07",
         "Order": 108
       },
@@ -17523,7 +17539,9 @@
         "ApiSlug": "the-festivities-of-marielle-clarac",
         "FileName": "the-festivities-of-marielle-clarac.epub",
         "Title": "The Festivities of Marielle Clarac",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2022-06-27",
         "Order": 109
       },
@@ -17531,7 +17549,9 @@
         "ApiSlug": "the-springtime-chime-of-marielle-clarac",
         "FileName": "the-springtime-chime-of-marielle-clarac.epub",
         "Title": "The Springtime Chime of Marielle Clarac",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2024-01-08",
         "Order": 110
       }

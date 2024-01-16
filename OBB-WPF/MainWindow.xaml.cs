@@ -314,6 +314,9 @@ namespace OBB_WPF
 
             foreach(var chapter in Chapters)
             {
+                var sources = chapter.Sources.Where(x => x != null).OrderBy(x => x.SortOrder).ToList();
+                chapter.Sources.Clear();
+                foreach (var s in sources) chapter.Sources.Add(s);
                 chapter.Sort();
             }
         }
