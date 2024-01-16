@@ -3508,84 +3508,6 @@
         "Order": 108
       }
     ],
-    "Author": "",
-    "AuthorSort": ""
-  },
-  {
-    "Name": "Dahlia in Bloom: Crafting a Fresh Start with Magical Tools",
-    "InternalName": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools",
-    "ApiSlugs": [
-      {
-        "Order": 1,
-        "Slug": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools"
-      }
-    ],
-    "Volumes": [
-      {
-        "ApiSlug": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-1",
-        "FileName": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-1.epub",
-        "Title": "Dahlia in Bloom: Crafting a Fresh Start with Magical Tools Volume 1",
-        "EditedBy": [],
-        "Published": "2021-09-27",
-        "Order": 101
-      },
-      {
-        "ApiSlug": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-2",
-        "FileName": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-2.epub",
-        "Title": "Dahlia in Bloom: Crafting a Fresh Start with Magical Tools Volume 2",
-        "EditedBy": [],
-        "Published": "2021-12-13",
-        "Order": 102
-      },
-      {
-        "ApiSlug": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-3",
-        "FileName": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-3.epub",
-        "Title": "Dahlia in Bloom: Crafting a Fresh Start with Magical Tools Volume 3",
-        "EditedBy": [],
-        "Published": "2022-03-28",
-        "Order": 103
-      },
-      {
-        "ApiSlug": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-4",
-        "FileName": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-4.epub",
-        "Title": "Dahlia in Bloom: Crafting a Fresh Start with Magical Tools Volume 4",
-        "EditedBy": [],
-        "Published": "2022-08-08",
-        "Order": 104
-      },
-      {
-        "ApiSlug": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-5",
-        "FileName": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-5.epub",
-        "Title": "Dahlia in Bloom: Crafting a Fresh Start with Magical Tools Volume 5",
-        "EditedBy": [],
-        "Published": "2022-11-21",
-        "Order": 105
-      },
-      {
-        "ApiSlug": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-6",
-        "FileName": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-6.epub",
-        "Title": "Dahlia in Bloom: Crafting a Fresh Start with Magical Tools Volume 6",
-        "EditedBy": [],
-        "Published": "2023-02-27",
-        "Order": 106
-      },
-      {
-        "ApiSlug": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-7",
-        "FileName": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-7.epub",
-        "Title": "Dahlia in Bloom: Crafting a Fresh Start with Magical Tools Volume 7",
-        "EditedBy": [],
-        "Published": "2023-05-29",
-        "Order": 107
-      },
-      {
-        "ApiSlug": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-8",
-        "FileName": "dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-8.epub",
-        "Title": "Dahlia in Bloom: Crafting a Fresh Start with Magical Tools Volume 8",
-        "EditedBy": [],
-        "Published": "2023-12-25",
-        "Order": 108
-      }
-    ],
     "Author": "Hisaya Amagishi",
     "AuthorSort": "AMAGISHI, HISAYA"
   },
@@ -19015,7 +18937,9 @@
         "ApiSlug": "young-lady-albert-is-courting-disaster-light-novel-volume-1",
         "FileName": "young-lady-albert-is-courting-disaster-light-novel-volume-1.epub",
         "Title": "Young Lady Albert Is Courting Disaster: Volume 1",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2023-04-20",
         "Order": 101
       },
@@ -19023,7 +18947,9 @@
         "ApiSlug": "young-lady-albert-is-courting-disaster-volume-2",
         "FileName": "young-lady-albert-is-courting-disaster-volume-2.epub",
         "Title": "Young Lady Albert Is Courting Disaster: Volume 2",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2023-07-14",
         "Order": 102
       },
@@ -19031,7 +18957,9 @@
         "ApiSlug": "young-lady-albert-is-courting-disaster-volume-3",
         "FileName": "young-lady-albert-is-courting-disaster-volume-3.epub",
         "Title": "Young Lady Albert Is Courting Disaster: Volume 3",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2023-10-09",
         "Order": 103
       },
@@ -19039,7 +18967,9 @@
         "ApiSlug": "young-lady-albert-is-courting-disaster-volume-4",
         "FileName": "young-lady-albert-is-courting-disaster-volume-4.epub",
         "Title": "Young Lady Albert Is Courting Disaster: Volume 4",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2023-12-27",
         "Order": 104
       },
