@@ -1,0 +1,5828 @@
+{
+  "Cover": {
+    "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-1\\OEBPS\\text\\cover.xhtml",
+    "Alternates": [],
+    "OtherSide": null,
+    "SortOrder": "1010100"
+  },
+  "Author": "Natsu Hyuuga",
+  "AuthorSort": "HYUUGA, NATSU",
+  "Name": "The Apothecary Diaries",
+  "UnusedSources": [
+    {
+      "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-1\\OEBPS\\text\\frontmatter5.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1010200"
+    },
+    {
+      "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-1\\OEBPS\\text\\toc.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1010300"
+    },
+    {
+      "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-10\\OEBPS\\text\\frontmatter6.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1100400"
+    },
+    {
+      "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-10\\OEBPS\\text\\toc.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1100200"
+    },
+    {
+      "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-2\\OEBPS\\text\\frontmatter5.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1020200"
+    },
+    {
+      "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-2\\OEBPS\\text\\toc.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1020300"
+    },
+    {
+      "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-3\\OEBPS\\text\\frontmatter6.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1030200"
+    },
+    {
+      "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-3\\OEBPS\\text\\toc.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1030300"
+    },
+    {
+      "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-4\\OEBPS\\text\\frontmatter6.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1040200"
+    },
+    {
+      "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-4\\OEBPS\\text\\toc.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1040300"
+    },
+    {
+      "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-5\\OEBPS\\text\\frontmatter7.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1050200"
+    },
+    {
+      "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-5\\OEBPS\\text\\toc.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1050300"
+    },
+    {
+      "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-6\\OEBPS\\text\\frontmatter6.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1062700"
+    },
+    {
+      "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-6\\OEBPS\\text\\toc.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1060200"
+    },
+    {
+      "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-7\\OEBPS\\text\\frontmatter6.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1070400"
+    },
+    {
+      "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-7\\OEBPS\\text\\toc.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1070200"
+    },
+    {
+      "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-8\\OEBPS\\text\\frontmatter6.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1080400"
+    },
+    {
+      "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-8\\OEBPS\\text\\toc.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1080200"
+    },
+    {
+      "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-9\\OEBPS\\text\\frontmatter6.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1090400"
+    },
+    {
+      "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-9\\OEBPS\\text\\toc.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1090200"
+    }
+  ],
+  "Chapters": [
+    {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "Volume 01",
+      "SortOrder": "01",
+      "Sources": [
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-1\\OEBPS\\text\\frontmatter1.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1013600"
+        },
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-1\\OEBPS\\text\\frontmatter2.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1013700"
+        },
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-1\\OEBPS\\text\\frontmatter3.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1013800"
+        },
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-1\\OEBPS\\text\\frontmatter4.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1013900"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "Chapters": [
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Maomao",
+          "SortOrder": "0101",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-1\\OEBPS\\text\\chapter1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010400"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Two Consorts",
+          "SortOrder": "0102",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-1\\OEBPS\\text\\chapter2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010500"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-1\\OEBPS\\text\\insert1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010501"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-1\\OEBPS\\text\\chapter2_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010502"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Jinshi",
+          "SortOrder": "0103",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-1\\OEBPS\\text\\chapter3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010600"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Nymph’s Smile",
+          "SortOrder": "0104",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-1\\OEBPS\\text\\chapter4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010700"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Attendant",
+          "SortOrder": "0105",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-1\\OEBPS\\text\\chapter5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010800"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Poison Tester",
+          "SortOrder": "0106",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-1\\OEBPS\\text\\chapter6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010900"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Branch",
+          "SortOrder": "0107",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-1\\OEBPS\\text\\chapter7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1011000"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Love Potion",
+          "SortOrder": "0108",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-1\\OEBPS\\text\\chapter8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1011100"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Cacao",
+          "SortOrder": "0109",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-1\\OEBPS\\text\\chapter9.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1011200"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Unsettling Matter of the Spirit (Part One)",
+          "SortOrder": "0110",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-1\\OEBPS\\text\\chapter10.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1011300"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-1\\OEBPS\\text\\insert2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1011301"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Unsettling Matter of the Spirit (Part Two)",
+          "SortOrder": "0111",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-1\\OEBPS\\text\\chapter11.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1011400"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Threat",
+          "SortOrder": "0112",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-1\\OEBPS\\text\\chapter12.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1011500"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Nursing",
+          "SortOrder": "0113",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-1\\OEBPS\\text\\chapter13.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1011600"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Fire",
+          "SortOrder": "0114",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-1\\OEBPS\\text\\chapter14.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1011700"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Covert Operations",
+          "SortOrder": "0115",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-1\\OEBPS\\text\\chapter15.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1011800"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-1\\OEBPS\\text\\insert3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1011801"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-1\\OEBPS\\text\\chapter15_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1011802"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Garden Party (Part One)",
+          "SortOrder": "0116",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-1\\OEBPS\\text\\chapter16.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1011900"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Garden Party (Part Two)",
+          "SortOrder": "0117",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-1\\OEBPS\\text\\chapter17.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1012000"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Garden Party (Part Three)",
+          "SortOrder": "0118",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-1\\OEBPS\\text\\chapter18.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1012100"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-1\\OEBPS\\text\\insert4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1012101"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-1\\OEBPS\\text\\chapter18_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1012102"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "After the Festivities",
+          "SortOrder": "0119",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-1\\OEBPS\\text\\chapter19.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1012200"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-1\\OEBPS\\text\\insert5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1012201"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-1\\OEBPS\\text\\chapter19_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1012202"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Fingers",
+          "SortOrder": "0120",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-1\\OEBPS\\text\\chapter20.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1012300"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Lihaku",
+          "SortOrder": "0121",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-1\\OEBPS\\text\\chapter21.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1012400"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-1\\OEBPS\\text\\insert6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1012401"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-1\\OEBPS\\text\\chapter21_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1012402"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Homecoming",
+          "SortOrder": "0122",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-1\\OEBPS\\text\\chapter22.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1012500"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Wheat Stalks",
+          "SortOrder": "0123",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-1\\OEBPS\\text\\chapter23.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1012600"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "A Misunderstanding",
+          "SortOrder": "0124",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-1\\OEBPS\\text\\chapter24.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1012700"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-1\\OEBPS\\text\\insert7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1012701"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-1\\OEBPS\\text\\chapter24_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1012702"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Wine",
+          "SortOrder": "0125",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-1\\OEBPS\\text\\chapter25.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1012800"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Two ’Cides to Every Story",
+          "SortOrder": "0126",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-1\\OEBPS\\text\\chapter26.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1012900"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-1\\OEBPS\\text\\insert8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1012901"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-1\\OEBPS\\text\\chapter26_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1012902"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Honey (Part One)",
+          "SortOrder": "0127",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-1\\OEBPS\\text\\chapter27.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1013000"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Honey (Part Two)",
+          "SortOrder": "0128",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-1\\OEBPS\\text\\chapter28.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1013100"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Honey (Part Three)",
+          "SortOrder": "0129",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-1\\OEBPS\\text\\chapter29.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1013200"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Ah-Duo",
+          "SortOrder": "0130",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-1\\OEBPS\\text\\chapter30.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1013300"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Dismissal",
+          "SortOrder": "0131",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-1\\OEBPS\\text\\chapter31.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1013400"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Eunuch and the Courtesan",
+          "SortOrder": "0132",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-1\\OEBPS\\text\\epilogue.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1013500"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        }
+      ]
+    },
+    {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "Volume 02",
+      "SortOrder": "02",
+      "Sources": [
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-2\\OEBPS\\text\\cover.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1020100"
+        },
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-2\\OEBPS\\text\\frontmatter1.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1022600"
+        },
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-2\\OEBPS\\text\\frontmatter2.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1022700"
+        },
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-2\\OEBPS\\text\\frontmatter3.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1022800"
+        },
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-2\\OEBPS\\text\\frontmatter4.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1022900"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "Chapters": [
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Prologue",
+          "SortOrder": "00",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-2\\OEBPS\\text\\prologue.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020400"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-2\\OEBPS\\text\\insert1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020401"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-2\\OEBPS\\text\\prologue_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020402"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Serving in the Outer Court",
+          "SortOrder": "01",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-2\\OEBPS\\text\\chapter1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020500"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Pipe",
+          "SortOrder": "02",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-2\\OEBPS\\text\\chapter2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020600"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-2\\OEBPS\\text\\insert2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020601"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-2\\OEBPS\\text\\chapter2_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020602"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Teaching at the Rear Palace",
+          "SortOrder": "03",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-2\\OEBPS\\text\\chapter3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020700"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Raw Fish",
+          "SortOrder": "04",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-2\\OEBPS\\text\\chapter4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020800"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-2\\OEBPS\\text\\insert3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020801"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-2\\OEBPS\\text\\chapter4_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020802"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Lead",
+          "SortOrder": "05",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-2\\OEBPS\\text\\chapter5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020900"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Makeup",
+          "SortOrder": "06",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-2\\OEBPS\\text\\chapter6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1021000"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-2\\OEBPS\\text\\insert4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1021001"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-2\\OEBPS\\text\\chapter6_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1021002"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "A Jaunt Around Town",
+          "SortOrder": "07",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-2\\OEBPS\\text\\chapter7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1021100"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Plum Poison",
+          "SortOrder": "08",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-2\\OEBPS\\text\\chapter8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1021200"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Lakan",
+          "SortOrder": "09",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-2\\OEBPS\\text\\chapter9.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1021300"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-2\\OEBPS\\text\\insert5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1021301"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-2\\OEBPS\\text\\chapter9_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1021302"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Suirei",
+          "SortOrder": "10",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-2\\OEBPS\\text\\chapter10.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1021400"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chance or Something More",
+          "SortOrder": "11",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-2\\OEBPS\\text\\chapter11.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1021500"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Ritual",
+          "SortOrder": "12",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-2\\OEBPS\\text\\chapter12.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1021600"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-2\\OEBPS\\text\\insert6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1021601"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Thornapple",
+          "SortOrder": "13",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-2\\OEBPS\\text\\chapter13.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1021700"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Gaoshun",
+          "SortOrder": "14",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-2\\OEBPS\\text\\chapter14.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1021800"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Rear Palace Redux",
+          "SortOrder": "15",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-2\\OEBPS\\text\\chapter15.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1021900"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Paper",
+          "SortOrder": "16",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-2\\OEBPS\\text\\chapter16.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1022000"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-2\\OEBPS\\text\\insert7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1022001"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-2\\OEBPS\\text\\chapter16_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1022002"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "How to Buy Out a Contract",
+          "SortOrder": "17",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-2\\OEBPS\\text\\chapter17.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1022100"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Blue Roses",
+          "SortOrder": "18",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-2\\OEBPS\\text\\chapter18.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1022200"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-2\\OEBPS\\text\\insert8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1022201"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-2\\OEBPS\\text\\chapter18_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1022202"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Red Nails",
+          "SortOrder": "19",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-2\\OEBPS\\text\\chapter19.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1022300"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Balsam and Woodsorrel",
+          "SortOrder": "20",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-2\\OEBPS\\text\\chapter20.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1022400"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-2\\OEBPS\\text\\insert9.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1022401"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-2\\OEBPS\\text\\chapter20_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1022402"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Epilogue",
+          "SortOrder": "21",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-2\\OEBPS\\text\\epilogue.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1022500"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-2\\OEBPS\\text\\insert10.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1022501"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        }
+      ]
+    },
+    {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "Volume 03",
+      "SortOrder": "03",
+      "Sources": [
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-3\\OEBPS\\text\\cover.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1030100"
+        },
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-3\\OEBPS\\text\\frontmatter1.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1032500"
+        },
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-3\\OEBPS\\text\\frontmatter2.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1032600"
+        },
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-3\\OEBPS\\text\\frontmatter3.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1032700"
+        },
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-3\\OEBPS\\text\\frontmatter4.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1032800"
+        },
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-3\\OEBPS\\text\\frontmatter5.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1032900"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "Chapters": [
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Prologue",
+          "SortOrder": "00",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-3\\OEBPS\\text\\prologue.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1030400"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Books",
+          "SortOrder": "01",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-3\\OEBPS\\text\\chapter1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1030500"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-3\\OEBPS\\text\\insert1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1030501"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-3\\OEBPS\\text\\chapter1_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1030502"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Cat",
+          "SortOrder": "02",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-3\\OEBPS\\text\\chapter2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1030600"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Caravan",
+          "SortOrder": "03",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-3\\OEBPS\\text\\chapter3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1030700"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-3\\OEBPS\\text\\insert2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1030701"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-3\\OEBPS\\text\\chapter3_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1030702"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Perfume Oil",
+          "SortOrder": "04",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-3\\OEBPS\\text\\chapter4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1030800"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Corpse Fungus (Part One)",
+          "SortOrder": "05",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-3\\OEBPS\\text\\chapter5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1030900"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Corpse Fungus (Part Two)",
+          "SortOrder": "06",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-3\\OEBPS\\text\\chapter6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1031000"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-3\\OEBPS\\text\\insert3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1031001"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-3\\OEBPS\\text\\chapter6_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1031002"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Mirrors",
+          "SortOrder": "07",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-3\\OEBPS\\text\\chapter7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1031100"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Moon Spirit",
+          "SortOrder": "08",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-3\\OEBPS\\text\\chapter8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1031200"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-3\\OEBPS\\text\\insert4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1031201"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-3\\OEBPS\\text\\chapter8_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1031202"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Clinic",
+          "SortOrder": "09",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-3\\OEBPS\\text\\chapter9.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1031300"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Third Time’s the Charm (Part One)",
+          "SortOrder": "10",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-3\\OEBPS\\text\\chapter10.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1031400"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Third Time’s the Charm (Part Two)",
+          "SortOrder": "11",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-3\\OEBPS\\text\\chapter11.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1031500"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-3\\OEBPS\\text\\insert5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1031501"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-3\\OEBPS\\text\\chapter11_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1031502"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Shrine of Choosing",
+          "SortOrder": "12",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-3\\OEBPS\\text\\chapter12.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1031600"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Empress Dowager",
+          "SortOrder": "13",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-3\\OEBPS\\text\\chapter13.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1031700"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "His Former Majesty",
+          "SortOrder": "14",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-3\\OEBPS\\text\\chapter14.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1031800"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-3\\OEBPS\\text\\insert6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1031801"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-3\\OEBPS\\text\\chapter14_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1031802"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Scary Stories",
+          "SortOrder": "15",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-3\\OEBPS\\text\\chapter15.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1031900"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Beating the Heat",
+          "SortOrder": "16",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-3\\OEBPS\\text\\chapter16.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1032000"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-3\\OEBPS\\text\\insert7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1032001"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-3\\OEBPS\\text\\chapter16_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1032002"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Hunt (Part One)",
+          "SortOrder": "17",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-3\\OEBPS\\text\\chapter17.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1032100"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Hunt (Part Two)",
+          "SortOrder": "18",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-3\\OEBPS\\text\\chapter18.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1032200"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Hunt (Part Three)",
+          "SortOrder": "19",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-3\\OEBPS\\text\\chapter19.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1032300"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-3\\OEBPS\\text\\insert8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1032301"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-3\\OEBPS\\text\\chapter19_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1032302"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Epilogue",
+          "SortOrder": "20",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-3\\OEBPS\\text\\epilogue.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1032400"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-3\\OEBPS\\text\\insert9.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1032401"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-3\\OEBPS\\text\\epilogue_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1032402"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        }
+      ]
+    },
+    {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "Volume 04",
+      "SortOrder": "04",
+      "Sources": [
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-4\\OEBPS\\text\\cover.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1040100"
+        },
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-4\\OEBPS\\text\\frontmatter1.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1042800"
+        },
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-4\\OEBPS\\text\\frontmatter2.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1042900"
+        },
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-4\\OEBPS\\text\\frontmatter3.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1043000"
+        },
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-4\\OEBPS\\text\\frontmatter4.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1043100"
+        },
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-4\\OEBPS\\text\\frontmatter5.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1043200"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "Chapters": [
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Prologue",
+          "SortOrder": "00",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-4\\OEBPS\\text\\prologue.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1040400"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Bath",
+          "SortOrder": "01",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-4\\OEBPS\\text\\chapter1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1040500"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-4\\OEBPS\\text\\insert1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1040501"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-4\\OEBPS\\text\\chapter1_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1040502"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Seki-u",
+          "SortOrder": "02",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-4\\OEBPS\\text\\chapter2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1040600"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Dancing Ghost",
+          "SortOrder": "03",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-4\\OEBPS\\text\\chapter3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1040700"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Rumored Eunuchs",
+          "SortOrder": "04",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-4\\OEBPS\\text\\chapter4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1040800"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-4\\OEBPS\\text\\insert2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1040801"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-4\\OEBPS\\text\\chapter4_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1040802"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Ice",
+          "SortOrder": "05",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-4\\OEBPS\\text\\chapter5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1040900"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Breech Birth",
+          "SortOrder": "06",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-4\\OEBPS\\text\\chapter6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1041000"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Festering Resentment (Part One)",
+          "SortOrder": "07",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-4\\OEBPS\\text\\chapter7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1041100"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Festering Resentment (Part Two)",
+          "SortOrder": "08",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-4\\OEBPS\\text\\chapter8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1041200"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-4\\OEBPS\\text\\insert3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1041201"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-4\\OEBPS\\text\\chapter8_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1041202"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Fox and the Tanuki Match Wits",
+          "SortOrder": "09",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-4\\OEBPS\\text\\chapter9.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1041300"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Traces",
+          "SortOrder": "10",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-4\\OEBPS\\text\\chapter10.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1041400"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Fox Village",
+          "SortOrder": "11",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-4\\OEBPS\\text\\chapter11.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1041500"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Lantern Plant",
+          "SortOrder": "12",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-4\\OEBPS\\text\\chapter12.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1041600"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-4\\OEBPS\\text\\insert4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1041601"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-4\\OEBPS\\text\\chapter12_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1041602"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Festival",
+          "SortOrder": "13",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-4\\OEBPS\\text\\chapter13.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1041700"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Worksite",
+          "SortOrder": "14",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-4\\OEBPS\\text\\chapter14.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1041800"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Stronghold",
+          "SortOrder": "15",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-4\\OEBPS\\text\\chapter15.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1041900"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Lahan",
+          "SortOrder": "16",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-4\\OEBPS\\text\\chapter16.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1042000"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Taibon",
+          "SortOrder": "17",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-4\\OEBPS\\text\\chapter17.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1042100"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Feifa",
+          "SortOrder": "18",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-4\\OEBPS\\text\\chapter18.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1042200"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-4\\OEBPS\\text\\insert5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1042201"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-4\\OEBPS\\text\\chapter18_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1042202"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Army Marches",
+          "SortOrder": "19",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-4\\OEBPS\\text\\chapter19.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1042300"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Ambush",
+          "SortOrder": "20",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-4\\OEBPS\\text\\chapter20.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1042400"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-4\\OEBPS\\text\\insert6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1042401"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-4\\OEBPS\\text\\chapter20_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1042402"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "How it Began",
+          "SortOrder": "21",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-4\\OEBPS\\text\\chapter21.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1042500"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "In the Clutches of the Fox",
+          "SortOrder": "22",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-4\\OEBPS\\text\\chapter22.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1042600"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Epilogue",
+          "SortOrder": "23",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-4\\OEBPS\\text\\epilogue.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1042700"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-4\\OEBPS\\text\\insert7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1042701"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-4\\OEBPS\\text\\epilogue_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1042702"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        }
+      ]
+    },
+    {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "Volume 05",
+      "SortOrder": "05",
+      "Sources": [
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-5\\OEBPS\\text\\cover.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1050100"
+        },
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-5\\OEBPS\\text\\frontmatter1.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1052300"
+        },
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-5\\OEBPS\\text\\frontmatter2.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1052400"
+        },
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-5\\OEBPS\\text\\frontmatter3.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1052500"
+        },
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-5\\OEBPS\\text\\frontmatter4.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1052600"
+        },
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-5\\OEBPS\\text\\frontmatter5.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1052700"
+        },
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-5\\OEBPS\\text\\frontmatter6.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1052800"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "Chapters": [
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Prologue",
+          "SortOrder": "00b",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-5\\OEBPS\\text\\prologue.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1050500"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Locusts",
+          "SortOrder": "01",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-5\\OEBPS\\text\\chapter1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1050600"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-5\\OEBPS\\text\\insert1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1050601"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-5\\OEBPS\\text\\chapter1_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1050602"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Ukyou",
+          "SortOrder": "02",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-5\\OEBPS\\text\\chapter2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1050700"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Sleep",
+          "SortOrder": "03",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-5\\OEBPS\\text\\chapter3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1050800"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-5\\OEBPS\\text\\insert2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1050801"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Fire-Rat Cloak",
+          "SortOrder": "04",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-5\\OEBPS\\text\\chapter4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1050900"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Let Them Eat Cake",
+          "SortOrder": "05",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-5\\OEBPS\\text\\chapter5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1051000"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Last Volume",
+          "SortOrder": "06",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-5\\OEBPS\\text\\chapter6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1051100"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-5\\OEBPS\\text\\insert3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1051101"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-5\\OEBPS\\text\\chapter6_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1051102"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The White-Snake Immortal",
+          "SortOrder": "07",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-5\\OEBPS\\text\\chapter7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1051200"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Proficiencies",
+          "SortOrder": "08",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-5\\OEBPS\\text\\chapter8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1051300"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-5\\OEBPS\\text\\insert4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1051301"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Paper Village",
+          "SortOrder": "09",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-5\\OEBPS\\text\\chapter9.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1051400"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-5\\OEBPS\\text\\insert5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1051401"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-5\\OEBPS\\text\\chapter9_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1051402"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Hemp and Folk Religion",
+          "SortOrder": "10",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-5\\OEBPS\\text\\chapter10.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1051500"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Bandits",
+          "SortOrder": "11",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-5\\OEBPS\\text\\chapter11.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1051600"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-5\\OEBPS\\text\\insert6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1051601"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-5\\OEBPS\\text\\chapter11_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1051602"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Problems Accumulate",
+          "SortOrder": "12",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-5\\OEBPS\\text\\chapter12.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1051700"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Western Capital—Day One",
+          "SortOrder": "13",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-5\\OEBPS\\text\\chapter13.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1051800"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Western Capital—Day Two",
+          "SortOrder": "14",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-5\\OEBPS\\text\\chapter14.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1051900"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Banquet (Part One)",
+          "SortOrder": "15",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-5\\OEBPS\\text\\chapter15.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1052000"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-5\\OEBPS\\text\\insert7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1052001"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-5\\OEBPS\\text\\chapter15_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1052002"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Banquet (Part Two)",
+          "SortOrder": "16",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-5\\OEBPS\\text\\chapter16.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1052100"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-5\\OEBPS\\text\\insert8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1052101"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-5\\OEBPS\\text\\chapter16_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1052102"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Epilogue",
+          "SortOrder": "17",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-5\\OEBPS\\text\\epilogue.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1052200"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-5\\OEBPS\\text\\insert9.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1052201"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-5\\OEBPS\\text\\epilogue_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1052202"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        }
+      ]
+    },
+    {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "Volume 06",
+      "SortOrder": "06",
+      "Sources": [
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-6\\OEBPS\\text\\cover.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1060100"
+        },
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-6\\OEBPS\\text\\frontmatter1.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1062200"
+        },
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-6\\OEBPS\\text\\frontmatter2.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1062300"
+        },
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-6\\OEBPS\\text\\frontmatter3.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1062400"
+        },
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-6\\OEBPS\\text\\frontmatter4.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1062500"
+        },
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-6\\OEBPS\\text\\frontmatter5.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1062600"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "Chapters": [
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Prologue",
+          "SortOrder": "00b",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-6\\OEBPS\\text\\prologue.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060400"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Western Capital—Day Four",
+          "SortOrder": "01",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-6\\OEBPS\\text\\chapter1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060500"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Floating Bride (Part One)",
+          "SortOrder": "02",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-6\\OEBPS\\text\\chapter2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060600"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Floating Bride (Part Two)",
+          "SortOrder": "03",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-6\\OEBPS\\text\\chapter3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060700"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-6\\OEBPS\\text\\insert1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060701"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-6\\OEBPS\\text\\chapter3_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060702"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Homeward Bound",
+          "SortOrder": "04",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-6\\OEBPS\\text\\chapter4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060800"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Wrapping Up in the Western Capital",
+          "SortOrder": "05",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-6\\OEBPS\\text\\chapter5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060900"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The La Clan (Part One)",
+          "SortOrder": "06",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-6\\OEBPS\\text\\chapter6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1061000"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The La Clan (Part Two)",
+          "SortOrder": "07",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-6\\OEBPS\\text\\chapter7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1061100"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Conclusion of Lishu’s Journey",
+          "SortOrder": "08",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-6\\OEBPS\\text\\chapter8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1061200"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-6\\OEBPS\\text\\insert2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1061201"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-6\\OEBPS\\text\\chapter8_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1061202"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Homecoming",
+          "SortOrder": "09",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-6\\OEBPS\\text\\chapter9.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1061300"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Bad Dumplings",
+          "SortOrder": "10",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-6\\OEBPS\\text\\chapter10.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1061400"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-6\\OEBPS\\text\\insert3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1061401"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Dancing Water Sprite",
+          "SortOrder": "11",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-6\\OEBPS\\text\\chapter11.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1061500"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Trials of Consort Lishu",
+          "SortOrder": "12",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-6\\OEBPS\\text\\chapter12.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1061600"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-6\\OEBPS\\text\\insert4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1061601"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-6\\OEBPS\\text\\chapter12_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1061602"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Scandal (Part One)",
+          "SortOrder": "13",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-6\\OEBPS\\text\\chapter13.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1061700"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Scandal (Part Two)",
+          "SortOrder": "14",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-6\\OEBPS\\text\\chapter14.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1061800"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Scandal (Part Three)",
+          "SortOrder": "15",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-6\\OEBPS\\text\\chapter15.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1061900"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Basen and Lishu",
+          "SortOrder": "16",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-6\\OEBPS\\text\\chapter16.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1062000"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Epilogue",
+          "SortOrder": "17",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-6\\OEBPS\\text\\epilogue.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1062100"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-6\\OEBPS\\text\\insert5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1062101"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        }
+      ]
+    },
+    {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "Volume 07",
+      "SortOrder": "07",
+      "Sources": [
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-7\\OEBPS\\text\\cover.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1070100"
+        },
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-7\\OEBPS\\text\\frontmatter1.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1072900"
+        },
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-7\\OEBPS\\text\\frontmatter2.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1073000"
+        },
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-7\\OEBPS\\text\\frontmatter3.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1073100"
+        },
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-7\\OEBPS\\text\\frontmatter4.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1073200"
+        },
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-7\\OEBPS\\text\\frontmatter5.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1073300"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "Chapters": [
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Prologue",
+          "SortOrder": "00b",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-7\\OEBPS\\text\\prologue.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1070500"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Court Ladies’ Service Exam",
+          "SortOrder": "01",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-7\\OEBPS\\text\\chapter1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1070600"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-7\\OEBPS\\text\\insert1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1070601"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-7\\OEBPS\\text\\chapter1_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1070602"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Harassment",
+          "SortOrder": "02",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-7\\OEBPS\\text\\chapter2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1070700"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Medical Assistant",
+          "SortOrder": "03",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-7\\OEBPS\\text\\chapter3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1070800"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Rear Palace",
+          "SortOrder": "04",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-7\\OEBPS\\text\\chapter4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1070900"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Fortune Cookies",
+          "SortOrder": "05",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-7\\OEBPS\\text\\chapter5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1071000"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-7\\OEBPS\\text\\insert2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1071001"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-7\\OEBPS\\text\\chapter5_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1071002"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Strategist Down",
+          "SortOrder": "06",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-7\\OEBPS\\text\\chapter6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1071100"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Aylin’s Intentions",
+          "SortOrder": "07",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-7\\OEBPS\\text\\chapter7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1071200"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Thought Behind the Thought",
+          "SortOrder": "08",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-7\\OEBPS\\text\\chapter8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1071300"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-7\\OEBPS\\text\\insert3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1071301"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-7\\OEBPS\\text\\chapter8_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1071302"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Empress",
+          "SortOrder": "09",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-7\\OEBPS\\text\\chapter9.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1071400"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Covert Ops",
+          "SortOrder": "10",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-7\\OEBPS\\text\\chapter10.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1071500"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-7\\OEBPS\\text\\insert4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1071501"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-7\\OEBPS\\text\\chapter10_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1071502"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Before the Celebration",
+          "SortOrder": "11",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-7\\OEBPS\\text\\chapter11.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1071600"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Child of a Foreign Land",
+          "SortOrder": "12",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-7\\OEBPS\\text\\chapter12.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1071700"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-7\\OEBPS\\text\\insert5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1071701"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-7\\OEBPS\\text\\chapter12_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1071702"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Lady-in-Waiting to His Majesty’s Younger Brother",
+          "SortOrder": "13",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-7\\OEBPS\\text\\chapter13.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1071800"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-7\\OEBPS\\text\\insert6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1071801"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Meeting the Shrine Maiden",
+          "SortOrder": "14",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-7\\OEBPS\\text\\chapter14.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1071900"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "“Mom”",
+          "SortOrder": "15",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-7\\OEBPS\\text\\chapter15.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1072000"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Dinner",
+          "SortOrder": "16",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-7\\OEBPS\\text\\chapter16.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1072100"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-7\\OEBPS\\text\\insert7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1072101"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-7\\OEBPS\\text\\chapter16_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1072102"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Suspect",
+          "SortOrder": "17",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-7\\OEBPS\\text\\chapter17.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1072200"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "A Man and a Woman Play the Game",
+          "SortOrder": "18",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-7\\OEBPS\\text\\chapter18.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1072300"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Truth Behind the Truth",
+          "SortOrder": "19",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-7\\OEBPS\\text\\chapter19.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1072400"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Mushroom Congee",
+          "SortOrder": "20",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-7\\OEBPS\\text\\chapter20.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1072500"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Shrine Maiden’s Confession",
+          "SortOrder": "21",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-7\\OEBPS\\text\\chapter21.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1072600"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Future Shrine Maiden",
+          "SortOrder": "22",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-7\\OEBPS\\text\\chapter22.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1072700"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Epilogue",
+          "SortOrder": "23",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-7\\OEBPS\\text\\epilogue.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1072800"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        }
+      ]
+    },
+    {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "Volume 08",
+      "SortOrder": "08",
+      "Sources": [
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-8\\OEBPS\\text\\cover.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1080100"
+        },
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-8\\OEBPS\\text\\backmatter1.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1082700"
+        },
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-8\\OEBPS\\text\\backmatter2.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1082800"
+        },
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-8\\OEBPS\\text\\backmatter3.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1082900"
+        },
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-8\\OEBPS\\text\\backmatter4.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1083000"
+        },
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-8\\OEBPS\\text\\backmatter5.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1083100"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "Chapters": [
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Prologue",
+          "SortOrder": "0803",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-8\\OEBPS\\text\\prologue.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080500"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Go Book",
+          "SortOrder": "0804",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-8\\OEBPS\\text\\chapter1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080600"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-8\\OEBPS\\text\\insert1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080601"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-8\\OEBPS\\text\\chapter1_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080602"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "A Jaunt Around Town",
+          "SortOrder": "0805",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-8\\OEBPS\\text\\chapter2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080700"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-8\\OEBPS\\text\\insert2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080701"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-8\\OEBPS\\text\\chapter2_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080702"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Trends",
+          "SortOrder": "0806",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-8\\OEBPS\\text\\chapter3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080800"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Ma Siblings",
+          "SortOrder": "0807",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-8\\OEBPS\\text\\chapter4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080900"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Cards",
+          "SortOrder": "0808",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-8\\OEBPS\\text\\chapter5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081000"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Thunderclap",
+          "SortOrder": "0809",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-8\\OEBPS\\text\\chapter6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081100"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-8\\OEBPS\\text\\insert3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081101"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-8\\OEBPS\\text\\chapter6_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081102"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Expedition",
+          "SortOrder": "0810",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-8\\OEBPS\\text\\chapter7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081200"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Harassment",
+          "SortOrder": "0811",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-8\\OEBPS\\text\\chapter8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081300"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-8\\OEBPS\\text\\insert4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081301"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-8\\OEBPS\\text\\chapter8_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081302"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Jinshi’s Idea",
+          "SortOrder": "0812",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-8\\OEBPS\\text\\chapter9.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081400"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Baitang",
+          "SortOrder": "0813",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-8\\OEBPS\\text\\chapter10.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081500"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Sport and Fear",
+          "SortOrder": "0814",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-8\\OEBPS\\text\\chapter11.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081600"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-8\\OEBPS\\text\\insert5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081601"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-8\\OEBPS\\text\\chapter11_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081602"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Bad Cooking",
+          "SortOrder": "0815",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-8\\OEBPS\\text\\chapter12.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081700"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Hair Stick Thief",
+          "SortOrder": "0816",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-8\\OEBPS\\text\\chapter13.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081800"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Go Contest (Part One)",
+          "SortOrder": "0817",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-8\\OEBPS\\text\\chapter14.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081900"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Go Contest (Interlude)",
+          "SortOrder": "0818",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-8\\OEBPS\\text\\chapter15.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1082000"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-8\\OEBPS\\text\\insert6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1082001"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-8\\OEBPS\\text\\chapter15_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1082002"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Go Contest (Part Two)",
+          "SortOrder": "0819",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-8\\OEBPS\\text\\chapter16.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1082100"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Freak vs. Perv",
+          "SortOrder": "0820",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-8\\OEBPS\\text\\chapter17.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1082200"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Fingers’ Owner",
+          "SortOrder": "0821",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-8\\OEBPS\\text\\chapter18.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1082300"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Go Sage",
+          "SortOrder": "0822",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-8\\OEBPS\\text\\chapter19.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1082400"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-8\\OEBPS\\text\\insert7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1082401"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-8\\OEBPS\\text\\chapter19_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1082402"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Check",
+          "SortOrder": "0823",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-8\\OEBPS\\text\\chapter20.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1082500"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-8\\OEBPS\\text\\insert8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1082501"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-8\\OEBPS\\text\\chapter20_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1082502"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Epilogue",
+          "SortOrder": "0824",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-8\\OEBPS\\text\\epilogue.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1082600"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        }
+      ]
+    },
+    {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "Volume 09",
+      "SortOrder": "109",
+      "Sources": [
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-9\\OEBPS\\text\\cover.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1090100"
+        },
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-9\\OEBPS\\text\\backmatter1.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1092700"
+        },
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-9\\OEBPS\\text\\backmatter2.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1092800"
+        },
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-9\\OEBPS\\text\\backmatter3.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1092900"
+        },
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-9\\OEBPS\\text\\backmatter4.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1093000"
+        },
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-9\\OEBPS\\text\\backmatter5.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1093100"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "Chapters": [
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Prologue",
+          "SortOrder": "10903",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-9\\OEBPS\\text\\prologue.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1090500"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-9\\OEBPS\\text\\insert1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1090501"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-9\\OEBPS\\text\\prologue_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1090502"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Yao’s Request",
+          "SortOrder": "10904",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-9\\OEBPS\\text\\chapter1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1090600"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-9\\OEBPS\\text\\insert2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1090601"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Villa",
+          "SortOrder": "10905",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-9\\OEBPS\\text\\chapter2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1090700"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Kada’s Book (Part 1)",
+          "SortOrder": "10906",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-9\\OEBPS\\text\\chapter3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1090800"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-9\\OEBPS\\text\\insert3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1090801"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-9\\OEBPS\\text\\chapter3_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1090802"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Kada’s Book (Part 2)",
+          "SortOrder": "10907",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-9\\OEBPS\\text\\chapter4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1090900"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Kada’s Book (Part 3)",
+          "SortOrder": "10908",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-9\\OEBPS\\text\\chapter5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1091000"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "An Invitation to the Western Capital",
+          "SortOrder": "10909",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-9\\OEBPS\\text\\chapter6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1091100"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Taboo",
+          "SortOrder": "10910",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-9\\OEBPS\\text\\chapter7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1091200"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Secret Lessons",
+          "SortOrder": "10911",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-9\\OEBPS\\text\\chapter8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1091300"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-9\\OEBPS\\text\\insert4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1091301"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-9\\OEBPS\\text\\chapter8_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1091302"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Message",
+          "SortOrder": "10912",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-9\\OEBPS\\text\\chapter9.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1091400"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Practical Exercises",
+          "SortOrder": "10913",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-9\\OEBPS\\text\\chapter10.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1091500"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Dissection",
+          "SortOrder": "10914",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-9\\OEBPS\\text\\chapter11.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1091600"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Secret of the Numbers",
+          "SortOrder": "10915",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-9\\OEBPS\\text\\chapter12.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1091700"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-9\\OEBPS\\text\\insert5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1091701"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-9\\OEBPS\\text\\chapter12_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1091702"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Gyoku-ou",
+          "SortOrder": "10916",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-9\\OEBPS\\text\\chapter13.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1091800"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Selection",
+          "SortOrder": "10917",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-9\\OEBPS\\text\\chapter14.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1091900"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Preparations",
+          "SortOrder": "10918",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-9\\OEBPS\\text\\chapter15.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1092000"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "A Voyage by Sea",
+          "SortOrder": "10919",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-9\\OEBPS\\text\\chapter16.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1092100"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-9\\OEBPS\\text\\insert6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1092101"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-9\\OEBPS\\text\\chapter16_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1092102"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chue",
+          "SortOrder": "10920",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-9\\OEBPS\\text\\chapter17.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1092200"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-9\\OEBPS\\text\\insert7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1092201"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-9\\OEBPS\\text\\chapter17_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1092202"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Anan’s Banquet",
+          "SortOrder": "10921",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-9\\OEBPS\\text\\chapter18.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1092300"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Quack Vanishes",
+          "SortOrder": "10922",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-9\\OEBPS\\text\\chapter19.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1092400"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Smack Up Against the Wall",
+          "SortOrder": "10923",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-9\\OEBPS\\text\\chapter20.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1092500"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-9\\OEBPS\\text\\insert8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1092501"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Epilogue",
+          "SortOrder": "10924",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-9\\OEBPS\\text\\epilogue.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1092600"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        }
+      ]
+    },
+    {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "Volume 10",
+      "SortOrder": "110",
+      "Sources": [
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-10\\OEBPS\\text\\cover.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1100100"
+        },
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-10\\OEBPS\\text\\backmatter1.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1102700"
+        },
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-10\\OEBPS\\text\\backmatter2.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1102800"
+        },
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-10\\OEBPS\\text\\backmatter3.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1102900"
+        },
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-10\\OEBPS\\text\\backmatter4.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1103000"
+        },
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-10\\OEBPS\\text\\backmatter5.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1103100"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "Chapters": [
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Prologue",
+          "SortOrder": "11005",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-10\\OEBPS\\text\\prologue.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1100500"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Return to the Western Capital",
+          "SortOrder": "11006",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-10\\OEBPS\\text\\chapter1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1100600"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-10\\OEBPS\\text\\insert1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1100601"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-10\\OEBPS\\text\\chapter1_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1100602"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Boss and Former Boss",
+          "SortOrder": "11007",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-10\\OEBPS\\text\\chapter2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1100700"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-10\\OEBPS\\text\\insert2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1100701"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Annex and the Forgotten Man",
+          "SortOrder": "11008",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-10\\OEBPS\\text\\chapter3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1100800"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Spring Comes to Basen (Part 1)",
+          "SortOrder": "11009",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-10\\OEBPS\\text\\chapter4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1100900"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-10\\OEBPS\\text\\insert3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1100901"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-10\\OEBPS\\text\\chapter4_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1100902"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Spring Comes to Basen (Part 2)",
+          "SortOrder": "11010",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-10\\OEBPS\\text\\chapter5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1101000"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Farm Village (Part 1)",
+          "SortOrder": "11011",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-10\\OEBPS\\text\\chapter6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1101100"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-10\\OEBPS\\text\\insert4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1101101"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-10\\OEBPS\\text\\chapter6_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1101102"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Farm Village (Part 2)",
+          "SortOrder": "11012",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-10\\OEBPS\\text\\chapter7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1101200"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "An Old Man’s Ramblings",
+          "SortOrder": "11013",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-10\\OEBPS\\text\\chapter8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1101300"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-10\\OEBPS\\text\\insert5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1101301"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-10\\OEBPS\\text\\chapter8_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1101302"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Rite and Ritual",
+          "SortOrder": "11014",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-10\\OEBPS\\text\\chapter9.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1101400"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Results Reported",
+          "SortOrder": "11015",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-10\\OEBPS\\text\\chapter10.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1101500"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Feitouman (Part 1)",
+          "SortOrder": "11016",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-10\\OEBPS\\text\\chapter11.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1101600"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-10\\OEBPS\\text\\insert6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1101601"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-10\\OEBPS\\text\\chapter11_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1101602"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Feitouman (Part 2)",
+          "SortOrder": "11017",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-10\\OEBPS\\text\\chapter12.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1101700"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-10\\OEBPS\\text\\insert7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1101701"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-10\\OEBPS\\text\\chapter12_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1101702"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Windreader Tribe",
+          "SortOrder": "11018",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-10\\OEBPS\\text\\chapter13.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1101800"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Past and the Possible",
+          "SortOrder": "11019",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-10\\OEBPS\\text\\chapter14.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1101900"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Short Straw",
+          "SortOrder": "11020",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-10\\OEBPS\\text\\chapter15.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1102000"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "A Moment’s Peace",
+          "SortOrder": "11021",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-10\\OEBPS\\text\\chapter16.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1102100"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Disaster (Part 1)",
+          "SortOrder": "11022",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-10\\OEBPS\\text\\chapter17.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1102200"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Disaster (Part 2)",
+          "SortOrder": "11023",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-10\\OEBPS\\text\\chapter18.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1102300"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-10\\OEBPS\\text\\insert8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1102301"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-10\\OEBPS\\text\\chapter18_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1102302"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Scratches",
+          "SortOrder": "11024",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-10\\OEBPS\\text\\chapter19.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1102400"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-10\\OEBPS\\text\\insert9.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1102401"
+            },
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-10\\OEBPS\\text\\chapter19_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1102402"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Confirmation",
+          "SortOrder": "11025",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-10\\OEBPS\\text\\chapter20.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1102500"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Epilogue",
+          "SortOrder": "11026",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-10\\OEBPS\\text\\epilogue.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1102600"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        }
+      ]
+    },
+    {
+      "CType": 2,
+      "ChapType": "NonStory",
+      "Name": "Staff Notes",
+      "SortOrder": "90",
+      "Sources": [],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "Chapters": [
+        {
+          "CType": 2,
+          "ChapType": "NonStory",
+          "Name": "Volume One",
+          "SortOrder": "01",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-1\\OEBPS\\text\\bonus.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": ""
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 2,
+          "ChapType": "NonStory",
+          "Name": "Volume Two",
+          "SortOrder": "02",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-2\\OEBPS\\text\\bonus.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": ""
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 2,
+          "ChapType": "NonStory",
+          "Name": "Volume Three",
+          "SortOrder": "03",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-3\\OEBPS\\text\\bonus.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": ""
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 2,
+          "ChapType": "NonStory",
+          "Name": "Volume Four",
+          "SortOrder": "04",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-4\\OEBPS\\text\\bonus.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": ""
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 2,
+          "ChapType": "NonStory",
+          "Name": "Volume Five",
+          "SortOrder": "05",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-5\\OEBPS\\text\\bonus.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": ""
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 2,
+          "ChapType": "NonStory",
+          "Name": "Volume Six",
+          "SortOrder": "06",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-6\\OEBPS\\text\\bonus.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": ""
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 2,
+          "ChapType": "NonStory",
+          "Name": "Volume Seven",
+          "SortOrder": "07",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-7\\OEBPS\\text\\bonus.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": ""
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 2,
+          "ChapType": "NonStory",
+          "Name": "Volume Eight",
+          "SortOrder": "0830",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-8\\OEBPS\\text\\bonus.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": ""
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 2,
+          "ChapType": "NonStory",
+          "Name": "Volume Nine",
+          "SortOrder": "10930",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-9\\OEBPS\\text\\bonus.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": ""
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Volume Ten (Editor)",
+          "SortOrder": "11032",
+          "Sources": [
+            {
+              "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-10\\OEBPS\\text\\bonus.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": ""
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "<h2>The Thousand Diversions of Sasha McGlynn</h2>",
+          "StartsAtLine": "",
+          "Chapters": [
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "<h2>The Thousand Diversions of Sasha McGlynn</h2>",
+              "SortOrder": "000",
+              "Sources": [
+                {
+                  "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-10\\OEBPS\\text\\bonus.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": ""
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "<h2>Fact-checking!</h2>",
+              "StartsAtLine": "<h2>The Thousand Diversions of Sasha McGlynn</h2>",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "<h2>Fact-checking!</h2>",
+              "SortOrder": "001",
+              "Sources": [
+                {
+                  "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-10\\OEBPS\\text\\bonus.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": ""
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "<h2>I’ve Fallen into a Rabbit Hole and I Can’t Get Out</h2>",
+              "StartsAtLine": "<h2>Fact-checking!</h2>",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "<h2>I’ve Fallen into a Rabbit Hole and I Can’t Get Out</h2>",
+              "SortOrder": "002",
+              "Sources": [
+                {
+                  "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-10\\OEBPS\\text\\bonus.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": ""
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "<h2>I’ve Fallen into a Rabbit Hole and I Can’t Get Out</h2>",
+              "Chapters": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "CType": 2,
+      "ChapType": "NonStory",
+      "Name": "Character Profiles",
+      "SortOrder": "998",
+      "Sources": [
+        {
+          "File": "The Apothecary Diaries\\the-apothecary-diaries-volume-10\\OEBPS\\text\\profile.xhtml",
+          "Alternates": [
+            "The Apothecary Diaries\\the-apothecary-diaries-volume-9\\OEBPS\\text\\profile.xhtml",
+            "The Apothecary Diaries\\the-apothecary-diaries-volume-8\\OEBPS\\text\\profile.xhtml",
+            "The Apothecary Diaries\\the-apothecary-diaries-volume-7\\OEBPS\\text\\profile.xhtml",
+            "The Apothecary Diaries\\the-apothecary-diaries-volume-6\\OEBPS\\text\\profile.xhtml",
+            "The Apothecary Diaries\\the-apothecary-diaries-volume-5\\OEBPS\\text\\profile.xhtml"
+          ],
+          "OtherSide": null,
+          "SortOrder": "1100300"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "Chapters": []
+    }
+  ]
+}
