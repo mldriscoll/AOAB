@@ -131,8 +131,16 @@ namespace OBB_WPF
                 }
                 button.Click += (object sender, RoutedEventArgs e) =>
                 {
-                    var window = new SeriesPage(series);
+                    var window = new CreateOmnibus(series);
                     window.Show();
+                };
+                button.MouseDown += (object sender, MouseButtonEventArgs e) =>
+                {
+                    if (e.RightButton == MouseButtonState.Pressed)
+                    {
+                        var window = new SeriesPage(series);
+                        window.Show();
+                    }
                 };
                 SeriesList.Items.Add(button);
             }

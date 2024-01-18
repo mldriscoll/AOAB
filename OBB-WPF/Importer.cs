@@ -44,9 +44,9 @@ namespace OBB_WPF
                         {
                             var match = ItemRefRegex.Match(line).Value;
 
-                            if (match.Equals("cover", StringComparison.InvariantCultureIgnoreCase))
+                            if (match.Equals("\"cover\"", StringComparison.InvariantCultureIgnoreCase))
                             {
-                                match = match + ".xhtml";
+                                match = "\"cover.xhtml\"";
                             }
 
                             if (!match.Contains(".xhtml")

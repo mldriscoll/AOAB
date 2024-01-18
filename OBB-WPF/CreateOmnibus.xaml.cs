@@ -18,6 +18,7 @@ using System.Windows.Shapes;
 using Core.Processor;
 using Point = SixLabors.ImageSharp.Point;
 using Microsoft.Win32;
+using System.Text.Json;
 
 namespace OBB_WPF
 {
@@ -41,6 +42,59 @@ namespace OBB_WPF
         {
             InitializeComponent();
             this.series = series;
+            DataContext = this;
+            SetConfig();
+        }
+
+        public CreateOmnibus(Series series)
+        {
+            InitializeComponent();
+            Unpacker.Unpack(series).Wait();
+            var omnibus = new Omnibus
+            {
+                Name = series.Name,
+                Author = series.Author,
+                AuthorSort = series.AuthorSort,
+            };
+
+#if DEBUG
+            if (File.Exists($"..\\..\\..\\JSON\\{omnibus.Name}.json"))
+            {
+                using (var stream = File.OpenRead($"..\\..\\..\\JSON\\{omnibus.Name}.json"))
+                {
+                    omnibus = JsonSerializer.Deserialize<Omnibus>(stream);
+                }
+            }
+#else
+            if (File.Exists($"JSON\\{omnibus.Name}.json"))
+            {
+                using (var stream = File.OpenRead($"JSON\\{omnibus.Name}.json"))
+                {
+                    omnibus = JsonSerializer.Deserialize<Omnibus>(stream);
+                }
+            }
+#endif
+
+            foreach (var vol in series.Volumes.Where(x => !x.EditedBy.Any()))
+            {
+                try
+                {
+                    var ob = Importer.GenerateVolumeInfo($"{omnibus.Name}\\{vol.ApiSlug}", omnibus.Name, vol.ApiSlug, vol.Order);
+                    omnibus.Combine(ob);
+                }
+                catch (Exception ex)
+                {
+
+                }
+            }
+
+            this.series = omnibus;
+            DataContext = this;
+            SetConfig();
+        }
+
+        private void SetConfig()
+        {
             IncStoryChapters = MainWindow.Configuration.IncludeNormalChapters;
             IncBonusChapters = MainWindow.Configuration.IncludeExtraChapters;
             IncNonStoryChapters = MainWindow.Configuration.IncludeNonStoryChapters;
@@ -49,7 +103,6 @@ namespace OBB_WPF
             if (MainWindow.Configuration.MaxImageWidth.HasValue) ImageWidth = MainWindow.Configuration.MaxImageWidth.Value.ToString();
             if (MainWindow.Configuration.MaxImageHeight.HasValue) ImageHeight = MainWindow.Configuration.MaxImageHeight.Value.ToString();
             ImageQuality = MainWindow.Configuration.ResizedImageQuality.ToString();
-            DataContext = this;
         }
 
         public async Task Start(string outputFile)

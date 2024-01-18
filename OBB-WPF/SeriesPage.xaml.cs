@@ -251,7 +251,7 @@ namespace OBB_WPF
                 DeleteSources(draggedChapter);
                 omnibus.Remove(draggedChapter);
 
-                omnibus.UnusedSources = new ObservableCollection<Source>(omnibus.UnusedSources.OrderBy(x => x.File));
+                omnibus.UnusedSources = new ObservableCollection<Source>(omnibus.UnusedSources.Where(x => !string.IsNullOrWhiteSpace(x.File)).OrderBy(x => x.File));
             }
 
             var lvi = e.Data.GetData(typeof(SourcePreview));
