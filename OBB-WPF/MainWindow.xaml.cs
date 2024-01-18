@@ -18,6 +18,7 @@ using System.Windows.Shapes;
 using System.Runtime.Serialization.Json;
 using static Core.Downloads.LibraryResponse.Book;
 using System.Text.Json.Serialization;
+using Microsoft.Win32;
 
 namespace OBB_WPF
 {
@@ -83,6 +84,15 @@ namespace OBB_WPF
 
             if (Login != null)
             {
+                if (string.IsNullOrWhiteSpace(Configuration.SourceFolder))
+                {
+                    var fp = new OpenFolderDialog();
+                    fp.Title = "Select the folder you store JNC downloads in";
+                    fp.ShowDialog();
+                    Configuration.SourceFolder = fp.FolderName;
+                    await JSON.Save("Configuration.json", Configuration);
+                }
+
                 var library = await Downloader.GetLibrary(new HttpClient(), Login.AccessToken);
 
                 using (var client = new HttpClient())

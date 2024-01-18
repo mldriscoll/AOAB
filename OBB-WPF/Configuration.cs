@@ -2,7 +2,7 @@
 {
     public class Configuration
     {
-        public string SourceFolder { get; set; } = "D:\\JNC\\Raw";
+        public string SourceFolder { get; set; } = null;
         public string DefaultOutputFolder { get; set; } = null;
         public bool IncludeNormalChapters { get; set; } = true;
         public bool IncludeExtraChapters { get; set; } = true;
