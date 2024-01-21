@@ -24,11 +24,12 @@ namespace OBB_WPF
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private async void Button_Click(object sender, RoutedEventArgs e)
         {
             if (!string.IsNullOrWhiteSpace(EditorName.Text))
             {
                 MainWindow.Configuration.EditorName = EditorName.Text;
+                await JSON.Save("Configuration.json", MainWindow.Configuration);
                 this.Close();
             }
         }
