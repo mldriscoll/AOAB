@@ -19,6 +19,7 @@ using Core.Processor;
 using Point = SixLabors.ImageSharp.Point;
 using Microsoft.Win32;
 using System.Text.Json;
+using OBB_WPF.Library;
 
 namespace OBB_WPF
 {

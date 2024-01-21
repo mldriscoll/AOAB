@@ -1,4 +1,4 @@
-﻿namespace OBB_WPF
+﻿namespace OBB_WPF.Library
 {
     public class Series
     {

@@ -16,6 +16,7 @@ using System.Windows.Shapes;
 using System.Runtime.Serialization.Json;
 using static Core.Downloads.LibraryResponse.Book;
 using Microsoft.Win32;
+using OBB_WPF.Library;
 
 namespace OBB_WPF
 {
