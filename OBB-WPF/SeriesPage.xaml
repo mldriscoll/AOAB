@@ -10,6 +10,7 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="30"></RowDefinition>
             <RowDefinition></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition></ColumnDefinition>
@@ -20,7 +21,7 @@
         <Button x:Name="SaveButton" Click="SaveButton_Click" Grid.Column="1">Save</Button>
         <Button Content="Import Old Mapping" Grid.Column="2" Name="ImportMapping" Click="ImportMapping_Click"></Button>
 
-        <Grid Grid.Row="1" Grid.RowSpan="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+        <Grid Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
             <Grid.RowDefinitions>
                 <RowDefinition Height="30"></RowDefinition>
                 <RowDefinition Height="30"></RowDefinition>
@@ -112,5 +113,7 @@
                 </ListView.Resources>
             </ListView>
         </Grid>
+
+        <Button Content="Create Forum Summary" Grid.Row="2" Click="Button_Click_2"></Button>
     </Grid>
 </Window>

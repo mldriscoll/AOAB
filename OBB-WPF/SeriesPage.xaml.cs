@@ -402,6 +402,12 @@ namespace OBB_WPF
             var window = new ViewSource(source);
             window.Show();
         }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            var window = new SummaryPage(omnibus);
+            window.Show();
+        }
     }
 
     public class ChapterTreeViewItem : TreeViewItem

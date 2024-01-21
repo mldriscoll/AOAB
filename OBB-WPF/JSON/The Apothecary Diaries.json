@@ -5726,8 +5726,8 @@
           "Chapters": []
         },
         {
-          "CType": 0,
-          "ChapType": "Story",
+          "CType": 2,
+          "ChapType": "NonStory",
           "Name": "Volume Ten (Editor)",
           "SortOrder": "11032",
           "Sources": [
@@ -5743,8 +5743,8 @@
           "StartsAtLine": "",
           "Chapters": [
             {
-              "CType": 0,
-              "ChapType": "Story",
+              "CType": 2,
+              "ChapType": "NonStory",
               "Name": "<h2>The Thousand Diversions of Sasha McGlynn</h2>",
               "SortOrder": "000",
               "Sources": [
@@ -5761,8 +5761,8 @@
               "Chapters": []
             },
             {
-              "CType": 0,
-              "ChapType": "Story",
+              "CType": 2,
+              "ChapType": "NonStory",
               "Name": "<h2>Fact-checking!</h2>",
               "SortOrder": "001",
               "Sources": [
@@ -5779,8 +5779,8 @@
               "Chapters": []
             },
             {
-              "CType": 0,
-              "ChapType": "Story",
+              "CType": 2,
+              "ChapType": "NonStory",
               "Name": "<h2>I’ve Fallen into a Rabbit Hole and I Can’t Get Out</h2>",
               "SortOrder": "002",
               "Sources": [

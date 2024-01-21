@@ -31,6 +31,9 @@
     <Compile Update="SplitChapter.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="SummaryPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="UpdateWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -64,6 +67,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="SplitChapter.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SummaryPage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UpdateWindow.xaml">
