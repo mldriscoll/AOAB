@@ -155,5 +155,11 @@ namespace OBB_WPF
             up.ShowDialog();
             Draw();
         }
+
+        private void Summary_Click(object sender, RoutedEventArgs e)
+        {
+            var summary = new LibrarySummary(Series);
+            summary.Show();
+        }
     }
 }

@@ -16,6 +16,9 @@
     <Compile Update="CreateOmnibus.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Library\LibrarySummary.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="LoginWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -49,6 +52,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="CreateOmnibus.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Library\LibrarySummary.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="LoginWindow.xaml">
