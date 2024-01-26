@@ -575,6 +575,116 @@
         "ProcessedInPartTwo": true
       }
     ],
+    "Maps": [    ]
+  },
+  {
+    "InternalName": "M0208",
+    "OCR": true,
+    "BonusChapters": [
+      {
+        "OriginalFilenames": [ "162", "163", "164", "165", "166", "167", "168", "169", "170", "171", "172" ],
+        "EarlySortOrder": "020302b",
+        "LateSortOrder": "020396a",
+        "POV": "Johann",
+        "ChapterName": "Coming-of-Age Task",
+        "OverrideName": "Coming-of-Age Task",
+        "Volume": "0203",
+        "EarlyYear": 2,
+        "LateYear": 2,
+        "EarlySeason": "Autumn",
+        "LateSeason": "Spring",
+        "ProcessedInPartTwo": true,
+        "Source": "M2V8 Written Bonus",
+        "OCR": {
+          "Crop": true,
+          "Corrections": [
+            {
+              "Original": "get more annoyed",
+              "Replacement": "get <i>more</i> annoyed"
+            },
+            {
+              "Original": "in quality. “The nobles",
+              "Replacement": "in quality.</p><p>“The nobles"
+            },
+            {
+              "Original": "certification.” Being able",
+              "Replacement": "certification.”</p><p>Being able"
+            },
+            {
+              "Original": "leherl. “It",
+              "Replacement": "leherl.</p><p>“It"
+            },
+            {
+              "Original": "but...” “Your granddaughter Ida?” </p>\r\n<p>I",
+              "Replacement": "but...”</p><p>“Your granddaughter Ida?” I"
+            },
+            {
+              "Original": "years old.” “Bit of ",
+              "Replacement": "years old.”</p><p>“Bit of "
+            },
+            {
+              "Original": "7hough it’s all my fault in the first place.",
+              "Replacement": "<i>Though it’s all my fault in the first place.</i>"
+            },
+            {
+              "Original": " ofa ",
+              "Replacement": " of a "
+            },
+            {
+              "Original": "I can’tput that burden on my family. Our home is small, and it’s hard enough with my siblings there. Not only would they hate it, but... I’d feel so pathetic.",
+              "Replacement": "<i>I can’t put that burden on my family. Our home is small, and it’s hard enough with my siblings there. Not only would they hate it, but... I’d feel so pathetic.</i>"
+            },
+            {
+              "Original": "Taey’re my last hope. Unless I speak to them now, it’s over.",
+              "Replacement": "<i>They’re my last hope. Unless I speak to them now, it’s over.</i>"
+            }
+          ],
+          "Italics": [
+            {
+              "Start": "Is that how it works?",
+              "End": "Is that how it works?"
+            },
+            {
+              "Start": "I expect to get",
+              "End": "to, but, man..."
+            },
+            {
+              "Start": "Plus, I really",
+              "End": "go back home..."
+            },
+            {
+              "Start": "This sucks.",
+              "End": "lehange again."
+            },
+            {
+              "Start": "My last chance, huh?",
+              "End": "My last chance, huh?"
+            },
+            {
+              "Start": "Will I even",
+              "End": "them in time?"
+            },
+            {
+              "Start": "Where are they?",
+              "End": "Where are they?"
+            },
+            {
+              "Start": "Is he not here?",
+              "End": "Did they leave already?!"
+            },
+            {
+              "Start": "Now to get",
+              "End": "be her cosigner..."
+            },
+            {
+              "Start": "Now’s my chance!",
+              "End": "Now’s my chance!"
+            }
+          ]
+        }
+      }
+    ],
+    "MangaChapters": [],
     "Maps": [
       {
         "OriginalFilenames": [ "003", "002" ],
@@ -586,6 +696,15 @@
         "ProcessedInPartFive": true,
         "ProcessedInFanbooks": true
       }
-    ]
+    ],
+    "ComfyLifeChapter": {
+      "OriginalFilenames": [ "176", "177" ],
+      "SortOrder": "020321b",
+      "ChapterName": "Comfy Life M208",
+      "Volume": "0203",
+      "Year": 2,
+      "Season": "Autumn",
+      "ProcessedInPartTwo": true
+    }
   }
 ]
