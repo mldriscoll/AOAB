@@ -117,6 +117,8 @@ namespace AOABO.Chapters
         public bool ProcessedInPartFour { get; set; } = false;
         public bool ProcessedInPartFive { get; set; } = false;
         public bool ProcessedInFanbooks { get; set; } = false;
+        public string? StartLine { get; set; }
+        public string? EndLine { get; set; }
 
         public void RemoveInserts()
         {

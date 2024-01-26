@@ -246,6 +246,17 @@ namespace AOABO.Omnibus
                             if(match.Success)
                                 newChapter.Contents = newChapter.Contents.Replace(match.Value, $"<h1>{newChapter.Name}</h1>");
                         }
+                        if (!string.IsNullOrWhiteSpace(chapter.StartLine))
+                        {
+                            var location = newChapter.Contents.IndexOf(chapter.StartLine);
+                            newChapter.Contents = newChapter.Contents.Substring(location).Replace(chapter.StartLine, $"<h1>{newChapter.Name}</h1>");
+                        }
+
+                        if (!string.IsNullOrWhiteSpace(chapter.EndLine))
+                        {
+                            var location = newChapter.Contents.IndexOf(chapter.EndLine);
+                            newChapter.Contents = newChapter.Contents.Substring(0, location);
+                        }
                     }
                     catch (Exception ex)
                     {
