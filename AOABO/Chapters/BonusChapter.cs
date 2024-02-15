@@ -24,6 +24,8 @@ namespace AOABO.Chapters
                 ProcessedInPartOne = ProcessedInPartOne,
                 ProcessedInPartThree = ProcessedInPartThree,
                 ProcessedInPartTwo = ProcessedInPartTwo,
+                StartLine = StartLine,
+                EndLine = EndLine,
             };
         }
 
