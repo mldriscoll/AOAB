@@ -115,5 +115,6 @@
         </Grid>
 
         <Button Content="Create Forum Summary" Grid.Row="2" Click="Button_Click_2"></Button>
+        <Button Content="Redo Chapter Numbers" Grid.Row="2" Grid.Column="1" Click="Button_Click_3"></Button>
     </Grid>
 </Window>

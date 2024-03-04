@@ -408,6 +408,27 @@ namespace OBB_WPF
             var window = new SummaryPage(omnibus);
             window.Show();
         }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            RedoSortOrders(string.Empty, omnibus);
+        }
+
+        private void RedoSortOrders(string prefix, ChapterHolder holder)
+        {
+            int i = 1;
+            var chapters = holder.Chapters.OrderBy(x => x.SortOrder).ToList();
+
+            foreach (var chapter in chapters)
+            {
+                holder.Chapters.Remove(chapter);
+                var order = $"{prefix}{i:000}";
+                chapter.SortOrder = order;
+                RedoSortOrders(order, chapter);
+                holder.Chapters.Add(chapter);
+                i++;
+            }
+        }
     }
 
     public class ChapterTreeViewItem : TreeViewItem
