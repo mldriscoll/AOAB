@@ -17,6 +17,7 @@ using System.Runtime.Serialization.Json;
 using static Core.Downloads.LibraryResponse.Book;
 using Microsoft.Win32;
 using OBB_WPF.Library;
+using OBB_WPF.Custom;
 
 namespace OBB_WPF
 {
@@ -54,12 +55,17 @@ namespace OBB_WPF
                 }
             }
 #endif
+            if (File.Exists($"JSON\\CustomSeries.json"))
+            {
+                CustomSeries = await JSON.Load<List<Series>>("JSON\\CustomSeries.json");
+            }
             Draw();
         }
 
         private async void Draw()
         {
             Update.IsEnabled = false;
+            AddCustom.IsEnabled = false;
             SeriesList.Items.Clear();
             SeriesList list = null;
             if (Login == null)
@@ -115,7 +121,7 @@ namespace OBB_WPF
                 }
             }
 
-            foreach (var series in Series.Where(x => x.Volumes.Any(y => File.Exists(Configuration.SourceFolder + "\\" + y.FileName))))
+            foreach (var series in CustomSeries.Where(x => x.Volumes.Any(y => File.Exists(Configuration.SourceFolder + "\\" + y.FileName) || File.Exists(y.FileName))))
             {
                 var totalBooks = series.Volumes.Count;
                 var availableBooks = series.Volumes.Where(x => File.Exists(Configuration.SourceFolder + "\\" + x.FileName)).ToList();
@@ -144,9 +150,11 @@ namespace OBB_WPF
             }
 
             Update.IsEnabled = true;
+            AddCustom.IsEnabled = true;
         }
 
         public static List<Series> Series = new List<Series>();
+        public static List<Series> CustomSeries = new List<Series>();
 
         private async void Update_Click(object sender, RoutedEventArgs e)
         {
@@ -160,6 +168,13 @@ namespace OBB_WPF
         {
             var summary = new LibrarySummary(Series);
             summary.Show();
+        }
+
+        private void AddCustom_Click(object sender, RoutedEventArgs e)
+        {
+            var popup = new CreateCustomSeries();
+            popup.ShowDialog();
+            Draw();
         }
     }
 }

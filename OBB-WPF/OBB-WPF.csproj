@@ -23,10 +23,6 @@
 	</ItemGroup>
 
   <ItemGroup>
-    <Folder Include="JSON\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="CefSharp.Wpf.NETCore" Version="120.1.110" />
     <PackageReference Include="SixLabors.ImageSharp" Version="3.0.0" />
   </ItemGroup>

@@ -1,7 +1,7 @@
 ﻿using System.IO;
 using System.Text.RegularExpressions;
 
-namespace OBB_WPF
+namespace OBB_WPF.Editor
 {
     public static class Importer
     {
@@ -29,7 +29,8 @@ namespace OBB_WPF
             int order = 1;
             try
             {
-                var content = File.ReadAllLines($"{inFolder}\\OEBPS\\content.opf");
+                var content = File.Exists($"{inFolder}\\OEBPS\\content.opf") ? File.ReadAllLines($"{inFolder}\\OEBPS\\content.opf") : File.ReadAllLines($"{inFolder}\\OEBPS\\package.opf");
+                string textFolder = Directory.Exists($"{inFolder}\\OEBPS\\Text") ? "text\\" : string.Empty;
                 var imageFiles = Directory.GetFiles($"{inFolder}\\OEBPS\\Images", "*.jpg").Select(x => x.Replace($"{inFolder}\\OEBPS\\Images\\", string.Empty).Replace(".jpg", string.Empty).ToLower()).ToList();
 
                 foreach (var line in content)
@@ -49,7 +50,7 @@ namespace OBB_WPF
                                 match = "\"cover.xhtml\"";
                             }
 
-                            if (!match.Contains(".xhtml")
+                            if (( match.Contains('.') && !match.Contains(".xhtml"))
                                 || match.StartsWith("\"signup")
                                 || match.StartsWith("\"copyright")
                                 )
@@ -65,23 +66,23 @@ namespace OBB_WPF
                                 if (chapterFiles.Any())
                                 {
                                     var chapter = new Chapter();
-                                    chapter.SortOrder = ((volOrder * 100) + order).ToString("00000");
+                                    chapter.SortOrder = (volOrder * 100 + order).ToString("00000");
                                     order++;
                                     foreach (var c in chapterFiles)
                                     {
-                                        chapter.Sources.Add(new Source { File = $"{series}\\{volumeName}\\OEBPS\\text\\{c}", SortOrder = chapter.SortOrder + chapter.Sources.Count.ToString("00") });
+                                        chapter.Sources.Add(new Source { File = Ext($"{series}\\{volumeName}\\OEBPS\\{textFolder}{c}"), SortOrder = chapter.SortOrder + chapter.Sources.Count.ToString("00") });
                                     }
 
-                                    var chapterContent = File.ReadAllText($"{inFolder}\\OEBPS\\text\\" + chapterFiles[0]);
+                                    var chapterContent = File.ReadAllText(Ext($"{inFolder}\\OEBPS\\{textFolder}{chapterFiles[0]}"));
                                     chapter.Name = chapterTitleRegex.Match(chapterContent).Value.Replace("<h1>", string.Empty).Replace("</h1>", string.Empty);
                                     if (string.IsNullOrWhiteSpace(chapter.Name)) chapter.Name = chapter.SortOrder;
 
 
                                     AddChapter(chapter, ob.Chapters[0], volumeName, volOrder, imageFiles);
 
-                                    foreach(var file in chapterFiles.Skip(1))
+                                    foreach (var file in chapterFiles.Skip(1))
                                     {
-                                        chapterContent = string.Concat(chapterContent, File.ReadAllText($"{inFolder}\\OEBPS\\text\\{file}"));
+                                        chapterContent = string.Concat(chapterContent, File.ReadAllText(Ext($"{inFolder}\\OEBPS\\{textFolder}{file}")));
                                     }
 
                                     Chapter subChapter = null;
@@ -91,8 +92,9 @@ namespace OBB_WPF
                                         {
                                             subChapter.EndsBeforeLine = subHeader.Value;
                                         }
-                                        else {
-                                            chapter.EndsBeforeLine = subHeader.Value; 
+                                        else
+                                        {
+                                            chapter.EndsBeforeLine = subHeader.Value;
                                         }
                                         subChapter = new Chapter
                                         {
@@ -118,18 +120,18 @@ namespace OBB_WPF
                     }
                 }
 
-                var finalChapter = new Chapter { SortOrder = ((volOrder * 100) + order).ToString("00000") };
+                var finalChapter = new Chapter { SortOrder = (volOrder * 100 + order).ToString("00000") };
                 foreach (var c in chapterFiles)
                 {
-                    finalChapter.Sources.Add(new Source { File = $"{series}\\{volumeName}\\OEBPS\\text\\{c}" });
+                    finalChapter.Sources.Add(new Source { File = $"{series}\\{volumeName}\\OEBPS\\{textFolder}{c}" });
                 }
-                var finalChapterContent = File.ReadAllText($"{inFolder}\\OEBPS\\text\\" + chapterFiles[0]);
+                var finalChapterContent = File.ReadAllText(Ext($"{inFolder}\\OEBPS\\{textFolder}{chapterFiles[0]}"));
                 finalChapter.Name = chapterTitleRegex.Match(finalChapterContent).Value.Replace("<h1>", string.Empty).Replace("</h1>", string.Empty);
                 AddChapter(finalChapter, ob.Chapters[0], volumeName, volOrder, imageFiles);
 
                 foreach (var file in chapterFiles.Skip(1))
                 {
-                    finalChapterContent = string.Concat(finalChapterContent, File.ReadAllText($"{inFolder}\\OEBPS\\text\\{file}"));
+                    finalChapterContent = string.Concat(finalChapterContent, File.ReadAllText(Ext($"{inFolder}\\OEBPS\\{textFolder}{file}")));
                 }
 
                 Chapter finalSubChapter = null;
@@ -186,7 +188,7 @@ namespace OBB_WPF
                     {
                         if (line.Equals("</ol>", StringComparison.InvariantCultureIgnoreCase))
                         {
-                            incontents = false; 
+                            incontents = false;
                             foreach (var x in files)
                             {
                                 chapter.Sources.Add(new Source { File = $"{series}\\{volumeName}\\item\\xhtml\\{x}", SortOrder = $"{volOrder:000}{order:00}{sourceOrder:000}" });
@@ -218,7 +220,7 @@ namespace OBB_WPF
                             {
                                 Name = title,
                             };
-                            chapter.SortOrder = ((volOrder * 100) + order).ToString("00000");
+                            chapter.SortOrder = (volOrder * 100 + order).ToString("00000");
                             order++;
                             ob.Chapters[0].Chapters.Add(chapter);
                         }
@@ -227,6 +229,12 @@ namespace OBB_WPF
             }
 
             return ob;
+        }
+
+        private static string Ext(string str)
+        {
+            if (str.EndsWith(".xhtml", StringComparison.InvariantCultureIgnoreCase)) return str;
+            return $"{str}.xhtml";
         }
 
         private static void AddChapter(Chapter chapter, Chapter parentChapter, string volumeName, int volumeSortOrder, List<string> imageFiles)

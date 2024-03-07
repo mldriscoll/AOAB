@@ -9,15 +9,17 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
             <RowDefinition></RowDefinition>
             <RowDefinition Height="40"></RowDefinition>
         </Grid.RowDefinitions>
         <Button Content="Update Series List" Name="Update" Click="Update_Click"></Button>
-        <ScrollViewer Grid.Row="1">
+        <Button Content="Add Custom Series" Name="AddCustom" Click="AddCustom_Click" Grid.Row="1"></Button>
+        <ScrollViewer Grid.Row="2">
             <ListView x:Name="SeriesList">
                 
             </ListView>
         </ScrollViewer>
-        <Button x:Name="Summary" Content="Generate Summary" Grid.Row="2" Click="Summary_Click"></Button>
+        <Button x:Name="Summary" Content="Generate Summary" Grid.Row="3" Click="Summary_Click"></Button>
     </Grid>
 </Window>

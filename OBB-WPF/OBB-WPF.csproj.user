@@ -16,6 +16,9 @@
     <Compile Update="CreateOmnibus.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Custom\CreateCustomSeries.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Library\LibrarySummary.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -28,7 +31,7 @@
     <Compile Update="SeriesPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="SourcePreview.xaml.cs">
+    <Compile Update="Editor\SourcePreview.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="SplitChapter.xaml.cs">
@@ -54,6 +57,9 @@
     <Page Update="CreateOmnibus.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Custom\CreateCustomSeries.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Library\LibrarySummary.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -69,7 +75,7 @@
     <Page Update="SeriesPage.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="SourcePreview.xaml">
+    <Page Update="Editor\SourcePreview.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="SplitChapter.xaml">

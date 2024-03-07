@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO.Compression;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -21,6 +20,7 @@ using System.Text.Json.Nodes;
 using Microsoft.Win32;
 using CefSharp;
 using OBB_WPF.Library;
+using OBB_WPF.Editor;
 
 namespace OBB_WPF
 {
@@ -434,30 +434,5 @@ namespace OBB_WPF
     public class ChapterTreeViewItem : TreeViewItem
     {
         public Chapter Chapter { get; set; }
-    }
-
-    public static class Unpacker
-    {
-        public static Task Unpack(Series series)
-        {
-            if (!Directory.Exists(series.Name)) Directory.CreateDirectory(series.Name);
-
-            foreach (var volume in series.Volumes.Where(x => File.Exists($"{MainWindow.Configuration.SourceFolder}\\{x.FileName}")))
-            {
-                var directory = $"{series.Name}\\{volume.ApiSlug}";
-                if (!Directory.Exists(directory)) ZipFile.ExtractToDirectory($"{MainWindow.Configuration.SourceFolder}\\{volume.FileName}", directory);
-                else
-                {
-                    var finfo = new FileInfo($"{MainWindow.Configuration.SourceFolder}\\{volume.FileName}");
-                    var dinfo = new DirectoryInfo(directory);
-                    if (dinfo.CreationTimeUtc < finfo.CreationTimeUtc)
-                    {
-                        Directory.Delete(directory);
-                        ZipFile.ExtractToDirectory($"{MainWindow.Configuration.SourceFolder}\\{volume.FileName}", directory);
-                    }
-                }
-            }
-            return Task.CompletedTask;
-        }
     }
 }
