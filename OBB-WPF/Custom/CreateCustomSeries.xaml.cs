@@ -40,7 +40,7 @@ namespace OBB_WPF.Custom
                 {
                     if (filePopup.FileNames.Count() > 1)
                     {
-                        var series = new Library.Series { InternalName = SeriesName.Text, Name = SeriesName.Text };
+                        var series = new Library.Series { InternalName = SeriesName.Text, Name = SeriesName.Text, CustomSeries = true };
                         foreach (var file in filePopup.FileNames)
                         {
                             var finfo = new FileInfo(file);

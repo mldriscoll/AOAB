@@ -2,6 +2,7 @@
 {
     public class Series
     {
+        public bool CustomSeries { get; set; } = false;
         public string Name { get; set; } = string.Empty;
         public string InternalName { get; set; } = string.Empty;
         public List<SeriesSlug> ApiSlugs { get; set; } = new List<SeriesSlug>();

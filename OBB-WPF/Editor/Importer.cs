@@ -49,11 +49,6 @@ namespace OBB_WPF.Editor
                 opfFolder = finfo.Directory.FullName;
             }
 
-            var imageFolder = Directory.GetDirectories(inFolder, "*images*", SearchOption.AllDirectories).First();
-            var imageFiles = Directory.GetFiles(imageFolder, "*.jpg").Select(x => x.Replace(".jpg", string.Empty))
-                .Union(Directory.GetFiles(imageFolder, "*.jpeg").Select(x => x.Replace(".jpeg", string.Empty)))
-                .Select(x => x.Replace($"{imageFolder}\\", string.Empty).ToLower())
-                .ToList();
 
             string textFolder = null;
             textFolder = Directory.GetDirectories(inFolder, "*text*", SearchOption.AllDirectories).FirstOrDefault();
@@ -63,6 +58,12 @@ namespace OBB_WPF.Editor
             {
                 if (content != null && textFolder != null)
                 {
+                    var imageFolder = Directory.GetDirectories(inFolder, "*images*", SearchOption.AllDirectories).First();
+                    var imageFiles = Directory.GetFiles(imageFolder, "*.jpg").Select(x => x.Replace(".jpg", string.Empty))
+                        .Union(Directory.GetFiles(imageFolder, "*.jpeg").Select(x => x.Replace(".jpeg", string.Empty)))
+                        .Select(x => x.Replace($"{imageFolder}\\", string.Empty).ToLower())
+                        .ToList();
+
                     var folInfo = new DirectoryInfo(inFolder);
                     ProcessLN(volumeName, volOrder, ob, ref order, content, imageFiles, textFolder, opfFolder, (str) => str.Replace(folInfo.FullName, inFolder).Replace("/","\\"));
                 }
@@ -153,7 +154,7 @@ namespace OBB_WPF.Editor
                 {
 
                 }
-                else if (item.Contains('_') || item.StartsWith("\"insert"))
+                else if (item.Contains('_') || item.Contains("insert"))
                 {
                     chapterFiles.Add(item);
                 }

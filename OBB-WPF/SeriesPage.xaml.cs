@@ -37,7 +37,53 @@ namespace OBB_WPF
             this.series = series;
             Title = series.Name;
 
+            if (series.CustomSeries)
+            {
+                var AddVolumeButton = new Button();
+                AddVolumeButton.Content = "Add New Volume";
+                AddVolumeButton.Click += AddVolumeButton_Click;
+                Grid.SetRow(AddVolumeButton, 2);
+                Grid.SetColumn(AddVolumeButton, 2);
+                ((Grid)this.Content).Children.Add(AddVolumeButton);
+            }
+
             Load();
+        }
+
+        private async void AddVolumeButton_Click(object sender, RoutedEventArgs e)
+        {
+            var filePopup = new OpenFileDialog();
+            filePopup.Multiselect = true;
+            filePopup.CheckFileExists = true;
+            filePopup.InitialDirectory = MainWindow.Configuration.SourceFolder;
+
+            if (filePopup.ShowDialog() ?? false)
+            {
+                if (filePopup.FileNames.Count() > 0)
+                {
+                    foreach (var file in filePopup.FileNames)
+                    {
+                        var finfo = new FileInfo(file);
+                        series.Volumes.Add(new Library.VolumeName
+                        {
+                            ApiSlug = finfo.Name,
+                            FileName = file,
+                            Title = finfo.Name,
+                            Order = series.Volumes.Count() + 1
+                        });
+
+                        await Unpacker.Unpack(series);
+
+                        var ob = Importer.GenerateVolumeInfo($"{omnibus.Name}\\{finfo.Name}", omnibus.Name, finfo.Name, series.Volumes.Count());
+                        omnibus.Combine(ob);
+                    }
+                }
+            }
+#if DEBUG
+            await JSON.Save("..\\..\\..\\JSON\\CustomSeries.json", MainWindow.CustomSeries);
+#else
+                await JSON.Save("JSON\\CustomSeries.json", MainWindow.CustomSeries);
+#endif
         }
 
         Omnibus omnibus;
