@@ -1,5 +1,7 @@
 ﻿using System.IO;
+using System.IO.Packaging;
 using System.Text.RegularExpressions;
+using System.Xml.Serialization;
 
 namespace OBB_WPF.Editor
 {
@@ -10,9 +12,6 @@ namespace OBB_WPF.Editor
         private static readonly Regex chapterSubTitleRegex = new Regex("<h2>[\\s\\S]*?<\\/h2>");
         public static Omnibus GenerateVolumeInfo(string inFolder, string series, string? volumeName, int volOrder)
         {
-            bool inSpine = false;
-            List<string> chapterFiles = new List<string>();
-
             var ob = new Omnibus
             {
                 Chapters = new System.Collections.ObjectModel.ObservableCollection<Chapter>
@@ -27,213 +26,251 @@ namespace OBB_WPF.Editor
 
 
             int order = 1;
+
+            // Find Content File
+            var opfFiles = Directory.GetFiles(inFolder, "*.opf", SearchOption.AllDirectories);
+            var xmlSerializer = new XmlSerializer(typeof(package));
+            package content = null;
+            string opfFolder = null;
+            if (opfFiles.Any(x => x.Contains("content.opf", StringComparison.InvariantCultureIgnoreCase)))
+            {
+                var file = opfFiles.First(x => x.Contains("content.opf", StringComparison.InvariantCultureIgnoreCase));
+                content = (package)xmlSerializer.Deserialize(File.OpenRead(file));
+
+                var finfo = new FileInfo(file);
+                opfFolder = finfo.Directory.FullName;
+            }
+            else if (opfFiles.Any(x => x.Contains("package.opf", StringComparison.InvariantCultureIgnoreCase)))
+            {
+                var file = opfFiles.First(x => x.Contains("package.opf", StringComparison.InvariantCultureIgnoreCase));
+                content = (package)xmlSerializer.Deserialize(File.OpenRead(file));
+
+                var finfo = new FileInfo(file);
+                opfFolder = finfo.Directory.FullName;
+            }
+
+            var imageFolder = Directory.GetDirectories(inFolder, "*images*", SearchOption.AllDirectories).First();
+            var imageFiles = Directory.GetFiles(imageFolder, "*.jpg").Select(x => x.Replace(".jpg", string.Empty))
+                .Union(Directory.GetFiles(imageFolder, "*.jpeg").Select(x => x.Replace(".jpeg", string.Empty)))
+                .Select(x => x.Replace($"{imageFolder}\\", string.Empty).ToLower())
+                .ToList();
+
+            string textFolder = null;
+            textFolder = Directory.GetDirectories(inFolder, "*text*", SearchOption.AllDirectories).FirstOrDefault();
+            if (textFolder == null) textFolder = Directory.GetDirectories(inFolder, "*oebps*", SearchOption.AllDirectories).FirstOrDefault();
+
             try
             {
-                var content = File.Exists($"{inFolder}\\OEBPS\\content.opf") ? File.ReadAllLines($"{inFolder}\\OEBPS\\content.opf") : File.ReadAllLines($"{inFolder}\\OEBPS\\package.opf");
-                string textFolder = Directory.Exists($"{inFolder}\\OEBPS\\Text") ? "text\\" : string.Empty;
-                var imageFiles = Directory.GetFiles($"{inFolder}\\OEBPS\\Images", "*.jpg").Select(x => x.Replace($"{inFolder}\\OEBPS\\Images\\", string.Empty).Replace(".jpg", string.Empty).ToLower()).ToList();
-
-                foreach (var line in content)
+                if (content != null && textFolder != null)
                 {
-                    if (inSpine)
-                    {
-                        if (line.Contains("</spine"))
-                        {
-                            inSpine = false;
-                        }
-                        else
-                        {
-                            var match = ItemRefRegex.Match(line).Value;
-
-                            if (match.Equals("\"cover\"", StringComparison.InvariantCultureIgnoreCase))
-                            {
-                                match = "\"cover.xhtml\"";
-                            }
-
-                            if (( match.Contains('.') && !match.Contains(".xhtml"))
-                                || match.StartsWith("\"signup")
-                                || match.StartsWith("\"copyright")
-                                )
-                            {
-
-                            }
-                            else if (match.Contains('_') || match.StartsWith("\"insert"))
-                            {
-                                chapterFiles.Add(match.Replace("\"", ""));
-                            }
-                            else
-                            {
-                                if (chapterFiles.Any())
-                                {
-                                    var chapter = new Chapter();
-                                    chapter.SortOrder = (volOrder * 100 + order).ToString("00000");
-                                    order++;
-                                    foreach (var c in chapterFiles)
-                                    {
-                                        chapter.Sources.Add(new Source { File = Ext($"{series}\\{volumeName}\\OEBPS\\{textFolder}{c}"), SortOrder = chapter.SortOrder + chapter.Sources.Count.ToString("00") });
-                                    }
-
-                                    var chapterContent = File.ReadAllText(Ext($"{inFolder}\\OEBPS\\{textFolder}{chapterFiles[0]}"));
-                                    chapter.Name = chapterTitleRegex.Match(chapterContent).Value.Replace("<h1>", string.Empty).Replace("</h1>", string.Empty);
-                                    if (string.IsNullOrWhiteSpace(chapter.Name)) chapter.Name = chapter.SortOrder;
-
-
-                                    AddChapter(chapter, ob.Chapters[0], volumeName, volOrder, imageFiles);
-
-                                    foreach (var file in chapterFiles.Skip(1))
-                                    {
-                                        chapterContent = string.Concat(chapterContent, File.ReadAllText(Ext($"{inFolder}\\OEBPS\\{textFolder}{file}")));
-                                    }
-
-                                    Chapter subChapter = null;
-                                    foreach (Match subHeader in chapterSubTitleRegex.Matches(chapterContent).Where(x => !string.Equals(x.Value, "<h2>I</h2>")))
-                                    {
-                                        if (subChapter != null)
-                                        {
-                                            subChapter.EndsBeforeLine = subHeader.Value;
-                                        }
-                                        else
-                                        {
-                                            chapter.EndsBeforeLine = subHeader.Value;
-                                        }
-                                        subChapter = new Chapter
-                                        {
-                                            CType = chapter.CType,
-                                            StartsAtLine = subHeader.Value,
-                                            Name = subHeader.Value,
-                                            SortOrder = chapter.Chapters.Count.ToString("000"),
-                                            Sources = new System.Collections.ObjectModel.ObservableCollection<Source>(chapter.Sources)
-                                        };
-                                        chapter.Chapters.Add(subChapter);
-                                    }
-
-                                }
-                                chapterFiles.Clear();
-                                chapterFiles.Add(match.Replace("\"", ""));
-                            }
-                        }
-                    }
-
-                    if (line.Contains("<spine"))
-                    {
-                        inSpine = true;
-                    }
+                    var folInfo = new DirectoryInfo(inFolder);
+                    ProcessLN(volumeName, volOrder, ob, ref order, content, imageFiles, textFolder, opfFolder, (str) => str.Replace(folInfo.FullName, inFolder).Replace("/","\\"));
                 }
-
-                var finalChapter = new Chapter { SortOrder = (volOrder * 100 + order).ToString("00000") };
-                foreach (var c in chapterFiles)
+                else
                 {
-                    finalChapter.Sources.Add(new Source { File = $"{series}\\{volumeName}\\OEBPS\\{textFolder}{c}" });
+                    order = ProcessManga(inFolder, series, volumeName, volOrder, ob, order);
                 }
-                var finalChapterContent = File.ReadAllText(Ext($"{inFolder}\\OEBPS\\{textFolder}{chapterFiles[0]}"));
-                finalChapter.Name = chapterTitleRegex.Match(finalChapterContent).Value.Replace("<h1>", string.Empty).Replace("</h1>", string.Empty);
-                AddChapter(finalChapter, ob.Chapters[0], volumeName, volOrder, imageFiles);
-
-                foreach (var file in chapterFiles.Skip(1))
-                {
-                    finalChapterContent = string.Concat(finalChapterContent, File.ReadAllText(Ext($"{inFolder}\\OEBPS\\{textFolder}{file}")));
-                }
-
-                Chapter finalSubChapter = null;
-                foreach (Match subHeader in chapterSubTitleRegex.Matches(finalChapterContent))
-                {
-                    if (finalSubChapter != null)
-                    {
-                        finalSubChapter.EndsBeforeLine = subHeader.Value;
-                    }
-                    else
-                    {
-                        finalChapter.EndsBeforeLine = subHeader.Value;
-                    }
-                    finalSubChapter = new Chapter
-                    {
-                        CType = finalChapter.CType,
-                        StartsAtLine = subHeader.Value,
-                        Name = subHeader.Value,
-                        SortOrder = finalChapter.Chapters.Count.ToString("000"),
-                        Sources = new System.Collections.ObjectModel.ObservableCollection<Source>(finalChapter.Sources)
-                    };
-                    finalChapter.Chapters.Add(finalSubChapter);
-                }
-
-                foreach (var file in imageFiles)
-                {
-                    //if (file.Contains("insert"))
-                    //{
-                    //    AddImage(file, volume.Gallery[0].ChapterImages);
-                    //}
-                    //else
-                    //{
-                    //    AddImage(file, volume.Gallery[0].SplashImages);
-                    //}
-                }
-                //volume.Gallery[0].SubFolder = $"{volOrder}-{volumeName}";
             }
-            // Backup for Manga that don't have content files
-            catch (DirectoryNotFoundException noContent)
+            catch(Exception ex)
             {
-                var nav = File.ReadAllLines($"{inFolder}\\item\\nav.xhtml").Select(x => x.Trim()).ToList();
-                var files = Directory.GetFiles($"{inFolder}\\item\\xhtml\\", "*.xhtml").Select(x => x.Replace($"{inFolder}\\item\\xhtml\\", string.Empty)).ToList();
 
-                var incontents = false;
-                Chapter chapter = null;
-                int sourceOrder = 1;
-                foreach (var line in nav)
-                {
-                    if (line.Equals("<h1>Table of Contents</h1>", StringComparison.InvariantCultureIgnoreCase))
-                    {
-                        incontents = true;
-                    }
-                    else if (incontents)
-                    {
-                        if (line.Equals("</ol>", StringComparison.InvariantCultureIgnoreCase))
-                        {
-                            incontents = false;
-                            foreach (var x in files)
-                            {
-                                chapter.Sources.Add(new Source { File = $"{series}\\{volumeName}\\item\\xhtml\\{x}", SortOrder = $"{volOrder:000}{order:00}{sourceOrder:000}" });
-                                sourceOrder++;
-                            }
-                        }
-                        else if (line.Equals("<ol>", StringComparison.InvariantCultureIgnoreCase))
-                        {
-                        }
-                        else //Chapter Border
-                        {
-
-                            var linesplit = line.Split('"');
-                            var firstPage = linesplit[1].Replace("xhtml/", string.Empty);
-
-                            if (chapter != null)
-                            {
-                                var index = files.IndexOf(firstPage);
-                                foreach (var x in files.Take(index))
-                                {
-                                    chapter.Sources.Add(new Source { File = $"{series}\\{volumeName}\\item\\xhtml\\{x}", SortOrder = $"{volOrder:000}{order:00}{sourceOrder:000}" });
-                                    sourceOrder++;
-                                }
-                                files.RemoveRange(0, index);
-                            }
-
-                            var title = linesplit[2].Substring(1).Replace("</a></li>", string.Empty);
-                            chapter = new Chapter
-                            {
-                                Name = title,
-                            };
-                            chapter.SortOrder = (volOrder * 100 + order).ToString("00000");
-                            order++;
-                            ob.Chapters[0].Chapters.Add(chapter);
-                        }
-                    }
-                }
             }
 
             return ob;
         }
 
+        private static int ProcessManga(string inFolder, string series, string? volumeName, int volOrder, Omnibus ob, int order)
+        {
+            var nav = File.ReadAllLines($"{inFolder}\\item\\nav.xhtml").Select(x => x.Trim()).ToList();
+            var files = Directory.GetFiles($"{inFolder}\\item\\xhtml\\", "*.xhtml").Select(x => x.Replace($"{inFolder}\\item\\xhtml\\", string.Empty)).ToList();
+
+            var incontents = false;
+            Chapter chapter = null;
+            int sourceOrder = 1;
+            foreach (var line in nav)
+            {
+                if (line.Equals("<h1>Table of Contents</h1>", StringComparison.InvariantCultureIgnoreCase))
+                {
+                    incontents = true;
+                }
+                else if (incontents)
+                {
+                    if (line.Equals("</ol>", StringComparison.InvariantCultureIgnoreCase))
+                    {
+                        incontents = false;
+                        foreach (var x in files)
+                        {
+                            chapter.Sources.Add(new Source { File = $"{series}\\{volumeName}\\item\\xhtml\\{x}", SortOrder = $"{volOrder:000}{order:00}{sourceOrder:000}" });
+                            sourceOrder++;
+                        }
+                    }
+                    else if (line.Equals("<ol>", StringComparison.InvariantCultureIgnoreCase))
+                    {
+                    }
+                    else //Chapter Border
+                    {
+
+                        var linesplit = line.Split('"');
+                        var firstPage = linesplit[1].Replace("xhtml/", string.Empty);
+
+                        if (chapter != null)
+                        {
+                            var index = files.IndexOf(firstPage);
+                            foreach (var x in files.Take(index))
+                            {
+                                chapter.Sources.Add(new Source { File = $"{series}\\{volumeName}\\item\\xhtml\\{x}", SortOrder = $"{volOrder:000}{order:00}{sourceOrder:000}" });
+                                sourceOrder++;
+                            }
+                            files.RemoveRange(0, index);
+                        }
+
+                        var title = linesplit[2].Substring(1).Replace("</a></li>", string.Empty);
+                        chapter = new Chapter
+                        {
+                            Name = title,
+                        };
+                        chapter.SortOrder = (volOrder * 100 + order).ToString("00000");
+                        order++;
+                        ob.Chapters[0].Chapters.Add(chapter);
+                    }
+                }
+            }
+
+            return order;
+        }
+
+        private static void ProcessLN(string? volumeName, int volOrder, Omnibus ob, ref int order, package content, List<string> imageFiles, string textFolder, string opfFolder, Func<string, string> inFolder)
+        {
+            List<string> chapterFiles = new List<string>();
+
+            foreach (var line in content.spine)
+            {
+                var item = content.manifest.FirstOrDefault(x => x.Id.Equals(line.Id, StringComparison.InvariantCultureIgnoreCase))?.Href;
+
+                if ((item.Contains('.') && !(item.Contains(".xhtml") || item.Contains(".html")))
+                    || item.StartsWith("\"signup")
+                    || item.StartsWith("\"copyright"))
+                {
+
+                }
+                else if (item.Contains('_') || item.StartsWith("\"insert"))
+                {
+                    chapterFiles.Add(item);
+                }
+                else
+                {
+                    if (chapterFiles.Any())
+                    {
+                        var chapter = new Chapter();
+                        chapter.SortOrder = (volOrder * 100 + order).ToString("00000");
+                        order++;
+                        foreach (var c in chapterFiles)
+                        {
+                            //if (File.Exists(Ext($"{textFolder}\\{c}")))
+                            //    chapter.Sources.Add(new Source { File = Ext($"{textFolder}\\{c}").Replace(inFolder, string.Empty), SortOrder = chapter.SortOrder + chapter.Sources.Count.ToString("00") });
+                            if (File.Exists(Ext($"{opfFolder}\\{c}")))
+                                chapter.Sources.Add(new Source { File = inFolder(Ext($"{opfFolder}\\{c}")), SortOrder = chapter.SortOrder + chapter.Sources.Count.ToString("00") });
+                        }
+
+                        var chapterContent = File.ReadAllText(chapter.Sources[0].File);
+                        chapter.Name = chapterTitleRegex.Match(chapterContent).Value.Replace("<h1>", string.Empty).Replace("</h1>", string.Empty);
+                        if (string.IsNullOrWhiteSpace(chapter.Name)) chapter.Name = chapter.SortOrder;
+
+
+                        AddChapter(chapter, ob.Chapters[0], volumeName, volOrder, imageFiles);
+
+                        foreach (var file in chapter.Sources.Skip(1))
+                        {
+                            chapterContent = string.Concat(chapterContent, File.ReadAllText(file.File));
+                        }
+
+                        Chapter subChapter = null;
+                        foreach (Match subHeader in chapterSubTitleRegex.Matches(chapterContent).Where(x => !string.Equals(x.Value, "<h2>I</h2>")))
+                        {
+                            if (subChapter != null)
+                            {
+                                subChapter.EndsBeforeLine = subHeader.Value;
+                            }
+                            else
+                            {
+                                chapter.EndsBeforeLine = subHeader.Value;
+                            }
+                            subChapter = new Chapter
+                            {
+                                CType = chapter.CType,
+                                StartsAtLine = subHeader.Value,
+                                Name = subHeader.Value,
+                                SortOrder = chapter.Chapters.Count.ToString("000"),
+                                Sources = new System.Collections.ObjectModel.ObservableCollection<Source>(chapter.Sources)
+                            };
+                            chapter.Chapters.Add(subChapter);
+                        }
+
+                    }
+                    chapterFiles.Clear();
+                    chapterFiles.Add(item);
+                }
+            }
+
+            var finalChapter = new Chapter { SortOrder = (volOrder * 100 + order).ToString("00000") };
+            foreach (var c in chapterFiles)
+            {
+                //if (File.Exists(Ext($"{textFolder}\\{c}")))
+                //    finalChapter.Sources.Add(new Source { File = Ext($"{textFolder}\\{c}"), SortOrder = finalChapter.SortOrder + finalChapter.Sources.Count.ToString("00") });
+                //else 
+                if (File.Exists(Ext($"{opfFolder}\\{c}")))
+                    finalChapter.Sources.Add(new Source { File = inFolder(Ext($"{opfFolder}\\{c}")), SortOrder = finalChapter.SortOrder + finalChapter.Sources.Count.ToString("00") });
+            }
+            var finalChapterContent = File.ReadAllText(finalChapter.Sources[0].File);
+            finalChapter.Name = chapterTitleRegex.Match(finalChapterContent).Value.Replace("<h1>", string.Empty).Replace("</h1>", string.Empty);
+            if (string.IsNullOrWhiteSpace(finalChapter.Name)) finalChapter.Name = finalChapter.SortOrder;
+            AddChapter(finalChapter, ob.Chapters[0], volumeName, volOrder, imageFiles);
+
+            foreach (var file in finalChapter.Sources.Skip(1))
+            {
+                finalChapterContent = string.Concat(finalChapterContent, File.ReadAllText(file.File));
+            }
+
+            Chapter finalSubChapter = null;
+            foreach (Match subHeader in chapterSubTitleRegex.Matches(finalChapterContent))
+            {
+                if (finalSubChapter != null)
+                {
+                    finalSubChapter.EndsBeforeLine = subHeader.Value;
+                }
+                else
+                {
+                    finalChapter.EndsBeforeLine = subHeader.Value;
+                }
+                finalSubChapter = new Chapter
+                {
+                    CType = finalChapter.CType,
+                    StartsAtLine = subHeader.Value,
+                    Name = subHeader.Value,
+                    SortOrder = finalChapter.Chapters.Count.ToString("000"),
+                    Sources = new System.Collections.ObjectModel.ObservableCollection<Source>(finalChapter.Sources)
+                };
+                finalChapter.Chapters.Add(finalSubChapter);
+            }
+
+            foreach (var file in imageFiles)
+            {
+                //if (file.Contains("insert"))
+                //{
+                //    AddImage(file, volume.Gallery[0].ChapterImages);
+                //}
+                //else
+                //{
+                //    AddImage(file, volume.Gallery[0].SplashImages);
+                //}
+            }
+            //volume.Gallery[0].SubFolder = $"{volOrder}-{volumeName}";
+        }
+
         private static string Ext(string str)
         {
             if (str.EndsWith(".xhtml", StringComparison.InvariantCultureIgnoreCase)) return str;
+            if (str.EndsWith(".html", StringComparison.InvariantCultureIgnoreCase)) return str;
             return $"{str}.xhtml";
         }
 
@@ -275,5 +312,29 @@ namespace OBB_WPF.Editor
             }
             parentChapter.Chapters.Add(chapter);
         }
+    }
+    [Serializable, XmlRoot(ElementName = "package", Namespace = "http://www.idpf.org/2007/opf")]
+    [XmlType("package")]
+    public class package
+    {
+        public Metadata metadata { get; set; }
+        public List<item> manifest { get; set; }
+        public List<itemref> spine { get; set; }
+    }
+    public class Metadata
+    {
+
+    }
+    public class item
+    {
+        [XmlAttribute("id")]
+        public string Id { get; set; }
+        [XmlAttribute("href")]
+        public string Href { get; set; }
+    }
+    public class itemref
+    {
+        [XmlAttribute("idref")]
+        public string Id { get; set; }
     }
 }

@@ -269,7 +269,7 @@ namespace OBB_WPF
                     {
                         try
                         {
-                            var entry = inProcessor.Chapters.First(x => ($"{inFolder}\\{x.SubFolder}\\{x.Name}.xhtml").Equals(chapterFile.File, StringComparison.InvariantCultureIgnoreCase));
+                            var entry = inProcessor.Chapters.First(x => $"{inFolder}\\{x.SubFolder}\\{x.Name}.xhtml".Equals(chapterFile.File, StringComparison.InvariantCultureIgnoreCase) || $"{inFolder}\\{x.SubFolder}\\{x.Name}.html".Equals(chapterFile.File, StringComparison.InvariantCultureIgnoreCase));
                             newChapter.CssFiles.AddRange(entry.CssFiles);
                             var fileContent = entry.Contents;
 

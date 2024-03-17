@@ -55,7 +55,11 @@ namespace OBB_WPF.Custom
                         this.Close();
                     }
                 }
+#if DEBUG
+                await JSON.Save("..\\..\\..\\JSON\\CustomSeries.json", MainWindow.CustomSeries);
+#else
                 await JSON.Save("JSON\\CustomSeries.json", MainWindow.CustomSeries);
+#endif
             }
         }
     }

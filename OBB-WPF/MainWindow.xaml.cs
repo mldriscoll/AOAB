@@ -39,26 +39,12 @@ namespace OBB_WPF
         {
             Configuration = (await JSON.Load<Configuration>("Configuration.json")) ?? new Configuration();
 #if DEBUG
-            if (File.Exists($"..\\..\\..\\JSON\\Series.json"))
-            {
-                using (var stream = File.OpenRead($"..\\..\\..\\JSON\\Series.json"))
-                {
-                    Series = await JsonSerializer.DeserializeAsync<List<Series>>(stream);
-                }
-            }
+            Series = await JSON.Load<List<Series>>($"..\\..\\..\\JSON\\Series.json") ?? new List<Series>();
+            CustomSeries = await JSON.Load<List<Series>>("..\\..\\..\\JSON\\CustomSeries.json") ?? new List<Series>();
 #else
-            if (File.Exists($"JSON\\Series.json"))
-            {
-                using (var stream = File.OpenRead($"JSON\\Series.json"))
-                {
-                    Series = await JsonSerializer.DeserializeAsync<List<Series>>(stream);
-                }
-            }
+            Series = await JSON.Load<List<Series>>($"JSON\\Series.json") ?? new List<Series>();
+            CustomSeries = await JSON.Load<List<Series>>("JSON\\CustomSeries.json") ?? new List<Series>();
 #endif
-            if (File.Exists($"JSON\\CustomSeries.json"))
-            {
-                CustomSeries = await JSON.Load<List<Series>>("JSON\\CustomSeries.json");
-            }
             Draw();
         }
 
@@ -121,7 +107,7 @@ namespace OBB_WPF
                 }
             }
 
-            foreach (var series in CustomSeries.Where(x => x.Volumes.Any(y => File.Exists(Configuration.SourceFolder + "\\" + y.FileName) || File.Exists(y.FileName))))
+            foreach (var series in Series.Union(CustomSeries).Where(x => x.Volumes.Any(y => File.Exists(Configuration.SourceFolder + "\\" + y.FileName) || File.Exists(y.FileName))))
             {
                 var totalBooks = series.Volumes.Count;
                 var availableBooks = series.Volumes.Where(x => File.Exists(Configuration.SourceFolder + "\\" + x.FileName)).ToList();
