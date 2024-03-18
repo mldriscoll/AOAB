@@ -21,6 +21,9 @@ using Microsoft.Win32;
 using System.Text.Json;
 using OBB_WPF.Library;
 using OBB_WPF.Editor;
+using SixLabors.ImageSharp.PixelFormats;
+using SixLabors.ImageSharp;
+using SixLabors.ImageSharp.Processing;
 
 namespace OBB_WPF
 {
