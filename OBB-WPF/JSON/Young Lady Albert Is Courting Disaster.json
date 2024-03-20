@@ -80,6 +80,30 @@
       "Alternates": [],
       "OtherSide": null,
       "SortOrder": "1040200"
+    },
+    {
+      "File": "Young Lady Albert Is Courting Disaster\\young-lady-albert-is-courting-disaster-volume-5\\OEBPS\\Text\\copyright.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1051700"
+    },
+    {
+      "File": "Young Lady Albert Is Courting Disaster\\young-lady-albert-is-courting-disaster-volume-5\\OEBPS\\Text\\signup.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1051600"
+    },
+    {
+      "File": "Young Lady Albert Is Courting Disaster\\young-lady-albert-is-courting-disaster-volume-5\\OEBPS\\Text\\toc.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1050400"
+    },
+    {
+      "File": "Young Lady Albert Is Courting Disaster\\young-lady-albert-is-courting-disaster-volume-5\\OEBPS\\Text\\cover.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1050100"
     }
   ],
   "Chapters": [
@@ -1204,6 +1228,306 @@
       ]
     },
     {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "Alicia's Legitimacy",
+      "SortOrder": "105",
+      "Sources": [
+        {
+          "File": "Young Lady Albert Is Courting Disaster\\young-lady-albert-is-courting-disaster-volume-5\\OEBPS\\Text\\bonus.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1051500"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "Chapters": [
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Character Sheet",
+          "SortOrder": "10502",
+          "Sources": [
+            {
+              "File": "Young Lady Albert Is Courting Disaster\\young-lady-albert-is-courting-disaster-volume-5\\OEBPS\\Text\\characters1.xhtml",
+              "Alternates": [],
+              "OtherSide": {
+                "File": "Young Lady Albert Is Courting Disaster\\young-lady-albert-is-courting-disaster-volume-5\\OEBPS\\Text\\characters2.xhtml",
+                "Alternates": [],
+                "OtherSide": null,
+                "SortOrder": "1050300"
+              },
+              "SortOrder": "1050200"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Prologue",
+          "SortOrder": "10505",
+          "Sources": [
+            {
+              "File": "Young Lady Albert Is Courting Disaster\\young-lady-albert-is-courting-disaster-volume-5\\OEBPS\\Text\\prologue.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1050500"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter 1",
+          "SortOrder": "10506",
+          "Sources": [
+            {
+              "File": "Young Lady Albert Is Courting Disaster\\young-lady-albert-is-courting-disaster-volume-5\\OEBPS\\Text\\chapter1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1050600"
+            },
+            {
+              "File": "Young Lady Albert Is Courting Disaster\\young-lady-albert-is-courting-disaster-volume-5\\OEBPS\\Text\\insert1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1050601"
+            },
+            {
+              "File": "Young Lady Albert Is Courting Disaster\\young-lady-albert-is-courting-disaster-volume-5\\OEBPS\\Text\\chapter1_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1050602"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter 2",
+          "SortOrder": "10507",
+          "Sources": [
+            {
+              "File": "Young Lady Albert Is Courting Disaster\\young-lady-albert-is-courting-disaster-volume-5\\OEBPS\\Text\\chapter2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1050700"
+            },
+            {
+              "File": "Young Lady Albert Is Courting Disaster\\young-lady-albert-is-courting-disaster-volume-5\\OEBPS\\Text\\insert2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1050701"
+            },
+            {
+              "File": "Young Lady Albert Is Courting Disaster\\young-lady-albert-is-courting-disaster-volume-5\\OEBPS\\Text\\chapter2_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1050702"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter 3",
+          "SortOrder": "10508",
+          "Sources": [
+            {
+              "File": "Young Lady Albert Is Courting Disaster\\young-lady-albert-is-courting-disaster-volume-5\\OEBPS\\Text\\chapter3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1050800"
+            },
+            {
+              "File": "Young Lady Albert Is Courting Disaster\\young-lady-albert-is-courting-disaster-volume-5\\OEBPS\\Text\\insert3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1050801"
+            },
+            {
+              "File": "Young Lady Albert Is Courting Disaster\\young-lady-albert-is-courting-disaster-volume-5\\OEBPS\\Text\\chapter3_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1050802"
+            },
+            {
+              "File": "Young Lady Albert Is Courting Disaster\\young-lady-albert-is-courting-disaster-volume-5\\OEBPS\\Text\\insert4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1050803"
+            },
+            {
+              "File": "Young Lady Albert Is Courting Disaster\\young-lady-albert-is-courting-disaster-volume-5\\OEBPS\\Text\\chapter3_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1050804"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter 4",
+          "SortOrder": "10509",
+          "Sources": [
+            {
+              "File": "Young Lady Albert Is Courting Disaster\\young-lady-albert-is-courting-disaster-volume-5\\OEBPS\\Text\\chapter4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1050900"
+            },
+            {
+              "File": "Young Lady Albert Is Courting Disaster\\young-lady-albert-is-courting-disaster-volume-5\\OEBPS\\Text\\insert5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1050901"
+            },
+            {
+              "File": "Young Lady Albert Is Courting Disaster\\young-lady-albert-is-courting-disaster-volume-5\\OEBPS\\Text\\chapter4_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1050902"
+            },
+            {
+              "File": "Young Lady Albert Is Courting Disaster\\young-lady-albert-is-courting-disaster-volume-5\\OEBPS\\Text\\insert6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1050903"
+            },
+            {
+              "File": "Young Lady Albert Is Courting Disaster\\young-lady-albert-is-courting-disaster-volume-5\\OEBPS\\Text\\chapter4_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1050904"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter 5",
+          "SortOrder": "10510",
+          "Sources": [
+            {
+              "File": "Young Lady Albert Is Courting Disaster\\young-lady-albert-is-courting-disaster-volume-5\\OEBPS\\Text\\chapter5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1051000"
+            },
+            {
+              "File": "Young Lady Albert Is Courting Disaster\\young-lady-albert-is-courting-disaster-volume-5\\OEBPS\\Text\\insert7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1051001"
+            },
+            {
+              "File": "Young Lady Albert Is Courting Disaster\\young-lady-albert-is-courting-disaster-volume-5\\OEBPS\\Text\\chapter5_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1051002"
+            },
+            {
+              "File": "Young Lady Albert Is Courting Disaster\\young-lady-albert-is-courting-disaster-volume-5\\OEBPS\\Text\\insert8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1051003"
+            },
+            {
+              "File": "Young Lady Albert Is Courting Disaster\\young-lady-albert-is-courting-disaster-volume-5\\OEBPS\\Text\\chapter5_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1051004"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Epilogue",
+          "SortOrder": "10511",
+          "Sources": [
+            {
+              "File": "Young Lady Albert Is Courting Disaster\\young-lady-albert-is-courting-disaster-volume-5\\OEBPS\\Text\\epilogue.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1051100"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Crybaby Lady’s Point System",
+          "SortOrder": "10512",
+          "Sources": [
+            {
+              "File": "Young Lady Albert Is Courting Disaster\\young-lady-albert-is-courting-disaster-volume-5\\OEBPS\\Text\\side1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1051200"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Beneath the Starry Sky",
+          "SortOrder": "10513",
+          "Sources": [
+            {
+              "File": "Young Lady Albert Is Courting Disaster\\young-lady-albert-is-courting-disaster-volume-5\\OEBPS\\Text\\side2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1051300"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        }
+      ]
+    },
+    {
       "CType": 2,
       "ChapType": "NonStory",
       "Name": "Afterwords",
@@ -1278,6 +1602,24 @@
               "Alternates": [],
               "OtherSide": null,
               "SortOrder": "1041100"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Alicia's Legitimacy",
+          "SortOrder": "10514",
+          "Sources": [
+            {
+              "File": "Young Lady Albert Is Courting Disaster\\young-lady-albert-is-courting-disaster-volume-5\\OEBPS\\Text\\afterword.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1051400"
             }
           ],
           "LinkedChapters": [],
