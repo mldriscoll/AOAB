@@ -2196,13 +2196,332 @@
       "Year": 9,
       "Season": "Autumn",
       "ProcessedInPartFive": true,
-      "PartSheet": true
+      "PartSheet": false
     },
     "Afterword": {
       "OriginalFilenames": [ "afterword" ],
       "SortOrder": "050897",
       "ChapterName": "LN508 Afterword",
       "Volume": "0508",
+      "Year": 9,
+      "Season": "Spring",
+      "ProcessedInPartFive": true
+    }
+  },
+  {
+    "InternalName": "LN0509",
+    "Gallery": {
+      "SplashImages": [ "bonus2", "bonus1" ],
+      "ChapterImages": [ "insert1", "insert2", "insert3", "insert4", "insert5", "insert6", "insert7", "insert8", "insert9", "insert10" ],
+      "EarlySortOrder": "0509",
+      "LateSortOrder": "050999",
+      "ChapterName": "LN509",
+      "AltName": "Volume 9",
+      "Volume": "0509",
+      "EarlyYear": 9,
+      "EarlySeason": "Spring",
+      "LateYear": 9,
+      "LateSeason": "Spring",
+      "ProcessedInPartFive": true
+    },
+    "POVChapters": [
+      {
+        "OriginalFilenames": [ "prologue" ],
+        "SortOrder": "050900a",
+        "POV": "Grausam",
+        "ChapterName": "Prologue",
+        "Volume": "0509",
+        "Year": 9,
+        "Season": "Spring",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartFive": true,
+        "Source": "P5V9"
+      },
+      {
+        "OriginalFilenames": [ "chapter18", "insert7", "chapter18_1" ],
+        "SortOrder": "050918",
+        "POV": "Gervasio",
+        "ChapterName": "Epilogue",
+        "Volume": "0509",
+        "Year": 9,
+        "Season": "Spring",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartFive": true,
+        "Source": "P5V9"
+      }
+    ],
+    "BonusChapters": [
+      {
+        "OriginalFilenames": [ "chapter19", "insert8", "chapter19_1", "insert9", "chapter19_2", "insert10", "chapter19_3" ],
+        "EarlySortOrder": "050819e",
+        "LateSortOrder": "050996a",
+        "POV": "Charlotte",
+        "ChapterName": "Supporters of the Rear Guard",
+        "Volume": "0509",
+        "EarlyYear": 9,
+        "EarlySeason": "Spring",
+        "LateYear": 9,
+        "LateSeason": "Spring",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartFive": true,
+        "Source": "P5V9 Extra 1 (1)",
+        "StartLine": "<h2>Charlotte — Supporters of the Rear Guard</h2>",
+        "EndLine": "<h2>Leckle — The Battle for the West Gate</h2>"
+      },
+      {
+        "OriginalFilenames": [ "chapter19", "insert8", "chapter19_1", "insert9", "chapter19_2", "insert10", "chapter19_3" ],
+        "EarlySortOrder": "050900b",
+        "LateSortOrder": "050996b",
+        "POV": "Leckle",
+        "ChapterName": "The Battle for the West Gate",
+        "Volume": "0509",
+        "EarlyYear": 9,
+        "EarlySeason": "Spring",
+        "LateYear": 9,
+        "LateSeason": "Spring",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartFive": true,
+        "Source": "P5V9 Extra 1 (2)",
+        "StartLine": "<h2>Leckle — The Battle for the West Gate</h2>",
+        "EndLine": "<h2>Judithe — Those Left Behind</h2>"
+      },
+      {
+        "OriginalFilenames": [ "chapter19", "insert8", "chapter19_1", "insert9", "chapter19_2", "insert10", "chapter19_3" ],
+        "EarlySortOrder": "050901b",
+        "LateSortOrder": "050996c",
+        "POV": "Judithe",
+        "ChapterName": "Those Left Behind",
+        "Volume": "0509",
+        "EarlyYear": 9,
+        "EarlySeason": "Spring",
+        "LateYear": 9,
+        "LateSeason": "Spring",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartFive": true,
+        "Source": "P5V9 Extra 1 (3)",
+        "StartLine": "<h2>Judithe — Those Left Behind</h2>",
+        "EndLine": "<h2>Florencia — At the Ivory Tower</h2>"
+      },
+      {
+        "OriginalFilenames": [ "chapter19", "insert8", "chapter19_1", "insert9", "chapter19_2", "insert10", "chapter19_3" ],
+        "EarlySortOrder": "050901c",
+        "LateSortOrder": "050996d",
+        "POV": "Florencia",
+        "ChapterName": "At the Ivory Tower",
+        "Volume": "0509",
+        "EarlyYear": 9,
+        "EarlySeason": "Spring",
+        "LateYear": 9,
+        "LateSeason": "Spring",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartFive": true,
+        "Source": "P5V9 Extra 1 (4)",
+        "StartLine": "<h2>Florencia — At the Ivory Tower</h2>",
+        "EndLine": "<h2>Sylvester — The Battle for the Foundation</h2>"
+      },
+      {
+        "OriginalFilenames": [ "chapter19", "insert8", "chapter19_1", "insert9", "chapter19_2", "insert10", "chapter19_3" ],
+        "EarlySortOrder": "050903b",
+        "LateSortOrder": "050996e",
+        "POV": "Sylvester",
+        "ChapterName": "The Battle for the Foundation",
+        "Volume": "0509",
+        "EarlyYear": 9,
+        "EarlySeason": "Spring",
+        "LateYear": 9,
+        "LateSeason": "Spring",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartFive": true,
+        "Source": "P5V9 Extra 1 (5)",
+        "StartLine": "<h2>Sylvester — The Battle for the Foundation</h2>"
+      }
+    ],
+    "Chapters": [
+      {
+        "OriginalFilenames": [ "chapter1", "insert1", "chapter1_1" ],
+        "SortOrder": "050901a",
+        "ChapterName": "Gerlach's Front Line",
+        "Volume": "0509",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter2" ],
+        "SortOrder": "050902",
+        "ChapterName": "Confronting Grausam",
+        "Volume": "0509",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter3" ],
+        "SortOrder": "050903a",
+        "ChapterName": "Victory and Return",
+        "Volume": "0509",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter4", "insert2", "chapter4_1" ],
+        "SortOrder": "050904",
+        "ChapterName": "Everyone’s Tales of Heroism",
+        "Volume": "0509",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter5" ],
+        "SortOrder": "050905",
+        "ChapterName": "Celebratory Feast",
+        "Volume": "0509",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter6" ],
+        "SortOrder": "050906",
+        "ChapterName": "A Sleepless Night",
+        "Volume": "0509",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter7", "insert3", "chapter7_1" ],
+        "SortOrder": "050907",
+        "ChapterName": "Late-Night Tea Party",
+        "Volume": "0509",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter8", "insert4", "chapter8_1" ],
+        "SortOrder": "050908",
+        "ChapterName": "Fitting",
+        "Volume": "0509",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter9" ],
+        "SortOrder": "050909",
+        "ChapterName": "Following My Heart",
+        "Volume": "0509",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter10" ],
+        "SortOrder": "050910",
+        "ChapterName": "Lunch Meeting",
+        "Volume": "0509",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter11" ],
+        "SortOrder": "050911",
+        "ChapterName": "The Temple and Melchior’s Report",
+        "Volume": "0509",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter12", "insert5", "chapter12_1" ],
+        "SortOrder": "050912",
+        "ChapterName": "The West Gate and Groundwork",
+        "Volume": "0509",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter13" ],
+        "SortOrder": "050913",
+        "ChapterName": "To Ahrensbach",
+        "Volume": "0509",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter14" ],
+        "SortOrder": "050914",
+        "ChapterName": "Making the Bible",
+        "Volume": "0509",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter15", "insert6", "chapter15_1" ],
+        "SortOrder": "050915",
+        "ChapterName": "Dunkelfelger’s Request",
+        "Volume": "0509",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter16" ],
+        "SortOrder": "050916",
+        "ChapterName": "Dunkelfelger’s Response",
+        "Volume": "0509",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter17" ],
+        "SortOrder": "050917",
+        "ChapterName": "Prayers and the Departure",
+        "Volume": "0509",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      }
+    ],
+    "ComfyLifeChapter": {
+      "OriginalFilenames": [ "manga1", "manga2" ],
+      "SortOrder": "050998",
+      "ChapterName": "Comfy Life 509",
+      "Volume": "0509",
+      "Year": 9,
+      "Season": "Spring",
+      "ProcessedInPartFive": true
+    },
+    "CharacterSheet": {
+      "OriginalFilenames": [ "characters1", "characters2", "characters3" ],
+      "SortOrder": "0509",
+      "ChapterName": "Avatar of a Goddess Characters",
+      "Volume": "0509",
+      "Year": 9,
+      "Season": "Spring",
+      "ProcessedInPartFive": true,
+      "PartSheet": true
+    },
+    "Afterword": {
+      "OriginalFilenames": [ "afterword" ],
+      "SortOrder": "050997",
+      "ChapterName": "LN509 Afterword",
+      "Volume": "0509",
       "Year": 9,
       "Season": "Spring",
       "ProcessedInPartFive": true

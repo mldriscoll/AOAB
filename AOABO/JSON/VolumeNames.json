@@ -321,5 +321,11 @@
     "FileName": "Ascendance of a Bookworm (Manga) Part 2 Volume 8_{0}.epub",
     "Quality": [ "3840", "2560", "1400" ],
     "OutputUnusedFiles": false
+  },
+  {
+    "InternalName": "LN0509",
+    "ApiSlug": "ascendance-of-a-bookworm-part-5-volume-9",
+    "FileName": "ascendance-of-a-bookworm-part-5-volume-9.epub",
+    "OutputUnusedFiles": true
   }
 ]
