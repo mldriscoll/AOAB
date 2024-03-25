@@ -92,36 +92,29 @@ namespace OBB_WPF
         {
             await Unpacker.Unpack(series);
 
-            omnibus = new Omnibus
-            {
-                Name = series.Name,
-                Author = series.Author,
-                AuthorSort = series.AuthorSort,
-            };
 
 #if DEBUG
-            if (File.Exists($"..\\..\\..\\JSON\\{omnibus.Name}.json"))
-            {
-                using (var stream = File.OpenRead($"..\\..\\..\\JSON\\{omnibus.Name}.json"))
-                {
-                    omnibus = await JsonSerializer.DeserializeAsync<Omnibus>(stream);
-                }
-            }
+            omnibus = await JSON.Load<Omnibus>($"..\\..\\..\\JSON\\{series.InternalName}.json");
 #else
-            if (File.Exists($"JSON\\{omnibus.Name}.json"))
-            {
-                using (var stream = File.OpenRead($"JSON\\{omnibus.Name}.json"))
-                {
-                    omnibus = await JsonSerializer.DeserializeAsync<Omnibus>(stream);
-                }
-            }
+            omnibus = await JSON.Load<Omnibus>($"JSON\\{series.InternalName}.json");
 #endif
+            if (omnibus == null)
+            {
+                omnibus = new Omnibus
+                {
+                    Name = series.Name,
+                    Author = series.Author,
+                    AuthorSort = series.AuthorSort
+                };
+            }
+
+            omnibus.InternalName = series.InternalName;
 
             foreach (var vol in series.Volumes.Where(x => !x.EditedBy.Any()))
             {
                 try
                 {
-                    var ob = Importer.GenerateVolumeInfo($"{omnibus.Name}\\{vol.ApiSlug}", omnibus.Name, vol.ApiSlug, vol.Order);
+                    var ob = Importer.GenerateVolumeInfo($"{omnibus.InternalName}\\{vol.ApiSlug}", omnibus.Name, vol.ApiSlug, vol.Order);
                     omnibus.Combine(ob);
                 }
                 catch(Exception ex)
@@ -256,7 +249,7 @@ namespace OBB_WPF
             omnibus.Sort();
 
 #if DEBUG
-            var omnibusFile = $"..\\..\\..\\JSON\\{omnibus.Name}.json";
+            var omnibusFile = $"..\\..\\..\\JSON\\{omnibus.InternalName}.json";
             var seriesFile = $"..\\..\\..\\JSON\\Series.json";
 #else
             var omnibusFile = $"JSON\\{omnibus.Name}.json";

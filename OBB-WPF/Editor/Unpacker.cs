@@ -8,11 +8,11 @@ namespace OBB_WPF.Editor
     {
         public static Task Unpack(Series series)
         {
-            if (!Directory.Exists(series.Name)) Directory.CreateDirectory(series.Name);
+            if (!Directory.Exists(series.InternalName)) Directory.CreateDirectory(series.InternalName);
 
             foreach (var volume in series.Volumes.Where(x => File.Exists($"{MainWindow.Configuration.SourceFolder}\\{x.FileName}")))
             {
-                var directory = $"{series.Name}\\{volume.ApiSlug}";
+                var directory = $"{series.InternalName}\\{volume.ApiSlug}";
                 if (!Directory.Exists(directory)) ZipFile.ExtractToDirectory($"{MainWindow.Configuration.SourceFolder}\\{volume.FileName}", directory);
                 else
                 {
@@ -28,7 +28,7 @@ namespace OBB_WPF.Editor
 
             foreach (var volume in series.Volumes.Where(x => File.Exists($"{x.FileName}")))
             {
-                var directory = $"{series.Name}\\{volume.ApiSlug}";
+                var directory = $"{series.InternalName}\\{volume.ApiSlug}";
                 if (!Directory.Exists(directory)) ZipFile.ExtractToDirectory($"{volume.FileName}", directory);
                 else
                 {

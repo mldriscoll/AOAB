@@ -37,7 +37,7 @@ namespace OBB_WPF
         public bool IncStoryChapters { get; set; } = true;
         public bool IncBonusChapters { get; set; } = true;
         public bool IncNonStoryChapters { get; set; } = true;
-        private static readonly Regex chapterTitleRegex = new Regex("<h1>[\\s\\S]*<\\/h1>");
+        private static readonly Regex chapterTitleRegex = new Regex("<h1>[\\s\\S]*?<\\/h1>");
         public bool UpdateChapterTitles { get; set; } = true;
         public string ImageWidth { get; set; }
         public string ImageHeight { get; set; }
@@ -112,7 +112,7 @@ namespace OBB_WPF
 
         public async Task Start(string outputFile)
         {
-            var inFolder = series.Name;
+            var inFolder = series.InternalName;
 
             if (!Directory.Exists(inFolder)) Directory.CreateDirectory(inFolder);
 
