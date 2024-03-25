@@ -19601,7 +19601,9 @@
         "ApiSlug": "vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream-volume-1",
         "FileName": "vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream-volume-1.epub",
         "Title": "VTuber Legend: How I Went Viral after Forgetting to Turn Off My Stream Volume 1",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2022-05-30",
         "Order": 101
       },
