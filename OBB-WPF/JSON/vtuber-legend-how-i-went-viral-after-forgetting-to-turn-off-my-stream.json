@@ -610,6 +610,60 @@
       "Alternates": [],
       "OtherSide": null,
       "SortOrder": "1052400"
+    },
+    {
+      "File": "vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream\\vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream-volume-6\\OEBPS\\Text\\Color1.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1061200"
+    },
+    {
+      "File": "vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream\\vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream-volume-6\\OEBPS\\Text\\Color2.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1061300"
+    },
+    {
+      "File": "vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream\\vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream-volume-6\\OEBPS\\Text\\Color3.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1061400"
+    },
+    {
+      "File": "vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream\\vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream-volume-6\\OEBPS\\Text\\Color4.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1060300"
+    },
+    {
+      "File": "vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream\\vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream-volume-6\\OEBPS\\Text\\copyright.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1062100"
+    },
+    {
+      "File": "vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream\\vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream-volume-6\\OEBPS\\Text\\cover.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1060100"
+    },
+    {
+      "File": "vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream\\vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream-volume-6\\OEBPS\\Text\\signup.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1062000"
+    },
+    {
+      "File": "vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream\\vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream-volume-6\\OEBPS\\Text\\Summary.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1060200"
+    },
+    {
+      "File": "vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream\\vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream-volume-6\\OEBPS\\Text\\toc.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1061900"
     }
   ],
   "Chapters": [
@@ -3474,9 +3528,22 @@
     {
       "CType": 0,
       "ChapType": "Story",
-      "Name": "vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream-volume-6",
+      "Name": "Volume 6",
       "SortOrder": "106",
-      "Sources": [],
+      "Sources": [
+        {
+          "File": "vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream\\vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream-volume-6\\OEBPS\\Text\\bonus1.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1061500"
+        },
+        {
+          "File": "vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream\\vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream-volume-6\\OEBPS\\Text\\bonus4.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1061800"
+        }
+      ],
       "LinkedChapters": [],
       "EndsBeforeLine": "",
       "StartsAtLine": "",
@@ -3484,50 +3551,20 @@
         {
           "CType": 0,
           "ChapType": "Story",
-          "Name": "10601",
-          "SortOrder": "10601",
+          "Name": "Character Sheets",
+          "SortOrder": "10600",
           "Sources": [
             {
-              "File": "vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream\\vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream-volume-6\\OEBPS\\Text\\cover.xhtml",
+              "File": "vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream\\vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream-volume-6\\OEBPS\\Text\\bonus2.xhtml",
               "Alternates": [],
               "OtherSide": null,
-              "SortOrder": "1060100"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "ChapType": "Story",
-          "Name": "10602",
-          "SortOrder": "10602",
-          "Sources": [
+              "SortOrder": "1061600"
+            },
             {
-              "File": "vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream\\vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream-volume-6\\OEBPS\\Text\\Summary.xhtml",
+              "File": "vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream\\vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream-volume-6\\OEBPS\\Text\\bonus3.xhtml",
               "Alternates": [],
               "OtherSide": null,
-              "SortOrder": "1060200"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "ChapType": "Story",
-          "Name": "10603",
-          "SortOrder": "10603",
-          "Sources": [
-            {
-              "File": "vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream\\vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream-volume-6\\OEBPS\\Text\\Color4.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "1060300"
+              "SortOrder": "1061700"
             }
           ],
           "LinkedChapters": [],
@@ -3800,204 +3837,6 @@
           "EndsBeforeLine": "",
           "StartsAtLine": "",
           "Chapters": []
-        },
-        {
-          "CType": 0,
-          "ChapType": "Story",
-          "Name": "Afterword",
-          "SortOrder": "10611",
-          "Sources": [
-            {
-              "File": "vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream\\vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream-volume-6\\OEBPS\\Text\\afterword.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "1061100"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "ChapType": "Story",
-          "Name": "10612",
-          "SortOrder": "10612",
-          "Sources": [
-            {
-              "File": "vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream\\vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream-volume-6\\OEBPS\\Text\\Color1.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "1061200"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "ChapType": "Story",
-          "Name": "10613",
-          "SortOrder": "10613",
-          "Sources": [
-            {
-              "File": "vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream\\vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream-volume-6\\OEBPS\\Text\\Color2.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "1061300"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "ChapType": "Story",
-          "Name": "10614",
-          "SortOrder": "10614",
-          "Sources": [
-            {
-              "File": "vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream\\vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream-volume-6\\OEBPS\\Text\\Color3.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "1061400"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "ChapType": "Story",
-          "Name": "10615",
-          "SortOrder": "10615",
-          "Sources": [
-            {
-              "File": "vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream\\vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream-volume-6\\OEBPS\\Text\\bonus1.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "1061500"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "ChapType": "Story",
-          "Name": "10616",
-          "SortOrder": "10616",
-          "Sources": [
-            {
-              "File": "vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream\\vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream-volume-6\\OEBPS\\Text\\bonus2.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "1061600"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "ChapType": "Story",
-          "Name": "10617",
-          "SortOrder": "10617",
-          "Sources": [
-            {
-              "File": "vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream\\vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream-volume-6\\OEBPS\\Text\\bonus3.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "1061700"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "ChapType": "Story",
-          "Name": "10618",
-          "SortOrder": "10618",
-          "Sources": [
-            {
-              "File": "vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream\\vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream-volume-6\\OEBPS\\Text\\bonus4.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "1061800"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "ChapType": "Story",
-          "Name": "Landmarks",
-          "SortOrder": "10619",
-          "Sources": [
-            {
-              "File": "vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream\\vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream-volume-6\\OEBPS\\Text\\toc.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "1061900"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "ChapType": "Story",
-          "Name": "10620",
-          "SortOrder": "10620",
-          "Sources": [
-            {
-              "File": "vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream\\vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream-volume-6\\OEBPS\\Text\\signup.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "1062000"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "ChapType": "Story",
-          "Name": "10621",
-          "SortOrder": "10621",
-          "Sources": [
-            {
-              "File": "vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream\\vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream-volume-6\\OEBPS\\Text\\copyright.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "1062100"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "Chapters": []
         }
       ]
     },
@@ -4094,6 +3933,24 @@
               "Alternates": [],
               "OtherSide": null,
               "SortOrder": "1051600"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Volume 6",
+          "SortOrder": "10611",
+          "Sources": [
+            {
+              "File": "vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream\\vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream-volume-6\\OEBPS\\Text\\afterword.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1061100"
             }
           ],
           "LinkedChapters": [],
