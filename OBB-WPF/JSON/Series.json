@@ -3065,6 +3065,37 @@
   },
   {
     "CustomSeries": false,
+    "Name": "Chivalry of a Failed Knight",
+    "InternalName": "chivalry-of-a-failed-knight",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "chivalry-of-a-failed-knight"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "chivalry-of-a-failed-knight-volume-1",
+        "FileName": "chivalry-of-a-failed-knight-volume-1.epub",
+        "Title": "Chivalry of a Failed Knight: Volume 1",
+        "EditedBy": [],
+        "Published": "2024-02-28",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "chivalry-of-a-failed-knight-volume-2",
+        "FileName": "chivalry-of-a-failed-knight-volume-2.epub",
+        "Title": "Chivalry of a Failed Knight: Volume 2",
+        "EditedBy": [],
+        "Published": "2024-06-28",
+        "Order": 102
+      }
+    ],
+    "Author": "Riku Misora",
+    "AuthorSort": "MISORA, RIKU"
+  },
+  {
+    "CustomSeries": false,
     "Name": "Clockwork Planet",
     "InternalName": "clockwork-planet",
     "ApiSlugs": [
@@ -5371,6 +5402,14 @@
         "EditedBy": [],
         "Published": "2024-03-20",
         "Order": 102
+      },
+      {
+        "ApiSlug": "forget-being-the-villainess-i-want-to-be-an-adventurer-manga-volume-3",
+        "FileName": "forget-being-the-villainess-i-want-to-be-an-adventurer-manga-volume-3.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2024-06-26",
+        "Order": 103
       }
     ],
     "Author": "Hiro Oda",
@@ -5615,6 +5654,14 @@
         "EditedBy": [],
         "Published": "2023-07-05",
         "Order": 105
+      },
+      {
+        "ApiSlug": "full-clearing-another-world-under-a-goddess-with-zero-believers-manga-volume-6",
+        "FileName": "full-clearing-another-world-under-a-goddess-with-zero-believers-manga-volume-6.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2024-06-12",
+        "Order": 106
       }
     ],
     "Author": "Isle Osaki",
@@ -7360,6 +7407,14 @@
         "EditedBy": [],
         "Published": "3333-03-03",
         "Order": 102
+      },
+      {
+        "ApiSlug": "i-got-hit-by-a-truck-but-i-wasn-t-sent-to-another-world-what-the-heck-sermon-57-6",
+        "FileName": "i-got-hit-by-a-truck-but-i-wasn-t-sent-to-another-world-what-the-heck-sermon-57-6.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "3333-03-03",
+        "Order": 103
       }
     ],
     "Author": "LeVon Jaymes",
@@ -8045,6 +8100,14 @@
         "EditedBy": [],
         "Published": "2024-02-21",
         "Order": 102
+      },
+      {
+        "ApiSlug": "i-want-to-escape-from-princess-lessons-manga-volume-3",
+        "FileName": "i-want-to-escape-from-princess-lessons-manga-volume-3.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2024-07-17",
+        "Order": 103
       }
     ],
     "Author": "Izumi Sawano",
@@ -8112,6 +8175,37 @@
     ],
     "Author": "Milli-gram",
     "AuthorSort": "MILLI-GRAM"
+  },
+  {
+    "CustomSeries": false,
+    "Name": "I'm a Noble on the Brink of Ruin, So I Might as Well Try Mastering Magic",
+    "InternalName": "i-m-a-noble-on-the-brink-of-ruin-so-i-might-as-well-try-mastering-magic",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "i-m-a-noble-on-the-brink-of-ruin-so-i-might-as-well-try-mastering-magic"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "i-m-a-noble-on-the-brink-of-ruin-so-i-might-as-well-try-mastering-magic-volume-1",
+        "FileName": "i-m-a-noble-on-the-brink-of-ruin-so-i-might-as-well-try-mastering-magic-volume-1.epub",
+        "Title": "I'm a Noble on the Brink of Ruin, So I Might as Well Try Mastering Magic: Volume 1",
+        "EditedBy": [],
+        "Published": "2024-04-04",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "i-m-a-noble-on-the-brink-of-ruin-so-i-might-as-well-try-mastering-magic-volume-2",
+        "FileName": "i-m-a-noble-on-the-brink-of-ruin-so-i-might-as-well-try-mastering-magic-volume-2.epub",
+        "Title": "I'm a Noble on the Brink of Ruin, So I Might as Well Try Mastering Magic: Volume 2",
+        "EditedBy": [],
+        "Published": "2024-07-05",
+        "Order": 102
+      }
+    ],
+    "Author": "Nazuna Miki",
+    "AuthorSort": "MIKI, NAZUNA"
   },
   {
     "CustomSeries": false,
@@ -8892,6 +8986,14 @@
         "EditedBy": [],
         "Published": "2023-12-06",
         "Order": 111
+      },
+      {
+        "ApiSlug": "infinite-dendrogram-manga-volume-12",
+        "FileName": "infinite-dendrogram-manga-volume-12.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2024-07-03",
+        "Order": 112
       }
     ],
     "Author": "Sakon Kaidou",
@@ -11058,6 +11160,14 @@
         "EditedBy": [],
         "Published": "2024-02-01",
         "Order": 109
+      },
+      {
+        "ApiSlug": "min-maxing-my-trpg-build-in-another-world-volume-9-canto-i",
+        "FileName": "min-maxing-my-trpg-build-in-another-world-volume-9-canto-i.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2024-08-09",
+        "Order": 110
       }
     ],
     "Author": "Schuld",
@@ -12510,6 +12620,14 @@
         "EditedBy": [],
         "Published": "2024-01-17",
         "Order": 103
+      },
+      {
+        "ApiSlug": "only-i-know-that-this-world-is-a-game-volume-4",
+        "FileName": "only-i-know-that-this-world-is-a-game-volume-4.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2024-05-29",
+        "Order": 104
       }
     ],
     "Author": "Usber",
@@ -13575,6 +13693,14 @@
         "EditedBy": [],
         "Published": "2024-04-05",
         "Order": 110
+      },
+      {
+        "ApiSlug": "reborn-to-master-the-blade-from-hero-king-to-extraordinary-squire-volume-11",
+        "FileName": "reborn-to-master-the-blade-from-hero-king-to-extraordinary-squire-volume-11.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2024-07-08",
+        "Order": 111
       }
     ],
     "Author": "Hayaken",
@@ -13764,6 +13890,14 @@
         "EditedBy": [],
         "Published": "2024-03-13",
         "Order": 107
+      },
+      {
+        "ApiSlug": "rebuild-world-manga-volume-8",
+        "FileName": "rebuild-world-manga-volume-8.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2024-06-05",
+        "Order": 108
       }
     ],
     "Author": "Nahuse",
@@ -14690,6 +14824,14 @@
         "EditedBy": [],
         "Published": "2023-07-26",
         "Order": 109
+      },
+      {
+        "ApiSlug": "seirei-gensouki-spirit-chronicles-manga-volume-10",
+        "FileName": "seirei-gensouki-spirit-chronicles-manga-volume-10.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2024-06-12",
+        "Order": 110
       }
     ],
     "Author": "Yuri Kitayama",
@@ -16274,6 +16416,14 @@
         "EditedBy": [],
         "Published": "2023-12-21",
         "Order": 106
+      },
+      {
+        "ApiSlug": "the-conqueror-from-a-dying-kingdom-volume-7",
+        "FileName": "the-conqueror-from-a-dying-kingdom-volume-7.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2024-07-17",
+        "Order": 107
       }
     ],
     "Author": "Fudeorca",
@@ -18242,6 +18392,37 @@
   },
   {
     "CustomSeries": false,
+    "Name": "The Otome Heroine's Fight for Survival (Manga)",
+    "InternalName": "the-otome-heroine-s-fight-for-survival-manga",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "the-otome-heroine-s-fight-for-survival-manga"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "the-otome-heroine-s-fight-for-survival-manga-volume-1",
+        "FileName": "the-otome-heroine-s-fight-for-survival-manga-volume-1.epub",
+        "Title": "The Otome Heroine's Fight for Survival (Manga): Volume 1",
+        "EditedBy": [],
+        "Published": "2024-04-03",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "the-otome-heroine-s-fight-for-survival-manga-volume-2",
+        "FileName": "the-otome-heroine-s-fight-for-survival-manga-volume-2.epub",
+        "Title": "The Otome Heroine's Fight for Survival (Manga): Volume 2",
+        "EditedBy": [],
+        "Published": "2024-06-12",
+        "Order": 102
+      }
+    ],
+    "Author": "Harunohi Biyori",
+    "AuthorSort": "BIYORI, HARUNOHI"
+  },
+  {
+    "CustomSeries": false,
     "Name": "The Reincarnated Princess Spends Another Day Skipping Story Routes",
     "InternalName": "the-reincarnated-princess-spends-another-day-skipping-story-routes",
     "ApiSlugs": [
@@ -19981,6 +20162,14 @@
         "EditedBy": [],
         "Published": "2024-04-05",
         "Order": 110
+      },
+      {
+        "ApiSlug": "when-supernatural-battles-became-commonplace-volume-11",
+        "FileName": "when-supernatural-battles-became-commonplace-volume-11.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2024-07-01",
+        "Order": 111
       }
     ],
     "Author": "Kota Nozomi",
