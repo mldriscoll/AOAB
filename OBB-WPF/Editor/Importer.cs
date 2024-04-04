@@ -69,7 +69,8 @@ namespace OBB_WPF.Editor
                 }
                 else
                 {
-                    order = ProcessManga(inFolder, series, volumeName, volOrder, ob, order);
+                    var dirInfo = new DirectoryInfo($"{inFolder}\\item\\xhtml\\");
+                    order = ProcessManga((str) => str.Replace(dirInfo.FullName, inFolder).Replace("/","\\"), series, volumeName, volOrder, ob, order, $"{inFolder}\\item\\xhtml\\");
                 }
             }
             catch(Exception ex)
@@ -80,10 +81,10 @@ namespace OBB_WPF.Editor
             return ob;
         }
 
-        private static int ProcessManga(string inFolder, string series, string? volumeName, int volOrder, Omnibus ob, int order)
+        private static int ProcessManga(Func<string, string> inFolder, string series, string? volumeName, int volOrder, Omnibus ob, int order, string textFolder)
         {
-            var nav = File.ReadAllLines($"{inFolder}\\item\\nav.xhtml").Select(x => x.Trim()).ToList();
-            var files = Directory.GetFiles($"{inFolder}\\item\\xhtml\\", "*.xhtml").Select(x => x.Replace($"{inFolder}\\item\\xhtml\\", string.Empty)).ToList();
+            var nav = File.ReadAllLines($"{textFolder}\\..\\nav.xhtml").Select(x => x.Trim()).ToList();
+            var files = Directory.GetFiles(textFolder, "*.xhtml").ToList();
 
             var incontents = false;
             Chapter chapter = null;
@@ -101,7 +102,7 @@ namespace OBB_WPF.Editor
                         incontents = false;
                         foreach (var x in files)
                         {
-                            chapter.Sources.Add(new Source { File = $"{series}\\{volumeName}\\item\\xhtml\\{x}", SortOrder = $"{volOrder:000}{order:00}{sourceOrder:000}" });
+                            chapter.Sources.Add(new Source { File = inFolder(Ext(x)), SortOrder = $"{volOrder:000}{order:00}{sourceOrder:000}" });
                             sourceOrder++;
                         }
                     }
@@ -116,10 +117,10 @@ namespace OBB_WPF.Editor
 
                         if (chapter != null)
                         {
-                            var index = files.IndexOf(firstPage);
+                            var index = files.IndexOf(files.FirstOrDefault(x => x.EndsWith(firstPage, StringComparison.InvariantCultureIgnoreCase)));
                             foreach (var x in files.Take(index))
                             {
-                                chapter.Sources.Add(new Source { File = $"{series}\\{volumeName}\\item\\xhtml\\{x}", SortOrder = $"{volOrder:000}{order:00}{sourceOrder:000}" });
+                                chapter.Sources.Add(new Source { File = inFolder(Ext(x)), SortOrder = $"{volOrder:000}{order:00}{sourceOrder:000}" });
                                 sourceOrder++;
                             }
                             files.RemoveRange(0, index);

@@ -460,7 +460,7 @@ namespace Core.Processor
             Chapters.Add(chapter);
 
             var text = File.ReadAllText(file);
-            var folders = file.Replace(baseFolder + "\\", string.Empty).Split('\\').ToList();
+            var folders = file.Substring((baseFolder + "\\").Length).Split('\\').ToList();
             var last = folders.Last();
             var index = last.IndexOf('-');
             if (index == -1 || DisableHyphenProcessing)
