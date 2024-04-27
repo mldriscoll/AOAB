@@ -252,6 +252,68 @@
   },
   {
     "CustomSeries": false,
+    "Name": "A Late-Start Tamer’s Laid-Back Life (Manga)",
+    "InternalName": "a-late-start-tamer-s-laid-back-life-manga",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "a-late-start-tamer-s-laid-back-life-manga"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "a-late-start-tamer-s-laid-back-life-manga-volume-1",
+        "FileName": "a-late-start-tamer-s-laid-back-life-manga-volume-1.epub",
+        "Title": "A Late-Start Tamer’s Laid-Back Life (Manga) Volume 1",
+        "EditedBy": [],
+        "Published": "2024-03-20",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "a-late-start-tamer-s-laid-back-life-manga-volume-2",
+        "FileName": "a-late-start-tamer-s-laid-back-life-manga-volume-2.epub",
+        "Title": "A Late-Start Tamer’s Laid-Back Life (Manga) Volume 2",
+        "EditedBy": [],
+        "Published": "2024-07-10",
+        "Order": 102
+      }
+    ],
+    "Author": "Yuu Tanaka",
+    "AuthorSort": "TANAKA, YUU"
+  },
+  {
+    "CustomSeries": false,
+    "Name": "A Livid Lady's Guide to Getting Even: How I Crushed My Homeland with My Mighty Grimoires",
+    "InternalName": "a-livid-lady-s-guide-to-getting-even-how-i-crushed-my-homeland-with-my-mighty-grimoires",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "a-livid-lady-s-guide-to-getting-even-how-i-crushed-my-homeland-with-my-mighty-grimoires"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "a-livid-lady-s-guide-to-getting-even-how-i-crushed-my-homeland-with-my-mighty-grimoires-volume-1",
+        "FileName": "a-livid-lady-s-guide-to-getting-even-how-i-crushed-my-homeland-with-my-mighty-grimoires-volume-1.epub",
+        "Title": "A Livid Lady's Guide to Getting Even: How I Crushed My Homeland with My Mighty Grimoires Volume 1",
+        "EditedBy": [],
+        "Published": "2024-04-26",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "a-livid-lady-s-guide-to-getting-even-how-i-crushed-my-homeland-with-my-mighty-grimoires-volume-2",
+        "FileName": "a-livid-lady-s-guide-to-getting-even-how-i-crushed-my-homeland-with-my-mighty-grimoires-volume-2.epub",
+        "Title": "A Livid Lady's Guide to Getting Even: How I Crushed My Homeland with My Mighty Grimoires Volume 2",
+        "EditedBy": [],
+        "Published": "2024-07-12",
+        "Order": 102
+      }
+    ],
+    "Author": "Hagure Metabo",
+    "AuthorSort": "METABO, HAGURE"
+  },
+  {
+    "CustomSeries": false,
     "Name": "A Livid Lady's Guide to Getting Even: How I Crushed My Homeland with My Mighty Grimoires (Manga)",
     "InternalName": "a-livid-lady-s-guide-to-getting-even-how-i-crushed-my-homeland-with-my-mighty-grimoires-manga",
     "ApiSlugs": [
@@ -1010,6 +1072,14 @@
         "EditedBy": [],
         "Published": "2024-06-08",
         "Order": 110
+      },
+      {
+        "ApiSlug": "an-archdemon-s-dilemma-how-to-love-your-elf-bride-manga-volume-11",
+        "FileName": "an-archdemon-s-dilemma-how-to-love-your-elf-bride-manga-volume-11.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2024-07-17",
+        "Order": 111
       }
     ],
     "Author": "Fuminori Teshima",
@@ -3714,6 +3784,14 @@
         "EditedBy": [],
         "Published": "2024-04-03",
         "Order": 102
+      },
+      {
+        "ApiSlug": "d-genesis-three-years-after-the-dungeons-appeared-manga-volume-3",
+        "FileName": "d-genesis-three-years-after-the-dungeons-appeared-manga-volume-3.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2024-07-24",
+        "Order": 103
       }
     ],
     "Author": "Tsuranori Kono",
@@ -3908,6 +3986,37 @@
         ],
         "Published": "2024-01-15",
         "Order": 107
+      }
+    ],
+    "Author": "Maito Ayamine",
+    "AuthorSort": "AYAMINE, MAITO"
+  },
+  {
+    "CustomSeries": false,
+    "Name": "Death's Daughter and the Ebony Blade (Manga)",
+    "InternalName": "death-s-daughter-and-the-ebony-blade-manga",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "death-s-daughter-and-the-ebony-blade-manga"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "death-s-daughter-and-the-ebony-blade-manga-volume-1",
+        "FileName": "death-s-daughter-and-the-ebony-blade-manga-volume-1.epub",
+        "Title": "Death's Daughter and the Ebony Blade (Manga) Volume 1",
+        "EditedBy": [],
+        "Published": "2024-04-10",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "death-s-daughter-and-the-ebony-blade-manga-volume-2",
+        "FileName": "death-s-daughter-and-the-ebony-blade-manga-volume-2.epub",
+        "Title": "Death's Daughter and the Ebony Blade (Manga) Volume 2",
+        "EditedBy": [],
+        "Published": "2024-07-17",
+        "Order": 102
       }
     ],
     "Author": "Maito Ayamine",
@@ -4232,6 +4341,14 @@
         "EditedBy": [],
         "Published": "2023-10-25",
         "Order": 110
+      },
+      {
+        "ApiSlug": "demon-lord-retry-r-manga-volume-6",
+        "FileName": "demon-lord-retry-r-manga-volume-6.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2024-06-19",
+        "Order": 111
       }
     ],
     "Author": "Kurone Kanzaki",
@@ -4682,6 +4799,14 @@
         "EditedBy": [],
         "Published": "2024-01-17",
         "Order": 107
+      },
+      {
+        "ApiSlug": "doll-kara-volume-8",
+        "FileName": "doll-kara-volume-8.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2024-07-03",
+        "Order": 108
       }
     ],
     "Author": "Kazuyoshi Ishii, Kei Ryuzoji",
@@ -4925,6 +5050,14 @@
         "EditedBy": [],
         "Published": "2024-05-02",
         "Order": 107
+      },
+      {
+        "ApiSlug": "dungeon-dive-aim-for-the-deepest-level-volume-8",
+        "FileName": "dungeon-dive-aim-for-the-deepest-level-volume-8.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2024-08-15",
+        "Order": 108
       }
     ],
     "Author": "Tarisa Warinai",
@@ -4980,6 +5113,14 @@
         "EditedBy": [],
         "Published": "2024-03-14",
         "Order": 105
+      },
+      {
+        "ApiSlug": "earl-and-fairy-volume-6",
+        "FileName": "earl-and-fairy-volume-6.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2024-06-27",
+        "Order": 106
       }
     ],
     "Author": "Mizue Tani",
@@ -6482,6 +6623,37 @@
   },
   {
     "CustomSeries": false,
+    "Name": "Heavenly Swords of the Twin Stars",
+    "InternalName": "heavenly-swords-of-the-twin-stars",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "heavenly-swords-of-the-twin-stars"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "heavenly-swords-of-the-twin-stars-volume-1",
+        "FileName": "heavenly-swords-of-the-twin-stars-volume-1.epub",
+        "Title": "Heavenly Swords of the Twin Stars: Volume 1",
+        "EditedBy": [],
+        "Published": "2024-03-25",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "heavenly-swords-of-the-twin-stars-volume-2",
+        "FileName": "heavenly-swords-of-the-twin-stars-volume-2.epub",
+        "Title": "Heavenly Swords of the Twin Stars: Volume 2",
+        "EditedBy": [],
+        "Published": "2024-06-26",
+        "Order": 102
+      }
+    ],
+    "Author": "Riku Nanano",
+    "AuthorSort": "NANANO, RIKU"
+  },
+  {
+    "CustomSeries": false,
     "Name": "Hell Mode",
     "InternalName": "hell-mode",
     "ApiSlugs": [
@@ -6585,6 +6757,14 @@
         "EditedBy": [],
         "Published": "2024-04-27",
         "Order": 103
+      },
+      {
+        "ApiSlug": "hell-mode-manga-volume-4",
+        "FileName": "hell-mode-manga-volume-4.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2024-08-07",
+        "Order": 104
       }
     ],
     "Author": "Hamuo/Mo",
@@ -8038,6 +8218,14 @@
         "EditedBy": [],
         "Published": "2024-04-29",
         "Order": 106
+      },
+      {
+        "ApiSlug": "i-surrendered-my-sword-for-a-new-life-as-a-mage-volume-7",
+        "FileName": "i-surrendered-my-sword-for-a-new-life-as-a-mage-volume-7.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2024-07-12",
+        "Order": 107
       }
     ],
     "Author": "Shin Kouduki",
@@ -9990,6 +10178,14 @@
         "EditedBy": [],
         "Published": "2024-04-29",
         "Order": 103
+      },
+      {
+        "ApiSlug": "knight-s-magic-volume-4",
+        "FileName": "knight-s-magic-volume-4.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2024-08-29",
+        "Order": 104
       }
     ],
     "Author": "Hisago Amazake-no",
@@ -10436,6 +10632,14 @@
         "EditedBy": [],
         "Published": "2024-05-10",
         "Order": 104
+      },
+      {
+        "ApiSlug": "let-this-grieving-soul-retire-volume-5",
+        "FileName": "let-this-grieving-soul-retire-volume-5.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2024-09-09",
+        "Order": 105
       }
     ],
     "Author": "Tsukikage",
@@ -10609,6 +10813,14 @@
         "EditedBy": [],
         "Published": "2024-05-02",
         "Order": 105
+      },
+      {
+        "ApiSlug": "magic-stone-gourmet-eating-magical-power-made-me-the-strongest-volume-6",
+        "FileName": "magic-stone-gourmet-eating-magical-power-made-me-the-strongest-volume-6.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2024-07-11",
+        "Order": 106
       }
     ],
     "Author": "Ryou Yuuki",
@@ -10711,10 +10923,49 @@
         "EditedBy": [],
         "Published": "2024-05-06",
         "Order": 107
+      },
+      {
+        "ApiSlug": "making-magic-the-sweet-life-of-a-witch-who-knows-an-infinite-mp-loophole-volume-8",
+        "FileName": "making-magic-the-sweet-life-of-a-witch-who-knows-an-infinite-mp-loophole-volume-8.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2024-07-17",
+        "Order": 108
       }
     ],
     "Author": "Aloha Zachou",
     "AuthorSort": "ZACHOU, ALOHA"
+  },
+  {
+    "CustomSeries": false,
+    "Name": "Management of a Novice Alchemist",
+    "InternalName": "management-of-a-novice-alchemist",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "management-of-a-novice-alchemist"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "management-of-a-novice-alchemist-volume-1",
+        "FileName": "management-of-a-novice-alchemist-volume-1.epub",
+        "Title": "Management of a Novice Alchemist: Volume 1",
+        "EditedBy": [],
+        "Published": "2024-03-11",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "management-of-a-novice-alchemist-volume-2",
+        "FileName": "management-of-a-novice-alchemist-volume-2.epub",
+        "Title": "Management of a Novice Alchemist: Volume 2",
+        "EditedBy": [],
+        "Published": "2024-06-26",
+        "Order": 102
+      }
+    ],
+    "Author": "Mizuho Itsuki",
+    "AuthorSort": "ITSUKI, MIZUHO"
   },
   {
     "CustomSeries": false,
@@ -11460,6 +11711,14 @@
         "EditedBy": [],
         "Published": "2023-11-28",
         "Order": 102
+      },
+      {
+        "ApiSlug": "moon-blossom-asura-the-ruthless-reincarnated-mercenary-forms-the-ultimate-army-volume-3",
+        "FileName": "moon-blossom-asura-the-ruthless-reincarnated-mercenary-forms-the-ultimate-army-volume-3.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2024-07-29",
+        "Order": 103
       }
     ],
     "Author": "Sou Hazuki",
@@ -12369,6 +12628,14 @@
         "EditedBy": [],
         "Published": "2024-03-04",
         "Order": 110
+      },
+      {
+        "ApiSlug": "my-stepmom-s-daughter-is-my-ex-volume-11",
+        "FileName": "my-stepmom-s-daughter-is-my-ex-volume-11.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2024-07-22",
+        "Order": 111
       }
     ],
     "Author": "Kyosuke Kamishiro",
@@ -12400,6 +12667,14 @@
         "EditedBy": [],
         "Published": "2024-05-06",
         "Order": 102
+      },
+      {
+        "ApiSlug": "nia-liston-the-merciless-maiden-volume-3",
+        "FileName": "nia-liston-the-merciless-maiden-volume-3.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2024-07-22",
+        "Order": 103
       }
     ],
     "Author": "Umikaze Minamino",
@@ -12542,6 +12817,14 @@
         "EditedBy": [],
         "Published": "2024-04-17",
         "Order": 105
+      },
+      {
+        "ApiSlug": "now-i-m-a-demon-lord-happily-ever-after-with-monster-girls-in-my-dungeon-manga-volume-6",
+        "FileName": "now-i-m-a-demon-lord-happily-ever-after-with-monster-girls-in-my-dungeon-manga-volume-6.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2024-06-12",
+        "Order": 106
       }
     ],
     "Author": "Ryuyu",
@@ -13748,6 +14031,14 @@
         "EditedBy": [],
         "Published": "2023-03-22",
         "Order": 104
+      },
+      {
+        "ApiSlug": "reborn-to-master-the-blade-from-hero-king-to-extraordinary-squire-manga-volume-5",
+        "FileName": "reborn-to-master-the-blade-from-hero-king-to-extraordinary-squire-manga-volume-5.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2024-07-17",
+        "Order": 105
       }
     ],
     "Author": "Hayaken",
@@ -13819,6 +14110,14 @@
         "EditedBy": [],
         "Published": "2024-05-10",
         "Order": 107
+      },
+      {
+        "ApiSlug": "rebuild-world-volume-5",
+        "FileName": "rebuild-world-volume-5.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2024-08-30",
+        "Order": 108
       }
     ],
     "Author": "Nahuse",
@@ -14459,6 +14758,37 @@
   },
   {
     "CustomSeries": false,
+    "Name": "RVing My Way into Exile with My Beloved Cat: This Villainess Is Trippin'",
+    "InternalName": "rving-my-way-into-exile-with-my-beloved-cat-this-villainess-is-trippin",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "rving-my-way-into-exile-with-my-beloved-cat-this-villainess-is-trippin"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "rving-my-way-into-exile-with-my-beloved-cat-this-villainess-is-trippin-volume-1",
+        "FileName": "rving-my-way-into-exile-with-my-beloved-cat-this-villainess-is-trippin-volume-1.epub",
+        "Title": "RVing My Way into Exile with My Beloved Cat: This Villainess Is Trippin' Volume 1",
+        "EditedBy": [],
+        "Published": "2024-02-07",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "rving-my-way-into-exile-with-my-beloved-cat-this-villainess-is-trippin-volume-2",
+        "FileName": "rving-my-way-into-exile-with-my-beloved-cat-this-villainess-is-trippin-volume-2.epub",
+        "Title": "RVing My Way into Exile with My Beloved Cat: This Villainess Is Trippin' Volume 2",
+        "EditedBy": [],
+        "Published": "2024-06-20",
+        "Order": 102
+      }
+    ],
+    "Author": "Punichan",
+    "AuthorSort": "PUNICHAN"
+  },
+  {
+    "CustomSeries": false,
     "Name": "Safe & Sound in the Arms of an Elite Knight",
     "InternalName": "safe-sound-in-the-arms-of-an-elite-knight",
     "ApiSlugs": [
@@ -14903,6 +15233,14 @@
         "EditedBy": [],
         "Published": "2024-05-08",
         "Order": 107
+      },
+      {
+        "ApiSlug": "seventh-volume-8",
+        "FileName": "seventh-volume-8.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2024-07-23",
+        "Order": 108
       }
     ],
     "Author": "Yomu Mishima",
@@ -15839,6 +16177,14 @@
         "EditedBy": [],
         "Published": "2024-04-26",
         "Order": 112
+      },
+      {
+        "ApiSlug": "tearmoon-empire-volume-13",
+        "FileName": "tearmoon-empire-volume-13.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2024-08-29",
+        "Order": 113
       }
     ],
     "Author": "Nozomu Mochitsuki",
@@ -16156,6 +16502,37 @@
         "Title": "The Banished Former Hero Lives as He Pleases: Volume 2",
         "EditedBy": [],
         "Published": "2024-07-01",
+        "Order": 102
+      }
+    ],
+    "Author": "Shin Kouduki",
+    "AuthorSort": "KOUDUKI, SHIN"
+  },
+  {
+    "CustomSeries": false,
+    "Name": "The Banished Former Hero Lives as He Pleases (Manga)",
+    "InternalName": "the-banished-former-hero-lives-as-he-pleases-manga",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "the-banished-former-hero-lives-as-he-pleases-manga"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "the-banished-former-hero-lives-as-he-pleases-manga-volume-1",
+        "FileName": "the-banished-former-hero-lives-as-he-pleases-manga-volume-1.epub",
+        "Title": "The Banished Former Hero Lives as He Pleases (Manga): Volume 1",
+        "EditedBy": [],
+        "Published": "2024-04-10",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "the-banished-former-hero-lives-as-he-pleases-manga-volume-2",
+        "FileName": "the-banished-former-hero-lives-as-he-pleases-manga-volume-2.epub",
+        "Title": "The Banished Former Hero Lives as He Pleases (Manga): Volume 2",
+        "EditedBy": [],
+        "Published": "2024-07-03",
         "Order": 102
       }
     ],
@@ -16533,6 +16910,14 @@
         "EditedBy": [],
         "Published": "2024-03-20",
         "Order": 102
+      },
+      {
+        "ApiSlug": "the-diary-of-a-middle-aged-sage-s-carefree-life-in-another-world-volume-3",
+        "FileName": "the-diary-of-a-middle-aged-sage-s-carefree-life-in-another-world-volume-3.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2024-07-31",
+        "Order": 103
       }
     ],
     "Author": "Kotobuki Yasukiyo",
@@ -16980,6 +17365,14 @@
         "EditedBy": [],
         "Published": "2024-05-13",
         "Order": 103
+      },
+      {
+        "ApiSlug": "the-frontier-lord-begins-with-zero-subjects-volume-4",
+        "FileName": "the-frontier-lord-begins-with-zero-subjects-volume-4.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2024-07-26",
+        "Order": 104
       }
     ],
     "Author": "Fuurou",
@@ -18354,6 +18747,14 @@
         "EditedBy": [],
         "Published": "2024-05-03",
         "Order": 102
+      },
+      {
+        "ApiSlug": "the-oblivious-saint-can-t-contain-her-power-forget-my-sister-turns-out-i-was-the-real-saint-all-along-volume-3",
+        "FileName": "the-oblivious-saint-can-t-contain-her-power-forget-my-sister-turns-out-i-was-the-real-saint-all-along-volume-3.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2024-07-26",
+        "Order": 103
       }
     ],
     "Author": "Almond",
@@ -18931,6 +19332,14 @@
         "EditedBy": [],
         "Published": "2023-11-02",
         "Order": 102
+      },
+      {
+        "ApiSlug": "the-troubles-of-miss-nicola-the-exorcist-volume-3",
+        "FileName": "the-troubles-of-miss-nicola-the-exorcist-volume-3.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2024-07-22",
+        "Order": 103
       }
     ],
     "Author": "Ito Iino",
@@ -19497,6 +19906,14 @@
         "EditedBy": [],
         "Published": "2024-04-17",
         "Order": 103
+      },
+      {
+        "ApiSlug": "this-art-club-has-a-problem-volume-4",
+        "FileName": "this-art-club-has-a-problem-volume-4.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2024-08-14",
+        "Order": 104
       }
     ],
     "Author": "Imigimuru",
@@ -19540,6 +19957,37 @@
     ],
     "Author": "Harayasu",
     "AuthorSort": "HARAYASU"
+  },
+  {
+    "CustomSeries": false,
+    "Name": "Through the Viewport: Child of a Ruined World",
+    "InternalName": "through-the-viewport-child-of-a-ruined-world",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "through-the-viewport-child-of-a-ruined-world"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "through-the-viewport-child-of-a-ruined-world-volume-1",
+        "FileName": "through-the-viewport-child-of-a-ruined-world-volume-1.epub",
+        "Title": "Through the Viewport: Child of a Ruined World Volume 1",
+        "EditedBy": [],
+        "Published": "2024-02-14",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "through-the-viewport-child-of-a-ruined-world-volume-2",
+        "FileName": "through-the-viewport-child-of-a-ruined-world-volume-2.epub",
+        "Title": "Through the Viewport: Child of a Ruined World Volume 2",
+        "EditedBy": [],
+        "Published": "2024-07-31",
+        "Order": 102
+      }
+    ],
+    "Author": "miaawa",
+    "AuthorSort": "MIAAWA"
   },
   {
     "CustomSeries": false,
@@ -19988,6 +20436,14 @@
         "EditedBy": [],
         "Published": "2023-06-20",
         "Order": 108
+      },
+      {
+        "ApiSlug": "welcome-to-japan-ms-elf-volume-9",
+        "FileName": "welcome-to-japan-ms-elf-volume-9.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2024-08-09",
+        "Order": 109
       }
     ],
     "Author": "Makishima Suzuki",
@@ -20591,5 +21047,36 @@
     ],
     "Author": "toshizou",
     "AuthorSort": "TOSHIZOU"
+  },
+  {
+    "CustomSeries": false,
+    "Name": "Zilbagias the Demon Prince: How the Seventh Prince Brought Down the Kingdom",
+    "InternalName": "zilbagias-the-demon-prince-how-the-seventh-prince-brought-down-the-kingdom",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "zilbagias-the-demon-prince-how-the-seventh-prince-brought-down-the-kingdom"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "zilbagias-the-demon-prince-how-the-seventh-prince-brought-down-the-kingdom-volume-1",
+        "FileName": "zilbagias-the-demon-prince-how-the-seventh-prince-brought-down-the-kingdom-volume-1.epub",
+        "Title": "Zilbagias the Demon Prince: How the Seventh Prince Brought Down the Kingdom Volume 1",
+        "EditedBy": [],
+        "Published": "2024-04-26",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "zilbagias-the-demon-prince-how-the-seventh-prince-brought-down-the-kingdom-volume-2",
+        "FileName": "zilbagias-the-demon-prince-how-the-seventh-prince-brought-down-the-kingdom-volume-2.epub",
+        "Title": "Zilbagias the Demon Prince: How the Seventh Prince Brought Down the Kingdom Volume 2",
+        "EditedBy": [],
+        "Published": "2024-08-09",
+        "Order": 102
+      }
+    ],
+    "Author": "Tomoaki Amagi",
+    "AuthorSort": "AMAGI, TOMOAKI"
   }
 ]
