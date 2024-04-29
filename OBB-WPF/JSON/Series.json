@@ -16174,7 +16174,9 @@
         "ApiSlug": "tearmoon-empire-volume-12",
         "FileName": "tearmoon-empire-volume-12.epub",
         "Title": "Tearmoon Empire: Volume 12",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2024-04-26",
         "Order": 112
       },
