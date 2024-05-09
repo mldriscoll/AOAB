@@ -703,7 +703,122 @@
       "ChapterName": "Comfy Life M208",
       "Volume": "0203",
       "Year": 2,
-      "Season": "Autumn",
+      "Season": "Spring",
+      "ProcessedInPartTwo": true
+    }
+  },
+  {
+    "InternalName": "M0209",
+    "OCR": true,
+    "BonusChapters": [
+      {
+        "OriginalFilenames": ["156", "157", "158", "159","160","161","162","163","164","165"],
+        "EarlySortOrder": "020307b",
+        "LateSortOrder": "020396b",
+        "POV": "Effa",
+        "ChapterName": "The Knight Who Came to the Temple",
+        "OverrideName": "The Knight Who Came to the Temple",
+        "Volume": "0203",
+        "EarlyYear": 2,
+        "LateYear": 2,
+        "EarlySeason": "Winter",
+        "LateSeason": "Spring",
+        "ProcessedInPartTwo": true,
+        "Source": "M2V9 Written Bonus",
+        "OCR": {
+          "Crop": true,
+          "Corrections": [
+            {
+              "Original": "Myne has a knight protecting her!",
+              "Replacement": "Myne has a <i>knight</i> protecting her!"
+            },
+            {
+              "Original": "well- appreciated",
+              "Replacement": "well-appreciated"
+            },
+            {
+              "Original": "that.” “Yeah, he wouldn’t even think about bullying Myne!”",
+              "Replacement": "that.”</p><p>“Yeah, he wouldn’t even <i>think</i> about bullying Myne!”"
+            },
+            {
+              "Original": "book room!” Lutz nodded",
+              "Replacement": "book room!”</p><p>Lutz nodded"
+            },
+            {
+              "Original": "about him.” I took",
+              "Replacement": "about him.”</p><p>I took"
+            },
+            {
+              "Original": "in fear. I wonder, though... Is she going to be able to keep out of trouble? Myne",
+              "Replacement": "in fear.</p><p><i>I wonder, though... Is she going to be able to keep out of trouble?</i></p><p>Myne"
+            },
+            {
+              "Original": "We had to wait days",
+              "Replacement": "&nbsp;</p><p>We had to wait days"
+            },
+            {
+              "Original": "Guntherbefore",
+              "Replacement": "Gunther before"
+            },
+            {
+              "Original": "crush our parues. Then",
+              "Replacement": "crush our parues. Then—"
+            },
+            {
+              "Original": "high- class",
+              "Replacement": "high-class"
+            },
+            {
+              "Original": "Gunther—what did you think",
+              "Replacement": "Gunther—what did <i>you</i> think"
+            },
+            {
+              "Original": "I didn’t make him eat them. ",
+              "Replacement": "I didn’t <i>make</i> him eat them. "
+            },
+            {
+              "Original": "Lord Damuel told us he wants more parue cakes",
+              "Replacement": "Lord Damuel told us he wants <i>more</i> parue cakes"
+            },
+            {
+              "Original": "<p>Myne! </p>",
+              "Replacement": "<p><i>Myne!</i></p>"
+            }
+          ],
+          "Italics": [
+            {
+              "Start": "I really should",
+              "End": "some metse tea..."
+            },
+            {
+              "Start": "Aside from all that",
+              "End": "with the gate commanders."
+            },
+            {
+              "Start": "Hm...? So this",
+              "End": "temple... as punishment?"
+            },
+            {
+              "Start": "Gunther’s always so",
+              "End": "must be worth trusting."
+            },
+            {
+              "Start": "I pray that",
+              "End": "discovers the truth..."
+            }
+          ]
+        }
+      }
+    ],
+    "MangaChapters": [],
+    "Maps": [],
+    "ComfyLifeChapter": {
+      "OriginalFilenames": [ "168", "169" ],
+      "SortOrder": "020321c",
+      "ChapterName": "Comfy Life M209",
+      "Volume": "0203",
+      "Year": 2,
+      "Season": "Spring",
       "ProcessedInPartTwo": true
     }
   }
