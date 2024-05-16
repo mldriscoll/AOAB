@@ -2515,7 +2515,7 @@
       "Year": 9,
       "Season": "Spring",
       "ProcessedInPartFive": true,
-      "PartSheet": true
+      "PartSheet": false
     },
     "Afterword": {
       "OriginalFilenames": [ "afterword" ],
@@ -2526,5 +2526,307 @@
       "Season": "Spring",
       "ProcessedInPartFive": true
     }
+  },
+  {
+    "InternalName": "LN0510",
+    "Gallery": {
+      "SplashImages": [ "bonus2", "bonus1" ],
+      "ChapterImages": [ "insert1", "insert2", "insert3", "insert4", "insert5", "insert6", "insert7", "insert8", "insert9", "insert10" ],
+      "EarlySortOrder": "0510",
+      "LateSortOrder": "051099",
+      "ChapterName": "LN510",
+      "AltName": "Volume 10",
+      "Volume": "0510",
+      "EarlyYear": 9,
+      "EarlySeason": "Spring",
+      "LateYear": 9,
+      "LateSeason": "Spring",
+      "ProcessedInPartFive": true
+    },
+    "POVChapters": [
+      {
+        "OriginalFilenames": [ "prologue", "insert1", "prologue_1" ],
+        "SortOrder": "051000",
+        "POV": "Detlinde",
+        "ChapterName": "Prologue",
+        "Volume": "0510",
+        "Year": 9,
+        "Season": "Spring",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartFive": true,
+        "Source": "P5V10"
+      },
+      {
+        "OriginalFilenames": [ "chapter15" ],
+        "SortOrder": "051015",
+        "POV": "Sieglinde",
+        "ChapterName": "Epilogue",
+        "Volume": "0510",
+        "Year": 9,
+        "Season": "Spring",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartFive": true,
+        "Source": "P5V10"
+      }
+    ],
+    "BonusChapters": [
+      {
+        "OriginalFilenames": [ "chapter16", "insert7", "chapter16_1" ],
+        "EarlySortOrder": "050913b",
+        "LateSortOrder": "050996f",
+        "POV": "Immanuel",
+        "ChapterName": "The Returned Branch Royal",
+        "Volume": "0509",
+        "EarlyYear": 9,
+        "EarlySeason": "Spring",
+        "LateYear": 9,
+        "LateSeason": "Spring",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartFive": true,
+        "Source": "P5V10 Extra 1 (1)",
+        "StartLine": "<h2>Immanuel — The Returned Branch Royal</h2>",
+        "EndLine": "<h2>Anastasius — The Royal Family’s Position</h2>"
+      },
+      {
+        "OriginalFilenames": [ "chapter16_1" ],
+        "EarlySortOrder": "051010b",
+        "LateSortOrder": "050996a",
+        "POV": "Anastasius",
+        "ChapterName": "The Royal Family’s Position",
+        "Volume": "0510",
+        "EarlyYear": 9,
+        "EarlySeason": "Spring",
+        "LateYear": 9,
+        "LateSeason": "Spring",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartFive": true,
+        "Source": "P5V10 Extra 1 (2)",
+        "StartLine": "<h2>Anastasius — The Royal Family’s Position</h2>",
+        "EndLine": "<h2>Magdalena — Smiting the Traitor</h2>"
+      },
+      {
+        "OriginalFilenames": [ "chapter16_1", "insert8", "chapter16_2" ],
+        "EarlySortOrder": "051011b",
+        "LateSortOrder": "050996b",
+        "POV": "Magdalena",
+        "ChapterName": "Smiting the Traitor",
+        "Volume": "0510",
+        "EarlyYear": 9,
+        "EarlySeason": "Spring",
+        "LateYear": 9,
+        "LateSeason": "Spring",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartFive": true,
+        "Source": "P5V10 Extra 1 (3)",
+        "StartLine": "<h2>Magdalena — Smiting the Traitor</h2>",
+        "EndLine": "<h2>Gervasio — Descent of a Goddess</h2>"
+      },
+      {
+        "OriginalFilenames": [ "chapter16_2", "insert9", "chapter16_3" ],
+        "EarlySortOrder": "051013b",
+        "LateSortOrder": "050996c",
+        "POV": "Gervasio",
+        "ChapterName": "Descent of a Goddess",
+        "Volume": "0510",
+        "EarlyYear": 9,
+        "EarlySeason": "Spring",
+        "LateYear": 9,
+        "LateSeason": "Spring",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartFive": true,
+        "Source": "P5V10 Extra 1 (4)",
+        "StartLine": "<h2>Gervasio — Descent of a Goddess</h2>",
+        "EndLine": "<h2>Ferdinand — A Battle That Must Be Won</h2>"
+      },
+      {
+        "OriginalFilenames": [ "chapter16_3", "insert10", "chapter16_4" ],
+        "EarlySortOrder": "051013c",
+        "LateSortOrder": "050996d",
+        "POV": "Ferdinand",
+        "ChapterName": "A Battle That Must Be Won",
+        "Volume": "0510",
+        "EarlyYear": 9,
+        "EarlySeason": "Spring",
+        "LateYear": 9,
+        "LateSeason": "Spring",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartFive": true,
+        "Source": "P5V10 Extra 1 (5)",
+        "StartLine": "<h2>Ferdinand — A Battle That Must Be Won</h2>"
+      }
+    ],
+    "Chapters": [
+      {
+        "OriginalFilenames": [ "chapter1" ],
+        "SortOrder": "051001",
+        "ChapterName": "The Royal Academy at Night",
+        "Volume": "0510",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter2" ],
+        "SortOrder": "051002",
+        "ChapterName": "The Adalgisa Villa",
+        "Volume": "0510",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter3" ],
+        "SortOrder": "051003",
+        "ChapterName": "Collaborator",
+        "Volume": "0510",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter4", "insert2", "chapter4_1" ],
+        "SortOrder": "051004",
+        "ChapterName": "Alstede’s Side",
+        "Volume": "0510",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter5" ],
+        "SortOrder": "051005",
+        "ChapterName": "Rescuing Solange",
+        "Volume": "0510",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter6", "insert3", "chapter6_1" ],
+        "SortOrder": "051006",
+        "ChapterName": "The Road to the Garden of Beginnings",
+        "Volume": "0510",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter7" ],
+        "SortOrder": "051007",
+        "ChapterName": "The Duty of a Zent",
+        "Volume": "0510",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter8" ],
+        "SortOrder": "051008",
+        "ChapterName": "The Battle for the Auditorium",
+        "Volume": "0510",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter9", "insert4", "chapter9_1" ],
+        "SortOrder": "051009",
+        "ChapterName": "One Man’s Return from the Garden of Beginnings",
+        "Volume": "0510",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter10" ],
+        "SortOrder": "051010",
+        "ChapterName": "The Battle atop the Altar",
+        "Volume": "0510",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter11", "insert5", "chapter11_1" ],
+        "SortOrder": "051011",
+        "ChapterName": "In the Garden of Beginnings",
+        "Volume": "0510",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter12" ],
+        "SortOrder": "051012",
+        "ChapterName": "The Race to Become Zent",
+        "Volume": "0510",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter13" ],
+        "SortOrder": "051013",
+        "ChapterName": "The Lord of Evil’s Machinations",
+        "Volume": "0510",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter14", "insert6", "chapter14_1" ],
+        "SortOrder": "051014",
+        "ChapterName": "Machinations Complete",
+        "Volume": "0510",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      }
+    ],
+    "ComfyLifeChapter": {
+      "OriginalFilenames": [ "manga1", "manga2" ],
+      "SortOrder": "051098",
+      "ChapterName": "Comfy Life 510",
+      "Volume": "0510",
+      "Year": 9,
+      "Season": "Spring",
+      "ProcessedInPartFive": true
+    },
+    "CharacterSheet": {
+      "OriginalFilenames": [ "characters1", "characters2", "characters3" ],
+      "SortOrder": "0510",
+      "ChapterName": "Avatar of a Goddess Characters",
+      "Volume": "0510",
+      "Year": 9,
+      "Season": "Spring",
+      "ProcessedInPartFive": true,
+      "PartSheet": true
+    },
+    "Afterword": {
+      "OriginalFilenames": [ "afterword" ],
+      "SortOrder": "051097",
+      "ChapterName": "LN510 Afterword",
+      "Volume": "0510",
+      "Year": 9,
+      "Season": "Spring",
+      "ProcessedInPartFive": true
+    },
+    "Maps": [
+      {
+        "OriginalFilenames": [ "map3" ],
+        "SortOrder": "09",
+        "ChapterName": "Royal Academy (Southeast)",
+        "ProcessedInPartFour": true,
+        "ProcessedInPartFive": true,
+        "ProcessedInFanbooks": true
+      }
+    ]
   }
 ]
