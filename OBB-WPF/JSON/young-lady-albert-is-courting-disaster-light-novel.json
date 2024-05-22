@@ -8,6 +8,7 @@
   "Author": "Saki",
   "AuthorSort": "SAKI",
   "Name": "Young Lady Albert Is Courting Disaster",
+  "InternalName": "young-lady-albert-is-courting-disaster-light-novel",
   "UnusedSources": [
     {
       "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-light-novel-volume-1\\OEBPS\\text\\bonus2.xhtml",
@@ -88,6 +89,12 @@
       "SortOrder": "1051700"
     },
     {
+      "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-5\\OEBPS\\Text\\cover.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1050100"
+    },
+    {
       "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-5\\OEBPS\\Text\\signup.xhtml",
       "Alternates": [],
       "OtherSide": null,
@@ -100,10 +107,28 @@
       "SortOrder": "1050400"
     },
     {
-      "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-5\\OEBPS\\Text\\cover.xhtml",
+      "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-6\\OEBPS\\Text\\copyright.xhtml",
       "Alternates": [],
       "OtherSide": null,
-      "SortOrder": "1050100"
+      "SortOrder": "1061500"
+    },
+    {
+      "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-6\\OEBPS\\Text\\signup.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1061400"
+    },
+    {
+      "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-6\\OEBPS\\Text\\toc.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1060400"
+    },
+    {
+      "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-6\\OEBPS\\Text\\cover.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1060100"
     }
   ],
   "Chapters": [
@@ -1528,6 +1553,270 @@
       ]
     },
     {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "The House Albert Succession Tour",
+      "SortOrder": "106",
+      "Sources": [
+        {
+          "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-6\\OEBPS\\Text\\bonus.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1061300"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "Chapters": [
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Character Sheet",
+          "SortOrder": "10602",
+          "Sources": [
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-6\\OEBPS\\Text\\characters1.xhtml",
+              "Alternates": [],
+              "OtherSide": {
+                "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-6\\OEBPS\\Text\\characters2.xhtml",
+                "Alternates": [],
+                "OtherSide": null,
+                "SortOrder": "1060300"
+              },
+              "SortOrder": "1060200"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Prologue",
+          "SortOrder": "10605",
+          "Sources": [
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-6\\OEBPS\\Text\\prologue.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060500"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter 1",
+          "SortOrder": "10606",
+          "Sources": [
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-6\\OEBPS\\Text\\chapter1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060600"
+            },
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-6\\OEBPS\\Text\\insert1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060601"
+            },
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-6\\OEBPS\\Text\\chapter1_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060602"
+            },
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-6\\OEBPS\\Text\\insert2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060603"
+            },
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-6\\OEBPS\\Text\\chapter1_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060604"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter 2",
+          "SortOrder": "10607",
+          "Sources": [
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-6\\OEBPS\\Text\\chapter2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060700"
+            },
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-6\\OEBPS\\Text\\insert3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060701"
+            },
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-6\\OEBPS\\Text\\chapter2_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060702"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter 3",
+          "SortOrder": "10608",
+          "Sources": [
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-6\\OEBPS\\Text\\chapter3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060800"
+            },
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-6\\OEBPS\\Text\\insert4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060801"
+            },
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-6\\OEBPS\\Text\\chapter3_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060802"
+            },
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-6\\OEBPS\\Text\\insert5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060803"
+            },
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-6\\OEBPS\\Text\\chapter3_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060804"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter 4",
+          "SortOrder": "10609",
+          "Sources": [
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-6\\OEBPS\\Text\\chapter4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060900"
+            },
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-6\\OEBPS\\Text\\insert6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060901"
+            },
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-6\\OEBPS\\Text\\chapter4_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060902"
+            },
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-6\\OEBPS\\Text\\insert7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060903"
+            },
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-6\\OEBPS\\Text\\chapter4_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060904"
+            },
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-6\\OEBPS\\Text\\insert8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060905"
+            },
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-6\\OEBPS\\Text\\chapter4_3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060906"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Epilogue",
+          "SortOrder": "10610",
+          "Sources": [
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-6\\OEBPS\\Text\\epilogue.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1061000"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Look to the Future, Not the Past",
+          "SortOrder": "10611",
+          "Sources": [
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-6\\OEBPS\\Text\\side.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1061100"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        }
+      ]
+    },
+    {
       "CType": 2,
       "ChapType": "NonStory",
       "Name": "Afterwords",
@@ -1620,6 +1909,24 @@
               "Alternates": [],
               "OtherSide": null,
               "SortOrder": "1051400"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The House Albert Succession Tour",
+          "SortOrder": "10612",
+          "Sources": [
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-6\\OEBPS\\Text\\afterword.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1061200"
             }
           ],
           "LinkedChapters": [],
