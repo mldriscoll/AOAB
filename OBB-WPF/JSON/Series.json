@@ -16687,7 +16687,9 @@
         "ApiSlug": "the-apothecary-diaries-volume-11",
         "FileName": "the-apothecary-diaries-volume-11.epub",
         "Title": "The Apothecary Diaries: Volume 11",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2024-05-20",
         "Order": 111
       }
