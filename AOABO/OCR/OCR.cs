@@ -28,9 +28,12 @@ namespace AOABO.OCR
             foreach(var vol in Configuration.Volumes.Where(x => x.OCR))
             {
                 Directory.CreateDirectory(tempDirectory);
-                await Download(vol.InternalName, login);
+                var volname = Configuration.VolumeNames.First(x => x.InternalName.Equals(vol.InternalName));
+                var fileName = Configuration.Options.Folder.InputFolder + "\\" + string.Format(volname.FileName, 3840);
+                if (!File.Exists(fileName))
+                    await Download(fileName, volname.ApiSlug, login);
 
-                ZipFile.ExtractToDirectory(tempDirectory + "\\temp.epub", tempDirectory);
+                ZipFile.ExtractToDirectory(fileName, tempDirectory);
 
                 foreach (var chapter in vol.BonusChapters.Where(x => x.OCR != null))
                 {
@@ -41,11 +44,10 @@ namespace AOABO.OCR
 
         }
 
-        private static async Task Download(string volume, Login login)
+        private static async Task Download(string file, string apiSlug, Login login)
         {
-            var volname = Configuration.VolumeNames.First(x => x.InternalName.Equals(volume));
 
-            await Downloader.DownloadSpecificVolume(volname.ApiSlug, login.AccessToken, tempDirectory + "\\temp.epub", new HttpClient());
+            await Downloader.DownloadSpecificVolume(apiSlug, login.AccessToken, file, new HttpClient());
         }
 
         public static Color GetPixel(int x, int y, BitmapData data, Byte[] Pixels, int Bpp)
