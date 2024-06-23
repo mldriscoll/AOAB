@@ -10,18 +10,18 @@ namespace OBB_WPF.Editor
         {
             if (!Directory.Exists(series.InternalName)) Directory.CreateDirectory(series.InternalName);
 
-            foreach (var volume in series.Volumes.Where(x => File.Exists($"{MainWindow.Configuration.SourceFolder}\\{x.FileName}")))
+            foreach (var volume in series.Volumes.Where(x => File.Exists($"{Settings.Configuration.SourceFolder}\\{x.FileName}")))
             {
                 var directory = $"{series.InternalName}\\{volume.ApiSlug}";
-                if (!Directory.Exists(directory)) ZipFile.ExtractToDirectory($"{MainWindow.Configuration.SourceFolder}\\{volume.FileName}", directory);
+                if (!Directory.Exists(directory)) ZipFile.ExtractToDirectory($"{Settings.Configuration.SourceFolder}\\{volume.FileName}", directory);
                 else
                 {
-                    var finfo = new FileInfo($"{MainWindow.Configuration.SourceFolder}\\{volume.FileName}");
+                    var finfo = new FileInfo($"{Settings.Configuration.SourceFolder}\\{volume.FileName}");
                     var dinfo = new DirectoryInfo(directory);
                     if (dinfo.CreationTimeUtc < finfo.CreationTimeUtc)
                     {
                         Directory.Delete(directory);
-                        ZipFile.ExtractToDirectory($"{MainWindow.Configuration.SourceFolder}\\{volume.FileName}", directory);
+                        ZipFile.ExtractToDirectory($"{Settings.Configuration.SourceFolder}\\{volume.FileName}", directory);
                     }
                 }
             }

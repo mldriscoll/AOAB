@@ -28,8 +28,8 @@ namespace OBB_WPF
         {
             if (!string.IsNullOrWhiteSpace(EditorName.Text))
             {
-                MainWindow.Configuration.EditorName = EditorName.Text;
-                await JSON.Save("Configuration.json", MainWindow.Configuration);
+                Settings.Configuration.EditorName = EditorName.Text;
+                await JSON.Save("Configuration.json", Settings.Configuration);
                 this.Close();
             }
         }

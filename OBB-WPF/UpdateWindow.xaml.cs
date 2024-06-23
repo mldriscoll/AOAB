@@ -32,25 +32,24 @@ namespace OBB_WPF
 
         public async void Run()
         {
-            Login? login = null;
             SeriesList list = null;
             using (var client = new HttpClient())
             {
-                login = await Login.FromFile(client);
+                Settings.Login = await Login.FromFile(client);
 
-                if (login == null)
+                if (Settings.Login == null)
                 {
                     var loginpage = new LoginWindow(client);
                     var success = loginpage.ShowDialog();
                     if (success.HasValue && success.Value)
                     {
-                        login = await Login.FromFile(client);
+                        Settings.Login = await Login.FromFile(client);
                     }
                 }
 
-                if (login != null)
+                if (Settings.Login != null)
                 {
-                    list = await Downloader.GetSeriesList(client, login.AccessToken);
+                    list = await Downloader.GetSeriesList(client, Settings.Login.AccessToken);
                 }
             }
 
@@ -62,14 +61,13 @@ namespace OBB_WPF
                 worker.WorkerReportsProgress = true;
                 worker.DoWork += Worker_DoWork;
                 worker.ProgressChanged += Worker_ProgressChanged;
-                worker.RunWorkerAsync(argument: new arg { list = list, login = login});
+                worker.RunWorkerAsync(argument: new arg { list = list});
             }
         }
 
         private class arg
         {
             public SeriesList list { get; set; }
-            public Login login { get; set; }
         }
 
         private void Worker_ProgressChanged(object? sender, ProgressChangedEventArgs e)
@@ -88,10 +86,9 @@ namespace OBB_WPF
         private void Worker_DoWork(object? sender, DoWorkEventArgs e)
         {
             var arg = e.Argument as arg;
-            var login = arg.login;
             using (var client = new HttpClient())
             {
-                if (login != null)
+                if (Settings.Login != null)
                 {
                     var list = arg.list;
                     int c = 0;

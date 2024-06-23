@@ -34,7 +34,7 @@ namespace OBB_WPF.Custom
                 var filePopup = new OpenFileDialog();
                 filePopup.Multiselect = true;
                 filePopup.CheckFileExists = true;
-                filePopup.InitialDirectory = MainWindow.Configuration.SourceFolder;
+                filePopup.InitialDirectory = Settings.Configuration.SourceFolder;
 
                 if (filePopup.ShowDialog() ?? false)
                 {

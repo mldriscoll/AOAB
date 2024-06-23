@@ -24,11 +24,9 @@ namespace OBB_WPF
             Load();
         }
 
-        public static Configuration Configuration { get; set; } = new Configuration();
-
         private async void Load()
         {
-            Configuration = (await JSON.Load<Configuration>("Configuration.json")) ?? new Configuration();
+            Settings.Configuration = (await JSON.Load<Configuration>("Configuration.json")) ?? new Configuration();
 #if DEBUG
             Series = await JSON.Load<List<Series>>($"..\\..\\..\\JSON\\Series.json") ?? new List<Series>();
             CustomSeries = await JSON.Load<List<Series>>("..\\..\\..\\JSON\\CustomSeries.json") ?? new List<Series>();
@@ -61,43 +59,15 @@ namespace OBB_WPF
 
             if (Settings.Login != null)
             {
-                if (string.IsNullOrWhiteSpace(Configuration.SourceFolder))
-                {
-                    var fp = new OpenFolderDialog();
-                    fp.Title = "Select the folder you store JNC downloads in";
-                    fp.ShowDialog();
-                    Configuration.SourceFolder = fp.FolderName;
-                    await JSON.Save("Configuration.json", Configuration);
-                }
-
-                var library = await Downloader.GetLibrary(new HttpClient(), Settings.Login.AccessToken);
-
-                using (var client = new HttpClient())
-                {
-                    foreach (var book in library.books.Where(x => x.downloads.Any()))
-                    {
-                        if (Series.SelectMany(x => x.Volumes).Any(x => x.ApiSlug.Equals(book.volume.slug)))
-                        {
-                            var filename = Configuration.SourceFolder + "\\" + book.volume.slug + ".epub";
-                            if (!File.Exists(filename))
-                            {
-                                using (var stream = await client.GetStreamAsync(book.downloads.Last().link))
-                                {
-                                    using (var filestream = File.OpenWrite(filename))
-                                    {
-                                        await stream.CopyToAsync(filestream);
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
+                var downloadPage = new DownloadWindow(Series);
+                downloadPage.Run();
+                downloadPage.ShowDialog();
             }
 
-            foreach (var series in Series.Union(CustomSeries).OrderBy(x => x.Name).Where(x => x.Volumes.Any(y => File.Exists(Configuration.SourceFolder + "\\" + y.FileName) || File.Exists(y.FileName))))
+            foreach (var series in Series.Union(CustomSeries).OrderBy(x => x.Name).Where(x => x.Volumes.Any(y => File.Exists(Settings.Configuration.SourceFolder + "\\" + y.FileName) || File.Exists(y.FileName))))
             {
                 var totalBooks = series.Volumes.Count;
-                var availableBooks = series.Volumes.Where(x => File.Exists(Configuration.SourceFolder + "\\" + x.FileName)).ToList();
+                var availableBooks = series.Volumes.Where(x => File.Exists(Settings.Configuration.SourceFolder + "\\" + x.FileName)).ToList();
                 var uneditedBooks = availableBooks.Where(x => !x.EditedBy.Any()).Count();
                 var uebstring = uneditedBooks > 0 ? $" ({uneditedBooks} unedited)" : string.Empty;
 

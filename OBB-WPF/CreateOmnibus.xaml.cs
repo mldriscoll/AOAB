@@ -100,14 +100,14 @@ namespace OBB_WPF
 
         private void SetConfig()
         {
-            IncStoryChapters = MainWindow.Configuration.IncludeNormalChapters;
-            IncBonusChapters = MainWindow.Configuration.IncludeExtraChapters;
-            IncNonStoryChapters = MainWindow.Configuration.IncludeNonStoryChapters;
-            ConfigCombineImages = MainWindow.Configuration.CombineMangaSplashPages;
-            UpdateChapterTitles = MainWindow.Configuration.UpdateChapterTitles;
-            if (MainWindow.Configuration.MaxImageWidth.HasValue) ImageWidth = MainWindow.Configuration.MaxImageWidth.Value.ToString();
-            if (MainWindow.Configuration.MaxImageHeight.HasValue) ImageHeight = MainWindow.Configuration.MaxImageHeight.Value.ToString();
-            ImageQuality = MainWindow.Configuration.ResizedImageQuality.ToString();
+            IncStoryChapters = Settings.Configuration.IncludeNormalChapters;
+            IncBonusChapters = Settings.Configuration.IncludeExtraChapters;
+            IncNonStoryChapters = Settings.Configuration.IncludeNonStoryChapters;
+            ConfigCombineImages = Settings.Configuration.CombineMangaSplashPages;
+            UpdateChapterTitles = Settings.Configuration.UpdateChapterTitles;
+            if (Settings.Configuration.MaxImageWidth.HasValue) ImageWidth = Settings.Configuration.MaxImageWidth.Value.ToString();
+            if (Settings.Configuration.MaxImageHeight.HasValue) ImageHeight = Settings.Configuration.MaxImageHeight.Value.ToString();
+            ImageQuality = Settings.Configuration.ResizedImageQuality.ToString();
         }
 
         public async Task Start(string outputFile)
@@ -163,25 +163,25 @@ namespace OBB_WPF
 
             if (int.TryParse(ImageWidth, out var width))
             {
-                MainWindow.Configuration.MaxImageWidth = width;
+                Settings.Configuration.MaxImageWidth = width;
             }
             else
             {
-                MainWindow.Configuration.MaxImageWidth = null;
+                Settings.Configuration.MaxImageWidth = null;
             }
             
             if (int.TryParse(ImageHeight, out var height))
             {
-                MainWindow.Configuration.MaxImageHeight = height;
+                Settings.Configuration.MaxImageHeight = height;
             }
             else
             {
-                MainWindow.Configuration.MaxImageHeight = null;
+                Settings.Configuration.MaxImageHeight = null;
             }
             
             if (int.TryParse(ImageQuality, out var quality))
             {
-                MainWindow.Configuration.ResizedImageQuality = quality;
+                Settings.Configuration.ResizedImageQuality = quality;
             }
 
             var picprogress = new Progress<int>(x => {
@@ -203,18 +203,18 @@ namespace OBB_WPF
                 false,
                 true,
                 outputFile.Replace(outputFolder, string.Empty).Replace(".epub", string.Empty, true, null),
-                MainWindow.Configuration.MaxImageWidth,
-                MainWindow.Configuration.MaxImageHeight,
-                MainWindow.Configuration.ResizedImageQuality,
+                Settings.Configuration.MaxImageWidth,
+                Settings.Configuration.MaxImageHeight,
+                Settings.Configuration.ResizedImageQuality,
                 picprogress,
                 textprogress);
 
-            MainWindow.Configuration.IncludeNormalChapters = IncStoryChapters;
-            MainWindow.Configuration.IncludeExtraChapters = IncBonusChapters;
-            MainWindow.Configuration.IncludeNonStoryChapters = IncNonStoryChapters;
-            MainWindow.Configuration.CombineMangaSplashPages = ConfigCombineImages;
-            MainWindow.Configuration.UpdateChapterTitles = UpdateChapterTitles;
-            await JSON.Save("Configuration.JSON", MainWindow.Configuration);
+            Settings.Configuration.IncludeNormalChapters = IncStoryChapters;
+            Settings.Configuration.IncludeExtraChapters = IncBonusChapters;
+            Settings.Configuration.IncludeNonStoryChapters = IncNonStoryChapters;
+            Settings.Configuration.CombineMangaSplashPages = ConfigCombineImages;
+            Settings.Configuration.UpdateChapterTitles = UpdateChapterTitles;
+            await JSON.Save("Configuration.JSON", Settings.Configuration);
         }
 
         private async Task ProcessChapter(Chapter chapter, Processor inProcessor, Processor outProcessor, string subfolder, string inFolder)
@@ -325,7 +325,7 @@ namespace OBB_WPF
                         newChapter.Contents = newChapter.Contents.Substring(0, location);
                     }
 
-                    if (MainWindow.Configuration.UpdateChapterTitles)
+                    if (Settings.Configuration.UpdateChapterTitles)
                     {
                         var match = chapterTitleRegex.Match(newChapter.Contents);
                         if (match.Success)

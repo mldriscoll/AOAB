@@ -55,7 +55,7 @@ namespace OBB_WPF
             var filePopup = new OpenFileDialog();
             filePopup.Multiselect = true;
             filePopup.CheckFileExists = true;
-            filePopup.InitialDirectory = MainWindow.Configuration.SourceFolder;
+            filePopup.InitialDirectory = Settings.Configuration.SourceFolder;
 
             if (filePopup.ShowDialog() ?? false)
             {
@@ -227,7 +227,7 @@ namespace OBB_WPF
 
         private async void SaveButton_Click(object sender, RoutedEventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(MainWindow.Configuration.EditorName))
+            if (string.IsNullOrWhiteSpace(Settings.Configuration.EditorName))
             {
                 var window = new PickEditorNameWindow();
                 window.ShowDialog();
@@ -236,11 +236,11 @@ namespace OBB_WPF
             var saveSeries = false;
             foreach (var a in series.Volumes)
             {
-                if (!a.EditedBy.Any() || !a.EditedBy.Any(x => x.Equals(MainWindow.Configuration.EditorName, StringComparison.OrdinalIgnoreCase)))
+                if (!a.EditedBy.Any() || !a.EditedBy.Any(x => x.Equals(Settings.Configuration.EditorName, StringComparison.OrdinalIgnoreCase)))
                 {
-                    if (File.Exists($"{MainWindow.Configuration.SourceFolder}\\{a.FileName}"))
+                    if (File.Exists($"{Settings.Configuration.SourceFolder}\\{a.FileName}"))
                     {
-                        a.EditedBy.Add(MainWindow.Configuration.EditorName);
+                        a.EditedBy.Add(Settings.Configuration.EditorName);
                         saveSeries = true;
                     }
                 }
