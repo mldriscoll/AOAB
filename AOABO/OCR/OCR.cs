@@ -27,30 +27,26 @@ namespace AOABO.OCR
 
             foreach(var vol in Configuration.Volumes.Where(x => x.OCR))
             {
-                var volname = Configuration.VolumeNames.First(x => x.InternalName.Equals(vol.InternalName));
-                var fileName = Configuration.Options.Folder.InputFolder + "\\" + string.Format(volname.FileName, 3840);
-                if (!File.Exists(fileName))
-                    await Downloader.DownloadSpecificVolume(volname.ApiSlug, login.AccessToken, fileName, new HttpClient());
-
-                if (File.Exists(fileName))
+                if (vol.BonusChapters.Where(x => x.OCR != null).Any(x => !File.Exists(overrideDirectory + "\\" + x.OverrideName + ".xhtml")))
                 {
-                    Directory.CreateDirectory(tempDirectory);
-                    ZipFile.ExtractToDirectory(fileName, tempDirectory);
+                    var volname = Configuration.VolumeNames.First(x => x.InternalName.Equals(vol.InternalName));
+                    var fileName = Configuration.Options.Folder.InputFolder + "\\" + string.Format(volname.FileName, 3840);
+                    if (!File.Exists(fileName))
+                        await Downloader.DownloadSpecificVolume(volname.ApiSlug, login.AccessToken, fileName, new HttpClient());
 
-                    foreach (var chapter in vol.BonusChapters.Where(x => x.OCR != null))
+                    if (File.Exists(fileName))
                     {
-                        await DoOCR(chapter, overrideDirectory);
+                        Directory.CreateDirectory(tempDirectory);
+                        ZipFile.ExtractToDirectory(fileName, tempDirectory);
+
+                        foreach (var chapter in vol.BonusChapters.Where(x => x.OCR != null))
+                        {
+                            await DoOCR(chapter, overrideDirectory);
+                        }
+                        Directory.Delete(tempDirectory, true);
                     }
-                    Directory.Delete(tempDirectory, true);
                 }
             }
-
-        }
-
-        private static async Task Download(string file, string apiSlug, Login login)
-        {
-
-            
         }
 
         public static Color GetPixel(int x, int y, BitmapData data, Byte[] Pixels, int Bpp)
