@@ -2,25 +2,17 @@
 using Core;
 using System.IO;
 using System.Net.Http;
-using System.Text;
-using System.Text.Json;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
-using System.Runtime.Serialization.Json;
-using static Core.Downloads.LibraryResponse.Book;
 using Microsoft.Win32;
 using OBB_WPF.Library;
 using OBB_WPF.Custom;
 
 namespace OBB_WPF
 {
+
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
@@ -33,7 +25,6 @@ namespace OBB_WPF
         }
 
         public static Configuration Configuration { get; set; } = new Configuration();
-        public static Login Login { get; set; }
 
         private async void Load()
         {
@@ -54,25 +45,21 @@ namespace OBB_WPF
             AddCustom.IsEnabled = false;
             SeriesList.Items.Clear();
             SeriesList list = null;
-            if (Login == null)
+            if (Settings.Login == null)
             {
                 using (var client = new HttpClient())
                 {
-                    Login = await Login.FromFile(client);
+                    Settings.Login = await Login.FromFile(client);
 
-                    if (Login == null)
+                    while(Settings.Login == null)
                     {
                         var loginpage = new LoginWindow(client);
-                        var success = loginpage.ShowDialog();
-                        if (success.HasValue && success.Value)
-                        {
-                            Login = await Login.FromFile(client);
-                        }
+                        loginpage.ShowDialog();
                     }
                 }
             }
 
-            if (Login != null)
+            if (Settings.Login != null)
             {
                 if (string.IsNullOrWhiteSpace(Configuration.SourceFolder))
                 {
@@ -83,7 +70,7 @@ namespace OBB_WPF
                     await JSON.Save("Configuration.json", Configuration);
                 }
 
-                var library = await Downloader.GetLibrary(new HttpClient(), Login.AccessToken);
+                var library = await Downloader.GetLibrary(new HttpClient(), Settings.Login.AccessToken);
 
                 using (var client = new HttpClient())
                 {
