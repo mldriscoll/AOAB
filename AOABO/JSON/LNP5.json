@@ -2593,7 +2593,7 @@
       {
         "OriginalFilenames": [ "chapter16_1" ],
         "EarlySortOrder": "051010b",
-        "LateSortOrder": "050996a",
+        "LateSortOrder": "051096a",
         "POV": "Anastasius",
         "ChapterName": "The Royal Family’s Position",
         "Volume": "0510",
@@ -2611,7 +2611,7 @@
       {
         "OriginalFilenames": [ "chapter16_1", "insert8", "chapter16_2" ],
         "EarlySortOrder": "051011b",
-        "LateSortOrder": "050996b",
+        "LateSortOrder": "051096b",
         "POV": "Magdalena",
         "ChapterName": "Smiting the Traitor",
         "Volume": "0510",
@@ -2629,7 +2629,7 @@
       {
         "OriginalFilenames": [ "chapter16_2", "insert9", "chapter16_3" ],
         "EarlySortOrder": "051013b",
-        "LateSortOrder": "050996c",
+        "LateSortOrder": "051096c",
         "POV": "Gervasio",
         "ChapterName": "Descent of a Goddess",
         "Volume": "0510",
@@ -2647,7 +2647,7 @@
       {
         "OriginalFilenames": [ "chapter16_3", "insert10", "chapter16_4" ],
         "EarlySortOrder": "051013c",
-        "LateSortOrder": "050996d",
+        "LateSortOrder": "051096d",
         "POV": "Ferdinand",
         "ChapterName": "A Battle That Must Be Won",
         "Volume": "0510",
@@ -2807,7 +2807,7 @@
       "Year": 9,
       "Season": "Spring",
       "ProcessedInPartFive": true,
-      "PartSheet": true
+      "PartSheet": false
     },
     "Afterword": {
       "OriginalFilenames": [ "afterword" ],
@@ -2828,5 +2828,257 @@
         "ProcessedInFanbooks": true
       }
     ]
+  },
+  {
+    "InternalName": "LN0511",
+    "Gallery": {
+      "SplashImages": [ "bonus2", "bonus1" ],
+      "ChapterImages": [ "insert1", "insert2", "insert3", "insert4", "insert5", "insert6", "insert7", "insert8", "insert9", "insert10" ],
+      "EarlySortOrder": "0511",
+      "LateSortOrder": "051199",
+      "ChapterName": "LN511",
+      "AltName": "Volume 11",
+      "Volume": "0511",
+      "EarlyYear": 9,
+      "EarlySeason": "Spring",
+      "LateYear": 9,
+      "LateSeason": "Spring",
+      "ProcessedInPartFive": true
+    },
+    "POVChapters": [
+      {
+        "OriginalFilenames": [ "prologue", "insert1", "prologue_1" ],
+        "SortOrder": "051100",
+        "POV": "Ferdinand",
+        "ChapterName": "Prologue",
+        "Volume": "0511",
+        "Year": 9,
+        "Season": "Spring",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartFive": true,
+        "Source": "P5V11"
+      },
+      {
+        "OriginalFilenames": [ "chapter15", "insert9", "chapter15_1" ],
+        "SortOrder": "051115",
+        "POV": "Gretia",
+        "ChapterName": "Epilogue",
+        "Volume": "0511",
+        "Year": 9,
+        "Season": "Spring",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartFive": true,
+        "Source": "P5V11"
+      }
+    ],
+    "BonusChapters": [
+      {
+        "OriginalFilenames": [ "chapter17" ],
+        "EarlySortOrder": "051108b",
+        "LateSortOrder": "051196a",
+        "POV": "Eglantine",
+        "ChapterName": "Vows and the Garden of Beginnings",
+        "Volume": "0511",
+        "EarlyYear": 9,
+        "EarlySeason": "Spring",
+        "LateYear": 9,
+        "LateSeason": "Spring",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartFive": true,
+        "Source": "P5V11 Extra 2"
+      },
+      {
+        "OriginalFilenames": [ "chapter16", "insert10", "chapter16_1" ],
+        "EarlySortOrder": "051109b",
+        "LateSortOrder": "051196b",
+        "POV": "Hannelore",
+        "ChapterName": "The Transference Ceremony",
+        "Volume": "0511",
+        "EarlyYear": 9,
+        "EarlySeason": "Spring",
+        "LateYear": 9,
+        "LateSeason": "Spring",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartFive": true,
+        "Source": "P5V11 Extra 1"
+      },
+      {
+        "OriginalFilenames": [ "chapter18" ],
+        "EarlySortOrder": "051115b",
+        "LateSortOrder": "051196c",
+        "POV": "Jiffy",
+        "ChapterName": "The New Aub’s Awesome Magic",
+        "Volume": "0511",
+        "EarlyYear": 9,
+        "EarlySeason": "Spring",
+        "LateYear": 9,
+        "LateSeason": "Spring",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartFive": true,
+        "Source": "P5V11 Extra 3"
+      }
+    ],
+    "Chapters": [
+      {
+        "OriginalFilenames": [ "chapter1" ],
+        "SortOrder": "051101",
+        "ChapterName": "The Pale-Faced Royal Family",
+        "Volume": "0511",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter2" ],
+        "SortOrder": "051102",
+        "ChapterName": "Terms for the New Zent",
+        "Volume": "0511",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter3", "insert2", "chapter3_1" ],
+        "SortOrder": "051103",
+        "ChapterName": "Goddess-Dyed Mana and Name-Swearing",
+        "Volume": "0511",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter4" ],
+        "SortOrder": "051104",
+        "ChapterName": "Finalizing the New Zent",
+        "Volume": "0511",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter5" ],
+        "SortOrder": "051105",
+        "ChapterName": "Rewards and the Criminals",
+        "Volume": "0511",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter6", "insert3", "chapter6_1" ],
+        "SortOrder": "051106",
+        "ChapterName": "Adolphine’s Push",
+        "Volume": "0511",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter7" ],
+        "SortOrder": "051107",
+        "ChapterName": "Eglantine’s Name-Swearing",
+        "Volume": "0511",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter8", "insert4", "chapter8_1", "insert5", "chapter8_2" ],
+        "SortOrder": "051108",
+        "ChapterName": "Blessings from the Gods",
+        "Volume": "0511",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter9" ],
+        "SortOrder": "051109",
+        "ChapterName": "The Blessings’ Influence",
+        "Volume": "0511",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter10", "insert6", "chapter10_1" ],
+        "SortOrder": "051110",
+        "ChapterName": "Operation: Mana Drain",
+        "Volume": "0511",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter11" ],
+        "SortOrder": "051111",
+        "ChapterName": "Gold Dust and Going Back",
+        "Volume": "0511",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter12", "insert7", "chapter12_1" ],
+        "SortOrder": "051112",
+        "ChapterName": "Expending Mana through Spring Prayer",
+        "Volume": "0511",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter13" ],
+        "SortOrder": "051113",
+        "ChapterName": "Never-Ending Mana",
+        "Volume": "0511",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter14", "insert8", "chapter14_1" ],
+        "SortOrder": "051114",
+        "ChapterName": "Large-Scale Magic",
+        "Volume": "0511",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      }
+    ],
+    "ComfyLifeChapter": {
+      "OriginalFilenames": [ "manga1", "manga2" ],
+      "SortOrder": "051198",
+      "ChapterName": "Comfy Life 511",
+      "Volume": "0511",
+      "Year": 9,
+      "Season": "Spring",
+      "ProcessedInPartFive": true
+    },
+    "CharacterSheet": {
+      "OriginalFilenames": [ "characters1", "characters2", "characters3" ],
+      "SortOrder": "0511",
+      "ChapterName": "Avatar of a Goddess Characters",
+      "Volume": "0511",
+      "Year": 9,
+      "Season": "Spring",
+      "ProcessedInPartFive": true,
+      "PartSheet": true
+    },
+    "Afterword": {
+      "OriginalFilenames": [ "afterword" ],
+      "SortOrder": "051197",
+      "ChapterName": "LN511 Afterword",
+      "Volume": "0511",
+      "Year": 9,
+      "Season": "Spring",
+      "ProcessedInPartFive": true
+    },
+    "Maps": []
   }
 ]
