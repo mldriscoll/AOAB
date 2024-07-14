@@ -35,7 +35,7 @@
       {
         "OriginalFilenames": [ "37", "38", "39", "40", "41", "42", "43", "44" ],
         "EarlySortOrder": "010116b",
-        "LateSortOrder": "010196g",
+        "LateSortOrder": "010196h",
         "POV": "Gunther",
         "ChapterName": "My Daughter's about to be a Criminal",
         "Volume": "0101",
@@ -107,7 +107,7 @@
       {
         "OriginalFilenames": [ "side1", 2 ],
         "EarlySortOrder": "010114b",
-        "LateSortOrder": "010196f",
+        "LateSortOrder": "010196g",
         "ChapterName": "One Winter's Day",
         "Volume": "0101",
         "EarlyYear": 0,
@@ -168,7 +168,7 @@
       {
         "OriginalFilenames": [ "side5" ],
         "EarlySortOrder": "030121b",
-        "LateSortOrder": "030196j",
+        "LateSortOrder": "030196k",
         "POV": "Christel",
         "ChapterName": "A Tea Party with My Older Sister",
         "Volume": "0301",
@@ -365,5 +365,119 @@
         "ProcessedInFanbooks": true
       }
     ]
+  },
+  {
+    "InternalName": "FB4",
+    "Gallery": {
+      "SplashImages": [ "cover", "11", "12", "13", "14", "15", "16", "17" ],
+      "ChapterImages": [],
+      "EarlySortOrder": "0408b",
+      "LateSortOrder": "040899b",
+      "ChapterName": "FB4",
+      "AltName": "Fanbook 4",
+      "Volume": "0408",
+      "EarlyYear": 7,
+      "EarlySeason": "Winter",
+      "LateYear": 8,
+      "LateSeason": "Summer",
+      "ProcessedInPartFour": true
+    },
+    "Maps": [
+      {
+        "OriginalFilenames": [ "18", "19", "20", "21", "22", "23", "24", "25" ],
+        "SortOrder": "09",
+        "ChapterName": "Anime Design Sheets (Lower City)",
+        "ProcessedInPartOne": true,
+        "ProcessedInPartTwo": true,
+        "ProcessedInPartThree": true,
+        "ProcessedInPartFour": true,
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "26" ],
+        "SortOrder": "10",
+        "ChapterName": "Anime Design Sheets (The Temple)",
+        "ProcessedInPartOne": true,
+        "ProcessedInPartTwo": true,
+        "ProcessedInPartThree": true,
+        "ProcessedInPartFour": true,
+        "ProcessedInPartFive": true
+      }
+    ],
+    "MangaChapters": [
+      {
+        "OriginalFilenames": [ "33", "34", "35", "36" ],
+        "EarlySortOrder": "010100c",
+        "LateSortOrder": "010196b",
+        "ChapterName": "Liz's Apprentice Selection",
+        "Volume": "0101",
+        "EarlyYear": -1,
+        "LateYear": 1,
+        "LateSeason": "Summer",
+        "ProcessedInPartOne": true,
+        "POV": "Liz"
+      },
+      {
+        "OriginalFilenames": [ "47", "48", "49", "50" ],
+        "EarlySortOrder": "030112b",
+        "LateSortOrder": "030196g",
+        "ChapterName": "Business Trips are Tough",
+        "Volume": "0301",
+        "EarlyYear": 3,
+        "EarlySeason": "Summer",
+        "LateYear": 3,
+        "LateSeason": "Summer",
+        "ProcessedInPartThree": true,
+        "POV": "Gustav"
+      }
+    ],
+    "BonusChapters": [
+      {
+        "OriginalFilenames": [ "side" ],
+        "EarlySortOrder": "040704b",
+        "LateSortOrder": "040796b",
+        "POV": "Judithe",
+        "ChapterName": "Mana-Sensing and Marriage Partners",
+        "Volume": "0407",
+        "EarlyYear": 7,
+        "EarlySeason": "Winter",
+        "LateYear": 7,
+        "LateSeason": "Winter",
+        "ProcessedInPartFour": true,
+        "Source": "FB4 Story"
+      }
+    ],
+    "Chapters": [
+      {
+        "OriginalFilenames": [ "37", "38", "39", "40", "41", "42", "43", "44", "45", "46" ],
+        "SortOrder": "0401",
+        "ChapterName": "Fanbook 4 Character Design Sheets",
+        "Volume": "FB4",
+        "ProcessedInFanbooks": true
+      },
+      {
+        "OriginalFilenames": [ "side2", "51", "52", "53", "54", "55" ],
+        "SortOrder": "0402",
+        "ChapterName": "Drama CD 3 Post-Recording Report",
+        "Volume": "FB4",
+        "ProcessedInFanbooks": true
+      },
+      {
+        "OriginalFilenames": [ "qa" ],
+        "SortOrder": "0403",
+        "ChapterName": "Fanbook Four Q&amp;A",
+        "Volume": "FB4",
+        "ProcessedInFanbooks": true
+      }
+    ],
+    "ComfyLifeChapter": {
+      "OriginalFilenames": [ "56", "57" ],
+      "SortOrder": "040898b",
+      "ChapterName": "Comfy Life Fanbook 4",
+      "Volume": "0408",
+      "Year": 8,
+      "Season": "Summer",
+      "ProcessedInPartFour": true
+    }
   }
 ]
