@@ -122,13 +122,18 @@ namespace AOABO.Omnibus
             Configuration.ReloadVolumes();
 
             var povChapters = new List<Chapters.MoveableChapter>();
+            var missingFiles = new List<string>();
 
             foreach (var vol in Configuration.VolumeNames)
             {
                 try
                 {
                     var file = vol.NameMatch(epubs);
-                    if (file == null) continue;
+                    if (file == null)
+                    {
+                        missingFiles.Add(vol.FileName);
+                        continue;
+                    }
                 }
                 catch (Exception ex)
                 {
@@ -332,6 +337,14 @@ namespace AOABO.Omnibus
 
             await File.WriteAllLinesAsync("POVList.txt", tableRows);
 #endif
+
+            Console.WriteLine();
+            if (missingFiles.Any())
+            {
+                Console.WriteLine("Books that could not be found while making this omnibus:");
+                foreach (var file in missingFiles) Console.WriteLine(file);
+            }
+            Console.WriteLine();
 
             Console.WriteLine($"\"{bookTitle}\" creation complete. Press any key to continue.");
             Console.ReadKey();
