@@ -113,6 +113,12 @@
       "SortOrder": "1061500"
     },
     {
+      "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-6\\OEBPS\\Text\\cover.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1060100"
+    },
+    {
       "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-6\\OEBPS\\Text\\signup.xhtml",
       "Alternates": [],
       "OtherSide": null,
@@ -125,10 +131,28 @@
       "SortOrder": "1060400"
     },
     {
-      "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-6\\OEBPS\\Text\\cover.xhtml",
+      "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-7\\OEBPS\\Text\\copyright.xhtml",
       "Alternates": [],
       "OtherSide": null,
-      "SortOrder": "1060100"
+      "SortOrder": "1071500"
+    },
+    {
+      "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-7\\OEBPS\\Text\\signup.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1071400"
+    },
+    {
+      "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-7\\OEBPS\\Text\\toc.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1070400"
+    },
+    {
+      "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-7\\OEBPS\\Text\\cover.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1070100"
     }
   ],
   "Chapters": [
@@ -1817,6 +1841,270 @@
       ]
     },
     {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "Adi's Daughter",
+      "SortOrder": "107",
+      "Sources": [
+        {
+          "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-7\\OEBPS\\Text\\bonus.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1071300"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "Chapters": [
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Character Sheet",
+          "SortOrder": "10702",
+          "Sources": [
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-7\\OEBPS\\Text\\characters1.xhtml",
+              "Alternates": [],
+              "OtherSide": {
+                "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-7\\OEBPS\\Text\\characters2.xhtml",
+                "Alternates": [],
+                "OtherSide": null,
+                "SortOrder": "1070300"
+              },
+              "SortOrder": "1070200"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Prologue",
+          "SortOrder": "10705",
+          "Sources": [
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-7\\OEBPS\\Text\\prologue.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1070500"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter 1",
+          "SortOrder": "10706",
+          "Sources": [
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-7\\OEBPS\\Text\\chapter1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1070600"
+            },
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-7\\OEBPS\\Text\\insert1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1070601"
+            },
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-7\\OEBPS\\Text\\chapter1_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1070602"
+            },
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-7\\OEBPS\\Text\\insert2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1070603"
+            },
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-7\\OEBPS\\Text\\chapter1_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1070604"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter 2",
+          "SortOrder": "10707",
+          "Sources": [
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-7\\OEBPS\\Text\\chapter2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1070700"
+            },
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-7\\OEBPS\\Text\\insert3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1070701"
+            },
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-7\\OEBPS\\Text\\chapter2_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1070702"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter 3",
+          "SortOrder": "10708",
+          "Sources": [
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-7\\OEBPS\\Text\\chapter3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1070800"
+            },
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-7\\OEBPS\\Text\\insert4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1070801"
+            },
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-7\\OEBPS\\Text\\chapter3_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1070802"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter 4",
+          "SortOrder": "10709",
+          "Sources": [
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-7\\OEBPS\\Text\\chapter4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1070900"
+            },
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-7\\OEBPS\\Text\\insert5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1070901"
+            },
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-7\\OEBPS\\Text\\chapter4_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1070902"
+            },
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-7\\OEBPS\\Text\\insert6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1070903"
+            },
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-7\\OEBPS\\Text\\chapter4_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1070904"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Epilogue",
+          "SortOrder": "10710",
+          "Sources": [
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-7\\OEBPS\\Text\\epilogue.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1071000"
+            },
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-7\\OEBPS\\Text\\insert7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1071001"
+            },
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-7\\OEBPS\\Text\\epilogue_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1071002"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "House Albert’s Little Treasure",
+          "SortOrder": "10711",
+          "Sources": [
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-7\\OEBPS\\Text\\side.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1071100"
+            },
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-7\\OEBPS\\Text\\insert8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1071101"
+            },
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-7\\OEBPS\\Text\\side_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1071102"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        }
+      ]
+    },
+    {
       "CType": 2,
       "ChapType": "NonStory",
       "Name": "Afterwords",
@@ -1927,6 +2215,24 @@
               "Alternates": [],
               "OtherSide": null,
               "SortOrder": "1061200"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Adi's Daughter",
+          "SortOrder": "10712",
+          "Sources": [
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-7\\OEBPS\\Text\\afterword.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1071200"
             }
           ],
           "LinkedChapters": [],
