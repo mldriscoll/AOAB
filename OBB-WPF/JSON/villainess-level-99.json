@@ -197,6 +197,30 @@
       "SortOrder": "1050200"
     },
     {
+      "File": "villainess-level-99\\villainess-level-99-i-may-be-the-hidden-boss-but-i-m-not-the-demon-lord-act-6\\OEBPS\\Text\\copyright.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1062500"
+    },
+    {
+      "File": "villainess-level-99\\villainess-level-99-i-may-be-the-hidden-boss-but-i-m-not-the-demon-lord-act-6\\OEBPS\\Text\\signup.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1062400"
+    },
+    {
+      "File": "villainess-level-99\\villainess-level-99-i-may-be-the-hidden-boss-but-i-m-not-the-demon-lord-act-6\\OEBPS\\Text\\toc.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1062300"
+    },
+    {
+      "File": "villainess-level-99\\villainess-level-99-i-may-be-the-hidden-boss-but-i-m-not-the-demon-lord-act-6\\OEBPS\\Text\\TOCimg.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1060200"
+    },
+    {
       "File": "villainess-level-99\\villainess-level-99-i-may-be-the-hidden-boss-but-i-m-not-the-demon-lord-volume-1\\OEBPS\\Text\\Color1.xhtml",
       "Alternates": [],
       "OtherSide": null,
@@ -243,6 +267,30 @@
       "Alternates": [],
       "OtherSide": null,
       "SortOrder": "1010200"
+    },
+    {
+      "File": "villainess-level-99\\villainess-level-99-i-may-be-the-hidden-boss-but-i-m-not-the-demon-lord-act-6\\OEBPS\\Text\\cover.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1060100"
+    },
+    {
+      "File": "villainess-level-99\\villainess-level-99-i-may-be-the-hidden-boss-but-i-m-not-the-demon-lord-act-6\\OEBPS\\Text\\Color1.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1061600"
+    },
+    {
+      "File": "villainess-level-99\\villainess-level-99-i-may-be-the-hidden-boss-but-i-m-not-the-demon-lord-act-6\\OEBPS\\Text\\Color2.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1061700"
+    },
+    {
+      "File": "villainess-level-99\\villainess-level-99-i-may-be-the-hidden-boss-but-i-m-not-the-demon-lord-act-6\\OEBPS\\Text\\Color3.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1061800"
     }
   ],
   "Chapters": [
@@ -2222,6 +2270,379 @@
     {
       "CType": 0,
       "ChapType": "Story",
+      "Name": "The Kingdom of Twilight",
+      "SortOrder": "106",
+      "Sources": [
+        {
+          "File": "villainess-level-99\\villainess-level-99-i-may-be-the-hidden-boss-but-i-m-not-the-demon-lord-act-6\\OEBPS\\Text\\bonus1.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1061900"
+        },
+        {
+          "File": "villainess-level-99\\villainess-level-99-i-may-be-the-hidden-boss-but-i-m-not-the-demon-lord-act-6\\OEBPS\\Text\\bonus2.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1062000"
+        },
+        {
+          "File": "villainess-level-99\\villainess-level-99-i-may-be-the-hidden-boss-but-i-m-not-the-demon-lord-act-6\\OEBPS\\Text\\bonus3.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1062100"
+        },
+        {
+          "File": "villainess-level-99\\villainess-level-99-i-may-be-the-hidden-boss-but-i-m-not-the-demon-lord-act-6\\OEBPS\\Text\\bonus4.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1062200"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "Chapters": [
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Prologue",
+          "SortOrder": "10603",
+          "Sources": [
+            {
+              "File": "villainess-level-99\\villainess-level-99-i-may-be-the-hidden-boss-but-i-m-not-the-demon-lord-act-6\\OEBPS\\Text\\prologue.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060300"
+            },
+            {
+              "File": "villainess-level-99\\villainess-level-99-i-may-be-the-hidden-boss-but-i-m-not-the-demon-lord-act-6\\OEBPS\\Text\\insert1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060301"
+            },
+            {
+              "File": "villainess-level-99\\villainess-level-99-i-may-be-the-hidden-boss-but-i-m-not-the-demon-lord-act-6\\OEBPS\\Text\\prologue_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060302"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Hidden Boss (Left Side) Awakens in the Kingdom of Twilight",
+          "SortOrder": "10604",
+          "Sources": [
+            {
+              "File": "villainess-level-99\\villainess-level-99-i-may-be-the-hidden-boss-but-i-m-not-the-demon-lord-act-6\\OEBPS\\Text\\chapter1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060400"
+            },
+            {
+              "File": "villainess-level-99\\villainess-level-99-i-may-be-the-hidden-boss-but-i-m-not-the-demon-lord-act-6\\OEBPS\\Text\\insert2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060401"
+            },
+            {
+              "File": "villainess-level-99\\villainess-level-99-i-may-be-the-hidden-boss-but-i-m-not-the-demon-lord-act-6\\OEBPS\\Text\\chapter1_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060402"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Hidden Boss (Right Side) Awakens in Her Room",
+          "SortOrder": "10605",
+          "Sources": [
+            {
+              "File": "villainess-level-99\\villainess-level-99-i-may-be-the-hidden-boss-but-i-m-not-the-demon-lord-act-6\\OEBPS\\Text\\chapter2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060500"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Hidden Boss (Left Side) Reunites with the Demon Lord",
+          "SortOrder": "10606",
+          "Sources": [
+            {
+              "File": "villainess-level-99\\villainess-level-99-i-may-be-the-hidden-boss-but-i-m-not-the-demon-lord-act-6\\OEBPS\\Text\\chapter3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060600"
+            },
+            {
+              "File": "villainess-level-99\\villainess-level-99-i-may-be-the-hidden-boss-but-i-m-not-the-demon-lord-act-6\\OEBPS\\Text\\insert3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060601"
+            },
+            {
+              "File": "villainess-level-99\\villainess-level-99-i-may-be-the-hidden-boss-but-i-m-not-the-demon-lord-act-6\\OEBPS\\Text\\chapter3_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060602"
+            },
+            {
+              "File": "villainess-level-99\\villainess-level-99-i-may-be-the-hidden-boss-but-i-m-not-the-demon-lord-act-6\\OEBPS\\Text\\insert4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060603"
+            },
+            {
+              "File": "villainess-level-99\\villainess-level-99-i-may-be-the-hidden-boss-but-i-m-not-the-demon-lord-act-6\\OEBPS\\Text\\chapter3_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060604"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Hidden Boss (Right Side) Finds a Black Notebook",
+          "SortOrder": "10607",
+          "Sources": [
+            {
+              "File": "villainess-level-99\\villainess-level-99-i-may-be-the-hidden-boss-but-i-m-not-the-demon-lord-act-6\\OEBPS\\Text\\chapter4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060700"
+            },
+            {
+              "File": "villainess-level-99\\villainess-level-99-i-may-be-the-hidden-boss-but-i-m-not-the-demon-lord-act-6\\OEBPS\\Text\\insert5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060701"
+            },
+            {
+              "File": "villainess-level-99\\villainess-level-99-i-may-be-the-hidden-boss-but-i-m-not-the-demon-lord-act-6\\OEBPS\\Text\\chapter4_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060702"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Hidden Boss (Left Side) Learns the Truth about the Demon Lord",
+          "SortOrder": "10608",
+          "Sources": [
+            {
+              "File": "villainess-level-99\\villainess-level-99-i-may-be-the-hidden-boss-but-i-m-not-the-demon-lord-act-6\\OEBPS\\Text\\chapter5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060800"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Hidden Boss (Right Side) Examines the Hero’s Documents",
+          "SortOrder": "10609",
+          "Sources": [
+            {
+              "File": "villainess-level-99\\villainess-level-99-i-may-be-the-hidden-boss-but-i-m-not-the-demon-lord-act-6\\OEBPS\\Text\\chapter6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1060900"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Hidden Boss (Left Side) Fights the Hero",
+          "SortOrder": "10610",
+          "Sources": [
+            {
+              "File": "villainess-level-99\\villainess-level-99-i-may-be-the-hidden-boss-but-i-m-not-the-demon-lord-act-6\\OEBPS\\Text\\chapter7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1061000"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Hidden Boss (Right Side) Launches a Counterattack",
+          "SortOrder": "10611",
+          "Sources": [
+            {
+              "File": "villainess-level-99\\villainess-level-99-i-may-be-the-hidden-boss-but-i-m-not-the-demon-lord-act-6\\OEBPS\\Text\\chapter8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1061100"
+            },
+            {
+              "File": "villainess-level-99\\villainess-level-99-i-may-be-the-hidden-boss-but-i-m-not-the-demon-lord-act-6\\OEBPS\\Text\\insert6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1061101"
+            },
+            {
+              "File": "villainess-level-99\\villainess-level-99-i-may-be-the-hidden-boss-but-i-m-not-the-demon-lord-act-6\\OEBPS\\Text\\chapter8_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1061102"
+            },
+            {
+              "File": "villainess-level-99\\villainess-level-99-i-may-be-the-hidden-boss-but-i-m-not-the-demon-lord-act-6\\OEBPS\\Text\\insert7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1061103"
+            },
+            {
+              "File": "villainess-level-99\\villainess-level-99-i-may-be-the-hidden-boss-but-i-m-not-the-demon-lord-act-6\\OEBPS\\Text\\chapter8_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1061104"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Hidden Boss (Unknown) Sees the Two Off",
+          "SortOrder": "10612",
+          "Sources": [
+            {
+              "File": "villainess-level-99\\villainess-level-99-i-may-be-the-hidden-boss-but-i-m-not-the-demon-lord-act-6\\OEBPS\\Text\\chapter9.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1061200"
+            },
+            {
+              "File": "villainess-level-99\\villainess-level-99-i-may-be-the-hidden-boss-but-i-m-not-the-demon-lord-act-6\\OEBPS\\Text\\insert8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1061201"
+            },
+            {
+              "File": "villainess-level-99\\villainess-level-99-i-may-be-the-hidden-boss-but-i-m-not-the-demon-lord-act-6\\OEBPS\\Text\\chapter9_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1061202"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Epilogue",
+          "SortOrder": "10613",
+          "Sources": [
+            {
+              "File": "villainess-level-99\\villainess-level-99-i-may-be-the-hidden-boss-but-i-m-not-the-demon-lord-act-6\\OEBPS\\Text\\epilogue.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1061300"
+            },
+            {
+              "File": "villainess-level-99\\villainess-level-99-i-may-be-the-hidden-boss-but-i-m-not-the-demon-lord-act-6\\OEBPS\\Text\\insert9.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1061301"
+            },
+            {
+              "File": "villainess-level-99\\villainess-level-99-i-may-be-the-hidden-boss-but-i-m-not-the-demon-lord-act-6\\OEBPS\\Text\\epilogue_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1061302"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Side Story: The Perfectly Planned Date",
+          "SortOrder": "10614",
+          "Sources": [
+            {
+              "File": "villainess-level-99\\villainess-level-99-i-may-be-the-hidden-boss-but-i-m-not-the-demon-lord-act-6\\OEBPS\\Text\\side.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1061400"
+            },
+            {
+              "File": "villainess-level-99\\villainess-level-99-i-may-be-the-hidden-boss-but-i-m-not-the-demon-lord-act-6\\OEBPS\\Text\\insert10.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1061401"
+            },
+            {
+              "File": "villainess-level-99\\villainess-level-99-i-may-be-the-hidden-boss-but-i-m-not-the-demon-lord-act-6\\OEBPS\\Text\\side_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1061402"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        }
+      ]
+    },
+    {
+      "CType": 0,
+      "ChapType": "Story",
       "Name": "Afterwords",
       "SortOrder": "999",
       "Sources": [],
@@ -2312,6 +2733,24 @@
               "Alternates": [],
               "OtherSide": null,
               "SortOrder": "1051500"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Act 6",
+          "SortOrder": "10615",
+          "Sources": [
+            {
+              "File": "villainess-level-99\\villainess-level-99-i-may-be-the-hidden-boss-but-i-m-not-the-demon-lord-act-6\\OEBPS\\Text\\afterword.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1061500"
             }
           ],
           "LinkedChapters": [],
