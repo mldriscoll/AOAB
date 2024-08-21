@@ -33,33 +33,51 @@
       "Alternates": [],
       "OtherSide": null,
       "SortOrder": "10110180"
+    },
+    {
+      "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-000.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "10202002"
+    },
+    {
+      "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-002.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "10202004"
+    },
+    {
+      "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-194.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "10212196"
+    },
+    {
+      "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-055.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "10204057"
+    },
+    {
+      "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-077.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "10205079"
+    },
+    {
+      "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-078.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "10205080"
+    },
+    {
+      "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-188.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "10211190"
     }
   ],
   "Chapters": [
-    {
-      "CType": 0,
-      "ChapType": "Story",
-      "Name": "Volume 1",
-      "SortOrder": "01",
-      "Sources": [
-        {
-          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-1\\item\\xhtml\\p-001.xhtml",
-          "Alternates": [],
-          "OtherSide": null,
-          "SortOrder": "10102003"
-        },
-        {
-          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-1\\item\\xhtml\\p-177.xhtml",
-          "Alternates": [],
-          "OtherSide": null,
-          "SortOrder": "10110179"
-        }
-      ],
-      "LinkedChapters": [],
-      "EndsBeforeLine": "",
-      "StartsAtLine": "",
-      "Chapters": []
-    },
     {
       "CType": 0,
       "ChapType": "Story",
@@ -1183,6 +1201,1287 @@
           "Alternates": [],
           "OtherSide": null,
           "SortOrder": "10110178"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "Chapters": []
+    },
+    {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "A Human Weapon, A Human and an Android",
+      "SortOrder": "10202",
+      "Sources": [
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-003.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10203005"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-004.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10203006"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-005.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10203007"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-006.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10203008"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-007.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10203009"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-008.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10203010"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-009.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10203011"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-010.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10203012"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-011.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10203013"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-012.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10203014"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-013.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10203015"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-014.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10203016"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-015.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10203017"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-016.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10203018"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-017.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10203019"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-018.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10203020"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-019.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10203021"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-020.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10203022"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-021.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10203023"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-022.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10203024"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-023.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10203025"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-024.xhtml",
+          "Alternates": [],
+          "OtherSide": {
+            "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-025.xhtml",
+            "Alternates": [],
+            "OtherSide": null,
+            "SortOrder": "10203027"
+          },
+          "SortOrder": "10203026"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-026.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10203028"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-027.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10203029"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-028.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10203030"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-029.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10203031"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-030.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10203032"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "Chapters": []
+    },
+    {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "Ichiha, Number Ten, and Me",
+      "SortOrder": "10203",
+      "Sources": [
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-031.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10204033"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-032.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10204034"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-033.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10204035"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-034.xhtml",
+          "Alternates": [],
+          "OtherSide": {
+            "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-035.xhtml",
+            "Alternates": [],
+            "OtherSide": null,
+            "SortOrder": "10204037"
+          },
+          "SortOrder": "10204036"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-036.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10204038"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-037.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10204039"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-038.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10204040"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-039.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10204041"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-040.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10204042"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-041.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10204043"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-042.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10204044"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-043.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10204045"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-044.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10204046"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-045.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10204047"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-046.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10204048"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-047.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10204049"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-048.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10204050"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-049.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10204051"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-050.xhtml",
+          "Alternates": [],
+          "OtherSide": {
+            "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-051.xhtml",
+            "Alternates": [],
+            "OtherSide": null,
+            "SortOrder": "10204053"
+          },
+          "SortOrder": "10204052"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-052.xhtml",
+          "Alternates": [],
+          "OtherSide": {
+            "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-053.xhtml",
+            "Alternates": [],
+            "OtherSide": null,
+            "SortOrder": "10204055"
+          },
+          "SortOrder": "10204054"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-054.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10204056"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "Chapters": []
+    },
+    {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "Downhill Running, Number Ten, and Me",
+      "SortOrder": "10204",
+      "Sources": [
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-057.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10205059"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-058.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10205060"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-059.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10205061"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-060.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10205062"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-061.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10205063"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-062.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10205064"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-063.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10205065"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-064.xhtml",
+          "Alternates": [],
+          "OtherSide": {
+            "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-065.xhtml",
+            "Alternates": [],
+            "OtherSide": null,
+            "SortOrder": "10205067"
+          },
+          "SortOrder": "10205066"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-066.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10205068"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-067.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10205069"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-068.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10205070"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-069.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10205071"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-070.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10205072"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-071.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10205073"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-072.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10205074"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-073.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10205075"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-074.xhtml",
+          "Alternates": [],
+          "OtherSide": {
+            "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-075.xhtml",
+            "Alternates": [],
+            "OtherSide": null,
+            "SortOrder": "10205077"
+          },
+          "SortOrder": "10205076"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-076.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10205078"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "Chapters": []
+    },
+    {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "A Zoo, Number Ten, and Me",
+      "SortOrder": "10205",
+      "Sources": [
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-079.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10206081"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-080.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10206082"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-081.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10206083"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-082.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10206084"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-083.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10206085"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-084.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10206086"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-085.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10206087"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-086.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10206088"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-087.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10206089"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-088.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10206090"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-089.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10206091"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-090.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10206092"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-091.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10206093"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-092.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10206094"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-093.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10206095"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-094.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10206096"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-095.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10206097"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-096.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10206098"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-097.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10206099"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-098.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10206100"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "Chapters": []
+    },
+    {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "Child, Lab Animals, and Humanoid Mobile Weapons Unit Number Ten",
+      "SortOrder": "10206",
+      "Sources": [
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-099.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10207101"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-100.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10207102"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-101.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10207103"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-102.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10207104"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-103.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10207105"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-104.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10207106"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-105.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10207107"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-106.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10207108"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-107.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10207109"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-108.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10207110"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-109.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10207111"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-110.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10207112"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-111.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10207113"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-112.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10207114"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-113.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10207115"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-114.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10207116"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-115.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10207117"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-116.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10207118"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-117.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10207119"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-118.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10207120"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-119.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10207121"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-120.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10207122"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-121.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10207123"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-122.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10207124"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-123.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10207125"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-124.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10207126"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-125.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10207127"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-126.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10207128"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-127.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10207129"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-128.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10207130"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-129.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10207131"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "Chapters": []
+    },
+    {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "Memories, Number Ten, and Me",
+      "SortOrder": "10207",
+      "Sources": [
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-131.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10208133"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-132.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10208134"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-133.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10208135"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-134.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10208136"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-135.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10208137"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-136.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10208138"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-137.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10208139"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-138.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10208140"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-139.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10208141"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-140.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10208142"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-141.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10208143"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-142.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10208144"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-143.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10208145"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-144.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10208146"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-145.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10208147"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-146.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10208148"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-147.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10208149"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-148.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10208150"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "Chapters": []
+    },
+    {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "A Train, Number Ten, and Me",
+      "SortOrder": "10208",
+      "Sources": [
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-149.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10209151"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-150.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10209152"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-151.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10209153"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-152.xhtml",
+          "Alternates": [],
+          "OtherSide": {
+            "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-153.xhtml",
+            "Alternates": [],
+            "OtherSide": null,
+            "SortOrder": "10209155"
+          },
+          "SortOrder": "10209154"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-154.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10209156"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-155.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10209157"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-156.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10209158"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-157.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10209159"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-158.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10209160"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-159.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10209161"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-160.xhtml",
+          "Alternates": [],
+          "OtherSide": {
+            "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-161.xhtml",
+            "Alternates": [],
+            "OtherSide": null,
+            "SortOrder": "10209163"
+          },
+          "SortOrder": "10209162"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-162.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10209164"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-163.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10209165"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-164.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10209166"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-165.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10209167"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-166.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10209168"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-167.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10209169"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-168.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10209170"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-169.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10209171"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-170.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10209172"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-171.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10209173"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-172.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10209174"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-173.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10209175"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-174.xhtml",
+          "Alternates": [],
+          "OtherSide": {
+            "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-175.xhtml",
+            "Alternates": [],
+            "OtherSide": null,
+            "SortOrder": "10209177"
+          },
+          "SortOrder": "10209176"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "Chapters": []
+    },
+    {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "Extra: Pursuing the Surface-Bound Battleship",
+      "SortOrder": "10209",
+      "Sources": [
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-177.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10210179"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-178.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10210180"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-179.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10210181"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-180.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10210182"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-181.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10210183"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-182.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10210184"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-183.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10210185"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-184.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10210186"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "Chapters": []
+    },
+    {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "Extra: Child's Umbrella",
+      "SortOrder": "10210",
+      "Sources": [
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-185.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10211187"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-186.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10211188"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-187.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10211189"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "Chapters": []
+    },
+    {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "Extra: An Ever-Growing Human and Humanoid Mobile Weapons Unit Number Ten",
+      "SortOrder": "10211",
+      "Sources": [
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-189.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10212191"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-190.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10212192"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-191.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10212193"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "Chapters": []
+    },
+    {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "Volume 1",
+      "SortOrder": "901",
+      "Sources": [
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-1\\item\\xhtml\\p-001.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10102003"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-1\\item\\xhtml\\p-177.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10110179"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "Chapters": []
+    },
+    {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "Volume 2",
+      "SortOrder": "902",
+      "Sources": [
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\cover.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10202001"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-001.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10202003"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-056.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10204058"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-130.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10207132"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-176.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10209178"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-192.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10212194"
+        },
+        {
+          "File": "through-the-viewport-child-of-a-ruined-world\\through-the-viewport-child-of-a-ruined-world-volume-2\\item\\xhtml\\p-193.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "10212195"
         }
       ],
       "LinkedChapters": [],

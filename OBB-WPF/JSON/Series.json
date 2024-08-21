@@ -20509,7 +20509,9 @@
         "ApiSlug": "through-the-viewport-child-of-a-ruined-world-volume-2",
         "FileName": "through-the-viewport-child-of-a-ruined-world-volume-2.epub",
         "Title": "Through the Viewport: Child of a Ruined World Volume 2",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2024-07-31",
         "Order": 102
       }
