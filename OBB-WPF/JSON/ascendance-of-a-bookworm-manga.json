@@ -1038,6 +1038,72 @@
       "SortOrder": "20212177"
     },
     {
+      "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-000.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "20302002"
+    },
+    {
+      "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-001.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "20302003"
+    },
+    {
+      "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-003.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "20302005"
+    },
+    {
+      "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-004.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "20302006"
+    },
+    {
+      "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-070.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "20305072"
+    },
+    {
+      "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-095.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "20306097"
+    },
+    {
+      "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-126.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "20307128"
+    },
+    {
+      "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-155.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "20310157"
+    },
+    {
+      "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-165.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "20310167"
+    },
+    {
+      "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-170.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "20312172"
+    },
+    {
+      "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-171.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "20312173"
+    },
+    {
       "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-volume-1\\item\\xhtml\\p-000.xhtml",
       "Alternates": [],
       "OtherSide": null,
@@ -19969,16 +20035,24 @@
           "SortOrder": "20202001"
         },
         {
-          "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-2\\item\\xhtml\\p-002.xhtml",
+          "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\cover.xhtml",
           "Alternates": [],
           "OtherSide": null,
-          "SortOrder": "20202004"
+          "SortOrder": "20302001"
+        },
+        {
+          "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-002.xhtml",
+          "Alternates": [
+            "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-2\\item\\xhtml\\p-002.xhtml"
+          ],
+          "OtherSide": null,
+          "SortOrder": "20302004"
         },
         {
           "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-2\\item\\xhtml\\p-003.xhtml",
           "Alternates": [],
           "OtherSide": null,
-          "SortOrder": "20202005"
+          "SortOrder": "20302005"
         }
       ],
       "LinkedChapters": [],
@@ -22313,6 +22387,1047 @@
           "Chapters": []
         },
         {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Picture of Ferdinand",
+          "SortOrder": "20302",
+          "Sources": [
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-005.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20303007"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-006.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20303008"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-007.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20303009"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-008.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20303010"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-009.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20303011"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-010.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20303012"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-011.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20303013"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-012.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20303014"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-013.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20303015"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-014.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20303016"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-015.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20303017"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-016.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20303018"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-017.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20303019"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-018.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20303020"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-019.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20303021"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-020.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20303022"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-021.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20303023"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-022.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20303024"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-023.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20303025"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-024.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20303026"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-025.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20303027"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-026.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20303028"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-027.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20303029"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-028.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20303030"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Johann and Zack",
+          "SortOrder": "20303",
+          "Sources": [
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-029.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20304031"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-030.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20304032"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-031.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20304033"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-032.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20304034"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-033.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20304035"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-034.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20304036"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-035.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20304037"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-036.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20304038"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-037.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20304039"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-038.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20304040"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-039.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20304041"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-040.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20304042"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-041.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20304043"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-042.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20304044"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "All to See Myne",
+          "SortOrder": "20303b",
+          "Sources": [
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-156.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20310158"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-157.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20310159"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-158.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20310160"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-159.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20310161"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-160.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20310162"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-161.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20310163"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-162.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20310164"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-163.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20310165"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-164.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20310166"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Reunion with Tuuli",
+          "SortOrder": "20304",
+          "Sources": [
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-043.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20305045"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-044.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20305046"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-045.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20305047"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-046.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20305048"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-047.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20305049"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-048.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20305050"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-049.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20305051"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-050.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20305052"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-051.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20305053"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-052.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20305054"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-053.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20305055"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-054.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20305056"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-055.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20305057"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-056.xhtml",
+              "Alternates": [],
+              "OtherSide": {
+                "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-057.xhtml",
+                "Alternates": [],
+                "OtherSide": null,
+                "SortOrder": "20305059"
+              },
+              "SortOrder": "20305058"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-058.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20305060"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-059.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20305061"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-060.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20305062"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-061.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20305063"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-062.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20305064"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-063.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20305065"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-064.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20305066"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-065.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20305067"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-066.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20305068"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-067.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20305069"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-068.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20305070"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-069.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20305071"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Lamprecht and Elvira Attack",
+          "SortOrder": "20305",
+          "Sources": [
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-071.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20306073"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-072.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20306074"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-073.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20306075"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-074.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20306076"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-075.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20306077"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-076.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20306078"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-077.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20306079"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-078.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20306080"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-079.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20306081"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-080.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20306082"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-081.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20306083"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-082.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20306084"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-083.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20306085"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-084.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20306086"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-085.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20306087"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-086.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20306088"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-087.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20306089"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-088.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20306090"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-089.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20306091"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-090.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20306092"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-091.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20306093"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-092.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20306094"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-093.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20306095"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-094.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20306096"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Forming a Highbeast!",
+          "SortOrder": "20306",
+          "Sources": [
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-096.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20307098"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-097.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20307099"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-098.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20307100"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-099.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20307101"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-100.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20307102"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-101.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20307103"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-102.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20307104"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-103.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20307105"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-104.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20307106"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-105.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20307107"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-106.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20307108"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-107.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20307109"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-108.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20307110"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-109.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20307111"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-110.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20307112"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-111.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20307113"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-112.xhtml",
+              "Alternates": [],
+              "OtherSide": {
+                "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-113.xhtml",
+                "Alternates": [],
+                "OtherSide": null,
+                "SortOrder": "20307115"
+              },
+              "SortOrder": "20307114"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-114.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20307116"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-115.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20307117"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-116.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20307118"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-117.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20307119"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-118.xhtml",
+              "Alternates": [],
+              "OtherSide": {
+                "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-119.xhtml",
+                "Alternates": [],
+                "OtherSide": null,
+                "SortOrder": "20307121"
+              },
+              "SortOrder": "20307120"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-120.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20307122"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-121.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20307123"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-122.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20307124"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-123.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20307125"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-124.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20307126"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-125.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20307127"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Completing the Wax Paper",
+          "SortOrder": "20307",
+          "Sources": [
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-127.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20308129"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-128.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20308130"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-129.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20308131"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-130.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20308132"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-131.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20308133"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-132.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20308134"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-133.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20308135"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-134.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20308136"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-135.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20308137"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-136.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20308138"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-137.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20308139"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-138.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20308140"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-139.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20308141"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-140.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20308142"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-141.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20308143"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-142.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20308144"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-143.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20308145"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-144.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20308146"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-145.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20308147"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-146.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20308148"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-147.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20308149"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-148.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20308150"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-149.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20308151"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Extra: Lessy and Me (1 and 2)",
+          "SortOrder": "20308",
+          "Sources": [
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-150.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20309152"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-151.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20309153"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-152.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20309154"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Extra: Lessy and Ferdinand",
+          "SortOrder": "20308001",
+          "Sources": [
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-153.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20309155"
+            },
+            {
+              "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-154.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20309156"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
           "CType": 2,
           "ChapType": "NonStory",
           "Name": "Afterwords",
@@ -22387,6 +23502,42 @@
                   "Alternates": [],
                   "OtherSide": null,
                   "SortOrder": "20212175"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "Volume 3",
+              "SortOrder": "20310",
+              "Sources": [
+                {
+                  "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-166.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20311168"
+                },
+                {
+                  "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-167.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20312169"
+                },
+                {
+                  "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-168.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20312170"
+                },
+                {
+                  "File": "ascendance-of-a-bookworm-manga\\ascendance-of-a-bookworm-manga-part-3-volume-3\\item\\xhtml\\p-169.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20312171"
                 }
               ],
               "LinkedChapters": [],
