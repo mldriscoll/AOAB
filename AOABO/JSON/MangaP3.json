@@ -228,5 +228,107 @@
       }
     ],
     "Maps": []
+  },
+  {
+    "InternalName": "M0303",
+    "OCR": true,
+    "BonusChapters": [
+      {
+        "OriginalFilenames": [ "156", "157", "158", "159", "160", "161", "162", "163", "164" ],
+        "EarlySortOrder": "030116b",
+        "LateSortOrder": "030196k",
+        "POV": "Tuuli",
+        "ChapterName": "All to See Myne",
+        "OverrideName": "All to See Myne",
+        "Volume": "0301",
+        "EarlyYear": 3,
+        "LateYear": 3,
+        "EarlySeason": "Summer",
+        "LateSeason": "Summer",
+        "ProcessedInPartThree": true,
+        "Source": "M3V3 Written Bonus",
+        "OCR": {
+          "Crop": false,
+          "Corrections": [
+            {
+              "Original": "\"Right!",
+              "Replacement": "“Right!”"
+            },
+            {
+              "Original": "\"R-Right!",
+              "Replacement": "“R-Right!”"
+            },
+            {
+              "Original": "Ngh... Taey made it seem so straightforward.",
+              "Replacement": "<i>Ngh... They made it seem so straightforward.</i>"
+            },
+            {
+              "Original": "Some of the people in Mrs. Corinna’s workshop got really good at making the hairpins Myne taught them a year ago. You should keep that new method a secret ifyou can.",
+              "Replacement": "<i>Some of the people in Mrs. Corinna’s workshop got really good at making the hairpins Myne taught them a year ago. You should keep that new method a secret if you can.</i>"
+            },
+            {
+              "Original": "but the greeting.” </p>\r\n<br />\r\n<p>I clapped a hand",
+              "Replacement": "but the greeting.” </p>\r\n<p>“Ah...!”</p>\r\n<p>I clapped a hand"
+            },
+            {
+              "Original": "Those are soldier greetings!",
+              "Replacement": "Those are <i>soldier</i> greetings!"
+            }
+          ],
+          "Italics": [
+            {
+              "Start": "And summer’s almost over...",
+              "End": "And summer’s almost over..."
+            },
+            {
+              "Start": "Deep breaths! Wait, what does that even mean?!",
+              "End": "Deep breaths! Wait, what does that even mean?!"
+            },
+            {
+              "Start": "But it’s still not enough. Mrs. Corinna’s so busy that she can only teach me once a fortnight.",
+              "End": "But it’s still not enough. Mrs. Corinna’s so busy that she can only teach me once a fortnight."
+            },
+            {
+              "Start": "I need to get at least as good as the Gilberta Company’s apprentices.",
+              "End": "I need to get at least as good as the Gilberta Company’s apprentices."
+            },
+            {
+              "Start": "I want to see Myne.",
+              "End": "I want to see Myne."
+            },
+            {
+              "Start": "Myne wants to see us, even if she can’t treat us like family anymore. I’m going to pass my etiquette tests and give her the hairpin I made for her!",
+              "End": "Myne wants to see us, even if she can’t treat us like family anymore. I’m going to pass my etiquette tests and give her the hairpin I made for her!"
+            },
+            {
+              "Start": "Moving in a straight line’s surprisingly tough when you can’t look down at your feet.",
+              "End": "Moving in a straight line’s surprisingly tough when you can’t look down at your feet."
+            },
+            {
+              "Start": "Arms over your chest. Pull your right leg back. Put your left leg forward.",
+              "End": "Arms over your chest. Pull your right leg back. Put your left leg forward."
+            },
+            {
+              "Start": "One long greeting was enough! Do they really need four?!",
+              "End": "One long greeting was enough! Do they really need four?!"
+            },
+            {
+              "Start": "Kamil always plays with the toys Myne made for him. I just hope she knows that.",
+              "End": "Kamil always plays with the toys Myne made for him. I just hope she knows that."
+            }
+          ]
+        }
+      }
+    ],
+    "ComfyLifeChapter": {
+      "OriginalFilenames": [ "150", "151", "152", "153", "154" ],
+      "SortOrder": "030119b",
+      "ChapterName": "Lessy and Me + Ferdinand",
+      "Volume": "0301",
+      "Year": 3,
+      "Season": "Summer",
+      "ProcessedInPartThree": true
+    },
+    "Maps": []
   }
 ]
