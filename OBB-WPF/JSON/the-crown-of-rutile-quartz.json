@@ -1,0 +1,734 @@
+{
+  "Cover": {
+    "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-1\\OEBPS\\Text\\color1.xhtml",
+    "Alternates": [],
+    "OtherSide": null,
+    "SortOrder": "1011500"
+  },
+  "Author": "Surume Enoki",
+  "AuthorSort": "ENOKI, SURUME",
+  "Name": "The Crown of Rutile Quartz",
+  "InternalName": "the-crown-of-rutile-quartz",
+  "UnusedSources": [
+    {
+      "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-1\\OEBPS\\Text\\copyright.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1012200"
+    },
+    {
+      "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-1\\OEBPS\\Text\\cover.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1010100"
+    },
+    {
+      "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-1\\OEBPS\\Text\\signup.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1012100"
+    },
+    {
+      "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-1\\OEBPS\\Text\\toc.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1012000"
+    },
+    {
+      "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-1\\OEBPS\\Text\\tocimg.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1010200"
+    },
+    {
+      "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-2\\OEBPS\\Text\\copyright.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1022000"
+    },
+    {
+      "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-2\\OEBPS\\Text\\cover.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1020100"
+    },
+    {
+      "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-2\\OEBPS\\Text\\signup.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1021900"
+    },
+    {
+      "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-2\\OEBPS\\Text\\toc.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1021800"
+    },
+    {
+      "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-2\\OEBPS\\Text\\tocimg.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1020200"
+    }
+  ],
+  "Chapters": [
+    {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "Map",
+      "SortOrder": "002",
+      "Sources": [
+        {
+          "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-1\\OEBPS\\Text\\map.xhtml",
+          "Alternates": [
+            "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-2\\OEBPS\\Text\\map.xhtml"
+          ],
+          "OtherSide": null,
+          "SortOrder": "1010300"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "Chapters": []
+    },
+    {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "Volume 1",
+      "SortOrder": "101",
+      "Sources": [
+        {
+          "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-1\\OEBPS\\Text\\color3.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1011600"
+        },
+        {
+          "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-1\\OEBPS\\Text\\color2.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1011700"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "Chapters": [
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Resolve",
+          "SortOrder": "10104",
+          "Sources": [
+            {
+              "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-1\\OEBPS\\Text\\chapter1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010400"
+            },
+            {
+              "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-1\\OEBPS\\Text\\insert1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010401"
+            },
+            {
+              "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-1\\OEBPS\\Text\\chapter1_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010402"
+            },
+            {
+              "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-1\\OEBPS\\Text\\insert2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010403"
+            },
+            {
+              "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-1\\OEBPS\\Text\\chapter1_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010404"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Value of Blood",
+          "SortOrder": "10105",
+          "Sources": [
+            {
+              "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-1\\OEBPS\\Text\\chapter2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010500"
+            },
+            {
+              "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-1\\OEBPS\\Text\\insert3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010501"
+            },
+            {
+              "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-1\\OEBPS\\Text\\chapter2_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010502"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Frustration",
+          "SortOrder": "10106",
+          "Sources": [
+            {
+              "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-1\\OEBPS\\Text\\chapter3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010600"
+            },
+            {
+              "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-1\\OEBPS\\Text\\insert4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010601"
+            },
+            {
+              "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-1\\OEBPS\\Text\\chapter3_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010602"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Change for the Better",
+          "SortOrder": "10107",
+          "Sources": [
+            {
+              "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-1\\OEBPS\\Text\\chapter4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010700"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Nearly There",
+          "SortOrder": "10108",
+          "Sources": [
+            {
+              "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-1\\OEBPS\\Text\\chapter5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010800"
+            },
+            {
+              "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-1\\OEBPS\\Text\\insert5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010801"
+            },
+            {
+              "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-1\\OEBPS\\Text\\chapter5_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010802"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Muster at the Brink of War",
+          "SortOrder": "10109",
+          "Sources": [
+            {
+              "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-1\\OEBPS\\Text\\chapter6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010900"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Decisive Battle",
+          "SortOrder": "10110",
+          "Sources": [
+            {
+              "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-1\\OEBPS\\Text\\chapter7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1011000"
+            },
+            {
+              "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-1\\OEBPS\\Text\\insert6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1011001"
+            },
+            {
+              "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-1\\OEBPS\\Text\\chapter7_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1011002"
+            },
+            {
+              "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-1\\OEBPS\\Text\\insert7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1011003"
+            },
+            {
+              "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-1\\OEBPS\\Text\\chapter7_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1011004"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Interlude: Monica’s Reminiscence",
+          "SortOrder": "10111",
+          "Sources": [
+            {
+              "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-1\\OEBPS\\Text\\interlude.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1011100"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Crown of Rutile Quartz",
+          "SortOrder": "10112",
+          "Sources": [
+            {
+              "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-1\\OEBPS\\Text\\final.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1011200"
+            },
+            {
+              "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-1\\OEBPS\\Text\\insert8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1011201"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Side Story: Skin to Skin, Heart to Heart",
+          "SortOrder": "10113",
+          "Sources": [
+            {
+              "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-1\\OEBPS\\Text\\side.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1011300"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        }
+      ]
+    },
+    {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "Volume 2",
+      "SortOrder": "102",
+      "Sources": [
+        {
+          "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-2\\OEBPS\\Text\\color1.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1021200"
+        },
+        {
+          "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-2\\OEBPS\\Text\\color2.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1021300"
+        },
+        {
+          "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-2\\OEBPS\\Text\\color3.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1021400"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "Chapters": [
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Winter’s Repose",
+          "SortOrder": "10204",
+          "Sources": [
+            {
+              "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-2\\OEBPS\\Text\\chapter1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020400"
+            },
+            {
+              "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-2\\OEBPS\\Text\\insert1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020401"
+            },
+            {
+              "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-2\\OEBPS\\Text\\chapter1_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020402"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Coup",
+          "SortOrder": "10205",
+          "Sources": [
+            {
+              "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-2\\OEBPS\\Text\\chapter2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020500"
+            },
+            {
+              "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-2\\OEBPS\\Text\\insert2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020501"
+            },
+            {
+              "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-2\\OEBPS\\Text\\chapter2_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020502"
+            },
+            {
+              "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-2\\OEBPS\\Text\\insert3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020503"
+            },
+            {
+              "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-2\\OEBPS\\Text\\chapter2_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020504"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "A Quiet Reign",
+          "SortOrder": "10206",
+          "Sources": [
+            {
+              "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-2\\OEBPS\\Text\\chapter3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020600"
+            },
+            {
+              "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-2\\OEBPS\\Text\\insert4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020601"
+            },
+            {
+              "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-2\\OEBPS\\Text\\chapter3_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020602"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "A Disquieting Report",
+          "SortOrder": "10207",
+          "Sources": [
+            {
+              "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-2\\OEBPS\\Text\\chapter4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020700"
+            },
+            {
+              "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-2\\OEBPS\\Text\\insert5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020701"
+            },
+            {
+              "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-2\\OEBPS\\Text\\chapter4_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020702"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Battle for the Fortress",
+          "SortOrder": "10208",
+          "Sources": [
+            {
+              "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-2\\OEBPS\\Text\\chapter5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020800"
+            },
+            {
+              "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-2\\OEBPS\\Text\\insert6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020801"
+            },
+            {
+              "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-2\\OEBPS\\Text\\chapter5_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020802"
+            },
+            {
+              "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-2\\OEBPS\\Text\\insert7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020803"
+            },
+            {
+              "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-2\\OEBPS\\Text\\chapter5_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020804"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "After the Battle",
+          "SortOrder": "10209",
+          "Sources": [
+            {
+              "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-2\\OEBPS\\Text\\chapter6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020900"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Together",
+          "SortOrder": "10210",
+          "Sources": [
+            {
+              "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-2\\OEBPS\\Text\\chapter7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1021000"
+            },
+            {
+              "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-2\\OEBPS\\Text\\insert8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1021001"
+            },
+            {
+              "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-2\\OEBPS\\Text\\chapter7_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1021002"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        }
+      ]
+    },
+    {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "Bonus Art",
+      "SortOrder": "998",
+      "Sources": [
+        {
+          "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-1\\OEBPS\\Text\\bonus1.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1011800"
+        },
+        {
+          "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-1\\OEBPS\\Text\\bonus2.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1011900"
+        },
+        {
+          "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-2\\OEBPS\\Text\\bonus1.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1021500"
+        },
+        {
+          "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-2\\OEBPS\\Text\\bonus2.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1021600"
+        },
+        {
+          "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-2\\OEBPS\\Text\\bonus3.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1021700"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "Chapters": []
+    },
+    {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "Afterwords",
+      "SortOrder": "999",
+      "Sources": [],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "Chapters": [
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Volume 1",
+          "SortOrder": "10114",
+          "Sources": [
+            {
+              "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-1\\OEBPS\\Text\\afterword.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1011400"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Volume 2",
+          "SortOrder": "10211",
+          "Sources": [
+            {
+              "File": "the-crown-of-rutile-quartz\\the-crown-of-rutile-quartz-volume-2\\OEBPS\\Text\\afterword.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1021100"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        }
+      ]
+    }
+  ]
+}

@@ -17255,7 +17255,9 @@
         "ApiSlug": "the-crown-of-rutile-quartz-volume-1",
         "FileName": "the-crown-of-rutile-quartz-volume-1.epub",
         "Title": "The Crown of Rutile Quartz: Volume 1",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2023-12-19",
         "Order": 101
       },
@@ -17263,7 +17265,9 @@
         "ApiSlug": "the-crown-of-rutile-quartz-volume-2",
         "FileName": "the-crown-of-rutile-quartz-volume-2.epub",
         "Title": "The Crown of Rutile Quartz: Volume 2",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2024-08-22",
         "Order": 102
       }
