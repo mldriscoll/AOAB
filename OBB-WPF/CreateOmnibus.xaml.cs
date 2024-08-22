@@ -60,6 +60,7 @@ namespace OBB_WPF
                 Name = series.Name,
                 Author = series.Author,
                 AuthorSort = series.AuthorSort,
+                InternalName = series.InternalName,
             };
 
 #if DEBUG
@@ -79,12 +80,12 @@ namespace OBB_WPF
                 }
             }
 #endif
-
+            Unpacker.Unpack(series).GetAwaiter().GetResult();
             foreach (var vol in series.Volumes.Where(x => !x.EditedBy.Any()))
             {
                 try
                 {
-                    var ob = Importer.GenerateVolumeInfo($"{omnibus.Name}\\{vol.ApiSlug}", omnibus.Name, vol.ApiSlug, vol.Order);
+                    var ob = Importer.GenerateVolumeInfo($"{omnibus.InternalName}\\{vol.ApiSlug}", omnibus.Name, vol.ApiSlug, vol.Order);
                     omnibus.Combine(ob);
                 }
                 catch (Exception ex)
