@@ -254,7 +254,7 @@ namespace AOABO.Omnibus
                         if (!string.IsNullOrWhiteSpace(chapter.StartLine))
                         {
                             var location = newChapter.Contents.IndexOf(chapter.StartLine);
-                            newChapter.Contents = newChapter.Contents.Substring(location).Replace(chapter.StartLine, $"<h1>{newChapter.Name}</h1>");
+                            newChapter.Contents = newChapter.Contents.Substring(location).Replace(chapter.StartLine, $"<body><section><div><h1>{newChapter.Name}</h1>");
                         }
 
                         if (!string.IsNullOrWhiteSpace(chapter.EndLine))
