@@ -17371,7 +17371,9 @@
         "ApiSlug": "tearmoon-empire-volume-13",
         "FileName": "tearmoon-empire-volume-13.epub",
         "Title": "",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2024-08-29",
         "Order": 113
       }

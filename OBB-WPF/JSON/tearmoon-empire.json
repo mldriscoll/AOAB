@@ -53,6 +53,30 @@
       "SortOrder": "1120800"
     },
     {
+      "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\copyright.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1136800"
+    },
+    {
+      "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\cover.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1130100"
+    },
+    {
+      "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\signup.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1136700"
+    },
+    {
+      "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\toc.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1130800"
+    },
+    {
       "File": "tearmoon-empire\\tearmoon-empire-volume-2\\OEBPS\\text\\bonus.xhtml",
       "Alternates": [],
       "OtherSide": null,
@@ -13624,6 +13648,1214 @@
           "EndsBeforeLine": "",
           "StartsAtLine": "<h2>The Girl Who Failed to Become the Princess’s Personal Maid</h2>",
           "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Volume 13",
+          "SortOrder": "13",
+          "Sources": [
+            {
+              "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\frontmatter1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1130200"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": [
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "Prologue",
+              "SortOrder": "11309",
+              "Sources": [
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\prologue.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1130900"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "Bel Is Incredibly Upright",
+              "SortOrder": "11310",
+              "Sources": [
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1131000"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "How Presumptuous!",
+              "SortOrder": "11311",
+              "Sources": [
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter2.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1131100"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "Julius’s Past",
+              "SortOrder": "11312",
+              "Sources": [
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter3.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1131200"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "Macaron Detective Mia’s Milk Mystery",
+              "SortOrder": "11313",
+              "Sources": [
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter4.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1131300"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "Perhaps Not as Firm as a Dried Mushroom, but...",
+              "SortOrder": "11314",
+              "Sources": [
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter5.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1131400"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "Chats at the Baths",
+              "SortOrder": "11315",
+              "Sources": [
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter6.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1131500"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "Bel Shakes the Lion’s Tail",
+              "SortOrder": "11316",
+              "Sources": [
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter7.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1131600"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "The Judgment of the Great Sage of the Empire (Side One)",
+              "SortOrder": "11317",
+              "Sources": [
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter8.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1131700"
+                },
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\insert1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1131701"
+                },
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter8_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1131702"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "The Judgment of the Great Sage of the Empire (Side <em>Too</em>...Much [Surface] Tension)",
+              "SortOrder": "11318",
+              "Sources": [
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter9.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1131800"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "The Chase",
+              "SortOrder": "11319",
+              "Sources": [
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter10.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1131900"
+                },
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\insert2.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1131901"
+                },
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter10_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1131902"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "A Certain Someone’s Miscalculations",
+              "SortOrder": "11320",
+              "Sources": [
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter11.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1132000"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "Strategic Analysis... Absolute Failure",
+              "SortOrder": "11321",
+              "Sources": [
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter12.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1132100"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "Keithwood Gains a Reassuring Ally",
+              "SortOrder": "11322",
+              "Sources": [
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter13.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1132200"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "Before a Trap of Sweets, Princess Mia Is Utterly Defeated",
+              "SortOrder": "11323",
+              "Sources": [
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter14.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1132300"
+                },
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\insert3.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1132301"
+                },
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter14_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1132302"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "The Sensible Bel Raises Her Hand!",
+              "SortOrder": "11324",
+              "Sources": [
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter15.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1132400"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "A Decisive Battle, an Ambush, and Reinforcements",
+              "SortOrder": "11325",
+              "Sources": [
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter16.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1132500"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "Keithwood Fights the Good Fight",
+              "SortOrder": "11326",
+              "Sources": [
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter17.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1132600"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "The Battle Ends...but Life Continues",
+              "SortOrder": "11327",
+              "Sources": [
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter18.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1132700"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "Chapters": []
+            }
+          ]
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Foodstuffs Assistance Team —The Girl Who Sang the Praises of the Serpents—",
+          "SortOrder": "13a",
+          "Sources": [
+            {
+              "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\side.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1136300"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        }
+      ]
+    },
+    {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "Full Moon Dreams in a Horse-Filled Summer",
+      "SortOrder": "106",
+      "Sources": [],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "Chapters": [
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Character Sheets",
+          "SortOrder": "11304",
+          "Sources": [
+            {
+              "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\characters1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1130400"
+            },
+            {
+              "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\characters2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1130500"
+            },
+            {
+              "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\characters3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1130600"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Volume 13",
+          "SortOrder": "13",
+          "Sources": [
+            {
+              "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\frontmatter2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1130300"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": [
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "Prologue: The Respite Is Over! And Mia Loses Her Cheat Codes... Wait, She Loses Them?!",
+              "SortOrder": "11328",
+              "Sources": [
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter19.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1132800"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "<h1>Prologue: The Respite Is Over! And Mia Loses Her Cheat Codes...Wait, She Loses Them?!</h1>",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "Supple Yet Biting Mia",
+              "SortOrder": "11329",
+              "Sources": [
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter20.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1132900"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "Premonitions of a Lively Journey",
+              "SortOrder": "11330",
+              "Sources": [
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter21.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1133000"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "Which Is Right?",
+              "SortOrder": "11331",
+              "Sources": [
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter22.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1133100"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "Entrusted to the Right Hand I",
+              "SortOrder": "11332",
+              "Sources": [
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter23.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1133200"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "Mia-Papa’s Vague Recollection",
+              "SortOrder": "11333",
+              "Sources": [
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter24.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1133300"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "The Bud Sprouts",
+              "SortOrder": "11334",
+              "Sources": [
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter25.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1133400"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "Entrusted to the Right Hand II—Patty’s Secret",
+              "SortOrder": "11335",
+              "Sources": [
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter26.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1133500"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "An Impurity Makes Its Way in...",
+              "SortOrder": "11336",
+              "Sources": [
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter27.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1133600"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "Cause, Effect, and...",
+              "SortOrder": "11337",
+              "Sources": [
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter28.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1133700"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "Bel...Lets Her Guard Down!",
+              "SortOrder": "11338",
+              "Sources": [
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter29.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1133800"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "Mia Grins like a Villainous Noble Lady",
+              "SortOrder": "11339",
+              "Sources": [
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter30.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1133900"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "She’s My Second Favorite, Right Behind My Big Sister!",
+              "SortOrder": "11340",
+              "Sources": [
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter31.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1134000"
+                },
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\insert4.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1134001"
+                },
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter31_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1134002"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "Work, Work, Cake... Cake, Cake, Veg Cake!",
+              "SortOrder": "11341",
+              "Sources": [
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter32.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1134100"
+                },
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\insert5.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1134101"
+                },
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter32_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1134102"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "A Teary Ruby Discusses Love",
+              "SortOrder": "11342",
+              "Sources": [
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter33.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1134200"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "Mia, an Intervening Cupid, Goes into Action!",
+              "SortOrder": "11343",
+              "Sources": [
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter34.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1134300"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "Those Who Change, and the One Who Must (aka Mia)",
+              "SortOrder": "11344",
+              "Sources": [
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter35.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1134400"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "Princess Mia Makes a Visit",
+              "SortOrder": "11345",
+              "Sources": [
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter36.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1134500"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "Princess Mia...Makes a Misstep!",
+              "SortOrder": "11346",
+              "Sources": [
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter37.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1134600"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "Face-to-Face with an Agreeable Youth",
+              "SortOrder": "11347",
+              "Sources": [
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter38.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1134700"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "The Return of Mia-First and the Divine Revelation of the Horse Dung",
+              "SortOrder": "11348",
+              "Sources": [
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter39.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1134800"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "Cake Shall Be Vegetable Cake!",
+              "SortOrder": "11349",
+              "Sources": [
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter40.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1134900"
+                },
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\insert6.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1134901"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "Horse Racing and Wheat Eating",
+              "SortOrder": "11350",
+              "Sources": [
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter41.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1135000"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "Somewhat of a Side Story—What the Princess Guard Was Up To",
+              "SortOrder": "11351",
+              "Sources": [
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter42.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1135100"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "Mia Awakens to the Soul of an Entertainer!",
+              "SortOrder": "11352",
+              "Sources": [
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter43.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1135200"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "Mia, in Romance Mode, Makes an Impassioned Speech",
+              "SortOrder": "11353",
+              "Sources": [
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter44.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1135300"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "Aima Reads the Room",
+              "SortOrder": "11354",
+              "Sources": [
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter45.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1135400"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "Princess Mia Loves “Normality”",
+              "SortOrder": "11355",
+              "Sources": [
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter46.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1135500"
+                },
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\insert7.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1135501"
+                },
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter46_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1135502"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "New Shoes and an Unsettling Presence",
+              "SortOrder": "11356",
+              "Sources": [
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter47.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1135600"
+                },
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\insert8.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1135601"
+                },
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter47_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1135602"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "I’m Not Trying to Flaunt, You Know?",
+              "SortOrder": "11357",
+              "Sources": [
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter48.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1135700"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "The Unknowable Secret of Dancing Lessons",
+              "SortOrder": "11358",
+              "Sources": [
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter49.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1135800"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "The Stableman Is Certain!",
+              "SortOrder": "11359",
+              "Sources": [
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter50.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1135900"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "Those Who Mock Peace and Abel’s Determination",
+              "SortOrder": "11360",
+              "Sources": [
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter51.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1136000"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "Princess Mia Rides the Wave with All She Has",
+              "SortOrder": "11361",
+              "Sources": [
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter52.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1136100"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "Princess Mia Speaks of Friends",
+              "SortOrder": "11362",
+              "Sources": [
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter53.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1136200"
+                },
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\insert9.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1136201"
+                },
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\chapter53_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1136202"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "Mia’s Diary of (the Lunch after) Horseback Riding Practice",
+              "SortOrder": "11364",
+              "Sources": [
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\diary.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1136400"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "The Sisters Chat",
+              "SortOrder": "11366",
+              "Sources": [
+                {
+                  "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\manga.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1136600"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "Chapters": []
+            }
+          ]
         }
       ]
     },
@@ -13646,7 +14878,8 @@
             "tearmoon-empire\\tearmoon-empire-volume-3\\OEBPS\\text\\map.xhtml",
             "tearmoon-empire\\tearmoon-empire-volume-2\\OEBPS\\text\\map.xhtml",
             "tearmoon-empire\\tearmoon-empire-volume-1\\OEBPS\\text\\map.xhtml",
-            "tearmoon-empire\\tearmoon-empire-volume-12\\OEBPS\\Text\\map.xhtml"
+            "tearmoon-empire\\tearmoon-empire-volume-12\\OEBPS\\Text\\map.xhtml",
+            "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\map.xhtml"
           ],
           "OtherSide": null,
           "SortOrder": "1110600"
@@ -13924,6 +15157,24 @@
               "Alternates": [],
               "OtherSide": null,
               "SortOrder": "1126700"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Afterword —A Story of Regret or Repentance—",
+          "SortOrder": "11365",
+          "Sources": [
+            {
+              "File": "tearmoon-empire\\tearmoon-empire-volume-13\\OEBPS\\Text\\afterword.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1136500"
             }
           ],
           "LinkedChapters": [],
