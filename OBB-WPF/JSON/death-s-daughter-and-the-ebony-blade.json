@@ -8,6 +8,7 @@
   "Author": "Maito Ayamine",
   "AuthorSort": "AYAMINE, MAITO",
   "Name": "Death's Daughter and the Ebony Blade",
+  "InternalName": "death-s-daughter-and-the-ebony-blade",
   "UnusedSources": [
     {
       "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-1\\OEBPS\\text\\bonus.xhtml",
@@ -32,6 +33,12 @@
       "Alternates": [],
       "OtherSide": null,
       "SortOrder": "1020301"
+    },
+    {
+      "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-3\\OEBPS\\text\\bonus.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": ""
     },
     {
       "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-3\\OEBPS\\text\\toc_img.xhtml",
@@ -88,10 +95,34 @@
       "SortOrder": "1070301"
     },
     {
-      "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-3\\OEBPS\\text\\bonus.xhtml",
+      "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\copyright.xhtml",
       "Alternates": [],
       "OtherSide": null,
-      "SortOrder": ""
+      "SortOrder": "1082400"
+    },
+    {
+      "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\cover.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1080100"
+    },
+    {
+      "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\signup.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1082300"
+    },
+    {
+      "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\toc_img.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1080401"
+    },
+    {
+      "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\toc.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1082200"
     }
   ],
   "Chapters": [
@@ -111,7 +142,8 @@
           "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-2\\OEBPS\\text\\map.xhtml",
           "Alternates": [
             "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-5\\OEBPS\\text\\map.xhtml",
-            "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-exordium\\OEBPS\\text\\map.xhtml"
+            "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-exordium\\OEBPS\\text\\map.xhtml",
+            "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\map.xhtml"
           ],
           "OtherSide": null,
           "SortOrder": "1020100"
@@ -8620,6 +8652,1386 @@
     {
       "CType": 0,
       "ChapType": "Story",
+      "Name": "Volume 7 Finale",
+      "SortOrder": "108",
+      "Sources": [
+        {
+          "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\backmatter1.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1081800"
+        },
+        {
+          "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\backmatter2.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1081900"
+        },
+        {
+          "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\backmatter3.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1082000"
+        },
+        {
+          "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\bonusimg.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1082100"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "Chapters": [
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Character Sheets",
+          "SortOrder": "10803",
+          "Sources": [
+            {
+              "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\characters1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080300"
+            },
+            {
+              "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\characters2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080400"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "A Veil of Rain",
+          "SortOrder": "10805",
+          "Sources": [
+            {
+              "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080500"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "<h2>II</h2>",
+          "StartsAtLine": "",
+          "Chapters": [
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "<h2>II</h2>",
+              "SortOrder": "000",
+              "Sources": [
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter6.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080500"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "<h2>II</h2>",
+              "Chapters": []
+            }
+          ]
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "On the Walls",
+          "SortOrder": "10806",
+          "Sources": [
+            {
+              "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080600"
+            },
+            {
+              "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\insert1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080601"
+            },
+            {
+              "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter7_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080602"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "<h2>II</h2>",
+          "StartsAtLine": "",
+          "Chapters": [
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "<h2>II</h2>",
+              "SortOrder": "000",
+              "Sources": [
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter7.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080600"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\insert1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080601"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter7_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080602"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "<h2>II</h2>",
+              "Chapters": []
+            }
+          ]
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "A Shining Roar",
+          "SortOrder": "10807",
+          "Sources": [
+            {
+              "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080700"
+            },
+            {
+              "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\insert2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080701"
+            },
+            {
+              "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter8_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080702"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "<h2>II</h2>",
+          "StartsAtLine": "",
+          "Chapters": [
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "<h2>II</h2>",
+              "SortOrder": "000",
+              "Sources": [
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter8.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080700"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\insert2.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080701"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter8_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080702"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "<h2>III</h2>",
+              "StartsAtLine": "<h2>II</h2>",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "<h2>III</h2>",
+              "SortOrder": "001",
+              "Sources": [
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter8.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080700"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\insert2.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080701"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter8_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080702"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "<h2>IV</h2>",
+              "StartsAtLine": "<h2>III</h2>",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "<h2>IV</h2>",
+              "SortOrder": "002",
+              "Sources": [
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter8.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080700"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\insert2.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080701"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter8_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080702"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "<h2>V</h2>",
+              "StartsAtLine": "<h2>IV</h2>",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "<h2>V</h2>",
+              "SortOrder": "003",
+              "Sources": [
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter8.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080700"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\insert2.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080701"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter8_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080702"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "<h2>VI</h2>",
+              "StartsAtLine": "<h2>V</h2>",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "<h2>VI</h2>",
+              "SortOrder": "004",
+              "Sources": [
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter8.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080700"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\insert2.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080701"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter8_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080702"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "<h2>VI</h2>",
+              "Chapters": []
+            }
+          ]
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Holy War",
+          "SortOrder": "10808",
+          "Sources": [
+            {
+              "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter9.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080800"
+            },
+            {
+              "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\insert3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080801"
+            },
+            {
+              "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter9_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080802"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "<h2>II</h2>",
+          "StartsAtLine": "",
+          "Chapters": [
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "<h2>II</h2>",
+              "SortOrder": "000",
+              "Sources": [
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter9.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080800"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\insert3.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080801"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter9_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080802"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "<h2>III</h2>",
+              "StartsAtLine": "<h2>II</h2>",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "<h2>III</h2>",
+              "SortOrder": "001",
+              "Sources": [
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter9.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080800"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\insert3.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080801"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter9_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080802"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "<h2>IV</h2>",
+              "StartsAtLine": "<h2>III</h2>",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "<h2>IV</h2>",
+              "SortOrder": "002",
+              "Sources": [
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter9.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080800"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\insert3.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080801"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter9_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080802"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "<h2>IV</h2>",
+              "Chapters": []
+            }
+          ]
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "A Black Sea of Trees",
+          "SortOrder": "10809",
+          "Sources": [
+            {
+              "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter10.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080900"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "<h2>II</h2>",
+          "StartsAtLine": "",
+          "Chapters": [
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "<h2>II</h2>",
+              "SortOrder": "000",
+              "Sources": [
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter10.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080900"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "<h2>III</h2>",
+              "StartsAtLine": "<h2>II</h2>",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "<h2>III</h2>",
+              "SortOrder": "001",
+              "Sources": [
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter10.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080900"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "<h2>IV</h2>",
+              "StartsAtLine": "<h2>III</h2>",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "<h2>IV</h2>",
+              "SortOrder": "002",
+              "Sources": [
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter10.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080900"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "<h2>IV</h2>",
+              "Chapters": []
+            }
+          ]
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Zero Boundary",
+          "SortOrder": "10810",
+          "Sources": [
+            {
+              "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter11.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081000"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "<h2>II</h2>",
+          "StartsAtLine": "",
+          "Chapters": [
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "<h2>II</h2>",
+              "SortOrder": "000",
+              "Sources": [
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter11.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081000"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "<h2>III</h2>",
+              "StartsAtLine": "<h2>II</h2>",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "<h2>III</h2>",
+              "SortOrder": "001",
+              "Sources": [
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter11.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081000"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "<h2>IV</h2>",
+              "StartsAtLine": "<h2>III</h2>",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "<h2>IV</h2>",
+              "SortOrder": "002",
+              "Sources": [
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter11.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081000"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "<h2>IV</h2>",
+              "Chapters": []
+            }
+          ]
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Light and Darkness",
+          "SortOrder": "10811",
+          "Sources": [
+            {
+              "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter12.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081100"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "<h2>II</h2>",
+          "StartsAtLine": "",
+          "Chapters": [
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "<h2>II</h2>",
+              "SortOrder": "000",
+              "Sources": [
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter12.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081100"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "<h2>III</h2>",
+              "StartsAtLine": "<h2>II</h2>",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "<h2>III</h2>",
+              "SortOrder": "001",
+              "Sources": [
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter12.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081100"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "<h2>IV</h2>",
+              "StartsAtLine": "<h2>III</h2>",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "<h2>IV</h2>",
+              "SortOrder": "002",
+              "Sources": [
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter12.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081100"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "<h2>V</h2>",
+              "StartsAtLine": "<h2>IV</h2>",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "<h2>V</h2>",
+              "SortOrder": "003",
+              "Sources": [
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter12.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081100"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "<h2>V</h2>",
+              "Chapters": []
+            }
+          ]
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Triple Alliance",
+          "SortOrder": "10812",
+          "Sources": [
+            {
+              "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter13.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081200"
+            },
+            {
+              "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\insert4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081201"
+            },
+            {
+              "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter13_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081202"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "<h2>II</h2>",
+          "StartsAtLine": "",
+          "Chapters": [
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "<h2>II</h2>",
+              "SortOrder": "000",
+              "Sources": [
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter13.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081200"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\insert4.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081201"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter13_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081202"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "<h2>III</h2>",
+              "StartsAtLine": "<h2>II</h2>",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "<h2>III</h2>",
+              "SortOrder": "001",
+              "Sources": [
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter13.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081200"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\insert4.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081201"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter13_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081202"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "<h2>IV</h2>",
+              "StartsAtLine": "<h2>III</h2>",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "<h2>IV</h2>",
+              "SortOrder": "002",
+              "Sources": [
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter13.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081200"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\insert4.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081201"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter13_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081202"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "<h2>V</h2>",
+              "StartsAtLine": "<h2>IV</h2>",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "<h2>V</h2>",
+              "SortOrder": "003",
+              "Sources": [
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter13.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081200"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\insert4.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081201"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter13_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081202"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "<h2>VI</h2>",
+              "StartsAtLine": "<h2>V</h2>",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "<h2>VI</h2>",
+              "SortOrder": "004",
+              "Sources": [
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter13.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081200"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\insert4.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081201"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter13_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081202"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "<h2>VI</h2>",
+              "Chapters": []
+            }
+          ]
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Final Battle",
+          "SortOrder": "10813",
+          "Sources": [
+            {
+              "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter14.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081300"
+            },
+            {
+              "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\insert5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081301"
+            },
+            {
+              "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter14_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081302"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "<h2>II</h2>",
+          "StartsAtLine": "",
+          "Chapters": [
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "<h2>II</h2>",
+              "SortOrder": "000",
+              "Sources": [
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter14.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081300"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\insert5.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081301"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter14_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081302"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "<h2>III</h2>",
+              "StartsAtLine": "<h2>II</h2>",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "<h2>III</h2>",
+              "SortOrder": "001",
+              "Sources": [
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter14.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081300"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\insert5.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081301"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter14_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081302"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "<h2>IV</h2>",
+              "StartsAtLine": "<h2>III</h2>",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "<h2>IV</h2>",
+              "SortOrder": "002",
+              "Sources": [
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter14.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081300"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\insert5.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081301"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter14_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081302"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "<h2>V</h2>",
+              "StartsAtLine": "<h2>IV</h2>",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "<h2>V</h2>",
+              "SortOrder": "003",
+              "Sources": [
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter14.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081300"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\insert5.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081301"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter14_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081302"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "<h2>VI</h2>",
+              "StartsAtLine": "<h2>V</h2>",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "<h2>VI</h2>",
+              "SortOrder": "004",
+              "Sources": [
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter14.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081300"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\insert5.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081301"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter14_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081302"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "<h2>VI</h2>",
+              "Chapters": []
+            }
+          ]
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Asura",
+          "SortOrder": "10814",
+          "Sources": [
+            {
+              "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter15.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081400"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "<h2>II</h2>",
+          "StartsAtLine": "",
+          "Chapters": [
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "<h2>II</h2>",
+              "SortOrder": "000",
+              "Sources": [
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapter15.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081400"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "<h2>II</h2>",
+              "Chapters": []
+            }
+          ]
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "I Wish for...",
+          "SortOrder": "10815",
+          "Sources": [
+            {
+              "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapterf.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081500"
+            },
+            {
+              "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\insert6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081501"
+            },
+            {
+              "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapterf_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081502"
+            },
+            {
+              "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\insert7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081503"
+            },
+            {
+              "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapterf_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081504"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "<h2>II</h2>",
+          "StartsAtLine": "",
+          "Chapters": [
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "<h2>II</h2>",
+              "SortOrder": "000",
+              "Sources": [
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapterf.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081500"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\insert6.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081501"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapterf_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081502"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\insert7.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081503"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapterf_2.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081504"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "<h2>III</h2>",
+              "StartsAtLine": "<h2>II</h2>",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "<h2>III</h2>",
+              "SortOrder": "001",
+              "Sources": [
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapterf.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081500"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\insert6.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081501"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapterf_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081502"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\insert7.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081503"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapterf_2.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081504"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "<h2>IV</h2>",
+              "StartsAtLine": "<h2>III</h2>",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "<h2>IV</h2>",
+              "SortOrder": "002",
+              "Sources": [
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapterf.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081500"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\insert6.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081501"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapterf_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081502"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\insert7.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081503"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapterf_2.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081504"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "<h2>V</h2>",
+              "StartsAtLine": "<h2>IV</h2>",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "<h2>V</h2>",
+              "SortOrder": "003",
+              "Sources": [
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapterf.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081500"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\insert6.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081501"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapterf_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081502"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\insert7.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081503"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapterf_2.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081504"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "<h2>VI</h2>",
+              "StartsAtLine": "<h2>V</h2>",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "<h2>VI</h2>",
+              "SortOrder": "004",
+              "Sources": [
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapterf.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081500"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\insert6.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081501"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapterf_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081502"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\insert7.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081503"
+                },
+                {
+                  "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\chapterf_2.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081504"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "<h2>VI</h2>",
+              "Chapters": []
+            }
+          ]
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Off on a New Journey!",
+          "SortOrder": "10816",
+          "Sources": [
+            {
+              "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\epilogue.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081600"
+            },
+            {
+              "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\insert8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081601"
+            },
+            {
+              "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\epilogue_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081602"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        }
+      ]
+    },
+    {
+      "CType": 0,
+      "ChapType": "Story",
       "Name": "Afterwords",
       "SortOrder": "999",
       "Sources": [],
@@ -8746,6 +10158,24 @@
               "Alternates": [],
               "OtherSide": null,
               "SortOrder": "1071000"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Volume 7 Finale",
+          "SortOrder": "10817",
+          "Sources": [
+            {
+              "File": "death-s-daughter-and-the-ebony-blade\\death-s-daughter-and-the-ebony-blade-volume-7-finale\\OEBPS\\Text\\afterword.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081700"
             }
           ],
           "LinkedChapters": [],
