@@ -3068,7 +3068,7 @@
       "Year": 9,
       "Season": "Spring",
       "ProcessedInPartFive": true,
-      "PartSheet": true
+      "PartSheet": false
     },
     "Afterword": {
       "OriginalFilenames": [ "afterword" ],
@@ -3080,5 +3080,271 @@
       "ProcessedInPartFive": true
     },
     "Maps": []
+  },
+  {
+    "InternalName": "LN0512",
+    "Gallery": {
+      "SplashImages": [ "bonus3", "bonus1", "bonus2" ],
+      "ChapterImages": [ "insert1", "insert2", "insert3", "insert4", "insert5", "insert6", "insert7", "insert8", "insert9", "insert10" ],
+      "EarlySortOrder": "0512",
+      "LateSortOrder": "051299",
+      "ChapterName": "LN512",
+      "AltName": "Volume 12",
+      "Volume": "0512",
+      "EarlyYear": 9,
+      "EarlySeason": "Spring",
+      "LateYear": 10,
+      "LateSeason": "Summer",
+      "ProcessedInPartFive": true
+    },
+    "POVChapters": [
+      {
+        "OriginalFilenames": [ "prologue", "insert1", "prologue_1" ],
+        "SortOrder": "051200",
+        "POV": "Ferdinand",
+        "ChapterName": "Prologue",
+        "Volume": "0512",
+        "Year": 9,
+        "Season": "Spring",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartFive": true,
+        "Source": "P5V12"
+      },
+      {
+        "OriginalFilenames": [ "epilogue", "insert10" ],
+        "SortOrder": "051219",
+        "POV": "Lutz",
+        "ChapterName": "Epilogue",
+        "Volume": "0512",
+        "Year": 10,
+        "Season": "Summer",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartFive": true,
+        "Source": "P5V12"
+      }
+
+    ],
+    "BonusChapters": [
+      {
+        "OriginalFilenames": [ "insert_manga1", "insert_manga2", "insert_manga3", "insert_manga4", "insert_manga5" ],
+        "EarlySortOrder": "051220",
+        "LateSortOrder": "051296a",
+        "POV": "",
+        "ChapterName": "On a Sunny Balcony",
+        "Volume": "0512",
+        "EarlyYear": 10,
+        "EarlySeason": "Summer",
+        "LateYear": 10,
+        "LateSeason": "Summer",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartFive": true,
+        "Source": "P5V12 Manga"
+      }
+    ],
+    "Chapters": [
+      {
+        "OriginalFilenames": [ "chapter1" ],
+        "SortOrder": "051201",
+        "ChapterName": "Memories",
+        "Volume": "0512",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter2", "insert2", "chapter2_1" ],
+        "SortOrder": "051202",
+        "ChapterName": "A Future Chosen",
+        "Volume": "0512",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter3" ],
+        "SortOrder": "051203",
+        "ChapterName": "Busy Days",
+        "Volume": "0512",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter4", "insert3", "chapter4_1" ],
+        "SortOrder": "051204",
+        "ChapterName": "Entwickeln",
+        "Volume": "0512",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter5" ],
+        "SortOrder": "051205",
+        "ChapterName": "Eglantine’s Visit",
+        "Volume": "0512",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter6", "insert4", "chapter6_1" ],
+        "SortOrder": "051206",
+        "ChapterName": "Engagement Ceremony",
+        "Volume": "0512",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter7" ],
+        "SortOrder": "051207",
+        "ChapterName": "Proclamations as the Aub",
+        "Volume": "0512",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter8" ],
+        "SortOrder": "051208",
+        "ChapterName": "Library and Laboratory",
+        "Volume": "0512",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter9", "insert5", "chapter9_1" ],
+        "SortOrder": "051209",
+        "ChapterName": "Back to Ehrenfest",
+        "Volume": "0512",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter10" ],
+        "SortOrder": "051210",
+        "ChapterName": "Brewing the Base Color",
+        "Volume": "0512",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter11", "insert6", "chapter11_1" ],
+        "SortOrder": "051211",
+        "ChapterName": "Aurelia’s Situation",
+        "Volume": "0512",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter12" ],
+        "SortOrder": "051212",
+        "ChapterName": "A Mother’s Encouragement",
+        "Volume": "0512",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter13", "insert7" ],
+        "SortOrder": "051213",
+        "ChapterName": "Temple Attendants",
+        "Volume": "0512",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter14" ],
+        "SortOrder": "051214",
+        "ChapterName": "Meeting with the Merchants",
+        "Volume": "0512",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter15" ],
+        "SortOrder": "051215",
+        "ChapterName": "Inauguration Attire and Closing the Library",
+        "Volume": "0512",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter16", "insert8", "chapter16_1" ],
+        "SortOrder": "051216",
+        "ChapterName": "Farewell, Ehrenfest",
+        "Volume": "0512",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter17", "insert9", "chapter17_1" ],
+        "SortOrder": "051217",
+        "ChapterName": "The Morning of the Inauguration Ceremony",
+        "Volume": "0512",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      },
+      {
+        "OriginalFilenames": [ "chapter18" ],
+        "SortOrder": "051218",
+        "ChapterName": "The Inauguration Ceremony",
+        "Volume": "0512",
+        "Year": 9,
+        "Season": "Spring",
+        "ProcessedInPartFive": true
+      }
+    ],
+    "ComfyLifeChapter": {
+      "OriginalFilenames": [ "manga1", "manga2" ],
+      "SortOrder": "051298",
+      "ChapterName": "Comfy Life 512",
+      "Volume": "0512",
+      "Year": 10,
+      "Season": "Summer",
+      "ProcessedInPartFive": true
+    },
+    "CharacterSheet": {
+      "OriginalFilenames": [ "characters1", "characters2", "characters3", "characters4" ],
+      "SortOrder": "0512",
+      "ChapterName": "Avatar of a Goddess Characters",
+      "Volume": "0512",
+      "Year": 10,
+      "Season": "Summer",
+      "ProcessedInPartFive": true,
+      "PartSheet": true
+    },
+    "Afterword": {
+      "OriginalFilenames": [ "afterword", "final1", "final1_1", "final2", "final2_1" ],
+      "SortOrder": "051297",
+      "ChapterName": "LN512 Afterword",
+      "Volume": "0512",
+      "Year": 10,
+      "Season": "Summer",
+      "ProcessedInPartFive": true
+    },
+    "Maps": [],
+    "CharacterPoll": {
+      "OriginalFilenames": [
+        "poll1",
+        "poll2"
+      ],
+      "SortOrder": "CP4",
+      "ProcessedInPartFive": true,
+      "ChapterName": "End of Series Character Poll"
+    }
   }
 ]
