@@ -479,6 +479,14 @@
         "EditedBy": [],
         "Published": "2024-08-14",
         "Order": 102
+      },
+      {
+        "ApiSlug": "a-surprisingly-happy-engagement-for-the-slime-duke-and-the-fallen-noble-lady-volume-3",
+        "FileName": "a-surprisingly-happy-engagement-for-the-slime-duke-and-the-fallen-noble-lady-volume-3.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2024-11-13",
+        "Order": 103
       }
     ],
     "Author": "Mashimesa Emoto",
@@ -2018,6 +2026,14 @@
         "EditedBy": [],
         "Published": "2024-09-26",
         "Order": 108
+      },
+      {
+        "ApiSlug": "backstabbed-in-a-backwater-dungeon-volume-9",
+        "FileName": "backstabbed-in-a-backwater-dungeon-volume-9.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2024-12-19",
+        "Order": 109
       }
     ],
     "Author": "Meikyou Shisui",
@@ -2736,6 +2752,14 @@
         "EditedBy": [],
         "Published": "2024-08-14",
         "Order": 103
+      },
+      {
+        "ApiSlug": "butareba-the-story-of-a-man-turned-into-a-pig-manga-volume-4",
+        "FileName": "butareba-the-story-of-a-man-turned-into-a-pig-manga-volume-4.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2024-11-27",
+        "Order": 104
       }
     ],
     "Author": "Takuma Sakai",
@@ -3370,6 +3394,14 @@
         "EditedBy": [],
         "Published": "2024-09-20",
         "Order": 115
+      },
+      {
+        "ApiSlug": "chillin-in-another-world-with-level-2-super-cheat-powers-volume-16",
+        "FileName": "chillin-in-another-world-with-level-2-super-cheat-powers-volume-16.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2024-12-20",
+        "Order": 116
       }
     ],
     "Author": "Miya Kinojo",
@@ -5269,6 +5301,14 @@
         "EditedBy": [],
         "Published": "2024-08-21",
         "Order": 103
+      },
+      {
+        "ApiSlug": "duchess-in-the-attic-manga-volume-4",
+        "FileName": "duchess-in-the-attic-manga-volume-4.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2024-11-27",
+        "Order": 104
       }
     ],
     "Author": "Mori",
@@ -8972,6 +9012,14 @@
         "EditedBy": [],
         "Published": "2024-09-13",
         "Order": 103
+      },
+      {
+        "ApiSlug": "i-m-a-noble-on-the-brink-of-ruin-so-i-might-as-well-try-mastering-magic-volume-4",
+        "FileName": "i-m-a-noble-on-the-brink-of-ruin-so-i-might-as-well-try-mastering-magic-volume-4.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2024-11-23",
+        "Order": 104
       }
     ],
     "Author": "Nazuna Miki",
@@ -10462,6 +10510,14 @@
         "EditedBy": [],
         "Published": "2024-09-19",
         "Order": 108
+      },
+      {
+        "ApiSlug": "isekai-tensei-recruited-to-another-world-volume-9",
+        "FileName": "isekai-tensei-recruited-to-another-world-volume-9.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2024-12-31",
+        "Order": 109
       }
     ],
     "Author": "Kenichi",
@@ -11022,6 +11078,14 @@
         "EditedBy": [],
         "Published": "2024-08-29",
         "Order": 104
+      },
+      {
+        "ApiSlug": "knight-s-magic-volume-5",
+        "FileName": "knight-s-magic-volume-5.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2025-01-09",
+        "Order": 105
       }
     ],
     "Author": "Hisago Amazake-no",
@@ -11199,6 +11263,37 @@
     ],
     "Author": "Hamita",
     "AuthorSort": "HAMITA"
+  },
+  {
+    "CustomSeries": false,
+    "Name": "Lacey Longs for Freedom: The Dawn Witch's Low-Key Life after Defeating the Demon King",
+    "InternalName": "lacey-longs-for-freedom-the-dawn-witch-s-low-key-life-after-defeating-the-demon-king",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "lacey-longs-for-freedom-the-dawn-witch-s-low-key-life-after-defeating-the-demon-king"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "lacey-longs-for-freedom-the-dawn-witch-s-low-key-life-after-defeating-the-demon-king-volume-1",
+        "FileName": "lacey-longs-for-freedom-the-dawn-witch-s-low-key-life-after-defeating-the-demon-king-volume-1.epub",
+        "Title": "Lacey Longs for Freedom: The Dawn Witch's Low-Key Life after Defeating the Demon King Volume 1",
+        "EditedBy": [],
+        "Published": "2024-09-18",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "lacey-longs-for-freedom-the-dawn-witch-s-low-key-life-after-defeating-the-demon-king-volume-2",
+        "FileName": "lacey-longs-for-freedom-the-dawn-witch-s-low-key-life-after-defeating-the-demon-king-volume-2.epub",
+        "Title": "Lacey Longs for Freedom: The Dawn Witch's Low-Key Life after Defeating the Demon King Volume 2",
+        "EditedBy": [],
+        "Published": "2024-12-16",
+        "Order": 102
+      }
+    ],
+    "Author": "Hyogo Amagasa",
+    "AuthorSort": "AMAGASA, HYOGO"
   },
   {
     "CustomSeries": false,
@@ -11665,6 +11760,14 @@
         "EditedBy": [],
         "Published": "2024-07-11",
         "Order": 106
+      },
+      {
+        "ApiSlug": "magic-stone-gourmet-eating-magical-power-made-me-the-strongest-volume-7",
+        "FileName": "magic-stone-gourmet-eating-magical-power-made-me-the-strongest-volume-7.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2024-12-05",
+        "Order": 107
       }
     ],
     "Author": "Ryou Yuuki",
@@ -13597,6 +13700,37 @@
   },
   {
     "CustomSeries": false,
+    "Name": "No One Gets Past This Gatekeeper: The Unwanted Warrior Guards His New Post",
+    "InternalName": "no-one-gets-past-this-gatekeeper-the-unwanted-warrior-guards-his-new-post",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "no-one-gets-past-this-gatekeeper-the-unwanted-warrior-guards-his-new-post"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "no-one-gets-past-this-gatekeeper-the-unwanted-warrior-guards-his-new-post-volume-1",
+        "FileName": "no-one-gets-past-this-gatekeeper-the-unwanted-warrior-guards-his-new-post-volume-1.epub",
+        "Title": "No One Gets Past This Gatekeeper: The Unwanted Warrior Guards His New Post Volume 1",
+        "EditedBy": [],
+        "Published": "2024-09-27",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "no-one-gets-past-this-gatekeeper-the-unwanted-warrior-guards-his-new-post-volume-2",
+        "FileName": "no-one-gets-past-this-gatekeeper-the-unwanted-warrior-guards-his-new-post-volume-2.epub",
+        "Title": "No One Gets Past This Gatekeeper: The Unwanted Warrior Guards His New Post Volume 2",
+        "EditedBy": [],
+        "Published": "2024-12-16",
+        "Order": 102
+      }
+    ],
+    "Author": "Kametsu Tomobashi",
+    "AuthorSort": "TOMOBASHI, KAMETSU"
+  },
+  {
+    "CustomSeries": false,
     "Name": "Now I'm a Demon Lord! Happily Ever After with Monster Girls in My Dungeon",
     "InternalName": "now-i-m-a-demon-lord-happily-ever-after-with-monster-girls-in-my-dungeon",
     "ApiSlugs": [
@@ -13756,6 +13890,14 @@
         "EditedBy": [],
         "Published": "2024-08-21",
         "Order": 107
+      },
+      {
+        "ApiSlug": "now-i-m-a-demon-lord-happily-ever-after-with-monster-girls-in-my-dungeon-manga-volume-8",
+        "FileName": "now-i-m-a-demon-lord-happily-ever-after-with-monster-girls-in-my-dungeon-manga-volume-8.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2024-10-30",
+        "Order": 108
       }
     ],
     "Author": "Ryuyu",
@@ -17714,6 +17856,14 @@
         "EditedBy": [],
         "Published": "2024-09-13",
         "Order": 104
+      },
+      {
+        "ApiSlug": "the-brilliant-healer-s-new-life-in-the-shadows-volume-5",
+        "FileName": "the-brilliant-healer-s-new-life-in-the-shadows-volume-5.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2024-12-20",
+        "Order": 105
       }
     ],
     "Author": "Sakaku Hishikawa",
@@ -18321,6 +18471,14 @@
         "EditedBy": [],
         "Published": "2024-08-28",
         "Order": 102
+      },
+      {
+        "ApiSlug": "the-eternal-fool-s-words-of-wisdom-a-pawsitively-fantastic-adventure-manga-volume-3",
+        "FileName": "the-eternal-fool-s-words-of-wisdom-a-pawsitively-fantastic-adventure-manga-volume-3.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2024-12-04",
+        "Order": 103
       }
     ],
     "Author": "Hifumi",
@@ -18588,6 +18746,14 @@
         "EditedBy": [],
         "Published": "2024-08-14",
         "Order": 112
+      },
+      {
+        "ApiSlug": "the-faraway-paladin-manga-volume-13",
+        "FileName": "the-faraway-paladin-manga-volume-13.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2024-10-23",
+        "Order": 113
       }
     ],
     "Author": "Kanata Yanagino",
@@ -19030,6 +19196,14 @@
         "EditedBy": [],
         "Published": "2024-05-03",
         "Order": 117
+      },
+      {
+        "ApiSlug": "the-greatest-magicmaster-s-retirement-plan-volume-18",
+        "FileName": "the-greatest-magicmaster-s-retirement-plan-volume-18.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2024-12-19",
+        "Order": 118
       }
     ],
     "Author": "Izushiro",
@@ -20478,6 +20652,37 @@
   },
   {
     "CustomSeries": false,
+    "Name": "The Royal Hostage Has Vanished: The Black Wolf Knight Yearns for the Persecuted Princess",
+    "InternalName": "the-royal-hostage-has-vanished-the-black-wolf-knight-yearns-for-the-persecuted-princess",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "the-royal-hostage-has-vanished-the-black-wolf-knight-yearns-for-the-persecuted-princess"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "the-royal-hostage-has-vanished-the-black-wolf-knight-yearns-for-the-persecuted-princess-volume-1",
+        "FileName": "the-royal-hostage-has-vanished-the-black-wolf-knight-yearns-for-the-persecuted-princess-volume-1.epub",
+        "Title": "The Royal Hostage Has Vanished: The Black Wolf Knight Yearns for the Persecuted Princess Volume 1",
+        "EditedBy": [],
+        "Published": "2024-08-16",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "the-royal-hostage-has-vanished-the-black-wolf-knight-yearns-for-the-persecuted-princess-volume-2",
+        "FileName": "the-royal-hostage-has-vanished-the-black-wolf-knight-yearns-for-the-persecuted-princess-volume-2.epub",
+        "Title": "The Royal Hostage Has Vanished: The Black Wolf Knight Yearns for the Persecuted Princess Volume 2",
+        "EditedBy": [],
+        "Published": "2024-12-20",
+        "Order": 102
+      }
+    ],
+    "Author": "Ajigozen",
+    "AuthorSort": "AJIGOZEN"
+  },
+  {
+    "CustomSeries": false,
     "Name": "The Saga of Lioncourt",
     "InternalName": "the-saga-of-lioncourt",
     "ApiSlugs": [
@@ -21643,6 +21848,14 @@
         "EditedBy": [],
         "Published": "2024-09-09",
         "Order": 109
+      },
+      {
+        "ApiSlug": "to-another-world-with-land-mines-volume-10",
+        "FileName": "to-another-world-with-land-mines-volume-10.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2025-01-06",
+        "Order": 110
       }
     ],
     "Author": "Itsuki Mizuho",
