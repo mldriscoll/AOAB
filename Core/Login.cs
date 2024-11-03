@@ -61,7 +61,7 @@ namespace Core
         {
             try
             {
-                var loginCall = await client.PostAsync("https://labs.j-novel.club/app/v1/auth/login?format=json", new StringContent($"{{\"login\":\"{username}\",\"password\":\"{password}\",\"slim\":true}}", System.Text.Encoding.ASCII, "application/json"));
+                var loginCall = await client.PostAsync("https://labs.j-novel.club/app/v2/auth/login?format=json", new StringContent($"{{\"login\":\"{username}\",\"password\":\"{password}\",\"slim\":true}}", System.Text.Encoding.ASCII, "application/json"));
 
                 string bearerToken;
                 using (var loginStream = await loginCall.Content.ReadAsStreamAsync())

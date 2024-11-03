@@ -73,7 +73,7 @@ namespace Core.Downloads
         {
             client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
 
-            var libraryCall = await client.GetAsync("https://labs.j-novel.club/app/v1/me/library?format=json");
+            var libraryCall = await client.GetAsync("https://labs.j-novel.club/app/v2/me/library?format=json");
             LibraryResponse? library;
             using (var loginStream = await libraryCall.Content.ReadAsStreamAsync())
             {
@@ -97,7 +97,7 @@ namespace Core.Downloads
             int skip = 0;
             while (cont)
             {
-                var libraryCall = await client.GetAsync($"https://labs.j-novel.club/app/v1/series?format=json&skip={skip}");
+                var libraryCall = await client.GetAsync($"https://labs.j-novel.club/app/v2/series?format=json&skip={skip}");
 
                 using (var loginStream = await libraryCall.Content.ReadAsStreamAsync())
                 {
@@ -123,7 +123,7 @@ namespace Core.Downloads
 
         public static async Task<SeriesVolumesResponse> GetSeries(HttpClient client, string slug)
         {
-            var libraryCall = await client.GetAsync($"https://labs.j-novel.club/app/v1/series/{slug}/volumes?format=json");
+            var libraryCall = await client.GetAsync($"https://labs.j-novel.club/app/v2/series/{slug}/volumes?format=json");
             SeriesVolumesResponse? library;
             using (var loginStream = await libraryCall.Content.ReadAsStreamAsync())
             {
