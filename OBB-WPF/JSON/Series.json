@@ -4363,7 +4363,9 @@
         "ApiSlug": "lucia-and-the-loom-weaving-her-way-to-happiness-volume-2",
         "FileName": "lucia-and-the-loom-weaving-her-way-to-happiness-volume-2.epub",
         "Title": "",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2024-10-10",
         "Order": 202
       },

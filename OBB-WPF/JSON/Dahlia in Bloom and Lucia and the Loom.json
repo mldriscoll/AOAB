@@ -8,6 +8,7 @@
   "Author": "Hisaya Amagishi",
   "AuthorSort": "AMAGISHI, HISAYA",
   "Name": "Dahlia in Bloom and Lucia and the Loom",
+  "InternalName": "Dahlia in Bloom and Lucia and the Loom",
   "UnusedSources": [
     {
       "File": "Dahlia in Bloom and Lucia and the Loom\\dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-1\\OEBPS\\text\\toc.xhtml",
@@ -116,6 +117,54 @@
       "Alternates": [],
       "OtherSide": null,
       "SortOrder": "2010100"
+    },
+    {
+      "File": "Dahlia in Bloom and Lucia and the Loom\\lucia-and-the-loom-weaving-her-way-to-happiness-volume-2\\OEBPS\\Text\\copyright.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "2022400"
+    },
+    {
+      "File": "Dahlia in Bloom and Lucia and the Loom\\lucia-and-the-loom-weaving-her-way-to-happiness-volume-2\\OEBPS\\Text\\cover.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "2020100"
+    },
+    {
+      "File": "Dahlia in Bloom and Lucia and the Loom\\lucia-and-the-loom-weaving-her-way-to-happiness-volume-2\\OEBPS\\Text\\signup.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "2022300"
+    },
+    {
+      "File": "Dahlia in Bloom and Lucia and the Loom\\lucia-and-the-loom-weaving-her-way-to-happiness-volume-2\\OEBPS\\Text\\toc.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "2022200"
+    },
+    {
+      "File": "Dahlia in Bloom and Lucia and the Loom\\lucia-and-the-loom-weaving-her-way-to-happiness-volume-2\\OEBPS\\Text\\tocimg.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "2020200"
+    },
+    {
+      "File": "Dahlia in Bloom and Lucia and the Loom\\lucia-and-the-loom-weaving-her-way-to-happiness-volume-2\\OEBPS\\Text\\color1.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "2021500"
+    },
+    {
+      "File": "Dahlia in Bloom and Lucia and the Loom\\lucia-and-the-loom-weaving-her-way-to-happiness-volume-2\\OEBPS\\Text\\color2.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "2021600"
+    },
+    {
+      "File": "Dahlia in Bloom and Lucia and the Loom\\lucia-and-the-loom-weaving-her-way-to-happiness-volume-2\\OEBPS\\Text\\color3.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "2021700"
     }
   ],
   "Chapters": [
@@ -2366,6 +2415,361 @@
               "Alternates": [],
               "OtherSide": null,
               "SortOrder": "1051600"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        }
+      ]
+    },
+    {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "Lucia 02",
+      "SortOrder": "105b",
+      "Sources": [
+        {
+          "File": "Dahlia in Bloom and Lucia and the Loom\\lucia-and-the-loom-weaving-her-way-to-happiness-volume-2\\OEBPS\\Text\\bonus1.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "2021800"
+        },
+        {
+          "File": "Dahlia in Bloom and Lucia and the Loom\\lucia-and-the-loom-weaving-her-way-to-happiness-volume-2\\OEBPS\\Text\\bonus2.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "2021900"
+        },
+        {
+          "File": "Dahlia in Bloom and Lucia and the Loom\\lucia-and-the-loom-weaving-her-way-to-happiness-volume-2\\OEBPS\\Text\\bonus3.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "2022000"
+        },
+        {
+          "File": "Dahlia in Bloom and Lucia and the Loom\\lucia-and-the-loom-weaving-her-way-to-happiness-volume-2\\OEBPS\\Text\\bonus4.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "2022100"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "Chapters": [
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Magical Garment Factory and the Zephyricloth",
+          "SortOrder": "20203",
+          "Sources": [
+            {
+              "File": "Dahlia in Bloom and Lucia and the Loom\\lucia-and-the-loom-weaving-her-way-to-happiness-volume-2\\OEBPS\\Text\\chapter1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "2020300"
+            },
+            {
+              "File": "Dahlia in Bloom and Lucia and the Loom\\lucia-and-the-loom-weaving-her-way-to-happiness-volume-2\\OEBPS\\Text\\insert1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "2020301"
+            },
+            {
+              "File": "Dahlia in Bloom and Lucia and the Loom\\lucia-and-the-loom-weaving-her-way-to-happiness-volume-2\\OEBPS\\Text\\chapter1_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "2020302"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Castle and a Dress for a Friend",
+          "SortOrder": "20204",
+          "Sources": [
+            {
+              "File": "Dahlia in Bloom and Lucia and the Loom\\lucia-and-the-loom-weaving-her-way-to-happiness-volume-2\\OEBPS\\Text\\chapter2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "2020400"
+            },
+            {
+              "File": "Dahlia in Bloom and Lucia and the Loom\\lucia-and-the-loom-weaving-her-way-to-happiness-volume-2\\OEBPS\\Text\\insert2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "2020401"
+            },
+            {
+              "File": "Dahlia in Bloom and Lucia and the Loom\\lucia-and-the-loom-weaving-her-way-to-happiness-volume-2\\OEBPS\\Text\\chapter2_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "2020402"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Manager’s Apology and the Aristocrats’ Strings",
+          "SortOrder": "20205",
+          "Sources": [
+            {
+              "File": "Dahlia in Bloom and Lucia and the Loom\\lucia-and-the-loom-weaving-her-way-to-happiness-volume-2\\OEBPS\\Text\\chapter3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "2020500"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "A Lesson on Nobility with Friends",
+          "SortOrder": "20206",
+          "Sources": [
+            {
+              "File": "Dahlia in Bloom and Lucia and the Loom\\lucia-and-the-loom-weaving-her-way-to-happiness-volume-2\\OEBPS\\Text\\chapter4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "2020600"
+            },
+            {
+              "File": "Dahlia in Bloom and Lucia and the Loom\\lucia-and-the-loom-weaving-her-way-to-happiness-volume-2\\OEBPS\\Text\\insert3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "2020601"
+            },
+            {
+              "File": "Dahlia in Bloom and Lucia and the Loom\\lucia-and-the-loom-weaving-her-way-to-happiness-volume-2\\OEBPS\\Text\\chapter4_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "2020602"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "A Celebration of the Opening of the Magical Garment Factory",
+          "SortOrder": "20207",
+          "Sources": [
+            {
+              "File": "Dahlia in Bloom and Lucia and the Loom\\lucia-and-the-loom-weaving-her-way-to-happiness-volume-2\\OEBPS\\Text\\chapter5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "2020700"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Seeing-Off Clothes",
+          "SortOrder": "20208",
+          "Sources": [
+            {
+              "File": "Dahlia in Bloom and Lucia and the Loom\\lucia-and-the-loom-weaving-her-way-to-happiness-volume-2\\OEBPS\\Text\\chapter6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "2020800"
+            },
+            {
+              "File": "Dahlia in Bloom and Lucia and the Loom\\lucia-and-the-loom-weaving-her-way-to-happiness-volume-2\\OEBPS\\Text\\insert4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "2020801"
+            },
+            {
+              "File": "Dahlia in Bloom and Lucia and the Loom\\lucia-and-the-loom-weaving-her-way-to-happiness-volume-2\\OEBPS\\Text\\chapter6_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "2020802"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Opera and Old Scars",
+          "SortOrder": "20209",
+          "Sources": [
+            {
+              "File": "Dahlia in Bloom and Lucia and the Loom\\lucia-and-the-loom-weaving-her-way-to-happiness-volume-2\\OEBPS\\Text\\chapter7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "2020900"
+            },
+            {
+              "File": "Dahlia in Bloom and Lucia and the Loom\\lucia-and-the-loom-weaving-her-way-to-happiness-volume-2\\OEBPS\\Text\\insert5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "2020901"
+            },
+            {
+              "File": "Dahlia in Bloom and Lucia and the Loom\\lucia-and-the-loom-weaving-her-way-to-happiness-volume-2\\OEBPS\\Text\\chapter7_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "2020902"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Tempest Queen’s Dress",
+          "SortOrder": "20210",
+          "Sources": [
+            {
+              "File": "Dahlia in Bloom and Lucia and the Loom\\lucia-and-the-loom-weaving-her-way-to-happiness-volume-2\\OEBPS\\Text\\chapter8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "2021000"
+            },
+            {
+              "File": "Dahlia in Bloom and Lucia and the Loom\\lucia-and-the-loom-weaving-her-way-to-happiness-volume-2\\OEBPS\\Text\\insert6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "2021001"
+            },
+            {
+              "File": "Dahlia in Bloom and Lucia and the Loom\\lucia-and-the-loom-weaving-her-way-to-happiness-volume-2\\OEBPS\\Text\\chapter8_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "2021002"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Grandmother’s Red Dress",
+          "SortOrder": "20211",
+          "Sources": [
+            {
+              "File": "Dahlia in Bloom and Lucia and the Loom\\lucia-and-the-loom-weaving-her-way-to-happiness-volume-2\\OEBPS\\Text\\chapter9.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "2021100"
+            },
+            {
+              "File": "Dahlia in Bloom and Lucia and the Loom\\lucia-and-the-loom-weaving-her-way-to-happiness-volume-2\\OEBPS\\Text\\insert7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "2021101"
+            },
+            {
+              "File": "Dahlia in Bloom and Lucia and the Loom\\lucia-and-the-loom-weaving-her-way-to-happiness-volume-2\\OEBPS\\Text\\chapter9_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "2021102"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Protector and Protected",
+          "SortOrder": "20212",
+          "Sources": [
+            {
+              "File": "Dahlia in Bloom and Lucia and the Loom\\lucia-and-the-loom-weaving-her-way-to-happiness-volume-2\\OEBPS\\Text\\chapter10.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "2021200"
+            },
+            {
+              "File": "Dahlia in Bloom and Lucia and the Loom\\lucia-and-the-loom-weaving-her-way-to-happiness-volume-2\\OEBPS\\Text\\insert8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "2021201"
+            },
+            {
+              "File": "Dahlia in Bloom and Lucia and the Loom\\lucia-and-the-loom-weaving-her-way-to-happiness-volume-2\\OEBPS\\Text\\chapter10_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "2021202"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "An Attendant’s Uniform and Mr. Sunset",
+          "SortOrder": "20213",
+          "Sources": [
+            {
+              "File": "Dahlia in Bloom and Lucia and the Loom\\lucia-and-the-loom-weaving-her-way-to-happiness-volume-2\\OEBPS\\Text\\chapter11.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "2021300"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Extra Story: The Nemophila and the Bodyguard",
+          "SortOrder": "20214",
+          "Sources": [
+            {
+              "File": "Dahlia in Bloom and Lucia and the Loom\\lucia-and-the-loom-weaving-her-way-to-happiness-volume-2\\OEBPS\\Text\\extra.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "2021400"
+            },
+            {
+              "File": "Dahlia in Bloom and Lucia and the Loom\\lucia-and-the-loom-weaving-her-way-to-happiness-volume-2\\OEBPS\\Text\\insert9.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "2021401"
             }
           ],
           "LinkedChapters": [],
