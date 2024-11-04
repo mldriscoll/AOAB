@@ -137,6 +137,12 @@
       "SortOrder": "1071500"
     },
     {
+      "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-7\\OEBPS\\Text\\cover.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1070100"
+    },
+    {
       "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-7\\OEBPS\\Text\\signup.xhtml",
       "Alternates": [],
       "OtherSide": null,
@@ -149,10 +155,28 @@
       "SortOrder": "1070400"
     },
     {
-      "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-7\\OEBPS\\Text\\cover.xhtml",
+      "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-8\\OEBPS\\Text\\copyright.xhtml",
       "Alternates": [],
       "OtherSide": null,
-      "SortOrder": "1070100"
+      "SortOrder": "1081900"
+    },
+    {
+      "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-8\\OEBPS\\Text\\signup.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1081800"
+    },
+    {
+      "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-8\\OEBPS\\Text\\toc.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1080400"
+    },
+    {
+      "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-8\\OEBPS\\Text\\cover.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1080100"
     }
   ],
   "Chapters": [
@@ -2105,6 +2129,336 @@
       ]
     },
     {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "Younger Lady Albert is Providing an Epilogue",
+      "SortOrder": "108",
+      "Sources": [
+        {
+          "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-8\\OEBPS\\Text\\bonus.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1081700"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "Chapters": [
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Character Sheet",
+          "SortOrder": "10802",
+          "Sources": [
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-8\\OEBPS\\Text\\characters1.xhtml",
+              "Alternates": [],
+              "OtherSide": {
+                "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-8\\OEBPS\\Text\\characters2.xhtml",
+                "Alternates": [],
+                "OtherSide": null,
+                "SortOrder": "1080300"
+              },
+              "SortOrder": "1080200"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Prologue",
+          "SortOrder": "10805",
+          "Sources": [
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-8\\OEBPS\\Text\\prologue.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080500"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter 1",
+          "SortOrder": "10806",
+          "Sources": [
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-8\\OEBPS\\Text\\chapter1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080600"
+            },
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-8\\OEBPS\\Text\\insert1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080601"
+            },
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-8\\OEBPS\\Text\\chapter1_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080602"
+            },
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-8\\OEBPS\\Text\\insert2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080603"
+            },
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-8\\OEBPS\\Text\\chapter1_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080604"
+            },
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-8\\OEBPS\\Text\\insert3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080605"
+            },
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-8\\OEBPS\\Text\\chapter1_3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080606"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Idle Memories: Part 1",
+          "SortOrder": "10807",
+          "Sources": [
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-8\\OEBPS\\Text\\side1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080700"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter 2",
+          "SortOrder": "10808",
+          "Sources": [
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-8\\OEBPS\\Text\\chapter2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080800"
+            },
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-8\\OEBPS\\Text\\insert4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080801"
+            },
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-8\\OEBPS\\Text\\chapter2_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080802"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Idle Memories: Part 2",
+          "SortOrder": "10809",
+          "Sources": [
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-8\\OEBPS\\Text\\side2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080900"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter 3",
+          "SortOrder": "10810",
+          "Sources": [
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-8\\OEBPS\\Text\\chapter3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081000"
+            },
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-8\\OEBPS\\Text\\insert5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081001"
+            },
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-8\\OEBPS\\Text\\chapter3_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081002"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Idle Memories: Part 3",
+          "SortOrder": "10811",
+          "Sources": [
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-8\\OEBPS\\Text\\side3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081100"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter 4",
+          "SortOrder": "10812",
+          "Sources": [
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-8\\OEBPS\\Text\\chapter4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081200"
+            },
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-8\\OEBPS\\Text\\insert6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081201"
+            },
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-8\\OEBPS\\Text\\chapter4_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081202"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Idle Memories: Just the Two of Us",
+          "SortOrder": "10813",
+          "Sources": [
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-8\\OEBPS\\Text\\side4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081300"
+            },
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-8\\OEBPS\\Text\\insert7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081301"
+            },
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-8\\OEBPS\\Text\\side4_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081302"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter 5",
+          "SortOrder": "10814",
+          "Sources": [
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-8\\OEBPS\\Text\\chapter5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081400"
+            },
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-8\\OEBPS\\Text\\insert8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081401"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Epilogue",
+          "SortOrder": "10815",
+          "Sources": [
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-8\\OEBPS\\Text\\epilogue.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081500"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        }
+      ]
+    },
+    {
       "CType": 2,
       "ChapType": "NonStory",
       "Name": "Afterwords",
@@ -2233,6 +2587,24 @@
               "Alternates": [],
               "OtherSide": null,
               "SortOrder": "1071200"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Younger Lady Albert is Providing an Epilogue",
+          "SortOrder": "10816",
+          "Sources": [
+            {
+              "File": "young-lady-albert-is-courting-disaster-light-novel\\young-lady-albert-is-courting-disaster-volume-8\\OEBPS\\Text\\afterword.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081600"
             }
           ],
           "LinkedChapters": [],
