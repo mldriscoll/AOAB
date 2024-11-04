@@ -18290,7 +18290,9 @@
         "ApiSlug": "the-apothecary-diaries-volume-12",
         "FileName": "the-apothecary-diaries-volume-12.epub",
         "Title": "",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2024-10-14",
         "Order": 112
       },
