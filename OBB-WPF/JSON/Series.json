@@ -11644,66 +11644,6 @@
     ],
     "Volumes": [
       {
-        "ApiSlug": "lady-rose-just-wants-to-be-a-commoner",
-        "FileName": "lady-rose-just-wants-to-be-a-commoner.epub",
-        "Title": "Lady Rose Just Wants to Be a Commoner! Volume 1",
-        "EditedBy": [
-          "kuali"
-        ],
-        "Published": "2023-01-04",
-        "Order": 101
-      },
-      {
-        "ApiSlug": "lady-rose-just-wants-to-be-a-commoner-volume-2",
-        "FileName": "lady-rose-just-wants-to-be-a-commoner-volume-2.epub",
-        "Title": "Lady Rose Just Wants to Be a Commoner! Volume 2",
-        "EditedBy": [
-          "kuali"
-        ],
-        "Published": "2023-03-22",
-        "Order": 102
-      },
-      {
-        "ApiSlug": "lady-rose-just-wants-to-be-a-commoner-volume-3",
-        "FileName": "lady-rose-just-wants-to-be-a-commoner-volume-3.epub",
-        "Title": "Lady Rose Just Wants to Be a Commoner! Volume 3",
-        "EditedBy": [
-          "kuali"
-        ],
-        "Published": "2023-06-14",
-        "Order": 103
-      },
-      {
-        "ApiSlug": "lady-rose-just-wants-to-be-a-commoner-volume-4",
-        "FileName": "lady-rose-just-wants-to-be-a-commoner-volume-4.epub",
-        "Title": "Lady Rose Just Wants to Be a Commoner! Volume 4",
-        "EditedBy": [
-          "kuali"
-        ],
-        "Published": "2023-08-30",
-        "Order": 104
-      },
-      {
-        "ApiSlug": "lady-rose-just-wants-to-be-a-commoner-volume-5",
-        "FileName": "lady-rose-just-wants-to-be-a-commoner-volume-5.epub",
-        "Title": "Lady Rose Just Wants to Be a Commoner! Volume 5",
-        "EditedBy": [
-          "kuali"
-        ],
-        "Published": "2023-12-13",
-        "Order": 105
-      },
-      {
-        "ApiSlug": "lady-rose-just-wants-to-be-a-commoner-volume-6",
-        "FileName": "lady-rose-just-wants-to-be-a-commoner-volume-6.epub",
-        "Title": "Lady Rose Just Wants to Be a Commoner! Volume 6",
-        "EditedBy": [
-          "kuali"
-        ],
-        "Published": "2024-04-03",
-        "Order": 106
-      },
-      {
         "ApiSlug": "lady-rose-just-wants-to-be-a-commoner-volume-1",
         "FileName": "lady-rose-just-wants-to-be-a-commoner-volume-1.epub",
         "Title": "",
@@ -11730,7 +11670,9 @@
         "ApiSlug": "lady-rose-just-wants-to-be-a-commoner",
         "FileName": "lady-rose-just-wants-to-be-a-commoner.epub",
         "Title": "Lady Rose Just Wants to Be a Commoner! (Manga) Volume 1",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2023-01-04",
         "Order": 101
       },
@@ -11738,7 +11680,9 @@
         "ApiSlug": "lady-rose-just-wants-to-be-a-commoner-volume-2",
         "FileName": "lady-rose-just-wants-to-be-a-commoner-volume-2.epub",
         "Title": "Lady Rose Just Wants to Be a Commoner! (Manga) Volume 2",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2023-03-22",
         "Order": 102
       },
@@ -11746,7 +11690,9 @@
         "ApiSlug": "lady-rose-just-wants-to-be-a-commoner-volume-3",
         "FileName": "lady-rose-just-wants-to-be-a-commoner-volume-3.epub",
         "Title": "Lady Rose Just Wants to Be a Commoner! (Manga) Volume 3",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2023-06-14",
         "Order": 103
       },
@@ -11754,7 +11700,9 @@
         "ApiSlug": "lady-rose-just-wants-to-be-a-commoner-volume-4",
         "FileName": "lady-rose-just-wants-to-be-a-commoner-volume-4.epub",
         "Title": "Lady Rose Just Wants to Be a Commoner! (Manga) Volume 4",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2023-08-30",
         "Order": 104
       },
@@ -11762,7 +11710,9 @@
         "ApiSlug": "lady-rose-just-wants-to-be-a-commoner-volume-5",
         "FileName": "lady-rose-just-wants-to-be-a-commoner-volume-5.epub",
         "Title": "Lady Rose Just Wants to Be a Commoner! (Manga) Volume 5",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2023-12-13",
         "Order": 105
       },
@@ -11770,7 +11720,9 @@
         "ApiSlug": "lady-rose-just-wants-to-be-a-commoner-volume-6",
         "FileName": "lady-rose-just-wants-to-be-a-commoner-volume-6.epub",
         "Title": "Lady Rose Just Wants to Be a Commoner! (Manga) Volume 6",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2024-04-03",
         "Order": 106
       }
