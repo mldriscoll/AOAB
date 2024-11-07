@@ -187,7 +187,8 @@ namespace OBB_WPF.Editor
                         }
 
                         Chapter subChapter = null;
-                        foreach (Match subHeader in chapterSubTitleRegex.Matches(chapterContent).Where(x => !string.Equals(x.Value, "<h2>I</h2>")))
+                        foreach (Match subHeader in chapterSubTitleRegex.Matches(chapterContent).Where(x => !string.Equals(x.Value, "<h2>I</h2>") && !string.Equals(x.Value, "<h2>1</h2>"))
+                            .Union(chapterTitleRegex.Matches(chapterContent).Skip(1)).OrderBy(x => x.Index))
                         {
                             if (subChapter != null)
                             {
@@ -201,7 +202,7 @@ namespace OBB_WPF.Editor
                             {
                                 CType = chapter.CType,
                                 StartsAtLine = subHeader.Value,
-                                Name = subHeader.Value,
+                                Name = subHeader.Value.Replace("<h2>", string.Empty).Replace("</h2>", string.Empty).Replace("<h1>", string.Empty).Replace("</h1>", string.Empty),
                                 SortOrder = chapter.Chapters.Count.ToString("000"),
                                 Sources = new System.Collections.ObjectModel.ObservableCollection<Source>(chapter.Sources)
                             };
