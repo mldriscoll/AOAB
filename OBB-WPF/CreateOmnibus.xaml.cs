@@ -64,9 +64,9 @@ namespace OBB_WPF
             };
 
 #if DEBUG
-            if (File.Exists($"..\\..\\..\\JSON\\{omnibus.Name}.json"))
+            if (File.Exists($"..\\..\\..\\JSON\\{omnibus.InternalName}.json"))
             {
-                using (var stream = File.OpenRead($"..\\..\\..\\JSON\\{omnibus.Name}.json"))
+                using (var stream = File.OpenRead($"..\\..\\..\\JSON\\{omnibus.InternalName}.json"))
                 {
                     omnibus = JsonSerializer.Deserialize<Omnibus>(stream);
                 }
