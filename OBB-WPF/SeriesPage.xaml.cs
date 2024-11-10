@@ -203,8 +203,6 @@ namespace OBB_WPF
                 SortOrder.DataContext = CurrentChapter;
                 Sources.ItemsSource = CurrentChapter.Sources;
                 ChapterType.DataContext = CurrentChapter;
-                StartLine.DataContext = CurrentChapter;
-                EndLine.DataContext = CurrentChapter;
             }
 
             e.Handled = true;
@@ -469,6 +467,13 @@ namespace OBB_WPF
                 holder.Chapters.Add(chapter);
                 i++;
             }
+        }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            if (CurrentChapter == null) return;
+            var subs = new Subsections(CurrentChapter);
+            subs.ShowDialog();
         }
     }
 

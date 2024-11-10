@@ -55,6 +55,18 @@ namespace OBB_WPF
         public string EndsBeforeLine { get; set; } = string.Empty;
         public string StartsAtLine { get; set; } = string.Empty;
 
+        public List<SubSection> SubSections { get; set; } = new List<SubSection> { };
+
+        public class SubSection
+        {
+            public int StartsAtIndex { get; set; }
+            public string StartsAtLine { get; set; } = string.Empty;
+            public int EndsAtIndex { get; set; }
+            public string EndsAtLine { get; set; } = string.Empty;
+        }
+
+
+
         public bool Match(Chapter other)
         {
             return other.Name.Equals(Name, StringComparison.InvariantCultureIgnoreCase)

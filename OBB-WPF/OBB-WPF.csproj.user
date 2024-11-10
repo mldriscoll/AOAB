@@ -22,6 +22,12 @@
     <Compile Update="DownloadWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Editor\SourceLineControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Editor\SubsectionControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Library\LibrarySummary.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -64,6 +70,15 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="DownloadWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Editor\SourceLineControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Editor\Subsections.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Editor\SubsectionControl.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Library\LibrarySummary.xaml">

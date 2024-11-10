@@ -314,16 +314,29 @@ namespace OBB_WPF
                         }
                     }
 
-                    if (!string.IsNullOrWhiteSpace(chapter.StartsAtLine))
+                    if (chapter.SubSections.Any())
                     {
-                        var location = newChapter.Contents.IndexOf(chapter.StartsAtLine);
-                        newChapter.Contents = newChapter.Contents.Substring(location);
-                    }
+                        newChapter.Contents = chapter.SubSections.Select(x =>
+                        {
+                            var end = FindIndex(newChapter.Contents, x.EndsAtLine, x.EndsAtIndex) + x.EndsAtLine.Length;
+                            var start = FindIndex(newChapter.Contents, x.StartsAtLine, x.StartsAtIndex, end);
 
-                    if (!string.IsNullOrWhiteSpace(chapter.EndsBeforeLine))
+                            return newChapter.Contents.Substring(start, end - start);
+                        }).Aggregate(string.Empty, string.Concat);
+                    }
+                    else
                     {
-                        var location = newChapter.Contents.IndexOf(chapter.EndsBeforeLine);
-                        newChapter.Contents = newChapter.Contents.Substring(0, location);
+                        if (!string.IsNullOrWhiteSpace(chapter.StartsAtLine))
+                        {
+                            var location = newChapter.Contents.IndexOf(chapter.StartsAtLine);
+                            newChapter.Contents = newChapter.Contents.Substring(location);
+                        }
+
+                        if (!string.IsNullOrWhiteSpace(chapter.EndsBeforeLine))
+                        {
+                            var location = newChapter.Contents.IndexOf(chapter.EndsBeforeLine);
+                            newChapter.Contents = newChapter.Contents.Substring(0, location);
+                        }
                     }
 
                     if (Settings.Configuration.UpdateChapterTitles)
@@ -356,6 +369,41 @@ namespace OBB_WPF
             {
                 await ProcessChapter(subChapter, inProcessor, outProcessor, subfolder, inFolder);
             }
+        }
+
+        private int FindIndex(string source, string target, int savedLocation, int? max = null)
+        {
+            var start = 0;
+            var indexes = new List<int>();
+            while (start > -1)
+            {
+                start = source.IndexOf(target, start + 1);
+                if (start > -1) indexes.Add(start);
+            }
+
+            if (indexes.Count == 1)
+            {
+                return indexes[0];
+            }
+
+            if (max.HasValue)
+            {
+                indexes.RemoveAll(x => x > max.Value);
+            }
+
+            int distance = 10000000;
+            int ret = -1;
+            foreach (var index in indexes)
+            {
+                var d = int.Abs(savedLocation - index);
+                if (d < distance)
+                {
+                    distance = d;
+                    ret = index;
+                }
+            }
+
+            return ret;
         }
 
         private async void Button_Click(object sender, RoutedEventArgs e)
