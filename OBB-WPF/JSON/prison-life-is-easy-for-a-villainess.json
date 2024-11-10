@@ -1,0 +1,2829 @@
+{
+  "Cover": {
+    "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\bonus1.xhtml",
+    "Alternates": [],
+    "OtherSide": null,
+    "SortOrder": "1011300"
+  },
+  "Author": "Hibiki Yamazaki",
+  "AuthorSort": "YAMAZAKI, HIBIKI",
+  "Name": "Prison Life is Easy for a Villainess",
+  "InternalName": "prison-life-is-easy-for-a-villainess",
+  "UnusedSources": [
+    {
+      "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\color1.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1010900"
+    },
+    {
+      "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\color2.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1011000"
+    },
+    {
+      "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\color3.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1011100"
+    },
+    {
+      "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\color4.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1011200"
+    },
+    {
+      "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\copyright.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1011900"
+    },
+    {
+      "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\cover.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1010100"
+    },
+    {
+      "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\signup.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1011800"
+    },
+    {
+      "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\toc.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1010200"
+    },
+    {
+      "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\color1.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1020700"
+    },
+    {
+      "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\color2.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1020800"
+    },
+    {
+      "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\color3.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1020900"
+    },
+    {
+      "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\copyright.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1021500"
+    },
+    {
+      "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\cover.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1020100"
+    },
+    {
+      "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\signup.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1021400"
+    },
+    {
+      "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\toc.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1020200"
+    }
+  ],
+  "Chapters": [
+    {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "Chapter 1: The Young Lady Moves",
+      "SortOrder": "10103",
+      "Sources": [
+        {
+          "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter1.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1010300"
+        },
+        {
+          "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert1.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1010301"
+        },
+        {
+          "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter1_1.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1010302"
+        },
+        {
+          "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert2.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1010303"
+        },
+        {
+          "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter1_2.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1010304"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "<h2>01: The Young Lady Is Sent to Prison</h2>",
+      "StartsAtLine": "",
+      "SubSections": [],
+      "Chapters": [
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "01: The Young Lady Is Sent to Prison",
+          "SortOrder": "10103000",
+          "Sources": [
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010300"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010301"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter1_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010302"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010303"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter1_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010304"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\bonus2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1011400"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": null,
+          "StartsAtLine": null,
+          "SubSections": [
+            {
+              "StartsAtIndex": 577,
+              "StartsAtLine": "<h2>01: The Young Lady Is Sent to Prison</h2>",
+              "EndsAtIndex": 4682,
+              "EndsAtLine": "<p>This was an unusual show of emotion—a look of scorn—from the duke’s daughter who was known for her placidity. But before the prince could dwell on what it meant, Sykes dragged Rachel from the banquet hall.</p>"
+            },
+            {
+              "StartsAtIndex": 81561,
+              "StartsAtLine": "<section epub:type=\"bodymatter chapter\" id=\"bonus2\">",
+              "EndsAtIndex": 81682,
+              "EndsAtLine": "</section>"
+            },
+            {
+              "StartsAtIndex": 4902,
+              "StartsAtLine": "<p class=\"centerp section-marking\">",
+              "EndsAtIndex": 8191,
+              "EndsAtLine": "<p>Fighting the urge to start skipping, Rachel trudged out of the hall with heavy feet that belied her actual feelings.</p>"
+            }
+          ],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "02: The Young Lady Shuts Herself in the Prison",
+          "SortOrder": "10103001",
+          "Sources": [
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010300"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010301"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter1_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010302"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010303"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter1_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010304"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "<h2>03: The Young Lady Renovates the Prison</h2>",
+          "StartsAtLine": "<h2>02: The Young Lady Shuts Herself in the Prison</h2>",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "03: The Young Lady Renovates the Prison",
+          "SortOrder": "10103002",
+          "Sources": [
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010300"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010301"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter1_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010302"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010303"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter1_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010304"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "<h2>04: The Duke Realizes the Situation</h2>",
+          "StartsAtLine": "<h2>03: The Young Lady Renovates the Prison</h2>",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "04: The Duke Realizes the Situation",
+          "SortOrder": "10103003",
+          "Sources": [
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\bonus4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "0"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010300"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010301"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter1_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010302"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010303"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter1_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010304"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\bonus3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1011500"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": null,
+          "StartsAtLine": null,
+          "SubSections": [
+            {
+              "StartsAtIndex": 28459,
+              "StartsAtLine": "<h2>04: The Duke Realizes the Situation</h2>",
+              "EndsAtIndex": 37835,
+              "EndsAtLine": "<p>A number of servants had gathered around the two of them, but they’d all been with the family far too long to comment on the current situation.</p>"
+            },
+            {
+              "StartsAtIndex": 81561,
+              "StartsAtLine": "<section epub:type=\"bodymatter chapter\" id=\"bonus3\">",
+              "EndsAtIndex": 81682,
+              "EndsAtLine": "</section>"
+            },
+            {
+              "StartsAtIndex": 37993,
+              "StartsAtLine": "<p class=\"centerp section-marking\">",
+              "EndsAtIndex": 42020,
+              "EndsAtLine": "<p>“Take care,” Sofia called after him.</p>"
+            },
+            {
+              "StartsAtIndex": 424,
+              "StartsAtLine": "<section epub:type=\"bodymatter chapter\" id=\"bonus4\">",
+              "EndsAtIndex": 545,
+              "EndsAtLine": "</section>"
+            }
+          ],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "05: The Young Lady Chases off the Prince",
+          "SortOrder": "10103004",
+          "Sources": [
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010300"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010301"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter1_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010302"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010303"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter1_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010304"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "<h2>06: The Young Lady Hears Something Wonderful</h2>",
+          "StartsAtLine": "<h2>05: The Young Lady Chases off the Prince</h2>",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "06: The Young Lady Hears Something Wonderful",
+          "SortOrder": "10103005",
+          "Sources": [
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010300"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010301"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter1_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010302"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010303"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter1_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010304"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "<h2>06: The Young Lady Hears Something Wonderful</h2>",
+          "SubSections": [],
+          "Chapters": []
+        }
+      ]
+    },
+    {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "Chapter 2: An Exciting New Life",
+      "SortOrder": "10104",
+      "Sources": [
+        {
+          "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter2.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1010400"
+        },
+        {
+          "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert3.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1010401"
+        },
+        {
+          "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter2_1.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1010402"
+        },
+        {
+          "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert4.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1010403"
+        },
+        {
+          "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter2_2.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1010404"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "<h2>07: The Young Lady Enjoys Gourmet Delicacies</h2>",
+      "StartsAtLine": "",
+      "SubSections": [],
+      "Chapters": [
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "07: The Young Lady Enjoys Gourmet Delicacies",
+          "SortOrder": "10104000",
+          "Sources": [
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010400"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010401"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter2_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010402"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010403"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter2_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010404"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "<h2>08: The Young Lady Idles the Day Away</h2>",
+          "StartsAtLine": "<h2>07: The Young Lady Enjoys Gourmet Delicacies</h2>",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "08: The Young Lady Idles the Day Away",
+          "SortOrder": "10104001",
+          "Sources": [
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010400"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010401"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter2_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010402"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010403"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter2_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010404"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "<h2>09: The Prince Learns What the Young Lady is Thinking</h2>",
+          "StartsAtLine": "<h2>08: The Young Lady Idles the Day Away</h2>",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "09: The Prince Learns What the Young Lady is Thinking",
+          "SortOrder": "10104002",
+          "Sources": [
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010400"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010401"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter2_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010402"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010403"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter2_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010404"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "<h2>10: The Young Lady’s Art Explodes</h2>",
+          "StartsAtLine": "<h2>09: The Prince Learns What the Young Lady is Thinking</h2>",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "10: The Young Lady’s Art Explodes",
+          "SortOrder": "10104003",
+          "Sources": [
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010400"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010401"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter2_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010402"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010403"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter2_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010404"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "<h2>11: The Young Lady Snipes Her Dinner</h2>",
+          "StartsAtLine": "<h2>10: The Young Lady’s Art Explodes</h2>",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "11: The Young Lady Snipes Her Dinner",
+          "SortOrder": "10104004",
+          "Sources": [
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010400"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010401"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter2_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010402"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010403"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter2_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010404"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "<h2>11: The Young Lady Snipes Her Dinner</h2>",
+          "SubSections": [],
+          "Chapters": []
+        }
+      ]
+    },
+    {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "Chapter 3: Let’s Get Proactive",
+      "SortOrder": "10105",
+      "Sources": [
+        {
+          "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter3.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1010500"
+        },
+        {
+          "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert5.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1010501"
+        },
+        {
+          "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter3_1.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1010502"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "<h2>12: The Young Lady Bribes the Prison Guard</h2>",
+      "StartsAtLine": "",
+      "SubSections": [],
+      "Chapters": [
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "12: The Young Lady Bribes the Prison Guard",
+          "SortOrder": "10105000",
+          "Sources": [
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010500"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010501"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter3_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010502"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "<h2>13: The Young Lady Kills Time</h2>",
+          "StartsAtLine": "<h2>12: The Young Lady Bribes the Prison Guard</h2>",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "13: The Young Lady Kills Time",
+          "SortOrder": "10105001",
+          "Sources": [
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010500"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010501"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter3_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010502"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "<h2>14: The Prince is Led Astray by a Debate</h2>",
+          "StartsAtLine": "<h2>13: The Young Lady Kills Time</h2>",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "14: The Prince is Led Astray by a Debate",
+          "SortOrder": "10105002",
+          "Sources": [
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010500"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010501"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter3_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010502"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "<h2>15: The Young Lady Shops</h2>",
+          "StartsAtLine": "<h2>14: The Prince is Led Astray by a Debate</h2>",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "15: The Young Lady Shops",
+          "SortOrder": "10105003",
+          "Sources": [
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010500"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010501"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter3_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010502"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "<h2>16: The Young Lady Does Charity Work</h2>",
+          "StartsAtLine": "<h2>15: The Young Lady Shops</h2>",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "16: The Young Lady Does Charity Work",
+          "SortOrder": "10105004",
+          "Sources": [
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010500"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010501"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter3_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010502"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "<h2>16: The Young Lady Does Charity Work</h2>",
+          "SubSections": [],
+          "Chapters": []
+        }
+      ]
+    },
+    {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "Chapter 4: Hello, Little Girl",
+      "SortOrder": "10106",
+      "Sources": [
+        {
+          "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter4.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1010600"
+        },
+        {
+          "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert6.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1010601"
+        },
+        {
+          "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter4_1.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1010602"
+        },
+        {
+          "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert7.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1010603"
+        },
+        {
+          "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter4_2.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1010604"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "<h2>17: The Girl Visits the Young Lady</h2>",
+      "StartsAtLine": "",
+      "SubSections": [],
+      "Chapters": [
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "17: The Girl Visits the Young Lady",
+          "SortOrder": "10106000",
+          "Sources": [
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010600"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010601"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter4_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010602"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010603"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter4_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010604"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "<h2>18: The Duke is Confused by the Situation</h2>",
+          "StartsAtLine": "<h2>17: The Girl Visits the Young Lady</h2>",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "18: The Duke is Confused by the Situation",
+          "SortOrder": "10106001",
+          "Sources": [
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010600"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010601"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter4_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010602"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010603"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter4_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010604"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "<h2>19: The Girl Plans Ahead</h2>",
+          "StartsAtLine": "<h2>18: The Duke is Confused by the Situation</h2>",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "19: The Girl Plans Ahead",
+          "SortOrder": "10106002",
+          "Sources": [
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010600"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010601"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter4_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010602"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010603"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter4_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010604"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "<h2>20: The Duke Has an Audience with the King</h2>",
+          "StartsAtLine": "<h2>19: The Girl Plans Ahead</h2>",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "20: The Duke Has an Audience with the King",
+          "SortOrder": "10106003",
+          "Sources": [
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010600"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010601"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter4_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010602"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010603"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter4_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010604"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "<h2>21: The Young Lady Gets to Know the Girl</h2>",
+          "StartsAtLine": "<h2>20: The Duke Has an Audience with the King</h2>",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "21: The Young Lady Gets to Know the Girl",
+          "SortOrder": "10106004",
+          "Sources": [
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010600"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010601"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter4_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010602"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010603"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter4_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010604"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "<h2>21: The Young Lady Gets to Know the Girl</h2>",
+          "SubSections": [],
+          "Chapters": []
+        }
+      ]
+    },
+    {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "Chapter 5: Memories of a Sister and Brother",
+      "SortOrder": "10107",
+      "Sources": [
+        {
+          "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter5.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1010700"
+        },
+        {
+          "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert8.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1010701"
+        },
+        {
+          "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter5_1.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1010702"
+        },
+        {
+          "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert9.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1010703"
+        },
+        {
+          "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter5_2.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1010704"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "<h2>22: The Maid Brings a Delivery to Her Master</h2>",
+      "StartsAtLine": "",
+      "SubSections": [],
+      "Chapters": [
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "22: The Maid Brings a Delivery to Her Master",
+          "SortOrder": "10107000",
+          "Sources": [
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010700"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010701"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter5_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010702"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert9.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010703"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter5_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010704"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "<h2>23: The Maid Deals with an Unwanted Guest</h2>",
+          "StartsAtLine": "<h2>22: The Maid Brings a Delivery to Her Master</h2>",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "23: The Maid Deals with an Unwanted Guest",
+          "SortOrder": "10107001",
+          "Sources": [
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010700"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010701"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter5_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010702"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert9.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010703"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter5_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010704"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "<h2>24: The Maid is Busy</h2>",
+          "StartsAtLine": "<h2>23: The Maid Deals with an Unwanted Guest</h2>",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "24: The Maid is Busy",
+          "SortOrder": "10107002",
+          "Sources": [
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010700"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010701"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter5_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010702"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert9.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010703"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter5_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010704"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "<h2>25: The Young Lady Entertains Guests</h2>",
+          "StartsAtLine": "<h2>24: The Maid is Busy</h2>",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "25: The Young Lady Entertains Guests",
+          "SortOrder": "10107003",
+          "Sources": [
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010700"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010701"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter5_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010702"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert9.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010703"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter5_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010704"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\bonus5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1011700"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": null,
+          "StartsAtLine": null,
+          "SubSections": [
+            {
+              "StartsAtIndex": 46102,
+              "StartsAtLine": "<h2>25: The Young Lady Entertains Guests</h2>",
+              "EndsAtIndex": 65771,
+              "EndsAtLine": "<p>“Prison, yay!”</p>"
+            },
+            {
+              "StartsAtIndex": 108240,
+              "StartsAtLine": "<section epub:type=\"bodymatter chapter\" id=\"bonus5\">",
+              "EndsAtIndex": 108361,
+              "EndsAtLine": "</section>"
+            }
+          ],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "26: The Young Lady Takes Care of Her Little Brother",
+          "SortOrder": "10107004",
+          "Sources": [
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010700"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010701"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter5_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010702"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert9.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010703"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter5_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010704"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "<h2>27: The Little Brother Recalls the Past</h2>",
+          "StartsAtLine": "<h2>26: The Young Lady Takes Care of Her Little Brother</h2>",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "27: The Little Brother Recalls the Past",
+          "SortOrder": "10107005",
+          "Sources": [
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010700"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010701"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter5_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010702"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert9.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010703"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter5_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010704"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "<h2>28: The Little Brother Hears about the Things He Had Forgotten</h2>",
+          "StartsAtLine": "<h2>27: The Little Brother Recalls the Past</h2>",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "28: The Little Brother Hears about the Things He Had Forgotten",
+          "SortOrder": "10107006",
+          "Sources": [
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010700"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010701"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter5_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010702"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\insert9.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010703"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\chapter5_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1010704"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "<h2>28: The Little Brother Hears about the Things He Had Forgotten</h2>",
+          "SubSections": [],
+          "Chapters": []
+        }
+      ]
+    },
+    {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "Chapter 6: So Long, Sykes",
+      "SortOrder": "10203",
+      "Sources": [
+        {
+          "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter1.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1020300"
+        },
+        {
+          "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert1.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1020301"
+        },
+        {
+          "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter1_1.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1020302"
+        },
+        {
+          "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert2.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1020303"
+        },
+        {
+          "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter1_2.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1020304"
+        },
+        {
+          "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\bonus1.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1021000"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": null,
+      "StartsAtLine": null,
+      "SubSections": [
+        {
+          "StartsAtIndex": 108619,
+          "StartsAtLine": "<section epub:type=\"bodymatter chapter\" id=\"bonus1\">",
+          "EndsAtIndex": 108742,
+          "EndsAtLine": "</section>"
+        },
+        {
+          "StartsAtIndex": 542,
+          "StartsAtLine": "<h1>Chapter 6: So Long, Sykes</h1>",
+          "EndsAtIndex": 542,
+          "EndsAtLine": "<h1>Chapter 6: So Long, Sykes</h1>"
+        }
+      ],
+      "Chapters": [
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "29: The Young Lady’s Basement Session",
+          "SortOrder": "10203000",
+          "Sources": [
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020300"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020301"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter1_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020302"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020303"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter1_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020304"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\bonus2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1021100"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": null,
+          "StartsAtLine": null,
+          "SubSections": [
+            {
+              "StartsAtIndex": 586,
+              "StartsAtLine": "<h2>29: The Young Lady’s Basement Session</h2>",
+              "EndsAtIndex": 13520,
+              "EndsAtLine": "<p>The chief lady-in-waiting escorted the impromptu band out, with the exception of Rachel, and lectured them until morning.</p>"
+            },
+            {
+              "StartsAtIndex": 108619,
+              "StartsAtLine": "<section epub:type=\"bodymatter chapter\" id=\"bonus2\">",
+              "EndsAtIndex": 108742,
+              "EndsAtLine": "</section>"
+            },
+            {
+              "StartsAtIndex": 13658,
+              "StartsAtLine": "<p class=\"centerp section-marking\">",
+              "EndsAtIndex": 13861,
+              "EndsAtLine": "<p>Shrugging it off, Rachel readied her pillow and turned out the lights.</p>"
+            }
+          ],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "30: The Young Lady Exercises",
+          "SortOrder": "10203001",
+          "Sources": [
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020300"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020301"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter1_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020302"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020303"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter1_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020304"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "<h2>31: The Girl Shouts at the Dawning Sun</h2>",
+          "StartsAtLine": "<h2>30: The Young Lady Exercises</h2>",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "31: The Girl Shouts at the Dawning Sun",
+          "SortOrder": "10203002",
+          "Sources": [
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020300"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020301"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter1_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020302"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020303"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter1_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020304"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "<h2>32. The Girl Sells “Flowers”</h2>",
+          "StartsAtLine": "<h2>31: The Girl Shouts at the Dawning Sun</h2>",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "32. The Girl Sells “Flowers”",
+          "SortOrder": "10203003",
+          "Sources": [
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020300"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020301"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter1_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020302"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020303"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter1_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020304"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "<h2>33: The Young Lady Receives a Sympathy Call from Some Old Friends</h2>",
+          "StartsAtLine": "<h2>32. The Girl Sells “Flowers”</h2>",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "33: The Young Lady Receives a Sympathy Call from Some Old Friends",
+          "SortOrder": "10203004",
+          "Sources": [
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020300"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020301"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter1_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020302"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020303"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter1_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020304"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "<h2>34: The Young Lady Does Nothing Because She is in Prison</h2>",
+          "StartsAtLine": "<h2>33: The Young Lady Receives a Sympathy Call from Some Old Friends</h2>",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "34: The Young Lady Does Nothing Because She is in Prison",
+          "SortOrder": "10203005",
+          "Sources": [
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020300"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020301"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter1_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020302"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020303"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter1_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020304"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\bonus3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1021200"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": null,
+          "StartsAtLine": null,
+          "SubSections": [
+            {
+              "StartsAtIndex": 78761,
+              "StartsAtLine": "<h2>34: The Young Lady Does Nothing Because She is in Prison</h2>",
+              "EndsAtIndex": 98531,
+              "EndsAtLine": "<p>This was no time to be reacting to her own jokes. She needed to find somewhere to hide before she ran out of breath, so Margaret kept deliberately running into tight places.</p>"
+            },
+            {
+              "StartsAtIndex": 108619,
+              "StartsAtLine": "<section epub:type=\"bodymatter chapter\" id=\"bonus3\">",
+              "EndsAtIndex": 108742,
+              "EndsAtLine": "</section>"
+            },
+            {
+              "StartsAtIndex": 98721,
+              "StartsAtLine": "<p class=\"centerp section-marking\">",
+              "EndsAtIndex": 108029,
+              "EndsAtLine": "<p>Unable to imagine a future full of anything but sadness, the elite knights all slumped in despair.</p>"
+            }
+          ],
+          "Chapters": []
+        }
+      ]
+    },
+    {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "Chapter 7: The Melancholy and Restless Prince",
+      "SortOrder": "10204",
+      "Sources": [
+        {
+          "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter2.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1020400"
+        },
+        {
+          "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert3.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1020401"
+        },
+        {
+          "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter2_1.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1020402"
+        },
+        {
+          "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert4.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1020403"
+        },
+        {
+          "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter2_2.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1020404"
+        },
+        {
+          "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert5.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1020405"
+        },
+        {
+          "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter2_3.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1020406"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "<h2>35: The Young Lady Gets a Pet</h2>",
+      "StartsAtLine": "",
+      "SubSections": [],
+      "Chapters": [
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "35: The Young Lady Gets a Pet",
+          "SortOrder": "10204000",
+          "Sources": [
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020400"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020401"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter2_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020402"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020403"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter2_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020404"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020405"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter2_3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020406"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "<h2>36: The Monkey Walks around the Palace</h2>",
+          "StartsAtLine": "<h2>35: The Young Lady Gets a Pet</h2>",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "36: The Monkey Walks around the Palace",
+          "SortOrder": "10204001",
+          "Sources": [
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020400"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020401"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter2_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020402"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020403"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter2_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020404"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020405"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter2_3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020406"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "<h2>37: The King Was Enjoying a Bath</h2>",
+          "StartsAtLine": "<h2>36: The Monkey Walks around the Palace</h2>",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "37: The King Was Enjoying a Bath",
+          "SortOrder": "10204002",
+          "Sources": [
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020400"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020401"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter2_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020402"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020403"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter2_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020404"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020405"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter2_3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020406"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "<h2>38: The Maid is Troubled by a Group of Supporters</h2>",
+          "StartsAtLine": "<h2>37: The King Was Enjoying a Bath</h2>",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "38: The Maid is Troubled by a Group of Supporters",
+          "SortOrder": "10204003",
+          "Sources": [
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020400"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020401"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter2_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020402"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020403"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter2_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020404"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020405"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter2_3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020406"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "<h2>39: The Young Lady Hosts a Fun Party</h2>",
+          "StartsAtLine": "<h2>38: The Maid is Troubled by a Group of Supporters</h2>",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "39: The Young Lady Hosts a Fun Party",
+          "SortOrder": "10204004",
+          "Sources": [
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020400"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020401"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter2_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020402"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020403"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter2_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020404"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020405"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter2_3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020406"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\bonus4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1021300"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": null,
+          "StartsAtLine": null,
+          "SubSections": [
+            {
+              "StartsAtIndex": 84551,
+              "StartsAtLine": "<h2>39: The Young Lady Hosts a Fun Party</h2>",
+              "EndsAtIndex": 103611,
+              "EndsAtLine": "<p>“Adam! Adam! Adam!”</p>"
+            },
+            {
+              "StartsAtIndex": 132445,
+              "StartsAtLine": "<section epub:type=\"bodymatter chapter\" id=\"bonus4\">",
+              "EndsAtIndex": 132568,
+              "EndsAtLine": "</section>"
+            },
+            {
+              "StartsAtIndex": 103647,
+              "StartsAtLine": "<p class=\"centerp section-marking\">",
+              "EndsAtIndex": 104929,
+              "EndsAtLine": "<p>“You’re letting him get you off track again, Your Highness.”</p>"
+            }
+          ],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "40: The Pervert Drinks with a Monkey",
+          "SortOrder": "10204005",
+          "Sources": [
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020400"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020401"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter2_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020402"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020403"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter2_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020404"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020405"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter2_3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020406"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "<h2>40: The Pervert Drinks with a Monkey</h2>",
+          "SubSections": [],
+          "Chapters": []
+        }
+      ]
+    },
+    {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "Chapter 8: The Curtains Fall on This Cheap Play",
+      "SortOrder": "10205",
+      "Sources": [
+        {
+          "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter3.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1020500"
+        },
+        {
+          "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert6.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1020501"
+        },
+        {
+          "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter3_1.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1020502"
+        },
+        {
+          "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert7.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1020503"
+        },
+        {
+          "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter3_2.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1020504"
+        },
+        {
+          "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert8.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1020505"
+        },
+        {
+          "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter3_3.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1020506"
+        },
+        {
+          "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert9.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1020507"
+        },
+        {
+          "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter3_4.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1020508"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "<h2>41: The Young Lady is Frightened by a Storm</h2>",
+      "StartsAtLine": "",
+      "SubSections": [],
+      "Chapters": [
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "41: The Young Lady is Frightened by a Storm",
+          "SortOrder": "10205000",
+          "Sources": [
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020500"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020501"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter3_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020502"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020503"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter3_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020504"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020505"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter3_3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020506"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert9.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020507"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter3_4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020508"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "<h2>42: The Prince Assassinates the Young Lady (or Plans To)</h2>",
+          "StartsAtLine": "<h2>41: The Young Lady is Frightened by a Storm</h2>",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "42: The Prince Assassinates the Young Lady (or Plans To)",
+          "SortOrder": "10205001",
+          "Sources": [
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020500"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020501"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter3_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020502"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020503"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter3_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020504"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020505"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter3_3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020506"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert9.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020507"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter3_4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020508"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "<h2>43: The Newlyweds Have a Talk</h2>",
+          "StartsAtLine": "<h2>42: The Prince Assassinates the Young Lady (or Plans To)</h2>",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "43: The Newlyweds Have a Talk",
+          "SortOrder": "10205002",
+          "Sources": [
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020500"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020501"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter3_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020502"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020503"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter3_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020504"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020505"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter3_3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020506"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert9.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020507"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter3_4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020508"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "<h2>44: The King Renders Judgment</h2>",
+          "StartsAtLine": "<h2>43: The Newlyweds Have a Talk</h2>",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "44: The King Renders Judgment",
+          "SortOrder": "10205003",
+          "Sources": [
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020500"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020501"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter3_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020502"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020503"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter3_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020504"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020505"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter3_3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020506"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert9.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020507"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter3_4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020508"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "<h2>45: The Prince Learns the Limits of His Power</h2>",
+          "StartsAtLine": "<h2>44: The King Renders Judgment</h2>",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "45: The Prince Learns the Limits of His Power",
+          "SortOrder": "10205004",
+          "Sources": [
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020500"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020501"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter3_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020502"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020503"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter3_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020504"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020505"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter3_3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020506"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert9.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020507"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter3_4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020508"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "<h2>46: The Day of Departure and Their New Lives</h2>",
+          "StartsAtLine": "<h2>45: The Prince Learns the Limits of His Power</h2>",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "46: The Day of Departure and Their New Lives",
+          "SortOrder": "10205005",
+          "Sources": [
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020500"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020501"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter3_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020502"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020503"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter3_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020504"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020505"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter3_3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020506"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\insert9.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020507"
+            },
+            {
+              "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\chapter3_4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1020508"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "<h2>46: The Day of Departure and Their New Lives</h2>",
+          "SubSections": [],
+          "Chapters": []
+        }
+      ]
+    },
+    {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "Volume 1 Afterword",
+      "SortOrder": "9991",
+      "Sources": [
+        {
+          "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-1\\OEBPS\\Text\\afterword.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1010800"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "SubSections": [],
+      "Chapters": []
+    },
+    {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "Volume 2 Afterword",
+      "SortOrder": "9992",
+      "Sources": [
+        {
+          "File": "prison-life-is-easy-for-a-villainess\\prison-life-is-easy-for-a-villainess-volume-2\\OEBPS\\Text\\afterword.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1020600"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "SubSections": [],
+      "Chapters": []
+    }
+  ]
+}

@@ -15287,7 +15287,9 @@
         "ApiSlug": "prison-life-is-easy-for-a-villainess-volume-1",
         "FileName": "prison-life-is-easy-for-a-villainess-volume-1.epub",
         "Title": "Prison Life is Easy for a Villainess: Volume 1",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2022-02-23",
         "Order": 101
       },
@@ -15295,7 +15297,9 @@
         "ApiSlug": "prison-life-is-easy-for-a-villainess-volume-2",
         "FileName": "prison-life-is-easy-for-a-villainess-volume-2.epub",
         "Title": "Prison Life is Easy for a Villainess: Volume 2",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2022-05-25",
         "Order": 102
       }
