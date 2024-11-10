@@ -154,7 +154,7 @@ namespace OBB_WPF
             if (e.LeftButton == MouseButtonState.Pressed && !_IsDraggingSource)
             {
                 _IsDraggingSource = true;
-                DragDrop.DoDragDrop((DependencyObject)sender, sender, DragDropEffects.Move);
+                Dispatcher.BeginInvoke(() => DragDrop.DoDragDrop((DependencyObject)sender, sender, DragDropEffects.Move));
             }
         }
 
@@ -412,12 +412,14 @@ namespace OBB_WPF
 
         private void SplitChapter_Click(object sender, RoutedEventArgs e)
         {
+            if (CurrentChapter == null) return;
             var sc = new SplitChapter(CurrentChapter);
             sc.ShowDialog();
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
+            if (CurrentChapter == null) return;
             var linkWindow = new CreateLink(CurrentChapter);
             linkWindow.Show();
         }
