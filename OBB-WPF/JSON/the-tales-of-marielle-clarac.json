@@ -8,12 +8,25 @@
   "Author": "Haruka Momo",
   "AuthorSort": "MOMO, HARUKA",
   "Name": "The Tales of Marielle Clarac",
+  "InternalName": "the-tales-of-marielle-clarac",
   "UnusedSources": [
+    {
+      "File": "the-tales-of-marielle-clarac\\the-intrigue-of-marielle-clarac\\OEBPS\\text\\bonus2.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": ""
+    },
     {
       "File": "the-tales-of-marielle-clarac\\the-intrigue-of-marielle-clarac\\OEBPS\\text\\frontmatter1.xhtml",
       "Alternates": [],
       "OtherSide": null,
       "SortOrder": "1050100"
+    },
+    {
+      "File": "the-tales-of-marielle-clarac\\the-matchmaking-of-marielle-clarac\\OEBPS\\text\\bonus2.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": ""
     },
     {
       "File": "the-tales-of-marielle-clarac\\the-matchmaking-of-marielle-clarac\\OEBPS\\text\\frontmatter1.xhtml",
@@ -22,16 +35,28 @@
       "SortOrder": "1060100"
     },
     {
+      "File": "the-tales-of-marielle-clarac\\the-promise-of-marielle-clarac\\OEBPS\\Text\\copyright.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1112500"
+    },
+    {
+      "File": "the-tales-of-marielle-clarac\\the-promise-of-marielle-clarac\\OEBPS\\Text\\signup.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1112400"
+    },
+    {
+      "File": "the-tales-of-marielle-clarac\\the-promise-of-marielle-clarac\\OEBPS\\Text\\toc.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1110500"
+    },
+    {
       "File": "the-tales-of-marielle-clarac\\the-temptation-of-marielle-clarac\\OEBPS\\text\\bonus.xhtml",
       "Alternates": [],
       "OtherSide": null,
       "SortOrder": ""
-    },
-    {
-      "File": "the-tales-of-marielle-clarac\\the-wedding-of-marielle-clarac\\OEBPS\\text\\frontmatter1.xhtml",
-      "Alternates": [],
-      "OtherSide": null,
-      "SortOrder": "1040100"
     },
     {
       "File": "the-tales-of-marielle-clarac\\the-temptation-of-marielle-clarac\\OEBPS\\text\\bonus.xhtml",
@@ -46,16 +71,22 @@
       "SortOrder": ""
     },
     {
-      "File": "the-tales-of-marielle-clarac\\the-intrigue-of-marielle-clarac\\OEBPS\\text\\bonus2.xhtml",
+      "File": "the-tales-of-marielle-clarac\\the-wedding-of-marielle-clarac\\OEBPS\\text\\frontmatter1.xhtml",
       "Alternates": [],
       "OtherSide": null,
-      "SortOrder": ""
+      "SortOrder": "1040100"
     },
     {
-      "File": "the-tales-of-marielle-clarac\\the-matchmaking-of-marielle-clarac\\OEBPS\\text\\bonus2.xhtml",
+      "File": "the-tales-of-marielle-clarac\\the-promise-of-marielle-clarac\\OEBPS\\Text\\cover.xhtml",
       "Alternates": [],
       "OtherSide": null,
-      "SortOrder": ""
+      "SortOrder": "1110100"
+    },
+    {
+      "File": "the-tales-of-marielle-clarac\\the-promise-of-marielle-clarac\\OEBPS\\Text\\frontmatter1.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1110200"
     }
   ],
   "Chapters": [
@@ -68,6 +99,7 @@
       "LinkedChapters": [],
       "EndsBeforeLine": "",
       "StartsAtLine": "",
+      "SubSections": [],
       "Chapters": [
         {
           "CType": 2,
@@ -90,6 +122,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -108,6 +141,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -138,6 +172,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -168,6 +203,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -198,6 +234,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         }
       ]
@@ -211,6 +248,7 @@
       "LinkedChapters": [],
       "EndsBeforeLine": "",
       "StartsAtLine": "",
+      "SubSections": [],
       "Chapters": [
         {
           "CType": 0,
@@ -240,6 +278,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -258,6 +297,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -300,6 +340,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -318,6 +359,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -348,6 +390,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -378,6 +421,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         }
       ]
@@ -404,6 +448,7 @@
       "LinkedChapters": [],
       "EndsBeforeLine": "",
       "StartsAtLine": "",
+      "SubSections": [],
       "Chapters": [
         {
           "CType": 2,
@@ -426,6 +471,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -444,6 +490,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -462,6 +509,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -492,6 +540,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -522,6 +571,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -540,6 +590,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -570,6 +621,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -594,6 +646,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -612,6 +665,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -642,6 +696,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -660,6 +715,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -702,6 +758,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -732,6 +789,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -750,6 +808,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -768,6 +827,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         }
       ]
@@ -788,6 +848,7 @@
       "LinkedChapters": [],
       "EndsBeforeLine": "",
       "StartsAtLine": "",
+      "SubSections": [],
       "Chapters": [
         {
           "CType": 2,
@@ -810,6 +871,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -840,6 +902,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -858,6 +921,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -888,6 +952,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -906,6 +971,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -936,6 +1002,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -954,6 +1021,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -984,6 +1052,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -1014,6 +1083,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -1032,6 +1102,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -1056,6 +1127,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -1074,6 +1146,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -1104,6 +1177,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -1128,6 +1202,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -1146,6 +1221,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -1164,6 +1240,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         }
       ]
@@ -1190,6 +1267,7 @@
       "LinkedChapters": [],
       "EndsBeforeLine": "",
       "StartsAtLine": "",
+      "SubSections": [],
       "Chapters": [
         {
           "CType": 2,
@@ -1212,6 +1290,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -1230,6 +1309,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -1260,6 +1340,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -1278,6 +1359,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -1308,6 +1390,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -1326,6 +1409,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -1344,6 +1428,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -1374,6 +1459,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -1404,6 +1490,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -1422,6 +1509,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -1452,6 +1540,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -1470,6 +1559,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -1500,6 +1590,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -1530,6 +1621,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -1548,6 +1640,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -1578,6 +1671,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -1596,6 +1690,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -1614,6 +1709,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         }
       ]
@@ -1640,6 +1736,7 @@
       "LinkedChapters": [],
       "EndsBeforeLine": "",
       "StartsAtLine": "",
+      "SubSections": [],
       "Chapters": [
         {
           "CType": 2,
@@ -1662,6 +1759,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -1680,6 +1778,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -1698,6 +1797,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -1728,6 +1828,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -1752,6 +1853,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -1770,6 +1872,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -1800,6 +1903,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -1818,6 +1922,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -1848,6 +1953,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -1866,6 +1972,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -1896,6 +2003,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -1920,6 +2028,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -1938,6 +2047,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -1956,6 +2066,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -1986,6 +2097,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -2010,6 +2122,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -2028,6 +2141,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -2046,6 +2160,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         }
       ]
@@ -2072,6 +2187,7 @@
       "LinkedChapters": [],
       "EndsBeforeLine": "",
       "StartsAtLine": "",
+      "SubSections": [],
       "Chapters": [
         {
           "CType": 2,
@@ -2094,6 +2210,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -2112,6 +2229,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -2142,6 +2260,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -2166,6 +2285,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -2184,6 +2304,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -2202,6 +2323,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -2232,6 +2354,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -2262,6 +2385,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -2280,6 +2404,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -2310,6 +2435,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -2328,6 +2454,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -2346,6 +2473,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -2376,6 +2504,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -2406,6 +2535,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -2424,6 +2554,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -2454,6 +2585,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -2472,6 +2604,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         }
       ]
@@ -2492,6 +2625,7 @@
       "LinkedChapters": [],
       "EndsBeforeLine": "",
       "StartsAtLine": "",
+      "SubSections": [],
       "Chapters": [
         {
           "CType": 1,
@@ -2514,6 +2648,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -2544,6 +2679,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -2562,6 +2698,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -2580,6 +2717,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -2610,6 +2748,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -2628,6 +2767,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -2658,6 +2798,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -2682,6 +2823,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -2700,6 +2842,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -2718,6 +2861,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -2736,6 +2880,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -2766,6 +2911,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -2796,6 +2942,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -2832,6 +2979,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -2850,6 +2998,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -2868,6 +3017,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -2886,6 +3036,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         }
       ]
@@ -2906,6 +3057,7 @@
       "LinkedChapters": [],
       "EndsBeforeLine": "",
       "StartsAtLine": "",
+      "SubSections": [],
       "Chapters": [
         {
           "CType": 1,
@@ -2928,6 +3080,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -2946,6 +3099,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -2964,6 +3118,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -2994,6 +3149,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -3024,6 +3180,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -3054,6 +3211,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -3072,6 +3230,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -3102,6 +3261,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -3132,6 +3292,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -3150,6 +3311,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -3168,6 +3330,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -3198,6 +3361,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -3216,6 +3380,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -3234,6 +3399,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -3264,6 +3430,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -3288,6 +3455,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -3306,6 +3474,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -3324,6 +3493,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         }
       ]
@@ -3344,6 +3514,7 @@
       "LinkedChapters": [],
       "EndsBeforeLine": "",
       "StartsAtLine": "",
+      "SubSections": [],
       "Chapters": [
         {
           "CType": 1,
@@ -3366,6 +3537,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -3384,6 +3556,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -3402,6 +3575,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -3432,6 +3606,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -3450,6 +3625,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -3468,6 +3644,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -3498,6 +3675,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -3516,6 +3694,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -3546,6 +3725,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -3564,6 +3744,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -3600,6 +3781,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -3618,6 +3800,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -3648,6 +3831,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -3678,6 +3862,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -3708,6 +3893,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -3726,6 +3912,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -3744,6 +3931,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         }
       ]
@@ -3764,6 +3952,7 @@
       "LinkedChapters": [],
       "EndsBeforeLine": "",
       "StartsAtLine": "",
+      "SubSections": [],
       "Chapters": [
         {
           "CType": 0,
@@ -3786,6 +3975,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -3804,6 +3994,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -3834,6 +4025,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -3852,6 +4044,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -3882,6 +4075,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -3912,6 +4106,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -3942,6 +4137,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -3960,6 +4156,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -3990,6 +4187,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -4020,6 +4218,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -4038,6 +4237,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -4068,6 +4268,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -4086,6 +4287,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -4104,6 +4306,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -4134,6 +4337,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -4152,6 +4356,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -4170,6 +4375,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -4188,6 +4394,438 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
+          "Chapters": []
+        }
+      ]
+    },
+    {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "The Promise of Marielle Clarac",
+      "SortOrder": "111",
+      "Sources": [
+        {
+          "File": "the-tales-of-marielle-clarac\\the-promise-of-marielle-clarac\\OEBPS\\Text\\bonus1.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1112200"
+        },
+        {
+          "File": "the-tales-of-marielle-clarac\\the-promise-of-marielle-clarac\\OEBPS\\Text\\bonus2.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1112300"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "SubSections": [],
+      "Chapters": [
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Character Sheet",
+          "SortOrder": "11103",
+          "Sources": [
+            {
+              "File": "the-tales-of-marielle-clarac\\the-promise-of-marielle-clarac\\OEBPS\\Text\\frontmatter3.xhtml",
+              "Alternates": [],
+              "OtherSide": {
+                "File": "the-tales-of-marielle-clarac\\the-promise-of-marielle-clarac\\OEBPS\\Text\\frontmatter2.xhtml",
+                "Alternates": [],
+                "OtherSide": null,
+                "SortOrder": "1110300"
+              },
+              "SortOrder": "1110400"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter One",
+          "SortOrder": "11106",
+          "Sources": [
+            {
+              "File": "the-tales-of-marielle-clarac\\the-promise-of-marielle-clarac\\OEBPS\\Text\\chapter1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1110600"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Two",
+          "SortOrder": "11107",
+          "Sources": [
+            {
+              "File": "the-tales-of-marielle-clarac\\the-promise-of-marielle-clarac\\OEBPS\\Text\\chapter2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1110700"
+            },
+            {
+              "File": "the-tales-of-marielle-clarac\\the-promise-of-marielle-clarac\\OEBPS\\Text\\insert1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1110701"
+            },
+            {
+              "File": "the-tales-of-marielle-clarac\\the-promise-of-marielle-clarac\\OEBPS\\Text\\chapter2_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1110702"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Three",
+          "SortOrder": "11108",
+          "Sources": [
+            {
+              "File": "the-tales-of-marielle-clarac\\the-promise-of-marielle-clarac\\OEBPS\\Text\\chapter3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1110800"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Four",
+          "SortOrder": "11109",
+          "Sources": [
+            {
+              "File": "the-tales-of-marielle-clarac\\the-promise-of-marielle-clarac\\OEBPS\\Text\\chapter4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1110900"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Five",
+          "SortOrder": "11110",
+          "Sources": [
+            {
+              "File": "the-tales-of-marielle-clarac\\the-promise-of-marielle-clarac\\OEBPS\\Text\\chapter5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1111000"
+            },
+            {
+              "File": "the-tales-of-marielle-clarac\\the-promise-of-marielle-clarac\\OEBPS\\Text\\insert2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1111001"
+            },
+            {
+              "File": "the-tales-of-marielle-clarac\\the-promise-of-marielle-clarac\\OEBPS\\Text\\chapter5_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1111002"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Six",
+          "SortOrder": "11111",
+          "Sources": [
+            {
+              "File": "the-tales-of-marielle-clarac\\the-promise-of-marielle-clarac\\OEBPS\\Text\\chapter6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1111100"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Seven",
+          "SortOrder": "11112",
+          "Sources": [
+            {
+              "File": "the-tales-of-marielle-clarac\\the-promise-of-marielle-clarac\\OEBPS\\Text\\chapter7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1111200"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Eight",
+          "SortOrder": "11113",
+          "Sources": [
+            {
+              "File": "the-tales-of-marielle-clarac\\the-promise-of-marielle-clarac\\OEBPS\\Text\\chapter8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1111300"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Nine",
+          "SortOrder": "11114",
+          "Sources": [
+            {
+              "File": "the-tales-of-marielle-clarac\\the-promise-of-marielle-clarac\\OEBPS\\Text\\chapter9.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1111400"
+            },
+            {
+              "File": "the-tales-of-marielle-clarac\\the-promise-of-marielle-clarac\\OEBPS\\Text\\insert3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1111401"
+            },
+            {
+              "File": "the-tales-of-marielle-clarac\\the-promise-of-marielle-clarac\\OEBPS\\Text\\chapter9_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1111402"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Ten",
+          "SortOrder": "11115",
+          "Sources": [
+            {
+              "File": "the-tales-of-marielle-clarac\\the-promise-of-marielle-clarac\\OEBPS\\Text\\chapter10.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1111500"
+            },
+            {
+              "File": "the-tales-of-marielle-clarac\\the-promise-of-marielle-clarac\\OEBPS\\Text\\insert4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1111501"
+            },
+            {
+              "File": "the-tales-of-marielle-clarac\\the-promise-of-marielle-clarac\\OEBPS\\Text\\chapter10_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1111502"
+            },
+            {
+              "File": "the-tales-of-marielle-clarac\\the-promise-of-marielle-clarac\\OEBPS\\Text\\insert5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1111503"
+            },
+            {
+              "File": "the-tales-of-marielle-clarac\\the-promise-of-marielle-clarac\\OEBPS\\Text\\chapter10_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1111504"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Eleven",
+          "SortOrder": "11116",
+          "Sources": [
+            {
+              "File": "the-tales-of-marielle-clarac\\the-promise-of-marielle-clarac\\OEBPS\\Text\\chapter11.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1111600"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Twelve",
+          "SortOrder": "11117",
+          "Sources": [
+            {
+              "File": "the-tales-of-marielle-clarac\\the-promise-of-marielle-clarac\\OEBPS\\Text\\chapter12.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1111700"
+            },
+            {
+              "File": "the-tales-of-marielle-clarac\\the-promise-of-marielle-clarac\\OEBPS\\Text\\insert6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1111701"
+            },
+            {
+              "File": "the-tales-of-marielle-clarac\\the-promise-of-marielle-clarac\\OEBPS\\Text\\chapter12_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1111702"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Thirteen",
+          "SortOrder": "11118",
+          "Sources": [
+            {
+              "File": "the-tales-of-marielle-clarac\\the-promise-of-marielle-clarac\\OEBPS\\Text\\chapter13.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1111800"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Fourteen",
+          "SortOrder": "11119",
+          "Sources": [
+            {
+              "File": "the-tales-of-marielle-clarac\\the-promise-of-marielle-clarac\\OEBPS\\Text\\chapter14.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1111900"
+            },
+            {
+              "File": "the-tales-of-marielle-clarac\\the-promise-of-marielle-clarac\\OEBPS\\Text\\insert7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1111901"
+            },
+            {
+              "File": "the-tales-of-marielle-clarac\\the-promise-of-marielle-clarac\\OEBPS\\Text\\chapter14_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1111902"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Offense and Defense of a Working Man",
+          "SortOrder": "11120",
+          "Sources": [
+            {
+              "File": "the-tales-of-marielle-clarac\\the-promise-of-marielle-clarac\\OEBPS\\Text\\side.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1112000"
+            },
+            {
+              "File": "the-tales-of-marielle-clarac\\the-promise-of-marielle-clarac\\OEBPS\\Text\\insert8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1112001"
+            },
+            {
+              "File": "the-tales-of-marielle-clarac\\the-promise-of-marielle-clarac\\OEBPS\\Text\\side_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1112002"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         }
       ]
@@ -4201,6 +4839,7 @@
       "LinkedChapters": [],
       "EndsBeforeLine": "",
       "StartsAtLine": "",
+      "SubSections": [],
       "Chapters": [
         {
           "CType": 2,
@@ -4218,6 +4857,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -4236,6 +4876,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -4254,6 +4895,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -4272,6 +4914,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -4290,6 +4933,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -4308,6 +4952,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -4326,6 +4971,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -4344,6 +4990,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -4362,6 +5009,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -4380,6 +5028,26 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Promise of Marielle Clarac",
+          "SortOrder": "11121",
+          "Sources": [
+            {
+              "File": "the-tales-of-marielle-clarac\\the-promise-of-marielle-clarac\\OEBPS\\Text\\afterword.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1112100"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         }
       ]
