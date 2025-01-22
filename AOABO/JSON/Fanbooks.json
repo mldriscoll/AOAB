@@ -35,7 +35,7 @@
       {
         "OriginalFilenames": [ "37", "38", "39", "40", "41", "42", "43", "44" ],
         "EarlySortOrder": "010116b",
-        "LateSortOrder": "010196h",
+        "LateSortOrder": "010196i",
         "POV": "Gunther",
         "ChapterName": "My Daughter's about to be a Criminal",
         "Volume": "0101",
@@ -107,7 +107,7 @@
       {
         "OriginalFilenames": [ "side1", 2 ],
         "EarlySortOrder": "010114b",
-        "LateSortOrder": "010196g",
+        "LateSortOrder": "010196h",
         "ChapterName": "One Winter's Day",
         "Volume": "0101",
         "EarlyYear": 0,
@@ -168,7 +168,7 @@
       {
         "OriginalFilenames": [ "side5" ],
         "EarlySortOrder": "030121b",
-        "LateSortOrder": "030196k",
+        "LateSortOrder": "030196m",
         "POV": "Christel",
         "ChapterName": "A Tea Party with My Older Sister",
         "Volume": "0301",
@@ -478,6 +478,136 @@
       "Year": 8,
       "Season": "Summer",
       "ProcessedInPartFour": true
+    }
+  },
+  {
+    "InternalName": "FB5",
+    "Gallery": {
+      "SplashImages": [
+        "cover",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43"
+      ],
+      "ChapterImages": [],
+      "EarlySortOrder": "0503",
+      "LateSortOrder": "050399b",
+      "ChapterName": "FB5",
+      "AltName": "Fanbook 5",
+      "Volume": "0503",
+      "EarlyYear": 8,
+      "EarlySeason": "Winter",
+      "LateYear": 8,
+      "LateSeason": "Winter",
+      "ProcessedInPartFive": true
+    },
+    "Maps": [],
+    "MangaChapters": [
+      {
+        "OriginalFilenames": [ "50", "51", "52", "53", "54" ],
+        "EarlySortOrder": "010100d",
+        "LateSortOrder": "010196c",
+        "ChapterName": "Liz's Troubles",
+        "Volume": "0101",
+        "EarlyYear": -1,
+        "LateYear": 1,
+        "LateSeason": "Summer",
+        "ProcessedInPartOne": true,
+        "POV": "Liz"
+      },
+      {
+        "OriginalFilenames": [ "60", "61", "62", "63" ],
+        "EarlySortOrder": "030117b",
+        "LateSortOrder": "030196l",
+        "ChapterName": "Becoming a Gutenberg",
+        "Volume": "0301",
+        "EarlyYear": 3,
+        "EarlySeason": "Summer",
+        "LateYear": 3,
+        "LateSeason": "Summer",
+        "ProcessedInPartThree": true,
+        "POV": "Zack"
+      }
+    ],
+    "BonusChapters": [
+      {
+        "OriginalFilenames": [ "side", "49", "side_1" ],
+        "EarlySortOrder": "050407b",
+        "LateSortOrder": "050496a",
+        "POV": "Lieseleta",
+        "ChapterName": "Color-Mixing and Engagement Ceremonies",
+        "Volume": "0504",
+        "EarlyYear": 8,
+        "EarlySeason": "Winter",
+        "LateYear": 8,
+        "LateSeason": "Spring",
+        "ProcessedInPartFive": true,
+        "Source": "FB5 Story"
+      }
+    ],
+    "Chapters": [
+      {
+        "OriginalFilenames": [ "55", "56", "57", "58", "59" ],
+        "SortOrder": "0501",
+        "ChapterName": "Fanbook 5 Character Design Sheets",
+        "Volume": "FB5",
+        "ProcessedInFanbooks": true
+      },
+      {
+        "OriginalFilenames": [ "side2", "64", "65", "66", "67", "68" ],
+        "SortOrder": "0502",
+        "ChapterName": "Drama CD 4 Post-Recording Report",
+        "Volume": "FB5",
+        "ProcessedInFanbooks": true
+      },
+      {
+        "OriginalFilenames": [ "qa", "message" ],
+        "SortOrder": "0503",
+        "ChapterName": "Fanbook Five Q&amp;A",
+        "Volume": "FB5",
+        "ProcessedInFanbooks": true
+      }
+    ],
+    "ComfyLifeChapter": {
+      "OriginalFilenames": [ "69", "70" ],
+      "SortOrder": "050398b",
+      "ChapterName": "Comfy Life Fanbook 5",
+      "Volume": "0503",
+      "Year": 8,
+      "Season": "Winter",
+      "ProcessedInPartFive": true
     }
   }
 ]

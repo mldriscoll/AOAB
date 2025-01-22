@@ -365,5 +365,11 @@
     "ApiSlug": "ascendance-of-a-bookworm-part-5-volume-12",
     "FileName": "ascendance-of-a-bookworm-part-5-volume-12.epub",
     "OutputUnusedFiles": false
+  },
+  {
+    "InternalName": "FB5",
+    "ApiSlug": "ascendance-of-a-bookworm-fanbook-5",
+    "FileName": "ascendance-of-a-bookworm-fanbook-5.epub",
+    "OutputUnusedFiles": true
   }
 ]
