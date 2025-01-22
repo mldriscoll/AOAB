@@ -19119,7 +19119,9 @@
         "ApiSlug": "the-apothecary-diaries-volume-13",
         "FileName": "the-apothecary-diaries-volume-13.epub",
         "Title": "",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2025-01-10",
         "Order": 113
       },
