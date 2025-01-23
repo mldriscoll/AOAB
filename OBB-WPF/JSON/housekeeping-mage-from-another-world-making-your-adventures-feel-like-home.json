@@ -369,6 +369,24 @@
       "Alternates": [],
       "OtherSide": null,
       "SortOrder": "1070300"
+    },
+    {
+      "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\copyright.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1081600"
+    },
+    {
+      "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\signup.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1081500"
+    },
+    {
+      "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\toc.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1080300"
     }
   ],
   "Chapters": [
@@ -394,6 +412,7 @@
       "LinkedChapters": [],
       "EndsBeforeLine": "<h1>Chapter 0: Four Years Earlier</h1>",
       "StartsAtLine": "",
+      "SubSections": [],
       "Chapters": [
         {
           "CType": 0,
@@ -411,6 +430,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "<h1>Chapter 0: Four Years Earlier</h1>",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -441,6 +461,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>2</h2>",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": [
             {
               "CType": 0,
@@ -470,6 +491,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>3</h2>",
               "StartsAtLine": "<h2>2</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -500,6 +522,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "",
               "StartsAtLine": "<h2>3</h2>",
+              "SubSections": [],
               "Chapters": []
             }
           ]
@@ -520,6 +543,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>2</h2>",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": [
             {
               "CType": 0,
@@ -537,6 +561,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "",
               "StartsAtLine": "<h2>2</h2>",
+              "SubSections": [],
               "Chapters": []
             }
           ]
@@ -557,6 +582,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>2</h2>",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": [
             {
               "CType": 0,
@@ -574,6 +600,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "",
               "StartsAtLine": "<h2>2</h2>",
+              "SubSections": [],
               "Chapters": []
             }
           ]
@@ -606,6 +633,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>2</h2>",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": [
             {
               "CType": 0,
@@ -635,6 +663,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>3</h2>",
               "StartsAtLine": "<h2>2</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -665,6 +694,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "",
               "StartsAtLine": "<h2>3</h2>",
+              "SubSections": [],
               "Chapters": []
             }
           ]
@@ -697,6 +727,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>2</h2>",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": [
             {
               "CType": 0,
@@ -726,6 +757,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>3</h2>",
               "StartsAtLine": "<h2>2</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -756,6 +788,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>4</h2>",
               "StartsAtLine": "<h2>3</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -786,6 +819,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>5</h2>",
               "StartsAtLine": "<h2>4</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -816,6 +850,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "",
               "StartsAtLine": "<h2>5</h2>",
+              "SubSections": [],
               "Chapters": []
             }
           ]
@@ -854,6 +889,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>2</h2>",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": [
             {
               "CType": 0,
@@ -889,6 +925,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>3</h2>",
               "StartsAtLine": "<h2>2</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -925,6 +962,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>4</h2>",
               "StartsAtLine": "<h2>3</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -961,6 +999,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "",
               "StartsAtLine": "<h2>4</h2>",
+              "SubSections": [],
               "Chapters": []
             }
           ]
@@ -981,6 +1020,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -999,6 +1039,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -1017,6 +1058,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>2</h2>",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": [
             {
               "CType": 1,
@@ -1034,6 +1076,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>3</h2>",
               "StartsAtLine": "<h2>2</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -1052,6 +1095,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>4</h2>",
               "StartsAtLine": "<h2>3</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -1070,6 +1114,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "",
               "StartsAtLine": "<h2>4</h2>",
+              "SubSections": [],
               "Chapters": []
             }
           ]
@@ -1116,6 +1161,7 @@
       "LinkedChapters": [],
       "EndsBeforeLine": "<h1>Chapter 1: The Visitor</h1>",
       "StartsAtLine": "",
+      "SubSections": [],
       "Chapters": [
         {
           "CType": 0,
@@ -1145,6 +1191,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>2</h2>",
           "StartsAtLine": "<h1>Chapter 1: The Visitor</h1>",
+          "SubSections": [],
           "Chapters": [
             {
               "CType": 0,
@@ -1174,6 +1221,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "",
               "StartsAtLine": "<h2>2</h2>",
+              "SubSections": [],
               "Chapters": []
             }
           ]
@@ -1206,6 +1254,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>2</h2>",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": [
             {
               "CType": 0,
@@ -1235,6 +1284,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>3</h2>",
               "StartsAtLine": "<h2>2</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -1265,6 +1315,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>4</h2>",
               "StartsAtLine": "<h2>3</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -1295,6 +1346,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>5</h2>",
               "StartsAtLine": "<h2>4</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -1325,6 +1377,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "",
               "StartsAtLine": "<h2>5</h2>",
+              "SubSections": [],
               "Chapters": []
             }
           ]
@@ -1351,6 +1404,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>2</h2>",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": [
             {
               "CType": 0,
@@ -1374,6 +1428,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>3</h2>",
               "StartsAtLine": "<h2>2</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -1398,6 +1453,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "",
               "StartsAtLine": "<h2>3</h2>",
+              "SubSections": [],
               "Chapters": []
             }
           ]
@@ -1418,6 +1474,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>Side Story 2: A Special Flavor</h2>",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -1436,6 +1493,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "<h2>Side Story 2: A Special Flavor</h2>",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -1454,6 +1512,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -1496,6 +1555,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>2</h2>",
           "StartsAtLine": "<h1>Chapter 1: Changes in the Forest</h1>",
+          "SubSections": [],
           "Chapters": [
             {
               "CType": 0,
@@ -1537,6 +1597,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>3</h2>",
               "StartsAtLine": "<h2>2</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -1579,6 +1640,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "",
               "StartsAtLine": "<h2>3</h2>",
+              "SubSections": [],
               "Chapters": []
             }
           ]
@@ -1611,6 +1673,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>2</h2>",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": [
             {
               "CType": 0,
@@ -1640,6 +1703,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>3</h2>",
               "StartsAtLine": "<h2>2</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -1670,6 +1734,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>4</h2>",
               "StartsAtLine": "<h2>3</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -1700,6 +1765,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "",
               "StartsAtLine": "<h2>4</h2>",
+              "SubSections": [],
               "Chapters": []
             }
           ]
@@ -1720,6 +1786,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -1750,6 +1817,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>2</h2>",
           "StartsAtLine": "<h1>Chapter 1: The Forest’s Retribution</h1>",
+          "SubSections": [],
           "Chapters": [
             {
               "CType": 0,
@@ -1779,6 +1847,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>3</h2>",
               "StartsAtLine": "<h2>2</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -1809,6 +1878,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>4</h2>",
               "StartsAtLine": "<h2>3</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -1839,6 +1909,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>5</h2>",
               "StartsAtLine": "<h2>4</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -1869,6 +1940,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>6</h2>",
               "StartsAtLine": "<h2>5</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -1899,6 +1971,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "",
               "StartsAtLine": "<h2>6</h2>",
+              "SubSections": [],
               "Chapters": []
             }
           ]
@@ -1931,6 +2004,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>2</h2>",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": [
             {
               "CType": 0,
@@ -1960,6 +2034,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>3</h2>",
               "StartsAtLine": "<h2>2</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -1990,6 +2065,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>4</h2>",
               "StartsAtLine": "<h2>3</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -2020,6 +2096,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "",
               "StartsAtLine": "<h2>4</h2>",
+              "SubSections": [],
               "Chapters": []
             }
           ]
@@ -2052,6 +2129,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>2</h2>",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": [
             {
               "CType": 0,
@@ -2081,6 +2159,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>3</h2>",
               "StartsAtLine": "<h2>2</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -2111,6 +2190,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>4</h2>",
               "StartsAtLine": "<h2>3</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -2141,6 +2221,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "",
               "StartsAtLine": "<h2>4</h2>",
+              "SubSections": [],
               "Chapters": []
             }
           ]
@@ -2161,6 +2242,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -2191,6 +2273,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -2209,6 +2292,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -2227,6 +2311,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -2245,6 +2330,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -2263,6 +2349,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>2</h2>",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": [
             {
               "CType": 1,
@@ -2280,6 +2367,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "",
               "StartsAtLine": "<h2>2</h2>",
+              "SubSections": [],
               "Chapters": []
             }
           ]
@@ -2306,6 +2394,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -2324,6 +2413,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>The Diary of Rurii, the Slime</h2>",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": [
             {
               "CType": 1,
@@ -2341,6 +2431,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>Traumatizing Treats</h2>",
               "StartsAtLine": "<h2>The Diary of Rurii, the Slime</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -2359,6 +2450,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "",
               "StartsAtLine": "<h2>Traumatizing Treats</h2>",
+              "SubSections": [],
               "Chapters": []
             }
           ]
@@ -2399,6 +2491,7 @@
       "LinkedChapters": [],
       "EndsBeforeLine": "",
       "StartsAtLine": "",
+      "SubSections": [],
       "Chapters": [
         {
           "CType": 0,
@@ -2440,6 +2533,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>2</h2>",
           "StartsAtLine": "<h1>Chapter 1: A Most Troublesome Client</h1>",
+          "SubSections": [],
           "Chapters": [
             {
               "CType": 0,
@@ -2481,6 +2575,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>3</h2>",
               "StartsAtLine": "<h2>2</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -2523,6 +2618,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>4</h2>",
               "StartsAtLine": "<h2>3</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -2565,6 +2661,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>5</h2>",
               "StartsAtLine": "<h2>4</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -2607,6 +2704,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "",
               "StartsAtLine": "<h2>5</h2>",
+              "SubSections": [],
               "Chapters": []
             }
           ]
@@ -2651,6 +2749,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>2</h2>",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": [
             {
               "CType": 0,
@@ -2692,6 +2791,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>3</h2>",
               "StartsAtLine": "<h2>2</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -2734,6 +2834,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>4</h2>",
               "StartsAtLine": "<h2>3</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -2776,6 +2877,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>5</h2>",
               "StartsAtLine": "<h2>4</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -2818,6 +2920,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>6</h2>",
               "StartsAtLine": "<h2>5</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -2860,6 +2963,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "",
               "StartsAtLine": "<h2>6</h2>",
+              "SubSections": [],
               "Chapters": []
             }
           ]
@@ -2880,6 +2984,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -2910,6 +3015,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -2928,6 +3034,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>2</h2>",
           "StartsAtLine": "<h1>Chapter 1: The Color and Shape of Twilight</h1>",
+          "SubSections": [],
           "Chapters": [
             {
               "CType": 0,
@@ -2945,6 +3052,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>3</h2>",
               "StartsAtLine": "<h2>2</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -2963,6 +3071,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "",
               "StartsAtLine": "<h2>3</h2>",
+              "SubSections": [],
               "Chapters": []
             }
           ]
@@ -3019,6 +3128,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>2</h2>",
           "StartsAtLine": "<h2>Chapter 2: The Purity of Ever-Changing Scenery</h2>",
+          "SubSections": [],
           "Chapters": [
             {
               "CType": 0,
@@ -3072,6 +3182,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>3</h2>",
               "StartsAtLine": "<h2>2</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -3126,6 +3237,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>4</h2>",
               "StartsAtLine": "<h2>3</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -3180,6 +3292,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>5</h2>",
               "StartsAtLine": "<h2>4</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -3234,6 +3347,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h1>Interlude 1: A Chance for Cultural Exchange</h1>",
               "StartsAtLine": "<h2>5</h2>",
+              "SubSections": [],
               "Chapters": []
             }
           ]
@@ -3290,6 +3404,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h1>Interlude 2: When You Wish upon a Star</h1>",
           "StartsAtLine": "<h1>Interlude 1: A Chance for Cultural Exchange</h1>",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -3344,6 +3459,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h1>Interlude 3: The Diary of Rurii, the Familiar</h1>",
           "StartsAtLine": "<h1>Interlude 2: When You Wish upon a Star</h1>",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -3398,6 +3514,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "<h1>Interlude 3: The Diary of Rurii, the Familiar</h1>",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -3416,6 +3533,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -3434,6 +3552,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -3452,6 +3571,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -3470,6 +3590,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>The Little Things in Life</h2>",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": [
             {
               "CType": 0,
@@ -3487,6 +3608,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>A Most Happy Slime</h2>",
               "StartsAtLine": "<h2>The Little Things in Life</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -3505,6 +3627,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "",
               "StartsAtLine": "<h2>A Most Happy Slime</h2>",
+              "SubSections": [],
               "Chapters": []
             }
           ]
@@ -3537,6 +3660,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>2</h2>",
           "StartsAtLine": "<h1>Chapter 1: The Woman from the Heavens</h1>",
+          "SubSections": [],
           "Chapters": [
             {
               "CType": 0,
@@ -3566,6 +3690,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>3</h2>",
               "StartsAtLine": "<h2>2</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -3596,6 +3721,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "",
               "StartsAtLine": "<h2>3</h2>",
+              "SubSections": [],
               "Chapters": []
             }
           ]
@@ -3634,6 +3760,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>2</h2>",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": [
             {
               "CType": 0,
@@ -3669,6 +3796,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>3</h2>",
               "StartsAtLine": "<h2>2</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -3705,6 +3833,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "",
               "StartsAtLine": "<h2>3</h2>",
+              "SubSections": [],
               "Chapters": []
             }
           ]
@@ -3737,6 +3866,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>2</h2>",
           "StartsAtLine": "<h1>Chapter 1: The Truth of the Past Comes to Light</h1>",
+          "SubSections": [],
           "Chapters": [
             {
               "CType": 0,
@@ -3766,6 +3896,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>3</h2>",
               "StartsAtLine": "<h2>2</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -3796,6 +3927,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "",
               "StartsAtLine": "<h2>3</h2>",
+              "SubSections": [],
               "Chapters": []
             }
           ]
@@ -3828,6 +3960,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>2</h2>",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": [
             {
               "CType": 0,
@@ -3857,6 +3990,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "",
               "StartsAtLine": "<h2>2</h2>",
+              "SubSections": [],
               "Chapters": []
             }
           ]
@@ -3877,6 +4011,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -3895,6 +4030,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -3913,6 +4049,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         }
       ]
@@ -3969,6 +4106,7 @@
       "LinkedChapters": [],
       "EndsBeforeLine": "<h2>2</h2>",
       "StartsAtLine": "",
+      "SubSections": [],
       "Chapters": [
         {
           "CType": 0,
@@ -4022,6 +4160,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>3</h2>",
           "StartsAtLine": "<h2>2</h2>",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -4076,6 +4215,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>4</h2>",
           "StartsAtLine": "<h2>3</h2>",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -4130,6 +4270,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>5</h2>",
           "StartsAtLine": "<h2>4</h2>",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -4184,6 +4325,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>6</h2>",
           "StartsAtLine": "<h2>5</h2>",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -4238,6 +4380,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>7</h2>",
           "StartsAtLine": "<h2>6</h2>",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -4292,6 +4435,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>8</h2>",
           "StartsAtLine": "<h2>7</h2>",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -4346,6 +4490,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>9</h2>",
           "StartsAtLine": "<h2>8</h2>",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -4400,6 +4545,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>10</h2>",
           "StartsAtLine": "<h2>9</h2>",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -4454,6 +4600,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>11</h2>",
           "StartsAtLine": "<h2>10</h2>",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -4508,6 +4655,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "<h2>11</h2>",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -4526,6 +4674,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "<h2>The Color of My Beloved</h2>",
+          "SubSections": [],
           "Chapters": []
         }
       ]
@@ -4552,6 +4701,7 @@
       "LinkedChapters": [],
       "EndsBeforeLine": "",
       "StartsAtLine": "",
+      "SubSections": [],
       "Chapters": [
         {
           "CType": 0,
@@ -4581,6 +4731,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>2</h2>",
           "StartsAtLine": "<h1>Chapter 1: A Night of Conspiracy</h1>",
+          "SubSections": [],
           "Chapters": [
             {
               "CType": 0,
@@ -4610,6 +4761,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>3</h2>",
               "StartsAtLine": "<h2>2</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -4640,6 +4792,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "",
               "StartsAtLine": "<h2>3</h2>",
+              "SubSections": [],
               "Chapters": []
             }
           ]
@@ -4684,6 +4837,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>2</h2>",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": [
             {
               "CType": 0,
@@ -4725,6 +4879,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>3</h2>",
               "StartsAtLine": "<h2>2</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -4767,6 +4922,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>4</h2>",
               "StartsAtLine": "<h2>3</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -4809,6 +4965,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>5</h2>",
               "StartsAtLine": "<h2>4</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -4851,6 +5008,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>6</h2>",
               "StartsAtLine": "<h2>5</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -4893,6 +5051,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>7</h2>",
               "StartsAtLine": "<h2>6</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -4935,6 +5094,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>8</h2>",
               "StartsAtLine": "<h2>7</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -4977,6 +5137,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "",
               "StartsAtLine": "<h2>8</h2>",
+              "SubSections": [],
               "Chapters": []
             }
           ]
@@ -5033,6 +5194,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>2</h2>",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": [
             {
               "CType": 0,
@@ -5086,6 +5248,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>3</h2>",
               "StartsAtLine": "<h2>2</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -5140,6 +5303,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>4</h2>",
               "StartsAtLine": "<h2>3</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -5194,6 +5358,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>5</h2>",
               "StartsAtLine": "<h2>4</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -5248,6 +5413,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>6</h2>",
               "StartsAtLine": "<h2>5</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -5302,6 +5468,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>7</h2>",
               "StartsAtLine": "<h2>6</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -5356,6 +5523,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "",
               "StartsAtLine": "<h2>7</h2>",
+              "SubSections": [],
               "Chapters": []
             }
           ]
@@ -5376,6 +5544,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>2</h2>",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": [
             {
               "CType": 1,
@@ -5393,6 +5562,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "",
               "StartsAtLine": "<h2>2</h2>",
+              "SubSections": [],
               "Chapters": []
             }
           ]
@@ -5413,6 +5583,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         }
       ]
@@ -5457,6 +5628,7 @@
       "LinkedChapters": [],
       "EndsBeforeLine": "<h2>2</h2>",
       "StartsAtLine": "",
+      "SubSections": [],
       "Chapters": [
         {
           "CType": 0,
@@ -5498,6 +5670,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>3</h2>",
           "StartsAtLine": "<h2>2</h2>",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -5540,6 +5713,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>4</h2>",
           "StartsAtLine": "<h2>3</h2>",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -5582,6 +5756,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>5</h2>",
           "StartsAtLine": "<h2>4</h2>",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -5624,6 +5799,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>6</h2>",
           "StartsAtLine": "<h2>5</h2>",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -5666,6 +5842,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>7</h2>",
           "StartsAtLine": "<h2>6</h2>",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -5708,6 +5885,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "<h2>7</h2>",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -5726,6 +5904,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "<h2>Side Story: The Temptation of the Snow Violets</h2>",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -5744,6 +5923,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         }
       ]
@@ -5770,6 +5950,7 @@
       "LinkedChapters": [],
       "EndsBeforeLine": "",
       "StartsAtLine": "",
+      "SubSections": [],
       "Chapters": [
         {
           "CType": 0,
@@ -5823,6 +6004,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>2</h2>",
           "StartsAtLine": "<h1>Chapter 1: The Darkness Lurking in the Depths</h1>",
+          "SubSections": [],
           "Chapters": [
             {
               "CType": 0,
@@ -5876,6 +6058,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>3</h2>",
               "StartsAtLine": "<h2>2</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -5930,6 +6113,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>4</h2>",
               "StartsAtLine": "<h2>3</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -5984,6 +6168,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>5</h2>",
               "StartsAtLine": "<h2>4</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -6038,6 +6223,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>6</h2>",
               "StartsAtLine": "<h2>5</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -6092,6 +6278,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>7</h2>",
               "StartsAtLine": "<h2>6</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -6146,6 +6333,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>8</h2>",
               "StartsAtLine": "<h2>7</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -6200,6 +6388,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>9</h2>",
               "StartsAtLine": "<h2>8</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -6254,6 +6443,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>10</h2>",
               "StartsAtLine": "<h2>9</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -6308,6 +6498,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>11</h2>",
               "StartsAtLine": "<h2>10</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -6362,6 +6553,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "",
               "StartsAtLine": "<h2>11</h2>",
+              "SubSections": [],
               "Chapters": []
             }
           ]
@@ -6394,6 +6586,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>2</h2>",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": [
             {
               "CType": 0,
@@ -6423,6 +6616,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>3</h2>",
               "StartsAtLine": "<h2>2</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -6453,6 +6647,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>4</h2>",
               "StartsAtLine": "<h2>3</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -6483,6 +6678,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>5</h2>",
               "StartsAtLine": "<h2>4</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -6513,6 +6709,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "",
               "StartsAtLine": "<h2>5</h2>",
+              "SubSections": [],
               "Chapters": []
             }
           ]
@@ -6533,6 +6730,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -6551,6 +6749,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -6569,6 +6768,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         }
       ]
@@ -6601,6 +6801,7 @@
       "LinkedChapters": [],
       "EndsBeforeLine": "<h1>Chapter 1: Two Fateful Encounters and a Parting Omen</h1>",
       "StartsAtLine": "",
+      "SubSections": [],
       "Chapters": [
         {
           "CType": 0,
@@ -6630,6 +6831,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>2</h2>",
           "StartsAtLine": "<h1>Chapter 1: Two Fateful Encounters and a Parting Omen</h1>",
+          "SubSections": [],
           "Chapters": [
             {
               "CType": 0,
@@ -6659,6 +6861,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "",
               "StartsAtLine": "<h2>2</h2>",
+              "SubSections": [],
               "Chapters": []
             }
           ]
@@ -6679,6 +6882,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>2</h2>",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": [
             {
               "CType": 0,
@@ -6696,6 +6900,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>3</h2>",
               "StartsAtLine": "<h2>2</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -6714,6 +6919,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>4</h2>",
               "StartsAtLine": "<h2>3</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -6732,6 +6938,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>5</h2>",
               "StartsAtLine": "<h2>4</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -6750,6 +6957,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>6</h2>",
               "StartsAtLine": "<h2>5</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -6768,6 +6976,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "",
               "StartsAtLine": "<h2>6</h2>",
+              "SubSections": [],
               "Chapters": []
             }
           ]
@@ -6826,6 +7035,7 @@
       "LinkedChapters": [],
       "EndsBeforeLine": "<h2>2</h2>",
       "StartsAtLine": "",
+      "SubSections": [],
       "Chapters": [
         {
           "CType": 0,
@@ -6879,6 +7089,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>3</h2>",
           "StartsAtLine": "<h2>2</h2>",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -6933,6 +7144,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>4</h2>",
           "StartsAtLine": "<h2>3</h2>",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -6987,6 +7199,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>5</h2>",
           "StartsAtLine": "<h2>4</h2>",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -7041,6 +7254,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>6</h2>",
           "StartsAtLine": "<h2>5</h2>",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -7095,6 +7309,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>7</h2>",
           "StartsAtLine": "<h2>6</h2>",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -7149,6 +7364,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>8</h2>",
           "StartsAtLine": "<h2>7</h2>",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -7203,6 +7419,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>9</h2>",
           "StartsAtLine": "<h2>8</h2>",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -7257,6 +7474,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>10</h2>",
           "StartsAtLine": "<h2>9</h2>",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -7311,6 +7529,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "<h2>10</h2>",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -7329,6 +7548,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         }
       ]
@@ -7373,6 +7593,7 @@
       "LinkedChapters": [],
       "EndsBeforeLine": "<h1>Chapter 1: Celestial Maiden from Another World</h1>",
       "StartsAtLine": "",
+      "SubSections": [],
       "Chapters": [
         {
           "CType": 0,
@@ -7402,6 +7623,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>2</h2>",
           "StartsAtLine": "<h1>Chapter 1: Celestial Maiden from Another World</h1>",
+          "SubSections": [],
           "Chapters": [
             {
               "CType": 0,
@@ -7431,6 +7653,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>3</h2>",
               "StartsAtLine": "<h2>2</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -7461,6 +7684,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>4</h2>",
               "StartsAtLine": "<h2>3</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -7491,6 +7715,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>5</h2>",
               "StartsAtLine": "<h2>4</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -7521,6 +7746,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "",
               "StartsAtLine": "<h2>5</h2>",
+              "SubSections": [],
               "Chapters": []
             }
           ]
@@ -7553,6 +7779,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>2</h2>",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": [
             {
               "CType": 0,
@@ -7582,6 +7809,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>3</h2>",
               "StartsAtLine": "<h2>2</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -7612,6 +7840,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>4</h2>",
               "StartsAtLine": "<h2>3</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -7642,6 +7871,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>5</h2>",
               "StartsAtLine": "<h2>4</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -7672,6 +7902,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>6</h2>",
               "StartsAtLine": "<h2>5</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -7702,6 +7933,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>7</h2>",
               "StartsAtLine": "<h2>6</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -7732,6 +7964,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "",
               "StartsAtLine": "<h2>7</h2>",
+              "SubSections": [],
               "Chapters": []
             }
           ]
@@ -7764,6 +7997,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>2</h2>",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": [
             {
               "CType": 0,
@@ -7793,6 +8027,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>3</h2>",
               "StartsAtLine": "<h2>2</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -7823,6 +8058,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>4</h2>",
               "StartsAtLine": "<h2>3</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -7853,6 +8089,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>5</h2>",
               "StartsAtLine": "<h2>4</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -7883,6 +8120,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "",
               "StartsAtLine": "<h2>5</h2>",
+              "SubSections": [],
               "Chapters": []
             }
           ]
@@ -7929,6 +8167,7 @@
       "LinkedChapters": [],
       "EndsBeforeLine": "<h1>Chapter 1: A Prince in Prayer and a Healing Celestial Maiden</h1>",
       "StartsAtLine": "",
+      "SubSections": [],
       "Chapters": [
         {
           "CType": 0,
@@ -7970,6 +8209,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>2</h2>",
           "StartsAtLine": "<h1>Chapter 1: A Prince in Prayer and a Healing Celestial Maiden</h1>",
+          "SubSections": [],
           "Chapters": [
             {
               "CType": 0,
@@ -8011,6 +8251,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>3</h2>",
               "StartsAtLine": "<h2>2</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -8053,6 +8294,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "",
               "StartsAtLine": "<h2>3</h2>",
+              "SubSections": [],
               "Chapters": []
             }
           ]
@@ -8079,6 +8321,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>2</h2>",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": [
             {
               "CType": 0,
@@ -8102,6 +8345,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>3</h2>",
               "StartsAtLine": "<h2>2</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -8126,6 +8370,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "<h2>4</h2>",
               "StartsAtLine": "<h2>3</h2>",
+              "SubSections": [],
               "Chapters": []
             },
             {
@@ -8150,6 +8395,7 @@
               "LinkedChapters": [],
               "EndsBeforeLine": "",
               "StartsAtLine": "<h2>4</h2>",
+              "SubSections": [],
               "Chapters": []
             }
           ]
@@ -8170,6 +8416,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -8188,6 +8435,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -8206,6 +8454,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         }
       ]
@@ -8250,6 +8499,7 @@
       "LinkedChapters": [],
       "EndsBeforeLine": "<h2>2</h2>",
       "StartsAtLine": "",
+      "SubSections": [],
       "Chapters": [
         {
           "CType": 0,
@@ -8291,6 +8541,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>3</h2>",
           "StartsAtLine": "<h2>2</h2>",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -8333,6 +8584,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>4</h2>",
           "StartsAtLine": "<h2>3</h2>",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -8375,6 +8627,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "<h2>5</h2>",
           "StartsAtLine": "<h2>4</h2>",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -8417,6 +8670,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "<h2>5</h2>",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -8435,6 +8689,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -8453,6 +8708,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -8471,6 +8727,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -8489,6 +8746,1149 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
+          "Chapters": []
+        }
+      ]
+    },
+    {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "Open for Classes on Housekeeping Magic",
+      "SortOrder": "13",
+      "Sources": [
+        {
+          "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\cover.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1080100"
+        },
+        {
+          "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\frontmatter1.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1080200"
+        },
+        {
+          "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\chapter1.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1080400"
+        },
+        {
+          "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\insert1.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1080401"
+        },
+        {
+          "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\chapter1_1.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1080402"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "<h1>Chapter 1: As the Snow Melts Into Spring</h1>",
+      "StartsAtLine": "",
+      "SubSections": [],
+      "Chapters": [
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "As the Snow Melts Into Spring",
+          "SortOrder": "10804000",
+          "Sources": [
+            {
+              "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\chapter1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080400"
+            },
+            {
+              "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\insert1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080401"
+            },
+            {
+              "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\chapter1_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080402"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "<h2>2</h2>",
+          "StartsAtLine": "<h1>Chapter 1: As the Snow Melts Into Spring</h1>",
+          "SubSections": [],
+          "Chapters": [
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "2",
+              "SortOrder": "10804001",
+              "Sources": [
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\chapter1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080400"
+                },
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\insert1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080401"
+                },
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\chapter1_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080402"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "<h2>2</h2>",
+              "SubSections": [],
+              "Chapters": []
+            }
+          ]
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Beginner-Level Housekeeping Magic",
+          "SortOrder": "10805",
+          "Sources": [
+            {
+              "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\chapter2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080500"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "<h2>2</h2>",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Chapters": [
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "2",
+              "SortOrder": "10805000",
+              "Sources": [
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\chapter2.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080500"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "<h2>3</h2>",
+              "StartsAtLine": "<h2>2</h2>",
+              "SubSections": [],
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "3",
+              "SortOrder": "10805001",
+              "Sources": [
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\chapter2.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080500"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "<h2>4</h2>",
+              "StartsAtLine": "<h2>3</h2>",
+              "SubSections": [],
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "4",
+              "SortOrder": "10805002",
+              "Sources": [
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\chapter2.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080500"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "<h2>5</h2>",
+              "StartsAtLine": "<h2>4</h2>",
+              "SubSections": [],
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "5",
+              "SortOrder": "10805003",
+              "Sources": [
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\chapter2.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080500"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "<h2>5</h2>",
+              "SubSections": [],
+              "Chapters": []
+            }
+          ]
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Intermediate Housekeeping Magic and an Emergency Request",
+          "SortOrder": "10806",
+          "Sources": [
+            {
+              "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\chapter3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080600"
+            },
+            {
+              "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\insert2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080601"
+            },
+            {
+              "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\chapter3_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080602"
+            },
+            {
+              "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\insert3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080603"
+            },
+            {
+              "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\chapter3_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080604"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "<h2>2</h2>",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Chapters": [
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "2",
+              "SortOrder": "10806000",
+              "Sources": [
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\chapter3.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080600"
+                },
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\insert2.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080601"
+                },
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\chapter3_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080602"
+                },
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\insert3.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080603"
+                },
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\chapter3_2.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080604"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "<h2>3</h2>",
+              "StartsAtLine": "<h2>2</h2>",
+              "SubSections": [],
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "3",
+              "SortOrder": "10806001",
+              "Sources": [
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\chapter3.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080600"
+                },
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\insert2.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080601"
+                },
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\chapter3_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080602"
+                },
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\insert3.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080603"
+                },
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\chapter3_2.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080604"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "<h2>4</h2>",
+              "StartsAtLine": "<h2>3</h2>",
+              "SubSections": [],
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "4",
+              "SortOrder": "10806002",
+              "Sources": [
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\chapter3.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080600"
+                },
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\insert2.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080601"
+                },
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\chapter3_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080602"
+                },
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\insert3.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080603"
+                },
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\chapter3_2.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080604"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "<h2>4</h2>",
+              "SubSections": [],
+              "Chapters": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "Guiding Star",
+      "SortOrder": "14",
+      "Sources": [
+        {
+          "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\chapter4.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1080700"
+        },
+        {
+          "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\insert4.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1080701"
+        },
+        {
+          "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\chapter4_1.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1080702"
+        },
+        {
+          "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\insert5.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1080703"
+        },
+        {
+          "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\chapter4_2.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1080704"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "<h1>Chapter 1: An Imperial Chimera</h1>",
+      "StartsAtLine": "",
+      "SubSections": [],
+      "Chapters": [
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "An Imperial Chimera",
+          "SortOrder": "10807000",
+          "Sources": [
+            {
+              "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\chapter4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080700"
+            },
+            {
+              "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\insert4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080701"
+            },
+            {
+              "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\chapter4_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080702"
+            },
+            {
+              "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\insert5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080703"
+            },
+            {
+              "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\chapter4_2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080704"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "<h2>2</h2>",
+          "StartsAtLine": "<h1>Chapter 1: An Imperial Chimera</h1>",
+          "SubSections": [],
+          "Chapters": [
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "2",
+              "SortOrder": "10807001",
+              "Sources": [
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\chapter4.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080700"
+                },
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\insert4.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080701"
+                },
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\chapter4_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080702"
+                },
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\insert5.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080703"
+                },
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\chapter4_2.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080704"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "<h2>3</h2>",
+              "StartsAtLine": "<h2>2</h2>",
+              "SubSections": [],
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "3",
+              "SortOrder": "10807002",
+              "Sources": [
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\chapter4.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080700"
+                },
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\insert4.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080701"
+                },
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\chapter4_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080702"
+                },
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\insert5.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080703"
+                },
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\chapter4_2.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080704"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "<h2>4</h2>",
+              "StartsAtLine": "<h2>3</h2>",
+              "SubSections": [],
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "4",
+              "SortOrder": "10807003",
+              "Sources": [
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\chapter4.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080700"
+                },
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\insert4.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080701"
+                },
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\chapter4_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080702"
+                },
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\insert5.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080703"
+                },
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\chapter4_2.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080704"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "<h2>5</h2>",
+              "StartsAtLine": "<h2>4</h2>",
+              "SubSections": [],
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "5",
+              "SortOrder": "10807004",
+              "Sources": [
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\chapter4.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080700"
+                },
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\insert4.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080701"
+                },
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\chapter4_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080702"
+                },
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\insert5.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080703"
+                },
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\chapter4_2.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080704"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "<h2>6</h2>",
+              "StartsAtLine": "<h2>5</h2>",
+              "SubSections": [],
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "6",
+              "SortOrder": "10807005",
+              "Sources": [
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\chapter4.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080700"
+                },
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\insert4.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080701"
+                },
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\chapter4_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080702"
+                },
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\insert5.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080703"
+                },
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\chapter4_2.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080704"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "<h2>7</h2>",
+              "StartsAtLine": "<h2>6</h2>",
+              "SubSections": [],
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "7",
+              "SortOrder": "10807006",
+              "Sources": [
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\chapter4.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080700"
+                },
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\insert4.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080701"
+                },
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\chapter4_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080702"
+                },
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\insert5.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080703"
+                },
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\chapter4_2.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080704"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "<h2>7</h2>",
+              "SubSections": [],
+              "Chapters": []
+            }
+          ]
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Guiding Star",
+          "SortOrder": "10808",
+          "Sources": [
+            {
+              "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\chapter5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080800"
+            },
+            {
+              "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\insert6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080801"
+            },
+            {
+              "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\chapter5_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080802"
+            },
+            {
+              "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\insert7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080803"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "<h2>2</h2>",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Chapters": [
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "2",
+              "SortOrder": "10808000",
+              "Sources": [
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\chapter5.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080800"
+                },
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\insert6.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080801"
+                },
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\chapter5_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080802"
+                },
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\insert7.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080803"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "<h2>3</h2>",
+              "StartsAtLine": "<h2>2</h2>",
+              "SubSections": [],
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "3",
+              "SortOrder": "10808001",
+              "Sources": [
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\chapter5.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080800"
+                },
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\insert6.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080801"
+                },
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\chapter5_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080802"
+                },
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\insert7.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080803"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "<h2>4</h2>",
+              "StartsAtLine": "<h2>3</h2>",
+              "SubSections": [],
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "4",
+              "SortOrder": "10808002",
+              "Sources": [
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\chapter5.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080800"
+                },
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\insert6.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080801"
+                },
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\chapter5_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080802"
+                },
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\insert7.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080803"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "<h2>4</h2>",
+              "SubSections": [],
+              "Chapters": []
+            }
+          ]
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Interlude 1: A New Beginning for the Girl Who Fell from Grace",
+          "SortOrder": "10809",
+          "Sources": [
+            {
+              "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\interlude1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1080900"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "<h2>2</h2>",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Chapters": [
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "2",
+              "SortOrder": "10809000",
+              "Sources": [
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\interlude1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080900"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "<h2>3</h2>",
+              "StartsAtLine": "<h2>2</h2>",
+              "SubSections": [],
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "3",
+              "SortOrder": "10809001",
+              "Sources": [
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\interlude1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1080900"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "<h2>3</h2>",
+              "SubSections": [],
+              "Chapters": []
+            }
+          ]
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Interlude 2: Swords, Family Portraits, and Pots",
+          "SortOrder": "10810",
+          "Sources": [
+            {
+              "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\interlude2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081000"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Interlude 3: The Diary of Rurii, the Familiar",
+          "SortOrder": "10811",
+          "Sources": [
+            {
+              "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\interlude3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081100"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Side Story: The Paths and Miracles of Life",
+          "SortOrder": "10812",
+          "Sources": [
+            {
+              "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\side.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081200"
+            },
+            {
+              "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\insert8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081201"
+            },
+            {
+              "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\side_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081202"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "<h2>2</h2>",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Chapters": [
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "2",
+              "SortOrder": "10812000",
+              "Sources": [
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\side.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081200"
+                },
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\insert8.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081201"
+                },
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\side_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081202"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "<h2>3</h2>",
+              "StartsAtLine": "<h2>2</h2>",
+              "SubSections": [],
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "3",
+              "SortOrder": "10812001",
+              "Sources": [
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\side.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081200"
+                },
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\insert8.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081201"
+                },
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\side_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081202"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "<h2>4</h2>",
+              "StartsAtLine": "<h2>3</h2>",
+              "SubSections": [],
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "4",
+              "SortOrder": "10812002",
+              "Sources": [
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\side.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081200"
+                },
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\insert8.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081201"
+                },
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\side_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081202"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "<h2>5</h2>",
+              "StartsAtLine": "<h2>4</h2>",
+              "SubSections": [],
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "5",
+              "SortOrder": "10812003",
+              "Sources": [
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\side.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081200"
+                },
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\insert8.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081201"
+                },
+                {
+                  "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\side_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1081202"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "<h2>5</h2>",
+              "SubSections": [],
+              "Chapters": []
+            }
+          ]
+        },
+        {
+          "CType": 1,
+          "ChapType": "Bonus",
+          "Name": "Bonus Short Story",
+          "SortOrder": "10814",
+          "Sources": [
+            {
+              "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\bonus.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081400"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         }
       ]
@@ -8502,6 +9902,7 @@
       "LinkedChapters": [],
       "EndsBeforeLine": "",
       "StartsAtLine": "",
+      "SubSections": [],
       "Chapters": [
         {
           "CType": 2,
@@ -8519,6 +9920,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -8537,6 +9939,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -8555,6 +9958,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -8573,6 +9977,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -8591,6 +9996,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -8609,6 +10015,7 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         },
         {
@@ -8627,6 +10034,26 @@
           "LinkedChapters": [],
           "EndsBeforeLine": "",
           "StartsAtLine": "",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Volume 8",
+          "SortOrder": "10813",
+          "Sources": [
+            {
+              "File": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home\\housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-volume-8\\OEBPS\\Text\\afterword.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1081300"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
           "Chapters": []
         }
       ]
