@@ -330,5 +330,75 @@
       "ProcessedInPartThree": true
     },
     "Maps": []
+  },
+  {
+    "InternalName": "M0304",
+    "OCR": true,
+    "BonusChapters": [
+      {
+        "OriginalFilenames": [ "146","147","148","149","150","151","152","153","154" ],
+        "EarlySortOrder": "030121a",
+        "LateSortOrder": "030196m",
+        "POV": "Lamprecht",
+        "ChapterName": "From Tasty Food to Trouble",
+        "OverrideName": "From Tasty Food to Trouble",
+        "Volume": "0301",
+        "EarlyYear": 3,
+        "LateYear": 3,
+        "EarlySeason": "Summer",
+        "LateSeason": "Summer",
+        "ProcessedInPartThree": true,
+        "Source": "M3V4 Written Bonus",
+        "OCR": {
+          "Crop": false,
+          "Corrections": [
+            {
+              "Original": "\"As I serve Lord Wilfried, I would be immensely grateful if you could act as head of security for the con—",
+              "Replacement": "“As I serve Lord Wilfried, I would be immensely grateful if you could act as head of security for the con—”"
+            },
+            {
+              "Original": "Why are you in charge",
+              "Replacement": "Why are <i>you</i> in charge"
+            }
+          ],
+          "Italics": [
+            {
+              "Start": "Father and Mother",
+              "End": "to Rozemyne now."
+            },
+            {
+              "Start": "E-Excuse me? You do?",
+              "End": "E-Excuse me? You do?"
+            }
+          ]
+        }
+      }
+    ],
+    "MangaChapters": [
+      {
+        "OriginalFilenames": [ "143","144" ],
+        "EarlySortOrder": "030202b",
+        "LateSortOrder": "030296a",
+        "POV": "Gunther",
+        "ChapterName": "Unwavering Emotions",
+        "EarlyYear": 3,
+        "LateYear": 3,
+        "EarlySeason": "Autumn",
+        "LateSeason": "Autumn",
+        "Volume": "0302",
+        "Source": "M3V4 Bonus",
+        "ProcessedInPartThree": true
+      }
+    ],
+    "ComfyLifeChapter": {
+      "OriginalFilenames": [ "150", "151", "152", "153", "154" ],
+      "SortOrder": "030119b",
+      "ChapterName": "Lessy and Me + Ferdinand",
+      "Volume": "0301",
+      "Year": 3,
+      "Season": "Summer",
+      "ProcessedInPartThree": true
+    },
+    "Maps": []
   }
 ]

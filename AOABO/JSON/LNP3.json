@@ -65,7 +65,7 @@
       },
       {
         "OriginalFilenames": [ "epilogue", "insert9", "epilogue_1" ],
-        "SortOrder": "030121a",
+        "SortOrder": "030121b",
         "POV": "Lutz",
         "ChapterName": "Epilogue",
         "Volume": "0301",
@@ -305,7 +305,7 @@
       {
         "OriginalFilenames": [ "extra1", "insert9", "extra1_1" ],
         "EarlySortOrder": "030209b",
-        "LateSortOrder": "030296a",
+        "LateSortOrder": "030296b",
         "POV": "Wilfried",
         "ChapterName": "Wilfried's Day as the High Bishop",
         "Volume": "0302",
@@ -319,7 +319,7 @@
       {
         "OriginalFilenames": [ "extra2" ],
         "EarlySortOrder": "030216b",
-        "LateSortOrder": "030296c",
+        "LateSortOrder": "030296d",
         "POV": "Thore",
         "ChapterName": "Hasse's Orphans",
         "Volume": "0302",
@@ -333,7 +333,7 @@
       {
         "OriginalFilenames": [ "extra3" ],
         "EarlySortOrder": "030209c",
-        "LateSortOrder": "030296b",
+        "LateSortOrder": "030296c",
         "POV": "Justus",
         "ChapterName": "Justus's Grand Lower City Infiltration",
         "Volume": "0302",

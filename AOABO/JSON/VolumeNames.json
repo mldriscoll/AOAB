@@ -370,6 +370,13 @@
     "InternalName": "FB5",
     "ApiSlug": "ascendance-of-a-bookworm-fanbook-5",
     "FileName": "ascendance-of-a-bookworm-fanbook-5.epub",
-    "OutputUnusedFiles": true
+    "OutputUnusedFiles": false
+  },
+  {
+    "InternalName": "M0304",
+    "ApiSlug": "ascendance-of-a-bookworm-manga-part-3-volume-4",
+    "FileName": "Ascendance of a Bookworm (Manga) Part 3 Volume 4_{0}.epub",
+    "Quality": [ "3840", "2560", "1400" ],
+    "OutputUnusedFiles": false
   }
 ]
