@@ -1,9 +1,10 @@
-﻿using AOABO;
+﻿using AOABO.Chapters;
 using AOABO.Config;
 using AOABO.OCR;
 using AOABO.Omnibus;
 using Core;
 using Core.Downloads;
+using SixLabors.ImageSharp.ColorSpaces;
 using System.Text.Json;
 
 var executing = true;
@@ -67,7 +68,46 @@ while (executing)
 
 async Task RedoJSON()
 {
-    var bonusChapters = Configuration.Volumes.SelectMany(x => x.BonusChapters).GroupBy(x => x.Volume).ToDictionary(x => x.Key, x => x.ToArray());
+    var chapters = Configuration.Volumes.SelectMany(x =>
+    {
+        var c = new List<Chapter>();
+        c.AddRange(x.POVChapters);
+        c.AddRange(x.MangaChapters);
+        c.AddRange(x.BonusChapters);
+        c.AddRange(x.Chapters);
+        if (x.CharacterSheet != null) c.Add(x.CharacterSheet);
+        if (x.ComfyLifeChapter != null) c.Add(x.ComfyLifeChapter);
+        return c;
+    }).GroupBy(x => x.Volume).ToDictionary(x => x.Key, x => x.ToArray());
+
+    foreach(var set in chapters)
+    {
+        var i = 1;
+        foreach(var chapter in set.Value.OrderBy(x => (x is MoveableChapter xx) ? xx.EarlySortOrder : x.SortOrder).ToArray())
+        {
+            if (chapter is MoveableChapter c)
+            {
+                c.EarlySortOrder = $"{set.Key}{i:00}";
+            }
+            else
+            {
+                chapter.SortOrder = $"{set.Key}{i:00}";
+            }
+            i++;
+        }
+    }
+
+    var bonusChapters = Configuration.Volumes.SelectMany(x => x.BonusChapters.Union(x.MangaChapters)).GroupBy(x => x.Volume).ToDictionary(x => x.Key, x => x.ToArray());
+
+    foreach (var set in bonusChapters)
+    {
+        var i = 1;
+        foreach (var chapter in set.Value.OrderBy(x => x.SortOrder))
+        {
+            chapter.LateSortOrder = $"{set.Key}96{i:00}";
+            i++;
+        }
+    }
 
     var fanbooks = new List<Volume>();
     var p1 = new List<Volume>();

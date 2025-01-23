@@ -2,14 +2,10 @@
 
 namespace AOABO.Chapters
 {
-    public class POVChapter : MoveableChapter
+    public class POVChapter : Chapter
     {
-        protected override bool IsEarly()
-        {
-            return true;
-        }
-
-        public override CollectionChapter GetCollectionChapter()
+        public string POV { get; set; } = string.Empty;
+        public CollectionChapter GetCollectionChapter()
         {
             return new CollectionChapter
             {
@@ -34,9 +30,14 @@ namespace AOABO.Chapters
 
         protected override string GetYearsSubFolder()
         {
-            EarlySeason = Season;
-            EarlyYear = Year;
             return base.GetYearsSubFolder();
+        }
+        public void ApplyPOVToTitle()
+        {
+            if (!string.IsNullOrWhiteSpace(POV))
+            {
+                ChapterName = $"{ChapterName} [{POV}]";
+            }
         }
     }
 }

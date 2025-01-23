@@ -14,7 +14,7 @@
           "chapter1"
         ],
         "ChapterName": "Examination Results and the Noble's Quarter",
-        "SortOrder": "030101",
+        "SortOrder": "030103",
         "Year": 2,
         "Season": "Spring",
         "Volume": "0301",
@@ -36,7 +36,7 @@
           "chapter2_1"
         ],
         "ChapterName": "Preparing for the Baptism Ceremony",
-        "SortOrder": "030102a",
+        "SortOrder": "030104",
         "Year": 2,
         "Season": "Spring",
         "Volume": "0301",
@@ -56,7 +56,7 @@
           "chapter3"
         ],
         "ChapterName": "A Noble's Baptism Ceremony",
-        "SortOrder": "030103",
+        "SortOrder": "030106",
         "Year": 3,
         "Season": "Summer",
         "Volume": "0301",
@@ -78,7 +78,7 @@
           "chapter4_1"
         ],
         "ChapterName": "Adoption",
-        "SortOrder": "030104a",
+        "SortOrder": "030107",
         "Year": 3,
         "Season": "Summer",
         "Volume": "0301",
@@ -98,7 +98,7 @@
           "chapter5"
         ],
         "ChapterName": "Inauguration Ceremony",
-        "SortOrder": "030105",
+        "SortOrder": "030110",
         "Year": 3,
         "Season": "Summer",
         "Volume": "0301",
@@ -120,7 +120,7 @@
           "chapter6_1"
         ],
         "ChapterName": "Reunited at Last",
-        "SortOrder": "030106",
+        "SortOrder": "030111",
         "Year": 3,
         "Season": "Summer",
         "Volume": "0301",
@@ -140,7 +140,7 @@
           "chapter7"
         ],
         "ChapterName": "How to Make Fluffy Bread",
-        "SortOrder": "030107a",
+        "SortOrder": "030112",
         "Year": 3,
         "Season": "Summer",
         "Volume": "0301",
@@ -161,7 +161,7 @@
           "insert4"
         ],
         "ChapterName": "Starbind Ceremony in the Lower City",
-        "SortOrder": "030108",
+        "SortOrder": "030115",
         "Year": 3,
         "Season": "Summer",
         "Volume": "0301",
@@ -181,7 +181,7 @@
           "chapter9"
         ],
         "ChapterName": "The Archduke's Castle",
-        "SortOrder": "030109a",
+        "SortOrder": "030116",
         "Year": 3,
         "Season": "Summer",
         "Volume": "0301",
@@ -201,7 +201,7 @@
           "chapter10"
         ],
         "ChapterName": "Starbind Ceremony in the Noble's Quarter",
-        "SortOrder": "030110",
+        "SortOrder": "030118",
         "Year": 3,
         "Season": "Summer",
         "Volume": "0301",
@@ -221,7 +221,7 @@
           "chapter11"
         ],
         "ChapterName": "The Archduke and the Italian Restaurant",
-        "SortOrder": "030111",
+        "SortOrder": "030119",
         "Year": 3,
         "Season": "Summer",
         "Volume": "0301",
@@ -243,7 +243,7 @@
           "chapter12_1"
         ],
         "ChapterName": "Making a Monastery",
-        "SortOrder": "030112a",
+        "SortOrder": "030120",
         "Year": 3,
         "Season": "Summer",
         "Volume": "0301",
@@ -265,7 +265,7 @@
           "chapter13_1"
         ],
         "ChapterName": "How to Gather Donations",
-        "SortOrder": "030113",
+        "SortOrder": "030124",
         "Year": 3,
         "Season": "Summer",
         "Volume": "0301",
@@ -285,7 +285,7 @@
           "chapter14"
         ],
         "ChapterName": "My First Training Regimen",
-        "SortOrder": "030114a",
+        "SortOrder": "030125",
         "Year": 3,
         "Season": "Summer",
         "Volume": "0301",
@@ -305,7 +305,7 @@
           "chapter15"
         ],
         "ChapterName": "Working Toward Wax Stencils",
-        "SortOrder": "030115",
+        "SortOrder": "030127",
         "Year": 3,
         "Season": "Summer",
         "Volume": "0301",
@@ -325,7 +325,7 @@
           "chapter16"
         ],
         "ChapterName": "An Illustration of Ferdinand",
-        "SortOrder": "030116",
+        "SortOrder": "030128",
         "Year": 3,
         "Season": "Summer",
         "Volume": "0301",
@@ -347,7 +347,7 @@
           "chapter17_1"
         ],
         "ChapterName": "Johann and Zack",
-        "SortOrder": "030117",
+        "SortOrder": "030130",
         "Year": 3,
         "Season": "Summer",
         "Volume": "0301",
@@ -367,7 +367,7 @@
           "chapter18"
         ],
         "ChapterName": "Elvira and Lamprecht Attack",
-        "SortOrder": "030118",
+        "SortOrder": "030132",
         "Year": 3,
         "Season": "Summer",
         "Volume": "0301",
@@ -389,7 +389,7 @@
           "chapter19_1"
         ],
         "ChapterName": "Finishing My Highbeast and the Wax Stencils",
-        "SortOrder": "030119",
+        "SortOrder": "030133",
         "Year": 3,
         "Season": "Summer",
         "Volume": "0301",
@@ -409,7 +409,7 @@
           "chapter20"
         ],
         "ChapterName": "The Harspiel Concert",
-        "SortOrder": "030120",
+        "SortOrder": "030136",
         "Year": 3,
         "Season": "Summer",
         "Volume": "0301",
@@ -427,20 +427,12 @@
     ],
     "POVChapters": [
       {
-        "OverrideName": "",
         "POV": "Karstedt",
-        "Source": "P3V1",
-        "EarlySortOrder": "",
-        "LateSortOrder": "",
-        "EarlyYear": 0,
-        "LateYear": 0,
-        "EarlySeason": "",
-        "LateSeason": "",
         "OriginalFilenames": [
           "prologue"
         ],
         "ChapterName": "Prologue",
-        "SortOrder": "030100",
+        "SortOrder": "030102",
         "Year": 2,
         "Season": "Spring",
         "Volume": "0301",
@@ -456,22 +448,14 @@
         "EndLine": null
       },
       {
-        "OverrideName": "",
         "POV": "Lutz",
-        "Source": "P3V1",
-        "EarlySortOrder": "",
-        "LateSortOrder": "",
-        "EarlyYear": 0,
-        "LateYear": 0,
-        "EarlySeason": "",
-        "LateSeason": "",
         "OriginalFilenames": [
           "epilogue",
           "insert9",
           "epilogue_1"
         ],
         "ChapterName": "Epilogue",
-        "SortOrder": "030121b",
+        "SortOrder": "030138",
         "Year": 3,
         "Season": "Summer",
         "Volume": "0301",
@@ -494,8 +478,8 @@
         "OverrideName": "",
         "POV": "Cornelius",
         "Source": "P3V1 Extra 1",
-        "EarlySortOrder": "030102b",
-        "LateSortOrder": "030196a",
+        "EarlySortOrder": "030105",
+        "LateSortOrder": "03019614",
         "EarlyYear": 2,
         "LateYear": 3,
         "EarlySeason": "Spring",
@@ -524,8 +508,8 @@
         "OverrideName": "",
         "POV": "Hugo",
         "Source": "P3V1 Extra 2",
-        "EarlySortOrder": "030112c",
-        "LateSortOrder": "030196h",
+        "EarlySortOrder": "030122",
+        "LateSortOrder": "03019615",
         "EarlyYear": 3,
         "LateYear": 3,
         "EarlySeason": "Summer",
@@ -556,7 +540,7 @@
         "manga2"
       ],
       "ChapterName": "Comfy Life 301",
-      "SortOrder": "030198",
+      "SortOrder": "030141",
       "Year": 3,
       "Season": "Summer",
       "Volume": "0301",
@@ -641,7 +625,7 @@
         "characters2"
       ],
       "ChapterName": "Adopted Daughter of an Archduke Characters",
-      "SortOrder": "0301",
+      "SortOrder": "030101",
       "Year": 3,
       "Season": "Summer",
       "Volume": "0301",
@@ -694,7 +678,7 @@
           "chapter1"
         ],
         "ChapterName": "Discussing the Harvest Festival",
-        "SortOrder": "030201",
+        "SortOrder": "030203",
         "Year": 3,
         "Season": "Autumn",
         "Volume": "0302",
@@ -714,7 +698,7 @@
           "chapter2"
         ],
         "ChapterName": "Hasse's Monastery",
-        "SortOrder": "030202",
+        "SortOrder": "030204",
         "Year": 3,
         "Season": "Autumn",
         "Volume": "0302",
@@ -736,7 +720,7 @@
           "chapter3_1"
         ],
         "ChapterName": "The New Orphans",
-        "SortOrder": "030203",
+        "SortOrder": "030206",
         "Year": 3,
         "Season": "Autumn",
         "Volume": "0302",
@@ -756,7 +740,7 @@
           "chapter4"
         ],
         "ChapterName": "The Orphan's Treatment and Investigating the City",
-        "SortOrder": "030204",
+        "SortOrder": "030207",
         "Year": 3,
         "Season": "Autumn",
         "Volume": "0302",
@@ -776,7 +760,7 @@
           "chapter5"
         ],
         "ChapterName": "The Monastery's Barrier",
-        "SortOrder": "030205",
+        "SortOrder": "030208",
         "Year": 3,
         "Season": "Autumn",
         "Volume": "0302",
@@ -798,7 +782,7 @@
           "chapter6_1"
         ],
         "ChapterName": "A New Task and Winter Preparations",
-        "SortOrder": "030206",
+        "SortOrder": "030209",
         "Year": 3,
         "Season": "Autumn",
         "Volume": "0302",
@@ -818,7 +802,7 @@
           "chapter7"
         ],
         "ChapterName": "Opening the Italian Restaurant",
-        "SortOrder": "030207",
+        "SortOrder": "030210",
         "Year": 3,
         "Season": "Autumn",
         "Volume": "0302",
@@ -840,7 +824,7 @@
           "chapter8_1"
         ],
         "ChapterName": "Discussing How to Improve Hasse",
-        "SortOrder": "030208",
+        "SortOrder": "030211",
         "Year": 3,
         "Season": "Autumn",
         "Volume": "0302",
@@ -862,7 +846,7 @@
           "chapter9_1"
         ],
         "ChapterName": "Switching Places",
-        "SortOrder": "030209a",
+        "SortOrder": "030212",
         "Year": 3,
         "Season": "Autumn",
         "Volume": "0302",
@@ -882,7 +866,7 @@
           "chapter10"
         ],
         "ChapterName": "Preparing for the Harvest Festival",
-        "SortOrder": "030210",
+        "SortOrder": "030215",
         "Year": 3,
         "Season": "Autumn",
         "Volume": "0302",
@@ -902,7 +886,7 @@
           "chapter11"
         ],
         "ChapterName": "Hasse's Contract",
-        "SortOrder": "030211",
+        "SortOrder": "030216",
         "Year": 3,
         "Season": "Autumn",
         "Volume": "0302",
@@ -922,7 +906,7 @@
           "chapter12"
         ],
         "ChapterName": "Starting Merchant Activities",
-        "SortOrder": "030212",
+        "SortOrder": "030217",
         "Year": 3,
         "Season": "Autumn",
         "Volume": "0302",
@@ -943,7 +927,7 @@
           "insert6"
         ],
         "ChapterName": "Hasse's Harvest Festival",
-        "SortOrder": "030213",
+        "SortOrder": "030218",
         "Year": 3,
         "Season": "Autumn",
         "Volume": "0302",
@@ -963,7 +947,7 @@
           "chapter14"
         ],
         "ChapterName": "The Harvest Festival",
-        "SortOrder": "030214",
+        "SortOrder": "030219",
         "Year": 3,
         "Season": "Autumn",
         "Volume": "0302",
@@ -985,7 +969,7 @@
           "chapter15_1"
         ],
         "ChapterName": "The Night of Schutzaria",
-        "SortOrder": "030215",
+        "SortOrder": "030220",
         "Year": 3,
         "Season": "Autumn",
         "Volume": "0302",
@@ -1007,7 +991,7 @@
           "chapter16_1"
         ],
         "ChapterName": "Aftermath",
-        "SortOrder": "030216a",
+        "SortOrder": "030221",
         "Year": 3,
         "Season": "Autumn",
         "Volume": "0302",
@@ -1027,7 +1011,7 @@
           "chapter17"
         ],
         "ChapterName": "My Winter Preparations",
-        "SortOrder": "030217",
+        "SortOrder": "030223",
         "Year": 3,
         "Season": "Autumn",
         "Volume": "0302",
@@ -1045,22 +1029,14 @@
     ],
     "POVChapters": [
       {
-        "OverrideName": "",
         "POV": "Effa",
-        "Source": "P3V2",
-        "EarlySortOrder": "",
-        "LateSortOrder": "",
-        "EarlyYear": 0,
-        "LateYear": 0,
-        "EarlySeason": "",
-        "LateSeason": "",
         "OriginalFilenames": [
           "prologue",
           "insert1",
           "prologue_1"
         ],
         "ChapterName": "Prologue",
-        "SortOrder": "030200",
+        "SortOrder": "030202",
         "Year": 3,
         "Season": "Summer",
         "Volume": "0302",
@@ -1076,20 +1052,12 @@
         "EndLine": null
       },
       {
-        "OverrideName": "",
         "POV": "Brigitte",
-        "Source": "P3V2",
-        "EarlySortOrder": "",
-        "LateSortOrder": "",
-        "EarlyYear": 0,
-        "LateYear": 0,
-        "EarlySeason": "",
-        "LateSeason": "",
         "OriginalFilenames": [
           "epilogue"
         ],
         "ChapterName": "Epilogue",
-        "SortOrder": "030218",
+        "SortOrder": "030224",
         "Year": 3,
         "Season": "Autumn",
         "Volume": "0302",
@@ -1112,8 +1080,8 @@
         "OverrideName": "",
         "POV": "Wilfried",
         "Source": "P3V2 Extra 1",
-        "EarlySortOrder": "030209b",
-        "LateSortOrder": "030296b",
+        "EarlySortOrder": "030213",
+        "LateSortOrder": "03029603",
         "EarlyYear": 3,
         "LateYear": 3,
         "EarlySeason": "Autumn",
@@ -1144,8 +1112,8 @@
         "OverrideName": "",
         "POV": "Thore",
         "Source": "P3V2 Extra 2",
-        "EarlySortOrder": "030216b",
-        "LateSortOrder": "030296d",
+        "EarlySortOrder": "030222",
+        "LateSortOrder": "03029604",
         "EarlyYear": 3,
         "LateYear": 3,
         "EarlySeason": "Autumn",
@@ -1174,8 +1142,8 @@
         "OverrideName": "",
         "POV": "Justus",
         "Source": "P3V2 Extra 3",
-        "EarlySortOrder": "030209c",
-        "LateSortOrder": "030296c",
+        "EarlySortOrder": "030214",
+        "LateSortOrder": "03029605",
         "EarlyYear": 3,
         "LateYear": 3,
         "EarlySeason": "Autumn",
@@ -1206,7 +1174,7 @@
         "manga2"
       ],
       "ChapterName": "Comfy Life 302",
-      "SortOrder": "030298",
+      "SortOrder": "030226",
       "Year": 3,
       "Season": "Autumn",
       "Volume": "0302",
@@ -1292,7 +1260,7 @@
         "characters3"
       ],
       "ChapterName": "Adopted Daughter of an Archduke Characters",
-      "SortOrder": "0302",
+      "SortOrder": "030201",
       "Year": 3,
       "Season": "Summer",
       "Volume": "0302",
@@ -1325,7 +1293,7 @@
           "chapter1"
         ],
         "ChapterName": "Ingo and Improving the Printing Press",
-        "SortOrder": "030301",
+        "SortOrder": "030303",
         "Year": 3,
         "Season": "Autumn",
         "Volume": "0303",
@@ -1347,7 +1315,7 @@
           "chapter2_1"
         ],
         "ChapterName": "The Gathering of the Gutenbergs",
-        "SortOrder": "030302a",
+        "SortOrder": "030304",
         "Year": 3,
         "Season": "Autumn",
         "Volume": "0303",
@@ -1367,7 +1335,7 @@
           "chapter3"
         ],
         "ChapterName": "The Start of Winter Socializing",
-        "SortOrder": "030303",
+        "SortOrder": "030306",
         "Year": 3,
         "Season": "Winter",
         "Volume": "0303",
@@ -1389,7 +1357,7 @@
           "chapter4_1"
         ],
         "ChapterName": "The Baptism Ceremony and Our Winter Debut",
-        "SortOrder": "030304",
+        "SortOrder": "030307",
         "Year": 3,
         "Season": "Winter",
         "Volume": "0303",
@@ -1411,7 +1379,7 @@
           "chapter5_1"
         ],
         "ChapterName": "A Class for Kids",
-        "SortOrder": "030305",
+        "SortOrder": "030308",
         "Year": 3,
         "Season": "Winter",
         "Volume": "0303",
@@ -1431,7 +1399,7 @@
           "chapter6"
         ],
         "ChapterName": "A Tea Party",
-        "SortOrder": "030306",
+        "SortOrder": "030309",
         "Year": 3,
         "Season": "Winter",
         "Volume": "0303",
@@ -1451,7 +1419,7 @@
           "chapter7"
         ],
         "ChapterName": "The Dedication Ritual (Take Two)",
-        "SortOrder": "030307a",
+        "SortOrder": "030310",
         "Year": 3,
         "Season": "Winter",
         "Volume": "0303",
@@ -1471,7 +1439,7 @@
           "chapter8"
         ],
         "ChapterName": "Gathering the Winter Ingredient",
-        "SortOrder": "030308",
+        "SortOrder": "030312",
         "Year": 3,
         "Season": "Winter",
         "Volume": "0303",
@@ -1493,7 +1461,7 @@
           "chapter9_1"
         ],
         "ChapterName": "Fighting the Schnesturm",
-        "SortOrder": "030309",
+        "SortOrder": "030313",
         "Year": 3,
         "Season": "Winter",
         "Volume": "0303",
@@ -1513,7 +1481,7 @@
           "chapter10"
         ],
         "ChapterName": "To the End of Winter",
-        "SortOrder": "030310",
+        "SortOrder": "030314",
         "Year": 3,
         "Season": "Winter",
         "Volume": "0303",
@@ -1533,7 +1501,7 @@
           "chapter11"
         ],
         "ChapterName": "Selling the Materials",
-        "SortOrder": "030311",
+        "SortOrder": "030315",
         "Year": 3,
         "Season": "Winter",
         "Volume": "0303",
@@ -1555,7 +1523,7 @@
           "chapter12_1"
         ],
         "ChapterName": "Angelica and the Coming of Spring",
-        "SortOrder": "030312",
+        "SortOrder": "030316",
         "Year": 3,
         "Season": "Spring",
         "Volume": "0303",
@@ -1577,7 +1545,7 @@
           "chapter13_1"
         ],
         "ChapterName": "Upcoming Spring Prayer",
-        "SortOrder": "030313",
+        "SortOrder": "030317",
         "Year": 3,
         "Season": "Spring",
         "Volume": "0303",
@@ -1597,7 +1565,7 @@
           "chapter14"
         ],
         "ChapterName": "Hasse's Punishment",
-        "SortOrder": "030314",
+        "SortOrder": "030318",
         "Year": 3,
         "Season": "Spring",
         "Volume": "0303",
@@ -1617,7 +1585,7 @@
           "chapter15"
         ],
         "ChapterName": "The Door of Judgment",
-        "SortOrder": "030315",
+        "SortOrder": "030319",
         "Year": 3,
         "Season": "Spring",
         "Volume": "0303",
@@ -1639,7 +1607,7 @@
           "chapter16_1"
         ],
         "ChapterName": "The Execution",
-        "SortOrder": "030316",
+        "SortOrder": "030320",
         "Year": 3,
         "Season": "Spring",
         "Volume": "0303",
@@ -1659,7 +1627,7 @@
           "chapter17"
         ],
         "ChapterName": "The Spring Ingredient and Discussing Spring Prayer",
-        "SortOrder": "030317",
+        "SortOrder": "030321",
         "Year": 3,
         "Season": "Spring",
         "Volume": "0303",
@@ -1681,7 +1649,7 @@
           "chapter18_1"
         ],
         "ChapterName": "The Goddesses' Bath",
-        "SortOrder": "030318",
+        "SortOrder": "030322",
         "Year": 3,
         "Season": "Spring",
         "Volume": "0303",
@@ -1701,7 +1669,7 @@
           "chapter19"
         ],
         "ChapterName": "The Night of Flutrane",
-        "SortOrder": "030319",
+        "SortOrder": "030323",
         "Year": 3,
         "Season": "Spring",
         "Volume": "0303",
@@ -1723,7 +1691,7 @@
           "chapter20_1"
         ],
         "ChapterName": "The End of Spring Prayer",
-        "SortOrder": "030320a",
+        "SortOrder": "030324",
         "Year": 3,
         "Season": "Spring",
         "Volume": "0303",
@@ -1741,20 +1709,12 @@
     ],
     "POVChapters": [
       {
-        "OverrideName": "",
         "POV": "Fran",
-        "Source": "P3V3",
-        "EarlySortOrder": "",
-        "LateSortOrder": "",
-        "EarlyYear": 0,
-        "LateYear": 0,
-        "EarlySeason": "",
-        "LateSeason": "",
         "OriginalFilenames": [
           "prologue"
         ],
         "ChapterName": "Prologue",
-        "SortOrder": "030300",
+        "SortOrder": "030302",
         "Year": 3,
         "Season": "Autumn",
         "Volume": "0303",
@@ -1770,20 +1730,12 @@
         "EndLine": null
       },
       {
-        "OverrideName": "",
         "POV": "Eckhart",
-        "Source": "P3V3",
-        "EarlySortOrder": "",
-        "LateSortOrder": "",
-        "EarlyYear": 0,
-        "LateYear": 0,
-        "EarlySeason": "",
-        "LateSeason": "",
         "OriginalFilenames": [
           "epilogue"
         ],
         "ChapterName": "Epilogue",
-        "SortOrder": "030321",
+        "SortOrder": "030326",
         "Year": 3,
         "Season": "Spring",
         "Volume": "0303",
@@ -1806,8 +1758,8 @@
         "OverrideName": "",
         "POV": "Lamprecht",
         "Source": "P3V3 Extra 1",
-        "EarlySortOrder": "030307b",
-        "LateSortOrder": "030396b",
+        "EarlySortOrder": "030311",
+        "LateSortOrder": "03039602",
         "EarlyYear": 3,
         "LateYear": 3,
         "EarlySeason": "Winter",
@@ -1836,8 +1788,8 @@
         "OverrideName": "",
         "POV": "Ingo",
         "Source": "P3V3 Extra 2",
-        "EarlySortOrder": "030302b",
-        "LateSortOrder": "030396a",
+        "EarlySortOrder": "030305",
+        "LateSortOrder": "03039603",
         "EarlyYear": 3,
         "LateYear": 3,
         "EarlySeason": "Autumn",
@@ -1868,7 +1820,7 @@
         "manga2"
       ],
       "ChapterName": "Comfy Life 303",
-      "SortOrder": "030398",
+      "SortOrder": "030327",
       "Year": 3,
       "Season": "Spring",
       "Volume": "0303",
@@ -1955,7 +1907,7 @@
         "characters3"
       ],
       "ChapterName": "Adopted Daughter of an Archduke Characters",
-      "SortOrder": "0303",
+      "SortOrder": "030301",
       "Year": 3,
       "Season": "Spring",
       "Volume": "0303",
@@ -1988,7 +1940,7 @@
           "chapter1"
         ],
         "ChapterName": "A New Dress",
-        "SortOrder": "030401",
+        "SortOrder": "030403",
         "Year": 3,
         "Season": "Spring",
         "Volume": "0304",
@@ -2010,7 +1962,7 @@
           "chapter2_1"
         ],
         "ChapterName": "The New Printing Press's Trial Run",
-        "SortOrder": "030402",
+        "SortOrder": "030404",
         "Year": 3,
         "Season": "Spring",
         "Volume": "0304",
@@ -2030,7 +1982,7 @@
           "chapter3"
         ],
         "ChapterName": "Benno's Request",
-        "SortOrder": "030403",
+        "SortOrder": "030405",
         "Year": 3,
         "Season": "Spring",
         "Volume": "0304",
@@ -2050,7 +2002,7 @@
           "chapter4"
         ],
         "ChapterName": "Staying Home During the Archduke Conference",
-        "SortOrder": "030404",
+        "SortOrder": "030406",
         "Year": 3,
         "Season": "Spring",
         "Volume": "0304",
@@ -2070,7 +2022,7 @@
           "chapter5"
         ],
         "ChapterName": "Payment and Unveiling the Dress",
-        "SortOrder": "030405",
+        "SortOrder": "030407",
         "Year": 3,
         "Season": "Spring",
         "Volume": "0304",
@@ -2092,7 +2044,7 @@
           "chapter6_1"
         ],
         "ChapterName": "Angelica's Manablade",
-        "SortOrder": "030406a",
+        "SortOrder": "030408",
         "Year": 3,
         "Season": "Spring",
         "Volume": "0304",
@@ -2112,7 +2064,7 @@
           "chapter7"
         ],
         "ChapterName": "Let's Print More Stuff",
-        "SortOrder": "030407",
+        "SortOrder": "030410",
         "Year": 3,
         "Season": "Spring",
         "Volume": "0304",
@@ -2134,7 +2086,7 @@
           "chapter8_1"
         ],
         "ChapterName": "Meeting with the Plantin Company",
-        "SortOrder": "030408",
+        "SortOrder": "030411",
         "Year": 3,
         "Season": "Spring",
         "Volume": "0304",
@@ -2154,7 +2106,7 @@
           "chapter9"
         ],
         "ChapterName": "The Archducal Couple Returns",
-        "SortOrder": "030409",
+        "SortOrder": "030412",
         "Year": 3,
         "Season": "Spring",
         "Volume": "0304",
@@ -2176,7 +2128,7 @@
           "chapter10_1"
         ],
         "ChapterName": "The Dress Debut and Ferdinand's Return",
-        "SortOrder": "030410",
+        "SortOrder": "030413",
         "Year": 4,
         "Season": "Summer",
         "Volume": "0304",
@@ -2196,7 +2148,7 @@
           "chapter11"
         ],
         "ChapterName": "Lunch Meeting and Business Day",
-        "SortOrder": "030411",
+        "SortOrder": "030414",
         "Year": 4,
         "Season": "Summer",
         "Volume": "0304",
@@ -2216,7 +2168,7 @@
           "chapter12"
         ],
         "ChapterName": "Heading to Illgner",
-        "SortOrder": "030412",
+        "SortOrder": "030415",
         "Year": 4,
         "Season": "Summer",
         "Volume": "0304",
@@ -2238,7 +2190,7 @@
           "chapter13_1"
         ],
         "ChapterName": "Illgner's Brigitte",
-        "SortOrder": "030413a",
+        "SortOrder": "030416",
         "Year": 4,
         "Season": "Summer",
         "Volume": "0304",
@@ -2258,7 +2210,7 @@
           "chapter14"
         ],
         "ChapterName": "Mount Lohenberg",
-        "SortOrder": "030414",
+        "SortOrder": "030418",
         "Year": 4,
         "Season": "Summer",
         "Volume": "0304",
@@ -2280,7 +2232,7 @@
           "chapter15_1"
         ],
         "ChapterName": "The Riesefalke Egg",
-        "SortOrder": "030415",
+        "SortOrder": "030419",
         "Year": 4,
         "Season": "Summer",
         "Volume": "0304",
@@ -2302,7 +2254,7 @@
           "chapter16_1"
         ],
         "ChapterName": "Hand Pumps",
-        "SortOrder": "030416",
+        "SortOrder": "030420",
         "Year": 4,
         "Season": "Summer",
         "Volume": "0304",
@@ -2324,7 +2276,7 @@
           "chapter17_1"
         ],
         "ChapterName": "Georgine's Visit",
-        "SortOrder": "030417",
+        "SortOrder": "030421",
         "Year": 4,
         "Season": "Summer",
         "Volume": "0304",
@@ -2344,7 +2296,7 @@
           "chapter18"
         ],
         "ChapterName": "Dirk's Mana and Submission Contract",
-        "SortOrder": "030418a",
+        "SortOrder": "030422",
         "Year": 4,
         "Season": "Summer",
         "Volume": "0304",
@@ -2364,7 +2316,7 @@
           "chapter19"
         ],
         "ChapterName": "Georgine Departs",
-        "SortOrder": "030419a",
+        "SortOrder": "030424",
         "Year": 4,
         "Season": "Summer",
         "Volume": "0304",
@@ -2382,20 +2334,12 @@
     ],
     "POVChapters": [
       {
-        "OverrideName": "",
         "POV": "Tuuli",
-        "Source": "P3V4",
-        "EarlySortOrder": "",
-        "LateSortOrder": "",
-        "EarlyYear": 0,
-        "LateYear": 0,
-        "EarlySeason": "",
-        "LateSeason": "",
         "OriginalFilenames": [
           "prologue"
         ],
         "ChapterName": "Prologue",
-        "SortOrder": "030400",
+        "SortOrder": "030402",
         "Year": 3,
         "Season": "Spring",
         "Volume": "0304",
@@ -2411,20 +2355,12 @@
         "EndLine": null
       },
       {
-        "OverrideName": "",
         "POV": "Gloria",
-        "Source": "P3V4",
-        "EarlySortOrder": "",
-        "LateSortOrder": "",
-        "EarlyYear": 0,
-        "LateYear": 0,
-        "EarlySeason": "",
-        "LateSeason": "",
         "OriginalFilenames": [
           "epilogue"
         ],
         "ChapterName": "Epilogue",
-        "SortOrder": "030420",
+        "SortOrder": "030426",
         "Year": 4,
         "Season": "Summer",
         "Volume": "0304",
@@ -2447,8 +2383,8 @@
         "OverrideName": "",
         "POV": "Florencia",
         "Source": "P3V4 Extra 1",
-        "EarlySortOrder": "030419b",
-        "LateSortOrder": "030496d",
+        "EarlySortOrder": "030425",
+        "LateSortOrder": "03049602",
         "EarlyYear": 4,
         "LateYear": 4,
         "EarlySeason": "Summer",
@@ -2477,8 +2413,8 @@
         "OverrideName": "",
         "POV": "Brigitte",
         "Source": "P3V4 Extra 2",
-        "EarlySortOrder": "030413b",
-        "LateSortOrder": "030496b",
+        "EarlySortOrder": "030417",
+        "LateSortOrder": "03049603",
         "EarlyYear": 4,
         "LateYear": 4,
         "EarlySeason": "Summer",
@@ -2509,8 +2445,8 @@
         "OverrideName": "",
         "POV": "Gil",
         "Source": "P3V4 Extra 3",
-        "EarlySortOrder": "030418b",
-        "LateSortOrder": "030496c",
+        "EarlySortOrder": "030423",
+        "LateSortOrder": "03049604",
         "EarlyYear": 4,
         "LateYear": 4,
         "EarlySeason": "Summer",
@@ -2541,7 +2477,7 @@
         "manga2"
       ],
       "ChapterName": "Comfy Life 304",
-      "SortOrder": "030498",
+      "SortOrder": "030427",
       "Year": 4,
       "Season": "Summer",
       "Volume": "0304",
@@ -2628,7 +2564,7 @@
         "characters3"
       ],
       "ChapterName": "Adopted Daughter of an Archduke Characters",
-      "SortOrder": "0304",
+      "SortOrder": "030401",
       "Year": 4,
       "Season": "Summer",
       "Volume": "0304",
@@ -2661,7 +2597,7 @@
           "chapter1"
         ],
         "ChapterName": "The New Orphans and Operation Grimm",
-        "SortOrder": "030501",
+        "SortOrder": "030503",
         "Year": 4,
         "Season": "Autumn",
         "Volume": "0305",
@@ -2681,7 +2617,7 @@
           "chapter2"
         ],
         "ChapterName": "Haase and the Gray Priests",
-        "SortOrder": "030502",
+        "SortOrder": "030504",
         "Year": 4,
         "Season": "Autumn",
         "Volume": "0305",
@@ -2701,7 +2637,7 @@
           "chapter3"
         ],
         "ChapterName": "Ruelle Gathering (Take Two)",
-        "SortOrder": "030503",
+        "SortOrder": "030505",
         "Year": 4,
         "Season": "Autumn",
         "Volume": "0305",
@@ -2723,7 +2659,7 @@
           "chapter4_1"
         ],
         "ChapterName": "Damuel's Growth",
-        "SortOrder": "030504",
+        "SortOrder": "030506",
         "Year": 4,
         "Season": "Autumn",
         "Volume": "0305",
@@ -2743,7 +2679,7 @@
           "chapter5"
         ],
         "ChapterName": "Conditions for Compressing Mana",
-        "SortOrder": "030505",
+        "SortOrder": "030507",
         "Year": 4,
         "Season": "Autumn",
         "Volume": "0305",
@@ -2763,7 +2699,7 @@
           "chapter6"
         ],
         "ChapterName": "Illgner's Harvest Festival",
-        "SortOrder": "030506",
+        "SortOrder": "030508",
         "Year": 4,
         "Season": "Autumn",
         "Volume": "0305",
@@ -2785,7 +2721,7 @@
           "chapter7_1"
         ],
         "ChapterName": "My First-Ever Little Sister",
-        "SortOrder": "030507",
+        "SortOrder": "030509",
         "Year": 4,
         "Season": "Autumn",
         "Volume": "0305",
@@ -2807,7 +2743,7 @@
           "chapter8_1"
         ],
         "ChapterName": "Wilfried's Actions",
-        "SortOrder": "030508",
+        "SortOrder": "030510",
         "Year": 4,
         "Season": "Autumn",
         "Volume": "0305",
@@ -2827,7 +2763,7 @@
           "chapter9"
         ],
         "ChapterName": "Wilfried's Punishment",
-        "SortOrder": "030509a",
+        "SortOrder": "030511",
         "Year": 4,
         "Season": "Autumn",
         "Volume": "0305",
@@ -2847,7 +2783,7 @@
           "chapter10"
         ],
         "ChapterName": "The Jureve and Mana Compression",
-        "SortOrder": "030510",
+        "SortOrder": "030513",
         "Year": 4,
         "Season": "Autumn",
         "Volume": "0305",
@@ -2867,7 +2803,7 @@
           "chapter11"
         ],
         "ChapterName": "Charlotte's Baptism Ceremony",
-        "SortOrder": "030511",
+        "SortOrder": "030514",
         "Year": 4,
         "Season": "Winter",
         "Volume": "0305",
@@ -2887,7 +2823,7 @@
           "chapter12"
         ],
         "ChapterName": "Kidnapped Daughter",
-        "SortOrder": "030512",
+        "SortOrder": "030515",
         "Year": 4,
         "Season": "Winter",
         "Volume": "0305",
@@ -2909,7 +2845,7 @@
           "chapter13_1"
         ],
         "ChapterName": "Rescue",
-        "SortOrder": "030513",
+        "SortOrder": "030516",
         "Year": 4,
         "Season": "Winter",
         "Volume": "0305",
@@ -2929,7 +2865,7 @@
           "chapter14"
         ],
         "ChapterName": "And So, the Future",
-        "SortOrder": "030514a",
+        "SortOrder": "030517",
         "Year": 4,
         "Season": "Winter",
         "Volume": "0305",
@@ -2947,22 +2883,14 @@
     ],
     "POVChapters": [
       {
-        "OverrideName": "",
         "POV": "Benno",
-        "Source": "P3V5",
-        "EarlySortOrder": "",
-        "LateSortOrder": "",
-        "EarlyYear": 0,
-        "LateYear": 0,
-        "EarlySeason": "",
-        "LateSeason": "",
         "OriginalFilenames": [
           "prologue",
           "insert1",
           "prologue_1"
         ],
         "ChapterName": "Prologue",
-        "SortOrder": "030500",
+        "SortOrder": "030502",
         "Year": 4,
         "Season": "Autumn",
         "Volume": "0305",
@@ -2978,20 +2906,12 @@
         "EndLine": null
       },
       {
-        "OverrideName": "",
         "POV": "Ferdinand",
-        "Source": "P3V5",
-        "EarlySortOrder": "",
-        "LateSortOrder": "",
-        "EarlyYear": 0,
-        "LateYear": 0,
-        "EarlySeason": "",
-        "LateSeason": "",
         "OriginalFilenames": [
           "epilogue"
         ],
         "ChapterName": "Epilogue",
-        "SortOrder": "030515",
+        "SortOrder": "030527",
         "Year": 6,
         "Season": "Autumn",
         "Volume": "0305",
@@ -3014,8 +2934,8 @@
         "OverrideName": "",
         "POV": "Bonifatius",
         "Source": "P3V5 Extra 1",
-        "EarlySortOrder": "030514c",
-        "LateSortOrder": "030596c",
+        "EarlySortOrder": "030519",
+        "LateSortOrder": "03059604",
         "EarlyYear": 4,
         "LateYear": 6,
         "EarlySeason": "Winter",
@@ -3044,8 +2964,8 @@
         "OverrideName": "",
         "POV": "Charlotte",
         "Source": "P3V5 Extra 2",
-        "EarlySortOrder": "030514e",
-        "LateSortOrder": "030596e",
+        "EarlySortOrder": "030521",
+        "LateSortOrder": "03059605",
         "EarlyYear": 4,
         "LateYear": 6,
         "EarlySeason": "Spring",
@@ -3076,8 +2996,8 @@
         "OverrideName": "",
         "POV": "Giebe Illgner",
         "Source": "P3V5 Extra 3",
-        "EarlySortOrder": "030514f",
-        "LateSortOrder": "030596f",
+        "EarlySortOrder": "030522",
+        "LateSortOrder": "03059606",
         "EarlyYear": 5,
         "LateYear": 6,
         "EarlySeason": "Summer",
@@ -3106,8 +3026,8 @@
         "OverrideName": "",
         "POV": "Lutz",
         "Source": "P3V5 Extra 4",
-        "EarlySortOrder": "030514i",
-        "LateSortOrder": "030596i",
+        "EarlySortOrder": "030525",
+        "LateSortOrder": "03059607",
         "EarlyYear": 5,
         "LateYear": 6,
         "EarlySeason": "Autumn",
@@ -3140,8 +3060,8 @@
         "OverrideName": "",
         "POV": "Fran",
         "Source": "P3V5 Extra 5",
-        "EarlySortOrder": "030514j",
-        "LateSortOrder": "030596j",
+        "EarlySortOrder": "030526",
+        "LateSortOrder": "03059608",
         "EarlyYear": 6,
         "LateYear": 6,
         "EarlySeason": "Autumn",
@@ -3172,8 +3092,8 @@
         "OverrideName": "",
         "POV": "Damuel",
         "Source": "P3V5 Extra 6",
-        "EarlySortOrder": "030514g",
-        "LateSortOrder": "030596g",
+        "EarlySortOrder": "030523",
+        "LateSortOrder": "03059609",
         "EarlyYear": 5,
         "LateYear": 6,
         "EarlySeason": "Summer",
@@ -3202,8 +3122,8 @@
         "OverrideName": "",
         "POV": "Ella",
         "Source": "P3V5 Extra 7",
-        "EarlySortOrder": "030514h",
-        "LateSortOrder": "030596h",
+        "EarlySortOrder": "030524",
+        "LateSortOrder": "03059610",
         "EarlyYear": 5,
         "LateYear": 6,
         "EarlySeason": "Summer",
@@ -3234,7 +3154,7 @@
         "manga2"
       ],
       "ChapterName": "Comfy Life 305",
-      "SortOrder": "030598",
+      "SortOrder": "030528",
       "Year": 6,
       "Season": "Autumn",
       "Volume": "0305",
@@ -3321,7 +3241,7 @@
         "characters3"
       ],
       "ChapterName": "Adopted Daughter of an Archduke Characters",
-      "SortOrder": "0305",
+      "SortOrder": "030501",
       "Year": 6,
       "Season": "Autumn",
       "Volume": "0305",

@@ -14,7 +14,7 @@
           "chapter1"
         ],
         "ChapterName": "Just Call Me Urashima Taro",
-        "SortOrder": "040101a",
+        "SortOrder": "040103",
         "Year": 6,
         "Season": "Autumn",
         "Volume": "0401",
@@ -34,7 +34,7 @@
           "chapter2"
         ],
         "ChapterName": "Moving to the Castle",
-        "SortOrder": "040102",
+        "SortOrder": "040106",
         "Year": 6,
         "Season": "Autumn",
         "Volume": "0401",
@@ -56,7 +56,7 @@
           "chapter3_1"
         ],
         "ChapterName": "Dinnertime",
-        "SortOrder": "040103",
+        "SortOrder": "040107",
         "Year": 6,
         "Season": "Autumn",
         "Volume": "0401",
@@ -76,7 +76,7 @@
           "chapter4"
         ],
         "ChapterName": "Cramming and Preparations",
-        "SortOrder": "040104",
+        "SortOrder": "040108",
         "Year": 6,
         "Season": "Autumn",
         "Volume": "0401",
@@ -96,7 +96,7 @@
           "chapter5"
         ],
         "ChapterName": "The Gifting Ceremony",
-        "SortOrder": "040105",
+        "SortOrder": "040109",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0401",
@@ -116,7 +116,7 @@
           "chapter6"
         ],
         "ChapterName": "The Winter Playroom and Our Departure",
-        "SortOrder": "040106",
+        "SortOrder": "040110",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0401",
@@ -138,7 +138,7 @@
           "chapter7_1"
         ],
         "ChapterName": "My Retainers and Entering the Dormitory",
-        "SortOrder": "040107",
+        "SortOrder": "040111",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0401",
@@ -160,7 +160,7 @@
           "chapter8_1"
         ],
         "ChapterName": "The Better Grades Committee",
-        "SortOrder": "040108a",
+        "SortOrder": "040112",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0401",
@@ -180,7 +180,7 @@
           "chapter9"
         ],
         "ChapterName": "The Advancement Ceremony and Fellowship Gatherings",
-        "SortOrder": "040109",
+        "SortOrder": "040114",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0401",
@@ -200,7 +200,7 @@
           "chapter10"
         ],
         "ChapterName": "Royalty and Nobles from Other Duchies",
-        "SortOrder": "040110",
+        "SortOrder": "040115",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0401",
@@ -220,7 +220,7 @@
           "chapter11"
         ],
         "ChapterName": "Math, Theology, and Controlling Mana",
-        "SortOrder": "040111",
+        "SortOrder": "040116",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0401",
@@ -240,7 +240,7 @@
           "chapter12"
         ],
         "ChapterName": "History, Geography, and Music",
-        "SortOrder": "040112",
+        "SortOrder": "040117",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0401",
@@ -260,7 +260,7 @@
           "chapter13"
         ],
         "ChapterName": "Mana Compression and Creating a Highbeast",
-        "SortOrder": "040113",
+        "SortOrder": "040118",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0401",
@@ -280,7 +280,7 @@
           "chapter14"
         ],
         "ChapterName": "The Fourth Step of Mana Compression",
-        "SortOrder": "040114",
+        "SortOrder": "040119",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0401",
@@ -302,7 +302,7 @@
           "chapter15_1"
         ],
         "ChapterName": "Registering at the Library",
-        "SortOrder": "040115",
+        "SortOrder": "040120",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0401",
@@ -322,7 +322,7 @@
           "chapter16"
         ],
         "ChapterName": "Schwartz and Weiss",
-        "SortOrder": "040116",
+        "SortOrder": "040121",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0401",
@@ -342,7 +342,7 @@
           "chapter17"
         ],
         "ChapterName": "Court Etiquette and Hirschur's Visit",
-        "SortOrder": "040117",
+        "SortOrder": "040122",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0401",
@@ -364,7 +364,7 @@
           "chapter18_1"
         ],
         "ChapterName": "Schtappe Acquisition",
-        "SortOrder": "040118",
+        "SortOrder": "040123",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0401",
@@ -384,7 +384,7 @@
           "chapter19"
         ],
         "ChapterName": "My First Earthday",
-        "SortOrder": "040119a",
+        "SortOrder": "040124",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0401",
@@ -406,7 +406,7 @@
           "chapter20_1"
         ],
         "ChapterName": "Dedication Whirl",
-        "SortOrder": "040120",
+        "SortOrder": "040126",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0401",
@@ -426,7 +426,7 @@
           "chapter21"
         ],
         "ChapterName": "Passing Highbeast Creation",
-        "SortOrder": "040121a",
+        "SortOrder": "040127",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0401",
@@ -448,7 +448,7 @@
           "chapter22_1"
         ],
         "ChapterName": "Schtappe Fundamentals",
-        "SortOrder": "040122",
+        "SortOrder": "040129",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0401",
@@ -466,22 +466,14 @@
     ],
     "POVChapters": [
       {
-        "OverrideName": "",
         "POV": "Ferdinand",
-        "Source": "P4V1",
-        "EarlySortOrder": "",
-        "LateSortOrder": "",
-        "EarlyYear": 0,
-        "LateYear": 0,
-        "EarlySeason": "",
-        "LateSeason": "",
         "OriginalFilenames": [
           "prologue",
           "insert1",
           "prologue_1"
         ],
         "ChapterName": "Prologue",
-        "SortOrder": "040100",
+        "SortOrder": "040102",
         "Year": 6,
         "Season": "Autumn",
         "Volume": "0401",
@@ -497,22 +489,14 @@
         "EndLine": null
       },
       {
-        "OverrideName": "",
         "POV": "Sylvester",
-        "Source": "P4V1",
-        "EarlySortOrder": "",
-        "LateSortOrder": "",
-        "EarlyYear": 0,
-        "LateYear": 0,
-        "EarlySeason": "",
-        "LateSeason": "",
         "OriginalFilenames": [
           "epilogue",
           "insert9",
           "epilogue_1"
         ],
         "ChapterName": "Epilogue",
-        "SortOrder": "040123",
+        "SortOrder": "040130",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0401",
@@ -535,8 +519,8 @@
         "OverrideName": "",
         "POV": "Lieseleta",
         "Source": "P4V1 Extra 1",
-        "EarlySortOrder": "040119b",
-        "LateSortOrder": "040196d",
+        "EarlySortOrder": "040125",
+        "LateSortOrder": "04019604",
         "EarlyYear": 6,
         "LateYear": 6,
         "EarlySeason": "Winter",
@@ -565,8 +549,8 @@
         "OverrideName": "",
         "POV": "Effa",
         "Source": "P4V1 Extra 2",
-        "EarlySortOrder": "040101b",
-        "LateSortOrder": "040196a",
+        "EarlySortOrder": "040104",
+        "LateSortOrder": "04019605",
         "EarlyYear": 6,
         "LateYear": 6,
         "EarlySeason": "Autumn",
@@ -599,7 +583,7 @@
         "manga2"
       ],
       "ChapterName": "Comfy Life 401",
-      "SortOrder": "040198",
+      "SortOrder": "040131",
       "Year": 6,
       "Season": "Winter",
       "Volume": "0401",
@@ -686,7 +670,7 @@
         "characters3"
       ],
       "ChapterName": "Founder of the Royal Academy's So-Called Library Committee Characters",
-      "SortOrder": "0401",
+      "SortOrder": "040101",
       "Year": 6,
       "Season": "Winter",
       "Volume": "0401",
@@ -739,7 +723,7 @@
           "chapter1"
         ],
         "ChapterName": "Meeting for the Tea Party",
-        "SortOrder": "040201",
+        "SortOrder": "040203",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0402",
@@ -761,7 +745,7 @@
           "chapter2_1"
         ],
         "ChapterName": "Onward to the Library",
-        "SortOrder": "040202",
+        "SortOrder": "040204",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0402",
@@ -781,7 +765,7 @@
           "chapter3"
         ],
         "ChapterName": "I Want to Found the Library Committee",
-        "SortOrder": "040203a",
+        "SortOrder": "040205",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0402",
@@ -801,7 +785,7 @@
           "chapter4"
         ],
         "ChapterName": "Preparing a Tea Party for Solange",
-        "SortOrder": "040204",
+        "SortOrder": "040207",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0402",
@@ -823,7 +807,7 @@
           "chapter5_1"
         ],
         "ChapterName": "My First Tea Party at the Royal Academy",
-        "SortOrder": "040205a",
+        "SortOrder": "040208",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0402",
@@ -845,7 +829,7 @@
           "chapter6_1"
         ],
         "ChapterName": "Tea Party with the Music Professors",
-        "SortOrder": "040206",
+        "SortOrder": "040210",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0402",
@@ -865,7 +849,7 @@
           "chapter7"
         ],
         "ChapterName": "Measuring Schwartz and Weiss",
-        "SortOrder": "040207",
+        "SortOrder": "040211",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0402",
@@ -887,7 +871,7 @@
           "chapter8_1"
         ],
         "ChapterName": "The Battle for Schwartz and Weiss",
-        "SortOrder": "040208",
+        "SortOrder": "040212",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0402",
@@ -909,7 +893,7 @@
           "chapter9_1"
         ],
         "ChapterName": "Treasure-Stealing Ditter",
-        "SortOrder": "040209",
+        "SortOrder": "040213",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0402",
@@ -929,7 +913,7 @@
           "chapter10"
         ],
         "ChapterName": "The Prince's Summons",
-        "SortOrder": "040210a",
+        "SortOrder": "040214",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0402",
@@ -951,7 +935,7 @@
           "chapter11_1"
         ],
         "ChapterName": "Rihyarda's Wrath",
-        "SortOrder": "040211",
+        "SortOrder": "040218",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0402",
@@ -971,7 +955,7 @@
           "chapter12"
         ],
         "ChapterName": "Traugott's Thoughts",
-        "SortOrder": "040212",
+        "SortOrder": "040219",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0402",
@@ -991,7 +975,7 @@
           "chapter13"
         ],
         "ChapterName": "A Tea Party with Eglantine",
-        "SortOrder": "040213",
+        "SortOrder": "040220",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0402",
@@ -1013,7 +997,7 @@
           "chapter14_1"
         ],
         "ChapterName": "Reporting to the Prince",
-        "SortOrder": "040214a",
+        "SortOrder": "040221",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0402",
@@ -1035,7 +1019,7 @@
           "chapter15_1"
         ],
         "ChapterName": "An Order to Return to Ehrenfest",
-        "SortOrder": "040215",
+        "SortOrder": "040224",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0402",
@@ -1057,7 +1041,7 @@
           "chapter16_1"
         ],
         "ChapterName": "Interrogation",
-        "SortOrder": "040216a",
+        "SortOrder": "040225",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0402",
@@ -1077,7 +1061,7 @@
           "chapter17"
         ],
         "ChapterName": "Returning to the Temple",
-        "SortOrder": "040217",
+        "SortOrder": "040227",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0402",
@@ -1097,7 +1081,7 @@
           "chapter18"
         ],
         "ChapterName": "Ferdinand and Hirschur's Gifts",
-        "SortOrder": "040218a",
+        "SortOrder": "040228",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0402",
@@ -1117,7 +1101,7 @@
           "chapter19"
         ],
         "ChapterName": "The Summoned Merchants",
-        "SortOrder": "040219",
+        "SortOrder": "040230",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0402",
@@ -1135,20 +1119,12 @@
     ],
     "POVChapters": [
       {
-        "OverrideName": "",
         "POV": "Solange",
-        "Source": "P4V2",
-        "EarlySortOrder": "",
-        "LateSortOrder": "",
-        "EarlyYear": 0,
-        "LateYear": 0,
-        "EarlySeason": "",
-        "LateSeason": "",
         "OriginalFilenames": [
           "prologue"
         ],
         "ChapterName": "Prologue",
-        "SortOrder": "040200",
+        "SortOrder": "040202",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0402",
@@ -1164,21 +1140,13 @@
         "EndLine": null
       },
       {
-        "OverrideName": "",
         "POV": "Benno",
-        "Source": "P4V2",
-        "EarlySortOrder": "",
-        "LateSortOrder": "",
-        "EarlyYear": 0,
-        "LateYear": 0,
-        "EarlySeason": "",
-        "LateSeason": "",
         "OriginalFilenames": [
           "epilogue",
           "insert10"
         ],
         "ChapterName": "Epilogue",
-        "SortOrder": "040220a",
+        "SortOrder": "040231",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0402",
@@ -1201,8 +1169,8 @@
         "OverrideName": "",
         "POV": "Anastasius",
         "Source": "P4V2 Extra 1",
-        "EarlySortOrder": "040214b",
-        "LateSortOrder": "040296f",
+        "EarlySortOrder": "040222",
+        "LateSortOrder": "04029609",
         "EarlyYear": 6,
         "LateYear": 6,
         "EarlySeason": "Winter",
@@ -1231,8 +1199,8 @@
         "OverrideName": "",
         "POV": "Leonore",
         "Source": "P4V2 Extra 2",
-        "EarlySortOrder": "040218b",
-        "LateSortOrder": "040296i",
+        "EarlySortOrder": "040229",
+        "LateSortOrder": "04029610",
         "EarlyYear": 6,
         "LateYear": 6,
         "EarlySeason": "Winter",
@@ -1263,7 +1231,7 @@
         "manga2"
       ],
       "ChapterName": "Comfy Life 402",
-      "SortOrder": "040298",
+      "SortOrder": "040233",
       "Year": 6,
       "Season": "Winter",
       "Volume": "0402",
@@ -1350,7 +1318,7 @@
         "characters3"
       ],
       "ChapterName": "Founder of the Royal Academy's So-Called Library Committee Characters",
-      "SortOrder": "0402",
+      "SortOrder": "040201",
       "Year": 6,
       "Season": "Winter",
       "Volume": "0402",
@@ -1383,7 +1351,7 @@
           "chapter1"
         ],
         "ChapterName": "The Dedication Ritual and Returning to the Castle",
-        "SortOrder": "040301a",
+        "SortOrder": "040303",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0403",
@@ -1403,7 +1371,7 @@
           "chapter2"
         ],
         "ChapterName": "Mother and Printing in Haldenzel",
-        "SortOrder": "040302a",
+        "SortOrder": "040305",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0403",
@@ -1423,7 +1391,7 @@
           "chapter3"
         ],
         "ChapterName": "Winter Socializing",
-        "SortOrder": "040303",
+        "SortOrder": "040307",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0403",
@@ -1445,7 +1413,7 @@
           "chapter4_1"
         ],
         "ChapterName": "The End of Winter and the Summoned Merchants",
-        "SortOrder": "040304a",
+        "SortOrder": "040308",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0403",
@@ -1467,7 +1435,7 @@
           "chapter5_1"
         ],
         "ChapterName": "A Place to Call Home",
-        "SortOrder": "040305",
+        "SortOrder": "040310",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0403",
@@ -1487,7 +1455,7 @@
           "chapter6"
         ],
         "ChapterName": "The Meeting with Giebe Haldenzel",
-        "SortOrder": "040306a",
+        "SortOrder": "040311",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0403",
@@ -1509,7 +1477,7 @@
           "chapter7_1"
         ],
         "ChapterName": "Returning to the Royal Academy",
-        "SortOrder": "040307",
+        "SortOrder": "040313",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0403",
@@ -1529,7 +1497,7 @@
           "chapter8"
         ],
         "ChapterName": "A Week of Socializing",
-        "SortOrder": "040308",
+        "SortOrder": "040314",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0403",
@@ -1551,7 +1519,7 @@
           "chapter9_1"
         ],
         "ChapterName": "Justus and Preparing for the Interduchy Tournament",
-        "SortOrder": "040309a",
+        "SortOrder": "040315",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0403",
@@ -1571,7 +1539,7 @@
           "chapter10"
         ],
         "ChapterName": "Meeting with the Prince",
-        "SortOrder": "040310",
+        "SortOrder": "040318",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0403",
@@ -1593,7 +1561,7 @@
           "chapter11_1"
         ],
         "ChapterName": "The Tea Party for All Duchies",
-        "SortOrder": "040311a",
+        "SortOrder": "040319",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0403",
@@ -1613,7 +1581,7 @@
           "chapter12"
         ],
         "ChapterName": "Interduchy Tournament",
-        "SortOrder": "040312",
+        "SortOrder": "040322",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0403",
@@ -1635,7 +1603,7 @@
           "chapter13_1"
         ],
         "ChapterName": "Angelica’s Graduation Ceremony",
-        "SortOrder": "040313a",
+        "SortOrder": "040323",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0403",
@@ -1655,7 +1623,7 @@
           "chapter14"
         ],
         "ChapterName": "Year One Complete",
-        "SortOrder": "040314a",
+        "SortOrder": "040325",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0403",
@@ -1675,7 +1643,7 @@
           "chapter15"
         ],
         "ChapterName": "Buying Information and the Mana Compression Lecture",
-        "SortOrder": "040315a",
+        "SortOrder": "040327",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0403",
@@ -1697,7 +1665,7 @@
           "chapter16_1"
         ],
         "ChapterName": "Philine’s Family Circumstances",
-        "SortOrder": "040316a",
+        "SortOrder": "040329",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0403",
@@ -1717,7 +1685,7 @@
           "chapter17"
         ],
         "ChapterName": "Taking Konrad to the Temple",
-        "SortOrder": "040317a",
+        "SortOrder": "040331",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0403",
@@ -1737,7 +1705,7 @@
           "chapter18"
         ],
         "ChapterName": "The Book Fair and the Follow-Up Meeting",
-        "SortOrder": "040318",
+        "SortOrder": "040333",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0403",
@@ -1759,7 +1727,7 @@
           "chapter19_1"
         ],
         "ChapterName": "A Promise",
-        "SortOrder": "040319a",
+        "SortOrder": "040334",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0403",
@@ -1781,7 +1749,7 @@
           "chapter20_1"
         ],
         "ChapterName": "Ferdinand and I",
-        "SortOrder": "040320",
+        "SortOrder": "040337",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0403",
@@ -1799,22 +1767,14 @@
     ],
     "POVChapters": [
       {
-        "OverrideName": "",
         "POV": "Gil",
-        "Source": "P4V3",
-        "EarlySortOrder": "",
-        "LateSortOrder": "",
-        "EarlyYear": 0,
-        "LateYear": 0,
-        "EarlySeason": "",
-        "LateSeason": "",
         "OriginalFilenames": [
           "prologue",
           "insert1",
           "prologue_1"
         ],
         "ChapterName": "Prologue",
-        "SortOrder": "040300",
+        "SortOrder": "040302",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0403",
@@ -1830,20 +1790,12 @@
         "EndLine": null
       },
       {
-        "OverrideName": "",
         "POV": "Justus",
-        "Source": "P4V3",
-        "EarlySortOrder": "",
-        "LateSortOrder": "",
-        "EarlyYear": 0,
-        "LateYear": 0,
-        "EarlySeason": "",
-        "LateSeason": "",
         "OriginalFilenames": [
           "epilogue"
         ],
         "ChapterName": "Epilogue",
-        "SortOrder": "040321",
+        "SortOrder": "040338",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0403",
@@ -1866,8 +1818,8 @@
         "OverrideName": "",
         "POV": "Lutz",
         "Source": "P4V3 Extra 1",
-        "EarlySortOrder": "040319b",
-        "LateSortOrder": "040396n",
+        "EarlySortOrder": "040335",
+        "LateSortOrder": "04039614",
         "EarlyYear": 6,
         "LateYear": 6,
         "EarlySeason": "Winter",
@@ -1896,8 +1848,8 @@
         "OverrideName": "",
         "POV": "Eglantine",
         "Source": "P4V3 Extra 2",
-        "EarlySortOrder": "040313b",
-        "LateSortOrder": "040396i",
+        "EarlySortOrder": "040324",
+        "LateSortOrder": "04039615",
         "EarlyYear": 6,
         "LateYear": 6,
         "EarlySeason": "Winter",
@@ -1928,7 +1880,7 @@
         "manga2"
       ],
       "ChapterName": "Comfy Life 403",
-      "SortOrder": "040398",
+      "SortOrder": "040339",
       "Year": 6,
       "Season": "Winter",
       "Volume": "0403",
@@ -2015,7 +1967,7 @@
         "characters3"
       ],
       "ChapterName": "Founder of the Royal Academy's So-Called Library Committee Characters",
-      "SortOrder": "0403",
+      "SortOrder": "040301",
       "Year": 6,
       "Season": "Winter",
       "Volume": "0403",
@@ -2048,7 +2000,7 @@
           "chapter1"
         ],
         "ChapterName": "The Feast Celebrating Spring",
-        "SortOrder": "040401a",
+        "SortOrder": "040403",
         "Year": 6,
         "Season": "Spring",
         "Volume": "0404",
@@ -2068,7 +2020,7 @@
           "chapter2"
         ],
         "ChapterName": "Meeting the Scholars",
-        "SortOrder": "040402",
+        "SortOrder": "040405",
         "Year": 6,
         "Season": "Spring",
         "Volume": "0404",
@@ -2090,7 +2042,7 @@
           "chapter3_1"
         ],
         "ChapterName": "Life in the Temple",
-        "SortOrder": "040403a",
+        "SortOrder": "040406",
         "Year": 6,
         "Season": "Spring",
         "Volume": "0404",
@@ -2110,7 +2062,7 @@
           "chapter4"
         ],
         "ChapterName": "Schwartz's and Weiss's Outfits",
-        "SortOrder": "040404",
+        "SortOrder": "040408",
         "Year": 6,
         "Season": "Spring",
         "Volume": "0404",
@@ -2132,7 +2084,7 @@
           "chapter5_1"
         ],
         "ChapterName": "Magic Ink",
-        "SortOrder": "040405",
+        "SortOrder": "040409",
         "Year": 6,
         "Season": "Spring",
         "Volume": "0404",
@@ -2154,7 +2106,7 @@
           "chapter6_1"
         ],
         "ChapterName": "Request for the Gilberta Company",
-        "SortOrder": "040406",
+        "SortOrder": "040410",
         "Year": 6,
         "Season": "Spring",
         "Volume": "0404",
@@ -2174,7 +2126,7 @@
           "chapter7"
         ],
         "ChapterName": "Another Gathering of the Gutenbergs",
-        "SortOrder": "040407",
+        "SortOrder": "040411",
         "Year": 6,
         "Season": "Spring",
         "Volume": "0404",
@@ -2196,7 +2148,7 @@
           "chapter8_1"
         ],
         "ChapterName": "Disappearing Ink and Returning to the Castle",
-        "SortOrder": "040408",
+        "SortOrder": "040412",
         "Year": 6,
         "Season": "Spring",
         "Volume": "0404",
@@ -2216,7 +2168,7 @@
           "chapter9"
         ],
         "ChapterName": "The Archduke Conference Approaches",
-        "SortOrder": "040409",
+        "SortOrder": "040413",
         "Year": 6,
         "Season": "Spring",
         "Volume": "0404",
@@ -2238,7 +2190,7 @@
           "chapter10_1"
         ],
         "ChapterName": "Spring Prayer in the Central District",
-        "SortOrder": "040410",
+        "SortOrder": "040414",
         "Year": 6,
         "Season": "Spring",
         "Volume": "0404",
@@ -2258,7 +2210,7 @@
           "chapter11"
         ],
         "ChapterName": "Haldenzel's Craftspeople",
-        "SortOrder": "040411",
+        "SortOrder": "040415",
         "Year": 6,
         "Season": "Spring",
         "Volume": "0404",
@@ -2280,7 +2232,7 @@
           "chapter12_1"
         ],
         "ChapterName": "Haldenzel's Spring Prayer",
-        "SortOrder": "040412a",
+        "SortOrder": "040416",
         "Year": 6,
         "Season": "Spring",
         "Volume": "0404",
@@ -2302,7 +2254,7 @@
           "chapter13_1"
         ],
         "ChapterName": "Entwickeln",
-        "SortOrder": "040413a",
+        "SortOrder": "040418",
         "Year": 6,
         "Season": "Spring",
         "Volume": "0404",
@@ -2324,7 +2276,7 @@
           "chapter14_1"
         ],
         "ChapterName": "Left at Home",
-        "SortOrder": "040414",
+        "SortOrder": "040420",
         "Year": 6,
         "Season": "Spring",
         "Volume": "0404",
@@ -2344,7 +2296,7 @@
           "chapter15"
         ],
         "ChapterName": "Report on the Archduke Conference",
-        "SortOrder": "040415",
+        "SortOrder": "040421",
         "Year": 6,
         "Season": "Spring",
         "Volume": "0404",
@@ -2366,7 +2318,7 @@
           "chapter16_1"
         ],
         "ChapterName": "A More Private Meeting",
-        "SortOrder": "040416",
+        "SortOrder": "040422",
         "Year": 6,
         "Season": "Spring",
         "Volume": "0404",
@@ -2384,22 +2336,14 @@
     ],
     "POVChapters": [
       {
-        "OverrideName": "",
         "POV": "Wilfried",
-        "Source": "P4V4",
-        "EarlySortOrder": "",
-        "LateSortOrder": "",
-        "EarlyYear": 0,
-        "LateYear": 0,
-        "EarlySeason": "",
-        "LateSeason": "",
         "OriginalFilenames": [
           "prologue",
           "insert1",
           "prologue_1"
         ],
         "ChapterName": "Prologue",
-        "SortOrder": "040400",
+        "SortOrder": "040402",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0404",
@@ -2415,20 +2359,12 @@
         "EndLine": null
       },
       {
-        "OverrideName": "",
         "POV": "Giselfried",
-        "Source": "P4V4",
-        "EarlySortOrder": "",
-        "LateSortOrder": "",
-        "EarlyYear": 0,
-        "LateYear": 0,
-        "EarlySeason": "",
-        "LateSeason": "",
         "OriginalFilenames": [
           "epilogue"
         ],
         "ChapterName": "Epilogue",
-        "SortOrder": "040417",
+        "SortOrder": "040423",
         "Year": 6,
         "Season": "Spring",
         "Volume": "0404",
@@ -2451,8 +2387,8 @@
         "OverrideName": "",
         "POV": "Giebe Haldenzel",
         "Source": "P4V4 Extra 1",
-        "EarlySortOrder": "040412b",
-        "LateSortOrder": "040496c",
+        "EarlySortOrder": "040417",
+        "LateSortOrder": "04049603",
         "EarlyYear": 6,
         "LateYear": 6,
         "EarlySeason": "Spring",
@@ -2481,8 +2417,8 @@
         "OverrideName": "",
         "POV": "Gunther",
         "Source": "P4V4 Extra 2",
-        "EarlySortOrder": "040413b",
-        "LateSortOrder": "040496d",
+        "EarlySortOrder": "040419",
+        "LateSortOrder": "04049604",
         "EarlyYear": 6,
         "LateYear": 6,
         "EarlySeason": "Spring",
@@ -2513,7 +2449,7 @@
         "manga2"
       ],
       "ChapterName": "Comfy Life 404",
-      "SortOrder": "040498",
+      "SortOrder": "040424",
       "Year": 6,
       "Season": "Spring",
       "Volume": "0404",
@@ -2600,7 +2536,7 @@
         "characters3"
       ],
       "ChapterName": "Founder of the Royal Academy's So-Called Library Committee Characters",
-      "SortOrder": "0404",
+      "SortOrder": "040401",
       "Year": 6,
       "Season": "Spring",
       "Volume": "0404",
@@ -2633,7 +2569,7 @@
           "chapter1"
         ],
         "ChapterName": "Apprentices and the Temple",
-        "SortOrder": "040501",
+        "SortOrder": "040503",
         "Year": 6,
         "Season": "Spring",
         "Volume": "0405",
@@ -2653,7 +2589,7 @@
           "chapter2"
         ],
         "ChapterName": "A Discussion with the Lower City",
-        "SortOrder": "040502a",
+        "SortOrder": "040504",
         "Year": 6,
         "Season": "Spring",
         "Volume": "0405",
@@ -2673,7 +2609,7 @@
           "chapter3"
         ],
         "ChapterName": "Going to the Italian Restaurant",
-        "SortOrder": "040503",
+        "SortOrder": "040506",
         "Year": 6,
         "Season": "Spring",
         "Volume": "0405",
@@ -2695,7 +2631,7 @@
           "chapter4_1"
         ],
         "ChapterName": "Evolved Cooking",
-        "SortOrder": "040504",
+        "SortOrder": "040507",
         "Year": 6,
         "Season": "Spring",
         "Volume": "0405",
@@ -2716,7 +2652,7 @@
           "insert3"
         ],
         "ChapterName": "Visiting Groschel and the Starbind Ceremony",
-        "SortOrder": "040505",
+        "SortOrder": "040508",
         "Year": 7,
         "Season": "Summer",
         "Volume": "0405",
@@ -2736,7 +2672,7 @@
           "chapter6"
         ],
         "ChapterName": "My Brother Lamprecht's Wedding",
-        "SortOrder": "040506",
+        "SortOrder": "040509",
         "Year": 7,
         "Season": "Summer",
         "Volume": "0405",
@@ -2758,7 +2694,7 @@
           "chapter7_1"
         ],
         "ChapterName": "The Wedding on the Border",
-        "SortOrder": "040507a",
+        "SortOrder": "040510",
         "Year": 7,
         "Season": "Summer",
         "Volume": "0405",
@@ -2778,7 +2714,7 @@
           "chapter8"
         ],
         "ChapterName": "Pre-Meeting for the Dyeing Competition",
-        "SortOrder": "040508",
+        "SortOrder": "040512",
         "Year": 7,
         "Season": "Summer",
         "Volume": "0405",
@@ -2800,7 +2736,7 @@
           "chapter9_1"
         ],
         "ChapterName": "The Dyeing Competition",
-        "SortOrder": "040509a",
+        "SortOrder": "040513",
         "Year": 7,
         "Season": "Autumn",
         "Volume": "0405",
@@ -2820,7 +2756,7 @@
           "chapter10"
         ],
         "ChapterName": "Post-Competition and the Harvest Festival",
-        "SortOrder": "040510",
+        "SortOrder": "040516",
         "Year": 7,
         "Season": "Autumn",
         "Volume": "0405",
@@ -2842,7 +2778,7 @@
           "chapter11_1"
         ],
         "ChapterName": "Groschel and the Harvest Festival",
-        "SortOrder": "040511",
+        "SortOrder": "040517",
         "Year": 7,
         "Season": "Autumn",
         "Volume": "0405",
@@ -2862,7 +2798,7 @@
           "chapter12"
         ],
         "ChapterName": "Groschel Nobles and the Printing Industry",
-        "SortOrder": "040512",
+        "SortOrder": "040518",
         "Year": 7,
         "Season": "Autumn",
         "Volume": "0405",
@@ -2882,7 +2818,7 @@
           "chapter13"
         ],
         "ChapterName": "The Library Plan and Completed Outfits",
-        "SortOrder": "040513",
+        "SortOrder": "040519",
         "Year": 7,
         "Season": "Autumn",
         "Volume": "0405",
@@ -2904,7 +2840,7 @@
           "chapter14_1"
         ],
         "ChapterName": "The Start of Winter Socializing (Second Year)",
-        "SortOrder": "040514",
+        "SortOrder": "040520",
         "Year": 7,
         "Season": "Winter",
         "Volume": "0405",
@@ -2924,7 +2860,7 @@
           "chapter15"
         ],
         "ChapterName": "Leaving for the Royal Academy",
-        "SortOrder": "040515",
+        "SortOrder": "040521",
         "Year": 7,
         "Season": "Winter",
         "Volume": "0405",
@@ -2946,7 +2882,7 @@
           "chapter16_1"
         ],
         "ChapterName": "Fealty and the Dormitory",
-        "SortOrder": "040516",
+        "SortOrder": "040522",
         "Year": 7,
         "Season": "Winter",
         "Volume": "0405",
@@ -2966,7 +2902,7 @@
           "chapter17"
         ],
         "ChapterName": "Hirschur's Visit and the Advancement Ceremony",
-        "SortOrder": "040517",
+        "SortOrder": "040523",
         "Year": 7,
         "Season": "Winter",
         "Volume": "0405",
@@ -2988,7 +2924,7 @@
           "chapter18_1"
         ],
         "ChapterName": "The Second-Year Fellowship Gathering",
-        "SortOrder": "040518",
+        "SortOrder": "040524",
         "Year": 7,
         "Season": "Winter",
         "Volume": "0405",
@@ -3006,22 +2942,14 @@
     ],
     "POVChapters": [
       {
-        "OverrideName": "",
         "POV": "Matthias",
-        "Source": "P4V5",
-        "EarlySortOrder": "",
-        "LateSortOrder": "",
-        "EarlyYear": 0,
-        "LateYear": 0,
-        "EarlySeason": "",
-        "LateSeason": "",
         "OriginalFilenames": [
           "prologue",
           "insert1",
           "prologue_1"
         ],
         "ChapterName": "Prologue",
-        "SortOrder": "040500",
+        "SortOrder": "040502",
         "Year": 6,
         "Season": "Spring",
         "Volume": "0405",
@@ -3037,20 +2965,12 @@
         "EndLine": null
       },
       {
-        "OverrideName": "",
         "POV": "Hildebrand",
-        "Source": "P4V5",
-        "EarlySortOrder": "",
-        "LateSortOrder": "",
-        "EarlyYear": 0,
-        "LateYear": 0,
-        "EarlySeason": "",
-        "LateSeason": "",
         "OriginalFilenames": [
           "epilogue"
         ],
         "ChapterName": "Epilogue",
-        "SortOrder": "040519",
+        "SortOrder": "040525",
         "Year": 7,
         "Season": "Winter",
         "Volume": "0405",
@@ -3073,8 +2993,8 @@
         "OverrideName": "",
         "POV": "Philine",
         "Source": "P4V5 Extra 1",
-        "EarlySortOrder": "040507b",
-        "LateSortOrder": "040596b",
+        "EarlySortOrder": "040511",
+        "LateSortOrder": "04059602",
         "EarlyYear": 7,
         "LateYear": 7,
         "EarlySeason": "Summer",
@@ -3103,8 +3023,8 @@
         "OverrideName": "",
         "POV": "Aurelia",
         "Source": "P4V5 Extra 2",
-        "EarlySortOrder": "040509c",
-        "LateSortOrder": "040596d",
+        "EarlySortOrder": "040515",
+        "LateSortOrder": "04059603",
         "EarlyYear": 7,
         "LateYear": 7,
         "EarlySeason": "Autumn",
@@ -3133,8 +3053,8 @@
         "OverrideName": "",
         "POV": "Effa",
         "Source": "P4V5 Extra 3",
-        "EarlySortOrder": "040509b",
-        "LateSortOrder": "040596c",
+        "EarlySortOrder": "040514",
+        "LateSortOrder": "04059604",
         "EarlyYear": 7,
         "LateYear": 7,
         "EarlySeason": "Autumn",
@@ -3167,7 +3087,7 @@
         "manga2"
       ],
       "ChapterName": "Comfy Life 405",
-      "SortOrder": "040597a",
+      "SortOrder": "040526",
       "Year": 7,
       "Season": "Winter",
       "Volume": "0405",
@@ -3254,7 +3174,7 @@
         "characters3"
       ],
       "ChapterName": "Founder of the Royal Academy's So-Called Library Committee Characters",
-      "SortOrder": "0405",
+      "SortOrder": "040501",
       "Year": 7,
       "Season": "Winter",
       "Volume": "0405",
@@ -3289,7 +3209,7 @@
           "chapter1_1"
         ],
         "ChapterName": "The Beginning of Classes",
-        "SortOrder": "040601",
+        "SortOrder": "040603",
         "Year": 7,
         "Season": "Winter",
         "Volume": "0406",
@@ -3309,7 +3229,7 @@
           "chapter2"
         ],
         "ChapterName": "Library Committee Member Get!",
-        "SortOrder": "040602",
+        "SortOrder": "040604",
         "Year": 7,
         "Season": "Winter",
         "Volume": "0406",
@@ -3331,7 +3251,7 @@
           "chapter3_1"
         ],
         "ChapterName": "Registering for the Library and Supplying Mana",
-        "SortOrder": "040603",
+        "SortOrder": "040605",
         "Year": 7,
         "Season": "Winter",
         "Volume": "0406",
@@ -3351,7 +3271,7 @@
           "chapter4"
         ],
         "ChapterName": "Schtappe Transformation",
-        "SortOrder": "040604",
+        "SortOrder": "040606",
         "Year": 7,
         "Season": "Winter",
         "Volume": "0406",
@@ -3373,7 +3293,7 @@
           "chapter5_1"
         ],
         "ChapterName": "Strengthening the Weapon",
-        "SortOrder": "040605",
+        "SortOrder": "040607",
         "Year": 7,
         "Season": "Winter",
         "Volume": "0406",
@@ -3393,7 +3313,7 @@
           "chapter6"
         ],
         "ChapterName": "Everyone Passing on the First Day",
-        "SortOrder": "040606",
+        "SortOrder": "040608",
         "Year": 7,
         "Season": "Winter",
         "Volume": "0406",
@@ -3413,7 +3333,7 @@
           "chapter7"
         ],
         "ChapterName": "Brewing and Recovery Potions",
-        "SortOrder": "040607",
+        "SortOrder": "040609",
         "Year": 7,
         "Season": "Winter",
         "Volume": "0406",
@@ -3435,7 +3355,7 @@
           "chapter8_1"
         ],
         "ChapterName": "Roderick's Wish",
-        "SortOrder": "040608",
+        "SortOrder": "040610",
         "Year": 7,
         "Season": "Winter",
         "Volume": "0406",
@@ -3455,7 +3375,7 @@
           "chapter9"
         ],
         "ChapterName": "Dedication Whirling and Ordonnanz Brewing",
-        "SortOrder": "040609",
+        "SortOrder": "040611",
         "Year": 7,
         "Season": "Winter",
         "Volume": "0406",
@@ -3475,7 +3395,7 @@
           "chapter10"
         ],
         "ChapterName": "The Music Tea Party and the End of Classes",
-        "SortOrder": "040610",
+        "SortOrder": "040612",
         "Year": 7,
         "Season": "Winter",
         "Volume": "0406",
@@ -3495,7 +3415,7 @@
           "chapter11"
         ],
         "ChapterName": "I Want to Do Library Committee Work",
-        "SortOrder": "040611",
+        "SortOrder": "040613",
         "Year": 7,
         "Season": "Winter",
         "Volume": "0406",
@@ -3517,7 +3437,7 @@
           "chapter12_1"
         ],
         "ChapterName": "Professor Hirschur's Laboratory",
-        "SortOrder": "040612",
+        "SortOrder": "040614",
         "Year": 7,
         "Season": "Winter",
         "Volume": "0406",
@@ -3537,7 +3457,7 @@
           "chapter13"
         ],
         "ChapterName": "Professor Hirschur's Disciple",
-        "SortOrder": "040613",
+        "SortOrder": "040615",
         "Year": 7,
         "Season": "Winter",
         "Volume": "0406",
@@ -3559,7 +3479,7 @@
           "chapter14_1"
         ],
         "ChapterName": "Changing Schwartz and Weiss",
-        "SortOrder": "040614",
+        "SortOrder": "040616",
         "Year": 7,
         "Season": "Winter",
         "Volume": "0406",
@@ -3579,7 +3499,7 @@
           "chapter15"
         ],
         "ChapterName": "Gathering Feystones",
-        "SortOrder": "040615a",
+        "SortOrder": "040617",
         "Year": 7,
         "Season": "Winter",
         "Volume": "0406",
@@ -3601,7 +3521,7 @@
           "chapter16_1"
         ],
         "ChapterName": "Hunting a Ternisbefallen",
-        "SortOrder": "040616",
+        "SortOrder": "040619",
         "Year": 7,
         "Season": "Winter",
         "Volume": "0406",
@@ -3623,7 +3543,7 @@
           "chapter17_1"
         ],
         "ChapterName": "Healing and Reinforcements",
-        "SortOrder": "040617",
+        "SortOrder": "040620",
         "Year": 7,
         "Season": "Winter",
         "Volume": "0406",
@@ -3645,7 +3565,7 @@
           "chapter18_1"
         ],
         "ChapterName": "A Tea Party of Bookworms",
-        "SortOrder": "040618a",
+        "SortOrder": "040621",
         "Year": 7,
         "Season": "Winter",
         "Volume": "0406",
@@ -3665,7 +3585,7 @@
           "chapter19"
         ],
         "ChapterName": "Going Home",
-        "SortOrder": "040619",
+        "SortOrder": "040623",
         "Year": 7,
         "Season": "Winter",
         "Volume": "0406",
@@ -3683,20 +3603,12 @@
     ],
     "POVChapters": [
       {
-        "OverrideName": "",
         "POV": "Charlotte",
-        "Source": "P4V6",
-        "EarlySortOrder": "",
-        "LateSortOrder": "",
-        "EarlyYear": 0,
-        "LateYear": 0,
-        "EarlySeason": "",
-        "LateSeason": "",
         "OriginalFilenames": [
           "prologue"
         ],
         "ChapterName": "Prologue",
-        "SortOrder": "040600",
+        "SortOrder": "040602",
         "Year": 7,
         "Season": "Winter",
         "Volume": "0406",
@@ -3712,22 +3624,14 @@
         "EndLine": null
       },
       {
-        "OverrideName": "",
         "POV": "Sylvester",
-        "Source": "P4V6",
-        "EarlySortOrder": "",
-        "LateSortOrder": "",
-        "EarlyYear": 0,
-        "LateYear": 0,
-        "EarlySeason": "",
-        "LateSeason": "",
         "OriginalFilenames": [
           "epilogue",
           "insert10",
           "epilogue_1"
         ],
         "ChapterName": "Epilogue",
-        "SortOrder": "040620",
+        "SortOrder": "040624",
         "Year": 7,
         "Season": "Winter",
         "Volume": "0406",
@@ -3750,8 +3654,8 @@
         "OverrideName": "",
         "POV": "Roderick",
         "Source": "P4V6 Extra 1",
-        "EarlySortOrder": "040615b",
-        "LateSortOrder": "040696a",
+        "EarlySortOrder": "040618",
+        "LateSortOrder": "04069601",
         "EarlyYear": 7,
         "LateYear": 7,
         "EarlySeason": "Winter",
@@ -3780,8 +3684,8 @@
         "OverrideName": "",
         "POV": "Rauffen",
         "Source": "P4V6 Extra 2",
-        "EarlySortOrder": "040618b",
-        "LateSortOrder": "040696b",
+        "EarlySortOrder": "040622",
+        "LateSortOrder": "04069602",
         "EarlyYear": 7,
         "LateYear": 7,
         "EarlySeason": "Winter",
@@ -3812,7 +3716,7 @@
         "manga2"
       ],
       "ChapterName": "Comfy Life 406",
-      "SortOrder": "040698",
+      "SortOrder": "040625",
       "Year": 7,
       "Season": "Winter",
       "Volume": "0406",
@@ -3899,7 +3803,7 @@
         "characters3"
       ],
       "ChapterName": "Founder of the Royal Academy's So-Called Library Committee Characters",
-      "SortOrder": "0406",
+      "SortOrder": "040601",
       "Year": 7,
       "Season": "Winter",
       "Volume": "0406",
@@ -3932,7 +3836,7 @@
           "chapter1"
         ],
         "ChapterName": "Post-Return Discussion",
-        "SortOrder": "040701a",
+        "SortOrder": "040703",
         "Year": 7,
         "Season": "Winter",
         "Volume": "0407",
@@ -3952,7 +3856,7 @@
           "chapter2"
         ],
         "ChapterName": "Dinner and a Tea Party",
-        "SortOrder": "040702",
+        "SortOrder": "040705",
         "Year": 7,
         "Season": "Winter",
         "Volume": "0407",
@@ -3972,7 +3876,7 @@
           "chapter3"
         ],
         "ChapterName": "Sylvester's Order",
-        "SortOrder": "040703",
+        "SortOrder": "040706",
         "Year": 7,
         "Season": "Winter",
         "Volume": "0407",
@@ -3994,7 +3898,7 @@
           "chapter4_1"
         ],
         "ChapterName": "Investigating the Bible",
-        "SortOrder": "040704",
+        "SortOrder": "040707",
         "Year": 7,
         "Season": "Winter",
         "Volume": "0407",
@@ -4016,7 +3920,7 @@
           "chapter5_1"
         ],
         "ChapterName": "Winter Life in the Temple",
-        "SortOrder": "040705",
+        "SortOrder": "040709",
         "Year": 7,
         "Season": "Winter",
         "Volume": "0407",
@@ -4036,7 +3940,7 @@
           "chapter6"
         ],
         "ChapterName": "This and That in the Castle",
-        "SortOrder": "040706a",
+        "SortOrder": "040710",
         "Year": 7,
         "Season": "Winter",
         "Volume": "0407",
@@ -4058,7 +3962,7 @@
           "chapter7_1"
         ],
         "ChapterName": "The Ternisbefallen Inquiry",
-        "SortOrder": "040707",
+        "SortOrder": "040712",
         "Year": 7,
         "Season": "Winter",
         "Volume": "0407",
@@ -4078,7 +3982,7 @@
           "chapter8"
         ],
         "ChapterName": "The Bible Inspection Meeting",
-        "SortOrder": "040708",
+        "SortOrder": "040713",
         "Year": 7,
         "Season": "Winter",
         "Volume": "0407",
@@ -4098,7 +4002,7 @@
           "chapter9"
         ],
         "ChapterName": "Planning for the Tea Party",
-        "SortOrder": "040709",
+        "SortOrder": "040714",
         "Year": 7,
         "Season": "Winter",
         "Volume": "0407",
@@ -4120,7 +4024,7 @@
           "chapter10_1"
         ],
         "ChapterName": "The Tea Party with Drewanchel",
-        "SortOrder": "040710",
+        "SortOrder": "040715",
         "Year": 7,
         "Season": "Winter",
         "Volume": "0407",
@@ -4142,7 +4046,7 @@
           "chapter11_1"
         ],
         "ChapterName": "Roderick's Name-Swearing",
-        "SortOrder": "040711",
+        "SortOrder": "040716",
         "Year": 7,
         "Season": "Winter",
         "Volume": "0407",
@@ -4162,7 +4066,7 @@
           "chapter12"
         ],
         "ChapterName": "Interduchy Tournament (Second Year)",
-        "SortOrder": "040712",
+        "SortOrder": "040717",
         "Year": 7,
         "Season": "Winter",
         "Volume": "0407",
@@ -4184,7 +4088,7 @@
           "chapter13_1"
         ],
         "ChapterName": "The Ditter Match",
-        "SortOrder": "040713",
+        "SortOrder": "040718",
         "Year": 7,
         "Season": "Winter",
         "Volume": "0407",
@@ -4204,7 +4108,7 @@
           "chapter14"
         ],
         "ChapterName": "Ditter at the Interduchy Tournament",
-        "SortOrder": "040714",
+        "SortOrder": "040719",
         "Year": 7,
         "Season": "Winter",
         "Volume": "0407",
@@ -4226,7 +4130,7 @@
           "chapter15_1"
         ],
         "ChapterName": "Hartmut's Marriage Partner",
-        "SortOrder": "040715",
+        "SortOrder": "040720",
         "Year": 7,
         "Season": "Winter",
         "Volume": "0407",
@@ -4248,7 +4152,7 @@
           "chapter16_1"
         ],
         "ChapterName": "Unforseen Consequences",
-        "SortOrder": "040716",
+        "SortOrder": "040721",
         "Year": 7,
         "Season": "Winter",
         "Volume": "0407",
@@ -4268,7 +4172,7 @@
           "chapter17"
         ],
         "ChapterName": "The Graduation Ceremony",
-        "SortOrder": "040717",
+        "SortOrder": "040722",
         "Year": 7,
         "Season": "Winter",
         "Volume": "0407",
@@ -4290,7 +4194,7 @@
           "chapter18_1"
         ],
         "ChapterName": "The Library and Going Home",
-        "SortOrder": "040718",
+        "SortOrder": "040723",
         "Year": 7,
         "Season": "Winter",
         "Volume": "0407",
@@ -4308,22 +4212,14 @@
     ],
     "POVChapters": [
       {
-        "OverrideName": "",
         "POV": "Hannelore",
-        "Source": "P4V7",
-        "EarlySortOrder": "",
-        "LateSortOrder": "",
-        "EarlyYear": 0,
-        "LateYear": 0,
-        "EarlySeason": "",
-        "LateSeason": "",
         "OriginalFilenames": [
           "prologue",
           "insert1",
           "prologue_1"
         ],
         "ChapterName": "Prologue",
-        "SortOrder": "040700",
+        "SortOrder": "040702",
         "Year": 7,
         "Season": "Winter",
         "Volume": "0407",
@@ -4339,20 +4235,12 @@
         "EndLine": null
       },
       {
-        "OverrideName": "",
         "POV": "Eglantine",
-        "Source": "P4V7",
-        "EarlySortOrder": "",
-        "LateSortOrder": "",
-        "EarlyYear": 0,
-        "LateYear": 0,
-        "EarlySeason": "",
-        "LateSeason": "",
         "OriginalFilenames": [
           "epilogue"
         ],
         "ChapterName": "Epilogue",
-        "SortOrder": "040719",
+        "SortOrder": "040724",
         "Year": 7,
         "Season": "Winter",
         "Volume": "0407",
@@ -4375,8 +4263,8 @@
         "OverrideName": "",
         "POV": "Clarissa",
         "Source": "P4V7 Extra 1",
-        "EarlySortOrder": "040706b",
-        "LateSortOrder": "040796c",
+        "EarlySortOrder": "040711",
+        "LateSortOrder": "04079602",
         "EarlyYear": 7,
         "LateYear": 7,
         "EarlySeason": "Winter",
@@ -4405,8 +4293,8 @@
         "OverrideName": "",
         "POV": "Leonore",
         "Source": "P4V7 Extra 2",
-        "EarlySortOrder": "040701b",
-        "LateSortOrder": "040796a",
+        "EarlySortOrder": "040704",
+        "LateSortOrder": "04079603",
         "EarlyYear": 7,
         "LateYear": 7,
         "EarlySeason": "Winter",
@@ -4437,7 +4325,7 @@
         "manga2"
       ],
       "ChapterName": "Comfy Life 407",
-      "SortOrder": "040798",
+      "SortOrder": "040725",
       "Year": 7,
       "Season": "Winter",
       "Volume": "0407",
@@ -4524,7 +4412,7 @@
         "characters3"
       ],
       "ChapterName": "Founder of the Royal Academy's So-Called Library Committee Characters",
-      "SortOrder": "0407",
+      "SortOrder": "040701",
       "Year": 7,
       "Season": "Winter",
       "Volume": "0407",
@@ -4557,7 +4445,7 @@
           "chapter1"
         ],
         "ChapterName": "The Return and a Dinner Meeting",
-        "SortOrder": "040801",
+        "SortOrder": "040803",
         "Year": 7,
         "Season": "Winter",
         "Volume": "0408",
@@ -4579,7 +4467,7 @@
           "chapter2_1"
         ],
         "ChapterName": "The Winter Playroom and Judithe's Younger Brother",
-        "SortOrder": "040802",
+        "SortOrder": "040804",
         "Year": 7,
         "Season": "Winter",
         "Volume": "0408",
@@ -4599,7 +4487,7 @@
           "chapter3"
         ],
         "ChapterName": "Discussion with the Plantin Company",
-        "SortOrder": "040803",
+        "SortOrder": "040805",
         "Year": 7,
         "Season": "Winter",
         "Volume": "0408",
@@ -4621,7 +4509,7 @@
           "chapter4_1"
         ],
         "ChapterName": "Melchior's Baptism",
-        "SortOrder": "040804",
+        "SortOrder": "040806",
         "Year": 7,
         "Season": "Spring",
         "Volume": "0408",
@@ -4641,7 +4529,7 @@
           "chapter5"
         ],
         "ChapterName": "Ahrensbach's Fish Cuisine",
-        "SortOrder": "040805",
+        "SortOrder": "040807",
         "Year": 7,
         "Season": "Spring",
         "Volume": "0408",
@@ -4663,7 +4551,7 @@
           "chapter6_1"
         ],
         "ChapterName": "Returning to the Temple and the Meeting with the Gutenbergs",
-        "SortOrder": "040806",
+        "SortOrder": "040808",
         "Year": 7,
         "Season": "Spring",
         "Volume": "0408",
@@ -4685,7 +4573,7 @@
           "chapter7_1"
         ],
         "ChapterName": "Dissecting Fish",
-        "SortOrder": "040807",
+        "SortOrder": "040809",
         "Year": 7,
         "Season": "Spring",
         "Volume": "0408",
@@ -4705,7 +4593,7 @@
           "chapter8"
         ],
         "ChapterName": "Spring Prayer and Leaving for Leisegang",
-        "SortOrder": "040808",
+        "SortOrder": "040810",
         "Year": 7,
         "Season": "Spring",
         "Volume": "0408",
@@ -4725,7 +4613,7 @@
           "chapter9"
         ],
         "ChapterName": "Giebe Leisegang",
-        "SortOrder": "040809",
+        "SortOrder": "040811",
         "Year": 7,
         "Season": "Spring",
         "Volume": "0408",
@@ -4745,7 +4633,7 @@
           "chapter10"
         ],
         "ChapterName": "Visiting Great-Grandfather",
-        "SortOrder": "040810",
+        "SortOrder": "040812",
         "Year": 7,
         "Season": "Spring",
         "Volume": "0408",
@@ -4767,7 +4655,7 @@
           "chapter11_1"
         ],
         "ChapterName": "Sitting Out the Archduke Conference",
-        "SortOrder": "040811a",
+        "SortOrder": "040813",
         "Year": 7,
         "Season": "Spring",
         "Volume": "0408",
@@ -4787,7 +4675,7 @@
           "chapter12"
         ],
         "ChapterName": "Report on the Archduke Conference (Second Year)",
-        "SortOrder": "040812",
+        "SortOrder": "040815",
         "Year": 7,
         "Season": "Spring",
         "Volume": "0408",
@@ -4809,7 +4697,7 @@
           "chapter13_1"
         ],
         "ChapterName": "A More Private Meeting (Second Year)",
-        "SortOrder": "040813",
+        "SortOrder": "040816",
         "Year": 7,
         "Season": "Spring",
         "Volume": "0408",
@@ -4831,7 +4719,7 @@
           "chapter14_1"
         ],
         "ChapterName": "Decisions",
-        "SortOrder": "040814a",
+        "SortOrder": "040817",
         "Year": 7,
         "Season": "Spring",
         "Volume": "0408",
@@ -4851,7 +4739,7 @@
           "chapter15"
         ],
         "ChapterName": "Successors",
-        "SortOrder": "040815",
+        "SortOrder": "040819",
         "Year": 7,
         "Season": "Spring",
         "Volume": "0408",
@@ -4871,7 +4759,7 @@
           "chapter16"
         ],
         "ChapterName": "Another Discussion and Making Rejuvenation Potions",
-        "SortOrder": "040816",
+        "SortOrder": "040820",
         "Year": 7,
         "Season": "Spring",
         "Volume": "0408",
@@ -4893,7 +4781,7 @@
           "chapter17_1"
         ],
         "ChapterName": "Hartmut's First Ceremony and Another Jureve",
-        "SortOrder": "040817",
+        "SortOrder": "040821",
         "Year": 7,
         "Season": "Spring",
         "Volume": "0408",
@@ -4913,7 +4801,7 @@
           "chapter18"
         ],
         "ChapterName": "A Visitor and Counterstrategies",
-        "SortOrder": "040818",
+        "SortOrder": "040822",
         "Year": 8,
         "Season": "Summer",
         "Volume": "0408",
@@ -4933,7 +4821,7 @@
           "chapter19"
         ],
         "ChapterName": "The Welcoming Feast",
-        "SortOrder": "040819",
+        "SortOrder": "040823",
         "Year": 8,
         "Season": "Summer",
         "Volume": "0408",
@@ -4955,7 +4843,7 @@
           "chapter20_1"
         ],
         "ChapterName": "Ferdinand's Estate",
-        "SortOrder": "040820",
+        "SortOrder": "040824",
         "Year": 8,
         "Season": "Summer",
         "Volume": "0408",
@@ -4973,20 +4861,12 @@
     ],
     "POVChapters": [
       {
-        "OverrideName": "",
         "POV": "Melchior",
-        "Source": "P4V8",
-        "EarlySortOrder": "",
-        "LateSortOrder": "",
-        "EarlyYear": 0,
-        "LateYear": 0,
-        "EarlySeason": "",
-        "LateSeason": "",
         "OriginalFilenames": [
           "prologue"
         ],
         "ChapterName": "Prologue",
-        "SortOrder": "040800",
+        "SortOrder": "040802",
         "Year": 7,
         "Season": "Winter",
         "Volume": "0408",
@@ -5002,21 +4882,13 @@
         "EndLine": null
       },
       {
-        "OverrideName": "",
         "POV": "Detlinde",
-        "Source": "P4V8",
-        "EarlySortOrder": "",
-        "LateSortOrder": "",
-        "EarlyYear": 0,
-        "LateYear": 0,
-        "EarlySeason": "",
-        "LateSeason": "",
         "OriginalFilenames": [
           "epilogue",
           "insert10"
         ],
         "ChapterName": "Epilogue",
-        "SortOrder": "040821",
+        "SortOrder": "040825",
         "Year": 8,
         "Season": "Summer",
         "Volume": "0408",
@@ -5039,8 +4911,8 @@
         "OverrideName": "",
         "POV": "Heisshitze",
         "Source": "P4V8 Extra 1",
-        "EarlySortOrder": "040811b",
-        "LateSortOrder": "040896a",
+        "EarlySortOrder": "040814",
+        "LateSortOrder": "04089601",
         "EarlyYear": 7,
         "LateYear": 8,
         "EarlySeason": "Spring",
@@ -5069,8 +4941,8 @@
         "OverrideName": "",
         "POV": "Eckhart",
         "Source": "P4V8 Extra 2",
-        "EarlySortOrder": "040814b",
-        "LateSortOrder": "040896b",
+        "EarlySortOrder": "040818",
+        "LateSortOrder": "04089602",
         "EarlyYear": 7,
         "LateYear": 8,
         "EarlySeason": "Spring",
@@ -5101,7 +4973,7 @@
         "manga2"
       ],
       "ChapterName": "Comfy Life 408",
-      "SortOrder": "040898",
+      "SortOrder": "040826",
       "Year": 8,
       "Season": "Summer",
       "Volume": "0408",
@@ -5188,7 +5060,7 @@
         "characters3"
       ],
       "ChapterName": "Founder of the Royal Academy's So-Called Library Committee Characters",
-      "SortOrder": "0408",
+      "SortOrder": "040801",
       "Year": 8,
       "Season": "Summer",
       "Volume": "0408",
@@ -5223,7 +5095,7 @@
           "chapter1_1"
         ],
         "ChapterName": "Rewarding Hartmut's Hard Work",
-        "SortOrder": "040901",
+        "SortOrder": "040903",
         "Year": 8,
         "Season": "Autumn",
         "Volume": "0409",
@@ -5243,7 +5115,7 @@
           "chapter2"
         ],
         "ChapterName": "The Harvest Festival and a Meeting",
-        "SortOrder": "040902",
+        "SortOrder": "040904",
         "Year": 8,
         "Season": "Autumn",
         "Volume": "0409",
@@ -5263,7 +5135,7 @@
           "chapter3"
         ],
         "ChapterName": "The Farewell Dinner",
-        "SortOrder": "040903",
+        "SortOrder": "040905",
         "Year": 8,
         "Season": "Autumn",
         "Volume": "0409",
@@ -5285,7 +5157,7 @@
           "chapter4_1"
         ],
         "ChapterName": "Farewell Gifts",
-        "SortOrder": "040904",
+        "SortOrder": "040906",
         "Year": 8,
         "Season": "Autumn",
         "Volume": "0409",
@@ -5305,7 +5177,7 @@
           "chapter5"
         ],
         "ChapterName": "A Stolen Book",
-        "SortOrder": "040905",
+        "SortOrder": "040907",
         "Year": 8,
         "Season": "Autumn",
         "Volume": "0409",
@@ -5325,7 +5197,7 @@
           "chapter6"
         ],
         "ChapterName": "Commoner Testimonies",
-        "SortOrder": "040906",
+        "SortOrder": "040908",
         "Year": 8,
         "Season": "Autumn",
         "Volume": "0409",
@@ -5347,7 +5219,7 @@
           "chapter7_1"
         ],
         "ChapterName": "Rescue",
-        "SortOrder": "040907",
+        "SortOrder": "040909",
         "Year": 8,
         "Season": "Autumn",
         "Volume": "0409",
@@ -5369,7 +5241,7 @@
           "chapter8_1"
         ],
         "ChapterName": "Evidence",
-        "SortOrder": "040908",
+        "SortOrder": "040910",
         "Year": 8,
         "Season": "Autumn",
         "Volume": "0409",
@@ -5389,7 +5261,7 @@
           "chapter9"
         ],
         "ChapterName": "New Perspectives",
-        "SortOrder": "040909",
+        "SortOrder": "040911",
         "Year": 8,
         "Season": "Autumn",
         "Volume": "0409",
@@ -5411,7 +5283,7 @@
           "chapter10_1"
         ],
         "ChapterName": "Viscount Dahldolf's Estate",
-        "SortOrder": "040910",
+        "SortOrder": "040912",
         "Year": 8,
         "Season": "Autumn",
         "Volume": "0409",
@@ -5431,7 +5303,7 @@
           "chapter11"
         ],
         "ChapterName": "Finding the Book",
-        "SortOrder": "040911",
+        "SortOrder": "040913",
         "Year": 8,
         "Season": "Autumn",
         "Volume": "0409",
@@ -5451,7 +5323,7 @@
           "chapter12"
         ],
         "ChapterName": "A Change of Plans",
-        "SortOrder": "040912",
+        "SortOrder": "040914",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0409",
@@ -5473,7 +5345,7 @@
           "chapter13_1"
         ],
         "ChapterName": "Preparing to Leave",
-        "SortOrder": "040913a",
+        "SortOrder": "040915",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0409",
@@ -5493,7 +5365,7 @@
           "chapter14"
         ],
         "ChapterName": "Separation",
-        "SortOrder": "040914a",
+        "SortOrder": "040917",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0409",
@@ -5511,22 +5383,14 @@
     ],
     "POVChapters": [
       {
-        "OverrideName": "",
         "POV": "Florencia",
-        "Source": "P4V9",
-        "EarlySortOrder": "",
-        "LateSortOrder": "",
-        "EarlyYear": 0,
-        "LateYear": 0,
-        "EarlySeason": "",
-        "LateSeason": "",
         "OriginalFilenames": [
           "prologue",
           "insert1",
           "prologue_1"
         ],
         "ChapterName": "Prologue",
-        "SortOrder": "040900",
+        "SortOrder": "040902",
         "Year": 8,
         "Season": "Summer",
         "Volume": "0409",
@@ -5542,21 +5406,13 @@
         "EndLine": null
       },
       {
-        "OverrideName": "",
         "POV": "Ferdinand",
-        "Source": "P4V9",
-        "EarlySortOrder": "",
-        "LateSortOrder": "",
-        "EarlyYear": 0,
-        "LateYear": 0,
-        "EarlySeason": "",
-        "LateSeason": "",
         "OriginalFilenames": [
           "epilogue",
           "insert8"
         ],
         "ChapterName": "Epilogue",
-        "SortOrder": "040915a",
+        "SortOrder": "040919",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0409",
@@ -5579,8 +5435,8 @@
         "OverrideName": "",
         "POV": "Sylvester",
         "Source": "P4V9 Extra 1",
-        "EarlySortOrder": "040915b",
-        "LateSortOrder": "040996a",
+        "EarlySortOrder": "040920",
+        "LateSortOrder": "04099601",
         "EarlyYear": 8,
         "LateYear": 8,
         "EarlySeason": "Winter",
@@ -5609,8 +5465,8 @@
         "OverrideName": "",
         "POV": "Justus",
         "Source": "P4V9 Extra 2",
-        "EarlySortOrder": "040915c",
-        "LateSortOrder": "040996b",
+        "EarlySortOrder": "040921",
+        "LateSortOrder": "04099602",
         "EarlyYear": 8,
         "LateYear": 8,
         "EarlySeason": "Winter",
@@ -5639,8 +5495,8 @@
         "OverrideName": "",
         "POV": "Cornelius",
         "Source": "P4V9 Extra 3",
-        "EarlySortOrder": "040915d",
-        "LateSortOrder": "040996c",
+        "EarlySortOrder": "040922",
+        "LateSortOrder": "04099603",
         "EarlyYear": 8,
         "LateYear": 8,
         "EarlySeason": "Winter",
@@ -5669,8 +5525,8 @@
         "OverrideName": "",
         "POV": "Matthias",
         "Source": "P4V9 Extra 4",
-        "EarlySortOrder": "040915e",
-        "LateSortOrder": "040996d",
+        "EarlySortOrder": "040923",
+        "LateSortOrder": "04099604",
         "EarlyYear": 8,
         "LateYear": 8,
         "EarlySeason": "Winter",
@@ -5701,8 +5557,8 @@
         "OverrideName": "",
         "POV": "Wilma",
         "Source": "P4V9 Extra 5",
-        "EarlySortOrder": "040915f",
-        "LateSortOrder": "040996e",
+        "EarlySortOrder": "040924",
+        "LateSortOrder": "04099605",
         "EarlyYear": 8,
         "LateYear": 8,
         "EarlySeason": "Winter",
@@ -5731,8 +5587,8 @@
         "OverrideName": "",
         "POV": "Kamil",
         "Source": "P4V9 Extra 6",
-        "EarlySortOrder": "040915g",
-        "LateSortOrder": "040996f",
+        "EarlySortOrder": "040925",
+        "LateSortOrder": "04099606",
         "EarlyYear": 8,
         "LateYear": 8,
         "EarlySeason": "Winter",
@@ -5763,8 +5619,8 @@
         "OverrideName": "",
         "POV": "Rihyarda",
         "Source": "P4V9 Extra 7",
-        "EarlySortOrder": "040914b",
-        "LateSortOrder": "040996g",
+        "EarlySortOrder": "040918",
+        "LateSortOrder": "04099607",
         "EarlyYear": 8,
         "LateYear": 8,
         "EarlySeason": "Winter",
@@ -5793,8 +5649,8 @@
         "OverrideName": "",
         "POV": "Fran",
         "Source": "P4V9 Extra 8",
-        "EarlySortOrder": "040913b",
-        "LateSortOrder": "040996h",
+        "EarlySortOrder": "040916",
+        "LateSortOrder": "04099608",
         "EarlyYear": 8,
         "LateYear": 8,
         "EarlySeason": "Winter",
@@ -5825,7 +5681,7 @@
         "manga2"
       ],
       "ChapterName": "Comfy Life 409",
-      "SortOrder": "040998",
+      "SortOrder": "040926",
       "Year": 8,
       "Season": "Winter",
       "Volume": "0409",
@@ -5912,7 +5768,7 @@
         "characters3"
       ],
       "ChapterName": "Founder of the Royal Academy's So-Called Library Committee Characters",
-      "SortOrder": "0409",
+      "SortOrder": "040901",
       "Year": 8,
       "Season": "Winter",
       "Volume": "0409",

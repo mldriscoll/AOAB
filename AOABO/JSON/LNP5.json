@@ -14,7 +14,7 @@
           "chapter1"
         ],
         "ChapterName": "The Children of the Former Veronica Faction",
-        "SortOrder": "050101",
+        "SortOrder": "050103",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0501",
@@ -34,7 +34,7 @@
           "chapter2"
         ],
         "ChapterName": "The Fellowship Gatherings",
-        "SortOrder": "050102",
+        "SortOrder": "050104",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0501",
@@ -56,7 +56,7 @@
           "chapter3_1"
         ],
         "ChapterName": "Passing Classes",
-        "SortOrder": "050103",
+        "SortOrder": "050105",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0501",
@@ -78,7 +78,7 @@
           "chapter4_1"
         ],
         "ChapterName": "The New Librarian",
-        "SortOrder": "050104a",
+        "SortOrder": "050106",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0501",
@@ -98,7 +98,7 @@
           "chapter5"
         ],
         "ChapterName": "Practical: Divine Protections of the Gods",
-        "SortOrder": "050105",
+        "SortOrder": "050108",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0501",
@@ -118,7 +118,7 @@
           "chapter6"
         ],
         "ChapterName": "Music and Everyone's Rituals",
-        "SortOrder": "050106",
+        "SortOrder": "050109",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0501",
@@ -140,7 +140,7 @@
           "chapter7_1"
         ],
         "ChapterName": "Discussing Divine Protections with Hirschur",
-        "SortOrder": "050107",
+        "SortOrder": "050110",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0501",
@@ -160,7 +160,7 @@
           "chapter8"
         ],
         "ChapterName": "Beginning the Archduke Candidate Course",
-        "SortOrder": "050108",
+        "SortOrder": "050111",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0501",
@@ -180,7 +180,7 @@
           "chapter9"
         ],
         "ChapterName": "Dedication Whirling (Third Year)",
-        "SortOrder": "050109",
+        "SortOrder": "050112",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0501",
@@ -202,7 +202,7 @@
           "chapter10_1"
         ],
         "ChapterName": "Hirschur's Meeting with the Aub",
-        "SortOrder": "050110",
+        "SortOrder": "050113",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0501",
@@ -222,7 +222,7 @@
           "chapter11"
         ],
         "ChapterName": "Researching Rituals and an Update on the Purge",
-        "SortOrder": "050111",
+        "SortOrder": "050114",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0501",
@@ -242,7 +242,7 @@
           "chapter12"
         ],
         "ChapterName": "Finishing the Archduke Candidate Lessons",
-        "SortOrder": "050112",
+        "SortOrder": "050115",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0501",
@@ -262,7 +262,7 @@
           "chapter13"
         ],
         "ChapterName": "Passing Professor Gundolf's Classes",
-        "SortOrder": "050113",
+        "SortOrder": "050116",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0501",
@@ -284,7 +284,7 @@
           "chapter14_1"
         ],
         "ChapterName": "Gretia's Circumstances and Gathering Ingredients",
-        "SortOrder": "050114",
+        "SortOrder": "050117",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0501",
@@ -306,7 +306,7 @@
           "chapter15_1"
         ],
         "ChapterName": "Professor Fraularm's Class",
-        "SortOrder": "050115",
+        "SortOrder": "050118",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0501",
@@ -326,7 +326,7 @@
           "chapter16"
         ],
         "ChapterName": "Hirschur's Personal Librarian",
-        "SortOrder": "050116",
+        "SortOrder": "050119",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0501",
@@ -348,7 +348,7 @@
           "chapter17_1"
         ],
         "ChapterName": "A Request from Royalty",
-        "SortOrder": "050117",
+        "SortOrder": "050120",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0501",
@@ -368,7 +368,7 @@
           "chapter18"
         ],
         "ChapterName": "Tea Party for Bookworms",
-        "SortOrder": "050118",
+        "SortOrder": "050121",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0501",
@@ -390,7 +390,7 @@
           "chapter19_1"
         ],
         "ChapterName": "Tea Party with Dunkelfelger",
-        "SortOrder": "050119",
+        "SortOrder": "050122",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0501",
@@ -412,7 +412,7 @@
           "chapter20_1"
         ],
         "ChapterName": "Replies",
-        "SortOrder": "050120a",
+        "SortOrder": "050123",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0501",
@@ -430,22 +430,14 @@
     ],
     "POVChapters": [
       {
-        "OverrideName": "",
         "POV": "Hildebrand",
-        "Source": "P5V1",
-        "EarlySortOrder": "",
-        "LateSortOrder": "",
-        "EarlyYear": 0,
-        "LateYear": 0,
-        "EarlySeason": "",
-        "LateSeason": "",
         "OriginalFilenames": [
           "prologue",
           "insert1",
           "prologue_1"
         ],
         "ChapterName": "Prologue",
-        "SortOrder": "050100",
+        "SortOrder": "050102",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0501",
@@ -461,20 +453,12 @@
         "EndLine": null
       },
       {
-        "OverrideName": "",
         "POV": "Lestilaut",
-        "Source": "P5V1",
-        "EarlySortOrder": "",
-        "LateSortOrder": "",
-        "EarlyYear": 0,
-        "LateYear": 0,
-        "EarlySeason": "",
-        "LateSeason": "",
         "OriginalFilenames": [
           "chapter21"
         ],
         "ChapterName": "Epilogue",
-        "SortOrder": "050121",
+        "SortOrder": "050125",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0501",
@@ -497,8 +481,8 @@
         "OverrideName": "",
         "POV": "Muriella",
         "Source": "P5V1 Extra 1",
-        "EarlySortOrder": "050120b",
-        "LateSortOrder": "050196a",
+        "EarlySortOrder": "050124",
+        "LateSortOrder": "05019601",
         "EarlyYear": 8,
         "LateYear": 8,
         "EarlySeason": "Winter",
@@ -527,8 +511,8 @@
         "OverrideName": "",
         "POV": "Hortensia",
         "Source": "P5V1 Extra 2",
-        "EarlySortOrder": "050104b",
-        "LateSortOrder": "050196b",
+        "EarlySortOrder": "050107",
+        "LateSortOrder": "05019602",
         "EarlyYear": 8,
         "LateYear": 8,
         "EarlySeason": "Winter",
@@ -559,7 +543,7 @@
         "manga2"
       ],
       "ChapterName": "Comfy Life 501",
-      "SortOrder": "050198",
+      "SortOrder": "050126",
       "Year": 8,
       "Season": "Winter",
       "Volume": "0501",
@@ -646,7 +630,7 @@
         "characters3"
       ],
       "ChapterName": "Avatar of a Goddess Characters",
-      "SortOrder": "0501",
+      "SortOrder": "050101",
       "Year": 8,
       "Season": "Winter",
       "Volume": "0501",
@@ -701,7 +685,7 @@
           "chapter1_1"
         ],
         "ChapterName": "The Royal Family and the Library",
-        "SortOrder": "050201",
+        "SortOrder": "050204",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0502",
@@ -723,7 +707,7 @@
           "chapter2_1"
         ],
         "ChapterName": "Dunkelfelger's Ritual",
-        "SortOrder": "050202",
+        "SortOrder": "050205",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0502",
@@ -743,7 +727,7 @@
           "chapter3"
         ],
         "ChapterName": "Talking and Tallying",
-        "SortOrder": "050203",
+        "SortOrder": "050206",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0502",
@@ -765,7 +749,7 @@
           "chapter4_1"
         ],
         "ChapterName": "Frustrating Tea Parties",
-        "SortOrder": "050204",
+        "SortOrder": "050207",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0502",
@@ -785,7 +769,7 @@
           "chapter5"
         ],
         "ChapterName": "Doing a Little Scheming",
-        "SortOrder": "050205",
+        "SortOrder": "050208",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0502",
@@ -805,7 +789,7 @@
           "chapter6"
         ],
         "ChapterName": "Preparing for the Ritual",
-        "SortOrder": "050206",
+        "SortOrder": "050209",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0502",
@@ -827,7 +811,7 @@
           "chapter7_1"
         ],
         "ChapterName": "The Royal Academy's Dedication Ritual",
-        "SortOrder": "050207a",
+        "SortOrder": "050210",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0502",
@@ -849,7 +833,7 @@
           "chapter8_1"
         ],
         "ChapterName": "Using the Rest of the Mana",
-        "SortOrder": "050208a",
+        "SortOrder": "050212",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0502",
@@ -869,7 +853,7 @@
           "chapter9"
         ],
         "ChapterName": "Tea Parties and Negotiations",
-        "SortOrder": "050209",
+        "SortOrder": "050214",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0502",
@@ -891,7 +875,7 @@
           "chapter10_1"
         ],
         "ChapterName": "Confrontation",
-        "SortOrder": "050210",
+        "SortOrder": "050215",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0502",
@@ -911,7 +895,7 @@
           "chapter11"
         ],
         "ChapterName": "Preparing for Ditter",
-        "SortOrder": "050211",
+        "SortOrder": "050216",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0502",
@@ -933,7 +917,7 @@
           "chapter12_1"
         ],
         "ChapterName": "Bride-Taking Ditter",
-        "SortOrder": "050212",
+        "SortOrder": "050217",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0502",
@@ -953,7 +937,7 @@
           "chapter13"
         ],
         "ChapterName": "Intruders",
-        "SortOrder": "050213",
+        "SortOrder": "050218",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0502",
@@ -971,22 +955,14 @@
     ],
     "POVChapters": [
       {
-        "OverrideName": "",
         "POV": "Ferdinand",
-        "Source": "P5V2",
-        "EarlySortOrder": "",
-        "LateSortOrder": "",
-        "EarlyYear": 0,
-        "LateYear": 0,
-        "EarlySeason": "",
-        "LateSeason": "",
         "OriginalFilenames": [
           "prologue",
           "insert1",
           "prologue_1"
         ],
         "ChapterName": "Prologue",
-        "SortOrder": "050200a",
+        "SortOrder": "050202",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0502",
@@ -1002,22 +978,14 @@
         "EndLine": null
       },
       {
-        "OverrideName": "",
         "POV": "Hannelore",
-        "Source": "P5V2",
-        "EarlySortOrder": "",
-        "LateSortOrder": "",
-        "EarlyYear": 0,
-        "LateYear": 0,
-        "EarlySeason": "",
-        "LateSeason": "",
         "OriginalFilenames": [
           "chapter14",
           "insert9",
           "chapter14_1"
         ],
         "ChapterName": "Epilogue",
-        "SortOrder": "050214",
+        "SortOrder": "050219",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0502",
@@ -1040,8 +1008,8 @@
         "OverrideName": "",
         "POV": "Lueuradi",
         "Source": "P5V2 Extra 1",
-        "EarlySortOrder": "050207b",
-        "LateSortOrder": "050296b",
+        "EarlySortOrder": "050211",
+        "LateSortOrder": "05029601",
         "EarlyYear": 8,
         "LateYear": 8,
         "EarlySeason": "Winter",
@@ -1072,8 +1040,8 @@
         "OverrideName": "",
         "POV": "Sigiswald",
         "Source": "P5V2 Extra 2",
-        "EarlySortOrder": "050200b",
-        "LateSortOrder": "050296a",
+        "EarlySortOrder": "050203",
+        "LateSortOrder": "05029602",
         "EarlyYear": 8,
         "LateYear": 8,
         "EarlySeason": "Winter",
@@ -1102,8 +1070,8 @@
         "OverrideName": "",
         "POV": "Sylvester",
         "Source": "P5V2 Extra 3",
-        "EarlySortOrder": "050208b",
-        "LateSortOrder": "050296c",
+        "EarlySortOrder": "050213",
+        "LateSortOrder": "05029603",
         "EarlyYear": 8,
         "LateYear": 8,
         "EarlySeason": "Winter",
@@ -1134,7 +1102,7 @@
         "manga2"
       ],
       "ChapterName": "Comfy Life 502",
-      "SortOrder": "050298",
+      "SortOrder": "050220",
       "Year": 8,
       "Season": "Winter",
       "Volume": "0502",
@@ -1221,7 +1189,7 @@
         "characters3"
       ],
       "ChapterName": "Avatar of a Goddess Characters",
-      "SortOrder": "0502",
+      "SortOrder": "050201",
       "Year": 8,
       "Season": "Winter",
       "Volume": "0502",
@@ -1254,7 +1222,7 @@
           "chapter1"
         ],
         "ChapterName": "Awakening and Reports",
-        "SortOrder": "050301",
+        "SortOrder": "050303",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0503",
@@ -1274,7 +1242,7 @@
           "chapter2"
         ],
         "ChapterName": "Preparing for the Interduchy Tournament",
-        "SortOrder": "050302",
+        "SortOrder": "050304",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0503",
@@ -1294,7 +1262,7 @@
           "chapter3"
         ],
         "ChapterName": "Raimund’s Research and Hirschur’s Warning",
-        "SortOrder": "050303",
+        "SortOrder": "050305",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0503",
@@ -1316,7 +1284,7 @@
           "chapter4_1"
         ],
         "ChapterName": "The Interduchy Tournament (Third Year)",
-        "SortOrder": "050304",
+        "SortOrder": "050306",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0503",
@@ -1338,7 +1306,7 @@
           "chapter5_1"
         ],
         "ChapterName": "Socializing with Dunkelfelger",
-        "SortOrder": "050305",
+        "SortOrder": "050307",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0503",
@@ -1358,7 +1326,7 @@
           "chapter6"
         ],
         "ChapterName": "Socializing with Ahrensbach",
-        "SortOrder": "050306a",
+        "SortOrder": "050308",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0503",
@@ -1380,7 +1348,7 @@
           "chapter7_1"
         ],
         "ChapterName": "Socializing with Royalty",
-        "SortOrder": "050307",
+        "SortOrder": "050310",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0503",
@@ -1400,7 +1368,7 @@
           "chapter8"
         ],
         "ChapterName": "Socializing with Other Duchies",
-        "SortOrder": "050308a",
+        "SortOrder": "050311",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0503",
@@ -1420,7 +1388,7 @@
           "chapter9"
         ],
         "ChapterName": "Socializing with Frenbeltag",
-        "SortOrder": "050309",
+        "SortOrder": "050313",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0503",
@@ -1442,7 +1410,7 @@
           "chapter10_1"
         ],
         "ChapterName": "Ditter and Dunkelfelger’s Demonstration",
-        "SortOrder": "050310",
+        "SortOrder": "050314",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0503",
@@ -1462,7 +1430,7 @@
           "chapter11"
         ],
         "ChapterName": "My First Awards Ceremony",
-        "SortOrder": "050311",
+        "SortOrder": "050315",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0503",
@@ -1484,7 +1452,7 @@
           "chapter12_1"
         ],
         "ChapterName": "Dinner with Ferdinand",
-        "SortOrder": "050312",
+        "SortOrder": "050316",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0503",
@@ -1508,7 +1476,7 @@
           "chapter13_2"
         ],
         "ChapterName": "Farewells and the Coming-of-Age Ceremony",
-        "SortOrder": "050313",
+        "SortOrder": "050317",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0503",
@@ -1528,7 +1496,7 @@
           "chapter14"
         ],
         "ChapterName": "Detlinde’s Dedication Whirl",
-        "SortOrder": "050314",
+        "SortOrder": "050318",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0503",
@@ -1550,7 +1518,7 @@
           "chapter15_1"
         ],
         "ChapterName": "A Discussion with Eglantine",
-        "SortOrder": "050315",
+        "SortOrder": "050319",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0503",
@@ -1570,7 +1538,7 @@
           "chapter16"
         ],
         "ChapterName": "Lending Books and a Place for One’s Heart",
-        "SortOrder": "050316a",
+        "SortOrder": "050320",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0503",
@@ -1588,22 +1556,14 @@
     ],
     "POVChapters": [
       {
-        "OverrideName": "",
         "POV": "Matthias",
-        "Source": "P5V3",
-        "EarlySortOrder": "",
-        "LateSortOrder": "",
-        "EarlyYear": 0,
-        "LateYear": 0,
-        "EarlySeason": "",
-        "LateSeason": "",
         "OriginalFilenames": [
           "prologue",
           "insert1",
           "prologue_1"
         ],
         "ChapterName": "Prologue",
-        "SortOrder": "050300a",
+        "SortOrder": "050302",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0503",
@@ -1619,22 +1579,14 @@
         "EndLine": null
       },
       {
-        "OverrideName": "",
         "POV": "Martina",
-        "Source": "P5V3",
-        "EarlySortOrder": "",
-        "LateSortOrder": "",
-        "EarlyYear": 0,
-        "LateYear": 0,
-        "EarlySeason": "",
-        "LateSeason": "",
         "OriginalFilenames": [
           "chapter17",
           "insert10",
           "chapter17_1"
         ],
         "ChapterName": "Epilogue",
-        "SortOrder": "050317",
+        "SortOrder": "050322",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0503",
@@ -1657,8 +1609,8 @@
         "OverrideName": "",
         "POV": "Lueuradi",
         "Source": "P5V3 Extra 1",
-        "EarlySortOrder": "050306b",
-        "LateSortOrder": "050396a",
+        "EarlySortOrder": "050309",
+        "LateSortOrder": "05039601",
         "EarlyYear": 8,
         "LateYear": 8,
         "EarlySeason": "Winter",
@@ -1687,8 +1639,8 @@
         "OverrideName": "",
         "POV": "Sieglinde",
         "Source": "P5V3 Extra 2",
-        "EarlySortOrder": "050308b",
-        "LateSortOrder": "050396b",
+        "EarlySortOrder": "050312",
+        "LateSortOrder": "05039602",
         "EarlyYear": 8,
         "LateYear": 8,
         "EarlySeason": "Winter",
@@ -1717,8 +1669,8 @@
         "OverrideName": "",
         "POV": "Wilfried",
         "Source": "P5V3 Extra 3",
-        "EarlySortOrder": "050316b",
-        "LateSortOrder": "050396c",
+        "EarlySortOrder": "050321",
+        "LateSortOrder": "05039603",
         "EarlyYear": 8,
         "LateYear": 8,
         "EarlySeason": "Winter",
@@ -1749,7 +1701,7 @@
         "manga2"
       ],
       "ChapterName": "Comfy Life 503",
-      "SortOrder": "050398",
+      "SortOrder": "050323",
       "Year": 8,
       "Season": "Winter",
       "Volume": "0503",
@@ -1836,7 +1788,7 @@
         "characters3"
       ],
       "ChapterName": "Avatar of a Goddess Characters",
-      "SortOrder": "0503",
+      "SortOrder": "050301",
       "Year": 8,
       "Season": "Winter",
       "Volume": "0503",
@@ -1869,7 +1821,7 @@
           "chapter1"
         ],
         "ChapterName": "Returning Home and Everyone’s Situation",
-        "SortOrder": "050401",
+        "SortOrder": "050403",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0504",
@@ -1889,7 +1841,7 @@
           "chapter2"
         ],
         "ChapterName": "Lamprecht and Nikolaus",
-        "SortOrder": "050402",
+        "SortOrder": "050404",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0504",
@@ -1911,7 +1863,7 @@
           "chapter3_1"
         ],
         "ChapterName": "Archducal Family Meeting",
-        "SortOrder": "050403",
+        "SortOrder": "050405",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0504",
@@ -1933,7 +1885,7 @@
           "chapter4_1"
         ],
         "ChapterName": "Melchior and Preparing for the Temple",
-        "SortOrder": "050404",
+        "SortOrder": "050406",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0504",
@@ -1953,7 +1905,7 @@
           "chapter5"
         ],
         "ChapterName": "The Will of the Leisegangs",
-        "SortOrder": "050405",
+        "SortOrder": "050407",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0504",
@@ -1973,7 +1925,7 @@
           "chapter6"
         ],
         "ChapterName": "Speaking with the Aub",
-        "SortOrder": "050406",
+        "SortOrder": "050408",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0504",
@@ -1995,7 +1947,7 @@
           "chapter7_1"
         ],
         "ChapterName": "Brunhilde’s Suggestion",
-        "SortOrder": "050407",
+        "SortOrder": "050409",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0504",
@@ -2015,7 +1967,7 @@
           "chapter8"
         ],
         "ChapterName": "Changing Surroundings and the Feast Celebrating Spring",
-        "SortOrder": "050408a",
+        "SortOrder": "050411",
         "Year": 8,
         "Season": "Spring",
         "Volume": "0504",
@@ -2037,7 +1989,7 @@
           "chapter9_1"
         ],
         "ChapterName": "Touring the Temple",
-        "SortOrder": "050409",
+        "SortOrder": "050413",
         "Year": 8,
         "Season": "Spring",
         "Volume": "0504",
@@ -2059,7 +2011,7 @@
           "chapter10_1"
         ],
         "ChapterName": "Preparing the Ritual",
-        "SortOrder": "050410",
+        "SortOrder": "050414",
         "Year": 8,
         "Season": "Spring",
         "Volume": "0504",
@@ -2079,7 +2031,7 @@
           "chapter11"
         ],
         "ChapterName": "Reobtaining Divine Protections",
-        "SortOrder": "050411",
+        "SortOrder": "050415",
         "Year": 8,
         "Season": "Spring",
         "Volume": "0504",
@@ -2101,7 +2053,7 @@
           "chapter12_1"
         ],
         "ChapterName": "Clarissa’s Invasion",
-        "SortOrder": "050412",
+        "SortOrder": "050416",
         "Year": 8,
         "Season": "Spring",
         "Volume": "0504",
@@ -2123,7 +2075,7 @@
           "chapter13_1"
         ],
         "ChapterName": "She Arrived Immediately",
-        "SortOrder": "050413a",
+        "SortOrder": "050417",
         "Year": 8,
         "Season": "Spring",
         "Volume": "0504",
@@ -2143,7 +2095,7 @@
           "chapter14"
         ],
         "ChapterName": "Melchior and Spring Prayer",
-        "SortOrder": "050414",
+        "SortOrder": "050419",
         "Year": 8,
         "Season": "Spring",
         "Volume": "0504",
@@ -2163,7 +2115,7 @@
           "chapter15"
         ],
         "ChapterName": "The Disciples of the Gutenbergs",
-        "SortOrder": "050415",
+        "SortOrder": "050420",
         "Year": 8,
         "Season": "Spring",
         "Volume": "0504",
@@ -2183,7 +2135,7 @@
           "chapter16"
         ],
         "ChapterName": "Kirnberger’s Country Gate",
-        "SortOrder": "050416",
+        "SortOrder": "050421",
         "Year": 8,
         "Season": "Spring",
         "Volume": "0504",
@@ -2201,22 +2153,14 @@
     ],
     "POVChapters": [
       {
-        "OverrideName": "",
         "POV": "Lamprecht",
-        "Source": "P5V4",
-        "EarlySortOrder": "",
-        "LateSortOrder": "",
-        "EarlyYear": 0,
-        "LateYear": 0,
-        "EarlySeason": "",
-        "LateSeason": "",
         "OriginalFilenames": [
           "prologue",
           "insert1",
           "prologue_1"
         ],
         "ChapterName": "Prologue",
-        "SortOrder": "050400",
+        "SortOrder": "050402",
         "Year": 8,
         "Season": "Winter",
         "Volume": "0504",
@@ -2232,22 +2176,14 @@
         "EndLine": null
       },
       {
-        "OverrideName": "",
         "POV": "Alexis",
-        "Source": "P5V4",
-        "EarlySortOrder": "",
-        "LateSortOrder": "",
-        "EarlyYear": 0,
-        "LateYear": 0,
-        "EarlySeason": "",
-        "LateSeason": "",
         "OriginalFilenames": [
           "chapter17",
           "insert9",
           "chapter17_1"
         ],
         "ChapterName": "Epilogue",
-        "SortOrder": "050417",
+        "SortOrder": "050422",
         "Year": 8,
         "Season": "Spring",
         "Volume": "0504",
@@ -2270,8 +2206,8 @@
         "OverrideName": "",
         "POV": "Charlotte",
         "Source": "P5V4 Extra 1",
-        "EarlySortOrder": "050408b",
-        "LateSortOrder": "050496b",
+        "EarlySortOrder": "050412",
+        "LateSortOrder": "05049602",
         "EarlyYear": 8,
         "LateYear": 8,
         "EarlySeason": "Spring",
@@ -2300,8 +2236,8 @@
         "OverrideName": "",
         "POV": "Gunther",
         "Source": "P5V4 Extra 2",
-        "EarlySortOrder": "050413b",
-        "LateSortOrder": "050496c",
+        "EarlySortOrder": "050418",
+        "LateSortOrder": "05049603",
         "EarlyYear": 8,
         "LateYear": 8,
         "EarlySeason": "Spring",
@@ -2334,7 +2270,7 @@
         "manga2"
       ],
       "ChapterName": "Comfy Life 504",
-      "SortOrder": "050498",
+      "SortOrder": "050423",
       "Year": 8,
       "Season": "Winter",
       "Volume": "0504",
@@ -2421,7 +2357,7 @@
         "characters3"
       ],
       "ChapterName": "Avatar of a Goddess Characters",
-      "SortOrder": "0504",
+      "SortOrder": "050401",
       "Year": 8,
       "Season": "Winter",
       "Volume": "0504",
@@ -2454,7 +2390,7 @@
           "chapter1"
         ],
         "ChapterName": "Apprentice Blues and the Orphanage Children",
-        "SortOrder": "050501",
+        "SortOrder": "050503",
         "Year": 8,
         "Season": "Spring",
         "Volume": "0505",
@@ -2474,7 +2410,7 @@
           "chapter2"
         ],
         "ChapterName": "Divine Protections All Around",
-        "SortOrder": "050502",
+        "SortOrder": "050504",
         "Year": 8,
         "Season": "Spring",
         "Volume": "0505",
@@ -2496,7 +2432,7 @@
           "chapter3_1"
         ],
         "ChapterName": "The Archduke Conference’s Starbinding",
-        "SortOrder": "050503",
+        "SortOrder": "050505",
         "Year": 8,
         "Season": "Spring",
         "Volume": "0505",
@@ -2516,7 +2452,7 @@
           "chapter4"
         ],
         "ChapterName": "Work in the Underground Archive",
-        "SortOrder": "050504",
+        "SortOrder": "050506",
         "Year": 8,
         "Season": "Spring",
         "Volume": "0505",
@@ -2538,7 +2474,7 @@
           "chapter5_1"
         ],
         "ChapterName": "Zent Candidates",
-        "SortOrder": "050505",
+        "SortOrder": "050507",
         "Year": 8,
         "Season": "Spring",
         "Volume": "0505",
@@ -2560,7 +2496,7 @@
           "chapter6_1"
         ],
         "ChapterName": "The Locations of the Shrines",
-        "SortOrder": "050506",
+        "SortOrder": "050508",
         "Year": 8,
         "Season": "Spring",
         "Volume": "0505",
@@ -2580,7 +2516,7 @@
           "chapter7"
         ],
         "ChapterName": "Consultation",
-        "SortOrder": "050507",
+        "SortOrder": "050509",
         "Year": 8,
         "Season": "Spring",
         "Volume": "0505",
@@ -2602,7 +2538,7 @@
           "chapter8_1"
         ],
         "ChapterName": "Circling the Shrines",
-        "SortOrder": "050508",
+        "SortOrder": "050510",
         "Year": 8,
         "Season": "Spring",
         "Volume": "0505",
@@ -2624,7 +2560,7 @@
           "chapter9_1"
         ],
         "ChapterName": "Deeper into the Underground Archive",
-        "SortOrder": "050509",
+        "SortOrder": "050511",
         "Year": 8,
         "Season": "Spring",
         "Volume": "0505",
@@ -2646,7 +2582,7 @@
           "chapter10_1"
         ],
         "ChapterName": "Letters and a Discussion",
-        "SortOrder": "050510",
+        "SortOrder": "050512",
         "Year": 8,
         "Season": "Spring",
         "Volume": "0505",
@@ -2668,7 +2604,7 @@
           "chapter11_1"
         ],
         "ChapterName": "The Merchant Saint",
-        "SortOrder": "050511",
+        "SortOrder": "050513",
         "Year": 8,
         "Season": "Spring",
         "Volume": "0505",
@@ -2688,7 +2624,7 @@
           "chapter12"
         ],
         "ChapterName": "Conditions for Being Adopted",
-        "SortOrder": "050512",
+        "SortOrder": "050514",
         "Year": 8,
         "Season": "Spring",
         "Volume": "0505",
@@ -2708,7 +2644,7 @@
           "chapter13"
         ],
         "ChapterName": "Secured Conditions",
-        "SortOrder": "050513",
+        "SortOrder": "050515",
         "Year": 8,
         "Season": "Spring",
         "Volume": "0505",
@@ -2730,7 +2666,7 @@
           "chapter14_1"
         ],
         "ChapterName": "The Archduke Conference’s Dedication Ritual",
-        "SortOrder": "050514a",
+        "SortOrder": "050516",
         "Year": 8,
         "Season": "Spring",
         "Volume": "0505",
@@ -2748,22 +2684,14 @@
     ],
     "POVChapters": [
       {
-        "OverrideName": "",
         "POV": "Bonifatius",
-        "Source": "P5V5",
-        "EarlySortOrder": "",
-        "LateSortOrder": "",
-        "EarlyYear": 0,
-        "LateYear": 0,
-        "EarlySeason": "",
-        "LateSeason": "",
         "OriginalFilenames": [
           "prologue",
           "insert1",
           "prologue_1"
         ],
         "ChapterName": "Prologue",
-        "SortOrder": "050500",
+        "SortOrder": "050502",
         "Year": 8,
         "Season": "Spring",
         "Volume": "0505",
@@ -2779,22 +2707,14 @@
         "EndLine": null
       },
       {
-        "OverrideName": "",
         "POV": "Hildebrand",
-        "Source": "P5V5",
-        "EarlySortOrder": "",
-        "LateSortOrder": "",
-        "EarlyYear": 0,
-        "LateYear": 0,
-        "EarlySeason": "",
-        "LateSeason": "",
         "OriginalFilenames": [
           "chapter15",
           "insert10",
           "chapter15_1"
         ],
         "ChapterName": "Epilogue",
-        "SortOrder": "050515a",
+        "SortOrder": "050518",
         "Year": 8,
         "Season": "Spring",
         "Volume": "0505",
@@ -2817,8 +2737,8 @@
         "OverrideName": "",
         "POV": "Adolphine",
         "Source": "P5V5 Extra 1",
-        "EarlySortOrder": "050514b",
-        "LateSortOrder": "050596a",
+        "EarlySortOrder": "050517",
+        "LateSortOrder": "05059601",
         "EarlyYear": 8,
         "LateYear": 8,
         "EarlySeason": "Spring",
@@ -2847,8 +2767,8 @@
         "OverrideName": "",
         "POV": "Hortensia",
         "Source": "P5V5 Extra 2",
-        "EarlySortOrder": "050515b",
-        "LateSortOrder": "050596b",
+        "EarlySortOrder": "050519",
+        "LateSortOrder": "05059602",
         "EarlyYear": 8,
         "LateYear": 8,
         "EarlySeason": "Spring",
@@ -2879,7 +2799,7 @@
         "manga2"
       ],
       "ChapterName": "Comfy Life 505",
-      "SortOrder": "050598",
+      "SortOrder": "050520",
       "Year": 8,
       "Season": "Spring",
       "Volume": "0505",
@@ -2966,7 +2886,7 @@
         "characters3"
       ],
       "ChapterName": "Avatar of a Goddess Characters",
-      "SortOrder": "0505",
+      "SortOrder": "050501",
       "Year": 8,
       "Season": "Spring",
       "Volume": "0505",
@@ -2999,7 +2919,7 @@
           "chapter1"
         ],
         "ChapterName": "Report on the Archduke Conference (Third Year)",
-        "SortOrder": "050601",
+        "SortOrder": "050603",
         "Year": 8,
         "Season": "Spring",
         "Volume": "0506",
@@ -3021,7 +2941,7 @@
           "chapter2_1"
         ],
         "ChapterName": "The Canceled Engagement and a Choice for the Future",
-        "SortOrder": "050602",
+        "SortOrder": "050604",
         "Year": 8,
         "Season": "Spring",
         "Volume": "0506",
@@ -3041,7 +2961,7 @@
           "chapter3"
         ],
         "ChapterName": "My Retainers’ Choices",
-        "SortOrder": "050603",
+        "SortOrder": "050605",
         "Year": 8,
         "Season": "Spring",
         "Volume": "0506",
@@ -3063,7 +2983,7 @@
           "chapter4_1"
         ],
         "ChapterName": "At Karstedt’s Estate",
-        "SortOrder": "050604",
+        "SortOrder": "050606",
         "Year": 8,
         "Season": "Spring",
         "Volume": "0506",
@@ -3083,7 +3003,7 @@
           "chapter5"
         ],
         "ChapterName": "Mother and Daughter",
-        "SortOrder": "050605a",
+        "SortOrder": "050607",
         "Year": 8,
         "Season": "Spring",
         "Volume": "0506",
@@ -3105,7 +3025,7 @@
           "chapter6_1"
         ],
         "ChapterName": "Magic Tools for Children",
-        "SortOrder": "050606a",
+        "SortOrder": "050609",
         "Year": 8,
         "Season": "Spring",
         "Volume": "0506",
@@ -3127,7 +3047,7 @@
           "chapter7_1"
         ],
         "ChapterName": "Preparing Fey Paper",
-        "SortOrder": "050607",
+        "SortOrder": "050611",
         "Year": 8,
         "Season": "Spring",
         "Volume": "0506",
@@ -3147,7 +3067,7 @@
           "chapter8"
         ],
         "ChapterName": "Making Maximal-Quality Samples",
-        "SortOrder": "050608",
+        "SortOrder": "050612",
         "Year": 8,
         "Season": "Spring",
         "Volume": "0506",
@@ -3167,7 +3087,7 @@
           "chapter9"
         ],
         "ChapterName": "The Spring Coming-of-Age Ceremony and Sylvester’s Departure",
-        "SortOrder": "050609",
+        "SortOrder": "050613",
         "Year": 8,
         "Season": "Spring",
         "Volume": "0506",
@@ -3189,7 +3109,7 @@
           "chapter10_1"
         ],
         "ChapterName": "Kids’ Tea Party",
-        "SortOrder": "050610",
+        "SortOrder": "050614",
         "Year": 9,
         "Season": "Summer",
         "Volume": "0506",
@@ -3209,7 +3129,7 @@
           "chapter11"
         ],
         "ChapterName": "The Leisegang Elders",
-        "SortOrder": "050611a",
+        "SortOrder": "050615",
         "Year": 9,
         "Season": "Summer",
         "Volume": "0506",
@@ -3229,7 +3149,7 @@
           "chapter12"
         ],
         "ChapterName": "Sylvester Returns",
-        "SortOrder": "050612",
+        "SortOrder": "050617",
         "Year": 9,
         "Season": "Summer",
         "Volume": "0506",
@@ -3251,7 +3171,7 @@
           "chapter13_1"
         ],
         "ChapterName": "Letters from Ferdinand",
-        "SortOrder": "050613",
+        "SortOrder": "050618",
         "Year": 9,
         "Season": "Summer",
         "Volume": "0506",
@@ -3271,7 +3191,7 @@
           "chapter14"
         ],
         "ChapterName": "The Trombe Hunt and the Starbind Ceremony",
-        "SortOrder": "050614",
+        "SortOrder": "050619",
         "Year": 9,
         "Season": "Summer",
         "Volume": "0506",
@@ -3293,7 +3213,7 @@
           "chapter15_1"
         ],
         "ChapterName": "Tuuli’s Coming-of-Age Ceremony",
-        "SortOrder": "050615",
+        "SortOrder": "050620",
         "Year": 9,
         "Season": "Summer",
         "Volume": "0506",
@@ -3315,7 +3235,7 @@
           "chapter16_1"
         ],
         "ChapterName": "Interviews with the Aub",
-        "SortOrder": "050616",
+        "SortOrder": "050621",
         "Year": 9,
         "Season": "Autumn",
         "Volume": "0506",
@@ -3335,7 +3255,7 @@
           "chapter17"
         ],
         "ChapterName": "The Harvest Festival and the Gutenbergs’ Choices",
-        "SortOrder": "050617",
+        "SortOrder": "050622",
         "Year": 9,
         "Season": "Autumn",
         "Volume": "0506",
@@ -3353,20 +3273,12 @@
     ],
     "POVChapters": [
       {
-        "OverrideName": "",
         "POV": "Florencia",
-        "Source": "P5V6",
-        "EarlySortOrder": "",
-        "LateSortOrder": "",
-        "EarlyYear": 0,
-        "LateYear": 0,
-        "EarlySeason": "",
-        "LateSeason": "",
         "OriginalFilenames": [
           "prologue"
         ],
         "ChapterName": "Prologue",
-        "SortOrder": "050600",
+        "SortOrder": "050602",
         "Year": 8,
         "Season": "Spring",
         "Volume": "0506",
@@ -3382,22 +3294,14 @@
         "EndLine": null
       },
       {
-        "OverrideName": "",
         "POV": "Lutz",
-        "Source": "P5V6",
-        "EarlySortOrder": "",
-        "LateSortOrder": "",
-        "EarlyYear": 0,
-        "LateYear": 0,
-        "EarlySeason": "",
-        "LateSeason": "",
         "OriginalFilenames": [
           "epilogue",
           "insert9",
           "epilogue_1"
         ],
         "ChapterName": "Epilogue",
-        "SortOrder": "050618",
+        "SortOrder": "050623",
         "Year": 9,
         "Season": "Autumn",
         "Volume": "0506",
@@ -3420,8 +3324,8 @@
         "OverrideName": "",
         "POV": "Lieseleta",
         "Source": "P5V6 Extra 2",
-        "EarlySortOrder": "050605b",
-        "LateSortOrder": "050696a",
+        "EarlySortOrder": "050608",
+        "LateSortOrder": "05069601",
         "EarlyYear": 8,
         "LateYear": 9,
         "EarlySeason": "Spring",
@@ -3450,8 +3354,8 @@
         "OverrideName": "",
         "POV": "Detlinde",
         "Source": "P5V6 Extra 1",
-        "EarlySortOrder": "050606b",
-        "LateSortOrder": "050696b",
+        "EarlySortOrder": "050610",
+        "LateSortOrder": "05069602",
         "EarlyYear": 8,
         "LateYear": 9,
         "EarlySeason": "Spring",
@@ -3481,8 +3385,8 @@
         "OverrideName": "",
         "POV": "Sylvester",
         "Source": "P5V6 Extra 3",
-        "EarlySortOrder": "050611b",
-        "LateSortOrder": "050696c",
+        "EarlySortOrder": "050616",
+        "LateSortOrder": "05069603",
         "EarlyYear": 9,
         "LateYear": 9,
         "EarlySeason": "Summer",
@@ -3513,7 +3417,7 @@
         "manga2"
       ],
       "ChapterName": "Comfy Life 506",
-      "SortOrder": "050698",
+      "SortOrder": "050624",
       "Year": 9,
       "Season": "Autumn",
       "Volume": "0506",
@@ -3600,7 +3504,7 @@
         "characters3"
       ],
       "ChapterName": "Avatar of a Goddess Characters",
-      "SortOrder": "0506",
+      "SortOrder": "050601",
       "Year": 8,
       "Season": "Spring",
       "Volume": "0506",
@@ -3635,7 +3539,7 @@
           "chapter1_1"
         ],
         "ChapterName": "Dirk’s and Bertram’s Baptisms",
-        "SortOrder": "050701",
+        "SortOrder": "050703",
         "Year": 9,
         "Season": "Autumn",
         "Volume": "0507",
@@ -3655,7 +3559,7 @@
           "chapter2"
         ],
         "ChapterName": "The Winter Playroom and Another New Term",
-        "SortOrder": "050702",
+        "SortOrder": "050704",
         "Year": 9,
         "Season": "Winter",
         "Volume": "0507",
@@ -3677,7 +3581,7 @@
           "chapter3_1"
         ],
         "ChapterName": "The Fellowship Gatherings (Fourth Year)",
-        "SortOrder": "050703",
+        "SortOrder": "050705",
         "Year": 9,
         "Season": "Winter",
         "Volume": "0507",
@@ -3699,7 +3603,7 @@
           "chapter4_1"
         ],
         "ChapterName": "The First Week of Classes",
-        "SortOrder": "050704",
+        "SortOrder": "050706",
         "Year": 9,
         "Season": "Winter",
         "Volume": "0507",
@@ -3719,7 +3623,7 @@
           "chapter5"
         ],
         "ChapterName": "The Royal Academy’s Dedication Rituals",
-        "SortOrder": "050705",
+        "SortOrder": "050707",
         "Year": 9,
         "Season": "Winter",
         "Volume": "0507",
@@ -3741,7 +3645,7 @@
           "chapter6_1"
         ],
         "ChapterName": "Meeting Gramps",
-        "SortOrder": "050706",
+        "SortOrder": "050708",
         "Year": 9,
         "Season": "Winter",
         "Volume": "0507",
@@ -3761,7 +3665,7 @@
           "chapter7"
         ],
         "ChapterName": "The Book of Mestionora",
-        "SortOrder": "050707",
+        "SortOrder": "050709",
         "Year": 9,
         "Season": "Winter",
         "Volume": "0507",
@@ -3783,7 +3687,7 @@
           "chapter8_1"
         ],
         "ChapterName": "I’m Back",
-        "SortOrder": "050708a",
+        "SortOrder": "050710",
         "Year": 9,
         "Season": "Winter",
         "Volume": "0507",
@@ -3803,7 +3707,7 @@
           "chapter9"
         ],
         "ChapterName": "The Foundational Magic",
-        "SortOrder": "050709",
+        "SortOrder": "050713",
         "Year": 9,
         "Season": "Winter",
         "Volume": "0507",
@@ -3823,7 +3727,7 @@
           "chapter10"
         ],
         "ChapterName": "The Bible’s Key",
-        "SortOrder": "050710",
+        "SortOrder": "050714",
         "Year": 9,
         "Season": "Winter",
         "Volume": "0507",
@@ -3845,7 +3749,7 @@
           "chapter11_1"
         ],
         "ChapterName": "Anxiety and the Measuring",
-        "SortOrder": "050711",
+        "SortOrder": "050715",
         "Year": 9,
         "Season": "Winter",
         "Volume": "0507",
@@ -3865,7 +3769,7 @@
           "chapter12"
         ],
         "ChapterName": "How to Protect Them",
-        "SortOrder": "050712",
+        "SortOrder": "050716",
         "Year": 9,
         "Season": "Winter",
         "Volume": "0507",
@@ -3885,7 +3789,7 @@
           "chapter13"
         ],
         "ChapterName": "Preparing for War",
-        "SortOrder": "050713",
+        "SortOrder": "050717",
         "Year": 9,
         "Season": "Winter",
         "Volume": "0507",
@@ -3907,7 +3811,7 @@
           "chapter14_1"
         ],
         "ChapterName": "Kamil’s Baptism",
-        "SortOrder": "050714",
+        "SortOrder": "050718",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0507",
@@ -3927,7 +3831,7 @@
           "chapter15"
         ],
         "ChapterName": "Defense Meeting",
-        "SortOrder": "050715",
+        "SortOrder": "050719",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0507",
@@ -3947,7 +3851,7 @@
           "chapter16"
         ],
         "ChapterName": "Danger Beheld",
-        "SortOrder": "050716",
+        "SortOrder": "050720",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0507",
@@ -3969,7 +3873,7 @@
           "chapter17_1"
         ],
         "ChapterName": "Temptation",
-        "SortOrder": "050717",
+        "SortOrder": "050721",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0507",
@@ -3989,7 +3893,7 @@
           "chapter18"
         ],
         "ChapterName": "Faster than Steifebrise",
-        "SortOrder": "050718",
+        "SortOrder": "050722",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0507",
@@ -4007,20 +3911,12 @@
     ],
     "POVChapters": [
       {
-        "OverrideName": "",
         "POV": "Ferdinand",
-        "Source": "P5V7",
-        "EarlySortOrder": "",
-        "LateSortOrder": "",
-        "EarlyYear": 0,
-        "LateYear": 0,
-        "EarlySeason": "",
-        "LateSeason": "",
         "OriginalFilenames": [
           "prologue"
         ],
         "ChapterName": "Prologue",
-        "SortOrder": "050700",
+        "SortOrder": "050702",
         "Year": 9,
         "Season": "Autumn",
         "Volume": "0507",
@@ -4036,22 +3932,14 @@
         "EndLine": null
       },
       {
-        "OverrideName": "",
         "POV": "Letizia",
-        "Source": "P5V7",
-        "EarlySortOrder": "",
-        "LateSortOrder": "",
-        "EarlyYear": 0,
-        "LateYear": 0,
-        "EarlySeason": "",
-        "LateSeason": "",
         "OriginalFilenames": [
           "epilogue",
           "insert9",
           "epilogue_1"
         ],
         "ChapterName": "Epilogue",
-        "SortOrder": "050719a",
+        "SortOrder": "050723",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0507",
@@ -4074,8 +3962,8 @@
         "OverrideName": "",
         "POV": "Sigiswald",
         "Source": "P5V7 Extra 1",
-        "EarlySortOrder": "050708b",
-        "LateSortOrder": "050796a",
+        "EarlySortOrder": "050711",
+        "LateSortOrder": "05079601",
         "EarlyYear": 9,
         "LateYear": 9,
         "EarlySeason": "Winter",
@@ -4106,8 +3994,8 @@
         "OverrideName": "",
         "POV": "Charlotte",
         "Source": "P5V7 Extra 2",
-        "EarlySortOrder": "050708c",
-        "LateSortOrder": "050796b",
+        "EarlySortOrder": "050712",
+        "LateSortOrder": "05079602",
         "EarlyYear": 9,
         "LateYear": 9,
         "EarlySeason": "Winter",
@@ -4136,8 +4024,8 @@
         "OverrideName": "",
         "POV": "Leonzio",
         "Source": "P5V7 Extra 3",
-        "EarlySortOrder": "050719b",
-        "LateSortOrder": "050796c",
+        "EarlySortOrder": "050724",
+        "LateSortOrder": "05079603",
         "EarlyYear": 9,
         "LateYear": 9,
         "EarlySeason": "Spring",
@@ -4168,7 +4056,7 @@
         "manga2"
       ],
       "ChapterName": "Comfy Life 507",
-      "SortOrder": "050798",
+      "SortOrder": "050725",
       "Year": 9,
       "Season": "Spring",
       "Volume": "0507",
@@ -4255,7 +4143,7 @@
         "characters3"
       ],
       "ChapterName": "Avatar of a Goddess Characters",
-      "SortOrder": "0507",
+      "SortOrder": "050701",
       "Year": 9,
       "Season": "Autumn",
       "Volume": "0507",
@@ -4288,7 +4176,7 @@
           "chapter1"
         ],
         "ChapterName": "Uniting",
-        "SortOrder": "050801",
+        "SortOrder": "050803",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0508",
@@ -4308,7 +4196,7 @@
           "chapter2"
         ],
         "ChapterName": "Their Information and Name Stones",
-        "SortOrder": "050802",
+        "SortOrder": "050804",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0508",
@@ -4328,7 +4216,7 @@
           "chapter3"
         ],
         "ChapterName": "Teleporting",
-        "SortOrder": "050803",
+        "SortOrder": "050805",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0508",
@@ -4350,7 +4238,7 @@
           "chapter4_1"
         ],
         "ChapterName": "To Battle",
-        "SortOrder": "050804",
+        "SortOrder": "050807",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0508",
@@ -4370,7 +4258,7 @@
           "chapter5"
         ],
         "ChapterName": "Ahrensbach’s Temple",
-        "SortOrder": "050805",
+        "SortOrder": "050808",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0508",
@@ -4390,7 +4278,7 @@
           "chapter6"
         ],
         "ChapterName": "Ahrensbach’s Foundation and Replenishment Hall",
-        "SortOrder": "050806",
+        "SortOrder": "050809",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0508",
@@ -4412,7 +4300,7 @@
           "chapter7_1"
         ],
         "ChapterName": "Rescue",
-        "SortOrder": "050807",
+        "SortOrder": "050810",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0508",
@@ -4432,7 +4320,7 @@
           "chapter8"
         ],
         "ChapterName": "My Geduldh",
-        "SortOrder": "050808",
+        "SortOrder": "050811",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0508",
@@ -4452,7 +4340,7 @@
           "chapter9"
         ],
         "ChapterName": "The Zent and the Grutrissheit",
-        "SortOrder": "050809",
+        "SortOrder": "050812",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0508",
@@ -4472,7 +4360,7 @@
           "chapter10"
         ],
         "ChapterName": "The New Aub",
-        "SortOrder": "050810",
+        "SortOrder": "050814",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0508",
@@ -4493,7 +4381,7 @@
           "insert4"
         ],
         "ChapterName": "The Aub's Protection",
-        "SortOrder": "050811",
+        "SortOrder": "050815",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0508",
@@ -4513,7 +4401,7 @@
           "chapter12"
         ],
         "ChapterName": "Lanzenave's Ships",
-        "SortOrder": "050812",
+        "SortOrder": "050816",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0508",
@@ -4535,7 +4423,7 @@
           "chapter13_1"
         ],
         "ChapterName": "Summoning Winter",
-        "SortOrder": "050813",
+        "SortOrder": "050817",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0508",
@@ -4555,7 +4443,7 @@
           "chapter14"
         ],
         "ChapterName": "Choices",
-        "SortOrder": "050814",
+        "SortOrder": "050818",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0508",
@@ -4575,7 +4463,7 @@
           "chapter15"
         ],
         "ChapterName": "Playground",
-        "SortOrder": "050815",
+        "SortOrder": "050819",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0508",
@@ -4597,7 +4485,7 @@
           "chapter16_1"
         ],
         "ChapterName": "Rumors and a Departure",
-        "SortOrder": "050816",
+        "SortOrder": "050820",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0508",
@@ -4619,7 +4507,7 @@
           "chapter17_1"
         ],
         "ChapterName": "Bindewald",
-        "SortOrder": "050817",
+        "SortOrder": "050821",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0508",
@@ -4639,7 +4527,7 @@
           "chapter18"
         ],
         "ChapterName": "Black Weapons and Chalices",
-        "SortOrder": "050818",
+        "SortOrder": "050822",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0508",
@@ -4657,22 +4545,14 @@
     ],
     "POVChapters": [
       {
-        "OverrideName": "",
         "POV": "Justus",
-        "Source": "P5V8",
-        "EarlySortOrder": "",
-        "LateSortOrder": "",
-        "EarlyYear": 0,
-        "LateYear": 0,
-        "EarlySeason": "",
-        "LateSeason": "",
         "OriginalFilenames": [
           "prologue",
           "insert1",
           "prologue_1"
         ],
         "ChapterName": "Prologue",
-        "SortOrder": "050800",
+        "SortOrder": "050802",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0508",
@@ -4688,22 +4568,14 @@
         "EndLine": null
       },
       {
-        "OverrideName": "",
         "POV": "Georgine",
-        "Source": "P5V8",
-        "EarlySortOrder": "",
-        "LateSortOrder": "",
-        "EarlyYear": 0,
-        "LateYear": 0,
-        "EarlySeason": "",
-        "LateSeason": "",
         "OriginalFilenames": [
           "epilogue",
           "insert8",
           "epilogue_1"
         ],
         "ChapterName": "Epilogue",
-        "SortOrder": "050819",
+        "SortOrder": "050824",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0508",
@@ -4726,8 +4598,8 @@
         "OverrideName": "",
         "POV": "Ferdinand",
         "Source": "P5V8 Extra 2",
-        "EarlySortOrder": "050809b",
-        "LateSortOrder": "050896b",
+        "EarlySortOrder": "050813",
+        "LateSortOrder": "05089601",
         "EarlyYear": 9,
         "LateYear": 9,
         "EarlySeason": "Spring",
@@ -4756,8 +4628,8 @@
         "OverrideName": "",
         "POV": "Giebe Kirnberger",
         "Source": "P5V8 Extra 1",
-        "EarlySortOrder": "050803b",
-        "LateSortOrder": "050896a",
+        "EarlySortOrder": "050806",
+        "LateSortOrder": "05089602",
         "EarlyYear": 9,
         "LateYear": 9,
         "EarlySeason": "Spring",
@@ -4790,8 +4662,8 @@
         "OverrideName": "",
         "POV": "Brigitte",
         "Source": "P5V8 Extra 1",
-        "EarlySortOrder": "050818b",
-        "LateSortOrder": "050896c",
+        "EarlySortOrder": "050823",
+        "LateSortOrder": "05089603",
         "EarlyYear": 9,
         "LateYear": 9,
         "EarlySeason": "Spring",
@@ -4824,8 +4696,8 @@
         "OverrideName": "",
         "POV": "Philine",
         "Source": "P5V8 Extra 1",
-        "EarlySortOrder": "050819b",
-        "LateSortOrder": "050896d",
+        "EarlySortOrder": "050825",
+        "LateSortOrder": "05089604",
         "EarlyYear": 9,
         "LateYear": 9,
         "EarlySeason": "Spring",
@@ -4858,8 +4730,8 @@
         "OverrideName": "",
         "POV": "Effa",
         "Source": "P5V8 Extra 1",
-        "EarlySortOrder": "050819c",
-        "LateSortOrder": "050896e",
+        "EarlySortOrder": "050826",
+        "LateSortOrder": "05089605",
         "EarlyYear": 9,
         "LateYear": 9,
         "EarlySeason": "Spring",
@@ -4892,8 +4764,8 @@
         "OverrideName": "",
         "POV": "Gunther",
         "Source": "P5V8 Extra 1",
-        "EarlySortOrder": "050819d",
-        "LateSortOrder": "050896f",
+        "EarlySortOrder": "050827",
+        "LateSortOrder": "05089606",
         "EarlyYear": 9,
         "LateYear": 9,
         "EarlySeason": "Spring",
@@ -4928,7 +4800,7 @@
         "manga2"
       ],
       "ChapterName": "Comfy Life 508",
-      "SortOrder": "050898",
+      "SortOrder": "050828",
       "Year": 9,
       "Season": "Spring",
       "Volume": "0508",
@@ -5015,7 +4887,7 @@
         "characters3"
       ],
       "ChapterName": "Avatar of a Goddess Characters",
-      "SortOrder": "0508",
+      "SortOrder": "050801",
       "Year": 9,
       "Season": "Autumn",
       "Volume": "0508",
@@ -5050,7 +4922,7 @@
           "chapter1_1"
         ],
         "ChapterName": "Gerlach's Front Line",
-        "SortOrder": "050901a",
+        "SortOrder": "050905",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0509",
@@ -5070,7 +4942,7 @@
           "chapter2"
         ],
         "ChapterName": "Confronting Grausam",
-        "SortOrder": "050902",
+        "SortOrder": "050908",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0509",
@@ -5090,7 +4962,7 @@
           "chapter3"
         ],
         "ChapterName": "Victory and Return",
-        "SortOrder": "050903a",
+        "SortOrder": "050909",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0509",
@@ -5112,7 +4984,7 @@
           "chapter4_1"
         ],
         "ChapterName": "Everyone’s Tales of Heroism",
-        "SortOrder": "050904",
+        "SortOrder": "050911",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0509",
@@ -5132,7 +5004,7 @@
           "chapter5"
         ],
         "ChapterName": "Celebratory Feast",
-        "SortOrder": "050905",
+        "SortOrder": "050912",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0509",
@@ -5152,7 +5024,7 @@
           "chapter6"
         ],
         "ChapterName": "A Sleepless Night",
-        "SortOrder": "050906",
+        "SortOrder": "050913",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0509",
@@ -5174,7 +5046,7 @@
           "chapter7_1"
         ],
         "ChapterName": "Late-Night Tea Party",
-        "SortOrder": "050907",
+        "SortOrder": "050914",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0509",
@@ -5196,7 +5068,7 @@
           "chapter8_1"
         ],
         "ChapterName": "Fitting",
-        "SortOrder": "050908",
+        "SortOrder": "050915",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0509",
@@ -5216,7 +5088,7 @@
           "chapter9"
         ],
         "ChapterName": "Following My Heart",
-        "SortOrder": "050909",
+        "SortOrder": "050916",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0509",
@@ -5236,7 +5108,7 @@
           "chapter10"
         ],
         "ChapterName": "Lunch Meeting",
-        "SortOrder": "050910",
+        "SortOrder": "050917",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0509",
@@ -5256,7 +5128,7 @@
           "chapter11"
         ],
         "ChapterName": "The Temple and Melchior’s Report",
-        "SortOrder": "050911",
+        "SortOrder": "050918",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0509",
@@ -5278,7 +5150,7 @@
           "chapter12_1"
         ],
         "ChapterName": "The West Gate and Groundwork",
-        "SortOrder": "050912",
+        "SortOrder": "050919",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0509",
@@ -5298,7 +5170,7 @@
           "chapter13"
         ],
         "ChapterName": "To Ahrensbach",
-        "SortOrder": "050913",
+        "SortOrder": "050920",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0509",
@@ -5318,7 +5190,7 @@
           "chapter14"
         ],
         "ChapterName": "Making the Bible",
-        "SortOrder": "050914",
+        "SortOrder": "050922",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0509",
@@ -5340,7 +5212,7 @@
           "chapter15_1"
         ],
         "ChapterName": "Dunkelfelger’s Request",
-        "SortOrder": "050915",
+        "SortOrder": "050923",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0509",
@@ -5360,7 +5232,7 @@
           "chapter16"
         ],
         "ChapterName": "Dunkelfelger’s Response",
-        "SortOrder": "050916",
+        "SortOrder": "050924",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0509",
@@ -5380,7 +5252,7 @@
           "chapter17"
         ],
         "ChapterName": "Prayers and the Departure",
-        "SortOrder": "050917",
+        "SortOrder": "050925",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0509",
@@ -5398,20 +5270,12 @@
     ],
     "POVChapters": [
       {
-        "OverrideName": "",
         "POV": "Grausam",
-        "Source": "P5V9",
-        "EarlySortOrder": "",
-        "LateSortOrder": "",
-        "EarlyYear": 0,
-        "LateYear": 0,
-        "EarlySeason": "",
-        "LateSeason": "",
         "OriginalFilenames": [
           "prologue"
         ],
         "ChapterName": "Prologue",
-        "SortOrder": "050900a",
+        "SortOrder": "050903",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0509",
@@ -5427,22 +5291,14 @@
         "EndLine": null
       },
       {
-        "OverrideName": "",
         "POV": "Gervasio",
-        "Source": "P5V9",
-        "EarlySortOrder": "",
-        "LateSortOrder": "",
-        "EarlyYear": 0,
-        "LateYear": 0,
-        "EarlySeason": "",
-        "LateSeason": "",
         "OriginalFilenames": [
           "chapter18",
           "insert7",
           "chapter18_1"
         ],
         "ChapterName": "Epilogue",
-        "SortOrder": "050918",
+        "SortOrder": "050926",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0509",
@@ -5465,8 +5321,8 @@
         "OverrideName": "",
         "POV": "Charlotte",
         "Source": "P5V9 Extra 1 (1)",
-        "EarlySortOrder": "050819e",
-        "LateSortOrder": "050996a",
+        "EarlySortOrder": "050901",
+        "LateSortOrder": "05099601",
         "EarlyYear": 9,
         "LateYear": 9,
         "EarlySeason": "Spring",
@@ -5501,8 +5357,8 @@
         "OverrideName": "",
         "POV": "Leckle",
         "Source": "P5V9 Extra 1 (2)",
-        "EarlySortOrder": "050900b",
-        "LateSortOrder": "050996b",
+        "EarlySortOrder": "050904",
+        "LateSortOrder": "05099602",
         "EarlyYear": 9,
         "LateYear": 9,
         "EarlySeason": "Spring",
@@ -5537,8 +5393,8 @@
         "OverrideName": "",
         "POV": "Judithe",
         "Source": "P5V9 Extra 1 (3)",
-        "EarlySortOrder": "050901b",
-        "LateSortOrder": "050996c",
+        "EarlySortOrder": "050906",
+        "LateSortOrder": "05099603",
         "EarlyYear": 9,
         "LateYear": 9,
         "EarlySeason": "Spring",
@@ -5573,8 +5429,8 @@
         "OverrideName": "",
         "POV": "Florencia",
         "Source": "P5V9 Extra 1 (4)",
-        "EarlySortOrder": "050901c",
-        "LateSortOrder": "050996d",
+        "EarlySortOrder": "050907",
+        "LateSortOrder": "05099604",
         "EarlyYear": 9,
         "LateYear": 9,
         "EarlySeason": "Spring",
@@ -5609,8 +5465,8 @@
         "OverrideName": "",
         "POV": "Sylvester",
         "Source": "P5V9 Extra 1 (5)",
-        "EarlySortOrder": "050903b",
-        "LateSortOrder": "050996e",
+        "EarlySortOrder": "050910",
+        "LateSortOrder": "05099605",
         "EarlyYear": 9,
         "LateYear": 9,
         "EarlySeason": "Spring",
@@ -5647,7 +5503,7 @@
         "manga2"
       ],
       "ChapterName": "Comfy Life 509",
-      "SortOrder": "050998",
+      "SortOrder": "050927",
       "Year": 9,
       "Season": "Spring",
       "Volume": "0509",
@@ -5734,7 +5590,7 @@
         "characters3"
       ],
       "ChapterName": "Avatar of a Goddess Characters",
-      "SortOrder": "0509",
+      "SortOrder": "050902",
       "Year": 9,
       "Season": "Spring",
       "Volume": "0509",
@@ -5767,7 +5623,7 @@
           "chapter1"
         ],
         "ChapterName": "The Royal Academy at Night",
-        "SortOrder": "051001",
+        "SortOrder": "051003",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0510",
@@ -5787,7 +5643,7 @@
           "chapter2"
         ],
         "ChapterName": "The Adalgisa Villa",
-        "SortOrder": "051002",
+        "SortOrder": "051004",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0510",
@@ -5807,7 +5663,7 @@
           "chapter3"
         ],
         "ChapterName": "Collaborator",
-        "SortOrder": "051003",
+        "SortOrder": "051005",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0510",
@@ -5829,7 +5685,7 @@
           "chapter4_1"
         ],
         "ChapterName": "Alstede’s Side",
-        "SortOrder": "051004",
+        "SortOrder": "051006",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0510",
@@ -5849,7 +5705,7 @@
           "chapter5"
         ],
         "ChapterName": "Rescuing Solange",
-        "SortOrder": "051005",
+        "SortOrder": "051007",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0510",
@@ -5871,7 +5727,7 @@
           "chapter6_1"
         ],
         "ChapterName": "The Road to the Garden of Beginnings",
-        "SortOrder": "051006",
+        "SortOrder": "051008",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0510",
@@ -5891,7 +5747,7 @@
           "chapter7"
         ],
         "ChapterName": "The Duty of a Zent",
-        "SortOrder": "051007",
+        "SortOrder": "051009",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0510",
@@ -5911,7 +5767,7 @@
           "chapter8"
         ],
         "ChapterName": "The Battle for the Auditorium",
-        "SortOrder": "051008",
+        "SortOrder": "051010",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0510",
@@ -5933,7 +5789,7 @@
           "chapter9_1"
         ],
         "ChapterName": "One Man’s Return from the Garden of Beginnings",
-        "SortOrder": "051009",
+        "SortOrder": "051011",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0510",
@@ -5953,7 +5809,7 @@
           "chapter10"
         ],
         "ChapterName": "The Battle atop the Altar",
-        "SortOrder": "051010",
+        "SortOrder": "051012",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0510",
@@ -5975,7 +5831,7 @@
           "chapter11_1"
         ],
         "ChapterName": "In the Garden of Beginnings",
-        "SortOrder": "051011",
+        "SortOrder": "051014",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0510",
@@ -5995,7 +5851,7 @@
           "chapter12"
         ],
         "ChapterName": "The Race to Become Zent",
-        "SortOrder": "051012",
+        "SortOrder": "051016",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0510",
@@ -6015,7 +5871,7 @@
           "chapter13"
         ],
         "ChapterName": "The Lord of Evil’s Machinations",
-        "SortOrder": "051013",
+        "SortOrder": "051017",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0510",
@@ -6037,7 +5893,7 @@
           "chapter14_1"
         ],
         "ChapterName": "Machinations Complete",
-        "SortOrder": "051014",
+        "SortOrder": "051020",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0510",
@@ -6055,22 +5911,14 @@
     ],
     "POVChapters": [
       {
-        "OverrideName": "",
         "POV": "Detlinde",
-        "Source": "P5V10",
-        "EarlySortOrder": "",
-        "LateSortOrder": "",
-        "EarlyYear": 0,
-        "LateYear": 0,
-        "EarlySeason": "",
-        "LateSeason": "",
         "OriginalFilenames": [
           "prologue",
           "insert1",
           "prologue_1"
         ],
         "ChapterName": "Prologue",
-        "SortOrder": "051000",
+        "SortOrder": "051002",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0510",
@@ -6086,20 +5934,12 @@
         "EndLine": null
       },
       {
-        "OverrideName": "",
         "POV": "Sieglinde",
-        "Source": "P5V10",
-        "EarlySortOrder": "",
-        "LateSortOrder": "",
-        "EarlyYear": 0,
-        "LateYear": 0,
-        "EarlySeason": "",
-        "LateSeason": "",
         "OriginalFilenames": [
           "chapter15"
         ],
         "ChapterName": "Epilogue",
-        "SortOrder": "051015",
+        "SortOrder": "051021",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0510",
@@ -6122,8 +5962,8 @@
         "OverrideName": "",
         "POV": "Immanuel",
         "Source": "P5V10 Extra 1 (1)",
-        "EarlySortOrder": "050913b",
-        "LateSortOrder": "050996f",
+        "EarlySortOrder": "050921",
+        "LateSortOrder": "05099606",
         "EarlyYear": 9,
         "LateYear": 9,
         "EarlySeason": "Spring",
@@ -6154,8 +5994,8 @@
         "OverrideName": "",
         "POV": "Anastasius",
         "Source": "P5V10 Extra 1 (2)",
-        "EarlySortOrder": "051010b",
-        "LateSortOrder": "051096a",
+        "EarlySortOrder": "051013",
+        "LateSortOrder": "05109601",
         "EarlyYear": 9,
         "LateYear": 9,
         "EarlySeason": "Spring",
@@ -6184,8 +6024,8 @@
         "OverrideName": "",
         "POV": "Magdalena",
         "Source": "P5V10 Extra 1 (3)",
-        "EarlySortOrder": "051011b",
-        "LateSortOrder": "051096b",
+        "EarlySortOrder": "051015",
+        "LateSortOrder": "05109602",
         "EarlyYear": 9,
         "LateYear": 9,
         "EarlySeason": "Spring",
@@ -6216,8 +6056,8 @@
         "OverrideName": "",
         "POV": "Gervasio",
         "Source": "P5V10 Extra 1 (4)",
-        "EarlySortOrder": "051013b",
-        "LateSortOrder": "051096c",
+        "EarlySortOrder": "051018",
+        "LateSortOrder": "05109603",
         "EarlyYear": 9,
         "LateYear": 9,
         "EarlySeason": "Spring",
@@ -6248,8 +6088,8 @@
         "OverrideName": "",
         "POV": "Ferdinand",
         "Source": "P5V10 Extra 1 (5)",
-        "EarlySortOrder": "051013c",
-        "LateSortOrder": "051096d",
+        "EarlySortOrder": "051019",
+        "LateSortOrder": "05109604",
         "EarlyYear": 9,
         "LateYear": 9,
         "EarlySeason": "Spring",
@@ -6282,7 +6122,7 @@
         "manga2"
       ],
       "ChapterName": "Comfy Life 510",
-      "SortOrder": "051098",
+      "SortOrder": "051022",
       "Year": 9,
       "Season": "Spring",
       "Volume": "0510",
@@ -6369,7 +6209,7 @@
         "characters3"
       ],
       "ChapterName": "Avatar of a Goddess Characters",
-      "SortOrder": "0510",
+      "SortOrder": "051001",
       "Year": 9,
       "Season": "Spring",
       "Volume": "0510",
@@ -6423,7 +6263,7 @@
           "chapter1"
         ],
         "ChapterName": "The Pale-Faced Royal Family",
-        "SortOrder": "051101",
+        "SortOrder": "051103",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0511",
@@ -6443,7 +6283,7 @@
           "chapter2"
         ],
         "ChapterName": "Terms for the New Zent",
-        "SortOrder": "051102",
+        "SortOrder": "051104",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0511",
@@ -6465,7 +6305,7 @@
           "chapter3_1"
         ],
         "ChapterName": "Goddess-Dyed Mana and Name-Swearing",
-        "SortOrder": "051103",
+        "SortOrder": "051105",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0511",
@@ -6485,7 +6325,7 @@
           "chapter4"
         ],
         "ChapterName": "Finalizing the New Zent",
-        "SortOrder": "051104",
+        "SortOrder": "051106",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0511",
@@ -6505,7 +6345,7 @@
           "chapter5"
         ],
         "ChapterName": "Rewards and the Criminals",
-        "SortOrder": "051105",
+        "SortOrder": "051107",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0511",
@@ -6527,7 +6367,7 @@
           "chapter6_1"
         ],
         "ChapterName": "Adolphine’s Push",
-        "SortOrder": "051106",
+        "SortOrder": "051108",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0511",
@@ -6547,7 +6387,7 @@
           "chapter7"
         ],
         "ChapterName": "Eglantine’s Name-Swearing",
-        "SortOrder": "051107",
+        "SortOrder": "051109",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0511",
@@ -6571,7 +6411,7 @@
           "chapter8_2"
         ],
         "ChapterName": "Blessings from the Gods",
-        "SortOrder": "051108",
+        "SortOrder": "051110",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0511",
@@ -6591,7 +6431,7 @@
           "chapter9"
         ],
         "ChapterName": "The Blessings’ Influence",
-        "SortOrder": "051109",
+        "SortOrder": "051112",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0511",
@@ -6613,7 +6453,7 @@
           "chapter10_1"
         ],
         "ChapterName": "Operation: Mana Drain",
-        "SortOrder": "051110",
+        "SortOrder": "051114",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0511",
@@ -6633,7 +6473,7 @@
           "chapter11"
         ],
         "ChapterName": "Gold Dust and Going Back",
-        "SortOrder": "051111",
+        "SortOrder": "051115",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0511",
@@ -6655,7 +6495,7 @@
           "chapter12_1"
         ],
         "ChapterName": "Expending Mana through Spring Prayer",
-        "SortOrder": "051112",
+        "SortOrder": "051116",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0511",
@@ -6675,7 +6515,7 @@
           "chapter13"
         ],
         "ChapterName": "Never-Ending Mana",
-        "SortOrder": "051113",
+        "SortOrder": "051117",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0511",
@@ -6697,7 +6537,7 @@
           "chapter14_1"
         ],
         "ChapterName": "Large-Scale Magic",
-        "SortOrder": "051114",
+        "SortOrder": "051118",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0511",
@@ -6715,22 +6555,14 @@
     ],
     "POVChapters": [
       {
-        "OverrideName": "",
         "POV": "Ferdinand",
-        "Source": "P5V11",
-        "EarlySortOrder": "",
-        "LateSortOrder": "",
-        "EarlyYear": 0,
-        "LateYear": 0,
-        "EarlySeason": "",
-        "LateSeason": "",
         "OriginalFilenames": [
           "prologue",
           "insert1",
           "prologue_1"
         ],
         "ChapterName": "Prologue",
-        "SortOrder": "051100",
+        "SortOrder": "051102",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0511",
@@ -6746,22 +6578,14 @@
         "EndLine": null
       },
       {
-        "OverrideName": "",
         "POV": "Gretia",
-        "Source": "P5V11",
-        "EarlySortOrder": "",
-        "LateSortOrder": "",
-        "EarlyYear": 0,
-        "LateYear": 0,
-        "EarlySeason": "",
-        "LateSeason": "",
         "OriginalFilenames": [
           "chapter15",
           "insert9",
           "chapter15_1"
         ],
         "ChapterName": "Epilogue",
-        "SortOrder": "051115",
+        "SortOrder": "051119",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0511",
@@ -6784,8 +6608,8 @@
         "OverrideName": "",
         "POV": "Eglantine",
         "Source": "P5V11 Extra 2",
-        "EarlySortOrder": "051108b",
-        "LateSortOrder": "051196a",
+        "EarlySortOrder": "051111",
+        "LateSortOrder": "05119601",
         "EarlyYear": 9,
         "LateYear": 9,
         "EarlySeason": "Spring",
@@ -6814,8 +6638,8 @@
         "OverrideName": "",
         "POV": "Hannelore",
         "Source": "P5V11 Extra 1",
-        "EarlySortOrder": "051109b",
-        "LateSortOrder": "051196b",
+        "EarlySortOrder": "051113",
+        "LateSortOrder": "05119602",
         "EarlyYear": 9,
         "LateYear": 9,
         "EarlySeason": "Spring",
@@ -6846,8 +6670,8 @@
         "OverrideName": "",
         "POV": "Jiffy",
         "Source": "P5V11 Extra 3",
-        "EarlySortOrder": "051115b",
-        "LateSortOrder": "051196c",
+        "EarlySortOrder": "051120",
+        "LateSortOrder": "05119603",
         "EarlyYear": 9,
         "LateYear": 9,
         "EarlySeason": "Spring",
@@ -6878,7 +6702,7 @@
         "manga2"
       ],
       "ChapterName": "Comfy Life 511",
-      "SortOrder": "051198",
+      "SortOrder": "051121",
       "Year": 9,
       "Season": "Spring",
       "Volume": "0511",
@@ -6965,7 +6789,7 @@
         "characters3"
       ],
       "ChapterName": "Avatar of a Goddess Characters",
-      "SortOrder": "0511",
+      "SortOrder": "051101",
       "Year": 9,
       "Season": "Spring",
       "Volume": "0511",
@@ -6998,7 +6822,7 @@
           "chapter1"
         ],
         "ChapterName": "Memories",
-        "SortOrder": "051201",
+        "SortOrder": "051203",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0512",
@@ -7020,7 +6844,7 @@
           "chapter2_1"
         ],
         "ChapterName": "A Future Chosen",
-        "SortOrder": "051202",
+        "SortOrder": "051204",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0512",
@@ -7040,7 +6864,7 @@
           "chapter3"
         ],
         "ChapterName": "Busy Days",
-        "SortOrder": "051203",
+        "SortOrder": "051205",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0512",
@@ -7062,7 +6886,7 @@
           "chapter4_1"
         ],
         "ChapterName": "Entwickeln",
-        "SortOrder": "051204",
+        "SortOrder": "051206",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0512",
@@ -7082,7 +6906,7 @@
           "chapter5"
         ],
         "ChapterName": "Eglantine’s Visit",
-        "SortOrder": "051205",
+        "SortOrder": "051207",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0512",
@@ -7104,7 +6928,7 @@
           "chapter6_1"
         ],
         "ChapterName": "Engagement Ceremony",
-        "SortOrder": "051206",
+        "SortOrder": "051208",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0512",
@@ -7124,7 +6948,7 @@
           "chapter7"
         ],
         "ChapterName": "Proclamations as the Aub",
-        "SortOrder": "051207",
+        "SortOrder": "051209",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0512",
@@ -7144,7 +6968,7 @@
           "chapter8"
         ],
         "ChapterName": "Library and Laboratory",
-        "SortOrder": "051208",
+        "SortOrder": "051210",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0512",
@@ -7166,7 +6990,7 @@
           "chapter9_1"
         ],
         "ChapterName": "Back to Ehrenfest",
-        "SortOrder": "051209",
+        "SortOrder": "051211",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0512",
@@ -7186,7 +7010,7 @@
           "chapter10"
         ],
         "ChapterName": "Brewing the Base Color",
-        "SortOrder": "051210",
+        "SortOrder": "051212",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0512",
@@ -7208,7 +7032,7 @@
           "chapter11_1"
         ],
         "ChapterName": "Aurelia’s Situation",
-        "SortOrder": "051211",
+        "SortOrder": "051213",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0512",
@@ -7228,7 +7052,7 @@
           "chapter12"
         ],
         "ChapterName": "A Mother’s Encouragement",
-        "SortOrder": "051212",
+        "SortOrder": "051214",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0512",
@@ -7249,7 +7073,7 @@
           "insert7"
         ],
         "ChapterName": "Temple Attendants",
-        "SortOrder": "051213",
+        "SortOrder": "051215",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0512",
@@ -7269,7 +7093,7 @@
           "chapter14"
         ],
         "ChapterName": "Meeting with the Merchants",
-        "SortOrder": "051214",
+        "SortOrder": "051216",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0512",
@@ -7289,7 +7113,7 @@
           "chapter15"
         ],
         "ChapterName": "Inauguration Attire and Closing the Library",
-        "SortOrder": "051215",
+        "SortOrder": "051217",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0512",
@@ -7311,7 +7135,7 @@
           "chapter16_1"
         ],
         "ChapterName": "Farewell, Ehrenfest",
-        "SortOrder": "051216",
+        "SortOrder": "051218",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0512",
@@ -7333,7 +7157,7 @@
           "chapter17_1"
         ],
         "ChapterName": "The Morning of the Inauguration Ceremony",
-        "SortOrder": "051217",
+        "SortOrder": "051219",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0512",
@@ -7353,7 +7177,7 @@
           "chapter18"
         ],
         "ChapterName": "The Inauguration Ceremony",
-        "SortOrder": "051218",
+        "SortOrder": "051220",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0512",
@@ -7371,22 +7195,14 @@
     ],
     "POVChapters": [
       {
-        "OverrideName": "",
         "POV": "Ferdinand",
-        "Source": "P5V12",
-        "EarlySortOrder": "",
-        "LateSortOrder": "",
-        "EarlyYear": 0,
-        "LateYear": 0,
-        "EarlySeason": "",
-        "LateSeason": "",
         "OriginalFilenames": [
           "prologue",
           "insert1",
           "prologue_1"
         ],
         "ChapterName": "Prologue",
-        "SortOrder": "051200",
+        "SortOrder": "051202",
         "Year": 9,
         "Season": "Spring",
         "Volume": "0512",
@@ -7402,21 +7218,13 @@
         "EndLine": null
       },
       {
-        "OverrideName": "",
         "POV": "Lutz",
-        "Source": "P5V12",
-        "EarlySortOrder": "",
-        "LateSortOrder": "",
-        "EarlyYear": 0,
-        "LateYear": 0,
-        "EarlySeason": "",
-        "LateSeason": "",
         "OriginalFilenames": [
           "epilogue",
           "insert10"
         ],
         "ChapterName": "Epilogue",
-        "SortOrder": "051219",
+        "SortOrder": "051221",
         "Year": 10,
         "Season": "Summer",
         "Volume": "0512",
@@ -7439,8 +7247,8 @@
         "OverrideName": "",
         "POV": "",
         "Source": "P5V12 Manga",
-        "EarlySortOrder": "051220",
-        "LateSortOrder": "051296a",
+        "EarlySortOrder": "051222",
+        "LateSortOrder": "05129601",
         "EarlyYear": 10,
         "LateYear": 10,
         "EarlySeason": "Summer",
@@ -7475,7 +7283,7 @@
         "manga2"
       ],
       "ChapterName": "Comfy Life 512",
-      "SortOrder": "051298",
+      "SortOrder": "051223",
       "Year": 10,
       "Season": "Summer",
       "Volume": "0512",
@@ -7568,7 +7376,7 @@
         "characters4"
       ],
       "ChapterName": "Avatar of a Goddess Characters",
-      "SortOrder": "0512",
+      "SortOrder": "051201",
       "Year": 10,
       "Season": "Summer",
       "Volume": "0512",
