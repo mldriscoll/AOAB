@@ -1,24 +1,61 @@
 [
   {
     "InternalName": "M0301",
+    "ProcessedInPartOne": false,
+    "ProcessedInPartTwo": false,
+    "ProcessedInPartThree": true,
+    "ProcessedInPartFour": false,
+    "ProcessedInPartFive": false,
+    "ProcessedInFanbooks": false,
     "OCR": true,
-    "BonusChapters": [
+    "Chapters": [],
+    "POVChapters": [],
+    "MangaChapters": [
       {
-        "OriginalFilenames": [ "194", "195", "196", "197", "198", "199", "200", "201", "202" ],
-        "EarlySortOrder": "030107b",
-        "LateSortOrder": "030196d",
-        "POV": "Tuuli",
-        "ChapterName": "My First Letter",
-        "OverrideName": "My First Letter",
-        "Volume": "0301",
+        "OCR": null,
+        "OverrideName": "",
+        "POV": "Cornelius",
+        "Source": "M3V1 Bonus",
+        "EarlySortOrder": "030104c",
+        "LateSortOrder": "030196c",
         "EarlyYear": 3,
         "LateYear": 3,
         "EarlySeason": "Summer",
         "LateSeason": "Summer",
+        "OriginalFilenames": [
+          "181",
+          "182",
+          "183",
+          "184",
+          "185",
+          "186",
+          "187",
+          "188",
+          "189",
+          "190",
+          "191",
+          "192"
+        ],
+        "ChapterName": "The Knight Commander's Youngest Son",
+        "SortOrder": "",
+        "Year": 0,
+        "Season": "",
+        "Volume": "0301",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartOne": false,
+        "ProcessedInPartTwo": false,
         "ProcessedInPartThree": true,
-        "Source": "M3V1 Written Bonus",
+        "ProcessedInPartFour": false,
+        "ProcessedInPartFive": false,
+        "ProcessedInFanbooks": false,
+        "StartLine": null,
+        "EndLine": null
+      }
+    ],
+    "BonusChapters": [
+      {
         "OCR": {
-          "Crop": false,
           "Corrections": [
             {
               "Original": "And if she does succeed at her baptism",
@@ -98,48 +135,104 @@
               "Start": "We’ll only catch",
               "End": "all we can do for now."
             }
-          ]
-        }
-      }
-    ],
-    "MangaChapters": [
-      {
-        "OriginalFilenames": [ "181","182","183","184","185","186","187","188","189","190","191","192" ],
-        "EarlySortOrder": "030104c",
-        "LateSortOrder": "030196c",
-        "POV": "Cornelius",
-        "ChapterName": "The Knight Commander's Youngest Son",
+          ],
+          "Header": null,
+          "Crop": false,
+          "HeaderLines": 1
+        },
+        "OverrideName": "My First Letter",
+        "POV": "Tuuli",
+        "Source": "M3V1 Written Bonus",
+        "EarlySortOrder": "030107b",
+        "LateSortOrder": "030196d",
         "EarlyYear": 3,
         "LateYear": 3,
         "EarlySeason": "Summer",
         "LateSeason": "Summer",
+        "OriginalFilenames": [
+          "194",
+          "195",
+          "196",
+          "197",
+          "198",
+          "199",
+          "200",
+          "201",
+          "202"
+        ],
+        "ChapterName": "My First Letter",
+        "SortOrder": "",
+        "Year": 0,
+        "Season": "",
         "Volume": "0301",
-        "Source": "M3V1 Bonus",
-        "ProcessedInPartThree": true
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartOne": false,
+        "ProcessedInPartTwo": false,
+        "ProcessedInPartThree": true,
+        "ProcessedInPartFour": false,
+        "ProcessedInPartFive": false,
+        "ProcessedInFanbooks": false,
+        "StartLine": null,
+        "EndLine": null
       }
     ],
-    "Maps": []
+    "ComfyLifeChapter": null,
+    "Afterword": null,
+    "Gallery": null,
+    "CharacterSheet": null,
+    "Maps": [],
+    "CharacterPoll": null
   },
   {
     "InternalName": "M0302",
+    "ProcessedInPartOne": false,
+    "ProcessedInPartTwo": false,
+    "ProcessedInPartThree": true,
+    "ProcessedInPartFour": false,
+    "ProcessedInPartFive": false,
+    "ProcessedInFanbooks": false,
     "OCR": true,
-    "BonusChapters": [
+    "Chapters": [],
+    "POVChapters": [],
+    "MangaChapters": [
       {
-        "OriginalFilenames": [ "160", "161", "162", "163", "164", "165", "166", "167", "168" ],
-        "EarlySortOrder": "030114b",
-        "LateSortOrder": "030196j",
-        "POV": "Karstedt",
-        "ChapterName": "Changes at Home",
-        "OverrideName": "Changes at Home",
-        "Volume": "0301",
+        "OCR": null,
+        "OverrideName": "",
+        "POV": "Benno/Gustav",
+        "Source": "M3V2 Bonus",
+        "EarlySortOrder": "030112d",
+        "LateSortOrder": "030196i",
         "EarlyYear": 3,
         "LateYear": 3,
         "EarlySeason": "Summer",
         "LateSeason": "Summer",
+        "OriginalFilenames": [
+          "155",
+          "156",
+          "157",
+          "158"
+        ],
+        "ChapterName": "Benno and Gustav's Suffering",
+        "SortOrder": "",
+        "Year": 0,
+        "Season": "",
+        "Volume": "0301",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartOne": false,
+        "ProcessedInPartTwo": false,
         "ProcessedInPartThree": true,
-        "Source": "M3V2 Written Bonus",
+        "ProcessedInPartFour": false,
+        "ProcessedInPartFive": false,
+        "ProcessedInFanbooks": false,
+        "StartLine": null,
+        "EndLine": null
+      }
+    ],
+    "BonusChapters": [
+      {
         "OCR": {
-          "Crop": false,
           "Corrections": [
             {
               "Original": "yet I’d never seen",
@@ -207,48 +300,70 @@
               "Start": "That must be",
               "End": "suddenly bothers me."
             }
-          ]
-        }
-      }
-    ],
-    "MangaChapters": [
-      {
-        "OriginalFilenames": [ "155", "156", "157", "158" ],
-        "EarlySortOrder": "030112d",
-        "LateSortOrder": "030196i",
-        "POV": "Benno/Gustav",
-        "ChapterName": "Benno and Gustav's Suffering",
+          ],
+          "Header": null,
+          "Crop": false,
+          "HeaderLines": 1
+        },
+        "OverrideName": "Changes at Home",
+        "POV": "Karstedt",
+        "Source": "M3V2 Written Bonus",
+        "EarlySortOrder": "030114b",
+        "LateSortOrder": "030196j",
         "EarlyYear": 3,
         "LateYear": 3,
         "EarlySeason": "Summer",
         "LateSeason": "Summer",
+        "OriginalFilenames": [
+          "160",
+          "161",
+          "162",
+          "163",
+          "164",
+          "165",
+          "166",
+          "167",
+          "168"
+        ],
+        "ChapterName": "Changes at Home",
+        "SortOrder": "",
+        "Year": 0,
+        "Season": "",
         "Volume": "0301",
-        "Source": "M3V2 Bonus",
-        "ProcessedInPartThree": true
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartOne": false,
+        "ProcessedInPartTwo": false,
+        "ProcessedInPartThree": true,
+        "ProcessedInPartFour": false,
+        "ProcessedInPartFive": false,
+        "ProcessedInFanbooks": false,
+        "StartLine": null,
+        "EndLine": null
       }
     ],
-    "Maps": []
+    "ComfyLifeChapter": null,
+    "Afterword": null,
+    "Gallery": null,
+    "CharacterSheet": null,
+    "Maps": [],
+    "CharacterPoll": null
   },
   {
     "InternalName": "M0303",
+    "ProcessedInPartOne": false,
+    "ProcessedInPartTwo": false,
+    "ProcessedInPartThree": true,
+    "ProcessedInPartFour": false,
+    "ProcessedInPartFive": false,
+    "ProcessedInFanbooks": false,
     "OCR": true,
+    "Chapters": [],
+    "POVChapters": [],
+    "MangaChapters": [],
     "BonusChapters": [
       {
-        "OriginalFilenames": [ "156", "157", "158", "159", "160", "161", "162", "163", "164" ],
-        "EarlySortOrder": "030116b",
-        "LateSortOrder": "030196k",
-        "POV": "Tuuli",
-        "ChapterName": "All to See Myne",
-        "OverrideName": "All to See Myne",
-        "Volume": "0301",
-        "EarlyYear": 3,
-        "LateYear": 3,
-        "EarlySeason": "Summer",
-        "LateSeason": "Summer",
-        "ProcessedInPartThree": true,
-        "Source": "M3V3 Written Bonus",
         "OCR": {
-          "Crop": false,
           "Corrections": [
             {
               "Original": "\"Right!",
@@ -316,41 +431,125 @@
               "Start": "Kamil always plays with the toys Myne made for him. I just hope she knows that.",
               "End": "Kamil always plays with the toys Myne made for him. I just hope she knows that."
             }
-          ]
-        }
-      }
-    ],
-    "ComfyLifeChapter": {
-      "OriginalFilenames": [ "150", "151", "152", "153", "154" ],
-      "SortOrder": "030119b",
-      "ChapterName": "Lessy and Me + Ferdinand",
-      "Volume": "0301",
-      "Year": 3,
-      "Season": "Summer",
-      "ProcessedInPartThree": true
-    },
-    "Maps": []
-  },
-  {
-    "InternalName": "M0304",
-    "OCR": true,
-    "BonusChapters": [
-      {
-        "OriginalFilenames": [ "146","147","148","149","150","151","152","153","154" ],
-        "EarlySortOrder": "030121a",
-        "LateSortOrder": "030196m",
-        "POV": "Lamprecht",
-        "ChapterName": "From Tasty Food to Trouble",
-        "OverrideName": "From Tasty Food to Trouble",
-        "Volume": "0301",
+          ],
+          "Header": null,
+          "Crop": false,
+          "HeaderLines": 1
+        },
+        "OverrideName": "All to See Myne",
+        "POV": "Tuuli",
+        "Source": "M3V3 Written Bonus",
+        "EarlySortOrder": "030116b",
+        "LateSortOrder": "030196k",
         "EarlyYear": 3,
         "LateYear": 3,
         "EarlySeason": "Summer",
         "LateSeason": "Summer",
+        "OriginalFilenames": [
+          "156",
+          "157",
+          "158",
+          "159",
+          "160",
+          "161",
+          "162",
+          "163",
+          "164"
+        ],
+        "ChapterName": "All to See Myne",
+        "SortOrder": "",
+        "Year": 0,
+        "Season": "",
+        "Volume": "0301",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartOne": false,
+        "ProcessedInPartTwo": false,
         "ProcessedInPartThree": true,
-        "Source": "M3V4 Written Bonus",
+        "ProcessedInPartFour": false,
+        "ProcessedInPartFive": false,
+        "ProcessedInFanbooks": false,
+        "StartLine": null,
+        "EndLine": null
+      }
+    ],
+    "ComfyLifeChapter": {
+      "OriginalFilenames": [
+        "150",
+        "151",
+        "152",
+        "153",
+        "154"
+      ],
+      "ChapterName": "Lessy and Me + Ferdinand",
+      "SortOrder": "030119b",
+      "Year": 3,
+      "Season": "Summer",
+      "Volume": "0301",
+      "Set": "",
+      "Priority": 0,
+      "ProcessedInPartOne": false,
+      "ProcessedInPartTwo": false,
+      "ProcessedInPartThree": true,
+      "ProcessedInPartFour": false,
+      "ProcessedInPartFive": false,
+      "ProcessedInFanbooks": false,
+      "StartLine": null,
+      "EndLine": null
+    },
+    "Afterword": null,
+    "Gallery": null,
+    "CharacterSheet": null,
+    "Maps": [],
+    "CharacterPoll": null
+  },
+  {
+    "InternalName": "M0304",
+    "ProcessedInPartOne": false,
+    "ProcessedInPartTwo": false,
+    "ProcessedInPartThree": true,
+    "ProcessedInPartFour": false,
+    "ProcessedInPartFive": false,
+    "ProcessedInFanbooks": false,
+    "OCR": true,
+    "Chapters": [],
+    "POVChapters": [],
+    "MangaChapters": [
+      {
+        "OCR": null,
+        "OverrideName": "",
+        "POV": "Gunther",
+        "Source": "M3V4 Bonus",
+        "EarlySortOrder": "030202b",
+        "LateSortOrder": "030296a",
+        "EarlyYear": 3,
+        "LateYear": 3,
+        "EarlySeason": "Autumn",
+        "LateSeason": "Autumn",
+        "OriginalFilenames": [
+          "143",
+          "144"
+        ],
+        "ChapterName": "Unwavering Emotions",
+        "SortOrder": "",
+        "Year": 0,
+        "Season": "",
+        "Volume": "0302",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartOne": false,
+        "ProcessedInPartTwo": false,
+        "ProcessedInPartThree": true,
+        "ProcessedInPartFour": false,
+        "ProcessedInPartFive": false,
+        "ProcessedInFanbooks": false,
+        "StartLine": null,
+        "EndLine": null
+      }
+    ],
+    "BonusChapters": [
+      {
         "OCR": {
-          "Crop": false,
           "Corrections": [
             {
               "Original": "\"As I serve Lord Wilfried, I would be immensely grateful if you could act as head of security for the con—",
@@ -370,35 +569,76 @@
               "Start": "E-Excuse me? You do?",
               "End": "E-Excuse me? You do?"
             }
-          ]
-        }
-      }
-    ],
-    "MangaChapters": [
-      {
-        "OriginalFilenames": [ "143","144" ],
-        "EarlySortOrder": "030202b",
-        "LateSortOrder": "030296a",
-        "POV": "Gunther",
-        "ChapterName": "Unwavering Emotions",
+          ],
+          "Header": null,
+          "Crop": false,
+          "HeaderLines": 1
+        },
+        "OverrideName": "From Tasty Food to Trouble",
+        "POV": "Lamprecht",
+        "Source": "M3V4 Written Bonus",
+        "EarlySortOrder": "030121a",
+        "LateSortOrder": "030196m",
         "EarlyYear": 3,
         "LateYear": 3,
-        "EarlySeason": "Autumn",
-        "LateSeason": "Autumn",
-        "Volume": "0302",
-        "Source": "M3V4 Bonus",
-        "ProcessedInPartThree": true
+        "EarlySeason": "Summer",
+        "LateSeason": "Summer",
+        "OriginalFilenames": [
+          "146",
+          "147",
+          "148",
+          "149",
+          "150",
+          "151",
+          "152",
+          "153",
+          "154"
+        ],
+        "ChapterName": "From Tasty Food to Trouble",
+        "SortOrder": "",
+        "Year": 0,
+        "Season": "",
+        "Volume": "0301",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartOne": false,
+        "ProcessedInPartTwo": false,
+        "ProcessedInPartThree": true,
+        "ProcessedInPartFour": false,
+        "ProcessedInPartFive": false,
+        "ProcessedInFanbooks": false,
+        "StartLine": null,
+        "EndLine": null
       }
     ],
     "ComfyLifeChapter": {
-      "OriginalFilenames": [ "150", "151", "152", "153", "154" ],
-      "SortOrder": "030119b",
+      "OriginalFilenames": [
+        "150",
+        "151",
+        "152",
+        "153",
+        "154"
+      ],
       "ChapterName": "Lessy and Me + Ferdinand",
-      "Volume": "0301",
+      "SortOrder": "030119b",
       "Year": 3,
       "Season": "Summer",
-      "ProcessedInPartThree": true
+      "Volume": "0301",
+      "Set": "",
+      "Priority": 0,
+      "ProcessedInPartOne": false,
+      "ProcessedInPartTwo": false,
+      "ProcessedInPartThree": true,
+      "ProcessedInPartFour": false,
+      "ProcessedInPartFive": false,
+      "ProcessedInFanbooks": false,
+      "StartLine": null,
+      "EndLine": null
     },
-    "Maps": []
+    "Afterword": null,
+    "Gallery": null,
+    "CharacterSheet": null,
+    "Maps": [],
+    "CharacterPoll": null
   }
 ]

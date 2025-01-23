@@ -1,64 +1,130 @@
 [
   {
     "InternalName": "M0101",
+    "ProcessedInPartOne": true,
+    "ProcessedInPartTwo": false,
+    "ProcessedInPartThree": false,
+    "ProcessedInPartFour": false,
+    "ProcessedInPartFive": false,
+    "ProcessedInFanbooks": false,
+    "OCR": false,
+    "Chapters": [],
+    "POVChapters": [],
     "MangaChapters": [
       {
-        "OriginalFilenames": [ "151", "152", "153", "154", "155", "156" ],
+        "OCR": null,
+        "OverrideName": "",
+        "POV": "Tuuli",
+        "Source": "M1V1 Bonus",
         "EarlySortOrder": "010106b",
         "LateSortOrder": "010196e",
-        "POV": "Tuuli",
-        "ChapterName": "Myne's Gotten Weird",
-        "Volume": "0101",
         "EarlyYear": 0,
-        "EarlySeason": "Autumn",
         "LateYear": 1,
+        "EarlySeason": "Autumn",
         "LateSeason": "Summer",
+        "OriginalFilenames": [
+          "151",
+          "152",
+          "153",
+          "154",
+          "155",
+          "156"
+        ],
+        "ChapterName": "Myne's Gotten Weird",
+        "SortOrder": "",
+        "Year": 0,
+        "Season": "",
+        "Volume": "0101",
         "Set": "",
         "Priority": 0,
         "ProcessedInPartOne": true,
-        "Source": "M1V1 Bonus"
+        "ProcessedInPartTwo": false,
+        "ProcessedInPartThree": false,
+        "ProcessedInPartFour": false,
+        "ProcessedInPartFive": false,
+        "ProcessedInFanbooks": false,
+        "StartLine": null,
+        "EndLine": null
       }
-    ]
+    ],
+    "BonusChapters": [],
+    "ComfyLifeChapter": null,
+    "Afterword": null,
+    "Gallery": null,
+    "CharacterSheet": null,
+    "Maps": [],
+    "CharacterPoll": null
   },
   {
     "InternalName": "M0102",
+    "ProcessedInPartOne": true,
+    "ProcessedInPartTwo": false,
+    "ProcessedInPartThree": false,
+    "ProcessedInPartFour": false,
+    "ProcessedInPartFive": false,
+    "ProcessedInFanbooks": false,
+    "OCR": false,
+    "Chapters": [],
+    "POVChapters": [],
     "MangaChapters": [
       {
-        "OriginalFilenames": [ "167", "168", "169", "170", "171", "172" ],
+        "OCR": null,
+        "OverrideName": "",
+        "POV": "Lutz",
+        "Source": "M1V2 Bonus",
         "EarlySortOrder": "010113b",
         "LateSortOrder": "010196g",
-        "POV": "Lutz",
-        "ChapterName": "Lutz and the Parue Tree",
-        "Volume": "0101",
         "EarlyYear": 0,
-        "EarlySeason": "Winter",
         "LateYear": 1,
+        "EarlySeason": "Winter",
         "LateSeason": "Summer",
+        "OriginalFilenames": [
+          "167",
+          "168",
+          "169",
+          "170",
+          "171",
+          "172"
+        ],
+        "ChapterName": "Lutz and the Parue Tree",
+        "SortOrder": "",
+        "Year": 0,
+        "Season": "",
+        "Volume": "0101",
         "Set": "",
         "Priority": 0,
         "ProcessedInPartOne": true,
-        "Source": "M1V2 Bonus"
+        "ProcessedInPartTwo": false,
+        "ProcessedInPartThree": false,
+        "ProcessedInPartFour": false,
+        "ProcessedInPartFive": false,
+        "ProcessedInFanbooks": false,
+        "StartLine": null,
+        "EndLine": null
       }
-    ]
+    ],
+    "BonusChapters": [],
+    "ComfyLifeChapter": null,
+    "Afterword": null,
+    "Gallery": null,
+    "CharacterSheet": null,
+    "Maps": [],
+    "CharacterPoll": null
   },
   {
     "InternalName": "M0103",
+    "ProcessedInPartOne": true,
+    "ProcessedInPartTwo": false,
+    "ProcessedInPartThree": false,
+    "ProcessedInPartFour": false,
+    "ProcessedInPartFive": false,
+    "ProcessedInFanbooks": false,
     "OCR": true,
+    "Chapters": [],
+    "POVChapters": [],
+    "MangaChapters": [],
     "BonusChapters": [
       {
-        "OriginalFilenames": [ "184", "185", "186", "187", "188", "189", "190" ],
-        "EarlySortOrder": "010118b",
-        "LateSortOrder": "010196j",
-        "POV": "Freida",
-        "ChapterName": "The Baptism Ceremony and the Hairpin",
-        "OverrideName": "The Baptism Ceremony and the Hairpin",
-        "Volume": "0101",
-        "EarlyYear": 1,
-        "EarlySeason": "Summer",
-        "LateYear": 1,
-        "LateSeason": "Summer",
-        "ProcessedInPartOne": true,
-        "Source": "M1V3 Written Bonus",
         "OCR": {
           "Corrections": [
             {
@@ -83,29 +149,67 @@
               "Start": "...Ha",
               "End": "s?!"
             }
-          ]
-        }
+          ],
+          "Header": null,
+          "Crop": false,
+          "HeaderLines": 1
+        },
+        "OverrideName": "The Baptism Ceremony and the Hairpin",
+        "POV": "Freida",
+        "Source": "M1V3 Written Bonus",
+        "EarlySortOrder": "010118b",
+        "LateSortOrder": "010196j",
+        "EarlyYear": 1,
+        "LateYear": 1,
+        "EarlySeason": "Summer",
+        "LateSeason": "Summer",
+        "OriginalFilenames": [
+          "184",
+          "185",
+          "186",
+          "187",
+          "188",
+          "189",
+          "190"
+        ],
+        "ChapterName": "The Baptism Ceremony and the Hairpin",
+        "SortOrder": "",
+        "Year": 0,
+        "Season": "",
+        "Volume": "0101",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartOne": true,
+        "ProcessedInPartTwo": false,
+        "ProcessedInPartThree": false,
+        "ProcessedInPartFour": false,
+        "ProcessedInPartFive": false,
+        "ProcessedInFanbooks": false,
+        "StartLine": null,
+        "EndLine": null
       }
-    ]
+    ],
+    "ComfyLifeChapter": null,
+    "Afterword": null,
+    "Gallery": null,
+    "CharacterSheet": null,
+    "Maps": [],
+    "CharacterPoll": null
   },
   {
     "InternalName": "M0104",
+    "ProcessedInPartOne": true,
+    "ProcessedInPartTwo": false,
+    "ProcessedInPartThree": false,
+    "ProcessedInPartFour": false,
+    "ProcessedInPartFive": false,
+    "ProcessedInFanbooks": false,
     "OCR": true,
+    "Chapters": [],
+    "POVChapters": [],
+    "MangaChapters": [],
     "BonusChapters": [
       {
-        "OriginalFilenames": [ "166", "167", "168", "169", "170", "171", "172", "173" ],
-        "EarlySortOrder": "010206b",
-        "LateSortOrder": "010296a",
-        "POV": "Zeg",
-        "ChapterName": "Zeg the Apprentice Craftsman",
-        "OverrideName": "Zeg the Apprentice Craftsman",
-        "Volume": "0102",
-        "EarlyYear": 1,
-        "EarlySeason": "Summer",
-        "LateYear": 1,
-        "LateSeason": "Autumn",
-        "ProcessedInPartOne": true,
-        "Source": "M1V4 Written Bonus",
         "OCR": {
           "Corrections": [
             {
@@ -130,32 +234,70 @@
               "Start": "Gah...!",
               "End": "good too!"
             }
-          ]
-        }
+          ],
+          "Header": null,
+          "Crop": false,
+          "HeaderLines": 1
+        },
+        "OverrideName": "Zeg the Apprentice Craftsman",
+        "POV": "Zeg",
+        "Source": "M1V4 Written Bonus",
+        "EarlySortOrder": "010206b",
+        "LateSortOrder": "010296a",
+        "EarlyYear": 1,
+        "LateYear": 1,
+        "EarlySeason": "Summer",
+        "LateSeason": "Autumn",
+        "OriginalFilenames": [
+          "166",
+          "167",
+          "168",
+          "169",
+          "170",
+          "171",
+          "172",
+          "173"
+        ],
+        "ChapterName": "Zeg the Apprentice Craftsman",
+        "SortOrder": "",
+        "Year": 0,
+        "Season": "",
+        "Volume": "0102",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartOne": true,
+        "ProcessedInPartTwo": false,
+        "ProcessedInPartThree": false,
+        "ProcessedInPartFour": false,
+        "ProcessedInPartFive": false,
+        "ProcessedInFanbooks": false,
+        "StartLine": null,
+        "EndLine": null
       }
-    ]
+    ],
+    "ComfyLifeChapter": null,
+    "Afterword": null,
+    "Gallery": null,
+    "CharacterSheet": null,
+    "Maps": [],
+    "CharacterPoll": null
   },
   {
     "InternalName": "M0105",
+    "ProcessedInPartOne": true,
+    "ProcessedInPartTwo": false,
+    "ProcessedInPartThree": false,
+    "ProcessedInPartFour": false,
+    "ProcessedInPartFive": false,
+    "ProcessedInFanbooks": false,
     "OCR": true,
+    "Chapters": [],
+    "POVChapters": [],
+    "MangaChapters": [],
     "BonusChapters": [
       {
-        "OriginalFilenames": [ "176", "177", "178", "179", "180", "181", "182", "183", "184", "185" ],
-        "EarlySortOrder": "010218b",
-        "LateSortOrder": "010296b",
-        "POV": "Benno",
-        "ChapterName": "Hairpins and the Meeting of Stores",
-        "OverrideName": "Hairpins and the Meeting of Stores",
-        "Volume": "0102",
-        "EarlyYear": 1,
-        "EarlySeason": "Autumn",
-        "LateYear": 1,
-        "LateSeason": "Autumn",
-        "ProcessedInPartOne": true,
-        "Source": "M1V5 Written Bonus",
         "OCR": {
-          "Corrections": [
-          ],
+          "Corrections": [],
           "Italics": [
             {
               "Start": "...Are",
@@ -185,45 +327,109 @@
               "Start": "...Just you wait",
               "End": "last forever."
             }
-          ]
-        }
+          ],
+          "Header": null,
+          "Crop": false,
+          "HeaderLines": 1
+        },
+        "OverrideName": "Hairpins and the Meeting of Stores",
+        "POV": "Benno",
+        "Source": "M1V5 Written Bonus",
+        "EarlySortOrder": "010218b",
+        "LateSortOrder": "010296b",
+        "EarlyYear": 1,
+        "LateYear": 1,
+        "EarlySeason": "Autumn",
+        "LateSeason": "Autumn",
+        "OriginalFilenames": [
+          "176",
+          "177",
+          "178",
+          "179",
+          "180",
+          "181",
+          "182",
+          "183",
+          "184",
+          "185"
+        ],
+        "ChapterName": "Hairpins and the Meeting of Stores",
+        "SortOrder": "",
+        "Year": 0,
+        "Season": "",
+        "Volume": "0102",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartOne": true,
+        "ProcessedInPartTwo": false,
+        "ProcessedInPartThree": false,
+        "ProcessedInPartFour": false,
+        "ProcessedInPartFive": false,
+        "ProcessedInFanbooks": false,
+        "StartLine": null,
+        "EndLine": null
       }
-    ]
+    ],
+    "ComfyLifeChapter": null,
+    "Afterword": null,
+    "Gallery": null,
+    "CharacterSheet": null,
+    "Maps": [],
+    "CharacterPoll": null
   },
   {
     "InternalName": "M0106",
+    "ProcessedInPartOne": true,
+    "ProcessedInPartTwo": false,
+    "ProcessedInPartThree": false,
+    "ProcessedInPartFour": false,
+    "ProcessedInPartFive": false,
+    "ProcessedInFanbooks": false,
     "OCR": true,
+    "Chapters": [],
+    "POVChapters": [],
     "MangaChapters": [
       {
-        "OriginalFilenames": [ "171", "172", "173", "174", "175", "176", "177", "178", "180" ],
+        "OCR": null,
+        "OverrideName": "",
+        "POV": "Benno",
+        "Source": "M1V6 Bonus",
         "EarlySortOrder": "010314b",
         "LateSortOrder": "010396a",
-        "POV": "Benno",
-        "ChapterName": "Some Time in the Woods",
-        "Volume": "0103",
         "EarlyYear": 1,
-        "EarlySeason": "Spring",
         "LateYear": 2,
+        "EarlySeason": "Spring",
         "LateSeason": "Summer",
-        "Source": "M1V6 Bonus",
-        "ProcessedInPartOne": true
+        "OriginalFilenames": [
+          "171",
+          "172",
+          "173",
+          "174",
+          "175",
+          "176",
+          "177",
+          "178",
+          "180"
+        ],
+        "ChapterName": "Some Time in the Woods",
+        "SortOrder": "",
+        "Year": 0,
+        "Season": "",
+        "Volume": "0103",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartOne": true,
+        "ProcessedInPartTwo": false,
+        "ProcessedInPartThree": false,
+        "ProcessedInPartFour": false,
+        "ProcessedInPartFive": false,
+        "ProcessedInFanbooks": false,
+        "StartLine": null,
+        "EndLine": null
       }
     ],
     "BonusChapters": [
       {
-        "OriginalFilenames": [ "182", "183", "184", "185", "186", "187", "188", "189" ],
-        "EarlySortOrder": "010315b",
-        "LateSortOrder": "010396b",
-        "POV": "Freida",
-        "OverrideName": "A Long-Awaited Reunion",
-        "ChapterName": "A Long-Awaited Reunion",
-        "Volume": "0103",
-        "EarlyYear": 1,
-        "EarlySeason": "Spring",
-        "LateYear": 2,
-        "LateSeason": "Summer",
-        "ProcessedInPartOne": true,
-        "Source": "M1V6 Written Bonus",
         "OCR": {
           "Corrections": [
             {
@@ -260,29 +466,68 @@
               "Start": "...I won’t miss this opportunity, no matter what. I will defeat Benno!",
               "End": "defeat Benno!"
             }
-          ]
-        }
+          ],
+          "Header": null,
+          "Crop": false,
+          "HeaderLines": 1
+        },
+        "OverrideName": "A Long-Awaited Reunion",
+        "POV": "Freida",
+        "Source": "M1V6 Written Bonus",
+        "EarlySortOrder": "010315b",
+        "LateSortOrder": "010396b",
+        "EarlyYear": 1,
+        "LateYear": 2,
+        "EarlySeason": "Spring",
+        "LateSeason": "Summer",
+        "OriginalFilenames": [
+          "182",
+          "183",
+          "184",
+          "185",
+          "186",
+          "187",
+          "188",
+          "189"
+        ],
+        "ChapterName": "A Long-Awaited Reunion",
+        "SortOrder": "",
+        "Year": 0,
+        "Season": "",
+        "Volume": "0103",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartOne": true,
+        "ProcessedInPartTwo": false,
+        "ProcessedInPartThree": false,
+        "ProcessedInPartFour": false,
+        "ProcessedInPartFive": false,
+        "ProcessedInFanbooks": false,
+        "StartLine": null,
+        "EndLine": null
       }
-    ]
+    ],
+    "ComfyLifeChapter": null,
+    "Afterword": null,
+    "Gallery": null,
+    "CharacterSheet": null,
+    "Maps": [],
+    "CharacterPoll": null
   },
   {
     "InternalName": "M0107",
+    "ProcessedInPartOne": true,
+    "ProcessedInPartTwo": false,
+    "ProcessedInPartThree": false,
+    "ProcessedInPartFour": false,
+    "ProcessedInPartFive": false,
+    "ProcessedInFanbooks": false,
     "OCR": true,
+    "Chapters": [],
+    "POVChapters": [],
+    "MangaChapters": [],
     "BonusChapters": [
       {
-        "OriginalFilenames": [ "210", "211", "212", "213", "214", "215", "216", "217", "218", "219", "220", "221" ],
-        "EarlySortOrder": "010325d",
-        "LateSortOrder": "010396e",
-        "POV": "Corinna",
-        "OverrideName": "As the Gilberta Company's Successor",
-        "ChapterName": "As the Gilberta Company's Successor",
-        "Volume": "0103",
-        "EarlyYear": 2,
-        "EarlySeason": "Summer",
-        "LateYear": 2,
-        "LateSeason": "Summer",
-        "ProcessedInPartOne": true,
-        "Source": "M1V7 Written Bonus",
         "OCR": {
           "Corrections": [
             {
@@ -327,9 +572,56 @@
               "Start": "Something tells me",
               "End": "just like this."
             }
-          ]
-        }
+          ],
+          "Header": null,
+          "Crop": false,
+          "HeaderLines": 1
+        },
+        "OverrideName": "As the Gilberta Company's Successor",
+        "POV": "Corinna",
+        "Source": "M1V7 Written Bonus",
+        "EarlySortOrder": "010325d",
+        "LateSortOrder": "010396e",
+        "EarlyYear": 2,
+        "LateYear": 2,
+        "EarlySeason": "Summer",
+        "LateSeason": "Summer",
+        "OriginalFilenames": [
+          "210",
+          "211",
+          "212",
+          "213",
+          "214",
+          "215",
+          "216",
+          "217",
+          "218",
+          "219",
+          "220",
+          "221"
+        ],
+        "ChapterName": "As the Gilberta Company's Successor",
+        "SortOrder": "",
+        "Year": 0,
+        "Season": "",
+        "Volume": "0103",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartOne": true,
+        "ProcessedInPartTwo": false,
+        "ProcessedInPartThree": false,
+        "ProcessedInPartFour": false,
+        "ProcessedInPartFive": false,
+        "ProcessedInFanbooks": false,
+        "StartLine": null,
+        "EndLine": null
       }
-    ]
+    ],
+    "ComfyLifeChapter": null,
+    "Afterword": null,
+    "Gallery": null,
+    "CharacterSheet": null,
+    "Maps": [],
+    "CharacterPoll": null
   }
 ]

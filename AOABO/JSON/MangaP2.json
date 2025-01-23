@@ -1,24 +1,19 @@
 [
   {
     "InternalName": "M0201",
+    "ProcessedInPartOne": false,
+    "ProcessedInPartTwo": true,
+    "ProcessedInPartThree": false,
+    "ProcessedInPartFour": false,
+    "ProcessedInPartFive": false,
+    "ProcessedInFanbooks": false,
     "OCR": true,
+    "Chapters": [],
+    "POVChapters": [],
+    "MangaChapters": [],
     "BonusChapters": [
       {
-        "OriginalFilenames": [ "186", "187", "188", "189", "190", "191", "192", "193", "194", "195" ],
-        "EarlySortOrder": "020105b",
-        "LateSortOrder": "020196a",
-        "POV": "Zahm",
-        "ChapterName": "Fran and the Commoner Apprentice Shrine Maiden",
-        "OverrideName": "Fran and the Commoner Apprentice Shrine Maiden",
-        "EarlyYear": 2,
-        "LateYear": 2,
-        "EarlySeason": "Summer",
-        "LateSeason": "Summer",
-        "Volume": "0201",
-        "ProcessedInPartTwo": true,
-        "Source": "M2V1 Written Bonus",
         "OCR": {
-          "HeaderLines": 2,
           "Corrections": [
             {
               "Original": "Priest’s </p>\r\n<p>“It has been decided that Fran shall become the head chambers. attendant",
@@ -41,7 +36,6 @@
               "Replacement": ""
             }
           ],
-          "Header": "Fran and the Commoner Apprentice Blue Shrine Maiden",
           "Italics": [
             {
               "Start": "Fran, why are",
@@ -59,29 +53,108 @@
               "Start": "However...",
               "End": "However..."
             }
-          ]
-        }
-      }
-    ]
-  },
-  {
-    "InternalName": "M0202",
-    "OCR": true,
-    "BonusChapters": [
-      {
-        "OriginalFilenames": [ "170", "171", "172", "173", "174", "175", "176", "177" ],
-        "EarlySortOrder": "020113b",
-        "LateSortOrder": "020196c",
-        "POV": "Ferdinand",
-        "ChapterName": "The Other Side of the Orphanage Incident",
-        "OverrideName": "The Other Side of the Orphanage Incident",
+          ],
+          "Header": "Fran and the Commoner Apprentice Blue Shrine Maiden",
+          "Crop": false,
+          "HeaderLines": 2
+        },
+        "OverrideName": "Fran and the Commoner Apprentice Shrine Maiden",
+        "POV": "Zahm",
+        "Source": "M2V1 Written Bonus",
+        "EarlySortOrder": "020105b",
+        "LateSortOrder": "020196a",
         "EarlyYear": 2,
         "LateYear": 2,
         "EarlySeason": "Summer",
         "LateSeason": "Summer",
-        "ProcessedInPartTwo": true,
+        "OriginalFilenames": [
+          "186",
+          "187",
+          "188",
+          "189",
+          "190",
+          "191",
+          "192",
+          "193",
+          "194",
+          "195"
+        ],
+        "ChapterName": "Fran and the Commoner Apprentice Shrine Maiden",
+        "SortOrder": "",
+        "Year": 0,
+        "Season": "",
         "Volume": "0201",
-        "Source": "M2V2 Written Bonus",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartOne": false,
+        "ProcessedInPartTwo": true,
+        "ProcessedInPartThree": false,
+        "ProcessedInPartFour": false,
+        "ProcessedInPartFive": false,
+        "ProcessedInFanbooks": false,
+        "StartLine": null,
+        "EndLine": null
+      }
+    ],
+    "ComfyLifeChapter": null,
+    "Afterword": null,
+    "Gallery": null,
+    "CharacterSheet": null,
+    "Maps": [],
+    "CharacterPoll": null
+  },
+  {
+    "InternalName": "M0202",
+    "ProcessedInPartOne": false,
+    "ProcessedInPartTwo": true,
+    "ProcessedInPartThree": false,
+    "ProcessedInPartFour": false,
+    "ProcessedInPartFive": false,
+    "ProcessedInFanbooks": false,
+    "OCR": true,
+    "Chapters": [],
+    "POVChapters": [],
+    "MangaChapters": [
+      {
+        "OCR": null,
+        "OverrideName": "",
+        "POV": "Fran",
+        "Source": "M2V2 Bonus",
+        "EarlySortOrder": "020114b",
+        "LateSortOrder": "020196d",
+        "EarlyYear": 2,
+        "LateYear": 2,
+        "EarlySeason": "Summer",
+        "LateSeason": "Summer",
+        "OriginalFilenames": [
+          "161",
+          "162",
+          "163",
+          "164",
+          "165",
+          "166",
+          "167",
+          "168"
+        ],
+        "ChapterName": "Sister Myne and Me",
+        "SortOrder": "",
+        "Year": 0,
+        "Season": "",
+        "Volume": "0201",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartOne": false,
+        "ProcessedInPartTwo": true,
+        "ProcessedInPartThree": false,
+        "ProcessedInPartFour": false,
+        "ProcessedInPartFive": false,
+        "ProcessedInFanbooks": false,
+        "StartLine": null,
+        "EndLine": null
+      }
+    ],
+    "BonusChapters": [
+      {
         "OCR": {
           "Corrections": [
             {
@@ -130,60 +203,106 @@
               "Start": "I can only imagine",
               "End": "caring about Myne’s request."
             }
-          ]
-        }
-      }
-    ],
-    "MangaChapters": [
-      {
-        "OriginalFilenames": [ "161", "162", "163", "164", "165", "166", "167", "168" ],
-        "EarlySortOrder": "020114b",
-        "LateSortOrder": "020196d",
-        "POV": "Fran",
-        "ChapterName": "Sister Myne and Me",
+          ],
+          "Header": null,
+          "Crop": false,
+          "HeaderLines": 1
+        },
+        "OverrideName": "The Other Side of the Orphanage Incident",
+        "POV": "Ferdinand",
+        "Source": "M2V2 Written Bonus",
+        "EarlySortOrder": "020113b",
+        "LateSortOrder": "020196c",
         "EarlyYear": 2,
         "LateYear": 2,
         "EarlySeason": "Summer",
         "LateSeason": "Summer",
+        "OriginalFilenames": [
+          "170",
+          "171",
+          "172",
+          "173",
+          "174",
+          "175",
+          "176",
+          "177"
+        ],
+        "ChapterName": "The Other Side of the Orphanage Incident",
+        "SortOrder": "",
+        "Year": 0,
+        "Season": "",
         "Volume": "0201",
-        "Source": "M2V2 Bonus",
-        "ProcessedInPartTwo": true
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartOne": false,
+        "ProcessedInPartTwo": true,
+        "ProcessedInPartThree": false,
+        "ProcessedInPartFour": false,
+        "ProcessedInPartFive": false,
+        "ProcessedInFanbooks": false,
+        "StartLine": null,
+        "EndLine": null
       }
-    ]
+    ],
+    "ComfyLifeChapter": null,
+    "Afterword": null,
+    "Gallery": null,
+    "CharacterSheet": null,
+    "Maps": [],
+    "CharacterPoll": null
   },
   {
     "InternalName": "M0203",
+    "ProcessedInPartOne": false,
+    "ProcessedInPartTwo": true,
+    "ProcessedInPartThree": false,
+    "ProcessedInPartFour": false,
+    "ProcessedInPartFive": false,
+    "ProcessedInFanbooks": false,
     "OCR": true,
+    "Chapters": [],
+    "POVChapters": [],
     "MangaChapters": [
       {
-        "OriginalFilenames": [ "163", "164", "165", "166", "167", "168", "169", "170" ],
+        "OCR": null,
+        "OverrideName": "",
+        "POV": "",
+        "Source": "M2V3 Bonus",
         "EarlySortOrder": "020118b",
         "LateSortOrder": "020196f",
-        "ChapterName": "Ordering Ceremonial Robes [Manga]",
         "EarlyYear": 2,
         "LateYear": 2,
         "EarlySeason": "Summer",
         "LateSeason": "Summer",
+        "OriginalFilenames": [
+          "163",
+          "164",
+          "165",
+          "166",
+          "167",
+          "168",
+          "169",
+          "170"
+        ],
+        "ChapterName": "Ordering Ceremonial Robes [Manga]",
+        "SortOrder": "",
+        "Year": 0,
+        "Season": "",
         "Volume": "0201",
-        "Source": "M2V3 Bonus",
-        "ProcessedInPartTwo": true
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartOne": false,
+        "ProcessedInPartTwo": true,
+        "ProcessedInPartThree": false,
+        "ProcessedInPartFour": false,
+        "ProcessedInPartFive": false,
+        "ProcessedInFanbooks": false,
+        "StartLine": null,
+        "EndLine": null
       }
     ],
     "BonusChapters": [
       {
-        "OriginalFilenames": [ "172", "173", "174", "175", "176", "177", "178", "179" ],
-        "EarlySortOrder": "020119b",
-        "LateSortOrder": "020196g",
-        "POV": "Rico",
-        "ChapterName": "Gathering Taues",
-        "OverrideName": "Gathering Taues",
-        "EarlyYear": 2,
-        "LateYear": 2,
-        "EarlySeason": "Summer",
-        "LateSeason": "Summer",
-        "Volume": "0201",
-        "Source": "M2V3 Written Bonus",
-        "ProcessedInPartTwo": true,
         "OCR": {
           "Corrections": [
             {
@@ -232,29 +351,68 @@
               "Start": "It was because of Sister Myne’s",
               "End": "the forest with us one day..."
             }
-          ]
-        }
-      }
-    ]
-  },
-  {
-    "InternalName": "M0204",
-    "OCR": true,
-    "BonusChapters": [
-      {
-        "OriginalFilenames": [ "158", "159", "160", "161", "162", "163", "164", "165" ],
-        "EarlySortOrder": "020122b",
-        "LateSortOrder": "020196h",
-        "POV": "Gil",
-        "OverrideName": "This Thing Called Family",
-        "ChapterName": "This Thing Called Family",
+          ],
+          "Header": null,
+          "Crop": false,
+          "HeaderLines": 1
+        },
+        "OverrideName": "Gathering Taues",
+        "POV": "Rico",
+        "Source": "M2V3 Written Bonus",
+        "EarlySortOrder": "020119b",
+        "LateSortOrder": "020196g",
         "EarlyYear": 2,
         "LateYear": 2,
         "EarlySeason": "Summer",
         "LateSeason": "Summer",
+        "OriginalFilenames": [
+          "172",
+          "173",
+          "174",
+          "175",
+          "176",
+          "177",
+          "178",
+          "179"
+        ],
+        "ChapterName": "Gathering Taues",
+        "SortOrder": "",
+        "Year": 0,
+        "Season": "",
         "Volume": "0201",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartOne": false,
         "ProcessedInPartTwo": true,
-        "Source": "M2V4 Written Bonus",
+        "ProcessedInPartThree": false,
+        "ProcessedInPartFour": false,
+        "ProcessedInPartFive": false,
+        "ProcessedInFanbooks": false,
+        "StartLine": null,
+        "EndLine": null
+      }
+    ],
+    "ComfyLifeChapter": null,
+    "Afterword": null,
+    "Gallery": null,
+    "CharacterSheet": null,
+    "Maps": [],
+    "CharacterPoll": null
+  },
+  {
+    "InternalName": "M0204",
+    "ProcessedInPartOne": false,
+    "ProcessedInPartTwo": true,
+    "ProcessedInPartThree": false,
+    "ProcessedInPartFour": false,
+    "ProcessedInPartFive": false,
+    "ProcessedInFanbooks": false,
+    "OCR": true,
+    "Chapters": [],
+    "POVChapters": [],
+    "MangaChapters": [],
+    "BonusChapters": [
+      {
         "OCR": {
           "Corrections": [
             {
@@ -283,31 +441,69 @@
               "Start": "Oh yeah. Here",
               "End": "work among ourselves."
             }
-          ]
-        }
+          ],
+          "Header": null,
+          "Crop": false,
+          "HeaderLines": 1
+        },
+        "OverrideName": "This Thing Called Family",
+        "POV": "Gil",
+        "Source": "M2V4 Written Bonus",
+        "EarlySortOrder": "020122b",
+        "LateSortOrder": "020196h",
+        "EarlyYear": 2,
+        "LateYear": 2,
+        "EarlySeason": "Summer",
+        "LateSeason": "Summer",
+        "OriginalFilenames": [
+          "158",
+          "159",
+          "160",
+          "161",
+          "162",
+          "163",
+          "164",
+          "165"
+        ],
+        "ChapterName": "This Thing Called Family",
+        "SortOrder": "",
+        "Year": 0,
+        "Season": "",
+        "Volume": "0201",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartOne": false,
+        "ProcessedInPartTwo": true,
+        "ProcessedInPartThree": false,
+        "ProcessedInPartFour": false,
+        "ProcessedInPartFive": false,
+        "ProcessedInFanbooks": false,
+        "StartLine": null,
+        "EndLine": null
       }
-    ]
+    ],
+    "ComfyLifeChapter": null,
+    "Afterword": null,
+    "Gallery": null,
+    "CharacterSheet": null,
+    "Maps": [],
+    "CharacterPoll": null
   },
   {
     "InternalName": "M0205",
+    "ProcessedInPartOne": false,
+    "ProcessedInPartTwo": true,
+    "ProcessedInPartThree": false,
+    "ProcessedInPartFour": false,
+    "ProcessedInPartFive": false,
+    "ProcessedInFanbooks": false,
     "OCR": true,
+    "Chapters": [],
+    "POVChapters": [],
+    "MangaChapters": [],
     "BonusChapters": [
       {
-        "OriginalFilenames": [ "170", "171", "172", "173", "174", "175", "176", "177", "178" ],
-        "EarlySortOrder": "020210b",
-        "LateSortOrder": "020296c",
-        "POV": "Tuuli",
-        "OverrideName": "Preparing for the Baby",
-        "ChapterName": "Preparing for the Baby",
-        "Volume": "0202",
-        "EarlyYear": 2,
-        "LateYear": 2,
-        "EarlySeason": "Autumn",
-        "LateSeason": "Autumn",
-        "ProcessedInPartTwo": true,
-        "Source": "M2V5 Written Bonus",
         "OCR": {
-          "HeaderLines": 2,
           "Corrections": [
             {
               "Original": "“Oh well...” </p>\r\n<p>I replied",
@@ -371,29 +567,69 @@
               "Start": "Mom tells them every",
               "End": "humanatee on your own..."
             }
-          ]
-        }
-      }
-    ]
-  },
-  {
-    "InternalName": "M0206",
-    "OCR": true,
-    "BonusChapters": [
-      {
-        "OriginalFilenames": [ "180", "181", "182", "183", "184", "185", "186", "187", "188", "189" ],
-        "EarlySortOrder": "020214b",
-        "LateSortOrder": "020296d",
-        "POV": "Delia",
-        "OverrideName": "Books and Karuta",
-        "ChapterName": "Books and Karuta",
-        "Volume": "0202",
+          ],
+          "Header": null,
+          "Crop": false,
+          "HeaderLines": 2
+        },
+        "OverrideName": "Preparing for the Baby",
+        "POV": "Tuuli",
+        "Source": "M2V5 Written Bonus",
+        "EarlySortOrder": "020210b",
+        "LateSortOrder": "020296c",
         "EarlyYear": 2,
         "LateYear": 2,
         "EarlySeason": "Autumn",
         "LateSeason": "Autumn",
+        "OriginalFilenames": [
+          "170",
+          "171",
+          "172",
+          "173",
+          "174",
+          "175",
+          "176",
+          "177",
+          "178"
+        ],
+        "ChapterName": "Preparing for the Baby",
+        "SortOrder": "",
+        "Year": 0,
+        "Season": "",
+        "Volume": "0202",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartOne": false,
         "ProcessedInPartTwo": true,
-        "Source": "M2V6 Written Bonus",
+        "ProcessedInPartThree": false,
+        "ProcessedInPartFour": false,
+        "ProcessedInPartFive": false,
+        "ProcessedInFanbooks": false,
+        "StartLine": null,
+        "EndLine": null
+      }
+    ],
+    "ComfyLifeChapter": null,
+    "Afterword": null,
+    "Gallery": null,
+    "CharacterSheet": null,
+    "Maps": [],
+    "CharacterPoll": null
+  },
+  {
+    "InternalName": "M0206",
+    "ProcessedInPartOne": false,
+    "ProcessedInPartTwo": true,
+    "ProcessedInPartThree": false,
+    "ProcessedInPartFour": false,
+    "ProcessedInPartFive": false,
+    "ProcessedInFanbooks": false,
+    "OCR": true,
+    "Chapters": [],
+    "POVChapters": [],
+    "MangaChapters": [],
+    "BonusChapters": [
+      {
         "OCR": {
           "Corrections": [
             {
@@ -454,40 +690,125 @@
               "Start": "A whole day will",
               "End": "read it all, surely."
             }
-          ]
-        }
-      }
-    ],
-    "ComfyLifeChapter": {
-      "OriginalFilenames": [ "192", "193" ],
-      "SortOrder": "020298b",
-      "ChapterName": "Comfy Life M206",
-      "Volume": "0202",
-      "Year": 2,
-      "Season": "Autumn",
-      "ProcessedInPartTwo": true
-    }
-  },
-  {
-    "InternalName": "M0207",
-    "OCR": true,
-    "BonusChapters": [
-      {
-        "OriginalFilenames": [ "162", "163", "164", "165", "166", "167", "168", "169", "170", "171", "172" ],
-        "EarlySortOrder": "020221b",
-        "LateSortOrder": "020296h",
-        "POV": "Damuel",
-        "ChapterName": "My First Trombe Hunt",
-        "OverrideName": "My First Trombe Hunt",
-        "Volume": "0202",
+          ],
+          "Header": null,
+          "Crop": false,
+          "HeaderLines": 1
+        },
+        "OverrideName": "Books and Karuta",
+        "POV": "Delia",
+        "Source": "M2V6 Written Bonus",
+        "EarlySortOrder": "020214b",
+        "LateSortOrder": "020296d",
         "EarlyYear": 2,
         "LateYear": 2,
         "EarlySeason": "Autumn",
         "LateSeason": "Autumn",
+        "OriginalFilenames": [
+          "180",
+          "181",
+          "182",
+          "183",
+          "184",
+          "185",
+          "186",
+          "187",
+          "188",
+          "189"
+        ],
+        "ChapterName": "Books and Karuta",
+        "SortOrder": "",
+        "Year": 0,
+        "Season": "",
+        "Volume": "0202",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartOne": false,
         "ProcessedInPartTwo": true,
-        "Source": "M2V7 Written Bonus",
+        "ProcessedInPartThree": false,
+        "ProcessedInPartFour": false,
+        "ProcessedInPartFive": false,
+        "ProcessedInFanbooks": false,
+        "StartLine": null,
+        "EndLine": null
+      }
+    ],
+    "ComfyLifeChapter": {
+      "OriginalFilenames": [
+        "192",
+        "193"
+      ],
+      "ChapterName": "Comfy Life M206",
+      "SortOrder": "020298b",
+      "Year": 2,
+      "Season": "Autumn",
+      "Volume": "0202",
+      "Set": "",
+      "Priority": 0,
+      "ProcessedInPartOne": false,
+      "ProcessedInPartTwo": true,
+      "ProcessedInPartThree": false,
+      "ProcessedInPartFour": false,
+      "ProcessedInPartFive": false,
+      "ProcessedInFanbooks": false,
+      "StartLine": null,
+      "EndLine": null
+    },
+    "Afterword": null,
+    "Gallery": null,
+    "CharacterSheet": null,
+    "Maps": [],
+    "CharacterPoll": null
+  },
+  {
+    "InternalName": "M0207",
+    "ProcessedInPartOne": false,
+    "ProcessedInPartTwo": true,
+    "ProcessedInPartThree": false,
+    "ProcessedInPartFour": false,
+    "ProcessedInPartFive": false,
+    "ProcessedInFanbooks": false,
+    "OCR": true,
+    "Chapters": [],
+    "POVChapters": [],
+    "MangaChapters": [
+      {
+        "OCR": null,
+        "OverrideName": "",
+        "POV": "Lutz",
+        "Source": "M2V7 Bonus",
+        "EarlySortOrder": "020223b",
+        "LateSortOrder": "020296i",
+        "EarlyYear": 2,
+        "LateYear": 2,
+        "EarlySeason": "Autumn",
+        "LateSeason": "Autumn",
+        "OriginalFilenames": [
+          "157",
+          "158",
+          "159",
+          "160"
+        ],
+        "ChapterName": "Mental Image",
+        "SortOrder": "",
+        "Year": 0,
+        "Season": "",
+        "Volume": "0202",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartOne": false,
+        "ProcessedInPartTwo": true,
+        "ProcessedInPartThree": false,
+        "ProcessedInPartFour": false,
+        "ProcessedInPartFive": false,
+        "ProcessedInFanbooks": false,
+        "StartLine": null,
+        "EndLine": null
+      }
+    ],
+    "BonusChapters": [
+      {
         "OCR": {
-          "Crop": true,
           "Corrections": [
             {
               "Original": "\"Its branches won’t always come from in front of you!",
@@ -555,48 +876,72 @@
               "Start": "Rumor has it he",
               "End": "ask for his help..."
             }
-          ]
-        }
-      }
-    ],
-    "MangaChapters": [
-      {
-        "OriginalFilenames": [ "157", "158", "159", "160" ],
-        "EarlySortOrder": "020223b",
-        "LateSortOrder": "020296i",
-        "POV": "Lutz",
-        "ChapterName": "Mental Image",
+          ],
+          "Header": null,
+          "Crop": true,
+          "HeaderLines": 1
+        },
+        "OverrideName": "My First Trombe Hunt",
+        "POV": "Damuel",
+        "Source": "M2V7 Written Bonus",
+        "EarlySortOrder": "020221b",
+        "LateSortOrder": "020296h",
         "EarlyYear": 2,
         "LateYear": 2,
         "EarlySeason": "Autumn",
         "LateSeason": "Autumn",
+        "OriginalFilenames": [
+          "162",
+          "163",
+          "164",
+          "165",
+          "166",
+          "167",
+          "168",
+          "169",
+          "170",
+          "171",
+          "172"
+        ],
+        "ChapterName": "My First Trombe Hunt",
+        "SortOrder": "",
+        "Year": 0,
+        "Season": "",
         "Volume": "0202",
-        "Source": "M2V7 Bonus",
-        "ProcessedInPartTwo": true
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartOne": false,
+        "ProcessedInPartTwo": true,
+        "ProcessedInPartThree": false,
+        "ProcessedInPartFour": false,
+        "ProcessedInPartFive": false,
+        "ProcessedInFanbooks": false,
+        "StartLine": null,
+        "EndLine": null
       }
     ],
-    "Maps": [    ]
+    "ComfyLifeChapter": null,
+    "Afterword": null,
+    "Gallery": null,
+    "CharacterSheet": null,
+    "Maps": [],
+    "CharacterPoll": null
   },
   {
     "InternalName": "M0208",
+    "ProcessedInPartOne": false,
+    "ProcessedInPartTwo": true,
+    "ProcessedInPartThree": true,
+    "ProcessedInPartFour": true,
+    "ProcessedInPartFive": true,
+    "ProcessedInFanbooks": true,
     "OCR": true,
+    "Chapters": [],
+    "POVChapters": [],
+    "MangaChapters": [],
     "BonusChapters": [
       {
-        "OriginalFilenames": [ "162", "163", "164", "165", "166", "167", "168", "169", "170", "171", "172" ],
-        "EarlySortOrder": "020302b",
-        "LateSortOrder": "020396a",
-        "POV": "Johann",
-        "ChapterName": "Coming-of-Age Task",
-        "OverrideName": "Coming-of-Age Task",
-        "Volume": "0203",
-        "EarlyYear": 2,
-        "LateYear": 2,
-        "EarlySeason": "Autumn",
-        "LateSeason": "Spring",
-        "ProcessedInPartTwo": true,
-        "Source": "M2V8 Written Bonus",
         "OCR": {
-          "Crop": true,
           "Corrections": [
             {
               "Original": "get more annoyed",
@@ -680,53 +1025,114 @@
               "Start": "Now’s my chance!",
               "End": "Now’s my chance!"
             }
-          ]
-        }
+          ],
+          "Header": null,
+          "Crop": true,
+          "HeaderLines": 1
+        },
+        "OverrideName": "Coming-of-Age Task",
+        "POV": "Johann",
+        "Source": "M2V8 Written Bonus",
+        "EarlySortOrder": "020302b",
+        "LateSortOrder": "020396a",
+        "EarlyYear": 2,
+        "LateYear": 2,
+        "EarlySeason": "Autumn",
+        "LateSeason": "Spring",
+        "OriginalFilenames": [
+          "162",
+          "163",
+          "164",
+          "165",
+          "166",
+          "167",
+          "168",
+          "169",
+          "170",
+          "171",
+          "172"
+        ],
+        "ChapterName": "Coming-of-Age Task",
+        "SortOrder": "",
+        "Year": 0,
+        "Season": "",
+        "Volume": "0203",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartOne": false,
+        "ProcessedInPartTwo": true,
+        "ProcessedInPartThree": false,
+        "ProcessedInPartFour": false,
+        "ProcessedInPartFive": false,
+        "ProcessedInFanbooks": false,
+        "StartLine": null,
+        "EndLine": null
       }
     ],
-    "MangaChapters": [],
+    "ComfyLifeChapter": {
+      "OriginalFilenames": [
+        "176",
+        "177"
+      ],
+      "ChapterName": "Comfy Life M208",
+      "SortOrder": "020321b",
+      "Year": 2,
+      "Season": "Spring",
+      "Volume": "0203",
+      "Set": "",
+      "Priority": 0,
+      "ProcessedInPartOne": false,
+      "ProcessedInPartTwo": true,
+      "ProcessedInPartThree": false,
+      "ProcessedInPartFour": false,
+      "ProcessedInPartFive": false,
+      "ProcessedInFanbooks": false,
+      "StartLine": null,
+      "EndLine": null
+    },
+    "Afterword": null,
+    "Gallery": null,
+    "CharacterSheet": null,
     "Maps": [
       {
-        "OriginalFilenames": [ "003", "002" ],
-        "SortOrder": "03",
+        "OriginalFilenames": [
+          "003",
+          "002"
+        ],
         "ChapterName": "Ehrenfest Temple",
+        "SortOrder": "03",
+        "Year": 0,
+        "Season": "",
+        "Volume": "",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartOne": false,
         "ProcessedInPartTwo": true,
         "ProcessedInPartThree": true,
         "ProcessedInPartFour": true,
         "ProcessedInPartFive": true,
-        "ProcessedInFanbooks": true
+        "ProcessedInFanbooks": true,
+        "StartLine": null,
+        "EndLine": null
       }
     ],
-    "ComfyLifeChapter": {
-      "OriginalFilenames": [ "176", "177" ],
-      "SortOrder": "020321b",
-      "ChapterName": "Comfy Life M208",
-      "Volume": "0203",
-      "Year": 2,
-      "Season": "Spring",
-      "ProcessedInPartTwo": true
-    }
+    "CharacterPoll": null
   },
   {
     "InternalName": "M0209",
+    "ProcessedInPartOne": false,
+    "ProcessedInPartTwo": true,
+    "ProcessedInPartThree": false,
+    "ProcessedInPartFour": false,
+    "ProcessedInPartFive": false,
+    "ProcessedInFanbooks": false,
     "OCR": true,
+    "Chapters": [],
+    "POVChapters": [],
+    "MangaChapters": [],
     "BonusChapters": [
       {
-        "OriginalFilenames": ["156", "157", "158", "159","160","161","162","163","164","165"],
-        "EarlySortOrder": "020307b",
-        "LateSortOrder": "020396b",
-        "POV": "Effa",
-        "ChapterName": "The Knight Who Came to the Temple",
-        "OverrideName": "The Knight Who Came to the Temple",
-        "Volume": "0203",
-        "EarlyYear": 2,
-        "LateYear": 2,
-        "EarlySeason": "Winter",
-        "LateSeason": "Spring",
-        "ProcessedInPartTwo": true,
-        "Source": "M2V9 Written Bonus",
         "OCR": {
-          "Crop": true,
           "Corrections": [
             {
               "Original": "Myne has a knight protecting her!",
@@ -806,20 +1212,74 @@
               "Start": "I pray that",
               "End": "discovers the truth..."
             }
-          ]
-        }
+          ],
+          "Header": null,
+          "Crop": true,
+          "HeaderLines": 1
+        },
+        "OverrideName": "The Knight Who Came to the Temple",
+        "POV": "Effa",
+        "Source": "M2V9 Written Bonus",
+        "EarlySortOrder": "020307b",
+        "LateSortOrder": "020396b",
+        "EarlyYear": 2,
+        "LateYear": 2,
+        "EarlySeason": "Winter",
+        "LateSeason": "Spring",
+        "OriginalFilenames": [
+          "156",
+          "157",
+          "158",
+          "159",
+          "160",
+          "161",
+          "162",
+          "163",
+          "164",
+          "165"
+        ],
+        "ChapterName": "The Knight Who Came to the Temple",
+        "SortOrder": "",
+        "Year": 0,
+        "Season": "",
+        "Volume": "0203",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartOne": false,
+        "ProcessedInPartTwo": true,
+        "ProcessedInPartThree": false,
+        "ProcessedInPartFour": false,
+        "ProcessedInPartFive": false,
+        "ProcessedInFanbooks": false,
+        "StartLine": null,
+        "EndLine": null
       }
     ],
-    "MangaChapters": [],
-    "Maps": [],
     "ComfyLifeChapter": {
-      "OriginalFilenames": [ "168", "169" ],
-      "SortOrder": "020321c",
+      "OriginalFilenames": [
+        "168",
+        "169"
+      ],
       "ChapterName": "Comfy Life M209",
-      "Volume": "0203",
+      "SortOrder": "020321c",
       "Year": 2,
       "Season": "Spring",
-      "ProcessedInPartTwo": true
-    }
+      "Volume": "0203",
+      "Set": "",
+      "Priority": 0,
+      "ProcessedInPartOne": false,
+      "ProcessedInPartTwo": true,
+      "ProcessedInPartThree": false,
+      "ProcessedInPartFour": false,
+      "ProcessedInPartFive": false,
+      "ProcessedInFanbooks": false,
+      "StartLine": null,
+      "EndLine": null
+    },
+    "Afterword": null,
+    "Gallery": null,
+    "CharacterSheet": null,
+    "Maps": [],
+    "CharacterPoll": null
   }
 ]
