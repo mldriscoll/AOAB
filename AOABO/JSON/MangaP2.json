@@ -556,6 +556,10 @@
             {
               "Original": "much.\"",
               "Replacement": "much.”"
+            },
+            {
+              "Original": "“'Hopefully the baby is strong and healthy.”'",
+              "Replacement": "“‘Hopefully the baby is strong and healthy.’”"
             }
           ],
           "Italics": [
@@ -845,6 +849,14 @@
             {
               "Original": "<h1></p>\r\n<p>",
               "Replacement": "<h1>"
+            },
+            {
+              "Original": "\"Just do it when you do yours. It’ll save time. Hurry up.",
+              "Replacement": "“Just do it when you do yours. It’ll save time. Hurry up.”"
+            },
+            {
+              "Original": "ofstepping",
+              "Replacement": "of stepping"
             }
           ],
           "Italics": [
@@ -980,7 +992,15 @@
               "Replacement": "<i>I can’t put that burden on my family. Our home is small, and it’s hard enough with my siblings there. Not only would they hate it, but... I’d feel so pathetic.</i>"
             },
             {
+              "Original": "I can’t put that burden on my family. Our home is small, and it’s hard enough with my siblings there. Not only would they hate it, but... I’d feel so pathetic.",
+              "Replacement": "<i>I can’t put that burden on my family. Our home is small, and it’s hard enough with my siblings there. Not only would they hate it, but... I’d feel so pathetic.</i>"
+            },
+            {
               "Original": "Taey’re my last hope. Unless I speak to them now, it’s over.",
+              "Replacement": "<i>They’re my last hope. Unless I speak to them now, it’s over.</i>"
+            },
+            {
+              "Original": "They’re my last hope. Unless I speak to them now, it’s over.",
               "Replacement": "<i>They’re my last hope. Unless I speak to them now, it’s over.</i>"
             }
           ],
@@ -1189,6 +1209,10 @@
             {
               "Original": "<p>Myne! </p>",
               "Replacement": "<p><i>Myne!</i></p>"
+            },
+            {
+              "Original": "\"Myne asked us to go parue hunting with the orphans next time there’s a sunny day. You can’t go this year 'cause you’re pregnant, right? Well, it looks like we’ll get some parues anyway!",
+              "Replacement": "“Myne asked us to go parue hunting with the orphans next time there’s a sunny day. You can’t go this year 'cause you’re pregnant, right? Well, it looks like we’ll get some parues anyway!”"
             }
           ],
           "Italics": [

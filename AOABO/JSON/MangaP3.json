@@ -104,6 +104,10 @@
             {
               "Original": "Ihe hairpin was that important to her? Noble life must be really hard.",
               "Replacement": "<i>The hairpin was that important to her? Noble life must be really hard.</i>"
+            },
+            {
+              "Original": "lhe hairpin was that important to her? Noble life must be really hard.",
+              "Replacement": "<i>The hairpin was that important to her? Noble life must be really hard.</i>"
             }
           ],
           "Italics": [
@@ -252,6 +256,10 @@
             },
             {
               "Original": "7hat",
+              "Replacement": "That"
+            },
+            {
+              "Original": "77aat",
               "Replacement": "That"
             },
             {

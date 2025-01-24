@@ -297,7 +297,12 @@
     "BonusChapters": [
       {
         "OCR": {
-          "Corrections": [],
+          "Corrections": [
+            {
+              "Original": "...lhough",
+              "Replacement": "...Though"
+            }
+          ],
           "Italics": [
             {
               "Start": "...Are",
