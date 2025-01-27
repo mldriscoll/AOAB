@@ -5,6 +5,7 @@ using AOABO.Omnibus;
 using Core;
 using Core.Downloads;
 using SixLabors.ImageSharp.ColorSpaces;
+using System.Text;
 using System.Text.Json;
 
 var executing = true;
@@ -29,6 +30,7 @@ while (executing)
 #if DEBUG
     Console.WriteLine("6 - Redo JSON Files");
     Console.WriteLine("7 - Add Bonus Chapter");
+    Console.WriteLine("8 - Create Tables");
 #endif
 
     var key = Console.ReadKey();
@@ -63,6 +65,10 @@ while (executing)
         case ('7', true):
         case ('7', false):
             await AddChapter();
+            break;
+        case ('8', true):
+        case ('8', false):
+            await CreateTables();
             break;
 #endif
         default:
@@ -107,7 +113,7 @@ async Task RedoJSON()
     foreach (var set in bonusChapters)
     {
         var i = 1;
-        foreach (var chapter in set.Value.OrderBy(x => x.SortOrder))
+        foreach (var chapter in set.Value.OrderBy(x => (x is MoveableChapter xx) ? xx.EarlySortOrder : x.SortOrder))
         {
             chapter.LateSortOrder = $"{set.Key}96{i:00}";
             i++;
@@ -349,4 +355,126 @@ bool GetYN()
                 return false;
         }
     }
+}
+
+async Task CreateTables()
+{
+    var chapters = Configuration.Volumes.SelectMany(x =>
+    {
+        var c = new List<Chapter>();
+        c.AddRange(x.POVChapters);
+        c.AddRange(x.MangaChapters);
+        c.AddRange(x.BonusChapters);
+        c.AddRange(x.Chapters);
+        return c;
+    }).OrderBy(x => (x is MoveableChapter xx) ? xx.EarlySortOrder : x.SortOrder).ToArray();
+
+    //POV Chart
+    var sb = new StringBuilder();
+    sb.AppendLine("|Character|Chapter|Name|");
+    sb.Append("|-|-|-|");
+    string character = "";
+    foreach(var chapter in chapters.Where(x => x is BonusChapter || x is POVChapter).OrderBy(x => x is BonusChapter c ? c.POV : ((POVChapter)x).POV))
+    {
+        if (chapter is BonusChapter b)
+        {
+            if (!string.IsNullOrWhiteSpace(b.POV))
+            {
+                if (string.Equals(character, b.POV))
+                {
+                    sb.AppendLine($"| |{b.Source}|**{b.ChapterName}**");
+                }
+                else
+                {
+                    character = b.POV;
+                    sb.AppendLine("");
+                    sb.AppendLine($"|{b.POV}|{b.Source}|**{b.ChapterName}**");
+                }
+            }
+        }
+        if (chapter is POVChapter p)
+        {
+            if (!string.IsNullOrWhiteSpace(p.POV))
+            {
+                if (string.Equals(character, p.POV))
+                {
+                    sb.AppendLine($"| |{p.GetVolumeName()}|*{p.ChapterName}*");
+                }
+                else
+                {
+                    character = p.POV;
+                    sb.AppendLine("");
+                    sb.AppendLine($"|{p.POV}|{p.GetVolumeName()}|*{p.ChapterName}*");
+                }
+            }
+        }
+    }
+
+    await File.WriteAllTextAsync("POVs.txt", sb.ToString());
+
+    //Chronological Chart P1
+    await PartChart(chapters, "PartOne.txt", partOne: true);
+    //Chronological Chart P2
+    await PartChart(chapters, "PartTwo.txt", partTwo: true);
+    //Chronological Chart P3
+    await PartChart(chapters, "PartThree.txt", partThree: true);
+    //Chronological Chart P4
+    await PartChart(chapters, "PartFour.txt", partFour: true);
+    //Chronological Chart P5
+    await PartChart(chapters, "PartFive.txt", partFive: true);
+}
+
+async Task PartChart(Chapter[] chapters, string name, bool partOne = false, bool partTwo = false, bool partThree = false, bool partFour = false, bool partFive = false)
+{
+    var sb = new StringBuilder();
+    sb.AppendLine("|Chapter|Name|POV|");
+    sb.Append("|:-:|-|-|");
+    int c = 1;
+    string volume = null;
+    string season = null;
+    int year = 0;
+    foreach (var chapter in chapters.Where(x => x.ProcessedInPartOne == partOne && x.ProcessedInPartTwo == partTwo && x.ProcessedInPartThree == partThree && x.ProcessedInPartFour == partFour && x.ProcessedInPartFive == partFive))
+    {
+        if (!string.Equals(volume, chapter.Volume))
+        {
+            sb.AppendLine();
+            volume = chapter.Volume;
+            c = 1;
+        }
+        
+
+        if (chapter is BonusChapter b)
+        {
+            if (!string.Equals(season, b.EarlySeason))
+            {
+                sb.AppendLine($"|**Year {b.EarlyYear} {b.EarlySeason}**|||");
+                season = b.EarlySeason;
+                year = b.EarlyYear;
+            }
+            sb.AppendLine($"|{b.Source}|*{b.ChapterName}*|{b.POV}");
+        }
+        else if (chapter is POVChapter p)
+        {
+            if (!string.Equals(season, chapter.Season))
+            {
+                sb.AppendLine($"|**Year {chapter.Year} {chapter.Season}**|||");
+                season = chapter.Season;
+                year = chapter.Year;
+            }
+            sb.AppendLine($"|**{p.GetVolumeName()}**|**{p.ChapterName}**|{p.POV}");
+        }
+        else
+        {
+            if (!string.Equals(season, chapter.Season))
+            {
+                sb.AppendLine($"|**Year {chapter.Year} {chapter.Season}**|||");
+                season = chapter.Season;
+                year = chapter.Year;
+            }
+            sb.AppendLine($"|{chapter.GetVolumeName()}C{c}|{chapter.ChapterName}");
+            c++;
+        }
+    }
+
+    File.WriteAllText(name, sb.ToString());
 }

@@ -46,6 +46,20 @@ namespace AOABO.Chapters
                 _ => throw new Exception($"GetPartSubFolder - {ChapterName}"),
             };
         }
+        public string GetVolumeName()
+        {
+            return Volume switch
+            {
+                "0101" or "0102" or "0103" => $"P1V{Volume[3]}",
+                "0201" or "0202" or "0203" or "0204" => $"P2V{Volume[3]}",
+                "0301" or "0302" or "0303" or "0304" or "0305" => $"P3V{Volume[3]}",
+                "0401" or "0402" or "0403" or "0404" or "0405" or "0406" or "0407" or "0408" or "0409" => $"P4V{Volume[3]}",
+                "0501" or "0502" or "0503" or "0504" or "0505" or "0506" or "0507" or "0508" or "0509" => $"P5V{Volume[3]}",
+                "0510" or "0511" or "0512" => $"P5V{Volume[2]}{Volume[3]}",
+                "FB1" or "FB2" or "FB3" or "FB4" or "FB5" => $"11-Fanbooks",
+                _ => throw new Exception($"GetPartSubFolder - {ChapterName}"),
+            };
+        }
         protected virtual string GetYearsSubFolder()
         {
             return Volume switch
