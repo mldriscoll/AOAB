@@ -202,7 +202,7 @@
           "chapter10_1"
         ],
         "ChapterName": "Training the Chefs",
-        "SortOrder": "020114",
+        "SortOrder": "020115",
         "Year": 2,
         "Season": "Summer",
         "Volume": "0201",
@@ -222,7 +222,7 @@
           "chapter11"
         ],
         "ChapterName": "Delia's Job",
-        "SortOrder": "020115",
+        "SortOrder": "020116",
         "Year": 2,
         "Season": "Summer",
         "Volume": "0201",
@@ -242,7 +242,7 @@
           "chapter12"
         ],
         "ChapterName": "The Reality of the Orphanage",
-        "SortOrder": "020116",
+        "SortOrder": "020117",
         "Year": 2,
         "Season": "Summer",
         "Volume": "0201",
@@ -262,7 +262,7 @@
           "chapter13"
         ],
         "ChapterName": "Discussion With the High Priest and My Resolve",
-        "SortOrder": "020117",
+        "SortOrder": "020118",
         "Year": 2,
         "Season": "Summer",
         "Volume": "0201",
@@ -284,7 +284,7 @@
           "chapter14_1"
         ],
         "ChapterName": "Secret Talk With the High Priest",
-        "SortOrder": "020119",
+        "SortOrder": "020120",
         "Year": 2,
         "Season": "Summer",
         "Volume": "0201",
@@ -304,7 +304,7 @@
           "chapter15"
         ],
         "ChapterName": "Cleaning Up the Orphanage",
-        "SortOrder": "020121",
+        "SortOrder": "020123",
         "Year": 2,
         "Season": "Summer",
         "Volume": "0201",
@@ -326,7 +326,7 @@
           "chapter16_1"
         ],
         "ChapterName": "Ideas for New Products",
-        "SortOrder": "020122",
+        "SortOrder": "020124",
         "Year": 2,
         "Season": "Summer",
         "Volume": "0201",
@@ -346,7 +346,7 @@
           "chapter17"
         ],
         "ChapterName": "Diptychs and Cards",
-        "SortOrder": "020124",
+        "SortOrder": "020126",
         "Year": 2,
         "Season": "Summer",
         "Volume": "0201",
@@ -366,7 +366,7 @@
           "chapter18"
         ],
         "ChapterName": "Preparing for the Star Festival",
-        "SortOrder": "020125",
+        "SortOrder": "020127",
         "Year": 2,
         "Season": "Summer",
         "Volume": "0201",
@@ -388,7 +388,7 @@
           "chapter19_1"
         ],
         "ChapterName": "The Star Festival",
-        "SortOrder": "020127",
+        "SortOrder": "020129",
         "Year": 2,
         "Season": "Summer",
         "Volume": "0201",
@@ -408,7 +408,7 @@
           "chapter20"
         ],
         "ChapterName": "After the Festival",
-        "SortOrder": "020129",
+        "SortOrder": "020131",
         "Year": 2,
         "Season": "Summer",
         "Volume": "0201",
@@ -428,7 +428,7 @@
           "chapter21"
         ],
         "ChapterName": "Lutz's Path Through Life",
-        "SortOrder": "020130",
+        "SortOrder": "020132",
         "Year": 2,
         "Season": "Summer",
         "Volume": "0201",
@@ -450,7 +450,7 @@
           "chapter22_1"
         ],
         "ChapterName": "Lutz Running Away From Home",
-        "SortOrder": "020131",
+        "SortOrder": "020133",
         "Year": 2,
         "Season": "Summer",
         "Volume": "0201",
@@ -470,7 +470,7 @@
           "chapter23"
         ],
         "ChapterName": "The High Priest's Letter of Invitation",
-        "SortOrder": "020133",
+        "SortOrder": "020135",
         "Year": 2,
         "Season": "Summer",
         "Volume": "0201",
@@ -492,7 +492,7 @@
           "chapter24_1"
         ],
         "ChapterName": "Family Meeting at the Temple",
-        "SortOrder": "020134",
+        "SortOrder": "020136",
         "Year": 2,
         "Season": "Summer",
         "Volume": "0201",
@@ -536,7 +536,7 @@
           "epilogue"
         ],
         "ChapterName": "Epilogue",
-        "SortOrder": "020135",
+        "SortOrder": "020137",
         "Year": 2,
         "Season": "Summer",
         "Volume": "0201",
@@ -560,7 +560,7 @@
         "POV": "Tuuli",
         "Source": "P2V1 Extra 1",
         "EarlySortOrder": "020110",
-        "LateSortOrder": "02019609",
+        "LateSortOrder": "02019611",
         "EarlyYear": 2,
         "LateYear": 2,
         "EarlySeason": "Summer",
@@ -589,8 +589,8 @@
         "OverrideName": "",
         "POV": "Gil",
         "Source": "P2V1 Extra 2",
-        "EarlySortOrder": "020123",
-        "LateSortOrder": "02019610",
+        "EarlySortOrder": "020125",
+        "LateSortOrder": "02019612",
         "EarlyYear": 2,
         "LateYear": 2,
         "EarlySeason": "Summer",

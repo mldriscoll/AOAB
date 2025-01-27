@@ -28,6 +28,7 @@ while (executing)
 
 #if DEBUG
     Console.WriteLine("6 - Redo JSON Files");
+    Console.WriteLine("7 - Add Bonus Chapter");
 #endif
 
     var key = Console.ReadKey();
@@ -58,6 +59,10 @@ while (executing)
         case ('6', true):
         case ('6', false):
             await RedoJSON();
+            break;
+        case ('7', true):
+        case ('7', false):
+            await AddChapter();
             break;
 #endif
         default:
@@ -109,6 +114,11 @@ async Task RedoJSON()
         }
     }
 
+    await SaveAll();
+}
+
+async Task SaveAll()
+{
     var fanbooks = new List<Volume>();
     var p1 = new List<Volume>();
     var p2 = new List<Volume>();
@@ -120,7 +130,7 @@ async Task RedoJSON()
     var mp3 = new List<Volume>();
     var ss = new List<Volume>();
 
-    foreach(var vol in Configuration.Volumes)
+    foreach (var vol in Configuration.Volumes)
     {
         switch (vol.InternalName)
         {
@@ -235,5 +245,108 @@ async Task Save(string filename, List<Volume> vols)
     using (var writer = new StreamWriter($"..\\..\\..\\JSON\\{filename}.json"))
     {
         await JsonSerializer.SerializeAsync(writer.BaseStream, vols, options: options);
+    }
+}
+
+async Task AddChapter()
+{
+    Console.Clear();
+    Console.WriteLine("Source Book:");
+    
+    var bookCode = Console.ReadLine();
+
+    var book = Configuration.Volumes.FirstOrDefault(x => x.InternalName.Equals(bookCode));
+
+    if (book == null) return;
+
+    Console.WriteLine("Volume:");
+    var vol = Console.ReadLine();
+    var volume = Configuration.Volumes.FirstOrDefault(x => x.InternalName.Equals($"LN{vol}"));
+    var chapters = Configuration.Volumes.SelectMany(x =>
+    {
+        var c = new List<Chapter>();
+        c.AddRange(x.POVChapters);
+        c.AddRange(x.MangaChapters);
+        c.AddRange(x.BonusChapters);
+        c.AddRange(x.Chapters);
+        if (x.CharacterSheet != null) c.Add(x.CharacterSheet);
+        if (x.ComfyLifeChapter != null) c.Add(x.ComfyLifeChapter);
+        return c;
+    }).Where(x => x.Volume.Equals(vol)).ToArray();
+
+    if (volume == null) return;
+    var epilogue = volume.POVChapters.FirstOrDefault(x => x.ChapterName.Equals("Epilogue"));
+    if (epilogue == null) return;
+
+    var chapter = new BonusChapter
+    {
+        LateSeason = epilogue.Season,
+        LateYear = epilogue.Year,
+        OriginalFilenames = new List<string>(),
+        Volume = vol ?? string.Empty
+    };
+
+    Console.WriteLine("Chapter Source:");
+    chapter.Source = Console.ReadLine() ?? string.Empty;
+
+    Console.WriteLine("Chapter Name:");
+    chapter.ChapterName = Console.ReadLine() ?? string.Empty;
+
+    Console.WriteLine("POV Character:");
+    chapter.POV = Console.ReadLine() ?? string.Empty;
+
+    Console.WriteLine("Follows Chapter:");
+    var cname = Console.ReadLine() ?? string.Empty;
+    var previousChapter = chapters.FirstOrDefault(x => x.ChapterName.Equals(cname));
+    if (previousChapter == null) return;
+
+    if (previousChapter is MoveableChapter mc)
+    {
+        chapter.EarlySeason = mc.EarlySeason;
+        chapter.EarlyYear = mc.EarlyYear;
+        chapter.EarlySortOrder = mc.EarlySortOrder + "a";
+    }
+    else
+    {
+        chapter.EarlySeason = previousChapter.Season;
+        chapter.EarlyYear = previousChapter.Year;
+        chapter.EarlySortOrder = previousChapter.SortOrder + "a";
+    }
+
+    Console.WriteLine("Enter Source Files:");
+    var a = Console.ReadLine();
+    while (!string.IsNullOrWhiteSpace(a))
+    {
+        chapter.OriginalFilenames.Add(a);
+        a = Console.ReadLine();
+    }
+
+    Console.WriteLine("Process in Part One?");
+    chapter.ProcessedInPartOne = GetYN();
+    Console.WriteLine("Process in Part Two?");
+    chapter.ProcessedInPartTwo = GetYN();
+    Console.WriteLine("Process in Part Three?");
+    chapter.ProcessedInPartThree = GetYN();
+    Console.WriteLine("Process in Part Four?");
+    chapter.ProcessedInPartFour = GetYN();
+    Console.WriteLine("Process in Part Five?");
+    chapter.ProcessedInPartFive = GetYN();
+
+    book.BonusChapters.Add(chapter);
+
+    await SaveAll();
+}
+
+bool GetYN()
+{
+    while (true)
+    {
+        switch (Console.ReadKey().Key)
+        {
+            case ConsoleKey.Y:
+                return true;
+            case ConsoleKey.N:
+                return false;
+        }
     }
 }
