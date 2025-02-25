@@ -18782,7 +18782,9 @@
         "ApiSlug": "tearmoon-empire-volume-14",
         "FileName": "tearmoon-empire-volume-14.epub",
         "Title": "",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2025-01-28",
         "Order": 114
       },
