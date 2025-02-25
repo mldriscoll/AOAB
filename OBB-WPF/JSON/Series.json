@@ -495,6 +495,37 @@
   },
   {
     "CustomSeries": false,
+    "Name": "A Pale Moon Reverie (Manga)",
+    "InternalName": "a-pale-moon-reverie-manga",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "a-pale-moon-reverie-manga"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "a-pale-moon-reverie-manga-volume-1",
+        "FileName": "a-pale-moon-reverie-manga-volume-1.epub",
+        "Title": "A Pale Moon Reverie (Manga) Volume 1",
+        "EditedBy": [],
+        "Published": "2024-12-04",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "a-pale-moon-reverie-manga-volume-2",
+        "FileName": "a-pale-moon-reverie-manga-volume-2.epub",
+        "Title": "A Pale Moon Reverie (Manga) Volume 2",
+        "EditedBy": [],
+        "Published": "2025-04-16",
+        "Order": 102
+      }
+    ],
+    "Author": "Kuji Furumiya",
+    "AuthorSort": "FURUMIYA, KUJI"
+  },
+  {
+    "CustomSeries": false,
     "Name": "A Royal Rebound: Forget My Ex-Fiancé, I'm Being Pampered by the Prince!",
     "InternalName": "a-royal-rebound",
     "ApiSlugs": [
@@ -527,6 +558,37 @@
         "EditedBy": [],
         "Published": "2023-11-10",
         "Order": 103
+      }
+    ],
+    "Author": "Micoto Sakurai",
+    "AuthorSort": "SAKURAI, MICOTO"
+  },
+  {
+    "CustomSeries": false,
+    "Name": "A Royal Rebound: Forget My Ex-Fiancé, I'm Being Pampered by the Prince! (Manga)",
+    "InternalName": "a-royal-rebound-forget-my-ex-fianc-i-m-being-pampered-by-the-prince-manga",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "a-royal-rebound-forget-my-ex-fianc-i-m-being-pampered-by-the-prince-manga"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "a-royal-rebound-forget-my-ex-fianc-i-m-being-pampered-by-the-prince-manga-volume-1",
+        "FileName": "a-royal-rebound-forget-my-ex-fianc-i-m-being-pampered-by-the-prince-manga-volume-1.epub",
+        "Title": "A Royal Rebound: Forget My Ex-Fiancé, I'm Being Pampered by the Prince! (Manga) Volume 1",
+        "EditedBy": [],
+        "Published": "2024-12-18",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "a-royal-rebound-forget-my-ex-fianc-i-m-being-pampered-by-the-prince-manga-volume-2",
+        "FileName": "a-royal-rebound-forget-my-ex-fianc-i-m-being-pampered-by-the-prince-manga-volume-2.epub",
+        "Title": "A Royal Rebound: Forget My Ex-Fiancé, I'm Being Pampered by the Prince! (Manga) Volume 2",
+        "EditedBy": [],
+        "Published": "2025-04-30",
+        "Order": 102
       }
     ],
     "Author": "Micoto Sakurai",
@@ -1284,6 +1346,14 @@
         "EditedBy": [],
         "Published": "2024-09-19",
         "Order": 118
+      },
+      {
+        "ApiSlug": "an-archdemon-s-dilemma-how-to-love-your-elf-bride-volume-19",
+        "FileName": "an-archdemon-s-dilemma-how-to-love-your-elf-bride-volume-19.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2025-06-03",
+        "Order": 119
       }
     ],
     "Author": "Fuminori Teshima",
@@ -4370,6 +4440,14 @@
         "EditedBy": [],
         "Published": "2025-03-11",
         "Order": 108
+      },
+      {
+        "ApiSlug": "d-genesis-volume-9",
+        "FileName": "d-genesis-volume-9.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2025-08-01",
+        "Order": 109
       }
     ],
     "Author": "KONO Tsuranori",
@@ -5633,6 +5711,14 @@
         "EditedBy": [],
         "Published": "2025-02-05",
         "Order": 109
+      },
+      {
+        "ApiSlug": "doll-kara-volume-10",
+        "FileName": "doll-kara-volume-10.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2025-05-14",
+        "Order": 110
       }
     ],
     "Author": "Kazuyoshi Ishii, Kei Ryuzoji",
@@ -6770,6 +6856,14 @@
         "EditedBy": [],
         "Published": "2025-03-12",
         "Order": 102
+      },
+      {
+        "ApiSlug": "from-villainess-to-healer-volume-3",
+        "FileName": "from-villainess-to-healer-volume-3.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2025-05-21",
+        "Order": 103
       }
     ],
     "Author": "Punichan",
@@ -7409,6 +7503,14 @@
         "EditedBy": [],
         "Published": "2025-02-24",
         "Order": 103
+      },
+      {
+        "ApiSlug": "goodbye-overtime-volume-4",
+        "FileName": "goodbye-overtime-volume-4.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2025-05-19",
+        "Order": 104
       }
     ],
     "Author": "Chidori Hama",
@@ -8746,6 +8848,14 @@
         "EditedBy": [],
         "Published": "2025-01-15",
         "Order": 111
+      },
+      {
+        "ApiSlug": "how-a-realist-hero-rebuilt-the-kingdom-manga-volume-12",
+        "FileName": "how-a-realist-hero-rebuilt-the-kingdom-manga-volume-12.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2025-05-07",
+        "Order": 112
       }
     ],
     "Author": "Dojyomaru",
@@ -10186,6 +10296,37 @@
   },
   {
     "CustomSeries": false,
+    "Name": "Imperial Reincarnation: I Came, I Saw, I Survived",
+    "InternalName": "imperial-reincarnation-i-came-i-saw-i-survived",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "imperial-reincarnation-i-came-i-saw-i-survived"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "imperial-reincarnation-i-came-i-saw-i-survived-volume-1",
+        "FileName": "imperial-reincarnation-i-came-i-saw-i-survived-volume-1.epub",
+        "Title": "Imperial Reincarnation: I Came, I Saw, I Survived Volume 1",
+        "EditedBy": [],
+        "Published": "2025-03-04",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "imperial-reincarnation-i-came-i-saw-i-survived-volume-2",
+        "FileName": "imperial-reincarnation-i-came-i-saw-i-survived-volume-2.epub",
+        "Title": "Imperial Reincarnation: I Came, I Saw, I Survived Volume 2",
+        "EditedBy": [],
+        "Published": "2025-06-05",
+        "Order": 102
+      }
+    ],
+    "Author": "Masekinokatasa",
+    "AuthorSort": "MASEKINOKATASA"
+  },
+  {
+    "CustomSeries": false,
     "Name": "In Another World With My Smartphone",
     "InternalName": "in-another-world-with-my-smartphone",
     "ApiSlugs": [
@@ -11482,6 +11623,14 @@
         "EditedBy": [],
         "Published": "2025-01-22",
         "Order": 109
+      },
+      {
+        "ApiSlug": "isekai-tensei-recruited-to-another-world-manga-volume-10",
+        "FileName": "isekai-tensei-recruited-to-another-world-manga-volume-10.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2025-04-16",
+        "Order": 110
       }
     ],
     "Author": "Kenichi",
@@ -12253,6 +12402,14 @@
         "EditedBy": [],
         "Published": "2025-02-28",
         "Order": 102
+      },
+      {
+        "ApiSlug": "lady-bumpkin-and-her-lord-villain-volume-3",
+        "FileName": "lady-bumpkin-and-her-lord-villain-volume-3.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2025-05-05",
+        "Order": 103
       }
     ],
     "Author": "Ageha Sakura",
@@ -12778,6 +12935,14 @@
         "EditedBy": [],
         "Published": "2025-02-18",
         "Order": 108
+      },
+      {
+        "ApiSlug": "magic-stone-gourmet-eating-magical-power-made-me-the-strongest-volume-9",
+        "FileName": "magic-stone-gourmet-eating-magical-power-made-me-the-strongest-volume-9.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2025-04-29",
+        "Order": 109
       }
     ],
     "Author": "Ryou Yuuki",
@@ -12935,6 +13100,14 @@
         "EditedBy": [],
         "Published": "2025-02-26",
         "Order": 104
+      },
+      {
+        "ApiSlug": "management-of-a-novice-alchemist-volume-5",
+        "FileName": "management-of-a-novice-alchemist-volume-5.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2025-05-28",
+        "Order": 105
       }
     ],
     "Author": "Mizuho Itsuki",
@@ -13270,6 +13443,68 @@
     ],
     "Author": "Nyun",
     "AuthorSort": "NYUN"
+  },
+  {
+    "CustomSeries": false,
+    "Name": "Mercedes and the Waning Moon: The Dungeoneering Feats of a Discarded Vampire Aristocrat",
+    "InternalName": "mercedes-and-the-waning-moon-the-dungeoneering-feats-of-a-discarded-vampire-aristocrat",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "mercedes-and-the-waning-moon-the-dungeoneering-feats-of-a-discarded-vampire-aristocrat"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "mercedes-and-the-waning-moon-the-dungeoneering-feats-of-a-discarded-vampire-aristocrat-volume-1",
+        "FileName": "mercedes-and-the-waning-moon-the-dungeoneering-feats-of-a-discarded-vampire-aristocrat-volume-1.epub",
+        "Title": "Mercedes and the Waning Moon: The Dungeoneering Feats of a Discarded Vampire Aristocrat Volume 1",
+        "EditedBy": [],
+        "Published": "2025-02-12",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "mercedes-and-the-waning-moon-the-dungeoneering-feats-of-a-discarded-vampire-aristocrat-volume-2",
+        "FileName": "mercedes-and-the-waning-moon-the-dungeoneering-feats-of-a-discarded-vampire-aristocrat-volume-2.epub",
+        "Title": "Mercedes and the Waning Moon: The Dungeoneering Feats of a Discarded Vampire Aristocrat Volume 2",
+        "EditedBy": [],
+        "Published": "2025-06-18",
+        "Order": 102
+      }
+    ],
+    "Author": "Fire head",
+    "AuthorSort": "HEAD, FIRE"
+  },
+  {
+    "CustomSeries": false,
+    "Name": "Mercedes and the Waning Moon: The Dungeoneering Feats of a Discarded Vampire Aristocrat (Manga)",
+    "InternalName": "mercedes-and-the-waning-moon-the-dungeoneering-feats-of-a-discarded-vampire-aristocrat-manga",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "mercedes-and-the-waning-moon-the-dungeoneering-feats-of-a-discarded-vampire-aristocrat-manga"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "mercedes-and-the-waning-moon-the-dungeoneering-feats-of-a-discarded-vampire-aristocrat-manga-volume-1",
+        "FileName": "mercedes-and-the-waning-moon-the-dungeoneering-feats-of-a-discarded-vampire-aristocrat-manga-volume-1.epub",
+        "Title": "Mercedes and the Waning Moon: The Dungeoneering Feats of a Discarded Vampire Aristocrat (Manga) Volume 1",
+        "EditedBy": [],
+        "Published": "2025-01-29",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "mercedes-and-the-waning-moon-the-dungeoneering-feats-of-a-discarded-vampire-aristocrat-manga-volume-2",
+        "FileName": "mercedes-and-the-waning-moon-the-dungeoneering-feats-of-a-discarded-vampire-aristocrat-manga-volume-2.epub",
+        "Title": "Mercedes and the Waning Moon: The Dungeoneering Feats of a Discarded Vampire Aristocrat (Manga) Volume 2",
+        "EditedBy": [],
+        "Published": "2025-04-16",
+        "Order": 102
+      }
+    ],
+    "Author": "Fire head",
+    "AuthorSort": "HEAD, FIRE"
   },
   {
     "CustomSeries": false,
@@ -14507,6 +14742,14 @@
         "EditedBy": [],
         "Published": "2024-12-20",
         "Order": 113
+      },
+      {
+        "ApiSlug": "my-next-life-as-a-villainess-all-routes-lead-to-doom-volume-14",
+        "FileName": "my-next-life-as-a-villainess-all-routes-lead-to-doom-volume-14.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2025-06-04",
+        "Order": 114
       }
     ],
     "Author": "Satoru Yamaguchi",
@@ -14752,6 +14995,14 @@
         "EditedBy": [],
         "Published": "2024-07-22",
         "Order": 111
+      },
+      {
+        "ApiSlug": "my-stepmom-s-daughter-is-my-ex-volume-12",
+        "FileName": "my-stepmom-s-daughter-is-my-ex-volume-12.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2025-04-15",
+        "Order": 112
       }
     ],
     "Author": "Kyosuke Kamishiro",
@@ -14854,6 +15105,14 @@
         "EditedBy": [],
         "Published": "2025-03-03",
         "Order": 103
+      },
+      {
+        "ApiSlug": "no-one-gets-past-this-gatekeeper-the-unwanted-warrior-guards-his-new-post-volume-4",
+        "FileName": "no-one-gets-past-this-gatekeeper-the-unwanted-warrior-guards-his-new-post-volume-4.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2025-05-27",
+        "Order": 104
       }
     ],
     "Author": "Kametsu Tomobashi",
@@ -15052,6 +15311,14 @@
         "EditedBy": [],
         "Published": "2025-01-01",
         "Order": 109
+      },
+      {
+        "ApiSlug": "now-i-m-a-demon-lord-happily-ever-after-with-monster-girls-in-my-dungeon-manga-volume-10",
+        "FileName": "now-i-m-a-demon-lord-happily-ever-after-with-monster-girls-in-my-dungeon-manga-volume-10.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2025-05-14",
+        "Order": 110
       }
     ],
     "Author": "Ryuyu",
@@ -15840,10 +16107,49 @@
         "EditedBy": [],
         "Published": "2024-11-21",
         "Order": 109
+      },
+      {
+        "ApiSlug": "peddler-in-another-world-i-can-go-back-to-my-world-whenever-i-want-volume-10",
+        "FileName": "peddler-in-another-world-i-can-go-back-to-my-world-whenever-i-want-volume-10.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2025-05-12",
+        "Order": 110
       }
     ],
     "Author": "Hiiro Shimotsuki",
     "AuthorSort": "SHIMOTSUKI, HIIRO"
+  },
+  {
+    "CustomSeries": false,
+    "Name": "Pens Down, Swords Up: Throw Your Studies to the Wind",
+    "InternalName": "pens-down-swords-up",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "pens-down-swords-up"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "pens-down-swords-up-throw-your-studies-to-the-wind-volume-1",
+        "FileName": "pens-down-swords-up-throw-your-studies-to-the-wind-volume-1.epub",
+        "Title": "Pens Down, Swords Up: Throw Your Studies to the Wind Volume 1",
+        "EditedBy": [],
+        "Published": "2025-02-21",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "pens-down-swords-up-throw-your-studies-to-the-wind-volume-2",
+        "FileName": "pens-down-swords-up-throw-your-studies-to-the-wind-volume-2.epub",
+        "Title": "Pens Down, Swords Up: Throw Your Studies to the Wind Volume 2",
+        "EditedBy": [],
+        "Published": "2025-06-12",
+        "Order": 102
+      }
+    ],
+    "Author": "Mao Nishiura",
+    "AuthorSort": "NISHIURA, MAO"
   },
   {
     "CustomSeries": false,
@@ -16169,6 +16475,14 @@
         "EditedBy": [],
         "Published": "2025-03-11",
         "Order": 115
+      },
+      {
+        "ApiSlug": "private-tutor-to-the-duke-s-daughter-volume-16",
+        "FileName": "private-tutor-to-the-duke-s-daughter-volume-16.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2025-06-17",
+        "Order": 116
       }
     ],
     "Author": "Riku Nanano",
@@ -16595,6 +16909,14 @@
         "EditedBy": [],
         "Published": "2024-12-18",
         "Order": 110
+      },
+      {
+        "ApiSlug": "rebuild-world-manga-volume-11",
+        "FileName": "rebuild-world-manga-volume-11.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2025-04-30",
+        "Order": 111
       }
     ],
     "Author": "Nahuse",
@@ -16826,6 +17148,14 @@
         "EditedBy": [],
         "Published": "2025-01-17",
         "Order": 127
+      },
+      {
+        "ApiSlug": "record-of-wortenia-war-volume-28",
+        "FileName": "record-of-wortenia-war-volume-28.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2025-05-09",
+        "Order": 128
       }
     ],
     "Author": "Ryota Hori",
@@ -17560,6 +17890,14 @@
         "EditedBy": [],
         "Published": "2024-09-03",
         "Order": 125
+      },
+      {
+        "ApiSlug": "seirei-gensouki-spirit-chronicles-volume-26",
+        "FileName": "seirei-gensouki-spirit-chronicles-volume-26.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2025-05-30",
+        "Order": 126
       }
     ],
     "Author": "Yuri Kitayama",
@@ -19214,6 +19552,14 @@
         "EditedBy": [],
         "Published": "2025-02-10",
         "Order": 104
+      },
+      {
+        "ApiSlug": "the-banished-former-hero-lives-as-he-pleases-volume-5",
+        "FileName": "the-banished-former-hero-lives-as-he-pleases-volume-5.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2025-06-19",
+        "Order": 105
       }
     ],
     "Author": "Shin Kouduki",
@@ -19362,6 +19708,14 @@
         "EditedBy": [],
         "Published": "2025-02-24",
         "Order": 102
+      },
+      {
+        "ApiSlug": "the-boy-who-ruled-the-monsters-volume-3",
+        "FileName": "the-boy-who-ruled-the-monsters-volume-3.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2025-06-04",
+        "Order": 103
       }
     ],
     "Author": "Sin Guilty",
@@ -19868,6 +20222,14 @@
         "EditedBy": [],
         "Published": "2025-02-19",
         "Order": 105
+      },
+      {
+        "ApiSlug": "the-diary-of-a-middle-aged-sage-s-carefree-life-in-another-world-volume-6",
+        "FileName": "the-diary-of-a-middle-aged-sage-s-carefree-life-in-another-world-volume-6.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2025-05-21",
+        "Order": 106
       }
     ],
     "Author": "Kotobuki Yasukiyo",
@@ -20488,6 +20850,14 @@
         "EditedBy": [],
         "Published": "2025-02-21",
         "Order": 107
+      },
+      {
+        "ApiSlug": "the-frontier-lord-begins-with-zero-subjects-volume-8",
+        "FileName": "the-frontier-lord-begins-with-zero-subjects-volume-8.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2025-05-02",
+        "Order": 108
       }
     ],
     "Author": "Fuurou",
@@ -20709,6 +21079,14 @@
         "EditedBy": [],
         "Published": "2022-12-01",
         "Order": 110
+      },
+      {
+        "ApiSlug": "the-great-cleric-volume-11",
+        "FileName": "the-great-cleric-volume-11.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2025-05-20",
+        "Order": 111
       }
     ],
     "Author": "Broccoli Lion",
@@ -21143,6 +21521,14 @@
         "EditedBy": [],
         "Published": "2023-11-23",
         "Order": 114
+      },
+      {
+        "ApiSlug": "the-ideal-sponger-life-volume-15",
+        "FileName": "the-ideal-sponger-life-volume-15.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2025-05-29",
+        "Order": 115
       }
     ],
     "Author": "Tsunehiko Watanabe",
@@ -21386,6 +21772,14 @@
         "EditedBy": [],
         "Published": "2025-02-18",
         "Order": 103
+      },
+      {
+        "ApiSlug": "the-legendary-witch-is-reborn-as-an-oppressed-princess-volume-4",
+        "FileName": "the-legendary-witch-is-reborn-as-an-oppressed-princess-volume-4.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2025-05-07",
+        "Order": 104
       }
     ],
     "Author": "Touko Amekawa",
@@ -22185,6 +22579,14 @@
         "EditedBy": [],
         "Published": "2025-02-05",
         "Order": 102
+      },
+      {
+        "ApiSlug": "the-oblivious-saint-can-t-contain-her-power-disgraced-no-longer-i-m-finding-happiness-with-the-prince-manga-volume-3",
+        "FileName": "the-oblivious-saint-can-t-contain-her-power-disgraced-no-longer-i-m-finding-happiness-with-the-prince-manga-volume-3.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2025-04-30",
+        "Order": 103
       }
     ],
     "Author": "Almond",
@@ -22279,6 +22681,14 @@
         "EditedBy": [],
         "Published": "2025-02-21",
         "Order": 104
+      },
+      {
+        "ApiSlug": "the-otome-heroine-s-fight-for-survival-volume-5",
+        "FileName": "the-otome-heroine-s-fight-for-survival-volume-5.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2025-06-30",
+        "Order": 105
       }
     ],
     "Author": "Harunohi Biyori",
@@ -22357,6 +22767,14 @@
         "EditedBy": [],
         "Published": "2024-12-18",
         "Order": 103
+      },
+      {
+        "ApiSlug": "the-poison-king-now-that-i-ve-gained-ultimate-power-the-bewitching-beauties-in-my-harem-can-t-get-enough-of-me-volume-4",
+        "FileName": "the-poison-king-now-that-i-ve-gained-ultimate-power-the-bewitching-beauties-in-my-harem-can-t-get-enough-of-me-volume-4.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2025-04-30",
+        "Order": 104
       }
     ],
     "Author": "LeonarD",
@@ -22538,6 +22956,14 @@
         "EditedBy": [],
         "Published": "2025-02-12",
         "Order": 104
+      },
+      {
+        "ApiSlug": "the-reincarnation-of-the-strongest-exorcist-in-another-world-manga-volume-5",
+        "FileName": "the-reincarnation-of-the-strongest-exorcist-in-another-world-manga-volume-5.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2025-04-23",
+        "Order": 105
       }
     ],
     "Author": "Kiichi Kosuzu",
@@ -24273,6 +24699,14 @@
         "EditedBy": [],
         "Published": "2025-02-03",
         "Order": 108
+      },
+      {
+        "ApiSlug": "vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream-volume-9",
+        "FileName": "vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream-volume-9.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2025-05-12",
+        "Order": 109
       }
     ],
     "Author": "Nana Nanato",
@@ -24926,6 +25360,14 @@
         "EditedBy": [],
         "Published": "2025-01-23",
         "Order": 106
+      },
+      {
+        "ApiSlug": "you-were-experienced-i-was-not-our-dating-story-7th-date",
+        "FileName": "you-were-experienced-i-was-not-our-dating-story-7th-date.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2025-05-22",
+        "Order": 107
       }
     ],
     "Author": "Makiko Nagaoka",
@@ -25076,6 +25518,14 @@
         "EditedBy": [],
         "Published": "2023-12-20",
         "Order": 105
+      },
+      {
+        "ApiSlug": "young-lady-albert-is-courting-disaster-manga-volume-6",
+        "FileName": "young-lady-albert-is-courting-disaster-manga-volume-6.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2025-04-30",
+        "Order": 106
       }
     ],
     "Author": "Saki",
