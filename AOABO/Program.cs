@@ -134,6 +134,7 @@ async Task SaveAll()
     var mp1 = new List<Volume>();
     var mp2 = new List<Volume>();
     var mp3 = new List<Volume>();
+    var mp4 = new List<Volume>();
     var ss = new List<Volume>();
 
     foreach (var vol in Configuration.Volumes)
@@ -221,6 +222,9 @@ async Task SaveAll()
             case "SS02":
                 ss.Add(vol);
                 break;
+            case "M0401":
+                mp4.Add(vol);
+                break;
         }
     }
 
@@ -234,6 +238,7 @@ async Task SaveAll()
     await Save("MangaP2", mp2);
     await Save("MangaP3", mp3);
     await Save("SideStories", ss);
+    await Save("MangaP4", mp4);
 }
 
 async Task Save(string filename, List<Volume> vols)

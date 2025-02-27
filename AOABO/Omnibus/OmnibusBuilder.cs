@@ -302,42 +302,6 @@ namespace AOABO.Omnibus
 
             if (Directory.Exists($"{inputFolder}\\inputtemp")) Directory.Delete($"{inputFolder}\\inputtemp", true);
 
-#if DEBUG
-            // Remove Duplicate Chapters
-            foreach (var set in povChapters.Where(x => !string.IsNullOrWhiteSpace(x.Set)).GroupBy(x => x.Set).ToList().Where(x => x.Count() > 1))
-            {
-                var minPriority = set.Min(x => x.Priority);
-                povChapters.RemoveAll(x => x.Set.Equals(set.Key) && x.Priority > minPriority);
-            }
-
-            List<string> tableRows = new List<string>
-            {
-                "|Character|Chapter|Name|",
-                "|-|-|-|"
-            };
-            foreach(var character in povChapters.GroupBy(x => x.POV).OrderBy(x => x.Key))
-            {
-                var first = true;
-                foreach(var chapter in character.OrderBy(x => string.IsNullOrEmpty(x.EarlySortOrder) ? x.SortOrder : x.EarlySortOrder))
-                {
-                    var name = chapter.ChapterName.Equals("Prologue") || chapter.ChapterName.Equals("Epilogue") ? $"*{chapter.ChapterName}*" : $"**{chapter.ChapterName}**";
-
-                    if (first)
-                    {
-                        tableRows.Add($"|{character.Key}|{chapter.Source}|{name}");
-                        first = false;
-                    }
-                    else
-                    {
-                        tableRows.Add($"| |{chapter.Source}|{name}");
-                    }
-                }
-                tableRows.Add("");
-            }
-
-            await File.WriteAllLinesAsync("POVList.txt", tableRows);
-#endif
-
             Console.WriteLine();
             if (missingFiles.Any())
             {

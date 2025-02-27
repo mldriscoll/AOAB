@@ -1,0 +1,105 @@
+[
+  {
+    "InternalName": "M0401",
+    "ProcessedInPartOne": false,
+    "ProcessedInPartTwo": false,
+    "ProcessedInPartThree": false,
+    "ProcessedInPartFour": true,
+    "ProcessedInPartFive": false,
+    "ProcessedInFanbooks": false,
+    "OCR": true,
+    "Chapters": [],
+    "POVChapters": [],
+    "MangaChapters": [],
+    "BonusChapters": [
+      {
+        "OCR": {
+          "Corrections": [
+            {
+              "Original": "Ihe others are gonna be so jealous.",
+              "Replacement": "<i>The others are gonna be so jealous.</i>"
+            },
+            {
+              "Original": "You’ve seen a teleporter before. Well, this one moves people too. The chefs didn’t vanish; they were just transported with their belongings. 7his is perfectly safe.",
+              "Replacement": "<i>You’ve seen a teleporter before. Well, this one moves people too. The chefs didn’t vanish; they were just transported with their belongings. This is perfectly safe.</i>"
+            },
+            {
+              "Original": "'em",
+              "Replacement": "’em"
+            },
+            {
+              "Original": "You must have something.",
+              "Replacement": "You must have <i>something</i>."
+            }
+          ],
+          "Italics": [
+            {
+              "Start": "have a talk",
+              "End": "have a talk"
+            },
+            {
+              "Start": "But I’m still gonna speak to him.",
+              "End": "But I’m still gonna speak to him."
+            },
+            {
+              "Start": "The heck is going on? The heck’s about to happen to us?!",
+              "End": "The heck is going on? The heck’s about to happen to us?!"
+            },
+            {
+              "Start": "Calm down, Hugo. You’ve seen this kinda thing before.",
+              "End": "Calm down, Hugo. You’ve seen this kinda thing before."
+            },
+            {
+              "Start": "Gaaah! Quit laughing at me!",
+              "End": "Gaaah! Quit laughing at me!"
+            }
+          ],
+          "Header": null,
+          "Crop": false,
+          "HeaderLines": 1
+        },
+        "OverrideName": "Fruitless Anxieties",
+        "POV": "Hugo",
+        "Source": "M4V1 Written Bonus",
+        "EarlySortOrder": "040111",
+        "LateSortOrder": "04019603",
+        "EarlyYear": 6,
+        "LateYear": 6,
+        "EarlySeason": "Winter",
+        "LateSeason": "Winter",
+        "OriginalFilenames": [
+          "148",
+          "149",
+          "150",
+          "151",
+          "152",
+          "153",
+          "154",
+          "155",
+          "156"
+        ],
+        "ChapterName": "Fruitless Anxieties",
+        "SortOrder": "",
+        "Year": 0,
+        "Season": "",
+        "Volume": "0401",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartOne": false,
+        "ProcessedInPartTwo": false,
+        "ProcessedInPartThree": false,
+        "ProcessedInPartFour": true,
+        "ProcessedInPartFive": false,
+        "ProcessedInFanbooks": false,
+        "StartLine": null,
+        "EndLine": null
+      }
+    ],
+    "ComfyLifeChapter": null,
+    "Afterword": null,
+    "Gallery": null,
+    "CharacterSheet": null,
+    "Maps": [],
+    "CharacterPoll": null
+  }
+]

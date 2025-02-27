@@ -71,6 +71,10 @@ namespace AOABO.Config
             {
                 Volumes.AddRange(((Volume[])deserializer.ReadObject(reader.BaseStream)));
             }
+            using (var reader = new StreamReader("JSON\\MangaP4.json"))
+            {
+                Volumes.AddRange(((Volume[])deserializer.ReadObject(reader.BaseStream)));
+            }
             using (var reader = new StreamReader("JSON\\LNP1.json"))
             {
                 Volumes.AddRange(((Volume[])deserializer.ReadObject(reader.BaseStream)));

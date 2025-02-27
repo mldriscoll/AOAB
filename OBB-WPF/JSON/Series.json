@@ -2158,7 +2158,9 @@
         "ApiSlug": "ascendance-of-a-bookworm-manga-part-4-volume-1",
         "FileName": "ascendance-of-a-bookworm-manga-part-4-volume-1.epub",
         "Title": "",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2025-02-26",
         "Order": 301
       }
