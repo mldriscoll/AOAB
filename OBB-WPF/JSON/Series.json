@@ -24150,7 +24150,9 @@
         "ApiSlug": "the-labyrinth-of-marielle-clarac",
         "FileName": "the-labyrinth-of-marielle-clarac.epub",
         "Title": "",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2025-03-24",
         "Order": 112
       }

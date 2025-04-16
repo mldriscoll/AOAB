@@ -23,6 +23,36 @@
       "SortOrder": "1050100"
     },
     {
+      "File": "the-tales-of-marielle-clarac\\the-labyrinth-of-marielle-clarac\\OEBPS\\Text\\copyright.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1122500"
+    },
+    {
+      "File": "the-tales-of-marielle-clarac\\the-labyrinth-of-marielle-clarac\\OEBPS\\Text\\cover.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1120100"
+    },
+    {
+      "File": "the-tales-of-marielle-clarac\\the-labyrinth-of-marielle-clarac\\OEBPS\\Text\\frontmatter1.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1120200"
+    },
+    {
+      "File": "the-tales-of-marielle-clarac\\the-labyrinth-of-marielle-clarac\\OEBPS\\Text\\signup.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1122400"
+    },
+    {
+      "File": "the-tales-of-marielle-clarac\\the-labyrinth-of-marielle-clarac\\OEBPS\\Text\\toc.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1120500"
+    },
+    {
       "File": "the-tales-of-marielle-clarac\\the-matchmaking-of-marielle-clarac\\OEBPS\\text\\bonus2.xhtml",
       "Alternates": [],
       "OtherSide": null,
@@ -39,6 +69,18 @@
       "Alternates": [],
       "OtherSide": null,
       "SortOrder": "1112500"
+    },
+    {
+      "File": "the-tales-of-marielle-clarac\\the-promise-of-marielle-clarac\\OEBPS\\Text\\cover.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1110100"
+    },
+    {
+      "File": "the-tales-of-marielle-clarac\\the-promise-of-marielle-clarac\\OEBPS\\Text\\frontmatter1.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1110200"
     },
     {
       "File": "the-tales-of-marielle-clarac\\the-promise-of-marielle-clarac\\OEBPS\\Text\\signup.xhtml",
@@ -75,18 +117,6 @@
       "Alternates": [],
       "OtherSide": null,
       "SortOrder": "1040100"
-    },
-    {
-      "File": "the-tales-of-marielle-clarac\\the-promise-of-marielle-clarac\\OEBPS\\Text\\cover.xhtml",
-      "Alternates": [],
-      "OtherSide": null,
-      "SortOrder": "1110100"
-    },
-    {
-      "File": "the-tales-of-marielle-clarac\\the-promise-of-marielle-clarac\\OEBPS\\Text\\frontmatter1.xhtml",
-      "Alternates": [],
-      "OtherSide": null,
-      "SortOrder": "1110200"
     }
   ],
   "Chapters": [
@@ -4831,6 +4861,425 @@
       ]
     },
     {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "The Labyrinth of Marielle Clarac",
+      "SortOrder": "112",
+      "Sources": [
+        {
+          "File": "the-tales-of-marielle-clarac\\the-labyrinth-of-marielle-clarac\\OEBPS\\Text\\bonus1.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1122200"
+        },
+        {
+          "File": "the-tales-of-marielle-clarac\\the-labyrinth-of-marielle-clarac\\OEBPS\\Text\\bonus2.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1122300"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "SubSections": [],
+      "Chapters": [
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Character Sheet",
+          "SortOrder": "11203",
+          "Sources": [
+            {
+              "File": "the-tales-of-marielle-clarac\\the-labyrinth-of-marielle-clarac\\OEBPS\\Text\\frontmatter3.xhtml",
+              "Alternates": [],
+              "OtherSide": {
+                "File": "the-tales-of-marielle-clarac\\the-labyrinth-of-marielle-clarac\\OEBPS\\Text\\frontmatter2.xhtml",
+                "Alternates": [],
+                "OtherSide": null,
+                "SortOrder": "1120300"
+              },
+              "SortOrder": "1120400"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter One",
+          "SortOrder": "11206",
+          "Sources": [
+            {
+              "File": "the-tales-of-marielle-clarac\\the-labyrinth-of-marielle-clarac\\OEBPS\\Text\\chapter1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1120600"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Two",
+          "SortOrder": "11207",
+          "Sources": [
+            {
+              "File": "the-tales-of-marielle-clarac\\the-labyrinth-of-marielle-clarac\\OEBPS\\Text\\chapter2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1120700"
+            },
+            {
+              "File": "the-tales-of-marielle-clarac\\the-labyrinth-of-marielle-clarac\\OEBPS\\Text\\insert1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1120701"
+            },
+            {
+              "File": "the-tales-of-marielle-clarac\\the-labyrinth-of-marielle-clarac\\OEBPS\\Text\\chapter2_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1120702"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Three",
+          "SortOrder": "11208",
+          "Sources": [
+            {
+              "File": "the-tales-of-marielle-clarac\\the-labyrinth-of-marielle-clarac\\OEBPS\\Text\\chapter3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1120800"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Four",
+          "SortOrder": "11209",
+          "Sources": [
+            {
+              "File": "the-tales-of-marielle-clarac\\the-labyrinth-of-marielle-clarac\\OEBPS\\Text\\chapter4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1120900"
+            },
+            {
+              "File": "the-tales-of-marielle-clarac\\the-labyrinth-of-marielle-clarac\\OEBPS\\Text\\insert2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1120901"
+            },
+            {
+              "File": "the-tales-of-marielle-clarac\\the-labyrinth-of-marielle-clarac\\OEBPS\\Text\\chapter4_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1120902"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Five",
+          "SortOrder": "11210",
+          "Sources": [
+            {
+              "File": "the-tales-of-marielle-clarac\\the-labyrinth-of-marielle-clarac\\OEBPS\\Text\\chapter5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1121000"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Six",
+          "SortOrder": "11211",
+          "Sources": [
+            {
+              "File": "the-tales-of-marielle-clarac\\the-labyrinth-of-marielle-clarac\\OEBPS\\Text\\chapter6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1121100"
+            },
+            {
+              "File": "the-tales-of-marielle-clarac\\the-labyrinth-of-marielle-clarac\\OEBPS\\Text\\insert3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1121101"
+            },
+            {
+              "File": "the-tales-of-marielle-clarac\\the-labyrinth-of-marielle-clarac\\OEBPS\\Text\\chapter6_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1121102"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Seven",
+          "SortOrder": "11212",
+          "Sources": [
+            {
+              "File": "the-tales-of-marielle-clarac\\the-labyrinth-of-marielle-clarac\\OEBPS\\Text\\chapter7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1121200"
+            },
+            {
+              "File": "the-tales-of-marielle-clarac\\the-labyrinth-of-marielle-clarac\\OEBPS\\Text\\insert4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1121201"
+            },
+            {
+              "File": "the-tales-of-marielle-clarac\\the-labyrinth-of-marielle-clarac\\OEBPS\\Text\\chapter7_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1121202"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Eight",
+          "SortOrder": "11213",
+          "Sources": [
+            {
+              "File": "the-tales-of-marielle-clarac\\the-labyrinth-of-marielle-clarac\\OEBPS\\Text\\chapter8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1121300"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Nine",
+          "SortOrder": "11214",
+          "Sources": [
+            {
+              "File": "the-tales-of-marielle-clarac\\the-labyrinth-of-marielle-clarac\\OEBPS\\Text\\chapter9.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1121400"
+            },
+            {
+              "File": "the-tales-of-marielle-clarac\\the-labyrinth-of-marielle-clarac\\OEBPS\\Text\\insert5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1121401"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Ten",
+          "SortOrder": "11215",
+          "Sources": [
+            {
+              "File": "the-tales-of-marielle-clarac\\the-labyrinth-of-marielle-clarac\\OEBPS\\Text\\chapter10.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1121500"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Eleven",
+          "SortOrder": "11216",
+          "Sources": [
+            {
+              "File": "the-tales-of-marielle-clarac\\the-labyrinth-of-marielle-clarac\\OEBPS\\Text\\chapter11.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1121600"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Twelve",
+          "SortOrder": "11217",
+          "Sources": [
+            {
+              "File": "the-tales-of-marielle-clarac\\the-labyrinth-of-marielle-clarac\\OEBPS\\Text\\chapter12.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1121700"
+            },
+            {
+              "File": "the-tales-of-marielle-clarac\\the-labyrinth-of-marielle-clarac\\OEBPS\\Text\\insert6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1121701"
+            },
+            {
+              "File": "the-tales-of-marielle-clarac\\the-labyrinth-of-marielle-clarac\\OEBPS\\Text\\chapter12_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1121702"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Thirteen",
+          "SortOrder": "11218",
+          "Sources": [
+            {
+              "File": "the-tales-of-marielle-clarac\\the-labyrinth-of-marielle-clarac\\OEBPS\\Text\\chapter13.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1121800"
+            },
+            {
+              "File": "the-tales-of-marielle-clarac\\the-labyrinth-of-marielle-clarac\\OEBPS\\Text\\insert7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1121801"
+            },
+            {
+              "File": "the-tales-of-marielle-clarac\\the-labyrinth-of-marielle-clarac\\OEBPS\\Text\\chapter13_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1121802"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chapter Fourteen",
+          "SortOrder": "11219",
+          "Sources": [
+            {
+              "File": "the-tales-of-marielle-clarac\\the-labyrinth-of-marielle-clarac\\OEBPS\\Text\\chapter14.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1121900"
+            },
+            {
+              "File": "the-tales-of-marielle-clarac\\the-labyrinth-of-marielle-clarac\\OEBPS\\Text\\insert8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1121901"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 1,
+          "ChapType": "Bonus",
+          "Name": "The Destination of Marielle Clarac",
+          "SortOrder": "11220",
+          "Sources": [
+            {
+              "File": "the-tales-of-marielle-clarac\\the-labyrinth-of-marielle-clarac\\OEBPS\\Text\\side.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1122000"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Chapters": []
+        }
+      ]
+    },
+    {
       "CType": 2,
       "ChapType": "NonStory",
       "Name": "Afterwords",
@@ -5042,6 +5491,25 @@
               "Alternates": [],
               "OtherSide": null,
               "SortOrder": "1112100"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 2,
+          "ChapType": "NonStory",
+          "Name": "The Labyrinth of Marielle Clarac",
+          "SortOrder": "11221",
+          "Sources": [
+            {
+              "File": "the-tales-of-marielle-clarac\\the-labyrinth-of-marielle-clarac\\OEBPS\\Text\\afterword.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1122100"
             }
           ],
           "LinkedChapters": [],
