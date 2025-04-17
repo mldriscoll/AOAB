@@ -107,6 +107,54 @@
       "SortOrder": "1080100"
     },
     {
+      "File": "Dahlia in Bloom and Lucia and the Loom\\dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-9\\OEBPS\\Text\\bonus1.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1091900"
+    },
+    {
+      "File": "Dahlia in Bloom and Lucia and the Loom\\dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-9\\OEBPS\\Text\\bonus2.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1092000"
+    },
+    {
+      "File": "Dahlia in Bloom and Lucia and the Loom\\dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-9\\OEBPS\\Text\\bonus3.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1092100"
+    },
+    {
+      "File": "Dahlia in Bloom and Lucia and the Loom\\dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-9\\OEBPS\\Text\\bonus4.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1092200"
+    },
+    {
+      "File": "Dahlia in Bloom and Lucia and the Loom\\dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-9\\OEBPS\\Text\\copyright.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1092500"
+    },
+    {
+      "File": "Dahlia in Bloom and Lucia and the Loom\\dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-9\\OEBPS\\Text\\signup.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1092400"
+    },
+    {
+      "File": "Dahlia in Bloom and Lucia and the Loom\\dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-9\\OEBPS\\Text\\toc.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1092300"
+    },
+    {
+      "File": "Dahlia in Bloom and Lucia and the Loom\\dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-9\\OEBPS\\Text\\tocimg.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "1090200"
+    },
+    {
       "File": "Dahlia in Bloom and Lucia and the Loom\\lucia-and-the-loom-weaving-her-way-to-happiness-volume-1\\OEBPS\\text\\toc.xhtml",
       "Alternates": [],
       "OtherSide": null,
@@ -4421,6 +4469,375 @@
               "Alternates": [],
               "OtherSide": null,
               "SortOrder": "1081400"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Chapters": []
+        }
+      ]
+    },
+    {
+      "CType": 0,
+      "ChapType": "Story",
+      "Name": "Dahlia 09",
+      "SortOrder": "109",
+      "Sources": [
+        {
+          "File": "Dahlia in Bloom and Lucia and the Loom\\dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-9\\OEBPS\\Text\\cover.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1090100"
+        },
+        {
+          "File": "Dahlia in Bloom and Lucia and the Loom\\dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-9\\OEBPS\\Text\\color1.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1091600"
+        },
+        {
+          "File": "Dahlia in Bloom and Lucia and the Loom\\dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-9\\OEBPS\\Text\\color2.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1091700"
+        },
+        {
+          "File": "Dahlia in Bloom and Lucia and the Loom\\dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-9\\OEBPS\\Text\\color3.xhtml",
+          "Alternates": [],
+          "OtherSide": null,
+          "SortOrder": "1091800"
+        }
+      ],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "SubSections": [],
+      "Chapters": [
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Chicken Meatball and Jumbo Leek Soup",
+          "SortOrder": "10903",
+          "Sources": [
+            {
+              "File": "Dahlia in Bloom and Lucia and the Loom\\dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-9\\OEBPS\\Text\\chapter1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1090300"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Spellbook and the Order of Beast Hunters’ Robes",
+          "SortOrder": "10904",
+          "Sources": [
+            {
+              "File": "Dahlia in Bloom and Lucia and the Loom\\dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-9\\OEBPS\\Text\\chapter2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1090400"
+            },
+            {
+              "File": "Dahlia in Bloom and Lucia and the Loom\\dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-9\\OEBPS\\Text\\insert1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1090401"
+            },
+            {
+              "File": "Dahlia in Bloom and Lucia and the Loom\\dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-9\\OEBPS\\Text\\chapter2_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1090402"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Deciding on Gifts",
+          "SortOrder": "10905",
+          "Sources": [
+            {
+              "File": "Dahlia in Bloom and Lucia and the Loom\\dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-9\\OEBPS\\Text\\chapter3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1090500"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "The Black Dog, the Kit, and First-Name Bases",
+          "SortOrder": "10906",
+          "Sources": [
+            {
+              "File": "Dahlia in Bloom and Lucia and the Loom\\dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-9\\OEBPS\\Text\\chapter4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1090600"
+            },
+            {
+              "File": "Dahlia in Bloom and Lucia and the Loom\\dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-9\\OEBPS\\Text\\insert2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1090601"
+            },
+            {
+              "File": "Dahlia in Bloom and Lucia and the Loom\\dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-9\\OEBPS\\Text\\chapter4_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1090602"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Man-Made Magical Sword: Seventh Attempt ~Crimson Lotus Blade~",
+          "SortOrder": "10907",
+          "Sources": [
+            {
+              "File": "Dahlia in Bloom and Lucia and the Loom\\dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-9\\OEBPS\\Text\\chapter5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1090700"
+            },
+            {
+              "File": "Dahlia in Bloom and Lucia and the Loom\\dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-9\\OEBPS\\Text\\insert3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1090701"
+            },
+            {
+              "File": "Dahlia in Bloom and Lucia and the Loom\\dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-9\\OEBPS\\Text\\chapter5_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1090702"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "A Tour of the Royal Magical Toolmaking Department",
+          "SortOrder": "10908",
+          "Sources": [
+            {
+              "File": "Dahlia in Bloom and Lucia and the Loom\\dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-9\\OEBPS\\Text\\chapter6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1090800"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Royal Magical Toolmaking Department, Section Two",
+          "SortOrder": "10909",
+          "Sources": [
+            {
+              "File": "Dahlia in Bloom and Lucia and the Loom\\dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-9\\OEBPS\\Text\\chapter7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1090900"
+            },
+            {
+              "File": "Dahlia in Bloom and Lucia and the Loom\\dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-9\\OEBPS\\Text\\insert4.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1090901"
+            },
+            {
+              "File": "Dahlia in Bloom and Lucia and the Loom\\dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-9\\OEBPS\\Text\\chapter7_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1090902"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Debut Decisions and Appeal for a Provisional Magical Toolmaker",
+          "SortOrder": "10910",
+          "Sources": [
+            {
+              "File": "Dahlia in Bloom and Lucia and the Loom\\dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-9\\OEBPS\\Text\\chapter8.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1091000"
+            },
+            {
+              "File": "Dahlia in Bloom and Lucia and the Loom\\dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-9\\OEBPS\\Text\\insert5.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1091001"
+            },
+            {
+              "File": "Dahlia in Bloom and Lucia and the Loom\\dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-9\\OEBPS\\Text\\chapter8_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1091002"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Boiled Gyoza and Ice",
+          "SortOrder": "10911",
+          "Sources": [
+            {
+              "File": "Dahlia in Bloom and Lucia and the Loom\\dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-9\\OEBPS\\Text\\chapter9.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1091100"
+            },
+            {
+              "File": "Dahlia in Bloom and Lucia and the Loom\\dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-9\\OEBPS\\Text\\insert6.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1091101"
+            },
+            {
+              "File": "Dahlia in Bloom and Lucia and the Loom\\dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-9\\OEBPS\\Text\\chapter9_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1091102"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Slime-Formed Boots and Squires",
+          "SortOrder": "10912",
+          "Sources": [
+            {
+              "File": "Dahlia in Bloom and Lucia and the Loom\\dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-9\\OEBPS\\Text\\chapter10.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1091200"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "Interlude: The Shoemaker’s Workshop and the Goddess of the Artisans",
+          "SortOrder": "10913",
+          "Sources": [
+            {
+              "File": "Dahlia in Bloom and Lucia and the Loom\\dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-9\\OEBPS\\Text\\interlude.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1091300"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "ChapType": "Story",
+          "Name": "A Nap Lantern for a Friend",
+          "SortOrder": "10914",
+          "Sources": [
+            {
+              "File": "Dahlia in Bloom and Lucia and the Loom\\dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-9\\OEBPS\\Text\\chapter11.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1091400"
+            },
+            {
+              "File": "Dahlia in Bloom and Lucia and the Loom\\dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-9\\OEBPS\\Text\\insert7.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1091401"
+            },
+            {
+              "File": "Dahlia in Bloom and Lucia and the Loom\\dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-9\\OEBPS\\Text\\chapter11_1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1091402"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Chapters": []
+        },
+        {
+          "CType": 1,
+          "ChapType": "Bonus",
+          "Name": "Extra Story: A Father and Daughter’s Magical Tool Invention Diaries ~The Food Mincer~",
+          "SortOrder": "10915",
+          "Sources": [
+            {
+              "File": "Dahlia in Bloom and Lucia and the Loom\\dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools-volume-9\\OEBPS\\Text\\extra.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1091500"
             }
           ],
           "LinkedChapters": [],
