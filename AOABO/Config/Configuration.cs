@@ -1,5 +1,7 @@
 ﻿using AOABO.Omnibus;
+using Core.Downloads;
 using System.Runtime.Serialization.Json;
+using static Core.Downloads.LibraryResponse;
 
 namespace AOABO.Config
 {
@@ -275,6 +277,7 @@ namespace AOABO.Config
                 Console.WriteLine($"3 - Set Maximum Image Width (Currently {Options.Image.MaxWidthSetting})");
                 Console.WriteLine($"4 - Set Maximum Image Height (Currently {Options.Image.MaxHeightSetting})");
                 Console.WriteLine($"5 - Set Resized Image Quality (Currently {Options.Image.Quality})");
+                Console.WriteLine($"6 - Set Manga Quality (Currently {Options.Image.MangaQualitySetting})");
                 var key = Console.ReadKey();
                 switch (key.KeyChar)
                 {
@@ -325,6 +328,26 @@ namespace AOABO.Config
                         break;
                     case '5':
                         SetInt("Pick a new Image Quality (1-100, higher numbers produce better images and larger file sizes)", x => Options.Image.Quality = x, 1, 100);
+                        break;
+                    case '6':
+                        Console.WriteLine("Which manga version do you want to download?");
+                        Console.WriteLine("1 - Mobile");
+                        Console.WriteLine("2 - Desktop");
+                        Console.WriteLine("3 - 4k");
+                        key = Console.ReadKey();
+
+                        switch (key.KeyChar)
+                        {
+                            case '1':
+                                Options.Image.MangaQuality = MangaQuality.Mobile;
+                                break;
+                            case '2':
+                                Options.Image.MangaQuality = MangaQuality.Desktop;
+                                break;
+                            case '3':
+                                Options.Image.MangaQuality = MangaQuality.FourK;
+                                break;
+                        }
                         break;
                     default:
                         return;

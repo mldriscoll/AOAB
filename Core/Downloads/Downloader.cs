@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SixLabors.ImageSharp;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http.Headers;
@@ -12,7 +13,7 @@ namespace Core.Downloads
 {
     public class Downloader
     {
-        public async static Task DoDownloads(HttpClient client, string token, string inputFolder, IEnumerable<Name> names)
+        public async static Task DoDownloads(HttpClient client, string token, string inputFolder, IEnumerable<Name> names, MangaQuality mangaQuality)
         {
             Console.Clear();
             Console.WriteLine("Downloading Updated .epub files");
@@ -30,7 +31,7 @@ namespace Core.Downloads
                     if (libraryBook == null) continue;
                     if (string.IsNullOrEmpty(match))
                     {
-                        await doDownload(libraryBook, fileName, client, inputFolder);
+                        await doDownload(libraryBook, fileName, client, inputFolder, mangaQuality);
                     }
                     else
                     {
@@ -52,12 +53,12 @@ namespace Core.Downloads
                                 Console.WriteLine();
                                 if (yn.KeyChar.Equals('y') || yn.KeyChar.Equals('Y'))
                                 {
-                                    await doDownload(libraryBook, fileName, client, inputFolder);
+                                    await doDownload(libraryBook, fileName, client, inputFolder, mangaQuality);
                                 }
                             }
                             else
                             {
-                                await doDownload(libraryBook, fileName, client, inputFolder);
+                                await doDownload(libraryBook, fileName, client, inputFolder, mangaQuality);
                             }
                         }
                     }
@@ -139,7 +140,7 @@ namespace Core.Downloads
 
         static Regex mangaSizeRegex = new Regex("\\?height=.*&");
 
-        private async static Task doDownload(LibraryResponse.Book book, Name name, HttpClient client, string folder)
+        private async static Task doDownload(LibraryResponse.Book book, Name name, HttpClient client, string folder, MangaQuality mangaQuality)
         {
             LibraryResponse.Book.Download download = null;
             if (book.downloads.Count < 1) return;
@@ -148,15 +149,30 @@ namespace Core.Downloads
 
             if (book.downloads.Count > 1)
             {
-                Console.WriteLine("Which version do you want to download?");
-                for (int i = 0; i < book.downloads.Count; i++)
+                switch (mangaQuality)
                 {
-                    Console.WriteLine($"{i} - {book.downloads[i].label}");
+                    case MangaQuality.Mobile:
+                        download = book.downloads.FirstOrDefault(x => x.label.EndsWith("(Mobile)"));
+                        break;
+                    case MangaQuality.Desktop:
+                        download = book.downloads.FirstOrDefault(x => x.label.EndsWith("(Desktop)"));
+                        break;
+                    case MangaQuality.FourK:
+                        download = book.downloads.FirstOrDefault(x => x.label.EndsWith("(4K)"));
+                        break;
                 }
-                var str = Console.ReadKey().KeyChar.ToString();
-                var key = int.Parse(str);
+                if (download == null)
+                {
+                    Console.WriteLine("Which version do you want to download?");
+                    for (int i = 0; i < book.downloads.Count; i++)
+                    {
+                        Console.WriteLine($"{i} - {book.downloads[i].label}");
+                    }
+                    var str = Console.ReadKey().KeyChar.ToString();
+                    var key = int.Parse(str);
 
-                download = book.downloads[key];
+                    download = book.downloads[key];
+                }
 
                 var size = mangaSizeRegex.Match(download.link).ToString().Replace("?height=", string.Empty).Replace("&", string.Empty);
                 name.FileName = string.Format(name.FileName, size);

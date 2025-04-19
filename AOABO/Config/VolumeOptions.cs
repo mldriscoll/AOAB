@@ -1,4 +1,5 @@
 ﻿using AOABO.Omnibus;
+using Core.Downloads;
 using System.Text.Json.Serialization;
 
 namespace AOABO.Config
@@ -351,6 +352,23 @@ namespace AOABO.Config
                     }
 
                     return "no Gallery";
+                }
+            }
+
+            public MangaQuality MangaQuality { get; set; } = MangaQuality.Desktop;
+
+            [JsonIgnore]
+            public string MangaQualitySetting
+            {
+                get
+                {
+                    return MangaQuality switch
+                    {
+                        MangaQuality.Mobile => "Mobile",
+                        MangaQuality.Desktop => "Desktop",
+                        MangaQuality.FourK => "4k",
+                        _ => "not set",
+                    };
                 }
             }
         }

@@ -31,7 +31,7 @@ namespace OBB
                     if (!files.Any(x => x.Equals(inFolder + "\\" + vol.FileName, StringComparison.InvariantCultureIgnoreCase))
                         && library.books.Any(x => x.volume.slug.Equals(vol.ApiSlug)))
                     {
-                        await Downloader.DoDownloads(client, login.AccessToken, inFolder, new List<Name> { new Name { ApiSlug = vol.ApiSlug, FileName = vol.FileName } });
+                        await Downloader.DoDownloads(client, login.AccessToken, inFolder, new List<Name> { new Name { ApiSlug = vol.ApiSlug, FileName = vol.FileName } }, MangaQuality.FourK);
                     }
                 }
             }
