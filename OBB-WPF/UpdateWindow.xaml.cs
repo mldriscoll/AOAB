@@ -61,13 +61,13 @@ namespace OBB_WPF
                 worker.WorkerReportsProgress = true;
                 worker.DoWork += Worker_DoWork;
                 worker.ProgressChanged += Worker_ProgressChanged;
-                worker.RunWorkerAsync(argument: new arg { list = list});
+                worker.RunWorkerAsync(argument: new Arg { List = list});
             }
         }
 
-        private class arg
+        private class Arg
         {
-            public SeriesList list { get; set; }
+            public SeriesList List { get; set; }
         }
 
         private void Worker_ProgressChanged(object? sender, ProgressChangedEventArgs e)
@@ -85,12 +85,12 @@ namespace OBB_WPF
 
         private void Worker_DoWork(object? sender, DoWorkEventArgs e)
         {
-            var arg = e.Argument as arg;
+            var arg = e.Argument as Arg;
             using (var client = new HttpClient())
             {
                 if (Settings.Login != null)
                 {
-                    var list = arg.list;
+                    var list = arg.List;
                     int c = 0;
 
                     foreach (var serie in list.series.Where(x => x.type.Equals("manga", StringComparison.InvariantCultureIgnoreCase)

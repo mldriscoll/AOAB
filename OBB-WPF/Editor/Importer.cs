@@ -29,13 +29,13 @@ namespace OBB_WPF.Editor
 
             // Find Content File
             var opfFiles = Directory.GetFiles(inFolder, "*.opf", SearchOption.AllDirectories);
-            var xmlSerializer = new XmlSerializer(typeof(package));
-            package content = null;
+            var xmlSerializer = new XmlSerializer(typeof(Package));
+            Package content = null;
             string opfFolder = null;
             if (opfFiles.Any(x => x.Contains("content.opf", StringComparison.InvariantCultureIgnoreCase)))
             {
                 var file = opfFiles.First(x => x.Contains("content.opf", StringComparison.InvariantCultureIgnoreCase));
-                content = (package)xmlSerializer.Deserialize(File.OpenRead(file));
+                content = (Package)xmlSerializer.Deserialize(File.OpenRead(file));
 
                 var finfo = new FileInfo(file);
                 opfFolder = finfo.Directory.FullName;
@@ -43,7 +43,7 @@ namespace OBB_WPF.Editor
             else if (opfFiles.Any(x => x.Contains("package.opf", StringComparison.InvariantCultureIgnoreCase)))
             {
                 var file = opfFiles.First(x => x.Contains("package.opf", StringComparison.InvariantCultureIgnoreCase));
-                content = (package)xmlSerializer.Deserialize(File.OpenRead(file));
+                content = (Package)xmlSerializer.Deserialize(File.OpenRead(file));
 
                 var finfo = new FileInfo(file);
                 opfFolder = finfo.Directory.FullName;
@@ -141,13 +141,13 @@ namespace OBB_WPF.Editor
             return order;
         }
 
-        private static void ProcessLN(string? volumeName, int volOrder, Omnibus ob, ref int order, package content, List<string> imageFiles, string textFolder, string opfFolder, Func<string, string> inFolder)
+        private static void ProcessLN(string? volumeName, int volOrder, Omnibus ob, ref int order, Package content, List<string> imageFiles, string textFolder, string opfFolder, Func<string, string> inFolder)
         {
             List<string> chapterFiles = new List<string>();
 
-            foreach (var line in content.spine)
+            foreach (var line in content.Spine)
             {
-                var item = content.manifest.FirstOrDefault(x => x.Id.Equals(line.Id, StringComparison.InvariantCultureIgnoreCase))?.Href;
+                var item = content.Manifest.FirstOrDefault(x => x.Id.Equals(line.Id, StringComparison.InvariantCultureIgnoreCase))?.Href;
 
                 if ((item.Contains('.') && !(item.Contains(".xhtml") || item.Contains(".html")))
                     || item.StartsWith("\"signup")
@@ -318,24 +318,24 @@ namespace OBB_WPF.Editor
     }
     [Serializable, XmlRoot(ElementName = "package", Namespace = "http://www.idpf.org/2007/opf")]
     [XmlType("package")]
-    public class package
+    public class Package
     {
-        public Metadata metadata { get; set; }
-        public List<item> manifest { get; set; }
-        public List<itemref> spine { get; set; }
+        public Metadata Metadata { get; set; }
+        public List<Item> Manifest { get; set; }
+        public List<Itemref> Spine { get; set; }
     }
     public class Metadata
     {
 
     }
-    public class item
+    public class Item
     {
         [XmlAttribute("id")]
         public string Id { get; set; }
         [XmlAttribute("href")]
         public string Href { get; set; }
     }
-    public class itemref
+    public class Itemref
     {
         [XmlAttribute("idref")]
         public string Id { get; set; }
