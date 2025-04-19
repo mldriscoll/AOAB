@@ -101,5 +101,182 @@
     "CharacterSheet": null,
     "Maps": [],
     "CharacterPoll": null
+  },
+  {
+    "InternalName": "M0402",
+    "ProcessedInPartOne": false,
+    "ProcessedInPartTwo": false,
+    "ProcessedInPartThree": false,
+    "ProcessedInPartFour": true,
+    "ProcessedInPartFive": true,
+    "ProcessedInFanbooks": true,
+    "OCR": true,
+    "Chapters": [],
+    "POVChapters": [],
+    "MangaChapters": [],
+    "BonusChapters": [
+      {
+        "OCR": {
+          "Corrections": [
+            {
+              "Original": "Is that clear?” Rozemyne",
+              "Replacement": "Is that clear?”</p><p>Rozemyne"
+            },
+            {
+              "Original": "“They vanished...” Wilfried said.",
+              "Replacement": "</p><p>“They vanished...” Wilfried said.</p><p>"
+            },
+            {
+              "Original": "his belongings. “She’s gone...”",
+              "Replacement": "his belongings."
+            },
+            {
+              "Original": "Lord Bonifatius muttered,",
+              "Replacement": "“She’s gone...” Lord Bonifatius muttered"
+            },
+            {
+              "Original": "Winter hunt.” On that note",
+              "Replacement": "Winter hunt.”</p><p>On that note"
+            },
+            {
+              "Original": "I should see to my backlog of work.",
+              "Replacement": "</p><p><i>I should see to my backlog of work.</i></p><p>"
+            },
+            {
+              "Original": "I am certain.” Rozemyne",
+              "Replacement": "I am certain.”</p><p>Rozemyne"
+            },
+            {
+              "Original": "eternal scar. “Even if",
+              "Replacement": "eternal scar.</p><p>“Even if"
+            },
+            {
+              "Original": "professors' aid.” “So",
+              "Replacement": "professors’ aid.”</p><p>“So"
+            },
+            {
+              "Original": "our intentions. “We also meant to ease Charlotte’s guilt,”",
+              "Replacement": "our intentions."
+            },
+            {
+              "Original": "1 explained. “We said",
+              "Replacement": "“We also meant to ease Charlotte’s guilt,” I explained. “We said"
+            },
+            {
+              "Original": "to attend.” Had",
+              "Replacement": "to attend.”</p><p>Had"
+            },
+            {
+              "Original": "coming-of-age. “Is this",
+              "Replacement": "coming-of-age.</p><p>“Is this"
+            },
+            {
+              "Original": "as we saw. Because of my careful management. As",
+              "Replacement": "as we saw.”</p><p><i>Because of my careful management.</i></p><p>As"
+            },
+            {
+              "Original": "good health. ”Rozemyne was sickly to begin with,“",
+              "Replacement": "good health.</p><p>“Rozemyne was sickly to begin with,”"
+            },
+            {
+              "Original": "”Time and time again, she has soldiered through bouts of poor health that would have put other nobles out of action. Having her enroll now was no worse than if she had enrolled as she was two years ago.“ ",
+              "Replacement": "“Time and time again, she has soldiered through bouts of poor health that would have put other nobles out of action. Having her enroll now was no worse than if she had enrolled as she was two years ago.”</p><p>"
+            },
+            {
+              "Original": "”If there is anything to fear, it is the gap in her education,“ I stressed. ”Rozemyne lacks so much of the common sense a noble should have.“ ",
+              "Replacement": "</p><p>“If there is anything to fear, it is the gap in her education,” I stressed. “Rozemyne lacks so much of the common sense a noble should have.”</p><p>"
+            },
+            {
+              "Original": "Academy. ” still,\"",
+              "Replacement": "Academy."
+            },
+            {
+              "Original": "I said, “I spared",
+              "Replacement": "“Still,” I said, “I spared"
+            },
+            {
+              "Original": "candidate.” “What of",
+              "Replacement": "candidate.”</p><p>“What of"
+            },
+            {
+              "Original": "7hey might be her family by noble standards, but to Rozemyne, they are strangers she has never had a chance to meet.",
+              "Replacement": "<i>They might be her family by noble standards, but to Rozemyne, they are strangers she has never had a chance to meet.</i>"
+            }
+          ],
+          "Italics": [
+            {
+              "Start": "have a talk",
+              "End": "have a talk"
+            }
+          ],
+          "Header": null,
+          "Crop": true,
+          "HeaderLines": 1
+        },
+        "OverrideName": "After Her Departure",
+        "POV": "Ferdinand",
+        "Source": "M4V2 Written Bonus",
+        "EarlySortOrder": "040113",
+        "LateSortOrder": "04019604",
+        "EarlyYear": 6,
+        "LateYear": 6,
+        "EarlySeason": "Winter",
+        "LateSeason": "Winter",
+        "OriginalFilenames": [
+          "158",
+          "159",
+          "160",
+          "161",
+          "162",
+          "163",
+          "164",
+          "165",
+          "166",
+          "167"
+        ],
+        "ChapterName": "After Her Departure",
+        "SortOrder": "",
+        "Year": 0,
+        "Season": "",
+        "Volume": "0401",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartOne": false,
+        "ProcessedInPartTwo": false,
+        "ProcessedInPartThree": false,
+        "ProcessedInPartFour": true,
+        "ProcessedInPartFive": false,
+        "ProcessedInFanbooks": false,
+        "StartLine": null,
+        "EndLine": null
+      }
+    ],
+    "ComfyLifeChapter": null,
+    "Afterword": null,
+    "Gallery": null,
+    "CharacterSheet": null,
+    "Maps": [
+      {
+        "OriginalFilenames": [
+          "016"
+        ],
+        "ChapterName": "Ehrenfest Dormitory Floor Plan",
+        "SortOrder": "09",
+        "Year": 0,
+        "Season": "",
+        "Volume": "",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartOne": false,
+        "ProcessedInPartTwo": false,
+        "ProcessedInPartThree": false,
+        "ProcessedInPartFour": true,
+        "ProcessedInPartFive": true,
+        "ProcessedInFanbooks": true,
+        "StartLine": null,
+        "EndLine": null
+      }
+    ],
+    "CharacterPoll": null
   }
 ]

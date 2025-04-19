@@ -196,7 +196,7 @@
           "24"
         ],
         "ChapterName": "Ehrenfest Temple Floor Plan",
-        "SortOrder": "03",
+        "SortOrder": "05",
         "Year": 0,
         "Season": "",
         "Volume": "",
@@ -527,8 +527,8 @@
         "OverrideName": "",
         "POV": "Brunhilde",
         "Source": "FB2 Story 7",
-        "EarlySortOrder": "040114",
-        "LateSortOrder": "04019604",
+        "EarlySortOrder": "040115",
+        "LateSortOrder": "04019605",
         "EarlyYear": 6,
         "LateYear": 6,
         "EarlySeason": "Winter",
@@ -561,7 +561,7 @@
         "29"
       ],
       "ChapterName": "Comfy Life Fanbook 2",
-      "SortOrder": "040133",
+      "SortOrder": "040134",
       "Year": 6,
       "Season": "Winter",
       "Volume": "0401",
@@ -618,7 +618,7 @@
           "3"
         ],
         "ChapterName": "Rozemyne's Academy Chambers",
-        "SortOrder": "06",
+        "SortOrder": "10",
         "Year": 0,
         "Season": "",
         "Volume": "",
@@ -755,8 +755,8 @@
         "OverrideName": "",
         "POV": "Philine",
         "Source": "FB3 Story",
-        "EarlySortOrder": "040129",
-        "LateSortOrder": "04019606",
+        "EarlySortOrder": "040130",
+        "LateSortOrder": "04019607",
         "EarlyYear": 6,
         "LateYear": 6,
         "EarlySeason": "Winter",
@@ -845,7 +845,7 @@
           "45"
         ],
         "ChapterName": "Yurgenschmidt's Duchies",
-        "SortOrder": "07",
+        "SortOrder": "08",
         "Year": 0,
         "Season": "",
         "Volume": "",
@@ -864,8 +864,8 @@
         "OriginalFilenames": [
           "map"
         ],
-        "ChapterName": "Royal Acadamy Library",
-        "SortOrder": "08",
+        "ChapterName": "Royal Academy Library",
+        "SortOrder": "13",
         "Year": 0,
         "Season": "",
         "Volume": "",
@@ -1144,7 +1144,7 @@
           "25"
         ],
         "ChapterName": "Anime Design Sheets (Lower City)",
-        "SortOrder": "09",
+        "SortOrder": "02",
         "Year": 0,
         "Season": "",
         "Volume": "",
@@ -1164,7 +1164,7 @@
           "26"
         ],
         "ChapterName": "Anime Design Sheets (The Temple)",
-        "SortOrder": "10",
+        "SortOrder": "04",
         "Year": 0,
         "Season": "",
         "Volume": "",

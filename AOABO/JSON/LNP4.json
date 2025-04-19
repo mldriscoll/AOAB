@@ -160,7 +160,7 @@
           "chapter8_1"
         ],
         "ChapterName": "The Better Grades Committee",
-        "SortOrder": "040113",
+        "SortOrder": "040114",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0401",
@@ -180,7 +180,7 @@
           "chapter9"
         ],
         "ChapterName": "The Advancement Ceremony and Fellowship Gatherings",
-        "SortOrder": "040115",
+        "SortOrder": "040116",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0401",
@@ -200,7 +200,7 @@
           "chapter10"
         ],
         "ChapterName": "Royalty and Nobles from Other Duchies",
-        "SortOrder": "040116",
+        "SortOrder": "040117",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0401",
@@ -220,7 +220,7 @@
           "chapter11"
         ],
         "ChapterName": "Math, Theology, and Controlling Mana",
-        "SortOrder": "040117",
+        "SortOrder": "040118",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0401",
@@ -240,7 +240,7 @@
           "chapter12"
         ],
         "ChapterName": "History, Geography, and Music",
-        "SortOrder": "040118",
+        "SortOrder": "040119",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0401",
@@ -260,7 +260,7 @@
           "chapter13"
         ],
         "ChapterName": "Mana Compression and Creating a Highbeast",
-        "SortOrder": "040119",
+        "SortOrder": "040120",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0401",
@@ -280,7 +280,7 @@
           "chapter14"
         ],
         "ChapterName": "The Fourth Step of Mana Compression",
-        "SortOrder": "040120",
+        "SortOrder": "040121",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0401",
@@ -302,7 +302,7 @@
           "chapter15_1"
         ],
         "ChapterName": "Registering at the Library",
-        "SortOrder": "040121",
+        "SortOrder": "040122",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0401",
@@ -322,7 +322,7 @@
           "chapter16"
         ],
         "ChapterName": "Schwartz and Weiss",
-        "SortOrder": "040122",
+        "SortOrder": "040123",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0401",
@@ -342,7 +342,7 @@
           "chapter17"
         ],
         "ChapterName": "Court Etiquette and Hirschur's Visit",
-        "SortOrder": "040123",
+        "SortOrder": "040124",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0401",
@@ -364,7 +364,7 @@
           "chapter18_1"
         ],
         "ChapterName": "Schtappe Acquisition",
-        "SortOrder": "040124",
+        "SortOrder": "040125",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0401",
@@ -384,7 +384,7 @@
           "chapter19"
         ],
         "ChapterName": "My First Earthday",
-        "SortOrder": "040125",
+        "SortOrder": "040126",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0401",
@@ -406,7 +406,7 @@
           "chapter20_1"
         ],
         "ChapterName": "Dedication Whirl",
-        "SortOrder": "040127",
+        "SortOrder": "040128",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0401",
@@ -426,7 +426,7 @@
           "chapter21"
         ],
         "ChapterName": "Passing Highbeast Creation",
-        "SortOrder": "040128",
+        "SortOrder": "040129",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0401",
@@ -448,7 +448,7 @@
           "chapter22_1"
         ],
         "ChapterName": "Schtappe Fundamentals",
-        "SortOrder": "040130",
+        "SortOrder": "040131",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0401",
@@ -496,7 +496,7 @@
           "epilogue_1"
         ],
         "ChapterName": "Epilogue",
-        "SortOrder": "040131",
+        "SortOrder": "040132",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0401",
@@ -519,8 +519,8 @@
         "OverrideName": "",
         "POV": "Lieseleta",
         "Source": "P4V1 Extra 1",
-        "EarlySortOrder": "040126",
-        "LateSortOrder": "04019605",
+        "EarlySortOrder": "040127",
+        "LateSortOrder": "04019606",
         "EarlyYear": 6,
         "LateYear": 6,
         "EarlySeason": "Winter",
@@ -583,7 +583,7 @@
         "manga2"
       ],
       "ChapterName": "Comfy Life 401",
-      "SortOrder": "040132",
+      "SortOrder": "040133",
       "Year": 6,
       "Season": "Winter",
       "Volume": "0401",
@@ -5789,7 +5789,7 @@
           "map2"
         ],
         "ChapterName": "Yurgenschmidt",
-        "SortOrder": "05",
+        "SortOrder": "07",
         "Year": 0,
         "Season": "",
         "Volume": "",
