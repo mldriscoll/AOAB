@@ -147,11 +147,21 @@ namespace AOABO.OCR
                             maxY = b.Height - ((b.Height - maxY) / 2);
                         }
 
-                        using (var a = new ImageProcessor.ImageFactory())
+                        // based-on https://stackoverflow.com/questions/734930/how-do-i-crop-an-image-using-c
+                        Rectangle cropRect = new Rectangle(minX / 2, minY / 2, maxX - (minX / 2), maxY - (minY / 2));
+                        using (Bitmap target = new Bitmap(cropRect.Width, cropRect.Height))
                         {
-                            a.Load(filename);
-                            a.Crop(new Rectangle(minX / 2, minY / 2, maxX - (minX / 2), maxY - (minY / 2)));
-                            a.Save(filename);
+                            using (Bitmap src = Image.FromFile(filename) as Bitmap)
+                            {
+                                using (Graphics g = Graphics.FromImage(target))
+                                {
+                                    g.DrawImage(src,
+                                                new Rectangle(0, 0, target.Width, target.Height),
+                                                cropRect,
+                                                GraphicsUnit.Pixel);
+                                }
+                            }
+                            target.Save(filename);
                         }
                     }
 
