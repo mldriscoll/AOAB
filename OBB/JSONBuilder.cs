@@ -259,7 +259,7 @@ namespace OBB
                 var files = Directory.GetFiles("jsontemp\\item\\xhtml\\", "*.xhtml").Select(x => x.Replace(".xhtml", string.Empty).Replace("jsontemp\\item\\xhtml\\", string.Empty)).ToList();
 
                 var incontents = false;
-                Chapter chapter = null;
+                Chapter? chapter = null;
                 foreach (var line in nav)
                 {
                     if (line.Equals("<h1>Table of Contents</h1>", StringComparison.InvariantCultureIgnoreCase))

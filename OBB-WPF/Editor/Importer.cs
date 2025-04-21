@@ -30,12 +30,12 @@ namespace OBB_WPF.Editor
             // Find Content File
             var opfFiles = Directory.GetFiles(inFolder, "*.opf", SearchOption.AllDirectories);
             var xmlSerializer = new XmlSerializer(typeof(Package));
-            Package content = null;
-            string opfFolder = null;
+            Package? content = null;
+            string? opfFolder = null;
             if (opfFiles.Any(x => x.Contains("content.opf", StringComparison.InvariantCultureIgnoreCase)))
             {
                 var file = opfFiles.First(x => x.Contains("content.opf", StringComparison.InvariantCultureIgnoreCase));
-                content = (Package)xmlSerializer.Deserialize(File.OpenRead(file));
+                content = (xmlSerializer.Deserialize(File.OpenRead(file)) as Package)!;
 
                 var finfo = new FileInfo(file);
                 opfFolder = finfo.Directory.FullName;
@@ -43,14 +43,14 @@ namespace OBB_WPF.Editor
             else if (opfFiles.Any(x => x.Contains("package.opf", StringComparison.InvariantCultureIgnoreCase)))
             {
                 var file = opfFiles.First(x => x.Contains("package.opf", StringComparison.InvariantCultureIgnoreCase));
-                content = (Package)xmlSerializer.Deserialize(File.OpenRead(file));
+                content = (xmlSerializer.Deserialize(File.OpenRead(file)) as Package)!;
 
                 var finfo = new FileInfo(file);
                 opfFolder = finfo.Directory.FullName;
             }
 
 
-            string textFolder = null;
+            string? textFolder = null;
             textFolder = Directory.GetDirectories(inFolder, "*text*", SearchOption.AllDirectories).FirstOrDefault();
             if (textFolder == null) textFolder = Directory.GetDirectories(inFolder, "*oebps*", SearchOption.AllDirectories).FirstOrDefault();
 
@@ -87,7 +87,7 @@ namespace OBB_WPF.Editor
             var files = Directory.GetFiles(textFolder, "*.xhtml").ToList();
 
             var incontents = false;
-            Chapter chapter = null;
+            Chapter? chapter = null;
             int sourceOrder = 1;
             foreach (var line in nav)
             {
@@ -186,7 +186,7 @@ namespace OBB_WPF.Editor
                             chapterContent = string.Concat(chapterContent, File.ReadAllText(file.File));
                         }
 
-                        Chapter subChapter = null;
+                        Chapter? subChapter = null;
                         foreach (Match subHeader in chapterSubTitleRegex.Matches(chapterContent).Where(x => !string.Equals(x.Value, "<h2>I</h2>") && !string.Equals(x.Value, "<h2>1</h2>"))
                             .Union(chapterTitleRegex.Matches(chapterContent).Skip(1)).OrderBy(x => x.Index))
                         {
@@ -234,7 +234,7 @@ namespace OBB_WPF.Editor
                 finalChapterContent = string.Concat(finalChapterContent, File.ReadAllText(file.File));
             }
 
-            Chapter finalSubChapter = null;
+            Chapter? finalSubChapter = null;
             foreach (Match subHeader in chapterSubTitleRegex.Matches(finalChapterContent))
             {
                 if (finalSubChapter != null)

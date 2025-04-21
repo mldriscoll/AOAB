@@ -47,7 +47,7 @@ namespace OBB
             using (var reader = new StreamReader("JSON\\Series.json"))
             {
                 var deserializer = new DataContractJsonSerializer(typeof(Series[]));
-                var list = ((Series[])deserializer.ReadObject(reader.BaseStream)).ToList();
+                var list = (deserializer.ReadObject(reader.BaseStream) as Series[])!.ToList();
 
                 LibraryResponse? library = null;
                 if (Settings.MiscSettings.DownloadBooks)

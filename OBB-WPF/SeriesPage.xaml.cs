@@ -190,7 +190,7 @@ namespace OBB_WPF
             e.Handled = true;
         }
 
-        Chapter CurrentChapter = null;
+        Chapter? CurrentChapter = null;
 
         private void Chapter_Selected(object sender, RoutedEventArgs e)
         {

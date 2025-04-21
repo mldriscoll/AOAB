@@ -31,7 +31,7 @@ namespace OBB_WPF
             }
 
             Progress.Value = e.ProgressPercentage;
-            CurrentBook.Text = (string)e.UserState;
+            CurrentBook.Text = (e.UserState as string)!;
         }
 
         private List<Book> BooksToDownload { get; set; }

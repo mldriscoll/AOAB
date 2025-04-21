@@ -32,7 +32,7 @@ namespace OBB_WPF
 
         public async void Run()
         {
-            SeriesList list = null;
+            SeriesList? list = null;
             using (var client = new HttpClient())
             {
                 Settings.Login = await Login.FromFile(client);
@@ -80,7 +80,7 @@ namespace OBB_WPF
             }
 
             Progress.Value = e.ProgressPercentage;
-            CurrentSeries.Text = (string)e.UserState;
+            CurrentSeries.Text = (e.UserState as string)!;
         }
 
         private void Worker_DoWork(object? sender, DoWorkEventArgs e)

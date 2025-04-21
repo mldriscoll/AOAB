@@ -151,7 +151,7 @@ namespace AOABO.OCR
                         Rectangle cropRect = new Rectangle(minX / 2, minY / 2, maxX - (minX / 2), maxY - (minY / 2));
                         using (Bitmap target = new Bitmap(cropRect.Width, cropRect.Height))
                         {
-                            using (Bitmap src = Image.FromFile(filename) as Bitmap)
+                            using (Bitmap src = (Image.FromFile(filename) as Bitmap)!)
                             {
                                 using (Graphics g = Graphics.FromImage(target))
                                 {

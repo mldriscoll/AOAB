@@ -15,7 +15,7 @@ namespace OBB
                 using (var reader = new StreamReader("ChapterSettings.json"))
                 {
                     var deserializer = new DataContractJsonSerializer(typeof(ChapterSettings));
-                    ChapterSettings = (ChapterSettings)deserializer.ReadObject(reader.BaseStream);
+                    ChapterSettings = (deserializer.ReadObject(reader.BaseStream) as ChapterSettings)!;
                 }
             }
         }
@@ -26,7 +26,7 @@ namespace OBB
                 using (var reader = new StreamReader("ImageSettings.json"))
                 {
                     var deserializer = new DataContractJsonSerializer(typeof(ImageSettings));
-                    ImageSettings = (ImageSettings)deserializer.ReadObject(reader.BaseStream);
+                    ImageSettings = (deserializer.ReadObject(reader.BaseStream) as ImageSettings)!;
                 }
             }
         }
@@ -37,7 +37,7 @@ namespace OBB
                 using (var reader = new StreamReader("MiscSettings.json"))
                 {
                     var deserializer = new DataContractJsonSerializer(typeof(MiscSettings));
-                    MiscSettings = (MiscSettings)deserializer.ReadObject(reader.BaseStream);
+                    MiscSettings = (deserializer.ReadObject(reader.BaseStream) as MiscSettings)!;
                 }
             }
         }

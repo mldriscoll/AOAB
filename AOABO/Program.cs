@@ -436,8 +436,8 @@ async Task PartChart(Chapter[] chapters, string name, bool partOne = false, bool
     sb.AppendLine("|Chapter|Name|POV|");
     sb.Append("|:-:|-|-|");
     int c = 1;
-    string volume = null;
-    string season = null;
+    string? volume = null;
+    string? season = null;
     int year = 0;
     foreach (var chapter in chapters.Where(x => x.ProcessedInPartOne == partOne && x.ProcessedInPartTwo == partTwo && x.ProcessedInPartThree == partThree && x.ProcessedInPartFour == partFour && x.ProcessedInPartFive == partFive))
     {

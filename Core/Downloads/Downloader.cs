@@ -142,7 +142,7 @@ namespace Core.Downloads
 
         private async static Task doDownload(LibraryResponse.Book book, Name name, HttpClient client, string folder, MangaQuality mangaQuality)
         {
-            LibraryResponse.Book.Download download = null;
+            LibraryResponse.Book.Download? download = null;
             if (book.downloads.Count < 1) return;
 
             Console.WriteLine($"Downloading {name.FileName}");

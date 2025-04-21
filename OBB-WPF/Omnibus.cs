@@ -4,7 +4,7 @@ namespace OBB_WPF
 {
     public class Omnibus : ChapterHolder
     {
-        public Source Cover { get; set; } = null;
+        public Source? Cover { get; set; } = null;
 
         public string Author { get; set; } = string.Empty;
         public string AuthorSort { get; set; } = string.Empty;

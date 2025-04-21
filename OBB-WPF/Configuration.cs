@@ -2,8 +2,8 @@
 {
     public class Configuration
     {
-        public string SourceFolder { get; set; } = null;
-        public string DefaultOutputFolder { get; set; } = null;
+        public string SourceFolder { get; set; } = String.Empty;
+        public string DefaultOutputFolder { get; set; } = String.Empty;
         public bool IncludeNormalChapters { get; set; } = true;
         public bool IncludeExtraChapters { get; set; } = true;
         public bool IncludeNonStoryChapters { get; set; } = true;

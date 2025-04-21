@@ -16,13 +16,13 @@ namespace OBB
             using (var reader = new StreamReader("JSON\\Series.json"))
             {
                 var deserializer = new DataContractJsonSerializer(typeof(Series[]));
-                seriesList = ((Series[])deserializer.ReadObject(reader.BaseStream)).ToList();
+                seriesList = (deserializer.ReadObject(reader.BaseStream) as Series[])!.ToList();
             }
 
             Login? login = null;
             if (Settings.MiscSettings.DownloadBooks)
             {
-                Dictionary<SeriesListResponse, List<SeriesVolumeResponse>> dict = null;
+                Dictionary<SeriesListResponse, List<SeriesVolumeResponse>>? dict = null;
                 using (var client = new HttpClient())
                 {
                     login = await Login.FromFile(client);
@@ -73,7 +73,7 @@ namespace OBB
                                 using (var reader = new StreamReader($"JSON\\{series.InternalName}.json"))
                                 {
                                     var deserializer = new DataContractJsonSerializer(typeof(Volume[]));
-                                    volumes = ((Volume[])deserializer.ReadObject(reader.BaseStream)).ToList();
+                                    volumes = (deserializer.ReadObject(reader.BaseStream) as Volume[])!.ToList();
                                 }
 
                                 volumes.RemoveAll(x =>

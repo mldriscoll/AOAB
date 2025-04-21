@@ -8,7 +8,7 @@
         public bool OutputUnusedFiles { get; set; } = true;
         public List<string> Quality { get; set; }
 
-        public string NameMatch(string[] names)
+        public string? NameMatch(string[] names)
         {
             var matches = getMatches(names).ToList();
 
