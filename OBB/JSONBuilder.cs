@@ -271,7 +271,7 @@ namespace OBB
                         if (line.Equals("</ol>", StringComparison.InvariantCultureIgnoreCase))
                         {
                             incontents = false;
-                            chapter.OriginalFilenames.AddRange(files);
+                            chapter!.OriginalFilenames.AddRange(files);
                         }
                         else if (line.Equals("<ol>", StringComparison.InvariantCultureIgnoreCase))
                         {

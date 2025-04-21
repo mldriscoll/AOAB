@@ -195,7 +195,7 @@ namespace OBB
 
             var line = Console.ReadLine();
 
-            if (line.Equals("y") || line.Equals("Y"))
+            if (line!.Equals("y") || line!.Equals("Y"))
             {
                 set(true);
             }

@@ -38,7 +38,7 @@ namespace OBB_WPF.Editor
                 content = (xmlSerializer.Deserialize(File.OpenRead(file)) as Package)!;
 
                 var finfo = new FileInfo(file);
-                opfFolder = finfo.Directory.FullName;
+                opfFolder = finfo.Directory!.FullName;
             }
             else if (opfFiles.Any(x => x.Contains("package.opf", StringComparison.InvariantCultureIgnoreCase)))
             {
@@ -46,7 +46,7 @@ namespace OBB_WPF.Editor
                 content = (xmlSerializer.Deserialize(File.OpenRead(file)) as Package)!;
 
                 var finfo = new FileInfo(file);
-                opfFolder = finfo.Directory.FullName;
+                opfFolder = finfo.Directory!.FullName;
             }
 
 
@@ -102,7 +102,7 @@ namespace OBB_WPF.Editor
                         incontents = false;
                         foreach (var x in files)
                         {
-                            chapter.Sources.Add(new Source { File = inFolder(Ext(x)), SortOrder = $"{volOrder:000}{order:00}{sourceOrder:000}" });
+                            chapter!.Sources.Add(new Source { File = inFolder(Ext(x)), SortOrder = $"{volOrder:000}{order:00}{sourceOrder:000}" });
                             sourceOrder++;
                         }
                     }
@@ -149,7 +149,7 @@ namespace OBB_WPF.Editor
             {
                 var item = content.Manifest.FirstOrDefault(x => x.Id.Equals(line.Id, StringComparison.InvariantCultureIgnoreCase))?.Href;
 
-                if ((item.Contains('.') && !(item.Contains(".xhtml") || item.Contains(".html")))
+                if ((item!.Contains('.') && !(item.Contains(".xhtml") || item.Contains(".html")))
                     || item.StartsWith("\"signup")
                     || item.StartsWith("\"copyright"))
                 {

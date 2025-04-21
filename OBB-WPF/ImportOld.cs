@@ -61,7 +61,7 @@
 
                 foreach (var splash in chapter.SplashPages)
                 {
-                    var right = nchap.Sources.FirstOrDefault(x => x.File.EndsWith($"{splash.Right}.xhtml"));
+                    var right = nchap.Sources.FirstOrDefault(x => x.File.EndsWith($"{splash.Right}.xhtml"))!;
                     var left = nchap.Sources.FirstOrDefault(x => x.File.EndsWith($"{splash.Left}.xhtml"));
                     nchap.Sources.Remove(left);
                     right.OtherSide = left;

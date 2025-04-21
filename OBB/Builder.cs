@@ -196,8 +196,8 @@ namespace OBB
                                         var two = inChapters.First(x => x.Name.Equals(splash.Left, StringComparison.InvariantCultureIgnoreCase));
                                         var imL = inProcessor.Images.FirstOrDefault(x => two.Contents.Contains(x.Name));
 
-                                        var right = await SixLabors.ImageSharp.Image.LoadAsync(imR.OldLocation);
-                                        var left = await SixLabors.ImageSharp.Image.LoadAsync(imL.OldLocation);
+                                        var right = await SixLabors.ImageSharp.Image.LoadAsync(imR!.OldLocation);
+                                        var left = await SixLabors.ImageSharp.Image.LoadAsync(imL!.OldLocation);
 
                                         var outputImage = new Image<Rgba32>(right.Width + left.Width, right.Height);
                                         outputImage.Mutate(x => x

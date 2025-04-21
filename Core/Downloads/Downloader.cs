@@ -105,7 +105,7 @@ namespace Core.Downloads
                     var deserializer = new DataContractJsonSerializer(typeof(SeriesList));
                     var l = deserializer.ReadObject(loginStream) as SeriesList;
 
-                    if (l.series.Count < 50)
+                    if (l!.series!.Count < 50)
                     {
                         cont = false;
                     }

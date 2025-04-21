@@ -37,11 +37,11 @@ namespace OBB
                 }
 
                 if (dict != null)
-                    foreach (var serie in dict.Where(x => x.Key.type.Equals("manga", StringComparison.InvariantCultureIgnoreCase)
-                        || !x.Key.title.Contains("ascendance of a bookworm", StringComparison.InvariantCultureIgnoreCase)
+                    foreach (var serie in dict.Where(x => x.Key.type!.Equals("manga", StringComparison.InvariantCultureIgnoreCase)
+                        || !x.Key.title!.Contains("ascendance of a bookworm", StringComparison.InvariantCultureIgnoreCase)
                         ))
                     {
-                        var series = seriesList.FirstOrDefault(x => x.ApiSlugs.Any(y => y.Slug.Equals(serie.Key.slug, StringComparison.InvariantCultureIgnoreCase)));
+                        var series = seriesList.FirstOrDefault(x => x.ApiSlugs.Any(y => y.Slug!.Equals(serie.Key.slug, StringComparison.InvariantCultureIgnoreCase)));
 
                         if (series == null && serie.Value.Count > 1)
                         {
@@ -61,7 +61,7 @@ namespace OBB
 
                         if (series != null)
                         {
-                            var order = 100 * (series.ApiSlugs.FirstOrDefault(x => x.Slug.Equals(serie.Key.slug, StringComparison.InvariantCultureIgnoreCase))?.Order ?? 1);
+                            var order = 100 * (series.ApiSlugs.FirstOrDefault(x => x.Slug!.Equals(serie.Key.slug, StringComparison.InvariantCultureIgnoreCase))?.Order ?? 1);
 
                             if (series.Volumes.All(x => string.IsNullOrWhiteSpace(x.EditedBy)))
                             {
@@ -121,10 +121,10 @@ namespace OBB
                             series = new Series
                             {
                                 ApiSlugs = new List<SeriesSlug> { new SeriesSlug { Order = 1, Slug = serie.Key.slug } },
-                                Author = serie.Value.First().creators.First(x => x.role.Equals("AUTHOR")).name,
-                                AuthorSort = serie.Value.First().creators.First(x => x.role.Equals("AUTHOR")).name.Split(' ').Reverse().Aggregate((str, agg) => string.Concat(str, ", ", agg)).Trim().ToUpper(),
-                                InternalName = serie.Key.slug,
-                                Name = serie.Key.title,
+                                Author = serie.Value.First().creators!.First(x => x.role!.Equals("AUTHOR")).name!,
+                                AuthorSort = serie.Value.First().creators!.First(x => x.role!.Equals("AUTHOR")).name!.Split(' ').Reverse().Aggregate((str, agg) => string.Concat(str, ", ", agg)).Trim().ToUpper(),
+                                InternalName = serie.Key.slug!,
+                                Name = serie.Key.title!,
                                 Volumes = serie.Value.Select(x => new VolumeName
                                 {
                                     ApiSlug = x.slug ?? string.Empty,

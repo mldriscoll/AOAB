@@ -81,7 +81,7 @@ namespace OBB_WPF
                     foreach (var book in BooksToDownload.OrderBy(x => x.volume.slug))
                     {
                         c++;
-                        (sender as BackgroundWorker).ReportProgress(c, book.volume.slug);
+                        (sender as BackgroundWorker)!.ReportProgress(c, book.volume.slug);
                         var task = client.GetStreamAsync(book.downloads.Last().link);
                         task.Wait();
                         using (var stream = task.Result)
@@ -95,7 +95,7 @@ namespace OBB_WPF
                     }
                 }
             }
-            (sender as BackgroundWorker).ReportProgress(0, true);
+            (sender as BackgroundWorker)!.ReportProgress(0, true);
         }
     }
 }

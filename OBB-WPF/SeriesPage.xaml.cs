@@ -183,8 +183,8 @@ namespace OBB_WPF
             var lvi = e.Data.GetData(typeof(SourcePreview));
             if (lvi != null)
             {
-                var draggedSource = ((SourcePreview)lvi).DataContext as Source;
-                CurrentChapter.Sources.Remove(draggedSource);
+                var draggedSource = (((SourcePreview)lvi).DataContext as Source)!;
+                CurrentChapter!.Sources.Remove(draggedSource);
                 dropTarget.Sources.Add(draggedSource);
             }
             e.Handled = true;
@@ -295,8 +295,8 @@ namespace OBB_WPF
             var lvi = e.Data.GetData(typeof(SourcePreview));
             if (lvi != null)
             {
-                var draggedSource = ((SourcePreview)lvi).DataContext as Source;
-                CurrentChapter.Sources.Remove(draggedSource);
+                var draggedSource = (((SourcePreview)lvi).DataContext as Source)!;
+                CurrentChapter!.Sources.Remove(draggedSource);
                 omnibus.UnusedSources.Add(draggedSource);
             }
         }
@@ -339,7 +339,7 @@ namespace OBB_WPF
             if (lvi != null)
             {
                 var draggedSource = ((SourcePreview)lvi).DataContext as Source;
-                CurrentChapter.Sources.Remove(draggedSource);
+                CurrentChapter!.Sources.Remove(draggedSource);
 
                 if (omnibus.Cover != null) omnibus.UnusedSources.Add(omnibus.Cover);
                 omnibus.Cover = draggedSource;
@@ -376,7 +376,7 @@ namespace OBB_WPF
 
                     if (result.HasValue && result.Value)
                     {
-                        CurrentChapter.Sources.Remove(draggedSource);
+                        CurrentChapter!.Sources.Remove(draggedSource);
                     }
                 }
             }
