@@ -25,7 +25,7 @@ namespace OBB
             {
                 var login = await Login.FromFile(client);
                 login = login ?? await Login.FromConsole(client);
-                var library = await Downloader.GetLibrary(client, login.AccessToken);
+                var library = await Downloader.GetLibrary(client, login!.AccessToken);
                 foreach (var vol in series.SelectMany(x => x.Volumes))
                 {
                     if (!files.Any(x => x.Equals(inFolder + "\\" + vol.FileName, StringComparison.InvariantCultureIgnoreCase))
@@ -75,7 +75,7 @@ namespace OBB
 
             using (var reader = new StreamReader("JSON\\Series.json"))
             {
-                var a = await JsonSerializer.DeserializeAsync<Series[]>(reader.BaseStream);
+                var a = (await JsonSerializer.DeserializeAsync<Series[]>(reader.BaseStream))!;
 
                 series = a.ToList();
             }
@@ -90,7 +90,7 @@ namespace OBB
             if ((new FileInfo(filename)).Length == 0) return new List<Volume>();
             using (var reader = new StreamReader(filename))
             {
-                return await JsonSerializer.DeserializeAsync<List<Volume>>(reader.BaseStream);
+                return (await JsonSerializer.DeserializeAsync<List<Volume>>(reader.BaseStream))!;
             }
         }
 
@@ -125,7 +125,7 @@ namespace OBB
             }
         }
 
-        public static Volume GenerateVolumeInfo(string inFolder, string? volumeName, int volOrder, string epub)
+        public static Volume GenerateVolumeInfo(string inFolder, string volumeName, int volOrder, string epub)
         {
             if (Directory.Exists("jsontemp")) Directory.Delete("jsontemp", true);
             ZipFile.ExtractToDirectory(epub, "jsontemp");
@@ -363,9 +363,9 @@ namespace OBB
 
             foreach(var serie in series)
             {
-                int prepub = serie.Volumes.Count(x => DateTime.Parse(x.Published) > DateTime.UtcNow.Date);
+                int prepub = serie.Volumes.Count(x => DateTime.Parse(x.Published!) > DateTime.UtcNow.Date);
                 // Fully Edited
-                if (serie.Volumes.All(x => !string.IsNullOrEmpty(x.EditedBy) || DateTime.Parse(x.Published) > DateTime.UtcNow.Date)  && serie.Volumes.Count > prepub)
+                if (serie.Volumes.All(x => !string.IsNullOrEmpty(x.EditedBy) || DateTime.Parse(x.Published!) > DateTime.UtcNow.Date)  && serie.Volumes.Count > prepub)
                 {
                     if (serie.Volumes.Where(x => x.EditedBy != null).GroupBy(x => x.EditedBy).Count() > 1)
                     {

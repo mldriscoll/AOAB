@@ -26,7 +26,7 @@ namespace OBB_WPF
 
         public void RemoveDupesFromUnusedList()
         {
-            UnusedSources.Remove(Cover);
+            UnusedSources.Remove(Cover!);
 
 
             foreach (var chapterList in Chapters.Select(x => x.FindDupes(UnusedSources.ToList())))

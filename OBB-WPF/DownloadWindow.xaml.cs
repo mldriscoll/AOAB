@@ -6,6 +6,7 @@ using Microsoft.Win32;
 using OBB_WPF.Library;
 using System.IO;
 using static Core.Downloads.LibraryResponse;
+using System.Collections.Generic;
 
 namespace OBB_WPF
 {
@@ -34,7 +35,7 @@ namespace OBB_WPF
             CurrentBook.Text = (e.UserState as string)!;
         }
 
-        private List<Book> BooksToDownload { get; set; }
+        private List<Book> BooksToDownload { get; set; } = new List<Book> { };
 
         public async void Run()
         {
@@ -47,7 +48,7 @@ namespace OBB_WPF
                 await JSON.Save("Configuration.json", Settings.Configuration);
             }
 
-            var library = await Downloader.GetLibrary(new HttpClient(), Settings.Login.AccessToken);
+            var library = await Downloader.GetLibrary(new HttpClient(), Settings.Login!.AccessToken);
             BooksToDownload = new List<Book>();
             
             foreach (var book in library.books.Where(x => x.downloads.Any()))

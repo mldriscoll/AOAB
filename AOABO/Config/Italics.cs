@@ -2,7 +2,7 @@
 {
     public class Italics
     {
-        public string Start { get; set; }
-        public string End { get; set; }
+        public string Start { get; set; } = String.Empty;
+        public string End { get; set; } = String.Empty;
     }
 }

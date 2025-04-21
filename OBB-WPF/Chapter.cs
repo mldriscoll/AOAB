@@ -24,7 +24,7 @@ namespace OBB_WPF
             }
         }
 
-        private string _name;
+        private string _name = String.Empty;
         public string Name
         {
             get { return _name; }

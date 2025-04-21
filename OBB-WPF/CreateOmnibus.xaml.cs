@@ -39,9 +39,9 @@ namespace OBB_WPF
         public bool IncNonStoryChapters { get; set; } = true;
         private static readonly Regex chapterTitleRegex = new Regex("<h1>[\\s\\S]*?<\\/h1>");
         public bool UpdateChapterTitles { get; set; } = true;
-        public string ImageWidth { get; set; }
-        public string ImageHeight { get; set; }
-        public string ImageQuality { get; set; }
+        public string ImageWidth { get; set; } = String.Empty;
+        public string ImageHeight { get; set; } = String.Empty;
+        public string ImageQuality { get; set; } = String.Empty;
 
         public CreateOmnibus(Omnibus series)
         {
@@ -94,7 +94,7 @@ namespace OBB_WPF
                 }
             }
 
-            this.series = omnibus;
+            this.series = omnibus!;
             DataContext = this;
             SetConfig();
         }

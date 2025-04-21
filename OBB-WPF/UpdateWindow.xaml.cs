@@ -67,7 +67,7 @@ namespace OBB_WPF
 
         private class Arg
         {
-            public SeriesList List { get; set; }
+            public SeriesList List { get; set; } = new SeriesList { };
         }
 
         private void Worker_ProgressChanged(object? sender, ProgressChangedEventArgs e)

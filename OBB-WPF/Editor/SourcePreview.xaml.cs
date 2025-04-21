@@ -67,7 +67,7 @@ namespace OBB_WPF
                 typeof(string),
                 typeof(SourcePreview));
 
-        public string SortOrder { get; set; }
+        public string SortOrder { get; set; } = String.Empty;
         public static readonly DependencyProperty SortOrderProperty = 
             DependencyProperty.Register(
                 "SortOrder",

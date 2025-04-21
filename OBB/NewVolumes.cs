@@ -32,7 +32,7 @@ namespace OBB
                     {
                         var list = await Downloader.GetSeriesList(client, login.AccessToken);
 
-                        dict = list.series.ToDictionary(x => x, x => Downloader.GetSeries(client, x.slug).Result.volumes);
+                        dict = list.series!.ToDictionary(x => x, x => Downloader.GetSeries(client, x.slug!).Result.volumes!);
                     }
                 }
 
@@ -108,12 +108,12 @@ namespace OBB
 
                             series.Volumes.AddRange(serie.Value.Where(x => !series.Volumes.Any(y => y.ApiSlug.Equals(x.slug, StringComparison.OrdinalIgnoreCase))).ToList().Select(x => new VolumeName
                             {
-                                ApiSlug = x.slug,
+                                ApiSlug = x.slug!,
                                 EditedBy = null,
                                 FileName = $"{x.slug}.epub",
                                 ShowRemainingFiles = true,
                                 Order = order + x.number,
-                                Published = DateOnly.FromDateTime(DateTime.Parse(x.publishing)).ToString("yyyy-MM-dd")
+                                Published = DateOnly.FromDateTime(DateTime.Parse(x.publishing!)).ToString("yyyy-MM-dd")
                             }));
                         }
                         else if (serie.Value.Count > 1)
@@ -132,7 +132,7 @@ namespace OBB
                                     FileName = $"{x.slug}.epub",
                                     ShowRemainingFiles = true,
                                     Order = 100 + x.number,
-                                    Published = DateOnly.FromDateTime(DateTime.Parse(x.publishing)).ToString("yyyy-MM-dd"),
+                                    Published = DateOnly.FromDateTime(DateTime.Parse(x.publishing!)).ToString("yyyy-MM-dd"),
                                     Title = x.title ?? string.Empty
                                 }).ToList()
                             };
