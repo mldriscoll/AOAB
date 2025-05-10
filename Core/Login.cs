@@ -1,19 +1,33 @@
 ﻿using System.Runtime.Serialization.Json;
+using System.Security.Cryptography;
+using System.Text;
 
 namespace Core
 {
     public class Login
     {
         public readonly string UserName;
-        public readonly string Password;
+        public byte[] CiphertextPassword;
         public readonly string AccessToken;
-        private Login(string username, string password, string accessToken)
-        {
+        private Login(string username, byte[] cipherTextPassword, string accessToken)
+        {                       
             UserName = username;
-            Password = password;
+            CiphertextPassword = cipherTextPassword;
             AccessToken = accessToken;
         }
 
+        public static byte[] ToCipherText(string password)
+        {
+            byte[] plaintextPassword = Encoding.ASCII.GetBytes(password)!;
+            return ProtectedData.Protect(plaintextPassword, null, DataProtectionScope.CurrentUser );
+        }
+        
+        public static string FromCipherText(byte[] cipherTextBuffer)
+        {
+            byte[] plainTextBuffer = ProtectedData.Unprotect(cipherTextBuffer, null, DataProtectionScope.CurrentUser);
+            return Encoding.ASCII.GetString(plainTextBuffer);
+        }
+        
         public static async Task<Login> FromConsole(HttpClient client)
         {
             Console.Clear();
@@ -25,16 +39,22 @@ namespace Core
             Console.WriteLine("Please enter your j-novel club password");
             var pass = Console.ReadLine();
 
-            File.WriteAllText("Account.txt", $"{un}\r\n{pass}");
-            return await CreateLogin(un, pass, client);
+            byte[] ct = ToCipherText(pass!);
+
+
+            File.WriteAllText("Account.txt", un);
+            File.WriteAllBytes("Password.txt", ct);
+            
+            return await CreateLogin(un!, ct, client);
         }
 
         public static async Task<Login> FromUI(HttpClient client, string username, string password)
         {
-            var login = await CreateLogin(username, password, client);
+            var login = await CreateLogin(username, ToCipherText(password), client);
             if (login != null)
             {
-                File.WriteAllText("Account.txt", $"{username}\r\n{password}");
+                File.WriteAllText("Account.txt", username);
+                File.WriteAllBytes("Password.txt", login.CiphertextPassword);
             }
 
             return login;
@@ -42,35 +62,31 @@ namespace Core
 
         public static async Task<Login> FromFile(HttpClient client)
         {
-            if (!File.Exists("Account.txt"))
+            if (!File.Exists("Account.txt") || !File.Exists("Password.txt"))
             {
                 return null;
             }
 
-            var text = File.ReadAllText("Account.txt");
-            var split = text.Split("\r\n");
-            if (split.Length == 2)
-            {
-                return await CreateLogin(split[0], split[1], client);
-            }
-
-            return null;
+            string username = File.ReadAllText("Account.txt")!;
+            byte[] ct = File.ReadAllBytes("Password.txt");
+            
+            return await CreateLogin(username, ct, client);
         }
 
-        private static async Task<Login> CreateLogin(string username, string password, HttpClient client)
+        private static async Task<Login> CreateLogin(string username, byte[] cipherTextPassword, HttpClient client)
         {
             try
             {
-                var loginCall = await client.PostAsync("https://labs.j-novel.club/app/v2/auth/login?format=json", new StringContent($"{{\"login\":\"{username}\",\"password\":\"{password}\",\"slim\":true}}", System.Text.Encoding.ASCII, "application/json"));
+                var loginCall = await client.PostAsync("https://labs.j-novel.club/app/v2/auth/login?format=json", new StringContent($"{{\"login\":\"{username}\",\"password\":\"{FromCipherText(cipherTextPassword)}\",\"slim\":true}}", System.Text.Encoding.ASCII, "application/json"));
 
                 string bearerToken;
                 using (var loginStream = await loginCall.Content.ReadAsStreamAsync())
                 {
                     var deserializer = new DataContractJsonSerializer(typeof(LoginResponse));
-                    bearerToken = (deserializer.ReadObject(loginStream) as LoginResponse).id;
+                    bearerToken = (deserializer.ReadObject(loginStream) as LoginResponse)!.id;
                 }
 
-                return new Login(username, password, bearerToken);
+                return new Login(username, cipherTextPassword, bearerToken);
             }
             catch (Exception ex)
             {
