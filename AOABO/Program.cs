@@ -419,18 +419,18 @@ async Task CreateTables()
     await File.WriteAllTextAsync("POVs.txt", sb.ToString());
 
     //Chronological Chart P1
-    await PartChart(chapters, "PartOne.txt", partOne: true);
+    PartChart(chapters, "PartOne.txt", partOne: true);
     //Chronological Chart P2
-    await PartChart(chapters, "PartTwo.txt", partTwo: true);
+    PartChart(chapters, "PartTwo.txt", partTwo: true);
     //Chronological Chart P3
-    await PartChart(chapters, "PartThree.txt", partThree: true);
+    PartChart(chapters, "PartThree.txt", partThree: true);
     //Chronological Chart P4
-    await PartChart(chapters, "PartFour.txt", partFour: true);
+    PartChart(chapters, "PartFour.txt", partFour: true);
     //Chronological Chart P5
-    await PartChart(chapters, "PartFive.txt", partFive: true);
+    PartChart(chapters, "PartFive.txt", partFive: true);
 }
 
-async Task PartChart(Chapter[] chapters, string name, bool partOne = false, bool partTwo = false, bool partThree = false, bool partFour = false, bool partFive = false)
+void PartChart(Chapter[] chapters, string name, bool partOne = false, bool partTwo = false, bool partThree = false, bool partFour = false, bool partFive = false)
 {
     var sb = new StringBuilder();
     sb.AppendLine("|Chapter|Name|POV|");

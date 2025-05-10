@@ -47,7 +47,7 @@ namespace OBB_WPF
                 ((Grid)this.Content).Children.Add(AddVolumeButton);
             }
 
-            Load();
+            Task _ = Load();
         }
 
         private async void AddVolumeButton_Click(object sender, RoutedEventArgs e)
@@ -217,7 +217,7 @@ namespace OBB_WPF
             item.Items.Add(subItem);
         }
 
-        private async void BuildOmnibus(object sender, RoutedEventArgs e)
+        private void BuildOmnibus(object sender, RoutedEventArgs e)
         {
             var page = new CreateOmnibus(omnibus!);
             page.ShowDialog();

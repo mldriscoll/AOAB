@@ -99,7 +99,7 @@ namespace OBB_WPF
         public static List<Series> Series = new List<Series>();
         public static List<Series> CustomSeries = new List<Series>();
 
-        private async void Update_Click(object sender, RoutedEventArgs e)
+        private void Update_Click(object sender, RoutedEventArgs e)
         {
             var up = new UpdateWindow();
             up.Run();
