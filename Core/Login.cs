@@ -38,8 +38,7 @@ namespace Core
             string username = un!;
             string password = pass!;
 
-            File.WriteAllText("Account.txt", username);
-            File.WriteAllBytes("Password.txt", ToCiphertext(password));
+            File.WriteAllText("Account.txt", $"{username}\r\n{Convert.ToBase64String(ToCiphertext(password))}");
             
             return await CreateLogin(un!, ct, client);
         }
@@ -49,8 +48,7 @@ namespace Core
             var login = await CreateLogin(username, password, client);
             if (login != null)
             {
-                File.WriteAllText("Account.txt", username);
-                File.WriteAllBytes("Password.txt", ToCiphertext(password));
+                File.WriteAllText("Account.txt", $"{username}\r\n{Convert.ToBase64String(ToCiphertext(password))}");
             }
 
             return login;
@@ -58,15 +56,19 @@ namespace Core
 
         public static async Task<Login?> FromFile(HttpClient client)
         {
-            if (!File.Exists("Account.txt") || !File.Exists("Password.txt"))
+            if (!File.Exists("Account.txt"))
             {
                 return null;
             }
 
-            string username = File.ReadAllText("Account.txt")!;
-            byte[] ct = File.ReadAllBytes("Password.txt");
-            
-            return await CreateLogin(username, FromCiphertext(ct), client);
+            var text = File.ReadAllText("Account.txt");
+            var split = text.Split("\r\n");
+            if (split.Length == 2)
+            {
+                return await CreateLogin(split[0], FromCiphertext(Convert.FromBase64String(split[1])), client);
+            }
+
+            return null;
         }
 
         private static async Task<Login?> CreateLogin(string username, string plaintextPassword, HttpClient client)
