@@ -255,6 +255,8 @@ namespace OBB
             // Backup for Manga that don't have content files
             catch (DirectoryNotFoundException noContent)
             {
+                Console.WriteLine($"Directory not found: {noContent.Message}");
+
                 var nav = File.ReadAllLines("jsontemp\\item\\nav.xhtml").Select(x => x.Trim()).ToList();
                 var files = Directory.GetFiles("jsontemp\\item\\xhtml\\", "*.xhtml").Select(x => x.Replace(".xhtml", string.Empty).Replace("jsontemp\\item\\xhtml\\", string.Empty)).ToList();
 
