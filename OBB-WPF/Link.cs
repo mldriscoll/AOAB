@@ -2,7 +2,7 @@
 {
     public class Link
     {
-        public string OriginalLink { get; set; }
-        public string Target { get; set; }
+        public string OriginalLink { get; set; } = String.Empty;
+        public string Target { get; set; } = String.Empty;
     }
 }

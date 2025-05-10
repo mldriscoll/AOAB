@@ -39,9 +39,9 @@ namespace OBB_WPF
         public bool IncNonStoryChapters { get; set; } = true;
         private static readonly Regex chapterTitleRegex = new Regex("<h1>[\\s\\S]*?<\\/h1>");
         public bool UpdateChapterTitles { get; set; } = true;
-        public string ImageWidth { get; set; }
-        public string ImageHeight { get; set; }
-        public string ImageQuality { get; set; }
+        public string ImageWidth { get; set; } = String.Empty;
+        public string ImageHeight { get; set; } = String.Empty;
+        public string ImageQuality { get; set; } = String.Empty;
 
         public CreateOmnibus(Omnibus series)
         {
@@ -85,16 +85,16 @@ namespace OBB_WPF
             {
                 try
                 {
-                    var ob = Importer.GenerateVolumeInfo($"{omnibus.InternalName}\\{vol.ApiSlug}", omnibus.Name, vol.ApiSlug, vol.Order);
+                    var ob = Importer.GenerateVolumeInfo($"{omnibus!.InternalName}\\{vol.ApiSlug}", omnibus.Name, vol.ApiSlug, vol.Order);
                     omnibus.Combine(ob);
                 }
                 catch (Exception ex)
                 {
-
+                    Console.WriteLine(ex.ToString());
                 }
             }
 
-            this.series = omnibus;
+            this.series = omnibus!;
             DataContext = this;
             SetConfig();
         }
@@ -136,7 +136,7 @@ namespace OBB_WPF
                 var entry = inProcessor.Chapters.First(x => ($"{inFolder}\\{x.SubFolder}\\{x.Name}.xhtml").Equals(series.Cover.File, StringComparison.InvariantCultureIgnoreCase));
                 var imageRegex = new Regex("\\[ImageFolder\\]\\/[0-9]*?\\.jpg");
                 var irMatch = imageRegex.Match(entry.Contents);
-                var cim = inProcessor.Images.FirstOrDefault(x => x.Name.Equals(irMatch.Value.Replace("[ImageFolder]/", "")));
+                var cim = inProcessor.Images.FirstOrDefault(x => x.Name.Equals(irMatch.Value.Replace("[ImageFolder]/", "")))!;
                 if (File.Exists("cover.jpg")) File.Delete("cover.jpg");
                 File.Copy(cim.OldLocation, "cover.jpg");
                 outProcessor.Metadata.Add("<meta name=\"cover\" content=\"images/cover.jpg\" />");
@@ -246,10 +246,10 @@ namespace OBB_WPF
                         foreach (var splash in chapter.Sources.Where(x => x.OtherSide != null))
                         {
                             var one = inProcessor.Chapters.First(x => ($"{inFolder}\\{x.SubFolder}\\{x.Name}.xhtml").Equals(splash.File, StringComparison.InvariantCultureIgnoreCase));
-                            var imR = inProcessor.Images.FirstOrDefault(x => one.Contents.Contains(x.Name));
+                            var imR = inProcessor.Images.FirstOrDefault(x => one.Contents.Contains(x.Name))!;
 
-                            var two = inProcessor.Chapters.First(x => ($"{inFolder}\\{x.SubFolder}\\{x.Name}.xhtml").Equals(splash.OtherSide.File, StringComparison.InvariantCultureIgnoreCase));
-                            var imL = inProcessor.Images.FirstOrDefault(x => two.Contents.Contains(x.Name));
+                            var two = inProcessor.Chapters.First(x => ($"{inFolder}\\{x.SubFolder}\\{x.Name}.xhtml").Equals(splash.OtherSide!.File, StringComparison.InvariantCultureIgnoreCase));
+                            var imL = inProcessor.Images.FirstOrDefault(x => two.Contents.Contains(x.Name))!;
 
                             var right = await SixLabors.ImageSharp.Image.LoadAsync(imR.OldLocation);
                             var left = await SixLabors.ImageSharp.Image.LoadAsync(imL.OldLocation);
@@ -356,8 +356,7 @@ namespace OBB_WPF
             }
             catch (Exception ex)
             {
-                //Console.WriteLine($"Error processing chapter {chapter.ChapterName} in book {vol.ApiSlug}");
-                //Console.WriteLine(ex.ToString());
+                Console.WriteLine(ex.ToString());
             }
 
             if (string.Equals(subfolder, string.Empty))

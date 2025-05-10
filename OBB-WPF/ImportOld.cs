@@ -4,7 +4,7 @@
     {
         public static async Task Import(Omnibus omnibus, string file)
         {
-            var volumes = await JSON.Load<List<Volume>>(file);
+            var volumes = (await JSON.Load<List<Volume>>(file))!;
             var nob = new Omnibus();
             foreach (var volume in volumes)
             {
@@ -56,13 +56,13 @@
 
                 foreach (var file in chapter.OriginalFilenames)
                 {
-                    nchap.Sources.Add(Sources.FirstOrDefault(x => x.File.EndsWith($"{file}.xhtml")));
+                    nchap.Sources.Add(Sources.FirstOrDefault(x => x.File.EndsWith($"{file}.xhtml"))!);
                 }
 
                 foreach (var splash in chapter.SplashPages)
                 {
-                    var right = nchap.Sources.FirstOrDefault(x => x.File.EndsWith($"{splash.Right}.xhtml"));
-                    var left = nchap.Sources.FirstOrDefault(x => x.File.EndsWith($"{splash.Left}.xhtml"));
+                    var right = nchap.Sources.FirstOrDefault(x => x.File.EndsWith($"{splash.Right}.xhtml"))!;
+                    var left = nchap.Sources.FirstOrDefault(x => x.File.EndsWith($"{splash.Left}.xhtml"))!;
                     nchap.Sources.Remove(left);
                     right.OtherSide = left;
                 }

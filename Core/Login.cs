@@ -14,22 +14,22 @@ namespace Core
             AccessToken = accessToken;
         }
 
-        public static async Task<Login> FromConsole(HttpClient client)
+        public static async Task<Login?> FromConsole(HttpClient client)
         {
             Console.Clear();
             Console.WriteLine("Creating a user account file");
             Console.WriteLine();
             Console.WriteLine("Please enter your j-novel club username");
-            var un = Console.ReadLine();
+            var un = Console.ReadLine()!;
 
             Console.WriteLine("Please enter your j-novel club password");
-            var pass = Console.ReadLine();
+            var pass = Console.ReadLine()!;
 
             File.WriteAllText("Account.txt", $"{un}\r\n{pass}");
             return await CreateLogin(un, pass, client);
         }
 
-        public static async Task<Login> FromUI(HttpClient client, string username, string password)
+        public static async Task<Login?> FromUI(HttpClient client, string username, string password)
         {
             var login = await CreateLogin(username, password, client);
             if (login != null)
@@ -40,7 +40,7 @@ namespace Core
             return login;
         }
 
-        public static async Task<Login> FromFile(HttpClient client)
+        public static async Task<Login?> FromFile(HttpClient client)
         {
             if (!File.Exists("Account.txt"))
             {
@@ -57,7 +57,7 @@ namespace Core
             return null;
         }
 
-        private static async Task<Login> CreateLogin(string username, string password, HttpClient client)
+        private static async Task<Login?> CreateLogin(string username, string password, HttpClient client)
         {
             try
             {
@@ -67,7 +67,7 @@ namespace Core
                 using (var loginStream = await loginCall.Content.ReadAsStreamAsync())
                 {
                     var deserializer = new DataContractJsonSerializer(typeof(LoginResponse));
-                    bearerToken = (deserializer.ReadObject(loginStream) as LoginResponse).id;
+                    bearerToken = (deserializer.ReadObject(loginStream) as LoginResponse)!.id;
                 }
 
                 return new Login(username, password, bearerToken);

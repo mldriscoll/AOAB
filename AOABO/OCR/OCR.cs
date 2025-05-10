@@ -151,7 +151,7 @@ namespace AOABO.OCR
                         Rectangle cropRect = new Rectangle(minX / 2, minY / 2, maxX - (minX / 2), maxY - (minY / 2));
                         using (Bitmap target = new Bitmap(cropRect.Width, cropRect.Height))
                         {
-                            using (Bitmap src = Image.FromFile(filename) as Bitmap)
+                            using (Bitmap src = (Image.FromFile(filename) as Bitmap)!)
                             {
                                 using (Graphics g = Graphics.FromImage(target))
                                 {
@@ -178,7 +178,7 @@ namespace AOABO.OCR
                         if (result.Lines.Count > 0)
                         {
                             var leftmost = result.Lines.Min(x => x.Words[0].BoundingRect.Left);
-                            var rightmost = result.Lines.OrderByDescending(x => x.Words[0].BoundingRect.Left).Skip(firstPage ? chapter.OCR.HeaderLines : 0).First().Words[0].BoundingRect.Left;
+                            var rightmost = result.Lines.OrderByDescending(x => x.Words[0].BoundingRect.Left).Skip(firstPage ? chapter.OCR!.HeaderLines : 0).First().Words[0].BoundingRect.Left;
                             var threshold = leftmost + ((rightmost - leftmost) / 2);
                             firstPage = false;
 
@@ -218,7 +218,7 @@ namespace AOABO.OCR
                 var apostropheRegex = new Regex("[a-z,A-Z]'[a-z,A-Z]");
                 body = apostropheRegex.Replace(body, new MatchEvaluator(ReplaceApostrophe));
 
-                foreach (var correction in chapter.OCR.Corrections)
+                foreach (var correction in chapter.OCR!.Corrections)
                 {
                     body = body.Replace(correction.Original, correction.Replacement);
                 }

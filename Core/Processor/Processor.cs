@@ -33,7 +33,7 @@ namespace Core.Processor
             return s;
         }
 
-        public async Task FullOutput(string baseFolder, bool textOnly, bool humanReadable, bool deleteFolder, string name, int? maxX = null, int? maxY = null, int imageQuality = 90, IProgress<int> pictureProgress = null, IProgress<int> textProgress = null)
+        public async Task FullOutput(string baseFolder, bool textOnly, bool humanReadable, bool deleteFolder, string name, int? maxX = null, int? maxY = null, int imageQuality = 90, IProgress<int>? pictureProgress = null, IProgress<int>? textProgress = null)
         {
             if (string.IsNullOrWhiteSpace(name))
             {
@@ -225,7 +225,7 @@ namespace Core.Processor
                     }
                     catch (Exception ex)
                     {
-                        throw new Exception($"Chapter {chapter.Name} tried to link to chapter {chapterlink} that was not found in the ebook output");
+                        throw new Exception($"{ex.Message} while Chapter {chapter.Name} tried to link to chapter {chapterlink} that was not found in the ebook output");
                     }
                 }
 
@@ -239,7 +239,7 @@ namespace Core.Processor
                     }
                     catch (Exception ex)
                     {
-                        throw new Exception($"Chapter {chapter.Name} tried to link to chapter {chapterLink} that was not found in the ebook output");
+                        throw new Exception($"{ex.Message} while Chapter {chapter.Name} tried to link to chapter {chapterLink} that was not found in the ebook output");
                     }
                 }
 

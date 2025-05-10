@@ -11,7 +11,7 @@ namespace OBB_WPF
 
         public ObservableCollection<string> Alternates { get; set; } = new ObservableCollection<string>();
 
-        public Source OtherSide { get; set; } = null;
+        public Source? OtherSide { get; set; } = null;
 
         public string SortOrder { get; set; } = string.Empty;
 

@@ -21,9 +21,9 @@ namespace OBB_WPF
             }
         }
 
-        public async static Task<T> Load<T>(string file)
+        public async static Task<T?> Load<T>(string file)
         {
-            if (!File.Exists(file)) return default(T);
+            if (!File.Exists(file)) return default;
 
             using (var stream = File.OpenRead(file))
             {

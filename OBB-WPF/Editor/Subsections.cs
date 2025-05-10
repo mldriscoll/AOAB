@@ -91,8 +91,8 @@ namespace OBB_WPF.Editor
             chapter.SubSections.Add(sub);
             SubsectionList.Items.Add(new SubsectionControl(sub, (SubsectionControl c) => { SubsectionList.Items.Remove(c); chapter.SubSections.Remove(sub); }));
 
-            chapter.StartsAtLine = null;
-            chapter.EndsBeforeLine = null;
+            chapter.StartsAtLine = String.Empty;
+            chapter.EndsBeforeLine = String.Empty;
         }
     }
 }

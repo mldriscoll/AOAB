@@ -52,10 +52,10 @@ while (executing)
         case ('4', true):
             var inputFolder = string.IsNullOrWhiteSpace(Configuration.Options.Folder.InputFolder) ? Directory.GetCurrentDirectory() :
                 Configuration.Options.Folder.InputFolder.Length > 1 && Configuration.Options.Folder.InputFolder[1].Equals(':') ? Configuration.Options.Folder.InputFolder : Directory.GetCurrentDirectory() + "\\" + Configuration.Options.Folder.InputFolder;
-            await Downloader.DoDownloads(client, login.AccessToken, inputFolder, Configuration.VolumeNames.Select(x => new Name { ApiSlug = x.ApiSlug, FileName = x.FileName, Quality = x.Quality }), Configuration.Options.Image.MangaQuality);
+            await Downloader.DoDownloads(client, login!.AccessToken, inputFolder, Configuration.VolumeNames.Select(x => new Name { ApiSlug = x.ApiSlug, FileName = x.FileName, Quality = x.Quality! }), Configuration.Options.Image.MangaQuality);
             break;
         case ('5', true):
-            await OCR.BuildOCROverrides(login);
+            await OCR.BuildOCROverrides(login!);
             break;
 #if DEBUG
         case ('6', true):
@@ -77,6 +77,7 @@ while (executing)
     };
 }
 
+#if DEBUG
 async Task RedoJSON()
 {
     var chapters = Configuration.Volumes.SelectMany(x =>
@@ -349,6 +350,8 @@ async Task AddChapter()
     await SaveAll();
 }
 
+
+
 bool GetYN()
 {
     while (true)
@@ -419,25 +422,25 @@ async Task CreateTables()
     await File.WriteAllTextAsync("POVs.txt", sb.ToString());
 
     //Chronological Chart P1
-    await PartChart(chapters, "PartOne.txt", partOne: true);
+    PartChart(chapters, "PartOne.txt", partOne: true);
     //Chronological Chart P2
-    await PartChart(chapters, "PartTwo.txt", partTwo: true);
+    PartChart(chapters, "PartTwo.txt", partTwo: true);
     //Chronological Chart P3
-    await PartChart(chapters, "PartThree.txt", partThree: true);
+    PartChart(chapters, "PartThree.txt", partThree: true);
     //Chronological Chart P4
-    await PartChart(chapters, "PartFour.txt", partFour: true);
+    PartChart(chapters, "PartFour.txt", partFour: true);
     //Chronological Chart P5
-    await PartChart(chapters, "PartFive.txt", partFive: true);
+    PartChart(chapters, "PartFive.txt", partFive: true);
 }
 
-async Task PartChart(Chapter[] chapters, string name, bool partOne = false, bool partTwo = false, bool partThree = false, bool partFour = false, bool partFive = false)
+void PartChart(Chapter[] chapters, string name, bool partOne = false, bool partTwo = false, bool partThree = false, bool partFour = false, bool partFive = false)
 {
     var sb = new StringBuilder();
     sb.AppendLine("|Chapter|Name|POV|");
     sb.Append("|:-:|-|-|");
     int c = 1;
-    string volume = null;
-    string season = null;
+    string? volume = null;
+    string? season = null;
     int year = 0;
     foreach (var chapter in chapters.Where(x => x.ProcessedInPartOne == partOne && x.ProcessedInPartTwo == partTwo && x.ProcessedInPartThree == partThree && x.ProcessedInPartFour == partFour && x.ProcessedInPartFive == partFive))
     {
@@ -484,3 +487,5 @@ async Task PartChart(Chapter[] chapters, string name, bool partOne = false, bool
 
     File.WriteAllText(name, sb.ToString());
 }
+
+#endif

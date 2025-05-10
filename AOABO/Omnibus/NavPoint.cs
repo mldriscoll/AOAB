@@ -2,8 +2,8 @@
 {
     public class NavPoint
     {
-        public string Label { get; set; }
-        public string Source { get; set; }
+        public string Label { get; set; } = String.Empty;
+        public string Source { get; set; } = String.Empty;
         public int Id { get; set; }
         public int Tabs { get; set; }
         public List<NavPoint> navPoints { get; set; } = new List<NavPoint>();
