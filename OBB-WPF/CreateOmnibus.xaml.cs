@@ -90,7 +90,7 @@ namespace OBB_WPF
                 }
                 catch (Exception ex)
                 {
-
+                    Console.WriteLine(ex.ToString());
                 }
             }
 
@@ -356,8 +356,7 @@ namespace OBB_WPF
             }
             catch (Exception ex)
             {
-                //Console.WriteLine($"Error processing chapter {chapter.ChapterName} in book {vol.ApiSlug}");
-                //Console.WriteLine(ex.ToString());
+                Console.WriteLine(ex.ToString());
             }
 
             if (string.Equals(subfolder, string.Empty))

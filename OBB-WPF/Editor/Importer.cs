@@ -75,7 +75,7 @@ namespace OBB_WPF.Editor
             }
             catch(Exception ex)
             {
-
+                Console.WriteLine(ex.ToString());
             }
 
             return ob;

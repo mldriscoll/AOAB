@@ -119,7 +119,7 @@ namespace OBB_WPF
                 }
                 catch(Exception ex)
                 {
-
+                    Console.WriteLine(ex.ToString());
                 }
             }
 

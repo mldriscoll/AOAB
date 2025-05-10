@@ -225,7 +225,7 @@ namespace Core.Processor
                     }
                     catch (Exception ex)
                     {
-                        throw new Exception($"Chapter {chapter.Name} tried to link to chapter {chapterlink} that was not found in the ebook output");
+                        throw new Exception($"{ex.Message} while Chapter {chapter.Name} tried to link to chapter {chapterlink} that was not found in the ebook output");
                     }
                 }
 
@@ -239,7 +239,7 @@ namespace Core.Processor
                     }
                     catch (Exception ex)
                     {
-                        throw new Exception($"Chapter {chapter.Name} tried to link to chapter {chapterLink} that was not found in the ebook output");
+                        throw new Exception($"{ex.Message} while Chapter {chapter.Name} tried to link to chapter {chapterLink} that was not found in the ebook output");
                     }
                 }
 
