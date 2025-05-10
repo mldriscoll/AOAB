@@ -12,16 +12,16 @@ namespace Core
             AccessToken = accessToken;
         }
 
-        public static byte[] ToCipherText(string password)
+        public static byte[] ToCiphertext(string password)
         {
             byte[] plaintextPassword = Encoding.ASCII.GetBytes(password)!;
             return ProtectedData.Protect(plaintextPassword, null, DataProtectionScope.CurrentUser );
         }
         
-        public static string FromCipherText(byte[] cipherTextBuffer)
+        public static string FromCiphertext(byte[] ciphertextBuffer)
         {
-            byte[] plainTextBuffer = ProtectedData.Unprotect(cipherTextBuffer, null, DataProtectionScope.CurrentUser);
-            return Encoding.ASCII.GetString(plainTextBuffer);
+            byte[] plaintextBuffer = ProtectedData.Unprotect(ciphertextBuffer, null, DataProtectionScope.CurrentUser);
+            return Encoding.ASCII.GetString(plaintextBuffer);
         }
         
         public static async Task<Login?> FromConsole(HttpClient client)
@@ -35,23 +35,22 @@ namespace Core
             Console.WriteLine("Please enter your j-novel club password");
             var pass = Console.ReadLine()!;
 
-            byte[] ct = ToCipherText(pass!);
+            string username = un!;
+            string password = pass!;
 
-
-            File.WriteAllText("Account.txt", un);
-            File.WriteAllBytes("Password.txt", ct);
+            File.WriteAllText("Account.txt", username);
+            File.WriteAllBytes("Password.txt", ToCiphertext(password));
             
-            return await CreateLogin(un, ct, client);
+            return await CreateLogin(un!, ct, client);
         }
 
         public static async Task<Login?> FromUI(HttpClient client, string username, string password)
         {
-            byte[] ct = ToCipherText(password);
-            var login = await CreateLogin(username, ct, client);
+            var login = await CreateLogin(username, password, client);
             if (login != null)
             {
                 File.WriteAllText("Account.txt", username);
-                File.WriteAllBytes("Password.txt", ct);
+                File.WriteAllBytes("Password.txt", ToCiphertext(password));
             }
 
             return login;
@@ -67,14 +66,14 @@ namespace Core
             string username = File.ReadAllText("Account.txt")!;
             byte[] ct = File.ReadAllBytes("Password.txt");
             
-            return await CreateLogin(username, ct, client);
+            return await CreateLogin(username, FromCiphertext(ct), client);
         }
 
-        private static async Task<Login?> CreateLogin(string username, byte[] cipherTextPassword HttpClient client)
+        private static async Task<Login?> CreateLogin(string username, string plaintextPassword, HttpClient client)
         {
             try
             {
-                var loginCall = await client.PostAsync("https://labs.j-novel.club/app/v2/auth/login?format=json", new StringContent($"{{\"login\":\"{username}\",\"password\":\"{FromCipherText(cipherTextPassword)}\",\"slim\":true}}", System.Text.Encoding.ASCII, "application/json"));
+                var loginCall = await client.PostAsync("https://labs.j-novel.club/app/v2/auth/login?format=json", new StringContent($"{{\"login\":\"{username}\",\"password\":\"{plaintextPassword}\",\"slim\":true}}", System.Text.Encoding.ASCII, "application/json"));
 
                 string bearerToken;
                 using (var loginStream = await loginCall.Content.ReadAsStreamAsync())
