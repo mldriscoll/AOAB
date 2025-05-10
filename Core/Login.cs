@@ -6,13 +6,9 @@ namespace Core
 {
     public class Login
     {
-        public readonly string UserName;
-        public byte[] CiphertextPassword;
         public readonly string AccessToken;
-        private Login(string username, byte[] cipherTextPassword, string accessToken)
-        {                       
-            UserName = username;
-            CiphertextPassword = cipherTextPassword;
+        private Login(string accessToken)
+        {
             AccessToken = accessToken;
         }
 
@@ -50,11 +46,12 @@ namespace Core
 
         public static async Task<Login> FromUI(HttpClient client, string username, string password)
         {
-            var login = await CreateLogin(username, ToCipherText(password), client);
+            byte[] ct = ToCipherText(password);
+            var login = await CreateLogin(username, ct, client);
             if (login != null)
             {
                 File.WriteAllText("Account.txt", username);
-                File.WriteAllBytes("Password.txt", login.CiphertextPassword);
+                File.WriteAllBytes("Password.txt", ct);
             }
 
             return login;
@@ -86,7 +83,7 @@ namespace Core
                     bearerToken = (deserializer.ReadObject(loginStream) as LoginResponse)!.id;
                 }
 
-                return new Login(username, cipherTextPassword, bearerToken);
+                return new Login(bearerToken);
             }
             catch (Exception ex)
             {
