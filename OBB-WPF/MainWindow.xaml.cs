@@ -42,7 +42,6 @@ namespace OBB_WPF
             Update.IsEnabled = false;
             AddCustom.IsEnabled = false;
             SeriesList.Items.Clear();
-            SeriesList? list = null;
             if (Settings.Login == null)
             {
                 using (var client = new HttpClient())
