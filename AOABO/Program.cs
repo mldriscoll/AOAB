@@ -77,6 +77,7 @@ while (executing)
     };
 }
 
+#if DEBUG
 async Task RedoJSON()
 {
     var chapters = Configuration.Volumes.SelectMany(x =>
@@ -349,6 +350,8 @@ async Task AddChapter()
     await SaveAll();
 }
 
+
+
 bool GetYN()
 {
     while (true)
@@ -484,3 +487,5 @@ async Task PartChart(Chapter[] chapters, string name, bool partOne = false, bool
 
     File.WriteAllText(name, sb.ToString());
 }
+
+#endif
