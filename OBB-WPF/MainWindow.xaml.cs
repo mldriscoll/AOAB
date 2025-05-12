@@ -21,23 +21,27 @@ namespace OBB_WPF
         public MainWindow()
         {
             InitializeComponent();
-            Load();
+            Task t = Load();
+            t.Wait();
         }
 
-        private async void Load()
+        private async Task Load()
         {
-            Settings.Configuration = (await JSON.Load<Configuration>("Configuration.json")) ?? new Configuration();
+            var config = JSON.Load<Configuration>("Configuration.json");
 #if DEBUG
-            Series = await JSON.Load<List<Series>>($"..\\..\\..\\JSON\\Series.json") ?? new List<Series>();
-            CustomSeries = await JSON.Load<List<Series>>("..\\..\\..\\JSON\\CustomSeries.json") ?? new List<Series>();
+            var series = JSON.Load<List<Series>>($"..\\..\\..\\JSON\\Series.json");
+            var custom = JSON.Load<List<Series>>("..\\..\\..\\JSON\\CustomSeries.json");
 #else
-            Series = await JSON.Load<List<Series>>($"JSON\\Series.json") ?? new List<Series>();
-            CustomSeries = await JSON.Load<List<Series>>("JSON\\CustomSeries.json") ?? new List<Series>();
+            var series = JSON.Load<List<Series>>($"JSON\\Series.json");
+            var custom = JSON.Load<List<Series>>("JSON\\CustomSeries.json");
 #endif
-            Draw();
+            Settings.Configuration = await config ?? new Configuration();
+            Series                 = await series ?? new List<Series>();
+            CustomSeries           = await custom ?? new List<Series>();
+            await Draw();
         }
 
-        private async void Draw()
+        private async Task Draw()
         {
             Update.IsEnabled = false;
             AddCustom.IsEnabled = false;
@@ -98,12 +102,13 @@ namespace OBB_WPF
         public static List<Series> Series = new List<Series>();
         public static List<Series> CustomSeries = new List<Series>();
 
-        private async void Update_Click(object sender, RoutedEventArgs e)
+        private void Update_Click(object sender, RoutedEventArgs e)
         {
             var up = new UpdateWindow();
             up.Run();
             up.ShowDialog();
-            Draw();
+            Task t = Draw();
+            t.Wait();
         }
 
         private void Summary_Click(object sender, RoutedEventArgs e)
@@ -116,7 +121,8 @@ namespace OBB_WPF
         {
             var popup = new CreateCustomSeries();
             popup.ShowDialog();
-            Draw();
+            Task t = Draw();
+            t.Wait();
         }
     }
 }
