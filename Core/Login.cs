@@ -1,6 +1,7 @@
 ﻿using System.Runtime.Serialization.Json;
 using System.Security.Cryptography;
 using System.Text;
+using Windows.Media.Protection.PlayReady;
 
 namespace Core
 {
@@ -23,55 +24,111 @@ namespace Core
             byte[] plaintextBuffer = ProtectedData.Unprotect(ciphertextBuffer, null, DataProtectionScope.CurrentUser);
             return Encoding.ASCII.GetString(plaintextBuffer);
         }
-        
-        public static async Task<Login> FromConsole(HttpClient client)
+
+
+        public static string ConsoleGetUsername()
         {
-            Console.Clear();
-            Console.WriteLine("Creating a user account file");
-            Console.WriteLine();
             Console.WriteLine("Please enter your j-novel club username");
-            var un = Console.ReadLine();
+            return Console.ReadLine()!;
 
-            Console.WriteLine("Please enter your j-novel club password");
-            var pass = Console.ReadLine();
-
-            string username = un!;
-            string password = pass!;
-
-            File.WriteAllText("Account.txt", $"{username}\r\n{Convert.ToBase64String(ToCiphertext(password))}");
-            
-            return await CreateLogin(username, password, client);
         }
 
-        public static async Task<Login> FromUI(HttpClient client, string username, string password)
+        public static string ConsoleGetPassword()
         {
-            var login = await CreateLogin(username, password, client);
-            if (login != null)
-            {
-                File.WriteAllText("Account.txt", $"{username}\r\n{Convert.ToBase64String(ToCiphertext(password))}");
-            }
+            Console.WriteLine("Please enter your j-novel club password");
 
-            return login;
+            // Copied from https://stackoverflow.com/questions/3404421/password-masking-console-application
+            var pass = string.Empty;
+            ConsoleKey key;
+            do
+            {
+                var keyInfo = Console.ReadKey(intercept: true);
+                key = keyInfo.Key;
+
+                if (key == ConsoleKey.Backspace && pass.Length > 0)
+                {
+                    Console.Write("\b \b");
+                    pass = pass[0..^1];
+                }
+                else if (!char.IsControl(keyInfo.KeyChar))
+                {
+                    Console.Write("*");
+                    pass += keyInfo.KeyChar;
+                }
+            } while (key != ConsoleKey.Enter);
+
+            return pass;
         }
 
-        public static async Task<Login> FromFile(HttpClient client)
+        public static async Task PersistLoginInfo(string username, string password)
+        {
+            await File.WriteAllTextAsync("Account.txt", $"{username}\r\n{Convert.ToBase64String(ToCiphertext(password))}");
+        }
+
+        public static Tuple<string, string>? RetrieveLoginInfo()
         {
             if (!File.Exists("Account.txt"))
             {
                 return null;
             }
-
-            var text = File.ReadAllText("Account.txt");
-            var split = text.Split("\r\n");
-            if (split.Length == 2)
+            else
             {
-                return await CreateLogin(split[0], FromCiphertext(Convert.FromBase64String(split[1])), client);
-            }
+                var text = File.ReadAllText("Account.txt");
+                var split = text.Split("\r\n");
 
-            return null;
+                if (split.Length != 2)
+                {
+                    return null;
+                }
+                else
+                {
+                    return new(split[0], FromCiphertext(Convert.FromBase64String(split[1])));
+                }
+            }
         }
 
-        private static async Task<Login> CreateLogin(string username, string plaintextPassword, HttpClient client)
+        public static async Task<Login?> FromConsole(HttpClient client)
+        {
+            Console.Clear();
+            Console.WriteLine("Creating a user account file");
+            Console.WriteLine();
+            string username = ConsoleGetUsername();
+            string password = ConsoleGetPassword();
+
+            Login? login = await CreateLogin(username, password, client);
+            if (login != null)
+            {
+                await PersistLoginInfo(username, password);
+            }
+
+            return login;
+        }
+
+        public static async Task<Login?> FromUI(HttpClient client, string username, string password)
+        {
+            var login = await CreateLogin(username, password, client);
+            if (login != null)
+            {
+                await PersistLoginInfo(username, password);
+            }
+
+            return login;
+        }
+
+        public static async Task<Login?> FromFile(HttpClient client)
+        {
+            var loginInfo = RetrieveLoginInfo();
+            if (loginInfo != null)
+            {
+                return await CreateLogin(loginInfo.Item1, loginInfo.Item2, client);
+            }
+            else
+            {
+                return null;
+            }
+        }
+
+        private static async Task<Login?> CreateLogin(string username, string plaintextPassword, HttpClient client)
         {
             try
             {
