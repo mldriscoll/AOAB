@@ -47,7 +47,8 @@ namespace OBB_WPF
                 ((Grid)this.Content).Children.Add(AddVolumeButton);
             }
 
-            Load();
+            Task t = Load();
+            t.Wait();
         }
 
         private async void AddVolumeButton_Click(object sender, RoutedEventArgs e)
@@ -74,7 +75,7 @@ namespace OBB_WPF
 
                         await Unpacker.Unpack(series);
 
-                        var ob = Importer.GenerateVolumeInfo($"{omnibus.Name}\\{finfo.Name}", omnibus.Name, finfo.Name, series.Volumes.Count());
+                        var ob = Importer.GenerateVolumeInfo($"{omnibus!.Name}\\{finfo.Name}", omnibus.Name, finfo.Name, series.Volumes.Count());
                         omnibus.Combine(ob);
                     }
                 }
@@ -86,7 +87,7 @@ namespace OBB_WPF
 #endif
         }
 
-        Omnibus omnibus;
+        Omnibus? omnibus;
 
         private async Task Load()
         {
@@ -119,7 +120,7 @@ namespace OBB_WPF
                 }
                 catch(Exception ex)
                 {
-
+                    Console.WriteLine(ex.ToString());
                 }
             }
 
@@ -141,7 +142,7 @@ namespace OBB_WPF
                 }
             }
         }
-        public static DependencyObject FindParent<T>(DependencyObject dependencyObject)
+        public static DependencyObject? FindParent<T>(DependencyObject? dependencyObject)
         {
             while (dependencyObject != null && typeof(T) != dependencyObject.GetType())
                 dependencyObject = VisualTreeHelper.GetParent(dependencyObject);
@@ -168,7 +169,7 @@ namespace OBB_WPF
 
                 if (draggedChapter != null && draggedChapter != dropTarget)
                 {
-                    omnibus.Remove(draggedChapter);
+                    omnibus!.Remove(draggedChapter);
                     dropTarget.Chapters.Add(draggedChapter);
                     var chapters = dropTarget.Chapters.ToList();
                     chapters.Add(draggedChapter);
@@ -183,14 +184,14 @@ namespace OBB_WPF
             var lvi = e.Data.GetData(typeof(SourcePreview));
             if (lvi != null)
             {
-                var draggedSource = ((SourcePreview)lvi).DataContext as Source;
-                CurrentChapter.Sources.Remove(draggedSource);
+                var draggedSource = (((SourcePreview)lvi).DataContext as Source)!;
+                CurrentChapter!.Sources.Remove(draggedSource);
                 dropTarget.Sources.Add(draggedSource);
             }
             e.Handled = true;
         }
 
-        Chapter CurrentChapter = null;
+        Chapter? CurrentChapter = null;
 
         private void Chapter_Selected(object sender, RoutedEventArgs e)
         {
@@ -217,9 +218,9 @@ namespace OBB_WPF
             item.Items.Add(subItem);
         }
 
-        private async void BuildOmnibus(object sender, RoutedEventArgs e)
+        private void BuildOmnibus(object sender, RoutedEventArgs e)
         {
-            var page = new CreateOmnibus(omnibus);
+            var page = new CreateOmnibus(omnibus!);
             page.ShowDialog();
         }
 
@@ -238,13 +239,13 @@ namespace OBB_WPF
                 {
                     if (File.Exists($"{Settings.Configuration.SourceFolder}\\{a.FileName}"))
                     {
-                        a.EditedBy.Add(Settings.Configuration.EditorName);
+                        a.EditedBy.Add(Settings.Configuration.EditorName!);
                         saveSeries = true;
                     }
                 }
             }
 
-            omnibus.Sort();
+            omnibus!.Sort();
 
 #if DEBUG
             var omnibusFile = $"..\\..\\..\\JSON\\{omnibus.InternalName}.json";
@@ -285,9 +286,9 @@ namespace OBB_WPF
             var tvi = e.Data.GetData(typeof(TreeViewItem));
             if (tvi != null)
             {
-                var draggedChapter = ((TreeViewItem)tvi).DataContext as Chapter;
+                var draggedChapter = (((TreeViewItem)tvi).DataContext as Chapter)!;
                 DeleteSources(draggedChapter);
-                omnibus.Remove(draggedChapter);
+                omnibus!.Remove(draggedChapter);
 
                 omnibus.UnusedSources = new ObservableCollection<Source>(omnibus.UnusedSources.Where(x => !string.IsNullOrWhiteSpace(x.File)).OrderBy(x => x.File));
             }
@@ -295,9 +296,9 @@ namespace OBB_WPF
             var lvi = e.Data.GetData(typeof(SourcePreview));
             if (lvi != null)
             {
-                var draggedSource = ((SourcePreview)lvi).DataContext as Source;
-                CurrentChapter.Sources.Remove(draggedSource);
-                omnibus.UnusedSources.Add(draggedSource);
+                var draggedSource = (((SourcePreview)lvi).DataContext as Source)!;
+                CurrentChapter!.Sources.Remove(draggedSource);
+                omnibus!.UnusedSources.Add(draggedSource);
             }
         }
 
@@ -305,7 +306,7 @@ namespace OBB_WPF
         {
             foreach(var source in chapter.Sources)
             {
-                omnibus.UnusedSources.Add(source);
+                omnibus!.UnusedSources.Add(source);
             }
 
             foreach(var subChapter in chapter.Chapters)
@@ -319,9 +320,9 @@ namespace OBB_WPF
             var tvi = e.Data.GetData(typeof(TreeViewItem));
             if (tvi != null)
             {
-                var draggedChapter = ((TreeViewItem)tvi).DataContext as Chapter;
+                var draggedChapter = (((TreeViewItem)tvi).DataContext as Chapter)!;
 
-                omnibus.Remove(draggedChapter);
+                omnibus!.Remove(draggedChapter);
                 omnibus.Chapters.Add(draggedChapter);
             }
         }
@@ -330,7 +331,7 @@ namespace OBB_WPF
         {
             ChapterName.DataContext = null;
             SortOrder.DataContext = null;
-            Sources.ItemsSource = omnibus.UnusedSources;
+            Sources.ItemsSource = omnibus!.UnusedSources;
         }
 
         private void CoverButton_Drop(object sender, DragEventArgs e)
@@ -338,10 +339,10 @@ namespace OBB_WPF
             var lvi = e.Data.GetData(typeof(SourcePreview));
             if (lvi != null)
             {
-                var draggedSource = ((SourcePreview)lvi).DataContext as Source;
-                CurrentChapter.Sources.Remove(draggedSource);
+                var draggedSource = (((SourcePreview)lvi).DataContext as Source)!;
+                CurrentChapter!.Sources.Remove(draggedSource);
 
-                if (omnibus.Cover != null) omnibus.UnusedSources.Add(omnibus.Cover);
+                if (omnibus!.Cover != null) omnibus.UnusedSources.Add(omnibus.Cover);
                 omnibus.Cover = draggedSource;
             }
         }
@@ -350,7 +351,7 @@ namespace OBB_WPF
         {
             var chapter = new Chapter
             {
-                Sources = new ObservableCollection<Source>(new List<Source> { omnibus.Cover })
+                Sources = new ObservableCollection<Source>(new List<Source> { omnibus!.Cover! })
             };
 
             CurrentChapter = chapter;
@@ -367,16 +368,16 @@ namespace OBB_WPF
             var lvi = e.Data.GetData(typeof(SourcePreview));
             if (lvi != null)
             {
-                var draggedSource = ((SourcePreview)lvi).DataContext as Source;
+                var draggedSource = (((SourcePreview)lvi).DataContext as Source)!;
 
                 if (draggedSource != target)
                 {
-                    var popup = new CombineSources(target, draggedSource);
+                    var popup = new CombineSources(target!, draggedSource);
                     var result = popup.ShowDialog();
 
                     if (result.HasValue && result.Value)
                     {
-                        CurrentChapter.Sources.Remove(draggedSource);
+                        CurrentChapter!.Sources.Remove(draggedSource);
                     }
                 }
             }
@@ -397,7 +398,7 @@ namespace OBB_WPF
             }
             else
             {
-                var sortOrder = omnibus.Chapters.Any() ? omnibus.Chapters.OrderByDescending(x => x.SortOrder).First().SortOrder + "x" : "001";
+                var sortOrder = omnibus!.Chapters.Any() ? omnibus.Chapters.OrderByDescending(x => x.SortOrder).First().SortOrder + "x" : "001";
                 var chapter = new Chapter
                 {
                     CType = Chapter.ChapterType.Story,
@@ -429,28 +430,28 @@ namespace OBB_WPF
             var picked = openFileDialog.ShowDialog();
 
             if (picked == true) {
-                await ImportOld.Import(omnibus, openFileDialog.FileName);
+                await ImportOld.Import(omnibus!, openFileDialog.FileName);
             }
-            ChapterList.ItemsSource = omnibus.Chapters;
+            ChapterList.ItemsSource = omnibus!.Chapters;
         }
 
         private void ViewSourceButton_Click(object sender, RoutedEventArgs e)
         {
             var button = (Button)sender;
-            var source = button.DataContext as Source;
+            var source = (button.DataContext as Source)!;
             var window = new ViewSource(source);
             window.Show();
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            var window = new SummaryPage(omnibus);
+            var window = new SummaryPage(omnibus!);
             window.Show();
         }
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
-            RedoSortOrders(string.Empty, omnibus);
+            RedoSortOrders(string.Empty, omnibus!);
         }
 
         private void RedoSortOrders(string prefix, ChapterHolder holder)
@@ -479,6 +480,6 @@ namespace OBB_WPF
 
     public class ChapterTreeViewItem : TreeViewItem
     {
-        public Chapter Chapter { get; set; }
+        public Chapter Chapter { get; set; } = new Chapter();
     }
 }

@@ -2,7 +2,7 @@
 {
     public class Correction
     {
-        public string Original { get; set; }
-        public string Replacement { get; set; }
+        public string Original { get; set; } = String.Empty;
+        public string Replacement { get; set; } = String.Empty;
     }
 }

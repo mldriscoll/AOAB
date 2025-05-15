@@ -105,7 +105,7 @@ namespace Core.Downloads
                     var deserializer = new DataContractJsonSerializer(typeof(SeriesList));
                     var l = deserializer.ReadObject(loginStream) as SeriesList;
 
-                    if (l.series.Count < 50)
+                    if (l!.series!.Count < 50)
                     {
                         cont = false;
                     }
@@ -142,7 +142,7 @@ namespace Core.Downloads
 
         private async static Task doDownload(LibraryResponse.Book book, Name name, HttpClient client, string folder, MangaQuality mangaQuality)
         {
-            LibraryResponse.Book.Download download = null;
+            LibraryResponse.Book.Download? download = null;
             if (book.downloads.Count < 1) return;
 
             Console.WriteLine($"Downloading {name.FileName}");

@@ -16,13 +16,13 @@ namespace OBB
             using (var reader = new StreamReader("JSON\\Series.json"))
             {
                 var deserializer = new DataContractJsonSerializer(typeof(Series[]));
-                seriesList = ((Series[])deserializer.ReadObject(reader.BaseStream)).ToList();
+                seriesList = (deserializer.ReadObject(reader.BaseStream) as Series[])!.ToList();
             }
 
             Login? login = null;
             if (Settings.MiscSettings.DownloadBooks)
             {
-                Dictionary<SeriesListResponse, List<SeriesVolumeResponse>> dict = null;
+                Dictionary<SeriesListResponse, List<SeriesVolumeResponse>>? dict = null;
                 using (var client = new HttpClient())
                 {
                     login = await Login.FromFile(client);
@@ -32,16 +32,16 @@ namespace OBB
                     {
                         var list = await Downloader.GetSeriesList(client, login.AccessToken);
 
-                        dict = list.series.ToDictionary(x => x, x => Downloader.GetSeries(client, x.slug).Result.volumes);
+                        dict = list.series!.ToDictionary(x => x, x => Downloader.GetSeries(client, x.slug!).Result.volumes!);
                     }
                 }
 
                 if (dict != null)
-                    foreach (var serie in dict.Where(x => x.Key.type.Equals("manga", StringComparison.InvariantCultureIgnoreCase)
-                        || !x.Key.title.Contains("ascendance of a bookworm", StringComparison.InvariantCultureIgnoreCase)
+                    foreach (var serie in dict.Where(x => x.Key.type!.Equals("manga", StringComparison.InvariantCultureIgnoreCase)
+                        || !x.Key.title!.Contains("ascendance of a bookworm", StringComparison.InvariantCultureIgnoreCase)
                         ))
                     {
-                        var series = seriesList.FirstOrDefault(x => x.ApiSlugs.Any(y => y.Slug.Equals(serie.Key.slug, StringComparison.InvariantCultureIgnoreCase)));
+                        var series = seriesList.FirstOrDefault(x => x.ApiSlugs.Any(y => y.Slug!.Equals(serie.Key.slug, StringComparison.InvariantCultureIgnoreCase)));
 
                         if (series == null && serie.Value.Count > 1)
                         {
@@ -61,7 +61,7 @@ namespace OBB
 
                         if (series != null)
                         {
-                            var order = 100 * (series.ApiSlugs.FirstOrDefault(x => x.Slug.Equals(serie.Key.slug, StringComparison.InvariantCultureIgnoreCase))?.Order ?? 1);
+                            var order = 100 * (series.ApiSlugs.FirstOrDefault(x => x.Slug!.Equals(serie.Key.slug, StringComparison.InvariantCultureIgnoreCase))?.Order ?? 1);
 
                             if (series.Volumes.All(x => string.IsNullOrWhiteSpace(x.EditedBy)))
                             {
@@ -73,7 +73,7 @@ namespace OBB
                                 using (var reader = new StreamReader($"JSON\\{series.InternalName}.json"))
                                 {
                                     var deserializer = new DataContractJsonSerializer(typeof(Volume[]));
-                                    volumes = ((Volume[])deserializer.ReadObject(reader.BaseStream)).ToList();
+                                    volumes = (deserializer.ReadObject(reader.BaseStream) as Volume[])!.ToList();
                                 }
 
                                 volumes.RemoveAll(x =>
@@ -108,12 +108,12 @@ namespace OBB
 
                             series.Volumes.AddRange(serie.Value.Where(x => !series.Volumes.Any(y => y.ApiSlug.Equals(x.slug, StringComparison.OrdinalIgnoreCase))).ToList().Select(x => new VolumeName
                             {
-                                ApiSlug = x.slug,
+                                ApiSlug = x.slug!,
                                 EditedBy = null,
                                 FileName = $"{x.slug}.epub",
                                 ShowRemainingFiles = true,
                                 Order = order + x.number,
-                                Published = DateOnly.FromDateTime(DateTime.Parse(x.publishing)).ToString("yyyy-MM-dd")
+                                Published = DateOnly.FromDateTime(DateTime.Parse(x.publishing!)).ToString("yyyy-MM-dd")
                             }));
                         }
                         else if (serie.Value.Count > 1)
@@ -121,10 +121,10 @@ namespace OBB
                             series = new Series
                             {
                                 ApiSlugs = new List<SeriesSlug> { new SeriesSlug { Order = 1, Slug = serie.Key.slug } },
-                                Author = serie.Value.First().creators.First(x => x.role.Equals("AUTHOR")).name,
-                                AuthorSort = serie.Value.First().creators.First(x => x.role.Equals("AUTHOR")).name.Split(' ').Reverse().Aggregate((str, agg) => string.Concat(str, ", ", agg)).Trim().ToUpper(),
-                                InternalName = serie.Key.slug,
-                                Name = serie.Key.title,
+                                Author = serie.Value.First().creators!.First(x => x.role!.Equals("AUTHOR")).name!,
+                                AuthorSort = serie.Value.First().creators!.First(x => x.role!.Equals("AUTHOR")).name!.Split(' ').Reverse().Aggregate((str, agg) => string.Concat(str, ", ", agg)).Trim().ToUpper(),
+                                InternalName = serie.Key.slug!,
+                                Name = serie.Key.title!,
                                 Volumes = serie.Value.Select(x => new VolumeName
                                 {
                                     ApiSlug = x.slug ?? string.Empty,
@@ -132,7 +132,7 @@ namespace OBB
                                     FileName = $"{x.slug}.epub",
                                     ShowRemainingFiles = true,
                                     Order = 100 + x.number,
-                                    Published = DateOnly.FromDateTime(DateTime.Parse(x.publishing)).ToString("yyyy-MM-dd"),
+                                    Published = DateOnly.FromDateTime(DateTime.Parse(x.publishing!)).ToString("yyyy-MM-dd"),
                                     Title = x.title ?? string.Empty
                                 }).ToList()
                             };

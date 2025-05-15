@@ -25,7 +25,7 @@ namespace OBB_WPF.Library
 
             var sb = new StringBuilder();
 
-            var fullyEdited = seriesList.Where(x => x.Volumes.All(y => y.EditedBy.Any(z => !string.IsNullOrWhiteSpace(z)) || DateTime.Parse(y.Published) > DateTime.UtcNow.Date)
+            var fullyEdited = seriesList.Where(x => x.Volumes.All(y => y.EditedBy.Any(z => !string.IsNullOrWhiteSpace(z)) || DateTime.Parse(y.Published!) > DateTime.UtcNow.Date)
                 && x.Volumes.Any(y => y.EditedBy.Any(z => !string.IsNullOrWhiteSpace(z)))).ToList();
 
             seriesList.RemoveAll(x => fullyEdited.Contains(x));
@@ -40,7 +40,7 @@ namespace OBB_WPF.Library
 
                 foreach(var series in fullyEdited)
                 {
-                    sb.Append($"|{series.Name}|{series.Volumes.Count(x => DateTime.Parse(x.Published) <= DateTime.UtcNow.Date)}|{series.Volumes.Count(x => DateTime.Parse(x.Published) > DateTime.UtcNow.Date)}|");
+                    sb.Append($"|{series.Name}|{series.Volumes.Count(x => DateTime.Parse(x.Published!) <= DateTime.UtcNow.Date)}|{series.Volumes.Count(x => DateTime.Parse(x.Published!) > DateTime.UtcNow.Date)}|");
                     bool first = true;
                     foreach(var editor in series.Volumes.SelectMany(x => x.EditedBy).Distinct())
                     {
@@ -73,7 +73,7 @@ namespace OBB_WPF.Library
 
                 foreach (var series in partEdited)
                 {
-                    sb.Append($"|{series.Name}|{series.Volumes.Count(x => DateTime.Parse(x.Published) <= DateTime.UtcNow.Date)}|{series.Volumes.Count(x => DateTime.Parse(x.Published) > DateTime.UtcNow.Date)}|");
+                    sb.Append($"|{series.Name}|{series.Volumes.Count(x => DateTime.Parse(x.Published!) <= DateTime.UtcNow.Date)}|{series.Volumes.Count(x => DateTime.Parse(x.Published!) > DateTime.UtcNow.Date)}|");
                     bool first = true;
                     foreach (var editor in series.Volumes.SelectMany(x => x.EditedBy).Distinct())
                     {
@@ -103,7 +103,7 @@ namespace OBB_WPF.Library
 
                 foreach (var series in seriesList)
                 {
-                    sb.AppendLine($"|{series.Name}|{series.Volumes.Count(x => DateTime.Parse(x.Published) <= DateTime.UtcNow.Date)}|{series.Volumes.Count(x => DateTime.Parse(x.Published) > DateTime.UtcNow.Date)}");
+                    sb.AppendLine($"|{series.Name}|{series.Volumes.Count(x => DateTime.Parse(x.Published!) <= DateTime.UtcNow.Date)}|{series.Volumes.Count(x => DateTime.Parse(x.Published!) > DateTime.UtcNow.Date)}");
                 }
 
                 sb.AppendLine();

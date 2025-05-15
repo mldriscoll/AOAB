@@ -2,13 +2,13 @@
 {
     public class VolumeName
     {
-        public string InternalName { get; set; }
-        public string ApiSlug { get; set; }
-        public string FileName { get; set; }
+        public string InternalName { get; set; } = String.Empty;
+        public string ApiSlug { get; set; } = String.Empty;
+        public string FileName { get; set; } = String.Empty;
         public bool OutputUnusedFiles { get; set; } = true;
-        public List<string> Quality { get; set; }
+        public List<string>? Quality { get; set; }
 
-        public string NameMatch(string[] names)
+        public string? NameMatch(string[] names)
         {
             var matches = getMatches(names).ToList();
 
@@ -17,7 +17,7 @@
                 case 0: return null;
                 case 1: return matches[0];
                 default:
-                    foreach (var q in Quality)
+                    foreach (var q in Quality!)
                     {
                         var match = matches.FirstOrDefault(x => x.Contains(q));
                         if (match is not null) return match;

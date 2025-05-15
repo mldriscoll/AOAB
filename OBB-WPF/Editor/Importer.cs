@@ -10,7 +10,7 @@ namespace OBB_WPF.Editor
         static Regex ItemRefRegex = new Regex("\".*?\"");
         private static readonly Regex chapterTitleRegex = new Regex("<h1>[\\s\\S]*?<\\/h1>");
         private static readonly Regex chapterSubTitleRegex = new Regex("<h2>[\\s\\S]*?<\\/h2>");
-        public static Omnibus GenerateVolumeInfo(string inFolder, string series, string? volumeName, int volOrder)
+        public static Omnibus GenerateVolumeInfo(string inFolder, string series, string volumeName, int volOrder)
         {
             var ob = new Omnibus
             {
@@ -29,28 +29,28 @@ namespace OBB_WPF.Editor
 
             // Find Content File
             var opfFiles = Directory.GetFiles(inFolder, "*.opf", SearchOption.AllDirectories);
-            var xmlSerializer = new XmlSerializer(typeof(package));
-            package content = null;
-            string opfFolder = null;
+            var xmlSerializer = new XmlSerializer(typeof(Package));
+            Package? content = null;
+            string opfFolder = String.Empty;
             if (opfFiles.Any(x => x.Contains("content.opf", StringComparison.InvariantCultureIgnoreCase)))
             {
                 var file = opfFiles.First(x => x.Contains("content.opf", StringComparison.InvariantCultureIgnoreCase));
-                content = (package)xmlSerializer.Deserialize(File.OpenRead(file));
+                content = (xmlSerializer.Deserialize(File.OpenRead(file)) as Package)!;
 
                 var finfo = new FileInfo(file);
-                opfFolder = finfo.Directory.FullName;
+                opfFolder = finfo.Directory!.FullName;
             }
             else if (opfFiles.Any(x => x.Contains("package.opf", StringComparison.InvariantCultureIgnoreCase)))
             {
                 var file = opfFiles.First(x => x.Contains("package.opf", StringComparison.InvariantCultureIgnoreCase));
-                content = (package)xmlSerializer.Deserialize(File.OpenRead(file));
+                content = (xmlSerializer.Deserialize(File.OpenRead(file)) as Package)!;
 
                 var finfo = new FileInfo(file);
-                opfFolder = finfo.Directory.FullName;
+                opfFolder = finfo.Directory!.FullName;
             }
 
 
-            string textFolder = null;
+            string? textFolder = null;
             textFolder = Directory.GetDirectories(inFolder, "*text*", SearchOption.AllDirectories).FirstOrDefault();
             if (textFolder == null) textFolder = Directory.GetDirectories(inFolder, "*oebps*", SearchOption.AllDirectories).FirstOrDefault();
 
@@ -75,19 +75,19 @@ namespace OBB_WPF.Editor
             }
             catch(Exception ex)
             {
-
+                Console.WriteLine(ex.ToString());
             }
 
             return ob;
         }
 
-        private static int ProcessManga(Func<string, string> inFolder, string series, string? volumeName, int volOrder, Omnibus ob, int order, string textFolder)
+        private static int ProcessManga(Func<string, string> inFolder, string series, string volumeName, int volOrder, Omnibus ob, int order, string textFolder)
         {
             var nav = File.ReadAllLines($"{textFolder}\\..\\nav.xhtml").Select(x => x.Trim()).ToList();
             var files = Directory.GetFiles(textFolder, "*.xhtml").ToList();
 
             var incontents = false;
-            Chapter chapter = null;
+            Chapter? chapter = null;
             int sourceOrder = 1;
             foreach (var line in nav)
             {
@@ -102,7 +102,7 @@ namespace OBB_WPF.Editor
                         incontents = false;
                         foreach (var x in files)
                         {
-                            chapter.Sources.Add(new Source { File = inFolder(Ext(x)), SortOrder = $"{volOrder:000}{order:00}{sourceOrder:000}" });
+                            chapter!.Sources.Add(new Source { File = inFolder(Ext(x)), SortOrder = $"{volOrder:000}{order:00}{sourceOrder:000}" });
                             sourceOrder++;
                         }
                     }
@@ -117,7 +117,7 @@ namespace OBB_WPF.Editor
 
                         if (chapter != null)
                         {
-                            var index = files.IndexOf(files.FirstOrDefault(x => x.EndsWith(firstPage, StringComparison.InvariantCultureIgnoreCase)));
+                            var index = files.IndexOf((files.FirstOrDefault(x => x.EndsWith(firstPage, StringComparison.InvariantCultureIgnoreCase)))!);
                             foreach (var x in files.Take(index))
                             {
                                 chapter.Sources.Add(new Source { File = inFolder(Ext(x)), SortOrder = $"{volOrder:000}{order:00}{sourceOrder:000}" });
@@ -141,15 +141,15 @@ namespace OBB_WPF.Editor
             return order;
         }
 
-        private static void ProcessLN(string? volumeName, int volOrder, Omnibus ob, ref int order, package content, List<string> imageFiles, string textFolder, string opfFolder, Func<string, string> inFolder)
+        private static void ProcessLN(string volumeName, int volOrder, Omnibus ob, ref int order, Package content, List<string> imageFiles, string textFolder, string opfFolder, Func<string, string> inFolder)
         {
             List<string> chapterFiles = new List<string>();
 
-            foreach (var line in content.spine)
+            foreach (var line in content.Spine)
             {
-                var item = content.manifest.FirstOrDefault(x => x.Id.Equals(line.Id, StringComparison.InvariantCultureIgnoreCase))?.Href;
+                var item = content.Manifest.FirstOrDefault(x => x.Id.Equals(line.Id, StringComparison.InvariantCultureIgnoreCase))?.Href;
 
-                if ((item.Contains('.') && !(item.Contains(".xhtml") || item.Contains(".html")))
+                if ((item!.Contains('.') && !(item.Contains(".xhtml") || item.Contains(".html")))
                     || item.StartsWith("\"signup")
                     || item.StartsWith("\"copyright"))
                 {
@@ -186,7 +186,7 @@ namespace OBB_WPF.Editor
                             chapterContent = string.Concat(chapterContent, File.ReadAllText(file.File));
                         }
 
-                        Chapter subChapter = null;
+                        Chapter? subChapter = null;
                         foreach (Match subHeader in chapterSubTitleRegex.Matches(chapterContent).Where(x => !string.Equals(x.Value, "<h2>I</h2>") && !string.Equals(x.Value, "<h2>1</h2>"))
                             .Union(chapterTitleRegex.Matches(chapterContent).Skip(1)).OrderBy(x => x.Index))
                         {
@@ -234,7 +234,7 @@ namespace OBB_WPF.Editor
                 finalChapterContent = string.Concat(finalChapterContent, File.ReadAllText(file.File));
             }
 
-            Chapter finalSubChapter = null;
+            Chapter? finalSubChapter = null;
             foreach (Match subHeader in chapterSubTitleRegex.Matches(finalChapterContent))
             {
                 if (finalSubChapter != null)
@@ -318,26 +318,31 @@ namespace OBB_WPF.Editor
     }
     [Serializable, XmlRoot(ElementName = "package", Namespace = "http://www.idpf.org/2007/opf")]
     [XmlType("package")]
-    public class package
+    public class Package
     {
-        public Metadata metadata { get; set; }
-        public List<item> manifest { get; set; }
-        public List<itemref> spine { get; set; }
+        [XmlElement(ElementName = "metadata")]
+        public Metadata Metadata { get; set; } = new Metadata();
+
+        [XmlArray(ElementName = "manifest")]
+        public List<Item> Manifest { get; set; } = new List<Item>();
+
+        [XmlArray(ElementName = "spine")]
+        public List<Itemref> Spine { get; set; } = new List<Itemref>();
     }
     public class Metadata
     {
 
     }
-    public class item
+    public class Item
     {
         [XmlAttribute("id")]
-        public string Id { get; set; }
+        public string Id { get; set; } = String.Empty;
         [XmlAttribute("href")]
-        public string Href { get; set; }
+        public string Href { get; set; } = String.Empty;
     }
-    public class itemref
+    public class Itemref
     {
         [XmlAttribute("idref")]
-        public string Id { get; set; }
+        public string Id { get; set; } = String.Empty;
     }
 }

@@ -6,6 +6,7 @@ using Microsoft.Win32;
 using OBB_WPF.Library;
 using System.IO;
 using static Core.Downloads.LibraryResponse;
+using System.Collections.Generic;
 
 namespace OBB_WPF
 {
@@ -31,10 +32,10 @@ namespace OBB_WPF
             }
 
             Progress.Value = e.ProgressPercentage;
-            CurrentBook.Text = (string)e.UserState;
+            CurrentBook.Text = (e.UserState as string)!;
         }
 
-        private List<Book> BooksToDownload { get; set; }
+        private List<Book> BooksToDownload { get; set; } = new List<Book> { };
 
         public async void Run()
         {
@@ -47,7 +48,7 @@ namespace OBB_WPF
                 await JSON.Save("Configuration.json", Settings.Configuration);
             }
 
-            var library = await Downloader.GetLibrary(new HttpClient(), Settings.Login.AccessToken);
+            var library = await Downloader.GetLibrary(new HttpClient(), Settings.Login!.AccessToken);
             BooksToDownload = new List<Book>();
             
             foreach (var book in library.books.Where(x => x.downloads.Any()))
@@ -81,7 +82,7 @@ namespace OBB_WPF
                     foreach (var book in BooksToDownload.OrderBy(x => x.volume.slug))
                     {
                         c++;
-                        (sender as BackgroundWorker).ReportProgress(c, book.volume.slug);
+                        (sender as BackgroundWorker)!.ReportProgress(c, book.volume.slug);
                         var task = client.GetStreamAsync(book.downloads.Last().link);
                         task.Wait();
                         using (var stream = task.Result)
@@ -95,7 +96,7 @@ namespace OBB_WPF
                     }
                 }
             }
-            (sender as BackgroundWorker).ReportProgress(0, true);
+            (sender as BackgroundWorker)!.ReportProgress(0, true);
         }
     }
 }

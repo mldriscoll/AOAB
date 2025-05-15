@@ -52,10 +52,10 @@ while (executing)
         case ('4', true):
             var inputFolder = string.IsNullOrWhiteSpace(Configuration.Options.Folder.InputFolder) ? Directory.GetCurrentDirectory() :
                 Configuration.Options.Folder.InputFolder.Length > 1 && Configuration.Options.Folder.InputFolder[1].Equals(':') ? Configuration.Options.Folder.InputFolder : Directory.GetCurrentDirectory() + "\\" + Configuration.Options.Folder.InputFolder;
-            await Downloader.DoDownloads(client, login.AccessToken, inputFolder, Configuration.VolumeNames.Select(x => new Name { ApiSlug = x.ApiSlug, FileName = x.FileName, Quality = x.Quality }), Configuration.Options.Image.MangaQuality);
+            await Downloader.DoDownloads(client, login!.AccessToken, inputFolder, Configuration.VolumeNames.Select(x => new Name { ApiSlug = x.ApiSlug, FileName = x.FileName, Quality = x.Quality! }), Configuration.Options.Image.MangaQuality);
             break;
         case ('5', true):
-            await OCR.BuildOCROverrides(login);
+            await OCR.BuildOCROverrides(login!);
             break;
 #if DEBUG
         case ('6', true):
@@ -77,6 +77,7 @@ while (executing)
     };
 }
 
+#if DEBUG
 async Task RedoJSON()
 {
     var chapters = Configuration.Volumes.SelectMany(x =>
@@ -229,17 +230,18 @@ async Task SaveAll()
         }
     }
 
-    await Save("Fanbooks", fanbooks);
-    await Save("LNP1", p1);
-    await Save("LNP2", p2);
-    await Save("LNP3", p3);
-    await Save("LNP4", p4);
-    await Save("LNP5", p5);
-    await Save("MangaP1", mp1);
-    await Save("MangaP2", mp2);
-    await Save("MangaP3", mp3);
-    await Save("SideStories", ss);
-    await Save("MangaP4", mp4);
+    await Task.WhenAll(
+        Save("Fanbooks", fanbooks),
+        Save("LNP1", p1),
+        Save("LNP2", p2),
+        Save("LNP3", p3),
+        Save("LNP4", p4),
+        Save("LNP5", p5),
+        Save("MangaP1", mp1),
+        Save("MangaP2", mp2),
+        Save("MangaP3", mp3),
+        Save("SideStories", ss),
+        Save("MangaP4", mp4));
 }
 
 async Task Save(string filename, List<Volume> vols)
@@ -250,14 +252,17 @@ async Task Save(string filename, List<Volume> vols)
         Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping
     };
 
+    List<Task> tasks = new();
     using (var writer = new StreamWriter($"JSON\\{filename}.json"))
     {
-        await JsonSerializer.SerializeAsync(writer.BaseStream, vols, options: options);
+        tasks.Add(JsonSerializer.SerializeAsync(writer.BaseStream, vols, options: options));
     }
     using (var writer = new StreamWriter($"..\\..\\..\\JSON\\{filename}.json"))
     {
-        await JsonSerializer.SerializeAsync(writer.BaseStream, vols, options: options);
+        tasks.Add(JsonSerializer.SerializeAsync(writer.BaseStream, vols, options: options));
     }
+
+    await Task.WhenAll(tasks);
 }
 
 async Task AddChapter()
@@ -349,6 +354,8 @@ async Task AddChapter()
     await SaveAll();
 }
 
+
+
 bool GetYN()
 {
     while (true)
@@ -416,18 +423,19 @@ async Task CreateTables()
         }
     }
 
-    await File.WriteAllTextAsync("POVs.txt", sb.ToString());
+    await Task.WhenAll(
+        File.WriteAllTextAsync("POVs.txt", sb.ToString()),
 
-    //Chronological Chart P1
-    await PartChart(chapters, "PartOne.txt", partOne: true);
-    //Chronological Chart P2
-    await PartChart(chapters, "PartTwo.txt", partTwo: true);
-    //Chronological Chart P3
-    await PartChart(chapters, "PartThree.txt", partThree: true);
-    //Chronological Chart P4
-    await PartChart(chapters, "PartFour.txt", partFour: true);
-    //Chronological Chart P5
-    await PartChart(chapters, "PartFive.txt", partFive: true);
+        //Chronological Chart P1
+        PartChart(chapters, "PartOne.txt", partOne: true),
+        //Chronological Chart P2
+        PartChart(chapters, "PartTwo.txt", partTwo: true),
+        //Chronological Chart P3
+        PartChart(chapters, "PartThree.txt", partThree: true),
+        //Chronological Chart P4
+        PartChart(chapters, "PartFour.txt", partFour: true),
+        //Chronological Chart P5
+        PartChart(chapters, "PartFive.txt", partFive: true));
 }
 
 async Task PartChart(Chapter[] chapters, string name, bool partOne = false, bool partTwo = false, bool partThree = false, bool partFour = false, bool partFive = false)
@@ -436,8 +444,8 @@ async Task PartChart(Chapter[] chapters, string name, bool partOne = false, bool
     sb.AppendLine("|Chapter|Name|POV|");
     sb.Append("|:-:|-|-|");
     int c = 1;
-    string volume = null;
-    string season = null;
+    string? volume = null;
+    string? season = null;
     int year = 0;
     foreach (var chapter in chapters.Where(x => x.ProcessedInPartOne == partOne && x.ProcessedInPartTwo == partTwo && x.ProcessedInPartThree == partThree && x.ProcessedInPartFour == partFour && x.ProcessedInPartFive == partFive))
     {
@@ -482,5 +490,7 @@ async Task PartChart(Chapter[] chapters, string name, bool partOne = false, bool
         }
     }
 
-    File.WriteAllText(name, sb.ToString());
+    await File.WriteAllTextAsync(name, sb.ToString());
 }
+
+#endif
