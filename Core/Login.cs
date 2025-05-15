@@ -80,7 +80,14 @@ namespace Core
                 }
                 else
                 {
-                    return new(split[0], FromCiphertext(Convert.FromBase64String(split[1])));
+                    try
+                    {
+                        return new(split[0], FromCiphertext(Convert.FromBase64String(split[1])));
+                    }
+                    catch (CryptographicException) // failed to decrypt file
+                    {
+                        return null;
+                    }
                 }
             }
         }
