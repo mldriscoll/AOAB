@@ -320,8 +320,13 @@ namespace OBB_WPF.Editor
     [XmlType("package")]
     public class Package
     {
+        [XmlElement(ElementName = "metadata")]
         public Metadata Metadata { get; set; } = new Metadata();
+
+        [XmlArray(ElementName = "manifest")]
         public List<Item> Manifest { get; set; } = new List<Item>();
+
+        [XmlArray(ElementName = "spine")]
         public List<Itemref> Spine { get; set; } = new List<Itemref>();
     }
     public class Metadata
