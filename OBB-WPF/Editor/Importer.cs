@@ -333,6 +333,8 @@ namespace OBB_WPF.Editor
     {
 
     }
+
+    [XmlType("item")]
     public class Item
     {
         [XmlAttribute("id")]
@@ -340,6 +342,8 @@ namespace OBB_WPF.Editor
         [XmlAttribute("href")]
         public string Href { get; set; } = String.Empty;
     }
+
+    [XmlType("itemref")]
     public class Itemref
     {
         [XmlAttribute("idref")]
