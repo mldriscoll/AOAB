@@ -21,8 +21,7 @@ namespace OBB_WPF
         public MainWindow()
         {
             InitializeComponent();
-            Task t = Load();
-            t.Wait();
+            _ = Load(); // Waiting for a task in the WPF window constructor results in the window never fully loading. 
         }
 
         private async Task Load()

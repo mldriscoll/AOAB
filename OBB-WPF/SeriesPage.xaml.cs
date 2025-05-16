@@ -47,8 +47,7 @@ namespace OBB_WPF
                 ((Grid)this.Content).Children.Add(AddVolumeButton);
             }
 
-            Task t = Load();
-            t.Wait();
+            _ = Load();
         }
 
         private async void AddVolumeButton_Click(object sender, RoutedEventArgs e)
