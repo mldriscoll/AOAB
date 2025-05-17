@@ -19752,7 +19752,9 @@
         "ApiSlug": "tearmoon-empire-volume-15",
         "FileName": "tearmoon-empire-volume-15.epub",
         "Title": "",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2025-04-28",
         "Order": 115
       }
