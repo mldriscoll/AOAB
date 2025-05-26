@@ -197,16 +197,16 @@
             {
               "Original": "candidate.” “What of",
               "Replacement": "candidate.”</p><p>“What of"
-            },
-            {
-              "Original": "7hey might be her family by noble standards, but to Rozemyne, they are strangers she has never had a chance to meet.",
-              "Replacement": "<i>They might be her family by noble standards, but to Rozemyne, they are strangers she has never had a chance to meet.</i>"
             }
           ],
           "Italics": [
             {
               "Start": "have a talk",
               "End": "have a talk"
+            },
+            {
+              "Start": "They might be her family by noble",
+              "End": "never had a chance to meet."
             }
           ],
           "Header": null,

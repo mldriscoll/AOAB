@@ -218,6 +218,11 @@ namespace AOABO.OCR
                 var apostropheRegex = new Regex("[a-z,A-Z]'[a-z,A-Z]");
                 body = apostropheRegex.Replace(body, new MatchEvaluator(ReplaceApostrophe));
 
+                body = body
+                    .Replace("7hey", "They")
+                    .Replace("77aey", "They");
+
+
                 foreach (var correction in chapter.OCR!.Corrections)
                 {
                     body = body.Replace(correction.Original, correction.Replacement);

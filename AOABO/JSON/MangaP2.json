@@ -857,6 +857,34 @@
             {
               "Original": "ofstepping",
               "Replacement": "of stepping"
+            },
+            {
+              "Original": "with everyone else. Before we left",
+              "Replacement": "with everyone else. </p>\r\n<br />\r\n<p>Before we left"
+            },
+            {
+              "Original": "Not long after our arrival,",
+              "Replacement": "</p>\r\n<p>Not long after our arrival,"
+            },
+            {
+              "Original": "The knight commander ordered us to line up,",
+              "Replacement": "</p>\r\n<p>The knight commander ordered us to line up,"
+            },
+            {
+              "Original": "Dunkelfelger’s duchy color was blue",
+              "Replacement": "</p>\r\n<p>Dunkelfelger’s duchy color was blue"
+            },
+            {
+              "Original": "To be honest, back when my brother",
+              "Replacement": "</p>\r\n<p>To be honest, back when my brother"
+            },
+            {
+              "Original": "anyone. <i>Oh...?</i>",
+              "Replacement": "anyone. </p>\r\n<p><i>Oh...?</i>"
+            },
+            {
+              "Original": "<p>cape... ",
+              "Replacement": "<p><i>Th-That cape...</i> </p>\r\n<p>"
             }
           ],
           "Italics": [
@@ -996,11 +1024,11 @@
               "Replacement": "<i>I can’t put that burden on my family. Our home is small, and it’s hard enough with my siblings there. Not only would they hate it, but... I’d feel so pathetic.</i>"
             },
             {
-              "Original": "Taey’re my last hope. Unless I speak to them now, it’s over.",
+              "Original": "They’re my last hope. Unless I speak to them now, it’s over.",
               "Replacement": "<i>They’re my last hope. Unless I speak to them now, it’s over.</i>"
             },
             {
-              "Original": "They’re my last hope. Unless I speak to them now, it’s over.",
+              "Original": "Taey’re my last hope. Unless I speak to them now, it’s over.",
               "Replacement": "<i>They’re my last hope. Unless I speak to them now, it’s over.</i>"
             }
           ],
@@ -1044,6 +1072,10 @@
             {
               "Start": "Now’s my chance!",
               "End": "Now’s my chance!"
+            },
+            {
+              "Start": "Though it’s all my fault in the first place.",
+              "End": "Though it’s all my fault in the first place."
             }
           ],
           "Header": null,
@@ -1214,6 +1246,14 @@
             {
               "Original": "\"Myne asked us to go parue hunting with the orphans next time there’s a sunny day. You can’t go this year 'cause you’re pregnant, right? Well, it looks like we’ll get some parues anyway!",
               "Replacement": "“Myne asked us to go parue hunting with the orphans next time there’s a sunny day. You can’t go this year 'cause you’re pregnant, right? Well, it looks like we’ll get some parues anyway!”"
+            },
+            {
+              "Original": "he’d already agreed to try some!'",
+              "Replacement": "he’d already agreed to try some!”"
+            },
+            {
+              "Original": "\"Myne asked Lord Damuel",
+              "Replacement": "“Myne asked Lord Damuel"
             }
           ],
           "Italics": [
