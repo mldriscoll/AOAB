@@ -16,7 +16,8 @@ namespace AOABO.Omnibus
             PartThree,
             PartFour,
             PartFive,
-            Fanbooks
+            Fanbooks,
+            Hannelore
         }
 
         private static Regex chapterTitleRegex = new Regex("<h1>[\\s\\S]*?<\\/h1>");
@@ -42,7 +43,8 @@ namespace AOABO.Omnibus
             Console.WriteLine("3: Part Three (Adopted Daughter of an Archduke)");
             Console.WriteLine("4: Part Four (Founder of the Royal Academy's So-Called Library Committee)");
             Console.WriteLine("5: Part Five (Avatar of a Goddess)");
-            Console.WriteLine("6: Fanbooks");
+            Console.WriteLine("6: Hannelore's Fifth Year at the Royal Academy");
+            Console.WriteLine("7: Fanbooks");
             var key = Console.ReadKey();
             Console.WriteLine();
             PartToProcess partScope;
@@ -70,6 +72,10 @@ namespace AOABO.Omnibus
                     bookTitle = "Ascendance of a Bookworm Part 5 - Avatar of a Goddess";
                     break;
                 case '6':
+                    partScope = PartToProcess.Hannelore;
+                    bookTitle = "Ascendance of a Bookworm - Hannelore's Fifth Year at the Royal Academy";
+                    break;
+                case '7':
                     partScope = PartToProcess.Fanbooks;
                     bookTitle = "Ascendance of a Bookworm Fanbooks";
                     break;
@@ -101,7 +107,8 @@ namespace AOABO.Omnibus
                         || (partScope == PartToProcess.PartThree && !volume.ProcessedInPartThree)
                         || (partScope == PartToProcess.PartFour && !volume.ProcessedInPartFour)
                         || (partScope == PartToProcess.PartFive && !volume.ProcessedInPartFive)
-                        || (partScope == PartToProcess.Fanbooks && !volume.ProcessedInFanbooks)) continue;
+                        || (partScope == PartToProcess.Fanbooks && !volume.ProcessedInFanbooks)
+                        || (partScope == PartToProcess.Hannelore && !volume.ProcessedInHannelore)) continue;
 
                     ZipFile.ExtractToDirectory(file, $"{inputFolder}\\inputtemp\\{volume.InternalName}");
                 }
@@ -158,7 +165,8 @@ namespace AOABO.Omnibus
                     || partScope == PartToProcess.PartTwo && !volume.ProcessedInPartTwo
                     || partScope == PartToProcess.PartThree && !volume.ProcessedInPartThree
                     || partScope == PartToProcess.PartFour && !volume.ProcessedInPartFour
-                    || partScope == PartToProcess.PartFive && !volume.ProcessedInPartFive) continue;
+                    || partScope == PartToProcess.PartFive && !volume.ProcessedInPartFive
+                    || partScope == PartToProcess.Hannelore && !volume.ProcessedInHannelore) continue;
 
                 Console.WriteLine($"Processing book {volume.InternalName}");
 
@@ -183,14 +191,13 @@ namespace AOABO.Omnibus
                     case PartToProcess.Fanbooks:
                         chapters = BuildChapterList(volume, c => c.ProcessedInFanbooks);
                         break;
+                    case PartToProcess.Hannelore:
+                        chapters = BuildChapterList(volume, c => c.ProcessedInHannelore);
+                        break;
                     default:
                         chapters = BuildChapterList(volume, c => true);
                         break;
                 }
-
-#if DEBUG
-                povChapters.AddRange(chapters.Where(x => x is MoveableChapter).Select(x => (MoveableChapter)x).Where(x => !string.IsNullOrWhiteSpace(x.POV)));
-#endif
 
                 var inChapters = inProcessor.Chapters.Where(x => x.SubFolder.Contains(volume.InternalName)).ToList();
                 foreach (var chapter in chapters)

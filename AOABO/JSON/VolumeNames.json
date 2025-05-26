@@ -398,5 +398,11 @@
     "FileName": "Ascendance of a Bookworm (Manga) Part 4 Volume 2_{0}.epub",
     "Quality": [ "3840", "2560", "1400" ],
     "OutputUnusedFiles": false
+  },
+  {
+    "InternalName": "0601",
+    "ApiSlug": "ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1",
+    "FileName": "ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1.epub",
+    "OutputUnusedFiles": false
   }
 ]

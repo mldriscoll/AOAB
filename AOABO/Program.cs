@@ -137,6 +137,7 @@ async Task SaveAll()
     var mp3 = new List<Volume>();
     var mp4 = new List<Volume>();
     var ss = new List<Volume>();
+    var han = new List<Volume>();
 
     foreach (var vol in Configuration.Volumes)
     {
@@ -227,6 +228,9 @@ async Task SaveAll()
             case "M0402":
                 mp4.Add(vol);
                 break;
+            case "0601":
+                han.Add(vol);
+                break;
         }
     }
 
@@ -241,7 +245,8 @@ async Task SaveAll()
         Save("MangaP2", mp2),
         Save("MangaP3", mp3),
         Save("SideStories", ss),
-        Save("MangaP4", mp4));
+        Save("MangaP4", mp4),
+        Save("Hannelore", han));
 }
 
 async Task Save(string filename, List<Volume> vols)
@@ -435,10 +440,12 @@ async Task CreateTables()
         //Chronological Chart P4
         PartChart(chapters, "PartFour.txt", partFour: true),
         //Chronological Chart P5
-        PartChart(chapters, "PartFive.txt", partFive: true));
+        PartChart(chapters, "PartFive.txt", partFive: true),
+        //Chronological Chart Hannelore Y5
+        PartChart(chapters, "Hannelore.txt", hannelore: true));
 }
 
-async Task PartChart(Chapter[] chapters, string name, bool partOne = false, bool partTwo = false, bool partThree = false, bool partFour = false, bool partFive = false)
+async Task PartChart(Chapter[] chapters, string name, bool partOne = false, bool partTwo = false, bool partThree = false, bool partFour = false, bool partFive = false, bool hannelore = false)
 {
     var sb = new StringBuilder();
     sb.AppendLine("|Chapter|Name|POV|");
@@ -447,7 +454,7 @@ async Task PartChart(Chapter[] chapters, string name, bool partOne = false, bool
     string? volume = null;
     string? season = null;
     int year = 0;
-    foreach (var chapter in chapters.Where(x => x.ProcessedInPartOne == partOne && x.ProcessedInPartTwo == partTwo && x.ProcessedInPartThree == partThree && x.ProcessedInPartFour == partFour && x.ProcessedInPartFive == partFive))
+    foreach (var chapter in chapters.Where(x => x.ProcessedInPartOne == partOne && x.ProcessedInPartTwo == partTwo && x.ProcessedInPartThree == partThree && x.ProcessedInPartFour == partFour && x.ProcessedInPartFive == partFive && x.ProcessedInHannelore == hannelore))
     {
         if (!string.Equals(volume, chapter.Volume))
         {

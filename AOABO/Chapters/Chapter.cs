@@ -42,6 +42,7 @@ namespace AOABO.Chapters
                 "0301" or "0302" or "0303" or "0304" or "0305" => $"{Configuration.FolderNames["PartThree"]}\\03-Story",
                 "0401" or "0402" or "0403" or "0404" or "0405" or "0406" or "0407" or "0408" or "0409" => $"{Configuration.FolderNames["PartFour"]}\\03-Story",
                 "0501" or "0502" or "0503" or "0504" or "0505" or "0506" or "0507" or "0508" or "0509" or "0510" or "0511" or "0512" => $"{Configuration.FolderNames["PartFive"]}\\03-Story",
+                "0601" => $"{Configuration.FolderNames["Hannelore"]}\\03-Story",
                 "FB1" or "FB2" or "FB3" or "FB4" or "FB5" => $"11-Fanbooks",
                 _ => throw new Exception($"GetPartSubFolder - {ChapterName}"),
             };
@@ -56,6 +57,7 @@ namespace AOABO.Chapters
                 "0401" or "0402" or "0403" or "0404" or "0405" or "0406" or "0407" or "0408" or "0409" => $"P4V{Volume[3]}",
                 "0501" or "0502" or "0503" or "0504" or "0505" or "0506" or "0507" or "0508" or "0509" => $"P5V{Volume[3]}",
                 "0510" or "0511" or "0512" => $"P5V{Volume[2]}{Volume[3]}",
+                "0601" => $"H5V{Volume[3]}",
                 "FB1" or "FB2" or "FB3" or "FB4" or "FB5" => $"11-Fanbooks",
                 _ => throw new Exception($"GetPartSubFolder - {ChapterName}"),
             };
@@ -78,7 +80,8 @@ namespace AOABO.Chapters
                 "0301" or "0302" or "0303" or "0304" or "0305" => $"{Configuration.FolderNames["PartThree"]}\\{Volume}-{getVolumeName()}",
                 "0401" or "0402" or "0403" or "0404" or "0405" or "0406" or "0407" or "0408" or "0409" => $"{Configuration.FolderNames["PartFour"]}\\{Volume}-{getVolumeName()}",
                 "0501" or "0502" or "0503" or "0504" or "0505" or "0506" or "0507" or "0508" or "0509" or "0510" or "0511" or "0512" => $"{Configuration.FolderNames["PartFive"]}\\{Volume}-{getVolumeName()}",
-                "FB1" or "FB2" or "FB3" or "FB4" or "FB5" => $"06-Fanbooks",
+                "0601" => $"{Configuration.FolderNames["Hannelore"]}\\{Volume}-{getVolumeName()}",
+                "FB1" or "FB2" or "FB3" or "FB4" or "FB5" => $"08-Fanbooks",
                 _ => throw new Exception($"GetVolumeSubFolder - {ChapterName}")
             };
         }
@@ -87,7 +90,7 @@ namespace AOABO.Chapters
         {
             return Volume switch
             {
-                "0101" or "0201" or "0301" or "0401" or "0501" => "Volume 1",
+                "0101" or "0201" or "0301" or "0401" or "0501" or "0601" => "Volume 1",
                 "0102" or "0202" or "0302" or "0402" or "0502" => "Volume 2",
                 "0103" or "0203" or "0303" or "0403" or "0503" => "Volume 3",
                 "0204" or "0304" or "0404" or "0504" => "Volume 4",
@@ -134,6 +137,8 @@ namespace AOABO.Chapters
         public bool ProcessedInPartFour { get; set; } = false;
         public bool ProcessedInPartFive { get; set; } = false;
         public bool ProcessedInFanbooks { get; set; } = false;
+
+        public bool ProcessedInHannelore { get; set; } = false;
         public string? StartLine { get; set; }
         public string? EndLine { get; set; }
 

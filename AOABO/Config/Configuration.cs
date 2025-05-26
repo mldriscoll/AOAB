@@ -97,6 +97,10 @@ namespace AOABO.Config
             {
                 Volumes.AddRange((deserializer.ReadObject(reader.BaseStream) as Volume[])!);
             }
+            using (var reader = new StreamReader("JSON\\Hannelore.json"))
+            {
+                Volumes.AddRange((deserializer.ReadObject(reader.BaseStream) as Volume[])!);
+            }
         }
 
         public static void UpdateOptions()

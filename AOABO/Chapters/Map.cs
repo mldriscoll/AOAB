@@ -16,7 +16,7 @@ namespace AOABO.Chapters
 
         protected override string GetVolumeSubFolder()
         {
-            return $"05-{Configuration.FolderNames["Maps"]}";
+            return $"07-{Configuration.FolderNames["Maps"]}";
         }
 
         protected override string GetYearsSubFolder()

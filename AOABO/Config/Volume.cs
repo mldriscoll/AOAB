@@ -112,6 +112,23 @@ namespace AOABO.Config
                 return false;
             }
         }
+        public bool ProcessedInHannelore
+        {
+            get
+            {
+                if (Chapters != null && Chapters.Any(x => x.ProcessedInHannelore)) return true;
+                if (MangaChapters != null && MangaChapters.Any(x => x.ProcessedInHannelore)) return true;
+                if (BonusChapters != null && BonusChapters.Any(x => x.ProcessedInHannelore)) return true;
+                if (ComfyLifeChapter != null && ComfyLifeChapter.ProcessedInHannelore) return true;
+                if (Afterword != null && Afterword.ProcessedInHannelore) return true;
+                if (Gallery != null && Gallery.ProcessedInHannelore) return true;
+                if (CharacterSheet != null && CharacterSheet.ProcessedInHannelore) return true;
+                if (CharacterPoll != null && CharacterPoll.ProcessedInHannelore) return true;
+                if (Maps != null && Maps.Any(x => x.ProcessedInHannelore)) return true;
+
+                return false;
+            }
+        }
 
         public bool OCR { get; set; } = false;
 
