@@ -20513,7 +20513,9 @@
         "ApiSlug": "the-apothecary-diaries-volume-14",
         "FileName": "the-apothecary-diaries-volume-14.epub",
         "Title": "",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2025-05-30",
         "Order": 114
       },
