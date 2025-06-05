@@ -7,6 +7,7 @@
     "ProcessedInPartFour": true,
     "ProcessedInPartFive": false,
     "ProcessedInFanbooks": false,
+    "ProcessedInHannelore": false,
     "OCR": true,
     "Chapters": [],
     "POVChapters": [],
@@ -91,6 +92,7 @@
         "ProcessedInPartFour": true,
         "ProcessedInPartFive": false,
         "ProcessedInFanbooks": false,
+        "ProcessedInHannelore": false,
         "StartLine": null,
         "EndLine": null
       }
@@ -110,6 +112,7 @@
     "ProcessedInPartFour": true,
     "ProcessedInPartFive": true,
     "ProcessedInFanbooks": true,
+    "ProcessedInHannelore": true,
     "OCR": true,
     "Chapters": [],
     "POVChapters": [],
@@ -247,6 +250,7 @@
         "ProcessedInPartFour": true,
         "ProcessedInPartFive": false,
         "ProcessedInFanbooks": false,
+        "ProcessedInHannelore": false,
         "StartLine": null,
         "EndLine": null
       }
@@ -288,6 +292,7 @@
     "ProcessedInPartFour": true,
     "ProcessedInPartFive": true,
     "ProcessedInFanbooks": true,
+    "ProcessedInHannelore": true,
     "OCR": true,
     "Chapters": [],
     "POVChapters": [],
@@ -297,8 +302,8 @@
         "OverrideName": "",
         "POV": "",
         "Source": "M4V3 Extra",
-        "EarlySortOrder": "040119b",
-        "LateSortOrder": "01019610",
+        "EarlySortOrder": "040120",
+        "LateSortOrder": "04019606",
         "EarlyYear": 6,
         "LateYear": 6,
         "EarlySeason": "Winter",
@@ -323,6 +328,7 @@
         "ProcessedInPartFour": true,
         "ProcessedInPartFive": false,
         "ProcessedInFanbooks": false,
+        "ProcessedInHannelore": false,
         "StartLine": null,
         "EndLine": null
       }
@@ -385,8 +391,8 @@
         "OverrideName": "Out of My Lady's Sight",
         "POV": "Leonore",
         "Source": "M4V3 Written Bonus",
-        "EarlySortOrder": "040123b",
-        "LateSortOrder": "04019604",
+        "EarlySortOrder": "040125",
+        "LateSortOrder": "04019607",
         "EarlyYear": 6,
         "LateYear": 6,
         "EarlySeason": "Winter",
@@ -416,6 +422,7 @@
         "ProcessedInPartFour": true,
         "ProcessedInPartFive": false,
         "ProcessedInFanbooks": false,
+        "ProcessedInHannelore": false,
         "StartLine": null,
         "EndLine": null
       }

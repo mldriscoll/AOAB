@@ -7,6 +7,7 @@
     "ProcessedInPartFour": false,
     "ProcessedInPartFive": false,
     "ProcessedInFanbooks": false,
+    "ProcessedInHannelore": false,
     "OCR": true,
     "Chapters": [],
     "POVChapters": [],
@@ -92,6 +93,7 @@
         "ProcessedInPartFour": false,
         "ProcessedInPartFive": false,
         "ProcessedInFanbooks": false,
+        "ProcessedInHannelore": false,
         "StartLine": null,
         "EndLine": null
       }
@@ -111,6 +113,7 @@
     "ProcessedInPartFour": false,
     "ProcessedInPartFive": false,
     "ProcessedInFanbooks": false,
+    "ProcessedInHannelore": false,
     "OCR": true,
     "Chapters": [],
     "POVChapters": [],
@@ -149,6 +152,7 @@
         "ProcessedInPartFour": false,
         "ProcessedInPartFive": false,
         "ProcessedInFanbooks": false,
+        "ProcessedInHannelore": false,
         "StartLine": null,
         "EndLine": null
       }
@@ -240,6 +244,7 @@
         "ProcessedInPartFour": false,
         "ProcessedInPartFive": false,
         "ProcessedInFanbooks": false,
+        "ProcessedInHannelore": false,
         "StartLine": null,
         "EndLine": null
       }
@@ -259,6 +264,7 @@
     "ProcessedInPartFour": false,
     "ProcessedInPartFive": false,
     "ProcessedInFanbooks": false,
+    "ProcessedInHannelore": false,
     "OCR": true,
     "Chapters": [],
     "POVChapters": [],
@@ -297,6 +303,7 @@
         "ProcessedInPartFour": false,
         "ProcessedInPartFive": false,
         "ProcessedInFanbooks": false,
+        "ProcessedInHannelore": false,
         "StartLine": null,
         "EndLine": null
       }
@@ -388,6 +395,7 @@
         "ProcessedInPartFour": false,
         "ProcessedInPartFive": false,
         "ProcessedInFanbooks": false,
+        "ProcessedInHannelore": false,
         "StartLine": null,
         "EndLine": null
       }
@@ -407,6 +415,7 @@
     "ProcessedInPartFour": false,
     "ProcessedInPartFive": false,
     "ProcessedInFanbooks": false,
+    "ProcessedInHannelore": false,
     "OCR": true,
     "Chapters": [],
     "POVChapters": [],
@@ -478,6 +487,7 @@
         "ProcessedInPartFour": false,
         "ProcessedInPartFive": false,
         "ProcessedInFanbooks": false,
+        "ProcessedInHannelore": false,
         "StartLine": null,
         "EndLine": null
       }
@@ -497,6 +507,7 @@
     "ProcessedInPartFour": false,
     "ProcessedInPartFive": false,
     "ProcessedInFanbooks": false,
+    "ProcessedInHannelore": false,
     "OCR": true,
     "Chapters": [],
     "POVChapters": [],
@@ -609,6 +620,7 @@
         "ProcessedInPartFour": false,
         "ProcessedInPartFive": false,
         "ProcessedInFanbooks": false,
+        "ProcessedInHannelore": false,
         "StartLine": null,
         "EndLine": null
       }
@@ -628,6 +640,7 @@
     "ProcessedInPartFour": false,
     "ProcessedInPartFive": false,
     "ProcessedInFanbooks": false,
+    "ProcessedInHannelore": false,
     "OCR": true,
     "Chapters": [],
     "POVChapters": [],
@@ -733,6 +746,7 @@
         "ProcessedInPartFour": false,
         "ProcessedInPartFive": false,
         "ProcessedInFanbooks": false,
+        "ProcessedInHannelore": false,
         "StartLine": null,
         "EndLine": null
       }
@@ -755,6 +769,7 @@
       "ProcessedInPartFour": false,
       "ProcessedInPartFive": false,
       "ProcessedInFanbooks": false,
+      "ProcessedInHannelore": false,
       "StartLine": null,
       "EndLine": null
     },
@@ -772,6 +787,7 @@
     "ProcessedInPartFour": false,
     "ProcessedInPartFive": false,
     "ProcessedInFanbooks": false,
+    "ProcessedInHannelore": false,
     "OCR": true,
     "Chapters": [],
     "POVChapters": [],
@@ -806,6 +822,7 @@
         "ProcessedInPartFour": false,
         "ProcessedInPartFive": false,
         "ProcessedInFanbooks": false,
+        "ProcessedInHannelore": false,
         "StartLine": null,
         "EndLine": null
       }
@@ -956,6 +973,7 @@
         "ProcessedInPartFour": false,
         "ProcessedInPartFive": false,
         "ProcessedInFanbooks": false,
+        "ProcessedInHannelore": false,
         "StartLine": null,
         "EndLine": null
       }
@@ -975,6 +993,7 @@
     "ProcessedInPartFour": true,
     "ProcessedInPartFive": true,
     "ProcessedInFanbooks": true,
+    "ProcessedInHannelore": true,
     "OCR": true,
     "Chapters": [],
     "POVChapters": [],
@@ -1117,6 +1136,7 @@
         "ProcessedInPartFour": false,
         "ProcessedInPartFive": false,
         "ProcessedInFanbooks": false,
+        "ProcessedInHannelore": false,
         "StartLine": null,
         "EndLine": null
       }
@@ -1139,6 +1159,7 @@
       "ProcessedInPartFour": false,
       "ProcessedInPartFive": false,
       "ProcessedInFanbooks": false,
+      "ProcessedInHannelore": false,
       "StartLine": null,
       "EndLine": null
     },
@@ -1179,6 +1200,7 @@
     "ProcessedInPartFour": false,
     "ProcessedInPartFive": false,
     "ProcessedInFanbooks": false,
+    "ProcessedInHannelore": false,
     "OCR": true,
     "Chapters": [],
     "POVChapters": [],
@@ -1316,6 +1338,7 @@
         "ProcessedInPartFour": false,
         "ProcessedInPartFive": false,
         "ProcessedInFanbooks": false,
+        "ProcessedInHannelore": false,
         "StartLine": null,
         "EndLine": null
       }
@@ -1338,6 +1361,7 @@
       "ProcessedInPartFour": false,
       "ProcessedInPartFive": false,
       "ProcessedInFanbooks": false,
+      "ProcessedInHannelore": false,
       "StartLine": null,
       "EndLine": null
     },

@@ -17,7 +17,7 @@
           "chapter1_1"
         ],
         "ChapterName": "Entering the Dormitory",
-        "SortOrder": "060101",
+        "SortOrder": "060102",
         "Year": 10,
         "Season": "Winter",
         "Volume": "0601",
@@ -40,7 +40,7 @@
           "chapter2_1"
         ],
         "ChapterName": "Welcoming Ditter",
-        "SortOrder": "060102",
+        "SortOrder": "060103",
         "Year": 10,
         "Season": "Winter",
         "Volume": "0601",
@@ -61,7 +61,7 @@
           "chapter3"
         ],
         "ChapterName": "The Advancement Ceremony and Fellowship Gathering",
-        "SortOrder": "060103",
+        "SortOrder": "060104",
         "Year": 10,
         "Season": "Winter",
         "Volume": "0601",
@@ -83,7 +83,7 @@
           "insert3"
         ],
         "ChapterName": "Sharing Intel and Starting Classes",
-        "SortOrder": "060104",
+        "SortOrder": "060105",
         "Year": 10,
         "Season": "Winter",
         "Volume": "0601",
@@ -104,7 +104,7 @@
           "chapter5"
         ],
         "ChapterName": "Propositions",
-        "SortOrder": "060105",
+        "SortOrder": "060106",
         "Year": 10,
         "Season": "Winter",
         "Volume": "0601",
@@ -125,7 +125,7 @@
           "chapter6"
         ],
         "ChapterName": "Hairpin Shockwaves",
-        "SortOrder": "060106",
+        "SortOrder": "060107",
         "Year": 10,
         "Season": "Winter",
         "Volume": "0601",
@@ -148,7 +148,7 @@
           "chapter7_1"
         ],
         "ChapterName": "Music and Questions",
-        "SortOrder": "060107",
+        "SortOrder": "060108",
         "Year": 10,
         "Season": "Winter",
         "Volume": "0601",
@@ -169,7 +169,7 @@
           "chapter8"
         ],
         "ChapterName": "Tea Party Consultation",
-        "SortOrder": "060109",
+        "SortOrder": "060110",
         "Year": 10,
         "Season": "Winter",
         "Volume": "0601",
@@ -192,7 +192,7 @@
           "chapter9_1"
         ],
         "ChapterName": "A Push from Behind",
-        "SortOrder": "060111",
+        "SortOrder": "060112",
         "Year": 10,
         "Season": "Winter",
         "Volume": "0601",
@@ -213,7 +213,7 @@
           "chapter10"
         ],
         "ChapterName": "Wavering and Resolve",
-        "SortOrder": "060112",
+        "SortOrder": "060113",
         "Year": 10,
         "Season": "Winter",
         "Volume": "0601",
@@ -236,7 +236,7 @@
           "chapter11_1"
         ],
         "ChapterName": "Proposal",
-        "SortOrder": "060113",
+        "SortOrder": "060114",
         "Year": 10,
         "Season": "Winter",
         "Volume": "0601",
@@ -257,7 +257,7 @@
           "chapter12"
         ],
         "ChapterName": "Wilfried’s Answer",
-        "SortOrder": "060114",
+        "SortOrder": "060115",
         "Year": 10,
         "Season": "Winter",
         "Volume": "0601",
@@ -280,7 +280,7 @@
           "chapter13_1"
         ],
         "ChapterName": "Dregarnuhr Weaving Threads",
-        "SortOrder": "060115",
+        "SortOrder": "060116",
         "Year": 10,
         "Season": "Winter",
         "Volume": "0601",
@@ -305,7 +305,7 @@
           "chapter14_2"
         ],
         "ChapterName": "The Academy of a Year Ago",
-        "SortOrder": "060116",
+        "SortOrder": "060117",
         "Year": 10,
         "Season": "Winter",
         "Volume": "0601",
@@ -326,7 +326,7 @@
           "chapter15"
         ],
         "ChapterName": "Threads in Liebeskhilfe’s Grasp",
-        "SortOrder": "060117",
+        "SortOrder": "060118",
         "Year": 10,
         "Season": "Winter",
         "Volume": "0601",
@@ -350,7 +350,7 @@
           "prologue"
         ],
         "ChapterName": "Prologue",
-        "SortOrder": "060100",
+        "SortOrder": "060101",
         "Year": 10,
         "Season": "Autumn",
         "Volume": "0601",
@@ -374,7 +374,7 @@
           "epilogue_1"
         ],
         "ChapterName": "Epilogue",
-        "SortOrder": "060119",
+        "SortOrder": "060120",
         "Year": 10,
         "Season": "Winter",
         "Volume": "0601",
@@ -398,8 +398,8 @@
         "OverrideName": "",
         "POV": "Rozemyne",
         "Source": "H5V1 Extra 1",
-        "EarlySortOrder": "060108",
-        "LateSortOrder": "196",
+        "EarlySortOrder": "060109",
+        "LateSortOrder": "06019601",
         "EarlyYear": 10,
         "LateYear": 10,
         "EarlySeason": "Winter",
@@ -429,8 +429,8 @@
         "OverrideName": "",
         "POV": "Rasantark",
         "Source": "H5V1 Extra 2",
-        "EarlySortOrder": "060110",
-        "LateSortOrder": "196",
+        "EarlySortOrder": "060111",
+        "LateSortOrder": "06019602",
         "EarlyYear": 10,
         "LateYear": 10,
         "EarlySeason": "Winter",
@@ -460,8 +460,8 @@
         "OverrideName": "",
         "POV": "Sigiswald",
         "Source": "H5V1 Extra 3",
-        "EarlySortOrder": "060118",
-        "LateSortOrder": "196",
+        "EarlySortOrder": "060119",
+        "LateSortOrder": "06019603",
         "EarlyYear": 10,
         "LateYear": 10,
         "EarlySeason": "Winter",
@@ -493,7 +493,7 @@
         "manga2"
       ],
       "ChapterName": "Comfy Life 0601",
-      "SortOrder": "060120",
+      "SortOrder": "060121",
       "Year": 10,
       "Season": "Winter",
       "Volume": "0601",
