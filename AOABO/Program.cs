@@ -226,6 +226,7 @@ async Task SaveAll()
                 break;
             case "M0401":
             case "M0402":
+            case "M0403":
                 mp4.Add(vol);
                 break;
             case "0601":
@@ -257,17 +258,14 @@ async Task Save(string filename, List<Volume> vols)
         Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping
     };
 
-    List<Task> tasks = new();
     using (var writer = new StreamWriter($"JSON\\{filename}.json"))
     {
-        tasks.Add(JsonSerializer.SerializeAsync(writer.BaseStream, vols, options: options));
+        await JsonSerializer.SerializeAsync(writer.BaseStream, vols, options: options);
     }
     using (var writer = new StreamWriter($"..\\..\\..\\JSON\\{filename}.json"))
     {
-        tasks.Add(JsonSerializer.SerializeAsync(writer.BaseStream, vols, options: options));
+        await JsonSerializer.SerializeAsync(writer.BaseStream, vols, options: options);
     }
-
-    await Task.WhenAll(tasks);
 }
 
 async Task AddChapter()
