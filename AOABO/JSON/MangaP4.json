@@ -279,5 +279,175 @@
       }
     ],
     "CharacterPoll": null
+  },
+  {
+    "InternalName": "M0403",
+    "ProcessedInPartOne": false,
+    "ProcessedInPartTwo": false,
+    "ProcessedInPartThree": false,
+    "ProcessedInPartFour": true,
+    "ProcessedInPartFive": true,
+    "ProcessedInFanbooks": true,
+    "OCR": true,
+    "Chapters": [],
+    "POVChapters": [],
+    "MangaChapters": [
+      {
+        "OCR": null,
+        "OverrideName": "",
+        "POV": "",
+        "Source": "M4V3 Extra",
+        "EarlySortOrder": "040119b",
+        "LateSortOrder": "01019610",
+        "EarlyYear": 6,
+        "LateYear": 6,
+        "EarlySeason": "Winter",
+        "LateSeason": "Winter",
+        "OriginalFilenames": [
+          "141",
+          "142",
+          "143",
+          "144",
+          "145"
+        ],
+        "ChapterName": "A Sweet Reward",
+        "SortOrder": "",
+        "Year": 0,
+        "Season": "",
+        "Volume": "0401",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartOne": false,
+        "ProcessedInPartTwo": false,
+        "ProcessedInPartThree": false,
+        "ProcessedInPartFour": true,
+        "ProcessedInPartFive": false,
+        "ProcessedInFanbooks": false,
+        "StartLine": null,
+        "EndLine": null
+      }
+    ],
+    "BonusChapters": [
+      {
+        "OCR": {
+          "Corrections": [
+            {
+              "Original": "there are... some",
+              "Replacement": "there are... <i>some</i>"
+            },
+            {
+              "Original": "It, ere..",
+              "Replacement": "It, er..."
+            },
+            {
+              "Original": "case, I shall",
+              "Replacement": "case, <i>I</i> shall"
+            },
+            {
+              "Original": " you can.” I glared",
+              "Replacement": " you can.”</p>\r\n<p>I glared"
+            },
+            {
+              "Original": "equal suspicion. “Lady Rozemyne",
+              "Replacement": "equal suspicion.</p>\r\n<p>“Lady Rozemyne"
+            },
+            {
+              "Original": "retainers.” “That cannot be all,” </p>\r\n<p>I",
+              "Replacement": "retainers.”</p>\r\n<p>“That cannot be all,” I"
+            },
+            {
+              "Original": "yourself.” The scholar",
+              "Replacement": "yourself.”</p>\r\n<p>The scholar"
+            },
+            {
+              "Original": "bring her.” ",
+              "Replacement": "bring her.”</p>\r\n<p>"
+            }
+          ],
+          "Italics": [
+            {
+              "Start": "I wonder... do all the mednobles among us have access?",
+              "End": "I wonder... do all the mednobles among us have access?"
+            },
+            {
+              "Start": "Lieseleta and Cornelius have been associating in private, I see.",
+              "End": "Lieseleta and Cornelius have been associating in private, I see."
+            },
+            {
+              "Start": "Must I count protecting Lady Rozemyne from Hartmut among my duties as her knight?",
+              "End": "Must I count protecting Lady Rozemyne from Hartmut among my duties as her knight?"
+            }
+          ],
+          "Header": null,
+          "Crop": true,
+          "HeaderLines": 1
+        },
+        "OverrideName": "Out of My Lady's Sight",
+        "POV": "Leonore",
+        "Source": "M4V3 Written Bonus",
+        "EarlySortOrder": "040123b",
+        "LateSortOrder": "04019604",
+        "EarlyYear": 6,
+        "LateYear": 6,
+        "EarlySeason": "Winter",
+        "LateSeason": "Winter",
+        "OriginalFilenames": [
+          "148",
+          "149",
+          "150",
+          "151",
+          "152",
+          "153",
+          "154",
+          "155",
+          "156",
+          "157"
+        ],
+        "ChapterName": "Out of My Lady's Sight",
+        "SortOrder": "",
+        "Year": 0,
+        "Season": "",
+        "Volume": "0401",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartOne": false,
+        "ProcessedInPartTwo": false,
+        "ProcessedInPartThree": false,
+        "ProcessedInPartFour": true,
+        "ProcessedInPartFive": false,
+        "ProcessedInFanbooks": false,
+        "StartLine": null,
+        "EndLine": null
+      }
+    ],
+    "ComfyLifeChapter": null,
+    "Afterword": null,
+    "Gallery": null,
+    "CharacterSheet": null,
+    "Maps": [
+      {
+        "OriginalFilenames": [
+          "160",
+          "161"
+        ],
+        "ChapterName": "Royal Academy Professors",
+        "SortOrder": "13",
+        "Year": 0,
+        "Season": "",
+        "Volume": "",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartOne": false,
+        "ProcessedInPartTwo": false,
+        "ProcessedInPartThree": false,
+        "ProcessedInPartFour": true,
+        "ProcessedInPartFive": true,
+        "ProcessedInFanbooks": true,
+        "ProcessedInHannelore": true,
+        "StartLine": null,
+        "EndLine": null
+      }
+    ],
+    "CharacterPoll": null
   }
 ]
