@@ -411,5 +411,12 @@
     "FileName": "Ascendance of a Bookworm (Manga) Part 4 Volume 3_{0}.epub",
     "Quality": [ "3840", "2560", "1400" ],
     "OutputUnusedFiles": false
+  },
+  {
+    "InternalName": "M0404",
+    "ApiSlug": "ascendance-of-a-bookworm-manga-part-4-volume-4",
+    "FileName": "Ascendance of a Bookworm (Manga) Part 4 Volume 4_{0}.epub",
+    "Quality": [ "3840", "2560", "1400" ],
+    "OutputUnusedFiles": false
   }
 ]

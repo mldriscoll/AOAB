@@ -456,5 +456,161 @@
       }
     ],
     "CharacterPoll": null
+  },
+  {
+    "InternalName": "M0404",
+    "ProcessedInPartOne": false,
+    "ProcessedInPartTwo": false,
+    "ProcessedInPartThree": false,
+    "ProcessedInPartFour": true,
+    "ProcessedInPartFive": true,
+    "ProcessedInFanbooks": true,
+    "ProcessedInHannelore": true,
+    "OCR": true,
+    "Chapters": [],
+    "POVChapters": [],
+    "MangaChapters": [],
+    "BonusChapters": [
+      {
+        "OCR": {
+          "Corrections": [
+            {
+              "Original": "\"Oh, what a wondrous sight",
+              "Replacement": "“Oh, what a wondrous sight"
+            },
+            {
+              "Original": "Lady Rozemyne’s blessings—",
+              "Replacement": "Lady Rozemyne’s blessings—”"
+            },
+            {
+              "Original": "Third- years",
+              "Replacement": "Third-years"
+            },
+            {
+              "Original": "Or maybe your attitude",
+              "Replacement": "Or maybe <i>your</i> attitude"
+            },
+            {
+              "Original": "three years—three.",
+              "Replacement": "three years—<i>three</i>."
+            },
+            {
+              "Original": "But it’s thanks to Lady Rozemyne that all the first- years passed, and that written grades are up across the board.",
+              "Replacement": "<i>But it’s thanks to Lady Rozemyne that all the first-years passed, and that written grades are up across the board.</i>"
+            },
+            {
+              "Original": "wife— in",
+              "Replacement": "wife—in"
+            }
+          ],
+          "Italics": [
+            {
+              "Start": "majesty!",
+              "End": "majesty!"
+            },
+            {
+              "Start": "How foolish can one man be?!",
+              "End": "How foolish can one man be?!"
+            },
+            {
+              "Start": "Why does only Lady Rozemyne’s mana create such spectacles?",
+              "End": "Why does only Lady Rozemyne’s mana create such spectacles?"
+            },
+            {
+              "Start": "Should she become the next aub, Ehrenfest’s future will improve dramatically.",
+              "End": "Should she become the next aub, Ehrenfest’s future will improve dramatically."
+            },
+            {
+              "Start": "How can she not want to rule?",
+              "End": "How can she not want to rule?"
+            },
+            {
+              "Start": "Is it not despicable to deny an archduke candidate the right to strive to be the next aub?",
+              "End": "Is it not despicable to deny an archduke candidate the right to strive to be the next aub?"
+            },
+            {
+              "Start": "If my lady would only voice her desire, I would do everything to make it a reality.",
+              "End": "If my lady would only voice her desire, I would do everything to make it a reality."
+            },
+            {
+              "Start": "How troubling...",
+              "End": "How troubling..."
+            },
+            {
+              "Start": "Hmm... For once, I might actually have a challenge on my hands.",
+              "End": "Hmm... For once, I might actually have a challenge on my hands."
+            }
+          ],
+          "Header": null,
+          "Crop": true,
+          "HeaderLines": 1
+        },
+        "OverrideName": "As Lady Rozemyne's Retainer",
+        "POV": "Hartmut",
+        "Source": "M4V4 Written Bonus",
+        "EarlySortOrder": "040128",
+        "LateSortOrder": "04019608",
+        "EarlyYear": 6,
+        "LateYear": 6,
+        "EarlySeason": "Winter",
+        "LateSeason": "Winter",
+        "OriginalFilenames": [
+          "164",
+          "165",
+          "166",
+          "167",
+          "168",
+          "169",
+          "170",
+          "171",
+          "172"
+        ],
+        "ChapterName": "As Lady Rozemyne's Retainer",
+        "SortOrder": "",
+        "Year": 0,
+        "Season": "",
+        "Volume": "0401",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartOne": false,
+        "ProcessedInPartTwo": false,
+        "ProcessedInPartThree": false,
+        "ProcessedInPartFour": true,
+        "ProcessedInPartFive": false,
+        "ProcessedInFanbooks": false,
+        "ProcessedInHannelore": false,
+        "StartLine": null,
+        "EndLine": null
+      }
+    ],
+    "ComfyLifeChapter": null,
+    "Afterword": null,
+    "Gallery": null,
+    "CharacterSheet": null,
+    "Maps": [
+      {
+        "OriginalFilenames": [
+          "176",
+          "177"
+        ],
+        "ChapterName": "Other Archduke Candidates",
+        "SortOrder": "14",
+        "Year": 0,
+        "Season": "",
+        "Volume": "",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartOne": false,
+        "ProcessedInPartTwo": false,
+        "ProcessedInPartThree": false,
+        "ProcessedInPartFour": true,
+        "ProcessedInPartFive": true,
+        "ProcessedInFanbooks": true,
+        "ProcessedInHannelore": true,
+        "StartLine": null,
+        "EndLine": null
+      }
+    ],
+    "CharacterPoll": null
   }
 ]
