@@ -28,6 +28,6 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="CefSharp.Wpf.NETCore" Version="134.3.90" />
-    <PackageReference Include="SixLabors.ImageSharp" Version="3.1.7" />
+    <PackageReference Include="SixLabors.ImageSharp" Version="3.1.11" />
   </ItemGroup>
 </Project>
