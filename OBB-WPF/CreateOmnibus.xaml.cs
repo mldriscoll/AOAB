@@ -127,8 +127,8 @@ namespace OBB_WPF
                 DisableHyphenProcessing = true
             };
             var outProcessor = new Processor();
-            inProcessor.UnpackFolder($"{inFolder}");
-            outProcessor.UnpackFolder($"{inFolder}");
+            await inProcessor.UnpackFolder($"{inFolder}");
+            await outProcessor.UnpackFolder($"{inFolder}");
             outProcessor.Chapters.Clear();
 
             if (series.Cover != null)

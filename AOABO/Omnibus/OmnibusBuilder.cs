@@ -121,8 +121,8 @@ namespace AOABO.Omnibus
             var outProcessor = new Processor();
             var inProcessor = new Processor();
 
-            inProcessor.UnpackFolder($"{inputFolder}\\inputtemp");
-            outProcessor.UnpackFolder($"{inputFolder}\\inputtemp");
+            await inProcessor.UnpackFolder($"{inputFolder}\\inputtemp");
+            await outProcessor.UnpackFolder($"{inputFolder}\\inputtemp");
             outProcessor.Chapters.Clear();
 
             IFolder folder = Configuration.Options.OutputYearFormat == 0 ? new YearNumberFolder() : new YearFolder();

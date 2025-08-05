@@ -301,104 +301,111 @@ namespace Core.Processor
 
         static Regex ImgRemover = new Regex("<img.*?\\/>");
 
-        public void UnpackFolder(string folder)
+        public async Task UnpackFolder(string folder)
         {
-            LoadCSS(folder);
+            await LoadCSS(folder);
 
             LoadImages(folder);
 
             LoadText(folder);
         }
 
-        private void LoadCSS(string folder)
+        private async Task LoadCSS(string folder)
         {
             var cssFiles = Directory.GetFiles(folder, "*.css", SearchOption.AllDirectories);
             var classStartRegex = new Regex("[A-Z,a-z,.]");
 
-            foreach (var f in cssFiles)
+            foreach(var f in cssFiles)
             {
-                var text = File.ReadAllText(f);
-                int start = -1;
-                int space = -1;
-                int open = -1;
-                for (int counter = 0; counter < text.Length; counter++)
+                var lines = (await File.ReadAllLinesAsync(f)).ToList();
+
+                bool classStarted = false;
+                int firstLine = 0;
+                int lastLine = 0;
+
+                for(int i = 0; i < lines.Count; i++)
                 {
-                    if (start == -1 && classStartRegex.IsMatch(text.Substring(counter, 1)))
+                    var line = lines[i];
+                    if (classStarted)
                     {
-                        start = counter;
-                    }
-
-                    if (start == -1) continue;
-
-                    if (open == -1 && text[counter].Equals(' '))
-                    {
-                        space = counter - 1;
-                    }
-
-                    if (space == -1) continue;
-
-                    if (open == -1 && text[counter].Equals('{'))
-                    {
-                        open = counter;
-                    }
-
-                    if (open == -1) continue;
-
-                    if (text[counter].Equals('}'))
-                    {
-                        var contents = text.Substring(open, counter - open + 1);
-                        var match = CSS.FirstOrDefault(x => x.Contents.Equals(contents));
-                        if (match != null)
+                        if (line.StartsWith('}'))
                         {
-                            match.OldNames.Add($"{f}:{text.Substring(start, space - start + 1)}");
-                        }
-                        else
-                        {
-                            var substring = text.Substring(start, space - start + 1);
+                            lastLine = i;
+                            var substring = lines.Skip(firstLine).Take(lastLine - firstLine + 1).Aggregate(string.Empty, (agg, str) => string.Concat(agg, str, "\r\n"));
+                            var firstOpen = substring.IndexOf('{');
+                            var lastClose = substring.LastIndexOf('}');
+                            var contents = substring.Substring(firstOpen, (lastClose - firstOpen + 1));
 
-                            if (substring.StartsWith('.'))
+                            var name = substring.Substring(0, firstOpen).TrimEnd();
+                            if (name.EndsWith('{'))
                             {
-                                var newCSS = new CSS
-                                {
-                                    Contents = contents,
-                                    Name = $".Style{CSS.Count}",
-                                    OldNames = new List<string>
-                                    {
-                                    $"{f}:{substring}"
-                                    }
-                                };
+                                name = name.Replace("{", string.Empty).TrimEnd();
+                            }
 
-                                CSS.Add(newCSS);
+                            var match = CSS.FirstOrDefault(x => x.Contents.Equals(contents));
+                            if (match != null)
+                            {
+                                match.OldNames.Add($"{f}:{name}");
                             }
                             else
                             {
-                                // Exclude the p { display: none; } entries from the AOAB Manga
-                                if (string.Equals(substring, "p") && contents.Contains("display: none;")){
-
-                                }
-                                else if (substring.Contains("UTF-8"))
+                                if (substring.StartsWith('.'))
                                 {
-
-                                }
-                                else {
                                     var newCSS = new CSS
                                     {
                                         Contents = contents,
-                                        Name = substring,
+                                        Name = $".Style{CSS.Count}",
                                         OldNames = new List<string>
-                                    {
-                                    $"{f}:{substring}"
-                                    }
+                                        {
+                                        $"{f}:{name}"
+                                        }
                                     };
 
                                     CSS.Add(newCSS);
-                                } 
-                            }
-                        }
+                                }
+                                else
+                                {
+                                    // Exclude the p { display: none; } entries from the AOAB Manga
+                                    if (string.Equals(substring, "p") && contents.Contains("display: none;"))
+                                    {
 
-                        start = -1;
-                        space = -1;
-                        open = -1;
+                                    }
+                                    else if (substring.Contains("UTF-8"))
+                                    {
+
+                                    }
+                                    else
+                                    {
+                                        var newCSS = new CSS
+                                        {
+                                            Contents = contents,
+                                            Name = name,
+                                            OldNames =
+                                            [
+                                            $"{f}:{name}"
+                                            ]
+                                        };
+
+                                        CSS.Add(newCSS);
+                                    }
+                                }
+                            }
+                            classStarted = false;
+                            firstLine = 0;
+                            lastLine = 0;
+                        }
+                    }
+                    else
+                    {
+                        if (!string.IsNullOrWhiteSpace(line))
+                        {
+                            if (line.StartsWith("p"))
+                            {
+
+                            }
+                            firstLine = i;
+                            classStarted = true;
+                        }
                     }
                 }
             }
@@ -521,7 +528,7 @@ namespace Core.Processor
 
                     if (css != null)
                     {
-                        CssClassReplacements.Add(new Tuple<string, string>(name, css.Name));
+                        CssClassReplacements.Add(new Tuple<string, string>(name, css.ReplacementName));
                     }
                 }
             }

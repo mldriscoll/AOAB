@@ -138,8 +138,8 @@ namespace OBB
                     DisableHyphenProcessing = true
                 };
                 var outProcessor = new Processor();
-                inProcessor.UnpackFolder($"{inFolder}\\inputtemp");
-                outProcessor.UnpackFolder($"{inFolder}\\inputtemp");
+                await inProcessor.UnpackFolder($"{inFolder}\\inputtemp");
+                await outProcessor.UnpackFolder($"{inFolder}\\inputtemp");
                 outProcessor.Chapters.Clear();
 
                 var volumes = await JSONBuilder.GetVolumes(selection.InternalName);
