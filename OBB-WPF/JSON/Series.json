@@ -21156,7 +21156,9 @@
         "ApiSlug": "the-apothecary-diaries-volume-15",
         "FileName": "the-apothecary-diaries-volume-15.epub",
         "Title": "",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2025-09-12",
         "Order": 115
       }
