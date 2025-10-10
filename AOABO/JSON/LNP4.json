@@ -756,7 +756,7 @@
           "chapter1"
         ],
         "ChapterName": "Meeting for the Tea Party",
-        "SortOrder": "040203",
+        "SortOrder": "040204",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0402",
@@ -779,7 +779,7 @@
           "chapter2_1"
         ],
         "ChapterName": "Onward to the Library",
-        "SortOrder": "040204",
+        "SortOrder": "040205",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0402",
@@ -800,7 +800,7 @@
           "chapter3"
         ],
         "ChapterName": "I Want to Found the Library Committee",
-        "SortOrder": "040205",
+        "SortOrder": "040206",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0402",
@@ -821,7 +821,7 @@
           "chapter4"
         ],
         "ChapterName": "Preparing a Tea Party for Solange",
-        "SortOrder": "040207",
+        "SortOrder": "040208",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0402",
@@ -844,7 +844,7 @@
           "chapter5_1"
         ],
         "ChapterName": "My First Tea Party at the Royal Academy",
-        "SortOrder": "040208",
+        "SortOrder": "040209",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0402",
@@ -867,7 +867,7 @@
           "chapter6_1"
         ],
         "ChapterName": "Tea Party with the Music Professors",
-        "SortOrder": "040210",
+        "SortOrder": "040211",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0402",
@@ -888,7 +888,7 @@
           "chapter7"
         ],
         "ChapterName": "Measuring Schwartz and Weiss",
-        "SortOrder": "040211",
+        "SortOrder": "040212",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0402",
@@ -911,7 +911,7 @@
           "chapter8_1"
         ],
         "ChapterName": "The Battle for Schwartz and Weiss",
-        "SortOrder": "040212",
+        "SortOrder": "040213",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0402",
@@ -934,7 +934,7 @@
           "chapter9_1"
         ],
         "ChapterName": "Treasure-Stealing Ditter",
-        "SortOrder": "040213",
+        "SortOrder": "040214",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0402",
@@ -955,7 +955,7 @@
           "chapter10"
         ],
         "ChapterName": "The Prince's Summons",
-        "SortOrder": "040214",
+        "SortOrder": "040215",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0402",
@@ -978,7 +978,7 @@
           "chapter11_1"
         ],
         "ChapterName": "Rihyarda's Wrath",
-        "SortOrder": "040218",
+        "SortOrder": "040219",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0402",
@@ -999,7 +999,7 @@
           "chapter12"
         ],
         "ChapterName": "Traugott's Thoughts",
-        "SortOrder": "040219",
+        "SortOrder": "040220",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0402",
@@ -1020,7 +1020,7 @@
           "chapter13"
         ],
         "ChapterName": "A Tea Party with Eglantine",
-        "SortOrder": "040220",
+        "SortOrder": "040221",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0402",
@@ -1043,7 +1043,7 @@
           "chapter14_1"
         ],
         "ChapterName": "Reporting to the Prince",
-        "SortOrder": "040221",
+        "SortOrder": "040222",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0402",
@@ -1066,7 +1066,7 @@
           "chapter15_1"
         ],
         "ChapterName": "An Order to Return to Ehrenfest",
-        "SortOrder": "040224",
+        "SortOrder": "040225",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0402",
@@ -1089,7 +1089,7 @@
           "chapter16_1"
         ],
         "ChapterName": "Interrogation",
-        "SortOrder": "040225",
+        "SortOrder": "040226",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0402",
@@ -1110,7 +1110,7 @@
           "chapter17"
         ],
         "ChapterName": "Returning to the Temple",
-        "SortOrder": "040227",
+        "SortOrder": "040228",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0402",
@@ -1131,7 +1131,7 @@
           "chapter18"
         ],
         "ChapterName": "Ferdinand and Hirschur's Gifts",
-        "SortOrder": "040228",
+        "SortOrder": "040229",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0402",
@@ -1152,7 +1152,7 @@
           "chapter19"
         ],
         "ChapterName": "The Summoned Merchants",
-        "SortOrder": "040230",
+        "SortOrder": "040231",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0402",
@@ -1199,7 +1199,7 @@
           "insert10"
         ],
         "ChapterName": "Epilogue",
-        "SortOrder": "040231",
+        "SortOrder": "040232",
         "Year": 6,
         "Season": "Winter",
         "Volume": "0402",
@@ -1223,8 +1223,8 @@
         "OverrideName": "",
         "POV": "Anastasius",
         "Source": "P4V2 Extra 1",
-        "EarlySortOrder": "040222",
-        "LateSortOrder": "04029606",
+        "EarlySortOrder": "040223",
+        "LateSortOrder": "04029607",
         "EarlyYear": 6,
         "LateYear": 6,
         "EarlySeason": "Winter",
@@ -1254,8 +1254,8 @@
         "OverrideName": "",
         "POV": "Leonore",
         "Source": "P4V2 Extra 2",
-        "EarlySortOrder": "040229",
-        "LateSortOrder": "04029609",
+        "EarlySortOrder": "040230",
+        "LateSortOrder": "04029610",
         "EarlyYear": 6,
         "LateYear": 6,
         "EarlySeason": "Winter",
@@ -1287,7 +1287,7 @@
         "manga2"
       ],
       "ChapterName": "Comfy Life 402",
-      "SortOrder": "040233",
+      "SortOrder": "040234",
       "Year": 6,
       "Season": "Winter",
       "Volume": "0402",

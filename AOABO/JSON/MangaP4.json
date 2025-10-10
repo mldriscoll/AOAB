@@ -612,5 +612,149 @@
     "CharacterSheet": null,
     "Maps": [],
     "CharacterPoll": null
+  },
+  {
+    "InternalName": "M0405",
+    "ProcessedInPartOne": false,
+    "ProcessedInPartTwo": false,
+    "ProcessedInPartThree": false,
+    "ProcessedInPartFour": true,
+    "ProcessedInPartFive": true,
+    "ProcessedInFanbooks": true,
+    "ProcessedInHannelore": true,
+    "OCR": true,
+    "Chapters": [
+      {
+        "OriginalFilenames": [
+          "176",
+          "177"
+        ],
+        "ChapterName": "Former Veronica Faction",
+        "SortOrder": "Char06",
+        "Year": 6,
+        "Season": "Winter",
+        "Volume": "Char",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartOne": false,
+        "ProcessedInPartTwo": false,
+        "ProcessedInPartThree": false,
+        "ProcessedInPartFour": true,
+        "ProcessedInPartFive": true,
+        "ProcessedInFanbooks": true,
+        "ProcessedInHannelore": true,
+        "StartLine": null,
+        "EndLine": null
+      }
+    ],
+    "POVChapters": [],
+    "MangaChapters": [],
+    "BonusChapters": [
+      {
+        "OCR": {
+          "Corrections": [
+            {
+              "Original": "<p>“I suspect she is,” </p>\r\n<p>I said.",
+              "Replacement": "<p>“I suspect she is,” I said."
+            },
+            {
+              "Original": " “Really?” I said, blinking. ",
+              "Replacement": "</p><p>“Really?” I said, blinking.</p><p>"
+            },
+            {
+              "Original": "times. “Aside",
+              "Replacement": "times.</p><p>“Aside"
+            },
+            {
+              "Original": "<p>see...\" </p>\r\n<p>I",
+              "Replacement": "<p>“I see...” I"
+            },
+            {
+              "Original": "thing.” “If she ",
+              "Replacement": "thing.”</p><p>“If she "
+            },
+            {
+              "Original": "problematic.” Erkardt,",
+              "Replacement": "problematic.”</p><p>Erkardt,"
+            },
+            {
+              "Original": "and research.” “Should we",
+              "Replacement": "and research.”</p><p>“Should we"
+            },
+            {
+              "Original": "well- meaning",
+              "Replacement": "well-meaning"
+            },
+            {
+              "Original": "speaking to anyone from another",
+              "Replacement": "speaking to <i>anyone</i> from another"
+            }
+          ],
+          "Italics": [
+            {
+              "Start": "She’s even smaller than I remember.",
+              "End": "She’s even smaller than I remember."
+            },
+            {
+              "Start": "But what actually happened couldn’t have been more different.",
+              "End": "But what actually happened couldn’t have been more different."
+            },
+            {
+              "Start": "And they’re... praising me.",
+              "End": "And they’re... praising me."
+            },
+            {
+              "Start": "So, I’m a better lord for listening to my retainers, am I?",
+              "End": "So, I’m a better lord for listening to my retainers, am I?"
+            }
+          ],
+          "Header": null,
+          "Crop": true,
+          "HeaderLines": 1
+        },
+        "OverrideName": "An Update on Rozemyne's Classes",
+        "POV": "Wilfried",
+        "Source": "M4V5 Written Bonus",
+        "EarlySortOrder": "040203",
+        "LateSortOrder": "04029601",
+        "EarlyYear": 6,
+        "LateYear": 6,
+        "EarlySeason": "Winter",
+        "LateSeason": "Winter",
+        "OriginalFilenames": [
+          "164",
+          "165",
+          "166",
+          "167",
+          "168",
+          "169",
+          "170",
+          "171",
+          "172"
+        ],
+        "ChapterName": "An Update on Rozemyne's Classes",
+        "SortOrder": "",
+        "Year": 0,
+        "Season": "",
+        "Volume": "0402",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartOne": false,
+        "ProcessedInPartTwo": false,
+        "ProcessedInPartThree": false,
+        "ProcessedInPartFour": true,
+        "ProcessedInPartFive": false,
+        "ProcessedInFanbooks": false,
+        "ProcessedInHannelore": false,
+        "StartLine": null,
+        "EndLine": null
+      }
+    ],
+    "ComfyLifeChapter": null,
+    "Afterword": null,
+    "Gallery": null,
+    "CharacterSheet": null,
+    "Maps": [],
+    "CharacterPoll": null
   }
 ]
