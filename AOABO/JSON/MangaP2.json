@@ -1147,7 +1147,7 @@
         "177"
       ],
       "ChapterName": "Comfy Life M208",
-      "SortOrder": "020329",
+      "SortOrder": "020330",
       "Year": 2,
       "Season": "Spring",
       "Volume": "0203",
@@ -1349,7 +1349,144 @@
         "169"
       ],
       "ChapterName": "Comfy Life M209",
-      "SortOrder": "020330",
+      "SortOrder": "020331",
+      "Year": 2,
+      "Season": "Spring",
+      "Volume": "0203",
+      "Set": "",
+      "Priority": 0,
+      "ProcessedInPartOne": false,
+      "ProcessedInPartTwo": true,
+      "ProcessedInPartThree": false,
+      "ProcessedInPartFour": false,
+      "ProcessedInPartFive": false,
+      "ProcessedInFanbooks": false,
+      "ProcessedInHannelore": false,
+      "StartLine": null,
+      "EndLine": null
+    },
+    "Afterword": null,
+    "Gallery": null,
+    "CharacterSheet": null,
+    "Maps": [],
+    "CharacterPoll": null
+  },
+  {
+    "InternalName": "M0210",
+    "ProcessedInPartOne": false,
+    "ProcessedInPartTwo": true,
+    "ProcessedInPartThree": false,
+    "ProcessedInPartFour": false,
+    "ProcessedInPartFive": false,
+    "ProcessedInFanbooks": false,
+    "ProcessedInHannelore": false,
+    "OCR": true,
+    "Chapters": [],
+    "POVChapters": [],
+    "MangaChapters": [],
+    "BonusChapters": [
+      {
+        "OCR": {
+          "Corrections": [
+            {
+              "Original": "soon?” I, Rosina",
+              "Replacement": "soon?”</p><p>I, Rosina"
+            },
+            {
+              "Original": "beasts,” </p>\r\n<p>said Hugo",
+              "Replacement": "beasts,” said Hugo"
+            },
+            {
+              "Original": "get out together.” The pair grimaced",
+              "Replacement": "get out together.”</p><p>The pair grimaced"
+            },
+            {
+              "Original": "lhough, apparently, it was out of malice that the High Bishop instructed her to circle the provinces.",
+              "Replacement": "<i>Though, apparently, it was out of malice that the High Bishop instructed her to circle the provinces.</i>"
+            },
+            {
+              "Original": "Personally, I think it would have made more sense for them to share Sister Myne’s burden rather than merely tag along as potential replacements. Even if they had wanted to err on the side of caution, the High Priest alone would have suffced.",
+              "Replacement": "<i>Personally, I think it would have made more sense for them to share Sister Myne’s burden rather than merely tag along as potential replacements. Even if they had wanted to err on the side of caution, the High Priest alone would have sufficed.</i>"
+            },
+            {
+              "Original": "Yes, Sister Myne petitioned him, but he didn’t grant her this favor until the very last moment, and the addition of a random blue priest to our party makes the situation all the more suspicious. 7he High Priest must be planning something.",
+              "Replacement": "<i>Yes, Sister Myne petitioned him, but he didn’t grant her this favor until the very last moment, and the addition of a random blue priest to our party makes the situation all the more suspicious. The High Priest must be planning something.</i>"
+            },
+            {
+              "Original": "Tae average blue priest or shrine maiden would have many more attendants, so the chefs wouldn’t actually ride with them. Not that Sister Myne seems to know that.",
+              "Replacement": "<i>The average blue priest or shrine maiden would have many more attendants, so the chefs wouldn’t actually ride with them. Not that Sister Myne seems to know that.</i>"
+            },
+            {
+              "Original": "she’s a nice WHOA!",
+              "Replacement": "she’s a nice—WHOA!"
+            },
+            {
+              "Original": "the others' attention,",
+              "Replacement": "the others’ attention,"
+            },
+            {
+              "Original": "\"We were scheduled to reunite soon, anyway.",
+              "Replacement": "“We were scheduled to reunite soon, anyway.”"
+            },
+            {
+              "Original": "front ofa man",
+              "Replacement": "front of a man"
+            }
+          ],
+          "Italics": [
+            {
+              "Start": "You need not worry about us when you’re in such a dire state yourself!",
+              "End": "You need not worry about us when you’re in such a dire state yourself!"
+            }
+          ],
+          "Header": null,
+          "Crop": false,
+          "HeaderLines": 1
+        },
+        "OverrideName": "The Ambush and the Charm",
+        "POV": "Rosina",
+        "Source": "M0210",
+        "EarlySortOrder": "020323",
+        "LateSortOrder": "02039605",
+        "EarlyYear": 2,
+        "LateYear": 0,
+        "EarlySeason": "Spring",
+        "LateSeason": "",
+        "OriginalFilenames": [
+          "156",
+          "157",
+          "158",
+          "159",
+          "160",
+          "161",
+          "162",
+          "163"
+        ],
+        "ChapterName": "The Ambush and the Charm",
+        "SortOrder": "020322x",
+        "Year": 2,
+        "Season": "Spring",
+        "Volume": "0203",
+        "Set": "",
+        "Priority": 0,
+        "ProcessedInPartOne": false,
+        "ProcessedInPartTwo": true,
+        "ProcessedInPartThree": false,
+        "ProcessedInPartFour": false,
+        "ProcessedInPartFive": false,
+        "ProcessedInFanbooks": false,
+        "ProcessedInHannelore": false,
+        "StartLine": null,
+        "EndLine": null
+      }
+    ],
+    "ComfyLifeChapter": {
+      "OriginalFilenames": [
+        "166",
+        "167"
+      ],
+      "ChapterName": "Comfy Life M210",
+      "SortOrder": "020332",
       "Year": 2,
       "Season": "Spring",
       "Volume": "0203",

@@ -1835,7 +1835,7 @@
           "chapter17"
         ],
         "ChapterName": "The Wild and Uncontrollable Blue Priest",
-        "SortOrder": "020323",
+        "SortOrder": "020324",
         "Year": 2,
         "Season": "Spring",
         "Volume": "0203",
@@ -1858,7 +1858,7 @@
           "chapter18_1"
         ],
         "ChapterName": "Visit to the Orphanage and Workshop",
-        "SortOrder": "020324",
+        "SortOrder": "020325",
         "Year": 2,
         "Season": "Spring",
         "Volume": "0203",
@@ -1879,7 +1879,7 @@
           "chapter19"
         ],
         "ChapterName": "Talking with the High Priest and Returning Home",
-        "SortOrder": "020326",
+        "SortOrder": "020327",
         "Year": 2,
         "Season": "Spring",
         "Volume": "0203",
@@ -1902,7 +1902,7 @@
           "chapter20_1"
         ],
         "ChapterName": "A New Member of the Family",
-        "SortOrder": "020327",
+        "SortOrder": "020328",
         "Year": 2,
         "Season": "Spring",
         "Volume": "0203",
@@ -1948,7 +1948,7 @@
           "epilogue"
         ],
         "ChapterName": "Epilogue",
-        "SortOrder": "020328",
+        "SortOrder": "020329",
         "Year": 2,
         "Season": "Spring",
         "Volume": "0203",
@@ -2738,8 +2738,8 @@
         "OverrideName": "",
         "POV": "Leon",
         "Source": "P2V4 Extra 8",
-        "EarlySortOrder": "020325",
-        "LateSortOrder": "02039605",
+        "EarlySortOrder": "020326",
+        "LateSortOrder": "02039606",
         "EarlyYear": 2,
         "LateYear": 2,
         "EarlySeason": "Spring",
