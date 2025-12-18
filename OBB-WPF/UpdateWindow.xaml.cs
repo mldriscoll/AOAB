@@ -93,8 +93,7 @@ namespace OBB_WPF
                     var list = arg.List;
                     int c = 0;
 
-                    foreach (var serie in list.series.Where(x => x.type!.Equals("manga", StringComparison.InvariantCultureIgnoreCase)
-                                                                || !x.title!.Contains("ascendance of a bookworm", StringComparison.InvariantCultureIgnoreCase)))
+                    foreach (var serie in list.series)
                     {
                         c++;
                         (sender as BackgroundWorker)!.ReportProgress(c, serie.title);

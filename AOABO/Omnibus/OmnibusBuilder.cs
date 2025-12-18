@@ -1,8 +1,17 @@
 ﻿using AOABO.Chapters;
 using AOABO.Config;
 using Core.Processor;
+using SixLabors.ImageSharp;
+using SixLabors.ImageSharp.PixelFormats;
+using SixLabors.ImageSharp.Processing;
+using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.IO.Compression;
+using System.Runtime.Serialization.Json;
+using System.Text.Json.Serialization;
 using System.Text.RegularExpressions;
+using static AOABO.Config.VolumeOptions;
+using Configuration = AOABO.Config.Configuration;
 
 namespace AOABO.Omnibus
 {
@@ -102,13 +111,13 @@ namespace AOABO.Omnibus
                     var volume = Configuration.Volumes.FirstOrDefault(x => x.InternalName.Equals(vol.InternalName));
                     if (volume == null) continue;
 
-                    if ((partScope == PartToProcess.PartOne && !volume.ProcessedInPartOne)
-                        || (partScope == PartToProcess.PartTwo && !volume.ProcessedInPartTwo)
-                        || (partScope == PartToProcess.PartThree && !volume.ProcessedInPartThree)
-                        || (partScope == PartToProcess.PartFour && !volume.ProcessedInPartFour)
-                        || (partScope == PartToProcess.PartFive && !volume.ProcessedInPartFive)
-                        || (partScope == PartToProcess.Fanbooks && !volume.ProcessedInFanbooks)
-                        || (partScope == PartToProcess.Hannelore && !volume.ProcessedInHannelore)) continue;
+                    //if ((partScope == PartToProcess.PartOne && !volume.ProcessedInPartOne)
+                    //    || (partScope == PartToProcess.PartTwo && !volume.ProcessedInPartTwo)
+                    //    || (partScope == PartToProcess.PartThree && !volume.ProcessedInPartThree)
+                    //    || (partScope == PartToProcess.PartFour && !volume.ProcessedInPartFour)
+                    //    || (partScope == PartToProcess.PartFive && !volume.ProcessedInPartFive)
+                    //    || (partScope == PartToProcess.Fanbooks && !volume.ProcessedInFanbooks)
+                    //    || (partScope == PartToProcess.Hannelore && !volume.ProcessedInHannelore)) continue;
 
                     ZipFile.ExtractToDirectory(file, $"{inputFolder}\\inputtemp\\{volume.InternalName}");
                 }
@@ -121,6 +130,7 @@ namespace AOABO.Omnibus
             var outProcessor = new Processor();
             var inProcessor = new Processor();
 
+            inProcessor.DisableHyphenProcessing = true;
             await inProcessor.UnpackFolder($"{inputFolder}\\inputtemp");
             await outProcessor.UnpackFolder($"{inputFolder}\\inputtemp");
             outProcessor.Chapters.Clear();
@@ -131,160 +141,272 @@ namespace AOABO.Omnibus
             var povChapters = new List<Chapters.MoveableChapter>();
             var missingFiles = new List<string>();
 
-            foreach (var vol in Configuration.VolumeNames)
+
+
+            Omnibus omnibus;
+            using (var obStream = File.OpenRead("JSON\\ascendance-of-a-bookworm.json"))
+            {
+                var obSerializer = new DataContractJsonSerializer(typeof(Omnibus));
+                var obj = obSerializer.ReadObject(obStream) ?? throw new Exception("Failed to load Omnibus configuration");
+                omnibus = (Omnibus)obj;
+            }
+
+            if (partScope != PartToProcess.EntireSeries)
+            {
+                var parts = omnibus.Chapters.Where(x => x.CType == Chapter.ChapterType.Part).ToArray();
+                foreach(var part in parts)
+                {
+                    if (partScope == PartToProcess.PartOne && part.Name.Equals("Daughter of a Soldier")) continue;
+
+                    omnibus.Chapters.Remove(part);
+                }
+            }
+
+            switch (Configuration.Options.OutputStructure)
+            {
+                case OutputStructure.Parts:
+                case OutputStructure.Volumes:
+                case OutputStructure.Flat:
+                case OutputStructure.Seasons:
+                    break;
+            }
+
+            var flatChapterList = BuildChapterList(omnibus).ToArray();
+
+            foreach (var chapter in flatChapterList)
             {
                 try
                 {
-                    var file = vol.NameMatch(epubs);
-                    if (file == null)
+                    bool notFirst = false;
+                    var sources = BuildSourceList(chapter);
+                    var newChapter = new Core.Processor.Chapter
                     {
-                        missingFiles.Add(vol.FileName);
-                        continue;
-                    }
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine($"No file found that matches volume {vol.FileName}");
-                    Console.WriteLine(ex.Message);
-                    continue;
-                }
-                Volume? volume = null;
-                try
-                {
-                    volume = Configuration.Volumes.FirstOrDefault(x => x.InternalName.Equals(vol.InternalName));
-                    if (volume == null) continue;
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine($"No entry in Volumes.json found that matches internal name {vol.InternalName}");
-                    Console.WriteLine(ex.Message);
-                    continue;
-                }
+                        Contents = string.Empty,
+                        CssFiles = new List<string>(),
+                        Name = chapter.Name + ".xhtml",
+                        SubFolder = chapter.Subfolder,
+                        Set = string.Empty,
+                        Priority = 0
+                    };
+                    newChapter.SortOrder = chapter.SortOrder;
+                    outProcessor.Chapters.Add(newChapter);
 
-                if (partScope == PartToProcess.PartOne && !volume.ProcessedInPartOne
-                    || partScope == PartToProcess.PartTwo && !volume.ProcessedInPartTwo
-                    || partScope == PartToProcess.PartThree && !volume.ProcessedInPartThree
-                    || partScope == PartToProcess.PartFour && !volume.ProcessedInPartFour
-                    || partScope == PartToProcess.PartFive && !volume.ProcessedInPartFive
-                    || partScope == PartToProcess.Hannelore && !volume.ProcessedInHannelore) continue;
-
-                Console.WriteLine($"Processing book {volume.InternalName}");
-
-                List<Chapters.Chapter> chapters;
-                switch (partScope)
-                {
-                    case PartToProcess.PartOne:
-                        chapters = BuildChapterList(volume, c => c.ProcessedInPartOne);
-                        break;
-                    case PartToProcess.PartTwo:
-                        chapters = BuildChapterList(volume, c => c.ProcessedInPartTwo);
-                        break;
-                    case PartToProcess.PartThree:
-                        chapters = BuildChapterList(volume, c => c.ProcessedInPartThree);
-                        break;
-                    case PartToProcess.PartFour:
-                        chapters = BuildChapterList(volume, c => c.ProcessedInPartFour);
-                        break;
-                    case PartToProcess.PartFive:
-                        chapters = BuildChapterList(volume, c => c.ProcessedInPartFive);
-                        break;
-                    case PartToProcess.Fanbooks:
-                        chapters = BuildChapterList(volume, c => c.ProcessedInFanbooks);
-                        break;
-                    case PartToProcess.Hannelore:
-                        chapters = BuildChapterList(volume, c => c.ProcessedInHannelore);
-                        break;
-                    default:
-                        chapters = BuildChapterList(volume, c => true);
-                        break;
-                }
-
-                var inChapters = inProcessor.Chapters.Where(x => x.SubFolder.Contains(volume.InternalName)).ToList();
-                foreach (var chapter in chapters)
-                {
-
-                    try
+                    foreach (var chapterFile in sources)
                     {
-                        bool notFirst = false;
-                        var newChapter = new Core.Processor.Chapter
+                        try
                         {
-                            Contents = string.Empty,
-                            CssFiles = new List<string>(),
-                            Name = chapter.ChapterName + ".xhtml",
-                            SubFolder = folder.MakeFolder(chapter.GetSubFolder(Configuration.Options.OutputStructure), Configuration.Options.StartYear, chapter.Year),
-                            Set = chapter.Set,
-                            Priority = chapter.Priority
-                        };
-                        newChapter.SortOrder = chapter.SortOrder;
-                        outProcessor.Chapters.Add(newChapter);
+                            var entry = inProcessor.Chapters.FirstOrDefault(x => string.Equals(chapterFile.File, $"{x.SubFolder}\\{x.Name}.xhtml", StringComparison.InvariantCultureIgnoreCase))
+                                ?? inProcessor.Chapters.First(x => string.Equals(chapterFile.File, $"{x.SubFolder}\\p-{x.Name}.xhtml", StringComparison.InvariantCultureIgnoreCase));
+                            newChapter.CssFiles.AddRange(entry.CssFiles);
+                            var fileContent = entry.Contents;
 
-
-                        if (File.Exists($"{OverrideDirectory}{(chapter as MoveableChapter)?.OverrideName}.xhtml"))
-                        {
-                            newChapter.Contents = File.ReadAllText(OverrideDirectory + (chapter as MoveableChapter)?.OverrideName + ".xhtml");
-                        }
-                        else
-                        {
-                            foreach (var chapterFile in chapter.OriginalFilenames)
+                            if (notFirst)
                             {
-                                try
-                                {
-                                    var entry = inChapters.First(x => x.Name.Equals(chapterFile));
-                                    newChapter.CssFiles.AddRange(entry.CssFiles);
-                                    var fileContent = entry.Contents;
-
-                                    if (notFirst)
-                                    {
-                                        fileContent = fileContent.Replace("<body class=\"nomargin center\">", string.Empty).Replace("<body>", string.Empty);
-                                    }
-                                    else
-                                    {
-                                        notFirst = true;
-                                    }
-                                    newChapter.Contents = string.Concat(newChapter.Contents, fileContent.Replace("</body>", string.Empty));
-
-                                    entry.Processed = true;
-                                }
-                                catch (Exception ex)
-                                {
-                                    throw new Exception($"{ex.Message} while processing file {chapterFile}", ex);
-                                }
+                                fileContent = fileContent.Replace("<body class=\"nomargin center\">", string.Empty).Replace("<body>", string.Empty);
                             }
-                        }
+                            else
+                            {
+                                notFirst = true;
+                            }
 
-                        if (Configuration.Options.Chapter.UpdateChapterNames)
-                        {
-                            var match = chapterTitleRegex.Match(newChapter.Contents);
-                            if(match.Success)
-                                newChapter.Contents = newChapter.Contents.Replace(match.Value, $"<h1>{newChapter.Name}</h1>");
-                        }
-                        if (!string.IsNullOrWhiteSpace(chapter.StartLine))
-                        {
-                            var location = newChapter.Contents.IndexOf(chapter.StartLine);
-                            newChapter.Contents = newChapter.Contents.Substring(location).Replace(chapter.StartLine, $"<body><section><div><h1>{newChapter.Name}</h1>");
-                        }
+                            if (true && chapterFile.OtherSide != null && !string.IsNullOrWhiteSpace(chapterFile.OtherSide.File))
+                            {
+                                var left = inProcessor.Chapters.FirstOrDefault(x => string.Equals(chapterFile.OtherSide.File, $"{x.SubFolder}\\{x.Name}.xhtml", StringComparison.InvariantCultureIgnoreCase))
+                                    ?? inProcessor.Chapters.First(x => string.Equals(chapterFile.OtherSide.File, $"{x.SubFolder}\\p-{x.Name}.xhtml", StringComparison.InvariantCultureIgnoreCase));
 
-                        if (!string.IsNullOrWhiteSpace(chapter.EndLine))
-                        {
-                            var location = newChapter.Contents.IndexOf(chapter.EndLine);
-                            newChapter.Contents = newChapter.Contents.Substring(0, location);
+                                var imR = inProcessor.Images.FirstOrDefault(x => entry.Contents.Contains(x.Name));
+                                var imL = inProcessor.Images.FirstOrDefault(x => left.Contents.Contains(x.Name));
+
+                                var rightIm = await SixLabors.ImageSharp.Image.LoadAsync(imR.OldLocation);
+                                var leftIm = await SixLabors.ImageSharp.Image.LoadAsync(imL.OldLocation);
+
+                                var outputImage = new Image<Rgba32>(rightIm.Width + leftIm.Width, rightIm.Height);
+                                outputImage.Mutate(x => x
+                                    .DrawImage(leftIm, new Point(0, 0), 1f)
+                                    .DrawImage(rightIm, new Point(leftIm.Width, 0), 1f)
+                                    );
+
+                                await outputImage.SaveAsJpegAsync(imR.OldLocation + "combi");
+
+                                var widthRegex = new Regex("width=\"\\d*\"");
+                                entry.Contents = widthRegex.Replace(entry.Contents, string.Empty);
+                                var viewBoxRegex = new Regex("viewBox=\"[\\d ]*\"");
+                                entry.Contents = viewBoxRegex.Replace(entry.Contents, $"viewBox=\"0 0 {outputImage.Width} {outputImage.Height}\"");
+                            }
+
+                            newChapter.Contents = string.Concat(newChapter.Contents, fileContent.Replace("</body>", string.Empty));
+
+                            entry.Processed = true;
                         }
-                    }
-                    catch (Exception ex)
-                    {
-                        Console.WriteLine($"Error processing chapter {chapter.ChapterName} in book {vol.InternalName}");
-                        Console.WriteLine(ex.ToString());
+                        catch (Exception ex)
+                        {
+                            throw new Exception($"{ex.Message} while processing file {chapterFile}", ex);
+                        }
                     }
                 }
-
-                if (vol.OutputUnusedFiles)
+                catch (Exception)
                 {
-                    foreach (var entry in inChapters.Where(x => !x.Processed))
-                    {
-                        Console.WriteLine($"Unprocessed chapter {entry.Name}");
-                    }
                 }
             }
+
+
+            if (Configuration.Options.OutputStructure == OutputStructure.Volumes)
+
+            //foreach (var vol in Configuration.VolumeNames)
+            //{
+            //    try
+            //    {
+            //        var file = vol.NameMatch(epubs);
+            //        if (file == null)
+            //        {
+            //            missingFiles.Add(vol.FileName);
+            //            continue;
+            //        }
+            //    }
+            //    catch (Exception ex)
+            //    {
+            //        Console.WriteLine($"No file found that matches volume {vol.FileName}");
+            //        Console.WriteLine(ex.Message);
+            //        continue;
+            //    }
+
+            //    Volume? volume = null;
+            //    try
+            //    {
+            //        volume = Configuration.Volumes.FirstOrDefault(x => x.InternalName.Equals(vol.InternalName));
+            //        if (volume == null) continue;
+            //    }
+            //    catch (Exception ex)
+            //    {
+            //        Console.WriteLine($"No entry in Volumes.json found that matches internal name {vol.InternalName}");
+            //        Console.WriteLine(ex.Message);
+            //        continue;
+            //    }
+
+            //    if (partScope == PartToProcess.PartOne && !volume.ProcessedInPartOne
+            //        || partScope == PartToProcess.PartTwo && !volume.ProcessedInPartTwo
+            //        || partScope == PartToProcess.PartThree && !volume.ProcessedInPartThree
+            //        || partScope == PartToProcess.PartFour && !volume.ProcessedInPartFour
+            //        || partScope == PartToProcess.PartFive && !volume.ProcessedInPartFive
+            //        || partScope == PartToProcess.Hannelore && !volume.ProcessedInHannelore) continue;
+
+            //    Console.WriteLine($"Processing book {volume.InternalName}");
+
+            //    List<Chapters.Chapter> chapters;
+            //    switch (partScope)
+            //    {
+            //        case PartToProcess.PartOne:
+            //            chapters = BuildChapterList(volume, c => c.ProcessedInPartOne);
+            //            break;
+            //        case PartToProcess.PartTwo:
+            //            chapters = BuildChapterList(volume, c => c.ProcessedInPartTwo);
+            //            break;
+            //        case PartToProcess.PartThree:
+            //            chapters = BuildChapterList(volume, c => c.ProcessedInPartThree);
+            //            break;
+            //        case PartToProcess.PartFour:
+            //            chapters = BuildChapterList(volume, c => c.ProcessedInPartFour);
+            //            break;
+            //        case PartToProcess.PartFive:
+            //            chapters = BuildChapterList(volume, c => c.ProcessedInPartFive);
+            //            break;
+            //        case PartToProcess.Fanbooks:
+            //            chapters = BuildChapterList(volume, c => c.ProcessedInFanbooks);
+            //            break;
+            //        case PartToProcess.Hannelore:
+            //            chapters = BuildChapterList(volume, c => c.ProcessedInHannelore);
+            //            break;
+            //        default:
+            //            chapters = BuildChapterList(volume, c => true);
+            //            break;
+            //    }
+
+            //    var inChapters = inProcessor.Chapters.Where(x => x.SubFolder.Contains(volume.InternalName)).ToList();
+            //    foreach (var chapter in chapters)
+            //    {
+
+            //        try
+            //        {
+            //            bool notFirst = false;
+            //            var newChapter = new Core.Processor.Chapter
+            //            {
+            //                Contents = string.Empty,
+            //                CssFiles = new List<string>(),
+            //                Name = chapter.ChapterName + ".xhtml",
+            //                SubFolder = folder.MakeFolder(chapter.GetSubFolder(Configuration.Options.OutputStructure), Configuration.Options.StartYear, chapter.Year),
+            //                Set = chapter.Set,
+            //                Priority = chapter.Priority
+            //            };
+            //            newChapter.SortOrder = chapter.SortOrder;
+            //            outProcessor.Chapters.Add(newChapter);
+
+
+            //            if (File.Exists($"{OverrideDirectory}{(chapter as MoveableChapter)?.OverrideName}.xhtml"))
+            //            {
+            //                newChapter.Contents = File.ReadAllText(OverrideDirectory + (chapter as MoveableChapter)?.OverrideName + ".xhtml");
+            //            }
+            //            else
+            //            {
+            //                foreach (var chapterFile in chapter.OriginalFilenames)
+            //                {
+            //                    try
+            //                    {
+            //                        var entry = inChapters.First(x => x.Name.Equals(chapterFile));
+            //                        newChapter.CssFiles.AddRange(entry.CssFiles);
+            //                        var fileContent = entry.Contents;
+
+            //                        if (notFirst)
+            //                        {
+            //                            fileContent = fileContent.Replace("<body class=\"nomargin center\">", string.Empty).Replace("<body>", string.Empty);
+            //                        }
+            //                        else
+            //                        {
+            //                            notFirst = true;
+            //                        }
+            //                        newChapter.Contents = string.Concat(newChapter.Contents, fileContent.Replace("</body>", string.Empty));
+
+            //                        entry.Processed = true;
+            //                    }
+            //                    catch (Exception ex)
+            //                    {
+            //                        throw new Exception($"{ex.Message} while processing file {chapterFile}", ex);
+            //                    }
+            //                }
+            //            }
+
+            //            if (Configuration.Options.Chapter.UpdateChapterNames)
+            //            {
+            //                var match = chapterTitleRegex.Match(newChapter.Contents);
+            //                if(match.Success)
+            //                    newChapter.Contents = newChapter.Contents.Replace(match.Value, $"<h1>{newChapter.Name}</h1>");
+            //            }
+            //            if (!string.IsNullOrWhiteSpace(chapter.StartLine))
+            //            {
+            //                var location = newChapter.Contents.IndexOf(chapter.StartLine);
+            //                newChapter.Contents = newChapter.Contents.Substring(location).Replace(chapter.StartLine, $"<body><section><div><h1>{newChapter.Name}</h1>");
+            //            }
+
+            //            if (!string.IsNullOrWhiteSpace(chapter.EndLine))
+            //            {
+            //                var location = newChapter.Contents.IndexOf(chapter.EndLine);
+            //                newChapter.Contents = newChapter.Contents.Substring(0, location);
+            //            }
+            //        }
+            //        catch (Exception ex)
+            //        {
+            //            Console.WriteLine($"Error processing chapter {chapter.ChapterName} in book {vol.InternalName}");
+            //            Console.WriteLine(ex.ToString());
+            //        }
+            //    }
+
+            //    if (vol.OutputUnusedFiles)
+            //    {
+            //        foreach (var entry in inChapters.Where(x => !x.Processed))
+            //        {
+            //            Console.WriteLine($"Unprocessed chapter {entry.Name}");
+            //        }
+            //    }
+            ////}
 
             outProcessor.Metadata.Add("<meta name=\"cover\" content=\"images/cover.jpg\" />");
             outProcessor.Images.Add(new Core.Processor.Image { Name = "cover.jpg", Referenced = true, OldLocation = "cover.jpg" });
@@ -319,6 +441,51 @@ namespace AOABO.Omnibus
 
             Console.WriteLine($"\"{bookTitle}\" creation complete. Press any key to continue.");
             Console.ReadKey();
+        }
+
+        private static IEnumerable<Chapter> BuildChapterList(ChapterHolder ch)
+        {
+            foreach(var chapter in ch.Chapters)
+            {
+                yield return chapter;
+                foreach (var innerchap in BuildChapterList(chapter))
+                {
+                    if (string.IsNullOrWhiteSpace(innerchap.Subfolder))
+                    {
+                        innerchap.Subfolder = chapter.Name;
+                    }
+                    else
+                    {
+                        innerchap.Subfolder = string.Concat(chapter.Name, "\\", innerchap.Subfolder);
+                    }
+                    yield return innerchap;
+                }
+            }
+        }
+
+        private static IEnumerable<Source> BuildSourceList(Chapter ch)
+        {
+            foreach(var source in ch.Sources)
+            {
+                if ((source.OtherSide != null) && (!string.IsNullOrWhiteSpace(source.OtherSide.File)))
+                    source.OtherSide.File = AdjustSourceString(source.OtherSide.File);
+                
+                if (!string.IsNullOrWhiteSpace(source.File))
+                    source.File = AdjustSourceString(source.File);
+
+                yield return source;
+            }
+        }
+
+        private static string AdjustSourceString(string source)
+        {
+            foreach(var name in Configuration.VolumeNames)
+            {
+                if (source.Contains($"\\{name.ApiSlug}\\"))
+                    return source.Replace($"ascendance-of-a-bookworm\\{name.ApiSlug}\\", $"{name.InternalName}\\");
+            }
+
+            return source;
         }
 
         private static List<Chapters.Chapter> BuildChapterList(Volume volume, Func<Chapters.Chapter, bool> filter)
@@ -408,5 +575,266 @@ namespace AOABO.Omnibus
 
             return chapters;
         }
+    }
+
+
+    public class Omnibus : ChapterHolder
+    {
+        public Source? Cover { get; set; } = null;
+
+        public string Author { get; set; } = string.Empty;
+        public string AuthorSort { get; set; } = string.Empty;
+        public string Name { get; set; } = string.Empty;
+        public string InternalName { get; set; } = string.Empty;
+
+        public void Combine(Omnibus other)
+        {
+            foreach (var chapter in other.Chapters)
+            {
+                var match = Chapters.FirstOrDefault(x => x.Match(chapter));
+                if (match != null)
+                    match.Combine(chapter);
+                else
+                    Chapters.Add(chapter);
+
+            }
+        }
+
+        public void RemoveDupesFromUnusedList()
+        {
+            UnusedSources.Remove(Cover!);
+
+
+            foreach (var chapterList in Chapters.Select(x => x.FindDupes(UnusedSources.ToList())))
+            {
+                foreach (var source in chapterList)
+                {
+                    UnusedSources.Remove(source);
+                }
+            }
+
+            UnusedSources = new ObservableCollection<Source>(UnusedSources.Distinct());
+        }
+
+
+        public ObservableCollection<Source> UnusedSources { get; set; } = new ObservableCollection<Source>();
+    }
+
+
+    public abstract class ChapterHolder
+    {
+        public ObservableCollection<Chapter> Chapters { get; set; } = new ObservableCollection<Chapter>();
+        public void Remove(Chapter chapter)
+        {
+            Chapters.Remove(chapter);
+            foreach (var subchapter in Chapters)
+            {
+                subchapter.Remove(chapter);
+            }
+        }
+
+        public List<Source> AllSources(string prefix)
+        {
+            var sources = new List<Source>();
+            foreach (var chapter in Chapters)
+            {
+                sources.AddRange(chapter.Sources.Where(x => x.File.StartsWith(prefix, StringComparison.InvariantCultureIgnoreCase)));
+                foreach (var s in sources)
+                {
+                    chapter.Sources.Remove(s);
+                }
+                sources.AddRange(chapter.AllSources(prefix));
+            }
+            return sources;
+        }
+
+        public void RemoveEmpties()
+        {
+            foreach (var chapter in Chapters)
+            {
+                chapter.RemoveEmpties();
+            }
+
+            Chapters = new ObservableCollection<Chapter>(Chapters.Where(x => x.Sources.Any() || x.Chapters.Any()));
+        }
+
+        public void Sort()
+        {
+            var c = Chapters.OrderBy(x => x.SortOrder).ToList();
+            foreach (var chapter in c)
+            {
+                Chapters.Remove(chapter);
+                Chapters.Add(chapter);
+            }
+
+            foreach (var chapter in Chapters)
+            {
+                var sources = chapter.Sources.Where(x => x != null).OrderBy(x => x.SortOrder).ToList();
+                chapter.Sources.Clear();
+                foreach (var s in sources) chapter.Sources.Add(s);
+                chapter.Sort();
+            }
+        }
+    }
+
+    public class Chapter : ChapterHolder, INotifyPropertyChanged
+    {
+        public enum ChapterType
+        {
+            Part,
+            Volume,
+            Story,
+            Bonus,
+            NonStory
+        }
+
+        public ChapterType CType { get; set; } = ChapterType.Story;
+        public string ChapType
+        {
+            get { return CType.ToString(); }
+            set
+            {
+                CType = (ChapterType)Enum.Parse(typeof(ChapterType), value);
+                if (PropertyChanged != null)
+                    PropertyChanged(this, new PropertyChangedEventArgs("ChapType"));
+            }
+        }
+
+        private string _name = String.Empty;
+        public string Name
+        {
+            get { return _name; }
+            set
+            {
+                _name = value;
+                if (PropertyChanged != null)
+                    PropertyChanged(this, new PropertyChangedEventArgs("Name"));
+            }
+        }
+        private string _sortOrder = string.Empty;
+
+        public event PropertyChangedEventHandler? PropertyChanged;
+
+        public string SortOrder
+        {
+            get { return _sortOrder; }
+            set
+            {
+                _sortOrder = value;
+                if (PropertyChanged != null)
+                    PropertyChanged(this, new PropertyChangedEventArgs("SortOrder"));
+            }
+        }
+        public ObservableCollection<Source> Sources { get; set; } = new ObservableCollection<Source> { };
+
+        public ObservableCollection<Link> LinkedChapters { get; set; } = new ObservableCollection<Link>();
+
+        public string EndsBeforeLine { get; set; } = string.Empty;
+        public string StartsAtLine { get; set; } = string.Empty;
+
+        public List<SubSection> SubSections { get; set; } = new List<SubSection> { };
+
+        public class SubSection
+        {
+            public int StartsAtIndex { get; set; }
+            public string StartsAtLine { get; set; } = string.Empty;
+            public int EndsAtIndex { get; set; }
+            public string EndsAtLine { get; set; } = string.Empty;
+        }
+
+
+
+        public bool Match(Chapter other)
+        {
+            return other.Name.Equals(Name, StringComparison.InvariantCultureIgnoreCase)
+                && other.SortOrder.Equals(SortOrder, StringComparison.InvariantCultureIgnoreCase);
+        }
+
+        public void Combine(Chapter other)
+        {
+            foreach (var newSource in other.Sources)
+            {
+                Sources.Add(newSource);
+            }
+            foreach (var chapter in other.Chapters)
+            {
+                var match = Chapters.FirstOrDefault(x => x.Match(chapter));
+                if (match != null)
+                    match.Combine(chapter);
+                else
+                    Chapters.Add(chapter);
+            }
+        }
+
+        public List<Source> FindDupes(List<Source> sourceList)
+        {
+            var ret = new List<Source>();
+            foreach (var s in sourceList)
+            {
+                if (Sources.Contains(s))
+                {
+                    ret.Add(s);
+                }
+            }
+
+            foreach (var chapter in Chapters)
+            {
+                ret.AddRange(chapter.FindDupes(sourceList));
+            }
+            return ret;
+        }
+
+        public string Subfolder { get; set; } = string.Empty;
+    }
+    public class Source : INotifyPropertyChanged
+    {
+        public event PropertyChangedEventHandler? PropertyChanged;
+        public string File { get; set; } = string.Empty;
+
+        public ObservableCollection<string> Alternates { get; set; } = new ObservableCollection<string>();
+
+        public Source? OtherSide { get; set; } = null;
+
+        public string SortOrder { get; set; } = string.Empty;
+
+        [JsonIgnore]
+        public string LeftURI
+        {
+            set
+            {
+                if (PropertyChanged != null)
+                    PropertyChanged(this, new PropertyChangedEventArgs("LeftURI"));
+            }
+            get
+            {
+                if (OtherSide == null) return "about:blank";
+
+                if (System.IO.File.Exists(OtherSide.File)) return OtherSide.File;
+
+                foreach (var alt in OtherSide.Alternates)
+                    if (System.IO.File.Exists(alt)) return alt;
+
+                return "about:blank";
+            }
+        }
+
+        [JsonIgnore]
+        public string RightURI
+        {
+            get
+            {
+                if (System.IO.File.Exists(File)) return File;
+
+                foreach (var alt in Alternates)
+                    if (System.IO.File.Exists(alt)) return alt;
+
+                return "about:blank";
+            }
+        }
+    }
+    public class Link
+    {
+        public string OriginalLink { get; set; } = String.Empty;
+        public string Target { get; set; } = String.Empty;
     }
 }

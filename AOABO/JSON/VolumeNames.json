@@ -438,5 +438,11 @@
     "FileName": "Ascendance of a Bookworm (Manga) Part 2 Volume 10_{0}.epub",
     "Quality": [ "3840", "2560", "1400" ],
     "OutputUnusedFiles": false
+  },
+  {
+    "InternalName": "FB7",
+    "ApiSlug": "ascendance-of-a-bookworm-fanbook-7",
+    "FileName": "ascendance-of-a-bookworm-fanbook-7.epub",
+    "OutputUnusedFiles": false
   }
 ]

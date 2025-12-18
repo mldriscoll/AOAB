@@ -82,7 +82,7 @@ async Task RedoJSON()
 {
     var chapters = Configuration.Volumes.SelectMany(x =>
     {
-        var c = new List<Chapter>();
+        var c = new List<AOABO.Chapters.Chapter>();
         c.AddRange(x.POVChapters);
         c.AddRange(x.MangaChapters);
         c.AddRange(x.BonusChapters);
@@ -288,7 +288,7 @@ async Task AddChapter()
     var volume = Configuration.Volumes.FirstOrDefault(x => x.InternalName.Equals($"LN{vol}"));
     var chapters = Configuration.Volumes.SelectMany(x =>
     {
-        var c = new List<Chapter>();
+        var c = new List<AOABO.Chapters.Chapter>();
         c.AddRange(x.POVChapters);
         c.AddRange(x.MangaChapters);
         c.AddRange(x.BonusChapters);
@@ -381,7 +381,7 @@ async Task CreateTables()
 {
     var chapters = Configuration.Volumes.SelectMany(x =>
     {
-        var c = new List<Chapter>();
+        var c = new List<AOABO.Chapters.Chapter>();
         c.AddRange(x.POVChapters);
         c.AddRange(x.MangaChapters);
         c.AddRange(x.BonusChapters);
@@ -447,7 +447,7 @@ async Task CreateTables()
         PartChart(chapters, "Hannelore.txt", hannelore: true));
 }
 
-async Task PartChart(Chapter[] chapters, string name, bool partOne = false, bool partTwo = false, bool partThree = false, bool partFour = false, bool partFive = false, bool hannelore = false)
+async Task PartChart(AOABO.Chapters.Chapter[] chapters, string name, bool partOne = false, bool partTwo = false, bool partThree = false, bool partFour = false, bool partFive = false, bool hannelore = false)
 {
     var sb = new StringBuilder();
     sb.AppendLine("|Chapter|Name|POV|");

@@ -7,6 +7,8 @@ namespace OBB_WPF
     {
         public enum ChapterType
         {
+            Part,
+            Volume,
             Story,
             Bonus,
             NonStory

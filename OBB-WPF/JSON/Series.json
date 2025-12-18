@@ -340,6 +340,14 @@
         "EditedBy": [],
         "Published": "2025-08-20",
         "Order": 113
+      },
+      {
+        "ApiSlug": "a-late-start-tamer-s-laid-back-life-volume-14",
+        "FileName": "a-late-start-tamer-s-laid-back-life-volume-14.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-02-18",
+        "Order": 114
       }
     ],
     "Author": "Yuu Tanaka",
@@ -419,6 +427,14 @@
         "EditedBy": [],
         "Published": "2025-12-24",
         "Order": 108
+      },
+      {
+        "ApiSlug": "a-late-start-tamer-s-laid-back-life-manga-volume-9",
+        "FileName": "a-late-start-tamer-s-laid-back-life-manga-volume-9.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-04-01",
+        "Order": 109
       }
     ],
     "Author": "Yuu Tanaka",
@@ -685,6 +701,14 @@
         "EditedBy": [],
         "Published": "2025-04-30",
         "Order": 102
+      },
+      {
+        "ApiSlug": "a-royal-rebound-forget-my-ex-fianc-i-m-being-pampered-by-the-prince-manga-volume-3",
+        "FileName": "a-royal-rebound-forget-my-ex-fianc-i-m-being-pampered-by-the-prince-manga-volume-3.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-02-11",
+        "Order": 103
       }
     ],
     "Author": "Micoto Sakurai",
@@ -945,6 +969,14 @@
         "EditedBy": [],
         "Published": "2025-12-03",
         "Order": 108
+      },
+      {
+        "ApiSlug": "a-wild-last-boss-appeared-manga-volume-9",
+        "FileName": "a-wild-last-boss-appeared-manga-volume-9.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-02-25",
+        "Order": 109
       }
     ],
     "Author": "Firehead",
@@ -1482,6 +1514,14 @@
         "EditedBy": [],
         "Published": "2025-06-03",
         "Order": 119
+      },
+      {
+        "ApiSlug": "an-archdemon-s-dilemma-how-to-love-your-elf-bride-volume-20",
+        "FileName": "an-archdemon-s-dilemma-how-to-love-your-elf-bride-volume-20.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-01-22",
+        "Order": 120
       }
     ],
     "Author": "Fuminori Teshima",
@@ -1704,6 +1744,14 @@
         "EditedBy": [],
         "Published": "2025-10-06",
         "Order": 111
+      },
+      {
+        "ApiSlug": "an-introvert-s-hookup-hiccups-this-gyaru-is-head-over-heels-for-me-volume-12",
+        "FileName": "an-introvert-s-hookup-hiccups-this-gyaru-is-head-over-heels-for-me-volume-12.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-02-26",
+        "Order": 112
       }
     ],
     "Author": "Yuishi",
@@ -2110,6 +2158,757 @@
     ],
     "Author": "Ryo Shirakome",
     "AuthorSort": "SHIRAKOME, RYO"
+  },
+  {
+    "CustomSeries": false,
+    "Name": "Ascendance of a Bookworm",
+    "InternalName": "ascendance-of-a-bookworm",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "ascendance-of-a-bookworm"
+      },
+      {
+        "Order": 2,
+        "Slug": "ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy"
+      },
+      {
+        "Order": 3,
+        "Slug": "ascendance-of-a-bookworm-royal-academy-stories-first-year"
+      },
+      {
+        "Order": 4,
+        "Slug": "ascendance-of-a-bookworm-short-story-collection"
+      },
+      {
+        "Order": 5,
+        "Slug": "ascendance-of-a-bookworm-manga"
+      },
+      {
+        "Order": 6,
+        "Slug": "ascendance-of-a-bookworm-fanbook"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-manga-volume-1",
+        "FileName": "ascendance-of-a-bookworm-manga-volume-1.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2019-06-01",
+        "Order": 501
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-manga-volume-2",
+        "FileName": "ascendance-of-a-bookworm-manga-volume-2.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2019-12-04",
+        "Order": 502
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-manga-volume-3",
+        "FileName": "ascendance-of-a-bookworm-manga-volume-3.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2020-03-24",
+        "Order": 503
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-manga-volume-4",
+        "FileName": "ascendance-of-a-bookworm-manga-volume-4.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2020-05-12",
+        "Order": 504
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-manga-volume-5",
+        "FileName": "ascendance-of-a-bookworm-manga-volume-5.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2020-09-01",
+        "Order": 505
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-manga-volume-6",
+        "FileName": "ascendance-of-a-bookworm-manga-volume-6.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2021-01-05",
+        "Order": 506
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-manga-volume-7",
+        "FileName": "ascendance-of-a-bookworm-manga-volume-7.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2021-05-12",
+        "Order": 507
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-manga-part-2-vol-1",
+        "FileName": "ascendance-of-a-bookworm-manga-part-2-vol-1.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2021-07-06",
+        "Order": 508
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-manga-part-2-volume-2",
+        "FileName": "ascendance-of-a-bookworm-manga-part-2-volume-2.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2021-08-31",
+        "Order": 509
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-manga-part-2-volume-3",
+        "FileName": "ascendance-of-a-bookworm-manga-part-2-volume-3.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2021-11-09",
+        "Order": 510
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-manga-part-2-volume-4",
+        "FileName": "ascendance-of-a-bookworm-manga-part-2-volume-4.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2022-03-15",
+        "Order": 511
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-manga-part-2-volume-5",
+        "FileName": "ascendance-of-a-bookworm-manga-part-2-volume-5.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2022-05-03",
+        "Order": 512
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-manga-part-2-volume-6",
+        "FileName": "ascendance-of-a-bookworm-manga-part-2-volume-6.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2022-08-16",
+        "Order": 513
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-manga-part-2-volume-7",
+        "FileName": "ascendance-of-a-bookworm-manga-part-2-volume-7.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2023-02-06",
+        "Order": 514
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-manga-part-2-volume-8",
+        "FileName": "ascendance-of-a-bookworm-manga-part-2-volume-8.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2024-01-24",
+        "Order": 515
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-manga-part-2-volume-9",
+        "FileName": "ascendance-of-a-bookworm-manga-part-2-volume-9.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2024-05-08",
+        "Order": 516
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-manga-part-2-volume-10",
+        "FileName": "ascendance-of-a-bookworm-manga-part-2-volume-10.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2025-11-12",
+        "Order": 517
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-manga-part-3-volume-1",
+        "FileName": "ascendance-of-a-bookworm-manga-part-3-volume-1.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2023-06-07",
+        "Order": 601
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-manga-part-3-volume-2",
+        "FileName": "ascendance-of-a-bookworm-manga-part-3-volume-2.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2023-10-11",
+        "Order": 602
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-manga-part-3-volume-3",
+        "FileName": "ascendance-of-a-bookworm-manga-part-3-volume-3.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2024-08-14",
+        "Order": 603
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-manga-part-3-volume-4",
+        "FileName": "ascendance-of-a-bookworm-manga-part-3-volume-4.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2024-12-25",
+        "Order": 604
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-manga-part-3-volume-5",
+        "FileName": "ascendance-of-a-bookworm-manga-part-3-volume-5.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-01-14",
+        "Order": 605
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-manga-part-4-volume-1",
+        "FileName": "ascendance-of-a-bookworm-manga-part-4-volume-1.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2025-02-26",
+        "Order": 701
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-manga-part-4-volume-2",
+        "FileName": "ascendance-of-a-bookworm-manga-part-4-volume-2.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2025-04-16",
+        "Order": 702
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-manga-part-4-volume-3",
+        "FileName": "ascendance-of-a-bookworm-manga-part-4-volume-3.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2025-06-04",
+        "Order": 703
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-manga-part-4-volume-4",
+        "FileName": "ascendance-of-a-bookworm-manga-part-4-volume-4.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2025-07-30",
+        "Order": 704
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-manga-part-4-volume-5",
+        "FileName": "ascendance-of-a-bookworm-manga-part-4-volume-5.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2025-09-17",
+        "Order": 705
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1",
+        "FileName": "ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2025-05-23",
+        "Order": 201
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-2",
+        "FileName": "ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-2.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-04-13",
+        "Order": 202
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-short-story-collection-volume-1",
+        "FileName": "ascendance-of-a-bookworm-short-story-collection-volume-1.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2023-04-24",
+        "Order": 401
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-short-story-collection-volume-2",
+        "FileName": "ascendance-of-a-bookworm-short-story-collection-volume-2.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2025-01-22",
+        "Order": 402
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-royal-academy-stories-first-year",
+        "FileName": "ascendance-of-a-bookworm-royal-academy-stories-first-year.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2022-07-26",
+        "Order": 301
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-fanbook-1",
+        "FileName": "ascendance-of-a-bookworm-fanbook-1.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2021-07-06",
+        "Order": 601
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-fanbook-2",
+        "FileName": "ascendance-of-a-bookworm-fanbook-2.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2021-11-15",
+        "Order": 602
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-fanbook-3",
+        "FileName": "ascendance-of-a-bookworm-fanbook-3.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2022-11-25",
+        "Order": 603
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-fanbook-4",
+        "FileName": "ascendance-of-a-bookworm-fanbook-4.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2024-07-12",
+        "Order": 604
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-fanbook-5",
+        "FileName": "ascendance-of-a-bookworm-fanbook-5.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2024-11-11",
+        "Order": 605
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-fanbook-6",
+        "FileName": "ascendance-of-a-bookworm-fanbook-6.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2025-08-08",
+        "Order": 606
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-fanbook-7",
+        "FileName": "ascendance-of-a-bookworm-fanbook-7.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2025-11-03",
+        "Order": 607
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm",
+        "FileName": "ascendance-of-a-bookworm.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2019-05-20",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-volume-2",
+        "FileName": "ascendance-of-a-bookworm-volume-2.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2019-07-09",
+        "Order": 102
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-part-1-volume-3",
+        "FileName": "ascendance-of-a-bookworm-part-1-volume-3.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2019-09-03",
+        "Order": 103
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-part-2-volume-1",
+        "FileName": "ascendance-of-a-bookworm-part-2-volume-1.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2019-11-10",
+        "Order": 104
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-part-2-volume-2",
+        "FileName": "ascendance-of-a-bookworm-part-2-volume-2.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2020-01-20",
+        "Order": 105
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-part-2-volume-3",
+        "FileName": "ascendance-of-a-bookworm-part-2-volume-3.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2020-04-20",
+        "Order": 106
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-part-2-volume-4",
+        "FileName": "ascendance-of-a-bookworm-part-2-volume-4.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2020-06-23",
+        "Order": 107
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-part-3-volume-1",
+        "FileName": "ascendance-of-a-bookworm-part-3-volume-1.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2020-08-12",
+        "Order": 108
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-part-3-volume-2",
+        "FileName": "ascendance-of-a-bookworm-part-3-volume-2.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2020-10-19",
+        "Order": 109
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-part-3-volume-3",
+        "FileName": "ascendance-of-a-bookworm-part-3-volume-3.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2021-01-04",
+        "Order": 110
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-part-3-volume-4",
+        "FileName": "ascendance-of-a-bookworm-part-3-volume-4.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2021-03-08",
+        "Order": 111
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-part-3-volume-5",
+        "FileName": "ascendance-of-a-bookworm-part-3-volume-5.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2021-05-06",
+        "Order": 112
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-part-4-volume-1",
+        "FileName": "ascendance-of-a-bookworm-part-4-volume-1.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2021-06-30",
+        "Order": 113
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-part-4-volume-2",
+        "FileName": "ascendance-of-a-bookworm-part-4-volume-2.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2021-09-01",
+        "Order": 114
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-part-4-volume-3",
+        "FileName": "ascendance-of-a-bookworm-part-4-volume-3.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2021-10-27",
+        "Order": 115
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-part-4-volume-4",
+        "FileName": "ascendance-of-a-bookworm-part-4-volume-4.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2021-12-22",
+        "Order": 116
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-part-4-volume-5",
+        "FileName": "ascendance-of-a-bookworm-part-4-volume-5.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2022-02-16",
+        "Order": 117
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-part-4-volume-6",
+        "FileName": "ascendance-of-a-bookworm-part-4-volume-6.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2022-04-20",
+        "Order": 118
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-part-4-volume-7",
+        "FileName": "ascendance-of-a-bookworm-part-4-volume-7.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2022-06-15",
+        "Order": 119
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-part-4-volume-8",
+        "FileName": "ascendance-of-a-bookworm-part-4-volume-8.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2022-08-10",
+        "Order": 120
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-part-4-volume-9",
+        "FileName": "ascendance-of-a-bookworm-part-4-volume-9.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2022-10-05",
+        "Order": 121
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-part-5-volume-1",
+        "FileName": "ascendance-of-a-bookworm-part-5-volume-1.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2022-11-30",
+        "Order": 122
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-part-5-volume-2",
+        "FileName": "ascendance-of-a-bookworm-part-5-volume-2.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2023-01-26",
+        "Order": 123
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-part-5-volume-3",
+        "FileName": "ascendance-of-a-bookworm-part-5-volume-3.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2023-04-05",
+        "Order": 124
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-part-5-volume-4",
+        "FileName": "ascendance-of-a-bookworm-part-5-volume-4.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2023-05-31",
+        "Order": 125
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-part-5-volume-5",
+        "FileName": "ascendance-of-a-bookworm-part-5-volume-5.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2023-07-26",
+        "Order": 126
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-part-5-volume-6",
+        "FileName": "ascendance-of-a-bookworm-part-5-volume-6.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2023-09-20",
+        "Order": 127
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-part-5-volume-7",
+        "FileName": "ascendance-of-a-bookworm-part-5-volume-7.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2023-11-15",
+        "Order": 128
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-part-5-volume-8",
+        "FileName": "ascendance-of-a-bookworm-part-5-volume-8.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2024-01-10",
+        "Order": 129
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-part-5-volume-9",
+        "FileName": "ascendance-of-a-bookworm-part-5-volume-9.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2024-03-20",
+        "Order": 130
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-part-5-volume-10",
+        "FileName": "ascendance-of-a-bookworm-part-5-volume-10.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2024-05-15",
+        "Order": 131
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-part-5-volume-11",
+        "FileName": "ascendance-of-a-bookworm-part-5-volume-11.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2024-07-10",
+        "Order": 132
+      },
+      {
+        "ApiSlug": "ascendance-of-a-bookworm-part-5-volume-12",
+        "FileName": "ascendance-of-a-bookworm-part-5-volume-12.epub",
+        "Title": "",
+        "EditedBy": [
+          "kuali"
+        ],
+        "Published": "2024-09-04",
+        "Order": 133
+      }
+    ],
+    "Author": "Miya Kazuki",
+    "AuthorSort": "KAZUKI, MIYA"
   },
   {
     "CustomSeries": false,
@@ -2757,6 +3556,14 @@
         "EditedBy": [],
         "Published": "2025-06-11",
         "Order": 109
+      },
+      {
+        "ApiSlug": "bibliophile-princess-manga-volume-10",
+        "FileName": "bibliophile-princess-manga-volume-10.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-02-11",
+        "Order": 110
       }
     ],
     "Author": "Yui",
@@ -2940,6 +3747,14 @@
         "EditedBy": [],
         "Published": "2025-08-22",
         "Order": 121
+      },
+      {
+        "ApiSlug": "black-summoner-volume-22",
+        "FileName": "black-summoner-volume-22.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-03-20",
+        "Order": 122
       }
     ],
     "Author": "Doufu Mayoi",
@@ -3123,6 +3938,14 @@
         "EditedBy": [],
         "Published": "2025-11-05",
         "Order": 121
+      },
+      {
+        "ApiSlug": "black-summoner-manga-volume-22",
+        "FileName": "black-summoner-manga-volume-22.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-04-08",
+        "Order": 122
       }
     ],
     "Author": "Doufu Mayoi",
@@ -3209,6 +4032,14 @@
         "EditedBy": [],
         "Published": "2025-11-20",
         "Order": 102
+      },
+      {
+        "ApiSlug": "blade-skill-online-crushing-the-competition-with-my-abysmal-stats-useless-class-and-garbage-weapon-volume-3",
+        "FileName": "blade-skill-online-crushing-the-competition-with-my-abysmal-stats-useless-class-and-garbage-weapon-volume-3.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-01-29",
+        "Order": 103
       }
     ],
     "Author": "Manzi Mazi",
@@ -3358,6 +4189,14 @@
         "EditedBy": [],
         "Published": "2025-09-04",
         "Order": 107
+      },
+      {
+        "ApiSlug": "butareba-the-story-of-a-man-turned-into-a-pig-eighth-bite",
+        "FileName": "butareba-the-story-of-a-man-turned-into-a-pig-eighth-bite.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-03-19",
+        "Order": 108
       }
     ],
     "Author": "Takuma Sakai",
@@ -3572,6 +4411,14 @@
         "EditedBy": [],
         "Published": "2025-06-27",
         "Order": 116
+      },
+      {
+        "ApiSlug": "by-the-grace-of-the-gods-volume-17",
+        "FileName": "by-the-grace-of-the-gods-volume-17.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-01-21",
+        "Order": 117
       }
     ],
     "Author": "Roy",
@@ -4222,6 +5069,14 @@
         "EditedBy": [],
         "Published": "2025-11-17",
         "Order": 108
+      },
+      {
+        "ApiSlug": "chivalry-of-a-failed-knight-volume-8",
+        "FileName": "chivalry-of-a-failed-knight-volume-8.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-01-27",
+        "Order": 109
       }
     ],
     "Author": "Riku Misora",
@@ -4532,6 +5387,14 @@
         "EditedBy": [],
         "Published": "2025-12-15",
         "Order": 131
+      },
+      {
+        "ApiSlug": "cooking-with-wild-game-volume-32",
+        "FileName": "cooking-with-wild-game-volume-32.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-02-26",
+        "Order": 132
       }
     ],
     "Author": "EDA",
@@ -5371,6 +6234,14 @@
         "EditedBy": [],
         "Published": "2025-10-01",
         "Order": 106
+      },
+      {
+        "ApiSlug": "death-s-daughter-and-the-ebony-blade-manga-volume-7",
+        "FileName": "death-s-daughter-and-the-ebony-blade-manga-volume-7.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-01-21",
+        "Order": 107
       }
     ],
     "Author": "Maito Ayamine",
@@ -5739,6 +6610,14 @@
         "EditedBy": [],
         "Published": "2025-09-17",
         "Order": 113
+      },
+      {
+        "ApiSlug": "demon-lord-retry-r-manga-volume-9",
+        "FileName": "demon-lord-retry-r-manga-volume-9.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2025-12-24",
+        "Order": 114
       }
     ],
     "Author": "Kurone Kanzaki",
@@ -6079,6 +6958,14 @@
         "EditedBy": [],
         "Published": "2025-07-30",
         "Order": 106
+      },
+      {
+        "ApiSlug": "did-i-seriously-just-get-reincarnated-as-my-gag-character-manga-volume-7",
+        "FileName": "did-i-seriously-just-get-reincarnated-as-my-gag-character-manga-volume-7.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2025-12-17",
+        "Order": 107
       }
     ],
     "Author": "Kanade Otonashi, Kamuragi Amane",
@@ -6244,6 +7131,14 @@
         "EditedBy": [],
         "Published": "2025-04-10",
         "Order": 102
+      },
+      {
+        "ApiSlug": "disowned-but-not-disheartened-life-is-good-with-overpowered-magic-volume-3",
+        "FileName": "disowned-but-not-disheartened-life-is-good-with-overpowered-magic-volume-3.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-02-12",
+        "Order": 103
       }
     ],
     "Author": "Riko Saiki",
@@ -6488,6 +7383,14 @@
         "EditedBy": [],
         "Published": "2025-11-05",
         "Order": 104
+      },
+      {
+        "ApiSlug": "duchess-in-the-attic-volume-5",
+        "FileName": "duchess-in-the-attic-volume-5.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-02-09",
+        "Order": 105
       }
     ],
     "Author": "Mori",
@@ -6701,6 +7604,14 @@
         "EditedBy": [],
         "Published": "2025-11-10",
         "Order": 111
+      },
+      {
+        "ApiSlug": "dungeon-dive-aim-for-the-deepest-level-volume-12",
+        "FileName": "dungeon-dive-aim-for-the-deepest-level-volume-12.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-04-02",
+        "Order": 112
       }
     ],
     "Author": "Tarisa Warinai",
@@ -7031,6 +7942,68 @@
   },
   {
     "CustomSeries": false,
+    "Name": "Even Exiled, She’s Still the Beloved Saint! St. Evelyn’s Weird and Wonderful Friends",
+    "InternalName": "even-exiled-she-s-still-the-beloved-saint-st-evelyn-s-weird-and-wonderful-friends",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "even-exiled-she-s-still-the-beloved-saint-st-evelyn-s-weird-and-wonderful-friends"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "even-exiled-she-s-still-the-beloved-saint-st-evelyn-s-weird-and-wonderful-friends-volume-1",
+        "FileName": "even-exiled-she-s-still-the-beloved-saint-st-evelyn-s-weird-and-wonderful-friends-volume-1.epub",
+        "Title": "Even Exiled, She’s Still the Beloved Saint! St. Evelyn’s Weird and Wonderful Friends: Volume 1",
+        "EditedBy": [],
+        "Published": "2026-01-07",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "even-exiled-she-s-still-the-beloved-saint-st-evelyn-s-weird-and-wonderful-friends-volume-2",
+        "FileName": "even-exiled-she-s-still-the-beloved-saint-st-evelyn-s-weird-and-wonderful-friends-volume-2.epub",
+        "Title": "Even Exiled, She’s Still the Beloved Saint! St. Evelyn’s Weird and Wonderful Friends: Volume 2",
+        "EditedBy": [],
+        "Published": "2026-03-18",
+        "Order": 102
+      }
+    ],
+    "Author": "Harunadon",
+    "AuthorSort": "HARUNADON"
+  },
+  {
+    "CustomSeries": false,
+    "Name": "Even Exiled, She's Still the Beloved Saint! St. Evelyn's Weird and Wonderful Friends (Manga)",
+    "InternalName": "even-exiled-she-s-still-the-beloved-saint-st-evelyn-s-weird-and-wonderful-friends-manga",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "even-exiled-she-s-still-the-beloved-saint-st-evelyn-s-weird-and-wonderful-friends-manga"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "even-exiled-she-s-still-the-beloved-saint-st-evelyn-s-weird-and-wonderful-friends-manga-volume-1",
+        "FileName": "even-exiled-she-s-still-the-beloved-saint-st-evelyn-s-weird-and-wonderful-friends-manga-volume-1.epub",
+        "Title": "Even Exiled, She's Still the Beloved Saint! St. Evelyn's Weird and Wonderful Friends (Manga) Volume 1",
+        "EditedBy": [],
+        "Published": "2025-09-24",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "even-exiled-she-s-still-the-beloved-saint-st-evelyn-s-weird-and-wonderful-friends-manga-volume-2",
+        "FileName": "even-exiled-she-s-still-the-beloved-saint-st-evelyn-s-weird-and-wonderful-friends-manga-volume-2.epub",
+        "Title": "Even Exiled, She's Still the Beloved Saint! St. Evelyn's Weird and Wonderful Friends (Manga) Volume 2",
+        "EditedBy": [],
+        "Published": "2026-01-28",
+        "Order": 102
+      }
+    ],
+    "Author": "Harunadon",
+    "AuthorSort": "HARUNADON"
+  },
+  {
+    "CustomSeries": false,
     "Name": "EXP Is Golden",
     "InternalName": "exp-is-golden",
     "ApiSlugs": [
@@ -7063,6 +8036,14 @@
         "EditedBy": [],
         "Published": "2025-07-25",
         "Order": 103
+      },
+      {
+        "ApiSlug": "exp-is-golden-volume-4",
+        "FileName": "exp-is-golden-volume-4.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-01-12",
+        "Order": 104
       }
     ],
     "Author": "Harajun",
@@ -7281,6 +8262,37 @@
   },
   {
     "CustomSeries": false,
+    "Name": "Fired? But I Maintain All the Software! (Manga)",
+    "InternalName": "fired-but-i-maintain-all-the-software-manga",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "fired-but-i-maintain-all-the-software-manga"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "fired-but-i-maintain-all-the-software-manga-volume-1",
+        "FileName": "fired-but-i-maintain-all-the-software-manga-volume-1.epub",
+        "Title": "Fired? But I Maintain All the Software! (Manga) Volume 1",
+        "EditedBy": [],
+        "Published": "2025-11-05",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "fired-but-i-maintain-all-the-software-manga-volume-2",
+        "FileName": "fired-but-i-maintain-all-the-software-manga-volume-2.epub",
+        "Title": "Fired? But I Maintain All the Software! (Manga) Volume 2",
+        "EditedBy": [],
+        "Published": "2026-01-14",
+        "Order": 102
+      }
+    ],
+    "Author": "Yuki Kashirome",
+    "AuthorSort": "KASHIROME, YUKI"
+  },
+  {
+    "CustomSeries": false,
     "Name": "Fluffy-Eared Realm Restoration: Taking It Slow with My Cool Big Brother",
     "InternalName": "fluffy-eared-realm-restoration-taking-it-slow-with-my-cool-big-brother",
     "ApiSlugs": [
@@ -7336,6 +8348,14 @@
         "EditedBy": [],
         "Published": "2025-11-13",
         "Order": 102
+      },
+      {
+        "ApiSlug": "flung-into-a-new-world-time-to-lift-the-200-year-curse-volume-3",
+        "FileName": "flung-into-a-new-world-time-to-lift-the-200-year-curse-volume-3.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-01-22",
+        "Order": 103
       }
     ],
     "Author": "Honobonoru500",
@@ -7383,6 +8403,14 @@
         "EditedBy": [],
         "Published": "2025-12-10",
         "Order": 104
+      },
+      {
+        "ApiSlug": "flung-into-a-new-world-time-to-lift-the-200-year-curse-manga-volume-5",
+        "FileName": "flung-into-a-new-world-time-to-lift-the-200-year-curse-manga-volume-5.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-02-18",
+        "Order": 105
       }
     ],
     "Author": "Honobonoru500",
@@ -7469,6 +8497,14 @@
         "EditedBy": [],
         "Published": "2025-06-04",
         "Order": 104
+      },
+      {
+        "ApiSlug": "forget-being-the-villainess-i-want-to-be-an-adventurer-manga-volume-5",
+        "FileName": "forget-being-the-villainess-i-want-to-be-an-adventurer-manga-volume-5.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2025-12-31",
+        "Order": 105
       }
     ],
     "Author": "Hiro Oda",
@@ -7689,6 +8725,14 @@
         "EditedBy": [],
         "Published": "2025-09-19",
         "Order": 104
+      },
+      {
+        "ApiSlug": "from-two-bit-baddie-to-total-heartthrob-this-villainess-will-cross-dress-to-impress-volume-5",
+        "FileName": "from-two-bit-baddie-to-total-heartthrob-this-villainess-will-cross-dress-to-impress-volume-5.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-03-25",
+        "Order": 105
       }
     ],
     "Author": "Masamune Okazaki",
@@ -7799,6 +8843,14 @@
         "EditedBy": [],
         "Published": "2025-11-12",
         "Order": 104
+      },
+      {
+        "ApiSlug": "from-villainess-to-healer-i-know-the-cheat-to-change-my-fate-manga-volume-5",
+        "FileName": "from-villainess-to-healer-i-know-the-cheat-to-change-my-fate-manga-volume-5.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-02-11",
+        "Order": 105
       }
     ],
     "Author": "Punichan",
@@ -8486,6 +9538,30 @@
         "EditedBy": [],
         "Published": "2025-11-07",
         "Order": 106
+      },
+      {
+        "ApiSlug": "goodbye-overtime-this-reincarnated-villainess-is-living-for-her-new-big-brother-volume-3",
+        "FileName": "goodbye-overtime-this-reincarnated-villainess-is-living-for-her-new-big-brother-volume-3.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2025-02-24",
+        "Order": 103
+      },
+      {
+        "ApiSlug": "goodbye-overtime-this-reincarnated-villainess-is-living-for-her-new-big-brother-volume-4",
+        "FileName": "goodbye-overtime-this-reincarnated-villainess-is-living-for-her-new-big-brother-volume-4.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2025-05-19",
+        "Order": 104
+      },
+      {
+        "ApiSlug": "goodbye-overtime-this-reincarnated-villainess-is-living-for-her-new-big-brother-volume-7",
+        "FileName": "goodbye-overtime-this-reincarnated-villainess-is-living-for-her-new-big-brother-volume-7.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-03-25",
+        "Order": 107
       }
     ],
     "Author": "Chidori Hama",
@@ -8763,6 +9839,14 @@
         "EditedBy": [],
         "Published": "2025-12-31",
         "Order": 123
+      },
+      {
+        "ApiSlug": "grimgar-of-fantasy-and-ash-level-22-we-bloom-on-the-border-between-life-and-death",
+        "FileName": "grimgar-of-fantasy-and-ash-level-22-we-bloom-on-the-border-between-life-and-death.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-04-22",
+        "Order": 124
       }
     ],
     "Author": "Ao Jyumonji",
@@ -8822,6 +9906,37 @@
     ],
     "Author": "Rin Murakami",
     "AuthorSort": "MURAKAMI, RIN"
+  },
+  {
+    "CustomSeries": false,
+    "Name": "Guild Handyman? More like Mastermind! Using My Hidden Skills in the Shadows ",
+    "InternalName": "guild-handyman-more-like-mastermind-using-my-hidden-skills-in-the-shadows",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "guild-handyman-more-like-mastermind-using-my-hidden-skills-in-the-shadows"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "guild-handyman-more-like-mastermind-using-my-hidden-skills-in-the-shadows-volume-1",
+        "FileName": "guild-handyman-more-like-mastermind-using-my-hidden-skills-in-the-shadows-volume-1.epub",
+        "Title": "Guild Handyman? More like Mastermind! Using My Hidden Skills in the Shadows Volume 1",
+        "EditedBy": [],
+        "Published": "2025-10-08",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "guild-handyman-more-like-mastermind-using-my-hidden-skills-in-the-shadows-volume-2",
+        "FileName": "guild-handyman-more-like-mastermind-using-my-hidden-skills-in-the-shadows-volume-2.epub",
+        "Title": "Guild Handyman? More like Mastermind! Using My Hidden Skills in the Shadows Volume 2",
+        "EditedBy": [],
+        "Published": "2026-02-25",
+        "Order": 102
+      }
+    ],
+    "Author": "Sakaku Hishikawa",
+    "AuthorSort": "HISHIKAWA, SAKAKU"
   },
   {
     "CustomSeries": false,
@@ -9000,6 +10115,14 @@
         "EditedBy": [],
         "Published": "2025-06-20",
         "Order": 108
+      },
+      {
+        "ApiSlug": "haibara-s-teenage-new-game-volume-9",
+        "FileName": "haibara-s-teenage-new-game-volume-9.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-02-27",
+        "Order": 109
       }
     ],
     "Author": "Kazuki Amamiya",
@@ -9067,6 +10190,37 @@
     ],
     "Author": "Riku Nanano",
     "AuthorSort": "NANANO, RIKU"
+  },
+  {
+    "CustomSeries": false,
+    "Name": "Heir to a Monstermancer",
+    "InternalName": "heir-to-a-monstermancer",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "heir-to-a-monstermancer"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "heir-to-a-monstermancer-volume-1",
+        "FileName": "heir-to-a-monstermancer-volume-1.epub",
+        "Title": "Heir to a Monstermancer: Volume 1",
+        "EditedBy": [],
+        "Published": "2025-11-17",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "heir-to-a-monstermancer-volume-2",
+        "FileName": "heir-to-a-monstermancer-volume-2.epub",
+        "Title": "Heir to a Monstermancer: Volume 2",
+        "EditedBy": [],
+        "Published": "2026-02-13",
+        "Order": 102
+      }
+    ],
+    "Author": "Damu Amato",
+    "AuthorSort": "AMATO, DAMU"
   },
   {
     "CustomSeries": false,
@@ -9245,6 +10399,14 @@
         "EditedBy": [],
         "Published": "2025-10-15",
         "Order": 108
+      },
+      {
+        "ApiSlug": "hell-mode-manga-volume-9",
+        "FileName": "hell-mode-manga-volume-9.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2025-12-24",
+        "Order": 109
       }
     ],
     "Author": "Hamuo/Mo",
@@ -9467,6 +10629,14 @@
         "EditedBy": [],
         "Published": "2025-11-11",
         "Order": 120
+      },
+      {
+        "ApiSlug": "holmes-of-kyoto-volume-21",
+        "FileName": "holmes-of-kyoto-volume-21.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-02-19",
+        "Order": 121
       }
     ],
     "Author": "Mai Mochizuki",
@@ -9651,6 +10821,14 @@
         "EditedBy": [],
         "Published": "2025-07-09",
         "Order": 108
+      },
+      {
+        "ApiSlug": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-manga-volume-9",
+        "FileName": "housekeeping-mage-from-another-world-making-your-adventures-feel-like-home-manga-volume-9.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-02-18",
+        "Order": 109
       }
     ],
     "Author": "You Fuguruma",
@@ -9937,6 +11115,14 @@
         "EditedBy": [],
         "Published": "2025-05-07",
         "Order": 112
+      },
+      {
+        "ApiSlug": "how-a-realist-hero-rebuilt-the-kingdom-manga-volume-13",
+        "FileName": "how-a-realist-hero-rebuilt-the-kingdom-manga-volume-13.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-01-14",
+        "Order": 113
       }
     ],
     "Author": "Dojyomaru",
@@ -10472,6 +11658,14 @@
         "EditedBy": [],
         "Published": "2025-01-08",
         "Order": 103
+      },
+      {
+        "ApiSlug": "i-parry-everything-what-do-you-mean-i-m-the-strongest-i-m-not-even-an-adventurer-yet-manga-volume-4",
+        "FileName": "i-parry-everything-what-do-you-mean-i-m-the-strongest-i-m-not-even-an-adventurer-yet-manga-volume-4.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-01-14",
+        "Order": 104
       }
     ],
     "Author": "Nabeshiki",
@@ -11045,6 +12239,14 @@
         "EditedBy": [],
         "Published": "2025-11-26",
         "Order": 105
+      },
+      {
+        "ApiSlug": "i-want-to-escape-from-princess-lessons-manga-volume-6",
+        "FileName": "i-want-to-escape-from-princess-lessons-manga-volume-6.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-02-25",
+        "Order": 106
       }
     ],
     "Author": "Izumi Sawano",
@@ -11266,6 +12468,14 @@
         "EditedBy": [],
         "Published": "2025-11-07",
         "Order": 107
+      },
+      {
+        "ApiSlug": "i-m-a-noble-on-the-brink-of-ruin-so-i-might-as-well-try-mastering-magic-volume-8",
+        "FileName": "i-m-a-noble-on-the-brink-of-ruin-so-i-might-as-well-try-mastering-magic-volume-8.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-01-19",
+        "Order": 108
       }
     ],
     "Author": "Nazuna Miki",
@@ -11321,6 +12531,14 @@
         "EditedBy": [],
         "Published": "2025-12-03",
         "Order": 105
+      },
+      {
+        "ApiSlug": "i-m-a-noble-on-the-brink-of-ruin-so-i-might-as-well-try-mastering-magic-manga-volume-6",
+        "FileName": "i-m-a-noble-on-the-brink-of-ruin-so-i-might-as-well-try-mastering-magic-manga-volume-6.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-02-11",
+        "Order": 106
       }
     ],
     "Author": "Nazuna Miki",
@@ -11619,6 +12837,14 @@
         "EditedBy": [],
         "Published": "2025-11-19",
         "Order": 102
+      },
+      {
+        "ApiSlug": "imperial-reincarnation-i-came-i-saw-i-survived-manga-volume-3",
+        "FileName": "imperial-reincarnation-i-came-i-saw-i-survived-manga-volume-3.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-02-25",
+        "Order": 103
       }
     ],
     "Author": "Masekinokatasa",
@@ -11658,6 +12884,14 @@
         "EditedBy": [],
         "Published": "2025-12-03",
         "Order": 103
+      },
+      {
+        "ApiSlug": "in-another-world-with-household-spells-volume-4",
+        "FileName": "in-another-world-with-household-spells-volume-4.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-02-20",
+        "Order": 104
       }
     ],
     "Author": "Rika",
@@ -12247,6 +13481,14 @@
         "EditedBy": [],
         "Published": "2025-08-20",
         "Order": 113
+      },
+      {
+        "ApiSlug": "infinite-dendrogram-manga-volume-14",
+        "FileName": "infinite-dendrogram-manga-volume-14.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2025-12-24",
+        "Order": 114
       }
     ],
     "Author": "Sakon Kaidou",
@@ -12938,6 +14180,14 @@
         "EditedBy": [],
         "Published": "2025-12-16",
         "Order": 112
+      },
+      {
+        "ApiSlug": "isekai-tensei-recruited-to-another-world-volume-13",
+        "FileName": "isekai-tensei-recruited-to-another-world-volume-13.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-04-16",
+        "Order": 113
       }
     ],
     "Author": "Kenichi",
@@ -13096,6 +14346,14 @@
         "EditedBy": [],
         "Published": "2025-10-28",
         "Order": 104
+      },
+      {
+        "ApiSlug": "isekai-walking-volume-5",
+        "FileName": "isekai-walking-volume-5.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-02-05",
+        "Order": 105
       }
     ],
     "Author": "arukuhito",
@@ -13166,6 +14424,14 @@
         "EditedBy": [],
         "Published": "2025-05-21",
         "Order": 102
+      },
+      {
+        "ApiSlug": "jeanette-the-genius-defying-my-evil-stepmother-by-starting-a-business-with-my-ride-or-die-fianc-manga-volume-3",
+        "FileName": "jeanette-the-genius-defying-my-evil-stepmother-by-starting-a-business-with-my-ride-or-die-fianc-manga-volume-3.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2025-12-24",
+        "Order": 103
       }
     ],
     "Author": "Miyako Miyano",
@@ -13775,6 +15041,14 @@
         "EditedBy": [],
         "Published": "2025-10-23",
         "Order": 108
+      },
+      {
+        "ApiSlug": "knight-s-magic-volume-9",
+        "FileName": "knight-s-magic-volume-9.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-02-12",
+        "Order": 109
       }
     ],
     "Author": "Hisago Amazake-no",
@@ -13806,6 +15080,14 @@
         "EditedBy": [],
         "Published": "2025-08-22",
         "Order": 102
+      },
+      {
+        "ApiSlug": "knock-yourself-out-the-goddess-beat-the-final-boss-in-the-tutorial-so-now-i-m-free-to-do-whatever-volume-3",
+        "FileName": "knock-yourself-out-the-goddess-beat-the-final-boss-in-the-tutorial-so-now-i-m-free-to-do-whatever-volume-3.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-02-25",
+        "Order": 103
       }
     ],
     "Author": "Supana Onikage",
@@ -14073,6 +15355,14 @@
         "EditedBy": [],
         "Published": "2025-09-15",
         "Order": 105
+      },
+      {
+        "ApiSlug": "lady-bumpkin-and-her-lord-villain-volume-6",
+        "FileName": "lady-bumpkin-and-her-lord-villain-volume-6.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-02-17",
+        "Order": 106
       }
     ],
     "Author": "Ageha Sakura",
@@ -14472,10 +15762,49 @@
         "EditedBy": [],
         "Published": "2026-01-07",
         "Order": 104
+      },
+      {
+        "ApiSlug": "long-story-short-i-m-living-in-the-mountains-volume-5",
+        "FileName": "long-story-short-i-m-living-in-the-mountains-volume-5.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-04-02",
+        "Order": 105
       }
     ],
     "Author": "Asagi",
     "AuthorSort": "ASAGI"
+  },
+  {
+    "CustomSeries": false,
+    "Name": "Looks like a Job for a Maid! The Tales of a Dismissed Supermaid",
+    "InternalName": "looks-like-a-job-for-a-maid-the-tales-of-a-dismissed-supermaid",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "looks-like-a-job-for-a-maid-the-tales-of-a-dismissed-supermaid"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "looks-like-a-job-for-a-maid-the-tales-of-a-dismissed-supermaid-volume-1",
+        "FileName": "looks-like-a-job-for-a-maid-the-tales-of-a-dismissed-supermaid-volume-1.epub",
+        "Title": "Looks like a Job for a Maid! The Tales of a Dismissed Supermaid: Volume 1",
+        "EditedBy": [],
+        "Published": "2025-11-24",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "looks-like-a-job-for-a-maid-the-tales-of-a-dismissed-supermaid-volume-2",
+        "FileName": "looks-like-a-job-for-a-maid-the-tales-of-a-dismissed-supermaid-volume-2.epub",
+        "Title": "Looks like a Job for a Maid! The Tales of a Dismissed Supermaid: Volume 2",
+        "EditedBy": [],
+        "Published": "2026-03-05",
+        "Order": 102
+      }
+    ],
+    "Author": "Yasuaki Mikami",
+    "AuthorSort": "MIKAMI, YASUAKI"
   },
   {
     "CustomSeries": false,
@@ -14503,6 +15832,14 @@
         "EditedBy": [],
         "Published": "2025-12-17",
         "Order": 102
+      },
+      {
+        "ApiSlug": "looks-like-a-job-for-a-maid-the-tales-of-a-dismissed-supermaid-manga-volume-3",
+        "FileName": "looks-like-a-job-for-a-maid-the-tales-of-a-dismissed-supermaid-manga-volume-3.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-02-25",
+        "Order": 103
       }
     ],
     "Author": "Yasuaki Mikami",
@@ -14849,6 +16186,14 @@
         "EditedBy": [],
         "Published": "2024-07-17",
         "Order": 108
+      },
+      {
+        "ApiSlug": "making-magic-the-sweet-life-of-a-witch-who-knows-an-infinite-mp-loophole-volume-9",
+        "FileName": "making-magic-the-sweet-life-of-a-witch-who-knows-an-infinite-mp-loophole-volume-9.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-01-21",
+        "Order": 109
       }
     ],
     "Author": "Aloha Zachou",
@@ -15282,6 +16627,14 @@
         "EditedBy": [],
         "Published": "2025-09-22",
         "Order": 103
+      },
+      {
+        "ApiSlug": "mercedes-and-the-waning-moon-the-dungeoneering-feats-of-a-discarded-vampire-aristocrat-volume-4",
+        "FileName": "mercedes-and-the-waning-moon-the-dungeoneering-feats-of-a-discarded-vampire-aristocrat-volume-4.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-02-13",
+        "Order": 104
       }
     ],
     "Author": "Fire head",
@@ -15483,6 +16836,37 @@
     ],
     "Author": "Schuld",
     "AuthorSort": "SCHULD"
+  },
+  {
+    "CustomSeries": false,
+    "Name": "Miss Blossom’s Backward Beauty Standards: Give Me the Ugly Crown Prince!",
+    "InternalName": "miss-blossom-s-backward-beauty-standards-give-me-the-ugly-crown-prince",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "miss-blossom-s-backward-beauty-standards-give-me-the-ugly-crown-prince"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "miss-blossom-s-backward-beauty-standards-give-me-the-ugly-crown-prince-volume-1",
+        "FileName": "miss-blossom-s-backward-beauty-standards-give-me-the-ugly-crown-prince-volume-1.epub",
+        "Title": "Miss Blossom’s Backward Beauty Standards: Give Me the Ugly Crown Prince! Volume 1",
+        "EditedBy": [],
+        "Published": "2025-11-26",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "miss-blossom-s-backward-beauty-standards-give-me-the-ugly-crown-prince-volume-2",
+        "FileName": "miss-blossom-s-backward-beauty-standards-give-me-the-ugly-crown-prince-volume-2.epub",
+        "Title": "Miss Blossom’s Backward Beauty Standards: Give Me the Ugly Crown Prince! Volume 2",
+        "EditedBy": [],
+        "Published": "2026-02-04",
+        "Order": 102
+      }
+    ],
+    "Author": "Sankaku Mikaduki",
+    "AuthorSort": "MIKADUKI, SANKAKU"
   },
   {
     "CustomSeries": false,
@@ -16047,6 +17431,37 @@
   },
   {
     "CustomSeries": false,
+    "Name": "My Death-Defying Dog: Man’s Best Friend, World’s Best Savior",
+    "InternalName": "my-death-defying-dog-man-s-best-friend-world-s-best-savior",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "my-death-defying-dog-man-s-best-friend-world-s-best-savior"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "my-death-defying-dog-man-s-best-friend-world-s-best-savior-volume-1",
+        "FileName": "my-death-defying-dog-man-s-best-friend-world-s-best-savior-volume-1.epub",
+        "Title": "My Death-Defying Dog: Man’s Best Friend, World’s Best Savior Volume 1",
+        "EditedBy": [],
+        "Published": "2025-11-12",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "my-death-defying-dog-man-s-best-friend-world-s-best-savior-volume-2",
+        "FileName": "my-death-defying-dog-man-s-best-friend-world-s-best-savior-volume-2.epub",
+        "Title": "My Death-Defying Dog: Man’s Best Friend, World’s Best Savior Volume 2",
+        "EditedBy": [],
+        "Published": "2026-02-25",
+        "Order": 102
+      }
+    ],
+    "Author": "Chizu Kamikou",
+    "AuthorSort": "KAMIKOU, CHIZU"
+  },
+  {
+    "CustomSeries": false,
     "Name": "My Fiancé Cheated, But a New Love Rings!",
     "InternalName": "my-fianc-cheated-but-a-new-love-rings",
     "ApiSlugs": [
@@ -16451,6 +17866,14 @@
         "EditedBy": [],
         "Published": "2025-07-02",
         "Order": 111
+      },
+      {
+        "ApiSlug": "my-instant-death-ability-is-so-overpowered-no-one-in-this-other-world-stands-a-chance-against-me-a-volume-12",
+        "FileName": "my-instant-death-ability-is-so-overpowered-no-one-in-this-other-world-stands-a-chance-against-me-a-volume-12.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-01-14",
+        "Order": 112
       }
     ],
     "Author": "Tsuyoshi Fujitaka",
@@ -16996,6 +18419,14 @@
         "EditedBy": [],
         "Published": "2025-11-12",
         "Order": 102
+      },
+      {
+        "ApiSlug": "my-tiny-senpai-volume-3",
+        "FileName": "my-tiny-senpai-volume-3.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2025-12-31",
+        "Order": 103
       }
     ],
     "Author": "Saisou",
@@ -17153,6 +18584,14 @@
         "EditedBy": [],
         "Published": "2025-11-10",
         "Order": 102
+      },
+      {
+        "ApiSlug": "notorious-no-more-the-villainess-enjoys-feigning-incompetence-volume-3",
+        "FileName": "notorious-no-more-the-villainess-enjoys-feigning-incompetence-volume-3.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-03-09",
+        "Order": 103
       }
     ],
     "Author": "Hanako Arashi",
@@ -17272,6 +18711,14 @@
         "EditedBy": [],
         "Published": "2025-11-14",
         "Order": 113
+      },
+      {
+        "ApiSlug": "now-i-m-a-demon-lord-happily-ever-after-with-monster-girls-in-my-dungeon-volume-14",
+        "FileName": "now-i-m-a-demon-lord-happily-ever-after-with-monster-girls-in-my-dungeon-volume-14.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-01-16",
+        "Order": 114
       }
     ],
     "Author": "Ryuyu",
@@ -17449,6 +18896,68 @@
     ],
     "Author": "Hisago Amazake-no",
     "AuthorSort": "AMAZAKE-NO, HISAGO"
+  },
+  {
+    "CustomSeries": false,
+    "Name": "Old Knight, New Post: From Retiree to Her Majesty’s Blade (Manga)",
+    "InternalName": "old-knight-new-post-from-retiree-to-her-majesty-s-blade-manga",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "old-knight-new-post-from-retiree-to-her-majesty-s-blade-manga"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "old-knight-new-post-from-retiree-to-her-majesty-s-blade-manga-volume-1",
+        "FileName": "old-knight-new-post-from-retiree-to-her-majesty-s-blade-manga-volume-1.epub",
+        "Title": "Old Knight, New Post: From Retiree to Her Majesty’s Blade (Manga) Volume 1",
+        "EditedBy": [],
+        "Published": "2025-09-03",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "old-knight-new-post-from-retiree-to-her-majesty-s-blade-manga-volume-2",
+        "FileName": "old-knight-new-post-from-retiree-to-her-majesty-s-blade-manga-volume-2.epub",
+        "Title": "Old Knight, New Post: From Retiree to Her Majesty’s Blade (Manga) Volume 2",
+        "EditedBy": [],
+        "Published": "2025-12-31",
+        "Order": 102
+      }
+    ],
+    "Author": "Hisago Amazake-no",
+    "AuthorSort": "AMAZAKE-NO, HISAGO"
+  },
+  {
+    "CustomSeries": false,
+    "Name": "One Last Hurrah! The Grayed Heroes Explore a Vivid Future",
+    "InternalName": "one-last-hurrah-the-grayed-heroes-explore-a-vivid-future",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "one-last-hurrah-the-grayed-heroes-explore-a-vivid-future"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "one-last-hurrah-the-grayed-heroes-explore-a-vivid-future-volume-1",
+        "FileName": "one-last-hurrah-the-grayed-heroes-explore-a-vivid-future-volume-1.epub",
+        "Title": "One Last Hurrah! The Grayed Heroes Explore a Vivid Future Volume 1",
+        "EditedBy": [],
+        "Published": "2025-11-21",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "one-last-hurrah-the-grayed-heroes-explore-a-vivid-future-volume-2",
+        "FileName": "one-last-hurrah-the-grayed-heroes-explore-a-vivid-future-volume-2.epub",
+        "Title": "One Last Hurrah! The Grayed Heroes Explore a Vivid Future Volume 2",
+        "EditedBy": [],
+        "Published": "2026-02-23",
+        "Order": 102
+      }
+    ],
+    "Author": "fukurou",
+    "AuthorSort": "FUKUROU"
   },
   {
     "CustomSeries": false,
@@ -18155,6 +19664,14 @@
         "EditedBy": [],
         "Published": "2025-02-05",
         "Order": 105
+      },
+      {
+        "ApiSlug": "peddler-in-another-world-i-can-go-back-to-my-world-whenever-i-want-manga-volume-6",
+        "FileName": "peddler-in-another-world-i-can-go-back-to-my-world-whenever-i-want-manga-volume-6.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-02-11",
+        "Order": 106
       }
     ],
     "Author": "Hiiro Shimotsuki, Shizuku Akechi",
@@ -18258,6 +19775,14 @@
         "EditedBy": [],
         "Published": "2025-12-19",
         "Order": 111
+      },
+      {
+        "ApiSlug": "peddler-in-another-world-i-can-go-back-to-my-world-whenever-i-want-volume-12",
+        "FileName": "peddler-in-another-world-i-can-go-back-to-my-world-whenever-i-want-volume-12.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-04-03",
+        "Order": 112
       }
     ],
     "Author": "Hiiro Shimotsuki",
@@ -18305,6 +19830,14 @@
         "EditedBy": [],
         "Published": "2025-12-08",
         "Order": 104
+      },
+      {
+        "ApiSlug": "pens-down-swords-up-throw-your-studies-to-the-wind-volume-5",
+        "FileName": "pens-down-swords-up-throw-your-studies-to-the-wind-volume-5.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-03-12",
+        "Order": 105
       }
     ],
     "Author": "Mao Nishiura",
@@ -18658,6 +20191,14 @@
         "EditedBy": [],
         "Published": "2025-11-20",
         "Order": 118
+      },
+      {
+        "ApiSlug": "private-tutor-to-the-duke-s-daughter-volume-19",
+        "FileName": "private-tutor-to-the-duke-s-daughter-volume-19.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-02-19",
+        "Order": 119
       }
     ],
     "Author": "Riku Nanano",
@@ -19013,6 +20554,14 @@
         "EditedBy": [],
         "Published": "2025-12-17",
         "Order": 111
+      },
+      {
+        "ApiSlug": "rebuild-world-volume-8-part-one",
+        "FileName": "rebuild-world-volume-8-part-one.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-05-01",
+        "Order": 112
       }
     ],
     "Author": "Nahuse",
@@ -19560,6 +21109,37 @@
   },
   {
     "CustomSeries": false,
+    "Name": "Reforming an Icy Final Boss: Getting Back at the Self-Proclaimed Villainess with the Power of Friendship",
+    "InternalName": "reforming-an-icy-final-boss-getting-back-at-the-self-proclaimed-villainess-with-the-power-of-friendship",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "reforming-an-icy-final-boss-getting-back-at-the-self-proclaimed-villainess-with-the-power-of-friendship"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "reforming-an-icy-final-boss-getting-back-at-the-self-proclaimed-villainess-with-the-power-of-friendship-volume-1",
+        "FileName": "reforming-an-icy-final-boss-getting-back-at-the-self-proclaimed-villainess-with-the-power-of-friendship-volume-1.epub",
+        "Title": "Reforming an Icy Final Boss: Getting Back at the Self-Proclaimed Villainess with the Power of Friendship Volume 1",
+        "EditedBy": [],
+        "Published": "2026-01-12",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "reforming-an-icy-final-boss-getting-back-at-the-self-proclaimed-villainess-with-the-power-of-friendship-volume-2",
+        "FileName": "reforming-an-icy-final-boss-getting-back-at-the-self-proclaimed-villainess-with-the-power-of-friendship-volume-2.epub",
+        "Title": "Reforming an Icy Final Boss: Getting Back at the Self-Proclaimed Villainess with the Power of Friendship Volume 2",
+        "EditedBy": [],
+        "Published": "2026-03-18",
+        "Order": 102
+      }
+    ],
+    "Author": "Takamedou",
+    "AuthorSort": "TAKAMEDOU"
+  },
+  {
+    "CustomSeries": false,
     "Name": "Reincarnated as an Apple: This Forbidden Fruit Is Forever Unblemished!",
     "InternalName": "reincarnated-as-an-apple",
     "ApiSlugs": [
@@ -19765,6 +21345,37 @@
   },
   {
     "CustomSeries": false,
+    "Name": "Repeated Vice: I Refuse to Be Important Enough to Die",
+    "InternalName": "repeated-vice-i-refuse-to-be-important-enough-to-die",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "repeated-vice-i-refuse-to-be-important-enough-to-die"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "repeated-vice-i-refuse-to-be-important-enough-to-die-volume-1",
+        "FileName": "repeated-vice-i-refuse-to-be-important-enough-to-die-volume-1.epub",
+        "Title": "Repeated Vice: I Refuse to Be Important Enough to Die Volume 1",
+        "EditedBy": [],
+        "Published": "2026-01-05",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "repeated-vice-i-refuse-to-be-important-enough-to-die-volume-2",
+        "FileName": "repeated-vice-i-refuse-to-be-important-enough-to-die-volume-2.epub",
+        "Title": "Repeated Vice: I Refuse to Be Important Enough to Die Volume 2",
+        "EditedBy": [],
+        "Published": "2026-03-13",
+        "Order": 102
+      }
+    ],
+    "Author": "Kurokawa Hitsugi",
+    "AuthorSort": "HITSUGI, KUROKAWA"
+  },
+  {
+    "CustomSeries": false,
     "Name": "Revenge of the Soul Eater: Cast Out as a Weakling by My Sword Saint Father",
     "InternalName": "revenge-of-the-soul-eater-cast-out-as-a-weakling-by-my-sword-saint-father",
     "ApiSlugs": [
@@ -19797,10 +21408,49 @@
         "EditedBy": [],
         "Published": "2025-11-26",
         "Order": 103
+      },
+      {
+        "ApiSlug": "revenge-of-the-soul-eater-cast-out-as-a-weakling-by-my-sword-saint-father-volume-4",
+        "FileName": "revenge-of-the-soul-eater-cast-out-as-a-weakling-by-my-sword-saint-father-volume-4.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-02-26",
+        "Order": 104
       }
     ],
     "Author": "Gyokuto",
     "AuthorSort": "GYOKUTO"
+  },
+  {
+    "CustomSeries": false,
+    "Name": "Royal Spirits Are a Royal Pain! Give Me a Regular Romance",
+    "InternalName": "royal-spirits-are-a-royal-pain-give-me-a-regular-romance",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "royal-spirits-are-a-royal-pain-give-me-a-regular-romance"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "royal-spirits-are-a-royal-pain-give-me-a-regular-romance-volume-1",
+        "FileName": "royal-spirits-are-a-royal-pain-give-me-a-regular-romance-volume-1.epub",
+        "Title": "Royal Spirits Are a Royal Pain! Give Me a Regular Romance: Volume 1",
+        "EditedBy": [],
+        "Published": "2025-11-12",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "royal-spirits-are-a-royal-pain-give-me-a-regular-romance-volume-2",
+        "FileName": "royal-spirits-are-a-royal-pain-give-me-a-regular-romance-volume-2.epub",
+        "Title": "Royal Spirits Are a Royal Pain! Give Me a Regular Romance: Volume 2",
+        "EditedBy": [],
+        "Published": "2026-02-11",
+        "Order": 102
+      }
+    ],
+    "Author": "Rei Kazama",
+    "AuthorSort": "KAZAMA, REI"
   },
   {
     "CustomSeries": false,
@@ -19976,6 +21626,37 @@
   },
   {
     "CustomSeries": false,
+    "Name": "Scooped Up by an S-Rank Adventurer! This White Mage Is One Heck of a Healer",
+    "InternalName": "scooped-up-by-an-s-rank-adventurer-this-white-mage-is-one-heck-of-a-healer",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "scooped-up-by-an-s-rank-adventurer-this-white-mage-is-one-heck-of-a-healer"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "scooped-up-by-an-s-rank-adventurer-this-white-mage-is-one-heck-of-a-healer-volume-1",
+        "FileName": "scooped-up-by-an-s-rank-adventurer-this-white-mage-is-one-heck-of-a-healer-volume-1.epub",
+        "Title": "Scooped Up by an S-Rank Adventurer! This White Mage Is One Heck of a Healer: Volume 1",
+        "EditedBy": [],
+        "Published": "2026-01-14",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "scooped-up-by-an-s-rank-adventurer-this-white-mage-is-one-heck-of-a-healer-volume-2",
+        "FileName": "scooped-up-by-an-s-rank-adventurer-this-white-mage-is-one-heck-of-a-healer-volume-2.epub",
+        "Title": "Scooped Up by an S-Rank Adventurer! This White Mage Is One Heck of a Healer: Volume 2",
+        "EditedBy": [],
+        "Published": "2026-03-23",
+        "Order": 102
+      }
+    ],
+    "Author": "Sora Suigetsu",
+    "AuthorSort": "SUIGETSU, SORA"
+  },
+  {
+    "CustomSeries": false,
     "Name": "Scooped Up by an S-Rank Adventurer! This White Mage Is One Heck of a Healer (Manga)",
     "InternalName": "scooped-up-by-an-s-rank-adventurer-this-white-mage-is-one-heck-of-a-healer-manga",
     "ApiSlugs": [
@@ -20000,6 +21681,14 @@
         "EditedBy": [],
         "Published": "2025-11-26",
         "Order": 102
+      },
+      {
+        "ApiSlug": "scooped-up-by-an-s-rank-adventurer-this-white-mage-is-one-heck-of-a-healer-manga-volume-3",
+        "FileName": "scooped-up-by-an-s-rank-adventurer-this-white-mage-is-one-heck-of-a-healer-manga-volume-3.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-02-18",
+        "Order": 103
       }
     ],
     "Author": "Sora Suigetsu",
@@ -20326,6 +22015,14 @@
         "EditedBy": [],
         "Published": "2025-02-19",
         "Order": 111
+      },
+      {
+        "ApiSlug": "seirei-gensouki-spirit-chronicles-manga-volume-12",
+        "FileName": "seirei-gensouki-spirit-chronicles-manga-volume-12.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2025-12-24",
+        "Order": 112
       }
     ],
     "Author": "Yuri Kitayama",
@@ -21390,6 +23087,14 @@
         "EditedBy": [],
         "Published": "2025-08-01",
         "Order": 108
+      },
+      {
+        "ApiSlug": "taking-my-reincarnation-one-step-at-a-time-no-one-told-me-there-would-be-monsters-volume-9",
+        "FileName": "taking-my-reincarnation-one-step-at-a-time-no-one-told-me-there-would-be-monsters-volume-9.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-01-09",
+        "Order": 109
       }
     ],
     "Author": "KAYA",
@@ -21555,6 +23260,14 @@
         ],
         "Published": "2025-04-28",
         "Order": 115
+      },
+      {
+        "ApiSlug": "tearmoon-empire-volume-16",
+        "FileName": "tearmoon-empire-volume-16.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-02-06",
+        "Order": 116
       }
     ],
     "Author": "Nozomu Mochitsuki",
@@ -21634,6 +23347,14 @@
         "EditedBy": [],
         "Published": "2025-07-02",
         "Order": 108
+      },
+      {
+        "ApiSlug": "tearmoon-empire-manga-volume-9",
+        "FileName": "tearmoon-empire-manga-volume-9.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-01-14",
+        "Order": 109
       }
     ],
     "Author": "Nozomu Mochitsuki",
@@ -21759,6 +23480,14 @@
         "EditedBy": [],
         "Published": "2025-08-06",
         "Order": 104
+      },
+      {
+        "ApiSlug": "the-100th-time-s-the-charm-she-was-executed-99-times-so-how-did-she-unlock-super-love-mode-manga-volume-5",
+        "FileName": "the-100th-time-s-the-charm-she-was-executed-99-times-so-how-did-she-unlock-super-love-mode-manga-volume-5.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-01-07",
+        "Order": 105
       }
     ],
     "Author": "Yuji Yuji",
@@ -21790,10 +23519,49 @@
         "EditedBy": [],
         "Published": "2025-12-22",
         "Order": 102
+      },
+      {
+        "ApiSlug": "the-accursed-chef-and-his-pair-of-furry-foodies-volume-3",
+        "FileName": "the-accursed-chef-and-his-pair-of-furry-foodies-volume-3.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-03-21",
+        "Order": 103
       }
     ],
     "Author": "Yuu Tanaka",
     "AuthorSort": "TANAKA, YUU"
+  },
+  {
+    "CustomSeries": false,
+    "Name": "The Amazing Village Creator: Slow Living with the Village Building Cheat Skill",
+    "InternalName": "the-amazing-village-creator-slow-living-with-the-village-building-cheat-skill",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "the-amazing-village-creator-slow-living-with-the-village-building-cheat-skill"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "the-amazing-village-creator-slow-living-with-the-village-building-cheat-skill-volume-1",
+        "FileName": "the-amazing-village-creator-slow-living-with-the-village-building-cheat-skill-volume-1.epub",
+        "Title": "The Amazing Village Creator: Slow Living with the Village Building Cheat Skill: Volume 1",
+        "EditedBy": [],
+        "Published": "2025-11-17",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "the-amazing-village-creator-slow-living-with-the-village-building-cheat-skill-volume-2",
+        "FileName": "the-amazing-village-creator-slow-living-with-the-village-building-cheat-skill-volume-2.epub",
+        "Title": "The Amazing Village Creator: Slow Living with the Village Building Cheat Skill: Volume 2",
+        "EditedBy": [],
+        "Published": "2026-01-30",
+        "Order": 102
+      }
+    ],
+    "Author": "Shichio Kuzu",
+    "AuthorSort": "KUZU, SHICHIO"
   },
   {
     "CustomSeries": false,
@@ -22053,6 +23821,14 @@
         "EditedBy": [],
         "Published": "2025-12-09",
         "Order": 106
+      },
+      {
+        "ApiSlug": "the-banished-former-hero-lives-as-he-pleases-volume-7",
+        "FileName": "the-banished-former-hero-lives-as-he-pleases-volume-7.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-04-23",
+        "Order": 107
       }
     ],
     "Author": "Shin Kouduki",
@@ -22795,6 +24571,37 @@
   },
   {
     "CustomSeries": false,
+    "Name": "The Crown of Rutile Quartz (Manga)",
+    "InternalName": "the-crown-of-rutile-quartz-manga",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "the-crown-of-rutile-quartz-manga"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "the-crown-of-rutile-quartz-manga-volume-1",
+        "FileName": "the-crown-of-rutile-quartz-manga-volume-1.epub",
+        "Title": "The Crown of Rutile Quartz (Manga) Volume 1",
+        "EditedBy": [],
+        "Published": "2025-09-10",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "the-crown-of-rutile-quartz-manga-volume-2",
+        "FileName": "the-crown-of-rutile-quartz-manga-volume-2.epub",
+        "Title": "The Crown of Rutile Quartz (Manga) Volume 2",
+        "EditedBy": [],
+        "Published": "2026-02-11",
+        "Order": 102
+      }
+    ],
+    "Author": "Surume Enoki",
+    "AuthorSort": "ENOKI, SURUME"
+  },
+  {
+    "CustomSeries": false,
     "Name": "The Death of the Skeleton Swordsman: Dominating as a Cursed Saint",
     "InternalName": "the-death-of-the-skeleton-swordsman-dominating-as-a-cursed-saint",
     "ApiSlugs": [
@@ -22898,6 +24705,14 @@
         "EditedBy": [],
         "Published": "2025-12-03",
         "Order": 178
+      },
+      {
+        "ApiSlug": "the-diary-of-a-middle-aged-sage-s-carefree-life-in-another-world-volume-9",
+        "FileName": "the-diary-of-a-middle-aged-sage-s-carefree-life-in-another-world-volume-9.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-03-11",
+        "Order": 109
       }
     ],
     "Author": "Kotobuki Yasukiyo",
@@ -23494,6 +25309,68 @@
   },
   {
     "CustomSeries": false,
+    "Name": "The Fearsome Witch Teaches in Another World",
+    "InternalName": "the-fearsome-witch-teaches-in-another-world",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "the-fearsome-witch-teaches-in-another-world"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "the-fearsome-witch-teaches-in-another-world-volume-1",
+        "FileName": "the-fearsome-witch-teaches-in-another-world-volume-1.epub",
+        "Title": "The Fearsome Witch Teaches in Another World: Volume 1",
+        "EditedBy": [],
+        "Published": "2025-11-21",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "the-fearsome-witch-teaches-in-another-world-volume-2",
+        "FileName": "the-fearsome-witch-teaches-in-another-world-volume-2.epub",
+        "Title": "The Fearsome Witch Teaches in Another World: Volume 2",
+        "EditedBy": [],
+        "Published": "2026-02-20",
+        "Order": 102
+      }
+    ],
+    "Author": "Mitsuru Inoue",
+    "AuthorSort": "INOUE, MITSURU"
+  },
+  {
+    "CustomSeries": false,
+    "Name": "The Fearsome Witch Teaches in Another World (Manga): Ms. Aoi’s Lesson Plans",
+    "InternalName": "the-fearsome-witch-teaches-in-another-world-manga-ms-aoi-s-lesson-plans",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "the-fearsome-witch-teaches-in-another-world-manga-ms-aoi-s-lesson-plans"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "the-fearsome-witch-teaches-in-another-world-manga-ms-aoi-s-lesson-plans-volume-1",
+        "FileName": "the-fearsome-witch-teaches-in-another-world-manga-ms-aoi-s-lesson-plans-volume-1.epub",
+        "Title": "The Fearsome Witch Teaches in Another World (Manga): Ms. Aoi’s Lesson Plans Volume 1",
+        "EditedBy": [],
+        "Published": "2025-10-29",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "the-fearsome-witch-teaches-in-another-world-manga-ms-aoi-s-lesson-plans-volume-2",
+        "FileName": "the-fearsome-witch-teaches-in-another-world-manga-ms-aoi-s-lesson-plans-volume-2.epub",
+        "Title": "The Fearsome Witch Teaches in Another World (Manga): Ms. Aoi’s Lesson Plans Volume 2",
+        "EditedBy": [],
+        "Published": "2026-01-21",
+        "Order": 102
+      }
+    ],
+    "Author": "Mitsuru Inoue",
+    "AuthorSort": "INOUE, MITSURU"
+  },
+  {
+    "CustomSeries": false,
     "Name": "The Frontier Lord Begins with Zero Subjects",
     "InternalName": "the-frontier-lord-begins-with-zero-subjects",
     "ApiSlugs": [
@@ -23590,6 +25467,14 @@
         "EditedBy": [],
         "Published": "2025-11-24",
         "Order": 111
+      },
+      {
+        "ApiSlug": "the-frontier-lord-begins-with-zero-subjects-volume-12",
+        "FileName": "the-frontier-lord-begins-with-zero-subjects-volume-12.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-02-06",
+        "Order": 112
       }
     ],
     "Author": "Fuurou",
@@ -23693,6 +25578,14 @@
         "EditedBy": [],
         "Published": "2025-11-26",
         "Order": 111
+      },
+      {
+        "ApiSlug": "the-frontier-lord-begins-with-zero-subjects-manga-tales-of-blue-dias-and-the-onikin-alna-volume-12",
+        "FileName": "the-frontier-lord-begins-with-zero-subjects-manga-tales-of-blue-dias-and-the-onikin-alna-volume-12.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-02-18",
+        "Order": 112
       }
     ],
     "Author": "Fuurou, Kinta",
@@ -23771,6 +25664,14 @@
         "EditedBy": [],
         "Published": "2025-12-30",
         "Order": 102
+      },
+      {
+        "ApiSlug": "the-goddess-says-kill-the-tsundere-witch-volume-3",
+        "FileName": "the-goddess-says-kill-the-tsundere-witch-volume-3.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-03-24",
+        "Order": 103
       }
     ],
     "Author": "Nagi Misaki",
@@ -24506,6 +26407,14 @@
         "EditedBy": [],
         "Published": "2025-09-10",
         "Order": 110
+      },
+      {
+        "ApiSlug": "the-invincible-little-lady-manga-volume-11",
+        "FileName": "the-invincible-little-lady-manga-volume-11.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2025-12-24",
+        "Order": 111
       }
     ],
     "Author": "Chatsufusa",
@@ -24561,6 +26470,14 @@
         "EditedBy": [],
         "Published": "2025-12-03",
         "Order": 105
+      },
+      {
+        "ApiSlug": "the-invincible-summoner-who-crawled-up-from-level-1-manga-volume-6",
+        "FileName": "the-invincible-summoner-who-crawled-up-from-level-1-manga-volume-6.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-02-25",
+        "Order": 106
       }
     ],
     "Author": "Arata Shiraishi",
@@ -24612,6 +26529,37 @@
     ],
     "Author": "Shiraishi Arata",
     "AuthorSort": "ARATA, SHIRAISHI"
+  },
+  {
+    "CustomSeries": false,
+    "Name": "The Isle of Paramounts: Reborn into a Slow Life Among the Strongest in the World",
+    "InternalName": "the-isle-of-paramounts-reborn-into-a-slow-life-among-the-strongest-in-the-world",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "the-isle-of-paramounts-reborn-into-a-slow-life-among-the-strongest-in-the-world"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "the-isle-of-paramounts-reborn-into-a-slow-life-among-the-strongest-in-the-world-volume-1",
+        "FileName": "the-isle-of-paramounts-reborn-into-a-slow-life-among-the-strongest-in-the-world-volume-1.epub",
+        "Title": "The Isle of Paramounts: Reborn into a Slow Life Among the Strongest in the World Volume 1",
+        "EditedBy": [],
+        "Published": "2025-11-24",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "the-isle-of-paramounts-reborn-into-a-slow-life-among-the-strongest-in-the-world-volume-2",
+        "FileName": "the-isle-of-paramounts-reborn-into-a-slow-life-among-the-strongest-in-the-world-volume-2.epub",
+        "Title": "The Isle of Paramounts: Reborn into a Slow Life Among the Strongest in the World Volume 2",
+        "EditedBy": [],
+        "Published": "2026-02-11",
+        "Order": 102
+      }
+    ],
+    "Author": "Heiseiowari",
+    "AuthorSort": "HEISEIOWARI"
   },
   {
     "CustomSeries": false,
@@ -25360,6 +27308,14 @@
         "EditedBy": [],
         "Published": "2025-11-12",
         "Order": 112
+      },
+      {
+        "ApiSlug": "the-misfit-of-demon-king-academy-volume-11",
+        "FileName": "the-misfit-of-demon-king-academy-volume-11.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-02-27",
+        "Order": 113
       }
     ],
     "Author": "SHU",
@@ -25534,6 +27490,14 @@
         "EditedBy": [],
         "Published": "2025-10-01",
         "Order": 105
+      },
+      {
+        "ApiSlug": "the-oblivious-saint-can-t-contain-her-power-disgraced-no-longer-i-m-finding-happiness-with-the-prince-manga-volume-6",
+        "FileName": "the-oblivious-saint-can-t-contain-her-power-disgraced-no-longer-i-m-finding-happiness-with-the-prince-manga-volume-6.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2025-12-24",
+        "Order": 106
       }
     ],
     "Author": "Almond",
@@ -25699,6 +27663,14 @@
         "EditedBy": [],
         "Published": "2025-11-12",
         "Order": 105
+      },
+      {
+        "ApiSlug": "the-otome-heroine-s-fight-for-survival-manga-volume-6",
+        "FileName": "the-otome-heroine-s-fight-for-survival-manga-volume-6.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-01-21",
+        "Order": 106
       }
     ],
     "Author": "Harunohi Biyori",
@@ -25920,6 +27892,14 @@
         "EditedBy": [],
         "Published": "2025-11-28",
         "Order": 106
+      },
+      {
+        "ApiSlug": "the-reincarnation-of-the-strongest-exorcist-in-another-world-volume-7",
+        "FileName": "the-reincarnation-of-the-strongest-exorcist-in-another-world-volume-7.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-02-11",
+        "Order": 107
       }
     ],
     "Author": "Kiichi Kosuzu",
@@ -26462,6 +28442,14 @@
         ],
         "Published": "2025-03-24",
         "Order": 112
+      },
+      {
+        "ApiSlug": "the-blue-sea-of-marielle-clarac",
+        "FileName": "the-blue-sea-of-marielle-clarac.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-01-29",
+        "Order": 113
       }
     ],
     "Author": "Haruka Momo",
@@ -26604,6 +28592,14 @@
         "EditedBy": [],
         "Published": "2025-12-30",
         "Order": 105
+      },
+      {
+        "ApiSlug": "the-tanaka-family-reincarnates-volume-6",
+        "FileName": "the-tanaka-family-reincarnates-volume-6.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-04-03",
+        "Order": 106
       }
     ],
     "Author": "Choco",
@@ -26635,6 +28631,14 @@
         "EditedBy": [],
         "Published": "2025-09-04",
         "Order": 102
+      },
+      {
+        "ApiSlug": "the-tiny-witch-from-the-deep-woods-volume-3",
+        "FileName": "the-tiny-witch-from-the-deep-woods-volume-3.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-03-18",
+        "Order": 103
       }
     ],
     "Author": "Yanagi",
@@ -26690,6 +28694,14 @@
         "EditedBy": [],
         "Published": "2025-12-15",
         "Order": 105
+      },
+      {
+        "ApiSlug": "the-trials-and-tribulations-of-my-next-life-as-a-noblewoman-volume-4-part-1",
+        "FileName": "the-trials-and-tribulations-of-my-next-life-as-a-noblewoman-volume-4-part-1.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-03-18",
+        "Order": 106
       }
     ],
     "Author": "Kamihara",
@@ -27115,6 +29127,14 @@
         "EditedBy": [],
         "Published": "2025-10-14",
         "Order": 105
+      },
+      {
+        "ApiSlug": "the-water-magician-arc-1-volume-6",
+        "FileName": "the-water-magician-arc-1-volume-6.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-03-10",
+        "Order": 106
       }
     ],
     "Author": "Tadashi Kubou",
@@ -27162,6 +29182,14 @@
         "EditedBy": [],
         "Published": "2025-04-07",
         "Order": 104
+      },
+      {
+        "ApiSlug": "the-water-magician-manga-volume-5",
+        "FileName": "the-water-magician-manga-volume-5.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2025-12-31",
+        "Order": 105
       }
     ],
     "Author": "Tadashi Kubou",
@@ -27359,6 +29387,14 @@
         "EditedBy": [],
         "Published": "2023-02-21",
         "Order": 109
+      },
+      {
+        "ApiSlug": "the-world-s-least-interesting-master-swordsman-volume-10",
+        "FileName": "the-world-s-least-interesting-master-swordsman-volume-10.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-03-20",
+        "Order": 110
       }
     ],
     "Author": "Rokurou Akashi",
@@ -28581,6 +30617,14 @@
         "EditedBy": [],
         "Published": "2025-11-19",
         "Order": 102
+      },
+      {
+        "ApiSlug": "worthless-at-home-whiz-to-the-world-volume-3",
+        "FileName": "worthless-at-home-whiz-to-the-world-volume-3.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-02-09",
+        "Order": 103
       }
     ],
     "Author": "kimimaro",
@@ -28920,6 +30964,14 @@
         "EditedBy": [],
         "Published": "2025-04-30",
         "Order": 106
+      },
+      {
+        "ApiSlug": "young-lady-albert-is-courting-disaster-manga-volume-7",
+        "FileName": "young-lady-albert-is-courting-disaster-manga-volume-7.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-01-21",
+        "Order": 107
       }
     ],
     "Author": "Saki",
@@ -29092,6 +31144,14 @@
         "EditedBy": [],
         "Published": "2025-11-13",
         "Order": 105
+      },
+      {
+        "ApiSlug": "zilbagias-the-demon-prince-how-the-seventh-prince-brought-down-the-kingdom-volume-6",
+        "FileName": "zilbagias-the-demon-prince-how-the-seventh-prince-brought-down-the-kingdom-volume-6.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-04-16",
+        "Order": 106
       }
     ],
     "Author": "Tomoaki Amagi",
