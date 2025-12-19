@@ -74,10 +74,35 @@
                 <ComboBoxItem Name="Bonus">Bonus</ComboBoxItem>
                 <ComboBoxItem Name="NonStory">NonStory</ComboBoxItem>
             </ComboBox>
-            <Button Content="Add Link" Click="Button_Click_1" Grid.Row="1" Grid.Column="1"></Button>
+
+            <TextBox x:Name="POV" HorizontalAlignment="Stretch" Text="{Binding POV}" Grid.Column="1" Grid.Row="1">
+                <TextBox.Style>
+                    <Style TargetType="TextBox" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+                        <Style.Resources>
+                            <VisualBrush x:Key="CueBannerBrush" AlignmentX="Left" AlignmentY="Center" Stretch="None">
+                                <VisualBrush.Visual>
+                                    <Label Content="POV Character (Optional)" Foreground="LightGray" />
+                                </VisualBrush.Visual>
+                            </VisualBrush>
+                        </Style.Resources>
+                        <Style.Triggers>
+                            <Trigger Property="Text" Value="{x:Static sys:String.Empty}">
+                                <Setter Property="Background" Value="{StaticResource CueBannerBrush}" />
+                            </Trigger>
+                            <Trigger Property="Text" Value="{x:Null}">
+                                <Setter Property="Background" Value="{StaticResource CueBannerBrush}" />
+                            </Trigger>
+                            <Trigger Property="IsKeyboardFocused" Value="True">
+                                <Setter Property="Background" Value="White" />
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </TextBox.Style>
+            </TextBox>
+            <Button Content="Add Link" Click="Button_Click_1" Grid.Row="2" Grid.Column="1"></Button>
 
             <Button Content="New Chapter" Click="NewChapter_Click" Grid.Row="2"></Button>
-            <Button Content="Duplicate/Split Chapter" Name="SplitChapter" Click="SplitChapter_Click" Grid.Row="2" Grid.Column="1"></Button>
+            <Button Content="Duplicate/Split Chapter" Name="SplitChapter" Click="SplitChapter_Click" Grid.Row="3" Grid.Column="1"></Button>
 
             <Button Content="Subsections" Grid.Row="3" Click="Button_Click_4"></Button>
 

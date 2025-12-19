@@ -188,6 +188,10 @@ namespace AOABO.Omnibus
                         Set = string.Empty,
                         Priority = 0
                     };
+                    if (Configuration.Options.Chapter.UpdateChapterNames && !string.IsNullOrWhiteSpace(chapter.POV))
+                    {
+                        newChapter.Name = $"{chapter.Name} [{chapter.POV}].xhtml";
+                    }
                     newChapter.SortOrder = chapter.SortOrder;
                     outProcessor.Chapters.Add(newChapter);
 
@@ -242,6 +246,24 @@ namespace AOABO.Omnibus
                         {
                             throw new Exception($"{ex.Message} while processing file {chapterFile}", ex);
                         }
+                    }
+
+                    if (Configuration.Options.Chapter.UpdateChapterNames)
+                    {
+                        var match = chapterTitleRegex.Match(newChapter.Contents);
+                        if (match.Success)
+                            newChapter.Contents = newChapter.Contents.Replace(match.Value, $"<h1>{newChapter.Name}</h1>");
+                    }
+                    if (!string.IsNullOrWhiteSpace(chapter.StartsAtLine))
+                    {
+                        var location = newChapter.Contents.IndexOf(chapter.StartsAtLine);
+                        newChapter.Contents = newChapter.Contents.Substring(location).Replace(chapter.StartsAtLine, $"<body><section><div><h1>{newChapter.Name}</h1>");
+                    }
+
+                    if (!string.IsNullOrWhiteSpace(chapter.EndsBeforeLine))
+                    {
+                        var location = newChapter.Contents.IndexOf(chapter.EndsBeforeLine);
+                        newChapter.Contents = newChapter.Contents.Substring(0, location);
                     }
                 }
                 catch (Exception)
@@ -623,15 +645,7 @@ namespace AOABO.Omnibus
 
     public abstract class ChapterHolder
     {
-        public ObservableCollection<Chapter> Chapters { get; set; } = new ObservableCollection<Chapter>();
-        public void Remove(Chapter chapter)
-        {
-            Chapters.Remove(chapter);
-            foreach (var subchapter in Chapters)
-            {
-                subchapter.Remove(chapter);
-            }
-        }
+        public List<Chapter> Chapters { get; set; } = [];
 
         public List<Source> AllSources(string prefix)
         {
@@ -655,7 +669,7 @@ namespace AOABO.Omnibus
                 chapter.RemoveEmpties();
             }
 
-            Chapters = new ObservableCollection<Chapter>(Chapters.Where(x => x.Sources.Any() || x.Chapters.Any()));
+            Chapters = [.. Chapters.Where(x => x.Sources.Any() || x.Chapters.Any())];
         }
 
         public void Sort()
@@ -677,7 +691,7 @@ namespace AOABO.Omnibus
         }
     }
 
-    public class Chapter : ChapterHolder, INotifyPropertyChanged
+    public class Chapter : ChapterHolder
     {
         public enum ChapterType
         {
@@ -689,42 +703,12 @@ namespace AOABO.Omnibus
         }
 
         public ChapterType CType { get; set; } = ChapterType.Story;
-        public string ChapType
-        {
-            get { return CType.ToString(); }
-            set
-            {
-                CType = (ChapterType)Enum.Parse(typeof(ChapterType), value);
-                if (PropertyChanged != null)
-                    PropertyChanged(this, new PropertyChangedEventArgs("ChapType"));
-            }
-        }
 
-        private string _name = String.Empty;
-        public string Name
-        {
-            get { return _name; }
-            set
-            {
-                _name = value;
-                if (PropertyChanged != null)
-                    PropertyChanged(this, new PropertyChangedEventArgs("Name"));
-            }
-        }
-        private string _sortOrder = string.Empty;
+        public string Name { get; set; } = string.Empty;
 
-        public event PropertyChangedEventHandler? PropertyChanged;
+        public string SortOrder { get; set; } = string.Empty;
 
-        public string SortOrder
-        {
-            get { return _sortOrder; }
-            set
-            {
-                _sortOrder = value;
-                if (PropertyChanged != null)
-                    PropertyChanged(this, new PropertyChangedEventArgs("SortOrder"));
-            }
-        }
+        public string POV { get; set; } = string.Empty;
         public ObservableCollection<Source> Sources { get; set; } = new ObservableCollection<Source> { };
 
         public ObservableCollection<Link> LinkedChapters { get; set; } = new ObservableCollection<Link>();

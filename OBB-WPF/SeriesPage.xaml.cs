@@ -203,6 +203,7 @@ namespace OBB_WPF
                 SortOrder.DataContext = CurrentChapter;
                 Sources.ItemsSource = CurrentChapter.Sources;
                 ChapterType.DataContext = CurrentChapter;
+                POV.DataContext = CurrentChapter;
             }
 
             e.Handled = true;
@@ -330,6 +331,7 @@ namespace OBB_WPF
         {
             ChapterName.DataContext = null;
             SortOrder.DataContext = null;
+            POV.DataContext = null;
             Sources.ItemsSource = omnibus!.UnusedSources;
         }
 
@@ -359,6 +361,7 @@ namespace OBB_WPF
             SortOrder.DataContext = CurrentChapter;
             Sources.ItemsSource = CurrentChapter.Sources;
             ChapterType.DataContext = CurrentChapter;
+            POV.DataContext = CurrentChapter;
         }
 
         private void Source_Drop(object sender, DragEventArgs e)

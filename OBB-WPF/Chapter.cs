@@ -50,6 +50,18 @@ namespace OBB_WPF
                     PropertyChanged(this, new PropertyChangedEventArgs("SortOrder"));
             }
         }
+
+        private string _pov = string.Empty;
+
+        public string POV
+        {
+            get { return _pov; }
+            set
+            {
+                _pov = value;
+                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(POV)));
+            }
+        }
         public ObservableCollection<Source> Sources { get; set; } = new ObservableCollection<Source> { };
 
         public ObservableCollection<Link> LinkedChapters { get; set; } = new ObservableCollection<Link>();
