@@ -177,6 +177,19 @@ namespace AOABO.Omnibus
                     }
                     break;
                 case OutputStructure.Flat:
+                    parts = [.. omnibus.Chapters.Where(x => x.CType == Chapter.ChapterType.Part)];
+                    foreach (var part in parts)
+                    {
+                        var volumes = part.Chapters.Where(x => x.CType == Chapter.ChapterType.Volume).ToArray();
+                        foreach (var vol in volumes)
+                        {
+                            omnibus.Chapters.Add(vol);
+                            omnibus.Chapters.AddRange(vol.Chapters);
+                            vol.Chapters.Clear();
+                            part.Chapters.Remove(vol);
+                        }
+                    }
+                    break;
                 case OutputStructure.Seasons:
                     break;
             }
