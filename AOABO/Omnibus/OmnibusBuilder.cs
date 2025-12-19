@@ -153,8 +153,7 @@ namespace AOABO.Omnibus
 
             if (partScope != PartToProcess.EntireSeries)
             {
-                var parts = omnibus.Chapters.Where(x => x.CType == Chapter.ChapterType.Part).ToArray();
-                foreach(var part in parts)
+                foreach(var part in omnibus.Chapters.Where(x => x.CType == Chapter.ChapterType.Part).ToArray())
                 {
                     if (partScope == PartToProcess.PartOne && part.Name.Equals("Daughter of a Soldier")) continue;
 
@@ -162,10 +161,21 @@ namespace AOABO.Omnibus
                 }
             }
 
+            IEnumerable<Chapter>? parts;
             switch (Configuration.Options.OutputStructure)
             {
                 case OutputStructure.Parts:
-                case OutputStructure.Volumes:
+                    parts = omnibus.Chapters.Where(x => x.CType == Chapter.ChapterType.Part);
+                    foreach(var part in parts)
+                    {
+                        var volumes = part.Chapters.Where(x => x.CType == Chapter.ChapterType.Volume).ToArray();
+                        foreach(var vol in volumes)
+                        {
+                            part.Chapters.AddRange(vol.Chapters);
+                            vol.Chapters.Clear();
+                        }
+                    }
+                    break;
                 case OutputStructure.Flat:
                 case OutputStructure.Seasons:
                     break;
