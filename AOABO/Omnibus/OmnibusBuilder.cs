@@ -247,10 +247,51 @@ namespace AOABO.Omnibus
             if (Configuration.Options.Chapter.UpdateChapterNames)
             {
                 var flatList = BuildChapterList(omnibus, false).Where(x => !string.IsNullOrWhiteSpace(x.POV)).ToArray();
-                foreach(var chap in flatList)
+                foreach (var chap in flatList)
                     chap.Name = $"{chap.Name} [{chap.POV}]";
             }
 
+            if (Configuration.Options.Extras.Afterword == AfterwordSetting.None)
+            {
+                foreach (var part in omnibus.Chapters.Where(x => x.CType == Chapter.ChapterType.Part))
+                {
+                    foreach (var vol in part.Chapters.Where(x => x.CType == Chapter.ChapterType.Volume))
+                    {
+                        vol.Chapters.RemoveAll(x => x.CType == Chapter.ChapterType.Afterword);
+                    }
+                }
+            }
+            else if (Configuration.Options.Extras.Afterword == AfterwordSetting.OmnibusEnd)
+            {
+                var afterwords = new Chapter
+                {
+                    Name = "Afterwords",
+                    SortOrder = "999",
+                    CType = Chapter.ChapterType.Afterword,
+                    Chapters = []
+                };
+
+                foreach (var part in omnibus.Chapters.Where(x => x.CType == Chapter.ChapterType.Part))
+                {
+                    foreach (var vol in part.Chapters.Where(x => x.CType == Chapter.ChapterType.Volume))
+                    {
+                        afterwords.Chapters.AddRange(vol.Chapters.Where(x => x.CType == Chapter.ChapterType.Afterword));
+                        vol.Chapters.RemoveAll(x => x.CType == Chapter.ChapterType.Afterword);
+                    }
+                }
+
+                omnibus.Chapters.Add(afterwords);
+
+                foreach (var afterword in afterwords.Chapters)
+                {
+                    var source = afterword.Tags.FirstOrDefault(x => x.Name.Equals("Source"));
+                    if (source != null)
+                    {
+                        afterword.Name = source.Value;
+                    }
+                }
+            }
+            
             var flatChapterList = BuildChapterList(omnibus, true).ToArray();
 
             foreach (var chapter in flatChapterList)
@@ -775,11 +816,14 @@ namespace AOABO.Omnibus
     {
         public enum ChapterType
         {
-            Part,
-            Volume,
             Story,
             Bonus,
-            NonStory
+            NonStory,
+            Part,
+            Volume,
+            Map,
+            CharacterSheet,
+            Afterword
         }
 
         public ChapterType CType { get; set; } = ChapterType.Story;

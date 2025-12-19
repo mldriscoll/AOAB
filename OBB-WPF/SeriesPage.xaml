@@ -73,6 +73,7 @@
                 <ComboBoxItem Name="Story">Story</ComboBoxItem>
                 <ComboBoxItem Name="Bonus">Bonus</ComboBoxItem>
                 <ComboBoxItem Name="NonStory">NonStory</ComboBoxItem>
+                <ComboBoxItem Name="Afterword">Afterword</ComboBoxItem>
             </ComboBox>
 
             <TextBox x:Name="POV" HorizontalAlignment="Stretch" Text="{Binding POV}" Grid.Column="1" Grid.Row="1">
