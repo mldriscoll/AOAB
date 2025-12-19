@@ -478,6 +478,15 @@ namespace OBB_WPF
             var subs = new Subsections(CurrentChapter);
             subs.ShowDialog();
         }
+
+        private void TagsButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (CurrentChapter != null)
+            {
+                var popup = new TagsPopup(CurrentChapter);
+                popup.ShowDialog();
+            }
+        }
     }
 
     public class ChapterTreeViewItem : TreeViewItem

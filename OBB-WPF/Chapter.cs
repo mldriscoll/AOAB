@@ -89,11 +89,11 @@ namespace OBB_WPF
 
         public void Combine(Chapter other)
         {
-            foreach(var newSource in other.Sources)
+            foreach (var newSource in other.Sources)
             {
                 Sources.Add(newSource);
             }
-            foreach(var chapter in other.Chapters)
+            foreach (var chapter in other.Chapters)
             {
                 var match = Chapters.FirstOrDefault(x => x.Match(chapter));
                 if (match != null)
@@ -114,12 +114,19 @@ namespace OBB_WPF
                 }
             }
 
-            foreach(var chapter in Chapters)
+            foreach (var chapter in Chapters)
             {
                 ret.AddRange(chapter.FindDupes(sourceList));
             }
             return ret;
         }
 
+        public class Tag
+        {
+            public string Name { get; set; } = string.Empty;
+            public string Value { get; set; } = string.Empty;
+        }
+
+        public List<Tag> Tags { get; set; } = [];
     }
 }

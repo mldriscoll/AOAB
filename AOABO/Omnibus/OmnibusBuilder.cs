@@ -191,13 +191,71 @@ namespace AOABO.Omnibus
                     }
                     break;
                 case OutputStructure.Seasons:
+                    int year = Configuration.Options.StartYear - 1;
+
+                    var currentYear = new Chapter { CType = Chapter.ChapterType.Story, Name = $"Year {year:00}", SortOrder = year.ToString("00") };
+                    var currentSeason = new Chapter { CType = Chapter.ChapterType.Story, Name = "Unknown", SortOrder = "1" };
+                    omnibus.Chapters.Add(currentYear);
+                    currentYear.Chapters.Add(currentSeason);
+
+                    foreach(var part in omnibus.Chapters.Where(x => x.CType == Chapter.ChapterType.Part).ToArray())
+                    {
+                        omnibus.Chapters.Remove(part);
+                        currentSeason.Chapters.Add(part);
+                        foreach(var vol in part.Chapters)
+                        {
+                            currentSeason.Chapters.Add(vol);
+                            foreach(var chapter in vol.Chapters)
+                            {
+                                var newYear = chapter.Tags.FirstOrDefault(x => x.Name.Equals("Year"));
+                                if (newYear != null)
+                                {
+                                    currentYear = new Chapter { CType = Chapter.ChapterType.Story, Name = $"Year {Configuration.Options.StartYear + int.Parse(newYear.Value):00}", SortOrder = $"{Configuration.Options.StartYear + int.Parse(newYear.Value):00}" };
+                                    omnibus.Chapters.Add(currentYear);
+                                }
+
+                                var newSeason = chapter.Tags.FirstOrDefault(x => x.Name.Equals("Season"));
+                                if (newSeason != null)
+                                {
+                                    currentSeason = new Chapter
+                                    {
+                                        CType = Chapter.ChapterType.Story,
+                                        Name = newSeason.Value,
+                                        SortOrder = newSeason.Value switch
+                                        {
+                                            "Summer" => "1",
+                                            "Autumn" => "2",
+                                            "Winter" => "3",
+                                            "Spring" => "4",
+                                            _ => "0",
+                                        }
+                                    };
+                                    currentYear.Chapters.Add(currentSeason);
+                                }
+
+                                currentSeason.Chapters.Add(chapter);
+                            }
+                            vol.Chapters.Clear();
+                        }
+                        part.Chapters.Clear();
+                    }
+                    break;
+                case OutputStructure.Volumes:
                     break;
             }
 
-            var flatChapterList = BuildChapterList(omnibus).ToArray();
+            if (Configuration.Options.Chapter.UpdateChapterNames)
+            {
+                var flatList = BuildChapterList(omnibus, false).Where(x => !string.IsNullOrWhiteSpace(x.POV)).ToArray();
+                foreach(var chap in flatList)
+                    chap.Name = $"{chap.Name} [{chap.POV}]";
+            }
+
+            var flatChapterList = BuildChapterList(omnibus, true).ToArray();
 
             foreach (var chapter in flatChapterList)
             {
+                if (chapter.Chapters.Count == 0 && chapter.Sources.Count == 0) continue;
                 try
                 {
                     bool notFirst = false;
@@ -211,10 +269,6 @@ namespace AOABO.Omnibus
                         Set = string.Empty,
                         Priority = 0
                     };
-                    if (Configuration.Options.Chapter.UpdateChapterNames && !string.IsNullOrWhiteSpace(chapter.POV))
-                    {
-                        newChapter.Name = $"{chapter.Name} [{chapter.POV}].xhtml";
-                    }
                     newChapter.SortOrder = chapter.SortOrder;
                     outProcessor.Chapters.Add(newChapter);
 
@@ -488,20 +542,23 @@ namespace AOABO.Omnibus
             Console.ReadKey();
         }
 
-        private static IEnumerable<Chapter> BuildChapterList(ChapterHolder ch)
+        private static IEnumerable<Chapter> BuildChapterList(ChapterHolder ch, bool setSubfolders)
         {
             foreach(var chapter in ch.Chapters)
             {
                 yield return chapter;
-                foreach (var innerchap in BuildChapterList(chapter))
+                foreach (var innerchap in BuildChapterList(chapter, setSubfolders))
                 {
-                    if (string.IsNullOrWhiteSpace(innerchap.Subfolder))
+                    if (setSubfolders)
                     {
-                        innerchap.Subfolder = chapter.Name;
-                    }
-                    else
-                    {
-                        innerchap.Subfolder = string.Concat(chapter.Name, "\\", innerchap.Subfolder);
+                        if (string.IsNullOrWhiteSpace(innerchap.Subfolder))
+                        {
+                            innerchap.Subfolder = $"{chapter.SortOrder}-{chapter.Name}";
+                        }
+                        else
+                        {
+                            innerchap.Subfolder = string.Concat(chapter.SortOrder, "-", chapter.Name, "\\", innerchap.Subfolder);
+                        }
                     }
                     yield return innerchap;
                 }
@@ -792,6 +849,14 @@ namespace AOABO.Omnibus
         }
 
         public string Subfolder { get; set; } = string.Empty;
+
+        public class Tag
+        {
+            public string Name { get; set; } = string.Empty;
+            public string Value { get; set; } = string.Empty;
+        }
+
+        public Tag[] Tags { get; set; } = [];
     }
     public class Source : INotifyPropertyChanged
     {

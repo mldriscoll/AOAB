@@ -28,6 +28,9 @@
     <Compile Update="Editor\SubsectionControl.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Editor\TagsPopup.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Library\LibrarySummary.xaml.cs">
       <SubType>Code</SubType>
     </Compile>

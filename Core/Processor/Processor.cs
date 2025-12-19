@@ -128,7 +128,7 @@ namespace Core.Processor
             int tocCounter = 0;
 
             Directory.CreateDirectory($"{folder}\\oebps\\Text");
-            var chaps = Chapters.OrderBy(x => x.CombinedSortOrder());
+            var chaps = Chapters.OrderBy(x => x.CombinedSortOrder(), new SortOrderComparer());
             textProgress?.Report(chaps.Count());
             foreach (var chapter in chaps)
             {
@@ -213,7 +213,7 @@ namespace Core.Processor
                 textProgress?.Report(tocCounter);
             }
 
-            foreach (var chapter in Chapters.OrderBy(x => x.CombinedSortOrder()))
+            foreach (var chapter in Chapters.OrderBy(x => x.CombinedSortOrder(), new SortOrderComparer()))
             {
                 foreach (var chapterlink in chapter.ChapterLinks)
                 {
@@ -590,6 +590,17 @@ namespace Core.Processor
                     chapter.Contents = chapter.Contents.Replace(orig, rep.Key);
                 }
             }
+        }
+    }
+
+    public class SortOrderComparer : IComparer<string>
+    {
+        public int Compare(string? x, string? y)
+        {
+            if (x != null && x.StartsWith("00-Cover")) return -1;
+            if (y != null && y.StartsWith("00-Cover")) return 1;
+
+            return StringComparer.OrdinalIgnoreCase.Compare(x, y);
         }
     }
 }
