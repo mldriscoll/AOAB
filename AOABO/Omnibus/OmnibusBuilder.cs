@@ -156,6 +156,11 @@ namespace AOABO.Omnibus
                 foreach(var part in omnibus.Chapters.Where(x => x.CType == Chapter.ChapterType.Part).ToArray())
                 {
                     if (partScope == PartToProcess.PartOne && part.Name.Equals("Daughter of a Soldier")) continue;
+                    if (partScope == PartToProcess.PartTwo && part.Name.Equals("Apprentice Shrine Maiden")) continue;
+                    if (partScope == PartToProcess.PartThree && part.Name.Equals("Adoptive Daughter of an Archduke")) continue;
+                    if (partScope == PartToProcess.PartFour && part.Name.Equals("Founder of the Royal Academy's So-Called Library Commmittee")) continue;
+                    if (partScope == PartToProcess.PartFive && part.Name.Equals("Avatar of a Goddess")) continue;
+                    if (partScope == PartToProcess.Hannelore && part.Name.Equals("Hannelore's Fifth Year At The Royal Academy")) continue;
 
                     omnibus.Chapters.Remove(part);
                 }

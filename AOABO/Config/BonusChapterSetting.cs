@@ -4,6 +4,7 @@
     {
         Chronological = 0,
         EndOfBook = 1,
-        LeaveOut = 2
+        LeaveOut = 2,
+        SubChapter = 3
     }
 }
