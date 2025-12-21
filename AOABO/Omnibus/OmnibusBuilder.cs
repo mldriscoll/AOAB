@@ -156,6 +156,11 @@ namespace AOABO.Omnibus
                 foreach(var part in omnibus.Chapters.Where(x => x.CType == Chapter.ChapterType.Part).ToArray())
                 {
                     if (partScope == PartToProcess.PartOne && part.Name.Equals("Daughter of a Soldier")) continue;
+                    if (partScope == PartToProcess.PartTwo && part.Name.Equals("Apprentice Shrine Maiden")) continue;
+                    if (partScope == PartToProcess.PartThree && part.Name.Equals("Adoptive Daughter of an Archduke")) continue;
+                    if (partScope == PartToProcess.PartFour && part.Name.Equals("Founder of the Royal Academy's So-Called Library Commmittee")) continue;
+                    if (partScope == PartToProcess.PartFive && part.Name.Equals("Avatar of a Goddess")) continue;
+                    if (partScope == PartToProcess.Hannelore && part.Name.Equals("Hannelore's Fifth Year At The Royal Academy")) continue;
 
                     omnibus.Chapters.Remove(part);
                 }
@@ -193,7 +198,7 @@ namespace AOABO.Omnibus
                 case OutputStructure.Seasons:
                     int year = Configuration.Options.StartYear - 1;
 
-                    var currentYear = new Chapter { CType = Chapter.ChapterType.Story, Name = $"Year {year:00}", SortOrder = year.ToString("00") };
+                    var currentYear = new Chapter { CType = Chapter.ChapterType.Story, Name = $"Year {year:00}", SortOrder = "M" + year.ToString("00") };
                     var currentSeason = new Chapter { CType = Chapter.ChapterType.Story, Name = "Unknown", SortOrder = "1" };
                     omnibus.Chapters.Add(currentYear);
                     currentYear.Chapters.Add(currentSeason);
@@ -207,21 +212,19 @@ namespace AOABO.Omnibus
                             currentSeason.Chapters.Add(vol);
                             foreach(var chapter in vol.Chapters)
                             {
-                                var newYear = chapter.Tags.FirstOrDefault(x => x.Name.Equals("Year"));
-                                if (newYear != null)
+                                if (chapter.Year != null)
                                 {
-                                    currentYear = new Chapter { CType = Chapter.ChapterType.Story, Name = $"Year {Configuration.Options.StartYear + int.Parse(newYear.Value):00}", SortOrder = $"{Configuration.Options.StartYear + int.Parse(newYear.Value):00}" };
+                                    currentYear = new Chapter { CType = Chapter.ChapterType.Story, Name = $"Year {(Configuration.Options.StartYear + chapter.Year):00}", SortOrder = $"M{Configuration.Options.StartYear + chapter.Year:00}" };
                                     omnibus.Chapters.Add(currentYear);
                                 }
 
-                                var newSeason = chapter.Tags.FirstOrDefault(x => x.Name.Equals("Season"));
-                                if (newSeason != null)
+                                if (chapter.Season != null)
                                 {
                                     currentSeason = new Chapter
                                     {
                                         CType = Chapter.ChapterType.Story,
-                                        Name = newSeason.Value,
-                                        SortOrder = newSeason.Value switch
+                                        Name = chapter.Season,
+                                        SortOrder = chapter.Season switch
                                         {
                                             "Summer" => "1",
                                             "Autumn" => "2",
@@ -284,10 +287,9 @@ namespace AOABO.Omnibus
 
                 foreach (var afterword in afterwords.Chapters)
                 {
-                    var source = afterword.Tags.FirstOrDefault(x => x.Name.Equals("Source"));
-                    if (source != null)
+                    if (afterword.OriginalSource != null)
                     {
-                        afterword.Name = source.Value;
+                        afterword.Name = afterword.OriginalSource;
                     }
                 }
             }
@@ -300,7 +302,6 @@ namespace AOABO.Omnibus
                 try
                 {
                     bool notFirst = false;
-                    var sources = BuildSourceList(chapter);
                     var newChapter = new Core.Processor.Chapter
                     {
                         Contents = string.Empty,
@@ -313,7 +314,7 @@ namespace AOABO.Omnibus
                     newChapter.SortOrder = chapter.SortOrder;
                     outProcessor.Chapters.Add(newChapter);
 
-                    foreach (var chapterFile in sources)
+                    foreach (var chapterFile in chapter.Sources)
                     {
                         try
                         {
@@ -606,31 +607,6 @@ namespace AOABO.Omnibus
             }
         }
 
-        private static IEnumerable<Source> BuildSourceList(Chapter ch)
-        {
-            foreach(var source in ch.Sources)
-            {
-                if ((source.OtherSide != null) && (!string.IsNullOrWhiteSpace(source.OtherSide.File)))
-                    source.OtherSide.File = AdjustSourceString(source.OtherSide.File);
-                
-                if (!string.IsNullOrWhiteSpace(source.File))
-                    source.File = AdjustSourceString(source.File);
-
-                yield return source;
-            }
-        }
-
-        private static string AdjustSourceString(string source)
-        {
-            foreach(var name in Configuration.VolumeNames)
-            {
-                if (source.Contains($"\\{name.ApiSlug}\\"))
-                    return source.Replace($"ascendance-of-a-bookworm\\{name.ApiSlug}\\", $"{name.InternalName}\\");
-            }
-
-            return source;
-        }
-
         private static List<Chapters.Chapter> BuildChapterList(Volume volume, Func<Chapters.Chapter, bool> filter)
         {
             var chapters = new List<Chapters.Chapter>();
@@ -901,52 +877,20 @@ namespace AOABO.Omnibus
         }
 
         public Tag[] Tags { get; set; } = [];
+        public int? Year { get; internal set; } = null;
+        public string? Season { get; internal set; } = null;
+        public string? OriginalSource { get; internal set; } = null;
     }
     public class Source : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler? PropertyChanged;
         public string File { get; set; } = string.Empty;
 
-        public ObservableCollection<string> Alternates { get; set; } = new ObservableCollection<string>();
+        public List<string> Alternates { get; set; } = new List<string>();
 
         public Source? OtherSide { get; set; } = null;
 
         public string SortOrder { get; set; } = string.Empty;
-
-        [JsonIgnore]
-        public string LeftURI
-        {
-            set
-            {
-                if (PropertyChanged != null)
-                    PropertyChanged(this, new PropertyChangedEventArgs("LeftURI"));
-            }
-            get
-            {
-                if (OtherSide == null) return "about:blank";
-
-                if (System.IO.File.Exists(OtherSide.File)) return OtherSide.File;
-
-                foreach (var alt in OtherSide.Alternates)
-                    if (System.IO.File.Exists(alt)) return alt;
-
-                return "about:blank";
-            }
-        }
-
-        [JsonIgnore]
-        public string RightURI
-        {
-            get
-            {
-                if (System.IO.File.Exists(File)) return File;
-
-                foreach (var alt in Alternates)
-                    if (System.IO.File.Exists(alt)) return alt;
-
-                return "about:blank";
-            }
-        }
     }
     public class Link
     {

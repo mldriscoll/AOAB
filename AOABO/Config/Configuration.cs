@@ -228,18 +228,24 @@ namespace AOABO.Config
                         SetBool("Include Regular Chapters (Myne POV + Prologues and Epilogues)", x => Options.Chapter.IncludeRegularChapters = x);
                         break;
                     case '1':
-                        Options.Chapter.BonusChapter = BonusChapterSetting.Chronological;
                         Console.WriteLine();
-                        Console.WriteLine("0 - Place Bonus Chapters after the last chapter they overlap with.");
-                        Console.WriteLine("1 - Place Bonus Chapters at the end of the Volume");
-                        Console.WriteLine("2 - Leave out Bonus Chapters");
+                        Console.WriteLine("0 - Place Bonus Chapters as subchapters of the last chapter they overlap with.");
+                        Console.WriteLine("1 - Place Bonus Chapters after the last chapter they overlap with.");
+                        Console.WriteLine("2 - Place Bonus Chapters at the end of the Volume");
+                        Console.WriteLine("3 - Leave out Bonus Chapters");
                         key = Console.ReadKey();
                         switch (key.KeyChar)
                         {
+                            case '0':
+                                Options.Chapter.BonusChapter = BonusChapterSetting.SubChapter;
+                                break;
                             case '1':
-                                Options.Chapter.BonusChapter = BonusChapterSetting.EndOfBook;
+                                Options.Chapter.BonusChapter = BonusChapterSetting.Chronological;
                                 break;
                             case '2':
+                                Options.Chapter.BonusChapter = BonusChapterSetting.EndOfBook;
+                                break;
+                            case '3':
                                 Options.Chapter.BonusChapter = BonusChapterSetting.LeaveOut;
                                 break;
                         }
