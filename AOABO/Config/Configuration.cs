@@ -409,6 +409,7 @@ namespace AOABO.Config
                 Console.WriteLine($"3 - Include Afterwords ({Options.Extras.AfterwordSetting})");
                 Console.WriteLine($"4 - Include Polls ({Options.Extras.Polls})");
                 Console.WriteLine($"5 - Include POV Chapter collection ({Options.Collection.POVChapterOrderingSetting})");
+                Console.WriteLine($"X - Set Chapter Type Order");
 
                 var key = Console.ReadKey();
                 switch (key.KeyChar)
@@ -478,10 +479,53 @@ namespace AOABO.Config
                             SetBool("Do you want the POV chapters ordered by POV character?", x => Options.Collection.POVChapterOrdering = x);
                         }
                         break;
+                    case 'X':
+                        char currentPrefix = 'a';
+                        Dictionary<string, VolumeOptions.ChapterSetting> list = new() { { "(M)ain Story", new VolumeOptions.ChapterSetting() } };
+                        if (Options.Extras.ComfyLife.Included) list["(C)omfy Life"] = Options.Extras.ComfyLife;
+                        while (list.Count > 1) currentPrefix = SetOrder(currentPrefix, list);
+
+                        var last = list.First();
+                        if (!last.Key.Equals("(M)ain Story")) last.Value.PositionPrefix = $"{currentPrefix}";
+                        break;
                     default:
                         return;
                 }
             }
+        }
+
+        private static char SetOrder(char prefix, Dictionary<string, VolumeOptions.ChapterSetting> options)
+        {
+            Console.Clear();
+            Console.WriteLine("Select sections in the order they should appear");
+            foreach(var option in options.Keys.Order())
+            {
+                Console.WriteLine(option);
+            }
+
+            var key = Console.ReadKey();
+            switch (key.KeyChar)
+            {
+                case 'M':
+                case 'm':
+                    if (options.ContainsKey("(M)ain Story"))
+                    {
+                        options.Remove("(M)ain Story");
+                        return 'n';
+                    }
+                    return prefix;
+                case 'C':
+                case 'c':
+                    if (options.ContainsKey("(C)omfy Life"))
+                    {
+                        Options.Extras.ComfyLife.PositionPrefix = $"{prefix}";
+                        options.Remove("(C)omfy Life");
+                        return (char)(prefix + 1);
+                    }    
+                    return prefix;
+            }
+
+            return prefix;
         }
 
         private static void SetStructure()

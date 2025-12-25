@@ -166,6 +166,29 @@ namespace AOABO.Omnibus
                 }
             }
 
+            if (!Configuration.Options.Extras.ComfyLife.Included)
+            {
+                RemoveChapters(omnibus, Chapter.ChapterType.ComfyLife);
+            }
+            else if (Configuration.Options.Extras.ComfyLife.Position == ChapterSetting.PositionEnum.Omnibus)
+            {
+                var comfylife = new Chapter
+                {
+                    CType = Chapter.ChapterType.ComfyLife,
+                    SortOrder = Configuration.Options.Extras.ComfyLife.PositionPrefix,
+                    Chapters = [.. RemoveChapters(omnibus, Chapter.ChapterType.ComfyLife)],
+                    Name = "Comfy Life Strips"
+                };
+                omnibus.Chapters.Add(comfylife);
+            }
+            else if (Configuration.Options.Extras.ComfyLife.Position == ChapterSetting.PositionEnum.Section)
+            {
+                foreach (var cl in BuildChapterList(omnibus, false).Where(x => x.CType == Chapter.ChapterType.ComfyLife))
+                {
+                    cl.SortOrder = $"{Configuration.Options.Extras.ComfyLife.PositionPrefix}{cl.SortOrder.Substring(1)}";
+                }
+            }
+
             IEnumerable<Chapter>? parts;
             switch (Configuration.Options.OutputStructure)
             {
@@ -584,6 +607,13 @@ namespace AOABO.Omnibus
             Console.ReadKey();
         }
 
+        private static IEnumerable<Chapter> RemoveChapters(ChapterHolder ch, Chapter.ChapterType type)
+        {
+            foreach (var c in ch.Chapters.Where(x => x.CType == type)) yield return c;
+            ch.Chapters.RemoveAll(x => x.CType == type);
+            foreach (var chapter in ch.Chapters) foreach(var c in RemoveChapters(chapter, type)) yield return c;
+        }
+
         private static IEnumerable<Chapter> BuildChapterList(ChapterHolder ch, bool setSubfolders)
         {
             foreach(var chapter in ch.Chapters)
@@ -799,7 +829,8 @@ namespace AOABO.Omnibus
             Volume,
             Map,
             CharacterSheet,
-            Afterword
+            Afterword,
+            ComfyLife
         }
 
         public ChapterType CType { get; set; } = ChapterType.Story;

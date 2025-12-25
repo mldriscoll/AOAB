@@ -26553,8 +26553,8 @@
       "Tags": [],
       "Chapters": [
         {
-          "CType": 0,
-          "ChapType": "Story",
+          "CType": 4,
+          "ChapType": "Volume",
           "Name": "ascendance-of-a-bookworm-part-3-volume-1",
           "SortOrder": "003001",
           "POV": "",
@@ -27295,8 +27295,8 @@
               "Chapters": []
             },
             {
-              "CType": 0,
-              "ChapType": "Story",
+              "CType": 8,
+              "ChapType": "ComfyLife",
               "Name": "Coming Out of Nowhere Again, It’s the End of Volume Bonuses! by You Shiina",
               "SortOrder": "003001030",
               "POV": "",

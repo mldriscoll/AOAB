@@ -207,9 +207,41 @@ namespace AOABO.Config
                 } }
         }
 
+        public class ChapterSetting
+        {
+            public enum PositionEnum
+            {
+                Original,
+                Section,
+                Omnibus
+            }
+            public PositionEnum Position { get; set; } = PositionEnum.Original;
+            public bool Included { get; set; } = false;
+            public string PositionPrefix { get; set; } = "M";
+        }
         public class ExtraContent
         {
-            public ComfyLifeSetting ComfyLifeChapters { get; set; } = ComfyLifeSetting.VolumeEnd;
+            [JsonIgnore]
+            public ChapterSetting ComfyLife { get; set; } = new ChapterSetting { Included = true, Position = ChapterSetting.PositionEnum.Section, PositionPrefix = "N"};
+
+            [JsonIgnore]
+            private ComfyLifeSetting _comfyLifeChapters = ComfyLifeSetting.VolumeEnd;
+            [Obsolete]
+            public ComfyLifeSetting ComfyLifeChapters {
+                get
+                {
+                    return _comfyLifeChapters;
+                }
+                set
+                {
+                    _comfyLifeChapters = value;
+                    if (value != ComfyLifeSetting.None) ComfyLife.Included = true;
+
+                    if (value == ComfyLifeSetting.VolumeEnd) ComfyLife.Position = ChapterSetting.PositionEnum.Section;
+
+                    if (value == ComfyLifeSetting.OmnibusEnd) ComfyLife.Position = ChapterSetting.PositionEnum.Omnibus;
+                }
+            }
             [JsonIgnore]
             public string ComfyLifeChaptersSetting { get { return BonusChapterSettingText(ComfyLifeChapters); } }
             public CharacterSheets CharacterSheets { get; set; } = CharacterSheets.PerPart;

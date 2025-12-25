@@ -47,6 +47,11 @@ namespace OBB_WPF
                 ((Grid)this.Content).Children.Add(AddVolumeButton);
             }
 
+            if(series.Name.Equals("Ascendance of a Bookworm"))
+            {
+                ChapterType.Items.Add(new ComboBoxItem() { Name = "ComfyLife", Content = "Comfy Life" });
+            }
+
             _ = Load();
         }
 
