@@ -403,9 +403,9 @@ namespace AOABO.Config
             while (true)
             {
                 Console.Clear();
-                Console.WriteLine($"0 - Include Comfy Life Chapters (Currently {Options.Extras.ComfyLifeChaptersSetting})");
+                Console.WriteLine($"0 - Include Comfy Life Chapters ({Options.Extras.ComfyLife.Summary})");
                 Console.WriteLine($"1 - Include Character Sheets ({Options.Extras.CharacterSheetsSetting})");
-                Console.WriteLine($"2 - Include Maps ({Options.Extras.Maps})");
+                Console.WriteLine($"2 - Include Maps ({Options.Extras.MapSetting.Summary})");
                 Console.WriteLine($"3 - Include Afterwords ({Options.Extras.AfterwordSetting})");
                 Console.WriteLine($"4 - Include Polls ({Options.Extras.Polls})");
                 Console.WriteLine($"5 - Include POV Chapter collection ({Options.Collection.POVChapterOrderingSetting})");
@@ -415,21 +415,7 @@ namespace AOABO.Config
                 switch (key.KeyChar)
                 {
                     case '0':
-                        Options.Extras.ComfyLifeChapters = ComfyLifeSetting.VolumeEnd;
-                        Console.WriteLine();
-                        Console.WriteLine("0 - Place Comfy Life Chapters after the volume they were published with.");
-                        Console.WriteLine("1 - Place Comfy Life Chapters at the end of the omnibus.");
-                        Console.WriteLine("2 - Leave out Comfy Life Chapters");
-                        key = Console.ReadKey();
-                        switch (key.KeyChar)
-                        {
-                            case '1':
-                                Options.Extras.ComfyLifeChapters = ComfyLifeSetting.OmnibusEnd;
-                                break;
-                            case '2':
-                                Options.Extras.ComfyLifeChapters = ComfyLifeSetting.None;
-                                break;
-                        }
+                        SetExtraChapterSetting(Options.Extras.ComfyLife, "Comfy Life Chapters");
                         break;
                     case '1':
                         Console.WriteLine();
@@ -450,7 +436,7 @@ namespace AOABO.Config
                         }
                         break;
                     case '2':
-                        SetBool("Would you like to include maps?", x => Options.Extras.Maps = x);
+                        SetExtraChapterSetting(Options.Extras.MapSetting, "Maps");
                         break;
                     case '3':
                         Console.WriteLine();
@@ -483,12 +469,42 @@ namespace AOABO.Config
                         char currentPrefix = 'a';
                         Dictionary<string, VolumeOptions.ChapterSetting> list = new() { { "(M)ain Story", new VolumeOptions.ChapterSetting() } };
                         if (Options.Extras.ComfyLife.Included) list["(C)omfy Life"] = Options.Extras.ComfyLife;
+                        if (Options.Extras.MapSetting.Included) list["M(a)ps"] = Options.Extras.MapSetting;
                         while (list.Count > 1) currentPrefix = SetOrder(currentPrefix, list);
 
                         var last = list.First();
                         if (!last.Key.Equals("(M)ain Story")) last.Value.PositionPrefix = $"{currentPrefix}";
                         break;
                     default:
+                        return;
+                }
+            }
+        }
+
+        private static void SetExtraChapterSetting(VolumeOptions.ChapterSetting setting, string label)
+        {
+            while (true)
+            {
+                Console.Clear();
+                Console.WriteLine($"Include {label}:");
+                Console.WriteLine($"1 - In their original position");
+                Console.WriteLine($"2 - In their original volume");
+                Console.WriteLine($"3 - In their original part");
+                Console.WriteLine($"4 - At the Omnibus level");
+                var key = Console.ReadKey();
+                switch (key.Key)
+                {
+                    case ConsoleKey.D1:
+                        setting.Position = VolumeOptions.ChapterSetting.PositionEnum.Original;
+                        return;
+                    case ConsoleKey.D2:
+                        setting.Position = VolumeOptions.ChapterSetting.PositionEnum.Volume;
+                        return;
+                    case ConsoleKey.D3:
+                        setting.Position = VolumeOptions.ChapterSetting.PositionEnum.Part;
+                        return;
+                    case ConsoleKey.D4:
+                        setting.Position = VolumeOptions.ChapterSetting.PositionEnum.Omnibus;
                         return;
                 }
             }
@@ -506,6 +522,15 @@ namespace AOABO.Config
             var key = Console.ReadKey();
             switch (key.KeyChar)
             {
+                case 'a':
+                case 'A':
+                    if (options.ContainsKey("M(a)ps"))
+                    {
+                        Options.Extras.MapSetting.PositionPrefix = $"{prefix}";
+                        options.Remove("M(a)ps");
+                        return (char)(prefix + 1);
+                    }
+                    return prefix;
                 case 'M':
                 case 'm':
                     if (options.ContainsKey("(M)ain Story"))

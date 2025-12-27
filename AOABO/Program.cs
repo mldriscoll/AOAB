@@ -78,6 +78,7 @@ async Task ImportJSON()
 {
     var sourceFile = "..\\..\\..\\..\\OBB-WPF\\JSON\\ascendance-of-a-bookworm.json";
     var targetFile = "..\\..\\..\\JSON\\ascendance-of-a-bookworm.json";
+    var secondTargetFile = "JSON\\ascendance-of-a-bookworm.json";
 
     var options = new JsonSerializerOptions
     {
@@ -102,6 +103,14 @@ async Task ImportJSON()
         File.Delete(targetFile);
 
     using (var obStream = File.OpenWrite(targetFile))
+    {
+        await JsonSerializer.SerializeAsync(obStream, omnibus, options);
+    }
+
+    if (File.Exists(secondTargetFile))
+        File.Delete(secondTargetFile);
+
+    using (var obStream = File.OpenWrite(secondTargetFile))
     {
         await JsonSerializer.SerializeAsync(obStream, omnibus, options);
     }
@@ -132,10 +141,15 @@ void ReadTags(AOABO.Omnibus.Chapter ch)
     var year = ch.Tags.FirstOrDefault(x => x.Name.Equals("Year", StringComparison.InvariantCultureIgnoreCase));
     var season = ch.Tags.FirstOrDefault(x => x.Name.Equals("Season", StringComparison.InvariantCultureIgnoreCase));
     var source = ch.Tags.FirstOrDefault(x => x.Name.Equals("Source", StringComparison.InvariantCultureIgnoreCase));
+    var set = ch.Tags.FirstOrDefault(x => x.Name.Equals("Set", StringComparison.InvariantCultureIgnoreCase));
+
 
     if (year != null) ch.Year = int.Parse(year.Value);
     if (season != null) ch.Season = season.Value;
     if (source != null) ch.OriginalSource = source.Value;
+    if (set != null) ch.Set = set.Value;
+
+    if (ch.CType == AOABO.Omnibus.Chapter.ChapterType.Map) ch.Set = ch.Name;
 
     foreach (var chap in ch.Chapters) ReadTags(chap);
 }

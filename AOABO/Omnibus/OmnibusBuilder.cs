@@ -6,6 +6,7 @@ using SixLabors.ImageSharp.PixelFormats;
 using SixLabors.ImageSharp.Processing;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 using System.IO.Compression;
 using System.Runtime.Serialization.Json;
 using System.Text.Json.Serialization;
@@ -166,27 +167,16 @@ namespace AOABO.Omnibus
                 }
             }
 
-            if (!Configuration.Options.Extras.ComfyLife.Included)
+            ApplyPosition(omnibus, Chapter.ChapterType.ComfyLife, Configuration.Options.Extras.ComfyLife);
+            ApplyPosition(omnibus, Chapter.ChapterType.Map, Configuration.Options.Extras.MapSetting);
+
+            RemoveDupes(omnibus);
+
+            int i = 1;
+            foreach (var chapter in BuildChapterList(omnibus, false))
             {
-                RemoveChapters(omnibus, Chapter.ChapterType.ComfyLife);
-            }
-            else if (Configuration.Options.Extras.ComfyLife.Position == ChapterSetting.PositionEnum.Omnibus)
-            {
-                var comfylife = new Chapter
-                {
-                    CType = Chapter.ChapterType.ComfyLife,
-                    SortOrder = Configuration.Options.Extras.ComfyLife.PositionPrefix,
-                    Chapters = [.. RemoveChapters(omnibus, Chapter.ChapterType.ComfyLife)],
-                    Name = "Comfy Life Strips"
-                };
-                omnibus.Chapters.Add(comfylife);
-            }
-            else if (Configuration.Options.Extras.ComfyLife.Position == ChapterSetting.PositionEnum.Section)
-            {
-                foreach (var cl in BuildChapterList(omnibus, false).Where(x => x.CType == Chapter.ChapterType.ComfyLife))
-                {
-                    cl.SortOrder = $"{Configuration.Options.Extras.ComfyLife.PositionPrefix}{cl.SortOrder.Substring(1)}";
-                }
+                chapter.SortOrder = $"{i:000000}";
+                i++;
             }
 
             IEnumerable<Chapter>? parts;
@@ -194,10 +184,10 @@ namespace AOABO.Omnibus
             {
                 case OutputStructure.Parts:
                     parts = omnibus.Chapters.Where(x => x.CType == Chapter.ChapterType.Part);
-                    foreach(var part in parts)
+                    foreach (var part in parts)
                     {
                         var volumes = part.Chapters.Where(x => x.CType == Chapter.ChapterType.Volume).ToArray();
-                        foreach(var vol in volumes)
+                        foreach (var vol in volumes)
                         {
                             part.Chapters.AddRange(vol.Chapters);
                             vol.Chapters.Clear();
@@ -223,22 +213,25 @@ namespace AOABO.Omnibus
 
                     var currentYear = new Chapter { CType = Chapter.ChapterType.Story, Name = $"Year {year:00}", SortOrder = "M" + year.ToString("00") };
                     var currentSeason = new Chapter { CType = Chapter.ChapterType.Story, Name = "Unknown", SortOrder = "1" };
-                    omnibus.Chapters.Add(currentYear);
+                    var newChapters = new List<Chapter>
+                    {
+                        currentYear
+                    };
                     currentYear.Chapters.Add(currentSeason);
 
-                    foreach(var part in omnibus.Chapters.Where(x => x.CType == Chapter.ChapterType.Part).ToArray())
+
+                    foreach (var part in omnibus.Chapters.Where(x => x.CType == Chapter.ChapterType.Part))
                     {
-                        omnibus.Chapters.Remove(part);
-                        currentSeason.Chapters.Add(part);
-                        foreach(var vol in part.Chapters)
+                        currentSeason.Sources.AddRange(part.Sources);
+                        foreach (var volume in part.Chapters.Where(x => x.CType == Chapter.ChapterType.Volume))
                         {
-                            currentSeason.Chapters.Add(vol);
-                            foreach(var chapter in vol.Chapters)
+                            currentSeason.Sources.AddRange(volume.Sources);
+                            foreach (var chapter in volume.Chapters)
                             {
                                 if (chapter.Year != null)
                                 {
                                     currentYear = new Chapter { CType = Chapter.ChapterType.Story, Name = $"Year {(Configuration.Options.StartYear + chapter.Year):00}", SortOrder = $"M{Configuration.Options.StartYear + chapter.Year:00}" };
-                                    omnibus.Chapters.Add(currentYear);
+                                    newChapters.Add(currentYear);
                                 }
 
                                 if (chapter.Season != null)
@@ -261,10 +254,9 @@ namespace AOABO.Omnibus
 
                                 currentSeason.Chapters.Add(chapter);
                             }
-                            vol.Chapters.Clear();
                         }
-                        part.Chapters.Clear();
                     }
+                    omnibus.Chapters = newChapters;
                     break;
                 case OutputStructure.Volumes:
                     break;
@@ -614,11 +606,12 @@ namespace AOABO.Omnibus
             foreach (var chapter in ch.Chapters) foreach(var c in RemoveChapters(chapter, type)) yield return c;
         }
 
-        private static IEnumerable<Chapter> BuildChapterList(ChapterHolder ch, bool setSubfolders)
+        private static List<Chapter> BuildChapterList(ChapterHolder ch, bool setSubfolders)
         {
+            var results = new List<Chapter>();
             foreach(var chapter in ch.Chapters)
             {
-                yield return chapter;
+                results.Add(chapter);
                 foreach (var innerchap in BuildChapterList(chapter, setSubfolders))
                 {
                     if (setSubfolders)
@@ -632,9 +625,63 @@ namespace AOABO.Omnibus
                             innerchap.Subfolder = string.Concat(chapter.SortOrder, "-", chapter.Name, "\\", innerchap.Subfolder);
                         }
                     }
-                    yield return innerchap;
+                    results.Add(innerchap);
                 }
             }
+            return results;
+        }
+
+        private static void ApplyPosition(ChapterHolder omnibus, Chapter.ChapterType type, ChapterSetting options)
+        {
+            if (!options.Included)
+            {
+                RemoveChapters(omnibus, type);
+            }
+            else if (options.Position == ChapterSetting.PositionEnum.Part)
+            {
+                foreach (var part in omnibus.Chapters.Where(x => x.CType == Chapter.ChapterType.Part))
+                {
+                    foreach (var volume in part.Chapters.Where(x => x.CType == Chapter.ChapterType.Volume).ToArray())
+                    {
+                        part.Chapters.AddRange(volume.Chapters.Where(x => x.CType == type));
+                        volume.Chapters.RemoveAll(x => x.CType == type);
+                    }
+                }
+
+                foreach (var cl in BuildChapterList(omnibus, false).Where(x => x.CType == type))
+                {
+                    cl.SortOrder = $"{options.PositionPrefix}{cl.SortOrder.Substring(1)}";
+                }
+            }
+            else if (options.Position == ChapterSetting.PositionEnum.Omnibus)
+            {
+                var comfylife = new Chapter
+                {
+                    CType = type,
+                    SortOrder = options.PositionPrefix,
+                    Chapters = [.. RemoveChapters(omnibus, type)],
+                    Name = type.ToString()
+                };
+                omnibus.Chapters.Add(comfylife);
+            }
+            else if (options.Position == ChapterSetting.PositionEnum.Volume)
+            {
+                foreach (var cl in BuildChapterList(omnibus, false).Where(x => x.CType == type))
+                {
+                    cl.SortOrder = $"{options.PositionPrefix}{cl.SortOrder.Substring(1)}";
+                }
+            }
+        }
+
+        private static void RemoveDupes(ChapterHolder holder)
+        {
+            var sets = holder.Chapters.Where(x => !string.IsNullOrWhiteSpace(x.Set)).GroupBy(x => x.Set).Where(x => x.Count() > 1).ToArray();
+            foreach(var set in sets)
+            {
+                holder.Chapters.RemoveAll(x => string.Equals(x.Set, set.Key, StringComparison.InvariantCultureIgnoreCase));
+                holder.Chapters.Add(set.First());
+            }
+            foreach (var chap in holder.Chapters) RemoveDupes(chap);
         }
 
         private static List<Chapters.Chapter> BuildChapterList(Volume volume, Func<Chapters.Chapter, bool> filter)
@@ -748,25 +795,6 @@ namespace AOABO.Omnibus
 
             }
         }
-
-        public void RemoveDupesFromUnusedList()
-        {
-            UnusedSources.Remove(Cover!);
-
-
-            foreach (var chapterList in Chapters.Select(x => x.FindDupes(UnusedSources.ToList())))
-            {
-                foreach (var source in chapterList)
-                {
-                    UnusedSources.Remove(source);
-                }
-            }
-
-            UnusedSources = new ObservableCollection<Source>(UnusedSources.Distinct());
-        }
-
-
-        public ObservableCollection<Source> UnusedSources { get; set; } = new ObservableCollection<Source>();
     }
 
 
@@ -840,7 +868,7 @@ namespace AOABO.Omnibus
         public string SortOrder { get; set; } = string.Empty;
 
         public string POV { get; set; } = string.Empty;
-        public ObservableCollection<Source> Sources { get; set; } = new ObservableCollection<Source> { };
+        public List<Source> Sources { get; set; } = new List<Source> { };
 
         public ObservableCollection<Link> LinkedChapters { get; set; } = new ObservableCollection<Link>();
 
@@ -908,9 +936,11 @@ namespace AOABO.Omnibus
         }
 
         public Tag[] Tags { get; set; } = [];
-        public int? Year { get; internal set; } = null;
-        public string? Season { get; internal set; } = null;
-        public string? OriginalSource { get; internal set; } = null;
+        public int? Year { get; set; } = null;
+        public string? Season { get; set; } = null;
+        public string? OriginalSource { get; set; } = null;
+
+        public string? Set { get; set; } = null;
     }
     public class Source : INotifyPropertyChanged
     {

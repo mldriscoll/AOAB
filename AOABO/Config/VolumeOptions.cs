@@ -212,17 +212,40 @@ namespace AOABO.Config
             public enum PositionEnum
             {
                 Original,
-                Section,
-                Omnibus
+                Volume,
+                Part,
+                Omnibus,
             }
             public PositionEnum Position { get; set; } = PositionEnum.Original;
             public bool Included { get; set; } = false;
             public string PositionPrefix { get; set; } = "M";
+
+            [JsonIgnore]
+            public string Summary
+            {
+                get
+                {
+                    if (!Included) return "Not Included";
+
+                    switch (Position)
+                    {
+                        case PositionEnum.Original:
+                            return "In Original Position";
+                        case PositionEnum.Volume:
+                            return $"In Each Volume (position {PositionPrefix})";
+                        case PositionEnum.Part:
+                            return $"In Each Section (position {PositionPrefix})";
+                        case PositionEnum.Omnibus:
+                            return $"In the Omnibus (position {PositionPrefix})";
+                    }
+
+                    return "Not set";
+                }
+            }
         }
         public class ExtraContent
         {
-            [JsonIgnore]
-            public ChapterSetting ComfyLife { get; set; } = new ChapterSetting { Included = true, Position = ChapterSetting.PositionEnum.Section, PositionPrefix = "N"};
+            public ChapterSetting ComfyLife { get; set; } = new ChapterSetting { Included = true, Position = ChapterSetting.PositionEnum.Part, PositionPrefix = "N"};
 
             [JsonIgnore]
             private ComfyLifeSetting _comfyLifeChapters = ComfyLifeSetting.VolumeEnd;
@@ -235,15 +258,16 @@ namespace AOABO.Config
                 set
                 {
                     _comfyLifeChapters = value;
-                    if (value != ComfyLifeSetting.None) ComfyLife.Included = true;
+                    if (value != default)
+                    {
+                        if (value != ComfyLifeSetting.None) ComfyLife.Included = true;
 
-                    if (value == ComfyLifeSetting.VolumeEnd) ComfyLife.Position = ChapterSetting.PositionEnum.Section;
+                        if (value == ComfyLifeSetting.VolumeEnd) ComfyLife.Position = ChapterSetting.PositionEnum.Part;
 
-                    if (value == ComfyLifeSetting.OmnibusEnd) ComfyLife.Position = ChapterSetting.PositionEnum.Omnibus;
+                        if (value == ComfyLifeSetting.OmnibusEnd) ComfyLife.Position = ChapterSetting.PositionEnum.Omnibus;
+                    }
                 }
             }
-            [JsonIgnore]
-            public string ComfyLifeChaptersSetting { get { return BonusChapterSettingText(ComfyLifeChapters); } }
             public CharacterSheets CharacterSheets { get; set; } = CharacterSheets.PerPart;
             [JsonIgnore]
             public string CharacterSheetsSetting
@@ -261,19 +285,22 @@ namespace AOABO.Config
                 }
             }
 
-            private string BonusChapterSettingText(ComfyLifeSetting setting)
-            {
-                switch (setting)
-                {
-                    case Config.ComfyLifeSetting.VolumeEnd:
-                        return "placed after the relevant volume";
-                    case Config.ComfyLifeSetting.OmnibusEnd:
-                        return "placed in a section after the story content";
-                }
+            public ChapterSetting MapSetting { get; set; } = new ChapterSetting { Included = true, Position = ChapterSetting.PositionEnum.Part, PositionPrefix = "a" };
 
-                return "left out";
+            [JsonIgnore]
+            private bool _maps = true;
+            public bool Maps
+            {
+                get
+                {
+                    return _maps;
+                }
+                set
+                {
+                    _maps = value;
+                    MapSetting.Included = value;
+                }
             }
-            public bool Maps { get; set; } = true;
             public AfterwordSetting Afterword { get; set; } = Config.AfterwordSetting.OmnibusEnd;
             [JsonIgnore]
             public string AfterwordSetting
