@@ -1,15 +1,12 @@
-﻿using AOABO.Chapters;
-using AOABO.Config;
+﻿using AOABO.Config;
 using Core.Processor;
 using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.PixelFormats;
 using SixLabors.ImageSharp.Processing;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
-using System.ComponentModel.DataAnnotations;
 using System.IO.Compression;
 using System.Runtime.Serialization.Json;
-using System.Text.Json.Serialization;
 using System.Text.RegularExpressions;
 using static AOABO.Config.VolumeOptions;
 using Configuration = AOABO.Config.Configuration;
@@ -169,6 +166,7 @@ namespace AOABO.Omnibus
 
             ApplyPosition(omnibus, Chapter.ChapterType.ComfyLife, Configuration.Options.Extras.ComfyLife);
             ApplyPosition(omnibus, Chapter.ChapterType.Map, Configuration.Options.Extras.MapSetting);
+            ApplyPosition(omnibus, Chapter.ChapterType.CharacterSheet, Configuration.Options.Extras.CharacterSheetSetting);
 
             RemoveDupes(omnibus);
 
@@ -601,15 +599,16 @@ namespace AOABO.Omnibus
 
         private static IEnumerable<Chapter> RemoveChapters(ChapterHolder ch, Chapter.ChapterType type)
         {
-            foreach (var c in ch.Chapters.Where(x => x.CType == type)) yield return c;
+            var chapters = ch.Chapters.Where(x => x.CType == type).ToList();
             ch.Chapters.RemoveAll(x => x.CType == type);
-            foreach (var chapter in ch.Chapters) foreach(var c in RemoveChapters(chapter, type)) yield return c;
+            foreach (var chapter in ch.Chapters) chapters.AddRange(RemoveChapters(chapter, type));
+            return chapters;
         }
 
         private static List<Chapter> BuildChapterList(ChapterHolder ch, bool setSubfolders)
         {
             var results = new List<Chapter>();
-            foreach(var chapter in ch.Chapters)
+            foreach (var chapter in ch.Chapters.OrderBy(x => x.SortOrder))
             {
                 results.Add(chapter);
                 foreach (var innerchap in BuildChapterList(chapter, setSubfolders))
@@ -641,10 +640,21 @@ namespace AOABO.Omnibus
             {
                 foreach (var part in omnibus.Chapters.Where(x => x.CType == Chapter.ChapterType.Part))
                 {
+                    var chapters = new List<Chapter>();
                     foreach (var volume in part.Chapters.Where(x => x.CType == Chapter.ChapterType.Volume).ToArray())
                     {
-                        part.Chapters.AddRange(volume.Chapters.Where(x => x.CType == type));
-                        volume.Chapters.RemoveAll(x => x.CType == type);
+                        chapters.AddRange(RemoveChapters(part, type));
+                    }
+                    if (chapters.Count > 0)
+                    {
+                        var parent = new Chapter
+                        {
+                            CType = type,
+                            Chapters = chapters,
+                            Name = TypeName(type),
+                            SortOrder = options.PositionPrefix
+                        };
+                        part.Chapters.Add(parent);
                     }
                 }
 
@@ -671,6 +681,32 @@ namespace AOABO.Omnibus
                     cl.SortOrder = $"{options.PositionPrefix}{cl.SortOrder.Substring(1)}";
                 }
             }
+        }
+
+        private static string TypeName(Chapter.ChapterType type)
+        {
+            switch (type)
+            {
+                case Chapter.ChapterType.Story:
+                    break;
+                case Chapter.ChapterType.Bonus:
+                    break;
+                case Chapter.ChapterType.NonStory:
+                    break;
+                case Chapter.ChapterType.Part:
+                    break;
+                case Chapter.ChapterType.Volume:
+                    break;
+                case Chapter.ChapterType.Map:
+                    return "Maps";
+                case Chapter.ChapterType.CharacterSheet:
+                    return "Character Sheets";
+                case Chapter.ChapterType.Afterword:
+                    return "Afterwords";
+                case Chapter.ChapterType.ComfyLife:
+                    return "Comfy Life";
+            }
+            return string.Empty;
         }
 
         private static void RemoveDupes(ChapterHolder holder)

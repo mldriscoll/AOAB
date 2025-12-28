@@ -268,20 +268,27 @@ namespace AOABO.Config
                     }
                 }
             }
-            public CharacterSheets CharacterSheets { get; set; } = CharacterSheets.PerPart;
-            [JsonIgnore]
-            public string CharacterSheetsSetting
+
+            public ChapterSetting CharacterSheetSetting { get; set; } = new ChapterSetting { Included = true, Position = ChapterSetting.PositionEnum.Part, PositionPrefix = "b" };
+
+
+            public CharacterSheets? CharacterSheets
             {
-                get
+                get { return null; }
+                set
                 {
-                    switch (CharacterSheets)
+                    switch (value)
                     {
-                        case CharacterSheets.PerPart:
-                            return "one per Part";
-                        case CharacterSheets.All:
-                            return "all of them";
+                        case Config.CharacterSheets.PerPart:
+                            CharacterSheetSetting.Position = ChapterSetting.PositionEnum.Part;
+                            break;
+                        case Config.CharacterSheets.All:
+                            CharacterSheetSetting.Position = ChapterSetting.PositionEnum.Original;
+                            break;
+                        case Config.CharacterSheets.None:
+                            CharacterSheetSetting.Included = false;
+                            break;
                     }
-                    return "none of them";
                 }
             }
 

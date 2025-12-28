@@ -404,7 +404,7 @@ namespace AOABO.Config
             {
                 Console.Clear();
                 Console.WriteLine($"0 - Include Comfy Life Chapters ({Options.Extras.ComfyLife.Summary})");
-                Console.WriteLine($"1 - Include Character Sheets ({Options.Extras.CharacterSheetsSetting})");
+                Console.WriteLine($"1 - Include Character Sheets ({Options.Extras.CharacterSheetSetting.Summary})");
                 Console.WriteLine($"2 - Include Maps ({Options.Extras.MapSetting.Summary})");
                 Console.WriteLine($"3 - Include Afterwords ({Options.Extras.AfterwordSetting})");
                 Console.WriteLine($"4 - Include Polls ({Options.Extras.Polls})");
@@ -418,22 +418,7 @@ namespace AOABO.Config
                         SetExtraChapterSetting(Options.Extras.ComfyLife, "Comfy Life Chapters");
                         break;
                     case '1':
-                        Console.WriteLine();
-                        Console.WriteLine("How many Character Sheets do you want included?");
-                        Console.WriteLine("0 - All of them.");
-                        Console.WriteLine("1 - Last one in each part.");
-                        Console.WriteLine("2 - None");
-                        Options.Extras.CharacterSheets = CharacterSheets.PerPart;
-                        key = Console.ReadKey();
-                        switch (key.KeyChar)
-                        {
-                            case '0':
-                                Options.Extras.CharacterSheets = CharacterSheets.All;
-                                break;
-                            case '2':
-                                Options.Extras.CharacterSheets = CharacterSheets.None;
-                                break;
-                        }
+                        SetExtraChapterSetting(Options.Extras.CharacterSheetSetting, "Character Sheets");
                         break;
                     case '2':
                         SetExtraChapterSetting(Options.Extras.MapSetting, "Maps");
@@ -470,6 +455,7 @@ namespace AOABO.Config
                         Dictionary<string, VolumeOptions.ChapterSetting> list = new() { { "(M)ain Story", new VolumeOptions.ChapterSetting() } };
                         if (Options.Extras.ComfyLife.Included) list["(C)omfy Life"] = Options.Extras.ComfyLife;
                         if (Options.Extras.MapSetting.Included) list["M(a)ps"] = Options.Extras.MapSetting;
+                        if (Options.Extras.CharacterSheetSetting.Included) list["C(h)aracter Sheets"] = Options.Extras.CharacterSheetSetting;
                         while (list.Count > 1) currentPrefix = SetOrder(currentPrefix, list);
 
                         var last = list.First();
@@ -547,6 +533,15 @@ namespace AOABO.Config
                         options.Remove("(C)omfy Life");
                         return (char)(prefix + 1);
                     }    
+                    return prefix;
+                case 'H':
+                case 'h':
+                    if (options.ContainsKey("C(h)aracter Sheets"))
+                    {
+                        Options.Extras.CharacterSheetSetting.PositionPrefix = $"{prefix}";
+                        options.Remove("C(h)aracter Sheets");
+                        return (char)(prefix + 1);
+                    }
                     return prefix;
             }
 
