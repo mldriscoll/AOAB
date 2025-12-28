@@ -31475,7 +31475,7 @@
             {
               "CType": 8,
               "ChapType": "ComfyLife",
-              "Name": "Coming Out of Nowhere Again, It’s the End of Volume Bonuses!",
+              "Name": "P3V1 Comfy Life",
               "SortOrder": "003001026",
               "POV": "",
               "Sources": [
@@ -31500,9 +31500,9 @@
               "Chapters": []
             },
             {
-              "CType": 0,
-              "ChapType": "Story",
-              "Name": "The 1st Ascendance of a Bookworm Character Poll!",
+              "CType": 9,
+              "ChapType": "Poll",
+              "Name": "Part 3 Character Poll",
               "SortOrder": "003001027",
               "POV": "",
               "Sources": [

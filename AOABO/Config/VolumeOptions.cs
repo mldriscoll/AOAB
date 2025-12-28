@@ -325,7 +325,12 @@ namespace AOABO.Config
                 }
             }
 
-            public bool Polls { get; set; } = true;
+            public ChapterSetting PollSetting { get; set; } = new ChapterSetting { Included = true, Position = ChapterSetting.PositionEnum.Omnibus, PositionPrefix = "x" };
+            public bool? Polls
+            {
+                get { return null; }
+                set { PollSetting.Included = value ?? true; }
+            }
         }
 
         public class Chapters

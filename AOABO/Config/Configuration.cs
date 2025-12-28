@@ -407,7 +407,7 @@ namespace AOABO.Config
                 Console.WriteLine($"1 - Include Character Sheets ({Options.Extras.CharacterSheetSetting.Summary})");
                 Console.WriteLine($"2 - Include Maps ({Options.Extras.MapSetting.Summary})");
                 Console.WriteLine($"3 - Include Afterwords ({Options.Extras.AfterwordSetting})");
-                Console.WriteLine($"4 - Include Polls ({Options.Extras.Polls})");
+                Console.WriteLine($"4 - Include Polls ({Options.Extras.PollSetting.Summary})");
                 Console.WriteLine($"5 - Include POV Chapter collection ({Options.Collection.POVChapterOrderingSetting})");
                 Console.WriteLine($"X - Set Chapter Type Order");
 
@@ -441,7 +441,7 @@ namespace AOABO.Config
                         }
                         break;
                     case '4':
-                        SetBool("Do you want to include the Character Polls?", x => Options.Extras.Polls = x);
+                        SetExtraChapterSetting(Options.Extras.PollSetting, "Character Polls");
                         break;
                     case '5':
                         SetBool("Do you want to include a collection of the POV chapters?", x => Options.Collection.POVChapterCollection = x);

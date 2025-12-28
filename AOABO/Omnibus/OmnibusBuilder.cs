@@ -167,6 +167,7 @@ namespace AOABO.Omnibus
             ApplyPosition(omnibus, Chapter.ChapterType.ComfyLife, Configuration.Options.Extras.ComfyLife);
             ApplyPosition(omnibus, Chapter.ChapterType.Map, Configuration.Options.Extras.MapSetting);
             ApplyPosition(omnibus, Chapter.ChapterType.CharacterSheet, Configuration.Options.Extras.CharacterSheetSetting);
+            ApplyPosition(omnibus, Chapter.ChapterType.Poll, Configuration.Options.Extras.PollSetting);
 
             RemoveDupes(omnibus);
 
@@ -645,7 +646,7 @@ namespace AOABO.Omnibus
                     {
                         chapters.AddRange(RemoveChapters(part, type));
                     }
-                    if (chapters.Count > 0)
+                    if (chapters.Count > 1)
                     {
                         var parent = new Chapter
                         {
@@ -655,6 +656,10 @@ namespace AOABO.Omnibus
                             SortOrder = options.PositionPrefix
                         };
                         part.Chapters.Add(parent);
+                    }
+                    else if (chapters.Count == 1)
+                    {
+                        part.Chapters.Add(chapters[0]);
                     }
                 }
 
@@ -705,6 +710,8 @@ namespace AOABO.Omnibus
                     return "Afterwords";
                 case Chapter.ChapterType.ComfyLife:
                     return "Comfy Life";
+                case Chapter.ChapterType.Poll:
+                    return "Character Poll";
             }
             return string.Empty;
         }
@@ -792,7 +799,7 @@ namespace AOABO.Omnibus
                 chapters.Add(volume.Afterword);
             }
 
-            if(Configuration.Options.Extras.Polls && volume.CharacterPoll != null && filter(volume.CharacterPoll))
+            if((Configuration.Options.Extras.Polls ?? false) && volume.CharacterPoll != null && filter(volume.CharacterPoll))
             {
                 chapters.Add(volume.CharacterPoll);
             }
@@ -894,7 +901,8 @@ namespace AOABO.Omnibus
             Map,
             CharacterSheet,
             Afterword,
-            ComfyLife
+            ComfyLife,
+            Poll
         }
 
         public ChapterType CType { get; set; } = ChapterType.Story;

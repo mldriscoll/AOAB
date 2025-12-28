@@ -76,6 +76,7 @@
                 <ComboBoxItem Name="Map">Map</ComboBoxItem>
                 <ComboBoxItem Name="CharacterSheet">Character Sheet</ComboBoxItem>
                 <ComboBoxItem Name="Afterword">Afterword</ComboBoxItem>
+                <ComboBoxItem Name="Poll">Poll</ComboBoxItem>
             </ComboBox>
 
             <TextBox x:Name="POV" HorizontalAlignment="Stretch" Text="{Binding POV}" Grid.Column="1" Grid.Row="1">
