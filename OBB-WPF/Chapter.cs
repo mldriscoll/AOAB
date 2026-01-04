@@ -16,7 +16,8 @@ namespace OBB_WPF
             CharacterSheet,
             Afterword,
             ComfyLife,
-            Poll
+            Poll,
+            QnAs
         }
 
         public ChapterType CType { get; set; } = ChapterType.Story;

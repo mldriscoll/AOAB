@@ -243,21 +243,24 @@ namespace AOABO.Config
                 }
             }
         }
+
         public class ExtraContent
         {
-            public ChapterSetting ComfyLife { get; set; } = new ChapterSetting { Included = true, Position = ChapterSetting.PositionEnum.Part, PositionPrefix = "N"};
+            public ChapterSetting MapSetting { get; set; } = new ChapterSetting { Included = true, Position = ChapterSetting.PositionEnum.Part, PositionPrefix = "a" };
+            public ChapterSetting CharacterSheetSetting { get; set; } = new ChapterSetting { Included = true, Position = ChapterSetting.PositionEnum.Part, PositionPrefix = "b" };
+            public ChapterSetting ComfyLife { get; set; } = new ChapterSetting { Included = true, Position = ChapterSetting.PositionEnum.Part, PositionPrefix = "n"};
+            public ChapterSetting PollSetting { get; set; } = new ChapterSetting { Included = true, Position = ChapterSetting.PositionEnum.Omnibus, PositionPrefix = "x" };
+            public ChapterSetting QNASetting { get; set; } = new ChapterSetting { Included = true, Position = ChapterSetting.PositionEnum.Omnibus, PositionPrefix = "y" };
+            public ChapterSetting AfterwordSetting { get; set; } = new ChapterSetting { Included = true, Position = ChapterSetting.PositionEnum.Omnibus, PositionPrefix = "z" };
 
-            [JsonIgnore]
-            private ComfyLifeSetting _comfyLifeChapters = ComfyLifeSetting.VolumeEnd;
             [Obsolete]
-            public ComfyLifeSetting ComfyLifeChapters {
+            public ComfyLifeSetting? ComfyLifeChapters {
                 get
                 {
-                    return _comfyLifeChapters;
+                    return null;
                 }
                 set
                 {
-                    _comfyLifeChapters = value;
                     if (value != default)
                     {
                         if (value != ComfyLifeSetting.None) ComfyLife.Included = true;
@@ -269,9 +272,7 @@ namespace AOABO.Config
                 }
             }
 
-            public ChapterSetting CharacterSheetSetting { get; set; } = new ChapterSetting { Included = true, Position = ChapterSetting.PositionEnum.Part, PositionPrefix = "b" };
-
-
+            [Obsolete]
             public CharacterSheets? CharacterSheets
             {
                 get { return null; }
@@ -292,23 +293,21 @@ namespace AOABO.Config
                 }
             }
 
-            public ChapterSetting MapSetting { get; set; } = new ChapterSetting { Included = true, Position = ChapterSetting.PositionEnum.Part, PositionPrefix = "a" };
-
-            [JsonIgnore]
-            private bool _maps = true;
-            public bool Maps
+            [Obsolete]
+            public bool? Maps
             {
                 get
                 {
-                    return _maps;
+                    return null;
                 }
                 set
                 {
-                    _maps = value;
-                    MapSetting.Included = value;
+                    if (value != null)
+                        MapSetting.Included = value.Value;
                 }
             }
 
+            [Obsolete]
             public AfterwordSetting? Afterword
             {
                 get
@@ -334,14 +333,13 @@ namespace AOABO.Config
                 }
             }
 
-            public ChapterSetting AfterwordSetting { get; set; } = new ChapterSetting { Included = true, Position = ChapterSetting.PositionEnum.Omnibus, PositionPrefix = "z" };
-
-            public ChapterSetting PollSetting { get; set; } = new ChapterSetting { Included = true, Position = ChapterSetting.PositionEnum.Omnibus, PositionPrefix = "x" };
+            [Obsolete]
             public bool? Polls
             {
                 get { return null; }
                 set { PollSetting.Included = value ?? true; }
             }
+
         }
 
         public class Chapters

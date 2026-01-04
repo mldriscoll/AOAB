@@ -409,6 +409,7 @@ namespace AOABO.Config
                 Console.WriteLine($"3 - Include Afterwords ({Options.Extras.AfterwordSetting.Summary})");
                 Console.WriteLine($"4 - Include Polls ({Options.Extras.PollSetting.Summary})");
                 Console.WriteLine($"5 - Include POV Chapter collection ({Options.Collection.POVChapterOrderingSetting})");
+                Console.WriteLine($"6 - Include Q&As ({Options.Extras.QNASetting.Summary})");
                 Console.WriteLine($"X - Set Chapter Type Order");
 
                 var key = Console.ReadKey();
@@ -435,6 +436,9 @@ namespace AOABO.Config
                         {
                             SetBool("Do you want the POV chapters ordered by POV character?", x => Options.Collection.POVChapterOrdering = x);
                         }
+                        break;
+                    case '6':
+                        SetExtraChapterSetting(Options.Extras.QNASetting, "Q&As");
                         break;
                     case 'X':
                         char currentPrefix = 'a';
