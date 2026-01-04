@@ -308,22 +308,33 @@ namespace AOABO.Config
                     MapSetting.Included = value;
                 }
             }
-            public AfterwordSetting Afterword { get; set; } = Config.AfterwordSetting.OmnibusEnd;
-            [JsonIgnore]
-            public string AfterwordSetting
+
+            public AfterwordSetting? Afterword
             {
                 get
                 {
-                    switch (Afterword)
+                    return null;
+                }
+                set
+                {
+                    switch (value)
                     {
+                        case Config.AfterwordSetting.None:
+                            AfterwordSetting.Included = false;
+                            break;
                         case Config.AfterwordSetting.VolumeEnd:
-                            return "at the end of each volume";
+                            AfterwordSetting.Position = ChapterSetting.PositionEnum.Original;
+                            break;
                         case Config.AfterwordSetting.OmnibusEnd:
-                            return "at the end of the Omnibus";
+                            AfterwordSetting.Position = ChapterSetting.PositionEnum.Omnibus;
+                            break;
+                        case null:
+                            break;
                     }
-                    return "leave out";
                 }
             }
+
+            public ChapterSetting AfterwordSetting { get; set; } = new ChapterSetting { Included = true, Position = ChapterSetting.PositionEnum.Omnibus, PositionPrefix = "z" };
 
             public ChapterSetting PollSetting { get; set; } = new ChapterSetting { Included = true, Position = ChapterSetting.PositionEnum.Omnibus, PositionPrefix = "x" };
             public bool? Polls

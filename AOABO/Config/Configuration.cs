@@ -406,7 +406,7 @@ namespace AOABO.Config
                 Console.WriteLine($"0 - Include Comfy Life Chapters ({Options.Extras.ComfyLife.Summary})");
                 Console.WriteLine($"1 - Include Character Sheets ({Options.Extras.CharacterSheetSetting.Summary})");
                 Console.WriteLine($"2 - Include Maps ({Options.Extras.MapSetting.Summary})");
-                Console.WriteLine($"3 - Include Afterwords ({Options.Extras.AfterwordSetting})");
+                Console.WriteLine($"3 - Include Afterwords ({Options.Extras.AfterwordSetting.Summary})");
                 Console.WriteLine($"4 - Include Polls ({Options.Extras.PollSetting.Summary})");
                 Console.WriteLine($"5 - Include POV Chapter collection ({Options.Collection.POVChapterOrderingSetting})");
                 Console.WriteLine($"X - Set Chapter Type Order");
@@ -424,21 +424,7 @@ namespace AOABO.Config
                         SetExtraChapterSetting(Options.Extras.MapSetting, "Maps");
                         break;
                     case '3':
-                        Console.WriteLine();
-                        Options.Extras.Afterword = AfterwordSetting.None;
-                        Console.WriteLine("0 - Exclude Afterwords");
-                        Console.WriteLine("1 - Include Afterwords at the end of each volume");
-                        Console.WriteLine("2 - Include Afterwords at the end of the Omnibus");
-                        key = Console.ReadKey();
-                        switch (key.KeyChar)
-                        {
-                            case '1':
-                                Options.Extras.Afterword = AfterwordSetting.VolumeEnd;
-                                break;
-                            case '2':
-                                Options.Extras.Afterword = AfterwordSetting.OmnibusEnd;
-                                break;
-                        }
+                        SetExtraChapterSetting(Options.Extras.AfterwordSetting, "Afterwords");
                         break;
                     case '4':
                         SetExtraChapterSetting(Options.Extras.PollSetting, "Character Polls");
@@ -477,20 +463,33 @@ namespace AOABO.Config
                 Console.WriteLine($"2 - In their original volume");
                 Console.WriteLine($"3 - In their original part");
                 Console.WriteLine($"4 - At the Omnibus level");
+                Console.WriteLine($"5 - Leave Out");
                 var key = Console.ReadKey();
                 switch (key.Key)
                 {
                     case ConsoleKey.D1:
+                    case ConsoleKey.NumPad1:
                         setting.Position = VolumeOptions.ChapterSetting.PositionEnum.Original;
+                        setting.Included = true;
                         return;
                     case ConsoleKey.D2:
+                    case ConsoleKey.NumPad2:
                         setting.Position = VolumeOptions.ChapterSetting.PositionEnum.Volume;
+                        setting.Included = true;
                         return;
                     case ConsoleKey.D3:
+                    case ConsoleKey.NumPad3:
                         setting.Position = VolumeOptions.ChapterSetting.PositionEnum.Part;
+                        setting.Included = true;
                         return;
                     case ConsoleKey.D4:
+                    case ConsoleKey.NumPad4:
                         setting.Position = VolumeOptions.ChapterSetting.PositionEnum.Omnibus;
+                        setting.Included = true;
+                        return;
+                    case ConsoleKey.D5:
+                    case ConsoleKey.NumPad5:
+                        setting.Included = false;
                         return;
                 }
             }

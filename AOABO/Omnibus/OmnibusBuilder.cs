@@ -168,6 +168,7 @@ namespace AOABO.Omnibus
             ApplyPosition(omnibus, Chapter.ChapterType.Map, Configuration.Options.Extras.MapSetting);
             ApplyPosition(omnibus, Chapter.ChapterType.CharacterSheet, Configuration.Options.Extras.CharacterSheetSetting);
             ApplyPosition(omnibus, Chapter.ChapterType.Poll, Configuration.Options.Extras.PollSetting);
+            ApplyPosition(omnibus, Chapter.ChapterType.Afterword, Configuration.Options.Extras.AfterwordSetting);
 
             RemoveDupes(omnibus);
 
@@ -267,48 +268,10 @@ namespace AOABO.Omnibus
                 foreach (var chap in flatList)
                     chap.Name = $"{chap.Name} [{chap.POV}]";
             }
-
-            if (Configuration.Options.Extras.Afterword == AfterwordSetting.None)
-            {
-                foreach (var part in omnibus.Chapters.Where(x => x.CType == Chapter.ChapterType.Part))
-                {
-                    foreach (var vol in part.Chapters.Where(x => x.CType == Chapter.ChapterType.Volume))
-                    {
-                        vol.Chapters.RemoveAll(x => x.CType == Chapter.ChapterType.Afterword);
-                    }
-                }
-            }
-            else if (Configuration.Options.Extras.Afterword == AfterwordSetting.OmnibusEnd)
-            {
-                var afterwords = new Chapter
-                {
-                    Name = "Afterwords",
-                    SortOrder = "999",
-                    CType = Chapter.ChapterType.Afterword,
-                    Chapters = []
-                };
-
-                foreach (var part in omnibus.Chapters.Where(x => x.CType == Chapter.ChapterType.Part))
-                {
-                    foreach (var vol in part.Chapters.Where(x => x.CType == Chapter.ChapterType.Volume))
-                    {
-                        afterwords.Chapters.AddRange(vol.Chapters.Where(x => x.CType == Chapter.ChapterType.Afterword));
-                        vol.Chapters.RemoveAll(x => x.CType == Chapter.ChapterType.Afterword);
-                    }
-                }
-
-                omnibus.Chapters.Add(afterwords);
-
-                foreach (var afterword in afterwords.Chapters)
-                {
-                    if (afterword.OriginalSource != null)
-                    {
-                        afterword.Name = afterword.OriginalSource;
-                    }
-                }
-            }
             
-            var flatChapterList = BuildChapterList(omnibus, true).ToArray();
+            var flatChapterList = BuildChapterList(omnibus, true).ToList();
+
+            flatChapterList.RemoveAll(x => x.Sources.Count == 0);
 
             foreach (var chapter in flatChapterList)
             {
@@ -319,13 +282,13 @@ namespace AOABO.Omnibus
                     var newChapter = new Core.Processor.Chapter
                     {
                         Contents = string.Empty,
-                        CssFiles = new List<string>(),
+                        CssFiles = [],
                         Name = chapter.Name + ".xhtml",
                         SubFolder = chapter.Subfolder,
                         Set = string.Empty,
-                        Priority = 0
+                        Priority = 0,
+                        SortOrder = chapter.SortOrder
                     };
-                    newChapter.SortOrder = chapter.SortOrder;
                     outProcessor.Chapters.Add(newChapter);
 
                     foreach (var chapterFile in chapter.Sources)
