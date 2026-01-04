@@ -170,6 +170,8 @@ namespace AOABO.Omnibus
             ApplyPosition(omnibus, Chapter.ChapterType.Poll, Configuration.Options.Extras.PollSetting);
             ApplyPosition(omnibus, Chapter.ChapterType.Afterword, Configuration.Options.Extras.AfterwordSetting);
             ApplyPosition(omnibus, Chapter.ChapterType.QnAs, Configuration.Options.Extras.QNASetting);
+            ApplyPosition(omnibus, Chapter.ChapterType.DramaCD, Configuration.Options.Extras.DramaCDSetting);
+            ApplyPosition(omnibus, Chapter.ChapterType.Fanbook, Configuration.Options.Extras.FanbookMiscSetting);
 
             RemoveDupes(omnibus);
 
@@ -679,6 +681,10 @@ namespace AOABO.Omnibus
                     return "Character Poll";
                 case Chapter.ChapterType.QnAs:
                     return "Q and A";
+                case Chapter.ChapterType.DramaCD:
+                    return "Drama CDs";
+                case Chapter.ChapterType.Fanbook:
+                    return "Misc Fanbook Content";
             }
             return string.Empty;
         }
@@ -870,7 +876,9 @@ namespace AOABO.Omnibus
             Afterword,
             ComfyLife,
             Poll,
-            QnAs
+            QnAs,
+            DramaCD,
+            Fanbook
         }
 
         public ChapterType CType { get; set; } = ChapterType.Story;

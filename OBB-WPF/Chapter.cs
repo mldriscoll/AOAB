@@ -17,7 +17,9 @@ namespace OBB_WPF
             Afterword,
             ComfyLife,
             Poll,
-            QnAs
+            QnAs,
+            DramaCD,
+            Fanbook
         }
 
         public ChapterType CType { get; set; } = ChapterType.Story;

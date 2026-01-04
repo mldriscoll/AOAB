@@ -1403,6 +1403,147 @@
               "OriginalSource": null,
               "Set": null,
               "Chapters": []
+            },
+            {
+              "CType": 12,
+              "Name": "Rough Color and Cover Art Gallery",
+              "SortOrder": "M010004",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "FB1\\OEBPS\\Text\\18.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60105019"
+                },
+                {
+                  "File": "FB1\\OEBPS\\Text\\19.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60105020"
+                },
+                {
+                  "File": "FB1\\OEBPS\\Text\\20.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60105021"
+                },
+                {
+                  "File": "FB1\\OEBPS\\Text\\21.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60105022"
+                },
+                {
+                  "File": "FB1\\OEBPS\\Text\\22.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60105023"
+                },
+                {
+                  "File": "FB1\\OEBPS\\Text\\23.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60105024"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": []
+            },
+            {
+              "CType": 11,
+              "Name": "“Drama CD Recording Report Manga” by Suzuka",
+              "SortOrder": "M011006",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "FB2\\OEBPS\\Text\\4.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60210013"
+                },
+                {
+                  "File": "FB2\\OEBPS\\Text\\5.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60210014"
+                },
+                {
+                  "File": "FB2\\OEBPS\\Text\\6.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60210015"
+                },
+                {
+                  "File": "FB2\\OEBPS\\Text\\7.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60210016"
+                },
+                {
+                  "File": "FB2\\OEBPS\\Text\\8.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60210017"
+                },
+                {
+                  "File": "FB2\\OEBPS\\Text\\9.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60210018"
+                },
+                {
+                  "File": "FB2\\OEBPS\\Text\\10.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60210019"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": []
+            },
+            {
+              "CType": 11,
+              "Name": "Drama CD Post-Recording Report",
+              "SortOrder": "M011007",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "FB2\\OEBPS\\Text\\dramacd.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60211020"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": []
             }
           ]
         },
@@ -50186,61 +50327,6 @@
         },
         {
           "CType": 0,
-          "Name": "Rough Color and Cover Art Gallery",
-          "SortOrder": "M010004",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "FB1\\OEBPS\\Text\\18.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60105019"
-            },
-            {
-              "File": "FB1\\OEBPS\\Text\\19.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60105020"
-            },
-            {
-              "File": "FB1\\OEBPS\\Text\\20.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60105021"
-            },
-            {
-              "File": "FB1\\OEBPS\\Text\\21.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60105022"
-            },
-            {
-              "File": "FB1\\OEBPS\\Text\\22.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60105023"
-            },
-            {
-              "File": "FB1\\OEBPS\\Text\\23.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60105024"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Subfolder": "",
-          "Tags": [],
-          "Year": null,
-          "Season": null,
-          "OriginalSource": null,
-          "Set": null,
-          "Chapters": []
-        },
-        {
-          "CType": 0,
           "Name": "Temple Tour",
           "SortOrder": "M010005",
           "POV": "",
@@ -50766,92 +50852,6 @@
               "Alternates": [],
               "OtherSide": null,
               "SortOrder": "60209012"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Subfolder": "",
-          "Tags": [],
-          "Year": null,
-          "Season": null,
-          "OriginalSource": null,
-          "Set": null,
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "Name": "“Drama CD Recording Report Manga” by Suzuka",
-          "SortOrder": "M011006",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "FB2\\OEBPS\\Text\\4.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60210013"
-            },
-            {
-              "File": "FB2\\OEBPS\\Text\\5.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60210014"
-            },
-            {
-              "File": "FB2\\OEBPS\\Text\\6.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60210015"
-            },
-            {
-              "File": "FB2\\OEBPS\\Text\\7.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60210016"
-            },
-            {
-              "File": "FB2\\OEBPS\\Text\\8.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60210017"
-            },
-            {
-              "File": "FB2\\OEBPS\\Text\\9.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60210018"
-            },
-            {
-              "File": "FB2\\OEBPS\\Text\\10.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60210019"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Subfolder": "",
-          "Tags": [],
-          "Year": null,
-          "Season": null,
-          "OriginalSource": null,
-          "Set": null,
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "Name": "Drama CD Post-Recording Report",
-          "SortOrder": "M011007",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "FB2\\OEBPS\\Text\\dramacd.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60211020"
             }
           ],
           "LinkedChapters": [],
