@@ -450,14 +450,33 @@ namespace AOABO.Config
                         break;
                     case 'X':
                         char currentPrefix = 'a';
-                        Dictionary<string, VolumeOptions.ChapterSetting> list = new() { { "(M)ain Story", new VolumeOptions.ChapterSetting() } };
-                        if (Options.Extras.ComfyLife.Included) list["(C)omfy Life"] = Options.Extras.ComfyLife;
-                        if (Options.Extras.MapSetting.Included) list["M(a)ps"] = Options.Extras.MapSetting;
-                        if (Options.Extras.CharacterSheetSetting.Included) list["C(h)aracter Sheets"] = Options.Extras.CharacterSheetSetting;
+                        List<VolumeOptions.ChapterSetting> list = [ 
+                            new VolumeOptions.ChapterSetting{ Name = "Main Story" }
+                        ];
+                        if (Options.Collection.POVChapterCollection) list.Add(new VolumeOptions.ChapterSetting { Name = "POV Collection" });
+                        if (Options.Extras.ComfyLife.Included) list.Add(Options.Extras.ComfyLife);
+                        if (Options.Extras.MapSetting.Included) list.Add(Options.Extras.MapSetting);
+                        if (Options.Extras.CharacterSheetSetting.Included) list.Add(Options.Extras.CharacterSheetSetting);
+                        if (Options.Extras.CharacterSheetSetting.Included) list.Add(Options.Extras.AfterwordSetting);
+                        if (Options.Extras.CharacterSheetSetting.Included) list.Add(Options.Extras.PollSetting);
+                        if (Options.Extras.CharacterSheetSetting.Included) list.Add(Options.Extras.QNASetting);
+                        if (Options.Extras.CharacterSheetSetting.Included) list.Add(Options.Extras.DramaCDSetting);
+                        if (Options.Extras.CharacterSheetSetting.Included) list.Add(Options.Extras.FanbookMiscSetting);
+                        list = [.. list.OrderBy(x => x.Name)];
                         while (list.Count > 1) currentPrefix = SetOrder(currentPrefix, list);
 
                         var last = list.First();
-                        if (!last.Key.Equals("(M)ain Story")) last.Value.PositionPrefix = $"{currentPrefix}";
+                        switch (last.Name)
+                        {
+                            case "Main Story":
+                                break;
+                            case "POV Collection":
+                                Options.Collection.Prefix = $"{currentPrefix}";
+                                break;
+                            default:
+                                last.PositionPrefix = $"{currentPrefix}";
+                                break;
+                        }
                         break;
                     default:
                         return;
@@ -507,53 +526,33 @@ namespace AOABO.Config
             }
         }
 
-        private static char SetOrder(char prefix, Dictionary<string, VolumeOptions.ChapterSetting> options)
+        private static char SetOrder(char prefix, List<VolumeOptions.ChapterSetting> options)
         {
             Console.Clear();
             Console.WriteLine("Select sections in the order they should appear");
-            foreach(var option in options.Keys.Order())
+            for (int i = 1; i <= options.Count; i++)
             {
-                Console.WriteLine(option);
+                Console.WriteLine($"{i} - {options[i - 1].Name}");
             }
 
-            var key = Console.ReadKey();
-            switch (key.KeyChar)
+            if (int.TryParse(Console.ReadLine(), out var num))
             {
-                case 'a':
-                case 'A':
-                    if (options.ContainsKey("M(a)ps"))
-                    {
-                        Options.Extras.MapSetting.PositionPrefix = $"{prefix}";
-                        options.Remove("M(a)ps");
-                        return (char)(prefix + 1);
-                    }
-                    return prefix;
-                case 'M':
-                case 'm':
-                    if (options.ContainsKey("(M)ain Story"))
-                    {
-                        options.Remove("(M)ain Story");
+                if ((num < 1) || (num > options.Count)) return prefix;
+                var selection = options[num - 1];
+                switch (selection.Name)
+                {
+                    case "Main Story":
+                        options.Remove(selection);
                         return 'n';
-                    }
-                    return prefix;
-                case 'C':
-                case 'c':
-                    if (options.ContainsKey("(C)omfy Life"))
-                    {
-                        Options.Extras.ComfyLife.PositionPrefix = $"{prefix}";
-                        options.Remove("(C)omfy Life");
+                    case "POV Collection":
+                        Options.Collection.Prefix = $"{prefix}";
+                        options.Remove(selection);
                         return (char)(prefix + 1);
-                    }    
-                    return prefix;
-                case 'H':
-                case 'h':
-                    if (options.ContainsKey("C(h)aracter Sheets"))
-                    {
-                        Options.Extras.CharacterSheetSetting.PositionPrefix = $"{prefix}";
-                        options.Remove("C(h)aracter Sheets");
+                    default:
+                        selection.PositionPrefix = $"{prefix}";
+                        options.Remove(selection);
                         return (char)(prefix + 1);
-                    }
-                    return prefix;
+                }
             }
 
             return prefix;

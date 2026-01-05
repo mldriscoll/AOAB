@@ -199,11 +199,14 @@ namespace AOABO.Config
         {
             public bool POVChapterCollection { get; set; } = true;
             public bool POVChapterOrdering { get; set; } = false;
+
+            public string Prefix { get; set; } = "p";
+
             [JsonIgnore]
             public string POVChapterOrderingSetting { get
                 {
-                    if (!POVChapterCollection) return string.Empty;
-                    return POVChapterOrdering ? "in Character Order" : "in Chronological Order";
+                    if (!POVChapterCollection) return "Not Included";
+                    return POVChapterOrdering ? $"in Character Order (position {Prefix})" : $"in Chronological Order (position {Prefix})";
                 } }
         }
 
@@ -219,6 +222,8 @@ namespace AOABO.Config
             public PositionEnum Position { get; set; } = PositionEnum.Original;
             public bool Included { get; set; } = false;
             public string PositionPrefix { get; set; } = "M";
+
+            public string Name { get; set; } = string.Empty;
 
             [JsonIgnore]
             public string Summary
@@ -246,14 +251,14 @@ namespace AOABO.Config
 
         public class ExtraContent
         {
-            public ChapterSetting MapSetting { get; set; } = new ChapterSetting { Included = true, Position = ChapterSetting.PositionEnum.Part, PositionPrefix = "a" };
-            public ChapterSetting CharacterSheetSetting { get; set; } = new ChapterSetting { Included = true, Position = ChapterSetting.PositionEnum.Part, PositionPrefix = "b" };
-            public ChapterSetting ComfyLife { get; set; } = new ChapterSetting { Included = true, Position = ChapterSetting.PositionEnum.Part, PositionPrefix = "n"};
-            public ChapterSetting DramaCDSetting { get; set; } = new ChapterSetting { Included = true, Position = ChapterSetting.PositionEnum.Omnibus, PositionPrefix = "v" };
-            public ChapterSetting PollSetting { get; set; } = new ChapterSetting { Included = true, Position = ChapterSetting.PositionEnum.Omnibus, PositionPrefix = "w" };
-            public ChapterSetting QNASetting { get; set; } = new ChapterSetting { Included = true, Position = ChapterSetting.PositionEnum.Omnibus, PositionPrefix = "x" };
-            public ChapterSetting FanbookMiscSetting { get; set; } = new ChapterSetting { Included = true, Position = ChapterSetting.PositionEnum.Omnibus, PositionPrefix = "y" };
-            public ChapterSetting AfterwordSetting { get; set; } = new ChapterSetting { Included = true, Position = ChapterSetting.PositionEnum.Omnibus, PositionPrefix = "z" };
+            public ChapterSetting MapSetting { get; set; } = new ChapterSetting { Included = true, Position = ChapterSetting.PositionEnum.Part, PositionPrefix = "a", Name = "Maps" };
+            public ChapterSetting CharacterSheetSetting { get; set; } = new ChapterSetting { Included = true, Position = ChapterSetting.PositionEnum.Part, PositionPrefix = "b", Name = "Character Sheets" };
+            public ChapterSetting ComfyLife { get; set; } = new ChapterSetting { Included = true, Position = ChapterSetting.PositionEnum.Part, PositionPrefix = "n", Name = "Comfy Life Manga"};
+            public ChapterSetting DramaCDSetting { get; set; } = new ChapterSetting { Included = true, Position = ChapterSetting.PositionEnum.Omnibus, PositionPrefix = "v", Name = "Drama CD Writeups" };
+            public ChapterSetting PollSetting { get; set; } = new ChapterSetting { Included = true, Position = ChapterSetting.PositionEnum.Omnibus, PositionPrefix = "w", Name = "Character Polls" };
+            public ChapterSetting QNASetting { get; set; } = new ChapterSetting { Included = true, Position = ChapterSetting.PositionEnum.Omnibus, PositionPrefix = "x", Name = "Q&As" };
+            public ChapterSetting FanbookMiscSetting { get; set; } = new ChapterSetting { Included = true, Position = ChapterSetting.PositionEnum.Omnibus, PositionPrefix = "y", Name = "Misc Fanbook Content" };
+            public ChapterSetting AfterwordSetting { get; set; } = new ChapterSetting { Included = true, Position = ChapterSetting.PositionEnum.Omnibus, PositionPrefix = "z", Name = "Afterwords" };
 
             [Obsolete]
             public ComfyLifeSetting? ComfyLifeChapters {

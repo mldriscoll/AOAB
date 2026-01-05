@@ -136,7 +136,7 @@ namespace AOABO.Omnibus
             IFolder folder = Configuration.Options.OutputYearFormat == 0 ? new YearNumberFolder() : new YearFolder();
             Configuration.ReloadVolumes();
 
-            var povChapters = new List<Chapters.MoveableChapter>();
+            //var povChapters = new List<Chapters.MoveableChapter>();
             var missingFiles = new List<string>();
 
 
@@ -174,6 +174,37 @@ namespace AOABO.Omnibus
             ApplyPosition(omnibus, Chapter.ChapterType.Fanbook, Configuration.Options.Extras.FanbookMiscSetting);
 
             RemoveDupes(omnibus);
+
+            if (Configuration.Options.Collection.POVChapterCollection)
+            {
+                var collection = new Chapter
+                {
+                    Name = "POV Chapters",
+                    SortOrder = Configuration.Options.Collection.Prefix
+                };
+
+                var povChapters = BuildChapterList(omnibus, false).Where(x => !string.IsNullOrWhiteSpace(x.POV)).ToArray();
+
+                if (Configuration.Options.Collection.POVChapterOrdering)
+                {
+                    foreach (var group in povChapters.GroupBy(x => x.POV))
+                    {
+                        var groupChapter = new Chapter
+                        {
+                            Name = group.Key,
+                            SortOrder = group.Key
+                        };
+                        collection.Chapters.Add(groupChapter);
+                        groupChapter.Chapters.AddRange(group.Select(x => x.Clone()));
+                    }
+                }
+                else
+                {
+                    collection.Chapters = [.. povChapters.Select(x => x.Clone())];
+                }
+
+                omnibus.Chapters.Add(collection);
+            }
 
             int i = 1;
             foreach (var chapter in BuildChapterList(omnibus, false))
@@ -961,6 +992,28 @@ namespace AOABO.Omnibus
         public string? OriginalSource { get; set; } = null;
 
         public string? Set { get; set; } = null;
+
+        public Chapter Clone()
+        {
+            return new Chapter
+            {
+                Name = Name,
+                Year = Year,
+                Season = Season,
+                OriginalSource = OriginalSource,
+                Set = Set,
+                CType = CType,
+                EndsBeforeLine = EndsBeforeLine,
+                LinkedChapters = LinkedChapters,
+                POV = POV,
+                SortOrder = SortOrder,
+                Sources = Sources,
+                StartsAtLine = StartsAtLine,
+                Subfolder = Subfolder,
+                Tags = Tags,
+                SubSections = SubSections
+            };
+        }
     }
     public class Source : INotifyPropertyChanged
     {
