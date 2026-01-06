@@ -1,5 +1,4 @@
-﻿using AOABO.Chapters;
-using AOABO.Config;
+﻿using AOABO.Config;
 using AOABO.OCR;
 using AOABO.Omnibus;
 using Core;
@@ -7,7 +6,6 @@ using Core.Downloads;
 using System.Runtime.Serialization.Json;
 using System.Text;
 using System.Text.Json;
-using System.Xml.Linq;
 
 var executing = true;
 HttpClient client = new HttpClient();

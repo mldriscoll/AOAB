@@ -352,21 +352,24 @@ namespace AOABO.Omnibus
                                 var imR = inProcessor.Images.FirstOrDefault(x => entry.Contents.Contains(x.Name));
                                 var imL = inProcessor.Images.FirstOrDefault(x => left.Contents.Contains(x.Name));
 
-                                var rightIm = await SixLabors.ImageSharp.Image.LoadAsync(imR.OldLocation);
-                                var leftIm = await SixLabors.ImageSharp.Image.LoadAsync(imL.OldLocation);
+                                if ((imR != null) && (imL != null))
+                                {
+                                    var rightIm = await SixLabors.ImageSharp.Image.LoadAsync(imR.OldLocation);
+                                    var leftIm = await SixLabors.ImageSharp.Image.LoadAsync(imL.OldLocation);
 
-                                var outputImage = new Image<Rgba32>(rightIm.Width + leftIm.Width, rightIm.Height);
-                                outputImage.Mutate(x => x
-                                    .DrawImage(leftIm, new Point(0, 0), 1f)
-                                    .DrawImage(rightIm, new Point(leftIm.Width, 0), 1f)
-                                    );
+                                    var outputImage = new Image<Rgba32>(rightIm.Width + leftIm.Width, rightIm.Height);
+                                    outputImage.Mutate(x => x
+                                        .DrawImage(leftIm, new Point(0, 0), 1f)
+                                        .DrawImage(rightIm, new Point(leftIm.Width, 0), 1f)
+                                        );
 
-                                await outputImage.SaveAsJpegAsync(imR.OldLocation + "combi");
+                                    await outputImage.SaveAsJpegAsync(imR.OldLocation + "combi");
 
-                                var widthRegex = new Regex("width=\"\\d*\"");
-                                entry.Contents = widthRegex.Replace(entry.Contents, string.Empty);
-                                var viewBoxRegex = new Regex("viewBox=\"[\\d ]*\"");
-                                entry.Contents = viewBoxRegex.Replace(entry.Contents, $"viewBox=\"0 0 {outputImage.Width} {outputImage.Height}\"");
+                                    var widthRegex = new Regex("width=\"\\d*\"");
+                                    entry.Contents = widthRegex.Replace(entry.Contents, string.Empty);
+                                    var viewBoxRegex = new Regex("viewBox=\"[\\d ]*\"");
+                                    entry.Contents = viewBoxRegex.Replace(entry.Contents, $"viewBox=\"0 0 {outputImage.Width} {outputImage.Height}\"");
+                                }
                             }
 
                             newChapter.Contents = string.Concat(newChapter.Contents, fileContent.Replace("</body>", string.Empty));
@@ -729,94 +732,6 @@ namespace AOABO.Omnibus
                 holder.Chapters.Add(set.First());
             }
             foreach (var chap in holder.Chapters) RemoveDupes(chap);
-        }
-
-        private static List<Chapters.Chapter> BuildChapterList(Volume volume, Func<Chapters.Chapter, bool> filter)
-        {
-            var chapters = new List<Chapters.Chapter>();
-
-            if (Configuration.Options.Chapter.UpdateChapterNames)
-            {
-                volume.POVChapters.ForEach(x => x.ApplyPOVToTitle());
-                volume.BonusChapters.ForEach(x => x.ApplyPOVToTitle());
-                volume.MangaChapters.ForEach(x => x.ApplyPOVToTitle());
-            }
-
-            if (Configuration.Options.Chapter.IncludeRegularChapters)
-            {
-                if (!Configuration.Options.Image.IncludeImagesInChapters)
-                {
-                    volume.Chapters.ForEach(x => x.RemoveInserts());
-                }
-                chapters.AddRange(volume.Chapters.Where(filter));
-            }
-
-            if (volume.Gallery != null && filter(volume.Gallery))
-            {
-                var startGallery = volume.Gallery.GetChapter(true, Configuration.Options.Image.SplashImages == GallerySetting.Start, Configuration.Options.Image.ChapterImages == GallerySetting.Start);
-                if (startGallery != null) chapters.Add(startGallery);
-
-                var endGallery = volume.Gallery.GetChapter(false, Configuration.Options.Image.SplashImages == GallerySetting.End, Configuration.Options.Image.ChapterImages == GallerySetting.End);
-                if (endGallery != null) chapters.Add(endGallery);
-            }
-
-            if (!Configuration.Options.Image.IncludeImagesInChapters)
-            {
-                volume.BonusChapters.ForEach(x => x.RemoveInserts());
-            }
-            switch (Configuration.Options.Chapter.BonusChapter)
-            {
-                case BonusChapterSetting.Chronological:
-                    chapters.AddRange(volume.BonusChapters.Where(filter));
-                    break;
-                case BonusChapterSetting.EndOfBook:
-                    chapters.AddRange(volume.BonusChapters.Where(filter));
-                    break;
-            }
-
-            if (Configuration.Options.Chapter.MangaChapters != BonusChapterSetting.LeaveOut)
-            {
-                chapters.AddRange(volume.MangaChapters.Where(filter));
-            }
-
-            if (Configuration.Options.Extras.ComfyLifeChapters != ComfyLifeSetting.None && volume.ComfyLifeChapter != null && filter(volume.ComfyLifeChapter))
-            {
-                chapters.Add(volume.ComfyLifeChapter);
-            }
-
-            if ((Configuration.Options.Extras.CharacterSheets == CharacterSheets.All) && (volume.CharacterSheet != null) && filter(volume.CharacterSheet))
-            {
-                chapters.Add(volume.CharacterSheet);
-            }
-            else if ((Configuration.Options.Extras.CharacterSheets == CharacterSheets.PerPart) && (volume.CharacterSheet != null) && volume.CharacterSheet.PartSheet && filter(volume.CharacterSheet))
-            {
-                chapters.Add(volume.CharacterSheet);
-            }
-
-            if (Configuration.Options.Extras.Maps ?? false)
-            {
-                chapters.AddRange(volume.Maps.Where(filter));
-            }
-
-            if (volume.Afterword != null && Configuration.Options.Extras.Afterword != AfterwordSetting.None && filter(volume.Afterword))
-            {
-                chapters.Add(volume.Afterword);
-            }
-
-            if((Configuration.Options.Extras.Polls ?? false) && volume.CharacterPoll != null && filter(volume.CharacterPoll))
-            {
-                chapters.Add(volume.CharacterPoll);
-            }
-
-            if (Configuration.Options.Collection.POVChapterCollection)
-            {
-                chapters.AddRange(volume.BonusChapters.Where(x => !string.IsNullOrWhiteSpace(x.POV)).Select(x => x.GetCollectionChapter()).Where(filter));
-                chapters.AddRange(volume.POVChapters.Where(x => !string.IsNullOrWhiteSpace(x.POV)).Select(x => x.GetCollectionChapter()).Where(filter));
-                chapters.AddRange(volume.MangaChapters.Where(x => !string.IsNullOrWhiteSpace(x.POV)).Select(x => x.GetCollectionChapter()).Where(filter));
-            }
-            chapters.AddRange(volume.POVChapters.Where(filter));
-
-            return chapters;
         }
     }
 
