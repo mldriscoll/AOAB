@@ -4,6 +4,7 @@ using AOABO.OCR;
 using AOABO.Omnibus;
 using Core;
 using Core.Downloads;
+using System.Runtime.Serialization.Json;
 using System.Text;
 using System.Text.Json;
 using System.Xml.Linq;
@@ -181,53 +182,45 @@ void AdjustSourceString(Source source)
 
 async Task CreateTables()
 {
-    var chapters = Configuration.Volumes.SelectMany(x =>
+    Omnibus omnibus;
+    using (var obStream = File.OpenRead("JSON\\ascendance-of-a-bookworm.json"))
     {
-        var c = new List<AOABO.Chapters.Chapter>();
-        c.AddRange(x.POVChapters);
-        c.AddRange(x.MangaChapters);
-        c.AddRange(x.BonusChapters);
-        c.AddRange(x.Chapters);
-        return c;
-    }).OrderBy(x => (x is MoveableChapter xx) ? xx.EarlySortOrder : x.SortOrder).ToArray();
+        var obSerializer = new DataContractJsonSerializer(typeof(Omnibus));
+        var obj = obSerializer.ReadObject(obStream) ?? throw new Exception("Failed to load Omnibus configuration");
+        omnibus = (Omnibus)obj;
+    }
 
     //POV Chart
     var sb = new StringBuilder();
     sb.AppendLine("|Character|Chapter|Name|");
     sb.Append("|-|-|-|");
     string character = "";
-    foreach(var chapter in chapters.Where(x => x is BonusChapter || x is POVChapter).OrderBy(x => x is BonusChapter c ? c.POV : ((POVChapter)x).POV))
+    foreach (var chapter in BuildChapterList(omnibus).Where(x => !string.IsNullOrWhiteSpace(x.POV)).OrderBy(x => x.POV))
     {
-        if (chapter is BonusChapter b)
+        if (chapter.CType == AOABO.Omnibus.Chapter.ChapterType.Story)
         {
-            if (!string.IsNullOrWhiteSpace(b.POV))
+            if (string.Equals(character, chapter.POV))
             {
-                if (string.Equals(character, b.POV))
-                {
-                    sb.AppendLine($"| |{b.Source}|**{b.ChapterName}**");
-                }
-                else
-                {
-                    character = b.POV;
-                    sb.AppendLine("");
-                    sb.AppendLine($"|{b.POV}|{b.Source}|**{b.ChapterName}**");
-                }
+                sb.AppendLine($"| |{chapter.OriginalSource}|*{chapter.Name}*");
+            }
+            else
+            {
+                character = chapter.POV;
+                sb.AppendLine("");
+                sb.AppendLine($"|{chapter.POV}|{chapter.OriginalSource}|*{chapter.Name}*");
             }
         }
-        if (chapter is POVChapter p)
+        else
         {
-            if (!string.IsNullOrWhiteSpace(p.POV))
+            if (string.Equals(character, chapter.POV))
             {
-                if (string.Equals(character, p.POV))
-                {
-                    sb.AppendLine($"| |{p.GetVolumeName()}|*{p.ChapterName}*");
-                }
-                else
-                {
-                    character = p.POV;
-                    sb.AppendLine("");
-                    sb.AppendLine($"|{p.POV}|{p.GetVolumeName()}|*{p.ChapterName}*");
-                }
+                sb.AppendLine($"| |{chapter.OriginalSource}|**{chapter.Name}**");
+            }
+            else
+            {
+                character = chapter.POV;
+                sb.AppendLine("");
+                sb.AppendLine($"|{chapter.POV}|{chapter.OriginalSource}|**{chapter.Name}**");
             }
         }
     }
@@ -236,68 +229,84 @@ async Task CreateTables()
         File.WriteAllTextAsync("POVs.txt", sb.ToString()),
 
         //Chronological Chart P1
-        PartChart(chapters, "PartOne.txt", partOne: true),
+        PartChart(omnibus, "PartOne.txt", partOne: true),
         //Chronological Chart P2
-        PartChart(chapters, "PartTwo.txt", partTwo: true),
+        PartChart(omnibus, "PartTwo.txt", partTwo: true),
         //Chronological Chart P3
-        PartChart(chapters, "PartThree.txt", partThree: true),
+        PartChart(omnibus, "PartThree.txt", partThree: true),
         //Chronological Chart P4
-        PartChart(chapters, "PartFour.txt", partFour: true),
+        PartChart(omnibus, "PartFour.txt", partFour: true),
         //Chronological Chart P5
-        PartChart(chapters, "PartFive.txt", partFive: true),
+        PartChart(omnibus, "PartFive.txt", partFive: true),
         //Chronological Chart Hannelore Y5
-        PartChart(chapters, "Hannelore.txt", hannelore: true));
+        PartChart(omnibus, "Hannelore.txt", hannelore: true));
 }
 
-async Task PartChart(AOABO.Chapters.Chapter[] chapters, string name, bool partOne = false, bool partTwo = false, bool partThree = false, bool partFour = false, bool partFive = false, bool hannelore = false)
+static List<AOABO.Omnibus.Chapter> BuildChapterList(ChapterHolder ch)
+{
+    var results = new List<AOABO.Omnibus.Chapter>();
+    foreach (var chapter in ch.Chapters.OrderBy(x => x.SortOrder))
+    {
+        results.Add(chapter);
+        results.AddRange(BuildChapterList(chapter));
+    }
+    return results;
+}
+
+async Task PartChart(Omnibus ob, string name, bool partOne = false, bool partTwo = false, bool partThree = false, bool partFour = false, bool partFive = false, bool hannelore = false)
 {
     var sb = new StringBuilder();
     sb.AppendLine("|Chapter|Name|POV|");
     sb.Append("|:-:|-|-|");
     int c = 1;
-    string? volume = null;
     string? season = null;
     int year = 0;
-    foreach (var chapter in chapters.Where(x => x.ProcessedInPartOne == partOne && x.ProcessedInPartTwo == partTwo && x.ProcessedInPartThree == partThree && x.ProcessedInPartFour == partFour && x.ProcessedInPartFive == partFive && x.ProcessedInHannelore == hannelore))
-    {
-        if (!string.Equals(volume, chapter.Volume))
-        {
-            sb.AppendLine();
-            volume = chapter.Volume;
-            c = 1;
-        }
-        
 
-        if (chapter is BonusChapter b)
+    var parts = ob.Chapters.Where(x => x.CType == AOABO.Omnibus.Chapter.ChapterType.Part).ToArray();
+    var part = 
+        partOne ? parts[0]
+        : partTwo ? parts[1]
+        : partThree ? parts[2]
+        : partFour ? parts[3]
+        : partFive ? parts[4]
+        : hannelore ? parts[5]
+        : throw new NotImplementedException();
+
+    foreach (var vol in part.Chapters.Where(x => x.CType == AOABO.Omnibus.Chapter.ChapterType.Volume))
+    {
+        sb.AppendLine();
+        c = 1;
+        
+        foreach (var chapter in vol.Chapters)
         {
-            if (!string.Equals(season, b.EarlySeason))
+            if (chapter.CType == AOABO.Omnibus.Chapter.ChapterType.Story)
             {
-                sb.AppendLine($"|**Year {b.EarlyYear} {b.EarlySeason}**|||");
-                season = b.EarlySeason;
-                year = b.EarlyYear;
+                if (chapter.Season != null)
+                {
+                    if (chapter.Year.HasValue)
+                        year = chapter.Year.Value;
+                    if (!string.Equals(season, chapter.Season))
+                    {
+                        season = chapter.Season;
+                        sb.AppendLine($"|**Year {year} {season}**|||");
+                    }
+                }
+
+                if (string.IsNullOrWhiteSpace(chapter.POV))
+                {
+                    sb.AppendLine($"|{vol.Name} Chapter {c}|{chapter.Name}");
+                    c++;
+                }
+                else
+                {
+                    sb.AppendLine($"|**{vol.Name}**|**{chapter.Name}**|{chapter.POV}");
+                }
+
+                foreach(var bonusChapter in chapter.Chapters.Where(x => x.CType == AOABO.Omnibus.Chapter.ChapterType.Bonus))
+                {
+                    sb.AppendLine($"|{bonusChapter.OriginalSource}|*{bonusChapter.Name}*|{bonusChapter.POV}");
+                }
             }
-            sb.AppendLine($"|{b.Source}|*{b.ChapterName}*|{b.POV}");
-        }
-        else if (chapter is POVChapter p)
-        {
-            if (!string.Equals(season, chapter.Season))
-            {
-                sb.AppendLine($"|**Year {chapter.Year} {chapter.Season}**|||");
-                season = chapter.Season;
-                year = chapter.Year;
-            }
-            sb.AppendLine($"|**{p.GetVolumeName()}**|**{p.ChapterName}**|{p.POV}");
-        }
-        else
-        {
-            if (!string.Equals(season, chapter.Season))
-            {
-                sb.AppendLine($"|**Year {chapter.Year} {chapter.Season}**|||");
-                season = chapter.Season;
-                year = chapter.Year;
-            }
-            sb.AppendLine($"|{chapter.GetVolumeName()}C{c}|{chapter.ChapterName}");
-            c++;
         }
     }
 
