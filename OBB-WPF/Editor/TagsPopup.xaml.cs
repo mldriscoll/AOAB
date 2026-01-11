@@ -37,16 +37,16 @@ namespace OBB_WPF.Editor
         private void SaveButton_Click(object sender, RoutedEventArgs e)
         {
             chapter.Tags.Clear();
-            if (!string.IsNullOrWhiteSpace(Tag1.Text)) chapter.Tags.Add(new Chapter.Tag { Name = Tag1.Text, Value = TagValue1.Text });
-            if (!string.IsNullOrWhiteSpace(Tag2.Text)) chapter.Tags.Add(new Chapter.Tag { Name = Tag2.Text, Value = TagValue2.Text });
-            if (!string.IsNullOrWhiteSpace(Tag3.Text)) chapter.Tags.Add(new Chapter.Tag { Name = Tag3.Text, Value = TagValue3.Text });
-            if (!string.IsNullOrWhiteSpace(Tag4.Text)) chapter.Tags.Add(new Chapter.Tag { Name = Tag4.Text, Value = TagValue4.Text });
-            if (!string.IsNullOrWhiteSpace(Tag5.Text)) chapter.Tags.Add(new Chapter.Tag { Name = Tag5.Text, Value = TagValue5.Text });
-            if (!string.IsNullOrWhiteSpace(Tag6.Text)) chapter.Tags.Add(new Chapter.Tag { Name = Tag6.Text, Value = TagValue6.Text });
-            if (!string.IsNullOrWhiteSpace(Tag7.Text)) chapter.Tags.Add(new Chapter.Tag { Name = Tag7.Text, Value = TagValue7.Text });
-            if (!string.IsNullOrWhiteSpace(Tag8.Text)) chapter.Tags.Add(new Chapter.Tag { Name = Tag8.Text, Value = TagValue8.Text });
-            if (!string.IsNullOrWhiteSpace(Tag9.Text)) chapter.Tags.Add(new Chapter.Tag { Name = Tag9.Text, Value = TagValue9.Text });
-            if (!string.IsNullOrWhiteSpace(Tag10.Text)) chapter.Tags.Add(new Chapter.Tag { Name = Tag10.Text, Value = TagValue10.Text });
+            if (!string.IsNullOrWhiteSpace(TagValue1.Text)) chapter.Tags.Add(new Chapter.Tag { Name = Tag1.Text, Value = TagValue1.Text });
+            if (!string.IsNullOrWhiteSpace(TagValue2.Text)) chapter.Tags.Add(new Chapter.Tag { Name = Tag2.Text, Value = TagValue2.Text });
+            if (!string.IsNullOrWhiteSpace(TagValue3.Text)) chapter.Tags.Add(new Chapter.Tag { Name = Tag3.Text, Value = TagValue3.Text });
+            if (!string.IsNullOrWhiteSpace(TagValue4.Text)) chapter.Tags.Add(new Chapter.Tag { Name = Tag4.Text, Value = TagValue4.Text });
+            if (!string.IsNullOrWhiteSpace(TagValue5.Text)) chapter.Tags.Add(new Chapter.Tag { Name = Tag5.Text, Value = TagValue5.Text });
+            if (!string.IsNullOrWhiteSpace(TagValue6.Text)) chapter.Tags.Add(new Chapter.Tag { Name = Tag6.Text, Value = TagValue6.Text });
+            if (!string.IsNullOrWhiteSpace(TagValue7.Text)) chapter.Tags.Add(new Chapter.Tag { Name = Tag7.Text, Value = TagValue7.Text });
+            if (!string.IsNullOrWhiteSpace(TagValue8.Text)) chapter.Tags.Add(new Chapter.Tag { Name = Tag8.Text, Value = TagValue8.Text });
+            if (!string.IsNullOrWhiteSpace(TagValue9.Text)) chapter.Tags.Add(new Chapter.Tag { Name = Tag9.Text, Value = TagValue9.Text });
+            if (!string.IsNullOrWhiteSpace(TagValue10.Text)) chapter.Tags.Add(new Chapter.Tag { Name = Tag10.Text, Value = TagValue10.Text });
             this.Close();
         }
 
