@@ -231,13 +231,13 @@ async Task CreateTables()
         //Chronological Chart P2
         PartChart(omnibus, "PartTwo.txt", partTwo: true),
         //Chronological Chart P3
-        PartChart(omnibus, "PartThree.txt", partThree: true),
-        //Chronological Chart P4
-        PartChart(omnibus, "PartFour.txt", partFour: true),
-        //Chronological Chart P5
-        PartChart(omnibus, "PartFive.txt", partFive: true),
-        //Chronological Chart Hannelore Y5
-        PartChart(omnibus, "Hannelore.txt", hannelore: true));
+        PartChart(omnibus, "PartThree.txt", partThree: true));//,
+        ////Chronological Chart P4
+        //PartChart(omnibus, "PartFour.txt", partFour: true),
+        ////Chronological Chart P5
+        //PartChart(omnibus, "PartFive.txt", partFive: true),
+        ////Chronological Chart Hannelore Y5
+        //PartChart(omnibus, "Hannelore.txt", hannelore: true));
 }
 
 static List<AOABO.Omnibus.Chapter> BuildChapterList(ChapterHolder ch)
@@ -302,6 +302,16 @@ async Task PartChart(Omnibus ob, string name, bool partOne = false, bool partTwo
 
                 foreach(var bonusChapter in chapter.Chapters.Where(x => x.CType == AOABO.Omnibus.Chapter.ChapterType.Bonus))
                 {
+                    if (bonusChapter.Season != null)
+                    {
+                        if (bonusChapter.Year.HasValue)
+                            year = bonusChapter.Year.Value;
+                        if (!string.Equals(season, bonusChapter.Season))
+                        {
+                            season = bonusChapter.Season;
+                            sb.AppendLine($"|**Year {year} {season}**|||");
+                        }
+                    }
                     sb.AppendLine($"|{bonusChapter.OriginalSource}|*{bonusChapter.Name}*|{bonusChapter.POV}");
                 }
             }

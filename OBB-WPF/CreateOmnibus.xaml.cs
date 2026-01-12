@@ -225,7 +225,17 @@ namespace OBB_WPF
 
                 if (((chapter.CType == Chapter.ChapterType.Bonus && IncBonusChapters)
                     || (chapter.CType == Chapter.ChapterType.NonStory && IncNonStoryChapters)
-                    || (chapter.CType == Chapter.ChapterType.Story && IncStoryChapters))
+                    || (chapter.CType == Chapter.ChapterType.Story && IncStoryChapters)
+                    || (chapter.CType == Chapter.ChapterType.ComfyLife)
+                    || (chapter.CType == Chapter.ChapterType.Map)
+                    || (chapter.CType == Chapter.ChapterType.Poll)
+                    || (chapter.CType == Chapter.ChapterType.Afterword)
+                    || (chapter.CType == Chapter.ChapterType.CharacterSheet)
+                    || (chapter.CType == Chapter.ChapterType.DramaCD)
+                    || (chapter.CType == Chapter.ChapterType.Fanbook)
+                    || (chapter.CType == Chapter.ChapterType.Part)
+                    || (chapter.CType == Chapter.ChapterType.QnAs)
+                    || (chapter.CType == Chapter.ChapterType.Volume))
                     && chapter.Sources.Any())
                 {
                     bool notFirst = false;
