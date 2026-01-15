@@ -2840,7 +2840,9 @@
         "ApiSlug": "ascendance-of-a-bookworm-manga-part-3-volume-5",
         "FileName": "ascendance-of-a-bookworm-manga-part-3-volume-5.epub",
         "Title": "",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2026-01-14",
         "Order": 605
       },
