@@ -774,6 +774,42 @@
       "SortOrder": "60602002"
     },
     {
+      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\color1.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "20126046"
+    },
+    {
+      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\color2.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "20126047"
+    },
+    {
+      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\copyright.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "20129051"
+    },
+    {
+      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\cover.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "20102001"
+    },
+    {
+      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\signup.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "20128050"
+    },
+    {
+      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\toc.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "20102002"
+    },
+    {
       "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-manga-part-2-vol-1\\item\\xhtml\\p-000.xhtml",
       "Alternates": [],
       "OtherSide": null,
@@ -27089,6 +27125,12 @@
       "SortOrder": "13334067"
     },
     {
+      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-part-5-volume-12\\OEBPS\\Text\\toc.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "13304009"
+    },
+    {
       "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-part-5-volume-2\\OEBPS\\Text\\copyright.xhtml",
       "Alternates": [],
       "OtherSide": null,
@@ -27555,12 +27597,6 @@
       "Alternates": [],
       "OtherSide": null,
       "SortOrder": "10204005"
-    },
-    {
-      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-part-5-volume-12\\OEBPS\\Text\\toc.xhtml",
-      "Alternates": [],
-      "OtherSide": null,
-      "SortOrder": "13304009"
     }
   ],
   "Chapters": [
@@ -35815,747 +35851,6 @@
               "Chapters": []
             }
           ]
-        }
-      ]
-    },
-    {
-      "CType": 0,
-      "ChapType": "Story",
-      "Name": "ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1",
-      "SortOrder": "201",
-      "POV": "",
-      "Sources": [],
-      "LinkedChapters": [],
-      "EndsBeforeLine": "",
-      "StartsAtLine": "",
-      "SubSections": [],
-      "Tags": [],
-      "Chapters": [
-        {
-          "CType": 0,
-          "ChapType": "Story",
-          "Name": "Landmarks",
-          "SortOrder": "20101",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\cover.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20102001"
-            },
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\toc.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20102002"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Tags": [],
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "ChapType": "Story",
-          "Name": "Prologue",
-          "SortOrder": "20102",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\prologue.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20103003"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Tags": [],
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "ChapType": "Story",
-          "Name": "Entering the Dormitory",
-          "SortOrder": "20103",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\chapter1.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20104004"
-            },
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\insert1.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20104005"
-            },
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\chapter1_1.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20104006"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Tags": [],
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "ChapType": "Story",
-          "Name": "Welcoming Ditter",
-          "SortOrder": "20104",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\chapter2.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20105007"
-            },
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\insert2.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20105008"
-            },
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\chapter2_1.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20105009"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Tags": [],
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "ChapType": "Story",
-          "Name": "The Advancement Ceremony and Fellowship Gathering",
-          "SortOrder": "20105",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\chapter3.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20106010"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Tags": [],
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "ChapType": "Story",
-          "Name": "Sharing Intel and Starting Classes",
-          "SortOrder": "20106",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\chapter4.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20107011"
-            },
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\insert3.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20107012"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Tags": [],
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "ChapType": "Story",
-          "Name": "Propositions",
-          "SortOrder": "20107",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\chapter5.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20108013"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Tags": [],
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "ChapType": "Story",
-          "Name": "Hairpin Shockwaves",
-          "SortOrder": "20108",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\chapter6.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20109014"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Tags": [],
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "ChapType": "Story",
-          "Name": "Music and Questions",
-          "SortOrder": "20109",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\chapter7.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20110015"
-            },
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\insert4.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20110016"
-            },
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\chapter7_1.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20110017"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Tags": [],
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "ChapType": "Story",
-          "Name": "Tea Party Consultation",
-          "SortOrder": "20110",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\chapter8.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20111018"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Tags": [],
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "ChapType": "Story",
-          "Name": "A Push from Behind",
-          "SortOrder": "20111",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\chapter9.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20112019"
-            },
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\insert5.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20112020"
-            },
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\chapter9_1.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20112021"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Tags": [],
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "ChapType": "Story",
-          "Name": "Wavering and Resolve",
-          "SortOrder": "20112",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\chapter10.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20113022"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Tags": [],
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "ChapType": "Story",
-          "Name": "Proposal",
-          "SortOrder": "20113",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\chapter11.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20114023"
-            },
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\insert6.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20114024"
-            },
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\chapter11_1.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20114025"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Tags": [],
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "ChapType": "Story",
-          "Name": "Wilfried’s Answer",
-          "SortOrder": "20114",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\chapter12.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20115026"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Tags": [],
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "ChapType": "Story",
-          "Name": "Dregarnuhr Weaving Threads",
-          "SortOrder": "20115",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\chapter13.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20116027"
-            },
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\insert7.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20116028"
-            },
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\chapter13_1.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20116029"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Tags": [],
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "ChapType": "Story",
-          "Name": "The Academy of a Year Ago",
-          "SortOrder": "20116",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\chapter14.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20117030"
-            },
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\insert8.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20117031"
-            },
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\chapter14_1.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20117032"
-            },
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\insert9.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20117033"
-            },
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\chapter14_2.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20117034"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Tags": [],
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "ChapType": "Story",
-          "Name": "Threads in Liebeskhilfe’s Grasp",
-          "SortOrder": "20117",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\chapter15.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20118035"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Tags": [],
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "ChapType": "Story",
-          "Name": "Epilogue",
-          "SortOrder": "20118",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\epilogue.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20119036"
-            },
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\insert10.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20119037"
-            },
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\epilogue_1.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20119038"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Tags": [],
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "ChapType": "Story",
-          "Name": "Regular Reports for the Aub",
-          "SortOrder": "20119",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\chapter16.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20120039"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Tags": [],
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "ChapType": "Story",
-          "Name": "Break Time Breakdown",
-          "SortOrder": "20120",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\chapter17.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20121040"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Tags": [],
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "ChapType": "Story",
-          "Name": "In an Office in Korinthsdaum",
-          "SortOrder": "20121",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\chapter18.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20122041"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Tags": [],
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "ChapType": "Story",
-          "Name": "Map of Yurgenschmidt",
-          "SortOrder": "20122",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\map.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20123042"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Tags": [],
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "ChapType": "Story",
-          "Name": "Afterword",
-          "SortOrder": "20123",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\afterword.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20124043"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Tags": [],
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "ChapType": "Story",
-          "Name": "A Comfy Life with My Family by You Shiina",
-          "SortOrder": "20124",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\manga1.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20125044"
-            },
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\manga2.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20125045"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Tags": [],
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "ChapType": "Story",
-          "Name": "Color Illustrations",
-          "SortOrder": "20125",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\color1.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20126046"
-            },
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\color2.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20126047"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Tags": [],
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "ChapType": "Story",
-          "Name": "Bonus High Resolution Illustrations",
-          "SortOrder": "20126",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\bonus1.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20127048"
-            },
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\bonus2.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20127049"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Tags": [],
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "ChapType": "Story",
-          "Name": "About J-Novel Club",
-          "SortOrder": "20127",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\signup.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20128050"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Tags": [],
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "ChapType": "Story",
-          "Name": "Copyright",
-          "SortOrder": "20128",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\copyright.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20129051"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Tags": [],
-          "Chapters": []
         }
       ]
     },
@@ -61353,6 +60648,688 @@
                   "Alternates": [],
                   "OtherSide": null,
                   "SortOrder": "13332063"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Tags": [],
+              "Chapters": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "CType": 3,
+      "ChapType": "Part",
+      "Name": "Hannelore's Fifth Year at the Royal Academy",
+      "SortOrder": "6",
+      "POV": "",
+      "Sources": [],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "SubSections": [],
+      "Tags": [],
+      "Chapters": [
+        {
+          "CType": 4,
+          "ChapType": "Volume",
+          "Name": "Volume 1",
+          "SortOrder": "201",
+          "POV": "",
+          "Sources": [
+            {
+              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\bonus2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1"
+            },
+            {
+              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\bonus1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "2"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Tags": [],
+          "Chapters": [
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "Prologue",
+              "SortOrder": "20102",
+              "POV": "Cordula",
+              "Sources": [
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\prologue.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20103003"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Tags": [
+                {
+                  "Name": "Year",
+                  "Value": "10"
+                },
+                {
+                  "Name": "Season",
+                  "Value": "Autumn"
+                }
+              ],
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "Entering the Dormitory",
+              "SortOrder": "20103",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\chapter1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20104004"
+                },
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\insert1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20104005"
+                },
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\chapter1_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20104006"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Tags": [
+                {
+                  "Name": "Year",
+                  "Value": "10"
+                },
+                {
+                  "Name": "Season",
+                  "Value": "Winter"
+                }
+              ],
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "Welcoming Ditter",
+              "SortOrder": "20104",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\chapter2.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20105007"
+                },
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\insert2.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20105008"
+                },
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\chapter2_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20105009"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Tags": [],
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "The Advancement Ceremony and Fellowship Gathering",
+              "SortOrder": "20105",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\chapter3.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20106010"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Tags": [],
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "Sharing Intel and Starting Classes",
+              "SortOrder": "20106",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\chapter4.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20107011"
+                },
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\insert3.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20107012"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Tags": [],
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "Propositions",
+              "SortOrder": "20107",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\chapter5.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20108013"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Tags": [],
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "Hairpin Shockwaves",
+              "SortOrder": "20108",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\chapter6.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20109014"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Tags": [],
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "Music and Questions",
+              "SortOrder": "20109",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\chapter7.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20110015"
+                },
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\insert4.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20110016"
+                },
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\chapter7_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20110017"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Tags": [],
+              "Chapters": [
+                {
+                  "CType": 1,
+                  "ChapType": "Bonus",
+                  "Name": "Regular Reports for the Aub",
+                  "SortOrder": "20119",
+                  "POV": "Rozemyne",
+                  "Sources": [
+                    {
+                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\chapter16.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "20120039"
+                    }
+                  ],
+                  "LinkedChapters": [],
+                  "EndsBeforeLine": "",
+                  "StartsAtLine": "",
+                  "SubSections": [],
+                  "Tags": [
+                    {
+                      "Name": "Source",
+                      "Value": "H5V1 Bonus 1"
+                    }
+                  ],
+                  "Chapters": []
+                }
+              ]
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "Tea Party Consultation",
+              "SortOrder": "20110",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\chapter8.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20111018"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Tags": [],
+              "Chapters": [
+                {
+                  "CType": 1,
+                  "ChapType": "Bonus",
+                  "Name": "Break Time Breakdown",
+                  "SortOrder": "20120",
+                  "POV": "Rasantark",
+                  "Sources": [
+                    {
+                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\chapter17.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "20121040"
+                    }
+                  ],
+                  "LinkedChapters": [],
+                  "EndsBeforeLine": "",
+                  "StartsAtLine": "",
+                  "SubSections": [],
+                  "Tags": [
+                    {
+                      "Name": "Source",
+                      "Value": "H5V1 Bonus 2"
+                    }
+                  ],
+                  "Chapters": []
+                }
+              ]
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "A Push from Behind",
+              "SortOrder": "20111",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\chapter9.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20112019"
+                },
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\insert5.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20112020"
+                },
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\chapter9_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20112021"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Tags": [],
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "Wavering and Resolve",
+              "SortOrder": "20112",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\chapter10.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20113022"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Tags": [],
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "Proposal",
+              "SortOrder": "20113",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\chapter11.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20114023"
+                },
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\insert6.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20114024"
+                },
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\chapter11_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20114025"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Tags": [],
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "Wilfried’s Answer",
+              "SortOrder": "20114",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\chapter12.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20115026"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Tags": [],
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "Dregarnuhr Weaving Threads",
+              "SortOrder": "20115",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\chapter13.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20116027"
+                },
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\insert7.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20116028"
+                },
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\chapter13_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20116029"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Tags": [],
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "The Academy of a Year Ago",
+              "SortOrder": "20116",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\chapter14.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20117030"
+                },
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\insert8.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20117031"
+                },
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\chapter14_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20117032"
+                },
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\insert9.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20117033"
+                },
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\chapter14_2.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20117034"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Tags": [],
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "Threads in Liebeskhilfe’s Grasp",
+              "SortOrder": "20117",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\chapter15.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20118035"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Tags": [],
+              "Chapters": [
+                {
+                  "CType": 1,
+                  "ChapType": "Bonus",
+                  "Name": "In an Office in Korinthsdaum",
+                  "SortOrder": "20121",
+                  "POV": "Sigiswald",
+                  "Sources": [
+                    {
+                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\chapter18.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "20122041"
+                    }
+                  ],
+                  "LinkedChapters": [],
+                  "EndsBeforeLine": "",
+                  "StartsAtLine": "",
+                  "SubSections": [],
+                  "Tags": [
+                    {
+                      "Name": "Source",
+                      "Value": "H5V1 Bonus 3"
+                    }
+                  ],
+                  "Chapters": []
+                }
+              ]
+            },
+            {
+              "CType": 0,
+              "ChapType": "Story",
+              "Name": "Epilogue",
+              "SortOrder": "20118",
+              "POV": "Kenntrips",
+              "Sources": [
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\epilogue.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20119036"
+                },
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\insert10.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20119037"
+                },
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\epilogue_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20119038"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Tags": [],
+              "Chapters": []
+            },
+            {
+              "CType": 5,
+              "ChapType": "Map",
+              "Name": "Zent Eglantine's Yurgenschmidt",
+              "SortOrder": "20122",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\map.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20123042"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Tags": [],
+              "Chapters": []
+            },
+            {
+              "CType": 7,
+              "ChapType": "Afterword",
+              "Name": "H5V1 Afterword",
+              "SortOrder": "20123",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\afterword.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20124043"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Tags": [],
+              "Chapters": []
+            },
+            {
+              "CType": 8,
+              "ChapType": "ComfyLife",
+              "Name": "H5V1 Comfy Life",
+              "SortOrder": "20124",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\manga1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20125044"
+                },
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1\\OEBPS\\Text\\manga2.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20125045"
                 }
               ],
               "LinkedChapters": [],

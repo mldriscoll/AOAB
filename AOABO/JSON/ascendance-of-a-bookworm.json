@@ -9332,863 +9332,6 @@
       ]
     },
     {
-      "CType": 0,
-      "Name": "ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-1",
-      "SortOrder": "M201",
-      "POV": "",
-      "Sources": [],
-      "LinkedChapters": [],
-      "EndsBeforeLine": "",
-      "StartsAtLine": "",
-      "SubSections": [],
-      "Subfolder": "",
-      "Tags": [],
-      "Year": null,
-      "Season": null,
-      "OriginalSource": null,
-      "Set": null,
-      "Chapters": [
-        {
-          "CType": 0,
-          "Name": "Landmarks",
-          "SortOrder": "M20101",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "0601\\OEBPS\\Text\\cover.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20102001"
-            },
-            {
-              "File": "0601\\OEBPS\\Text\\toc.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20102002"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Subfolder": "",
-          "Tags": [],
-          "Year": null,
-          "Season": null,
-          "OriginalSource": null,
-          "Set": null,
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "Name": "Prologue",
-          "SortOrder": "M20102",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "0601\\OEBPS\\Text\\prologue.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20103003"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Subfolder": "",
-          "Tags": [],
-          "Year": null,
-          "Season": null,
-          "OriginalSource": null,
-          "Set": null,
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "Name": "Entering the Dormitory",
-          "SortOrder": "M20103",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "0601\\OEBPS\\Text\\chapter1.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20104004"
-            },
-            {
-              "File": "0601\\OEBPS\\Text\\insert1.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20104005"
-            },
-            {
-              "File": "0601\\OEBPS\\Text\\chapter1_1.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20104006"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Subfolder": "",
-          "Tags": [],
-          "Year": null,
-          "Season": null,
-          "OriginalSource": null,
-          "Set": null,
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "Name": "Welcoming Ditter",
-          "SortOrder": "M20104",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "0601\\OEBPS\\Text\\chapter2.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20105007"
-            },
-            {
-              "File": "0601\\OEBPS\\Text\\insert2.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20105008"
-            },
-            {
-              "File": "0601\\OEBPS\\Text\\chapter2_1.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20105009"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Subfolder": "",
-          "Tags": [],
-          "Year": null,
-          "Season": null,
-          "OriginalSource": null,
-          "Set": null,
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "Name": "The Advancement Ceremony and Fellowship Gathering",
-          "SortOrder": "M20105",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "0601\\OEBPS\\Text\\chapter3.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20106010"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Subfolder": "",
-          "Tags": [],
-          "Year": null,
-          "Season": null,
-          "OriginalSource": null,
-          "Set": null,
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "Name": "Sharing Intel and Starting Classes",
-          "SortOrder": "M20106",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "0601\\OEBPS\\Text\\chapter4.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20107011"
-            },
-            {
-              "File": "0601\\OEBPS\\Text\\insert3.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20107012"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Subfolder": "",
-          "Tags": [],
-          "Year": null,
-          "Season": null,
-          "OriginalSource": null,
-          "Set": null,
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "Name": "Propositions",
-          "SortOrder": "M20107",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "0601\\OEBPS\\Text\\chapter5.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20108013"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Subfolder": "",
-          "Tags": [],
-          "Year": null,
-          "Season": null,
-          "OriginalSource": null,
-          "Set": null,
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "Name": "Hairpin Shockwaves",
-          "SortOrder": "M20108",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "0601\\OEBPS\\Text\\chapter6.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20109014"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Subfolder": "",
-          "Tags": [],
-          "Year": null,
-          "Season": null,
-          "OriginalSource": null,
-          "Set": null,
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "Name": "Music and Questions",
-          "SortOrder": "M20109",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "0601\\OEBPS\\Text\\chapter7.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20110015"
-            },
-            {
-              "File": "0601\\OEBPS\\Text\\insert4.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20110016"
-            },
-            {
-              "File": "0601\\OEBPS\\Text\\chapter7_1.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20110017"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Subfolder": "",
-          "Tags": [],
-          "Year": null,
-          "Season": null,
-          "OriginalSource": null,
-          "Set": null,
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "Name": "Tea Party Consultation",
-          "SortOrder": "M20110",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "0601\\OEBPS\\Text\\chapter8.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20111018"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Subfolder": "",
-          "Tags": [],
-          "Year": null,
-          "Season": null,
-          "OriginalSource": null,
-          "Set": null,
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "Name": "A Push from Behind",
-          "SortOrder": "M20111",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "0601\\OEBPS\\Text\\chapter9.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20112019"
-            },
-            {
-              "File": "0601\\OEBPS\\Text\\insert5.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20112020"
-            },
-            {
-              "File": "0601\\OEBPS\\Text\\chapter9_1.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20112021"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Subfolder": "",
-          "Tags": [],
-          "Year": null,
-          "Season": null,
-          "OriginalSource": null,
-          "Set": null,
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "Name": "Wavering and Resolve",
-          "SortOrder": "M20112",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "0601\\OEBPS\\Text\\chapter10.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20113022"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Subfolder": "",
-          "Tags": [],
-          "Year": null,
-          "Season": null,
-          "OriginalSource": null,
-          "Set": null,
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "Name": "Proposal",
-          "SortOrder": "M20113",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "0601\\OEBPS\\Text\\chapter11.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20114023"
-            },
-            {
-              "File": "0601\\OEBPS\\Text\\insert6.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20114024"
-            },
-            {
-              "File": "0601\\OEBPS\\Text\\chapter11_1.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20114025"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Subfolder": "",
-          "Tags": [],
-          "Year": null,
-          "Season": null,
-          "OriginalSource": null,
-          "Set": null,
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "Name": "Wilfried’s Answer",
-          "SortOrder": "M20114",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "0601\\OEBPS\\Text\\chapter12.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20115026"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Subfolder": "",
-          "Tags": [],
-          "Year": null,
-          "Season": null,
-          "OriginalSource": null,
-          "Set": null,
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "Name": "Dregarnuhr Weaving Threads",
-          "SortOrder": "M20115",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "0601\\OEBPS\\Text\\chapter13.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20116027"
-            },
-            {
-              "File": "0601\\OEBPS\\Text\\insert7.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20116028"
-            },
-            {
-              "File": "0601\\OEBPS\\Text\\chapter13_1.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20116029"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Subfolder": "",
-          "Tags": [],
-          "Year": null,
-          "Season": null,
-          "OriginalSource": null,
-          "Set": null,
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "Name": "The Academy of a Year Ago",
-          "SortOrder": "M20116",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "0601\\OEBPS\\Text\\chapter14.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20117030"
-            },
-            {
-              "File": "0601\\OEBPS\\Text\\insert8.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20117031"
-            },
-            {
-              "File": "0601\\OEBPS\\Text\\chapter14_1.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20117032"
-            },
-            {
-              "File": "0601\\OEBPS\\Text\\insert9.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20117033"
-            },
-            {
-              "File": "0601\\OEBPS\\Text\\chapter14_2.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20117034"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Subfolder": "",
-          "Tags": [],
-          "Year": null,
-          "Season": null,
-          "OriginalSource": null,
-          "Set": null,
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "Name": "Threads in Liebeskhilfe’s Grasp",
-          "SortOrder": "M20117",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "0601\\OEBPS\\Text\\chapter15.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20118035"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Subfolder": "",
-          "Tags": [],
-          "Year": null,
-          "Season": null,
-          "OriginalSource": null,
-          "Set": null,
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "Name": "Epilogue",
-          "SortOrder": "M20118",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "0601\\OEBPS\\Text\\epilogue.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20119036"
-            },
-            {
-              "File": "0601\\OEBPS\\Text\\insert10.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20119037"
-            },
-            {
-              "File": "0601\\OEBPS\\Text\\epilogue_1.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20119038"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Subfolder": "",
-          "Tags": [],
-          "Year": null,
-          "Season": null,
-          "OriginalSource": null,
-          "Set": null,
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "Name": "Regular Reports for the Aub",
-          "SortOrder": "M20119",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "0601\\OEBPS\\Text\\chapter16.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20120039"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Subfolder": "",
-          "Tags": [],
-          "Year": null,
-          "Season": null,
-          "OriginalSource": null,
-          "Set": null,
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "Name": "Break Time Breakdown",
-          "SortOrder": "M20120",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "0601\\OEBPS\\Text\\chapter17.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20121040"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Subfolder": "",
-          "Tags": [],
-          "Year": null,
-          "Season": null,
-          "OriginalSource": null,
-          "Set": null,
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "Name": "In an Office in Korinthsdaum",
-          "SortOrder": "M20121",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "0601\\OEBPS\\Text\\chapter18.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20122041"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Subfolder": "",
-          "Tags": [],
-          "Year": null,
-          "Season": null,
-          "OriginalSource": null,
-          "Set": null,
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "Name": "Map of Yurgenschmidt",
-          "SortOrder": "M20122",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "0601\\OEBPS\\Text\\map.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20123042"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Subfolder": "",
-          "Tags": [],
-          "Year": null,
-          "Season": null,
-          "OriginalSource": null,
-          "Set": null,
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "Name": "Afterword",
-          "SortOrder": "M20123",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "0601\\OEBPS\\Text\\afterword.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20124043"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Subfolder": "",
-          "Tags": [],
-          "Year": null,
-          "Season": null,
-          "OriginalSource": null,
-          "Set": null,
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "Name": "A Comfy Life with My Family by You Shiina",
-          "SortOrder": "M20124",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "0601\\OEBPS\\Text\\manga1.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20125044"
-            },
-            {
-              "File": "0601\\OEBPS\\Text\\manga2.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20125045"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Subfolder": "",
-          "Tags": [],
-          "Year": null,
-          "Season": null,
-          "OriginalSource": null,
-          "Set": null,
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "Name": "Color Illustrations",
-          "SortOrder": "M20125",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "0601\\OEBPS\\Text\\color1.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20126046"
-            },
-            {
-              "File": "0601\\OEBPS\\Text\\color2.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20126047"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Subfolder": "",
-          "Tags": [],
-          "Year": null,
-          "Season": null,
-          "OriginalSource": null,
-          "Set": null,
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "Name": "Bonus High Resolution Illustrations",
-          "SortOrder": "M20126",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "0601\\OEBPS\\Text\\bonus1.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20127048"
-            },
-            {
-              "File": "0601\\OEBPS\\Text\\bonus2.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20127049"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Subfolder": "",
-          "Tags": [],
-          "Year": null,
-          "Season": null,
-          "OriginalSource": null,
-          "Set": null,
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "Name": "About J-Novel Club",
-          "SortOrder": "M20127",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "0601\\OEBPS\\Text\\signup.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20128050"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Subfolder": "",
-          "Tags": [],
-          "Year": null,
-          "Season": null,
-          "OriginalSource": null,
-          "Set": null,
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "Name": "Copyright",
-          "SortOrder": "M20128",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "0601\\OEBPS\\Text\\copyright.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "20129051"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Subfolder": "",
-          "Tags": [],
-          "Year": null,
-          "Season": null,
-          "OriginalSource": null,
-          "Set": null,
-          "Chapters": []
-        }
-      ]
-    },
-    {
       "CType": 3,
       "Name": "Adopted Daughter of an Archduke",
       "SortOrder": "M3",
@@ -38425,6 +37568,788 @@
                   "Alternates": [],
                   "OtherSide": null,
                   "SortOrder": "13332063"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "CType": 3,
+      "Name": "Hannelore's Fifth Year at the Royal Academy",
+      "SortOrder": "M6",
+      "POV": "",
+      "Sources": [],
+      "LinkedChapters": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "SubSections": [],
+      "Subfolder": "",
+      "Tags": [],
+      "Year": null,
+      "Season": null,
+      "OriginalSource": null,
+      "Set": null,
+      "Chapters": [
+        {
+          "CType": 4,
+          "Name": "Volume 1",
+          "SortOrder": "M201",
+          "POV": "",
+          "Sources": [
+            {
+              "File": "0601\\OEBPS\\Text\\bonus2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "1"
+            },
+            {
+              "File": "0601\\OEBPS\\Text\\bonus1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "2"
+            }
+          ],
+          "LinkedChapters": [],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Subfolder": "",
+          "Tags": [],
+          "Year": null,
+          "Season": null,
+          "OriginalSource": null,
+          "Set": null,
+          "Chapters": [
+            {
+              "CType": 0,
+              "Name": "Prologue",
+              "SortOrder": "M20102",
+              "POV": "Cordula",
+              "Sources": [
+                {
+                  "File": "0601\\OEBPS\\Text\\prologue.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20103003"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [
+                {
+                  "Name": "Year",
+                  "Value": "10"
+                },
+                {
+                  "Name": "Season",
+                  "Value": "Autumn"
+                }
+              ],
+              "Year": 10,
+              "Season": "Autumn",
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "Name": "Entering the Dormitory",
+              "SortOrder": "M20103",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "0601\\OEBPS\\Text\\chapter1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20104004"
+                },
+                {
+                  "File": "0601\\OEBPS\\Text\\insert1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20104005"
+                },
+                {
+                  "File": "0601\\OEBPS\\Text\\chapter1_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20104006"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [
+                {
+                  "Name": "Year",
+                  "Value": "10"
+                },
+                {
+                  "Name": "Season",
+                  "Value": "Winter"
+                }
+              ],
+              "Year": 10,
+              "Season": "Winter",
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "Name": "Welcoming Ditter",
+              "SortOrder": "M20104",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "0601\\OEBPS\\Text\\chapter2.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20105007"
+                },
+                {
+                  "File": "0601\\OEBPS\\Text\\insert2.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20105008"
+                },
+                {
+                  "File": "0601\\OEBPS\\Text\\chapter2_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20105009"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "Name": "The Advancement Ceremony and Fellowship Gathering",
+              "SortOrder": "M20105",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "0601\\OEBPS\\Text\\chapter3.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20106010"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "Name": "Sharing Intel and Starting Classes",
+              "SortOrder": "M20106",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "0601\\OEBPS\\Text\\chapter4.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20107011"
+                },
+                {
+                  "File": "0601\\OEBPS\\Text\\insert3.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20107012"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "Name": "Propositions",
+              "SortOrder": "M20107",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "0601\\OEBPS\\Text\\chapter5.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20108013"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "Name": "Hairpin Shockwaves",
+              "SortOrder": "M20108",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "0601\\OEBPS\\Text\\chapter6.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20109014"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "Name": "Music and Questions",
+              "SortOrder": "M20109",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "0601\\OEBPS\\Text\\chapter7.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20110015"
+                },
+                {
+                  "File": "0601\\OEBPS\\Text\\insert4.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20110016"
+                },
+                {
+                  "File": "0601\\OEBPS\\Text\\chapter7_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20110017"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": [
+                {
+                  "CType": 1,
+                  "Name": "Regular Reports for the Aub",
+                  "SortOrder": "M20119",
+                  "POV": "Rozemyne",
+                  "Sources": [
+                    {
+                      "File": "0601\\OEBPS\\Text\\chapter16.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "20120039"
+                    }
+                  ],
+                  "LinkedChapters": [],
+                  "EndsBeforeLine": "",
+                  "StartsAtLine": "",
+                  "SubSections": [],
+                  "Subfolder": "",
+                  "Tags": [
+                    {
+                      "Name": "Source",
+                      "Value": "H5V1 Bonus 1"
+                    }
+                  ],
+                  "Year": null,
+                  "Season": null,
+                  "OriginalSource": "H5V1 Bonus 1",
+                  "Set": null,
+                  "Chapters": []
+                }
+              ]
+            },
+            {
+              "CType": 0,
+              "Name": "Tea Party Consultation",
+              "SortOrder": "M20110",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "0601\\OEBPS\\Text\\chapter8.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20111018"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": [
+                {
+                  "CType": 1,
+                  "Name": "Break Time Breakdown",
+                  "SortOrder": "M20120",
+                  "POV": "Rasantark",
+                  "Sources": [
+                    {
+                      "File": "0601\\OEBPS\\Text\\chapter17.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "20121040"
+                    }
+                  ],
+                  "LinkedChapters": [],
+                  "EndsBeforeLine": "",
+                  "StartsAtLine": "",
+                  "SubSections": [],
+                  "Subfolder": "",
+                  "Tags": [
+                    {
+                      "Name": "Source",
+                      "Value": "H5V1 Bonus 2"
+                    }
+                  ],
+                  "Year": null,
+                  "Season": null,
+                  "OriginalSource": "H5V1 Bonus 2",
+                  "Set": null,
+                  "Chapters": []
+                }
+              ]
+            },
+            {
+              "CType": 0,
+              "Name": "A Push from Behind",
+              "SortOrder": "M20111",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "0601\\OEBPS\\Text\\chapter9.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20112019"
+                },
+                {
+                  "File": "0601\\OEBPS\\Text\\insert5.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20112020"
+                },
+                {
+                  "File": "0601\\OEBPS\\Text\\chapter9_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20112021"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "Name": "Wavering and Resolve",
+              "SortOrder": "M20112",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "0601\\OEBPS\\Text\\chapter10.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20113022"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "Name": "Proposal",
+              "SortOrder": "M20113",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "0601\\OEBPS\\Text\\chapter11.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20114023"
+                },
+                {
+                  "File": "0601\\OEBPS\\Text\\insert6.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20114024"
+                },
+                {
+                  "File": "0601\\OEBPS\\Text\\chapter11_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20114025"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "Name": "Wilfried’s Answer",
+              "SortOrder": "M20114",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "0601\\OEBPS\\Text\\chapter12.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20115026"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "Name": "Dregarnuhr Weaving Threads",
+              "SortOrder": "M20115",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "0601\\OEBPS\\Text\\chapter13.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20116027"
+                },
+                {
+                  "File": "0601\\OEBPS\\Text\\insert7.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20116028"
+                },
+                {
+                  "File": "0601\\OEBPS\\Text\\chapter13_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20116029"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "Name": "The Academy of a Year Ago",
+              "SortOrder": "M20116",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "0601\\OEBPS\\Text\\chapter14.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20117030"
+                },
+                {
+                  "File": "0601\\OEBPS\\Text\\insert8.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20117031"
+                },
+                {
+                  "File": "0601\\OEBPS\\Text\\chapter14_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20117032"
+                },
+                {
+                  "File": "0601\\OEBPS\\Text\\insert9.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20117033"
+                },
+                {
+                  "File": "0601\\OEBPS\\Text\\chapter14_2.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20117034"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "Name": "Threads in Liebeskhilfe’s Grasp",
+              "SortOrder": "M20117",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "0601\\OEBPS\\Text\\chapter15.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20118035"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": [
+                {
+                  "CType": 1,
+                  "Name": "In an Office in Korinthsdaum",
+                  "SortOrder": "M20121",
+                  "POV": "Sigiswald",
+                  "Sources": [
+                    {
+                      "File": "0601\\OEBPS\\Text\\chapter18.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "20122041"
+                    }
+                  ],
+                  "LinkedChapters": [],
+                  "EndsBeforeLine": "",
+                  "StartsAtLine": "",
+                  "SubSections": [],
+                  "Subfolder": "",
+                  "Tags": [
+                    {
+                      "Name": "Source",
+                      "Value": "H5V1 Bonus 3"
+                    }
+                  ],
+                  "Year": null,
+                  "Season": null,
+                  "OriginalSource": "H5V1 Bonus 3",
+                  "Set": null,
+                  "Chapters": []
+                }
+              ]
+            },
+            {
+              "CType": 0,
+              "Name": "Epilogue",
+              "SortOrder": "M20118",
+              "POV": "Kenntrips",
+              "Sources": [
+                {
+                  "File": "0601\\OEBPS\\Text\\epilogue.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20119036"
+                },
+                {
+                  "File": "0601\\OEBPS\\Text\\insert10.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20119037"
+                },
+                {
+                  "File": "0601\\OEBPS\\Text\\epilogue_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20119038"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": []
+            },
+            {
+              "CType": 5,
+              "Name": "Zent Eglantine's Yurgenschmidt",
+              "SortOrder": "M20122",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "0601\\OEBPS\\Text\\map.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20123042"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": "Zent Eglantine's Yurgenschmidt",
+              "Chapters": []
+            },
+            {
+              "CType": 7,
+              "Name": "H5V1 Afterword",
+              "SortOrder": "M20123",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "0601\\OEBPS\\Text\\afterword.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20124043"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": []
+            },
+            {
+              "CType": 8,
+              "Name": "H5V1 Comfy Life",
+              "SortOrder": "M20124",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "0601\\OEBPS\\Text\\manga1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20125044"
+                },
+                {
+                  "File": "0601\\OEBPS\\Text\\manga2.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20125045"
                 }
               ],
               "LinkedChapters": [],

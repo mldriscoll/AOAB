@@ -231,13 +231,13 @@ async Task CreateTables()
         //Chronological Chart P2
         PartChart(omnibus, "PartTwo.txt", partTwo: true),
         //Chronological Chart P3
-        PartChart(omnibus, "PartThree.txt", partThree: true));//,
-        ////Chronological Chart P4
-        //PartChart(omnibus, "PartFour.txt", partFour: true),
-        ////Chronological Chart P5
-        //PartChart(omnibus, "PartFive.txt", partFive: true),
-        ////Chronological Chart Hannelore Y5
-        //PartChart(omnibus, "Hannelore.txt", hannelore: true));
+        PartChart(omnibus, "PartThree.txt", partThree: true),
+        //Chronological Chart P4
+        PartChart(omnibus, "PartFour.txt", partFour: true),
+        //Chronological Chart P5
+        PartChart(omnibus, "PartFive.txt", partFive: true),
+        //Chronological Chart Hannelore Y5
+        PartChart(omnibus, "Hannelore.txt", hannelore: true));
 }
 
 static List<AOABO.Omnibus.Chapter> BuildChapterList(ChapterHolder ch)
