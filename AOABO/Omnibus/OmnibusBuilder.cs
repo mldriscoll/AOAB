@@ -294,15 +294,7 @@ namespace AOABO.Omnibus
                     break;
                 case OutputStructure.Volumes:
                     break;
-            }
-
-            if (Configuration.Options.Chapter.UpdateChapterNames)
-            {
-                var flatList = BuildChapterList(omnibus, false).Where(x => !string.IsNullOrWhiteSpace(x.POV)).ToArray();
-                foreach (var chap in flatList)
-                    chap.Name = $"{chap.Name} [{chap.POV}]";
-            }      
-            
+            }            
 
             var flatChapterList = BuildChapterList(omnibus, true).ToList();
 
@@ -318,7 +310,7 @@ namespace AOABO.Omnibus
                     {
                         Contents = string.Empty,
                         CssFiles = [],
-                        Name = chapter.Name + ".xhtml",
+                        Name = (Configuration.Options.Chapter.UpdateChapterNames && !string.IsNullOrWhiteSpace(chapter.POV)) ? $"{chapter.Name} [{chapter.POV}].xhtml" : $"{chapter.Name}.xhtml",
                         SubFolder = chapter.Subfolder,
                         Set = string.Empty,
                         Priority = 0,
@@ -326,61 +318,67 @@ namespace AOABO.Omnibus
                     };
                     outProcessor.Chapters.Add(newChapter);
 
-                    foreach (var chapterFile in chapter.Sources)
+                    var file = $"{inputFolder}\\Overrides\\{chapter.Name}.xhtml";
+                    if ((chapter.CType == Chapter.ChapterType.MangaWritten) && File.Exists(file))
                     {
-                        try
-                        {
-                            var entry = inProcessor.Chapters.FirstOrDefault(x => string.Equals(chapterFile.File, $"{x.SubFolder}\\{x.Name}.xhtml", StringComparison.InvariantCultureIgnoreCase))
-                                ?? inProcessor.Chapters.First(x => string.Equals(chapterFile.File, $"{x.SubFolder}\\p-{x.Name}.xhtml", StringComparison.InvariantCultureIgnoreCase));
-                            newChapter.CssFiles.AddRange(entry.CssFiles);
-                            var fileContent = entry.Contents;
-
-                            if (notFirst)
-                            {
-                                fileContent = fileContent.Replace("<body class=\"nomargin center\">", string.Empty).Replace("<body>", string.Empty);
-                            }
-                            else
-                            {
-                                notFirst = true;
-                            }
-
-                            if (true && chapterFile.OtherSide != null && !string.IsNullOrWhiteSpace(chapterFile.OtherSide.File))
-                            {
-                                var left = inProcessor.Chapters.FirstOrDefault(x => string.Equals(chapterFile.OtherSide.File, $"{x.SubFolder}\\{x.Name}.xhtml", StringComparison.InvariantCultureIgnoreCase))
-                                    ?? inProcessor.Chapters.First(x => string.Equals(chapterFile.OtherSide.File, $"{x.SubFolder}\\p-{x.Name}.xhtml", StringComparison.InvariantCultureIgnoreCase));
-
-                                var imR = inProcessor.Images.FirstOrDefault(x => entry.Contents.Contains(x.Name));
-                                var imL = inProcessor.Images.FirstOrDefault(x => left.Contents.Contains(x.Name));
-
-                                if ((imR != null) && (imL != null))
-                                {
-                                    var rightIm = await SixLabors.ImageSharp.Image.LoadAsync(imR.OldLocation);
-                                    var leftIm = await SixLabors.ImageSharp.Image.LoadAsync(imL.OldLocation);
-
-                                    var outputImage = new Image<Rgba32>(rightIm.Width + leftIm.Width, rightIm.Height);
-                                    outputImage.Mutate(x => x
-                                        .DrawImage(leftIm, new Point(0, 0), 1f)
-                                        .DrawImage(rightIm, new Point(leftIm.Width, 0), 1f)
-                                        );
-
-                                    await outputImage.SaveAsJpegAsync(imR.OldLocation + "combi");
-
-                                    var widthRegex = new Regex("width=\"\\d*\"");
-                                    entry.Contents = widthRegex.Replace(entry.Contents, string.Empty);
-                                    var viewBoxRegex = new Regex("viewBox=\"[\\d ]*\"");
-                                    entry.Contents = viewBoxRegex.Replace(entry.Contents, $"viewBox=\"0 0 {outputImage.Width} {outputImage.Height}\"");
-                                }
-                            }
-
-                            newChapter.Contents = string.Concat(newChapter.Contents, fileContent.Replace("</body>", string.Empty));
-
-                            entry.Processed = true;
-                        }
-                        catch (Exception ex)
-                        {
-                            throw new Exception($"{ex.Message} while processing file {chapterFile}", ex);
-                        }
+                        newChapter.Contents = await File.ReadAllTextAsync(file);
                     }
+                    else
+                        foreach (var chapterFile in chapter.Sources)
+                        {
+                            try
+                            {
+                                var entry = inProcessor.Chapters.FirstOrDefault(x => string.Equals(chapterFile.File, $"{x.SubFolder}\\{x.Name}.xhtml", StringComparison.InvariantCultureIgnoreCase))
+                                    ?? inProcessor.Chapters.First(x => string.Equals(chapterFile.File, $"{x.SubFolder}\\p-{x.Name}.xhtml", StringComparison.InvariantCultureIgnoreCase));
+                                newChapter.CssFiles.AddRange(entry.CssFiles);
+                                var fileContent = entry.Contents;
+
+                                if (notFirst)
+                                {
+                                    fileContent = fileContent.Replace("<body class=\"nomargin center\">", string.Empty).Replace("<body>", string.Empty);
+                                }
+                                else
+                                {
+                                    notFirst = true;
+                                }
+
+                                if (true && chapterFile.OtherSide != null && !string.IsNullOrWhiteSpace(chapterFile.OtherSide.File))
+                                {
+                                    var left = inProcessor.Chapters.FirstOrDefault(x => string.Equals(chapterFile.OtherSide.File, $"{x.SubFolder}\\{x.Name}.xhtml", StringComparison.InvariantCultureIgnoreCase))
+                                        ?? inProcessor.Chapters.First(x => string.Equals(chapterFile.OtherSide.File, $"{x.SubFolder}\\p-{x.Name}.xhtml", StringComparison.InvariantCultureIgnoreCase));
+
+                                    var imR = inProcessor.Images.FirstOrDefault(x => entry.Contents.Contains(x.Name));
+                                    var imL = inProcessor.Images.FirstOrDefault(x => left.Contents.Contains(x.Name));
+
+                                    if ((imR != null) && (imL != null))
+                                    {
+                                        var rightIm = await SixLabors.ImageSharp.Image.LoadAsync(imR.OldLocation);
+                                        var leftIm = await SixLabors.ImageSharp.Image.LoadAsync(imL.OldLocation);
+
+                                        var outputImage = new Image<Rgba32>(rightIm.Width + leftIm.Width, rightIm.Height);
+                                        outputImage.Mutate(x => x
+                                            .DrawImage(leftIm, new Point(0, 0), 1f)
+                                            .DrawImage(rightIm, new Point(leftIm.Width, 0), 1f)
+                                            );
+
+                                        await outputImage.SaveAsJpegAsync(imR.OldLocation + "combi");
+
+                                        var widthRegex = new Regex("width=\"\\d*\"");
+                                        entry.Contents = widthRegex.Replace(entry.Contents, string.Empty);
+                                        var viewBoxRegex = new Regex("viewBox=\"[\\d ]*\"");
+                                        entry.Contents = viewBoxRegex.Replace(entry.Contents, $"viewBox=\"0 0 {outputImage.Width} {outputImage.Height}\"");
+                                    }
+                                }
+
+                                newChapter.Contents = string.Concat(newChapter.Contents, fileContent.Replace("</body>", string.Empty));
+
+                                entry.Processed = true;
+                            }
+                            catch (Exception ex)
+                            {
+                                throw new Exception($"{ex.Message} while processing file {chapterFile}", ex);
+                            }
+                        }
 
                     if (Configuration.Options.Chapter.UpdateChapterNames)
                     {
@@ -824,7 +822,8 @@ namespace AOABO.Omnibus
             Poll,
             QnAs,
             DramaCD,
-            Fanbook
+            Fanbook,
+            MangaWritten
         }
 
         public ChapterType CType { get; set; } = ChapterType.Story;

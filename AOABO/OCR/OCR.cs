@@ -1,11 +1,12 @@
-﻿using AOABO.Chapters;
-using AOABO.Config;
+﻿using AOABO.Config;
+using AOABO.Omnibus;
 using Core;
 using Core.Downloads;
 using System.Drawing;
 using System.Drawing.Imaging;
 using System.IO.Compression;
 using System.Runtime.InteropServices;
+using System.Runtime.Serialization.Json;
 using System.Text.RegularExpressions;
 using Windows.Media.Ocr;
 
@@ -14,6 +15,7 @@ namespace AOABO.OCR
     internal class OCR
     {
         static string tempDirectory = Directory.GetCurrentDirectory() + "\\temp";
+        static OCRSettings[] OCRSettings { get; set; } = new OCRSettings[0];
 
         internal static async Task BuildOCROverrides(Login login)
         {
@@ -25,11 +27,33 @@ namespace AOABO.OCR
             if (!Directory.Exists(overrideDirectory)) Directory.CreateDirectory(overrideDirectory);
             if(Directory.Exists(tempDirectory)) Directory.Delete(tempDirectory, true);
 
-            foreach(var vol in Configuration.Volumes.Where(x => x.OCR))
+            Omnibus.Omnibus omnibus;
+            using (var obStream = File.OpenRead("JSON\\ascendance-of-a-bookworm.json"))
             {
-                if (vol.BonusChapters.Where(x => x.OCR != null).Any(x => !File.Exists(overrideDirectory + "\\" + x.OverrideName + ".xhtml")))
+                var obSerializer = new DataContractJsonSerializer(typeof(Omnibus.Omnibus));
+                var obj = obSerializer.ReadObject(obStream) ?? throw new Exception("Failed to load Omnibus configuration");
+                omnibus = (Omnibus.Omnibus)obj;
+            }
+
+            using (var obStream = File.OpenRead("JSON\\OCR.json"))
+            {
+                var obSerializer = new DataContractJsonSerializer(typeof(OCRSettings[]));
+                var obj = obSerializer.ReadObject(obStream) ?? throw new Exception("Failed to load OCR configuration");
+                OCRSettings = (OCRSettings[])obj;
+            }
+
+            await DoOCRs(omnibus, login, overrideDirectory);
+        }
+
+        private static async Task DoOCRs(ChapterHolder chapter, Login login, string overrideDirectory)
+        {
+            foreach(var subChapter in chapter.Chapters)
+            {
+                if (subChapter.CType == Omnibus.Chapter.ChapterType.MangaWritten)
                 {
-                    var volname = Configuration.VolumeNames.First(x => x.InternalName.Equals(vol.InternalName));
+                    if (File.Exists(overrideDirectory + "\\" + subChapter.Name + ".xhtml")) continue;
+                    var location = subChapter.Sources.First().File.Split('\\')[0];
+                    var volname = Configuration.VolumeNames.First(x => x.InternalName.Equals(location));
                     var fileName = Configuration.Options.Folder.InputFolder + "\\" + string.Format(volname.FileName, 3840);
                     if (!File.Exists(fileName))
                         await Downloader.DownloadSpecificVolume(volname.ApiSlug, login.AccessToken, fileName, new HttpClient());
@@ -39,13 +63,12 @@ namespace AOABO.OCR
                         Directory.CreateDirectory(tempDirectory);
                         ZipFile.ExtractToDirectory(fileName, tempDirectory);
 
-                        foreach (var chapter in vol.BonusChapters.Where(x => x.OCR != null))
-                        {
-                            await DoOCR(chapter, overrideDirectory);
-                        }
+                        await DoOCR(subChapter, overrideDirectory);
+
                         Directory.Delete(tempDirectory, true);
                     }
                 }
+                await DoOCRs(subChapter, login, overrideDirectory);
             }
         }
 
@@ -96,7 +119,7 @@ namespace AOABO.OCR
             }
         }
 
-        private static async Task DoOCR(BonusChapter chapter, string overrideDirectory)
+        private static async Task DoOCR(Omnibus.Chapter chapter, string overrideDirectory)
         {
             try
             {
@@ -106,11 +129,17 @@ namespace AOABO.OCR
 
                 var OcrContent = new List<string>();
                 bool firstPage = true;
-                foreach (var chapterFile in chapter.OriginalFilenames)
-                {
-                    var filename = $"{tempDirectory}\\item\\image\\i-{chapterFile:000}.jpg";
 
-                    if (chapter.OCR?.Crop ?? false)
+                var ocr = OCRSettings.First(x => x.Chapter.Equals(chapter.Name));
+                foreach (var chapterFile in chapter.Sources)
+                {
+                    var dashIndex = chapterFile.File.LastIndexOf('-') + 1;
+                    var dotIndex = chapterFile.File.LastIndexOf('.');
+
+                    var imageName = chapterFile.File.Substring(dashIndex, dotIndex - dashIndex);
+                    var filename = $"{tempDirectory}\\item\\image\\i-{imageName:000}.jpg";
+
+                    if (ocr.Crop)
                     {
                         var minX = int.MaxValue; 
                         var maxX = int.MinValue;
@@ -178,7 +207,9 @@ namespace AOABO.OCR
                         if (result.Lines.Count > 0)
                         {
                             var leftmost = result.Lines.Min(x => x.Words[0].BoundingRect.Left);
-                            var rightmost = result.Lines.OrderByDescending(x => x.Words[0].BoundingRect.Left).Skip(firstPage ? chapter.OCR!.HeaderLines : 0).First().Words[0].BoundingRect.Left;
+                            var rightmost = result.Lines.OrderByDescending(x => x.Words[0].BoundingRect.Left)
+                                .Skip(firstPage ? ocr.HeaderLines : 0)
+                                .First().Words[0].BoundingRect.Left;
                             var threshold = leftmost + ((rightmost - leftmost) / 2);
                             firstPage = false;
 
@@ -209,7 +240,7 @@ namespace AOABO.OCR
                 }
 
                 var previous = string.Empty;
-                var header = chapter.OCR?.Header ?? OcrContent.First();
+                var header = ocr.Header ?? OcrContent.First();
                 var body = OcrContent.Skip(1).Aggregate(string.Empty, (agg, s) => string.Concat(agg, " ", s));
 
                 var speechRegex = new Regex("\".*?\"");
@@ -223,12 +254,12 @@ namespace AOABO.OCR
                     .Replace("77aey", "They");
 
 
-                foreach (var correction in chapter.OCR!.Corrections)
+                foreach (var correction in ocr.Corrections)
                 {
                     body = body.Replace(correction.Original, correction.Replacement);
                 }
 
-                foreach(var italic in chapter.OCR.Italics)
+                foreach (var italic in ocr.Italics)
                 {
                     body = body.Replace(italic.Start, $"<i>{italic.Start}").Replace(italic.End, $"{italic.End}</i>");
                 }
@@ -236,11 +267,11 @@ namespace AOABO.OCR
                 var content = $"<h1>{header}</h1>\r\n<p>{body}</p>";
                 chapterContent = File.ReadAllText("OCR\\OCRTemplate.txt").Replace("[Content]", content);
 
-                File.WriteAllText(overrideDirectory + "\\" + chapter.OverrideName + ".xhtml", chapterContent);
+                File.WriteAllText(overrideDirectory + "\\" + chapter.Name + ".xhtml", chapterContent);
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error processing chapter {chapter.OverrideName}");
+                Console.WriteLine($"Error processing chapter {chapter.Name}");
                 Console.WriteLine(ex.ToString());
             }
         }

@@ -6,5 +6,7 @@
         public string? Header { get; set; }
         public bool Crop { get; set; } = false;
         public int HeaderLines { get; set; } = 1;
+
+        public string Chapter { get; set; } = string.Empty;
     }
 }

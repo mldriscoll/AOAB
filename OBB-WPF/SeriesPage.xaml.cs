@@ -53,6 +53,7 @@ namespace OBB_WPF
                 ChapterType.Items.Add(new ComboBoxItem() { Name = "QnAs", Content = "Q&A" });
                 ChapterType.Items.Add(new ComboBoxItem() { Name = "DramaCD", Content = "Drama CDs" });
                 ChapterType.Items.Add(new ComboBoxItem() { Name = "Fanbook", Content = "Misc Fanbook Content" });
+                ChapterType.Items.Add(new ComboBoxItem() { Name = "MangaWritten", Content = "Manga Written Bonus" });
             }
 
             _ = Load();
