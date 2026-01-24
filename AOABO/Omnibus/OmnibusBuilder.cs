@@ -8,6 +8,7 @@ using System.ComponentModel;
 using System.IO.Compression;
 using System.Runtime.Serialization.Json;
 using System.Text.RegularExpressions;
+using Windows.System;
 using static AOABO.Config.VolumeOptions;
 using Configuration = AOABO.Config.Configuration;
 
@@ -92,8 +93,11 @@ namespace AOABO.Omnibus
                     break;
             }
 
-            if (Directory.Exists($"{inputFolder}\\inputtemp")) Directory.Delete($"{inputFolder}\\inputtemp", true);
-            Directory.CreateDirectory($"{inputFolder}\\inputtemp");
+            //if (Directory.Exists($"{inputFolder}\\inputtemp")) Directory.Delete($"{inputFolder}\\inputtemp", true);
+            //Directory.CreateDirectory($"{inputFolder}\\inputtemp");
+
+            if (Directory.Exists($"{inputFolder}\\temp")) Directory.Delete($"{inputFolder}\\temp", true);
+            Directory.CreateDirectory($"{inputFolder}\\temp");
 
             var epubs = Directory.GetFiles(inputFolder, "*.epub");
 
@@ -106,8 +110,6 @@ namespace AOABO.Omnibus
                 {
                     var file = vol.NameMatch(epubs);
                     if (file == null) continue;
-                    var volume = Configuration.Volumes.FirstOrDefault(x => x.InternalName.Equals(vol.InternalName));
-                    if (volume == null) continue;
 
                     //if ((partScope == PartToProcess.PartOne && !volume.ProcessedInPartOne)
                     //    || (partScope == PartToProcess.PartTwo && !volume.ProcessedInPartTwo)
@@ -117,7 +119,8 @@ namespace AOABO.Omnibus
                     //    || (partScope == PartToProcess.Fanbooks && !volume.ProcessedInFanbooks)
                     //    || (partScope == PartToProcess.Hannelore && !volume.ProcessedInHannelore)) continue;
 
-                    ZipFile.ExtractToDirectory(file, $"{inputFolder}\\inputtemp\\{volume.InternalName}");
+                    if (!Directory.Exists($"{inputFolder}\\unpacked\\{vol.InternalName}"))
+                        ZipFile.ExtractToDirectory(file, $"{inputFolder}\\unpacked\\{vol.InternalName}");
                 }
                 catch (Exception ex)
                 {
@@ -129,17 +132,14 @@ namespace AOABO.Omnibus
             var inProcessor = new Processor();
 
             inProcessor.DisableHyphenProcessing = true;
-            await inProcessor.UnpackFolder($"{inputFolder}\\inputtemp");
-            await outProcessor.UnpackFolder($"{inputFolder}\\inputtemp");
+            await inProcessor.UnpackFolder($"{inputFolder}\\unpacked");
+            await outProcessor.UnpackFolder($"{inputFolder}\\unpacked");
             outProcessor.Chapters.Clear();
 
             IFolder folder = Configuration.Options.OutputYearFormat == 0 ? new YearNumberFolder() : new YearFolder();
             Configuration.ReloadVolumes();
 
-            //var povChapters = new List<Chapters.MoveableChapter>();
             var missingFiles = new List<string>();
-
-
 
             Omnibus omnibus;
             using (var obStream = File.OpenRead("JSON\\ascendance-of-a-bookworm.json"))
@@ -172,8 +172,24 @@ namespace AOABO.Omnibus
             ApplyPosition(omnibus, Chapter.ChapterType.QnAs, Configuration.Options.Extras.QNASetting);
             ApplyPosition(omnibus, Chapter.ChapterType.DramaCD, Configuration.Options.Extras.DramaCDSetting);
             ApplyPosition(omnibus, Chapter.ChapterType.Fanbook, Configuration.Options.Extras.FanbookMiscSetting);
+            ApplyPosition(omnibus, Chapter.ChapterType.Bonus, Configuration.Options.Extras.BonusSetting);
+            ApplyPosition(omnibus, Chapter.ChapterType.MangaWritten, Configuration.Options.Extras.BonusSetting);
+            ApplyPosition(omnibus, Chapter.ChapterType.Covers, Configuration.Options.Extras.CoverSetting);
 
             RemoveDupes(omnibus);
+
+            foreach (var part in omnibus.Chapters.Where(x => x.CType == Chapter.ChapterType.Part))
+            {
+                foreach (var volume in part.Chapters.Where(x => x.CType == Chapter.ChapterType.Volume))
+                {
+                    int sourceCounter = 1;
+                    foreach(var source in volume.Sources)
+                    {
+                        source.SortOrder = $"{sourceCounter:00}";
+                        sourceCounter++;
+                    }
+                }
+            }
 
             if (Configuration.Options.Collection.POVChapterCollection)
             {
@@ -209,6 +225,19 @@ namespace AOABO.Omnibus
             int i = 1;
             foreach (var chapter in BuildChapterList(omnibus, false))
             {
+                if (chapter.CType == Chapter.ChapterType.Story && !Configuration.Options.Chapter.IncludeRegularChapters)
+                {
+                    chapter.Sources.Clear();
+                }
+
+                if (Configuration.Options.Image.SplashImages == GallerySetting.None)
+                {
+                    if (chapter.CType == Chapter.ChapterType.Volume || chapter.CType == Chapter.ChapterType.Covers)
+                    {
+                        chapter.Sources.Clear();
+                    }
+                }
+
                 chapter.SortOrder = $"{i:000000}";
                 i++;
             }
@@ -302,6 +331,8 @@ namespace AOABO.Omnibus
 
             foreach (var chapter in flatChapterList)
             {
+                chapter.Sources.RemoveAll(x => !x.Exists($"{inputFolder}\\unpacked"));
+
                 if (chapter.Chapters.Count == 0 && chapter.Sources.Count == 0) continue;
                 try
                 {
@@ -583,7 +614,7 @@ namespace AOABO.Omnibus
 
             await outProcessor.FullOutput(outputFolder, false, Configuration.Options.UseHumanReadableFileStructure, Configuration.Options.Folder.DeleteTempFolder, bookTitle, Configuration.Options.Image.MaxWidth, Configuration.Options.Image.MaxHeight, Configuration.Options.Image.Quality);
 
-            if (Directory.Exists($"{inputFolder}\\inputtemp")) Directory.Delete($"{inputFolder}\\inputtemp", true);
+            if (Directory.Exists($"{inputFolder}\\temp")) Directory.Delete($"{inputFolder}\\temp", true);
 
             Console.WriteLine();
             if (missingFiles.Any())
@@ -712,11 +743,13 @@ namespace AOABO.Omnibus
                 case Chapter.ChapterType.Poll:
                     return "Character Poll";
                 case Chapter.ChapterType.QnAs:
-                    return "Q and A";
+                    return "Q&amp;A";
                 case Chapter.ChapterType.DramaCD:
                     return "Drama CDs";
                 case Chapter.ChapterType.Fanbook:
                     return "Misc Fanbook Content";
+                case Chapter.ChapterType.Covers:
+                    return "Cover";
             }
             return string.Empty;
         }
@@ -823,7 +856,8 @@ namespace AOABO.Omnibus
             QnAs,
             DramaCD,
             Fanbook,
-            MangaWritten
+            MangaWritten,
+            Covers
         }
 
         public ChapterType CType { get; set; } = ChapterType.Story;
@@ -939,6 +973,19 @@ namespace AOABO.Omnibus
         public Source? OtherSide { get; set; } = null;
 
         public string SortOrder { get; set; } = string.Empty;
+
+        public bool Exists(string path)
+        {
+            if (System.IO.File.Exists($"{path}\\{File}")) return true;
+            foreach (var alternate in Alternates)
+            {
+                if (System.IO.File.Exists($"{path}\\{alternate}")) return true;
+            }
+
+            if (OtherSide != null) return OtherSide.Exists(path);
+
+            return false;
+        }
     }
     public class Link
     {

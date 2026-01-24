@@ -54,6 +54,7 @@ namespace OBB_WPF
                 ChapterType.Items.Add(new ComboBoxItem() { Name = "DramaCD", Content = "Drama CDs" });
                 ChapterType.Items.Add(new ComboBoxItem() { Name = "Fanbook", Content = "Misc Fanbook Content" });
                 ChapterType.Items.Add(new ComboBoxItem() { Name = "MangaWritten", Content = "Manga Written Bonus" });
+                ChapterType.Items.Add(new ComboBoxItem() { Name = "Covers", Content = "Covers" });
             }
 
             _ = Load();
@@ -468,7 +469,11 @@ namespace OBB_WPF
         private void RedoSortOrders(string prefix, ChapterHolder holder)
         {
             int i = 1;
-            var chapters = holder.Chapters.OrderBy(x => x.SortOrder).ToList();
+            var chapters = holder.Chapters.Where(x => x.CType == Chapter.ChapterType.Covers).OrderBy(x => x.SortOrder).ToList();
+
+            chapters.AddRange(holder.Chapters
+                .Where(x => !(x.CType == Chapter.ChapterType.Covers))
+                .OrderBy(x => x.SortOrder));
 
             foreach (var chapter in chapters)
             {

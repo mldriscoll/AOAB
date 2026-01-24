@@ -4050,6 +4050,14 @@
         "EditedBy": [],
         "Published": "2026-01-29",
         "Order": 103
+      },
+      {
+        "ApiSlug": "blade-skill-online-crushing-the-competition-with-my-abysmal-stats-useless-class-and-garbage-weapon-volume-4",
+        "FileName": "blade-skill-online-crushing-the-competition-with-my-abysmal-stats-useless-class-and-garbage-weapon-volume-4.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-04-06",
+        "Order": 104
       }
     ],
     "Author": "Manzi Mazi",
@@ -4667,6 +4675,14 @@
         "EditedBy": [],
         "Published": "2025-01-08",
         "Order": 110
+      },
+      {
+        "ApiSlug": "campfire-cooking-in-another-world-with-my-absurd-skill-manga-volume-11",
+        "FileName": "campfire-cooking-in-another-world-with-my-absurd-skill-manga-volume-11.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-03-11",
+        "Order": 111
       }
     ],
     "Author": "Ren Eguchi",
@@ -5087,6 +5103,14 @@
         "EditedBy": [],
         "Published": "2026-01-27",
         "Order": 109
+      },
+      {
+        "ApiSlug": "chivalry-of-a-failed-knight-volume-9",
+        "FileName": "chivalry-of-a-failed-knight-volume-9.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-04-21",
+        "Order": 110
       }
     ],
     "Author": "Riku Misora",
@@ -8382,6 +8406,14 @@
         "EditedBy": [],
         "Published": "2026-01-22",
         "Order": 103
+      },
+      {
+        "ApiSlug": "flung-into-a-new-world-time-to-lift-the-200-year-curse-volume-4",
+        "FileName": "flung-into-a-new-world-time-to-lift-the-200-year-curse-volume-4.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-04-16",
+        "Order": 104
       }
     ],
     "Author": "Honobonoru500",
@@ -12510,6 +12542,14 @@
         "EditedBy": [],
         "Published": "2026-01-19",
         "Order": 108
+      },
+      {
+        "ApiSlug": "i-m-a-noble-on-the-brink-of-ruin-so-i-might-as-well-try-mastering-magic-volume-9",
+        "FileName": "i-m-a-noble-on-the-brink-of-ruin-so-i-might-as-well-try-mastering-magic-volume-9.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-04-13",
+        "Order": 109
       }
     ],
     "Author": "Nazuna Miki",
@@ -18469,6 +18509,14 @@
         "EditedBy": [],
         "Published": "2025-12-31",
         "Order": 103
+      },
+      {
+        "ApiSlug": "my-tiny-senpai-volume-4",
+        "FileName": "my-tiny-senpai-volume-4.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-03-11",
+        "Order": 104
       }
     ],
     "Author": "Saisou",
@@ -22751,6 +22799,37 @@
   },
   {
     "CustomSeries": false,
+    "Name": "Sowing Vengeance: The Eldest Son’s Disgraceful Green Thumb",
+    "InternalName": "sowing-vengeance-the-eldest-son-s-disgraceful-green-thumb",
+    "ApiSlugs": [
+      {
+        "Order": 1,
+        "Slug": "sowing-vengeance-the-eldest-son-s-disgraceful-green-thumb"
+      }
+    ],
+    "Volumes": [
+      {
+        "ApiSlug": "sowing-vengeance-the-eldest-son-s-disgraceful-green-thumb-volume-1",
+        "FileName": "sowing-vengeance-the-eldest-son-s-disgraceful-green-thumb-volume-1.epub",
+        "Title": "Sowing Vengeance: The Eldest Son’s Disgraceful Green Thumb Volume 1",
+        "EditedBy": [],
+        "Published": "2026-01-16",
+        "Order": 101
+      },
+      {
+        "ApiSlug": "sowing-vengeance-the-eldest-son-s-disgraceful-green-thumb-volume-2",
+        "FileName": "sowing-vengeance-the-eldest-son-s-disgraceful-green-thumb-volume-2.epub",
+        "Title": "Sowing Vengeance: The Eldest Son’s Disgraceful Green Thumb Volume 2",
+        "EditedBy": [],
+        "Published": "2026-04-23",
+        "Order": 102
+      }
+    ],
+    "Author": "Okamoto Takeya",
+    "AuthorSort": "TAKEYA, OKAMOTO"
+  },
+  {
+    "CustomSeries": false,
     "Name": "Strongest Gamer: Let’s Play in Another World",
     "InternalName": "strongest-gamer-let-s-play-in-another-world",
     "ApiSlugs": [
@@ -24028,6 +24107,14 @@
         "EditedBy": [],
         "Published": "2026-01-28",
         "Order": 103
+      },
+      {
+        "ApiSlug": "the-bladesmith-s-enchanted-weapons-volume-4",
+        "FileName": "the-bladesmith-s-enchanted-weapons-volume-4.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-05-01",
+        "Order": 104
       }
     ],
     "Author": "Kazuma Ogiwara",
@@ -25116,6 +25203,14 @@
         "EditedBy": [],
         "Published": "2025-12-31",
         "Order": 107
+      },
+      {
+        "ApiSlug": "the-eternal-fool-s-words-of-wisdom-a-pawsitively-fantastic-adventure-manga-volume-8",
+        "FileName": "the-eternal-fool-s-words-of-wisdom-a-pawsitively-fantastic-adventure-manga-volume-8.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-03-25",
+        "Order": 108
       }
     ],
     "Author": "Hifumi",
@@ -28381,6 +28476,14 @@
         "EditedBy": [],
         "Published": "2025-04-02",
         "Order": 105
+      },
+      {
+        "ApiSlug": "the-skull-dragon-s-precious-daughter-volume-6",
+        "FileName": "the-skull-dragon-s-precious-daughter-volume-6.epub",
+        "Title": "",
+        "EditedBy": [],
+        "Published": "2026-04-29",
+        "Order": 106
       }
     ],
     "Author": "Ichi Yukishiro",

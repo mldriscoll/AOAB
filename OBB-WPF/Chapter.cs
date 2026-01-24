@@ -20,7 +20,8 @@ namespace OBB_WPF
             QnAs,
             DramaCD,
             Fanbook,
-            MangaWritten
+            MangaWritten,
+            Covers
         }
 
         public ChapterType CType { get; set; } = ChapterType.Story;

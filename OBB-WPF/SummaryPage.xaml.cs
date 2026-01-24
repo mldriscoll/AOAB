@@ -36,17 +36,52 @@ namespace OBB_WPF
 
         private void AddChapter(StringBuilder sb, Chapter chapter, string prefix)
         {
-            if (chapter.CType == Chapter.ChapterType.Bonus)
+            var pov = string.IsNullOrWhiteSpace(chapter.POV) ? string.Empty : $" [{chapter.POV}]";
+            var source = string.Empty;
+            if (chapter.Tags.Any(x => x.Name.Equals("Source"))) source = string.Concat(" (", chapter.Tags.First(x => x.Name.Equals("Source")).Value, ")");
+            switch (chapter.CType)
             {
-                sb.AppendLine($"{prefix}{chapter.Name} [Bonus]");
-            }
-            if (chapter.CType == Chapter.ChapterType.NonStory)
-            {
-                sb.AppendLine($"{prefix}{chapter.Name} [Non-Story]");
-            }
-            if (chapter.CType == Chapter.ChapterType.Story)
-            {
-                sb.AppendLine($"{prefix}{chapter.Name}");
+                case Chapter.ChapterType.DramaCD:
+                    sb.AppendLine($"{prefix}[Drama CD Recap] {chapter.Name}");
+                    break;
+                case Chapter.ChapterType.QnAs:
+                    sb.AppendLine($"{prefix}[Q&A] {chapter.Name}");
+                    break;
+                case Chapter.ChapterType.Poll:
+                    sb.AppendLine($"{prefix}[Character Poll] {chapter.Name}");
+                    break;
+                case Chapter.ChapterType.ComfyLife:
+                    sb.AppendLine($"{prefix}[Comfy Life Manga] {chapter.Name}");
+                    break;
+                case Chapter.ChapterType.Story:
+                case Chapter.ChapterType.Part:
+                case Chapter.ChapterType.Volume:
+                    sb.AppendLine($"{prefix}**{chapter.Name}**");
+                    break;
+                case Chapter.ChapterType.Bonus:
+                    sb.AppendLine($"{prefix}[Bonus{source}] *{chapter.Name}{pov}*");
+                    break;
+                case Chapter.ChapterType.NonStory:
+                    sb.AppendLine($"{prefix}[Non-Story] {chapter.Name}");
+                    break;
+                case Chapter.ChapterType.Map:
+                    sb.AppendLine($"{prefix}[Map] {chapter.Name}");
+                    break;
+                case Chapter.ChapterType.CharacterSheet:
+                    sb.AppendLine($"{prefix}[Character Sheet] {chapter.Name}");
+                    break;
+                case Chapter.ChapterType.Afterword:
+                    sb.AppendLine($"{prefix}[Afterword] {chapter.Name}");
+                    break;
+                case Chapter.ChapterType.Fanbook:
+                    sb.AppendLine($"{prefix}[Fanbook] {chapter.Name}");
+                    break;
+                case Chapter.ChapterType.MangaWritten:
+                    sb.AppendLine($"{prefix}[Bonus OCR{source}] *{chapter.Name}{pov}*");
+                    break;
+                case Chapter.ChapterType.Covers:
+                    sb.AppendLine($"{prefix}[Cover Art] {chapter.Name}");
+                    break;
             }
 
             foreach(var subChapter in chapter.Chapters)
