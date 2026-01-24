@@ -470,9 +470,13 @@ namespace OBB_WPF
         {
             int i = 1;
             var chapters = holder.Chapters.Where(x => x.CType == Chapter.ChapterType.Covers).OrderBy(x => x.SortOrder).ToList();
+            chapters.AddRange(holder.Chapters
+                .Where(x => (x.CType == Chapter.ChapterType.Map))
+                .OrderBy(x => x.SortOrder));
 
             chapters.AddRange(holder.Chapters
                 .Where(x => !(x.CType == Chapter.ChapterType.Covers))
+                .Where(x => !(x.CType == Chapter.ChapterType.Map))
                 .OrderBy(x => x.SortOrder));
 
             foreach (var chapter in chapters)

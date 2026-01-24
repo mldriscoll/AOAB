@@ -261,7 +261,7 @@ namespace AOABO.Config
         public class ExtraContent
         {
             public ChapterSetting CoverSetting { get; set; } = new ChapterSetting { Included = true, Position = ChapterSetting.PositionEnum.Volume, PositionPrefix = "a", Name = "Cover" };
-            public ChapterSetting MapSetting { get; set; } = new ChapterSetting { Included = true, Position = ChapterSetting.PositionEnum.Part, PositionPrefix = "a", Name = "Maps" };
+            public ChapterSetting MapSetting { get; set; } = new ChapterSetting { Included = true, Position = ChapterSetting.PositionEnum.Part, PositionPrefix = "b", Name = "Maps" };
             public ChapterSetting CharacterSheetSetting { get; set; } = new ChapterSetting { Included = true, Position = ChapterSetting.PositionEnum.Part, PositionPrefix = "b", Name = "Character Sheets" };
             public ChapterSetting ComfyLife { get; set; } = new ChapterSetting { Included = true, Position = ChapterSetting.PositionEnum.Part, PositionPrefix = "o", Name = "Comfy Life Manga"};
             public ChapterSetting DramaCDSetting { get; set; } = new ChapterSetting { Included = true, Position = ChapterSetting.PositionEnum.Omnibus, PositionPrefix = "v", Name = "Drama CD Writeups" };

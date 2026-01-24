@@ -361,9 +361,9 @@ namespace AOABO.Config
             {
                 Console.Clear();
                 Console.WriteLine($"10 - Include Cover Images ({Options.Extras.CoverSetting.Summary})");
+                Console.WriteLine($"2 - Include Maps ({Options.Extras.MapSetting.Summary})");
                 Console.WriteLine($"0 - Include Comfy Life Chapters ({Options.Extras.ComfyLife.Summary})");
                 Console.WriteLine($"1 - Include Character Sheets ({Options.Extras.CharacterSheetSetting.Summary})");
-                Console.WriteLine($"2 - Include Maps ({Options.Extras.MapSetting.Summary})");
                 Console.WriteLine($"3 - Include Afterwords ({Options.Extras.AfterwordSetting.Summary})");
                 Console.WriteLine($"4 - Include Polls ({Options.Extras.PollSetting.Summary})");
                 Console.WriteLine($"5 - Include POV Chapter collection ({Options.Collection.POVChapterOrderingSetting})");
@@ -379,14 +379,14 @@ namespace AOABO.Config
                     case "10":
                         SetExtraChapterSetting(Options.Extras.CoverSetting, "Cover Images");
                         break;
+                    case "2":
+                        SetExtraChapterSetting(Options.Extras.MapSetting, "Maps");
+                        break;
                     case "0":
                         SetExtraChapterSetting(Options.Extras.ComfyLife, "Comfy Life Chapters");
                         break;
                     case "1":
                         SetExtraChapterSetting(Options.Extras.CharacterSheetSetting, "Character Sheets");
-                        break;
-                    case "2":
-                        SetExtraChapterSetting(Options.Extras.MapSetting, "Maps");
                         break;
                     case "3":
                         SetExtraChapterSetting(Options.Extras.AfterwordSetting, "Afterwords");

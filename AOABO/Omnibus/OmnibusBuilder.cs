@@ -164,8 +164,10 @@ namespace AOABO.Omnibus
                 }
             }
 
-            ApplyPosition(omnibus, Chapter.ChapterType.ComfyLife, Configuration.Options.Extras.ComfyLife);
+            ApplyPosition(omnibus, Chapter.ChapterType.Covers, Configuration.Options.Extras.CoverSetting);
             ApplyPosition(omnibus, Chapter.ChapterType.Map, Configuration.Options.Extras.MapSetting);
+
+            ApplyPosition(omnibus, Chapter.ChapterType.ComfyLife, Configuration.Options.Extras.ComfyLife);
             ApplyPosition(omnibus, Chapter.ChapterType.CharacterSheet, Configuration.Options.Extras.CharacterSheetSetting);
             ApplyPosition(omnibus, Chapter.ChapterType.Poll, Configuration.Options.Extras.PollSetting);
             ApplyPosition(omnibus, Chapter.ChapterType.Afterword, Configuration.Options.Extras.AfterwordSetting);
@@ -174,7 +176,6 @@ namespace AOABO.Omnibus
             ApplyPosition(omnibus, Chapter.ChapterType.Fanbook, Configuration.Options.Extras.FanbookMiscSetting);
             ApplyPosition(omnibus, Chapter.ChapterType.Bonus, Configuration.Options.Extras.BonusSetting);
             ApplyPosition(omnibus, Chapter.ChapterType.MangaWritten, Configuration.Options.Extras.BonusSetting);
-            ApplyPosition(omnibus, Chapter.ChapterType.Covers, Configuration.Options.Extras.CoverSetting);
 
             RemoveDupes(omnibus);
 
