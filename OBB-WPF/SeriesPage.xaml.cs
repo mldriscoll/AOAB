@@ -471,12 +471,40 @@ namespace OBB_WPF
             int i = 1;
             var chapters = holder.Chapters.Where(x => x.CType == Chapter.ChapterType.Covers).OrderBy(x => x.SortOrder).ToList();
             chapters.AddRange(holder.Chapters
-                .Where(x => (x.CType == Chapter.ChapterType.Map))
+                .Where(x => x.CType == Chapter.ChapterType.Map)
+                .OrderBy(x => x.SortOrder));
+            chapters.AddRange(holder.Chapters
+                .Where(x => x.CType == Chapter.ChapterType.CharacterSheet)
+                .OrderBy(x => x.SortOrder));
+            chapters.AddRange(holder.Chapters
+                .Where(x => x.CType == Chapter.ChapterType.Poll)
+                .OrderBy(x => x.SortOrder));
+            chapters.AddRange(holder.Chapters
+                .Where(x => x.CType == Chapter.ChapterType.Story)
+                .OrderBy(x => x.SortOrder));
+            chapters.AddRange(holder.Chapters
+                .Where(x => x.CType == Chapter.ChapterType.Volume)
+                .OrderBy(x => x.SortOrder));
+            chapters.AddRange(holder.Chapters
+                .Where(x => x.CType == Chapter.ChapterType.Part)
+                .OrderBy(x => x.SortOrder));
+            chapters.AddRange(holder.Chapters
+                .Where(x => x.CType == Chapter.ChapterType.Bonus)
+                .OrderBy(x => x.SortOrder));
+            chapters.AddRange(holder.Chapters
+                .Where(x => x.CType == Chapter.ChapterType.ComfyLife)
                 .OrderBy(x => x.SortOrder));
 
             chapters.AddRange(holder.Chapters
                 .Where(x => !(x.CType == Chapter.ChapterType.Covers))
                 .Where(x => !(x.CType == Chapter.ChapterType.Map))
+                .Where(x => !(x.CType == Chapter.ChapterType.CharacterSheet))
+                .Where(x => !(x.CType == Chapter.ChapterType.Poll))
+                .Where(x => !(x.CType == Chapter.ChapterType.Story))
+                .Where(x => !(x.CType == Chapter.ChapterType.Volume))
+                .Where(x => !(x.CType == Chapter.ChapterType.Part))
+                .Where(x => !(x.CType == Chapter.ChapterType.Bonus))
+                .Where(x => !(x.CType == Chapter.ChapterType.ComfyLife))
                 .OrderBy(x => x.SortOrder));
 
             foreach (var chapter in chapters)

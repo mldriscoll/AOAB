@@ -148,7 +148,8 @@ void ReadTags(AOABO.Omnibus.Chapter ch)
     if (source != null) ch.OriginalSource = source.Value;
     if (set != null) ch.Set = set.Value;
 
-    if (ch.CType == AOABO.Omnibus.Chapter.ChapterType.Map) ch.Set = ch.Name;
+    if (ch.CType == Chapter.ChapterType.Map) ch.Set = ch.Name;
+    if (ch.CType == Chapter.ChapterType.CharacterSheet) ch.Set = ch.Name;
 
     foreach (var chap in ch.Chapters) ReadTags(chap);
 }
