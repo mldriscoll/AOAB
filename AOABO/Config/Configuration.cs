@@ -115,8 +115,9 @@ namespace AOABO.Config
                 Console.WriteLine("1 - Chapter Settings");
                 Console.WriteLine("2 - Image Settings");
                 Console.WriteLine("3 - Extra Content Settings");
-                Console.WriteLine($"4 - Human-Readable Internal Filenames ({Options.UseHumanReadableFileStructure})");
-                Console.WriteLine("5 - Folder Settings");
+                Console.WriteLine($"4 - Set Chapter Type Order");
+                Console.WriteLine($"5 - Human-Readable Internal Filenames ({Options.UseHumanReadableFileStructure})");
+                Console.WriteLine("6 - Folder Settings");
                 Console.WriteLine("Press any other key to return to main menu");
 
                 var key = Console.ReadKey();
@@ -135,9 +136,12 @@ namespace AOABO.Config
                         SetExtraContentSettings();
                         break;
                     case '4':
-                        SetBool("Use human-readable file names inside the .epub? (May cause issues with iBooks.)", x => Options.UseHumanReadableFileStructure = x);
+                        SetChapterOrder();
                         break;
                     case '5':
+                        SetBool("Use human-readable file names inside the .epub? (May cause issues with iBooks.)", x => Options.UseHumanReadableFileStructure = x);
+                        break;
+                    case '6':
                         SetFolderSettings();
                         break;
                     default:
@@ -217,8 +221,9 @@ namespace AOABO.Config
             {
                 Console.Clear();
                 Console.WriteLine($"0 - Include Regular Chapters (Currently {Options.Chapter.IncludeRegularChapters})");
-                Console.WriteLine($"1 - Include Manga Chapters (Currently {Options.Chapter.MangaChapterSetting})");
-                Console.WriteLine($"2 - Update Chapter Headers to match the names in the index (Currently {Options.Chapter.UpdateChapterNames})");
+                Console.WriteLine($"1 - Include Bonus Chapters ({Options.Extras.BonusSetting.Summary})");
+                Console.WriteLine($"2 - Include POV Chapter collection ({Options.Collection.POVChapterOrderingSetting})");
+                Console.WriteLine($"3 - Update Chapter Headers to match the names in the index (Currently {Options.Chapter.UpdateChapterNames})");
 
                 var key = Console.ReadKey();
                 switch (key.KeyChar)
@@ -227,23 +232,16 @@ namespace AOABO.Config
                         SetBool("Include Regular Chapters (Myne POV + Prologues and Epilogues)", x => Options.Chapter.IncludeRegularChapters = x);
                         break;
                     case '1':
-                        Options.Chapter.MangaChapters = BonusChapterSetting.Chronological;
-                        Console.WriteLine();
-                        Console.WriteLine("0 - Place Manga Chapters after the last chapter they overlap with.");
-                        Console.WriteLine("1 - Place Manga Chapters at the end of the Volume");
-                        Console.WriteLine("2 - Leave out Manga Chapters");
-                        key = Console.ReadKey();
-                        switch (key.KeyChar)
-                        {
-                            case '1':
-                                Options.Chapter.MangaChapters = BonusChapterSetting.EndOfBook;
-                                break;
-                            case '2':
-                                Options.Chapter.MangaChapters = BonusChapterSetting.LeaveOut;
-                                break;
-                        }
+                        SetExtraChapterSetting(Options.Extras.BonusSetting, "Bonus Chapters");
                         break;
                     case '2':
+                        SetBool("Do you want to include a collection of the POV chapters?", x => Options.Collection.POVChapterCollection = x);
+                        if (Options.Collection.POVChapterCollection)
+                        {
+                            SetBool("Do you want the POV chapters ordered by POV character?", x => Options.Collection.POVChapterOrdering = x);
+                        }
+                        break;
+                    case '3':
                         SetBool("Would you like the chapter headers updated to match their titles in the index?", x => Options.Chapter.UpdateChapterNames = x);
                         break;
                     default:
@@ -257,8 +255,8 @@ namespace AOABO.Config
             while (true)
             {
                 Console.Clear();
-                Console.WriteLine($"0 - Include/Exclude Chapter Inserts (Currently {Options.Image.IncludeImagesInChaptersSetting})");
-                Console.WriteLine($"1 - Chapter Insert Gallery (Currently {Options.Image.ChapterImagesSetting})");
+                Console.WriteLine($"0 - Include Cover Images ({Options.Extras.CoverSetting.Summary})");
+                Console.WriteLine($"1 - Include/Exclude Chapter Inserts (Currently {Options.Image.IncludeImagesInChaptersSetting})");
                 Console.WriteLine($"2 - Set Maximum Image Width (Currently {Options.Image.MaxWidthSetting})");
                 Console.WriteLine($"3 - Set Maximum Image Height (Currently {Options.Image.MaxHeightSetting})");
                 Console.WriteLine($"4 - Set Resized Image Quality (Currently {Options.Image.Quality})");
@@ -267,25 +265,10 @@ namespace AOABO.Config
                 switch (key.KeyChar)
                 {
                     case '0':
-                        SetBool("Include Chapter Insert Images", x => Options.Image.IncludeImagesInChapters = x);
+                        SetExtraChapterSetting(Options.Extras.CoverSetting, "Cover Images");
                         break;
                     case '1':
-                        Console.WriteLine();
-                        Console.WriteLine("Which gallery do you want Chapter Inserts to be included in?");
-                        Console.WriteLine("0 - The Start of each Volume.");
-                        Console.WriteLine("1 - The End of each Volume.");
-                        Console.WriteLine("2 - None");
-                        Options.Image.ChapterImages = GallerySetting.Start;
-                        key = Console.ReadKey();
-                        switch (key.KeyChar)
-                        {
-                            case '1':
-                                Options.Image.ChapterImages = GallerySetting.End;
-                                break;
-                            case '2':
-                                Options.Image.ChapterImages = GallerySetting.None;
-                                break;
-                        }
+                        SetBool("Include Chapter Insert Images", x => Options.Image.IncludeImagesInChapters = x);
                         break;
                     case '2':
                         SetNullableInt("Do you want to enforce a maximum image width?", "How many pixels wide should the limit be?", x => Options.Image.MaxWidth = x, 1, null);
@@ -360,99 +343,85 @@ namespace AOABO.Config
             while (true)
             {
                 Console.Clear();
-                Console.WriteLine($"10 - Include Cover Images ({Options.Extras.CoverSetting.Summary})");
-                Console.WriteLine($"2 - Include Maps ({Options.Extras.MapSetting.Summary})");
+                Console.WriteLine($"0 - Include Maps ({Options.Extras.MapSetting.Summary})");
                 Console.WriteLine($"1 - Include Character Sheets ({Options.Extras.CharacterSheetSetting.Summary})");
-                Console.WriteLine($"4 - Include Polls ({Options.Extras.PollSetting.Summary})");
+                Console.WriteLine($"2 - Include Polls ({Options.Extras.PollSetting.Summary})");
 
-                Console.WriteLine($"9 - Include Bonus Chapters ({Options.Extras.BonusSetting.Summary})");
-                Console.WriteLine($"0 - Include Comfy Life Chapters ({Options.Extras.ComfyLife.Summary})");
+                Console.WriteLine($"3 - Include Comfy Life Chapters ({Options.Extras.ComfyLife.Summary})");
 
-                Console.WriteLine($"3 - Include Afterwords ({Options.Extras.AfterwordSetting.Summary})");
-                Console.WriteLine($"6 - Include Q&As ({Options.Extras.QNASetting.Summary})");
-                Console.WriteLine($"7 - Include Drama CDs ({Options.Extras.DramaCDSetting.Summary}");
-                Console.WriteLine($"8 - Include Misc Fanbook Content ({Options.Extras.FanbookMiscSetting.Summary})");
+                Console.WriteLine($"4 - Include Q&As ({Options.Extras.QNASetting.Summary})");
+                Console.WriteLine($"5 - Include Drama CDs ({Options.Extras.DramaCDSetting.Summary}");
+                Console.WriteLine($"6 - Include Misc Fanbook Content ({Options.Extras.FanbookMiscSetting.Summary})");
 
-                Console.WriteLine($"5 - Include POV Chapter collection ({Options.Collection.POVChapterOrderingSetting})");
-                Console.WriteLine($"X - Set Chapter Type Order");
+                Console.WriteLine($"7 - Include Afterwords ({Options.Extras.AfterwordSetting.Summary})");
 
-                var line = Console.ReadLine();
-                switch (line)
+
+                var key = Console.ReadKey();
+                switch (key.KeyChar)
                 {
-                    case "10":
-                        SetExtraChapterSetting(Options.Extras.CoverSetting, "Cover Images");
-                        break;
-                    case "2":
+                    case '0':
                         SetExtraChapterSetting(Options.Extras.MapSetting, "Maps");
                         break;
-                    case "1":
+                    case '1':
                         SetExtraChapterSetting(Options.Extras.CharacterSheetSetting, "Character Sheets");
                         break;
-                    case "4":
+                    case '2':
                         SetExtraChapterSetting(Options.Extras.PollSetting, "Character Polls");
                         break;
-                    case "9":
-                        SetExtraChapterSetting(Options.Extras.BonusSetting, "Bonus Chapters");
-                        break;
-                    case "0":
+                    case '3':
                         SetExtraChapterSetting(Options.Extras.ComfyLife, "Comfy Life Chapters");
                         break;
 
-                    case "3":
-                        SetExtraChapterSetting(Options.Extras.AfterwordSetting, "Afterwords");
-                        break;
-                    case "5":
-                        SetBool("Do you want to include a collection of the POV chapters?", x => Options.Collection.POVChapterCollection = x);
-                        if (Options.Collection.POVChapterCollection)
-                        {
-                            SetBool("Do you want the POV chapters ordered by POV character?", x => Options.Collection.POVChapterOrdering = x);
-                        }
-                        break;
-                    case "6":
+                    case '4':
                         SetExtraChapterSetting(Options.Extras.QNASetting, "Q&As");
                         break;
-                    case "7":
+                    case '5':
                         SetExtraChapterSetting(Options.Extras.DramaCDSetting, "Drama CD Writeups");
                         break;
-                    case "8":
+                    case '6':
                         SetExtraChapterSetting(Options.Extras.FanbookMiscSetting, "Remaining Fanbook Content");
                         break;
-                    case "X":
-                    case "x":
-                        char currentPrefix = 'a';
-                        List<VolumeOptions.ChapterSetting> list = [ 
-                            new VolumeOptions.ChapterSetting{ Name = "Main Story" }
-                        ];
-                        if (Options.Collection.POVChapterCollection) list.Add(new VolumeOptions.ChapterSetting { Name = "POV Collection" });
-                        if (Options.Extras.ComfyLife.Included) list.Add(Options.Extras.ComfyLife);
-                        if (Options.Extras.MapSetting.Included) list.Add(Options.Extras.MapSetting);
-                        if (Options.Extras.CharacterSheetSetting.Included) list.Add(Options.Extras.CharacterSheetSetting);
-                        if (Options.Extras.AfterwordSetting.Included) list.Add(Options.Extras.AfterwordSetting);
-                        if (Options.Extras.PollSetting.Included) list.Add(Options.Extras.PollSetting);
-                        if (Options.Extras.QNASetting.Included) list.Add(Options.Extras.QNASetting);
-                        if (Options.Extras.DramaCDSetting.Included) list.Add(Options.Extras.DramaCDSetting);
-                        if (Options.Extras.FanbookMiscSetting.Included) list.Add(Options.Extras.FanbookMiscSetting);
-                        if (Options.Extras.BonusSetting.Included) list.Add(Options.Extras.BonusSetting);
-                        if (Options.Extras.CoverSetting.Included) list.Add(Options.Extras.CoverSetting);
-                        list = [.. list.OrderBy(x => x.Name)];
-                        while (list.Count > 1) currentPrefix = SetOrder(currentPrefix, list);
-
-                        var last = list.First();
-                        switch (last.Name)
-                        {
-                            case "Main Story":
-                                break;
-                            case "POV Collection":
-                                Options.Collection.Prefix = $"{currentPrefix}";
-                                break;
-                            default:
-                                last.PositionPrefix = $"{currentPrefix}";
-                                break;
-                        }
+                    case '7':
+                        SetExtraChapterSetting(Options.Extras.AfterwordSetting, "Afterwords");
                         break;
+
                     default:
                         return;
                 }
+            }
+        }
+
+        private static void SetChapterOrder()
+        {
+            char currentPrefix = 'a';
+            List<VolumeOptions.ChapterSetting> list = [
+                new VolumeOptions.ChapterSetting{ Name = "Main Story" }
+            ];
+            if (Options.Collection.POVChapterCollection) list.Add(new VolumeOptions.ChapterSetting { Name = "POV Collection" });
+            if (Options.Extras.ComfyLife.Included) list.Add(Options.Extras.ComfyLife);
+            if (Options.Extras.MapSetting.Included) list.Add(Options.Extras.MapSetting);
+            if (Options.Extras.CharacterSheetSetting.Included) list.Add(Options.Extras.CharacterSheetSetting);
+            if (Options.Extras.AfterwordSetting.Included) list.Add(Options.Extras.AfterwordSetting);
+            if (Options.Extras.PollSetting.Included) list.Add(Options.Extras.PollSetting);
+            if (Options.Extras.QNASetting.Included) list.Add(Options.Extras.QNASetting);
+            if (Options.Extras.DramaCDSetting.Included) list.Add(Options.Extras.DramaCDSetting);
+            if (Options.Extras.FanbookMiscSetting.Included) list.Add(Options.Extras.FanbookMiscSetting);
+            if (Options.Extras.BonusSetting.Included) list.Add(Options.Extras.BonusSetting);
+            if (Options.Extras.CoverSetting.Included) list.Add(Options.Extras.CoverSetting);
+            list = [.. list.OrderBy(x => x.Name)];
+            while (list.Count > 1) currentPrefix = SetOrder(currentPrefix, list);
+
+            var last = list.First();
+            switch (last.Name)
+            {
+                case "Main Story":
+                    break;
+                case "POV Collection":
+                    Options.Collection.Prefix = $"{currentPrefix}";
+                    break;
+                default:
+                    last.PositionPrefix = $"{currentPrefix}";
+                    break;
             }
         }
 

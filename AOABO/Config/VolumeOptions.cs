@@ -104,11 +104,6 @@ namespace AOABO.Config
                 Image.SplashImages = SplashImages.Value;
                 SplashImages = null;
             }
-            if (ChapterImages.HasValue)
-            {
-                Image.ChapterImages = ChapterImages.Value;
-                ChapterImages = null;
-            }
             if (IncludeRegularChapters.HasValue)
             {
                 Chapter.IncludeRegularChapters = IncludeRegularChapters.Value;
@@ -118,11 +113,6 @@ namespace AOABO.Config
             {
                 Chapter.BonusChapter = BonusChapterSetting.Value;
                 BonusChapterSetting = null;
-            }
-            if (MangaChapters.HasValue)
-            {
-                Chapter.MangaChapters = MangaChapters.Value;
-                MangaChapters = null;
             }
             if (UpdateChapterNames.HasValue)
             {
@@ -263,12 +253,13 @@ namespace AOABO.Config
             public ChapterSetting CoverSetting { get; set; } = new ChapterSetting { Included = true, Position = ChapterSetting.PositionEnum.Volume, PositionPrefix = "a", Name = "Cover" };
             public ChapterSetting MapSetting { get; set; } = new ChapterSetting { Included = true, Position = ChapterSetting.PositionEnum.Part, PositionPrefix = "b", Name = "Maps" };
             public ChapterSetting CharacterSheetSetting { get; set; } = new ChapterSetting { Included = true, Position = ChapterSetting.PositionEnum.Part, PositionPrefix = "c", Name = "Character Sheets" };
+            public ChapterSetting PollSetting { get; set; } = new ChapterSetting { Included = true, Position = ChapterSetting.PositionEnum.Omnibus, PositionPrefix = "d", Name = "Character Polls" };
+
             public ChapterSetting ComfyLife { get; set; } = new ChapterSetting { Included = true, Position = ChapterSetting.PositionEnum.Part, PositionPrefix = "o", Name = "Comfy Life Manga"};
-            public ChapterSetting DramaCDSetting { get; set; } = new ChapterSetting { Included = true, Position = ChapterSetting.PositionEnum.Omnibus, PositionPrefix = "v", Name = "Drama CD Writeups" };
-            public ChapterSetting PollSetting { get; set; } = new ChapterSetting { Included = true, Position = ChapterSetting.PositionEnum.Omnibus, PositionPrefix = "w", Name = "Character Polls" };
-            public ChapterSetting QNASetting { get; set; } = new ChapterSetting { Included = true, Position = ChapterSetting.PositionEnum.Omnibus, PositionPrefix = "x", Name = "Q&As" };
-            public ChapterSetting FanbookMiscSetting { get; set; } = new ChapterSetting { Included = true, Position = ChapterSetting.PositionEnum.Omnibus, PositionPrefix = "y", Name = "Misc Fanbook Content" };
-            public ChapterSetting AfterwordSetting { get; set; } = new ChapterSetting { Included = true, Position = ChapterSetting.PositionEnum.Omnibus, PositionPrefix = "z", Name = "Afterwords" };
+            public ChapterSetting QNASetting { get; set; } = new ChapterSetting { Included = true, Position = ChapterSetting.PositionEnum.Omnibus, PositionPrefix = "p", Name = "Q&As" };
+            public ChapterSetting DramaCDSetting { get; set; } = new ChapterSetting { Included = true, Position = ChapterSetting.PositionEnum.Omnibus, PositionPrefix = "q", Name = "Drama CD Writeups" };
+            public ChapterSetting FanbookMiscSetting { get; set; } = new ChapterSetting { Included = true, Position = ChapterSetting.PositionEnum.Omnibus, PositionPrefix = "r", Name = "Misc Fanbook Content" };
+            public ChapterSetting AfterwordSetting { get; set; } = new ChapterSetting { Included = true, Position = ChapterSetting.PositionEnum.Omnibus, PositionPrefix = "s", Name = "Afterwords" };
 
             public ChapterSetting BonusSetting { get; set; } = new ChapterSetting { Included = true, Position = ChapterSetting.PositionEnum.Original, PositionPrefix = "n", Name = "Bonus Chapters" };
 
@@ -387,24 +378,6 @@ namespace AOABO.Config
                     }
                 }
             }
-            
-            [JsonIgnore]
-            public BonusChapterSetting MangaChapters { get; set; } = Config.BonusChapterSetting.Chronological;
-            [JsonIgnore]
-            public string MangaChapterSetting { get { return BonusChapterSettingText(MangaChapters); } }
-
-            private string BonusChapterSettingText(BonusChapterSetting setting)
-            {
-                switch (setting)
-                {
-                    case Config.BonusChapterSetting.Chronological:
-                        return "placed after the last overlapping chapter";
-                    case Config.BonusChapterSetting.EndOfBook:
-                        return "placed after the last overlapping volume";
-                }
-
-                return "left out";
-            }
 
             public bool UpdateChapterNames { get; set; } = false;
         }
@@ -451,24 +424,6 @@ namespace AOABO.Config
                 {
                     if (value == GallerySetting.None) Configuration.Options.Extras.CoverSetting.Included = false;
                     else Configuration.Options.Extras.CoverSetting.Included = true;
-                }
-            }
-
-            public GallerySetting ChapterImages { get; set; } = GallerySetting.None;
-            [JsonIgnore]
-            public string ChapterImagesSetting
-            {
-                get
-                {
-                    switch (ChapterImages)
-                    {
-                        case GallerySetting.Start:
-                            return "at start of each volume";
-                        case GallerySetting.End:
-                            return "at end of each volume";
-                    }
-
-                    return "no Gallery";
                 }
             }
 

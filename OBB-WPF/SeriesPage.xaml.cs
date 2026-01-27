@@ -479,33 +479,37 @@ namespace OBB_WPF
             chapters.AddRange(holder.Chapters
                 .Where(x => x.CType == Chapter.ChapterType.Poll)
                 .OrderBy(x => x.SortOrder));
+
             chapters.AddRange(holder.Chapters
-                .Where(x => x.CType == Chapter.ChapterType.Story)
-                .OrderBy(x => x.SortOrder));
-            chapters.AddRange(holder.Chapters
-                .Where(x => x.CType == Chapter.ChapterType.Volume)
-                .OrderBy(x => x.SortOrder));
-            chapters.AddRange(holder.Chapters
-                .Where(x => x.CType == Chapter.ChapterType.Part)
-                .OrderBy(x => x.SortOrder));
-            chapters.AddRange(holder.Chapters
-                .Where(x => x.CType == Chapter.ChapterType.Bonus)
-                .OrderBy(x => x.SortOrder));
+    .Where(x => !(x.CType == Chapter.ChapterType.Covers))
+    .Where(x => !(x.CType == Chapter.ChapterType.Map))
+    .Where(x => !(x.CType == Chapter.ChapterType.CharacterSheet))
+    .Where(x => !(x.CType == Chapter.ChapterType.Poll))
+
+    .Where(x => !(x.CType == Chapter.ChapterType.ComfyLife))
+    .Where(x => !(x.CType == Chapter.ChapterType.QnAs))
+    .Where(x => !(x.CType == Chapter.ChapterType.DramaCD))
+    .Where(x => !(x.CType == Chapter.ChapterType.Fanbook))
+    .Where(x => !(x.CType == Chapter.ChapterType.Afterword))
+    .OrderBy(x => x.SortOrder));
+
             chapters.AddRange(holder.Chapters
                 .Where(x => x.CType == Chapter.ChapterType.ComfyLife)
                 .OrderBy(x => x.SortOrder));
-
             chapters.AddRange(holder.Chapters
-                .Where(x => !(x.CType == Chapter.ChapterType.Covers))
-                .Where(x => !(x.CType == Chapter.ChapterType.Map))
-                .Where(x => !(x.CType == Chapter.ChapterType.CharacterSheet))
-                .Where(x => !(x.CType == Chapter.ChapterType.Poll))
-                .Where(x => !(x.CType == Chapter.ChapterType.Story))
-                .Where(x => !(x.CType == Chapter.ChapterType.Volume))
-                .Where(x => !(x.CType == Chapter.ChapterType.Part))
-                .Where(x => !(x.CType == Chapter.ChapterType.Bonus))
-                .Where(x => !(x.CType == Chapter.ChapterType.ComfyLife))
+                .Where(x => x.CType == Chapter.ChapterType.QnAs)
                 .OrderBy(x => x.SortOrder));
+            chapters.AddRange(holder.Chapters
+                .Where(x => x.CType == Chapter.ChapterType.DramaCD)
+                .OrderBy(x => x.SortOrder));
+            chapters.AddRange(holder.Chapters
+                .Where(x => x.CType == Chapter.ChapterType.Fanbook)
+                .OrderBy(x => x.SortOrder));
+            chapters.AddRange(holder.Chapters
+                .Where(x => x.CType == Chapter.ChapterType.Afterword)
+                .OrderBy(x => x.SortOrder));
+
+
 
             foreach (var chapter in chapters)
             {

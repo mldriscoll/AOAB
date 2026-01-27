@@ -40994,31 +40994,10 @@
               "Chapters": []
             },
             {
-              "CType": 7,
-              "ChapType": "Afterword",
-              "Name": "P3V1 Afterword",
-              "SortOrder": "003001036",
-              "POV": "",
-              "Sources": [
-                {
-                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-part-3-volume-1\\OEBPS\\Text\\afterword.xhtml",
-                  "Alternates": [],
-                  "OtherSide": null,
-                  "SortOrder": "10830049"
-                }
-              ],
-              "LinkedChapters": [],
-              "EndsBeforeLine": "",
-              "StartsAtLine": "",
-              "SubSections": [],
-              "Tags": [],
-              "Chapters": []
-            },
-            {
               "CType": 10,
               "ChapType": "QnAs",
               "Name": "Fanbook 1 Q&amp;A",
-              "SortOrder": "003001037",
+              "SortOrder": "003001036",
               "POV": "",
               "Sources": [
                 {
@@ -41038,7 +41017,7 @@
                   "CType": 10,
                   "ChapType": "QnAs",
                   "Name": "About the Bookworm World",
-                  "SortOrder": "003001037001",
+                  "SortOrder": "003001036001",
                   "POV": "",
                   "Sources": [
                     {
@@ -41059,7 +41038,7 @@
                   "CType": 10,
                   "ChapType": "QnAs",
                   "Name": "About the Writing Process",
-                  "SortOrder": "003001037002",
+                  "SortOrder": "003001036002",
                   "POV": "",
                   "Sources": [
                     {
@@ -41080,7 +41059,7 @@
                   "CType": 10,
                   "ChapType": "QnAs",
                   "Name": "About Miya Kazuki",
-                  "SortOrder": "003001037003",
+                  "SortOrder": "003001036003",
                   "POV": "",
                   "Sources": [
                     {
@@ -41098,6 +41077,27 @@
                   "Chapters": []
                 }
               ]
+            },
+            {
+              "CType": 7,
+              "ChapType": "Afterword",
+              "Name": "P3V1 Afterword",
+              "SortOrder": "003001037",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-part-3-volume-1\\OEBPS\\Text\\afterword.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "10830049"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Tags": [],
+              "Chapters": []
             }
           ]
         },
@@ -44813,8 +44813,35 @@
             {
               "CType": 14,
               "ChapType": "Covers",
-              "Name": "Manga 1",
+              "Name": "Volume 1",
               "SortOrder": "004001001",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-part-4-volume-1\\OEBPS\\Text\\bonus2.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1"
+                },
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-part-4-volume-1\\OEBPS\\Text\\bonus1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "2"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Tags": [],
+              "Chapters": []
+            },
+            {
+              "CType": 14,
+              "ChapType": "Covers",
+              "Name": "Manga 1",
+              "SortOrder": "004001002",
               "POV": "",
               "Sources": [
                 {
@@ -44835,7 +44862,7 @@
               "CType": 14,
               "ChapType": "Covers",
               "Name": "Manga 2",
-              "SortOrder": "004001002",
+              "SortOrder": "004001003",
               "POV": "",
               "Sources": [
                 {
@@ -44856,7 +44883,7 @@
               "CType": 14,
               "ChapType": "Covers",
               "Name": "Manga 3",
-              "SortOrder": "004001003",
+              "SortOrder": "004001004",
               "POV": "",
               "Sources": [
                 {
@@ -44877,7 +44904,7 @@
               "CType": 14,
               "ChapType": "Covers",
               "Name": "Manga 4",
-              "SortOrder": "004001004",
+              "SortOrder": "004001005",
               "POV": "",
               "Sources": [
                 {
@@ -44898,7 +44925,7 @@
               "CType": 14,
               "ChapType": "Covers",
               "Name": "Fanbook 2",
-              "SortOrder": "004001005",
+              "SortOrder": "004001006",
               "POV": "",
               "Sources": [
                 {
@@ -44918,33 +44945,6 @@
                   "Alternates": [],
                   "OtherSide": null,
                   "SortOrder": "60215038"
-                }
-              ],
-              "LinkedChapters": [],
-              "EndsBeforeLine": "",
-              "StartsAtLine": "",
-              "SubSections": [],
-              "Tags": [],
-              "Chapters": []
-            },
-            {
-              "CType": 14,
-              "ChapType": "Covers",
-              "Name": "Volume 1",
-              "SortOrder": "004001006",
-              "POV": "",
-              "Sources": [
-                {
-                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-part-4-volume-1\\OEBPS\\Text\\bonus2.xhtml",
-                  "Alternates": [],
-                  "OtherSide": null,
-                  "SortOrder": "1"
-                },
-                {
-                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-part-4-volume-1\\OEBPS\\Text\\bonus1.xhtml",
-                  "Alternates": [],
-                  "OtherSide": null,
-                  "SortOrder": "2"
                 }
               ],
               "LinkedChapters": [],
@@ -46654,25 +46654,68 @@
               "Chapters": []
             },
             {
-              "CType": 7,
-              "ChapType": "Afterword",
-              "Name": "P4V1 Afterword",
+              "CType": 10,
+              "ChapType": "QnAs",
+              "Name": "Fanbook 2 Q&amp;A",
               "SortOrder": "004001047",
               "POV": "",
               "Sources": [
                 {
-                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-part-4-volume-1\\OEBPS\\Text\\afterword.xhtml",
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-2\\OEBPS\\Text\\qa.xhtml",
                   "Alternates": [],
                   "OtherSide": null,
-                  "SortOrder": "11333056"
+                  "SortOrder": "60214030"
                 }
               ],
               "LinkedChapters": [],
-              "EndsBeforeLine": "",
+              "EndsBeforeLine": "<h2>About the <em>Bookworm</em> World</h2>",
               "StartsAtLine": "",
               "SubSections": [],
               "Tags": [],
-              "Chapters": []
+              "Chapters": [
+                {
+                  "CType": 10,
+                  "ChapType": "QnAs",
+                  "Name": "About the <em>Bookworm</em> World",
+                  "SortOrder": "004001047001",
+                  "POV": "",
+                  "Sources": [
+                    {
+                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-2\\OEBPS\\Text\\qa.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "60214030"
+                    }
+                  ],
+                  "LinkedChapters": [],
+                  "EndsBeforeLine": "<h2>About Miya Kazuki</h2>",
+                  "StartsAtLine": "<h2>About the <em>Bookworm</em> World</h2>",
+                  "SubSections": [],
+                  "Tags": [],
+                  "Chapters": []
+                },
+                {
+                  "CType": 10,
+                  "ChapType": "QnAs",
+                  "Name": "About Miya Kazuki",
+                  "SortOrder": "004001047002",
+                  "POV": "",
+                  "Sources": [
+                    {
+                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-2\\OEBPS\\Text\\qa.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "60214030"
+                    }
+                  ],
+                  "LinkedChapters": [],
+                  "EndsBeforeLine": "",
+                  "StartsAtLine": "<h2>About Miya Kazuki</h2>",
+                  "SubSections": [],
+                  "Tags": [],
+                  "Chapters": []
+                }
+              ]
             },
             {
               "CType": 11,
@@ -46753,68 +46796,25 @@
               "Chapters": []
             },
             {
-              "CType": 10,
-              "ChapType": "QnAs",
-              "Name": "Fanbook 2 Q&amp;A",
+              "CType": 7,
+              "ChapType": "Afterword",
+              "Name": "P4V1 Afterword",
               "SortOrder": "004001050",
               "POV": "",
               "Sources": [
                 {
-                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-2\\OEBPS\\Text\\qa.xhtml",
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-part-4-volume-1\\OEBPS\\Text\\afterword.xhtml",
                   "Alternates": [],
                   "OtherSide": null,
-                  "SortOrder": "60214030"
+                  "SortOrder": "11333056"
                 }
               ],
               "LinkedChapters": [],
-              "EndsBeforeLine": "<h2>About the <em>Bookworm</em> World</h2>",
+              "EndsBeforeLine": "",
               "StartsAtLine": "",
               "SubSections": [],
               "Tags": [],
-              "Chapters": [
-                {
-                  "CType": 10,
-                  "ChapType": "QnAs",
-                  "Name": "About the <em>Bookworm</em> World",
-                  "SortOrder": "004001050001",
-                  "POV": "",
-                  "Sources": [
-                    {
-                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-2\\OEBPS\\Text\\qa.xhtml",
-                      "Alternates": [],
-                      "OtherSide": null,
-                      "SortOrder": "60214030"
-                    }
-                  ],
-                  "LinkedChapters": [],
-                  "EndsBeforeLine": "<h2>About Miya Kazuki</h2>",
-                  "StartsAtLine": "<h2>About the <em>Bookworm</em> World</h2>",
-                  "SubSections": [],
-                  "Tags": [],
-                  "Chapters": []
-                },
-                {
-                  "CType": 10,
-                  "ChapType": "QnAs",
-                  "Name": "About Miya Kazuki",
-                  "SortOrder": "004001050002",
-                  "POV": "",
-                  "Sources": [
-                    {
-                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-2\\OEBPS\\Text\\qa.xhtml",
-                      "Alternates": [],
-                      "OtherSide": null,
-                      "SortOrder": "60214030"
-                    }
-                  ],
-                  "LinkedChapters": [],
-                  "EndsBeforeLine": "",
-                  "StartsAtLine": "<h2>About Miya Kazuki</h2>",
-                  "SubSections": [],
-                  "Tags": [],
-                  "Chapters": []
-                }
-              ]
+              "Chapters": []
             }
           ]
         },
@@ -49381,29 +49381,8 @@
             {
               "CType": 14,
               "ChapType": "Covers",
-              "Name": "Fanbook 3",
-              "SortOrder": "004004001",
-              "POV": "",
-              "Sources": [
-                {
-                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-3\\OEBPS\\Text\\cover.xhtml",
-                  "Alternates": [],
-                  "OtherSide": null,
-                  "SortOrder": "60302001"
-                }
-              ],
-              "LinkedChapters": [],
-              "EndsBeforeLine": "",
-              "StartsAtLine": "",
-              "SubSections": [],
-              "Tags": [],
-              "Chapters": []
-            },
-            {
-              "CType": 14,
-              "ChapType": "Covers",
               "Name": "Volume 4",
-              "SortOrder": "004004002",
+              "SortOrder": "004004001",
               "POV": "",
               "Sources": [
                 {
@@ -49417,6 +49396,27 @@
                   "Alternates": [],
                   "OtherSide": null,
                   "SortOrder": "2"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Tags": [],
+              "Chapters": []
+            },
+            {
+              "CType": 14,
+              "ChapType": "Covers",
+              "Name": "Fanbook 3",
+              "SortOrder": "004004002",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-3\\OEBPS\\Text\\cover.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60302001"
                 }
               ],
               "LinkedChapters": [],
@@ -50222,17 +50222,17 @@
               "Chapters": []
             },
             {
-              "CType": 7,
-              "ChapType": "Afterword",
-              "Name": "P4V4 Afterword",
+              "CType": 10,
+              "ChapType": "QnAs",
+              "Name": "Fanbook 3 Q&amp;A",
               "SortOrder": "004004027",
               "POV": "",
               "Sources": [
                 {
-                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-part-4-volume-4\\OEBPS\\Text\\afterword.xhtml",
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-3\\OEBPS\\Text\\qa.xhtml",
                   "Alternates": [],
                   "OtherSide": null,
-                  "SortOrder": "11627050"
+                  "SortOrder": "60312050"
                 }
               ],
               "LinkedChapters": [],
@@ -50333,17 +50333,17 @@
               "Chapters": []
             },
             {
-              "CType": 10,
-              "ChapType": "QnAs",
-              "Name": "Fanbook 3 Q&amp;A",
+              "CType": 7,
+              "ChapType": "Afterword",
+              "Name": "P4V4 Afterword",
               "SortOrder": "004004030",
               "POV": "",
               "Sources": [
                 {
-                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-3\\OEBPS\\Text\\qa.xhtml",
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-part-4-volume-4\\OEBPS\\Text\\afterword.xhtml",
                   "Alternates": [],
                   "OtherSide": null,
-                  "SortOrder": "60312050"
+                  "SortOrder": "11627050"
                 }
               ],
               "LinkedChapters": [],
@@ -53884,17 +53884,17 @@
               "Chapters": []
             },
             {
-              "CType": 7,
-              "ChapType": "Afterword",
-              "Name": "P4V8 Afterword",
+              "CType": 10,
+              "ChapType": "QnAs",
+              "Name": "FB4 Q&amp;A",
               "SortOrder": "004008030",
               "POV": "",
               "Sources": [
                 {
-                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-part-4-volume-8\\OEBPS\\Text\\afterword.xhtml",
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-4\\OEBPS\\Text\\qa.xhtml",
                   "Alternates": [],
                   "OtherSide": null,
-                  "SortOrder": "12031053"
+                  "SortOrder": "60415060"
                 }
               ],
               "LinkedChapters": [],
@@ -53971,17 +53971,17 @@
               "Chapters": []
             },
             {
-              "CType": 10,
-              "ChapType": "QnAs",
-              "Name": "FB4 Q&amp;A",
+              "CType": 7,
+              "ChapType": "Afterword",
+              "Name": "P4V8 Afterword",
               "SortOrder": "004008033",
               "POV": "",
               "Sources": [
                 {
-                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-4\\OEBPS\\Text\\qa.xhtml",
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-part-4-volume-8\\OEBPS\\Text\\afterword.xhtml",
                   "Alternates": [],
                   "OtherSide": null,
-                  "SortOrder": "60415060"
+                  "SortOrder": "12031053"
                 }
               ],
               "LinkedChapters": [],
@@ -57445,17 +57445,83 @@
               "Chapters": []
             },
             {
-              "CType": 7,
-              "ChapType": "Afterword",
-              "Name": "P5V3 Afterword",
+              "CType": 10,
+              "ChapType": "QnAs",
+              "Name": "FB5 Q&amp;A",
               "SortOrder": "005003027",
               "POV": "",
               "Sources": [
                 {
-                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-part-5-volume-3\\OEBPS\\Text\\afterword.xhtml",
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-5\\OEBPS\\Text\\qa.xhtml",
                   "Alternates": [],
                   "OtherSide": null,
-                  "SortOrder": "12428051"
+                  "SortOrder": "60515074"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Tags": [],
+              "Chapters": []
+            },
+            {
+              "CType": 11,
+              "ChapType": "DramaCD",
+              "Name": "Drama CD 4",
+              "SortOrder": "005003028",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-5\\OEBPS\\Text\\side2.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60513068"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Tags": [],
+              "Chapters": []
+            },
+            {
+              "CType": 11,
+              "ChapType": "DramaCD",
+              "Name": "Drama CD 4 (Suzuka)",
+              "SortOrder": "005003029",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-5\\OEBPS\\Text\\64.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60514069"
+                },
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-5\\OEBPS\\Text\\65.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60514070"
+                },
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-5\\OEBPS\\Text\\66.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60514071"
+                },
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-5\\OEBPS\\Text\\67.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60514072"
+                },
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-5\\OEBPS\\Text\\68.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60514073"
                 }
               ],
               "LinkedChapters": [],
@@ -57469,7 +57535,7 @@
               "CType": 12,
               "ChapType": "Fanbook",
               "Name": "Miscellaneous Art Gallary",
-              "SortOrder": "005003028",
+              "SortOrder": "005003030",
               "POV": "",
               "Sources": [
                 {
@@ -57514,7 +57580,7 @@
               "CType": 12,
               "ChapType": "Fanbook",
               "Name": "Anime End Cards Gallery (Seasons 1 and 2, Episodes 1 Through 26)",
-              "SortOrder": "005003029",
+              "SortOrder": "005003031",
               "POV": "",
               "Sources": [
                 {
@@ -57685,7 +57751,7 @@
               "CType": 12,
               "ChapType": "Fanbook",
               "Name": "Anime Character Cards with Text by Miya Kazuki",
-              "SortOrder": "005003030",
+              "SortOrder": "005003032",
               "POV": "",
               "Sources": [
                 {
@@ -57706,7 +57772,7 @@
               "CType": 12,
               "ChapType": "Fanbook",
               "Name": "Cover, Color Art, and Miscellaneous Art Rough Draft Gallery",
-              "SortOrder": "005003031",
+              "SortOrder": "005003033",
               "POV": "",
               "Sources": [
                 {
@@ -57748,83 +57814,17 @@
               "Chapters": []
             },
             {
-              "CType": 11,
-              "ChapType": "DramaCD",
-              "Name": "Drama CD 4",
-              "SortOrder": "005003032",
-              "POV": "",
-              "Sources": [
-                {
-                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-5\\OEBPS\\Text\\side2.xhtml",
-                  "Alternates": [],
-                  "OtherSide": null,
-                  "SortOrder": "60513068"
-                }
-              ],
-              "LinkedChapters": [],
-              "EndsBeforeLine": "",
-              "StartsAtLine": "",
-              "SubSections": [],
-              "Tags": [],
-              "Chapters": []
-            },
-            {
-              "CType": 11,
-              "ChapType": "DramaCD",
-              "Name": "Drama CD 4 (Suzuka)",
-              "SortOrder": "005003033",
-              "POV": "",
-              "Sources": [
-                {
-                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-5\\OEBPS\\Text\\64.xhtml",
-                  "Alternates": [],
-                  "OtherSide": null,
-                  "SortOrder": "60514069"
-                },
-                {
-                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-5\\OEBPS\\Text\\65.xhtml",
-                  "Alternates": [],
-                  "OtherSide": null,
-                  "SortOrder": "60514070"
-                },
-                {
-                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-5\\OEBPS\\Text\\66.xhtml",
-                  "Alternates": [],
-                  "OtherSide": null,
-                  "SortOrder": "60514071"
-                },
-                {
-                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-5\\OEBPS\\Text\\67.xhtml",
-                  "Alternates": [],
-                  "OtherSide": null,
-                  "SortOrder": "60514072"
-                },
-                {
-                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-5\\OEBPS\\Text\\68.xhtml",
-                  "Alternates": [],
-                  "OtherSide": null,
-                  "SortOrder": "60514073"
-                }
-              ],
-              "LinkedChapters": [],
-              "EndsBeforeLine": "",
-              "StartsAtLine": "",
-              "SubSections": [],
-              "Tags": [],
-              "Chapters": []
-            },
-            {
-              "CType": 10,
-              "ChapType": "QnAs",
-              "Name": "FB5 Q&amp;A",
+              "CType": 7,
+              "ChapType": "Afterword",
+              "Name": "P5V3 Afterword",
               "SortOrder": "005003034",
               "POV": "",
               "Sources": [
                 {
-                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-5\\OEBPS\\Text\\qa.xhtml",
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-part-5-volume-3\\OEBPS\\Text\\afterword.xhtml",
                   "Alternates": [],
                   "OtherSide": null,
-                  "SortOrder": "60515074"
+                  "SortOrder": "12428051"
                 }
               ],
               "LinkedChapters": [],
@@ -60500,17 +60500,137 @@
               "Chapters": []
             },
             {
-              "CType": 7,
-              "ChapType": "Afterword",
-              "Name": "P5V6 Afterword",
+              "CType": 10,
+              "ChapType": "QnAs",
+              "Name": "FB6 Q&amp;A",
               "SortOrder": "005006029",
               "POV": "",
               "Sources": [
                 {
-                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-part-5-volume-6\\OEBPS\\Text\\afterword.xhtml",
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-6\\OEBPS\\Text\\qa.xhtml",
                   "Alternates": [],
                   "OtherSide": null,
-                  "SortOrder": "12727049"
+                  "SortOrder": "60617064"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Tags": [],
+              "Chapters": []
+            },
+            {
+              "CType": 11,
+              "ChapType": "DramaCD",
+              "Name": "Drama CD 2",
+              "SortOrder": "005006030",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-6\\OEBPS\\Text\\side_2.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60611044"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Tags": [],
+              "Chapters": []
+            },
+            {
+              "CType": 11,
+              "ChapType": "DramaCD",
+              "Name": "Drama CD 2 (Suzuka)",
+              "SortOrder": "005006031",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-6\\OEBPS\\Text\\42.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60612045"
+                },
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-6\\OEBPS\\Text\\43.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60612046"
+                },
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-6\\OEBPS\\Text\\44.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60612047"
+                },
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-6\\OEBPS\\Text\\45.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60612048"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Tags": [],
+              "Chapters": []
+            },
+            {
+              "CType": 11,
+              "ChapType": "DramaCD",
+              "Name": "Drama CD 5",
+              "SortOrder": "005006032",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-6\\OEBPS\\Text\\side_3.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60613049"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Tags": [],
+              "Chapters": []
+            },
+            {
+              "CType": 11,
+              "ChapType": "DramaCD",
+              "Name": "Drama CD 5 (Suzuka)",
+              "SortOrder": "005006033",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-6\\OEBPS\\Text\\46.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60614050"
+                },
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-6\\OEBPS\\Text\\47.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60614051"
+                },
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-6\\OEBPS\\Text\\48.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60614052"
+                },
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-6\\OEBPS\\Text\\49.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60614053"
                 }
               ],
               "LinkedChapters": [],
@@ -60524,7 +60644,7 @@
               "CType": 12,
               "ChapType": "Fanbook",
               "Name": "Miscellaneous Art Gallery",
-              "SortOrder": "005006030",
+              "SortOrder": "005006034",
               "POV": "",
               "Sources": [
                 {
@@ -60581,7 +60701,7 @@
               "CType": 12,
               "ChapType": "Fanbook",
               "Name": "Cover, Color Art, and Miscellaneous Art Rough Draft Gallery",
-              "SortOrder": "005006031",
+              "SortOrder": "005006035",
               "POV": "",
               "Sources": [
                 {
@@ -60641,137 +60761,17 @@
               "Chapters": []
             },
             {
-              "CType": 11,
-              "ChapType": "DramaCD",
-              "Name": "Drama CD 2",
-              "SortOrder": "005006032",
-              "POV": "",
-              "Sources": [
-                {
-                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-6\\OEBPS\\Text\\side_2.xhtml",
-                  "Alternates": [],
-                  "OtherSide": null,
-                  "SortOrder": "60611044"
-                }
-              ],
-              "LinkedChapters": [],
-              "EndsBeforeLine": "",
-              "StartsAtLine": "",
-              "SubSections": [],
-              "Tags": [],
-              "Chapters": []
-            },
-            {
-              "CType": 11,
-              "ChapType": "DramaCD",
-              "Name": "Drama CD 2 (Suzuka)",
-              "SortOrder": "005006033",
-              "POV": "",
-              "Sources": [
-                {
-                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-6\\OEBPS\\Text\\42.xhtml",
-                  "Alternates": [],
-                  "OtherSide": null,
-                  "SortOrder": "60612045"
-                },
-                {
-                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-6\\OEBPS\\Text\\43.xhtml",
-                  "Alternates": [],
-                  "OtherSide": null,
-                  "SortOrder": "60612046"
-                },
-                {
-                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-6\\OEBPS\\Text\\44.xhtml",
-                  "Alternates": [],
-                  "OtherSide": null,
-                  "SortOrder": "60612047"
-                },
-                {
-                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-6\\OEBPS\\Text\\45.xhtml",
-                  "Alternates": [],
-                  "OtherSide": null,
-                  "SortOrder": "60612048"
-                }
-              ],
-              "LinkedChapters": [],
-              "EndsBeforeLine": "",
-              "StartsAtLine": "",
-              "SubSections": [],
-              "Tags": [],
-              "Chapters": []
-            },
-            {
-              "CType": 11,
-              "ChapType": "DramaCD",
-              "Name": "Drama CD 5",
-              "SortOrder": "005006034",
-              "POV": "",
-              "Sources": [
-                {
-                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-6\\OEBPS\\Text\\side_3.xhtml",
-                  "Alternates": [],
-                  "OtherSide": null,
-                  "SortOrder": "60613049"
-                }
-              ],
-              "LinkedChapters": [],
-              "EndsBeforeLine": "",
-              "StartsAtLine": "",
-              "SubSections": [],
-              "Tags": [],
-              "Chapters": []
-            },
-            {
-              "CType": 11,
-              "ChapType": "DramaCD",
-              "Name": "Drama CD 5 (Suzuka)",
-              "SortOrder": "005006035",
-              "POV": "",
-              "Sources": [
-                {
-                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-6\\OEBPS\\Text\\46.xhtml",
-                  "Alternates": [],
-                  "OtherSide": null,
-                  "SortOrder": "60614050"
-                },
-                {
-                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-6\\OEBPS\\Text\\47.xhtml",
-                  "Alternates": [],
-                  "OtherSide": null,
-                  "SortOrder": "60614051"
-                },
-                {
-                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-6\\OEBPS\\Text\\48.xhtml",
-                  "Alternates": [],
-                  "OtherSide": null,
-                  "SortOrder": "60614052"
-                },
-                {
-                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-6\\OEBPS\\Text\\49.xhtml",
-                  "Alternates": [],
-                  "OtherSide": null,
-                  "SortOrder": "60614053"
-                }
-              ],
-              "LinkedChapters": [],
-              "EndsBeforeLine": "",
-              "StartsAtLine": "",
-              "SubSections": [],
-              "Tags": [],
-              "Chapters": []
-            },
-            {
-              "CType": 10,
-              "ChapType": "QnAs",
-              "Name": "FB6 Q&amp;A",
+              "CType": 7,
+              "ChapType": "Afterword",
+              "Name": "P5V6 Afterword",
               "SortOrder": "005006036",
               "POV": "",
               "Sources": [
                 {
-                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-6\\OEBPS\\Text\\qa.xhtml",
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-part-5-volume-6\\OEBPS\\Text\\afterword.xhtml",
                   "Alternates": [],
                   "OtherSide": null,
-                  "SortOrder": "60617064"
+                  "SortOrder": "12727049"
                 }
               ],
               "LinkedChapters": [],
@@ -62716,31 +62716,10 @@
               "Chapters": []
             },
             {
-              "CType": 7,
-              "ChapType": "Afterword",
-              "Name": "Afterword",
-              "SortOrder": "005008027",
-              "POV": "",
-              "Sources": [
-                {
-                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-part-5-volume-8\\OEBPS\\Text\\afterword.xhtml",
-                  "Alternates": [],
-                  "OtherSide": null,
-                  "SortOrder": "12927049"
-                }
-              ],
-              "LinkedChapters": [],
-              "EndsBeforeLine": "",
-              "StartsAtLine": "",
-              "SubSections": [],
-              "Tags": [],
-              "Chapters": []
-            },
-            {
               "CType": 12,
               "ChapType": "Fanbook",
               "Name": "Christmas Cards and Drama CD Gallery",
-              "SortOrder": "005008028",
+              "SortOrder": "005008027",
               "POV": "",
               "Sources": [
                 {
@@ -62791,7 +62770,7 @@
               "CType": 12,
               "ChapType": "Fanbook",
               "Name": "Anime Design Sheets",
-              "SortOrder": "005008029",
+              "SortOrder": "005008028",
               "POV": "",
               "Sources": [
                 {
@@ -62860,7 +62839,7 @@
               "CType": 12,
               "ChapType": "Fanbook",
               "Name": "Cover, Color Art, and Miscellaneous Art Rough Draft Gallery",
-              "SortOrder": "005008030",
+              "SortOrder": "005008029",
               "POV": "",
               "Sources": [
                 {
@@ -62898,6 +62877,27 @@
                   "Alternates": [],
                   "OtherSide": null,
                   "SortOrder": "60407034"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Tags": [],
+              "Chapters": []
+            },
+            {
+              "CType": 7,
+              "ChapType": "Afterword",
+              "Name": "Afterword",
+              "SortOrder": "005008030",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-part-5-volume-8\\OEBPS\\Text\\afterword.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "12927049"
                 }
               ],
               "LinkedChapters": [],
@@ -63987,17 +63987,17 @@
               "Chapters": []
             },
             {
-              "CType": 7,
-              "ChapType": "Afterword",
-              "Name": "P5V9 Afterword",
+              "CType": 10,
+              "ChapType": "QnAs",
+              "Name": "Fanbook 7 Q&amp;A",
               "SortOrder": "005009029",
               "POV": "",
               "Sources": [
                 {
-                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-part-5-volume-9\\OEBPS\\Text\\afterword.xhtml",
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-7\\OEBPS\\Text\\qa.xhtml",
                   "Alternates": [],
                   "OtherSide": null,
-                  "SortOrder": "13025048"
+                  "SortOrder": "60719059"
                 }
               ],
               "LinkedChapters": [],
@@ -64210,17 +64210,17 @@
               "Chapters": []
             },
             {
-              "CType": 10,
-              "ChapType": "QnAs",
-              "Name": "Fanbook 7 Q&amp;A",
+              "CType": 7,
+              "ChapType": "Afterword",
+              "Name": "P5V9 Afterword",
               "SortOrder": "005009034",
               "POV": "",
               "Sources": [
                 {
-                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-7\\OEBPS\\Text\\qa.xhtml",
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-part-5-volume-9\\OEBPS\\Text\\afterword.xhtml",
                   "Alternates": [],
                   "OtherSide": null,
-                  "SortOrder": "60719059"
+                  "SortOrder": "13025048"
                 }
               ],
               "LinkedChapters": [],
