@@ -68,15 +68,9 @@
             <TextBox x:Name="SortOrder" HorizontalAlignment="Stretch" Text="{Binding SortOrder}"></TextBox>
 
             <ComboBox SelectedValue="{Binding ChapType}" SelectedValuePath="Name" HorizontalAlignment="Stretch" Name="ChapterType" Width="100" Grid.Row="1">
-                <ComboBoxItem Name="Part">Part</ComboBoxItem>
-                <ComboBoxItem Name="Volume">Volume</ComboBoxItem>
                 <ComboBoxItem Name="Story">Story</ComboBoxItem>
                 <ComboBoxItem Name="Bonus">Bonus</ComboBoxItem>
                 <ComboBoxItem Name="NonStory">NonStory</ComboBoxItem>
-                <ComboBoxItem Name="Map">Map</ComboBoxItem>
-                <ComboBoxItem Name="CharacterSheet">Character Sheet</ComboBoxItem>
-                <ComboBoxItem Name="Afterword">Afterword</ComboBoxItem>
-                <ComboBoxItem Name="Poll">Poll</ComboBoxItem>
             </ComboBox>
 
             <TextBox x:Name="POV" HorizontalAlignment="Stretch" Text="{Binding POV}" Grid.Column="1" Grid.Row="1">

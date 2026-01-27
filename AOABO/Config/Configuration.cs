@@ -1,21 +1,17 @@
 ﻿using AOABO.Omnibus;
 using Core.Downloads;
 using System.Runtime.Serialization.Json;
-using static Core.Downloads.LibraryResponse;
 
 namespace AOABO.Config
 {
     public static class Configuration
     {
-        public static readonly List<Volume> Volumes;
         public static readonly List<VolumeName> VolumeNames;
         public static readonly Dictionary<string, string> FolderNames;
         public static VolumeOptions Options { get; set; }
 
         static Configuration()
         {
-            Volumes = new List<Volume>();
-            ReloadVolumes();
             using (var reader = new StreamReader("JSON\\VolumeNames.json"))
             {
                 DataContractJsonSerializer deserializer = new DataContractJsonSerializer(typeof(VolumeName[]));
@@ -44,62 +40,10 @@ namespace AOABO.Config
                 using (var reader = new StreamReader("options.json")) {
                     var deserializer = new DataContractJsonSerializer(typeof(VolumeOptions));
                     Options = (deserializer.ReadObject(reader.BaseStream) as VolumeOptions)!;
+#pragma warning disable CS0612 // Type or member is obsolete
                     Options.Upgrade();
+#pragma warning restore CS0612 // Type or member is obsolete
                 }
-            }
-        }
-
-        public static void ReloadVolumes()
-        {
-            DataContractJsonSerializer deserializer = new DataContractJsonSerializer(typeof(Volume[]));
-            Volumes.Clear();
-            using (var reader = new StreamReader("JSON\\SideStories.json"))
-            {
-                Volumes.AddRange((deserializer.ReadObject(reader.BaseStream) as Volume[])!);
-            }
-            using (var reader = new StreamReader("JSON\\Fanbooks.json"))
-            {
-                Volumes.AddRange((deserializer.ReadObject(reader.BaseStream) as Volume[])!);
-            }
-            using (var reader = new StreamReader("JSON\\MangaP1.json"))
-            {
-                Volumes.AddRange((deserializer.ReadObject(reader.BaseStream) as Volume[])!);
-            }
-            using (var reader = new StreamReader("JSON\\MangaP2.json"))
-            {
-                Volumes.AddRange((deserializer.ReadObject(reader.BaseStream) as Volume[])!);
-            }
-            using (var reader = new StreamReader("JSON\\MangaP3.json"))
-            {
-                Volumes.AddRange((deserializer.ReadObject(reader.BaseStream) as Volume[])!);
-            }
-            using (var reader = new StreamReader("JSON\\MangaP4.json"))
-            {
-                Volumes.AddRange((deserializer.ReadObject(reader.BaseStream) as Volume[])!);
-            }
-            using (var reader = new StreamReader("JSON\\LNP1.json"))
-            {
-                Volumes.AddRange((deserializer.ReadObject(reader.BaseStream) as Volume[])!);
-            }
-            using (var reader = new StreamReader("JSON\\LNP2.json"))
-            {
-                Volumes.AddRange((deserializer.ReadObject(reader.BaseStream) as Volume[])!);
-            }
-            using (var reader = new StreamReader("JSON\\LNP3.json"))
-            {
-                Volumes.AddRange((deserializer.ReadObject(reader.BaseStream) as Volume[])!);
-            }
-            using (var reader = new StreamReader("JSON\\LNP4.json"))
-            {
-                Volumes.AddRange((deserializer.ReadObject(reader.BaseStream) as Volume[])!);
-            }
-            using (var reader = new StreamReader("JSON\\LNP5.json"))
-            {
-                Volumes.AddRange((deserializer.ReadObject(reader.BaseStream) as Volume[])!);
-            }
-            using (var reader = new StreamReader("JSON\\Hannelore.json"))
-            {
-                Volumes.AddRange((deserializer.ReadObject(reader.BaseStream) as Volume[])!);
             }
         }
 

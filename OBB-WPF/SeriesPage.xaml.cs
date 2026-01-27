@@ -1,24 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.IO;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
-using System.Text.Json;
-using System.Globalization;
-using System.Windows.Markup;
 using System.Collections.ObjectModel;
-using System.Text.Json.Nodes;
 using Microsoft.Win32;
-using CefSharp;
 using OBB_WPF.Library;
 using OBB_WPF.Editor;
 
@@ -49,12 +35,18 @@ namespace OBB_WPF
 
             if (series.Name.Equals("Ascendance of a Bookworm"))
             {
+                ChapterType.Items.Add(new ComboBoxItem() { Name = "Part", Content = "Part" });
+                ChapterType.Items.Add(new ComboBoxItem() { Name = "Volume", Content = "Volume" });
+                ChapterType.Items.Add(new ComboBoxItem() { Name = "Covers", Content = "Covers" });
+                ChapterType.Items.Add(new ComboBoxItem() { Name = "Map", Content = "Map" });
+                ChapterType.Items.Add(new ComboBoxItem() { Name = "CharacterSheet", Content = "Character Sheet" });
+                ChapterType.Items.Add(new ComboBoxItem() { Name = "Poll", Content = "Poll" });
+                ChapterType.Items.Add(new ComboBoxItem() { Name = "MangaWritten", Content = "Manga Written Bonus" });
                 ChapterType.Items.Add(new ComboBoxItem() { Name = "ComfyLife", Content = "Comfy Life" });
                 ChapterType.Items.Add(new ComboBoxItem() { Name = "QnAs", Content = "Q&A" });
                 ChapterType.Items.Add(new ComboBoxItem() { Name = "DramaCD", Content = "Drama CDs" });
                 ChapterType.Items.Add(new ComboBoxItem() { Name = "Fanbook", Content = "Misc Fanbook Content" });
-                ChapterType.Items.Add(new ComboBoxItem() { Name = "MangaWritten", Content = "Manga Written Bonus" });
-                ChapterType.Items.Add(new ComboBoxItem() { Name = "Covers", Content = "Covers" });
+                ChapterType.Items.Add(new ComboBoxItem() { Name = "Afterword", Content = "Afterword" });
             }
 
             _ = Load();

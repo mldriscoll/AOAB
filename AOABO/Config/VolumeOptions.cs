@@ -92,6 +92,7 @@ namespace AOABO.Config
             return (T)Enum.Parse(typeof(T), str);
         }
 
+        [Obsolete]
         public void Upgrade()
         {
             if (IncludeImagesInChapters.HasValue)

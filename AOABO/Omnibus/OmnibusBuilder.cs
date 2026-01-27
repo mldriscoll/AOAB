@@ -3,12 +3,9 @@ using Core.Processor;
 using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.PixelFormats;
 using SixLabors.ImageSharp.Processing;
-using System.Collections.ObjectModel;
-using System.ComponentModel;
 using System.IO.Compression;
 using System.Runtime.Serialization.Json;
 using System.Text.RegularExpressions;
-using Windows.System;
 using static AOABO.Config.VolumeOptions;
 using Configuration = AOABO.Config.Configuration;
 
@@ -93,9 +90,6 @@ namespace AOABO.Omnibus
                     break;
             }
 
-            //if (Directory.Exists($"{inputFolder}\\inputtemp")) Directory.Delete($"{inputFolder}\\inputtemp", true);
-            //Directory.CreateDirectory($"{inputFolder}\\inputtemp");
-
             if (Directory.Exists($"{inputFolder}\\temp")) Directory.Delete($"{inputFolder}\\temp", true);
             Directory.CreateDirectory($"{inputFolder}\\temp");
 
@@ -110,14 +104,6 @@ namespace AOABO.Omnibus
                 {
                     var file = vol.NameMatch(epubs);
                     if (file == null) continue;
-
-                    //if ((partScope == PartToProcess.PartOne && !volume.ProcessedInPartOne)
-                    //    || (partScope == PartToProcess.PartTwo && !volume.ProcessedInPartTwo)
-                    //    || (partScope == PartToProcess.PartThree && !volume.ProcessedInPartThree)
-                    //    || (partScope == PartToProcess.PartFour && !volume.ProcessedInPartFour)
-                    //    || (partScope == PartToProcess.PartFive && !volume.ProcessedInPartFive)
-                    //    || (partScope == PartToProcess.Fanbooks && !volume.ProcessedInFanbooks)
-                    //    || (partScope == PartToProcess.Hannelore && !volume.ProcessedInHannelore)) continue;
 
                     if (!Directory.Exists($"{inputFolder}\\unpacked\\{vol.InternalName}"))
                         ZipFile.ExtractToDirectory(file, $"{inputFolder}\\unpacked\\{vol.InternalName}");
@@ -137,7 +123,6 @@ namespace AOABO.Omnibus
             outProcessor.Chapters.Clear();
 
             IFolder folder = Configuration.Options.OutputYearFormat == 0 ? new YearNumberFolder() : new YearFolder();
-            Configuration.ReloadVolumes();
 
             var missingFiles = new List<string>();
 
@@ -606,232 +591,5 @@ namespace AOABO.Omnibus
             }
             foreach (var chap in holder.Chapters) RemoveDupes(chap);
         }
-    }
-
-
-    public class Omnibus : ChapterHolder
-    {
-        public Source? Cover { get; set; } = null;
-
-        public string Author { get; set; } = string.Empty;
-        public string AuthorSort { get; set; } = string.Empty;
-        public string Name { get; set; } = string.Empty;
-        public string InternalName { get; set; } = string.Empty;
-
-        public void Combine(Omnibus other)
-        {
-            foreach (var chapter in other.Chapters)
-            {
-                var match = Chapters.FirstOrDefault(x => x.Match(chapter));
-                if (match != null)
-                    match.Combine(chapter);
-                else
-                    Chapters.Add(chapter);
-
-            }
-        }
-    }
-
-
-    public abstract class ChapterHolder
-    {
-        public List<Chapter> Chapters { get; set; } = [];
-
-        public List<Source> AllSources(string prefix)
-        {
-            var sources = new List<Source>();
-            foreach (var chapter in Chapters)
-            {
-                sources.AddRange(chapter.Sources.Where(x => x.File.StartsWith(prefix, StringComparison.InvariantCultureIgnoreCase)));
-                foreach (var s in sources)
-                {
-                    chapter.Sources.Remove(s);
-                }
-                sources.AddRange(chapter.AllSources(prefix));
-            }
-            return sources;
-        }
-
-        public void RemoveEmpties()
-        {
-            foreach (var chapter in Chapters)
-            {
-                chapter.RemoveEmpties();
-            }
-
-            Chapters = [.. Chapters.Where(x => x.Sources.Any() || x.Chapters.Any())];
-        }
-
-        public void Sort()
-        {
-            var c = Chapters.OrderBy(x => x.SortOrder).ToList();
-            foreach (var chapter in c)
-            {
-                Chapters.Remove(chapter);
-                Chapters.Add(chapter);
-            }
-
-            foreach (var chapter in Chapters)
-            {
-                var sources = chapter.Sources.Where(x => x != null).OrderBy(x => x.SortOrder).ToList();
-                chapter.Sources.Clear();
-                foreach (var s in sources) chapter.Sources.Add(s);
-                chapter.Sort();
-            }
-        }
-    }
-
-    public class Chapter : ChapterHolder
-    {
-        public enum ChapterType
-        {
-            Story,
-            Bonus,
-            NonStory,
-            Part,
-            Volume,
-            Map,
-            CharacterSheet,
-            Afterword,
-            ComfyLife,
-            Poll,
-            QnAs,
-            DramaCD,
-            Fanbook,
-            MangaWritten,
-            Covers
-        }
-
-        public ChapterType CType { get; set; } = ChapterType.Story;
-
-        public string Name { get; set; } = string.Empty;
-
-        public string SortOrder { get; set; } = string.Empty;
-
-        public string POV { get; set; } = string.Empty;
-        public List<Source> Sources { get; set; } = new List<Source> { };
-
-        public ObservableCollection<Link> LinkedChapters { get; set; } = new ObservableCollection<Link>();
-
-        public string EndsBeforeLine { get; set; } = string.Empty;
-        public string StartsAtLine { get; set; } = string.Empty;
-
-        public List<SubSection> SubSections { get; set; } = new List<SubSection> { };
-
-        public class SubSection
-        {
-            public int StartsAtIndex { get; set; }
-            public string StartsAtLine { get; set; } = string.Empty;
-            public int EndsAtIndex { get; set; }
-            public string EndsAtLine { get; set; } = string.Empty;
-        }
-
-
-
-        public bool Match(Chapter other)
-        {
-            return other.Name.Equals(Name, StringComparison.InvariantCultureIgnoreCase)
-                && other.SortOrder.Equals(SortOrder, StringComparison.InvariantCultureIgnoreCase);
-        }
-
-        public void Combine(Chapter other)
-        {
-            foreach (var newSource in other.Sources)
-            {
-                Sources.Add(newSource);
-            }
-            foreach (var chapter in other.Chapters)
-            {
-                var match = Chapters.FirstOrDefault(x => x.Match(chapter));
-                if (match != null)
-                    match.Combine(chapter);
-                else
-                    Chapters.Add(chapter);
-            }
-        }
-
-        public List<Source> FindDupes(List<Source> sourceList)
-        {
-            var ret = new List<Source>();
-            foreach (var s in sourceList)
-            {
-                if (Sources.Contains(s))
-                {
-                    ret.Add(s);
-                }
-            }
-
-            foreach (var chapter in Chapters)
-            {
-                ret.AddRange(chapter.FindDupes(sourceList));
-            }
-            return ret;
-        }
-
-        public string Subfolder { get; set; } = string.Empty;
-
-        public class Tag
-        {
-            public string Name { get; set; } = string.Empty;
-            public string Value { get; set; } = string.Empty;
-        }
-
-        public Tag[] Tags { get; set; } = [];
-        public int? Year { get; set; } = null;
-        public string? Season { get; set; } = null;
-        public string? OriginalSource { get; set; } = null;
-
-        public string? Set { get; set; } = null;
-
-        public Chapter Clone()
-        {
-            return new Chapter
-            {
-                Name = Name,
-                Year = Year,
-                Season = Season,
-                OriginalSource = OriginalSource,
-                Set = Set,
-                CType = CType,
-                EndsBeforeLine = EndsBeforeLine,
-                LinkedChapters = LinkedChapters,
-                POV = POV,
-                SortOrder = SortOrder,
-                Sources = Sources,
-                StartsAtLine = StartsAtLine,
-                Subfolder = Subfolder,
-                Tags = Tags,
-                SubSections = SubSections
-            };
-        }
-    }
-    public class Source : INotifyPropertyChanged
-    {
-        public event PropertyChangedEventHandler? PropertyChanged;
-        public string File { get; set; } = string.Empty;
-
-        public List<string> Alternates { get; set; } = new List<string>();
-
-        public Source? OtherSide { get; set; } = null;
-
-        public string SortOrder { get; set; } = string.Empty;
-
-        public bool Exists(string path)
-        {
-            if (System.IO.File.Exists($"{path}\\{File}")) return true;
-            foreach (var alternate in Alternates)
-            {
-                if (System.IO.File.Exists($"{path}\\{alternate}")) return true;
-            }
-
-            if (OtherSide != null) return OtherSide.Exists(path);
-
-            return false;
-        }
-    }
-    public class Link
-    {
-        public string OriginalLink { get; set; } = String.Empty;
-        public string Target { get; set; } = String.Empty;
     }
 }
