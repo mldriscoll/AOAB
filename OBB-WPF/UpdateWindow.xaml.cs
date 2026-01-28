@@ -98,28 +98,31 @@ namespace OBB_WPF
                         c++;
                         (sender as BackgroundWorker)!.ReportProgress(c, serie.title);
                         bool updated = false;
-                        var series = MainWindow.Series.FirstOrDefault(x => x.ApiSlugs.Any(y => y.Slug!.Equals(serie.slug, StringComparison.InvariantCultureIgnoreCase)));
+                        var matchingSeries = MainWindow.Series.Where(x => x.ApiSlugs.Any(y => y.Slug!.Equals(serie.slug, StringComparison.InvariantCultureIgnoreCase)));
 
                         var fullSeriesTask = Downloader.GetSeries(client, serie.slug!);
                         fullSeriesTask.Wait();
                         var fullSeries = fullSeriesTask.Result;
-                        if (series != null)
+                        if (matchingSeries != null && matchingSeries.Any())
                         {
-                            var order = 100 * (series.ApiSlugs.FirstOrDefault(x => x.Slug!.Equals(serie.slug, StringComparison.InvariantCultureIgnoreCase))?.Order ?? 1);
-
-                            series.Volumes.AddRange(fullSeries.volumes!.Where(x => !series.Volumes.Any(y => y.ApiSlug.Equals(x.slug, StringComparison.OrdinalIgnoreCase))).ToList().Select(x => new VolumeName
+                            foreach (var series in matchingSeries)
                             {
-                                ApiSlug = x.slug!,
-                                EditedBy = new List<string>(),
-                                FileName = $"{x.slug}.epub",
-                                Order = order + x.number,
-                                Published = DateOnly.FromDateTime(DateTime.Parse(x.publishing!)).ToString("yyyy-MM-dd")
-                            }));
+                                var order = 100 * (series.ApiSlugs.FirstOrDefault(x => x.Slug!.Equals(serie.slug, StringComparison.InvariantCultureIgnoreCase))?.Order ?? 1);
+
+                                series.Volumes.AddRange(fullSeries.volumes!.Where(x => !series.Volumes.Any(y => y.ApiSlug.Equals(x.slug, StringComparison.OrdinalIgnoreCase))).ToList().Select(x => new VolumeName
+                                {
+                                    ApiSlug = x.slug!,
+                                    EditedBy = new List<string>(),
+                                    FileName = $"{x.slug}.epub",
+                                    Order = order + x.number,
+                                    Published = DateOnly.FromDateTime(DateTime.Parse(x.publishing!)).ToString("yyyy-MM-dd")
+                                }));
+                            }
                             updated = true;
                         }
                         else if (fullSeries.volumes!.Count > 1)
                         {
-                            series = new Series
+                            var series = new Series
                             {
                                 ApiSlugs = new List<SeriesSlug> { new SeriesSlug { Order = 1, Slug = serie.slug! } },
                                 Author = fullSeries.volumes.First().creators!.First(x => x.role!.Equals("AUTHOR")).name!,
