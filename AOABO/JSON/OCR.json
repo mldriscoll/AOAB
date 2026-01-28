@@ -1498,5 +1498,55 @@
     "Header": null,
     "Crop": true,
     "HeaderLines": 1
+  },
+  {
+    "Chapter": "Night at the Monastery",
+    "Corrections": [
+      {
+        "Original": "'I shall do it,'",
+        "Replacement": "‘I <i>shall</i> do it,’"
+      },
+      {
+        "Original": "boys'",
+        "Replacement": "boys’"
+      },
+      {
+        "Original": "\"Night, Marthe. See you tomorrow.",
+        "Replacement": "“Night, Marthe. See you tomorrow.”"
+      },
+      {
+        "Original": "71aey don’t sleep in their underclothes?!",
+        "Replacement": "<i>They don’t sleep in their underclothes?!</i>"
+      },
+      {
+        "Original": "\"Good night. Remember to be up at first bell tomorrow.",
+        "Replacement": "“Good night. Remember to be up at first bell tomorrow.”"
+      }
+    ],
+    "Italics": [
+      {
+        "Start": "I don’t have to lick them. My belly’s already full.",
+        "End": "I don’t have to lick them. My belly’s already full."
+      },
+      {
+        "Start": "I can dry dishes.",
+        "End": "I can dry dishes."
+      },
+      {
+        "Start": "I need to practice.",
+        "End": "I need to practice."
+      },
+      {
+        "Start": "They’re smiling...",
+        "End": "They’re smiling..."
+      },
+      {
+        "Start": "Not all orphanages are the same, I guess.",
+        "End": "Not all orphanages are the same, I guess."
+      }
+    ],
+    "Header": null,
+    "Crop": true,
+    "HeaderLines": 1
   }
 ]

@@ -41454,8 +41454,8 @@
               "Tags": [],
               "Chapters": [
                 {
-                  "CType": 1,
-                  "ChapType": "Bonus",
+                  "CType": 13,
+                  "ChapType": "MangaWritten",
                   "Name": "Night at the Monastery",
                   "SortOrder": "003002012001",
                   "POV": "Marthe",
