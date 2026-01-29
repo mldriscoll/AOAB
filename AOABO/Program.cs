@@ -194,6 +194,25 @@ async Task CreateTables()
     sb.AppendLine("|Character|Chapter|Name|");
     sb.Append("|-|-|-|");
     string character = "";
+    int partNumber = 0;
+    foreach (var part in omnibus.Chapters.Where(x => x.CType == Chapter.ChapterType.Part))
+    {
+        partNumber++;
+        int volNumber = 0;
+
+        foreach (var volume in part.Chapters.Where(x => x.CType == Chapter.ChapterType.Volume))
+        {
+            volNumber++;
+
+            foreach(var chapter in volume.Chapters
+                .Where(x => x.CType == Chapter.ChapterType.Story)
+                .Where(x => string.IsNullOrWhiteSpace(x.OriginalSource))
+                .Where(x => x.Name.Equals("Prologue") || x.Name.Equals("Epilogue")))
+            {
+                chapter.OriginalSource = $"P{partNumber}V{volNumber}";
+            }
+        }
+    }
     foreach (var chapter in BuildChapterList(omnibus).Where(x => !string.IsNullOrWhiteSpace(x.POV)).OrderBy(x => x.POV))
     {
         if (chapter.CType == AOABO.Omnibus.Chapter.ChapterType.Story)
@@ -301,7 +320,7 @@ async Task PartChart(Omnibus ob, string name, bool partOne = false, bool partTwo
                     sb.AppendLine($"|**{vol.Name}**|**{chapter.Name}**|{chapter.POV}");
                 }
 
-                foreach(var bonusChapter in chapter.Chapters.Where(x => x.CType == AOABO.Omnibus.Chapter.ChapterType.Bonus))
+                foreach (var bonusChapter in chapter.Chapters.Where(x => (x.CType == Chapter.ChapterType.Bonus) || (x.CType == Chapter.ChapterType.MangaWritten)))
                 {
                     if (bonusChapter.Season != null)
                     {

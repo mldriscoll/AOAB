@@ -3827,7 +3827,7 @@
               "CType": 0,
               "Name": "Epilogue",
               "SortOrder": "M001003033",
-              "POV": "",
+              "POV": "Gunther",
               "Sources": [
                 {
                   "File": "LN0103\\OEBPS\\Text\\epilogue.xhtml",
@@ -3929,137 +3929,9 @@
                   "Chapters": []
                 },
                 {
-                  "CType": 1,
-                  "Name": "Confectionery Recipe",
-                  "SortOrder": "M001003033003",
-                  "POV": "Leise",
-                  "Sources": [
-                    {
-                      "File": "LN0103\\OEBPS\\Text\\extra2.xhtml",
-                      "Alternates": [],
-                      "OtherSide": null,
-                      "SortOrder": "10332047"
-                    }
-                  ],
-                  "EndsBeforeLine": "",
-                  "StartsAtLine": "",
-                  "SubSections": [],
-                  "Subfolder": "",
-                  "Tags": [
-                    {
-                      "Name": "Source",
-                      "Value": "P1V3 Bonus 2"
-                    }
-                  ],
-                  "Year": null,
-                  "Season": null,
-                  "OriginalSource": "P1V3 Bonus 2",
-                  "Set": null,
-                  "Chapters": []
-                },
-                {
-                  "CType": 1,
-                  "Name": "Pound Cake Sampling",
-                  "SortOrder": "M001003033004",
-                  "POV": "Benno",
-                  "Sources": [
-                    {
-                      "File": "LN0103\\OEBPS\\Text\\extra3.xhtml",
-                      "Alternates": [],
-                      "OtherSide": null,
-                      "SortOrder": "10333048"
-                    },
-                    {
-                      "File": "LN0103\\OEBPS\\Text\\insert8.xhtml",
-                      "Alternates": [],
-                      "OtherSide": null,
-                      "SortOrder": "10333049"
-                    },
-                    {
-                      "File": "LN0103\\OEBPS\\Text\\extra3_1.xhtml",
-                      "Alternates": [],
-                      "OtherSide": null,
-                      "SortOrder": "10333050"
-                    }
-                  ],
-                  "EndsBeforeLine": "",
-                  "StartsAtLine": "",
-                  "SubSections": [],
-                  "Subfolder": "",
-                  "Tags": [
-                    {
-                      "Name": "Source",
-                      "Value": "P1V3 Bonus 3"
-                    }
-                  ],
-                  "Year": null,
-                  "Season": null,
-                  "OriginalSource": "P1V3 Bonus 3",
-                  "Set": null,
-                  "Chapters": []
-                },
-                {
-                  "CType": 1,
-                  "Name": "The Master and I",
-                  "SortOrder": "M001003033005",
-                  "POV": "Mark",
-                  "Sources": [
-                    {
-                      "File": "LN0103\\OEBPS\\Text\\extra4.xhtml",
-                      "Alternates": [],
-                      "OtherSide": null,
-                      "SortOrder": "10334051"
-                    }
-                  ],
-                  "EndsBeforeLine": "",
-                  "StartsAtLine": "",
-                  "SubSections": [],
-                  "Subfolder": "",
-                  "Tags": [
-                    {
-                      "Name": "Source",
-                      "Value": "P1V3 Bonus 4"
-                    }
-                  ],
-                  "Year": null,
-                  "Season": null,
-                  "OriginalSource": "P1V3 Bonus 4",
-                  "Set": null,
-                  "Chapters": []
-                },
-                {
-                  "CType": 1,
-                  "Name": "The Roots of the Guildmaster’s Worries",
-                  "SortOrder": "M001003033006",
-                  "POV": "Gustav",
-                  "Sources": [
-                    {
-                      "File": "LN0103\\OEBPS\\Text\\extra6.xhtml",
-                      "Alternates": [],
-                      "OtherSide": null,
-                      "SortOrder": "10336055"
-                    }
-                  ],
-                  "EndsBeforeLine": "",
-                  "StartsAtLine": "",
-                  "SubSections": [],
-                  "Subfolder": "",
-                  "Tags": [
-                    {
-                      "Name": "Source",
-                      "Value": "P1V3 Bonus 6"
-                    }
-                  ],
-                  "Year": null,
-                  "Season": null,
-                  "OriginalSource": "P1V3 Bonus 6",
-                  "Set": null,
-                  "Chapters": []
-                },
-                {
                   "CType": 13,
                   "Name": "As the Gilberta Company's Successor",
-                  "SortOrder": "M001003033007",
+                  "SortOrder": "M001003033003",
                   "POV": "Corinna",
                   "Sources": [
                     {
@@ -4148,6 +4020,134 @@
                   "Year": null,
                   "Season": null,
                   "OriginalSource": "M1V7 Written Bonus",
+                  "Set": null,
+                  "Chapters": []
+                },
+                {
+                  "CType": 1,
+                  "Name": "Confectionery Recipe",
+                  "SortOrder": "M001003033004",
+                  "POV": "Leise",
+                  "Sources": [
+                    {
+                      "File": "LN0103\\OEBPS\\Text\\extra2.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "10332047"
+                    }
+                  ],
+                  "EndsBeforeLine": "",
+                  "StartsAtLine": "",
+                  "SubSections": [],
+                  "Subfolder": "",
+                  "Tags": [
+                    {
+                      "Name": "Source",
+                      "Value": "P1V3 Bonus 2"
+                    }
+                  ],
+                  "Year": null,
+                  "Season": null,
+                  "OriginalSource": "P1V3 Bonus 2",
+                  "Set": null,
+                  "Chapters": []
+                },
+                {
+                  "CType": 1,
+                  "Name": "Pound Cake Sampling",
+                  "SortOrder": "M001003033005",
+                  "POV": "Benno",
+                  "Sources": [
+                    {
+                      "File": "LN0103\\OEBPS\\Text\\extra3.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "10333048"
+                    },
+                    {
+                      "File": "LN0103\\OEBPS\\Text\\insert8.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "10333049"
+                    },
+                    {
+                      "File": "LN0103\\OEBPS\\Text\\extra3_1.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "10333050"
+                    }
+                  ],
+                  "EndsBeforeLine": "",
+                  "StartsAtLine": "",
+                  "SubSections": [],
+                  "Subfolder": "",
+                  "Tags": [
+                    {
+                      "Name": "Source",
+                      "Value": "P1V3 Bonus 3"
+                    }
+                  ],
+                  "Year": null,
+                  "Season": null,
+                  "OriginalSource": "P1V3 Bonus 3",
+                  "Set": null,
+                  "Chapters": []
+                },
+                {
+                  "CType": 1,
+                  "Name": "The Master and I",
+                  "SortOrder": "M001003033006",
+                  "POV": "Mark",
+                  "Sources": [
+                    {
+                      "File": "LN0103\\OEBPS\\Text\\extra4.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "10334051"
+                    }
+                  ],
+                  "EndsBeforeLine": "",
+                  "StartsAtLine": "",
+                  "SubSections": [],
+                  "Subfolder": "",
+                  "Tags": [
+                    {
+                      "Name": "Source",
+                      "Value": "P1V3 Bonus 4"
+                    }
+                  ],
+                  "Year": null,
+                  "Season": null,
+                  "OriginalSource": "P1V3 Bonus 4",
+                  "Set": null,
+                  "Chapters": []
+                },
+                {
+                  "CType": 1,
+                  "Name": "The Roots of the Guildmaster’s Worries",
+                  "SortOrder": "M001003033007",
+                  "POV": "Gustav",
+                  "Sources": [
+                    {
+                      "File": "LN0103\\OEBPS\\Text\\extra6.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "10336055"
+                    }
+                  ],
+                  "EndsBeforeLine": "",
+                  "StartsAtLine": "",
+                  "SubSections": [],
+                  "Subfolder": "",
+                  "Tags": [
+                    {
+                      "Name": "Source",
+                      "Value": "P1V3 Bonus 6"
+                    }
+                  ],
+                  "Year": null,
+                  "Season": null,
+                  "OriginalSource": "P1V3 Bonus 6",
                   "Set": null,
                   "Chapters": []
                 }
@@ -5776,7 +5776,7 @@
               "CType": 0,
               "Name": "Epilogue",
               "SortOrder": "M002001035",
-              "POV": "",
+              "POV": "Deid",
               "Sources": [
                 {
                   "File": "LN0201\\OEBPS\\Text\\epilogue.xhtml",
@@ -6843,38 +6843,9 @@
               "Set": null,
               "Chapters": [
                 {
-                  "CType": 1,
-                  "Name": "My Handful of a Little Sister",
-                  "SortOrder": "M002002025001",
-                  "POV": "Tuuli",
-                  "Sources": [
-                    {
-                      "File": "FB2\\OEBPS\\Text\\side3.xhtml",
-                      "Alternates": [],
-                      "OtherSide": null,
-                      "SortOrder": "60205006"
-                    }
-                  ],
-                  "EndsBeforeLine": "",
-                  "StartsAtLine": "",
-                  "SubSections": [],
-                  "Subfolder": "",
-                  "Tags": [
-                    {
-                      "Name": "Source",
-                      "Value": "Fanbook 2 Bonus 3"
-                    }
-                  ],
-                  "Year": null,
-                  "Season": null,
-                  "OriginalSource": "Fanbook 2 Bonus 3",
-                  "Set": null,
-                  "Chapters": []
-                },
-                {
                   "CType": 13,
                   "Name": "Books and Karuta",
-                  "SortOrder": "M002002025002",
+                  "SortOrder": "M002002025001",
                   "POV": "Delia",
                   "Sources": [
                     {
@@ -6951,6 +6922,35 @@
                   "Year": null,
                   "Season": null,
                   "OriginalSource": "M2V6 Written Bonus",
+                  "Set": null,
+                  "Chapters": []
+                },
+                {
+                  "CType": 1,
+                  "Name": "My Handful of a Little Sister",
+                  "SortOrder": "M002002025002",
+                  "POV": "Tuuli",
+                  "Sources": [
+                    {
+                      "File": "FB2\\OEBPS\\Text\\side3.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "60205006"
+                    }
+                  ],
+                  "EndsBeforeLine": "",
+                  "StartsAtLine": "",
+                  "SubSections": [],
+                  "Subfolder": "",
+                  "Tags": [
+                    {
+                      "Name": "Source",
+                      "Value": "Fanbook 2 Bonus 3"
+                    }
+                  ],
+                  "Year": null,
+                  "Season": null,
+                  "OriginalSource": "Fanbook 2 Bonus 3",
                   "Set": null,
                   "Chapters": []
                 }
@@ -9779,130 +9779,9 @@
               ]
             },
             {
-              "CType": 0,
-              "Name": "Newly Written Narrations for Season 3 of the <em>Bookworm</em> Anime",
-              "SortOrder": "M002004023",
-              "POV": "",
-              "Sources": [
-                {
-                  "File": "FB7\\OEBPS\\Text\\side_2.xhtml",
-                  "Alternates": [],
-                  "OtherSide": null,
-                  "SortOrder": "60710034"
-                }
-              ],
-              "EndsBeforeLine": "<h2>Myne (VA: Iguchi Yuka)</h2>",
-              "StartsAtLine": "",
-              "SubSections": [],
-              "Subfolder": "",
-              "Tags": [],
-              "Year": null,
-              "Season": null,
-              "OriginalSource": null,
-              "Set": null,
-              "Chapters": [
-                {
-                  "CType": 0,
-                  "Name": "Myne (VA: Iguchi Yuka)",
-                  "SortOrder": "M002004023001",
-                  "POV": "",
-                  "Sources": [
-                    {
-                      "File": "FB7\\OEBPS\\Text\\side_2.xhtml",
-                      "Alternates": [],
-                      "OtherSide": null,
-                      "SortOrder": "60710034"
-                    }
-                  ],
-                  "EndsBeforeLine": "<h2>Lutz (VA: Tamura Mutsumi)</h2>",
-                  "StartsAtLine": "<h2>Myne (VA: Iguchi Yuka)</h2>",
-                  "SubSections": [],
-                  "Subfolder": "",
-                  "Tags": [],
-                  "Year": null,
-                  "Season": null,
-                  "OriginalSource": null,
-                  "Set": null,
-                  "Chapters": []
-                },
-                {
-                  "CType": 0,
-                  "Name": "Lutz (VA: Tamura Mutsumi)",
-                  "SortOrder": "M002004023002",
-                  "POV": "",
-                  "Sources": [
-                    {
-                      "File": "FB7\\OEBPS\\Text\\side_2.xhtml",
-                      "Alternates": [],
-                      "OtherSide": null,
-                      "SortOrder": "60710034"
-                    }
-                  ],
-                  "EndsBeforeLine": "<h2>Ferdinand (VA: Hayami Show)</h2>",
-                  "StartsAtLine": "<h2>Lutz (VA: Tamura Mutsumi)</h2>",
-                  "SubSections": [],
-                  "Subfolder": "",
-                  "Tags": [],
-                  "Year": null,
-                  "Season": null,
-                  "OriginalSource": null,
-                  "Set": null,
-                  "Chapters": []
-                },
-                {
-                  "CType": 0,
-                  "Name": "Ferdinand (VA: Hayami Show)",
-                  "SortOrder": "M002004023003",
-                  "POV": "",
-                  "Sources": [
-                    {
-                      "File": "FB7\\OEBPS\\Text\\side_2.xhtml",
-                      "Alternates": [],
-                      "OtherSide": null,
-                      "SortOrder": "60710034"
-                    }
-                  ],
-                  "EndsBeforeLine": "<h2>Sylvester (VA: Inoue Kazuhiko)</h2>",
-                  "StartsAtLine": "<h2>Ferdinand (VA: Hayami Show)</h2>",
-                  "SubSections": [],
-                  "Subfolder": "",
-                  "Tags": [],
-                  "Year": null,
-                  "Season": null,
-                  "OriginalSource": null,
-                  "Set": null,
-                  "Chapters": []
-                },
-                {
-                  "CType": 0,
-                  "Name": "Sylvester (VA: Inoue Kazuhiko)",
-                  "SortOrder": "M002004023004",
-                  "POV": "",
-                  "Sources": [
-                    {
-                      "File": "FB7\\OEBPS\\Text\\side_2.xhtml",
-                      "Alternates": [],
-                      "OtherSide": null,
-                      "SortOrder": "60710034"
-                    }
-                  ],
-                  "EndsBeforeLine": "",
-                  "StartsAtLine": "<h2>Sylvester (VA: Inoue Kazuhiko)</h2>",
-                  "SubSections": [],
-                  "Subfolder": "",
-                  "Tags": [],
-                  "Year": null,
-                  "Season": null,
-                  "OriginalSource": null,
-                  "Set": null,
-                  "Chapters": []
-                }
-              ]
-            },
-            {
               "CType": 8,
               "Name": "P2V4 Comfy Life",
-              "SortOrder": "M002004024",
+              "SortOrder": "M002004023",
               "POV": "",
               "Sources": [
                 {
@@ -9928,6 +9807,127 @@
               "OriginalSource": null,
               "Set": null,
               "Chapters": []
+            },
+            {
+              "CType": 12,
+              "Name": "Newly Written Narrations for Season 3 of the <em>Bookworm</em> Anime",
+              "SortOrder": "M002004024",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "FB7\\OEBPS\\Text\\side_2.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60710034"
+                }
+              ],
+              "EndsBeforeLine": "<h2>Myne (VA: Iguchi Yuka)</h2>",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": [
+                {
+                  "CType": 12,
+                  "Name": "Myne (VA: Iguchi Yuka)",
+                  "SortOrder": "M002004024001",
+                  "POV": "",
+                  "Sources": [
+                    {
+                      "File": "FB7\\OEBPS\\Text\\side_2.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "60710034"
+                    }
+                  ],
+                  "EndsBeforeLine": "<h2>Lutz (VA: Tamura Mutsumi)</h2>",
+                  "StartsAtLine": "<h2>Myne (VA: Iguchi Yuka)</h2>",
+                  "SubSections": [],
+                  "Subfolder": "",
+                  "Tags": [],
+                  "Year": null,
+                  "Season": null,
+                  "OriginalSource": null,
+                  "Set": null,
+                  "Chapters": []
+                },
+                {
+                  "CType": 12,
+                  "Name": "Lutz (VA: Tamura Mutsumi)",
+                  "SortOrder": "M002004024002",
+                  "POV": "",
+                  "Sources": [
+                    {
+                      "File": "FB7\\OEBPS\\Text\\side_2.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "60710034"
+                    }
+                  ],
+                  "EndsBeforeLine": "<h2>Ferdinand (VA: Hayami Show)</h2>",
+                  "StartsAtLine": "<h2>Lutz (VA: Tamura Mutsumi)</h2>",
+                  "SubSections": [],
+                  "Subfolder": "",
+                  "Tags": [],
+                  "Year": null,
+                  "Season": null,
+                  "OriginalSource": null,
+                  "Set": null,
+                  "Chapters": []
+                },
+                {
+                  "CType": 12,
+                  "Name": "Ferdinand (VA: Hayami Show)",
+                  "SortOrder": "M002004024003",
+                  "POV": "",
+                  "Sources": [
+                    {
+                      "File": "FB7\\OEBPS\\Text\\side_2.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "60710034"
+                    }
+                  ],
+                  "EndsBeforeLine": "<h2>Sylvester (VA: Inoue Kazuhiko)</h2>",
+                  "StartsAtLine": "<h2>Ferdinand (VA: Hayami Show)</h2>",
+                  "SubSections": [],
+                  "Subfolder": "",
+                  "Tags": [],
+                  "Year": null,
+                  "Season": null,
+                  "OriginalSource": null,
+                  "Set": null,
+                  "Chapters": []
+                },
+                {
+                  "CType": 12,
+                  "Name": "Sylvester (VA: Inoue Kazuhiko)",
+                  "SortOrder": "M002004024004",
+                  "POV": "",
+                  "Sources": [
+                    {
+                      "File": "FB7\\OEBPS\\Text\\side_2.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "60710034"
+                    }
+                  ],
+                  "EndsBeforeLine": "",
+                  "StartsAtLine": "<h2>Sylvester (VA: Inoue Kazuhiko)</h2>",
+                  "SubSections": [],
+                  "Subfolder": "",
+                  "Tags": [],
+                  "Year": null,
+                  "Season": null,
+                  "OriginalSource": null,
+                  "Set": null,
+                  "Chapters": []
+                }
+              ]
             },
             {
               "CType": 12,
@@ -10397,9 +10397,18 @@
               "StartsAtLine": "",
               "SubSections": [],
               "Subfolder": "",
-              "Tags": [],
-              "Year": null,
-              "Season": null,
+              "Tags": [
+                {
+                  "Name": "Year",
+                  "Value": "2"
+                },
+                {
+                  "Name": "Season",
+                  "Value": "Spring"
+                }
+              ],
+              "Year": 2,
+              "Season": "Spring",
               "OriginalSource": null,
               "Set": null,
               "Chapters": []
@@ -10784,56 +10793,9 @@
               "Set": null,
               "Chapters": [
                 {
-                  "CType": 1,
-                  "Name": "Welcoming a Certain Someone",
-                  "SortOrder": "M003001018001",
-                  "POV": "",
-                  "Sources": [
-                    {
-                      "File": "FB3\\OEBPS\\Text\\40.xhtml",
-                      "Alternates": [],
-                      "OtherSide": null,
-                      "SortOrder": "60310045"
-                    },
-                    {
-                      "File": "FB3\\OEBPS\\Text\\41.xhtml",
-                      "Alternates": [],
-                      "OtherSide": null,
-                      "SortOrder": "60310046"
-                    },
-                    {
-                      "File": "FB3\\OEBPS\\Text\\42.xhtml",
-                      "Alternates": [],
-                      "OtherSide": null,
-                      "SortOrder": "60310047"
-                    },
-                    {
-                      "File": "FB3\\OEBPS\\Text\\43.xhtml",
-                      "Alternates": [],
-                      "OtherSide": null,
-                      "SortOrder": "60310048"
-                    }
-                  ],
-                  "EndsBeforeLine": "",
-                  "StartsAtLine": "",
-                  "SubSections": [],
-                  "Subfolder": "",
-                  "Tags": [
-                    {
-                      "Name": "Source",
-                      "Value": "FB3 Bonus 3"
-                    }
-                  ],
-                  "Year": null,
-                  "Season": null,
-                  "OriginalSource": "FB3 Bonus 3",
-                  "Set": null,
-                  "Chapters": []
-                },
-                {
                   "CType": 13,
                   "Name": "My First Letter",
-                  "SortOrder": "M003001018002",
+                  "SortOrder": "M003001018001",
                   "POV": "Tuuli",
                   "Sources": [
                     {
@@ -10904,6 +10866,53 @@
                   "Year": null,
                   "Season": null,
                   "OriginalSource": "M3V1 Written Bonus",
+                  "Set": null,
+                  "Chapters": []
+                },
+                {
+                  "CType": 1,
+                  "Name": "Welcoming a Certain Someone",
+                  "SortOrder": "M003001018002",
+                  "POV": "",
+                  "Sources": [
+                    {
+                      "File": "FB3\\OEBPS\\Text\\40.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "60310045"
+                    },
+                    {
+                      "File": "FB3\\OEBPS\\Text\\41.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "60310046"
+                    },
+                    {
+                      "File": "FB3\\OEBPS\\Text\\42.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "60310047"
+                    },
+                    {
+                      "File": "FB3\\OEBPS\\Text\\43.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "60310048"
+                    }
+                  ],
+                  "EndsBeforeLine": "",
+                  "StartsAtLine": "",
+                  "SubSections": [],
+                  "Subfolder": "",
+                  "Tags": [
+                    {
+                      "Name": "Source",
+                      "Value": "FB3 Bonus 3"
+                    }
+                  ],
+                  "Year": null,
+                  "Season": null,
+                  "OriginalSource": "FB3 Bonus 3",
                   "Set": null,
                   "Chapters": []
                 }
@@ -40159,9 +40168,18 @@
               "StartsAtLine": "",
               "SubSections": [],
               "Subfolder": "",
-              "Tags": [],
-              "Year": null,
-              "Season": null,
+              "Tags": [
+                {
+                  "Name": "Year",
+                  "Value": "10"
+                },
+                {
+                  "Name": "Season",
+                  "Value": "Summer"
+                }
+              ],
+              "Year": 10,
+              "Season": "Summer",
               "OriginalSource": null,
               "Set": null,
               "Chapters": [

@@ -33636,7 +33636,7 @@
               "ChapType": "Story",
               "Name": "Epilogue",
               "SortOrder": "001003033",
-              "POV": "",
+              "POV": "Gunther",
               "Sources": [
                 {
                   "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-part-1-volume-3\\OEBPS\\Text\\epilogue.xhtml",
@@ -33728,126 +33728,10 @@
                   "Chapters": []
                 },
                 {
-                  "CType": 1,
-                  "ChapType": "Bonus",
-                  "Name": "Confectionery Recipe",
-                  "SortOrder": "001003033003",
-                  "POV": "Leise",
-                  "Sources": [
-                    {
-                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-part-1-volume-3\\OEBPS\\Text\\extra2.xhtml",
-                      "Alternates": [],
-                      "OtherSide": null,
-                      "SortOrder": "10332047"
-                    }
-                  ],
-                  "LinkedChapters": [],
-                  "EndsBeforeLine": "",
-                  "StartsAtLine": "",
-                  "SubSections": [],
-                  "Tags": [
-                    {
-                      "Name": "Source",
-                      "Value": "P1V3 Bonus 2"
-                    }
-                  ],
-                  "Chapters": []
-                },
-                {
-                  "CType": 1,
-                  "ChapType": "Bonus",
-                  "Name": "Pound Cake Sampling",
-                  "SortOrder": "001003033004",
-                  "POV": "Benno",
-                  "Sources": [
-                    {
-                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-part-1-volume-3\\OEBPS\\Text\\extra3.xhtml",
-                      "Alternates": [],
-                      "OtherSide": null,
-                      "SortOrder": "10333048"
-                    },
-                    {
-                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-part-1-volume-3\\OEBPS\\Text\\insert8.xhtml",
-                      "Alternates": [],
-                      "OtherSide": null,
-                      "SortOrder": "10333049"
-                    },
-                    {
-                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-part-1-volume-3\\OEBPS\\Text\\extra3_1.xhtml",
-                      "Alternates": [],
-                      "OtherSide": null,
-                      "SortOrder": "10333050"
-                    }
-                  ],
-                  "LinkedChapters": [],
-                  "EndsBeforeLine": "",
-                  "StartsAtLine": "",
-                  "SubSections": [],
-                  "Tags": [
-                    {
-                      "Name": "Source",
-                      "Value": "P1V3 Bonus 3"
-                    }
-                  ],
-                  "Chapters": []
-                },
-                {
-                  "CType": 1,
-                  "ChapType": "Bonus",
-                  "Name": "The Master and I",
-                  "SortOrder": "001003033005",
-                  "POV": "Mark",
-                  "Sources": [
-                    {
-                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-part-1-volume-3\\OEBPS\\Text\\extra4.xhtml",
-                      "Alternates": [],
-                      "OtherSide": null,
-                      "SortOrder": "10334051"
-                    }
-                  ],
-                  "LinkedChapters": [],
-                  "EndsBeforeLine": "",
-                  "StartsAtLine": "",
-                  "SubSections": [],
-                  "Tags": [
-                    {
-                      "Name": "Source",
-                      "Value": "P1V3 Bonus 4"
-                    }
-                  ],
-                  "Chapters": []
-                },
-                {
-                  "CType": 1,
-                  "ChapType": "Bonus",
-                  "Name": "The Roots of the Guildmaster’s Worries",
-                  "SortOrder": "001003033006",
-                  "POV": "Gustav",
-                  "Sources": [
-                    {
-                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-part-1-volume-3\\OEBPS\\Text\\extra6.xhtml",
-                      "Alternates": [],
-                      "OtherSide": null,
-                      "SortOrder": "10336055"
-                    }
-                  ],
-                  "LinkedChapters": [],
-                  "EndsBeforeLine": "",
-                  "StartsAtLine": "",
-                  "SubSections": [],
-                  "Tags": [
-                    {
-                      "Name": "Source",
-                      "Value": "P1V3 Bonus 6"
-                    }
-                  ],
-                  "Chapters": []
-                },
-                {
                   "CType": 13,
                   "ChapType": "MangaWritten",
                   "Name": "As the Gilberta Company's Successor",
-                  "SortOrder": "001003033007",
+                  "SortOrder": "001003033003",
                   "POV": "Corinna",
                   "Sources": [
                     {
@@ -33931,6 +33815,122 @@
                     {
                       "Name": "Source",
                       "Value": "M1V7 Written Bonus"
+                    }
+                  ],
+                  "Chapters": []
+                },
+                {
+                  "CType": 1,
+                  "ChapType": "Bonus",
+                  "Name": "Confectionery Recipe",
+                  "SortOrder": "001003033004",
+                  "POV": "Leise",
+                  "Sources": [
+                    {
+                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-part-1-volume-3\\OEBPS\\Text\\extra2.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "10332047"
+                    }
+                  ],
+                  "LinkedChapters": [],
+                  "EndsBeforeLine": "",
+                  "StartsAtLine": "",
+                  "SubSections": [],
+                  "Tags": [
+                    {
+                      "Name": "Source",
+                      "Value": "P1V3 Bonus 2"
+                    }
+                  ],
+                  "Chapters": []
+                },
+                {
+                  "CType": 1,
+                  "ChapType": "Bonus",
+                  "Name": "Pound Cake Sampling",
+                  "SortOrder": "001003033005",
+                  "POV": "Benno",
+                  "Sources": [
+                    {
+                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-part-1-volume-3\\OEBPS\\Text\\extra3.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "10333048"
+                    },
+                    {
+                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-part-1-volume-3\\OEBPS\\Text\\insert8.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "10333049"
+                    },
+                    {
+                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-part-1-volume-3\\OEBPS\\Text\\extra3_1.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "10333050"
+                    }
+                  ],
+                  "LinkedChapters": [],
+                  "EndsBeforeLine": "",
+                  "StartsAtLine": "",
+                  "SubSections": [],
+                  "Tags": [
+                    {
+                      "Name": "Source",
+                      "Value": "P1V3 Bonus 3"
+                    }
+                  ],
+                  "Chapters": []
+                },
+                {
+                  "CType": 1,
+                  "ChapType": "Bonus",
+                  "Name": "The Master and I",
+                  "SortOrder": "001003033006",
+                  "POV": "Mark",
+                  "Sources": [
+                    {
+                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-part-1-volume-3\\OEBPS\\Text\\extra4.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "10334051"
+                    }
+                  ],
+                  "LinkedChapters": [],
+                  "EndsBeforeLine": "",
+                  "StartsAtLine": "",
+                  "SubSections": [],
+                  "Tags": [
+                    {
+                      "Name": "Source",
+                      "Value": "P1V3 Bonus 4"
+                    }
+                  ],
+                  "Chapters": []
+                },
+                {
+                  "CType": 1,
+                  "ChapType": "Bonus",
+                  "Name": "The Roots of the Guildmaster’s Worries",
+                  "SortOrder": "001003033007",
+                  "POV": "Gustav",
+                  "Sources": [
+                    {
+                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-part-1-volume-3\\OEBPS\\Text\\extra6.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "10336055"
+                    }
+                  ],
+                  "LinkedChapters": [],
+                  "EndsBeforeLine": "",
+                  "StartsAtLine": "",
+                  "SubSections": [],
+                  "Tags": [
+                    {
+                      "Name": "Source",
+                      "Value": "P1V3 Bonus 6"
                     }
                   ],
                   "Chapters": []
@@ -35420,7 +35420,7 @@
               "ChapType": "Story",
               "Name": "Epilogue",
               "SortOrder": "002001035",
-              "POV": "",
+              "POV": "Deid",
               "Sources": [
                 {
                   "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-part-2-volume-1\\OEBPS\\Text\\epilogue.xhtml",
@@ -36378,36 +36378,10 @@
               "Tags": [],
               "Chapters": [
                 {
-                  "CType": 1,
-                  "ChapType": "Bonus",
-                  "Name": "My Handful of a Little Sister",
-                  "SortOrder": "002002025001",
-                  "POV": "Tuuli",
-                  "Sources": [
-                    {
-                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-2\\OEBPS\\Text\\side3.xhtml",
-                      "Alternates": [],
-                      "OtherSide": null,
-                      "SortOrder": "60205006"
-                    }
-                  ],
-                  "LinkedChapters": [],
-                  "EndsBeforeLine": "",
-                  "StartsAtLine": "",
-                  "SubSections": [],
-                  "Tags": [
-                    {
-                      "Name": "Source",
-                      "Value": "Fanbook 2 Bonus 3"
-                    }
-                  ],
-                  "Chapters": []
-                },
-                {
                   "CType": 13,
                   "ChapType": "MangaWritten",
                   "Name": "Books and Karuta",
-                  "SortOrder": "002002025002",
+                  "SortOrder": "002002025001",
                   "POV": "Delia",
                   "Sources": [
                     {
@@ -36479,6 +36453,32 @@
                     {
                       "Name": "Source",
                       "Value": "M2V6 Written Bonus"
+                    }
+                  ],
+                  "Chapters": []
+                },
+                {
+                  "CType": 1,
+                  "ChapType": "Bonus",
+                  "Name": "My Handful of a Little Sister",
+                  "SortOrder": "002002025002",
+                  "POV": "Tuuli",
+                  "Sources": [
+                    {
+                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-2\\OEBPS\\Text\\side3.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "60205006"
+                    }
+                  ],
+                  "LinkedChapters": [],
+                  "EndsBeforeLine": "",
+                  "StartsAtLine": "",
+                  "SubSections": [],
+                  "Tags": [
+                    {
+                      "Name": "Source",
+                      "Value": "Fanbook 2 Bonus 3"
                     }
                   ],
                   "Chapters": []
@@ -39041,116 +39041,10 @@
               ]
             },
             {
-              "CType": 0,
-              "ChapType": "Story",
-              "Name": "Newly Written Narrations for Season 3 of the <em>Bookworm</em> Anime",
-              "SortOrder": "002004023",
-              "POV": "",
-              "Sources": [
-                {
-                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-7\\OEBPS\\Text\\side_2.xhtml",
-                  "Alternates": [],
-                  "OtherSide": null,
-                  "SortOrder": "60710034"
-                }
-              ],
-              "LinkedChapters": [],
-              "EndsBeforeLine": "<h2>Myne (VA: Iguchi Yuka)</h2>",
-              "StartsAtLine": "",
-              "SubSections": [],
-              "Tags": [],
-              "Chapters": [
-                {
-                  "CType": 0,
-                  "ChapType": "Story",
-                  "Name": "Myne (VA: Iguchi Yuka)",
-                  "SortOrder": "002004023001",
-                  "POV": "",
-                  "Sources": [
-                    {
-                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-7\\OEBPS\\Text\\side_2.xhtml",
-                      "Alternates": [],
-                      "OtherSide": null,
-                      "SortOrder": "60710034"
-                    }
-                  ],
-                  "LinkedChapters": [],
-                  "EndsBeforeLine": "<h2>Lutz (VA: Tamura Mutsumi)</h2>",
-                  "StartsAtLine": "<h2>Myne (VA: Iguchi Yuka)</h2>",
-                  "SubSections": [],
-                  "Tags": [],
-                  "Chapters": []
-                },
-                {
-                  "CType": 0,
-                  "ChapType": "Story",
-                  "Name": "Lutz (VA: Tamura Mutsumi)",
-                  "SortOrder": "002004023002",
-                  "POV": "",
-                  "Sources": [
-                    {
-                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-7\\OEBPS\\Text\\side_2.xhtml",
-                      "Alternates": [],
-                      "OtherSide": null,
-                      "SortOrder": "60710034"
-                    }
-                  ],
-                  "LinkedChapters": [],
-                  "EndsBeforeLine": "<h2>Ferdinand (VA: Hayami Show)</h2>",
-                  "StartsAtLine": "<h2>Lutz (VA: Tamura Mutsumi)</h2>",
-                  "SubSections": [],
-                  "Tags": [],
-                  "Chapters": []
-                },
-                {
-                  "CType": 0,
-                  "ChapType": "Story",
-                  "Name": "Ferdinand (VA: Hayami Show)",
-                  "SortOrder": "002004023003",
-                  "POV": "",
-                  "Sources": [
-                    {
-                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-7\\OEBPS\\Text\\side_2.xhtml",
-                      "Alternates": [],
-                      "OtherSide": null,
-                      "SortOrder": "60710034"
-                    }
-                  ],
-                  "LinkedChapters": [],
-                  "EndsBeforeLine": "<h2>Sylvester (VA: Inoue Kazuhiko)</h2>",
-                  "StartsAtLine": "<h2>Ferdinand (VA: Hayami Show)</h2>",
-                  "SubSections": [],
-                  "Tags": [],
-                  "Chapters": []
-                },
-                {
-                  "CType": 0,
-                  "ChapType": "Story",
-                  "Name": "Sylvester (VA: Inoue Kazuhiko)",
-                  "SortOrder": "002004023004",
-                  "POV": "",
-                  "Sources": [
-                    {
-                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-7\\OEBPS\\Text\\side_2.xhtml",
-                      "Alternates": [],
-                      "OtherSide": null,
-                      "SortOrder": "60710034"
-                    }
-                  ],
-                  "LinkedChapters": [],
-                  "EndsBeforeLine": "",
-                  "StartsAtLine": "<h2>Sylvester (VA: Inoue Kazuhiko)</h2>",
-                  "SubSections": [],
-                  "Tags": [],
-                  "Chapters": []
-                }
-              ]
-            },
-            {
               "CType": 8,
               "ChapType": "ComfyLife",
               "Name": "P2V4 Comfy Life",
-              "SortOrder": "002004024",
+              "SortOrder": "002004023",
               "POV": "",
               "Sources": [
                 {
@@ -39172,6 +39066,112 @@
               "SubSections": [],
               "Tags": [],
               "Chapters": []
+            },
+            {
+              "CType": 12,
+              "ChapType": "Fanbook",
+              "Name": "Newly Written Narrations for Season 3 of the <em>Bookworm</em> Anime",
+              "SortOrder": "002004024",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-7\\OEBPS\\Text\\side_2.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60710034"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "<h2>Myne (VA: Iguchi Yuka)</h2>",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Tags": [],
+              "Chapters": [
+                {
+                  "CType": 12,
+                  "ChapType": "Fanbook",
+                  "Name": "Myne (VA: Iguchi Yuka)",
+                  "SortOrder": "002004024001",
+                  "POV": "",
+                  "Sources": [
+                    {
+                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-7\\OEBPS\\Text\\side_2.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "60710034"
+                    }
+                  ],
+                  "LinkedChapters": [],
+                  "EndsBeforeLine": "<h2>Lutz (VA: Tamura Mutsumi)</h2>",
+                  "StartsAtLine": "<h2>Myne (VA: Iguchi Yuka)</h2>",
+                  "SubSections": [],
+                  "Tags": [],
+                  "Chapters": []
+                },
+                {
+                  "CType": 12,
+                  "ChapType": "Fanbook",
+                  "Name": "Lutz (VA: Tamura Mutsumi)",
+                  "SortOrder": "002004024002",
+                  "POV": "",
+                  "Sources": [
+                    {
+                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-7\\OEBPS\\Text\\side_2.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "60710034"
+                    }
+                  ],
+                  "LinkedChapters": [],
+                  "EndsBeforeLine": "<h2>Ferdinand (VA: Hayami Show)</h2>",
+                  "StartsAtLine": "<h2>Lutz (VA: Tamura Mutsumi)</h2>",
+                  "SubSections": [],
+                  "Tags": [],
+                  "Chapters": []
+                },
+                {
+                  "CType": 12,
+                  "ChapType": "Fanbook",
+                  "Name": "Ferdinand (VA: Hayami Show)",
+                  "SortOrder": "002004024003",
+                  "POV": "",
+                  "Sources": [
+                    {
+                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-7\\OEBPS\\Text\\side_2.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "60710034"
+                    }
+                  ],
+                  "LinkedChapters": [],
+                  "EndsBeforeLine": "<h2>Sylvester (VA: Inoue Kazuhiko)</h2>",
+                  "StartsAtLine": "<h2>Ferdinand (VA: Hayami Show)</h2>",
+                  "SubSections": [],
+                  "Tags": [],
+                  "Chapters": []
+                },
+                {
+                  "CType": 12,
+                  "ChapType": "Fanbook",
+                  "Name": "Sylvester (VA: Inoue Kazuhiko)",
+                  "SortOrder": "002004024004",
+                  "POV": "",
+                  "Sources": [
+                    {
+                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-7\\OEBPS\\Text\\side_2.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "60710034"
+                    }
+                  ],
+                  "LinkedChapters": [],
+                  "EndsBeforeLine": "",
+                  "StartsAtLine": "<h2>Sylvester (VA: Inoue Kazuhiko)</h2>",
+                  "SubSections": [],
+                  "Tags": [],
+                  "Chapters": []
+                }
+              ]
             },
             {
               "CType": 12,
@@ -39597,7 +39597,16 @@
               "EndsBeforeLine": "",
               "StartsAtLine": "",
               "SubSections": [],
-              "Tags": [],
+              "Tags": [
+                {
+                  "Name": "Year",
+                  "Value": "2"
+                },
+                {
+                  "Name": "Season",
+                  "Value": "Spring"
+                }
+              ],
               "Chapters": []
             },
             {
@@ -39950,54 +39959,10 @@
               "Tags": [],
               "Chapters": [
                 {
-                  "CType": 1,
-                  "ChapType": "Bonus",
-                  "Name": "Welcoming a Certain Someone",
-                  "SortOrder": "003001018001",
-                  "POV": "",
-                  "Sources": [
-                    {
-                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-3\\OEBPS\\Text\\40.xhtml",
-                      "Alternates": [],
-                      "OtherSide": null,
-                      "SortOrder": "60310045"
-                    },
-                    {
-                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-3\\OEBPS\\Text\\41.xhtml",
-                      "Alternates": [],
-                      "OtherSide": null,
-                      "SortOrder": "60310046"
-                    },
-                    {
-                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-3\\OEBPS\\Text\\42.xhtml",
-                      "Alternates": [],
-                      "OtherSide": null,
-                      "SortOrder": "60310047"
-                    },
-                    {
-                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-3\\OEBPS\\Text\\43.xhtml",
-                      "Alternates": [],
-                      "OtherSide": null,
-                      "SortOrder": "60310048"
-                    }
-                  ],
-                  "LinkedChapters": [],
-                  "EndsBeforeLine": "",
-                  "StartsAtLine": "",
-                  "SubSections": [],
-                  "Tags": [
-                    {
-                      "Name": "Source",
-                      "Value": "FB3 Bonus 3"
-                    }
-                  ],
-                  "Chapters": []
-                },
-                {
                   "CType": 13,
                   "ChapType": "MangaWritten",
                   "Name": "My First Letter",
-                  "SortOrder": "003001018002",
+                  "SortOrder": "003001018001",
                   "POV": "Tuuli",
                   "Sources": [
                     {
@@ -40063,6 +40028,50 @@
                     {
                       "Name": "Source",
                       "Value": "M3V1 Written Bonus"
+                    }
+                  ],
+                  "Chapters": []
+                },
+                {
+                  "CType": 1,
+                  "ChapType": "Bonus",
+                  "Name": "Welcoming a Certain Someone",
+                  "SortOrder": "003001018002",
+                  "POV": "",
+                  "Sources": [
+                    {
+                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-3\\OEBPS\\Text\\40.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "60310045"
+                    },
+                    {
+                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-3\\OEBPS\\Text\\41.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "60310046"
+                    },
+                    {
+                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-3\\OEBPS\\Text\\42.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "60310047"
+                    },
+                    {
+                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-fanbook-3\\OEBPS\\Text\\43.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "60310048"
+                    }
+                  ],
+                  "LinkedChapters": [],
+                  "EndsBeforeLine": "",
+                  "StartsAtLine": "",
+                  "SubSections": [],
+                  "Tags": [
+                    {
+                      "Name": "Source",
+                      "Value": "FB3 Bonus 3"
                     }
                   ],
                   "Chapters": []
@@ -66527,7 +66536,16 @@
               "EndsBeforeLine": "",
               "StartsAtLine": "",
               "SubSections": [],
-              "Tags": [],
+              "Tags": [
+                {
+                  "Name": "Year",
+                  "Value": "10"
+                },
+                {
+                  "Name": "Season",
+                  "Value": "Summer"
+                }
+              ],
               "Chapters": [
                 {
                   "CType": 1,
