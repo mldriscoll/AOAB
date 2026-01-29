@@ -28884,7 +28884,9 @@
         "ApiSlug": "the-blue-sea-of-marielle-clarac",
         "FileName": "the-blue-sea-of-marielle-clarac.epub",
         "Title": "",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2026-01-29",
         "Order": 113
       }
