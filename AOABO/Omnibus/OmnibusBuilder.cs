@@ -140,10 +140,10 @@ namespace AOABO.Omnibus
                 {
                     if (partScope == PartToProcess.PartOne && part.Name.Equals("Daughter of a Soldier")) continue;
                     if (partScope == PartToProcess.PartTwo && part.Name.Equals("Apprentice Shrine Maiden")) continue;
-                    if (partScope == PartToProcess.PartThree && part.Name.Equals("Adoptive Daughter of an Archduke")) continue;
-                    if (partScope == PartToProcess.PartFour && part.Name.Equals("Founder of the Royal Academy's So-Called Library Commmittee")) continue;
+                    if (partScope == PartToProcess.PartThree && part.Name.Equals("Adopted Daughter of an Archduke")) continue;
+                    if (partScope == PartToProcess.PartFour && part.Name.Equals("Founder of the Royal Academy's So-Called Library Committee")) continue;
                     if (partScope == PartToProcess.PartFive && part.Name.Equals("Avatar of a Goddess")) continue;
-                    if (partScope == PartToProcess.Hannelore && part.Name.Equals("Hannelore's Fifth Year At The Royal Academy")) continue;
+                    if (partScope == PartToProcess.Hannelore && part.Name.Equals("Hannelore's Fifth Year at the Royal Academy")) continue;
 
                     omnibus.Chapters.Remove(part);
                 }
