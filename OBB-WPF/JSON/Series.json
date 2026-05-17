@@ -24014,7 +24014,9 @@
         "ApiSlug": "tearmoon-empire-volume-16",
         "FileName": "tearmoon-empire-volume-16.epub",
         "Title": "",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2026-02-06",
         "Order": 116
       },
