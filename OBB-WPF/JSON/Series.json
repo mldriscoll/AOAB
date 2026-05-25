@@ -24465,7 +24465,9 @@
         "ApiSlug": "tearmoon-empire-short-story-collection-1",
         "FileName": "tearmoon-empire-short-story-collection-1.epub",
         "Title": "",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2026-05-20",
         "Order": 117
       },
