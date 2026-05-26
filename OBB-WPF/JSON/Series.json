@@ -2307,7 +2307,9 @@
         "ApiSlug": "ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-2",
         "FileName": "ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-2.epub",
         "Title": "",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2026-04-13",
         "Order": 202
       },
