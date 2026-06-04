@@ -24964,7 +24964,9 @@
         "ApiSlug": "the-apothecary-diaries-volume-16",
         "FileName": "the-apothecary-diaries-volume-16.epub",
         "Title": "",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2026-05-29",
         "Order": 116
       }
