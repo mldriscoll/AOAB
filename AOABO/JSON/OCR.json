@@ -1548,5 +1548,145 @@
     "Header": null,
     "Crop": true,
     "HeaderLines": 1
+  },
+  {
+    "Chapter": "New Ink and a Strange Girl",
+    "Corrections": [
+      {
+        "Original": "smelly.” ordered",
+        "Replacement": "smelly.” They ordered"
+      },
+      {
+        "Original": "ifyou",
+        "Replacement": "if you"
+      },
+      {
+        "Original": "“You’re tellin' me the paper’s somethin' new too?”",
+        "Replacement": "“You’re tellin’ me the paper’s somethin’ new too?”"
+      },
+      {
+        "Original": "thinkin'",
+        "Replacement": "thinkin’"
+      },
+      {
+        "Original": "\"Uh-huh. Uh-huh. They’re clearly using something to color the ink. The black is kind of like soot. Yeah! Let’s try it!'",
+        "Replacement": "“Uh-huh. Uh-huh. They’re clearly using something to color the ink. The black is kind of like soot. Yeah! Let’s try it!”"
+      },
+      {
+        "Original": "\"It’s your fault for forgetting!",
+        "Replacement": "“It’s your fault for forgetting!”"
+      },
+      {
+        "Original": "“Wolf made the air so tense that I couldn’t go askin' questions on a whim. I’ll do it come spring. Stick to makin' black ink till then.”",
+        "Replacement": "“Wolf made the air so tense that I couldn’t go askin’ questions on a whim. I’ll do it come spring. Stick to makin’ black ink till then.”"
+      },
+      {
+        "Original": "shuttin' down",
+        "Replacement": "shuttin’ down"
+      },
+      {
+        "Original": "7his",
+        "Replacement": "This"
+      }
+    ],
+    "Italics": [
+      {
+        "Start": "Aren’t the edges a bit... swollen?",
+        "End": "Aren’t the edges a bit... swollen?"
+      },
+      {
+        "Start": "I’d really like to meet this ink girl myself...",
+        "End": "I’d really like to meet this ink girl myself..."
+      },
+      {
+        "Start": "When did this little girl even find the time to study ink development processes?",
+        "End": "When did this little girl even find the time to study ink development processes?"
+      },
+      {
+        "Start": "I’ve never seen anyone write like that.",
+        "End": "I’ve never seen anyone write like that."
+      },
+      {
+        "Start": "Hold on... What kind",
+        "End": "with the plant paper too?"
+      }
+    ],
+    "Header": null,
+    "Crop": true,
+    "HeaderLines": 1
+  },
+  {
+    "Chapter": "Tea party with the Music Professors",
+    "Corrections": [
+      {
+        "Original": "affairs occasions",
+        "Replacement": "affairs—occasions"
+      },
+      {
+        "Original": "We trained together. If her playing satisfied Lady Eglantine, then mine should suffce as well.",
+        "Replacement": "<i>We trained together. If her playing satisfied Lady Eglantine, then mine should suffice as well.</i>"
+      },
+      {
+        "Original": "nobles'",
+        "Replacement": "nobles’"
+      },
+      {
+        "Original": "professors'",
+        "Replacement": "professors’"
+      }
+    ],
+    "Italics": [
+      {
+        "Start": "I was by no means expecting that...",
+        "End": "I was by no means expecting that..."
+      },
+      {
+        "Start": "I managed the new song at the librarian’s tea party, and yet...",
+        "End": "I managed the new song at the librarian’s tea party, and yet..."
+      },
+      {
+        "Start": "Even so, failure is not an option.",
+        "End": "Even so, failure is not an option."
+      },
+      {
+        "Start": "I never imagined one of the country’s highest authorities would attend!",
+        "End": "I never imagined one of the country’s highest authorities would attend!"
+      },
+      {
+        "Start": "I only hope I do not tarnish Lady Rozemyne’s reputation.",
+        "End": "I only hope I do not tarnish Lady Rozemyne’s reputation."
+      },
+      {
+        "Start": "I must give the greatest performance I can.",
+        "End": "I must give the greatest performance I can."
+      },
+      {
+        "Start": "Lady Rozemyne insists I am remarkable, but she is all the more impressive for composing the very melodies I play.",
+        "End": "Lady Rozemyne insists I am remarkable, but she is all the more impressive for composing the very melodies I play."
+      },
+      {
+        "Start": "When is the graduation ceremony, exactly?",
+        "End": "When is the graduation ceremony, exactly?"
+      },
+      {
+        "Start": "She truly is remarkable.",
+        "End": "She truly is remarkable."
+      },
+      {
+        "Start": "If only she loved songs as much as she loves books.",
+        "End": "If only she loved songs as much as she loves books."
+      },
+      {
+        "Start": "I should consider myself lucky she composes at all.",
+        "End": "I should consider myself lucky she composes at all."
+      },
+      {
+        "Start": "This is my privilege as Lady Rozemyne’s personal musician.",
+        "End": "This is my privilege as Lady Rozemyne’s personal musician."
+      }
+    ],
+    "Header": null,
+    "Crop": true,
+    "HeaderLines": 1
   }
 ]

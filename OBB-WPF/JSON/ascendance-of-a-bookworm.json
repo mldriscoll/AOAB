@@ -23255,6 +23255,24 @@
       "SortOrder": "70610184"
     },
     {
+      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-manga-part-4-volume-6\\item\\xhtml\\p-183.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "70611185"
+    },
+    {
+      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-manga-part-4-volume-6\\item\\xhtml\\p-186.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "70611188"
+    },
+    {
+      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-manga-part-4-volume-6\\item\\xhtml\\p-187.xhtml",
+      "Alternates": [],
+      "OtherSide": null,
+      "SortOrder": "70611189"
+    },
+    {
       "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-manga-volume-1\\item\\xhtml\\cover.xhtml",
       "Alternates": [],
       "OtherSide": null,
@@ -32186,24 +32204,6 @@
       "Alternates": [],
       "OtherSide": null,
       "SortOrder": "1"
-    },
-    {
-      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-manga-part-4-volume-6\\item\\xhtml\\p-183.xhtml",
-      "Alternates": [],
-      "OtherSide": null,
-      "SortOrder": "70611185"
-    },
-    {
-      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-manga-part-4-volume-6\\item\\xhtml\\p-186.xhtml",
-      "Alternates": [],
-      "OtherSide": null,
-      "SortOrder": "70611188"
-    },
-    {
-      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-manga-part-4-volume-6\\item\\xhtml\\p-187.xhtml",
-      "Alternates": [],
-      "OtherSide": null,
-      "SortOrder": "70611189"
     }
   ],
   "Chapters": [
@@ -40609,6 +40609,92 @@
               "SubSections": [],
               "Tags": [],
               "Chapters": [
+                {
+                  "CType": 13,
+                  "ChapType": "MangaWritten",
+                  "Name": "New Ink and a Strange Girl",
+                  "SortOrder": "002004012000",
+                  "POV": "",
+                  "Sources": [
+                    {
+                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-manga-part-2-volume-11\\item\\xhtml\\p-162.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "51809164"
+                    },
+                    {
+                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-manga-part-2-volume-11\\item\\xhtml\\p-163.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "51809165"
+                    },
+                    {
+                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-manga-part-2-volume-11\\item\\xhtml\\p-164.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "51809166"
+                    },
+                    {
+                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-manga-part-2-volume-11\\item\\xhtml\\p-165.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "51809167"
+                    },
+                    {
+                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-manga-part-2-volume-11\\item\\xhtml\\p-166.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "51809168"
+                    },
+                    {
+                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-manga-part-2-volume-11\\item\\xhtml\\p-167.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "51809169"
+                    },
+                    {
+                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-manga-part-2-volume-11\\item\\xhtml\\p-168.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "51809170"
+                    },
+                    {
+                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-manga-part-2-volume-11\\item\\xhtml\\p-169.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "51809171"
+                    },
+                    {
+                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-manga-part-2-volume-11\\item\\xhtml\\p-170.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "51809172"
+                    },
+                    {
+                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-manga-part-2-volume-11\\item\\xhtml\\p-171.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "51809173"
+                    },
+                    {
+                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-manga-part-2-volume-11\\item\\xhtml\\p-172.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "51809174"
+                    }
+                  ],
+                  "LinkedChapters": [],
+                  "EndsBeforeLine": "",
+                  "StartsAtLine": "",
+                  "SubSections": [],
+                  "Tags": [
+                    {
+                      "Name": "Source",
+                      "Value": "M2V11 Written Bonus"
+                    }
+                  ],
+                  "Chapters": []
+                },
                 {
                   "CType": 1,
                   "ChapType": "Bonus",
@@ -49542,7 +49628,82 @@
               "StartsAtLine": "",
               "SubSections": [],
               "Tags": [],
-              "Chapters": []
+              "Chapters": [
+                {
+                  "CType": 13,
+                  "ChapType": "MangaWritten",
+                  "Name": "Tea party with the Music Professors",
+                  "SortOrder": "70608",
+                  "POV": "Rosina",
+                  "Sources": [
+                    {
+                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-manga-part-4-volume-6\\item\\xhtml\\p-172.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "70609174"
+                    },
+                    {
+                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-manga-part-4-volume-6\\item\\xhtml\\p-173.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "70609175"
+                    },
+                    {
+                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-manga-part-4-volume-6\\item\\xhtml\\p-174.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "70609176"
+                    },
+                    {
+                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-manga-part-4-volume-6\\item\\xhtml\\p-175.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "70609177"
+                    },
+                    {
+                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-manga-part-4-volume-6\\item\\xhtml\\p-176.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "70609178"
+                    },
+                    {
+                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-manga-part-4-volume-6\\item\\xhtml\\p-177.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "70609179"
+                    },
+                    {
+                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-manga-part-4-volume-6\\item\\xhtml\\p-178.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "70609180"
+                    },
+                    {
+                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-manga-part-4-volume-6\\item\\xhtml\\p-179.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "70609181"
+                    },
+                    {
+                      "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-manga-part-4-volume-6\\item\\xhtml\\p-180.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "70609182"
+                    }
+                  ],
+                  "LinkedChapters": [],
+                  "EndsBeforeLine": "",
+                  "StartsAtLine": "",
+                  "SubSections": [],
+                  "Tags": [
+                    {
+                      "Name": "Source",
+                      "Value": "M4V6 Written Bonus"
+                    }
+                  ],
+                  "Chapters": []
+                }
+              ]
             },
             {
               "CType": 0,
@@ -49612,7 +49773,12 @@
                   "EndsBeforeLine": "",
                   "StartsAtLine": "",
                   "SubSections": [],
-                  "Tags": [],
+                  "Tags": [
+                    {
+                      "Name": "Source",
+                      "Value": "M4V6 Bonus"
+                    }
+                  ],
                   "Chapters": []
                 }
               ]
@@ -69643,7 +69809,7 @@
               "CType": 14,
               "ChapType": "Covers",
               "Name": "Volume 2",
-              "SortOrder": "20201",
+              "SortOrder": "01",
               "POV": "",
               "Sources": [
                 {
@@ -69657,6 +69823,53 @@
                   "Alternates": [],
                   "OtherSide": null,
                   "SortOrder": "2"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Tags": [],
+              "Chapters": []
+            },
+            {
+              "CType": 5,
+              "ChapType": "Map",
+              "Name": "Zent Eglantine's Yurgenschmidt",
+              "SortOrder": "02",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-2\\OEBPS\\Text\\map.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20221040"
+                }
+              ],
+              "LinkedChapters": [],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Tags": [],
+              "Chapters": []
+            },
+            {
+              "CType": 6,
+              "ChapType": "CharacterSheet",
+              "Name": "Hannelore's Cast",
+              "SortOrder": "03",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-2\\OEBPS\\Text\\characters1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": {
+                    "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-2\\OEBPS\\Text\\characters2.xhtml",
+                    "Alternates": [],
+                    "OtherSide": null,
+                    "SortOrder": "20224045"
+                  },
+                  "SortOrder": "20224044"
                 }
               ],
               "LinkedChapters": [],
@@ -69884,7 +70097,12 @@
                   "EndsBeforeLine": "",
                   "StartsAtLine": "",
                   "SubSections": [],
-                  "Tags": [],
+                  "Tags": [
+                    {
+                      "Name": "Source",
+                      "Value": "H5V2 Bonus 1"
+                    }
+                  ],
                   "Chapters": []
                 },
                 {
@@ -69905,7 +70123,12 @@
                   "EndsBeforeLine": "",
                   "StartsAtLine": "",
                   "SubSections": [],
-                  "Tags": [],
+                  "Tags": [
+                    {
+                      "Name": "Source",
+                      "Value": "H5V2 Bonus 2"
+                    }
+                  ],
                   "Chapters": []
                 }
               ]
@@ -70160,48 +70383,6 @@
               "Chapters": []
             },
             {
-              "CType": 5,
-              "ChapType": "Map",
-              "Name": "Zent Eglantine's Yurgenschmidt",
-              "SortOrder": "20220",
-              "POV": "",
-              "Sources": [
-                {
-                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-2\\OEBPS\\Text\\map.xhtml",
-                  "Alternates": [],
-                  "OtherSide": null,
-                  "SortOrder": "20221040"
-                }
-              ],
-              "LinkedChapters": [],
-              "EndsBeforeLine": "",
-              "StartsAtLine": "",
-              "SubSections": [],
-              "Tags": [],
-              "Chapters": []
-            },
-            {
-              "CType": 7,
-              "ChapType": "Afterword",
-              "Name": "H5V2 Afterword",
-              "SortOrder": "20221",
-              "POV": "",
-              "Sources": [
-                {
-                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-2\\OEBPS\\Text\\afterword.xhtml",
-                  "Alternates": [],
-                  "OtherSide": null,
-                  "SortOrder": "20222041"
-                }
-              ],
-              "LinkedChapters": [],
-              "EndsBeforeLine": "",
-              "StartsAtLine": "",
-              "SubSections": [],
-              "Tags": [],
-              "Chapters": []
-            },
-            {
               "CType": 8,
               "ChapType": "ComfyLife",
               "Name": "H5V2 Comfy Life",
@@ -70229,22 +70410,17 @@
               "Chapters": []
             },
             {
-              "CType": 6,
-              "ChapType": "CharacterSheet",
-              "Name": "Hannelore's Cast",
-              "SortOrder": "20223",
+              "CType": 7,
+              "ChapType": "Afterword",
+              "Name": "H5V2 Afterword",
+              "SortOrder": "9999",
               "POV": "",
               "Sources": [
                 {
-                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-2\\OEBPS\\Text\\characters1.xhtml",
+                  "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-2\\OEBPS\\Text\\afterword.xhtml",
                   "Alternates": [],
-                  "OtherSide": {
-                    "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-2\\OEBPS\\Text\\characters2.xhtml",
-                    "Alternates": [],
-                    "OtherSide": null,
-                    "SortOrder": "20224045"
-                  },
-                  "SortOrder": "20224044"
+                  "OtherSide": null,
+                  "SortOrder": "20222041"
                 }
               ],
               "LinkedChapters": [],
@@ -70283,186 +70459,6 @@
               "Alternates": [],
               "OtherSide": null,
               "SortOrder": "60705014"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Tags": [],
-          "Chapters": []
-        }
-      ]
-    },
-    {
-      "CType": 0,
-      "ChapType": "Story",
-      "Name": "ascendance-of-a-bookworm-manga-part-2-volume-11",
-      "SortOrder": "518",
-      "POV": "",
-      "Sources": [],
-      "LinkedChapters": [],
-      "EndsBeforeLine": "",
-      "StartsAtLine": "",
-      "SubSections": [],
-      "Tags": [],
-      "Chapters": [
-        {
-          "CType": 13,
-          "ChapType": "MangaWritten",
-          "Name": "New Ink and a Strange Girl",
-          "SortOrder": "002004012000",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-manga-part-2-volume-11\\item\\xhtml\\p-162.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "51809164"
-            },
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-manga-part-2-volume-11\\item\\xhtml\\p-163.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "51809165"
-            },
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-manga-part-2-volume-11\\item\\xhtml\\p-164.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "51809166"
-            },
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-manga-part-2-volume-11\\item\\xhtml\\p-165.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "51809167"
-            },
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-manga-part-2-volume-11\\item\\xhtml\\p-166.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "51809168"
-            },
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-manga-part-2-volume-11\\item\\xhtml\\p-167.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "51809169"
-            },
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-manga-part-2-volume-11\\item\\xhtml\\p-168.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "51809170"
-            },
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-manga-part-2-volume-11\\item\\xhtml\\p-169.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "51809171"
-            },
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-manga-part-2-volume-11\\item\\xhtml\\p-170.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "51809172"
-            },
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-manga-part-2-volume-11\\item\\xhtml\\p-171.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "51809173"
-            },
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-manga-part-2-volume-11\\item\\xhtml\\p-172.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "51809174"
-            }
-          ],
-          "LinkedChapters": [],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Tags": [],
-          "Chapters": []
-        }
-      ]
-    },
-    {
-      "CType": 0,
-      "ChapType": "Story",
-      "Name": "ascendance-of-a-bookworm-manga-part-4-volume-6",
-      "SortOrder": "706",
-      "POV": "",
-      "Sources": [],
-      "LinkedChapters": [],
-      "EndsBeforeLine": "",
-      "StartsAtLine": "",
-      "SubSections": [],
-      "Tags": [],
-      "Chapters": [
-        {
-          "CType": 13,
-          "ChapType": "MangaWritten",
-          "Name": "Tea party with the Music Professors",
-          "SortOrder": "70608",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-manga-part-4-volume-6\\item\\xhtml\\p-172.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "70609174"
-            },
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-manga-part-4-volume-6\\item\\xhtml\\p-173.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "70609175"
-            },
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-manga-part-4-volume-6\\item\\xhtml\\p-174.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "70609176"
-            },
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-manga-part-4-volume-6\\item\\xhtml\\p-175.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "70609177"
-            },
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-manga-part-4-volume-6\\item\\xhtml\\p-176.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "70609178"
-            },
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-manga-part-4-volume-6\\item\\xhtml\\p-177.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "70609179"
-            },
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-manga-part-4-volume-6\\item\\xhtml\\p-178.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "70609180"
-            },
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-manga-part-4-volume-6\\item\\xhtml\\p-179.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "70609181"
-            },
-            {
-              "File": "ascendance-of-a-bookworm\\ascendance-of-a-bookworm-manga-part-4-volume-6\\item\\xhtml\\p-180.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "70609182"
             }
           ],
           "LinkedChapters": [],

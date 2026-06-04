@@ -8920,6 +8920,30 @@
               "Chapters": []
             },
             {
+              "CType": 14,
+              "Name": "Manga 11",
+              "SortOrder": "M002004001x",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "M0211\\item\\xhtml\\cover.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "51802001"
+                }
+              ],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": []
+            },
+            {
               "CType": 5,
               "Name": "Map of Ehrenfest Duchy",
               "SortOrder": "M002004002",
@@ -8965,6 +8989,35 @@
               "Season": null,
               "OriginalSource": null,
               "Set": "Ehrenfest Temple Diagram",
+              "Chapters": []
+            },
+            {
+              "CType": 5,
+              "Name": "Ehrenfest Temple Map",
+              "SortOrder": "M002004003001",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "M0211\\item\\xhtml\\p-002.xhtml",
+                  "Alternates": [],
+                  "OtherSide": {
+                    "File": "M0211\\item\\xhtml\\p-003.xhtml",
+                    "Alternates": [],
+                    "OtherSide": null,
+                    "SortOrder": "51802005"
+                  },
+                  "SortOrder": "51802004"
+                }
+              ],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": "Ehrenfest Temple Map",
               "Chapters": []
             },
             {
@@ -9212,6 +9265,95 @@
               "OriginalSource": null,
               "Set": null,
               "Chapters": [
+                {
+                  "CType": 13,
+                  "Name": "New Ink and a Strange Girl",
+                  "SortOrder": "M002004012000",
+                  "POV": "",
+                  "Sources": [
+                    {
+                      "File": "M0211\\item\\xhtml\\p-162.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "51809164"
+                    },
+                    {
+                      "File": "M0211\\item\\xhtml\\p-163.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "51809165"
+                    },
+                    {
+                      "File": "M0211\\item\\xhtml\\p-164.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "51809166"
+                    },
+                    {
+                      "File": "M0211\\item\\xhtml\\p-165.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "51809167"
+                    },
+                    {
+                      "File": "M0211\\item\\xhtml\\p-166.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "51809168"
+                    },
+                    {
+                      "File": "M0211\\item\\xhtml\\p-167.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "51809169"
+                    },
+                    {
+                      "File": "M0211\\item\\xhtml\\p-168.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "51809170"
+                    },
+                    {
+                      "File": "M0211\\item\\xhtml\\p-169.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "51809171"
+                    },
+                    {
+                      "File": "M0211\\item\\xhtml\\p-170.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "51809172"
+                    },
+                    {
+                      "File": "M0211\\item\\xhtml\\p-171.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "51809173"
+                    },
+                    {
+                      "File": "M0211\\item\\xhtml\\p-172.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "51809174"
+                    }
+                  ],
+                  "EndsBeforeLine": "",
+                  "StartsAtLine": "",
+                  "SubSections": [],
+                  "Subfolder": "",
+                  "Tags": [
+                    {
+                      "Name": "Source",
+                      "Value": "M2V11 Written Bonus"
+                    }
+                  ],
+                  "Year": null,
+                  "Season": null,
+                  "OriginalSource": "M2V11 Written Bonus",
+                  "Set": null,
+                  "Chapters": []
+                },
                 {
                   "CType": 1,
                   "Name": "Beruf Certification",
@@ -9795,6 +9937,36 @@
                   "Alternates": [],
                   "OtherSide": null,
                   "SortOrder": "10732052"
+                }
+              ],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": []
+            },
+            {
+              "CType": 8,
+              "Name": "Gutenberg Craftspeople",
+              "SortOrder": "M002004023z",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "M0211\\item\\xhtml\\p-176.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "51811178"
+                },
+                {
+                  "File": "M0211\\item\\xhtml\\p-177.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "51811179"
                 }
               ],
               "EndsBeforeLine": "",
@@ -18437,6 +18609,30 @@
               "Chapters": []
             },
             {
+              "CType": 14,
+              "Name": "Manga 6",
+              "SortOrder": "M004002002z",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "M0406\\item\\xhtml\\cover.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "70602001"
+                }
+              ],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": []
+            },
+            {
               "CType": 5,
               "Name": "Map of Ehrenfest Duchy",
               "SortOrder": "M004002003",
@@ -18449,6 +18645,12 @@
                   ],
                   "OtherSide": null,
                   "SortOrder": "11428050"
+                },
+                {
+                  "File": "M0406\\item\\xhtml\\p-003.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "70602005"
                 }
               ],
               "EndsBeforeLine": "",
@@ -18533,6 +18735,12 @@
                   "Alternates": [],
                   "OtherSide": null,
                   "SortOrder": "70502004"
+                },
+                {
+                  "File": "M0406\\item\\xhtml\\p-002.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "70602004"
                 }
               ],
               "EndsBeforeLine": "",
@@ -18574,6 +18782,36 @@
               "Season": null,
               "OriginalSource": null,
               "Set": "Former Veronica Faction Students",
+              "Chapters": []
+            },
+            {
+              "CType": 6,
+              "Name": "Prince Anastasius' Retainers",
+              "SortOrder": "M004002007x",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "M0406\\item\\xhtml\\p-184.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "70611186"
+                },
+                {
+                  "File": "M0406\\item\\xhtml\\p-185.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "70611187"
+                }
+              ],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": "Prince Anastasius' Retainers",
               "Chapters": []
             },
             {
@@ -18970,7 +19208,85 @@
               "Season": null,
               "OriginalSource": null,
               "Set": null,
-              "Chapters": []
+              "Chapters": [
+                {
+                  "CType": 13,
+                  "Name": "Tea party with the Music Professors",
+                  "SortOrder": "M70608",
+                  "POV": "Rosina",
+                  "Sources": [
+                    {
+                      "File": "M0406\\item\\xhtml\\p-172.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "70609174"
+                    },
+                    {
+                      "File": "M0406\\item\\xhtml\\p-173.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "70609175"
+                    },
+                    {
+                      "File": "M0406\\item\\xhtml\\p-174.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "70609176"
+                    },
+                    {
+                      "File": "M0406\\item\\xhtml\\p-175.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "70609177"
+                    },
+                    {
+                      "File": "M0406\\item\\xhtml\\p-176.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "70609178"
+                    },
+                    {
+                      "File": "M0406\\item\\xhtml\\p-177.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "70609179"
+                    },
+                    {
+                      "File": "M0406\\item\\xhtml\\p-178.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "70609180"
+                    },
+                    {
+                      "File": "M0406\\item\\xhtml\\p-179.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "70609181"
+                    },
+                    {
+                      "File": "M0406\\item\\xhtml\\p-180.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "70609182"
+                    }
+                  ],
+                  "EndsBeforeLine": "",
+                  "StartsAtLine": "",
+                  "SubSections": [],
+                  "Subfolder": "",
+                  "Tags": [
+                    {
+                      "Name": "Source",
+                      "Value": "M4V6 Written Bonus"
+                    }
+                  ],
+                  "Year": null,
+                  "Season": null,
+                  "OriginalSource": "M4V6 Written Bonus",
+                  "Set": null,
+                  "Chapters": []
+                }
+              ]
             },
             {
               "CType": 0,
@@ -18994,7 +19310,67 @@
               "Season": null,
               "OriginalSource": null,
               "Set": null,
-              "Chapters": []
+              "Chapters": [
+                {
+                  "CType": 1,
+                  "Name": "Lieseleta's Resolve",
+                  "SortOrder": "M70607",
+                  "POV": "Lieseleta",
+                  "Sources": [
+                    {
+                      "File": "M0406\\item\\xhtml\\p-165.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "70608167"
+                    },
+                    {
+                      "File": "M0406\\item\\xhtml\\p-166.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "70608168"
+                    },
+                    {
+                      "File": "M0406\\item\\xhtml\\p-167.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "70608169"
+                    },
+                    {
+                      "File": "M0406\\item\\xhtml\\p-168.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "70608170"
+                    },
+                    {
+                      "File": "M0406\\item\\xhtml\\p-169.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "70608171"
+                    },
+                    {
+                      "File": "M0406\\item\\xhtml\\p-170.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "70608172"
+                    }
+                  ],
+                  "EndsBeforeLine": "",
+                  "StartsAtLine": "",
+                  "SubSections": [],
+                  "Subfolder": "",
+                  "Tags": [
+                    {
+                      "Name": "Source",
+                      "Value": "M4V6 Bonus"
+                    }
+                  ],
+                  "Year": null,
+                  "Season": null,
+                  "OriginalSource": "M4V6 Bonus",
+                  "Set": null,
+                  "Chapters": []
+                }
+              ]
             },
             {
               "CType": 0,
@@ -41113,6 +41489,725 @@
                   "Alternates": [],
                   "OtherSide": null,
                   "SortOrder": "20124043"
+                }
+              ],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": []
+            }
+          ]
+        },
+        {
+          "CType": 4,
+          "Name": "Volume 2",
+          "SortOrder": "M202",
+          "POV": "",
+          "Sources": [
+            {
+              "File": "0602\\OEBPS\\Text\\cover.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "20202001"
+            }
+          ],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Subfolder": "",
+          "Tags": [],
+          "Year": null,
+          "Season": null,
+          "OriginalSource": null,
+          "Set": null,
+          "Chapters": [
+            {
+              "CType": 14,
+              "Name": "Volume 2",
+              "SortOrder": "M01",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "0602\\OEBPS\\Text\\bonus2.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "1"
+                },
+                {
+                  "File": "0602\\OEBPS\\Text\\bonus1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "2"
+                }
+              ],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": []
+            },
+            {
+              "CType": 5,
+              "Name": "Zent Eglantine's Yurgenschmidt",
+              "SortOrder": "M02",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "0602\\OEBPS\\Text\\map.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20221040"
+                }
+              ],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": "Zent Eglantine's Yurgenschmidt",
+              "Chapters": []
+            },
+            {
+              "CType": 6,
+              "Name": "Hannelore's Cast",
+              "SortOrder": "M03",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "0602\\OEBPS\\Text\\characters1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": {
+                    "File": "0602\\OEBPS\\Text\\characters2.xhtml",
+                    "Alternates": [],
+                    "OtherSide": null,
+                    "SortOrder": "20224045"
+                  },
+                  "SortOrder": "20224044"
+                }
+              ],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": "Hannelore's Cast",
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "Name": "Prologue",
+              "SortOrder": "M20202",
+              "POV": "Kenntrips",
+              "Sources": [
+                {
+                  "File": "0602\\OEBPS\\Text\\prologue.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20203003"
+                },
+                {
+                  "File": "0602\\OEBPS\\Text\\insert1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20203004"
+                }
+              ],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "Name": "Convincing the Retainers",
+              "SortOrder": "M20203",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "0602\\OEBPS\\Text\\chapter1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20204005"
+                }
+              ],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "Name": "Hannelore’s Lesson",
+              "SortOrder": "M20204",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "0602\\OEBPS\\Text\\chapter2.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20205006"
+                },
+                {
+                  "File": "0602\\OEBPS\\Text\\insert2.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20205007"
+                },
+                {
+                  "File": "0602\\OEBPS\\Text\\chapter2_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20205008"
+                }
+              ],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "Name": "Exchanging Intelligence with Alexandria",
+              "SortOrder": "M20205",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "0602\\OEBPS\\Text\\chapter3.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20206009"
+                },
+                {
+                  "File": "0602\\OEBPS\\Text\\insert3.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20206010"
+                },
+                {
+                  "File": "0602\\OEBPS\\Text\\chapter3_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20206011"
+                }
+              ],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "Name": "Summons from the Zent",
+              "SortOrder": "M20206",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "0602\\OEBPS\\Text\\chapter4.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20207012"
+                },
+                {
+                  "File": "0602\\OEBPS\\Text\\insert4.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20207013"
+                },
+                {
+                  "File": "0602\\OEBPS\\Text\\chapter4_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20207014"
+                }
+              ],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "Name": "Irregular Regularity",
+              "SortOrder": "M20207",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "0602\\OEBPS\\Text\\chapter5.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20208015"
+                },
+                {
+                  "File": "0602\\OEBPS\\Text\\insert5.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20208016"
+                },
+                {
+                  "File": "0602\\OEBPS\\Text\\chapter5_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20208017"
+                }
+              ],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "Name": "The Ripples of Wilfried’s Words",
+              "SortOrder": "M20208",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "0602\\OEBPS\\Text\\chapter6.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20209018"
+                }
+              ],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": [
+                {
+                  "CType": 1,
+                  "Name": "An Error and an Interrogation",
+                  "SortOrder": "M20218",
+                  "POV": "Charlotte",
+                  "Sources": [
+                    {
+                      "File": "0602\\OEBPS\\Text\\chapter15.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "20219038"
+                    }
+                  ],
+                  "EndsBeforeLine": "",
+                  "StartsAtLine": "",
+                  "SubSections": [],
+                  "Subfolder": "",
+                  "Tags": [
+                    {
+                      "Name": "Source",
+                      "Value": "H5V2 Bonus 1"
+                    }
+                  ],
+                  "Year": null,
+                  "Season": null,
+                  "OriginalSource": "H5V2 Bonus 1",
+                  "Set": null,
+                  "Chapters": []
+                },
+                {
+                  "CType": 1,
+                  "Name": "Trials of the Zent’s First Year",
+                  "SortOrder": "M20219",
+                  "POV": "Eglantine",
+                  "Sources": [
+                    {
+                      "File": "0602\\OEBPS\\Text\\chapter16.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "20220039"
+                    }
+                  ],
+                  "EndsBeforeLine": "",
+                  "StartsAtLine": "",
+                  "SubSections": [],
+                  "Subfolder": "",
+                  "Tags": [
+                    {
+                      "Name": "Source",
+                      "Value": "H5V2 Bonus 2"
+                    }
+                  ],
+                  "Year": null,
+                  "Season": null,
+                  "OriginalSource": "H5V2 Bonus 2",
+                  "Set": null,
+                  "Chapters": []
+                }
+              ]
+            },
+            {
+              "CType": 0,
+              "Name": "The Zent’s Announcement",
+              "SortOrder": "M20209",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "0602\\OEBPS\\Text\\chapter7.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20210019"
+                }
+              ],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "Name": "Speaking with Ortwin",
+              "SortOrder": "M20210",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "0602\\OEBPS\\Text\\chapter8.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20211020"
+                },
+                {
+                  "File": "0602\\OEBPS\\Text\\insert6.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20211021"
+                },
+                {
+                  "File": "0602\\OEBPS\\Text\\chapter8_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20211022"
+                }
+              ],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "Name": "Returning to Dunkelfelger",
+              "SortOrder": "M20211",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "0602\\OEBPS\\Text\\chapter9.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20212023"
+                },
+                {
+                  "File": "0602\\OEBPS\\Text\\insert7.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20212024"
+                },
+                {
+                  "File": "0602\\OEBPS\\Text\\chapter9_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20212025"
+                }
+              ],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "Name": "Ditter at the Dormitory",
+              "SortOrder": "M20212",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "0602\\OEBPS\\Text\\chapter10.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20213026"
+                }
+              ],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "Name": "Feelings and Ditter",
+              "SortOrder": "M20213",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "0602\\OEBPS\\Text\\chapter11.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20214027"
+                },
+                {
+                  "File": "0602\\OEBPS\\Text\\insert8.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20214028"
+                },
+                {
+                  "File": "0602\\OEBPS\\Text\\chapter11_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20214029"
+                }
+              ],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "Name": "Daughter of the Second Wife",
+              "SortOrder": "M20214",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "0602\\OEBPS\\Text\\chapter12.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20215030"
+                }
+              ],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "Name": "Whirling Practice",
+              "SortOrder": "M20215",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "0602\\OEBPS\\Text\\chapter13.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20216031"
+                },
+                {
+                  "File": "0602\\OEBPS\\Text\\insert9.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20216032"
+                },
+                {
+                  "File": "0602\\OEBPS\\Text\\chapter13_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20216033"
+                }
+              ],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "Name": "A Breaktime Conversation",
+              "SortOrder": "M20216",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "0602\\OEBPS\\Text\\chapter14.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20217034"
+                },
+                {
+                  "File": "0602\\OEBPS\\Text\\insert10.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20217035"
+                },
+                {
+                  "File": "0602\\OEBPS\\Text\\chapter14_1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20217036"
+                }
+              ],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "Name": "Epilogue",
+              "SortOrder": "M20217",
+              "POV": "Ortwin",
+              "Sources": [
+                {
+                  "File": "0602\\OEBPS\\Text\\epilogue.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20218037"
+                }
+              ],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": []
+            },
+            {
+              "CType": 8,
+              "Name": "H5V2 Comfy Life",
+              "SortOrder": "M20222",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "0602\\OEBPS\\Text\\manga1.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20223042"
+                },
+                {
+                  "File": "0602\\OEBPS\\Text\\manga2.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20223043"
+                }
+              ],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": []
+            },
+            {
+              "CType": 7,
+              "Name": "H5V2 Afterword",
+              "SortOrder": "M9999",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "0602\\OEBPS\\Text\\afterword.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "20222041"
                 }
               ],
               "EndsBeforeLine": "",

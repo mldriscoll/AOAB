@@ -451,5 +451,25 @@
     "FileName": "Ascendance of a Bookworm (Manga) Part 3 Volume 5_{0}.epub",
     "Quality": [ "3840", "2560", "1400" ],
     "OutputUnusedFiles": false
+  },
+  {
+    "InternalName": "M0211",
+    "ApiSlug": "ascendance-of-a-bookworm-manga-part-2-volume-11",
+    "FileName": "Ascendance of a Bookworm (Manga) Part 2 Volume 11_{0}.epub",
+    "Quality": [ "3840", "2560", "1400" ],
+    "OutputUnusedFiles": false
+  },
+  {
+    "InternalName": "M0406",
+    "ApiSlug": "ascendance-of-a-bookworm-manga-part-4-volume-6",
+    "FileName": "Ascendance of a Bookworm (Manga) Part 4 Volume 6_{0}.epub",
+    "Quality": [ "3840", "2560", "1400" ],
+    "OutputUnusedFiles": false
+  },
+  {
+    "InternalName": "0602",
+    "ApiSlug": "ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-2",
+    "FileName": "ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-2.epub",
+    "OutputUnusedFiles": false
   }
 ]

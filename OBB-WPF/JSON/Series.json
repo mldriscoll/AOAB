@@ -3017,7 +3017,9 @@
         "ApiSlug": "ascendance-of-a-bookworm-manga-part-4-volume-6",
         "FileName": "ascendance-of-a-bookworm-manga-part-4-volume-6.epub",
         "Title": "",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2026-03-11",
         "Order": 706
       },
@@ -3025,7 +3027,9 @@
         "ApiSlug": "ascendance-of-a-bookworm-manga-part-2-volume-11",
         "FileName": "ascendance-of-a-bookworm-manga-part-2-volume-11.epub",
         "Title": "",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2026-05-06",
         "Order": 518
       },
