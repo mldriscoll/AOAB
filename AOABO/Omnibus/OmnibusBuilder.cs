@@ -341,6 +341,11 @@ namespace AOABO.Omnibus
                         newChapter.Contents = await File.ReadAllTextAsync(file);
                     }
                     else
+                    {
+                        if (!Configuration.Options.Image.IncludeImagesInChapters)
+                        {
+                            chapter.Sources.RemoveAll(x => x.File.Contains("insert"));
+                        }
                         foreach (var chapterFile in chapter.Sources)
                         {
                             try
@@ -396,6 +401,7 @@ namespace AOABO.Omnibus
                                 throw new Exception($"{ex.Message} while processing file {chapterFile}", ex);
                             }
                         }
+                    }
 
                     if (Configuration.Options.Chapter.UpdateChapterNames)
                     {
