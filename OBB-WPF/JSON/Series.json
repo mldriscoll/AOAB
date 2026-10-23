@@ -3505,7 +3505,9 @@
         "ApiSlug": "ascendance-of-a-bookworm-manga-part-2-volume-12",
         "FileName": "ascendance-of-a-bookworm-manga-part-2-volume-12.epub",
         "Title": "",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2026-10-21",
         "Order": 119
       }
