@@ -25653,7 +25653,9 @@
         "ApiSlug": "tearmoon-empire-volume-17",
         "FileName": "tearmoon-empire-volume-17.epub",
         "Title": "",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2026-08-21",
         "Order": 117
       },
