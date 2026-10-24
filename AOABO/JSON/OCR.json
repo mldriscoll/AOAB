@@ -1688,5 +1688,47 @@
     "Header": null,
     "Crop": true,
     "HeaderLines": 1
+  },
+  {
+    "Chapter": "For Lady Rozemyne",
+    "Corrections": [
+      {
+        "Original": "\"You, Fran, Wilma, and everyone in the orphanage love her as much as I </p>\r\n<br />",
+        "Replacement": "“You, Fran, Wilma, and everyone in the orphanage love her as much as I do!”</p>"
+      },
+      {
+        "Original": "That’s right. lhe High Priest thrust all this horribleness upon her.",
+        "Replacement": "<i>That’s right. The High Priest thrust all this horribleness upon her.</i>"
+      },
+      {
+        "Original": "and a foreman",
+        "Replacement": "<i>and</i> a foreman"
+      },
+      {
+        "Original": "\"He was the one who",
+        "Replacement": "“He was the one who—”"
+      }
+    ],
+    "Italics": [
+      {
+        "Start": "But it’s true!",
+        "End": "But it’s true!"
+      },
+      {
+        "Start": "If she can make a highbeast, I trust it won’t be long before she masters letters too.",
+        "End": "If she can make a highbeast, I trust it won’t be long before she masters letters too."
+      },
+      {
+        "Start": "Though it looks a tad—well, a lot—more freakish.",
+        "End": "Though it looks a tad—well, a lot—more freakish."
+      },
+      {
+        "Start": "A message from the High Priest!",
+        "End": "A message from the High Priest!"
+      }
+    ],
+    "Header": null,
+    "Crop": true,
+    "HeaderLines": 1
   }
 ]

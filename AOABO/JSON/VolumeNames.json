@@ -471,5 +471,12 @@
     "ApiSlug": "ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-2",
     "FileName": "ascendance-of-a-bookworm-hannelore-s-fifth-year-at-the-royal-academy-volume-2.epub",
     "OutputUnusedFiles": false
+  },
+  {
+    "InternalName": "M0306",
+    "ApiSlug": "ascendance-of-a-bookworm-manga-part-3-volume-6",
+    "FileName": "Ascendance of a Bookworm (Manga) Part 3 Volume 6_{0}.epub",
+    "Quality": [ "3840", "2560", "1400" ],
+    "OutputUnusedFiles": false
   }
 ]

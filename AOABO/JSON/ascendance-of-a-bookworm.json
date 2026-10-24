@@ -9269,7 +9269,7 @@
                   "CType": 13,
                   "Name": "New Ink and a Strange Girl",
                   "SortOrder": "M002004012000",
-                  "POV": "",
+                  "POV": "Heidi",
                   "Sources": [
                     {
                       "File": "M0211\\item\\xhtml\\p-162.xhtml",
@@ -10473,6 +10473,12 @@
                   ],
                   "OtherSide": null,
                   "SortOrder": "60202004"
+                },
+                {
+                  "File": "M0306\\item\\xhtml\\p-002.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60602004"
                 }
               ],
               "EndsBeforeLine": "",
@@ -11220,7 +11226,50 @@
               "Season": null,
               "OriginalSource": null,
               "Set": null,
-              "Chapters": []
+              "Chapters": [
+                {
+                  "CType": 1,
+                  "Name": "Ferdinand and Soup",
+                  "SortOrder": "M60607",
+                  "POV": "Ferdinand",
+                  "Sources": [
+                    {
+                      "File": "M0306\\item\\xhtml\\p-155.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "60608157"
+                    },
+                    {
+                      "File": "M0306\\item\\xhtml\\p-156.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "60608158"
+                    },
+                    {
+                      "File": "M0306\\item\\xhtml\\p-157.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "60608159"
+                    },
+                    {
+                      "File": "M0306\\item\\xhtml\\p-158.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "60608160"
+                    }
+                  ],
+                  "EndsBeforeLine": "",
+                  "StartsAtLine": "",
+                  "SubSections": [],
+                  "Subfolder": "",
+                  "Tags": [],
+                  "Year": null,
+                  "Season": null,
+                  "OriginalSource": null,
+                  "Set": null,
+                  "Chapters": []
+                }
+              ]
             },
             {
               "CType": 0,
@@ -12313,6 +12362,30 @@
               "Chapters": []
             },
             {
+              "CType": 14,
+              "Name": "Manga 6",
+              "SortOrder": "M003002003b",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "M0306\\item\\xhtml\\cover.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60602001"
+                }
+              ],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": []
+            },
+            {
               "CType": 5,
               "Name": "Map of Ehrenfest Duchy",
               "SortOrder": "M003002004",
@@ -12325,6 +12398,12 @@
                   ],
                   "OtherSide": null,
                   "SortOrder": "10904004"
+                },
+                {
+                  "File": "M0306\\item\\xhtml\\p-003.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60602005"
                 }
               ],
               "EndsBeforeLine": "",
@@ -12894,6 +12973,78 @@
               "OriginalSource": null,
               "Set": null,
               "Chapters": [
+                {
+                  "CType": 13,
+                  "Name": "For Lady Rozemyne",
+                  "SortOrder": "M001",
+                  "POV": "Monika",
+                  "Sources": [
+                    {
+                      "File": "M0306\\item\\xhtml\\p-160.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "60609162"
+                    },
+                    {
+                      "File": "M0306\\item\\xhtml\\p-161.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "60609163"
+                    },
+                    {
+                      "File": "M0306\\item\\xhtml\\p-162.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "60609164"
+                    },
+                    {
+                      "File": "M0306\\item\\xhtml\\p-163.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "60609165"
+                    },
+                    {
+                      "File": "M0306\\item\\xhtml\\p-164.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "60609166"
+                    },
+                    {
+                      "File": "M0306\\item\\xhtml\\p-165.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "60609167"
+                    },
+                    {
+                      "File": "M0306\\item\\xhtml\\p-166.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "60609168"
+                    },
+                    {
+                      "File": "M0306\\item\\xhtml\\p-167.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "60609169"
+                    },
+                    {
+                      "File": "M0306\\item\\xhtml\\p-168.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "60609170"
+                    }
+                  ],
+                  "EndsBeforeLine": "",
+                  "StartsAtLine": "",
+                  "SubSections": [],
+                  "Subfolder": "",
+                  "Tags": [],
+                  "Year": null,
+                  "Season": null,
+                  "OriginalSource": null,
+                  "Set": null,
+                  "Chapters": []
+                },
                 {
                   "CType": 1,
                   "Name": "Wilfried’s Day as the High Bishop",
@@ -42252,6 +42403,3296 @@
               "Alternates": [],
               "OtherSide": null,
               "SortOrder": "60705014"
+            }
+          ],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Subfolder": "",
+          "Tags": [],
+          "Year": null,
+          "Season": null,
+          "OriginalSource": null,
+          "Set": null,
+          "Chapters": []
+        }
+      ]
+    },
+    {
+      "CType": 0,
+      "Name": "ascendance-of-a-bookworm-manga-part-2-volume-12",
+      "SortOrder": "M519",
+      "POV": "",
+      "Sources": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "SubSections": [],
+      "Subfolder": "",
+      "Tags": [],
+      "Year": null,
+      "Season": null,
+      "OriginalSource": null,
+      "Set": null,
+      "Chapters": [
+        {
+          "CType": 0,
+          "Name": "Cover",
+          "SortOrder": "M51901",
+          "POV": "",
+          "Sources": [
+            {
+              "File": "M0212\\item\\xhtml\\cover.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51902001"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-000.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51902002"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-001.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51902003"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-002.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51902004"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-003.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51902005"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-004.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51902006"
+            }
+          ],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Subfolder": "",
+          "Tags": [],
+          "Year": null,
+          "Season": null,
+          "OriginalSource": null,
+          "Set": null,
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "Name": "Chapter 56: Double Disappearance",
+          "SortOrder": "M51902",
+          "POV": "",
+          "Sources": [
+            {
+              "File": "M0212\\item\\xhtml\\p-005.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51903007"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-006.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51903008"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-007.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51903009"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-008.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51903010"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-009.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51903011"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-010.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51903012"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-011.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51903013"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-012.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51903014"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-013.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51903015"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-014.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51903016"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-015.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51903017"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-016.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51903018"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-017.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51903019"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-018.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51903020"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-019.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51903021"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-020.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51903022"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-021.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51903023"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-022.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51903024"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-023.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51903025"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-024.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51903026"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-025.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51903027"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-026.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51903028"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-027.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51903029"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-028.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51903030"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-029.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51903031"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-030.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51903032"
+            }
+          ],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Subfolder": "",
+          "Tags": [],
+          "Year": null,
+          "Season": null,
+          "OriginalSource": null,
+          "Set": null,
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "Name": "Chapter 57: Letting an Attendant Go",
+          "SortOrder": "M51903",
+          "POV": "",
+          "Sources": [
+            {
+              "File": "M0212\\item\\xhtml\\p-031.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51904033"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-032.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51904034"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-033.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51904035"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-034.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51904036"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-035.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51904037"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-036.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51904038"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-037.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51904039"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-038.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51904040"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-039.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51904041"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-040.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51904042"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-041.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51904043"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-042.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51904044"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-043.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51904045"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-044.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51904046"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-045.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51904047"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-046.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51904048"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-047.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51904049"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-048.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51904050"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-049.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51904051"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-050.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51904052"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-051.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51904053"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-052.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51904054"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-053.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51904055"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-054.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51904056"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-055.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51904057"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-056.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51904058"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-057.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51904059"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-058.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51904060"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-059.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51904061"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-060.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51904062"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-061.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51904063"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-062.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51904064"
+            }
+          ],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Subfolder": "",
+          "Tags": [],
+          "Year": null,
+          "Season": null,
+          "OriginalSource": null,
+          "Set": null,
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "Name": "Chapter 56: Noble from Another Duchy",
+          "SortOrder": "M51904",
+          "POV": "",
+          "Sources": [
+            {
+              "File": "M0212\\item\\xhtml\\p-063.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51905065"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-064.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51905066"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-065.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51905067"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-066.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51905068"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-067.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51905069"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-068.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51905070"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-069.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51905071"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-070.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51905072"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-071.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51905073"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-072.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51905074"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-073.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51905075"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-074.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51905076"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-075.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51905077"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-076.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51905078"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-077.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51905079"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-078.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51905080"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-079.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51905081"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-080.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51905082"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-081.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51905083"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-082.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51905084"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-083.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51905085"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-084.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51905086"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-085.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51905087"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-086.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51905088"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-087.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51905089"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-088.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51905090"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-089.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51905091"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-090.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51905092"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-091.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51905093"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-092.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51905094"
+            }
+          ],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Subfolder": "",
+          "Tags": [],
+          "Year": null,
+          "Season": null,
+          "OriginalSource": null,
+          "Set": null,
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "Name": "Chapter 59: Battle at the Temple",
+          "SortOrder": "M51905",
+          "POV": "",
+          "Sources": [
+            {
+              "File": "M0212\\item\\xhtml\\p-093.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51906095"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-094.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51906096"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-095.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51906097"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-096.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51906098"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-097.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51906099"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-098.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51906100"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-099.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51906101"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-100.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51906102"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-101.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51906103"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-102.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51906104"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-103.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51906105"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-104.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51906106"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-105.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51906107"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-106.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51906108"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-107.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51906109"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-108.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51906110"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-109.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51906111"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-110.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51906112"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-111.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51906113"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-112.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51906114"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-113.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51906115"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-114.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51906116"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-115.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51906117"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-116.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51906118"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-117.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51906119"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-118.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51906120"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-119.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51906121"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-120.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51906122"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-121.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51906123"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-122.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51906124"
+            }
+          ],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Subfolder": "",
+          "Tags": [],
+          "Year": null,
+          "Season": null,
+          "OriginalSource": null,
+          "Set": null,
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "Name": "Chapter 60: The Black Charm",
+          "SortOrder": "M51906",
+          "POV": "",
+          "Sources": [
+            {
+              "File": "M0212\\item\\xhtml\\p-123.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51907125"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-124.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51907126"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-125.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51907127"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-126.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51907128"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-127.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51907129"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-128.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51907130"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-129.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51907131"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-130.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51907132"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-131.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51907133"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-132.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51907134"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-133.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51907135"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-134.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51907136"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-135.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51907137"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-136.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51907138"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-137.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51907139"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-138.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51907140"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-139.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51907141"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-140.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51907142"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-141.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51907143"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-142.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51907144"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-143.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51907145"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-144.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51907146"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-145.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51907147"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-146.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51907148"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-147.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51907149"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-148.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51907150"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-149.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51907151"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-150.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51907152"
+            }
+          ],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Subfolder": "",
+          "Tags": [],
+          "Year": null,
+          "Season": null,
+          "OriginalSource": null,
+          "Set": null,
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "Name": "Extra: Taking Refuge",
+          "SortOrder": "M51907",
+          "POV": "",
+          "Sources": [
+            {
+              "File": "M0212\\item\\xhtml\\p-151.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51908153"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-152.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51908154"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-153.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51908155"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-154.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51908156"
+            }
+          ],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Subfolder": "",
+          "Tags": [],
+          "Year": null,
+          "Season": null,
+          "OriginalSource": null,
+          "Set": null,
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "Name": "Story: A Shadow Falls",
+          "SortOrder": "M51908",
+          "POV": "",
+          "Sources": [
+            {
+              "File": "M0212\\item\\xhtml\\p-155.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51909157"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-156.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51909158"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-157.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51909159"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-158.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51909160"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-159.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51909161"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-160.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51909162"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-161.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51909163"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-162.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51909164"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-163.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51909165"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-164.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51909166"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-165.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51909167"
+            }
+          ],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Subfolder": "",
+          "Tags": [],
+          "Year": null,
+          "Season": null,
+          "OriginalSource": null,
+          "Set": null,
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "Name": "Afterword: Author's",
+          "SortOrder": "M51909",
+          "POV": "",
+          "Sources": [
+            {
+              "File": "M0212\\item\\xhtml\\p-166.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51910168"
+            }
+          ],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Subfolder": "",
+          "Tags": [],
+          "Year": null,
+          "Season": null,
+          "OriginalSource": null,
+          "Set": null,
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "Name": "Afterword: Artist's",
+          "SortOrder": "M51910",
+          "POV": "",
+          "Sources": [
+            {
+              "File": "M0212\\item\\xhtml\\p-167.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51911169"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-168.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51911170"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-169.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51911171"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-170.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51911172"
+            },
+            {
+              "File": "M0212\\item\\xhtml\\p-171.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "51911173"
+            }
+          ],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Subfolder": "",
+          "Tags": [],
+          "Year": null,
+          "Season": null,
+          "OriginalSource": null,
+          "Set": null,
+          "Chapters": []
+        }
+      ]
+    },
+    {
+      "CType": 0,
+      "Name": "ascendance-of-a-bookworm-fanbook-8",
+      "SortOrder": "M608",
+      "POV": "",
+      "Sources": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "SubSections": [],
+      "Subfolder": "",
+      "Tags": [],
+      "Year": null,
+      "Season": null,
+      "OriginalSource": null,
+      "Set": null,
+      "Chapters": [
+        {
+          "CType": 0,
+          "Name": "Landmarks",
+          "SortOrder": "M60801",
+          "POV": "",
+          "Sources": [
+            {
+              "File": "FB8\\OEBPS\\Text\\cover.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "60802001"
+            },
+            {
+              "File": "FB8\\OEBPS\\Text\\toc.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "60802002"
+            }
+          ],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Subfolder": "",
+          "Tags": [],
+          "Year": null,
+          "Season": null,
+          "OriginalSource": null,
+          "Set": null,
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "Name": "Color Art Gallery",
+          "SortOrder": "M60802",
+          "POV": "",
+          "Sources": [
+            {
+              "File": "FB8\\OEBPS\\Text\\01.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "60803003"
+            },
+            {
+              "File": "FB8\\OEBPS\\Text\\02.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "60803004"
+            }
+          ],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Subfolder": "",
+          "Tags": [],
+          "Year": null,
+          "Season": null,
+          "OriginalSource": null,
+          "Set": null,
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "Name": "Cover Art Gallery",
+          "SortOrder": "M60803",
+          "POV": "",
+          "Sources": [
+            {
+              "File": "FB8\\OEBPS\\Text\\03.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "60804005"
+            },
+            {
+              "File": "FB8\\OEBPS\\Text\\04.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "60804006"
+            },
+            {
+              "File": "FB8\\OEBPS\\Text\\05.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "60804007"
+            },
+            {
+              "File": "FB8\\OEBPS\\Text\\06.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "60804008"
+            },
+            {
+              "File": "FB8\\OEBPS\\Text\\07.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "60804009"
+            }
+          ],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Subfolder": "",
+          "Tags": [],
+          "Year": null,
+          "Season": null,
+          "OriginalSource": null,
+          "Set": null,
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "Name": "Miscellaneous Art Gallery",
+          "SortOrder": "M60804",
+          "POV": "",
+          "Sources": [
+            {
+              "File": "FB8\\OEBPS\\Text\\08.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "60805010"
+            },
+            {
+              "File": "FB8\\OEBPS\\Text\\09.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "60805011"
+            },
+            {
+              "File": "FB8\\OEBPS\\Text\\10.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "60805012"
+            },
+            {
+              "File": "FB8\\OEBPS\\Text\\11.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "60805013"
+            },
+            {
+              "File": "FB8\\OEBPS\\Text\\12.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "60805014"
+            },
+            {
+              "File": "FB8\\OEBPS\\Text\\13.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "60805015"
+            }
+          ],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Subfolder": "",
+          "Tags": [],
+          "Year": null,
+          "Season": null,
+          "OriginalSource": null,
+          "Set": null,
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "Name": "Cover, Color Art, and Miscellaneous Art Rough Draft Gallery",
+          "SortOrder": "M60805",
+          "POV": "",
+          "Sources": [
+            {
+              "File": "FB8\\OEBPS\\Text\\14.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "60806016"
+            },
+            {
+              "File": "FB8\\OEBPS\\Text\\15.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "60806017"
+            },
+            {
+              "File": "FB8\\OEBPS\\Text\\16.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "60806018"
+            },
+            {
+              "File": "FB8\\OEBPS\\Text\\17.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "60806019"
+            },
+            {
+              "File": "FB8\\OEBPS\\Text\\18.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "60806020"
+            }
+          ],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Subfolder": "",
+          "Tags": [],
+          "Year": null,
+          "Season": null,
+          "OriginalSource": null,
+          "Set": null,
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "Name": "“During Myne’s Nap” by Suzuka",
+          "SortOrder": "M60806",
+          "POV": "",
+          "Sources": [
+            {
+              "File": "FB8\\OEBPS\\Text\\19.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "60807021"
+            },
+            {
+              "File": "FB8\\OEBPS\\Text\\20.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "60807022"
+            },
+            {
+              "File": "FB8\\OEBPS\\Text\\21.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "60807023"
+            },
+            {
+              "File": "FB8\\OEBPS\\Text\\22.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "60807024"
+            }
+          ],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Subfolder": "",
+          "Tags": [],
+          "Year": null,
+          "Season": null,
+          "OriginalSource": null,
+          "Set": null,
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "Name": "The Work of an Apprentice Noble",
+          "SortOrder": "M60807",
+          "POV": "",
+          "Sources": [
+            {
+              "File": "FB8\\OEBPS\\Text\\side1.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "60808025"
+            }
+          ],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Subfolder": "",
+          "Tags": [],
+          "Year": null,
+          "Season": null,
+          "OriginalSource": null,
+          "Set": null,
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "Name": "“Rozemyne and the Knife” by Ryo Namino",
+          "SortOrder": "M60808",
+          "POV": "",
+          "Sources": [
+            {
+              "File": "FB8\\OEBPS\\Text\\23.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "60809026"
+            },
+            {
+              "File": "FB8\\OEBPS\\Text\\24.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "60809027"
+            },
+            {
+              "File": "FB8\\OEBPS\\Text\\25.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "60809028"
+            },
+            {
+              "File": "FB8\\OEBPS\\Text\\26.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "60809029"
+            }
+          ],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Subfolder": "",
+          "Tags": [],
+          "Year": null,
+          "Season": null,
+          "OriginalSource": null,
+          "Set": null,
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "Name": "<em>Ascendance of a Bookworm</em>",
+          "SortOrder": "M60809",
+          "POV": "",
+          "Sources": [
+            {
+              "File": "FB8\\OEBPS\\Text\\side2.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "60810030"
+            }
+          ],
+          "EndsBeforeLine": "<h2>Drama CD 8 Post-Recording Report</h2>",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Subfolder": "",
+          "Tags": [],
+          "Year": null,
+          "Season": null,
+          "OriginalSource": null,
+          "Set": null,
+          "Chapters": [
+            {
+              "CType": 0,
+              "Name": "Drama CD 8 Post-Recording Report",
+              "SortOrder": "M6080901",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "FB8\\OEBPS\\Text\\side2.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60810030"
+                }
+              ],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "<h2>Drama CD 8 Post-Recording Report</h2>",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": []
+            }
+          ]
+        },
+        {
+          "CType": 0,
+          "Name": "“Drama CD 8 Post-Recording Report” by Suzuka",
+          "SortOrder": "M60810",
+          "POV": "",
+          "Sources": [
+            {
+              "File": "FB8\\OEBPS\\Text\\27.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "60811031"
+            },
+            {
+              "File": "FB8\\OEBPS\\Text\\28.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "60811032"
+            },
+            {
+              "File": "FB8\\OEBPS\\Text\\29.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "60811033"
+            },
+            {
+              "File": "FB8\\OEBPS\\Text\\30.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "60811034"
+            }
+          ],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Subfolder": "",
+          "Tags": [],
+          "Year": null,
+          "Season": null,
+          "OriginalSource": null,
+          "Set": null,
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "Name": "<em>Ascendance of a Bookworm</em>",
+          "SortOrder": "M60811",
+          "POV": "",
+          "Sources": [
+            {
+              "File": "FB8\\OEBPS\\Text\\side3.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "60812035"
+            }
+          ],
+          "EndsBeforeLine": "<h2>Drama CD 9 Post-Recording Report</h2>",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Subfolder": "",
+          "Tags": [],
+          "Year": null,
+          "Season": null,
+          "OriginalSource": null,
+          "Set": null,
+          "Chapters": [
+            {
+              "CType": 0,
+              "Name": "Drama CD 9 Post-Recording Report",
+              "SortOrder": "M6081101",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "FB8\\OEBPS\\Text\\side3.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60812035"
+                }
+              ],
+              "EndsBeforeLine": "<h2>Day 1</h2>",
+              "StartsAtLine": "<h2>Drama CD 9 Post-Recording Report</h2>",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "Name": "Day 1",
+              "SortOrder": "M6081102",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "FB8\\OEBPS\\Text\\side3.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60812035"
+                }
+              ],
+              "EndsBeforeLine": "<h2>Day 2</h2>",
+              "StartsAtLine": "<h2>Day 1</h2>",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": []
+            },
+            {
+              "CType": 0,
+              "Name": "Day 2",
+              "SortOrder": "M6081103",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "FB8\\OEBPS\\Text\\side3.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60812035"
+                }
+              ],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "<h2>Day 2</h2>",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": []
+            }
+          ]
+        },
+        {
+          "CType": 0,
+          "Name": "“Drama CD 9 Post-Recording Report” by Suzuka",
+          "SortOrder": "M60812",
+          "POV": "",
+          "Sources": [
+            {
+              "File": "FB8\\OEBPS\\Text\\31.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "60813036"
+            },
+            {
+              "File": "FB8\\OEBPS\\Text\\32.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "60813037"
+            },
+            {
+              "File": "FB8\\OEBPS\\Text\\33.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "60813038"
+            },
+            {
+              "File": "FB8\\OEBPS\\Text\\34.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "60813039"
+            }
+          ],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Subfolder": "",
+          "Tags": [],
+          "Year": null,
+          "Season": null,
+          "OriginalSource": null,
+          "Set": null,
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "Name": "Character Design Sheets",
+          "SortOrder": "M60813",
+          "POV": "",
+          "Sources": [
+            {
+              "File": "FB8\\OEBPS\\Text\\35.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "60814040"
+            }
+          ],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Subfolder": "",
+          "Tags": [],
+          "Year": null,
+          "Season": null,
+          "OriginalSource": null,
+          "Set": null,
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "Name": "Map of Alexandria",
+          "SortOrder": "M60814",
+          "POV": "",
+          "Sources": [
+            {
+              "File": "FB8\\OEBPS\\Text\\36.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "60815041"
+            }
+          ],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Subfolder": "",
+          "Tags": [],
+          "Year": null,
+          "Season": null,
+          "OriginalSource": null,
+          "Set": null,
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "Name": "“How It Turned into Ditter” by Hikaru Katsuki",
+          "SortOrder": "M60815",
+          "POV": "",
+          "Sources": [
+            {
+              "File": "FB8\\OEBPS\\Text\\37.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "60816042"
+            },
+            {
+              "File": "FB8\\OEBPS\\Text\\38.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "60816043"
+            },
+            {
+              "File": "FB8\\OEBPS\\Text\\39.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "60816044"
+            },
+            {
+              "File": "FB8\\OEBPS\\Text\\40.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "60816045"
+            }
+          ],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Subfolder": "",
+          "Tags": [],
+          "Year": null,
+          "Season": null,
+          "OriginalSource": null,
+          "Set": null,
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "Name": "Q&amp;A with Miya Kazuki",
+          "SortOrder": "M60816",
+          "POV": "",
+          "Sources": [
+            {
+              "File": "FB8\\OEBPS\\Text\\qa.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "60817046"
+            }
+          ],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Subfolder": "",
+          "Tags": [],
+          "Year": null,
+          "Season": null,
+          "OriginalSource": null,
+          "Set": null,
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "Name": "“A Comfy Life with My Family” by You Shiina",
+          "SortOrder": "M60817",
+          "POV": "",
+          "Sources": [
+            {
+              "File": "FB8\\OEBPS\\Text\\41.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "60818047"
+            },
+            {
+              "File": "FB8\\OEBPS\\Text\\42.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "60818048"
+            }
+          ],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Subfolder": "",
+          "Tags": [],
+          "Year": null,
+          "Season": null,
+          "OriginalSource": null,
+          "Set": null,
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "Name": "Messages from the Creators",
+          "SortOrder": "M60818",
+          "POV": "",
+          "Sources": [
+            {
+              "File": "FB8\\OEBPS\\Text\\message.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "60819049"
+            }
+          ],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Subfolder": "",
+          "Tags": [],
+          "Year": null,
+          "Season": null,
+          "OriginalSource": null,
+          "Set": null,
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "Name": "About J-Novel Club",
+          "SortOrder": "M60819",
+          "POV": "",
+          "Sources": [
+            {
+              "File": "FB8\\OEBPS\\Text\\signup.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "60820050"
+            }
+          ],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Subfolder": "",
+          "Tags": [],
+          "Year": null,
+          "Season": null,
+          "OriginalSource": null,
+          "Set": null,
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "Name": "Copyright",
+          "SortOrder": "M60820",
+          "POV": "",
+          "Sources": [
+            {
+              "File": "FB8\\OEBPS\\Text\\copyright.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "60821051"
+            }
+          ],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Subfolder": "",
+          "Tags": [],
+          "Year": null,
+          "Season": null,
+          "OriginalSource": null,
+          "Set": null,
+          "Chapters": []
+        }
+      ]
+    },
+    {
+      "CType": 0,
+      "Name": "ascendance-of-a-bookworm-manga-part-4-volume-7",
+      "SortOrder": "M707",
+      "POV": "",
+      "Sources": [],
+      "EndsBeforeLine": "",
+      "StartsAtLine": "",
+      "SubSections": [],
+      "Subfolder": "",
+      "Tags": [],
+      "Year": null,
+      "Season": null,
+      "OriginalSource": null,
+      "Set": null,
+      "Chapters": [
+        {
+          "CType": 0,
+          "Name": "Cover",
+          "SortOrder": "M70701",
+          "POV": "",
+          "Sources": [
+            {
+              "File": "M0407\\item\\xhtml\\cover.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70702001"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-000.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70702002"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-001.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70702003"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-002.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70702004"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-003.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70702005"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-004.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70702006"
+            }
+          ],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Subfolder": "",
+          "Tags": [],
+          "Year": null,
+          "Season": null,
+          "OriginalSource": null,
+          "Set": null,
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "Name": "Chapter 27: Rauffen's Solution",
+          "SortOrder": "M70702",
+          "POV": "",
+          "Sources": [
+            {
+              "File": "M0407\\item\\xhtml\\p-005.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70703007"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-006.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70703008"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-007.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70703009"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-008.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70703010"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-009.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70703011"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-010.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70703012"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-011.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70703013"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-012.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70703014"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-013.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70703015"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-014.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70703016"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-015.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70703017"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-016.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70703018"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-017.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70703019"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-018.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70703020"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-019.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70703021"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-020.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70703022"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-021.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70703023"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-022.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70703024"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-023.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70703025"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-024.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70703026"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-025.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70703027"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-026.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70703028"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-027.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70703029"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-028.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70703030"
+            }
+          ],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Subfolder": "",
+          "Tags": [],
+          "Year": null,
+          "Season": null,
+          "OriginalSource": null,
+          "Set": null,
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "Name": "Chapter 28: Treasure-Stealing Ditter (1)",
+          "SortOrder": "M70703",
+          "POV": "",
+          "Sources": [
+            {
+              "File": "M0407\\item\\xhtml\\p-029.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70704031"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-030.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70704032"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-031.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70704033"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-032.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70704034"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-033.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70704035"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-034.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70704036"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-035.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70704037"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-036.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70704038"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-037.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70704039"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-038.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70704040"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-039.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70704041"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-040.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70704042"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-041.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70704043"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-042.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70704044"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-043.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70704045"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-044.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70704046"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-045.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70704047"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-046.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70704048"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-047.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70704049"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-048.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70704050"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-049.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70704051"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-050.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70704052"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-051.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70704053"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-052.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70704054"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-053.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70704055"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-054.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70704056"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-055.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70704057"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-056.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70704058"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-057.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70704059"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-058.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70704060"
+            }
+          ],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Subfolder": "",
+          "Tags": [],
+          "Year": null,
+          "Season": null,
+          "OriginalSource": null,
+          "Set": null,
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "Name": "Chapter 29: Treasure-Stealing Ditter (2)",
+          "SortOrder": "M70704",
+          "POV": "",
+          "Sources": [
+            {
+              "File": "M0407\\item\\xhtml\\p-059.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70705061"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-060.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70705062"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-061.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70705063"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-062.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70705064"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-063.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70705065"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-064.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70705066"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-065.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70705067"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-066.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70705068"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-067.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70705069"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-068.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70705070"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-069.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70705071"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-070.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70705072"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-071.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70705073"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-072.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70705074"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-073.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70705075"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-074.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70705076"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-075.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70705077"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-076.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70705078"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-077.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70705079"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-078.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70705080"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-079.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70705081"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-080.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70705082"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-081.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70705083"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-082.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70705084"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-083.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70705085"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-084.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70705086"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-085.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70705087"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-086.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70705088"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-087.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70705089"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-088.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70705090"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-089.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70705091"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-090.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70705092"
+            }
+          ],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Subfolder": "",
+          "Tags": [],
+          "Year": null,
+          "Season": null,
+          "OriginalSource": null,
+          "Set": null,
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "Name": "Chapter 30: Treasure-Stealing Ditter (3)",
+          "SortOrder": "M70705",
+          "POV": "",
+          "Sources": [
+            {
+              "File": "M0407\\item\\xhtml\\p-091.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70706093"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-092.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70706094"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-093.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70706095"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-094.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70706096"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-095.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70706097"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-096.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70706098"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-097.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70706099"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-098.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70706100"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-099.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70706101"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-100.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70706102"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-101.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70706103"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-102.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70706104"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-103.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70706105"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-104.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70706106"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-105.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70706107"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-106.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70706108"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-107.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70706109"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-108.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70706110"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-109.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70706111"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-110.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70706112"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-111.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70706113"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-112.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70706114"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-113.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70706115"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-114.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70706116"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-115.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70706117"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-116.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70706118"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-117.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70706119"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-118.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70706120"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-119.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70706121"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-120.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70706122"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-121.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70706123"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-122.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70706124"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-123.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70706125"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-124.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70706126"
+            }
+          ],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Subfolder": "",
+          "Tags": [],
+          "Year": null,
+          "Season": null,
+          "OriginalSource": null,
+          "Set": null,
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "Name": "Chapter 31: Dunkelfelger's Dining Hall",
+          "SortOrder": "M70706",
+          "POV": "",
+          "Sources": [
+            {
+              "File": "M0407\\item\\xhtml\\p-125.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70707127"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-126.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70707128"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-127.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70707129"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-128.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70707130"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-129.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70707131"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-130.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70707132"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-131.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70707133"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-132.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70707134"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-133.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70707135"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-134.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70707136"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-135.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70707137"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-136.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70707138"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-137.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70707139"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-138.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70707140"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-139.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70707141"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-140.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70707142"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-141.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70707143"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-142.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70707144"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-143.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70707145"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-144.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70707146"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-145.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70707147"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-146.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70707148"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-147.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70707149"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-148.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70707150"
+            }
+          ],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Subfolder": "",
+          "Tags": [],
+          "Year": null,
+          "Season": null,
+          "OriginalSource": null,
+          "Set": null,
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "Name": "Extra: Rauffen's Teachings",
+          "SortOrder": "M70707",
+          "POV": "",
+          "Sources": [
+            {
+              "File": "M0407\\item\\xhtml\\p-149.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70708151"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-150.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70708152"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-151.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70708153"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-152.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70708154"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-153.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70708155"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-154.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70708156"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-155.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70708157"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-156.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70708158"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-157.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70708159"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-158.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70708160"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-159.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70708161"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-160.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70708162"
+            }
+          ],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Subfolder": "",
+          "Tags": [],
+          "Year": null,
+          "Season": null,
+          "OriginalSource": null,
+          "Set": null,
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "Name": "Story: Watching over the Dormitory",
+          "SortOrder": "M70708",
+          "POV": "",
+          "Sources": [
+            {
+              "File": "M0407\\item\\xhtml\\p-161.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70709163"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-162.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70709164"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-163.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70709165"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-164.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70709166"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-165.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70709167"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-166.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70709168"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-167.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70709169"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-168.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70709170"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-169.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70709171"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-170.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70709172"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-171.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70709173"
+            }
+          ],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Subfolder": "",
+          "Tags": [],
+          "Year": null,
+          "Season": null,
+          "OriginalSource": null,
+          "Set": null,
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "Name": "Afterword: Author's",
+          "SortOrder": "M70709",
+          "POV": "",
+          "Sources": [
+            {
+              "File": "M0407\\item\\xhtml\\p-172.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70710174"
+            }
+          ],
+          "EndsBeforeLine": "",
+          "StartsAtLine": "",
+          "SubSections": [],
+          "Subfolder": "",
+          "Tags": [],
+          "Year": null,
+          "Season": null,
+          "OriginalSource": null,
+          "Set": null,
+          "Chapters": []
+        },
+        {
+          "CType": 0,
+          "Name": "Afterword: Artist's",
+          "SortOrder": "M70710",
+          "POV": "",
+          "Sources": [
+            {
+              "File": "M0407\\item\\xhtml\\p-173.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70711175"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-174.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70711176"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-175.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70711177"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-176.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70711178"
+            },
+            {
+              "File": "M0407\\item\\xhtml\\p-177.xhtml",
+              "Alternates": [],
+              "OtherSide": null,
+              "SortOrder": "70711179"
             }
           ],
           "EndsBeforeLine": "",
