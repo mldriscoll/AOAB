@@ -1730,5 +1730,91 @@
     "Header": null,
     "Crop": true,
     "HeaderLines": 1
+  },
+  {
+    "Chapter": "A Shadow Falls",
+    "Corrections": [
+      {
+        "Original": "“Huh? You’re a noble...?” </p>\r\n<p>I gasped",
+        "Replacement": "</p><p>“Huh? You’re a noble...?” I gasped"
+      },
+      {
+        "Original": "more. Why’s there a noble here?! Myne",
+        "Replacement": "more.</p><p><i>Why’s there a noble here?!</i></p><p>Myne"
+      },
+      {
+        "Original": "noble. Do Benno and the captain know about this? Wait... Was I just rude to a noble?! As",
+        "Replacement": "noble.</p><p><i>Do Benno and the captain know about this? Wait... Was I just rude to a noble?!</i></p><p>As"
+      },
+      {
+        "Original": "screamed. “Tu—!” By",
+        "Replacement": "screamed.</p><p>“Tu—!”</p><p>By"
+      },
+      {
+        "Original": "opening. 771is must be what the captain feared might happen! He",
+        "Replacement": "opening.</p><p><i>This must be what the captain feared might happen!</i></p><p>He"
+      },
+      {
+        "Original": "kids' ",
+        "Replacement": "kids’ "
+      },
+      {
+        "Original": "Whoa, whoa, whoa! 77ae heck is going on here?!",
+        "Replacement": "<i>Whoa, whoa, whoa! The heck is going on here?!</i>"
+      },
+      {
+        "Original": "\"Got it! Otto, carry Myne!",
+        "Replacement": "“Got it! Otto, carry Myne!”"
+      },
+      {
+        "Original": "Oh, crape..",
+        "Replacement": "<i>Oh, crap...</i>"
+      },
+      {
+        "Original": "\"I’m gonna—",
+        "Replacement": "“I’m gonna—”"
+      }
+    ],
+    "Italics": [
+      {
+        "Start": "Guess it’s all up to the captain and me.",
+        "End": "Guess it’s all up to the captain and me."
+      },
+      {
+        "Start": "Judging by how that noble’s acting, these guys must only want Myne.",
+        "End": "Judging by how that noble’s acting, these guys must only want Myne."
+      },
+      {
+        "Start": "or die.",
+        "End": "or die."
+      },
+      {
+        "Start": "Is that really her?",
+        "End": "Is that really her?"
+      },
+      {
+        "Start": "We’re all going?",
+        "End": "Lord Ferdinand, anyway?"
+      },
+      {
+        "Start": "Seriously, what’s going on?",
+        "End": "Seriously, what’s going on?"
+      },
+      {
+        "Start": "Help might be coming, but, well...",
+        "End": "Help might be coming, but, well..."
+      },
+      {
+        "Start": "As the captain always",
+        "End": "people feel safe."
+      },
+      {
+        "Start": "Just come back safe. Please.",
+        "End": "Just come back safe. Please."
+      }
+    ],
+    "Header": null,
+    "Crop": true,
+    "HeaderLines": 1
   }
 ]
