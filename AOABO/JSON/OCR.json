@@ -1816,5 +1816,39 @@
     "Header": null,
     "Crop": true,
     "HeaderLines": 1
+  },
+  {
+    "Chapter": "Watching over the Dormitory",
+    "Corrections": [
+      {
+        "Original": "higher- grade",
+        "Replacement": "higher-grade"
+      },
+      {
+        "Original": "\"Oswald, you—",
+        "Replacement": "“Oswald, you—”"
+      },
+      {
+        "Original": "tools'",
+        "Replacement": "tools’"
+      },
+      {
+        "Original": "77aat last part must be what he truly cares about.",
+        "Replacement": "<i>That last part must be what he truly cares about.</i>"
+      },
+      {
+        "Original": "Taat’s plausible.",
+        "Replacement": "<i>That’s plausible.</i>"
+      },
+      {
+        "Original": "”—Oswald sighed “",
+        "Replacement": "”—Oswald sighed—“"
+      }
+    ],
+    "Italics": [
+    ],
+    "Header": null,
+    "Crop": true,
+    "HeaderLines": 1
   }
 ]
