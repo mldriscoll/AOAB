@@ -3140,7 +3140,9 @@
         "ApiSlug": "ascendance-of-a-bookworm-fanbook-8",
         "FileName": "ascendance-of-a-bookworm-fanbook-8.epub",
         "Title": "",
-        "EditedBy": [],
+        "EditedBy": [
+          "kuali"
+        ],
         "Published": "2026-08-03",
         "Order": 608
       },

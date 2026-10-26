@@ -6148,6 +6148,12 @@
                   "Alternates": [],
                   "OtherSide": null,
                   "SortOrder": "60704010"
+                },
+                {
+                  "File": "FB8\\OEBPS\\Text\\08.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60805010"
                 }
               ],
               "EndsBeforeLine": "",
@@ -7694,9 +7700,39 @@
               "Chapters": []
             },
             {
+              "CType": 14,
+              "Name": "Junior Bunko 6",
+              "SortOrder": "M002003005",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "FB8\\OEBPS\\Text\\05.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60804007"
+                },
+                {
+                  "File": "FB8\\OEBPS\\Text\\09.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60805011"
+                }
+              ],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": []
+            },
+            {
               "CType": 5,
               "Name": "Map of Ehrenfest Duchy",
-              "SortOrder": "M002003005",
+              "SortOrder": "M002003006",
               "POV": "",
               "Sources": [
                 {
@@ -7720,7 +7756,7 @@
             {
               "CType": 5,
               "Name": "Ehrenfest Temple Map",
-              "SortOrder": "M002003006",
+              "SortOrder": "M002003007",
               "POV": "",
               "Sources": [
                 {
@@ -7752,7 +7788,7 @@
             {
               "CType": 6,
               "Name": "Part 2 Cast",
-              "SortOrder": "M002003007",
+              "SortOrder": "M002003008",
               "POV": "",
               "Sources": [
                 {
@@ -7782,7 +7818,7 @@
             {
               "CType": 0,
               "Name": "Prologue",
-              "SortOrder": "M002003008",
+              "SortOrder": "M002003009",
               "POV": "Karstedt",
               "Sources": [
                 {
@@ -7806,7 +7842,7 @@
             {
               "CType": 0,
               "Name": "Printing Guild",
-              "SortOrder": "M002003009",
+              "SortOrder": "M002003010",
               "POV": "",
               "Sources": [
                 {
@@ -7830,7 +7866,7 @@
             {
               "CType": 0,
               "Name": "Johann’s Task",
-              "SortOrder": "M002003010",
+              "SortOrder": "M002003011",
               "POV": "",
               "Sources": [
                 {
@@ -7865,7 +7901,7 @@
                 {
                   "CType": 13,
                   "Name": "Coming-of-Age Task",
-                  "SortOrder": "M002003010001",
+                  "SortOrder": "M002003011001",
                   "POV": "Johann",
                   "Sources": [
                     {
@@ -7956,7 +7992,7 @@
             {
               "CType": 0,
               "Name": "The Ink Guild and the Beginning of Winter",
-              "SortOrder": "M002003011",
+              "SortOrder": "M002003012",
               "POV": "",
               "Sources": [
                 {
@@ -7989,7 +8025,7 @@
             {
               "CType": 0,
               "Name": "Winter Hibernation and Handiwork",
-              "SortOrder": "M002003012",
+              "SortOrder": "M002003013",
               "POV": "",
               "Sources": [
                 {
@@ -8013,7 +8049,7 @@
             {
               "CType": 0,
               "Name": "Meeting of the Minds",
-              "SortOrder": "M002003013",
+              "SortOrder": "M002003014",
               "POV": "",
               "Sources": [
                 {
@@ -8037,7 +8073,7 @@
             {
               "CType": 0,
               "Name": "Punishment for the Knight’s Order and My Future",
-              "SortOrder": "M002003014",
+              "SortOrder": "M002003015",
               "POV": "",
               "Sources": [
                 {
@@ -8073,7 +8109,7 @@
             {
               "CType": 0,
               "Name": "Daily Winter Life",
-              "SortOrder": "M002003015",
+              "SortOrder": "M002003016",
               "POV": "",
               "Sources": [
                 {
@@ -8096,7 +8132,7 @@
                 {
                   "CType": 13,
                   "Name": "The Knight Who Came to the Temple",
-                  "SortOrder": "M002003015001",
+                  "SortOrder": "M002003016001",
                   "POV": "Effa",
                   "Sources": [
                     {
@@ -8181,7 +8217,7 @@
             {
               "CType": 0,
               "Name": "The Dedication Ritual",
-              "SortOrder": "M002003016",
+              "SortOrder": "M002003017",
               "POV": "",
               "Sources": [
                 {
@@ -8205,7 +8241,7 @@
             {
               "CType": 0,
               "Name": "Rosina’s Coming-of-Age Ceremony",
-              "SortOrder": "M002003017",
+              "SortOrder": "M002003018",
               "POV": "",
               "Sources": [
                 {
@@ -8235,7 +8271,7 @@
             {
               "CType": 0,
               "Name": "Rumtopf and Shoes",
-              "SortOrder": "M002003018",
+              "SortOrder": "M002003019",
               "POV": "",
               "Sources": [
                 {
@@ -8268,7 +8304,7 @@
             {
               "CType": 0,
               "Name": "Completion of the Metal Letter Types",
-              "SortOrder": "M002003019",
+              "SortOrder": "M002003020",
               "POV": "",
               "Sources": [
                 {
@@ -8291,7 +8327,7 @@
                 {
                   "CType": 1,
                   "Name": "The Title of “Gutenberg”",
-                  "SortOrder": "M002003019001",
+                  "SortOrder": "M002003020001",
                   "POV": "Johann",
                   "Sources": [
                     {
@@ -8334,7 +8370,7 @@
             {
               "CType": 0,
               "Name": "Temple Stay Extended",
-              "SortOrder": "M002003020",
+              "SortOrder": "M002003021",
               "POV": "",
               "Sources": [
                 {
@@ -8369,7 +8405,7 @@
                 {
                   "CType": 1,
                   "Name": "Lunchtime in the Temple",
-                  "SortOrder": "M002003020001",
+                  "SortOrder": "M002003021001",
                   "POV": "Damuel",
                   "Sources": [
                     {
@@ -8400,7 +8436,7 @@
             {
               "CType": 0,
               "Name": "Preparing for the Spring Prayer",
-              "SortOrder": "M002003021",
+              "SortOrder": "M002003022",
               "POV": "",
               "Sources": [
                 {
@@ -8430,7 +8466,7 @@
             {
               "CType": 0,
               "Name": "Spring Prayer",
-              "SortOrder": "M002003022",
+              "SortOrder": "M002003023",
               "POV": "",
               "Sources": [
                 {
@@ -8454,7 +8490,7 @@
             {
               "CType": 0,
               "Name": "An After-Meal Invitation",
-              "SortOrder": "M002003023",
+              "SortOrder": "M002003024",
               "POV": "",
               "Sources": [
                 {
@@ -8478,7 +8514,7 @@
             {
               "CType": 0,
               "Name": "Ambush",
-              "SortOrder": "M002003024",
+              "SortOrder": "M002003025",
               "POV": "",
               "Sources": [
                 {
@@ -8511,9 +8547,51 @@
               "Set": null,
               "Chapters": [
                 {
+                  "CType": 1,
+                  "Name": "During Myne’s Nap",
+                  "SortOrder": "M002003025001",
+                  "POV": "",
+                  "Sources": [
+                    {
+                      "File": "FB8\\OEBPS\\Text\\19.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "60807021"
+                    },
+                    {
+                      "File": "FB8\\OEBPS\\Text\\20.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "60807022"
+                    },
+                    {
+                      "File": "FB8\\OEBPS\\Text\\21.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "60807023"
+                    },
+                    {
+                      "File": "FB8\\OEBPS\\Text\\22.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "60807024"
+                    }
+                  ],
+                  "EndsBeforeLine": "",
+                  "StartsAtLine": "",
+                  "SubSections": [],
+                  "Subfolder": "",
+                  "Tags": [],
+                  "Year": null,
+                  "Season": null,
+                  "OriginalSource": null,
+                  "Set": null,
+                  "Chapters": []
+                },
+                {
                   "CType": 13,
                   "Name": "The Ambush and the Charm",
-                  "SortOrder": "M002003024001",
+                  "SortOrder": "M002003025002",
                   "POV": "Rosina",
                   "Sources": [
                     {
@@ -8586,7 +8664,7 @@
             {
               "CType": 0,
               "Name": "The Wild and Uncontrollable Blue Priest",
-              "SortOrder": "M002003025",
+              "SortOrder": "M002003026",
               "POV": "",
               "Sources": [
                 {
@@ -8610,7 +8688,7 @@
             {
               "CType": 0,
               "Name": "Visit to the Orphanage and Workshop",
-              "SortOrder": "M002003026",
+              "SortOrder": "M002003027",
               "POV": "",
               "Sources": [
                 {
@@ -8645,7 +8723,7 @@
                 {
                   "CType": 1,
                   "Name": "Sylvester Undercover",
-                  "SortOrder": "M002003026001",
+                  "SortOrder": "M002003027001",
                   "POV": "Leon",
                   "Sources": [
                     {
@@ -8676,7 +8754,7 @@
             {
               "CType": 0,
               "Name": "Talking with the High Priest and Returning Home",
-              "SortOrder": "M002003027",
+              "SortOrder": "M002003028",
               "POV": "",
               "Sources": [
                 {
@@ -8700,7 +8778,7 @@
             {
               "CType": 0,
               "Name": "A New Member of the Family",
-              "SortOrder": "M002003028",
+              "SortOrder": "M002003029",
               "POV": "",
               "Sources": [
                 {
@@ -8736,7 +8814,7 @@
             {
               "CType": 0,
               "Name": "Epilogue",
-              "SortOrder": "M002003029",
+              "SortOrder": "M002003030",
               "POV": "Delia",
               "Sources": [
                 {
@@ -8760,7 +8838,7 @@
             {
               "CType": 8,
               "Name": "M2V8 Comfy Life",
-              "SortOrder": "M002003030",
+              "SortOrder": "M002003031",
               "POV": "",
               "Sources": [
                 {
@@ -8790,7 +8868,7 @@
             {
               "CType": 8,
               "Name": "M2V9 Comfy Life",
-              "SortOrder": "M002003031",
+              "SortOrder": "M002003032",
               "POV": "",
               "Sources": [
                 {
@@ -8820,7 +8898,7 @@
             {
               "CType": 8,
               "Name": "M2V10 Comfy Life",
-              "SortOrder": "M002003032",
+              "SortOrder": "M002003033",
               "POV": "",
               "Sources": [
                 {
@@ -8850,7 +8928,7 @@
             {
               "CType": 7,
               "Name": "P2V3 Afterword",
-              "SortOrder": "M002003033",
+              "SortOrder": "M002003034",
               "POV": "",
               "Sources": [
                 {
@@ -8922,7 +9000,7 @@
             {
               "CType": 14,
               "Name": "Manga 11",
-              "SortOrder": "M002004001x",
+              "SortOrder": "M002004002",
               "POV": "",
               "Sources": [
                 {
@@ -8946,7 +9024,7 @@
             {
               "CType": 14,
               "Name": "Manga 12",
-              "SortOrder": "M002004001xx",
+              "SortOrder": "M002004003",
               "POV": "",
               "Sources": [
                 {
@@ -8979,9 +9057,63 @@
               "Chapters": []
             },
             {
+              "CType": 14,
+              "Name": "Junior Bunko 7",
+              "SortOrder": "M002004004",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "FB8\\OEBPS\\Text\\06.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60804008"
+                }
+              ],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": []
+            },
+            {
+              "CType": 14,
+              "Name": "Junior Bunko 8",
+              "SortOrder": "M002004005",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "FB8\\OEBPS\\Text\\07.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60804009"
+                },
+                {
+                  "File": "FB8\\OEBPS\\Text\\10.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60805012"
+                }
+              ],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": []
+            },
+            {
               "CType": 5,
               "Name": "Map of Ehrenfest Duchy",
-              "SortOrder": "M002004002",
+              "SortOrder": "M002004006",
               "POV": "",
               "Sources": [
                 {
@@ -9005,7 +9137,7 @@
             {
               "CType": 5,
               "Name": "Ehrenfest Temple Diagram",
-              "SortOrder": "M002004003",
+              "SortOrder": "M002004007",
               "POV": "",
               "Sources": [
                 {
@@ -9029,7 +9161,7 @@
             {
               "CType": 5,
               "Name": "Ehrenfest Temple Map",
-              "SortOrder": "M002004003001",
+              "SortOrder": "M002004008",
               "POV": "",
               "Sources": [
                 {
@@ -9060,7 +9192,7 @@
             {
               "CType": 6,
               "Name": "Part 2 Cast",
-              "SortOrder": "M002004004",
+              "SortOrder": "M002004009",
               "POV": "",
               "Sources": [
                 {
@@ -9090,7 +9222,7 @@
             {
               "CType": 6,
               "Name": "P2V4 Character Design Sheets",
-              "SortOrder": "M002004005",
+              "SortOrder": "M002004010",
               "POV": "",
               "Sources": [
                 {
@@ -9114,7 +9246,7 @@
             {
               "CType": 0,
               "Name": "Prologue",
-              "SortOrder": "M002004006",
+              "SortOrder": "M002004011",
               "POV": "Bezewanst",
               "Sources": [
                 {
@@ -9138,7 +9270,7 @@
             {
               "CType": 0,
               "Name": "Caring for Kamil",
-              "SortOrder": "M002004007",
+              "SortOrder": "M002004012",
               "POV": "",
               "Sources": [
                 {
@@ -9162,7 +9294,7 @@
             {
               "CType": 0,
               "Name": "The Abandoned Child",
-              "SortOrder": "M002004008",
+              "SortOrder": "M002004013",
               "POV": "",
               "Sources": [
                 {
@@ -9198,7 +9330,7 @@
             {
               "CType": 0,
               "Name": "What to Do about Dirk",
-              "SortOrder": "M002004009",
+              "SortOrder": "M002004014",
               "POV": "",
               "Sources": [
                 {
@@ -9222,7 +9354,7 @@
             {
               "CType": 0,
               "Name": "The Ink Guild and Succession",
-              "SortOrder": "M002004010",
+              "SortOrder": "M002004015",
               "POV": "",
               "Sources": [
                 {
@@ -9246,7 +9378,7 @@
             {
               "CType": 0,
               "Name": "Researching Color-Making",
-              "SortOrder": "M002004011",
+              "SortOrder": "M002004016",
               "POV": "",
               "Sources": [
                 {
@@ -9282,7 +9414,7 @@
             {
               "CType": 0,
               "Name": "Challenging Wax Stencils",
-              "SortOrder": "M002004012",
+              "SortOrder": "M002004017",
               "POV": "",
               "Sources": [
                 {
@@ -9305,7 +9437,7 @@
                 {
                   "CType": 13,
                   "Name": "New Ink and a Strange Girl",
-                  "SortOrder": "M002004012000",
+                  "SortOrder": "M002004017001",
                   "POV": "Heidi",
                   "Sources": [
                     {
@@ -9394,7 +9526,7 @@
                 {
                   "CType": 1,
                   "Name": "Beruf Certification",
-                  "SortOrder": "M002004012001",
+                  "SortOrder": "M002004017002",
                   "POV": "Josef",
                   "Sources": [
                     {
@@ -9425,7 +9557,7 @@
             {
               "CType": 0,
               "Name": "Delia’s Progress",
-              "SortOrder": "M002004013",
+              "SortOrder": "M002004018",
               "POV": "",
               "Sources": [
                 {
@@ -9449,7 +9581,7 @@
             {
               "CType": 0,
               "Name": "Both Sides of the Story",
-              "SortOrder": "M002004014",
+              "SortOrder": "M002004019",
               "POV": "",
               "Sources": [
                 {
@@ -9473,7 +9605,7 @@
             {
               "CType": 0,
               "Name": "The Two Who Left",
-              "SortOrder": "M002004015",
+              "SortOrder": "M002004020",
               "POV": "",
               "Sources": [
                 {
@@ -9497,7 +9629,7 @@
             {
               "CType": 0,
               "Name": "The Shadow Falls",
-              "SortOrder": "M002004016",
+              "SortOrder": "M002004021",
               "POV": "",
               "Sources": [
                 {
@@ -9532,7 +9664,7 @@
                 {
                   "CType": 13,
                   "Name": "A Shadow Falls",
-                  "SortOrder": "M51908",
+                  "SortOrder": "M002004021001",
                   "POV": "Otto",
                   "Sources": [
                     {
@@ -9606,7 +9738,7 @@
             {
               "CType": 0,
               "Name": "The Noble from Another Duchy",
-              "SortOrder": "M002004017",
+              "SortOrder": "M002004022",
               "POV": "",
               "Sources": [
                 {
@@ -9642,7 +9774,7 @@
             {
               "CType": 0,
               "Name": "The Black Charm",
-              "SortOrder": "M002004018",
+              "SortOrder": "M002004023",
               "POV": "",
               "Sources": [
                 {
@@ -9678,7 +9810,7 @@
             {
               "CType": 0,
               "Name": "The Source of Strife",
-              "SortOrder": "M002004019",
+              "SortOrder": "M002004024",
               "POV": "",
               "Sources": [
                 {
@@ -9714,7 +9846,7 @@
             {
               "CType": 0,
               "Name": "The New Me",
-              "SortOrder": "M002004020",
+              "SortOrder": "M002004025",
               "POV": "",
               "Sources": [
                 {
@@ -9738,7 +9870,7 @@
             {
               "CType": 0,
               "Name": "Ripped Apart",
-              "SortOrder": "M002004021",
+              "SortOrder": "M002004026",
               "POV": "",
               "Sources": [
                 {
@@ -9773,7 +9905,7 @@
                 {
                   "CType": 1,
                   "Name": "Cleaning up the Mess",
-                  "SortOrder": "M002004021001",
+                  "SortOrder": "M002004026001",
                   "POV": "Sylvester",
                   "Sources": [
                     {
@@ -9802,7 +9934,7 @@
                 {
                   "CType": 1,
                   "Name": "A Visit to the Noble’s Quarter",
-                  "SortOrder": "M002004021002",
+                  "SortOrder": "M002004026002",
                   "POV": "Freida",
                   "Sources": [
                     {
@@ -9831,7 +9963,7 @@
                 {
                   "CType": 1,
                   "Name": "Fran and I",
-                  "SortOrder": "M002004021003",
+                  "SortOrder": "M002004026003",
                   "POV": "Arno",
                   "Sources": [
                     {
@@ -9860,7 +9992,7 @@
                 {
                   "CType": 1,
                   "Name": "Maybe Lessen the Workload",
-                  "SortOrder": "M002004021004",
+                  "SortOrder": "M002004026004",
                   "POV": "Benno",
                   "Sources": [
                     {
@@ -9889,7 +10021,7 @@
                 {
                   "CType": 1,
                   "Name": "Temple Tour",
-                  "SortOrder": "M002004021005",
+                  "SortOrder": "M002004026005",
                   "POV": "Nicola",
                   "Sources": [
                     {
@@ -9932,7 +10064,7 @@
             {
               "CType": 0,
               "Name": "Epilogue",
-              "SortOrder": "M002004022",
+              "SortOrder": "M002004027",
               "POV": "Lutz",
               "Sources": [
                 {
@@ -9967,7 +10099,7 @@
                 {
                   "CType": 1,
                   "Name": "To Serve as the High Bishop’s Attendant",
-                  "SortOrder": "M002004022001",
+                  "SortOrder": "M002004027001",
                   "POV": "Fran",
                   "Sources": [
                     {
@@ -9996,7 +10128,7 @@
                 {
                   "CType": 1,
                   "Name": "Facing the Future",
-                  "SortOrder": "M002004022002",
+                  "SortOrder": "M002004027002",
                   "POV": "Effa",
                   "Sources": [
                     {
@@ -10033,7 +10165,7 @@
             {
               "CType": 8,
               "Name": "P2V4 Comfy Life",
-              "SortOrder": "M002004023",
+              "SortOrder": "M002004028",
               "POV": "",
               "Sources": [
                 {
@@ -10063,7 +10195,7 @@
             {
               "CType": 8,
               "Name": "Gutenberg Craftspeople",
-              "SortOrder": "M002004023z",
+              "SortOrder": "M002004029",
               "POV": "",
               "Sources": [
                 {
@@ -10093,7 +10225,7 @@
             {
               "CType": 12,
               "Name": "Newly Written Narrations for Season 3 of the <em>Bookworm</em> Anime",
-              "SortOrder": "M002004024",
+              "SortOrder": "M002004030",
               "POV": "",
               "Sources": [
                 {
@@ -10116,7 +10248,7 @@
                 {
                   "CType": 12,
                   "Name": "Myne (VA: Iguchi Yuka)",
-                  "SortOrder": "M002004024001",
+                  "SortOrder": "M002004030001",
                   "POV": "",
                   "Sources": [
                     {
@@ -10140,7 +10272,7 @@
                 {
                   "CType": 12,
                   "Name": "Lutz (VA: Tamura Mutsumi)",
-                  "SortOrder": "M002004024002",
+                  "SortOrder": "M002004030002",
                   "POV": "",
                   "Sources": [
                     {
@@ -10164,7 +10296,7 @@
                 {
                   "CType": 12,
                   "Name": "Ferdinand (VA: Hayami Show)",
-                  "SortOrder": "M002004024003",
+                  "SortOrder": "M002004030003",
                   "POV": "",
                   "Sources": [
                     {
@@ -10188,7 +10320,7 @@
                 {
                   "CType": 12,
                   "Name": "Sylvester (VA: Inoue Kazuhiko)",
-                  "SortOrder": "M002004024004",
+                  "SortOrder": "M002004030004",
                   "POV": "",
                   "Sources": [
                     {
@@ -10214,7 +10346,7 @@
             {
               "CType": 12,
               "Name": "Anime Season 3 Ending Cards, Episodes 27–36",
-              "SortOrder": "M002004025",
+              "SortOrder": "M002004031",
               "POV": "",
               "Sources": [
                 {
@@ -10292,7 +10424,7 @@
             {
               "CType": 12,
               "Name": "Anime Season 3 Promotional Illustrations",
-              "SortOrder": "M002004026",
+              "SortOrder": "M002004032",
               "POV": "",
               "Sources": [
                 {
@@ -10316,7 +10448,7 @@
             {
               "CType": 7,
               "Name": "P2V4 Afterword",
-              "SortOrder": "M002004027",
+              "SortOrder": "M002004033",
               "POV": "",
               "Sources": [
                 {
@@ -11340,7 +11472,7 @@
                 {
                   "CType": 1,
                   "Name": "Ferdinand and Soup",
-                  "SortOrder": "M60607",
+                  "SortOrder": "M003001022001",
                   "POV": "Ferdinand",
                   "Sources": [
                     {
@@ -12474,7 +12606,7 @@
             {
               "CType": 14,
               "Name": "Manga 6",
-              "SortOrder": "M003002003b",
+              "SortOrder": "M003002004",
               "POV": "",
               "Sources": [
                 {
@@ -12498,7 +12630,7 @@
             {
               "CType": 5,
               "Name": "Map of Ehrenfest Duchy",
-              "SortOrder": "M003002004",
+              "SortOrder": "M003002005",
               "POV": "",
               "Sources": [
                 {
@@ -12530,7 +12662,7 @@
             {
               "CType": 6,
               "Name": "Part 3 Cast",
-              "SortOrder": "M003002005",
+              "SortOrder": "M003002006",
               "POV": "",
               "Sources": [
                 {
@@ -12568,7 +12700,7 @@
             {
               "CType": 6,
               "Name": "Part 3 Cast (Manga)",
-              "SortOrder": "M003002006",
+              "SortOrder": "M003002007",
               "POV": "",
               "Sources": [
                 {
@@ -12592,7 +12724,7 @@
             {
               "CType": 6,
               "Name": "P3V2 Character Design Sheets",
-              "SortOrder": "M003002007",
+              "SortOrder": "M003002008",
               "POV": "",
               "Sources": [
                 {
@@ -12616,7 +12748,7 @@
             {
               "CType": 0,
               "Name": "Prologue",
-              "SortOrder": "M003002008",
+              "SortOrder": "M003002009",
               "POV": "Effa",
               "Sources": [
                 {
@@ -12652,7 +12784,7 @@
             {
               "CType": 0,
               "Name": "Discussing the Harvest Festival",
-              "SortOrder": "M003002009",
+              "SortOrder": "M003002010",
               "POV": "",
               "Sources": [
                 {
@@ -12685,7 +12817,7 @@
             {
               "CType": 0,
               "Name": "Hasse’s Monastery",
-              "SortOrder": "M003002010",
+              "SortOrder": "M003002011",
               "POV": "",
               "Sources": [
                 {
@@ -12708,7 +12840,7 @@
                 {
                   "CType": 1,
                   "Name": "Unwavering Emotions",
-                  "SortOrder": "M003002010001",
+                  "SortOrder": "M003002011001",
                   "POV": "Gunther",
                   "Sources": [
                     {
@@ -12745,7 +12877,7 @@
             {
               "CType": 0,
               "Name": "The New Orphans",
-              "SortOrder": "M003002011",
+              "SortOrder": "M003002012",
               "POV": "",
               "Sources": [
                 {
@@ -12781,7 +12913,7 @@
             {
               "CType": 0,
               "Name": "The Orphans’ Treatment and Investigating the City",
-              "SortOrder": "M003002012",
+              "SortOrder": "M003002013",
               "POV": "",
               "Sources": [
                 {
@@ -12804,7 +12936,7 @@
                 {
                   "CType": 13,
                   "Name": "Night at the Monastery",
-                  "SortOrder": "M003002012001",
+                  "SortOrder": "M003002013001",
                   "POV": "Marthe",
                   "Sources": [
                     {
@@ -12883,7 +13015,7 @@
             {
               "CType": 0,
               "Name": "The Monastery’s Barrier",
-              "SortOrder": "M003002013",
+              "SortOrder": "M003002014",
               "POV": "",
               "Sources": [
                 {
@@ -12907,7 +13039,7 @@
             {
               "CType": 0,
               "Name": "A New Task and Winter Preparations",
-              "SortOrder": "M003002014",
+              "SortOrder": "M003002015",
               "POV": "",
               "Sources": [
                 {
@@ -12943,7 +13075,7 @@
             {
               "CType": 0,
               "Name": "Opening the Italian Restaurant",
-              "SortOrder": "M003002015",
+              "SortOrder": "M003002016",
               "POV": "",
               "Sources": [
                 {
@@ -12967,7 +13099,7 @@
             {
               "CType": 0,
               "Name": "Discussing How to Improve Hasse",
-              "SortOrder": "M003002016",
+              "SortOrder": "M003002017",
               "POV": "",
               "Sources": [
                 {
@@ -13002,7 +13134,7 @@
                 {
                   "CType": 1,
                   "Name": "From Me to You",
-                  "SortOrder": "M003002016001",
+                  "SortOrder": "M003002017001",
                   "POV": "",
                   "Sources": [
                     {
@@ -13051,7 +13183,7 @@
             {
               "CType": 0,
               "Name": "Switching Places",
-              "SortOrder": "M003002017",
+              "SortOrder": "M003002018",
               "POV": "",
               "Sources": [
                 {
@@ -13086,7 +13218,7 @@
                 {
                   "CType": 13,
                   "Name": "For Lady Rozemyne",
-                  "SortOrder": "M001",
+                  "SortOrder": "M003002018001",
                   "POV": "Monika",
                   "Sources": [
                     {
@@ -13158,7 +13290,7 @@
                 {
                   "CType": 1,
                   "Name": "Wilfried’s Day as the High Bishop",
-                  "SortOrder": "M003002017001",
+                  "SortOrder": "M003002018002",
                   "POV": "Wilfried",
                   "Sources": [
                     {
@@ -13199,7 +13331,7 @@
                 {
                   "CType": 1,
                   "Name": "More, Forever",
-                  "SortOrder": "M003002017002",
+                  "SortOrder": "M003002018003",
                   "POV": "",
                   "Sources": [
                     {
@@ -13246,7 +13378,7 @@
                 {
                   "CType": 1,
                   "Name": "Justus’s Grand Lower City Infiltration",
-                  "SortOrder": "M003002017003",
+                  "SortOrder": "M003002018004",
                   "POV": "Justus",
                   "Sources": [
                     {
@@ -13277,7 +13409,7 @@
             {
               "CType": 0,
               "Name": "Preparing for the Harvest Festival",
-              "SortOrder": "M003002018",
+              "SortOrder": "M003002019",
               "POV": "",
               "Sources": [
                 {
@@ -13301,7 +13433,7 @@
             {
               "CType": 0,
               "Name": "Hasse’s Contract",
-              "SortOrder": "M003002019",
+              "SortOrder": "M003002020",
               "POV": "",
               "Sources": [
                 {
@@ -13325,7 +13457,7 @@
             {
               "CType": 0,
               "Name": "Starting Merchant Activities",
-              "SortOrder": "M003002020",
+              "SortOrder": "M003002021",
               "POV": "",
               "Sources": [
                 {
@@ -13344,12 +13476,55 @@
               "Season": null,
               "OriginalSource": null,
               "Set": null,
-              "Chapters": []
+              "Chapters": [
+                {
+                  "CType": 1,
+                  "Name": "Rozemyne and the Knife",
+                  "SortOrder": "M003002021001",
+                  "POV": "",
+                  "Sources": [
+                    {
+                      "File": "FB8\\OEBPS\\Text\\23.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "60809026"
+                    },
+                    {
+                      "File": "FB8\\OEBPS\\Text\\24.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "60809027"
+                    },
+                    {
+                      "File": "FB8\\OEBPS\\Text\\25.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "60809028"
+                    },
+                    {
+                      "File": "FB8\\OEBPS\\Text\\26.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "60809029"
+                    }
+                  ],
+                  "EndsBeforeLine": "",
+                  "StartsAtLine": "",
+                  "SubSections": [],
+                  "Subfolder": "",
+                  "Tags": [],
+                  "Year": null,
+                  "Season": null,
+                  "OriginalSource": null,
+                  "Set": null,
+                  "Chapters": []
+                }
+              ]
             },
             {
               "CType": 0,
               "Name": "Hasse’s Harvest Festival",
-              "SortOrder": "M003002021",
+              "SortOrder": "M003002022",
               "POV": "",
               "Sources": [
                 {
@@ -13379,7 +13554,7 @@
             {
               "CType": 0,
               "Name": "The Harvest Festival",
-              "SortOrder": "M003002022",
+              "SortOrder": "M003002023",
               "POV": "",
               "Sources": [
                 {
@@ -13403,7 +13578,7 @@
             {
               "CType": 0,
               "Name": "The Night of Schutzaria",
-              "SortOrder": "M003002023",
+              "SortOrder": "M003002024",
               "POV": "",
               "Sources": [
                 {
@@ -13439,7 +13614,7 @@
             {
               "CType": 0,
               "Name": "Aftermath",
-              "SortOrder": "M003002024",
+              "SortOrder": "M003002025",
               "POV": "",
               "Sources": [
                 {
@@ -13474,7 +13649,7 @@
                 {
                   "CType": 1,
                   "Name": "Hasse’s Orphans",
-                  "SortOrder": "M003002024001",
+                  "SortOrder": "M003002025001",
                   "POV": "Thore",
                   "Sources": [
                     {
@@ -13505,7 +13680,7 @@
             {
               "CType": 0,
               "Name": "My Winter Preparations",
-              "SortOrder": "M003002025",
+              "SortOrder": "M003002026",
               "POV": "",
               "Sources": [
                 {
@@ -13529,7 +13704,7 @@
             {
               "CType": 0,
               "Name": "Epilogue",
-              "SortOrder": "M003002026",
+              "SortOrder": "M003002027",
               "POV": "Brigitte",
               "Sources": [
                 {
@@ -13552,7 +13727,7 @@
                 {
                   "CType": 1,
                   "Name": "Where My Path Leads",
-                  "SortOrder": "M003002026001",
+                  "SortOrder": "M003002027001",
                   "POV": "Lamprecht",
                   "Sources": [
                     {
@@ -13595,7 +13770,7 @@
             {
               "CType": 8,
               "Name": "P3V2 Comfy Life",
-              "SortOrder": "M003002027",
+              "SortOrder": "M003002028",
               "POV": "",
               "Sources": [
                 {
@@ -13625,7 +13800,7 @@
             {
               "CType": 7,
               "Name": "P3V2 Afterword",
-              "SortOrder": "M003002028",
+              "SortOrder": "M003002029",
               "POV": "",
               "Sources": [
                 {
@@ -18872,7 +19047,7 @@
             {
               "CType": 14,
               "Name": "Manga 6",
-              "SortOrder": "M004002002a",
+              "SortOrder": "M004002003",
               "POV": "",
               "Sources": [
                 {
@@ -18896,7 +19071,7 @@
             {
               "CType": 14,
               "Name": "Manga 7",
-              "SortOrder": "M004002002b",
+              "SortOrder": "M004002004",
               "POV": "",
               "Sources": [
                 {
@@ -18950,7 +19125,7 @@
             {
               "CType": 5,
               "Name": "Map of Ehrenfest Duchy",
-              "SortOrder": "M004002003",
+              "SortOrder": "M004002005",
               "POV": "",
               "Sources": [
                 {
@@ -18982,7 +19157,7 @@
             {
               "CType": 5,
               "Name": "Map of Yurgenschmidt",
-              "SortOrder": "M004002004",
+              "SortOrder": "M004002006",
               "POV": "",
               "Sources": [
                 {
@@ -19006,7 +19181,7 @@
             {
               "CType": 6,
               "Name": "Part 4 Cast",
-              "SortOrder": "M004002005",
+              "SortOrder": "M004002007",
               "POV": "",
               "Sources": [
                 {
@@ -19042,7 +19217,7 @@
             {
               "CType": 6,
               "Name": "Part 4 Manga Cast",
-              "SortOrder": "M004002006",
+              "SortOrder": "M004002008",
               "POV": "",
               "Sources": [
                 {
@@ -19072,7 +19247,7 @@
             {
               "CType": 6,
               "Name": "Former Veronica Faction Students",
-              "SortOrder": "M004002007",
+              "SortOrder": "M004002009",
               "POV": "",
               "Sources": [
                 {
@@ -19102,7 +19277,7 @@
             {
               "CType": 6,
               "Name": "Prince Anastasius' Retainers",
-              "SortOrder": "M004002007x",
+              "SortOrder": "M004002010",
               "POV": "",
               "Sources": [
                 {
@@ -19132,7 +19307,7 @@
             {
               "CType": 6,
               "Name": "Lestilaut's Retainers",
-              "SortOrder": "M004002007y",
+              "SortOrder": "M004002011",
               "POV": "",
               "Sources": [
                 {
@@ -19162,7 +19337,7 @@
             {
               "CType": 6,
               "Name": "P4V2 Character Design Sheets",
-              "SortOrder": "M004002008",
+              "SortOrder": "M004002012",
               "POV": "",
               "Sources": [
                 {
@@ -19192,7 +19367,7 @@
             {
               "CType": 0,
               "Name": "Prologue",
-              "SortOrder": "M004002009",
+              "SortOrder": "M004002013",
               "POV": "Solange",
               "Sources": [
                 {
@@ -19215,7 +19390,7 @@
                 {
                   "CType": 13,
                   "Name": "An Update on Rozemyne’s Classes",
-                  "SortOrder": "M004002009001",
+                  "SortOrder": "M004002013001",
                   "POV": "Wilfried",
                   "Sources": [
                     {
@@ -19294,7 +19469,7 @@
             {
               "CType": 0,
               "Name": "Meeting for the Tea Party",
-              "SortOrder": "M004002010",
+              "SortOrder": "M004002014",
               "POV": "",
               "Sources": [
                 {
@@ -19318,7 +19493,7 @@
             {
               "CType": 0,
               "Name": "Onward to the Library",
-              "SortOrder": "M004002011",
+              "SortOrder": "M004002015",
               "POV": "",
               "Sources": [
                 {
@@ -19354,7 +19529,7 @@
             {
               "CType": 0,
               "Name": "I Want to Found the Library Committee",
-              "SortOrder": "M004002012",
+              "SortOrder": "M004002016",
               "POV": "",
               "Sources": [
                 {
@@ -19377,7 +19552,7 @@
                 {
                   "CType": 1,
                   "Name": "She Who Saved My Heart",
-                  "SortOrder": "M004002012001",
+                  "SortOrder": "M004002016001",
                   "POV": "Roderick",
                   "Sources": [
                     {
@@ -19420,7 +19595,7 @@
             {
               "CType": 0,
               "Name": "Preparing a Tea Party for Solange",
-              "SortOrder": "M004002013",
+              "SortOrder": "M004002017",
               "POV": "",
               "Sources": [
                 {
@@ -19444,7 +19619,7 @@
             {
               "CType": 0,
               "Name": "My First Tea Party at the Royal Academy",
-              "SortOrder": "M004002014",
+              "SortOrder": "M004002018",
               "POV": "",
               "Sources": [
                 {
@@ -19479,7 +19654,7 @@
                 {
                   "CType": 1,
                   "Name": "One Day in the Royal Academy",
-                  "SortOrder": "M004002014001",
+                  "SortOrder": "M004002018001",
                   "POV": "Roderick",
                   "Sources": [
                     {
@@ -19522,7 +19697,7 @@
             {
               "CType": 0,
               "Name": "Tea Party with the Music Professors",
-              "SortOrder": "M004002015",
+              "SortOrder": "M004002019",
               "POV": "",
               "Sources": [
                 {
@@ -19557,7 +19732,7 @@
                 {
                   "CType": 13,
                   "Name": "Tea party with the Music Professors",
-                  "SortOrder": "M70608",
+                  "SortOrder": "M004002019001",
                   "POV": "Rosina",
                   "Sources": [
                     {
@@ -19636,7 +19811,7 @@
             {
               "CType": 0,
               "Name": "Measuring Schwartz and Weiss",
-              "SortOrder": "M004002016",
+              "SortOrder": "M004002020",
               "POV": "",
               "Sources": [
                 {
@@ -19659,7 +19834,7 @@
                 {
                   "CType": 1,
                   "Name": "Lieseleta's Resolve",
-                  "SortOrder": "M70607",
+                  "SortOrder": "M004002020001",
                   "POV": "Lieseleta",
                   "Sources": [
                     {
@@ -19720,7 +19895,7 @@
             {
               "CType": 0,
               "Name": "The Battle for Schwartz and Weiss",
-              "SortOrder": "M004002017",
+              "SortOrder": "M004002021",
               "POV": "",
               "Sources": [
                 {
@@ -19756,7 +19931,7 @@
             {
               "CType": 0,
               "Name": "Treasure-Stealing Ditter",
-              "SortOrder": "M004002018",
+              "SortOrder": "M004002022",
               "POV": "",
               "Sources": [
                 {
@@ -19792,7 +19967,7 @@
             {
               "CType": 0,
               "Name": "The Prince’s Summons",
-              "SortOrder": "M004002019",
+              "SortOrder": "M004002023",
               "POV": "",
               "Sources": [
                 {
@@ -19815,7 +19990,7 @@
                 {
                   "CType": 13,
                   "Name": "Watching over the Dormitory",
-                  "SortOrder": "M000",
+                  "SortOrder": "M004002023001",
                   "POV": "Wilfried",
                   "Sources": [
                     {
@@ -19887,7 +20062,7 @@
                 {
                   "CType": 1,
                   "Name": "Careless Mumbles Lead to Ditter",
-                  "SortOrder": "M004002019001",
+                  "SortOrder": "M004002023002",
                   "POV": "Hannelore",
                   "Sources": [
                     {
@@ -19928,7 +20103,7 @@
                 {
                   "CType": 1,
                   "Name": "Wondrous Ditter",
-                  "SortOrder": "M004002019002",
+                  "SortOrder": "M004002023003",
                   "POV": "Rauffen",
                   "Sources": [
                     {
@@ -19969,7 +20144,7 @@
                 {
                   "CType": 1,
                   "Name": "As a Guard Knight and a Brother",
-                  "SortOrder": "M004002019003",
+                  "SortOrder": "M004002023004",
                   "POV": "Cornelius",
                   "Sources": [
                     {
@@ -20000,7 +20175,7 @@
             {
               "CType": 0,
               "Name": "Rihyarda’s Wrath",
-              "SortOrder": "M004002020",
+              "SortOrder": "M004002024",
               "POV": "",
               "Sources": [
                 {
@@ -20036,7 +20211,7 @@
             {
               "CType": 0,
               "Name": "Traugott’s Thoughts",
-              "SortOrder": "M004002021",
+              "SortOrder": "M004002025",
               "POV": "",
               "Sources": [
                 {
@@ -20060,7 +20235,7 @@
             {
               "CType": 0,
               "Name": "A Tea Party with Eglantine",
-              "SortOrder": "M004002022",
+              "SortOrder": "M004002026",
               "POV": "",
               "Sources": [
                 {
@@ -20084,7 +20259,7 @@
             {
               "CType": 0,
               "Name": "Reporting to the Prince",
-              "SortOrder": "M004002023",
+              "SortOrder": "M004002027",
               "POV": "",
               "Sources": [
                 {
@@ -20119,7 +20294,7 @@
                 {
                   "CType": 1,
                   "Name": "Honest Courting",
-                  "SortOrder": "M004002023001",
+                  "SortOrder": "M004002027001",
                   "POV": "Anastasius",
                   "Sources": [
                     {
@@ -20148,7 +20323,7 @@
                 {
                   "CType": 1,
                   "Name": "An Inelegant Time at the Royal Academy",
-                  "SortOrder": "M004002023002",
+                  "SortOrder": "M004002027002",
                   "POV": "Wilfried",
                   "Sources": [
                     {
@@ -20179,7 +20354,7 @@
             {
               "CType": 0,
               "Name": "An Order to Return to Ehrenfest",
-              "SortOrder": "M004002024",
+              "SortOrder": "M004002028",
               "POV": "",
               "Sources": [
                 {
@@ -20215,7 +20390,7 @@
             {
               "CType": 0,
               "Name": "Interrogation",
-              "SortOrder": "M004002025",
+              "SortOrder": "M004002029",
               "POV": "",
               "Sources": [
                 {
@@ -20250,7 +20425,7 @@
                 {
                   "CType": 1,
                   "Name": "A Guard Knight Always Left Behind",
-                  "SortOrder": "M004002025001",
+                  "SortOrder": "M004002029001",
                   "POV": "Judithe",
                   "Sources": [
                     {
@@ -20281,7 +20456,7 @@
             {
               "CType": 0,
               "Name": "Returning to the Temple",
-              "SortOrder": "M004002026",
+              "SortOrder": "M004002030",
               "POV": "",
               "Sources": [
                 {
@@ -20305,7 +20480,7 @@
             {
               "CType": 0,
               "Name": "Ferdinand and Hirschur’s Gifts",
-              "SortOrder": "M004002027",
+              "SortOrder": "M004002031",
               "POV": "",
               "Sources": [
                 {
@@ -20328,7 +20503,7 @@
                 {
                   "CType": 1,
                   "Name": "Life without One’s Lady",
-                  "SortOrder": "M004002027001",
+                  "SortOrder": "M004002031001",
                   "POV": "Leonore",
                   "Sources": [
                     {
@@ -20359,7 +20534,7 @@
             {
               "CType": 0,
               "Name": "The Summoned Merchants",
-              "SortOrder": "M004002028",
+              "SortOrder": "M004002032",
               "POV": "",
               "Sources": [
                 {
@@ -20383,7 +20558,7 @@
             {
               "CType": 0,
               "Name": "Epilogue",
-              "SortOrder": "M004002029",
+              "SortOrder": "M004002033",
               "POV": "Benno",
               "Sources": [
                 {
@@ -20412,7 +20587,7 @@
                 {
                   "CType": 1,
                   "Name": "Cursed with Such Unfortunate Timing",
-                  "SortOrder": "M004002029001",
+                  "SortOrder": "M004002033001",
                   "POV": "Hannelore",
                   "Sources": [
                     {
@@ -20443,7 +20618,7 @@
             {
               "CType": 8,
               "Name": "P4V2 Comfy Life",
-              "SortOrder": "M004002030",
+              "SortOrder": "M004002034",
               "POV": "",
               "Sources": [
                 {
@@ -20473,7 +20648,7 @@
             {
               "CType": 7,
               "Name": "P4V2 Afterword",
-              "SortOrder": "M004002031",
+              "SortOrder": "M004002035",
               "POV": "",
               "Sources": [
                 {
@@ -35279,7 +35454,32 @@
               "Season": null,
               "OriginalSource": null,
               "Set": null,
-              "Chapters": []
+              "Chapters": [
+                {
+                  "CType": 1,
+                  "Name": "The Work of an Apprentice Noble",
+                  "SortOrder": "M005007018001",
+                  "POV": "Bertilde",
+                  "Sources": [
+                    {
+                      "File": "FB8\\OEBPS\\Text\\side1.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "60808025"
+                    }
+                  ],
+                  "EndsBeforeLine": "",
+                  "StartsAtLine": "",
+                  "SubSections": [],
+                  "Subfolder": "",
+                  "Tags": [],
+                  "Year": null,
+                  "Season": null,
+                  "OriginalSource": null,
+                  "Set": null,
+                  "Chapters": []
+                }
+              ]
             },
             {
               "CType": 0,
@@ -39475,9 +39675,45 @@
               "Chapters": []
             },
             {
+              "CType": 14,
+              "Name": "Fanbook 8",
+              "SortOrder": "M005011002",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "FB8\\OEBPS\\Text\\cover.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60802001"
+                },
+                {
+                  "File": "FB8\\OEBPS\\Text\\11.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60805013"
+                },
+                {
+                  "File": "FB8\\OEBPS\\Text\\13.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60805015"
+                }
+              ],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": []
+            },
+            {
               "CType": 5,
               "Name": "Map of Ehrenfest Duchy",
-              "SortOrder": "M005011002",
+              "SortOrder": "M005011003",
               "POV": "",
               "Sources": [
                 {
@@ -39501,7 +39737,7 @@
             {
               "CType": 5,
               "Name": "Map of Yurgenschmidt",
-              "SortOrder": "M005011003",
+              "SortOrder": "M005011004",
               "POV": "",
               "Sources": [
                 {
@@ -39523,9 +39759,33 @@
               "Chapters": []
             },
             {
+              "CType": 5,
+              "Name": "Map of Alexandria",
+              "SortOrder": "M005011005",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "FB8\\OEBPS\\Text\\36.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60815041"
+                }
+              ],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": "Map of Alexandria",
+              "Chapters": []
+            },
+            {
               "CType": 6,
               "Name": "Part 5 Cast",
-              "SortOrder": "M005011004",
+              "SortOrder": "M005011006",
               "POV": "",
               "Sources": [
                 {
@@ -39559,9 +39819,33 @@
               "Chapters": []
             },
             {
+              "CType": 6,
+              "Name": "P5V11 Character Design Sheets",
+              "SortOrder": "M005011007",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "FB8\\OEBPS\\Text\\35.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60814040"
+                }
+              ],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": "P5V11 Character Design Sheets",
+              "Chapters": []
+            },
+            {
               "CType": 0,
               "Name": "Prologue",
-              "SortOrder": "M005011005",
+              "SortOrder": "M005011008",
               "POV": "Ferdinand",
               "Sources": [
                 {
@@ -39597,7 +39881,7 @@
             {
               "CType": 0,
               "Name": "The Pale-Faced Royal Family",
-              "SortOrder": "M005011006",
+              "SortOrder": "M005011009",
               "POV": "",
               "Sources": [
                 {
@@ -39621,7 +39905,7 @@
             {
               "CType": 0,
               "Name": "Terms for the New Zent",
-              "SortOrder": "M005011007",
+              "SortOrder": "M005011010",
               "POV": "",
               "Sources": [
                 {
@@ -39645,7 +39929,7 @@
             {
               "CType": 0,
               "Name": "Goddess-Dyed Mana and Name-Swearing",
-              "SortOrder": "M005011008",
+              "SortOrder": "M005011011",
               "POV": "",
               "Sources": [
                 {
@@ -39681,7 +39965,7 @@
             {
               "CType": 0,
               "Name": "Finalizing the New Zent",
-              "SortOrder": "M005011009",
+              "SortOrder": "M005011012",
               "POV": "",
               "Sources": [
                 {
@@ -39705,7 +39989,7 @@
             {
               "CType": 0,
               "Name": "Rewards and the Criminals",
-              "SortOrder": "M005011010",
+              "SortOrder": "M005011013",
               "POV": "",
               "Sources": [
                 {
@@ -39729,7 +40013,7 @@
             {
               "CType": 0,
               "Name": "Adolphine’s Push",
-              "SortOrder": "M005011011",
+              "SortOrder": "M005011014",
               "POV": "",
               "Sources": [
                 {
@@ -39765,7 +40049,7 @@
             {
               "CType": 0,
               "Name": "Eglantine’s Name-Swearing",
-              "SortOrder": "M005011012",
+              "SortOrder": "M005011015",
               "POV": "",
               "Sources": [
                 {
@@ -39789,7 +40073,7 @@
             {
               "CType": 0,
               "Name": "Blessings from the Gods",
-              "SortOrder": "M005011013",
+              "SortOrder": "M005011016",
               "POV": "",
               "Sources": [
                 {
@@ -39836,7 +40120,7 @@
                 {
                   "CType": 1,
                   "Name": "Vows and the Garden of Beginnings",
-                  "SortOrder": "M005011013001",
+                  "SortOrder": "M005011016001",
                   "POV": "Eglantine",
                   "Sources": [
                     {
@@ -39867,7 +40151,7 @@
             {
               "CType": 0,
               "Name": "The Blessings’ Influence",
-              "SortOrder": "M005011014",
+              "SortOrder": "M005011017",
               "POV": "",
               "Sources": [
                 {
@@ -39890,7 +40174,7 @@
                 {
                   "CType": 1,
                   "Name": "The Transference Ceremony",
-                  "SortOrder": "M005011014001",
+                  "SortOrder": "M005011017001",
                   "POV": "Hannelore",
                   "Sources": [
                     {
@@ -39933,7 +40217,7 @@
             {
               "CType": 0,
               "Name": "Operation: Mana Drain",
-              "SortOrder": "M005011015",
+              "SortOrder": "M005011018",
               "POV": "",
               "Sources": [
                 {
@@ -39969,7 +40253,7 @@
             {
               "CType": 0,
               "Name": "Gold Dust and Going Back",
-              "SortOrder": "M005011016",
+              "SortOrder": "M005011019",
               "POV": "",
               "Sources": [
                 {
@@ -39993,7 +40277,7 @@
             {
               "CType": 0,
               "Name": "Expending Mana through Spring Prayer",
-              "SortOrder": "M005011017",
+              "SortOrder": "M005011020",
               "POV": "",
               "Sources": [
                 {
@@ -40029,7 +40313,7 @@
             {
               "CType": 0,
               "Name": "Never-Ending Mana",
-              "SortOrder": "M005011018",
+              "SortOrder": "M005011021",
               "POV": "",
               "Sources": [
                 {
@@ -40053,7 +40337,7 @@
             {
               "CType": 0,
               "Name": "Large-Scale Magic",
-              "SortOrder": "M005011019",
+              "SortOrder": "M005011022",
               "POV": "",
               "Sources": [
                 {
@@ -40089,7 +40373,7 @@
             {
               "CType": 0,
               "Name": "Epilogue",
-              "SortOrder": "M005011020",
+              "SortOrder": "M005011023",
               "POV": "Gretia",
               "Sources": [
                 {
@@ -40124,7 +40408,7 @@
                 {
                   "CType": 1,
                   "Name": "The New Aub’s Awesome Magic",
-                  "SortOrder": "M005011020001",
+                  "SortOrder": "M005011023001",
                   "POV": "Jiffy",
                   "Sources": [
                     {
@@ -40155,7 +40439,7 @@
             {
               "CType": 8,
               "Name": "P5V11 Comfy Life",
-              "SortOrder": "M005011021",
+              "SortOrder": "M005011024",
               "POV": "",
               "Sources": [
                 {
@@ -40183,9 +40467,305 @@
               "Chapters": []
             },
             {
+              "CType": 8,
+              "Name": "Fanbook 8 Comfy Life",
+              "SortOrder": "M005011025",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "FB8\\OEBPS\\Text\\41.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60818047"
+                },
+                {
+                  "File": "FB8\\OEBPS\\Text\\42.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60818048"
+                }
+              ],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": []
+            },
+            {
+              "CType": 10,
+              "Name": "Fanbook 8 Q&amp;A",
+              "SortOrder": "M005011026",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "FB8\\OEBPS\\Text\\qa.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60817046"
+                }
+              ],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": []
+            },
+            {
+              "CType": 11,
+              "Name": "Drama CD 8",
+              "SortOrder": "M005011027",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "FB7\\OEBPS\\Text\\12.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60705014"
+                },
+                {
+                  "File": "FB8\\OEBPS\\Text\\side2.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60810030"
+                }
+              ],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": [
+                {
+                  "CType": 11,
+                  "Name": "Suzuka",
+                  "SortOrder": "M005011027001",
+                  "POV": "",
+                  "Sources": [
+                    {
+                      "File": "FB8\\OEBPS\\Text\\27.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "60811031"
+                    },
+                    {
+                      "File": "FB8\\OEBPS\\Text\\28.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "60811032"
+                    },
+                    {
+                      "File": "FB8\\OEBPS\\Text\\29.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "60811033"
+                    },
+                    {
+                      "File": "FB8\\OEBPS\\Text\\30.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "60811034"
+                    }
+                  ],
+                  "EndsBeforeLine": "",
+                  "StartsAtLine": "",
+                  "SubSections": [],
+                  "Subfolder": "",
+                  "Tags": [],
+                  "Year": null,
+                  "Season": null,
+                  "OriginalSource": null,
+                  "Set": null,
+                  "Chapters": []
+                }
+              ]
+            },
+            {
+              "CType": 11,
+              "Name": "Drama CD 9",
+              "SortOrder": "M005011028",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "FB8\\OEBPS\\Text\\12.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60805014"
+                },
+                {
+                  "File": "FB8\\OEBPS\\Text\\side3.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60812035"
+                }
+              ],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": [
+                {
+                  "CType": 11,
+                  "Name": "Day 1",
+                  "SortOrder": "M005011028001",
+                  "POV": "",
+                  "Sources": [
+                    {
+                      "File": "FB8\\OEBPS\\Text\\side3.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "60812035"
+                    }
+                  ],
+                  "EndsBeforeLine": "<h2>Day 2</h2>",
+                  "StartsAtLine": "<h2>Day 1</h2>",
+                  "SubSections": [],
+                  "Subfolder": "",
+                  "Tags": [],
+                  "Year": null,
+                  "Season": null,
+                  "OriginalSource": null,
+                  "Set": null,
+                  "Chapters": []
+                },
+                {
+                  "CType": 11,
+                  "Name": "Day 2",
+                  "SortOrder": "M005011028002",
+                  "POV": "",
+                  "Sources": [
+                    {
+                      "File": "FB8\\OEBPS\\Text\\side3.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "60812035"
+                    }
+                  ],
+                  "EndsBeforeLine": "",
+                  "StartsAtLine": "<h2>Day 2</h2>",
+                  "SubSections": [],
+                  "Subfolder": "",
+                  "Tags": [],
+                  "Year": null,
+                  "Season": null,
+                  "OriginalSource": null,
+                  "Set": null,
+                  "Chapters": []
+                },
+                {
+                  "CType": 11,
+                  "Name": "Suzuka",
+                  "SortOrder": "M005011028003",
+                  "POV": "",
+                  "Sources": [
+                    {
+                      "File": "FB8\\OEBPS\\Text\\31.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "60813036"
+                    },
+                    {
+                      "File": "FB8\\OEBPS\\Text\\32.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "60813037"
+                    },
+                    {
+                      "File": "FB8\\OEBPS\\Text\\33.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "60813038"
+                    },
+                    {
+                      "File": "FB8\\OEBPS\\Text\\34.xhtml",
+                      "Alternates": [],
+                      "OtherSide": null,
+                      "SortOrder": "60813039"
+                    }
+                  ],
+                  "EndsBeforeLine": "",
+                  "StartsAtLine": "",
+                  "SubSections": [],
+                  "Subfolder": "",
+                  "Tags": [],
+                  "Year": null,
+                  "Season": null,
+                  "OriginalSource": null,
+                  "Set": null,
+                  "Chapters": []
+                }
+              ]
+            },
+            {
+              "CType": 12,
+              "Name": "Fanbook 8 Cover, Color Art, and Miscellaneous Art Rough Draft Gallery",
+              "SortOrder": "M005011029",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "FB8\\OEBPS\\Text\\14.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60806016"
+                },
+                {
+                  "File": "FB8\\OEBPS\\Text\\15.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60806017"
+                },
+                {
+                  "File": "FB8\\OEBPS\\Text\\16.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60806018"
+                },
+                {
+                  "File": "FB8\\OEBPS\\Text\\17.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60806019"
+                },
+                {
+                  "File": "FB8\\OEBPS\\Text\\18.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60806020"
+                }
+              ],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": []
+            },
+            {
               "CType": 7,
               "Name": "P5V11 Afterword",
-              "SortOrder": "M005011022",
+              "SortOrder": "M005011030",
               "POV": "",
               "Sources": [
                 {
@@ -40193,6 +40773,30 @@
                   "Alternates": [],
                   "OtherSide": null,
                   "SortOrder": "13226049"
+                }
+              ],
+              "EndsBeforeLine": "",
+              "StartsAtLine": "",
+              "SubSections": [],
+              "Subfolder": "",
+              "Tags": [],
+              "Year": null,
+              "Season": null,
+              "OriginalSource": null,
+              "Set": null,
+              "Chapters": []
+            },
+            {
+              "CType": 7,
+              "Name": "FB8 Messages from the Creators",
+              "SortOrder": "M005011031",
+              "POV": "",
+              "Sources": [
+                {
+                  "File": "FB8\\OEBPS\\Text\\message.xhtml",
+                  "Alternates": [],
+                  "OtherSide": null,
+                  "SortOrder": "60819049"
                 }
               ],
               "EndsBeforeLine": "",
@@ -41924,7 +42528,7 @@
         {
           "CType": 4,
           "Name": "Volume 2",
-          "SortOrder": "M202",
+          "SortOrder": "M006002",
           "POV": "",
           "Sources": [
             {
@@ -41947,7 +42551,7 @@
             {
               "CType": 14,
               "Name": "Volume 2",
-              "SortOrder": "M01",
+              "SortOrder": "M006002001",
               "POV": "",
               "Sources": [
                 {
@@ -41977,7 +42581,7 @@
             {
               "CType": 5,
               "Name": "Zent Eglantine's Yurgenschmidt",
-              "SortOrder": "M02",
+              "SortOrder": "M006002002",
               "POV": "",
               "Sources": [
                 {
@@ -42001,7 +42605,7 @@
             {
               "CType": 6,
               "Name": "Hannelore's Cast",
-              "SortOrder": "M03",
+              "SortOrder": "M006002003",
               "POV": "",
               "Sources": [
                 {
@@ -42030,7 +42634,7 @@
             {
               "CType": 0,
               "Name": "Prologue",
-              "SortOrder": "M20202",
+              "SortOrder": "M006002004",
               "POV": "Kenntrips",
               "Sources": [
                 {
@@ -42060,7 +42664,7 @@
             {
               "CType": 0,
               "Name": "Convincing the Retainers",
-              "SortOrder": "M20203",
+              "SortOrder": "M006002005",
               "POV": "",
               "Sources": [
                 {
@@ -42084,7 +42688,7 @@
             {
               "CType": 0,
               "Name": "Hannelore’s Lesson",
-              "SortOrder": "M20204",
+              "SortOrder": "M006002006",
               "POV": "",
               "Sources": [
                 {
@@ -42120,7 +42724,7 @@
             {
               "CType": 0,
               "Name": "Exchanging Intelligence with Alexandria",
-              "SortOrder": "M20205",
+              "SortOrder": "M006002007",
               "POV": "",
               "Sources": [
                 {
@@ -42156,7 +42760,7 @@
             {
               "CType": 0,
               "Name": "Summons from the Zent",
-              "SortOrder": "M20206",
+              "SortOrder": "M006002008",
               "POV": "",
               "Sources": [
                 {
@@ -42192,7 +42796,7 @@
             {
               "CType": 0,
               "Name": "Irregular Regularity",
-              "SortOrder": "M20207",
+              "SortOrder": "M006002009",
               "POV": "",
               "Sources": [
                 {
@@ -42228,7 +42832,7 @@
             {
               "CType": 0,
               "Name": "The Ripples of Wilfried’s Words",
-              "SortOrder": "M20208",
+              "SortOrder": "M006002010",
               "POV": "",
               "Sources": [
                 {
@@ -42251,7 +42855,7 @@
                 {
                   "CType": 1,
                   "Name": "An Error and an Interrogation",
-                  "SortOrder": "M20218",
+                  "SortOrder": "M006002010001",
                   "POV": "Charlotte",
                   "Sources": [
                     {
@@ -42280,7 +42884,7 @@
                 {
                   "CType": 1,
                   "Name": "Trials of the Zent’s First Year",
-                  "SortOrder": "M20219",
+                  "SortOrder": "M006002010002",
                   "POV": "Eglantine",
                   "Sources": [
                     {
@@ -42311,7 +42915,7 @@
             {
               "CType": 0,
               "Name": "The Zent’s Announcement",
-              "SortOrder": "M20209",
+              "SortOrder": "M006002011",
               "POV": "",
               "Sources": [
                 {
@@ -42335,7 +42939,7 @@
             {
               "CType": 0,
               "Name": "Speaking with Ortwin",
-              "SortOrder": "M20210",
+              "SortOrder": "M006002012",
               "POV": "",
               "Sources": [
                 {
@@ -42371,7 +42975,7 @@
             {
               "CType": 0,
               "Name": "Returning to Dunkelfelger",
-              "SortOrder": "M20211",
+              "SortOrder": "M006002013",
               "POV": "",
               "Sources": [
                 {
@@ -42407,7 +43011,7 @@
             {
               "CType": 0,
               "Name": "Ditter at the Dormitory",
-              "SortOrder": "M20212",
+              "SortOrder": "M006002014",
               "POV": "",
               "Sources": [
                 {
@@ -42431,7 +43035,7 @@
             {
               "CType": 0,
               "Name": "Feelings and Ditter",
-              "SortOrder": "M20213",
+              "SortOrder": "M006002015",
               "POV": "",
               "Sources": [
                 {
@@ -42467,7 +43071,7 @@
             {
               "CType": 0,
               "Name": "Daughter of the Second Wife",
-              "SortOrder": "M20214",
+              "SortOrder": "M006002016",
               "POV": "",
               "Sources": [
                 {
@@ -42491,7 +43095,7 @@
             {
               "CType": 0,
               "Name": "Whirling Practice",
-              "SortOrder": "M20215",
+              "SortOrder": "M006002017",
               "POV": "",
               "Sources": [
                 {
@@ -42527,7 +43131,7 @@
             {
               "CType": 0,
               "Name": "A Breaktime Conversation",
-              "SortOrder": "M20216",
+              "SortOrder": "M006002018",
               "POV": "",
               "Sources": [
                 {
@@ -42563,7 +43167,7 @@
             {
               "CType": 0,
               "Name": "Epilogue",
-              "SortOrder": "M20217",
+              "SortOrder": "M006002019",
               "POV": "Ortwin",
               "Sources": [
                 {
@@ -42587,7 +43191,7 @@
             {
               "CType": 8,
               "Name": "H5V2 Comfy Life",
-              "SortOrder": "M20222",
+              "SortOrder": "M006002020",
               "POV": "",
               "Sources": [
                 {
@@ -42617,7 +43221,7 @@
             {
               "CType": 7,
               "Name": "H5V2 Afterword",
-              "SortOrder": "M9999",
+              "SortOrder": "M006002021",
               "POV": "",
               "Sources": [
                 {
@@ -42639,830 +43243,6 @@
               "Chapters": []
             }
           ]
-        }
-      ]
-    },
-    {
-      "CType": 2,
-      "Name": "ascendance-of-a-bookworm-fanbook-7",
-      "SortOrder": "M007",
-      "POV": "",
-      "Sources": [],
-      "EndsBeforeLine": "",
-      "StartsAtLine": "",
-      "SubSections": [],
-      "Subfolder": "",
-      "Tags": [],
-      "Year": null,
-      "Season": null,
-      "OriginalSource": null,
-      "Set": null,
-      "Chapters": [
-        {
-          "CType": 12,
-          "Name": "Miscellaneous Art Gallery",
-          "SortOrder": "M007001",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "FB7\\OEBPS\\Text\\12.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60705014"
-            }
-          ],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Subfolder": "",
-          "Tags": [],
-          "Year": null,
-          "Season": null,
-          "OriginalSource": null,
-          "Set": null,
-          "Chapters": []
-        }
-      ]
-    },
-    {
-      "CType": 0,
-      "Name": "ascendance-of-a-bookworm-fanbook-8",
-      "SortOrder": "M608",
-      "POV": "",
-      "Sources": [],
-      "EndsBeforeLine": "",
-      "StartsAtLine": "",
-      "SubSections": [],
-      "Subfolder": "",
-      "Tags": [],
-      "Year": null,
-      "Season": null,
-      "OriginalSource": null,
-      "Set": null,
-      "Chapters": [
-        {
-          "CType": 0,
-          "Name": "Landmarks",
-          "SortOrder": "M60801",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "FB8\\OEBPS\\Text\\cover.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60802001"
-            },
-            {
-              "File": "FB8\\OEBPS\\Text\\toc.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60802002"
-            }
-          ],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Subfolder": "",
-          "Tags": [],
-          "Year": null,
-          "Season": null,
-          "OriginalSource": null,
-          "Set": null,
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "Name": "Color Art Gallery",
-          "SortOrder": "M60802",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "FB8\\OEBPS\\Text\\01.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60803003"
-            },
-            {
-              "File": "FB8\\OEBPS\\Text\\02.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60803004"
-            }
-          ],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Subfolder": "",
-          "Tags": [],
-          "Year": null,
-          "Season": null,
-          "OriginalSource": null,
-          "Set": null,
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "Name": "Cover Art Gallery",
-          "SortOrder": "M60803",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "FB8\\OEBPS\\Text\\03.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60804005"
-            },
-            {
-              "File": "FB8\\OEBPS\\Text\\04.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60804006"
-            },
-            {
-              "File": "FB8\\OEBPS\\Text\\05.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60804007"
-            },
-            {
-              "File": "FB8\\OEBPS\\Text\\06.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60804008"
-            },
-            {
-              "File": "FB8\\OEBPS\\Text\\07.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60804009"
-            }
-          ],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Subfolder": "",
-          "Tags": [],
-          "Year": null,
-          "Season": null,
-          "OriginalSource": null,
-          "Set": null,
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "Name": "Miscellaneous Art Gallery",
-          "SortOrder": "M60804",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "FB8\\OEBPS\\Text\\08.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60805010"
-            },
-            {
-              "File": "FB8\\OEBPS\\Text\\09.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60805011"
-            },
-            {
-              "File": "FB8\\OEBPS\\Text\\10.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60805012"
-            },
-            {
-              "File": "FB8\\OEBPS\\Text\\11.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60805013"
-            },
-            {
-              "File": "FB8\\OEBPS\\Text\\12.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60805014"
-            },
-            {
-              "File": "FB8\\OEBPS\\Text\\13.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60805015"
-            }
-          ],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Subfolder": "",
-          "Tags": [],
-          "Year": null,
-          "Season": null,
-          "OriginalSource": null,
-          "Set": null,
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "Name": "Cover, Color Art, and Miscellaneous Art Rough Draft Gallery",
-          "SortOrder": "M60805",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "FB8\\OEBPS\\Text\\14.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60806016"
-            },
-            {
-              "File": "FB8\\OEBPS\\Text\\15.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60806017"
-            },
-            {
-              "File": "FB8\\OEBPS\\Text\\16.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60806018"
-            },
-            {
-              "File": "FB8\\OEBPS\\Text\\17.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60806019"
-            },
-            {
-              "File": "FB8\\OEBPS\\Text\\18.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60806020"
-            }
-          ],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Subfolder": "",
-          "Tags": [],
-          "Year": null,
-          "Season": null,
-          "OriginalSource": null,
-          "Set": null,
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "Name": "“During Myne’s Nap” by Suzuka",
-          "SortOrder": "M60806",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "FB8\\OEBPS\\Text\\19.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60807021"
-            },
-            {
-              "File": "FB8\\OEBPS\\Text\\20.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60807022"
-            },
-            {
-              "File": "FB8\\OEBPS\\Text\\21.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60807023"
-            },
-            {
-              "File": "FB8\\OEBPS\\Text\\22.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60807024"
-            }
-          ],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Subfolder": "",
-          "Tags": [],
-          "Year": null,
-          "Season": null,
-          "OriginalSource": null,
-          "Set": null,
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "Name": "The Work of an Apprentice Noble",
-          "SortOrder": "M60807",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "FB8\\OEBPS\\Text\\side1.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60808025"
-            }
-          ],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Subfolder": "",
-          "Tags": [],
-          "Year": null,
-          "Season": null,
-          "OriginalSource": null,
-          "Set": null,
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "Name": "“Rozemyne and the Knife” by Ryo Namino",
-          "SortOrder": "M60808",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "FB8\\OEBPS\\Text\\23.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60809026"
-            },
-            {
-              "File": "FB8\\OEBPS\\Text\\24.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60809027"
-            },
-            {
-              "File": "FB8\\OEBPS\\Text\\25.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60809028"
-            },
-            {
-              "File": "FB8\\OEBPS\\Text\\26.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60809029"
-            }
-          ],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Subfolder": "",
-          "Tags": [],
-          "Year": null,
-          "Season": null,
-          "OriginalSource": null,
-          "Set": null,
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "Name": "<em>Ascendance of a Bookworm</em>",
-          "SortOrder": "M60809",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "FB8\\OEBPS\\Text\\side2.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60810030"
-            }
-          ],
-          "EndsBeforeLine": "<h2>Drama CD 8 Post-Recording Report</h2>",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Subfolder": "",
-          "Tags": [],
-          "Year": null,
-          "Season": null,
-          "OriginalSource": null,
-          "Set": null,
-          "Chapters": [
-            {
-              "CType": 0,
-              "Name": "Drama CD 8 Post-Recording Report",
-              "SortOrder": "M6080901",
-              "POV": "",
-              "Sources": [
-                {
-                  "File": "FB8\\OEBPS\\Text\\side2.xhtml",
-                  "Alternates": [],
-                  "OtherSide": null,
-                  "SortOrder": "60810030"
-                }
-              ],
-              "EndsBeforeLine": "",
-              "StartsAtLine": "<h2>Drama CD 8 Post-Recording Report</h2>",
-              "SubSections": [],
-              "Subfolder": "",
-              "Tags": [],
-              "Year": null,
-              "Season": null,
-              "OriginalSource": null,
-              "Set": null,
-              "Chapters": []
-            }
-          ]
-        },
-        {
-          "CType": 0,
-          "Name": "“Drama CD 8 Post-Recording Report” by Suzuka",
-          "SortOrder": "M60810",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "FB8\\OEBPS\\Text\\27.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60811031"
-            },
-            {
-              "File": "FB8\\OEBPS\\Text\\28.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60811032"
-            },
-            {
-              "File": "FB8\\OEBPS\\Text\\29.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60811033"
-            },
-            {
-              "File": "FB8\\OEBPS\\Text\\30.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60811034"
-            }
-          ],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Subfolder": "",
-          "Tags": [],
-          "Year": null,
-          "Season": null,
-          "OriginalSource": null,
-          "Set": null,
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "Name": "<em>Ascendance of a Bookworm</em>",
-          "SortOrder": "M60811",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "FB8\\OEBPS\\Text\\side3.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60812035"
-            }
-          ],
-          "EndsBeforeLine": "<h2>Drama CD 9 Post-Recording Report</h2>",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Subfolder": "",
-          "Tags": [],
-          "Year": null,
-          "Season": null,
-          "OriginalSource": null,
-          "Set": null,
-          "Chapters": [
-            {
-              "CType": 0,
-              "Name": "Drama CD 9 Post-Recording Report",
-              "SortOrder": "M6081101",
-              "POV": "",
-              "Sources": [
-                {
-                  "File": "FB8\\OEBPS\\Text\\side3.xhtml",
-                  "Alternates": [],
-                  "OtherSide": null,
-                  "SortOrder": "60812035"
-                }
-              ],
-              "EndsBeforeLine": "<h2>Day 1</h2>",
-              "StartsAtLine": "<h2>Drama CD 9 Post-Recording Report</h2>",
-              "SubSections": [],
-              "Subfolder": "",
-              "Tags": [],
-              "Year": null,
-              "Season": null,
-              "OriginalSource": null,
-              "Set": null,
-              "Chapters": []
-            },
-            {
-              "CType": 0,
-              "Name": "Day 1",
-              "SortOrder": "M6081102",
-              "POV": "",
-              "Sources": [
-                {
-                  "File": "FB8\\OEBPS\\Text\\side3.xhtml",
-                  "Alternates": [],
-                  "OtherSide": null,
-                  "SortOrder": "60812035"
-                }
-              ],
-              "EndsBeforeLine": "<h2>Day 2</h2>",
-              "StartsAtLine": "<h2>Day 1</h2>",
-              "SubSections": [],
-              "Subfolder": "",
-              "Tags": [],
-              "Year": null,
-              "Season": null,
-              "OriginalSource": null,
-              "Set": null,
-              "Chapters": []
-            },
-            {
-              "CType": 0,
-              "Name": "Day 2",
-              "SortOrder": "M6081103",
-              "POV": "",
-              "Sources": [
-                {
-                  "File": "FB8\\OEBPS\\Text\\side3.xhtml",
-                  "Alternates": [],
-                  "OtherSide": null,
-                  "SortOrder": "60812035"
-                }
-              ],
-              "EndsBeforeLine": "",
-              "StartsAtLine": "<h2>Day 2</h2>",
-              "SubSections": [],
-              "Subfolder": "",
-              "Tags": [],
-              "Year": null,
-              "Season": null,
-              "OriginalSource": null,
-              "Set": null,
-              "Chapters": []
-            }
-          ]
-        },
-        {
-          "CType": 0,
-          "Name": "“Drama CD 9 Post-Recording Report” by Suzuka",
-          "SortOrder": "M60812",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "FB8\\OEBPS\\Text\\31.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60813036"
-            },
-            {
-              "File": "FB8\\OEBPS\\Text\\32.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60813037"
-            },
-            {
-              "File": "FB8\\OEBPS\\Text\\33.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60813038"
-            },
-            {
-              "File": "FB8\\OEBPS\\Text\\34.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60813039"
-            }
-          ],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Subfolder": "",
-          "Tags": [],
-          "Year": null,
-          "Season": null,
-          "OriginalSource": null,
-          "Set": null,
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "Name": "Character Design Sheets",
-          "SortOrder": "M60813",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "FB8\\OEBPS\\Text\\35.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60814040"
-            }
-          ],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Subfolder": "",
-          "Tags": [],
-          "Year": null,
-          "Season": null,
-          "OriginalSource": null,
-          "Set": null,
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "Name": "Map of Alexandria",
-          "SortOrder": "M60814",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "FB8\\OEBPS\\Text\\36.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60815041"
-            }
-          ],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Subfolder": "",
-          "Tags": [],
-          "Year": null,
-          "Season": null,
-          "OriginalSource": null,
-          "Set": null,
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "Name": "“How It Turned into Ditter” by Hikaru Katsuki",
-          "SortOrder": "M60815",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "FB8\\OEBPS\\Text\\37.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60816042"
-            },
-            {
-              "File": "FB8\\OEBPS\\Text\\38.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60816043"
-            },
-            {
-              "File": "FB8\\OEBPS\\Text\\39.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60816044"
-            },
-            {
-              "File": "FB8\\OEBPS\\Text\\40.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60816045"
-            }
-          ],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Subfolder": "",
-          "Tags": [],
-          "Year": null,
-          "Season": null,
-          "OriginalSource": null,
-          "Set": null,
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "Name": "Q&amp;A with Miya Kazuki",
-          "SortOrder": "M60816",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "FB8\\OEBPS\\Text\\qa.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60817046"
-            }
-          ],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Subfolder": "",
-          "Tags": [],
-          "Year": null,
-          "Season": null,
-          "OriginalSource": null,
-          "Set": null,
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "Name": "“A Comfy Life with My Family” by You Shiina",
-          "SortOrder": "M60817",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "FB8\\OEBPS\\Text\\41.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60818047"
-            },
-            {
-              "File": "FB8\\OEBPS\\Text\\42.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60818048"
-            }
-          ],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Subfolder": "",
-          "Tags": [],
-          "Year": null,
-          "Season": null,
-          "OriginalSource": null,
-          "Set": null,
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "Name": "Messages from the Creators",
-          "SortOrder": "M60818",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "FB8\\OEBPS\\Text\\message.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60819049"
-            }
-          ],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Subfolder": "",
-          "Tags": [],
-          "Year": null,
-          "Season": null,
-          "OriginalSource": null,
-          "Set": null,
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "Name": "About J-Novel Club",
-          "SortOrder": "M60819",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "FB8\\OEBPS\\Text\\signup.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60820050"
-            }
-          ],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Subfolder": "",
-          "Tags": [],
-          "Year": null,
-          "Season": null,
-          "OriginalSource": null,
-          "Set": null,
-          "Chapters": []
-        },
-        {
-          "CType": 0,
-          "Name": "Copyright",
-          "SortOrder": "M60820",
-          "POV": "",
-          "Sources": [
-            {
-              "File": "FB8\\OEBPS\\Text\\copyright.xhtml",
-              "Alternates": [],
-              "OtherSide": null,
-              "SortOrder": "60821051"
-            }
-          ],
-          "EndsBeforeLine": "",
-          "StartsAtLine": "",
-          "SubSections": [],
-          "Subfolder": "",
-          "Tags": [],
-          "Year": null,
-          "Season": null,
-          "OriginalSource": null,
-          "Set": null,
-          "Chapters": []
         }
       ]
     }
