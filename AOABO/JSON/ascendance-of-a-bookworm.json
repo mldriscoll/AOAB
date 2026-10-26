@@ -8581,10 +8581,15 @@
                   "StartsAtLine": "",
                   "SubSections": [],
                   "Subfolder": "",
-                  "Tags": [],
+                  "Tags": [
+                    {
+                      "Name": "Source",
+                      "Value": "FB8 Bonus 1"
+                    }
+                  ],
                   "Year": null,
                   "Season": null,
-                  "OriginalSource": null,
+                  "OriginalSource": "FB8 Bonus 1",
                   "Set": null,
                   "Chapters": []
                 },
@@ -9726,10 +9731,15 @@
                   "StartsAtLine": "",
                   "SubSections": [],
                   "Subfolder": "",
-                  "Tags": [],
+                  "Tags": [
+                    {
+                      "Name": "Source",
+                      "Value": "M2V12 Written Bonus"
+                    }
+                  ],
                   "Year": null,
                   "Season": null,
-                  "OriginalSource": null,
+                  "OriginalSource": "M2V12 Written Bonus",
                   "Set": null,
                   "Chapters": []
                 }
@@ -11504,10 +11514,15 @@
                   "StartsAtLine": "",
                   "SubSections": [],
                   "Subfolder": "",
-                  "Tags": [],
+                  "Tags": [
+                    {
+                      "Name": "Source",
+                      "Value": "M3V6 Bonus"
+                    }
+                  ],
                   "Year": null,
                   "Season": null,
-                  "OriginalSource": null,
+                  "OriginalSource": "M3V6 Bonus",
                   "Set": null,
                   "Chapters": []
                 }
@@ -13280,10 +13295,15 @@
                   "StartsAtLine": "",
                   "SubSections": [],
                   "Subfolder": "",
-                  "Tags": [],
+                  "Tags": [
+                    {
+                      "Name": "Source",
+                      "Value": "M3V6 Written Bonus"
+                    }
+                  ],
                   "Year": null,
                   "Season": null,
-                  "OriginalSource": null,
+                  "OriginalSource": "M3V6 Written Bonus",
                   "Set": null,
                   "Chapters": []
                 },
@@ -13512,10 +13532,15 @@
                   "StartsAtLine": "",
                   "SubSections": [],
                   "Subfolder": "",
-                  "Tags": [],
+                  "Tags": [
+                    {
+                      "Name": "Source",
+                      "Value": "FB8 Bonus 3"
+                    }
+                  ],
                   "Year": null,
                   "Season": null,
-                  "OriginalSource": null,
+                  "OriginalSource": "FB8 Bonus 3",
                   "Set": null,
                   "Chapters": []
                 }
@@ -20052,10 +20077,15 @@
                   "StartsAtLine": "",
                   "SubSections": [],
                   "Subfolder": "",
-                  "Tags": [],
+                  "Tags": [
+                    {
+                      "Name": "Source",
+                      "Value": "M4V7 Written Bonus"
+                    }
+                  ],
                   "Year": null,
                   "Season": null,
-                  "OriginalSource": null,
+                  "OriginalSource": "M4V7 Written Bonus",
                   "Set": null,
                   "Chapters": []
                 },
@@ -35472,10 +35502,15 @@
                   "StartsAtLine": "",
                   "SubSections": [],
                   "Subfolder": "",
-                  "Tags": [],
+                  "Tags": [
+                    {
+                      "Name": "Source",
+                      "Value": "FB8 Bonus 2"
+                    }
+                  ],
                   "Year": null,
                   "Season": null,
-                  "OriginalSource": null,
+                  "OriginalSource": "FB8 Bonus 2",
                   "Set": null,
                   "Chapters": []
                 }

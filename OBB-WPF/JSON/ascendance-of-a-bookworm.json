@@ -43019,7 +43019,12 @@
                   "EndsBeforeLine": "",
                   "StartsAtLine": "",
                   "SubSections": [],
-                  "Tags": [],
+                  "Tags": [
+                    {
+                      "Name": "Source",
+                      "Value": "FB8 Bonus 1"
+                    }
+                  ],
                   "Chapters": []
                 },
                 {
@@ -44056,7 +44061,12 @@
                   "EndsBeforeLine": "",
                   "StartsAtLine": "",
                   "SubSections": [],
-                  "Tags": [],
+                  "Tags": [
+                    {
+                      "Name": "Source",
+                      "Value": "M2V12 Written Bonus"
+                    }
+                  ],
                   "Chapters": []
                 }
               ]
@@ -45672,7 +45682,12 @@
                   "EndsBeforeLine": "",
                   "StartsAtLine": "",
                   "SubSections": [],
-                  "Tags": [],
+                  "Tags": [
+                    {
+                      "Name": "Source",
+                      "Value": "M3V6 Bonus"
+                    }
+                  ],
                   "Chapters": []
                 }
               ]
@@ -47298,7 +47313,12 @@
                   "EndsBeforeLine": "",
                   "StartsAtLine": "",
                   "SubSections": [],
-                  "Tags": [],
+                  "Tags": [
+                    {
+                      "Name": "Source",
+                      "Value": "M3V6 Written Bonus"
+                    }
+                  ],
                   "Chapters": []
                 },
                 {
@@ -47509,7 +47529,12 @@
                   "EndsBeforeLine": "",
                   "StartsAtLine": "",
                   "SubSections": [],
-                  "Tags": [],
+                  "Tags": [
+                    {
+                      "Name": "Source",
+                      "Value": "FB8 Bonus 3"
+                    }
+                  ],
                   "Chapters": []
                 }
               ]
@@ -53437,7 +53462,12 @@
                   "EndsBeforeLine": "",
                   "StartsAtLine": "",
                   "SubSections": [],
-                  "Tags": [],
+                  "Tags": [
+                    {
+                      "Name": "Source",
+                      "Value": "M4V7 Written Bonus"
+                    }
+                  ],
                   "Chapters": []
                 },
                 {
@@ -67342,7 +67372,12 @@
                   "EndsBeforeLine": "",
                   "StartsAtLine": "",
                   "SubSections": [],
-                  "Tags": [],
+                  "Tags": [
+                    {
+                      "Name": "Source",
+                      "Value": "FB8 Bonus 2"
+                    }
+                  ],
                   "Chapters": []
                 }
               ]
